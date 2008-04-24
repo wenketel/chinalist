@@ -34,6 +34,7 @@ images.163.com/images/netease/
 163.com##*[class^=ad0], *[class^=ad1], *[class^=ad2], *[class^=ad3], *[class^=ad4], *[class^=ad5], *[class^=ad6], *[class^=ad7], *[class^=ad8], *[class^=ad9]
 news.163.com#DIV(class=adRPicText)
 mail.163.com#ul(id=ulService)
+www.163.com#div(class=newMessage)
 
 !---ali
 cnsmin.3721.com/ctall2.htm
@@ -188,10 +189,11 @@ mop.com##div[class="phLinkLefta left"][style="overflow: hidden; padding-left: 6p
 /btn.pchome.net/*
 images.pchome.net/global/fla/3dboard.swf
 images.pchome.net/global/js/download_div_text.js
+pchome.net#*(class=i2k8AdWrapper)
+pchome.net#*(i2k8TopAd)
 pchome.net#dd(hardwareDiyMarket)
 pchome.net#dd(id=mobileOaMarket)
 pchome.net#div(id=main_adshow)
-pchome.net#div(class=i2k8AdWrapper)
 
 !---sina
 .sina.com.cn/client/$image,object
@@ -214,6 +216,7 @@ stat.*.sina.com.cn/
 sina.com.cn#*(id^=PublicRelation)(class*=adNone)
 sina.com.cn#div(class^=AD)
 sina.com.cn#div(class^=adHouse)
+sina.com.cn#div(class^=txtadsblk)
 sina.com.cn#div(id$=_topads)
 sina.com.cn#div(id^=adSinaHouse)
 sina.com.cn#div(PartLBtnAds)
@@ -224,6 +227,7 @@ blog.sina.com.cn#div(id=global_links)
 classadnew.sina.com.cn##TABLE[width="750"][style="border: 1px solid rgb(167, 167, 167);"]
 eladies.sina.com.cn##TD[width="300"][style^="border-bottom: 1px solid rgb(222, 223, 222); background: transparent url(http://"]
 tech.sina.com.cn#table(class=PartMj_B)
+www.sina.com.cn#div(id=Search)
 
 !---sohu
 .17173.com/if/
@@ -280,11 +284,19 @@ qq.com#div(id^=AdZone)
 qq.com#div(id^=adArea)
 qq.com#td(class=rbga)
 finance.qq.com#table(class=mgt5 mb8)(width=910)
+www.qq.com#div(class=adArea)
+www.qq.com#div(proAd)
 
 !---tom
 /pv.tom.com/*
 games.tom.com/*/*/*/*/*.swf
 games.tom.com#div(id^=Javascript.Div)
+
+!---VeryCD
+!-don't filter subdocument in 222.37...
+/222.37.134.$object,image
+www.verycd.com#li(non-topic)
+sponsor.verycd.com
 
 !---xinhuanet
 .xinhuanet.com/classad/
@@ -331,7 +343,7 @@ mail.yahoo.com#div(id=slot_MNW)
 yesky.com#div(class=tad)
 yesky.com#div(id^=adgg)
 
-!---zaobao.com
+!---zaobao
 zaobao.com#table(class=small)(width=640)(align=center)
 zaobao.com#table(width=315)(cellspacing=6)(align=left)
 zaobao.com#table(width=370)(height=360)(align=left)
@@ -411,8 +423,8 @@ teamwork.enorth.com.cn/
 feed.feedsky.com/~cpm/
 /cl.finaleden.com/*
 .fixdown.com/168/
-fj007.com/images/*
-fj007.com/money/*
+fj007.com/images
+fj007.com/money
 counts.flashget.com/
 images.gamebase.com.tw/200*/event/*_*/$image
 .gameflier.com/upload/Tower/
@@ -489,7 +501,6 @@ bbs.tompda.com/*.htm$subdocument
 .tudou.com/js.ng/adsize=*affiliate
 .uacinemas.com.hk/publicUA/images/*/uaBanner.
 /uwants.com/images/home/partner_logo.swf
-sponsor.verycd.com
 .ware8.com/gg.htm
 .wud88.com/wdgg/
 .xdowns.com/ggd.js
@@ -513,6 +524,7 @@ union.zhongsou.com/
 .007*z.com/money/$object,image
 .033.com/
 .100tone.com/
+.186ad.com
 18lian.com
 .1tong.com.cn/
 .258.com/
@@ -584,6 +596,7 @@ lerss.com
 .linkunion.com/
 linkworth.com
 moyu.com/
+.mtmmt.com
 .mxmtrack.com/
 .netgoo.com/
 .newwang.com/
@@ -627,7 +640,6 @@ yx007.com/
 /[/\.](?:stats?|stats?count(er)?|count(er)?)(?:/|\.).*(?:aspx?|s?html|jsp|php|js)/
 /[/\.]guanggao[/\.]/
 /__utm.js|
-/222.37.134.*.swf
 /61.128.*.*:8088/460X30.gif
 /a-d-s/*$image,object,script,subdocument
 /ADPolestar/lgs/door/;ap=
@@ -687,6 +699,7 @@ http://click.
 #a(href*=/guanggao/)
 #a(href*=ht.28.com/)
 #a(href^=http://admin.biz178.com/)
+#a(href^=http://www.adtools.cn/click.)
 #a(href^=http://guanggao.)
 #a(href^=http://link.24files.com)
 #a(href^=http://stat.maxthon.com/?)
@@ -732,6 +745,7 @@ crsky.com#td(width=310)(bgcolor=#f0fbff)(align=middle)
 douban.com##div#tablerm>h2:first-child+div
 eastmoney.com##span#zoom > table[border="0"][align="left"]
 engadget.com#div(class=medrect)
+fj007.com#*(id^=ad)
 forum.timway.com##div.maintable td[bgcolor="#ffffff"]
 game.21cn.com#table(width=758)(height=99)
 gamebase.com.tw#A(href^=http://www.gamebase.com.tw/ad/)
@@ -773,6 +787,7 @@ smarter.com.cn#div(id=google_middle)
 uwants.com##div.maintable table[width="100%"][align="center"] table[width="100%"][border="0"]
 uwants.com##P[style="border: 1px solid rgb(100, 118, 132); padding: 1px; display: block; width: 160px; height: 160px;"]
 uwants.com##table[width="730"][cellpadding="1"]:last-child
+www.fj007.com##td[width="794"][valign="top"],td[height="6"][bgcolor="#eeeeee"]
 xdxdxd.com#div(id^=ad_)
 xmnn.cn#table(class=bAD)
 ycwb.com##BODY:not([onload]) > table ~ table[width="995"][align="center"]:not(:first-child)
