@@ -1,6 +1,6 @@
 [Adblock Plus 0.7.5]
 !  Adblock List with Main Focus on Chinese Sites.
-!  Last Modified:        Apr.19.2008
+!  Last Modified:        Apr.24.2008
 !           ----http://code.google.com/p/adblock-chinalist
 
 !----------------------White List-------------------------
@@ -97,6 +97,7 @@ game.china.com/*/etc/endpage/*/gg_
 china.com#div(egouTxt)
 china.com#div(fullClmAT)
 china.com#div(homeheadAT)
+www.china.com##div[class="mainBlk01"]>div[class="right"]
 club.china.com#table(headbanner)
 game.china.com##div.chan_side_blk + div.chan_side_blk2
 game.china.com#div(class=banner)
@@ -144,6 +145,7 @@ enet.com.cn#div(class=enet_banner)
 
 !---ifeng
 http://sta.ifeng.com/stadig/
+ifeng.com#div(class^=adlist)
 ifeng.com#div(id=final_head_ad)
 img.phoenixtv.com/tres/recommend/
 
@@ -398,6 +400,7 @@ images.china.cn/*/market/*-gg-
 .chinanews.com*/fileftp/*.swf
 .chinaz.com/js/text_link.js
 images.chinaz.com/index_imagesa/
+/bwp.taiwan.cnet.com/*
 .cnhan.com/*/*/*_*.*$other
 .cnhan.com/other/$image,object
 .cnhan.com/*/tplimg/*.jpg$image
@@ -485,6 +488,7 @@ images.mydrivers.com/20*/*x*.
 union.qyule.com/
 .qzwb.com/js/jqxc.js
 .qzwb.com/qzwgg/
+.sellgreat.com/images/Bdvertisement/
 diary.showhappy.net/scripts/diarytextads.js
 .singtao.ca/singtaoads/
 .singtao.com/*/*ads.js|
@@ -585,6 +589,7 @@ huahaiadv.com
 .insenz.com/
 .inter-focus.cn/
 iplus.com.cn
+.is686.com
 link.itdoor.net
 .itsun.com/
 .joywell.com.cn/
@@ -600,6 +605,7 @@ moyu.com/
 .mxmtrack.com/
 .netgoo.com/
 .newwang.com/
+.onetad.com
 .qi88.com/
 rd18.net
 specificmedia.com
@@ -672,23 +678,27 @@ http://click.
 
 
 !-----------------------Element Hiding----------------------
-3quote.info#td(width=364)(height=280)
-3quote.info#td(width=728)(height=31)(bordercolor=#FFFFFF)
-56.com#div(id^=rAd_text)
-56zz.com#div(class=adbox)
-66wz.com#div(inarticle)
-79wx.net#div(id=Ads02)
-79wx.net#div(id=ClList0)
-79wx.net#div(id=ClList1)
-79wx.net#table(height=61)(bgcolor=#ffffff)(align=center)
-79wx.net#table(width=995)(height=68)(align=center)
-79wx.net#td(width=246)
-79wx.net#td(width=262)(valign=top)
-96bbs.com##table[style="background: rgb(187, 233, 255) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;"]
-96bbs.com#td(height=50)(align=center)
 #*(AdContainer)
 #*(AdPanel)
+#*(class^=ad_thread)
+#*(guanggao)
+#*(id^=ad_footerbanner)
+#*(id^=ad_headerbanner)
+#*(id^=ad_thread)
+#*(id^=ad_thread)
+#*(id^=span_ad)
+#*(rightAd)
+#*(rightad1)
+#*(right-gg)
+#*(Layer_ad)
+#*(leftAd)
+#*(left-gg)
+#*(page_ad_left)
+#*(page_ad_right)
+#*(topads)
 ##*.Ad_top > *[class^="Ad_"]
+##a[target="_blank"] > img[width="468"][height="60"]
+##a[target="_blank"] > img[width="760"][height="80"]
 #a(href*=.800hr.com/ctosee/ctosee.php?url=)
 #a(href*=.adbrite.com/)
 #a(href*=/adclick.php?)
@@ -710,25 +720,6 @@ http://click.
 #a(href^=http://www.sdgj.)
 #a(href*=linktech.cn/)
 #a(href*=.newcnad.com/)
-anonymouse.org#div(mouselayer)
-appleactionews.com#table(width=978)(height=75)
-##a[target="_blank"] > img[width="468"][height="60"]
-##a[target="_blank"] > img[width="760"][height="80"]
-bbs.maxpda.com#div(class=ad_textlink1)
-bbs.pdafans.com#table(width=960)(align=center)
-bbs.tompda.com#table(width=96%)(bgcolor=#d4ebfd)
-blogcn.com#table(width=341)(cellspacing=1)(cellpadding=4)(border=0)(align=left)
-btbbt.com#div(ads)
-btchina.net#table(id=AutoNumber1)(width=100%)(cellpadding=2)
-btchina.net#table(width=100%)(cellpadding=2)(border=0)(align=center)
-btpig.com#td(width=25%)(bgcolor=#eeeeee)
-/bwp.taiwan.cnet.com/*
-chinanews.com.cn#div(id=shangxunlb)
-chinanews.com.cn#OBJECT(width=350)(height=250)
-#*(class^=ad_thread)
-cnmo.com#div(class=arAD)
-cnmo.com#div(id^=Bar10)
-crsky.com#td(width=310)(bgcolor=#f0fbff)(align=middle)
 #div(ad_google)
 #div(class=ad_text)
 #div(class^=ad_textlink)
@@ -742,6 +733,35 @@ crsky.com#td(width=310)(bgcolor=#f0fbff)(align=middle)
 #div(id^=ad_headerbanner)
 #div(id=ad_interthread)
 #div(randomAD)
+3quote.info#td(width=364)(height=280)
+3quote.info#td(width=728)(height=31)(bordercolor=#FFFFFF)
+56.com#div(id^=rAd_text)
+56zz.com#div(class=adbox)
+66wz.com#div(inarticle)
+79wx.net#div(id=Ads02)
+79wx.net#div(id=ClList0)
+79wx.net#div(id=ClList1)
+79wx.net#table(height=61)(bgcolor=#ffffff)(align=center)
+79wx.net#table(width=995)(height=68)(align=center)
+79wx.net#td(width=246)
+79wx.net#td(width=262)(valign=top)
+96bbs.com##table[style="background: rgb(187, 233, 255) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;"]
+96bbs.com#td(height=50)(align=center)
+anonymouse.org#div(mouselayer)
+appleactionews.com#table(width=978)(height=75)
+bbs.maxpda.com#div(class=ad_textlink1)
+bbs.pdafans.com#table(width=960)(align=center)
+bbs.tompda.com#table(width=96%)(bgcolor=#d4ebfd)
+blogcn.com#table(width=341)(cellspacing=1)(cellpadding=4)(border=0)(align=left)
+btbbt.com#div(ads)
+btchina.net#table(id=AutoNumber1)(width=100%)(cellpadding=2)
+btchina.net#table(width=100%)(cellpadding=2)(border=0)(align=center)
+btpig.com#td(width=25%)(bgcolor=#eeeeee)
+chinanews.com.cn#div(id=shangxunlb)
+chinanews.com.cn#OBJECT(width=350)(height=250)
+cnmo.com#div(class=arAD)
+cnmo.com#div(id^=Bar10)
+crsky.com#td(width=310)(bgcolor=#f0fbff)(align=middle)
 douban.com##div#tablerm>h2:first-child+div
 eastmoney.com##span#zoom > table[border="0"][align="left"]
 engadget.com#div(class=medrect)
@@ -752,22 +772,15 @@ gamebase.com.tw#A(href^=http://www.gamebase.com.tw/ad/)
 gamez.com.tw#table(id=pid99999999)
 gndaily.com#MARQUEE(direction=up)
 gougou.com#div(class=b_ad)
-#*(guanggao)
 hbrchina.com#div(id^=ad105_260)
 httpcn.com#table(width=980)(cellspacing=1)(bgcolor=#cccccc)(align=center)
 hxonl.com#div(id=cont1)
 hxtdz.com#table(width=98%)(bgcolor=#ffffff)(align=center)
 i-cable.com#div(id=Layer12)
-#*(id^=ad_footerbanner)
-#*(id^=ad_headerbanner)
-#*(id^=ad_thread)
-#*(id^=ad_thread)
-#*(id^=span_ad)
 issncn.com#td(width=301)(bgcolor=#ffffff)
 ku6.com#div(id^=pic_gg_)/
 ku6.com#div(id^=text_gg_)
 lan123.net#div(class=right-box2)
-#*(Layer_ad)
 lotour.com#div(class=floatleft)
 lotour.com#div(id=banner)
 macd.cn##table[style="background: rgb(187, 233, 255) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;"]
@@ -778,12 +791,12 @@ my1510.cn#div(id=annoucement)
 mydrivers.com#div(id^=ad_)
 nfcmag.com#tr(bgcolor=#535396)(_base_target=_blank)
 openrice.com#td(class=PremiumAdCol)
-#*(rightAd)
 singtaousa.com##table[cellspacing="5"][cellpadding="5"] tr[valign="top"] > td[width="200"]
 smarter.com.cn#div(class=sponsr)
 smarter.com.cn#div(class=topad)
 smarter.com.cn#div(id=AdsHeader)
 smarter.com.cn#div(id=google_middle)
+tommsoft.com#div(class=ad1)
 uwants.com##div.maintable table[width="100%"][align="center"] table[width="100%"][border="0"]
 uwants.com##P[style="border: 1px solid rgb(100, 118, 132); padding: 1px; display: block; width: 160px; height: 160px;"]
 uwants.com##table[width="730"][cellpadding="1"]:last-child
