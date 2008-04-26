@@ -217,20 +217,19 @@ pfp.sina.com.cn/
 pfpip.sina.com/
 stat.*.sina.com.cn/
 #a(href^=http://click.sina.com.cn/)
-sina.com.cn#*(id^=PublicRelation)(class*=adNone)
+sina.com#div(class^=AD)
 sina.com.cn#div(class^=AD)
-sina.com.cn#div(class^=adHouse)
+sina.com#div(class^=ads)
+sina.com.cn#div(class^=ads)
+sina.com#div(class^=txtadsblk)
 sina.com.cn#div(class^=txtadsblk)
-sina.com.cn#div(id$=_topads)
-sina.com.cn#div(id^=adSinaHouse)
-sina.com.cn#div(PartLBtnAds)
-sina.com.cn#div(f_MidAd2)
-sina.com.cn#td(class^=unipro)
-sina.com.cn#td(valign=top)(width=300)(style*=background: transparent)(style*=repeat-y)(style*=hidden)
+sina.com#div(id^=cl_style)
+sina.com.cn#div(id^=cl_style)
 blog.sina.com.cn#div(id=global_links)
 classadnew.sina.com.cn##TABLE[width="750"][style="border: 1px solid rgb(167, 167, 167);"]
 eladies.sina.com.cn##TD[width="300"][style^="border-bottom: 1px solid rgb(222, 223, 222); background: transparent url(http://"]
 tech.sina.com.cn#table(class=PartMj_B)
+www.sina.com#div(id=Search)
 www.sina.com.cn#div(id=Search)
 
 !---sohu
@@ -817,6 +816,12 @@ zzit.com.cn#div(id=Article_Top_Banner)
 !-for reason 1:
 /99.vc/*
 !-for reason 2:
+sina.com.cn#div(class^=adHouse)
+sina.com.cn#td(class^=unipro)
+sina.com.cn#div(f_MidAd2)
+sina.com.cn#div(id$=_topads)
+sina.com.cn#div(id^=adSinaHouse)
+sina.com.cn#*(id^=PublicRelation)(class*=adNone)
 !-for reason 3:
 /pic.*.com.cn/20*/*_*.*
 !-other, why?
