@@ -222,9 +222,15 @@ sina.com.cn#div(class^=AD)
 sina.com#div(class^=ads)
 sina.com.cn#div(class^=ads)
 sina.com#div(class^=txtadsblk)
+!-Why the rule above works fine, but the below one not? They have the same code!
 sina.com.cn#div(class^=txtadsblk)
+!-So we must specify 01 02...
+sina.com.cn#div(class=txtadsblk01)
+sina.com.cn#div(class=txtadsblk02)
 sina.com#div(id^=cl_style)
 sina.com.cn#div(id^=cl_style)
+sina.com#div(sinamall)
+sina.com.cn#div(sinamall)
 blog.sina.com.cn#div(id=global_links)
 classadnew.sina.com.cn##TABLE[width="750"][style="border: 1px solid rgb(167, 167, 167);"]
 eladies.sina.com.cn##TD[width="300"][style^="border-bottom: 1px solid rgb(222, 223, 222); background: transparent url(http://"]
