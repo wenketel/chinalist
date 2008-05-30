@@ -168,18 +168,18 @@ enet.com.cn#div(class=enet_banner)
 ftchinese.com##body>table>tbody>tr:first-child>td:first-child>table>tbody>tr:first-child
 ftchinese.com##div#middle_inner>div:first-child
 
-!---ifeng
-http://sta.ifeng.com/stadig/
-ifeng.com#div(class^=adlist)
-ifeng.com#div(id=final_head_ad)
-img.phoenixtv.com/tres/recommend/
-
 !---google
 .google-analytics.
 .blogger.com/navbar.g
 mail.google.com#*(slwyWc)
 www.google.com#table(mbEnd)
 #a(href*=doubleclick.net/)
+
+!---ifeng
+http://sta.ifeng.com/stadig/
+ifeng.com#div(class^=adlist)
+ifeng.com#div(id=final_head_ad)
+img.phoenixtv.com/tres/recommend/
 
 !---kingsoft
 /u.www.duba.net/*
@@ -188,6 +188,14 @@ www.google.com#table(mbEnd)
 goto.www.iciba.com
 union*.kingsoft.com/
 #a(href^=http://goto.www.iciba.com/)
+
+!---kooxoo.com
+.kooxoo.com/shtml/www/Ticket/loushi.gif
+.kooxoo.com/Files/piao/img/ticketsale.swf
+tongji.kooxoo.com/static/js/kxanalysis.js
+#a(href^=http://www.kooxoo.com/AD_to/)
+kooxoo.com#div(sidebar-ad)
+kooxoo.com##div#main-content>div:first-child>div:first-child[style="position: relative; width: 735px; height: 90px;"]
 
 !---Microsoft
 mail.live.com#div(RadAd_Banner)
