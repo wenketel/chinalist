@@ -66,9 +66,15 @@ cnsmin.3721.com/ctall2.htm
 dmtracking.alibaba.com/
 alimama.cn
 alimama.com
+pics.taobao.com/bao/album/sys/loading_32x32.gif
 #a(href*=search.union.3721.com)
 #a(href*=.alimama.com/)
 im.alisoft.com#div(id*=Helper)
+taobao.com#div(indexp4p)
+taobao.com#ul(SlideTriggers)
+
+!---apple
+images.apple.com/itunesaffiliates/
 
 !---AtNext
 image1.atnext.com/*/*.swf
@@ -315,6 +321,7 @@ go.17173.com/newsHits.jsp
 images.17173.com/www/if/
 js.17173.com/ping.js
 log.17173.com/
+media.17173.com/x/media01banner874140.htm
 images.sohu.com/*/market/
 images.sohu.com/cs/
 @@|http://images.sohu.com/cs/news/dizhen/
@@ -335,8 +342,10 @@ goodfeel.com.cn
 #a(href*=click.cpc.sogou.com)
 #a(href*=go.sohu.com)
 sohu.com#div(class=ad_six_item)
+sohu.com#sohuadcode
 class.chinaren.com#div(contentDiv)
 class.chinaren.com##body>center>style+script+table img[width="1"][height="1"]+br+table td[height="108"]
+it.sohu.com#div(banner_product)
 news.sohu.com##div#sohu_content > p + table[align="left"]
 www.sohu.com#TABLE(width=760)(cellspacing=1)(cellpadding=0)(border=0)(bgcolor=#d9d9d9)
 
@@ -359,7 +368,8 @@ pconline.com.cn#div(style=float: left; width: 320px;)
 
 !---tencent
 adsrich.qq.com/
-finance.qq.com#table(class=mgt5 mb8)(width=910)
+!- custom_menu.xml is not used for ad, but not compatible with ff well, if fixed, plz remove this item.
+imgcache.qq.com/qzone/client/custom_menu/custom_menu.xml
 jingjia.qq.com/
 mat1.qq.com/www/flash/
 pingjs.qq.com/ping.js
@@ -371,6 +381,7 @@ qq.com#div(nav)
 qq.com#div(PicNews)
 qq.com#div(proAd)
 qq.com#td(class=rbga)
+finance.qq.com#table(class=mgt5 mb8)(width=910)
 
 !---TianYa
 801.tianya.cn/$object
@@ -388,6 +399,8 @@ tianyabook.com/piaofu/close.gif
 /pv.tom.com/*
 games.tom.com/*/*/*/*/*.swf
 games.tom.com#div(id^=Javascript.Div)
+img.news.tom.com/script/pv/tech.js
+news.tom.com/inc/eachnet
 
 !---VeryCD
 /222.37.134.
@@ -398,6 +411,7 @@ sponsor.verycd.com
 .xinhuanet.com/classad/
 .xinhuanet.com/edu/flash_$subdocument
 imgs.xinhuanet.com/icon/$script,object
+sx.xinhuanet.com/images/xhmb_top.swf
 
 !---xunlei
 /biz*.sandai.net/*
@@ -482,6 +496,7 @@ a8-asy.a8ww.net
 .bahamut.com.tw/js/abanner.
 .bahamut.com.tw/js/building.js
 .bahamut.com.tw/js/fboard.js
+bluenile.com/affiliate/
 vampire.btbbt.com/
 .btpig.com/$subdocument
 webunion.ccd.com.cn/
@@ -491,13 +506,15 @@ images.china.cn/*/market/*-gg-
 .chinanews.com*/fileftp/*.swf
 .chinaz.com/js/text_link.js
 images.chinaz.com/index_imagesa/
-/bwp.taiwan.cnet.com/*
+.cn.vc/uploadfile/200712/200712311199104181.gif
+bwp.taiwan.cnet.com/
 .cnhan.com/*/*/*_*.*$other
 .cnhan.com/other/$image,object
 .cnhan.com/*/tplimg/*.jpg$image
 /pic.cnmo.com/20*/*_*.*
 qa.colorful.cn
 http://dw*.com.com/*?$~link,~subdocument
+creative-weblogging.com/openads/
 crsky.com/ggao/
 bbs.csonline.com.cn/*_ad*_1.htm
 .dchome.net/pub/
@@ -543,6 +560,7 @@ homerpublishing.com.tw/images/ad*.swf
 /biz.hxonl.com/*
 /shop.hxonl.com/*
 inews.i-cable.com/icable/home/chi/images/opening.swf
+ftp.javaeye.com/$object
 .jiatx.com/html/chinajiatx/
 adelivery.hk.jobsdb.com/
 .jrj.com.cn/*/ltad/*.htm$subdocument
@@ -554,6 +572,7 @@ kt88.net/js/Moneys.js
 kt88.net/news/inc/bd/$subdocument
 .lan123.net/other/js/A_*.js
 http://code.leleso.net/search_*userId=$subdocument
+.liba.com/a_d_pic/
 .lotour.com/include/js/floatleft_close.js
 .lrdown.com/gao/
 bbs.macd.cn/xc/
