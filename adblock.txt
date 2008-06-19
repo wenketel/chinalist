@@ -762,7 +762,6 @@ yx007.com/
 
 !----------------------------Other (sort by letter)--------
 //pv(_.*)?\.(?:js|gif)/
-//trac[ek]\d?([/\.].+)?\.js/
 /[/\.](.*[_-])?\d*(?:all4|float|hot|my|narrow|page|pop|link|rss|scrolling|show|wait)?ad[vs]?(?:4all|agent|banner|brite|center|client|control|dhc|engage|er.*|fetch|file|folder|frame|fshow|hot|img|js|image|juggler|manage|page|pic|puba|right|sence|senser|show|space|store|tool|top|union|view|word)?s?\d*([-_].*)?[\?/\.]/
 /[/\.](.*[_-])?(?:flash|gif|sys|top)banners?\d*([_-].*)?[/\.]/
 /[/\.](?:stats?|stats?count(er)?|count(er)?)(?:/|\.).*(?:aspx?|s?html|jsp|php|js)/
@@ -770,33 +769,35 @@ yx007.com/
 /61.128.*.*:8088/460X30.gif
 /a-d-s/*$image,object,script,subdocument
 /ADPolestar/lgs/door/;ap=
-affiliates/
 /click.js?user_id=
 /dcs.gif?
 /gg/*$subdocument,image,script,object
 /img.*.com/tres/recommend$image
 /info.cnt?id=*&referer=
-iSystem/HitStatistic/
-partners/
 /s_code.js|
 /stat.*referrer=http
 /tongji/*.asp?siteid=
 /tplimg/*.swf
-trswcm_plugins/adintrs/
-?*http*&$image
+/trace$script
+/track$script
+.*.*.*/creative/
+.*.*.*/fileftp/20*/*/*/U*.swf
+.*.*.*/script/s70*.htm
 .atwola.
 .extreme-dm.
 .gif?*referrer=
 .googleadservices.
-guanggao
 .rmxads.
+?*http*&$image
 -chinad.*.cn/*/cpc_
 _dcs_tag.js|
-http://click.
-.*.*.*/creative/
-.*.*.*/fileftp/20*/*/*/U*.swf
-.*.*.*/script/s70*.htm
 |http://gg.
+affiliates/
+guanggao
+http://click.
+iSystem/HitStatistic/
+partners/
+trswcm_plugins/adintrs/
 
 
 !-----------------------Element Hiding----------------------
