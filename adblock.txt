@@ -1,6 +1,6 @@
 [Adblock Plus 0.7.5]
 !  Adblock List with Main Focus on Chinese Sites.
-!  Last Modified:        Jun.21.2008
+!  Last Modified:        Jun.22.2008
 !           ----http://code.google.com/p/adblock-chinalist
 !Expires: 5 days
 
@@ -45,7 +45,7 @@ news.163.com#DIV(class=adRPicText)
 mail.163.com#ul(id=ulService)
 www.163.com#div(class=newMessage)
 
-!---20ju.com
+!---草根网
 .20ju.com/images/20ju300X90.gif
 .20ju.com/images/7net.gif
 .20ju.com/images/cg_ft.gif
@@ -102,7 +102,7 @@ baidu.com#div(id^=bdfs)
 mp3.baidu.com##div#dMA + script + table[cellspacing][cellpadding]
 news.baidu.com#DIV(id=ecad)
 
-!---ccidnet
+!---赛迪网
 event.ccidnet.com
 image.ccidnet.com/nav/tech_art_foot.js
 publisher.ccidnet.com/
@@ -118,7 +118,7 @@ cctv.com#div(id^=ad_)
 cctv.com#div(class^=ad_)
 www.cctv.com##div[class="column_wrapper lc_hmpg"] div.col_1:first-child > div:first-child
 
-!---China.com
+!---中华网
 dvs.china.com/
 dvsend.china.com/
 /club.china.com/js/pagefooter.js
@@ -137,7 +137,7 @@ game.china.com#div(id=tuijian)
 game.china.com#div(id^=CH_GAME_WZLZ_100)
 game.china.com#table(class=chan_side_lst)
 
-!---China.com.cn
+!---中国网
 images.china.cn/*/market/*-gg-
 images.china.cn/images1/ch/071127/070216-b2.jpg
 images.china.cn/images1/ch/071127/touzizhguo307x70.jpg
@@ -168,7 +168,7 @@ school.chinaitlab.com#span(LR_helplayer)
 !---blog.chinaunix have a problem with their calendar (undefined), remove the rule if they fixed this.
 blog.chinaunix.net##table[width="220"][style="border: 1px solid rgb(210, 222, 226); padding: 1px; border-collapse: collapse;"]
 
-!---cnbeta
+!---cnBeta
 .cnbeta.com/links/
 cnbeta.com/images/590_45.gif
 cnbeta.com/images/ken1ken576x45.swf
@@ -193,7 +193,7 @@ discuss.com.hk##span[id^="thread_ads_"] + a:last-child
 discuss.com.hk##span[id^="thread_ads_"] + div[align="left"] > a:first-child:last-child
 discuss.com.hk##table[width="98%"][align="center"] td[height="25"]:first-child:last-child
 
-!---enet
+!---eNet
 .enet.com.cn/*/bottomsm.js
 .enet.com.cn/enetshow.shtml
 .enet.com.cn/home/*.swf
@@ -203,19 +203,19 @@ trace.enet.com.cn/
 enet.com.cn#div(class^=ad)
 enet.com.cn#div(class=enet_banner)
 
-!---Fei Fan Ruan Jian
+!---霏凡软件站
 crsky.com/ggao/
 @@crsky.com/ggao/downd_a.js
 crsky.com#td(width=310)(bgcolor=#f0fbff)(align=middle)
 greendown.cn/ggao/
 
-!---ftchinese
+!---FTChinese
 .ftchinese.com/*/ftc_pre.js
 .ftchinese.com/sc/log.jsp
 ftchinese.com##body>table>tbody>tr:first-child>td:first-child>table>tbody>tr:first-child
 ftchinese.com##div#middle_inner>div:first-child
 
-!---google
+!---Google
 .google-analytics.
 .blogger.com/navbar.g
 mail.google.com#*(slwyWc)
@@ -237,7 +237,7 @@ union*.kingsoft.com/
 #a(href^=http://goto.www.iciba.com/)
 #a(href^=http://kama.kingsoft.com/upload/kama_analyse_hit.php)
 
-!---kooxoo.com
+!---酷讯网
 .kooxoo.com/shtml/www/Ticket/loushi.gif
 .kooxoo.com/Files/piao/img/ticketsale.swf
 tongji.kooxoo.com/static/js/kxanalysis.js
@@ -245,7 +245,7 @@ tongji.kooxoo.com/static/js/kxanalysis.js
 kooxoo.com#div(sidebar-ad)
 kooxoo.com##div#main-content>div:first-child>div:first-child[style="position: relative; width: 735px; height: 90px;"]
 
-!---ku6.com
+!---Ku6
 58.83.170.5*/fetch.do
 hot.ku6.com/
 image.ku6.com/*shouye_banner*.swf
@@ -265,7 +265,7 @@ ku6.com#div(id^=text_gg_)
 !---Microsoft
 mail.live.com#div(RadAd_Banner)
 
-!---MingPao
+!---明報
 .mingpao*.com/image/*_*x*_$image,object
 .mingpaonews.com/js/INewsForum_Remote1.js
 .mingpaonews.com*/js/TravelZoo_News*.js
@@ -283,7 +283,7 @@ mop.com##div.arearig>div.left[style="width: 172px;"]
 mop.com#div(ad960x90)
 mop.com##div[class="phLinkLefta left"][style="overflow: hidden; padding-left: 6px; width: 400px;"]
 
-!---pchome
+!---PCHome
 /btm.pchome.net
 /btn.pchome.net
 images.pchome.net/global/fla/3dboard.swf
@@ -346,11 +346,6 @@ images.sohu.com/*/market/
 images.sohu.com/cs/
 @@|http://images.sohu.com/cs/news/dizhen/
 @@|http://images.sohu.com/cs/minisite/
-!  images.sohu.com/cs/ad/
-!  images.sohu.com/cs/button/*.swf
-!  images.sohu.com/cs/jsfile/adm/
-!  images.sohu.com/cs/jsfile/js/*.js
-!  images.sohu.com
 scalink.sohu.com/
 /pv.sohu.com
 /pv.sogou.com
@@ -369,7 +364,7 @@ it.sohu.com#div(banner_product)
 news.sohu.com##div#sohu_content > p + table[align="left"]
 www.sohu.com#TABLE(width=760)(cellspacing=1)(cellpadding=0)(border=0)(bgcolor=#d9d9d9)
 
-!---tai ping yang
+!---太平洋
 .pcgames.com.cn/club/fz/tuijian/
 .pcgames.com.cn/club/js/popup.js
 .pcgames.com.cn/games/newfz/newbanner/
@@ -387,7 +382,7 @@ pconline.com.cn#div(id=Layer_ad)
 pconline.com.cn#div(id=shanjiad)
 pconline.com.cn#div(style=float: left; width: 320px;)
 
-!---tencent
+!---Tencent
 adsrich.qq.com/
 !- custom_menu.xml is not used for ad, but not compatible with ff well, if fixed, plz remove this item.
 imgcache.qq.com/qzone/client/custom_menu/custom_menu.xml
@@ -416,7 +411,7 @@ tianyabook.com/jiankang100.jpg
 tianyabook.com/piaofu/close.gif
 #a(href^=http://adclick.bbs.tianya.cn/admanager)
 
-!---tom
+!---Tom
 /pv.tom.com
 games.tom.com/*/*/*/*/*.swf
 games.tom.com#div(id^=Javascript.Div)
@@ -428,19 +423,19 @@ news.tom.com/inc/eachnet
 www.verycd.com#li(non-topic)
 sponsor.verycd.com
 
-!---xinhuanet
+!---新华网
 .xinhuanet.com/classad/
 .xinhuanet.com/edu/flash_$subdocument
 imgs.xinhuanet.com/icon/$script,object
 sx.xinhuanet.com/images/xhmb_top.swf
 
-!---xunlei
+!---XunLei
 /biz*.sandai.net/*
 p4pmain.xunlei.com/
 p4pstatic.xunlei.com/
 pstatic.xunlei.com/js/webThunderDetect.js
 
-!---yahoo
+!---Yahoo
 .overture.com/
 .bc.yahoo.com/b?P=
 cn.biz.yahoo.com/finance/*_cookies.html
@@ -465,7 +460,7 @@ mail.google.com#a(href=http://cn.mail.yahoo.com/)
 mail.yahoo.com#div(id=swPane)
 mail.yahoo.com#div(id=slot_MNW)
 
-!---yesky
+!---天极网
 media.yesky.com/
 /vd.yesky.com/html/js/1*.js
 /vd.yesky.com/html/js/2*.js
@@ -474,13 +469,13 @@ media.yesky.com/
 yesky.com#div(class=tad)
 yesky.com#div(id^=adgg)
 
-!---zaobao
+!---联合早报
 zaobao.com#table(class=small)(width=640)(align=center)
 zaobao.com#table(width=315)(cellspacing=6)(align=left)
 zaobao.com#table(width=370)(height=360)(align=left)
 zaobao.com#table(width=946)(height=102)
 
-!---zol
+!---ZOL
 zol.com.cn#*(id^=ad)
 .zol.com.cn/200*/
 .zol.com.cn/imphit0*.gif?
