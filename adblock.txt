@@ -1,6 +1,6 @@
 [Adblock Plus 0.7.5]
 !  Adblock List with Main Focus on Chinese Sites.
-!  Last Modified:        Jun.24.2008
+!  Last Modified:        July.01.2008
 !           ----http://code.google.com/p/adblock-chinalist
 !Expires: 5 days
 !------GNU LGPL Licensed, NO WARRANTY but Best Wishes------
@@ -19,13 +19,15 @@
 
 !----------------------Well-known Sites--------------------
 !---163
-.163.com/cnews/*/end_m*.gif
-.163.com/images/js/new.163.com_finnal.js
-.163.com/js/alibaba/
-.163.com/js/yadun/
+163.com/cnews/*/end_m*.gif
+163.com/images/js/new.163.com_finnal.js
+163.com/js/alibaba/
+163.com/js/ebay/
+163.com/js/yadun/
 adgeo.163.com/
 analytics*.163.com/
 cpc.163.com/
+house.163.com/infoimg/
 images.163.com/images/netease/
 popme.163.com
 pro.163.com/
@@ -43,6 +45,10 @@ union.163.com/
 163.com#div(listAD)
 163.com#div(class^=endAd550)
 163.com##*[class^=ad0], *[class^=ad1], *[class^=ad2], *[class^=ad3], *[class^=ad4], *[class^=ad5], *[class^=ad6], *[class^=ad7], *[class^=ad8], *[class^=ad9]
+house.163.com###left>.leftad:first-child
+house.163.com###newad3+#right_3+#right_4
+house.163.com###right>.div_clear+#right_6
+house.163.com#div(id^=newad)
 news.163.com#DIV(class=adRPicText)
 mail.163.com#ul(id=ulService)
 www.163.com#div(class=newMessage)
@@ -62,8 +68,10 @@ www.163.com#div(class=newMessage)
 /6.cn/*/adlistNew.html
 /6.cn/key/alimama
 /6.cn/mdfor/watch.js
+/6.cn/s/adlistNew2.html
 /i.6.cn/bbs$image
 /r.6.cn/*.swf
+6.cn#div(palyerAdText)
 
 !---ali
 cnsmin.3721.com/ctall2.htm
@@ -188,6 +196,7 @@ cnbeta.com##div#fm_r, #userInfo, #h_right
 !---CSDN
 .csdn.net/ggmm
 zi.csdn.net/$image
+topic.csdn.net/t/img/centerAd.htm
 www.csdn.net#div(banner)
 
 !---daqi
@@ -301,12 +310,15 @@ mydrivers.com##body>table:first-child+table+table+table>tbody>tr>td:last-child[w
 mydrivers.com#div(id^=ad_)
 
 !---NewHua
+/newhuagg/999aadbak.js
+/newhuagg/adhuajun
+/newhuagg/duba
+/newhuagg/huajungg
+/newhuagg/newhua_bannerr.js
+/newhuagg/pcsoft_banner.js
+/newhuagg/uusee77070.gif
+news.newhua.com/files/newhuagg/All_top0.js
 onlinedown.net/adhuajun2.js
-onlinedown.net/newhuagg/999aadbak.js
-onlinedown.net/newhuagg/adhuajun
-onlinedown.net/newhuagg/huajungg
-onlinedown.net/newhuagg/pcsoft_banner.js
-onlinedown.net/newhuagg/uusee77070.gif
 onlinedown.net##table#top_tab>tbody>tr:first-child+tr
 
 !---PCHome
@@ -358,9 +370,17 @@ blog.sina.com.cn###wrap>.BlogTool+.PartA+.PartA+.PartA+.PartF
 blog.sina.com.cn#div(id=global_links)
 classadnew.sina.com.cn##TABLE[width="750"][style="border: 1px solid rgb(167, 167, 167);"]
 eladies.sina.com.cn##TD[width="300"][style^="border-bottom: 1px solid rgb(222, 223, 222); background: transparent url(http://"]
+sports.sina.com.cn##td[width="300"][valign="top"][style="border-bottom: 1px solid rgb(222, 223, 222); background: transparent url(http://i3.sinaimg.cn/dy/article/950/con_070227_ws_008.gif) repeat-y scroll 0% 0%; overflow: hidden; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;"]
 tech.sina.com.cn#table(class=PartMj_B)
 www.sina.com#div(id=Search)
 www.sina.com.cn#div(id=Search)
+
+!---SkyCN
+skycn.com/js/soft_mid_n1.js
+skycn.com/js/soft_mid_n5.js
+skycn.com/js/soft_mid_n9.js
+skycn.com/tuijianimg/
+iplog.skycn.com/wherefrom.php
 
 !---Sohu
 .17173.com/if/
@@ -628,6 +648,7 @@ kt88.net/news/inc/bd/$subdocument
 .lan123.net/other/js/A_*.js
 code.leleso.net/search_*userId=$subdocument
 .liba.com/a_d_pic/
+soft1001.loginany.com/template/js/focusFlash.js
 .lotour.com/include/js/floatleft_close.js
 .lrdown.com/gao/
 www.lzei.com/js/
@@ -643,6 +664,7 @@ union.moka.cn/
 namipan.com/inc_page/inc_gg.html
 .newasp.net/js/html/
 /33.pcpop.com
+images.oeeee.com/pics/20080411/tms_ndqc778X120_20080411.swf
 /ent.openv.com/play/images/playad.swf
 .openv.com/spread/
 .people.com.cn/zixun/
@@ -660,7 +682,6 @@ tgfc.qwd1.com/images/flash960x60.swf
 diary.showhappy.net/scripts/diarytextads.js
 .singtao.ca/singtaoads/
 .singtao.com/*/*ads.js|
-.skycn.com/tuijianimg/
 .snap.com/$script
 .softnews.cn/other/js/A_*.js
 .t2t2.com/
@@ -681,6 +702,7 @@ img.vista123.com/*3*5x80.gif
 xdxdxd.com/advspics/
 xdxdxd.com/xdadvpic/
 cpc.xioo.cn/code/
+xitek.com/market/marketads.gif
 .xxsy.net/js/pop*.js
 .yam.com/ad5*.swf
 .yam.com/pic/*x*_*.swf
@@ -785,6 +807,7 @@ lerss.com
 .linkpage.cn/
 .linkunion.com/
 linkworth.com/
+maxreturn.cn/
 .meetmedia.cn/
 moyu.com/
 .mtmmt.com
@@ -903,12 +926,13 @@ trswcm_plugins/adintrs/
 #a(href*=/guanggao/)
 #a(href*=ht.28.com/)
 #a(href^=http://admin.biz178.com/)
-#a(href^=http://www.adtools.cn/click.)
+#a(href^=http://go.maxreturn.cn/)
 #a(href^=http://guanggao.)
 #a(href^=http://link.24files.com)
 #a(href^=http://so.6655.com/?)
 #a(href^=http://stat.maxthon.com/?)
 #a(href^=http://tj.28.com)
+#a(href^=http://www.adtools.cn/click.)
 #a(href^=http://www.amazon.cn/channel/book.asp?source=)
 #a(href^=http://www.joyo.com/book/?source=)
 #a(href^=http://www.lenovoad.com/)
