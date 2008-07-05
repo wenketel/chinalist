@@ -1,24 +1,21 @@
 [Adblock Plus 0.7.5]
-!  Adblock List with Main Focus on Chinese Sites.
-!  Last Modified:        July.01.2008
-!           ----http://code.google.com/p/adblock-chinalist
+!  Adblock Plus List with Main Focus on Chinese Sites.
+!  Last Modified:        July.05.2008
+!         ----http://adblock-chinalist.googlecode.com/
 !Expires: 5 days
-!------GNU LGPL Licensed, NO WARRANTY but Best Wishes------
+!----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
 
-!----------------------White List-------------------------
+!---------------------White List------------------------
 @@|http://www.gnu.org/
-@@|http://stat.livejournal.com/
 @@|http://www.networkworld.com/slideshows/refresh-ads.js
 @@|http://imgsrv6.perfspot.com/pics/$image
 @@|http://counter.shooter.cn/
 @@|http://s.mcstatic.com/Flash/adv/$subrequest
-@@|http://shooter.cn/static/data/counter.js
-@@|http://www.shooter.cn/static/data/counter.js
 @@|http://upload.wikimedia.org/wikipedia/
 @@.marry5.com/*home*/ad_banner/
 @@crossdomain.xml|$subrequest
 
-!----------------------Well-known Sites--------------------
+!---------------------Well-known Sites-------------------
 !---163
 163.com/cnews/*/end_m*.gif
 163.com/images/js/new.163.com_finnal.js
@@ -90,7 +87,6 @@ taobao.com#ul(SlideTriggers)
 image1.atnext.com/*/*.swf
 ndx.atnext.com/DFA/imp.cfm
 travel.atnext.com/*.html$subdocument
-atnext.com#div(topad)
 lady.atnext.com#table(width=780)(height=99)
 opinion.atnext.com#div(style=height: 90px;)
 travel.atnext.com#div(id=superbanner)
@@ -130,10 +126,6 @@ tech.ccidnet.com##table[width="100%"][style="border: 1px solid rgb(226, 227, 228
 
 !---CCTV
 .cctv.com/*/cctv_sdc_frame.html
-cctv.com#div(ad_hp_2)
-cctv.com#div(ad_link)
-cctv.com#div(id^=ad_)
-cctv.com#div(class^=ad_)
 www.cctv.com##div[class="column_wrapper lc_hmpg"] div.col_1:first-child > div:first-child
 
 !---中华网
@@ -246,7 +238,6 @@ www.google.com#table(mbEnd)
 !---ifeng
 sta.ifeng.com/stadig/
 ifeng.com#div(class^=adlist)
-ifeng.com#div(id=final_head_ad)
 img.phoenixtv.com/tres/recommend/
 
 !---KingSoft
@@ -274,7 +265,6 @@ image.ku6.com/888/200805/tb_btton.swf
 img.ku6.com/v5/logogg/
 img.ku6.com/v5/other/left_man2.swf
 img.ku6.com/v5/other/right_man2.swf
-stat1.888.ku6.com/
 stat-*.ku6.com/
 zt.ku6.com/almm/
 zt.ku6.com/podcast/
@@ -308,7 +298,6 @@ mop.com##div[class="phLinkLefta left"][style="overflow: hidden; padding-left: 6p
 /11.mydrivers.com
 images.mydrivers.com/20*/*x*.
 mydrivers.com##body>table:first-child+table+table+table>tbody>tr>td:last-child[width="634"]>table[bgcolor="#eaeaea"][height="70"]
-mydrivers.com#div(id^=ad_)
 
 !---NewHua
 /newhuagg/999aadbak.js
@@ -362,22 +351,12 @@ image2.sina.com.cn/book/forum/s2/js/minimessage.js
 mybizsite.sina.com.cn/
 pfp.sina.com.cn/
 pfpip.sina.com/
-stat.*.sina.com.cn/
 #a(href^=http://click.sina.com.cn/)
-sina.com#div(class^=AD)
-sina.com.cn#div(class^=AD)
-sina.com#div(class^=ads)
-sina.com.cn#div(class^=ads)
-sina.com#div(class^=txtadsblk)
-!-Why the rule above works fine, but the below one not? They have the same code!
-sina.com.cn#div(class^=txtadsblk)
-!-So we must specify 01 02...
-sina.com.cn#div(class=txtadsblk01)
-sina.com.cn#div(class=txtadsblk02)
-sina.com#div(id^=cl_style)
-sina.com.cn#div(id^=cl_style)
-sina.com#div(sinamall)
-sina.com.cn#div(sinamall)
+sina.com,sina.com.cn#div(class^=AD)
+sina.com,sina.com.cn#div(class^=ads)
+sina.com,sina.com.cn#div(class^=txtadsblk)
+sina.com,sina.com.cn#div(id^=cl_style)
+sina.com,sina.com.cn#div(sinamall)
 blog.sina.com.cn###wrap>.BlogTool+.PartA+.PartA+.PartA+.PartF
 blog.sina.com.cn#div(id=global_links)
 classadnew.sina.com.cn##TABLE[width="750"][style="border: 1px solid rgb(167, 167, 167);"]
@@ -416,7 +395,6 @@ sogou.com/union/
 goodfeel.com.cn
 #a(href*=click.cpc.sogou.com)
 #a(href*=go.sohu.com)
-sohu.com#div(class=ad_six_item)
 sohu.com#sohuadcode
 class.chinaren.com#div(contentDiv)
 class.chinaren.com##body>center>style+script+table img[width="1"][height="1"]+br+table td[height="108"]
@@ -438,7 +416,6 @@ image.pconline.com.cn/gz/
 pconline.com.cn##.oldtop_nav3+table[bgcolor="#ffffff"][width="760"][align="center"]
 pconline.com.cn##div#top+div.main
 pconline.com.cn#div(class=top_banner)
-pconline.com.cn#div(id=Layer_ad)
 pconline.com.cn#div(id=shanjiad)
 pconline.com.cn#div(style=float: left; width: 320px;)
 
@@ -558,13 +535,12 @@ zol.com.cn##div.div_body div.top div.top_r:last-child
 zol.com.cn#div(class=adButton)
 zol.com.cn#div(class=mt8)
 zol.com.cn#div(id^=Bar)
-zol.com.cn#div(id=z_crazy_ad)
 zol.com.cn#div(id=z_right_float)
 zol.com.cn#div(id^=AD)
 zol.com.cn#div(id^=Float_)
 
 
-!--------------------Generic (sort by domain name)----------
+!-------------------Generic (sort by domain name)---------
 .1ting.net/ADCodeClip/
 /un.265.com
 /link.265.com/images/760x60.gif
@@ -585,7 +561,6 @@ a8-asy.a8ww.net
 .bahamut.com.tw/js/abanner.
 .bahamut.com.tw/js/building.js
 .bahamut.com.tw/js/fboard.js
-bluenile.com/affiliate/
 vampire.btbbt.com/
 .btpig.com/$subdocument
 webunion.ccd.com.cn/
@@ -624,7 +599,6 @@ feed.feedsky.com/~cpm/$object
 .fixdown.com/168/
 fj007.com/images
 fj007.com/money
-counts.flashget.com/
 images.gamebase.com.tw/200*/event/*_*/$image
 .gameflier.com/upload/Tower/
 gfg.gameflier.com/
@@ -637,7 +611,6 @@ haiguinet.com/aadd.html
 .hbrchina.com/*105-260*$image,object
 .hbrchina.com/*/3/$image,object
 .hh-xx.com/*/online.asp?
-hinet.net/html.ng/site=hinet&affiliate=
 homerpublishing.com.tw/images/ad*.swf
 .hotrank.com.tw*/hotrank.js
 .hsm.com.cn/upload_pic/*/U*.swf
@@ -704,7 +677,6 @@ bbs.tompda.com/*.htm$subdocument
 .tompda.com/*/*.swf
 .tompda.com/tuijian/gg*/
 /dm.travelocity.com/*.ng/site=*&locale=
-.tudou.com/js.ng/adsize=*affiliate
 .uacinemas.com.hk/publicUA/images/*/uaBanner.
 /uwants.com/images/home/partner_logo.swf
 .vista123.com/Script/popup_*.js
@@ -712,7 +684,6 @@ img.vista123.com/*3*5x80.gif
 .ware8.com/gg.htm
 .wud88.com/wdgg/
 .xdowns.com/ggd.js
-xdxdxd.com/advspics/
 xdxdxd.com/xdadvpic/
 cpc.xioo.cn/code/
 xitek.com/market/marketads.gif
@@ -726,10 +697,9 @@ mms1.youav.com/
 .youth.cn/tlgd/index.htm
 list.yxdown.com/show/html/images/*0
 union.zhongsou.com/
-.zuji.com.*/*/affiliate/
 
 
-!------------------pornographic, spam, ads-union, statistics...
+!-----------------pornographic, spam, ads-union, statistics...
 .007*m.com/money/$object,image
 .007*z.com/money/$object,image
 .033.com/
@@ -866,15 +836,13 @@ yx007.com/
 .zoxad.net/
 
 
-!----------------------------Other (sort by letter)--------
+!--------------------------Other (sort by letter)--------
 //pv(_.*)?\.(?:js|gif)/
-/[/\.](.*[_-])?\d*(?:all4|float|hot|my|narrow|page|pop|link|rss|scrolling|show|wait)?ad[vs]?(?:4all|agent|banner|brite|center|client|control|dhc|engage|er.*|fetch|file|flash|folder|frame|fshow|hot|img|js|image|juggler|manage|page|pic|picture|puba|right|sence|senser|show|space|store|tool|top|union|view|word)?(e?s)?\d*([-_].*)?[\?/\.]/
+/[/\.](.*[_-])?\d*(?:all4|float|hot|my|narrow|page|pop|link|rss|scrolling|show|wait)?adv?s?(?:4all|agent|banner|brite|center|click|client|control|dhc|engage|er.*|fetch|file|flash|folder|frame|fshow|hot|img|js|image|juggler|manage|page|pic|picture|puba|right|sence|senser|show|space|store|tool|top|union|view|word)?(e?s)?\d*([-_].*)?[\?/\.]/
 /[/\.](.*[_-])?(?:flash|gif|sys|top)banners?\d*([_-].*)?[/\.]/
-/[/\.](?:stats?|stats?count(er)?|count(er)?)(?:/|\.).*(?:aspx?|s?html|jsp|php|js)/
+/[/\.](?:stat|stat.*count(er)?|count(er)?)s?\d?[/\.]/$script
 /__utm.js|
 /61.128.*.*:8088/460X30.gif
-a-d-s/$image,object,script,subdocument
-/ADPolestar/lgs/door/;ap=
 /click.js?user_id=
 /dcs.gif?
 /gg/*$subdocument,image,script,object
@@ -898,7 +866,8 @@ a-d-s/$image,object,script,subdocument
 -chinad.*.cn/*/cpc_
 _dcs_tag.js|
 |http://gg.
-affiliates/
+a-d-s/$image,object,script,subdocument
+affiliate$subdocument,script,object
 guanggao
 http://click.
 iSystem/HitStatistic/
@@ -906,41 +875,53 @@ partners/
 trswcm_plugins/adintrs/
 
 
-!-----------------------Element Hiding----------------------
+!-----------------------Element Hiding--------------------
+#*(ad)
+#*(class^=ad_)
+#*(id^=ad_)
+#*(class$=_ad)
+#*(id$=_ad)
+#*(class*=_ad_)
+#*(id*=_ad_)
+#*(ad1)
+#*(id^=ad1)
+#*(class^=ad1)
+#*(ad2)
+#*(ad3)
+#*(ads)
+#*(adv)
+!--
+#*(headad)
+#*(adshead)
+#*(headads)
+#*(headerad)
+#*(adsheader)
+#*(headerads)
+!--
 #*(AdContainer)
 #*(AdPanel)
-#*(class^=ad_thread)
+#*(Advertising)
+#*(class^=gg-)
 #*(guanggao)
-#*(id^=ad_footerbanner)
-#*(id^=ad_headerbanner)
-#*(id^=ad_thread)
-#*(id^=ad_thread)
 #*(id^=span_ad)
+#*(left-gg)
+#*(leftAd)
+#*(randomAD)
+#*(right-gg)
 #*(rightAd)
 #*(rightad1)
-#*(right-gg)
-#*(Layer_ad)
-#*(leftAd)
-#*(left-gg)
-#*(page_ad_left)
-#*(page_ad_right)
-#*(top_ad)
+#*(topAD)
 #*(topads)
-##*.Ad_top > *[class^="Ad_"]
-##a[target="_blank"] > img[width="468"][height="60"]
-##a[target="_blank"] > img[width="760"][height="80"]
 #a(href*=.800hr.com/ctosee/ctosee.php?url=)
 #a(href*=.adbrite.com/)
 #a(href*=/adclick.php?)
-#a(href*=/adfclick?db=)
 #a(href*=.allyes.cn/)
 #a(href*=.allyes.com/main/adfclick)
 #a(href*=.doubleclick.net/)
-#a(href*=/guanggao/)
+#a(href*=/guanggao)
 #a(href*=ht.28.com/)
 #a(href^=http://admin.biz178.com/)
 #a(href^=http://go.maxreturn.cn/)
-#a(href^=http://guanggao.)
 #a(href^=http://link.24files.com)
 #a(href^=http://so.6655.com/?)
 #a(href^=http://stat.maxthon.com/?)
@@ -952,19 +933,6 @@ trswcm_plugins/adintrs/
 #a(href^=http://www.sdgj.)
 #a(href*=linktech.cn/)
 #a(href*=.newcnad.com/)
-#div(ad_google)
-#div(class=ad_text)
-#div(class^=ad_textlink)
-#div(class=Advertising)
-#div(class^=gg-)
-#div(class=topAD)
-#div(id=ad2)
-#div(id=ad3)
-#div(id=ad4)
-#div(id^=ad_footerbanner)
-#div(id^=ad_headerbanner)
-#div(id=ad_interthread)
-#div(randomAD)
 3quote.info#td(width=364)(height=280)
 3quote.info#td(width=728)(height=31)(bordercolor=#FFFFFF)
 56.com#div(id^=rAd_text)
@@ -981,11 +949,9 @@ trswcm_plugins/adintrs/
 96bbs.com#td(height=50)(align=center)
 anonymouse.org#div(mouselayer)
 appleactionews.com#table(width=978)(height=75)
-bbs.maxpda.com#div(class=ad_textlink1)
 bbs.pdafans.com#table(width=960)(align=center)
 bbs.tompda.com#table(width=96%)(bgcolor=#d4ebfd)
 blogcn.com#table(width=341)(cellspacing=1)(cellpadding=4)(border=0)(align=left)
-btbbt.com#div(ads)
 btchina.net#table(id=AutoNumber1)(width=100%)(cellpadding=2)
 btchina.net#table(width=100%)(cellpadding=2)(border=0)(align=center)
 btpig.com#td(width=25%)(bgcolor=#eeeeee)
@@ -1002,9 +968,7 @@ game.21cn.com#table(width=758)(height=99)
 gamebase.com.tw#A(href^=http://www.gamebase.com.tw/ad/)
 gamez.com.tw#table(id=pid99999999)
 gndaily.com#MARQUEE(direction=up)
-gougou.com#div(class=b_ad)
 gzqts.gov.cn###demo_blgg+#img
-hbrchina.com#div(id^=ad105_260)
 httpcn.com#table(width=980)(cellspacing=1)(bgcolor=#cccccc)(align=center)
 hxonl.com#div(id=cont1)
 hxtdz.com#table(width=98%)(bgcolor=#ffffff)(align=center)
@@ -1016,7 +980,6 @@ lotour.com#div(class=floatleft)
 lotour.com#div(id=banner)
 macd.cn##table[style="background: rgb(187, 233, 255) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;"]
 metacafe.com#div(id^=MedRect)
-mflady.com#div(class=headad)
 mitbbs.com,mitbbs.cn##body>center>table:first-child+table+table>tbody>tr>td:first-child+td>table>tbody>tr:first-child+tr>td>table>tbody>tr>td:first-child+td
 mofile.com#div(id$=_bigad)
 mofile.com#div(id$=_googlead)
@@ -1026,10 +989,7 @@ nfcmag.com#tr(bgcolor=#535396)(_base_target=_blank)
 openrice.com#td(class=PremiumAdCol)
 singtaousa.com##table[cellspacing="5"][cellpadding="5"] tr[valign="top"] > td[width="200"]
 smarter.com.cn#div(class=sponsr)
-smarter.com.cn#div(class=topad)
-smarter.com.cn#div(id=AdsHeader)
 smarter.com.cn#div(id=google_middle)
-tommsoft.com#div(class=ad1)
 uwants.com##div.maintable table[width="100%"][align="center"] table[width="100%"][border="0"]
 uwants.com##P[style="border: 1px solid rgb(100, 118, 132); padding: 1px; display: block; width: 160px; height: 160px;"]
 uwants.com##table[width="730"][cellpadding="1"]:last-child
@@ -1038,25 +998,20 @@ vista123.com##div#content_list>div:first-child
 vista123.com##div[style="width: 260px; height: 260px; float: left;"]
 vista123.com#p(class=w_330)
 www.fj007.com##td[width="794"][valign="top"],td[height="6"][bgcolor="#eeeeee"]
-xdxdxd.com#div(id^=ad_)
 xmnn.cn#table(class=bAD)
 ycwb.com##BODY:not([onload]) > table ~ table[width="995"][align="center"]:not(:first-child)
 zzit.com.cn#div(id=Article_Top_Banner)
 
 
-!-----------------------Will Be Deleted, To Be Confirmed----
+!---------------------Will Be Deleted, To Be Confirmed----
 !--Reasons:
 !--1: The site is unavailable now, and can find nothing from google "site:" search.
 !--2: The site may changed their code, made the rule invalid, but I don't sure.
 !--3: The rule is misused, it may kill other harmless things.
 !-------------------
 !-for reason 1:
-www.99.vc/
 !-for reason 2:
 sina.com.cn#div(class^=adHouse)
-sina.com.cn#td(class^=unipro)
-sina.com.cn#div(f_MidAd2)
-sina.com.cn#div(id$=_topads)
 sina.com.cn#div(id^=adSinaHouse)
 sina.com.cn#*(id^=PublicRelation)(class*=adNone)
 !-for reason 3:
