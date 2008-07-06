@@ -935,7 +935,8 @@ trswcm_plugins/adintrs/
 !-----------------------Element Hiding--------------------
 #*(ad)
 #*(class^=ad_)
-#*(id^=ad_)
+!-下面的在 wretch.cc/album 有误杀。不是广告为什么取名为ad呢，Orz..
+com,net,cn#*(id^=ad_)
 #*(class$=_ad)
 #*(id$=_ad)
 #*(class*=_ad_)
