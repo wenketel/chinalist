@@ -351,20 +351,26 @@ image2.sina.com.cn/book/forum/s2/js/minimessage.js
 mybizsite.sina.com.cn/
 pfp.sina.com.cn/
 pfpip.sina.com/
+you.video.sina.com.cn/pg/user/userJsTemplate.php
+you.video.sina.com.cn/v/iframe/
+!--下面是一个广告图片，但是过滤该图片会导致news首页图片轮显不正常。如果有发现不正常的现象，可能是sina换了广告。
+@@|http://d1.sina.com.cn/200806/02/139424_kfc-blog-0603-jdt.jpg
 #a(href^=http://click.sina.com.cn/)
+#a(href=http://classadnew.sina.com.cn/doc/tuiguang.htm)
 sina.com,sina.com.cn#div(class^=AD)
 sina.com,sina.com.cn#div(class^=ads)
 sina.com,sina.com.cn#div(class^=txtadsblk)
 sina.com,sina.com.cn#div(id^=cl_style)
 sina.com,sina.com.cn#div(sinamall)
+auto.sina.com.cn#div(topbrand)
 blog.sina.com.cn###wrap>.BlogTool+.PartA+.PartA+.PartA+.PartF
 blog.sina.com.cn#div(id=global_links)
+blog.sina.com.cn#div(topbannerAD)
+blog.sina.com.cn,mobile.sina.com.cn#div(top_bar)
 classadnew.sina.com.cn##TABLE[width="750"][style="border: 1px solid rgb(167, 167, 167);"]
-eladies.sina.com.cn##TD[width="300"][style^="border-bottom: 1px solid rgb(222, 223, 222); background: transparent url(http://"]
-sports.sina.com.cn##td[width="300"][valign="top"][style="border-bottom: 1px solid rgb(222, 223, 222); background: transparent url(http://i3.sinaimg.cn/dy/article/950/con_070227_ws_008.gif) repeat-y scroll 0% 0%; overflow: hidden; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;"]
+eladies.sina.com.cn,ent.sina.com.cn,news.sina.com.cn,sports.sina.com.cn##td[width="300"][valign="top"][style="border-bottom: 1px solid rgb(222, 223, 222); background: transparent url(http://i3.sinaimg.cn/dy/article/950/con_070227_ws_008.gif) repeat-y scroll 0% 0%; overflow: hidden; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;"]
 tech.sina.com.cn#table(class=PartMj_B)
-www.sina.com#div(id=Search)
-www.sina.com.cn#div(id=Search)
+www.sina.com,www.sina.com.cn#div(id=Search)
 
 !---SkyCN
 skycn.com/js/soft_mid_n1.js
