@@ -838,7 +838,7 @@ yx007.com/
 
 !--------------------------Other (sort by letter)--------
 //pv(_.*)?\.(?:js|gif)/
-/[/\.](.*[_-])?\d*(?:all4|float|hot|my|narrow|page|pop|link|rss|scrolling|show|wait)?adv?s?(?:4all|agent|banner|brite|center|click|client|control|dhc|engage|er.*|fetch|file|flash|folder|frame|fshow|hot|img|js|image|juggler|manage|page|pic|picture|puba|right|sence|senser|show|space|store|tool|top|union|view|word)?(e?s)?\d*([-_].*)?[\?/\.]/
+/[/\.](.*[_-])?\d*(?:all4|float|hot|my|narrow|page|pop|link|rss|scrolling|show|wait)?adv?s?(?:4all|agent|banner|brite|center|click|client|control|dhc|engage|er.*|fetch|file|flash|folder|frame|fshow|hot|img|js|image|juggler|manage|page|pic|picture|puba|right|sen[cs]er?|show|space|store|tool|top|union|view|word)?(e?s)?\d*([-_].*)?[\?/\.]/
 /[/\.](.*[_-])?(?:flash|gif|sys|top)banners?\d*([_-].*)?[/\.]/
 /[/\.](?:stat|stat.*count(er)?|count(er)?)s?\d?[/\.]/$script
 /__utm.js|
@@ -883,6 +883,8 @@ trswcm_plugins/adintrs/
 #*(id$=_ad)
 #*(class*=_ad_)
 #*(id*=_ad_)
+#*(class^=ad-)
+#*(id^=ad-)
 #*(ad1)
 #*(id^=ad1)
 #*(class^=ad1)
@@ -906,6 +908,7 @@ trswcm_plugins/adintrs/
 #*(id^=span_ad)
 #*(left-gg)
 #*(leftAd)
+#*(lianmeng)
 #*(randomAD)
 #*(right-gg)
 #*(rightAd)
