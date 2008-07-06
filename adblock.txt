@@ -1,6 +1,6 @@
 [Adblock Plus 0.7.5]
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:        July.06.2008
+!  Last Modified:        July.07.2008
 !         ----http://adblock-chinalist.googlecode.com/
 !Expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -261,7 +261,6 @@ union*.kingsoft.com/
 .kooxoo.com/Files/piao/img/ticketsale.swf
 tongji.kooxoo.com/static/js/kxanalysis.js
 #a(href^=http://www.kooxoo.com/AD_to/)
-kooxoo.com#div(sidebar-ad)
 kooxoo.com##div#main-content>div:first-child>div:first-child[style="position: relative; width: 735px; height: 90px;"]
 
 !---Ku6
@@ -550,8 +549,6 @@ yahoo.cn#div(class=bad)
 yahoo.com##div.zcol1:first-child
 cn.yahoo.com#*(id=textadv)
 cn.yahoo.com#div(id^=biz_)(id$=_cp)
-news.cn.yahoo.com###bd>.mainblock>.top-ad:first-child
-news.cn.yahoo.com###ynv+div[class="yn-section-ad fixfloat"]
 news.cn.yahoo.com#div(id=relnews)
 hk.auctions.yahoo.com#td(height=140)(background$=_ad_bg.gif)
 tw.news.yahoo.com#div(id=adst)
@@ -943,6 +940,7 @@ com,net,cn#*(id^=ad_)
 #*(id*=_ad_)
 #*(class^=ad-)
 #*(id^=ad-)
+#*(class$=-ad)
 #*(ad1)
 #*(id^=ad1)
 #*(class^=ad1)
