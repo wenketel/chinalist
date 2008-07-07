@@ -392,6 +392,9 @@ you.video.sina.com.cn/v/iframe/
 @@|http://interface.video.sina.com.cn/app/count/$script
 #a(href^=http://click.sina.com.cn/)
 #a(href=http://classadnew.sina.com.cn/doc/tuiguang.htm)
+sina.com.cn#*(id^=PublicRelation)(class*=adNone)
+sina.com.cn##td[width="300"][valign="top"][style^="border-bottom: 1px solid rgb(222, 223, 222); background: transparent url(http://i3.sinaimg.cn/dy/article/950/con_070227_ws_008.gif) repeat-y scroll 0% 0%; overflow: hidden;"]
+sina.com.cn#div(id^=adSinaHouse)
 sina.com,sina.com.cn#div(class^=AD)
 sina.com,sina.com.cn#div(class^=ads)
 sina.com,sina.com.cn#div(class^=txtadsblk)
@@ -403,7 +406,6 @@ blog.sina.com.cn#div(id=global_links)
 blog.sina.com.cn#div(topbannerAD)
 blog.sina.com.cn,mobile.sina.com.cn#div(top_bar)
 classadnew.sina.com.cn##TABLE[width="750"][style="border: 1px solid rgb(167, 167, 167);"]
-eladies.sina.com.cn,ent.sina.com.cn,news.sina.com.cn,sports.sina.com.cn##td[width="300"][valign="top"][style="border-bottom: 1px solid rgb(222, 223, 222); background: transparent url(http://i3.sinaimg.cn/dy/article/950/con_070227_ws_008.gif) repeat-y scroll 0% 0%; overflow: hidden; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;"]
 mag.sina.com.cn#div(id=guide)
 tech.sina.com.cn#table(class=PartMj_B)
 www.sina.com,www.sina.com.cn#div(id=Search)
@@ -416,6 +418,8 @@ skycn.com/tuijianimg/
 iplog.skycn.com/wherefrom.php
 
 !---Sohu
+i3.itc.cn/20080703/4b3_fd63abac_2b84_4526_bcf1_406a60f433f1_0.jpg
+goodfeel.com.cn
 
 !-17173
 .17173.com/if/
@@ -456,10 +460,6 @@ sohu.com#table(sogouArea)
 it.sohu.com#div(banner_product)
 news.sohu.com##div#sohu_content > p + table[align="left"]
 www.sohu.com#TABLE(width=760)(cellspacing=1)(cellpadding=0)(border=0)(bgcolor=#d9d9d9)
-
-!-Other
-i3.itc.cn/20080703/4b3_fd63abac_2b84_4526_bcf1_406a60f433f1_0.jpg
-goodfeel.com.cn
 
 !---太平洋
 .pcgames.com.cn/club/fz/tuijian/
@@ -1090,7 +1090,5 @@ zzit.com.cn#div(id=Article_Top_Banner)
 !-for reason 1:
 !-for reason 2:
 sina.com.cn#div(class^=adHouse)
-sina.com.cn#div(id^=adSinaHouse)
-sina.com.cn#*(id^=PublicRelation)(class*=adNone)
 !-for reason 3:
 !-other, why?
