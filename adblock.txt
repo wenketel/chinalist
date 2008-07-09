@@ -128,6 +128,7 @@ tech.ccidnet.com##table[width="100%"][style="border: 1px solid rgb(226, 227, 228
 cctv.com/*/cctv_sdc_frame.html
 cctv.com/Library/homepage2008/20080402/flash/tl_banner.swf
 cctv.com/soushi/special/C20704/20080618/images/1213783663036_sousuozhan.swf
+blog.cctv.com/js/minipage.js
 idm.cctv.com/flash/bd/$object
 idm.cctv.com#div(bd1)
 idm.cctv.com#div(bd3)
@@ -254,8 +255,9 @@ ftchinese.com##div#middle_inner>div:first-child
 .google-analytics.
 .blogger.com/navbar.g
 mail.google.com#*(slwyWc)
-google.cn,google.com#table(mbEnd)
-google.cn,google.com##body>div:first-child+style+table[style="border: 1px solid rgb(51, 102, 153);"]
+google.cn,google.com,google.com.tw,google.com.hk##body>div:first-child+style+table[style="border: 1px solid rgb(51, 102, 153);"]
+google.cn,google.com,google.com.tw,google.com.hk##div.ta[id^=tpa][style^="border: 1px none rgb(213, 221, 243); background: rgb(255, 249, 221) none repeat scroll 0% 0%;"]
+google.cn,google.com,google.com.tw,google.com.hk#table(mbEnd)
 #a(href*=doubleclick.net/)
 
 !---ifeng
@@ -307,6 +309,12 @@ mingpaonews.com#table(width=300)(align=right)
 mingpaonews.com#table(width=300)(bgcolor=#ffff8d)
 ol.mingpao.com#table(width=300)(align=right)
 ol.mingpao.com#table(width=950)(height=120)(bgcolor=#ffffff)
+mingpaonews.com##body>script+table+table.gy+table+table.gy+table>tbody>tr>td:first-child[width="460"][valign="top"]>table.gy:first-child+table:last-child
+mingpaonews.com##body>script:first-child+table+table.gy+table+table.gy+table+iframe[height="90"][src*="http://adc1.mingpao.com/html.ng/"]
+
+!---MITBBS
+mitbbs.com,mitbbs.cn,unknownspace.org##body>center>table:first-child+table+table>tbody>tr>td:first-child+td>table>tbody>tr:first-child+tr>td>table>tbody>tr>td:first-child+td
+mitbbs.com,mitbbs.cn,unknownspace.org##body>center>table:first-child+table+table>tbody>tr>td[width="85"]+td[valign="top"]>table[width="886"]>tbody>tr:first-child
 
 !---Mop
 .mop.com/images/d.jpg
@@ -333,6 +341,13 @@ news.newhua.com/files/newhuagg/All_top0.js
 onlinedown.net/adhuajun2.js
 onlinedown.net##table#top_tab>tbody>tr:first-child+tr
 
+!---PCGames
+.pcgames.com.cn/club/fz/tuijian/
+.pcgames.com.cn/club/js/popup.js
+.pcgames.com.cn/games/newfz/newbanner/
+.pcgames.com.cn/js/ivy.js
+pcgames.com.cn#div(ad490)
+
 !---PCHome
 /btm.pchome.net
 /btn.pchome.net
@@ -343,6 +358,20 @@ pchome.net#*(i2k8TopAd)
 pchome.net#dd(hardwareDiyMarket)
 pchome.net#dd(id=mobileOaMarket)
 pchome.net#div(id=main_adshow)
+news.pchome.com.tw###top+a+a+div+div#t13bl
+news.pchome.com.tw###top+a+a+div[align="center"][style="position: relative; height: 57px; width: 995px;"]
+
+!---PConline
+pconline.com.cn/js/ivy.js
+pconline.com.cn/market/open/
+acount.pconline.com.cn/
+image.pconline.com.cn/gz/
+#a(href^=http://ivy.pconline.com.cn/adpuba/)
+pconline.com.cn##.oldtop_nav3+table[bgcolor="#ffffff"][width="760"][align="center"]
+pconline.com.cn##div#top+div.main
+pconline.com.cn#div(class=top_banner)
+pconline.com.cn#div(id=shanjiad)
+pconline.com.cn#div(style=float: left; width: 320px;)
 
 !---起点中文网
 qidian.com/Images/mark.gif
@@ -360,6 +389,23 @@ qd.code.qihoo.com/get_qad_data.php
 qd.code.qihoo.com/com_spe.js
 qd.code.qihoo.com/com_spe_cache.js
 #a(href^=http://rd.qihoo.com/out.html?u=)
+
+!---QQ
+adsrich.qq.com/
+!- custom_menu.xml is not used for ad, but not compatible with ff well, if fixed, plz remove this item.
+imgcache.qq.com/qzone/client/custom_menu/custom_menu.xml
+jingjia.qq.com/
+mat1.qq.com/www/flash/
+pingjs.qq.com/ping.js
+tiapview.qq.com/tad.js
+qq.com#div(class=adArea)
+qq.com#div(id^=AdZone)
+qq.com#div(id^=adArea)
+qq.com#div(nav)
+qq.com#div(PicNews)
+qq.com#div(proAd)
+qq.com#td(class=rbga)
+finance.qq.com#table(class=mgt5 mb8)(width=910)
 
 !---青娱乐
 pop.qyule.com/baidu/contentad.php
@@ -413,6 +459,13 @@ mag.sina.com.cn#div(id=guide)
 tech.sina.com.cn#table(class=PartMj_B)
 www.sina.com,www.sina.com.cn#div(id=Search)
 
+!---星岛日报
+singtao.ca/singtaoads/
+singtao.com/*/*ads.js|
+singtaousa.com/RLDP_468x60.gif
+singtao.com##body>table:first-child>tbody>tr>td>table:first-child[width="769"]>tbody>tr:first-child[valign="middle"]+tr+tr>script+td[height="120"][colspan="2"]
+singtaousa.com##table[cellspacing="5"][cellpadding="5"] tr[valign="top"] > td[width="200"]
+
 !---SkyCN
 skycn.com/js/soft_mid_n1.js
 skycn.com/js/soft_mid_n5.js
@@ -463,40 +516,6 @@ sohu.com#table(sogouArea)
 it.sohu.com#div(banner_product)
 news.sohu.com##div#sohu_content > p + table[align="left"]
 www.sohu.com#TABLE(width=760)(cellspacing=1)(cellpadding=0)(border=0)(bgcolor=#d9d9d9)
-
-!---太平洋
-.pcgames.com.cn/club/fz/tuijian/
-.pcgames.com.cn/club/js/popup.js
-.pcgames.com.cn/games/newfz/newbanner/
-.pcgames.com.cn/js/ivy.js
-pcgames.com.cn#div(ad490)
-pconline.com.cn/js/ivy.js
-pconline.com.cn/market/open/
-acount.pconline.com.cn/
-image.pconline.com.cn/gz/
-#a(href^=http://ivy.pconline.com.cn/adpuba/)
-pconline.com.cn##.oldtop_nav3+table[bgcolor="#ffffff"][width="760"][align="center"]
-pconline.com.cn##div#top+div.main
-pconline.com.cn#div(class=top_banner)
-pconline.com.cn#div(id=shanjiad)
-pconline.com.cn#div(style=float: left; width: 320px;)
-
-!---Tencent
-adsrich.qq.com/
-!- custom_menu.xml is not used for ad, but not compatible with ff well, if fixed, plz remove this item.
-imgcache.qq.com/qzone/client/custom_menu/custom_menu.xml
-jingjia.qq.com/
-mat1.qq.com/www/flash/
-pingjs.qq.com/ping.js
-tiapview.qq.com/tad.js
-qq.com#div(class=adArea)
-qq.com#div(id^=AdZone)
-qq.com#div(id^=adArea)
-qq.com#div(nav)
-qq.com#div(PicNews)
-qq.com#div(proAd)
-qq.com#td(class=rbga)
-finance.qq.com#table(class=mgt5 mb8)(width=910)
 
 !---TianYa
 801.tianya.cn/$object
@@ -576,6 +595,17 @@ mail.google.com#a(href=http://cn.mail.yahoo.com/)
 mail.yahoo.com#div(id=swPane)
 mail.yahoo.com#div(id=slot_MNW)
 
+!---yam天空
+yam.com/ad5*.swf
+yam.com/j/FloatDiv.js
+yam.com/pic/*x*_*.swf
+yam.com/pic/adsl1g/
+yam.com/pic/bang3/420x1570704.swf
+y.yam.com/fn/banner01_468x60.jpg
+www.yam.com###footer
+www.yam.com###m_tab6
+www.yam.com###main>#left+#middle>#m_tab1:first-child+#m_tab11+.m_eq
+
 !---天极网
 media.yesky.com/
 /vd.yesky.com/html/js/1*.js
@@ -607,6 +637,7 @@ zol.com.cn#div(id^=Float)
 
 
 !-------------------Generic (sort by domain name)---------
+ndx.1-apple.com.tw/DFA/js_ndxtag.cfm
 .1ting.net/ADCodeClip/
 /un.265.com
 /link.265.com/images/760x60.gif
@@ -624,6 +655,9 @@ bbs.a9vg.com/showit/pic/*//
 a8-asy.a8ww.net
 /static.acs86.com/g.js
 .ali213.net/$subdocument
+rcm.Amazon.com/e/cm
+atchinese.com/images/banners/100x100
+atchinese.com/images/banners/300x300
 .atdmt.com/
 .babeijiu.com/js/bbj*.js
 .bahamut.com.tw/js/abanner.
@@ -698,6 +732,7 @@ kt88.net/inc/ggplay.js
 kt88.net/js/*.html?id=*&gg=
 kt88.net/js/Moneys.js
 kt88.net/news/inc/bd/$subdocument
+a.kwongwah.com.my/www/delivery/ajs.php
 .lan123.net/other/js/A_*.js
 code.leleso.net/search_*userId=$subdocument
 .liba.com/a_d_pic/
@@ -735,8 +770,6 @@ tgfc.qwd1.com/images/flash960x60.swf
 .qzwb.com/qzwgg/
 .sellgreat.com/images/Bdvertisement/
 diary.showhappy.net/scripts/diarytextads.js
-.singtao.ca/singtaoads/
-.singtao.com/*/*ads.js|
 .snap.com/$script
 .softnews.cn/other/js/A_*.js
 .t2t2.com/
@@ -760,8 +793,6 @@ xishui.net/down/js/a_newsd_$script
 my.xishui.net/aggd/$script
 xitek.com/market/marketads.gif
 .xxsy.net/js/pop*.js
-.yam.com/ad5*.swf
-.yam.com/pic/*x*_*.swf
 .ynet.com/gall/$subdocument
 mms1.youav.com/
 .youboy.com/union/
@@ -806,19 +837,24 @@ www.9v.cn/
 union.a8.com
 /acs86.com
 adpolestar.net/
+adsfactor.net
 .adwww.cn/
 .adzhu.com
 .allyes.com/
 .argusclick.net/
+asiaseo.com
 bafang.cc/
 bbn.com.cn/
+bloggerads.net
+blogtw.net
 bmwlong.com
 unionsys.bolaa.com/
 network.business.com/
 .casalemedia.com/
-chanet.com.cn
 .cgen2.com/
 .cgogo.cc/
+chanet.com.cn
+.cj.com/
 cpv.channelray.com
 .cjoy.com.cn/
 .clickeye.cn/
@@ -851,6 +887,7 @@ huahaiadv.com
 .icast.cn/
 .ifocus.cn/
 .imrworldwide.
+innity.com
 .insenz.com/
 .inter-focus.cn/
 iplus.com.cn
@@ -862,6 +899,7 @@ link.itdoor.net
 .juhe.com/$script
 .keygate.com.cn/
 .keyrun.com/
+kqzyfj.com
 lerss.com
 .lian.la/
 .lianmeng.com
@@ -1055,19 +1093,20 @@ gamebase.com.tw#A(href^=http://www.gamebase.com.tw/ad/)
 gamez.com.tw#table(id=pid99999999)
 gndaily.com#MARQUEE(direction=up)
 gzqts.gov.cn###demo_blgg+#img
+hatewall.com##div[style="position: absolute; top: 0px; left: 0px; width: 1000px; height: 100px; z-index: 1;"]
 httpcn.com#table(width=980)(cellspacing=1)(bgcolor=#cccccc)(align=center)
 hxonl.com#div(id=cont1)
 hxtdz.com#table(width=98%)(bgcolor=#ffffff)(align=center)
 i-cable.com#div(id=Layer12)
 issncn.com#td(width=301)(bgcolor=#ffffff)
 kamang.net#form(user-login-form)
+kwongwah.com.my###nav_menu+div.w960>div:first-child+div+div+div.w360c+div.w280+br+hr+div
 lan123.net#div(class=right-box2)
 lotour.com#div(class=floatleft)
 lotour.com#div(id=banner)
 macd.cn##table[style="background: rgb(187, 233, 255) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;"]
+yamstock.megatime.com.tw###floating
 metacafe.com#div(id^=MedRect)
-mitbbs.com,mitbbs.cn,unknownspace.org##body>center>table:first-child+table+table>tbody>tr>td:first-child+td>table>tbody>tr:first-child+tr>td>table>tbody>tr>td:first-child+td
-mitbbs.com,mitbbs.cn,unknownspace.org##body>center>table:first-child+table+table>tbody>tr>td[width="85"]+td[valign="top"]>table[width="886"]>tbody>tr:first-child
 mofile.com#div(id$=_bigad)
 mofile.com#div(id$=_googlead)
 mpinews.com#table(width=300)(align=right)
@@ -1075,7 +1114,6 @@ my1510.cn#div(id=annoucement)
 nfcmag.com#tr(bgcolor=#535396)(_base_target=_blank)
 openrice.com#td(class=PremiumAdCol)
 bbs.pdafans.com#table(width=960)(align=center)
-singtaousa.com##table[cellspacing="5"][cellpadding="5"] tr[valign="top"] > td[width="200"]
 smarter.com.cn#div(class=sponsr)
 smarter.com.cn#div(id=google_middle)
 forum.timway.com##div.maintable td[bgcolor="#ffffff"]
