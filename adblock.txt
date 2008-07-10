@@ -1,6 +1,6 @@
 [Adblock Plus 0.7.5]
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:        July.07.2008
+!  Last Modified:        July.11.2008
 !         ----http://adblock-chinalist.googlecode.com/
 !Expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -1001,8 +1001,8 @@ trswcm_plugins/adintrs/
 com,net,cn#*(id^=ad_)
 #*(class$=_ad)
 #*(id$=_ad)
-#*(class*=_ad_)
-#*(id*=_ad_)
+#*(page_ad_left)
+#*(page_ad_right)
 #*(class^=ad-)
 #*(id^=ad-)
 #*(class$=-ad)
