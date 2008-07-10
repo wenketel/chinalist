@@ -542,6 +542,19 @@ tom.com#*(sidemidad)
 tom.com#*(sidetopad)
 tom.com#*(txtlink)
 
+!---udn
+udn.com/1024MAIN/inc/main_content_ec.shtml
+udn.com/1024MAIN/inc/scroller_video.html
+udn.com/NEWS/MISC/event/rotate$subdocument
+
+!---Uwants
+/uwants.com/images/home/partner_logo.swf
+#a(href^=http://www.uwants.com/ad_click.php)
+uwants.com##div.maintable table[width="100%"][align="center"] table[width="100%"][border="0"]
+uwants.com##P[style="border: 1px solid rgb(100, 118, 132); padding: 1px; display: block; width: 160px; height: 160px;"]
+uwants.com##table[width="730"][cellpadding="1"]:last-child
+uwants.com##td#umain>table:first-child[align="center"][width="100%"]
+
 !---VeryCD
 /222.37.134.
 www.verycd.com#li(non-topic)
@@ -583,6 +596,7 @@ L.yimg.com/tw.yimg.com/a/tw/js/flash_general_$script
 #a(href*=click.p4p.cn.yahoo.com)
 yahoo.cn#div(class=bad)
 yahoo.com##div.zcol1:first-child
+cn.yahoo.com##.yst-photo+style+table#p4pb
 cn.yahoo.com#*(id=textadv)
 cn.yahoo.com#div(id^=biz_)(id$=_cp)
 news.cn.yahoo.com#div(id=relnews)
@@ -659,6 +673,7 @@ rcm.Amazon.com/e/cm
 atchinese.com/images/banners/100x100
 atchinese.com/images/banners/300x300
 .atdmt.com/
+awocity.cn$~subdocument
 .babeijiu.com/js/bbj*.js
 .bahamut.com.tw/js/abanner.
 .bahamut.com.tw/js/building.js
@@ -668,7 +683,10 @@ vampire.btbbt.com/
 webunion.ccd.com.cn/
 .ccnec.com/Label/*.shtml$subdocument
 blog.cersp.com/images/banner007.gif
-.chinanews.com*/fileftp/*.swf
+chinanews.com*/fileftp/*.swf
+chinaventure.com.cn/common/images/130-180.gif
+chinaventure.com.cn/Common/images/251X220.gif
+chinaventure.com.cn/sponsors/
 .cn.vc/uploadfile/200712/200712311199104181.gif
 bwp.taiwan.cnet.com/
 .cnhan.com/*/*/*_*.*$other
@@ -746,6 +764,7 @@ bbs.macd.cn/xc/
 tv.mofile.com/event/
 cache.mofile.com/tv/cn/event/allyes-google.swf
 union.moka.cn/
+monday.com.tw/res/activity/
 .mtime.com/tg/js/
 .mycodes.net/img/*.swf
 .mycodes.net/js/$image
@@ -768,6 +787,7 @@ tgfc.qwd1.com/club/images/TGFC_480_100.jpg
 tgfc.qwd1.com/images/flash960x60.swf
 .qzwb.com/js/jqxc.js
 .qzwb.com/qzwgg/
+rm.romman.net/js/rm_D10.html
 .sellgreat.com/images/Bdvertisement/
 diary.showhappy.net/scripts/diarytextads.js
 .snap.com/$script
@@ -781,7 +801,6 @@ bbs.tompda.com/*.htm$subdocument
 sysimages.tq.cn/js/tqFloatWin_agent.js
 /dm.travelocity.com/*.ng/site=*&locale=
 .uacinemas.com.hk/publicUA/images/*/uaBanner.
-/uwants.com/images/home/partner_logo.swf
 .vista123.com/Script/popup_*.js
 img.vista123.com/*3*5x80.gif
 .ware8.com/gg.htm
@@ -997,8 +1016,8 @@ trswcm_plugins/adintrs/
 !-----------------------Element Hiding--------------------
 #*(ad)
 #*(class^=ad_)
-!-下面的在 wretch.cc/album 有误杀。不是广告为什么取名为ad呢，Orz..
-com,net,cn#*(id^=ad_)
+!-wretch.cc/album
+com,net,cn,hk,tw#*(id^=ad_)
 #*(class$=_ad)
 #*(id$=_ad)
 #*(page_ad_left)
@@ -1111,6 +1130,8 @@ mofile.com#div(id$=_bigad)
 mofile.com#div(id$=_googlead)
 mpinews.com#table(width=300)(align=right)
 my1510.cn#div(id=annoucement)
+neopets.com###main>#ban:first-child
+neopets.com###vert_slug_leaderboard
 nfcmag.com#tr(bgcolor=#535396)(_base_target=_blank)
 openrice.com#td(class=PremiumAdCol)
 bbs.pdafans.com#table(width=960)(align=center)
@@ -1118,9 +1139,6 @@ smarter.com.cn#div(class=sponsr)
 smarter.com.cn#div(id=google_middle)
 forum.timway.com##div.maintable td[bgcolor="#ffffff"]
 bbs.tompda.com#table(width=96%)(bgcolor=#d4ebfd)
-uwants.com##div.maintable table[width="100%"][align="center"] table[width="100%"][border="0"]
-uwants.com##P[style="border: 1px solid rgb(100, 118, 132); padding: 1px; display: block; width: 160px; height: 160px;"]
-uwants.com##table[width="730"][cellpadding="1"]:last-child
 vista123.com#div(adwords)
 vista123.com##div#content_list>div:first-child
 vista123.com##div[style="width: 260px; height: 260px; float: left;"]
