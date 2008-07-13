@@ -1,6 +1,6 @@
 [Adblock Plus 0.7.5]
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:        July.11.2008
+!  Last Modified:        July.13.2008
 !         ----http://adblock-chinalist.googlecode.com/
 !Expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -487,8 +487,14 @@ log.17173.com/
 media.17173.com/x/media01banner874140.htm
 
 !-Chinaren
+chinaren.com/upload/xc200.jpg
+class.chinaren.com/cr_nav.js
+class.chinaren.com/widget/mzone.jsp
+class.chinaren.com/widget/torch.jsp
+!-班级首页的搜索按钮，对FF不友好，如果已修正请删除
+images.chinaren.com/product/alumni4/images/pic1_10.gif
 class.chinaren.com#div(contentDiv)
-class.chinaren.com##body>center>style+script+table img[width="1"][height="1"]+br+table td[height="108"]
+class.chinaren.com##body>center>style:first-child+script+table[width="100%"][background$="/xyl1_1.gif"]
 
 !-Sogou
 /pv.sogou.com
@@ -503,9 +509,9 @@ sogou.com/union/
 js1.club.sohu.net/indeximages/19/721ab6443b65d59e20183904cb751d19.jpg
 js2.club.sohu.net/indeximages/f0/91d0db09568e4bf9bfd8c741dbd7faf0.gif
 images.sohu.com/*/market/
-images.sohu.com/cs/
-@@|http://images.sohu.com/cs/news/dizhen/
-@@|http://images.sohu.com/cs/minisite/
+images.sohu.com/cs/button/$object
+images.sohu.com/cs/jsfile/adm/
+images.sohu.com/cs/jsfile/cnr/classfly.js
 scalink.sohu.com/
 /pv.sohu.com
 #a(href*=go.sohu.com)
