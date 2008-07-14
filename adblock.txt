@@ -434,11 +434,11 @@ mag.sina.com.cn/iframes.php
 mybizsite.sina.com.cn/
 pfp.sina.com.cn/
 pfpip.sina.com/
-you.video.sina.com.cn/pg/user/userJsTemplate.php
-you.video.sina.com.cn/v/iframe/
+you.video.sina.com.cn/v/iframe/$subdocument
 !--下面是一个广告图片，但是过滤该图片会导致news首页图片轮显不正常。如果有发现不正常的现象，可能是sina换了广告。
 @@|http://d1.sina.com.cn/200806/02/139424_kfc-blog-0603-jdt.jpg
 @@|http://interface.video.sina.com.cn/app/count/$script
+@@you.video.sina.com.cn/app/count/
 #a(href^=http://click.sina.com.cn/)
 #a(href=http://classadnew.sina.com.cn/doc/tuiguang.htm)
 sina.com.cn#*(id^=PublicRelation)(class*=adNone)
@@ -457,6 +457,7 @@ blog.sina.com.cn,mobile.sina.com.cn#div(top_bar)
 classadnew.sina.com.cn##TABLE[width="750"][style="border: 1px solid rgb(167, 167, 167);"]
 mag.sina.com.cn#div(id=guide)
 tech.sina.com.cn#table(class=PartMj_B)
+video.sina.com.cn###advertiseDiv
 www.sina.com,www.sina.com.cn#div(id=Search)
 
 !---星岛日报
