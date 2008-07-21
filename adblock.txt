@@ -1,6 +1,6 @@
 [Adblock Plus 0.7.5]
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:        July.20.2008
+!  Last Modified:        July.21.2008
 !         ----http://adblock-chinalist.googlecode.com/
 !Expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -586,17 +586,23 @@ tianyabook.com/piaofu/close.gif
 #a(href^=http://adclick.bbs.tianya.cn/admanager)
 
 !---Tom
+@@|http://ad.tom.com/TomFlashAd.js
 /pv.tom.com
 games.tom.com/*/*/*/*/*.swf
 games.tom.com#div(id^=Javascript.Div)
 img.news.tom.com/script/pv/tech.js
+js.pub.tom.com/8/sports-tl4.js
+news.tom.com/all070428o_170x424_tom_free_1.htm
 news.tom.com/inc/eachnet
+partner.p4p.search.tom.com
 tom.com#*(contbtmad)
 tom.com#*(conttopad)
 tom.com#*(sidebtmad)
 tom.com#*(sidemidad)
 tom.com#*(sidetopad)
 tom.com#*(txtlink)
+nba.sports.tom.com##div#body>table:first-child+table>tbody>tr:only-child>td:first-child[width="601"]>table:first-child[width="580"]>tbody>tr:first-child+tr
+nba.sports.tom.com##div#tomhead>table:first-child+table
 
 !---udn
 udn.com/1024MAIN/inc/main_content_ec.shtml
