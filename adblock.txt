@@ -154,7 +154,9 @@ cctv.com/*/cctv_sdc_frame.html
 cctv.com/Library/homepage2008/20080402/flash/tl_banner.swf
 cctv.com/soushi/special/C20704/20080618/images/1213783663036_sousuozhan.swf
 2008.cctv.com/28/index.shtml
-blog.cctv.com/js/minipage.js
+!-视频开始前的广告，过滤会导致视频无法播放
+@@|http://ads.cctv.com/xtserver/site=2008.cctv.com
+blog.cctv.com/include/js/minipage.js
 idm.cctv.com/flash/bd/$object
 idm.cctv.com#div(bd1)
 idm.cctv.com#div(bd3)
