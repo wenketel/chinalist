@@ -1,8 +1,8 @@
 [Adblock Plus 0.7.5]
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:        Aug.09.2008
+!  Last Modified:        Aug.26.2008
 !         ----http://adblock-chinalist.googlecode.com/
-!Expires: 1 day
+!Expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
 
 !---------------------White List------------------------
@@ -335,9 +335,12 @@ kooxoo.com##div#main-content>div:first-child>div:first-child[style="position: re
 hot.ku6.com/
 image.ku6.com/*shouye_banner*.swf
 image.ku6.com/888/200805/tb_btton.swf
-img.ku6.com/v5/logogg/
-img.ku6.com/v5/other/left_man2.swf
-img.ku6.com/v5/other/right_man2.swf
+image.ku6.com/a888d/
+img.ku6.com/v5/$object
+!-img.ku6.com/v5/logogg/
+!-img.ku6.com/v5/other/left_man2.swf
+!-img.ku6.com/v5/ku6_olympic4.swf
+!-img.ku6.com/v5/other/right_man2.swf
 stat-*.ku6.com/
 zt.ku6.com/almm/
 zt.ku6.com/podcast/
@@ -345,6 +348,7 @@ zt.ku6.com/podcast/
 #a(href^=http://stat1.888.ku6.com/g.do)
 ku6.com#div(id^=pic_gg_)
 ku6.com#div(id^=text_gg_)
+v.ku6.com#*(id^=frame_gg_9000)
 
 !---Microsoft
 mail.live.com#div(RadAd_Banner)
@@ -721,7 +725,6 @@ zaobao.com#table(width=370)(height=360)(align=left)
 zaobao.com#table(width=946)(height=102)
 
 !---ZOL
-zol.com.cn#*(id^=ad)
 .zol.com.cn/200*/
 .zol.com.cn/imphit0*.gif?
 pic.zol.com.cn/$subdocument
