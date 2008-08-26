@@ -382,6 +382,7 @@ mop.com##div[class="phLinkLefta left"][style="overflow: hidden; padding-left: 6p
 !---驱动之家
 /11.mydrivers.com
 images.mydrivers.com/20*/*x*.
+mydrivers.com#*(id^=ad_)
 mydrivers.com##body>table:first-child+table+table+table>tbody>tr>td:last-child[width="634"]>table[bgcolor="#eaeaea"][height="70"]
 
 !---NewHua
@@ -578,6 +579,7 @@ images.sohu.com/cs/jsfile/cnr/classfly.js
 scalink.sohu.com/
 /pv.sohu.com
 #a(href*=go.sohu.com)
+sohu.com#*(id^=ad_)
 sohu.com#a(href*=/goto.php?aid=)
 sohu.com#div(class=wireless)
 sohu.com,chinaren.com#sohuadcode
@@ -1153,9 +1155,14 @@ trswcm_plugins/adintrs/
 
 !-----------------------Element Hiding--------------------
 #*(ad)
-#*(class^=ad_)
-!-wretch.cc/album
-com,net,cn,hk,tw#*(id^=ad_)
+
+#*(id^=ad_thread)
+#*(class^=ad_thread)
+#*(id^=ad_footerbanner)
+#*(id^=ad_headerbanner)
+#*(class^=ad_text)
+#*(id=ad_interthread)
+
 #*(class$=_ad)
 #*(id$=_ad)
 #*(page_ad_left)
@@ -1287,6 +1294,7 @@ vista123.com##div[style="width: 260px; height: 260px; float: left;"]
 vista123.com#p(class=w_330)
 www.waf.com.cn###header+div[style="width: 98%; background-color: rgb(242, 255, 240); clear: both;"]+div[style="padding: 2px;"]+div[style="width: 98%; clear: both;"]>div:first-child[style="width: 260px; height: 235px; float: left;"]
 wretch.cc#*(ad_stamp)
+bbs.xdxdxd.com###ad_888
 xishui.net#*(id^=PublicRelation)
 xmnn.cn#table(class=bAD)
 ycwb.com##BODY:not([onload]) > table ~ table[width="995"][align="center"]:not(:first-child)
