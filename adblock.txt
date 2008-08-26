@@ -1,6 +1,6 @@
 [Adblock Plus 0.7.5]
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:        Aug.26.2008
+!  Last Modified:        Aug.27.2008
 !         ----http://adblock-chinalist.googlecode.com/
 !Expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -1160,7 +1160,6 @@ trswcm_plugins/adintrs/
 #*(class^=ad_thread)
 #*(id^=ad_footerbanner)
 #*(id^=ad_headerbanner)
-#*(class^=ad_text)
 #*(id=ad_interthread)
 
 #*(class$=_ad)
@@ -1293,6 +1292,7 @@ vista123.com##div#content_list>div:first-child
 vista123.com##div[style="width: 260px; height: 260px; float: left;"]
 vista123.com#p(class=w_330)
 www.waf.com.cn###header+div[style="width: 98%; background-color: rgb(242, 255, 240); clear: both;"]+div[style="padding: 2px;"]+div[style="width: 98%; clear: both;"]>div:first-child[style="width: 260px; height: 235px; float: left;"]
+bbs.whsee.com###ad_text>*:not(:first-child)
 wretch.cc#*(ad_stamp)
 bbs.xdxdxd.com###ad_888
 xishui.net#*(id^=PublicRelation)
