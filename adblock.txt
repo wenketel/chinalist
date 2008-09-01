@@ -256,6 +256,7 @@ cnbeta.com##div#fm_r, #userInfo, #h_right
 community.csdn.net/ui/homepage/images/questions.gif
 topic.csdn.net/t/img/*AD.
 zi.csdn.net/$image
+java.csdn.net###csdn_tag_adstyle
 www.csdn.net#div(banner)
 
 !---daqi
@@ -661,6 +662,11 @@ p4pmain.xunlei.com/
 p4pstatic.xunlei.com/
 pstatic.xunlei.com/js/webThunderDetect.js
 
+!---潇湘书院
+xxsy.net/js/pop*.js
+images.xxsy.net/sygg/
+read.xxsy.net/inc/*_show*.js
+
 !---Yahoo
 .overture.com/
 .bc.yahoo.com/b?P=
@@ -774,6 +780,8 @@ mofile.com#div(id$=_googlead)
 .atm.youku.com/
 
 !---Others
+05sun.com/js/300info.js
+05sun.com/js/db250.js
 .1ting.net/ADCodeClip/
 /un.265.com
 /link.265.com/images/760x60.gif
@@ -945,7 +953,6 @@ cpc.xioo.cn/code/
 xishui.net/down/js/a_newsd_$script
 my.xishui.net/aggd/$script
 xitek.com/market/marketads.gif
-.xxsy.net/js/pop*.js
 fun.ynet.com/var/cache/js/bqzn000612.js
 mms1.youav.com/
 .youboy.com/union/
@@ -1013,6 +1020,7 @@ network.business.com/
 .cgogo.cc/
 chanet.com.cn
 .cj.com/
+cnad.com
 cpv.channelray.com
 .cjoy.com.cn
 clickeye.cn
@@ -1125,6 +1133,7 @@ yx007.com
 !--------------------------Other (sort by letter)--------
 //pv(_.*)?\.(?:js|gif)/
 /[/\.](.*[_-])?\d*(?:all4|blog|flash|float|hot|my|narrow|page|pop|link|rss|scrolling|show|wait)?adv?s?(?:4all|agent|banner|brite|center|click|client|control|dhc|engage|er.*|fetch|file|flash|folder|frame|fshow|hot|img|js|image|juggler|manage|page|pic|picture|puba|right|show|space|store|tool|top|union|view)?(e?s)?\d*([-_].*)?[\?/\.]/
+/[/\.](.*[_-])?\d*(?:all4|blog|flash|float|hot|my|narrow|page|pop|link|rss|scrolling|show|wait)?adv?s?(?:4all|agent|banner|brite|center|click|client|control|dhc|engage|er.*|fetch|file.*|flash|folder|frame|fshow|hot|img|js|image|juggler|manage|page|pic.*|puba|right|show|space|store|tool|top|union|view)?(e?s)?\d*([-_].*)?[\?/\.]/
 /[/\.](.*[_-])?(?:flash|gif|sys|top)banners?\d*([_-].*)?[/\.]/
 /[/\.](?:stat|stat.*count(er)?|count(er)?)s?\d?[/\.]/$script,subdocument
 /__utm.js|
