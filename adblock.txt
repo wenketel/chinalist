@@ -1,6 +1,6 @@
 [Adblock Plus 0.7.5]
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:        Aug.31.2008
+!  Last Modified:        Sep.01.2008
 !         ----http://adblock-chinalist.googlecode.com/
 !Expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -122,20 +122,16 @@ pic.bahamut.com.tw/index_w/baha_active.swf
 pic.bahamut.com.tw/index_w/iSuper.swf
 
 !---Baidu
-cpro.baidu.com/
+cpro.baidu.com
 eiv.baidu.com
 news.baidu.com/js/usertrack.js
-spcode.baidu.com/spcode/baiduunion/
-spcode.baidu.com/spcode/spstyle/
+spcode.baidu.com/spcode
 /tk.baidu.com
-ucstat.baidu.com/
-union.baidu.com/
-unstat.baidu.com/
+ucstat.baidu.com
+unstat.baidu.com
 utk.baidu.com/usv/
 #a(href^=http://spcode.baidu.com/spcode/spClick?)
-#a(href^=http://union.baidu.com/)
 baidu.com#a(href^=http://ma.baidu.com/ma/rcv/click.php?)
-baidu.com#a(href^=http://www.baidu.com/baidu.php?url=)
 baidu.com#div(id^=bdfs)
 mp3.baidu.com##div#dMA + script + table[cellspacing][cellpadding]
 news.baidu.com#DIV(id=ecad)
