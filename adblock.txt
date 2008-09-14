@@ -1,6 +1,6 @@
 [Adblock Plus 0.7.5]
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:        Sep.13.2008
+!  Last Modified:        Sep.15.2008
 !         ----http://adblock-chinalist.googlecode.com/
 !Expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -153,6 +153,7 @@ ccnec.com###Comment+.Shopnei
 
 !---CCTV
 cctv.com/*/cctv_sdc_frame.html
+cctv.com/library/flash/70x140.swf
 cctv.com/Library/homepage2008/20080402/flash/tl_banner.swf
 cctv.com/Library/homepage2008/20080707/flash/clock.swf
 cctv.com/Library/homepage2008/20080728/flash/countdown.swf
@@ -171,6 +172,10 @@ idm.cctv.com#div(tuijian_tu)
 tv.cctv.com###channel_bar+script+div.vspace+table
 tv.cctv.com##.vspace+.md>.md_hdc:first-child+.md_hd+.md_bd>.image_list_box:first-child
 www.cctv.com##div[class="column_wrapper lc_hmpg"] div.col_1:first-child > div:first-child
+
+!---计世网
+imgs.ccw.com.cn/200*/0*_*_*_*0.$image,object
+ccw.com.cn##body>script:first-child+link+table+table+table.table_darkblue[width="980"][align="center"]
 
 !---中华网
 dvs.china.com/
@@ -298,6 +303,7 @@ greendown.cn/ggao/
 .ftchinese.com/sc/log.jsp
 ftchinese.com##body>table>tbody>tr:first-child>td:first-child>table>tbody>tr:first-child
 ftchinese.com##div#middle_inner>div:first-child
+ftchinese.com###leader_box:first-child
 
 !---Google
 .google-analytics.
@@ -319,7 +325,8 @@ itdoor.net##body>table>tbody>tr:only-child>td:first-child[background$="/headbg.j
 
 !---KingSoft
 /u.www.duba.net
-.iciba.com/top/top.
+iciba.com/top/top.
+iciba.com/union/
 /u.iciba.com/union
 goto.www.iciba.com
 union*.kingsoft.com/
@@ -652,6 +659,8 @@ uwants.com##td#umain>table:first-child+br+div+div.maintable>table>tbody>tr:first
 /222.37.134.
 www.verycd.com#li(non-topic)
 sponsor.verycd.com$~subdocument
+www.verycd.com##iframe.Banner2
+www.verycd.com###page-body>iframe:first-child
 
 !---新华网
 .xinhuanet.com/classad/
@@ -707,7 +716,8 @@ mail.163.com#a(href=http://cn.mail.yahoo.com/)
 mail.google.com#a(href=http://cn.mail.yahoo.com/)
 mail.yahoo.com#div(id=swPane)
 mail.yahoo.com#div(id=slot_MNW)
-search.yahoo.com###left>#main>#web+.bbox
+search.yahoo.com###left>#main>.bbox
+search.yahoo.com###right>#east
 
 !---yam天空
 yam.com/ad5*.swf
@@ -721,16 +731,18 @@ www.yam.com###m_tab6
 www.yam.com###main>#left+#middle>#m_tab1:first-child+#m_tab11+.m_eq
 
 !---天极网
+yesky.com/*yeskyflash.js
+yesky.com/lbad/
 media.yesky.com/
 /vd.yesky.com/html/js/1*.js
 /vd.yesky.com/html/js/2*.js
 /vd.yesky.com/html/js/3*.js
-.yesky.com/*yeskyflash.js
 yesky.com#div(class=tad)
 yesky.com#div(id^=adgg)
 q.yesky.com###pop_1.fdiv4
 
 !---Yupoo
+@@|http://pic.yupoo.com/lightory/*ad
 pic.yupoo.com/15532511/4573056c2495/gj8srxox.jpg
 pic.yupoo.com/awflasher/454485c6d5b4/medium.jpg
 pic.yupoo.com/jdvip/140355cfeae1/bmm1gd1t.jpg
@@ -789,6 +801,7 @@ mofile.com#div(id$=_googlead)
 05sun.com/js/db250.js
 .1b2.cn/shipin/*.js
 .1ting.net/ADCodeClip/
+it.21cn.com/images/itad/
 /un.265.com
 /link.265.com/images/760x60.gif
 /tj.28.com
@@ -797,6 +810,7 @@ lucky.39.net/
 3ddown.com/other/js/A_*.js
 www.4oa.com/js/html/office300x300.html
 www.4oa.com/js/index970_4index.html
+code.52qiangming.com/js/button.js
 .67.com/*/frmCircleNews.htm
 sessionsmon.88db.com/
 a8-asy.a8ww.net
@@ -851,6 +865,7 @@ feed.feedsky.com/~cpm/$object
 .fixdown.com/168/
 fj007.com/images
 fj007.com/money
+flash8.net/flash8_a_d_s/
 fs2you.com/media/3rd/
 images.gamebase.com.tw/200*/event/*_*/$image
 .gameflier.com/upload/Tower/
@@ -949,8 +964,8 @@ bbs.tompda.com/*.htm$subdocument
 .tompda.com/tuijian/gg*/
 sysimages.tq.cn/js/tqFloatWin_agent.js
 /dm.travelocity.com/*.ng/site=*&locale=
-img.tugus.com/rubens/250-250.jpg
-img.tugus.com/rubens/500-60.jpg
+img.tugus.com/rubens/250-250
+img.tugus.com/rubens/500-60
 .uacinemas.com.hk/publicUA/images/*/uaBanner.
 .vista123.com/Script/popup_*.js
 img.vista123.com/*3*5x80.gif
@@ -1125,11 +1140,11 @@ uoolink.com/
 .valueclickmedia.com
 .videoegg.com
 vip-qq-entertainment
-.vodone.cn/
-.vodone.com/
-.vogate.com/
+vodone.c
+vogate.com
 .wanliuliang.com
-.web888.org/
+web888.org
+webdawn.com.cn
 .wrating.com
 x-push.net
 .xcdv.com
@@ -1335,6 +1350,7 @@ xishui.net#*(id^=PublicRelation)
 xmnn.cn#table(class=bAD)
 ycwb.com##BODY:not([onload]) > table ~ table[width="995"][align="center"]:not(:first-child)
 ynet.com#div(adBanner)
+zhuaxia.com#*(id*=_ad_)
 zzit.com.cn#div(id=Article_Top_Banner)
 
 
