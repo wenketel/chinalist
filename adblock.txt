@@ -1,6 +1,6 @@
 [Adblock Plus 0.7.5]
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:        Sep.24.2008
+!  Last Modified:        Sep.28.2008
 !         ----http://adblock-chinalist.googlecode.com/
 !Expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -339,6 +339,7 @@ google.cn,google.com,google.com.tw,google.com.hk#table(mbEnd)
 #a(href*=doubleclick.net/)
 
 !---ifeng
+sc.ifeng.com
 sta.ifeng.com/stadig/
 ifeng.com#div(class^=adlist)
 img.phoenixtv.com/tres/recommend/
@@ -720,13 +721,16 @@ diy.cn.yahoo.com/cm/cm.php
 /p.mm.cn.yahoo.com/alimama.php
 p4p.cn.yahoo.com/$script
 cm.p4p.cn.yahoo.com/
-js.tongji.yahoo.com.cn/*/ystat.js
+js.tongji.yahoo.com
 cn.yimg.com/a/xiaoyue/576553_600_90_080607_s.swf
 cn.yimg.com/a/yushiliu/
 cn.yimg.com/ent/ycy/071023/smal02.swf
 cn.yimg.com/i/cn/assistant/bd/
+cn.yimg.com/jackie/pic/728x90.swf
 cn.yimg.com/news/hp/region/newsmap230_200.swf
+cn.yimg.com/yahoofuwu/banner/
 L.yimg.com/tw.yimg.com/a/tw/js/flash_general_$script
+!-
 #*(id*=YahooAd)
 #a(href*=rd.yahoo.com/SIG=)
 #a(href*=click.p4p.cn.yahoo.com)
@@ -737,6 +741,7 @@ cn.yahoo.com###ymw-mod
 cn.yahoo.com##.yst-photo+style+table#p4pb
 cn.yahoo.com#*(id=textadv)
 cn.yahoo.com#div(id^=biz_)(id$=_cp)
+ks.cn.yahoo.com###main+#side1+#side2>.banner:first-child
 news.cn.yahoo.com#div(id=relnews)
 tw.news.yahoo.com#div(id=adst)
 tw.news.yahoo.com#div(id=ynwsadk)
@@ -763,6 +768,7 @@ www.yam.com###main>#left+#middle>#m_tab1:first-child+#m_tab11+.m_eq
 yesky.com/*yeskyflash.js
 yesky.com/lbad/
 media.yesky.com/
+ucpn.yesky.com/js.ng/
 /vd.yesky.com/html/js/1*.js
 /vd.yesky.com/html/js/2*.js
 /vd.yesky.com/html/js/3*.js
@@ -838,6 +844,7 @@ mofile.com#div(id$=_googlead)
 www.4oa.com/js/html/office300x300.html
 www.4oa.com/js/index970_4index.html
 code.52qiangming.com/js/button.js
+5dmail.net/image/$object
 .67.com/*/frmCircleNews.htm
 sessionsmon.88db.com/
 c.91wan.com/
@@ -904,6 +911,7 @@ gimpusers.com/js/common.js
 .gndaily.com/gzad/
 /un.so.gougou.com
 haiguinet.com/aadd.html
+hangzhou.com.cn/inc_hzw/
 hanzify.org/Main/Template/*/a-d-s/
 .hb28.com/images/fd.js
 hb666.com/cms/images/aoyun.jpg
@@ -924,6 +932,7 @@ inews.i-cable.com/icable/home/chi/images/opening.swf
 old.idc-1.com/store/images/hp/hp_*.gif
 cp.intl.match.com/*/msn/
 ftp.javaeye.com/$object
+img.jb51.net/imgby/
 .jiatx.com/html/chinajiatx/
 jobems.com/js/ShowADsKw.js
 adelivery.hk.jobsdb.com/
@@ -965,6 +974,7 @@ ok131.com/ok131/
 /33.pcpop.com
 pdafans.com/images/banner/
 /petsay.com/images/petsay.jpg
+sub.powerapple.com
 .qiaoka.com/ima/*.swf
 /qa.qicaihong.com
 qingdaonews.com/sousuo/sousu_d765.htm
@@ -1007,6 +1017,7 @@ cpc.xioo.cn/code/
 xishui.net/down/js/a_newsd_$script
 my.xishui.net/aggd/$script
 xitek.com/market/marketads.gif
+xker.com/ggjs/
 fun.ynet.com/var/cache/js/bqzn000612.js
 mms1.youav.com/
 .youboy.com/union/
@@ -1103,6 +1114,7 @@ free9.net
 ftjcfx.com
 fxlayer.net
 gcuj.com
+googlesyndication.com
 gooooogle.com.cn
 .ha173.com/
 .hdzxw.com/flgg/
@@ -1144,6 +1156,7 @@ mxmtrack.com
 my5757.com
 myad.cn/
 myiee.com
+mydomain.namerich.cn
 .netgoo.com/
 .newwang.com/
 .oadz.com
@@ -1180,7 +1193,6 @@ x-push.net
 .xcdv.com
 .xpresssyndication.com
 xwadv.com
-js.tongji.yahoo.com
 yansulian.com
 .yigao.com
 .yoyi.com.cn
