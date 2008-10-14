@@ -1,6 +1,6 @@
 [Adblock Plus 0.7.5]
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:        Oct.13.2008
+!  Last Modified:        Oct.15.2008
 !         ----http://adblock-chinalist.googlecode.com/
 !Expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -301,7 +301,10 @@ log.daqi.com/
 
 !---discuss.hk
 discuss.com.hk/overture/
+discuss.com.hk#a(href*=ad_redirect.php)
 discuss.com.hk#div(id=overture_bottom)
+discuss.com.hk##div#thread_ads_bottom + table[width="100%"]
+discuss.com.hk##div#thread_ads_top + table[width="100%"]
 discuss.com.hk##td[valign="bottom"][height="35"][align="center"]:first-child:last-child
 discuss.com.hk##span[id^="thread_ads_"] + a:last-child
 discuss.com.hk##span[id^="thread_ads_"] + div[align="left"] > a:first-child:last-child
@@ -1302,12 +1305,15 @@ trswcm_plugins/adintrs/
 #*(topads)
 #a(href*=.800hr.com/ctosee/ctosee.php?url=)
 #a(href*=.adbrite.com/)
-#a(href*=/adclick.php?)
 #a(href*=.adsunion.com)
 #a(href*=.allyes.com/main/adfclick)
 #a(href*=.doubleclick.net/)
+#a(href*=.newcnad.com/)
+#a(href*=/adclick.php?)
 #a(href*=/guanggao)
 #a(href*=ht.28.com/)
+#a(href*=linktech.cn/)
+#a(href*=mxmtrack.com/click.php)
 #a(href^=http://admin.biz178.com/)
 #a(href^=http://go.maxreturn.cn/)
 #a(href^=http://link.24files.com)
@@ -1321,8 +1327,6 @@ trswcm_plugins/adintrs/
 #a(href^=http://www.joyo.com/book/?source=)
 #a(href^=http://www.lenovoad.com/)
 #a(href^=http://www.sdgj.)
-#a(href*=linktech.cn/)
-#a(href*=.newcnad.com/)
 www.1000fr.com###ad_text
 3quote.info#td(width=364)(height=280)
 3quote.info#td(width=728)(height=31)(bordercolor=#FFFFFF)
