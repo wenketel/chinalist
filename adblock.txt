@@ -499,8 +499,6 @@ qd.code.qihoo.com/com_spe_cache.js
 
 !---QQ
 adsrich.qq.com/
-!- custom_menu.xml is not used for ad, but not compatible with ff well, if fixed, plz remove this item.
-imgcache.qq.com/qzone/client/custom_menu/custom_menu.xml
 jingjia.qq.com/
 mat1.qq.com/www/flash/
 pingjs.qq.com/ping.js
@@ -1227,7 +1225,7 @@ yx007.com
 
 !--------------------------Other (sort by letter)--------
 //pv(_.*)?\.(?:js|gif)/
-/[/\.](.*[_-])?\d*(?:all4|blog|flash|float|hot|my|narrow|page|pop|link|rss|scrolling|show|wait)?adv?s?(?:4all|agent|banner|brite|center|click|client|control|dhc|engage|er.*|fetch|file.*|flash|folder|frame|fshow|hot|img|js|image|juggler|manage|page|pic.*|puba|right|show|space|store|tool|top|union|view)?(e?s)?\d*([-_].*)?[\?/\.]/
+/[/\.](.*[_-])?\d*(?:all4|blog|flash|float|hot|my|narrow|page|pop|link|rss|scrolling|show|wait)?adv?s?(?:4all|agent|banner|brite|center|click|client|code|control|dhc|engage|er.*|fetch|file.*|flash|folder|frame|fshow|hot|img|js|image|juggler|manage|page|pic.*|puba|right|show|space|stat|store|tool|top|union|view)?(e?s)?\d*([-_].*)?[\?/\.]/
 /[/\.](.*[_-])?(?:flash|gif|sys|top)banners?\d*([_-].*)?[/\.]/
 /[/\.](?:stat|stat.*count(er)?|count(er)?)s?\d?[/\.]/$script,subdocument
 /__utm.js|
