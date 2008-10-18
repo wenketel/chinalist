@@ -1,6 +1,6 @@
 [Adblock Plus 0.7.5]
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:        Oct.17.2008
+!  Last Modified:        Oct.18.2008
 !         ----http://adblock-chinalist.googlecode.com/
 !Expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -430,8 +430,11 @@ mydrivers.com#*(id^=ad_)
 mydrivers.com##body>table:first-child+table+table+table>tbody>tr>td:last-child[width="634"]>table[bgcolor="#eaeaea"][height="70"]
 
 !---NewHua
+/newhuagg/999aadbak.js
+/newhuagg/newhua_bannerr.js
+/newhuagg/pcsoft_banner.js
 news.newhua.com/files/newhuagg/All_top0.js
-onlinedown.net/newhuagg/
+onlinedown.net/newhuagg/$image
 onlinedown.net/adhuajun2.js
 onlinedown.net##table#top_tab>tbody>tr:first-child+tr
 
