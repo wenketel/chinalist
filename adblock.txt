@@ -1,6 +1,6 @@
 [Adblock Plus 0.7.5]
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:        Oct.19.2008
+!  Last Modified:        Oct.20.2008
 !         ----http://adblock-chinalist.googlecode.com/
 !Expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -467,14 +467,12 @@ news.pchome.com.tw###top+a+a+div[align="center"][style="position: relative; heig
 pconline.com.cn/js/ivy.js
 pconline.com.cn/market/open/
 acount.pconline.com.cn/
-image.pconline.com.cn/gz/
+www1.pconline.com.cn/script/01shouyetonglan7.html
 #a(href^=http://ivy.pconline.com.cn/adpuba/)
+pconline.com.cn###pcHeader+.main
+pconline.com.cn##.art_area>div[style="padding: 5px; float: left; width: 310px;"]
 pconline.com.cn##.oldtop_nav3+table[bgcolor="#ffffff"][width="760"][align="center"]
-pconline.com.cn##div#top+div.main
-pconline.com.cn#div(class=top_banner)
-pconline.com.cn#div(id=shanjiad)
 pconline.com.cn#div(style=float: left; width: 320px;)
-www.pconline.com.cn##body>script:first-child+span.spanclass+script+table[height="26"]+table+table+table+table+table[height="9"][bgcolor="#e2e1e7"]+table[bgcolor="#ffffff"][width="760"]
 
 !---起点中文网
 qidian.com/Images/mark.gif
@@ -847,8 +845,6 @@ mofile.com#div(id$=_googlead)
 /un.265.com
 /link.265.com/images/760x60.gif
 /tj.28.com
-imgad1.3conline.com/
-imgad3.3conline.com/
 3ddown.com/other/js/760.js
 3ddown.com/other/js/A_*.js
 www.4oa.com/js/html/office300x300.html
@@ -1224,7 +1220,7 @@ yx007.com
 
 !--------------------------Other (sort by letter)--------
 //pv(_.*)?\.(?:js|gif)/
-/[/\.](.*[_-])?\d*(?:all4|blog|flash|float|hot|my|narrow|page|pop|link|rss|scrolling|show|wait)?adv?s?(?:4all|agent|banner|brite|center|click|client|code|control|dhc|engage|er.*|fetch|file.*|flash|folder|frame|fshow|hot|img|js|image|juggler|manage|page|pic.*|puba|right|show|space|stat|store|tool|top|union|view)?(e?s)?\d*([-_].*)?[\?/\.]/
+/[/\.](.*[_-])?\d*(?:all4|blog|flash|float|hot|img|my|narrow|page|pop|link|rss|scrolling|show|wait)?adv?s?(?:4all|agent|banner|brite|center|click|client|code|control|dhc|engage|er.*|fetch|file.*|flash|folder|frame|fshow|hot|img|js|image|juggler|manage|page|pic.*|puba|right|show|space|stat|store|tool|top|union|view)?(e?s)?\d*([-_].*)?[\?/\.]/
 /[/\.](.*[_-])?(?:flash|gif|sys|top)banners?\d*([_-].*)?[/\.]/
 /[/\.](?:stat|stat.*count(er)?|count(er)?)s?\d?[/\.]/$script,subdocument
 /__utm.js|
