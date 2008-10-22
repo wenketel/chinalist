@@ -2,7 +2,7 @@
 !  Adblock Plus List with Main Focus on Chinese Sites.
 !  Last Modified:        Oct.20.2008
 !         ----http://adblock-chinalist.googlecode.com/
-!Expires: 5 days
+!coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
 
 !---------------------White List------------------------
@@ -1042,7 +1042,7 @@ am.zdnet.com.cn/www/delivery/
 union.zhongsou.com/
 
 
-!-----------------pornographic, spam, ads-union, statistics...
+!----------------pornographic, spam, ads-union, statistics...
 .033.com/
 .100tone.com/
 /1133.cc
@@ -1407,15 +1407,4 @@ ynet.com#div(adBanner)
 zhuaxia.com#*(id*=_ad_)
 zzit.com.cn#div(id=Article_Top_Banner)
 
-
-!---------------------Will Be Deleted, To Be Confirmed----
-!--Reasons:
-!--1: The site is unavailable now, and can find nothing from google "site:" search.
-!--2: The site may changed their code, made the rule invalid, but I don't sure.
-!--3: The rule is misused, it may kill other harmless things.
-!-------------------
-!-for reason 1:
-!-for reason 2:
-sina.com.cn#div(class^=adHouse)
-!-for reason 3:
-!-other, why?
+!------------------------End of List--------------------------------------------------------
