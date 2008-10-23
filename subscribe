@@ -1,0 +1,288 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>adblock-chinalist - Google Code</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <base href="http://code.google.com" />
+    <link type="text/css" rel="stylesheet" href="/hosting/css/d_20081006.css" />
+    <!--[if IE]>
+    <link type="text/css" rel="stylesheet" href="/hosting/css/d_ie.css" />
+    <![endif]-->
+  </head>
+  <body class="t1">
+    <div id="gaia">
+      <a href="/p/support/wiki/WhatsNew" style="color:#a03">What's new?</a> | 
+      <a href="/p/support/">Help</a> | 
+      <a href="/more/">Directory</a> |
+      <a href="http://www.google.com/accounts/Login?continue=http://code.google.com/p/adblock-chinalist/&amp;followup=http://code.google.com/p/adblock-chinalist/">Sign in</a>
+    </div>
+    <table style="padding:0px; margin: 0px 0px -6px 0; width:100%" cellpadding="0" cellspacing="0">
+      <tr>
+	<td style="width:153px">
+	  <a href="/">
+	    <img src="http://www.gstatic.com/codesite/ph/images/code_sm.png" width="153" height="55" alt="Google"/>
+	  </a>
+	</td>
+	<td style="padding-left: 1.5em">
+	  <div id="pname">
+	    <a href="/p/adblock-chinalist/" style="text-decoration:none; color:#000">adblock-chinalist</a>
+	  </div>
+	  <div id="psum">
+	    <i>
+	      <a href="/p/adblock-chinalist/" style="text-decoration:none; color:#000">
+		Adblock Plus List with Main Focus on Chinese Sites.
+	      </a>
+	    </i>
+	  </div>
+	</td>
+	<td style="white-space:nowrap; text-align:right">
+	  <form action="/hosting/search">
+	    <div>
+	      <input size="30" name="q" value=""/>
+	      <input type="submit" name="projectsearch" value="Search Projects" />
+	      <input type="submit" name="websearch" value="Search the Web" />
+	    </div>
+	  </form>
+	</td>
+      </tr>
+    </table>
+    <table id="mt" cellspacing="0" cellpadding="0" width="100%" border="0">
+      <tr>
+	<th onclick="if (!cancelBubble) _go('/p/adblock-chinalist/');">
+	  <div class="tab active">
+	    <div class="round4"></div>
+	    <div class="round2"></div>
+	    <div class="round1"></div>
+	    <div class="box-inner">
+	      <a onclick="cancelBubble=true;" href="/p/adblock-chinalist/">Project&nbsp;Home</a>
+	    </div>
+	  </div>
+	</th>
+	<td>&nbsp;&nbsp;</td>
+	<th onclick="if (!cancelBubble) _go('/p/adblock-chinalist/w/list');">
+	  <div class="tab inactive">
+	    <div class="round4"></div>
+	    <div class="round2"></div>
+	    <div class="round1"></div>
+	    <div class="box-inner">
+	      <a onclick="cancelBubble=true;" href="/p/adblock-chinalist/w/list">Wiki</a>
+	    </div>
+	  </div>
+	</th><td>&nbsp;&nbsp;</td>
+	<th onclick="if (!cancelBubble) _go('/p/adblock-chinalist/issues/list');">
+	  <div class="tab inactive">
+	    <div class="round4"></div>
+	    <div class="round2"></div>
+	    <div class="round1"></div>
+	    <div class="box-inner">
+	      <a onclick="cancelBubble=true;" href="/p/adblock-chinalist/issues/list">Issues</a>
+	    </div>
+	  </div>
+	</th>
+	<td>&nbsp;&nbsp;</td>
+	<th onclick="if (!cancelBubble) _go('/p/adblock-chinalist/source/checkout');">
+	  <div class="tab inactive">
+	    <div class="round4"></div>
+	    <div class="round2"></div>
+	    <div class="round1"></div>
+	    <div class="box-inner">
+	      <a onclick="cancelBubble=true;" href="/p/adblock-chinalist/source/checkout">Source</a>
+	    </div>
+	  </div>
+	</th>
+	<td>&nbsp;&nbsp;</td>
+	<td width="100%">&nbsp;</td>
+      </tr>
+    </table>
+    <table cellspacing="0" cellpadding="0" width="100%" border="0" class="st">
+      <tr>
+	<td>
+	  <style type="text/css">
+	    .project-summary-page .inProjectSummary a,
+	    .project-updates-page .inProjectUpdates a {
+	      font-weight: bold; 
+	      text-decoration: none;
+	      color: black;
+	    }
+	  </style>
+	  <div class="project-summary-page">
+	    <div class="isf">
+	      <span class="inProjectSummary">
+		<a href="/p/adblock-chinalist/">Summary</a>
+	      </span> | 
+	      <span class="inProjectUpdates">
+		<a href="/p/adblock-chinalist/updates/list">Updates</a>
+	      </span>
+	    </div>
+	  </div>
+	</td>
+	<td align="right" valign="top" class="bevel-right">
+	  <div class="round4"></div>
+	  <div class="round2"></div>
+	  <div class="round1"></div>
+	</td>
+      </tr>
+    </table>
+    <script type="text/javascript">
+      var cancelBubble = false;
+      function _go(url) { document.location = url; }
+    </script>
+    <div id="maincol">
+      <!-- IE -->
+      <style type="text/css">
+	#downloadbox { 
+	  padding: 6px; 
+	  overflow: hidden;
+	  white-space: nowrap;
+	  text-overflow: ellipsis;
+	}
+	#downloadbox a {
+	  margin: 6px 0 0 3em;
+	  display: block;
+	  padding-left: 18px;
+	  background: url(/hosting/images/dl_arrow.gif) no-repeat bottom left;
+	}
+	#owners a, #members a { white-space: nowrap; }
+      </style>
+      <div style="float:right; width:25em; margin:0 0 1em 2em">
+	<div class="pmeta_bubble_bg">
+	  <div class="round4"></div>
+	  <div class="round2"></div>
+	  <div class="round1"></div>
+	  <div class="box-inner">
+	    <table class="pmeta" cellpadding="5">
+	       <tr>
+		 <th><nobr>Code License:</nobr></th>
+		 <td>
+		   <a href="http://www.gnu.org/licenses/lgpl.html">GNU Lesser General Public License</a>
+		 </td>
+	       </tr>
+	       <tr><th>Labels:</th>
+		 <td>
+		   <a href="/hosting/search?q=label:adblock">adblock</a>, 
+		   <a href="/hosting/search?q=label:China">China</a>, 
+		   <a href="/hosting/search?q=label:addon">addon</a>, 
+		   <a href="/hosting/search?q=label:firefox">firefox</a>, 
+		   <a href="/hosting/search?q=label:filter">filter</a>
+		 </td>
+	       </tr>
+	    </table>
+	  </div>
+	  <div class="round1"></div>
+	  <div class="round2"></div>
+	  <div class="round4"></div>
+	</div>
+	<div style="background:#ddf8cc; margin-bottom: 5px;table-layout:fixed">
+	  <div class="round4"></div>
+	  <div class="round2"></div>
+	  <div class="round1"></div>
+	  <div class="box-inner">
+	    <div id="wikibox" style="padding: 6px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis">
+	      <a href="w/list" style="float: right; padding:0; background: none;" >Show all</a>
+	      <b>Featured Wiki Pages:</b><br/>
+	      <a href="wiki/AboutNoSexNoEnt" style="margin: 6px 0 0 3em; display: block;" >AboutNoSexNoEnt</a>
+	      <a href="wiki/FAQ" style="margin: 6px 0 0 3em; display: block;" >FAQ</a>
+	      <a href="wiki/Striving_for_Perfection" style="margin: 6px 0 0 3em; display: block;">Striving_for_Perfection</a>
+	    </div>
+	  </div>
+	  <div class="round1"></div>
+	  <div class="round2"></div>
+	  <div class="round4"></div>
+	</div>
+	<div class="pmeta_bubble_bg">
+	  <div class="round4"></div>
+	  <div class="round2"></div>
+	  <div class="round1"></div>
+	  <div class="box-inner">
+	    <table class="pmeta" cellpadding="5">
+	       <tr>
+		 <th>Links:</th>
+		 <td>
+		   <ul>
+		     <li><a href="http://adblock-chinalist.googlecode.com/svn/trunk/subscribe">订阅 ChinaList</a></li>
+		     <li><a href="http://code.google.com/p/adblock-chinalist/source/list">查看更新</a></li>
+		     <li><a href="http://adblockplus.org/en/">Adblock Plus 官网</a></li>
+		 </ul></td>
+	       </tr>
+	        <tr>
+		  <th>Feeds:</th>
+		  <td>
+		    <ul>
+		      <li><a href="/p/adblock-chinalist/feeds">Project Feeds</a></li>
+		    </ul>
+		  </td>
+		</tr>
+	       <tr>
+		 <th>Groups:</th>
+		 <td>
+		   <ul>
+		     <li><a href="http://groups.google.com/group/adblock-chinalist">欢迎参与讨论</a></li>
+		   </ul>
+		 </td>
+	       </tr>
+	    </table>
+	  </div>
+	  <div class="round1"></div>
+	  <div class="round2"></div>
+	  <div class="round4"></div>
+	</div>
+	<div class="pmeta_bubble_bg">
+	  <div class="round4"></div>
+	  <div class="round2"></div>
+	  <div class="round1"></div>
+	  <div class="box-inner">
+	    <a style="float:right;padding:6px" href="http://code.google.com/p/support/wiki/HowToJoinAProject">How to join?</a>
+	    <table class="pmeta" cellpadding="3" style="padding:3px">
+	      <tr>
+		<th colspan="2">Project owners:</th>
+	      </tr>
+	      <tr>
+		<td style="width:4em">&nbsp;</td>
+		<td id="owners">
+		  <a href="/u/lovelywcm/">lovelywcm</a>
+		</td>
+	      </tr>
+	      <tr>
+		<th colspan="2" style="padding-top:6px">Project members:</th>
+	      </tr>
+	      <tr>
+		<td></td>
+		<td id="members">
+		   <a href="/u/dingar/">dingar</a>, 
+		    <a href="/u/foulife/">foulife</a>
+		</td>
+	      </tr>
+	    </table>
+	  </div>
+	  <div class="round1"></div>
+	  <div class="round2"></div>
+	  <div class="round4"></div>
+	</div>
+      </div>
+      <div id="wikicontent" style="padding:0 3em 1.2em 0">
+	<p>　 </p>
+	<h3><a name="从此和广告说再见"/>　　　　　从此，和广告说再见</h3>
+	<h2><a name="主要面向中文網站的_Adblock_Plus_過濾列表"/>主要面向中文網站的 Adblock Plus 過濾列表</h2>
+	<p>　 　 　 </p>
+	<h2><a name="订阅"/>订阅：</h2>
+	<p><a />　</p>
+	<p><a href="abp:subscribe?location=http://adblock-chinalist.googlecode.com/svn/trunk/adblock.txt&amp;title=ChinaList">ChinaList</a></p>
+	<p><a />　</p>
+	<p><a href="abp:subscribe?location=http://adblock-chinalist.googlecode.com/svn/trunk/adblock-NoSex-NoEnt.txt&amp;title=NoSex-NoEnt">NoSex-NoEnt</a></p>
+      </div>
+      <br/><br/><br/><br/><br/><br/><br/><br/>
+      <script type="text/javascript" src="/hosting/js/core_scripts_20080909.js"></script>
+    </div>
+    <div id="footer" dir="ltr">
+      <div class="text">
+	&copy;2008 Google -
+	<a href="/">Code Home</a> -
+	<a href="/tos.html">Terms of Service</a> -
+	<a href="http://www.google.com/privacy.html">Privacy Policy</a> -
+	<a href="/more/">Site Directory</a>
+      </div>
+    </div>
+  </body>
+</html>
+
