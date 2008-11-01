@@ -13,6 +13,8 @@
 # you may want to change this to fit your situation
 listdir=~/svn/abp-chinalist/trunk;
 
+touch $listdir/tmp;
+
 for file in $listdir/*
 do
     filename=`echo $file | sed s/"\/.*\/"//`;
@@ -22,10 +24,14 @@ do
     if [ $filename == "addChecksum.pl" ]; then
 	continue;
     fi
-    sed -i s/"Last Modified:.*$"/"Last Modified:  `date -R -r $file`"/ $file;
-    $listdir/addChecksum.pl $file;
+    # modified less than 30 mins, avoid changing file status every time.
+    if (( `stat -c %Y tmp` - `stat -c %Y $file` - 30*60 < 0 )); then
+	sed -i s/"Last Modified:.*$"/"Last Modified:  `date -R -r $file`"/ $file;
+	$listdir/addChecksum.pl $file;
+    fi
 done
 
+rm $listdir/tmp;
 svn ci -m "$*";
 
 # you can simply run this script, or throw it to your ~/.bash_alias like:
