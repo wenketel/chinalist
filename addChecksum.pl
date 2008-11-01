@@ -1,4 +1,5 @@
 #!/usr/bin/perl
+!  Checksum: ag2ZkttOe0F1E16l08f8Nw
 
 #############################################################################
 # This is a reference script to add checksums to downloadable               #
@@ -12,6 +13,7 @@
 # Note: your subscription file should be saved in UTF-8 encoding, otherwise #
 # the generated checksum might be incorrect.                                #
 #                                                                           #
+# This script is wrote by Wladimir Palant with a minor edit by ChinaList    #
 #############################################################################
 
 use strict;
