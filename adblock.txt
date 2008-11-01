@@ -1,7 +1,7 @@
 [Adblock Plus 0.7.5]
-!  Checksum: iWH4DP4vct8+S8laRyxDng
+!  Checksum: He5FX2Kklpi7tmm6vjo8Dg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 01 Nov 2008 16:24:04 +0800
+!  Last Modified:  Sat, 01 Nov 2008 16:38:12 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -350,9 +350,10 @@ ftchinese.com###leader_box:first-child
 !---Google
 .google-analytics.
 mail.google.com#*(slwyWc)
+google.cn,google.com,google.com.hk,google.com.tw#table(mbEnd)
 google.cn,google.com,google.com.hk,google.com.tw##body[vlink="#499f9f"]>div[align="left"]:first-child+style+table[style="border: 1px solid rgb(0, 102, 102);"]
-google.cn,google.com,google.com.tw,google.com.hk##div.ta[id^=tpa][style^="border: 1px none rgb(213, 221, 243); background: rgb(255, 249, 221) none repeat scroll 0% 0%;"]
-google.cn,google.com,google.com.tw,google.com.hk#table(mbEnd)
+google.cn,google.com,google.com.hk,google.com.tw##div.ta[id^=tpa][style^="border: 1px none rgb(213, 221, 243); background: rgb(255, 249, 221) none repeat scroll 0% 0%;"]
+google.cn,google.com,google.com.hk,google.com.tw###tads
 #a(href*=doubleclick.net/)
 
 !---ifeng
@@ -784,6 +785,7 @@ www.yam.com###main>#left+#middle>#m_tab1:first-child+#m_tab11+.m_eq
 yesky.com/*yeskyflash.js
 yesky.com/lbad/
 media.yesky.com/
+tools.yesky.com/imagelist$object
 ucpn.yesky.com/js.ng/
 /vd.yesky.com/html/js/1*.js
 /vd.yesky.com/html/js/2*.js
@@ -1047,6 +1049,7 @@ xishui.net/down/js/a_newsd_$script
 my.xishui.net/aggd/$script
 xitek.com/market/marketads.gif
 xker.com/ggjs/
+yinnpixel.com/images/portfolio/*x
 fun.ynet.com/var/cache/js/bqzn000612.js
 mms1.youav.com/
 .youboy.com/union/
@@ -1301,6 +1304,7 @@ trswcm_plugins/adintrs/
 #*(AdContainer)
 #*(AdPanel)
 #*(Advertising)
+#*(alt=广告)
 #*(class^=gg-)
 #*(guanggao)
 #*(id^=span_ad)
