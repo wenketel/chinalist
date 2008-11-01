@@ -1,7 +1,7 @@
 [Adblock Plus 0.7.5]
-!  Checksum: SPXmXtiEoXwNIsnEuj3Nug
+!  Checksum: 1jS94pAkM0h8v1XNR94NDg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 01 Nov 2008 15:08:55 +0800
+!  Last Modified:  Sat, 01 Nov 2008 14:34:37 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -9,10 +9,8 @@
 !---------------------White List------------------------
 @@|http://www.gnu.org/
 @@|http://s.mcstatic.com/Flash/adv/$subrequest
-@@|https://addons.mozilla.org/js/stats/
 @@|http://www.networkworld.com/slideshows/refresh-ads.js
 @@|http://imgsrv6.perfspot.com/pics/$image
-@@|http://counter.shooter.cn/
 @@|http://upload.wikimedia.org/wikipedia/
 @@|http://s.xanga.com/partners/
 @@|http://www.zecco.com/
@@ -554,8 +552,6 @@ blogimg.sinajs.cn/v5images/olympic/bottle/bottle_bottom.swf
 blogjs.sinajs.cn/v5js/blogPromote.conf.js
 spacejs.sinajs.cn/js/space_all.js
 
-@@|http://interface.video.sina.com.cn/app/count/$script
-@@you.video.sina.com.cn/app/count/
 #a(href^=http://click.sina.com.cn/)
 #a(href=http://classadnew.sina.com.cn/doc/tuiguang.htm)
 sina.com.cn#*(id^=PublicRelation)(class*=adNone)
@@ -1233,7 +1229,6 @@ yx007.com
 //pv(_.*)?\.(?:js|gif)/
 /[/\.](.*[_-])?\d*(?:all4|blog|flash|float|hot|img|my|narrow|page|pop|link|rss|scrolling|show|wait)?adv?s?(?:4all|agent|banner|brite|center|click|client|code|control|dhc|engage|er.*|fetch|file.*|flash|folder|frame|fshow|hot|img|js|image|juggler|manage|page|pic.*|puba|right|show|space|stat|store|tool|top|union|view)?(e?s)?\d*([-_].*)?[\?/\.]/
 /[/\.](.*[_-])?(?:flash|gif|sys|top)banners?\d*([_-].*)?[/\.]/
-/[/\.](?:stat|stat.*count(er)?|count(er)?)s?\d?[/\.]/$script,subdocument
 /__utm.js|
 /61.128.*.*:8088/460X30.gif
 /click.js?user_id=

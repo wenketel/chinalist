@@ -15,6 +15,7 @@ listdir=~/svn/abp-chinalist/trunk;
 
 touch $listdir/tmp;
 
+# we have more than one list
 for file in $listdir/*
 do
     filename=`echo $file | sed s/"\/.*\/"//`;
