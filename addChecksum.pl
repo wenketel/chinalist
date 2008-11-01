@@ -1,5 +1,4 @@
 #!/usr/bin/perl
-!  Checksum: ag2ZkttOe0F1E16l08f8Nw
 
 #############################################################################
 # This is a reference script to add checksums to downloadable               #
