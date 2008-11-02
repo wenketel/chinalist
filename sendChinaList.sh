@@ -5,7 +5,8 @@
 # Function:
 #   Update "Last Modified" field automatically
 #   Update "Checksum" field automatically
-#   Commit to svn repository automatically
+#   Update local svn repository automatically
+#   Commit to remote svn repository automatically
 # Usage:
 #   sendChinaList commit log
 ################################################################
@@ -13,27 +14,22 @@
 # you may want to change this to fit your situation
 listdir=~/svn/abp-chinalist/trunk;
 
-touch $listdir/tmp;
+# due to introducing of checksum, it will always be conflicting if
+# you work as a team using vcs. With this you needn't update your local
+# repository manually every time.
+svn update $listdir &&
 
 # we have more than one list
 for file in $listdir/*
 do
-    filename=`echo $file | sed s/"\/.*\/"//`;
-    if [ $filename == "sendChinaList.sh" ]; then
-	continue;
-    fi
-    if [ $filename == "addChecksum.pl" ]; then
-	continue;
-    fi
-    # modified less than 30 mins, avoid changing file status every time.
-    if (( `stat -c %Y tmp` - `stat -c %Y $file` - 30*60 < 0 )); then
-	sed -i s/"Last Modified:.*$"/"Last Modified:  `date -R -r $file`"/ $file;
-	$listdir/addChecksum.pl $file;
-    fi
+    # avoid changing file properties every time.
+    # note: we use a modified validateChecksum.pl
+    ! $listdir/validateChecksum.pl -s $file &&
+    sed -i s/"Last Modified:.*$"/"Last Modified:  `date -R -r $file`"/ $file &&
+    $listdir/addChecksum.pl $file;
 done
 
-rm $listdir/tmp;
-svn ci -m "$*";
+svn ci -m "$*" $listdir;
 
 # you can simply run this script, or throw it to your ~/.bash_alias like:
 #
@@ -42,6 +38,6 @@ svn ci -m "$*";
 #     listdir=~/svn/abp-chinalist/trunk;
 #     ......
 #     ......
-#     svn ci -m "$*";
+#     svn ci -m "$*" $listdir;
 # }
 ### End ###
