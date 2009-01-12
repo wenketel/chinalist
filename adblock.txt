@@ -1,7 +1,7 @@
 [Adblock Plus 0.7.5]
-!  Checksum: s+wqDel0RotEIYTf9UoTvQ
+!  Checksum: AMMzm4l2XuY+oLvxSnGxtw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 11 Jan 2009 18:37:39 +0800
+!  Last Modified:  Mon, 12 Jan 2009 22:53:34 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -366,6 +366,16 @@ google.cn,google.com,google.com.hk,google.com.tw##body[vlink="#499f9f"]>div[alig
 google.cn,google.com,google.com.hk,google.com.tw##div.ta[id^=tpa][style^="border: 1px none rgb(213, 221, 243); background: rgb(255, 249, 221) none repeat scroll 0% 0%;"]
 google.cn,google.com,google.com.hk,google.com.tw###tads
 #a(href*=doubleclick.net/)
+
+!---环球网
+huanqiu.com/hezuo/
+huanqiu.com/script/entPageText*.js
+huanqiu.com/script/homePage*.js
+huanqiu.com/script/content_js/cont_banner2.js
+acst.huanqiu.com/www/delivery/
+huanqiu.com#*(id^=banner0)
+huanqiu.com##body>#ad
+huanqiu.com##body>#hd+.ct>.adlist
 
 !---ifeng
 img.phoenixtv.com/tres/recommend/
