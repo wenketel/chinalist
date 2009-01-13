@@ -1,6 +1,6 @@
 [Adblock Plus 0.7.5]
-!  Checksum: 6g3Jbv+vQ9EmdXy4bJLfPw
-!  Last Modified:  Tue, 13 Jan 2009 21:16:57 +0800
+!  Checksum: QLugR6R4ChNd61krdNc0Cg
+!  Last Modified:  Tue, 13 Jan 2009 21:31:36 +0800
 !--------------------------------------------------------------
 !  Supplemental for ChinaList. Details:
 !  http://code.google.com/p/adblock-chinalist/wiki/AboutStrict
@@ -16,16 +16,24 @@ users.51.la/
 js.tongji.*yahoo.com
 
 
-!------------------Generic (sort by domain name)---------
+!------------------Well-known Sites----------------------
 
 !---cnbeta
 cnbeta.com#DIV(id=mark)
 cnbeta.com#DIV(id=normal)
 cnbeta.com#DIV(id=post)
 
+!---凤凰网
+.ifeng.com/tres/pub_res/doc/document_tips.js
+
 !---sina
 .sina.com.cn/iframe/musicjs/importplayer.0.2.js
 bbs.sina.com.cn/iframe/
 
-!---凤凰网
-.ifeng.com/tres/pub_res/doc/document_tips.js
+
+!------------------Generic (sort by domain name)---------
+54kfqq.com/User/
+
+
+!------------------Element Hiding------------------------
+###xp>#xp_content
