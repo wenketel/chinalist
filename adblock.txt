@@ -1,7 +1,7 @@
 [Adblock Plus 0.7.5]
-!  Checksum: eZW6S1RPaIDU702QHL67Dw
+!  Checksum: 3pTuQg2grxfWlI/hPM7XWw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 16 Jan 2009 15:38:48 +0800
+!  Last Modified:  Fri, 16 Jan 2009 15:47:52 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -296,6 +296,13 @@ img.cnbeta.com/k1klong.gif
 img.cnbeta.com/ms_ff/
 cnbeta.com##div#fm_r, #userInfo, #h_right, #AdForward, #comad
 
+!---霏凡软件站
+crsky.com/ggao/
+@@crsky.com/ggao/downd_a.js
+crsky.com#td(width=310)(bgcolor=#f0fbff)(align=middle)
+greendown.cn/ggao/
+greendown.cn#div(class=content ad-b950x50)
+
 !---CSDN
 .csdn.net/ggmm
 community.csdn.net/ui/homepage/images/questions.gif
@@ -346,12 +353,12 @@ trace.enet.com.cn/
 enet.com.cn#div(class^=ad)
 enet.com.cn#div(class=enet_banner)
 
-!---霏凡软件站
-crsky.com/ggao/
-@@crsky.com/ggao/downd_a.js
-crsky.com#td(width=310)(bgcolor=#f0fbff)(align=middle)
-greendown.cn/ggao/
-greendown.cn#div(class=content ad-b950x50)
+!---北方网
+eap.enorth.com.cn/js/sp/
+swf.enorth.com.cn/0/0*/*/*/*_*.swf
+teamwork.enorth.com.cn/
+enorth.com.cn#div(class=a23 hanggao24 zuoxiaguanggao)
+enorth.com.cn##div.gg
 
 !---FTChinese
 .ftchinese.com/*/ftc_pre.js
@@ -967,8 +974,6 @@ dfp.eachnet.com/display.php
 /ecnavi.jp/Apos
 eee114.com/image/banner
 .ef360.com/_Public/_Upfile/*_*_*.*$object,image
-swf.enorth.com.cn/0/0*/*/*/*_*.swf
-teamwork.enorth.com.cn/
 feed.feedsky.com/~cpm/$object
 /cl.finaleden.com
 .fixdown.com/168/
