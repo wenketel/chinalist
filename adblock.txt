@@ -37,7 +37,6 @@ news.163.com/special/00012G9I/bbsinclude2.0.html
 popme.163.com
 pro.163.com/
 proimg.163.com
-@@|http://proimg.163.com/channel01/aoyun_hp_0802b.swf
 union.163.com/
 #a(href*=event.mail.163.com/chanel/click.htm)
 #a(href^=http://adclient.163.com/)
@@ -45,12 +44,17 @@ union.163.com/
 163.com#div(adMenu)
 163.com#div(class=adEbay)
 163.com#div(class=adList)
-163.com#div(class=ebayText)
 163.com#div(class^=adRtext)
+163.com#div(class=ebayText)
+163.com#div(class^=endAd550)
+163.com#div(class=gg210)
+163.com#div(class=ggText cGg clearfix)
+163.com#div(class=ggR)
+163.com#div(class=ggM)
+163.com#div(class=ggL cGg)
 163.com#div(id=flnews2)
 163.com#div(id^=adListContent)
 163.com#div(listAD)
-163.com#div(class^=endAd550)
 163.com##*[class^=ad0], *[class^=ad1], *[class^=ad2], *[class^=ad3], *[class^=ad4], *[class^=ad5], *[class^=ad6], *[class^=ad7], *[class^=ad8], *[class^=ad9]
 house.163.com###left>.leftad:first-child
 house.163.com###newad3+#right_3+#right_4
@@ -59,12 +63,6 @@ house.163.com#div(id^=newad)
 news.163.com#DIV(class=adRPicText)
 mail.163.com#ul(id=ulService)
 sports.163.com##body>div:first-child[style="margin: 0pt auto; width: 960px; height: 60px; clear: both;"]
-
-163.com#div(class=gg210)
-163.com#div(class=ggText cGg clearfix)
-163.com#div(class=ggR)
-163.com#div(class=ggM)
-163.com#div(class=ggL cGg)
 
 !---草根网
 .20ju.com/images/20ju300X90.gif
@@ -394,6 +392,7 @@ img.ifeng.com/tres/recommend/
 sc.ifeng.com/event.ng/
 sta.ifeng.com/stadig/
 ifeng.com#div(class^=adlist)
+ifeng.com#div(class=ad_text)
 ifeng.com##.areaAd
 
 !---倚天硬件
@@ -507,6 +506,8 @@ pchome.net#*(class=i2k8AdWrapper)
 pchome.net#*(i2k8TopAd)
 pchome.net#dd(hardwareDiyMarket)
 pchome.net#dd(id=mobileOaMarket)
+pchome.net#div(class^=dld-ad)
+pchome.net#div(id^=dld-ad)
 pchome.net#div(id=main_adshow)
 club.pchome.net###clickit
 club.pchome.net###right_content>.rtag:first-child+.noborder+.rtag+.rtag>table:only-child[cellspacing="2"][cellpadding="3"]
@@ -898,8 +899,8 @@ union.56.com/
 56.com#div(id^=rAd_text)
 union.bokecc.com/flash/textlist.xml
 union.bokecc.com/flash/imglist.xml
+cache.mofile.com/tv/cn/event/
 tv.mofile.com/event/
-cache.mofile.com/tv/cn/event/allyes-google.swf
 mofile.com#div(id$=_bigad)
 mofile.com#div(id$=_googlead)
 .atm.youku.com/
@@ -907,6 +908,7 @@ mofile.com#div(id$=_googlead)
 05sun.com/js/300info.js
 05sun.com/js/db250.js
 .1000fr.com/76080/
+qm.1000meng.com/code
 .1b2.cn/shipin/*.js
 .1ting.net/ADCodeClip/
 /un.265.com
@@ -940,8 +942,9 @@ awocity.cn$~subdocument
 .bahamut.com.tw/js/abanner.
 .bahamut.com.tw/js/building.js
 .bahamut.com.tw/js/fboard.js
-dannonces.bibidu.com/
 benxiong.com/g/
+dannonces.bibidu.com/
+bitscn.com/pic2009/a*.js
 gg.blueidea.com
 vampire.btbbt.com/
 .btpig.com/$subdocument
@@ -992,6 +995,7 @@ gimpusers.com/js/common.js
 haiguinet.com/aadd.html
 hangzhou.com.cn/inc_hzw/
 hanzify.org/Main/Template/*/a-d-s/
+haoping.com/js/banner/
 .hb28.com/images/fd.js
 hb666.com/cms/images/aoyun.jpg
 hb666.com/cms/images/shuju.gif
@@ -1043,6 +1047,7 @@ bbs.macd.cn/xc/
 .manhuaw.com/gg_new/
 cp.intl.match.com/*/msn/
 img.maxpda.com/logo/
+menhutong.com.cn/*embed.php
 .midland.com.hk/*/floating
 union.moka.cn/
 monday.com.tw/res/activity/
@@ -1081,6 +1086,7 @@ rm.romman.net/js/rm_D10.html
 .sellgreat.com/images/Bdvertisement/
 shanghaiviva.com/images/zb/*.*.jpg
 diary.showhappy.net/scripts/diarytextads.js
+images.shudoo.com/tu/sy/*.swf
 since1984.cn/images/taobao/jandan/1.png
 .snap.com/$script
 .softnews.cn/other/js/A_*.js
@@ -1124,20 +1130,21 @@ union.zhongsou.com/
 .zuoche.com/*/promo_static.jsp$subdocument
 
 
-!----------------pornographic, spam, ads-union...
+!----------------pornographic, spam, ads-union...........
 .033.com/
 .100tone.com/
 /1133.cc
 .1133.cc/
 .158.cn/
-.17luntan.com/
+.17luntan.com
 18lian.com
-.1tong.com.cn/
-.258.com/
-.2mdn.net/
+.1tong.com.cn
+.258.com
+.2mdn.net
+.3bu.com
 .3gzi.com
-.50bang.com/
-.51go.com/
+.50bang.com
+.51go.com
 51link.com
 51verycd.cn
 51yes.com
@@ -1167,6 +1174,7 @@ adpinion.com
 adsfactor.net
 .adwww.cn
 .adzhu.com
+aiqianming.cn
 .allyes.com
 .argusclick.net
 asiaseo.com
@@ -1452,7 +1460,6 @@ httpcn.com#table(width=980)(cellspacing=1)(bgcolor=#cccccc)(align=center)
 hxonl.com#div(id=cont1)
 hxtdz.com#table(width=98%)(bgcolor=#ffffff)(align=center)
 i-cable.com#div(id=Layer12)
-ifeng.com#div(class=ad_text)
 bbs.imp3.net###ad_text.ad_text
 issncn.com#td(width=301)(bgcolor=#ffffff)
 kamang.net#form(user-login-form)
@@ -1469,8 +1476,6 @@ neopets.com###main>#ban:first-child
 neopets.com###vert_slug_leaderboard
 nfcmag.com#tr(bgcolor=#535396)(_base_target=_blank)
 openrice.com#td(class=PremiumAdCol)
-pchome.net#div(id^=dld-ad)
-pchome.net#div(class^=dld-ad)
 bbs.pdafans.com#table(width=960)(align=center)
 www.qingdaonews.com##body>div#Layer1:first-child+table+table+table+table+table+table+table+table+table+table[bgcolor="#cccbc9"]
 smarter.com.cn#div(class=sponsr)
