@@ -1,7 +1,7 @@
 [Adblock Plus 1.0.1]
-!  Checksum: gzAnyTqAMsLCfflFGzyX4w
+!  Checksum: 5Fc7Xl06w+25FuRS18tlUA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 17 Feb 2009 20:34:25 +0800
+!  Last Modified:  Fri, 20 Feb 2009 08:07:01 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -932,6 +932,12 @@ cache.mofile.com/tv/cn/event/
 tv.mofile.com/event/
 mofile.com#div(id$=_bigad)
 mofile.com#div(id$=_googlead)
+
+!---临时解决土豆播放问题
+@@http://adcontrol.tudou.com/adcontrol/adcontrol?*
+p2v.tudou.com
+tudou.com#a(id=gotoTudouVA)
+
 .atm.youku.com/
 
 05sun.com/js/300info.js
