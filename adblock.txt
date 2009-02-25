@@ -1,7 +1,7 @@
 [Adblock Plus 1.0.1]
-!  Checksum: Y3q8CYW91APvtvmXY8YjZg
+!  Checksum: J/WQgzkrZkeJoFbmlFAgaw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 25 Feb 2009 14:56:56 +0800
+!  Last Modified:  Wed, 25 Feb 2009 23:21:57 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -477,10 +477,11 @@ mop.com#div(ad960x90)
 mop.com##div[class="phLinkLefta left"][style="overflow: hidden; padding-left: 6px; width: 400px;"]
 
 !---驱动之家
-/11.mydrivers.com
 images.mydrivers.com/20*/*x*.
 mydrivers.com#*(id^=ad_)
 mydrivers.com##body>table:first-child+table+table+table>tbody>tr>td:last-child[width="634"]>table[bgcolor="#eaeaea"][height="70"]
+news.mydrivers.com###ad_923_60_2+div[style^="height: 90px"]
+www.mydrivers.com###ad_770_60_4+table[width="770"]
 
 !---NewHua
 /newhuagg$image,object
