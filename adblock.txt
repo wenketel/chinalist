@@ -1,7 +1,7 @@
 [Adblock Plus 1.0.1]
-!  Checksum: NnXtk33uUda+COIwsM78Kw
+!  Checksum: mYeh2ZwzYITitazOlXytRQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 04 Mar 2009 23:43:05 +0800
+!  Last Modified:  Sat, 07 Mar 2009 06:55:29 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -346,6 +346,13 @@ discuss.com.hk###headfilter+.mainbox+div+table
 duote.com/duotehtml/down_*_*.js
 duote.com/duotehtml/downBeforeIntro.js
 
+!---多玩游戏网
+.duowan.com/market/
+duowan.com/public/s/top_gg.js
+market.duowan.com/duowan/*.js
+web.duowan.com##div.advertise
+web.duowan.com##div#banner
+
 !---eNet
 .enet.com.cn/*/bottomsm.js
 .enet.com.cn/enetshow.shtml
@@ -362,6 +369,10 @@ swf.enorth.com.cn/0/0*/*/*/*_*.swf
 teamwork.enorth.com.cn/
 enorth.com.cn#div(class=a23 hanggao24 zuoxiaguanggao)
 enorth.com.cn##div.gg
+
+!---飞库网
+feiku.com/images/ds*.jpg
+feiku.com/images/sdo.jpg
 
 !---FTChinese
 .ftchinese.com/*/ftc_pre.js
@@ -545,6 +556,11 @@ www.pconline.com.cn###PcPoPmarket
 www.pconline.com.cn##.FocusPic+.left360Ivy
 www.pconline.com.cn##.right185>.rIvy145:first-child
 www.pconline.com.cn#div(id^=PCdl142_2_)
+
+!---口袋数码
+pdafans.com/images/banner/
+bbs.pdafans.com##body#index>div#header+table[width="98%"]
+bbs.pdafans.com#table(width=960)(align=center)
 
 !---爆米花
 a.pomoho.com/play/channel15
@@ -886,10 +902,20 @@ pic.yupoo.com/jdvip/140355cfeae1/bmm1gd1t.jpg
 pic.yupoo.com/jdvip/975965b31d8a/3plp2wuh.jpg
 
 !---联合早报
+stars.zaobao.com/ssi/js/embedFlash.js
+zaobao.com###myMovie
 zaobao.com#table(class=small)(width=640)(align=center)
-zaobao.com#table(width=315)(cellspacing=6)(align=left)
-zaobao.com#table(width=370)(height=360)(align=left)
-zaobao.com#table(width=946)(height=102)
+
+!---抓虾
+zhuaxia.com#*(id*=_ad_)
+zhuaxia.com#div(chlist_mid_bot)
+zhuaxia.cn/images/note1.gif
+
+!---逐浪小说网
+images2.zhulang.com/top1.js
+zhulang.com#div(id^=adHome)
+zhulang.com#div(class^=ad)
+book.zhulang.com##.content_left_adv
 
 !---ZOL
 @@|http://pic.zol.com.cn/200611/a.gif
@@ -1018,7 +1044,6 @@ bbs.csonline.com.cn/*_ad*_1.htm
 .dddxt.com/mf.php$script
 .dealsaving.com/hotdeals$subdocument
 dnads.directnic.com/
-.duowan.com/market/
 .directnic.com/?aff=
 .directnic.com/oasisi.php?
 image.e78.com/uncode/
@@ -1116,7 +1141,6 @@ tv.on.cc*sony
 .openv.com/spread/
 we.pcinlife.com/banner/company/
 /33.pcpop.com
-pdafans.com/images/banner/
 /petsay.com/images/petsay.jpg
 sub.powerapple.com
 proxycn.com/worldpeace/qq/
@@ -1526,7 +1550,6 @@ neopets.com###main>#ban:first-child
 neopets.com###vert_slug_leaderboard
 nfcmag.com#tr(bgcolor=#535396)(_base_target=_blank)
 openrice.com#td(class=PremiumAdCol)
-bbs.pdafans.com#table(width=960)(align=center)
 www.qingdaonews.com##body>div#Layer1:first-child+table+table+table+table+table+table+table+table+table+table[bgcolor="#cccbc9"]
 smarter.com.cn#div(class=sponsr)
 smarter.com.cn#div(id=google_middle)
@@ -1547,10 +1570,6 @@ xishui.net#*(id^=PublicRelation)
 xmnn.cn#table(class=bAD)
 ycwb.com##BODY:not([onload]) > table ~ table[width="995"][align="center"]:not(:first-child)
 ynet.com#div(adBanner)
-zhuaxia.com#*(id*=_ad_)
-zhuaxia.com#div(chlist_mid_bot)
-zhulang.com#div(id^=adHome)
-zhulang.com#div(class^=ad)
 zzit.com.cn#div(id=Article_Top_Banner)
 
 
