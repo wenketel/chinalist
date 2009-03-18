@@ -1,7 +1,7 @@
 [Adblock Plus 1.0.1]
-!  Checksum: g24WSmAvaGxMIcwUZ+aLVg
+!  Checksum: DHv0Dudr41oCJEEArJ4jFg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 16 Mar 2009 21:23:44 +0800
+!  Last Modified:  Wed, 18 Mar 2009 09:04:56 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -173,6 +173,11 @@ baidu.com#a(href^=http://ma.baidu.com/ma/rcv/click.php?)
 baidu.com#div(id^=bdfs)
 mp3.baidu.com##div#dMA + script + table[cellspacing][cellpadding]
 news.baidu.com#DIV(id=ecad)
+
+!---猪猪乐园
+.btpig.com/$subdocument
+btpig.com#td(width=25%)(bgcolor=#eeeeee)
+bbs.btpig.com###ajaxwaitid+div.wrap>#header+table+table[width="97%"][height="33"]
 
 !---赛迪网
 event.ccidnet.com
@@ -1035,7 +1040,6 @@ dannonces.bibidu.com/
 bitscn.com/pic2009/a*.js
 gg.blueidea.com
 vampire.btbbt.com/
-.btpig.com/$subdocument
 cbifamily.com/corporation/
 webunion.ccd.com.cn/
 blog.cersp.com/images/banner007.gif
@@ -1137,6 +1141,7 @@ img.maxpda.com/logo/
 menhutong.com.cn/*embed.php
 .midland.com.hk/*/floating
 union.moka.cn/
+html3.molidao.com/mo/rxsg_760X60.gif
 monday.com.tw/res/activity/
 i.mtime.cn/pr/material
 i.mtime.cn/tg/
@@ -1521,7 +1526,6 @@ beelink.com###table3>tbody>tr:first-child
 blogcn.com#table(width=341)(cellspacing=1)(cellpadding=4)(border=0)(align=left)
 btchina.net#table(id=AutoNumber1)(width=100%)(cellpadding=2)
 btchina.net#table(width=100%)(cellpadding=2)(border=0)(align=center)
-btpig.com#td(width=25%)(bgcolor=#eeeeee)
 cnmo.com#div(class=arAD)
 cnmo.com#div(id^=Bar10)
 cnw.com.cn###banner_01
