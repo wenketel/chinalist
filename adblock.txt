@@ -1,7 +1,7 @@
 [Adblock Plus 1.0.1]
-!  Checksum: 7rG6lE3zni/RkmtFapBqsg
+!  Checksum: yyiBeD1aRCMLmgMXWmF4CA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 19 Mar 2009 23:11:46 +0800
+!  Last Modified:  Thu, 19 Mar 2009 23:19:12 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -734,6 +734,7 @@ scalink.sohu.com/
 /pv.sohu.com
 #a(href*=go.sohu.com)
 sohu.com#*(id^=ad_)
+sohu.com#*(class^=contAD)
 sohu.com#a(href*=/goto.php?aid=)
 sohu.com#div(class=wireless)
 sohu.com,chinaren.com#sohuadcode
