@@ -1,5 +1,5 @@
 [Adblock Plus 1.0.1]
-!  Checksum: NzA5/E3bHJIi8psbRs5j2g
+!  Checksum: ak/qRYxuBzm30PNTeOZ92g
 !  Adblock Plus List with Main Focus on Chinese Sites.
 !  Last Modified:  Sun, 22 Mar 2009 11:11:28 +0800
 !         ----http://adblock-chinalist.googlecode.com/
@@ -1234,6 +1234,7 @@ mms1.youav.com/
 list.yxdown.com/show/html/images/*0
 .yzwb.net/yzad/
 am.zdnet.com.cn/www/delivery/
+live.zhibo8.com/images/188hi2.gif
 union.zhongsou.com/
 .zuoche.com/*/promo_static.jsp$subdocument
 
@@ -1453,6 +1454,8 @@ trswcm_plugins/adintrs/
 http://www.shxb.net/tips/tips.js
 
 !-----------------------Element Hiding--------------------
+#*(id^=ad_text)
+#*(class^=ad_text)
 #*(id^=ad_thread)
 #*(class^=ad_thread)
 #*(id^=ad_footerbanner)
