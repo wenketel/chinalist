@@ -1,7 +1,7 @@
 [Adblock Plus 1.0.1]
-!  Checksum: AK+llW8DwcvrkOWx4O83NA
+!  Checksum: IWuPu9nIUhgOcBm6Vx45hg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 22 Mar 2009 11:11:28 +0800
+!  Last Modified:  Tue, 31 Mar 2009 18:40:39 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -42,6 +42,7 @@ union.163.com/
 #a(href*=event.mail.163.com/chanel/click.htm)
 #a(href^=http://adclient.163.com/)
 #a(href^=http://popme.163.com/)
+#a(href^=http://pro.163.com/event.ng/Type=click&FlightID=)
 163.com#div(adMenu)
 163.com#div(class=adEbay)
 163.com#div(class=adList)
@@ -66,6 +67,8 @@ news.163.com#DIV(class=adRPicText)
 mail.163.com#ul(id=ulService)
 sports.163.com##body>div:first-child[style="margin: 0pt auto; width: 960px; height: 60px; clear: both;"]
 tie.youdao.com###top1+#head1+div[style^="margin"]
+img1.126.net$subdocument
+
 
 !---草根网
 .20ju.com/images/20ju300X90.gif
