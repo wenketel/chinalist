@@ -1,7 +1,7 @@
 [Adblock Plus 1.0.1]
-!  Checksum: wjMw451lMxhAtluUeQVoYA
+!  Checksum: Bl+/GAAlZ2Tr0a5P8TfH/w
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 01 Apr 2009 15:10:17 +0800
+!  Last Modified:  Sun, 05 Apr 2009 01:19:28 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -876,8 +876,10 @@ cm.p4p.cn.yahoo.com/
 yimg.com/*/i/home/promo/
 yimg.com/a/hk/
 yimg.com/mq/a/hk/
-cn.yimg.com/a/xiaoyue/576553_600_90_080607_s.swf
-cn.yimg.com/a/yushiliu/
+cn.yimg.com/a/
+!-cn.yimg.com/a/hxli/
+!-cn.yimg.com/a/xiaoyue/
+!-cn.yimg.com/a/yushiliu/
 cn.yimg.com/ent/ycy/071023/smal02.swf
 cn.yimg.com/i/cn/assistant/bd/
 cn.yimg.com/jackie/pic/728x90.swf
@@ -886,7 +888,6 @@ cn.yimg.com/yahoofuwu/banner/
 L.yimg.com/tw.yimg.com/a/tw/js/flash_general_$script
 !-
 #*(id*=YahooAd)
-#a(href*=rd.yahoo.com/SIG=)
 #a(href*=click.p4p.cn.yahoo.com)
 yahoo.cn#div(class=bad)
 yahoo.com##div.zcol1:first-child
@@ -900,6 +901,7 @@ news.cn.yahoo.com#div(id=relnews)
 tw.news.yahoo.com#div(id=adst)
 tw.news.yahoo.com#div(id=ynwsadk)
 mail.yahoo.com#a(href=http://cn.mail.yahoo.com/)
+mail.yahoo.com###northbanner
 mail.163.com#a(href=http://cn.mail.yahoo.com/)
 mail.google.com#a(href=http://cn.mail.yahoo.com/)
 mail.yahoo.com#div(id=swPane)
