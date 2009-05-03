@@ -1,5 +1,5 @@
 [Adblock Plus 1.0.1]
-!  Checksum: rktRFs+DZ/GGf+RGo+mmag
+!  Checksum: 73+zekm0KRxuTz6WqbLNYg
 !  Adblock Plus List with Main Focus on Chinese Sites.
 !  Last Modified:  Fri, 01 May 2009 16:16:39 +0800
 !         ----http://adblock-chinalist.googlecode.com/
@@ -754,7 +754,11 @@ images.chinaren.com/product/alumni4/images/pic1_10.gif
 class.chinaren.com#div(contentDiv)
 class.chinaren.com##body>center>style:first-child+script+table[width="100%"][background$="/xyl1_1.gif"]
 
-!-Sogou
+!---搜房
+sofang.com/images/$object
+image.sofang.com/upfiles/$object
+
+!---Sogou
 /pv.sogou.com
 /SogouUnion
 sogou.com/frag/
@@ -763,7 +767,7 @@ sogou.com/union/
 #a(href*=click.cpc.sogou.com)
 #a(href^=http://goto.sogou.com/)
 
-!-Sohu.com
+!---Sohu.com
 js1.club.sohu.net/indeximages/19/721ab6443b65d59e20183904cb751d19.jpg
 js2.club.sohu.net/indeximages/f0/91d0db09568e4bf9bfd8c741dbd7faf0.gif
 images.sohu.com/*/market/
