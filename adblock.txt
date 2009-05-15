@@ -1,7 +1,7 @@
 [Adblock Plus 1.0.1]
-!  Checksum: 8loc8NaCI5+ydQWaEhacyQ
+!  Checksum: LMgdGsI9gGyyNPTq9/2ovQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 13 May 2009 01:19:23 +0800
+!  Last Modified:  Fri, 15 May 2009 14:40:22 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -70,7 +70,6 @@ sports.163.com##body>div:first-child[style="margin: 0pt auto; width: 960px; heig
 tie.youdao.com###top1+#head1+div[style^="margin"]
 img1.126.net$subdocument
 
-
 !---草根网
 .20ju.com/images/20ju300X90.gif
 .20ju.com/images/7net.gif
@@ -126,7 +125,6 @@ qun.51.com##div.mdk
 www.51nb.com#tr(class=altbg2)(align=center)
 www.51nb.com#TD(class=line)(style=padding: 5px;)
 
-
 !---六间房
 /6.cn/*/adlistNew.html
 /6.cn/key/alimama
@@ -149,7 +147,6 @@ im.alisoft.com#div(id*=Helper)
 taobao.com#div(indexp4p)
 taobao.com#ul(SlideTriggers)
 .taobaocdn.com/js/app/directional_promo/
-
 
 !---AtNext
 image1.atnext.com/*/*.swf
@@ -185,7 +182,6 @@ news.baidu.com#DIV(id=ecad)
 bookge.com/hz1/sp.js
 bookge.com/zj85/gule88.js
 bookge.com/zj85/tao.html
-pconline.com.cn/script/pconlineAD.js
 
 !---猪猪乐园
 698899.com/666/xdsgp.gif
@@ -198,6 +194,7 @@ shuangtv.net/shuangtv.gif
 http://www.tdplay.com.cn/media/xuanchuan/
 
 !---赛迪网
+ccidnet.com/adimage
 event.ccidnet.com
 image.ccidnet.com/nav/tech_art_foot.js
 publisher.ccidnet.com/
@@ -452,6 +449,10 @@ ifeng.com#div(class^=adlist)
 ifeng.com#div(class=ad_text)
 ifeng.com##.areaAd
 
+!---IT168
+adshow.it168.com
+publish.it168.com/cad/
+
 !---倚天硬件
 itdoor.net/banner/pcdiy/5years1.swf
 link.itdoor.net
@@ -525,6 +526,7 @@ mingpaonews.com##body>script+table+table.gy+table+table.gy+table>tbody>tr>td:fir
 mingpaonews.com##body>script:first-child+table+table.gy+table+table.gy+table+iframe[height="90"][src*="http://adc1.mingpao.com/html.ng/"]
 
 !---MITBBS
+.mitbbs.*/ad_
 mitbbs.com,mitbbs.cn,unknownspace.org##body>center>table:first-child+table+table>tbody>tr>td:first-child+td>table>tbody>tr:first-child+tr>td>table>tbody>tr>td:first-child+td
 mitbbs.com,mitbbs.cn,unknownspace.org##body>center>table:first-child+table+table>tbody>tr>td[width="85"]+td[valign="top"]>table[width="886"]>tbody>tr:first-child
 
@@ -595,7 +597,11 @@ news.pchome.com.tw###top+a+a+div[align="center"][style="position: relative; heig
 !---PConline
 pconline.com.cn/js/ivy.js
 pconline.com.cn/market/open/
+pconline.com.cn/script/ad_
+pconline.com.cn/script/pconlineAD.js
 acount.pconline.com.cn/
+adv.pconline.com.cn
+image.pconline.com.cn*product_150x500
 #a(href^=http://ivy.pconline.com.cn/adpuba/)
 pconline.com.cn###pcHeader+.main
 pconline.com.cn##.art_area>div[style="padding: 5px; float: left; width: 310px;"]
@@ -1079,10 +1085,12 @@ qm.1000meng.com/code
 /link.265.com/images/760x60.gif
 /tj.28.com
 366soft.net/other/
+imgad*.3conline.com
 3ddown.com/other/js/760.js
 3ddown.com/other/js/A_*.js
 www.4oa.com/js/html/office300x300.html
 www.4oa.com/js/index970_4index.html
+other.51cto.com/ad/
 code.52qiangming.com/js/button.js
 52topview.com/img/gp3335.gif
 5dmail.net/image/$object
@@ -1125,8 +1133,6 @@ chinaventure.com.cn/Common/images/251X220.gif
 chinaventure.com.cn/sponsors/
 banners.chinesenewsnet.com
 chnqiang.com/da/
-chnqiang.com#div(class^=ad)
-chnqiang.com#div(id=eMeng)
 .cn.vc/uploadfile/200712/200712311199104181.gif
 cncrk.com/ggg/
 bwp.taiwan.cnet.com/
@@ -1213,6 +1219,7 @@ a.kwongwah.com.my/www/delivery/ajs.php
 .lan123.net/other/js/A_*.js
 code.leleso.net/search_*userId=$subdocument
 .liba.com/a_d_pic/
+linuxeden.com/image/adimg/
 soft1001.loginany.com/template/js/focusFlash.js
 lotour.com/include/js/floatleft_close.js
 loveu8.com/banner/banner.swf
@@ -1223,7 +1230,7 @@ bbs.macd.cn/xc/
 cp.intl.match.com/*/msn/
 img.maxpda.com/logo/
 .midland.com.hk/*/floating
-mobile01.com#div(class=text_ad)
+attach.mobile01.com/image/mod_ad/
 union.moka.cn/
 html3.molidao.com/mo/rxsg_760X60.gif
 monday.com.tw/res/activity/
@@ -1357,6 +1364,7 @@ union.a8.com
 /acs86.com
 adpinion.com
 adsfactor.net
+advertstatic.com
 .adwww.cn
 .adzhu.com
 aiqianming.cn
@@ -1523,6 +1531,7 @@ yx007.com
 -chinad.*.cn/*/cpc_
 _dcs_tag.js|
 adpolestar
+adsunion
 affiliate$subdocument,script,object
 friendlink$subdocument,image
 guanggao
@@ -1622,6 +1631,8 @@ beelink.com###table3>tbody>tr:first-child
 blogcn.com#table(width=341)(cellspacing=1)(cellpadding=4)(border=0)(align=left)
 btchina.net#table(id=AutoNumber1)(width=100%)(cellpadding=2)
 btchina.net#table(width=100%)(cellpadding=2)(border=0)(align=center)
+chnqiang.com#div(class^=ad)
+chnqiang.com#div(id=eMeng)
 cnmo.com#div(class=arAD)
 cnmo.com#div(id^=Bar10)
 cnw.com.cn###banner_01
@@ -1661,6 +1672,7 @@ lotour.com#div(id=banner)
 macd.cn##table[style="background: rgb(187, 233, 255) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;"]
 yamstock.megatime.com.tw###floating
 metacafe.com#div(id^=MedRect)
+mobile01.com#div(class=text_ad)
 mpinews.com#table(width=300)(align=right)
 my1510.cn#div(id=annoucement)
 neopets.com###main>#ban:first-child
