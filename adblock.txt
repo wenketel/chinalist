@@ -1,23 +1,18 @@
 [Adblock Plus 1.0.1]
-!  Checksum: DZDZGnTbyuz4RCyIsBIh2A
+!  Checksum: e8MvyyiIpTKUJIOZPhU+kg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 19 May 2009 23:14:19 +0800
+!  Last Modified:  Tue, 19 May 2009 23:47:48 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
 
 !---------------------White List------------------------
 @@|http://s3.amazonaws.com/twitter_production/
-@@|http://s.mcstatic.com/Flash/adv/$subrequest
-@@|http://www.networkworld.com/slideshows/refresh-ads.js
 @@|http://imgsrv6.perfspot.com/pics/$image
-@@|http://www.qunar.com/site/adframe/adConfig.js
 @@|http://www.readingtimes.com.tw/
 @@|http://upload.wikimedia.org/wikipedia/
 @@|http://s.xanga.com/partners/
 @@|http://www.zecco.com/
-@@114bt.com/ad/AC_RunActiveContent.js
-@@.marry5.com/*home*/ad_banner/
 @@crossdomain.xml|$subrequest
 
 !---------------------Well-known Sites-------------------
@@ -109,8 +104,6 @@ show.39.net$subdocument
 woman.39.net#*(class^=money)
 
 !---51.com
-@@|http://v3.apic.51.com/ad51.lib.js
-@@|http://static.apic.51.com/v3/ad51_$image
 static.apic.51.com/
 showpic.51.com/CBME_Flashs/showAvatar,1.swf
 qun.51.com##div.mdk
@@ -138,7 +131,6 @@ www.51nb.com#TD(class=line)(style=padding: 5px;)
 
 !---ali
 cnsmin.3721.com/ctall2.htm
-@@|http://taobaoafp.allyes.cn/main/adfshow?user=taobao|homepage|Firstscreen_lunbo_banner
 dmtracking.alibaba.com/
 alimama.com/*$third-party,domain=~alimama.com
 pics.taobao.com/bao/album/sys/loading_32x32.gif
@@ -218,8 +210,6 @@ cctv.com/Library/homepage2008/20080728/flash/countdown.swf
 cctv.com/soushi/special/C20704/20080618/images/1213783663036_sousuozhan.swf
 cctv.com/yeazone/CTVSY1B1YEA080808A/res/64.js
 2008.cctv.com/28/index.shtml
-!-视频开始前的广告，过滤会导致视频无法播放
-@@|http://ads.cctv.com/xtserver/site=2008.cctv.com
 blog.cctv.com/include/js/minipage.js
 idm.cctv.com/flash/bd/$object
 video.cctv.com/include/homead.jsp
@@ -347,8 +337,6 @@ union.daqi.com/
 log.daqi.com/
 
 !---桌面城市
-@@|http://www.deskcity.com/ad_item/ad_data/
-@@|http://www.deskcity.com/stylesheets/w_css/ad.css
 deskcity.com/images/banner/mydc.gif
 deskcity.com/images/bannerfiles/dvd_flash.gif
 deskcity.com/images/bannerfiles/dvd_psd.gif
@@ -829,7 +817,6 @@ tianya.cn###randPanel
 tianya.cn###tianyaSense1
 
 !---Tom
-@@|http://ad.tom.com/TomFlashAd.js
 /pv.tom.com
 games.tom.com/*/*/*/*/*.swf
 union.hjsm.tom.com
@@ -850,7 +837,6 @@ nba.sports.tom.com##div#tomhead>table:first-child+table
 sc.tom.com
 
 !---土豆
-@@http://adcontrol.tudou.com/adcontrol/adcontrol?*
 .p2v.tudou.com/extension/
 .p2v.tudou.com/poster/*.swf
 tudou.com#div(id=pushlist)
@@ -916,7 +902,6 @@ images.xxsy.net/sygg/
 read.xxsy.net/inc/*_show*.js
 
 !---Yahoo
-@@|http://l.yimg.com/tw.yimg.com/i/tw/news/yimg/yui_news_adv.js
 .bc.yahoo.com/b?P=
 cn.biz.yahoo.com/finance/*_cookies.html
 aliunion.cn.yahoo.com/
@@ -998,8 +983,6 @@ yesky.com#div(id^=adgg)
 q.yesky.com###pop_1.fdiv4
 
 !---Yupoo
-@@|http://pic.yupoo.com/lightory/*ad
-@@|http://pic.yupoo.com/jdvip/*ad
 pic.yupoo.com/15532511/4573056c2495/gj8srxox.jpg
 pic.yupoo.com/awflasher/454485c6d5b4/medium.jpg
 pic.yupoo.com/jdvip/140355cfeae1/bmm1gd1t.jpg
@@ -1023,10 +1006,6 @@ zhulang.com#div(class^=ad)
 book.zhulang.com##.content_left_adv
 
 !---ZOL
-@@|http://pic.zol.com.cn/200611/a.gif
-!-product.zol.com.cn/price/ 查询异常
-@@|http://detail.zol.com.cn/ad_product.php
-@@|http://product.zol.com.cn/price/ad_product.php
 .zol.com.cn/200*/
 .zol.com.cn/imphit0*.gif?
 pic.zol.com.cn/$subdocument
@@ -1714,6 +1693,5 @@ http://shooter.cn/images/prom/svplayer_250_prom.jpg
 http://www.badongo.com/swf/banner.swf
 ! --- http://www.badongo.com/file/14565649
 http://cdn3.badongo.com/images/banners/
-@@|http://www.zshare.net/ads.js?-300x250.&ad_url=480x100./banner/skyscraper_&aap=adtext.js&kip=&ad_url=/adbanner
 
 !------------------------End of List--------------------------------------------------------
