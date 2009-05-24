@@ -1,7 +1,7 @@
 [Adblock Plus 1.0.1]
-!  Checksum: 2drHiB+8l7L/DNkOhv01gg
+!  Checksum: f5u9i1Z7LQIQdKTONhTKKA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 24 May 2009 23:38:20 +0800
+!  Last Modified:  Mon, 25 May 2009 00:43:08 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -1009,9 +1009,15 @@ zhulang.com#div(class^=ad)
 book.zhulang.com##.content_left_adv
 
 !---ZOL
-.zol.com.cn/200*/
-.zol.com.cn/imphit0*.gif?
+zol.com.cn/imphit0*.gif?
+active.zol.com.cn/dell_html/
 pic.zol.com.cn/$subdocument
+pic.zol-img.com.cn/*.swf
+@@|http://pic.zol-img.com.cn/2009/pix_index.swf
+pic.zol-img.com.cn/*120x250
+pic.zol-img.com.cn/*kupai
+pic.zol-img.com.cn/*mis
+pic.zol-img.com.cn/*yingc
 zol.com.cn#div(class=mt8)
 zol.com.cn#div(id^=Bar)
 zol.com.cn#div(id^=AD)
