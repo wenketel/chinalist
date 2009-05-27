@@ -1,5 +1,5 @@
 [Adblock Plus 1.0.1]
-!  Checksum: Ha8CSSiFGzPM/YI3zJw7yw
+!  Checksum: rVxAfP6u+ZGjJp5l63m3dA
 !  Adblock Plus List with Main Focus on Chinese Sites.
 !  Last Modified:  Wed, 27 May 2009 17:37:29 +0800
 !         ----http://adblock-chinalist.googlecode.com/
@@ -678,6 +678,8 @@ finance.qq.com#table(class=mgt5 mb8)(width=910)
 news.qq.com#*(class^=ad)
 news.qq.com#*(id^=ad)
 news.qq.com##.l>[id^=News_Width]
+adsfile.qq.com/web/$script
+news.qq.com#DIV(class=news_ad_box)
 #a(href^=http://adsclick.qq.com/adsclick?)
 
 !---趣盘
