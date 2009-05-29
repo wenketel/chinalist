@@ -1,7 +1,7 @@
 [Adblock Plus 1.0.1]
-!  Checksum: N63iVvzysyJ2XGRORWjh8Q
+!  Checksum: wwP0O7lZ+kxwyduh9md9bw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 28 May 2009 08:14:32 +0800
+!  Last Modified:  Fri, 29 May 2009 10:58:36 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -57,6 +57,9 @@ union.163.com/
 163.com#div(id^=ead_ad_)
 163.com#div(listAD)
 163.com##*[class^=ad0], *[class^=ad1], *[class^=ad2], *[class^=ad3], *[class^=ad4], *[class^=ad5], *[class^=ad6], *[class^=ad7], *[class^=ad8], *[class^=ad9]
+163.com#ul(id=adMenu)
+163.com#div(class=adeguo)
+163.com#div(id=adMenuContent)
 house.163.com###left>.leftad:first-child
 house.163.com###newad3+#right_3+#right_4
 house.163.com###right>.div_clear+#right_6
