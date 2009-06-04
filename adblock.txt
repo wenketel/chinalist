@@ -1,5 +1,5 @@
 [Adblock Plus 1.0.1]
-!  Checksum: XHYZOlfkEu2h2G8338AOkQ
+!  Checksum: wSVZrqkv7kIrJULVLr/2aw
 !  Adblock Plus List with Main Focus on Chinese Sites.
 !  Last Modified:  Mon, 01 Jun 2009 22:01:29 +0800
 !         ----http://adblock-chinalist.googlecode.com/
@@ -526,22 +526,23 @@ pic.kuaiche.com,video.kuaiche.com###banner_top
 !---Microsoft
 mail.live.com#div(RadAd_Banner)
 
-!---股票论坛
-xc.macd.cn/$image
+!---MACD金融网
 bbs.macd.cn/baidutv.js
 bbs.macd.cn/v8.php
 bbs.macd.cn/$subdocument
 bbs.macd.cn/adv_reply.php
-is.qq.com/js/addportal.js
+blog.macd.cn/templates/macd2009/images/730tiejian.gif
+macd.cn/uploadfile/200904/20090424024942320.gif
 bbs.macd.cn#DIV(id=advlist)
-bbs.macd.cn#A(href=http://jy.macd.cn)
-bbs.macd.cn#A(href=http://bbs.macd.cn/thread-900684-1-1.html)
-bbs.macd.cn#TR(class=t_infoline)
-bbs.macd.cn##TABLE[width="100%"][cellspacing="1"][cellpadding="4"]
-bbs.macd.cn##TABLE[bordercolor="#6ba2c2"]
+bbs.macd.cn#table(width=480)(cellspacing=0)(cellpadding=0)(bordercolor=#6ba2c2)(border=1)
 bbs.macd.cn##a[href="http://www.cf8.cn/adgprj.html"]
 bbs.macd.cn##a[href^="http://www.18vr.com/Down"]
 bbs.macd.cn##a[href^="http://bbs.macd.cn/adaward.php?"]
+bbs.macd.cn##DIV.spaceborder>TABLE[width="100%"][cellspacing="1"][style="background: rgb(187, 233, 255) none repeat scroll 0% 0%; -moz-background-clip: border; -moz-background-origin: padding; -moz-background-inline-policy: continuous;"]
+bbs.macd.cn##tr.category>td>a>font
+bbs.macd.cn##table.t_msg>tbody>tr>td.line[style="padding: 5px;"]:last-child
+xc.macd.cn/
+is.qq.com/js/addportal.js
 
 !---明報
 .mingpao*.com/image/*_*x*_$image,object
