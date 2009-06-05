@@ -1,5 +1,5 @@
 [Adblock Plus 1.0.1]
-!  Checksum: NPZsdFnaK4wih3n/vDFJWQ
+!  Checksum: veKFCHiAa59Dwyz7v+s4Yg
 !  Adblock Plus List with Main Focus on Chinese Sites.
 !  Last Modified:  Mon, 01 Jun 2009 22:01:29 +0800
 !         ----http://adblock-chinalist.googlecode.com/
@@ -715,6 +715,15 @@ union.qyule.com/
 unionch.qyule.com/
 #a(href^=http://unionch.qyule.com/cgi-bin/gogo.cgi)
 
+!---飞速网
+fs2you.com/media/3rd/
+img.rayfile.com/scr/c_*.js
+rayfile.com#div(id=containerAD)
+rayfile.com#div(id$=-adPIC)
+rayfile.com#div(id^=rayfile_ad)
+static.rayfile.com/media/3rd/
+static.rayfile.com/media/js/switch_new.js
+
 !---红软基地
 rsdown.cn/vip_img/
 rsdown.cn/other/js/$script
@@ -789,7 +798,7 @@ iplog.skycn.com/wherefrom.php
 i3.itc.cn/20080703/4b3_fd63abac_2b84_4526_bcf1_406a60f433f1_0.jpg
 goodfeel.com.cn
 
-!-17173
+!---17173
 .17173.com/if/
 .17173.com/new/adm1.js
 go.17173.com/newsHits.jsp
@@ -1225,7 +1234,6 @@ feed.feedsky.com/~cpm/$object
 fj007.com/money
 flash8.net/flash8_a_d_s/
 freegame.com.tw/p_ad_*.htm
-fs2you.com/media/3rd/
 /js.ggyy8.com
 giganews.com/banners/gn_unlimited_1.swf
 gimpusers.com/js/common.js
@@ -1336,9 +1344,6 @@ qvod.com/images/1/qvod_*_*.gif
 qyclick.com/i.js
 .qzwb.com/js/jqxc.js
 .qzwb.com/qzwgg/
-img.rayfile.com/scr/c_*.js
-static.rayfile.com/media/3rd/
-static.rayfile.com/media/js/switch_new.js
 redbanana.cn$object
 rm.romman.net/js/rm_D10.html
 .sellgreat.com/images/Bdvertisement/
@@ -1732,8 +1737,6 @@ hxtdz.com#table(width=98%)(bgcolor=#ffffff)(align=center)
 i-cable.com#div(id=Layer12)
 bbs.imp3.net###ad_text.ad_text
 issncn.com#td(width=301)(bgcolor=#ffffff)
-rayfile.com#div(id$=-adPIC)
-rayfile.com#div(id^=rayfile_ad)
 kamang.net#form(user-login-form)
 kwongwah.com.my###nav_menu+div.w960>div:first-child+div+div+div.w360c+div.w280+br+hr+div
 lan123.net#div(class=right-box2)
