@@ -1,7 +1,7 @@
 [Adblock Plus 1.0.1]
-!  Checksum: mSfFlTE7byNW+uEUQiIekw
+!  Checksum: Nmr5EHdLcFLslE/btDoDbw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 07 Jun 2009 17:43:16 +0800
+!  Last Modified:  Wed, 17 Jun 2009 12:09:44 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -36,7 +36,6 @@ popme.163.com
 pro.163.com/
 proimg.163.com
 union.163.com/
-#a(href*=event.mail.163.com/chanel/click.htm)
 #a(href^=http://adclient.163.com/)
 #a(href^=http://popme.163.com/)
 #a(href^=http://pro.163.com/event.ng/Type=click&FlightID=)
@@ -490,7 +489,6 @@ img.kaixin001.com.cn/js/cpm*.js
 .kooxoo.com/shtml/www/Ticket/loushi.gif
 .kooxoo.com/Files/piao/img/ticketsale.swf
 tongji.kooxoo.com/static/js/kxanalysis.js
-#a(href^=http://www.kooxoo.com/AD_to/)
 kooxoo.com##div#main-content>div:first-child>div:first-child[style="position: relative; width: 735px; height: 90px;"]
 
 !---极影动漫
@@ -507,8 +505,6 @@ img.ku6.com/v5/$object
 stat-*.ku6.com/
 zt.ku6.com/almm/
 zt.ku6.com/podcast/
-#a(href^=http://stat0.888.ku6.com/g.do)
-#a(href^=http://stat1.888.ku6.com/g.do)
 ku6.com#div(id^=pic_gg_)
 ku6.com#div(id^=text_gg_)
 v.ku6.com#*(id^=frame_gg_9000)
@@ -638,7 +634,6 @@ pconline.com.cn/script/pconlineAD.js
 acount.pconline.com.cn/
 adv.pconline.com.cn
 image.pconline.com.cn*product_150x500
-#a(href^=http://ivy.pconline.com.cn/adpuba/)
 pconline.com.cn###pcHeader+.main
 pconline.com.cn##.art_area>div[style="padding: 5px; float: left; width: 310px;"]
 pconline.com.cn##.oldtop_nav3+table[bgcolor="#ffffff"][width="760"][align="center"]
@@ -760,7 +755,6 @@ sinaimg.cn/hs/img/
 blogjs.sinajs.cn/v5js/blogPromote.conf.js
 spacejs.sinajs.cn/js/space_all.js
 #a(href^=http://click.sina.com.cn/)
-#a(href=http://classadnew.sina.com.cn/doc/tuiguang.htm)
 sina.com.cn#*(id^=PublicRelation)(class*=adNone)
 sina.com.cn##td[width="300"][valign="top"][style^="border-bottom: 1px solid rgb(222, 223, 222); background: transparent url(http://i3.sinaimg.cn/dy/article/950/con_070227_ws_008.gif) repeat-y scroll 0% 0%; overflow: hidden;"]
 sina.com.cn#div(id^=adSinaHouse)
@@ -990,7 +984,6 @@ cn.yimg.com/news/hp/region/newsmap230_200.swf
 cn.yimg.com/yahoofuwu/banner/
 L.yimg.com/tw.yimg.com/a/tw/js/flash_general_$script
 !-
-#*(id*=YahooAd)
 #a(href*=click.p4p.cn.yahoo.com)
 yahoo.cn#div(class=bad)
 yahoo.com##div.zcol1:first-child
@@ -1618,39 +1611,22 @@ trswcm_plugins/adintrs/
 http://www.shxb.net/tips/tips.js
 
 !-----------------------Element Hiding--------------------
-#*(id^=ad_text)
-#*(class^=ad_text)
-#*(id^=ad_thread)
-#*(class^=ad_thread)
-#*(id^=ad_footerbanner)
-#*(id^=ad_headerbanner)
-#*(id=ad_interthread)
-
-#*(id$=_ad)
+###ad_interthread)
 #*(page_ad_left)
 #*(page_ad_right)
-#*(id^=ad-)
-#*(class$=-ad)
 #*(ad1)
-#*(id^=ad1)
-#*(class^=ad1)
 #*(ad2)
 #*(ad3)
-!--
 #*(headad)
 #*(adshead)
 #*(headads)
 #*(headerad)
 #*(adsheader)
 #*(headerads)
-!--
 #*(AdContainer)
 #*(AdPanel)
 #*(Advertising)
-#*(alt=广告)
-#*(class^=gg-)
 #*(guanggao)
-#*(id^=span_ad)
 #*(left-gg)
 #*(leftAd)
 #*(lianmeng)
@@ -1661,24 +1637,13 @@ http://www.shxb.net/tips/tips.js
 #*(rightad1)
 #*(topAD)
 #*(topads)
-#a(href*=.800hr.com/ctosee/ctosee.php?url=)
-#a(href*=.adbrite.com/)
-#a(href*=.adsunion.com)
 #a(href*=.allyes.com/main/adfclick)
-#a(href*=.newcnad.com/)
 #a(href*=/adclick.php?)
 #a(href*=/guanggao)
 #a(href*=/showavd.aspx?adid=)
-#a(href*=ht.28.com/)
 #a(href*=mxmtrack.com/click.php)
-#a(href^=http://admin.biz178.com/)
 #a(href^=http://go.maxreturn.cn/)
-#a(href^=http://link.24files.com)
-#a(href^=http://so.6655.com/?)
-#a(href^=http://stat.maxthon.com/?)
 #a(href^=http://syndication.intel.com/DistributeModule.aspx)
-#a(href^=http://tj.28.com)
-#a(href^=http://www.158.cn/)
 #a(href^=http://www.adtools.cn/click.)
 #a(href^=http://www.amazon.cn/channel/book.asp?source=)
 #a(href^=http://www.joyo.com/book/?source=)
