@@ -1,5 +1,5 @@
 [Adblock Plus 1.0.1]
-!  Checksum: Nmr5EHdLcFLslE/btDoDbw
+!  Checksum: nr0AqUaXVutAcj+hqLwDjA
 !  Adblock Plus List with Main Focus on Chinese Sites.
 !  Last Modified:  Wed, 17 Jun 2009 12:09:44 +0800
 !         ----http://adblock-chinalist.googlecode.com/
@@ -892,9 +892,11 @@ sc.tom.com
 
 !---土豆
 .p2v.tudou.com/extension/
+.p2v.tudou.com/$object_subrequest
 .p2v.tudou.com/poster/*.swf
 tudou.com#div(id=pushlist)
 tudou.com#a(id=gotoTudouVA)
+|http://js.tudouui.com/bin/tudoumini/TudouMini_15.swf
 
 !---游久网
 stat.uuu9.com/stat/lbnr/$subdocument
