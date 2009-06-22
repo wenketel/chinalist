@@ -1,7 +1,7 @@
 [Adblock Plus 1.0.1]
-!  Checksum: 3e7SUGG4znTNZgsbBYQHzQ
+!  Checksum: Faz/+MDezkxlzJTNS4fHPg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 22 Jun 2009 17:39:15 +0800
+!  Last Modified:  Mon, 22 Jun 2009 19:32:47 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -190,8 +190,6 @@ bbs.btpig.com###ajaxwaitid+div.wrap>#header+table+table[width="97%"][height="33"
 shuangtv.net/shuangtv.swf
 shuangtv.net/shuangtv.gif
 http://www.tdplay.com.cn/media/xuanchuan/
-
-
 
 !---赛迪网
 ccidnet.com/adimage
@@ -478,7 +476,6 @@ stat.it168.com/pv.js
 itpub.net/js_floatwindows_for_publish.php
 itpub.net/js_floatwindows.php
 itpub.net/popwindowjs.php
-
 itpub.net#div(class=popup)
 
 !---开心网
@@ -528,7 +525,6 @@ bbs.macd.cn/v8.php
 bbs.macd.cn/$subdocument
 bbs.macd.cn/adv_reply.php
 blog.macd.cn/templates/macd2009/images/730tiejian.gif
-
 bbs.macd.cn#DIV(id=advlist)
 bbs.macd.cn#table(width=480)(cellspacing=0)(cellpadding=0)(bordercolor=#6ba2c2)(border=1)
 bbs.macd.cn##a[href="http://www.cf8.cn/adgprj.html"]
@@ -945,6 +941,11 @@ xdowns.com/ggd.js
 bbs.xdowns.com/jump.js
 bbs.xdowns.com/9.js
 
+!---校内
+gg.xiaonei.com/view.jsp
+jebe.xnimg.cn
+xiaonei.com##.blank-holder
+
 !---新华网
 .xinhuanet.com/classad/
 .xinhuanet.com/edu/flash_$subdocument
@@ -1199,6 +1200,7 @@ chnqiang.com/da/
 cncmax.cn:8080/issueunziped/
 cncrk.com/ggg/
 bwp.taiwan.cnet.com/
+img.cngba.com/da/*$subdocument,image,script,object
 .cnhan.com/other/$image,object
 .cnhan.com/*/tplimg/*.jpg$image
 /pic.cnmo.com/20*/*_*.
@@ -1349,6 +1351,7 @@ rm.romman.net/js/rm_D10.html
 shanghaiviva.com/images/zb/*.*.jpg
 diary.showhappy.net/scripts/diarytextads.js
 images.shudoo.com/tu/sy/*.swf
+shxb.net/tips/tips.js
 since1984.cn/images/taobao/jandan/1.png
 .softnews.cn/other/js/A_*.js
 sport366.com/main/js/utf8kuaixun.js
@@ -1606,11 +1609,8 @@ adsunion
 affiliate$subdocument,script,object
 friendlink$subdocument,image
 guanggao
-img.cngba.com/da/*$subdocument,image,script,object
-iSystem/HitStatistic/
 partners/
-trswcm_plugins/adintrs/
-http://www.shxb.net/tips/tips.js
+
 
 !-----------------------Element Hiding--------------------
 ###ad_interthread
@@ -1737,7 +1737,6 @@ www.waf.com.cn###header+div[style="width: 98%; background-color: rgb(242, 255, 2
 bbs.whsee.com###ad_text>*:not(:first-child)
 wretch.cc#*(ad_stamp)
 bbs.xdxdxd.com###ad_888
-gg.xiaonei.com/view.jsp?*
 xishui.net#*(id^=PublicRelation)
 xmnn.cn#table(class=bAD)
 ycwb.com##BODY:not([onload]) > table ~ table[width="995"][align="center"]:not(:first-child)
