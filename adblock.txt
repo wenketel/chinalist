@@ -1,5 +1,5 @@
 [Adblock Plus 1.0.1]
-!  Checksum: IbuNO7DkS79TaU0skC0cRQ
+!  Checksum: J5nrxb5nuwWpGkrECgrVwQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
 !  Last Modified:  Fri, 10 Jul 2009 10:39:15 +0800
 !         ----http://adblock-chinalist.googlecode.com/
@@ -312,12 +312,13 @@ img.cnbeta.com/ks576.gif
 cnbeta.com###fm_r,#userInfo,#AdForward,#comad
 cnbeta.com##div.newslist>dl>dd.detail>em
 
-!---霏凡软件站
+!---非凡软件站
 crsky.com/ggao/
-@@crsky.com/ggao/downd_a.js
-crsky.com#td(width=310)(bgcolor=#f0fbff)(align=middle)
+crsky.com##div.banner,div.banner-leader-index
 greendown.cn/ggao/
 greendown.cn#div(class=content ad-b950x50)
+greendown.cn/tj.js
+pstatic.xunlei.com/js/webThunderDetect.js
 
 !---CSDN
 .csdn.net/ggmm
@@ -795,6 +796,7 @@ www.sina.com,www.sina.com.cn#div(id=Search)
 /d\d.sina.com.cn/\d{6}/\d+/\d+_.*.swf/
 d2.sina.com.cn/d1images/lmt/lmt_v5.js
 bj.house.sina.com.cn/iframe/sina_index_2009/
+news.sina.com.cn/pvcounter/pvcounter.js
 
 !---星岛日报
 singtao.ca/singtaoads/
