@@ -1,5 +1,5 @@
 [Adblock Plus 1.0.1]
-!  Checksum: 77OGNIRhkdq6XsJVd07GVQ
+!  Checksum: 1KpA6TtEF7uMNcAG3amEPQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
 !  Last Modified:  Fri, 10 Jul 2009 10:39:15 +0800
 !         ----http://adblock-chinalist.googlecode.com/
@@ -400,7 +400,11 @@ feiku.com/images/ds*.jpg
 feiku.com/images/sdo.jpg
 
 !---蜂鸟
+fengniao.com#div(id^=AD)
+fengniao.com##div.ad_tonglan,.A_ad,.A_35,#marquee1
 fengniao.com/secforum/sec_top_iframe.php
+fengniao.com/images/250*110.swf
+fengniao.com/topic/images/740-28.jpg
 bbs.fengniao.com/pic/$subdocument
 bbs.fengniao.com/forum/images/kachayu.gif
 bbs.fengniao.com/forum/clientscript/vbb_scroll.js
@@ -408,9 +412,8 @@ bbs.fengniao.com/forum/var/vbb_scroll_content.js
 bbs.fengniao.com##TD[align="left"][colspan="2"]
 bbs.fengniao.com##P[style="margin: 0pt; font-size: 12px; text-align: center;"]
 js.fengniao.com/pv.js
-pic.fengniao.com/200905/bain703bbs72890_0531.swf
-pic.fengniao.com/200904/tianmima98070_0430.swf
-pic.fengniao.com/200904/tianpp98070_0430.swf
+stat.fengniao.com/ol_fn.js
+pic.fengniao.com/200906/$object
 
 !---飞递
 feed.feedsky.com/~cpm/$object
@@ -585,6 +588,7 @@ mitbbs.com,mitbbs.cn,unknownspace.org##body>center>table:first-child+table+table
 .mop.com/images/d.jpg
 img.mop.com/images/item/topic/topic_3.gif
 union.mop.com/
+dzh.mop.com/static/$object
 mop.com##div[class="blank9"]+div[style="height: 90px;"]
 mop.com##div.arearig>div.left[style="width: 172px;"]
 mop.com#div(ad960x90)
