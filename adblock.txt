@@ -1,5 +1,5 @@
 [Adblock Plus 1.0.1]
-!  Checksum: V15BMQB7Z9kb/ht/5kqicw
+!  Checksum: N0vszTRAUBRiVqQ8NfFmKQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
 !  Last Modified:  Fri, 10 Jul 2009 10:39:15 +0800
 !         ----http://adblock-chinalist.googlecode.com/
@@ -24,52 +24,23 @@ insenz.com/adv?$script
 !---163
 images2.cache.netease.com
 @@|http://img2.cache.netease.com/cnews/*ad*.jpg
-b.bst.126.net/pop/blogRecommend.html
-img1.126.net/channel7/005406/shift360150_090514.swf
-163.com/cnews/*/end_m*.gif
-163.com/images/js/new.163.com_finnal.js
-163.com/js/alibaba/
-163.com/js/ebay/
-163.com/js/yadun/
 adgeo.163.com/
 analytics*.163.com/
-cpc.163.com/
 house.163.com/infoimg/
-images.163.com/images/netease/
-news.163.com/special/00012G9I/bbsinclude2.0.html
-popme.163.com
 pro.163.com/
-proimg.163.com
 union.163.com/
-#a(href^=http://adclient.163.com/)
-#a(href^=http://popme.163.com/)
-#a(href^=http://pro.163.com/event.ng/Type=click&FlightID=)
-163.com#div(adMenu)
-163.com#div(class=adEbay)
-163.com#div(class=adList)
 163.com#div(class^=adRtext)
-163.com#div(class=ebayText)
-163.com#div(class^=endAd550)
-163.com#div(class=gg210)
-163.com#div(class=ggText cGg clearfix)
-163.com#div(class=ggR)
-163.com#div(class=ggM)
 163.com#div(class=ggL cGg)
-163.com#div(class=newMessage)
-163.com#div(id=flnews2)
-163.com#div(id^=adListContent)
+163.com##div.gg210,.ggR,.ggM,.newMessage
 163.com#div(id^=ead_ad_)
-163.com#div(listAD)
 163.com##*[class^=ad0], *[class^=ad1], *[class^=ad2], *[class^=ad3], *[class^=ad4], *[class^=ad5], *[class^=ad6], *[class^=ad7], *[class^=ad8], *[class^=ad9]
-163.com#ul(id=adMenu)
-163.com#div(class=adeguo)
-163.com#div(id=adMenuContent)
+163.com##ul#adMenu)
+163.com##div#adMenuContent
 house.163.com###left>.leftad:first-child
 house.163.com###newad3+#right_3+#right_4
 house.163.com###right>.div_clear+#right_6
-house.163.com#div(id^=newad)
-news.163.com#DIV(class=adRPicText)
-mail.163.com#ul(id=ulService)
+news.163.com#DIV.adRPicText
+mail.163.com##ul#ulService
 sports.163.com##body>div:first-child[style="margin: 0pt auto; width: 960px; height: 60px; clear: both;"]
 tie.youdao.com###top1+#head1+div[style^="margin"]
 img1.126.net$subdocument
