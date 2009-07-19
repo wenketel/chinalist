@@ -1,5 +1,5 @@
 [Adblock Plus 1.0.1]
-!  Checksum: e2jSa6CWrCDTmV51V1XQMQ
+!  Checksum: BrCMyONLUrfWj1wBIszayQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
 !  Last Modified:  Fri, 10 Jul 2009 10:39:15 +0800
 !         ----http://adblock-chinalist.googlecode.com/
@@ -295,7 +295,7 @@ deskcity.com/images/banner/mydc.gif
 deskcity.com/images/bannerfiles/dvd_flash.gif
 deskcity.com/images/bannerfiles/dvd_psd.gif
 deskcity.com/images/bigqmp.jpg
-deskcity.com/images/cnfish.jpg.
+deskcity.com/images/cnfish.jpg
 
 !---Dict.CN
 dict.cn/fy/$subdocument
@@ -304,8 +304,7 @@ dict.cn/oklink/$subdocument
 client.dict.cn/img/ad_ad.jpg
 dict.cn/ok/$subdocument
 dict.cn##A[style="border-bottom: 1px solid rgb(51, 102, 102); color: rgb(51, 102, 102); text-decoration: none;"]
-dict.cn#div(class=top_text_ad)
-dict.cn#div(class=tab_ad)
+dict.cn##div.op_text_ad,.tab_ad
 
 !---discuss.hk
 discuss.com.hk/overture/
@@ -1195,6 +1194,7 @@ chinaventure.com.cn/Common/images/251X220.gif
 chinaventure.com.cn/sponsors/
 banners.chinesenewsnet.com
 chnqiang.com/da/
+chnqiang.com#div(class^=ad)
 .cn.vc/uploadfile/200712/200712311199104181.gif
 cnblogs.com##DIV#liveMessengerThumb
 cncmax.cn:8080/issueunziped/
@@ -1232,6 +1232,7 @@ eywedu.com/$script
 /cl.finaleden.com
 .fixdown.com/168/
 fj007.com/money
+fj007.com##div#wordlink
 flash8.net/flash8_a_d_s/
 www.free9.net/myc/myc.js
 www.free9.net/myc/$subdocment
@@ -1283,10 +1284,6 @@ jtrip.net/pr/
 jukuu.com/images/speak2me-2(20081111).gif
 .jxcn.cn/gzad/
 .koowo.com/pa_mbox/$subdocument
-kt88.net/inc/ggplay.js
-kt88.net/js/*.html?id=*&gg=
-kt88.net/js/Moneys.js
-kt88.net/news/inc/bd/$subdocument
 kukudm.com/kukuad/comic/$image
 a.kwongwah.com.my/www/delivery/ajs.php
 .lan123.net/other/js/A_*.js
@@ -1656,13 +1653,6 @@ guanggao
 52topview.com#div(id=main-info)
 56zz.com#div(class=adbox)
 66wz.com#div(inarticle)
-79wx.net#div(id=Ads02)
-79wx.net#div(id=ClList0)
-79wx.net#div(id=ClList1)
-79wx.net#table(height=61)(bgcolor=#ffffff)(align=center)
-79wx.net#table(width=995)(height=68)(align=center)
-79wx.net#td(width=246)
-79wx.net#td(width=262)(valign=top)
 86zw.com###Top>#TextSelect+center>table
 96bbs.com##table[style="background: rgb(187, 233, 255) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;"]
 96bbs.com#td(height=50)(align=center)
@@ -1672,11 +1662,6 @@ baofeng.com#div(class=midR)
 beelink.com###table25>tbody>tr:first-child+tr
 beelink.com###table3>tbody>tr:first-child
 blogad.com.tw$script,object
-blogcn.com#table(width=341)(cellspacing=1)(cellpadding=4)(border=0)(align=left)
-btchina.net#table(id=AutoNumber1)(width=100%)(cellpadding=2)
-btchina.net#table(width=100%)(cellpadding=2)(border=0)(align=center)
-chnqiang.com#div(class^=ad)
-chnqiang.com#div(id=eMeng)
 cnmo.com#div(class=arAD)
 cnmo.com#div(id^=Bar10)
 cnw.com.cn###banner_01
@@ -1690,9 +1675,6 @@ dygod.com#TR(class=altbg2)
 eastmoney.com##span#zoom > table[border="0"][align="left"]
 engadget.com#div(class=medrect)
 ffw.com.cn#div(adtxt)
-fj007.com#*(id^=ad)
-fj007.com#td(id^=Ad)
-fj007.com#div(id=wordlink)
 gamebase.com.tw#A(href^=http://www.gamebase.com.tw/ad/)
 gamez.com.tw#table(id=pid99999999)
 gndaily.com#MARQUEE(direction=up)
