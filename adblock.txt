@@ -1,5 +1,5 @@
 [Adblock Plus 1.0.1]
-!  Checksum: N0vszTRAUBRiVqQ8NfFmKQ
+!  Checksum: e2jSa6CWrCDTmV51V1XQMQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
 !  Last Modified:  Fri, 10 Jul 2009 10:39:15 +0800
 !         ----http://adblock-chinalist.googlecode.com/
@@ -21,28 +21,15 @@
 1000fr.com/images/$object
 insenz.com/adv?$script
 
-!---163
+!---网易
 images2.cache.netease.com
-@@|http://img2.cache.netease.com/cnews/*ad*.jpg
 adgeo.163.com/
-analytics*.163.com/
 house.163.com/infoimg/
-pro.163.com/
 union.163.com/
-163.com#div(class^=adRtext)
-163.com#div(class=ggL cGg)
 163.com##div.gg210,.ggR,.ggM,.newMessage
-163.com#div(id^=ead_ad_)
 163.com##*[class^=ad0], *[class^=ad1], *[class^=ad2], *[class^=ad3], *[class^=ad4], *[class^=ad5], *[class^=ad6], *[class^=ad7], *[class^=ad8], *[class^=ad9]
-163.com##ul#adMenu)
+163.com##ul#adMenu
 163.com##div#adMenuContent
-house.163.com###left>.leftad:first-child
-house.163.com###newad3+#right_3+#right_4
-house.163.com###right>.div_clear+#right_6
-news.163.com#DIV.adRPicText
-mail.163.com##ul#ulService
-sports.163.com##body>div:first-child[style="margin: 0pt auto; width: 960px; height: 60px; clear: both;"]
-tie.youdao.com###top1+#head1+div[style^="margin"]
 img1.126.net$subdocument
 
 !---草根网
@@ -1009,7 +996,6 @@ tw.news.yahoo.com#div(id=adst)
 tw.news.yahoo.com#div(id=ynwsadk)
 mail.yahoo.com#a(href=http://cn.mail.yahoo.com/)
 mail.yahoo.com###northbanner
-mail.163.com#a(href=http://cn.mail.yahoo.com/)
 mail.google.com#a(href=http://cn.mail.yahoo.com/)
 mail.yahoo.com#div(id=swPane)
 mail.yahoo.com#div(id=slot_MNW)
@@ -1655,8 +1641,6 @@ guanggao
 #*(rightad1)
 #*(topAD)
 #*(topads)
-#a(href*=.allyes.com/main/adfclick)
-#a(href*=/adclick.php?)
 #a(href*=/guanggao)
 #a(href*=/showavd.aspx?adid=)
 #a(href*=mxmtrack.com/click.php)
