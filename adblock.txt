@@ -1,5 +1,5 @@
 [Adblock Plus 1.0.1]
-!  Checksum: 9f0P2ZXNDnZbWVqn4vAAww
+!  Checksum: V15BMQB7Z9kb/ht/5kqicw
 !  Adblock Plus List with Main Focus on Chinese Sites.
 !  Last Modified:  Fri, 10 Jul 2009 10:39:15 +0800
 !         ----http://adblock-chinalist.googlecode.com/
@@ -455,6 +455,13 @@ acst.huanqiu.com/www/delivery/
 huanqiu.com#*(id^=banner0)
 huanqiu.com##body>#ad
 huanqiu.com##body>#hd+.ct>.adlist
+
+!---网络中国
+httpcn.com/js/$script
+httpcn.com/swf/
+httpcn.com/mysite/
+httpcn.com/about/newopen/newopen.js
+astro.httpcn.com/images/banner/banner_soft2.gif
 
 !---ifeng
 img.phoenixtv.com/tres/recommend/
@@ -1296,10 +1303,6 @@ lucky.hongxiu.com/Agent/ShowMe.js
 hongxiu.com/fox/index_b.html
 .hotrank.com.tw*/hotrank.js
 .hsm.com.cn/upload_pic/*/U*.swf
-.httpcn.com/mysite/*/*_gg.htm
-.httpcn.com/mysite/*/gg_*.htm$subdocument
-.httpcn.com/mysite/*/site_text_*.htm?$subdocument
-.httpcn.com*/swf/*760-77*.swf
 htpc1.com/newfolder/
 hudong.com/inc/dwhz.jsp
 biz.hxonl.com/
