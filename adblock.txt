@@ -1,5 +1,5 @@
 [Adblock Plus 1.0.1]
-!  Checksum: S1/rmbxL0VhIrpzjsCh96g
+!  Checksum: zPe0BOomN9joYe68b2mUQw
 !  Adblock Plus List with Main Focus on Chinese Sites.
 !  Last Modified:  Wed, 22 Jul 2009 16:39:15 +0800
 !         ----http://adblock-chinalist.googlecode.com/
@@ -174,9 +174,8 @@ china.com#div(fullClmAT)
 china.com#div(homeheadAT)
 club.china.com#table(headbanner)
 game.china.com##div.chan_side_blk + div.chan_side_blk2
-game.china.com#div(class=banner)
-game.china.com#div(id=adtxtBlk)
-game.china.com#div(id=tuijian)
+game.china.com##div.banner
+game.china.com##div#adtxtBlk,#tuijian
 game.china.com#div(id^=CH_GAME_WZLZ_100)
 game.china.com#table(class=chan_side_lst)
 tech.china.com###GlobalNav+.headbanner
