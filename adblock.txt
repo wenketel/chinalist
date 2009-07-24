@@ -1,5 +1,5 @@
 [Adblock Plus 1.0.1]
-!  Checksum: /+Q5kQA1D4vnIBvJ5JwxQw
+!  Checksum: x+b01kAvNzpPll3suez0pA
 !  Adblock Plus List with Main Focus on Chinese Sites.
 !  Last Modified:  Fri, 24 Jul 2009 11:00:23 GMT
 !         ----http://adblock-chinalist.googlecode.com/
@@ -17,7 +17,6 @@
 
 !---------------------Well-known Sites-------------------
 !---馨灵风软
-1000fr.com###ad_text
 1000fr.com/images/$object
 insenz.com/adv?$script
 
@@ -303,6 +302,11 @@ market.duowan.com/duowan/*.js
 web.duowan.com##div.advertise
 web.duowan.com##div#banner
 
+!---圣域家园
+www.idc-1.com/js/js.php?$script
+dream2008.cn##div#ad_headerbanner
+dream2008.cn##div[id^="ad_thread"]
+
 !---eNet
 .enet.com.cn/*/bottomsm.js
 .enet.com.cn/enetshow.shtml
@@ -310,8 +314,8 @@ web.duowan.com##div#banner
 .enet.com.cn/includes/v2/vacation_pic.shtml
 .enet.com.cn/UserTrack
 trace.enet.com.cn/
-enet.com.cn#div(class^=ad)
-enet.com.cn#div(class=enet_banner)
+enet.com.cn##div[class^="ad"]
+enet.com.cn##div.enet_banner
 
 !---北方网
 eap.enorth.com.cn/js/sp/
@@ -325,7 +329,7 @@ feiku.com/images/ds*.jpg
 feiku.com/images/sdo.jpg
 
 !---蜂鸟
-fengniao.com#div(id^=AD)
+fengniao.com##div[id^="AD"]
 fengniao.com##div.ad_tonglan,.A_ad,.A_35,#marquee1
 fengniao.com/secforum/sec_top_iframe.php
 fengniao.com/images/250*110.swf
@@ -398,8 +402,7 @@ img.ifeng.com/tres/recommend/
 @@|http://img.ifeng.com/tres/recommend/client/*-480x360.flv
 sc.ifeng.com/event.ng/
 sta.ifeng.com/stadig/
-ifeng.com#div(class^=adlist)
-ifeng.com#div(class=ad_text)
+ifeng.com#div[class^="adlist"]
 ifeng.com##.areaAd
 
 !---Infoq
@@ -1283,7 +1286,7 @@ i.mtime.cn/tg/
 mysilu.com##div#ad_headerbanner,.ad_column
 namipan.com/inc_js/inc930.js
 namipan.com/inc_page/inc_gg.html
-v.naqigs.com/Position/javas/CPM_2210_64006.js
+v.naqigs.com/Position/javas/$script
 nddaily.com/nddailyfile/webadv/
 nddaily.com/shuzibaogongyong/gongyong_tjhgg/
 .newasp.net/js/html/
@@ -1519,6 +1522,7 @@ ok8848.com
 onetad.com
 .pee.cn/
 peelawayads.com
+union.popwan.com/
 .qi88.com/
 quantcast.com
 rd18.net
@@ -1660,7 +1664,6 @@ hxonl.com#div(id=cont1)
 hxtdz.com#table(width=98%)(bgcolor=#ffffff)(align=center)
 i-cable.com#div(id=Layer12)
 i1.hk/ad/*
-bbs.imp3.net###ad_text.ad_text
 issncn.com#td(width=301)(bgcolor=#ffffff)
 kamang.net#form(user-login-form)
 kwongwah.com.my###nav_menu+div.w960>div:first-child+div+div+div.w360c+div.w280+br+hr+div
@@ -1685,7 +1688,6 @@ sourceforge.net###fad1p
 teein.com###xp_content
 forum.timway.com##div.maintable td[bgcolor="#ffffff"]
 bbs.tompda.com#table(width=96%)(bgcolor=#d4ebfd)
-treo.net.cn#div(class=ad_text)
 unix-cd.com#div(ggad)
 www.waf.com.cn###header+div[style="width: 98%; background-color: rgb(242, 255, 240); clear: both;"]+div[style="padding: 2px;"]+div[style="width: 98%; clear: both;"]>div:first-child[style="width: 260px; height: 235px; float: left;"]
 bbs.whsee.com###ad_text>*:not(:first-child)
