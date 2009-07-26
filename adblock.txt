@@ -1,7 +1,7 @@
-[Adblock Plus 1.0.1]
-!  Checksum: ZqyThDahT99guU2EFBbgzw
+[Adblock Plus 1.1]
+!  Checksum: 94tgtJLQMUX6Up42r0zefw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 26 Jul 2009 21:14:59 GMT
+!  Last Modified:  Sun, 26 Jul 2009 21:35:49 GMT
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -118,9 +118,13 @@ box.zhangmen.baidu.com/js/ad.js
 image.baidu.com#table(id=relEcom)
 
 !---啃书阁
-bookge.com/hz1/sp.js
-bookge.com/zj85/gule88.js
-bookge.com/zj85/tao.html
+bookge.com/zj85/$script
+bookge.com/hz1/tcby.js
+bookge.com/rar/$subdocument,script
+||images-yite.cn/data/tabloid/tabloid_normal.js
+guanai.net/$subdocument
+gupiao120.cn/$subdocument
+||bookge.com/$subdocument
 
 !---猪猪乐园
 .baiwin.cn/meiti/flash/
@@ -1388,6 +1392,7 @@ www.59.vc/
 .6zg.com
 .733.com
 .779.net
+||778669.com/$subdocument,script
 .7ccp.com
 .7iam.com
 .7town.com
@@ -1683,6 +1688,7 @@ long-jf.com/images/xxyd-lb.gif
 bbs.orc3c.com/attachments/month_0906/0906120027d7ed1532e9fb340f.jpg
 
 !-----------------------2009.7--------------------------------------------------------
+cnzz.com/$third-party,domain=~cnzz.com
 linezing.com/$third-party,domain=~linezing.com
 vdoing.com/$third-party,domain=~vdoing.com
 geekcook.org/ad/$image
