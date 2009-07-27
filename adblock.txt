@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: dOzS5qs3DABACTBDu0VIvw
+!  Checksum: eA5AHS+6oN46JddHMQACgQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 27 Jul 2009 13:57:34 GMT
+!  Last Modified:  Mon, 27 Jul 2009 14:23:04 GMT
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -294,8 +294,12 @@ discuss.com.hk###header+#foruminfo+div[align="center"]
 discuss.com.hk###headfilter+.mainbox+div+table
 
 !---多特软件站
-duote.com/duotehtml/down_*_*.js
-duote.com/duotehtml/downBeforeIntro.js
+img.duote.com/duotehtml/$script
+img.duote.com/js/pathAd.js
+img.duote.com/js/clickDownAjax4.js
+img.duote.com/js/clickDownAjax3.js
+duote.com##DIV.tuwen.line_ggreen
+/PV?peerid=
 
 !---多玩游戏网
 .duowan.com/market/
@@ -1383,11 +1387,12 @@ zhue.com.cn/js/showad.js
 .339.cn/
 .3bu.com
 .3gzi.com
-.50bang.com
+50bang.com
 .51go.com
 51link.com
 51verycd.cn
 51yes.com
+50bang.org
 image1.55.la
 556.com.cn
 www.59.vc/
