@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: ylwUmaZgYs3+lOyfdiyGeA
+!  Checksum: r9xXyO43YgtH9VKyjTFWBQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 27 Jul 2009 14:32:59 GMT
+!  Last Modified:  Mon, 27 Jul 2009 14:47:53 GMT
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -52,13 +52,10 @@ ranking.21cn.com
 search.21cn.com##td.frame_2b>table[width="170"],[width="165"]
 
 !---39健康网
-.39.net/gy/url/news_
 lucky.39.net
 show.39.net$subdocument
-39.net##.textlinks
-39.net##.tonglan
-39.net##.topbanner
-woman.39.net#*(class^=money)
+39.net##div.tonglan,.textlinks
+woman.39.net##*[class^="money"]
 
 !---51.com
 static.apic.51.com/
