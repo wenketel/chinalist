@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: FHNtEJyypvTH8Sh6g8EFBw
+!  Checksum: vXnE1zrVNBEb29Y7n++tYA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 29 Jul 2009 13:01:28 GMT
+!  Last Modified:  Wed, 29 Jul 2009 22:42:54 GMT
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -834,6 +834,18 @@ nba.sports.tom.com##div#body>table:first-child+table>tbody>tr:only-child>td:firs
 nba.sports.tom.com##div#tomhead>table:first-child+table
 sc.tom.com
 
+!---TomPDA
+beareyes.com.cn/2/lib/200811/04/448/760-60.swf
+tompda.com/scripts/index.js
+tompda.com/suginc_bbs.asp
+tompda.com/zhuanti/$subdocument
+||tompda.com/tupian/adimgs/$image,object
+cdnbbs.tompda.com/images/$image,object
+cdn.tompda.com/shot/yimeng.swf
+cdnwww.tompda.com/tupian/3g.gif
+cdnwww.tompda.com/tupian/mw700_tom.gif
+tompda.com##div.Advertising
+
 !---土豆
 .p2v.tudou.com/extension/
 .p2v.tudou.com/$object_subrequest
@@ -1318,9 +1330,6 @@ teein.com/postshead.html
 gif8.timway.com/gif/
 titan24.com/lining/ln_final.swf
 b.todayisp.com/
-bbs.tompda.com/*.htm$subdocument
-.tompda.com/*/*.swf
-.tompda.com/tuijian/gg*/
 sysimages.tq.cn/js/tqFloatWin_agent.js
 /dm.travelocity.com/*.ng/site=*&locale=
 img.tugus.com/rubens
@@ -1649,7 +1658,6 @@ sourceforge.net###fadbtmp
 sourceforge.net###fad1p
 teein.com###xp_content
 forum.timway.com##div.maintable td[bgcolor="#ffffff"]
-bbs.tompda.com##table[width="96%"[[bgcolor="#d4ebfd""]
 unix-cd.com###ggad
 www.waf.com.cn###header+div[style="width: 98%; background-color: rgb(242, 255, 240); clear: both;"]+div[style="padding: 2px;"]+div[style="width: 98%; clear: both;"]>div:first-child[style="width: 260px; height: 235px; float: left;"]
 bbs.whsee.com###ad_text>*:not(:first-child)
