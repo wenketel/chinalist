@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: vXnE1zrVNBEb29Y7n++tYA
+!  Checksum: 0eliwx63B0Qucwy4KitDHA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 29 Jul 2009 22:42:54 GMT
+!  Last Modified:  Wed, 29 Jul 2009 23:29:46 GMT
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -675,9 +675,12 @@ rsdown.cn/$subdocument
 rsdown.cn/readme/rsdown.gif
 
 !---Sina
-sina.com.cn/client/$image,object
-sina.com.cn/lm/mini/
-sina.com.cn/shuhu/js/vad.js
+sina.com.cn/rwei/
+||sina.com.cn/d1images/button/rotator.js
+||sina.com.cn/d1images/pb/rotator_pb.js
+||.sina.com.cn/shh/2008TopBar/2008TopBar.js
+sina.com.cn##DIV#Search,.topadsbanner
+sina.com.cn##div[class^="AD"]
 sina.com.cn/unipro/
 bbs.sina.com.cn/mini/focus.html
 bbs.sina.com.cn/pc/post_1.html
@@ -689,7 +692,6 @@ bbs.club.sina.com.cn/ajax/minimessage.php
 classadnew.sina.com.cn/doc/*/images/*.swf
 @@|http://d1.sina.com.cn/myshow/
 dcads.sina.com.cn
-sina.com.cn/rwei/
 i3.sina.com.cn/book/forum/s2/js/minimessage.js
 image2.sina.com.cn/book/forum/s2/js/minimessage.js
 mag.sina.com.cn/iframes.php
@@ -702,28 +704,16 @@ sinaimg.cn/unipro/
 sinaimg.cn/hs/img/
 blogjs.sinajs.cn/v5js/blogPromote.conf.js
 spacejs.sinajs.cn/js/space_all.js
-sina.com.cn#*(id^=PublicRelation)(class*=adNone)
-sina.com.cn##td[width="300"][valign="top"][style^="border-bottom: 1px solid rgb(222, 223, 222); background: transparent url(http://i3.sinaimg.cn/dy/article/950/con_070227_ws_008.gif) repeat-y scroll 0% 0%; overflow: hidden;"]
-sina.com.cn#div(id^=adSinaHouse)
-sina.com,sina.com.cn#div(class^=AD)
-sina.com,sina.com.cn#div(class^=ads)
-sina.com,sina.com.cn#div(class^=txtadsblk)
-sina.com,sina.com.cn#div(id^=cl_style)
-sina.com,sina.com.cn#div(sinamall)
 auto.sina.com.cn#div(topbrand)
 blog.sina.com.cn###wrap>.BlogTool+.PartA+.PartA+.PartA+.PartF
-blog.sina.com.cn#div(id=global_links)
-blog.sina.com.cn#div(topbannerAD)
-blog.sina.com.cn,mobile.sina.com.cn#div(top_bar)
+blog.sina.com.cn##div#global_links
+blog.sina.com.cn##div#topbannerAD
+blog.sina.com.cn,mobile.sina.com.cn##*top_bar
 classadnew.sina.com.cn##TABLE[width="750"][style="border: 1px solid rgb(167, 167, 167);"]
-mag.sina.com.cn#div(id=guide)
-tech.sina.com.cn#table(class=PartMj_B)
+mag.sina.com.cn##div#guide#
+tech.sina.com.cn##table.PartMj_B
 video.sina.com.cn###advertiseDiv
 you.video.sina.com.cn###xp_content
-www.sina.com,www.sina.com.cn#div(id=Search)
-/d\d.sina.com.cn/\d{6}/\d+/\d+_.*.swf/
-d2.sina.com.cn/d1images/lmt/lmt_v5.js
-bj.house.sina.com.cn/iframe/sina_index_2009/
 news.sina.com.cn/pvcounter/pvcounter.js
 
 !---星岛日报
