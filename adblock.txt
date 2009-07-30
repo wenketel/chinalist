@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: j01Kf5G97jEiCwUPkPKTLQ
+!  Checksum: kov58+awtqiVCYpsUir8vA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 30 Jul 2009 14:59:41 GMT
+!  Last Modified:  Thu, 30 Jul 2009 15:14:21 GMT
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -170,19 +170,10 @@ game.china.com#table(class=chan_side_lst)
 tech.china.com###GlobalNav+.headbanner
 www.china.com##div[class="mainBlk01"]>div[class="right"]
 
-!---中国网
-images.china.cn/*/market/*-gg-
-images.china.cn/images1/ch/071127/070216-b2.jpg
-images.china.cn/images1/ch/071127/touzizhguo307x70.jpg
-!- ...ch/ or even ...ch/2008first/ has many images should not be filtered. So...
-images.china.cn/images1/ch/2006first/060911.htm
-images.china.cn/images1/ch/2008first/080205_hd.jpg
-images.china.cn/images1/ch/2008first/080327-sy.swf
-images.china.cn/images1/ch/2008first/080416-sy.jpg
-images.china.cn/images1/ch/2008first/080422-sy.jpg
-images.china.cn/images1/ch/2008first/080606-sy.gif
-images.china.cn/images1/ch/2008first/080616-sd.jpg
-images.china.cn/images1/ch/2008first/080616-ww.jpg
+!---中国供应商
+china.cn##div.rowLAd,.topAd
+pvstat.china.cn/statpv.js
+cd.code.ermchina.cn/show.php?$subdocument
 
 !---ChinaITLab
 chinaitlab.com/images/768school0604.swf
