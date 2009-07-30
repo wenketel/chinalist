@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: t1QjP4A3cdRUO/hv18kYdg
+!  Checksum: EM3iIgwuXcVZfvLbax+wxQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 30 Jul 2009 15:32:59 GMT
+!  Last Modified:  Thu, 30 Jul 2009 15:41:03 GMT
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -29,6 +29,7 @@ adgeo.163.com/
 house.163.com/infoimg/
 union.163.com/
 163.com##div.gg210,.ggR,.ggM,.newMessage,#adMenuContent
+163.com##*[class^="ad"]
 163.com##ul#adMenu
 img1.126.net$subdocument
 impservice2.youdao.com/imp/req_ads_v3_2.js
@@ -288,6 +289,7 @@ w9b0ww.blu.livefilestore.com/y1pnYl63S9Ybvdj1wuDEYbGAPhTByhoCshpMzUfxLtF6XaWqUYG
 .enet.com.cn/includes/v2/vacation_pic.shtml
 .enet.com.cn/UserTrack
 trace.enet.com.cn/
+enet.com.cn##div[class^="ad"]
 enet.com.cn##div.enet_banner
 
 !---北方网
@@ -302,6 +304,7 @@ feiku.com/images/ds*.jpg
 feiku.com/images/sdo.jpg
 
 !---蜂鸟
+fengniao.com##div[id^="AD"]
 fengniao.com##div.ad_tonglan,.A_ad,.A_35,#marquee1
 fengniao.com/secforum/sec_top_iframe.php
 fengniao.com/images/250*110.swf
@@ -704,6 +707,7 @@ tech.sina.com.cn##table.PartMj_B
 video.sina.com.cn###advertiseDiv
 you.video.sina.com.cn###xp_content
 sina.com.cn##DIV#Search,.topadsbanner,.topAD
+sina.com.cn##div[class^="AD"]
 sina.com.cn##div[id^="flashcontent"]
 classadnew.sina.com.cn##td.topAdv
 mag.sina.com.cn##DIV#guide
@@ -1141,6 +1145,7 @@ chinaventure.com.cn/Common/images/251X220.gif
 chinaventure.com.cn/sponsors/
 banners.chinesenewsnet.com
 chnqiang.com/da/
+chnqiang.com##div[class^="ad"]
 .cn.vc/uploadfile/200712/200712311199104181.gif
 cnblogs.com##DIV#liveMessengerThumb
 cncmax.cn:8080/issueunziped/
@@ -1577,12 +1582,9 @@ guanggao
 ###randomAD
 ###right-gg
 ###rightAd
+###rightad1
 ###topAD
 ###topads
-##*[class^="ad"]
-##*[class^="AD"]
-##*[id^="ad"]
-##*[id^="AD"]
 3quote.info##td[width="364"][height="280"]
 3quote.info##td[width="728"][height="31"][bordercolor="#FFFFFF"]
 52topview.com##div#main-info
