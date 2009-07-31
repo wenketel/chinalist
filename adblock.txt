@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: qBXG7RO5njem5dUGZ3gHhw
+!  Checksum: x7NwvRYbgeC6LLfJSzTTTQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 31 Jul 2009 22:14:05 GMT
+!  Last Modified:  Fri, 31 Jul 2009 22:59:08 GMT
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -88,22 +88,23 @@ pic.bahamut.com.tw/index_w/baha_active.swf
 pic.bahamut.com.tw/index_w/iSuper.swf
 
 !---Baidu
+/tk.baidu.com
+box.zhangmen.baidu.com/js/ad.js
 cpro.baidu.com
 eiv.baidu.com
 hiphotos.baidu.com/tubing/pic/item/f1f3173898b398f8b311c7ce.jpg
 news.baidu.com/js/usertrack.js
 spcode.baidu.com/spcode
-/tk.baidu.com
 ucstat.baidu.com
 unstat.baidu.com
 utk.baidu.com/usv/
-baidu.com#div(id^=bdfs)
-mp3.baidu.com##div#dMA + script + table[cellspacing][cellpadding]
-news.baidu.com#DIV(id=ecad)
+baidu.com##div[id^="bdfs"]
+baidu.com##table[width="30%"][align="right"]
 baidu.com##body>div#container>div#ecomContainer>div#imContainer
 a.baidu.com/ecom?di=18&tm=baidufsbanner&$script
-box.zhangmen.baidu.com/js/ad.js
-image.baidu.com#table(id=relEcom)
+image.baidu.com##table#relEcom
+mp3.baidu.com##div#dMA + script + table[cellspacing][cellpadding]
+news.baidu.com##DIV[id="ecad"]
 
 !---啃书阁
 bookge.com/zj85/$script
