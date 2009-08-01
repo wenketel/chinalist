@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: ccraM+edWGaTEnycIyGwow
+!  Checksum: t7po8GbgLDYu+NxR9+lfvA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 01 Aug 2009 13:08:26 GMT
+!  Last Modified:  Sun, 02 Aug 2009 00:01:55 GMT
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -247,10 +247,10 @@ cnmo.com##div[id^="AD"]
 
 !---桌面城市
 deskcity.com/images/banner/mydc.gif
-deskcity.com/images/bannerfiles/dvd_flash.gif
 deskcity.com/images/bannerfiles/dvd_psd.gif
-deskcity.com/images/bigqmp.jpg
 deskcity.com/images/cnfish.jpg
+deskcity.com/javascripts/tuijian/main_category/channel_*.js|
+deskcity.com##li[id^="tuijian_"]
 
 !---Dict.CN
 dict.cn/adjs.php
@@ -454,14 +454,17 @@ bt.ktxp.com/javascripts/nmjui/
 !---Ku6
 @@|http://img.c4.ku6.cn/index/upload/*/indexPlayer*.swf|
 @@|http://img.c4.ku6.cn/index/upload/*/MiniPlayer*.swf|
+220.181.23.105/dostats.do?$subdocument
 /ktrace/ktrace$script
 img.c4.ku6.cn/index/upload/$object,image
 img.c4.ku6.cn/testc/upload/$object
 image.ku6.com/888/
+image.ku6.com/image/200907/28/KU628094644yQmlxk.gif
 js.ku6.com/a888/$script
 ku6.com##img.b_ad,.adh
 ku6.com##div#swfdiv
 ku6.com##DIV.miniVideo.mb10.cfix
+ku6.com##div.wd255>div[style="position: relative; height: 70px; z-index: 89;"]:first-child
 
 !---快车网
 game.kuaiche.com/d/js/acmsd/thea24.js
@@ -817,12 +820,14 @@ singtaonet.com/images/xy/wzyad0*.js
 801.tianya.cn
 802.tianya.cn
 803.tianya.cn/
+global.tianya.cn/global/wizard/js/wizard.js
+main.tianya.cn/focus/js/beijingpop.js
 static.tianya.cn/img/global/displacepic/tyad_comein_64080.gif
 static.tianya.cn/img/static/2008/tygg/popup/tianya_pop.js
 static.tianya.cn/js/global/tianyaRecommendSmallWindow
 wenda.tianya.cn/wenda/labele
 tianyabook.com/$script
-tianya.cn##DIV.zq_ta,#randPanel,#randPanel,#adContentDiv
+tianya.cn##div.zq_ta,.bbs_ad#randPanel,#randPanel,#adContentDiv
 tianya.cn##SPAN#tianyaSense1
 tianya.cn##div[id^="FOCUS_"]
 
@@ -1309,7 +1314,6 @@ tv.on.cc*sony
 /ent.openv.com/play/images/playad.swf
 .openv.com/spread/
 bbs.orc3c.com/attachments/month_0906/0906120027d7ed1532e9fb340f.jpg
-bbs.pcbeta.com##DIV[class="pcbeta-gg s_clear"]
 we.pcinlife.com/banner/company/
 /33.pcpop.com
 bbs.pediy.com/images/edaysafe.gif
@@ -1633,6 +1637,8 @@ ied2k.com##TABLE[width="757"][cellspacing="0"][cellpadding="0"][align="center"]
 i1.hk/ad/
 lotour.com##div#banner
 mobile01.com##div.text_ad
+bbs.pcbeta.com##DIV[class="pcbeta-gg s_clear"]
+bbs.pcbeta.com##div[id^="ad_thread"]
 bbs.xdxdxd.com###ad_888
 
 !-----------------------Temporary--------------------------------------------------------
