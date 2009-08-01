@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: x7NwvRYbgeC6LLfJSzTTTQ
+!  Checksum: 8MDUVmpMW9/1V6S3Sha/iw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 31 Jul 2009 22:59:08 GMT
+!  Last Modified:  Sat, 01 Aug 2009 08:52:55 GMT
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -253,13 +253,17 @@ deskcity.com/images/bigqmp.jpg
 deskcity.com/images/cnfish.jpg
 
 !---Dict.CN
+dict.cn/adjs.php
+dict.cn/ef/ef_702x90_kuaile.swf
 dict.cn/fy/$subdocument
-dict.cn/sync/$image
-dict.cn/oklink/$subdocument
-client.dict.cn/img/ad_ad.jpg
 dict.cn/ok/$subdocument
-dict.cn##A[style="border-bottom: 1px solid rgb(51, 102, 102); color: rgb(51, 102, 102); text-decoration: none;"]
+dict.cn/ok/yx250.gif?$image
+dict.cn/sync/$image
+bbs.dict.cn##div.ad_text
 dict.cn##div.op_text_ad,.tab_ad
+dict.cn##div[style="padding: 5px; position: absolute; left: 2px; top: 2px; height: 25px; width: 400px;"]
+dict.cn##table.fy_table+table[width="90%"][align="center"]
+
 
 !---discuss.hk
 discuss.com.hk/overture/
@@ -351,7 +355,6 @@ ftchinese.com###leader_box:first-child
 !---Google
 image.j-a-net.jp/
 groups.google.com/groups/adfetch
-
 google.cn,google.com,google.com.hk,google.com.tw##div[id^="tpa"]
 google.cn,google.com,google.com.hk,google.com.tw##table#mbEnd
 google.cn,google.com,google.com.hk,google.com.tw##div#ImgCont>table[width="100%"]:first-child
