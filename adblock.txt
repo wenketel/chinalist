@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: 2Lme5fpfSyiKP0WGD1NP+A
+!  Checksum: aVZe91hLGMiQAmLaJE9E9A
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 01 Aug 2009 09:11:32 GMT
+!  Last Modified:  Sat, 01 Aug 2009 09:45:01 GMT
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -433,7 +433,7 @@ stat.it168.com/pv.js
 itpub.net/js_floatwindows_for_publish.php
 itpub.net/js_floatwindows.php
 itpub.net/popwindowjs.php
-itpub.net#div(class=popup)
+itpub.net##div.popup
 space.itpub.net/attachments/2009/07/93405_200907011402161.jpg
 
 !---开心网
@@ -452,17 +452,16 @@ bt.ktxp.com/image/$image
 bt.ktxp.com/javascripts/nmjui/
 
 !---Ku6
-58.83.170.5*/fetch.do
-hot.ku6.com/
+@@|http://img.c4.ku6.cn/index/upload/*/indexPlayer*.swf|
+@@|http://img.c4.ku6.cn/index/upload/*/MiniPlayer*.swf|
+/ktrace/ktrace$script
+img.c4.ku6.cn/index/upload/$object,image
+img.c4.ku6.cn/testc/upload/$object
 image.ku6.com/888/
-image.ku6.com/a888d/
-img.ku6.com/v5/$object
-stat-*.ku6.com/
-zt.ku6.com/almm/
-zt.ku6.com/podcast/
-ku6.com#div(id^=pic_gg_)
-ku6.com#div(id^=text_gg_)
-v.ku6.com#*(id^=frame_gg_9000)
+js.ku6.com/a888/$script
+ku6.com##img.b_ad,.adh
+ku6.com##div#swfdiv
+ku6.com##DIV.miniVideo.mb10.cfix
 
 !---快车网
 game.kuaiche.com/d/js/acmsd/thea24.js
