@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: V5kJ25Uqki+gJ+TLq4Nclg
+!  Checksum: 5D54sZuIVdUkEq5UNb/4og
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 02 Aug 2009 00:09:31 GMT
+!  Last Modified:  Sun, 02 Aug 2009 14:43:27 GMT
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -664,12 +664,10 @@ qingdaonews.com/gb/images/9703.files/AD2v1.1.js
 vip.qingdaonews.com
 
 !---飞速网
-fs2you.com/media/3rd/
-img.rayfile.com/scr/c_*.js
-rayfile.com#div(id=containerAD)
-rayfile.com#div(id$=-adPIC)
-rayfile.com#div(id^=rayfile_ad)
-static.rayfile.com/media/3rd/
+img.rayfile.com/scr/$script
+rayfile.com##div#nDown_left
+rayfile.com##div[id*="AD"]
+rayfile.com##div[id^="rayfile_ad"]
 static.rayfile.com/media/js/switch_new.js
 
 !---红软基地
