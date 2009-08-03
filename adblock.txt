@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: 4WjgzJOUR7+WV+3VLlZJBw
+!  Checksum: 5C+ET+ce1ORIwDjdmhA3rA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 03 Aug 2009 16:20:28 GMT
+!  Last Modified:  Mon, 03 Aug 2009 19:21:48 GMT
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -688,6 +688,7 @@ bbs.sina.com.cn/js/291/2009/0424/SinaDotPublicRelationCtrl_bbs.js
 bbs.sina.com.cn/mini/focus.html
 bbs.sina.com.cn/pc/post_1.html
 beacon.sina.com.cn
+bj.house.sina.com.cn/iframe/sina_index_2009/$subdocument,script
 chanye.sina.net/iframe/
 classadnew.sina.com.cn/images/adv694_85.jpg
 classadnew.sina.com.cn/images/dq.jpg
@@ -724,9 +725,7 @@ pfpip.sina.com/
 you.video.sina.com.cn/v/iframe/$subdocument
 news.sina.com.cn/pvcounter/pvcounter.js
 sina.com.cn##DIV#Search,.topadsbanner,.topAD,.topads
-sina.com.cn##div[class^="AD"]
-sina.com.cn##div[id^="flashcontent"]
-sina.com.cn##div[class^="txtadsblk"]
+sina.com.cn##div[class^="AD"],div[class$="ads"],div[class^="adsblk"],div[class^="txtadsblk"]
 sina.com.cn##a[href^="http://sina.allyes.com/main/adfclick?db"]
 auto.sina.com.cn##div#topbrand
 bbs.sina.com.cn##div[class^="ad_"]
