@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: zK4ggDwC6y/zPv+qZ58uvg
+!  Checksum: /yZwhOS0k6UevKUucXlO4Q
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 04 Aug 2009 09:03:07 GMT
+!  Last Modified:  Tue, 04 Aug 2009 12:57:39 GMT
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -885,7 +885,7 @@ uwants.com###thread_ads_top+table
 uwants.com##table[width="730"][cellpadding="1"]:last-child
 
 !---VeryCD
-verycd.com##div.banner_toped2k
+verycd.com##div.banner_toped2k,#baidu-cpro-1.banner
 verycd.com##li.non-topic
 verycd.com##iframe.Banner1
 verycd.com##iframe.Banner2
@@ -1103,7 +1103,7 @@ mofile.com#div(id$=_googlead)
 05sun.com/js/300info.js
 05sun.com/js/db250.js
 qm.1000meng.com/code
-189.cn#div(id=miniAd)
+189.cn##div#miniAd
 .1b2.cn/shipin/*.js
 .1ting.net/ADCodeClip/
 2500sz.com/site/
@@ -1112,6 +1112,8 @@ qm.1000meng.com/code
 /link.265.com/images/760x60.gif
 /tj.28.com
 366soft.net/other/
+images.366tian.net/ltyx/468-60.jpg
+bbs.366tian.net##div[id^="ad_intercat"]
 imgad*.3conline.com
 3ddown.com/other/js/760.js
 3ddown.com/other/js/A_*.js
@@ -1125,7 +1127,6 @@ code.52qiangming.com/js/button.js
 5dmail.net/image/$object
 u.56wan.com/
 .67.com/*/frmCircleNews.htm
-6.cn#div(palyerAdText)
 uid.77ck.com/images/6pu_100_300.gif
 uid.77ck.com/images/bc600_300.jpg
 dx.78land.com/images/qy76070.gif
@@ -1563,6 +1564,7 @@ x-push.net
 xwadv.com
 yansulian.com
 .yigao.com
+union.youdao.com/imp/$script
 .yoyi.com.cn
 yx007.com
 .yxad.com
@@ -1639,5 +1641,8 @@ bbs.xdxdxd.com###ad_888
 !-----------------------Temporary--------------------------------------------------------
 !-----------------------2009.7--------------------------------------------------------
 ||long-jf.com/images/jxsj-lb.gif
+
+!-----------------------2009.8--------------------------------------------------------
+shooter.cn/images/prom/svplayer_250_prom.jpg
 
 !------------------------End of List--------------------------------------------------------
