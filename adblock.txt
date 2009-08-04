@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: XGAOpVJG/LvHhATFRkiMSg
+!  Checksum: +1WgUbZPe4BKh8r9Nw0RaQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 04 Aug 2009 16:53:27 GMT
+!  Last Modified:  Tue, 04 Aug 2009 17:26:07 GMT
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -1010,9 +1010,11 @@ zaobao.com/ads/
 zaobao.com/contest2009/
 
 !---抓虾
-zhuaxia.com#*(id*=_ad_)
-zhuaxia.com#div(chlist_mid_bot)
-zhuaxia.cn/images/note1.gif
+zhuaxia.com/adImage/$image
+zhuaxia.com/elong360/js/$script
+zhuaxia.com/showDailyNews/js/paladin.js?$script
+zhuaxia.com##div#channel_top>div:first-child,div[id^="pd_sg_"]
+zhuaxia.com##div[onclick^="send_ad_log"]
 
 !---逐浪小说网
 images2.zhulang.com/top1.js
@@ -1220,6 +1222,7 @@ hb666.com##.ad960x45
 .hbrchina.com/*105-260*$image,object
 .hbrchina.com/*/3/$image,object
 henku123.com/iframe/$subdocument
+hxjs.tool.hexun.com/funds/pageMediaControl1.js
 .hh-xx.com/*/online.asp?
 visit.homepagle.com/
 homerpublishing.com.tw/images/ad*.swf
