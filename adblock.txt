@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: Ms2J+yibQ8m8Pznvmktpcg
+!  Checksum: XGAOpVJG/LvHhATFRkiMSg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 04 Aug 2009 13:17:14 GMT
+!  Last Modified:  Tue, 04 Aug 2009 16:53:27 GMT
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -124,7 +124,6 @@ ahtpc.cn/tbimg/ggt.gif
 
 !---鸟瞰小说网
 birdsee.com/js/
-images.sohu.com/cs/jsfile/js/ct.js
 book.birdsee.com##div.scriptx>a>font
 
 !---赛迪网
@@ -749,10 +748,6 @@ skycn.com/js/soft_mid_n9.js
 skycn.com/tuijianimg/
 iplog.skycn.com/wherefrom.php
 
-!---Sohu
-i3.itc.cn/20080703/4b3_fd63abac_2b84_4526_bcf1_406a60f433f1_0.jpg
-goodfeel.com.cn
-
 !---17173
 .17173.com/if/
 17173.com/script/ggcommon.js
@@ -760,18 +755,7 @@ goodfeel.com.cn
 bbs.17173.com/x/$script
 bbs.17173.com/lib/new_top.js
 js.17173.com/ping.js
-sohu.com/sohuflash_1.js
 media.17173.com/x/media01banner874140.htm
-
-!-Chinaren
-chinaren.com/upload/xc200.jpg
-class.chinaren.com/cr_nav.js
-class.chinaren.com/widget/mzone.jsp
-class.chinaren.com/widget/torch.jsp
-!-班级首页的搜索按钮，对FF不友好，如果已修正请删除
-images.chinaren.com/product/alumni4/images/pic1_10.gif
-class.chinaren.com#div(contentDiv)
-class.chinaren.com##body>center>style:first-child+script+table[width="100%"][background$="/xyl1_1.gif"]
 
 !---搜房
 sofang.com/images/$object
@@ -788,24 +772,19 @@ inte.sogou.com/cpc_matrix
 /SogouUnion
 
 !---Sohu.com
+61.135.179.37/click2/count/$script
+brand.sogou.com/brand_ad_new?$script
 sohu.com/bill/
-js1.club.sohu.net/indeximages/19/721ab6443b65d59e20183904cb751d19.jpg
-js2.club.sohu.net/indeximages/f0/91d0db09568e4bf9bfd8c741dbd7faf0.gif
-images.sohu.com/*/market/
-images.sohu.com/cs/button/$object
-images.sohu.com/cs/jsfile/adm/
-images.sohu.com/cs/jsfile/cnr/classfly.js
+sohu.com/sohuflash_1.js
+dianji.sohu.com/click2/count/$script
+images.sohu.com/cs/jsfile/js/ct.js
+images.sohu.com/cs/sohuim/xiaozt/version/2.0/js/$script
+js.sohu.com/pv.js
 scalink.sohu.com/
 /pv.sohu.com
-sohu.com#*(id^=ad_)
-sohu.com#*(class^=contAD)
-sohu.com#div(class=wireless)
+goodfeel.com.cn
 sohu.com,chinaren.com#sohuadcode
-sohu.com#table(sogouArea)
-sohu.com###sohu_content.article>table[align="left"][border="0"]
-it.sohu.com#div(banner_product)
-news.sohu.com##div#sohu_content > p + table[align="left"]
-www.sohu.com#TABLE(width=760)(cellspacing=1)(cellpadding=0)(border=0)(bgcolor=#d9d9d9)
+sohu.com##div#ad_TOP,div[id^="ad_"],div[class^="contAD"]
 
 !---星岛环球网
 stnn.cc/images/xy/wzyad0*.js
