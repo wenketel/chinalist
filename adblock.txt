@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: TNoqEr3DH9xlqVpuAekLYQ
+!  Checksum: o1kbotPj0X0Dm6QajnMkvQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 06 Aug 2009 10:13:47 GMT
+!  Last Modified:  Thu, 06 Aug 2009 19:19:06 GMT
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -113,8 +113,7 @@ image.baidu.com##table#relEcom
 mp3.baidu.com##div#dMA + script + table[cellspacing][cellpadding]
 news.baidu.com##DIV[id="ecad"]
 
-!---啃书阁
-bookge.com/js/booktext.js
+!---书阁
 bookge.com/hz1/tcby.js
 bookge.com/zj85/$script
 bookge.com/rar/$subdocument,script
@@ -533,10 +532,13 @@ http://icons.mydrivers.com/www/comment_bg.gif
 http://icons.mydrivers.com/www/comment_bg1.gif
 
 !---NewHua
-/newhuagg$image,object
-/newhuagg/*.js
+onlinedown.net/newhuagg/$image,object
 onlinedown.net/adhuajun2.js
+onlinedown.net/newhuagg/js_ad_*.js|
+news.newhua.com/zt/index_top4pic/$image
 onlinedown.net##table#top_tab>tbody>tr:first-child+tr
+news.newhua.com##DIV.news_blue_box[style="width: 99%;"]
+pbd.sogou.com/$script
 
 !---NGA
 ngacn.cc/misc/intel/
@@ -1086,11 +1088,8 @@ union.56.com/
 56.com#div(id^=rAd_text)
 union.bokecc.com/flash/textlist.xml
 union.bokecc.com/flash/imglist.xml
-cache.mofile.com/tv/cn/event/
-tv.mofile.com/event/
-mofile.com#div(id$=_bigad)
-mofile.com#div(id$=_googlead)
 .atm.youku.com/
+v.youku.com##div#col3>div[style="margin-top: 10px;"]
 
 !--Miscellaneous
 0392vod.cn/ggjs/$script
