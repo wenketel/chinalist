@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: cpuCD2MVSotgfXqG0cgzEQ
+!  Checksum: d6WRJzvhIWLw6Ay6Gtp0/A
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 08 Aug 2009 15:46:04 +0800
+!  Last Modified:  Sat, 08 Aug 2009 21:47:46 GMT
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -523,13 +523,11 @@ tt.mop.com##div.mt5
 /adshow.jsp?$script,subdocument
 
 !---驱动之家
-images.mydrivers.com/20*/*x*.
-mydrivers.com#*(id^=ad_)
-mydrivers.com##body>table:first-child+table+table+table>tbody>tr>td:last-child[width="634"]>table[bgcolor="#eaeaea"][height="70"]
-news.mydrivers.com###ad_923_60_2+div[style^="height: 90px"]
-www.mydrivers.com###ad_770_60_4+table[width="770"]
-http://icons.mydrivers.com/www/comment_bg.gif
-http://icons.mydrivers.com/www/comment_bg1.gif
+||mydrivers.com/www/duilian.js
+||mydrivers.com/www/main1001.js?$script
+images.mydrivers.com/$object
+mydrivers.com##div[align="center"],div[id^="ad_"]
+mydrivers.com##TABLE[width="100%"][height="70"][bgcolor="#eaeaea"]
 
 !---NewHua
 onlinedown.net/newhuagg/$image,object
@@ -1121,6 +1119,7 @@ code.52qiangming.com/js/button.js
 580k.com/ad/
 5dmail.net/image/$object
 u.56wan.com/
+www.66ys.cn/d/$script
 .67.com/*/frmCircleNews.htm
 uid.77ck.com/images/6pu_100_300.gif
 uid.77ck.com/images/bc600_300.jpg
