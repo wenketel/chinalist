@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: xJnRnWvSDn2XUAFQytQBPA
+!  Checksum: NEntHHtjPVQkMkR5hkqw+A
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 10 Aug 2009 19:55:47 GMT
+!  Last Modified:  Tue, 11 Aug 2009 13:30:10 GMT
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -23,6 +23,10 @@
 insenz.com/s.gif?$image
 insenz.com/adv?$script
 
+!---奇法大陆
+||78land.com/js/$script
+.biidc.com/news/$subdocument
+
 !---网易
 images2.cache.netease.com
 adgeo.163.com/
@@ -36,11 +40,21 @@ img1.126.net$subdocument
 impservice2.youdao.com/imp/req_ads_v3_2.js
 impservice.yodao.com/imp/req_ads_v3.js
 
+!---17173
+.17173.com/if/
+17173.com/script/ggcommon.js
+17173.itc.cn/2009/www/2009/$image
+bbs.17173.com/x/$script
+bbs.17173.com/lib/new_top.js
+js.17173.com/ping.js
+media.17173.com/x/media01banner874140.htm
+
 !---一听音乐
 img.1ting.com/v5/js/text.js
 img.1ting.com/v5/js/p_text.js
 img.1ting.com/ting/$subdocument
 img.1ting.com/v5/$subdocument
+star.1ting.com/java.js
 
 !---草根网
 widget.proximic.cn/js/loader.js
@@ -684,6 +698,12 @@ rayfile.com##div#nDown_left
 rayfile.com##div[id^="rayfile_ad"]
 static.rayfile.com/media/js/switch_new.js
 
+!---锐派
+war3.replays.net/fdsa/$image
+war3.replays.net/ad09/
+replays.net/images09/topbanner.jpg
+replays.net/images09/$image
+
 !---红软基地
 rsdown.cn/vip_img/
 rsdown.cn/other/js/$script
@@ -762,15 +782,6 @@ skycn.com/js/soft_mid_n5.js
 skycn.com/js/soft_mid_n9.js
 skycn.com/tuijianimg/
 iplog.skycn.com/wherefrom.php
-
-!---17173
-.17173.com/if/
-17173.com/script/ggcommon.js
-17173.itc.cn/2009/www/2009/$image
-bbs.17173.com/x/$script
-bbs.17173.com/lib/new_top.js
-js.17173.com/ping.js
-media.17173.com/x/media01banner874140.htm
 
 !---搜房
 sofang.com/images/$object
@@ -935,6 +946,13 @@ sx.xinhuanet.com/images/xhmb_top.swf
 xinhuanet.com,news.cn##body>div:first-child+div+div>div.web_top_2:first-child[style="height: 55px;"]
 http://www.xinhuanet.com/undefined
 imgs.xinhuanet.com/ad/
+
+!---西子湖畔
+www.xizi.com/include/rotator.js
+www.xizi.com/include/sinaflash.js
+www.hz0752.com/a/$object
+www.xizi.com/a/$object
+xizi.com##DIV.mt5.recommend
 
 !---XunLei
 biz*.sandai.net
