@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: OAbGFmmQQrY9eY2rNw8hjA
+!  Checksum: V0ByHKs5L09I1pwaNW7AaA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 17 Aug 2009 14:47:15 +0800
+!  Last Modified:  Mon, 17 Aug 2009 15:07:35 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -208,12 +208,8 @@ www.chinanews.com.cn##body>script:first-child+table+table[class="12-1v"]+table+t
 !---ChinaZ
 chinaz.com/js/text_link.js
 down.chinaz.com/other/js/$script
-images.chinaz.com/bbs_images/
-images.chinaz.com/cnzz_images/
+images.chinaz.com/*_images/
 images.chinaz.com/index_imagesa/
-images.chinaz.com/newdown_images/
-images.chinaz.com/newindex_images/
-images.chinaz.com/sc_images/
 
 !---cnBeta
 img.cnbeta.com/$object
@@ -241,18 +237,13 @@ greendown.cn##div.content.ad-b950x50
 greendown.cn/tj.js
 
 !---CSDN
-www.csdn.net/ggmm
+|http://counter.
+csdn.net/ggmm/
+book.csdn.net/html/newindex/gonggao.htm
 book.csdn.net/css/webad.js
 community.csdn.net/t/floatBox.js
-community.csdn.net/ui/homepage/images/questions.gif
-!-topic.csdn.net/t/img/*AD.
 topic.csdn.net/t/img/
-webim.csdn.net
-zi.csdn.net/$image
-java.csdn.net###csdn_tag_adstyle
-topic.csdn.net###im_popupWindow_miniMsg
-topic.csdn.net###pubfooter
-www.csdn.net#div(banner)
+tougao.csdn.net/js.php?$script
 
 !---手机中国
 cnmo.com##div.arAD
