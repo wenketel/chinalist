@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: hlpQAa6eIlHLB8ug8AX50A
+!  Checksum: HALJmIWySx7QZlCJnhMFAw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 18 Aug 2009 14:50:19 +0800
+!  Last Modified:  Tue, 18 Aug 2009 15:01:34 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -612,7 +612,7 @@ news.qq.com##div.news_ad_box
 !---趣盘
 www.6621.cn/ggao/
 qupan.com/ggao/
-qupan.com#DIV(class=content_a)
+qupan.com#div.content_a
 google.mmjq.com/$subdocument
 
 !---青娱乐
@@ -767,26 +767,12 @@ tianya.cn##SPAN#tianyaSense1
 tianya.cn##div[id^="FOCUS_"]
 
 !---Tom
-/pv.tom.com
-games.tom.com/*/*/*/*/*.swf
-union.hjsm.tom.com
-news.tom.com/all070428o_170x424_tom_free_1.htm
-news.tom.com/inc/eachnet
-img.news.tom.com/script/pv/tech.js
-js.pub.tom.com/8/sports-tl4.js
-js.pub.tom.com/post/text1-sports.js
-js.pub.tom.com/post/wz12-sport.js
-partner.p4p.search.tom.com
-tom.com#*(contbtmad)
-tom.com#*(conttopad)
-tom.com#*(sidebtmad)
-tom.com#*(sidemidad)
-tom.com#*(sidetopad)
-tom.com#*(txtlink)
-games.tom.com#div(id^=Javascript.Div)
-nba.sports.tom.com##div#body>table:first-child+table>tbody>tr:only-child>td:first-child[width="601"]>table:first-child[width="580"]>tbody>tr:first-child+tr
-nba.sports.tom.com##div#tomhead>table:first-child+table
-sc.tom.com
+js.pub.tom.com/09-hp/gb-weather.js
+js.pub.tom.com/post-news/newsin-pic.js
+sc.tom.com/*/$object
+||kf518.cn/$script,subdocument
+yxnpc.com/scripts/floatad.js
+yxnpc.com##DIV.ad950,.ad700
 
 !---TomPDA
 beareyes.com.cn/2/lib/200811/04/448/760-60.swf
