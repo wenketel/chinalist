@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: 6wGJjVmPEJZEdGjt9x7+Pg
+!  Checksum: McFqa0rQW74dR7HoutcDjw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 18 Aug 2009 11:30:17 +0800
+!  Last Modified:  Tue, 18 Aug 2009 12:43:21 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -93,6 +93,13 @@ qun.51.com##div.mdk
 /images/sitead4.gif
 thinkpad.cn,51nb.com##tr.altbg1>td.line[style="padding: 5px;"]
 szbooks.com/hope/baner.gif
+
+!---56.com
+/acs.56.com
+56.com/tuiguang/$subdocument
+56.com/js/fly56/ad_album_play.js
+56.com##DIV.rAd_text
+||56img.com/js/56stat.js
 
 !---ali
 alimama.com/$third-party,domain=~alimama.com
@@ -1069,10 +1076,6 @@ atchinese.com/images/banners/300x300
 .people.com.cn/zixun/
 
 !---Video Sites
-.56.com/js/56stat.js
-/acs.56.com
-union.56.com/
-56.com#div(id^=rAd_text)
 union.bokecc.com/flash/textlist.xml
 union.bokecc.com/flash/imglist.xml
 .atm.youku.com/
