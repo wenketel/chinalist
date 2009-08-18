@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: /oBXWpW6mYe5/vwe5dAcRQ
+!  Checksum: 4mYtGhMcWPXL/PToKl2h1g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 18 Aug 2009 10:48:33 +0800
+!  Last Modified:  Tue, 18 Aug 2009 11:11:15 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -269,13 +269,8 @@ discuss.com.hk/overture/
 discuss.com.hk##div#overture_bottom
 discuss.com.hk##div#thread_ads_bottom + table[width="100%"]
 discuss.com.hk##div#thread_ads_top + table[width="100%"]
-discuss.com.hk##td[valign="bottom"][height="35"][align="center"]:first-child:last-child
-discuss.com.hk##span[id^="thread_ads_"] + a:last-child
-discuss.com.hk##span[id^="thread_ads_"] + div[align="left"] > a:first-child:last-child
-discuss.com.hk##table[width="98%"][align="center"] td[height="25"]:first-child:last-child
-discuss.com.hk###ad760
-discuss.com.hk###header+#foruminfo+div[align="center"]
-discuss.com.hk###headfilter+.mainbox+div+table
+discuss.com.hk##div.mainbox.viewthread>a,tbody.hottopics
+discuss.com.hk##TD[height="35"][colspan="6"]
 
 !---多特软件站
 img.duote.com/duotehtml/$script
@@ -1498,6 +1493,8 @@ heima8.com
 hhsms.com
 hitme.com.cn
 huahaiadv.com
+i1.hk/ad/
+i1.hk/clinic/
 .icast.cn/
 .ifocus.cn/
 .imrworldwide.
@@ -1554,6 +1551,7 @@ richie696.cn
 sky323.cn/
 page.adsmartclick.com/
 .my.sandai.net/
+adyhk.scupio.com/ADPInline/ADViewer.aspx?$script
 specificmedia.com
 .t2click.com
 textclick.com
@@ -1652,7 +1650,6 @@ dygod.com##TR.altbg2
 gamez.com.tw##table#pid99999999
 ied2k.com##table.bg+table[width="993"]
 ied2k.com##TABLE[width="757"][cellspacing="0"][cellpadding="0"][align="center"]
-i1.hk/ad/
 lotour.com##div#banner
 mobile01.com##div.text_ad
 bbs.xdxdxd.com###ad_888
