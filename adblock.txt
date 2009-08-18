@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: McFqa0rQW74dR7HoutcDjw
+!  Checksum: 8FJpCRFYyMgxlcM6ngRO5A
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 18 Aug 2009 12:43:21 +0800
+!  Last Modified:  Tue, 18 Aug 2009 13:02:37 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -1118,6 +1118,8 @@ sessionsmon.88db.com/
 88tou.com/ad/$image
 91qianming.cn/qq*.js
 c.91wan.com/
+96bbs.com/images/adv/$image
+96bbs.com##table#table1
 dm.99770.com/haodm/28vegas.html
 c.9player.cn/a/$subdocument
 a8-asy.a8ww.net
@@ -1143,6 +1145,7 @@ bbs.bccn.net/ad/
 benxiong.com/g/
 dannonces.bibidu.com/
 bitscn.com/pic2009/a*.js
+blogad.com.tw$script,object
 cp1.blcx.com/cpm2009/dipancpm.js
 gg.blueidea.com
 vampire.btbbt.com/
@@ -1329,8 +1332,6 @@ shanghaiviva.com/images/zb/*.*.jpg
 diary.showhappy.net/scripts/diarytextads.js
 images.shudoo.com/tu/sy/*.swf
 shxb.net/tips/tips.js
-since1984.cn/images/taobao/ad/$image
-since1984.cn/images/taobao/jandan/1.png
 .softnews.cn/other/js/A_*.js
 sport366.com/main/js/utf8kuaixun.js
 sz1001.net/Down_Style/$script
@@ -1576,23 +1577,8 @@ yx007.com
 .zoxad.net
 
 !--------------------------Other (sort by letter)--------
-/61.128.*.*:8088/460X30.gif
-/click.js?user_id=
-
-/dcs.gif?
 //gg[/\.]/$subdocument,image,script,object
 /guangg/
-/img.*.com/tres/recommend$image
-/info.cnt?id=*&referer=
-/s_code.js|
-.*.*.*/creative/
-.*.*.*/fileftp/20*/*/*/U*.swf
-.*.*.*/script/s70*.htm
-.extreme-dm.
-.gif?*referrer=
-@@.googlepreview.com/preview
--chinad.*.cn/*/cpc_
-_dcs_tag.js|
 adpolestar
 adsunion
 affiliate$subdocument,script,object
@@ -1600,10 +1586,10 @@ friendlink$subdocument,image
 guanggao
 
 !-----------------------------Privacy---------------------
-/count/$script
-/count.js
-|http://stat.$script
+/count/^$script
+/count.js|
 |http://counter.
+|http://stat.$script
 
 !-----------------------Element Hiding--------------------
 ###ad_interthread
@@ -1633,9 +1619,6 @@ guanggao
 56zz.com##div.adbox
 66wz.com##div.inarticle
 86zw.com###Top>#TextSelect+center>table
-96bbs.com/images/adv/$image
-96bbs.com##table#table1
-blogad.com.tw$script,object
 dianping.com##div[class^="DPAD"]
 dygod.com##TR.altbg2
 gamez.com.tw##table#pid99999999
