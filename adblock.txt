@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: 2BSADQyqxxLhdTBzmqSbBg
+!  Checksum: 6wGJjVmPEJZEdGjt9x7+Pg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 18 Aug 2009 11:19:33 +0800
+!  Last Modified:  Tue, 18 Aug 2009 11:30:17 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -228,7 +228,6 @@ greendown.cn##div.content.ad-b950x50
 greendown.cn/tj.js
 
 !---CSDN
-|http://counter.
 csdn.net/ggmm/
 book.csdn.net/html/newindex/gonggao.htm
 book.csdn.net/css/webad.js
@@ -237,11 +236,9 @@ topic.csdn.net/t/img/
 tougao.csdn.net/js.php?$script
 
 !---手机中国
-cnmo.com##div.arAD
-cnmo.com##div[id^="Bar10"]
+cnmo.com##div[id^="Bar"]
 js.cnmo.com/pv.js
 pic.cnmo.com/$image,object
-cnmo.com##div#z_crazy_ad
 cnmo.com##div[id^="AD"]
 
 !---桌面城市
@@ -317,7 +314,6 @@ bbs.fengniao.com##P[style="margin: 0pt; font-size: 12px; text-align: center;"]
 bbs.fengniao.com##TD[align="left"][colspan="2"]
 bbs.fengniao.com##td.smallfont>strong
 js.fengniao.com/pv.js
-stat.fengniao.com/ol_fn.js
 pic.fengniao.com/200906/$object
 www.fengniao.com/images/mt2009.jpg
 
@@ -407,7 +403,6 @@ union*.kingsoft.com/
 168.it168.com/js/64.js
 168.it168.com/focusjs/64.js
 product.it168.com/talk/doc/38.txt?$script
-stat.it168.com/pv.js
 itpub.net/js_floatwindows_for_publish.php
 itpub.net/js_floatwindows.php
 itpub.net/popwindowjs.php
@@ -764,10 +759,8 @@ inte.sogou.com/cpc_matrix
 /SogouUnion
 
 !---Sohu
-61.135.179.37/click2/count/$script
 brand.sogou.com/brand_ad_new?$script
 sohu.com/bill/
-dianji.sohu.com/click2/count/$script
 images.sohu.com/cs/jsfile/js/ct.js
 images.sohu.com/cs/sohuim/xiaozt/version/2.0/js/$script
 js.sohu.com/pv.js
@@ -1582,14 +1575,13 @@ yx007.com
 !--------------------------Other (sort by letter)--------
 /61.128.*.*:8088/460X30.gif
 /click.js?user_id=
-/count.js
+
 /dcs.gif?
 //gg[/\.]/$subdocument,image,script,object
 /guangg/
 /img.*.com/tres/recommend$image
 /info.cnt?id=*&referer=
 /s_code.js|
-/stat.*referrer=http
 .*.*.*/creative/
 .*.*.*/fileftp/20*/*/*/U*.swf
 .*.*.*/script/s70*.htm
@@ -1603,6 +1595,12 @@ adsunion
 affiliate$subdocument,script,object
 friendlink$subdocument,image
 guanggao
+
+!-----------------------------Privacy---------------------
+/count/$script
+/count.js
+|http://stat.$script
+|http://counter.
 
 !-----------------------Element Hiding--------------------
 ###ad_interthread
