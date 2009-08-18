@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: 8FJpCRFYyMgxlcM6ngRO5A
+!  Checksum: DUvadcB5CV39XGtxLsweNQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 18 Aug 2009 13:02:37 +0800
+!  Last Modified:  Tue, 18 Aug 2009 13:35:10 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -512,7 +512,7 @@ mydrivers.com##TABLE[width="100%"][height="70"][bgcolor="#eaeaea"]
 
 !---NewHua
 @@||newhua.com/newhuagg/pixviewer.swf
-/newhuagg/$image,object
+newhuagg/$image,object
 zhidao.newhua.com/images/temp/$image
 onlinedown.net/adhuajun2.js
 onlinedown.net/newhuagg/js_ad_*.js|
@@ -550,25 +550,14 @@ bbs.pcbeta.com##div[id^="ad_thread"]
 pcgames.com.cn#div(ad490)
 
 !---PCHome.net
-/btm.pchome.net
-/btn.pchome.net
-images.pchome.net/global/fla/3dboard.swf
-images.pchome.net/global/js/download_div_text.js
-pchome.net#*(class=i2k8AdWrapper)
-pchome.net#*(i2k8TopAd)
-pchome.net#dd(hardwareDiyMarket)
-pchome.net#dd(id=mobileOaMarket)
-pchome.net#div(class^=dld-ad)
-pchome.net#div(id^=dld-ad)
-pchome.net#div(id=main_adshow)
-club.pchome.net###clickit
-club.pchome.net###right_content>.rtag:first-child+.noborder+.rtag+.rtag>table:only-child[cellspacing="2"][cellpadding="3"]
+pchome.net##DIV.w960.adW,#popWin
+btn.pchome.net
+btm.pchome.net
+images.pchome.net/global/js2/index2k9_min.js
 
 !---PCHome.tw
-ecally*.pchome.com.tw/
-pchome.tw,pchome.com.tw##table#bodyTable>tbody>tr:first-child+tr>td:first-child>div:first-child.left+div.left2>div.leftit
-news.pchome.com.tw###top+a+a+div+div#t13bl
-news.pchome.com.tw###top+a+a+div[align="center"][style="position: relative; height: 57px; width: 995px;"]
+||pchome.com.tw/adpics/
+||pchome.tw/adpics/
 
 !---PConline
 12lucky.pconline.com.cn/loader.jsp
@@ -1593,28 +1582,6 @@ guanggao
 
 !-----------------------Element Hiding--------------------
 ###ad_interthread
-###page_ad_left
-###page_ad_right
-###headad
-###adshead
-###headads
-###headerad
-###adsheader
-###headerads
-###AdContainer
-###AdPanel
-###Advertising
-###guanggao
-###left-gg
-###leftAd
-###lianmeng
-###publicAd
-###randomAD
-###right-gg
-###rightAd
-###rightad1
-###topAD
-###topads
 52topview.com##div#main-info
 56zz.com##div.adbox
 66wz.com##div.inarticle
