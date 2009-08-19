@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: omogG0P/8aZGi+/ybQ+dBA
+!  Checksum: OA+exMS5HAN90+SiUUOR+Q
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 18 Aug 2009 15:56:40 +0800
+!  Last Modified:  Wed, 19 Aug 2009 10:01:44 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -433,24 +433,19 @@ bt.ktxp.com/javascripts/nmjui/
 
 !---Ku6
 @@|http://img.c4.ku6.cn/index/upload/*/indexPlayer*.swf|
-@@|http://img.c4.ku6.cn/index/upload/*/MiniPlayer*.swf|
-220.181.23.105/dostats.do?$subdocument
-/ktrace/ktrace$script
 img.c4.ku6.cn/index/upload/$object,image
 img.ku6.com/podcast/swf/*/TaskBar.swf|
 img.c4.ku6.cn/testc/upload/$object
+.888.ku6.com/fetch.do?$object_subrequest
 image.ku6.com/888/
 image.ku6.com/a888d/$object_subrequest
-image.ku6.com/image/200907/28/KU628094644yQmlxk.gif
-js.ku6.com/a888/$script
-js.ku6.com/click/video_pa200907011926.js
-.888.ku6.com/fetch.do?$object_subrequest
+image.ku6.com/image/200907/20/KU620163801QqaKUX.gif
+image.ku6.com/image/200908/05/KU6051109539k0GDE.jpg
 .stat.ku6.com/dostatv.do?$script
-ku6.com##img.b_ad,.adh
 ku6.com##div#swfdiv
 ku6.com##DIV.miniVideo.mb10.cfix
 ku6.com##div.wd255>div[style="position: relative; height: 70px; z-index: 89;"]:first-child
-v.ku6.com##DIV.flwin.flwin_min
+v.ku6.com##div.adList2.mb10,.theme,.flwin.flwin_min,.wd255[style="height: 156px;"]
 
 !---快车网
 game.kuaiche.com/d/js/acmsd/thea24.js
@@ -1547,8 +1542,9 @@ guanggao
 !-----------------------------Privacy---------------------
 /count/^$script
 /count.js|
-|http://counter.
+/ktrace/ktrace$script
 |http://stat.$script
+|http://counter.
 
 !-----------------------Element Hiding--------------------
 ###ad_interthread
