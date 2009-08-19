@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: OA+exMS5HAN90+SiUUOR+Q
+!  Checksum: 8dtVop/bF0PtBDfjycQECw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 19 Aug 2009 10:01:44 +0800
+!  Last Modified:  Wed, 19 Aug 2009 10:23:25 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -158,12 +158,6 @@ publisher.ccidnet.com/
 tech.ccidnet.com##table[width="948"][style="margin: 7px 0px 12px;"]
 tech.ccidnet.com##table[width="100%"][style="margin-top: 9px;"]
 tech.ccidnet.com##table[width="100%"][style="border: 1px solid rgb(226, 227, 228);"]
-
-!---网元网
-ccnec.com/Label/*.shtml$subdocument
-ccnec.com/luoji955_98.swf
-ccnec.com/zt/top10/850X82.swf
-ccnec.com###Comment+.Shopnei
 
 !---CCTV
 a.cctv.com/hserver/$object
@@ -1540,11 +1534,11 @@ friendlink$subdocument,image
 guanggao
 
 !-----------------------------Privacy---------------------
-/count/^$script
+/click2/count/$script
 /count.js|
 /ktrace/ktrace$script
-|http://stat.$script
 |http://counter.
+|http://stat.$script
 
 !-----------------------Element Hiding--------------------
 ###ad_interthread
