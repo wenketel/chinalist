@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: aSGWEx5bMM49WBSTxsf+IA
+!  Checksum: XI1SMyWzA0CUESxDZxST3g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 21 Aug 2009 15:15:49 +0800
+!  Last Modified:  Fri, 21 Aug 2009 15:26:03 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -102,7 +102,6 @@ szbooks.com/hope/baner.gif
 ||56img.com/js/56stat.js
 
 !---ali
-alimama.com/$third-party,domain=~alimama.com
 .taobaocdn.com/js/app/directional_promo/
 assets.taobaocdn.com/tbra/1.0/tbra-fp.js?t=20090619.js
 assets.taobaocdn.com/app/chl/detail/detailPopUp.js
@@ -1316,7 +1315,7 @@ zhue.com.cn/advs/ad.js
 zhue.com.cn/js/showad.js
 
 !----------------pornographic, spam, ads-union...........
-0252.com/$third-party,domain=~0252.com
+||0252.com^$third-party
 .033.com/
 .100tone.com/
 /1133.cc
@@ -1387,7 +1386,6 @@ p4p.cnaz.com
 .cnxad.com
 .contentinside.net
 .coogao.cn
-cnzz.com/$third-party,domain=~cnzz.com
 .datamaster.com.cn
 dian.la/
 directorym.com
@@ -1428,7 +1426,7 @@ jujii.cn
 kakuad.com
 .keygate.com.cn
 .keyrun.com/
-keyrun.cn/$third-party,domain=~keyrun.cn
+||keyrun.cn^$third-party
 kqzyfj.com
 lerss.com
 .lian.la/
@@ -1438,7 +1436,6 @@ linktxt.cn
 linkunion.com
 linkworth.com
 .llook.net
-linezing.com/$third-party,domain=~linezing.com
 maxreturn.cn
 .meetmedia.cn
 menhutong.com.cn
@@ -1485,7 +1482,6 @@ unionsky.cn
 uoolink.com/
 .valueclickmedia.com
 vip-qq-entertainment
-vdoing.com/$third-party,domain=~vdoing.com
 vodone.c
 vogate.com
 .wanliuliang.com
@@ -1519,9 +1515,12 @@ guanggao
 !-----------------------------Privacy---------------------
 /click2/count/$script
 /count.js|
+||cnzz.com^$third-party
 /ktrace/ktrace$script
 |http://counter.
 |http://stat.$script
+||linezing.com^$third-party
+||vdoing.com^$third-party
 
 !-----------------------Element Hiding--------------------
 ###ad_interthread
