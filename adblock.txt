@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: S31D+4/Ffl5CFAd+frF6EA
+!  Checksum: oz4tajHxG4sftQRSIUGazQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 21 Aug 2009 09:14:19 +0800
+!  Last Modified:  Fri, 21 Aug 2009 14:43:42 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -39,8 +39,6 @@ bbs.163.com/bbs/floatlayer/floatLayer.js
 img1.126.net$subdocument
 impservice2.youdao.com/imp/req_ads_v3_2.js
 impservice.yodao.com/imp/req_ads_v3.js
-pro.163.com/
-analytics.163.com/
 
 !---17173
 .17173.com/if/
@@ -135,8 +133,6 @@ a.baidu.com/ecom?di=18&tm=baidufsbanner&$script
 image.baidu.com##table#relEcom
 mp3.baidu.com##div#dMA + script + table[cellspacing][cellpadding]
 news.baidu.com##DIV[id="ecad"]
-list.mp3.baidu.com/list/img/*.swf
-mp3.baidu.com##DIV#ecomAdDiv
 
 !---书阁
 bookge.com/hz1/tcby.js
@@ -170,8 +166,6 @@ www.cctv.com/*/cctv_sdc_frame.html
 www.cctv.com/Library/homepage2009/script/$script
 www.cctv.com/script/ad_s.js
 ||cctv.com/Library/homepage2008/$script
-||cctv.com*adtype
-cctv.com##DIV.md.ad-text
 
 !---计世网
 ccw.com.cn/adFile/position/js/$script
@@ -592,23 +586,11 @@ qd.code.qihoo.com/com_spe_cache.js
 !---QQ
 adsfile.qq.com/web/$script
 mat1.qq.com/www/flash/
-mat1.qq.com$object
-mat1.gtimg.com^$object
 tiapview.qq.com/tad.js
 l.qq.com/lview?$script
 comic.qq.com##div[id^="Comic_Width"]
 comic.qq.com##div[id^="AdZone"]
 news.qq.com##div.news_ad_box
-qq.com##DIV#AdZoneLe
-qq.com##DIV#AdZoneLf
-qq.com##DIV#AdZoneLc
-qq.com##DIV#AdZoneRb
-qq.com##DIV#nav
-qq.com##P.rcRight
-qq.com##DIV#AdZoneRe
-qq.com##DIV.rcRight
-imgcache.qq.com/music/common/upload/t_music_ad/*
-img1.gtimg.com/magazine
 
 !---趣盘
 www.6621.cn/ggao/
@@ -859,23 +841,6 @@ bbs.xdowns.com/9.js
 gg.xiaonei.com/view.jsp
 jebe.xnimg.cn
 xiaonei.com##.blank-holder
-xnimg.cn/imgpro/notice/*
-xnimg.cn/actimg/
-xnimg.cn*vip
-jebe.renren.com
-xnimg.cn/utm
-xnimg.cn/xnapp/pay
-pay.renren.com
-renren.com##DIV#xn_rr_notice_new
-renren.com##DIV.side-item.selected
-renren.com##*#baiduframe
-renren.com##DIV.side-item.template
-renren.com##*#completeProfile
-renren.com##*.ad-bar
-renren.com##DIV#xn_rr_notice
-renren.com##DIV#notice
-renren.com##DIV#banner
-
 
 !---新华网
 .xinhuanet.com/classad/
@@ -905,7 +870,6 @@ p4pstatic.xunlei.com
 xxsy.net/js/pop*.js
 images.xxsy.net/sygg/
 read.xxsy.net/inc/*_show*.js
-
 
 !---Yahoo
 .bc.yahoo.com/b?P=
@@ -1020,16 +984,6 @@ zol.com.cn###lava+.div_body>div:first-child
 detail.zol.com.cn##.mt6+.adSpace2
 zol.com.cn#div(class=A_ad)
 
-!---4399
-www.4399.com/js/top_nav.js
-www.4399.com/js/hit.js
-4399.com/jss
-www.4399.com/loadimg/*
-4399.net/jss
-4399.com/ali
-my4399.com
-
-
 !-------------------Generic (sort by domain name)---------
 !---Game Sites
 ali213.net/jsgg/
@@ -1140,10 +1094,6 @@ blog.cersp.com/images/banner007.gif
 ua.badongo.com/js/ua-remote.js?$script
 chdtv.net/attachments/day_090625/09062518267b86a7b2b2897528.gif
 chdtv.net##FIELDSET
-chdtv.net/sbd.gif
-202.100.66.168/22bd.gif
-202.100.66.168/choseal.gif
-202.100.66.168/realhd.gif
 bbs.chetx.com/html/picyule.html
 chinaiiss.org/images/sitead/
 chinaiiss.org/js/javascript.asp?act=piclink
@@ -1168,8 +1118,6 @@ qa.colorful.cn
 dw*.com.com/*?$~link,~subdocument
 creaders.net/html/site_ad_images
 bbs.csonline.com.cn/*_ad*_1.htm
-bbs.hdchina.org/2nd/images/ad_left.gif
-bbs.hdchina.org/2nd/images/ns1000_gif.gif
 .ct10000.com/common/ad-*.js
 .daqi.com/clicklog.js
 .dchome.net/pub/
@@ -1228,13 +1176,6 @@ visit.homepagle.com/
 homerpublishing.com.tw/images/ad*.swf
 lucky.hongxiu.com/Agent/ShowMe.js
 hongxiu.com/fox/index_b.html
-www3.hongxiu.com/fox/gif/468-6020090814.gif
-www3.hongxiu.com/fox/gif/468_60_chongai.gif
-www3.hongxiu.com/fox/gif/630-6020090814.gif
-www3.hongxiu.com/fox/gif/688-6020090814.gif
-www3.hongxiu.com/fox/gif/800-60changpian.gif
-www3.hongxiu.com/fox/gif/shouye.gif
-www3.hongxiu.com/images_2008/vip20090728.gif
 .hotrank.com.tw*/hotrank.js
 .hsm.com.cn/upload_pic/*/U*.swf
 htpc1.com/newfolder/
@@ -1288,19 +1229,6 @@ my1510.cn/ads/$script
 .mycodes.net/img/*.swf
 .mycodes.net/js/$image
 mysilu.com##div#ad_headerbanner,.ad_column
-mysilu.com##DIV#ad_text
-mysilu.com##DIV.ad_pip
-mysilu.com##DIV.ad_textlink1
-www.mysilu.com/attachments/day_081109/20081109_c5c40007b2f971afd14a8A6grXZ6wuQR.gif
-www.mysilu.com/attachments/day_090421/20090421_97e762dae8a59089e15exNRe7VRG9W9b.jpg
-www.mysilu.com/attachments/day_090527/0905271101c8ad3a6b78048c33.gif
-www.mysilu.com/attachments/day_090618/09061816339a6bed88ff3fd992.gif
-www.mysilu.com/attachments/day_090713/0907131445b5391c55ee571e4a.jpg
-www.mysilu.com/attachments/day_090729/09072910158657b11f7d75edb7.jpg
-www.mysilu.com/attachments/day_090814/090814220705a62f094aba2dc0.jpg
-mysilu.com/attachments/day_090727/090727174136e432f4049ec8f8.gif
-www.raymin.net/siluad.swf
-mysilu.com/*.swf
 namipan.com/inc_js/inc930.js
 namipan.com/inc_page/inc_gg.html
 v.naqigs.com/Position/javas/$script
@@ -1334,7 +1262,6 @@ qvod.com/images/1/qvod_*_*.gif
 qyclick.com/i.js
 .qzwb.com/js/jqxc.js
 .qzwb.com/qzwgg/
-readnovel.com/js$subdocument
 redbanana.cn$object
 rm.romman.net/js/rm_D10.html
 .sellgreat.com/images/Bdvertisement/
@@ -1342,18 +1269,6 @@ shanghaiviva.com/images/zb/*.*.jpg
 diary.showhappy.net/scripts/diarytextads.js
 images.shudoo.com/tu/sy/*.swf
 shxb.net/tips/tips.js
-bbs.siluhd.com/attachments/day_080512/20080512_c48830d5862d9d477f0ddNnnIsxs47yX.jpg
-bbs.siluhd.com/attachments/day_090115/20090115_d8548f921a180509dcd7RzKI1Iv7ty9Z.gif
-bbs.siluhd.com/attachments/day_090617/20090617_5f9c64b430e755ceda14jcSffPh5UIM7.gif
-bbs.siluhd.com/attachments/day_090617/20090617_79fabe43ea7449eb9377C4dbS6kD4Zru.gif
-bbs.siluhd.com/attachments/day_090723/20090723_7425be610a9f428a0195RySSGcQUly7E.gif
-www.siluhd.com/attachments/day_071119/20071119_52889e3dc081d212c456TipJxiZNSAo0.jpg
-www.siluhd.com/attachments/day_090810/0908101105fb2d908d5f127ec4.gif
-www.siluhd.com/attachments/day_090812/0908121806829a1ccc61e15258.gif
-siluhd.com##DIV#ad_headerbanner
-siluhd.com##DIV.ad_column
-siluhd.com##DIV.ad_footerbanner
-siluhd.com##DIV.ad_text
 .softnews.cn/other/js/A_*.js
 sport366.com/main/js/utf8kuaixun.js
 sz1001.net/Down_Style/$script
@@ -1415,7 +1330,6 @@ zhue.com.cn/js/showad.js
 .17luntan.com
 18lian.com
 .1tong.com.cn
-union.21cn.com
 .258.com
 .339.cn/
 .3bu.com
@@ -1428,7 +1342,6 @@ union.21cn.com
 50bang.org
 image1.55.la
 556.com.cn
-union.56.com
 www.59.vc/
 .6zg.com
 .733.com
@@ -1449,23 +1362,15 @@ movie.9v.cn
 pop.9v.cn
 www.9v.cn
 union.a8.com
-ad4all.net
-ads8.com
-ads99.net
-/acs86.com
 adsfactor.net
-adsunion.com
 advertstatic.com
 .adwww.cn
 .adzhu.com
 aiqianming.cn
 .allyes.com
-.allyes.cn
 .argusclick.net
 asiaseo.com
-asiafind1
 bafang.cc/
-union.baidu.com
 blogtw.net
 jsunion.boodvd.com/union/
 jsunion.boodvd.cn/script/
@@ -1493,7 +1398,6 @@ dian.la/
 directorym.com
 .dotmore.cn
 .doubleadv.com
-doubleclick
 .doulog.com
 e78sms.cn
 eqifa.com
@@ -1503,13 +1407,10 @@ forsky.com
 free8.com
 fxlayer.net
 gcuj.com
-googleadservices
 googlesyndication.com
 gooooogle.com.cn
 .ha173.com/
-haomedia
 .hdzxw.com/flgg/
-heima8.cn
 heima8.com
 hhsms.com
 hitme.com.cn
@@ -1525,7 +1426,6 @@ innity.com
 iplus.com.cn
 .is686.com
 .itsun.com/
-68get.joy.cn
 .joywell.com.cn
 .jshiweb.com/
 .juhe.com/$script
@@ -1534,7 +1434,6 @@ kakuad.com
 .keygate.com.cn
 .keyrun.com/
 keyrun.cn/$third-party,domain=~keyrun.cn
-union.kingsoft.com
 kqzyfj.com
 lerss.com
 .lian.la/
@@ -1568,8 +1467,6 @@ onetad.com
 peelawayads.com
 union.popwan.com/
 .qi88.com/
-union.qihoo.com
-union.qq.com
 quantcast.com
 rd18.net
 richie696.cn
@@ -1578,7 +1475,6 @@ page.adsmartclick.com/
 .my.sandai.net/
 adyhk.scupio.com/ADPInline/ADViewer.aspx?$script
 specificmedia.com
-union.sogou.com
 .t2click.com
 textclick.com
 .u1th.com/
@@ -1606,10 +1502,8 @@ x-push.net
 .xcdv.com
 .xpresssyndication.com
 xwadv.com
-union.xunlei.com
 yansulian.com
 .yigao.com
-yiqifa.com
 union.youdao.com/imp/$script
 .yoyi.com.cn
 yx007.com
@@ -1661,5 +1555,6 @@ http://farm3.static.flickr.com/2201/3791890278_9b3dbbee5f_o.png
 http://farm4.static.flickr.com/3462/3726647652_2ba81faa5d_o.png
 http://farm3.static.flickr.com/2487/3738290949_0cf1e9c34b_o.png
 2009.wordcampchina.org/wp-content/uploads/2009/08/wcc09_badge_2.png
+|http://hk.ndx.nextmedia.com/DFA/js_ndxtag_v409.cfm?*
 
 !------------------------End of List--------------------------------------------------------
