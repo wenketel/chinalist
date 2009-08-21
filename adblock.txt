@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: 56zV7T5yOzYqE5BfrL7V0Q
+!  Checksum: +AWZ9a7uah7Lcf/G1qk8Og
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 21 Aug 2009 15:48:12 +0800
+!  Last Modified:  Fri, 21 Aug 2009 16:15:02 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -921,24 +921,14 @@ book.zhulang.com##.content_left_adv
 
 !---ZOL
 zol.com.cn/imphit0*.gif?
-active.zol.com.cn/dell_html/
-pic.zol.com.cn/$subdocument
-pic.zol-img.com.cn/*.swf
 @@|http://pic.zol-img.com.cn/2009/pix_index.swf
-pic.zol-img.com.cn/*120x250
-pic.zol-img.com.cn/*kupai
+blog.zol.com.cn/handwork/images/59/$image
+blog.zol.com.cn/handwork/images/138/$image
+cbsi.zol.com.cn/ciwheel.php?$script
 pic.zol-img.com.cn/*mis
-pic.zol-img.com.cn/*yingc
-zol.com.cn#div(class=mt8)
-zol.com.cn#div(id^=Bar)
-zol.com.cn#div(id^=AD)
-zol.com.cn#div(id^=Float)
-zol.com.cn##.adSpace
-zol.com.cn##.img_adj
-zol.com.cn###lava+.div_body+.div_body
-zol.com.cn###lava+.div_body>div:first-child
-detail.zol.com.cn##.mt6+.adSpace2
-zol.com.cn#div(class=A_ad)
+pic.zol-img.com.cn/$object
+zol.com.cn##div[class^="A_ad"],[class^="Bm_ad"]
+zol.com.cn##div[id^="Float"],[id^="Bar"],[id^="AD"]
 
 !-------------------Generic (sort by domain name)---------
 !---Game Sites
@@ -1478,6 +1468,7 @@ guanggao
 /click2/count/$script
 /count.js|
 ||cnzz.com^$third-party
+.com.cn/pv.js
 /ktrace/ktrace$script
 |http://counter.
 |http://stat.$script
