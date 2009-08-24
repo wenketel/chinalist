@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: I7cK+/XKhg09K+b1rnDCIA
+!  Checksum: EsoV8guUXiu21HBlI2PGpQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 24 Aug 2009 20:21:20 +0800
+!  Last Modified:  Mon, 24 Aug 2009 20:32:19 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -20,8 +20,7 @@
 1000fr.com/images/$object
 1000fr.com/images/760X80.gif
 1000fr.com/images/760x60.gif
-insenz.com/s.gif?$image
-insenz.com/adv?$script
+1000fr.com##div[id^="ad_thread"]
 
 !---奇法大陆
 ||78land.com/js/$script
@@ -1367,6 +1366,7 @@ directorym.com
 .doubleadv.com
 .doulog.com
 e78sms.cn
+||egooad.cn^$third-party
 eqifa.com
 .ete.cn/
 .entunion.com/
@@ -1389,6 +1389,7 @@ i1.hk/clinic/
 .imrworldwide.
 searchportal.information.com
 innity.com
+||insenz.com^$third-party
 .inter-focus.cn
 iplus.com.cn
 .is686.com
