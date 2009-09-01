@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: cij3Y/Ak9R2+EQjMs2LFRQ
+!  Checksum: Gs8QRwc9PExJ9MopzN4C1g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 31 Aug 2009 14:29:05 +0800
+!  Last Modified:  Tue, 01 Sep 2009 11:30:07 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -717,6 +717,7 @@ sogou.com/cpc_ads
 sogou.com/frag/
 sogou.com/textlink?
 sogou.com/union/
+brand.sogou.com/brand_ad_new?$script
 inte.sogou.com/cpc_matrix
 /pv.sogou.com
 /SogouUnion
@@ -725,16 +726,23 @@ map.sogou.com/map412/scroll_ad.htm
 bjsite.sohu.com/s2009/5824/s265512777/
 
 !---Sohu
-brand.sogou.com/brand_ad_new?$script
 sohu.com/bill/
 images.sohu.com/cs/jsfile/js/ct.js
 images.sohu.com/cs/sohuim/xiaozt/version/2.0/js/$script
 js.sohu.com/pv.js
+js.sohu.com/mail/pv/pv_v2.js
 scalink.sohu.com/
 /pv.sohu.com
 goodfeel.com.cn
 sohu.com,chinaren.com#sohuadcode
 sohu.com##div#ad_TOP,div[id^="ad_"],div[class^="contAD"]
+
+!---搜狐焦点
+||focus.cn/ad_publish/$script
+||focus.cn/trace/pv_focus.test.js
+||focus.cn/common/js/adm2008.js
+traffic.focus.cn/pv_focus$script
+focus.cn##div.ad_fp
 
 !---星岛环球网
 stnn.cc/images/xy/wzyad0*.js
