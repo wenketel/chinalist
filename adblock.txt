@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: XLSwQwCZD/aKAO/gnww1LA
+!  Checksum: /eHFi1/9Wr4NL/96Yfd85A
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 03 Sep 2009 14:19:10 +0800
+!  Last Modified:  Thu, 03 Sep 2009 18:17:59 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -240,6 +240,7 @@ book.csdn.net/css/webad.js
 community.csdn.net/t/floatBox.js
 topic.csdn.net/t/img/
 tougao.csdn.net/js.php?$script
+topic.csdn.net##div[id^="Float"]
 
 !---手机中国
 cnmo.com##div[id^="Bar"]
@@ -1093,7 +1094,6 @@ banners.chinesenewsnet.com
 chnqiang.com/da/
 chnqiang.com##div[class^="ad"]
 .cn.vc/uploadfile/200712/200712311199104181.gif
-cnblogs.com##DIV#liveMessengerThumb
 cncmax.cn:8080/issueunziped/
 cncrk.com/ggg/
 bwp.taiwan.cnet.com/
@@ -1332,6 +1332,7 @@ jsunion.boodvd.com/union/
 ||chanet.com.cn^$third-party
 ||chitika.com^$third-party
 ||cjoy.com.cn^$third-party
+||clickeye.cn^$third-party
 ||cnxad.com^$third-party
 ||coogao.cn^$third-party
 ||egooad.cn^$third-party
@@ -1415,6 +1416,8 @@ click2/count/$script
 56zz.com##div.adbox
 66wz.com##div.inarticle
 86zw.com###Top>#TextSelect+center>table
+cnblogs.com##DIV#liveMessengerThumb
+cnblogs.com##div.ad_bottom_text,#div_ad2,#div_a4_ads
 dianping.com##div[class^="DPAD"]
 dygod.com##TR.altbg2
 gamez.com.tw##table#pid99999999
