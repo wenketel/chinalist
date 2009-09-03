@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: 0ucuZLWrVxUtuQCR8Z4WTA
+!  Checksum: hMv593KKbcFkAjrR8nZdhQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 02 Sep 2009 14:57:03 +0800
+!  Last Modified:  Thu, 03 Sep 2009 10:07:40 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -19,7 +19,6 @@
 !---馨灵风软
 1000fr.com/images/$object
 1000fr.com/images/760*.gif
-1000fr.com##div[id^="ad_thread"]
 
 !---奇法大陆
 ||78land.com/js/$script
@@ -281,7 +280,6 @@ img.duote.com/js/pathAd.js
 img.duote.com/js/clickDownAjax4.js
 img.duote.com/js/clickDownAjax3.js
 duote.com##DIV.tuwen.line_ggreen
-/PV?peerid=
 
 !---多玩游戏网
 .duowan.com/market/
@@ -293,7 +291,6 @@ web.duowan.com##div#banner
 !---圣域家园
 www.idc-1.com/js/js.php?$script
 dream2008.cn##div#ad_headerbanner
-dream2008.cn##div[id^="ad_thread"]
 w9b0ww.blu.livefilestore.com/y1p-EdQT3OY28QCzFbt3NSA334sdhbbH9VLuJNjNcTHegkOJBas99FhmK3wBvlsVac4uu8jLyudii7ATs266-DHoQ/600X502.jpg
 w9b0ww.blu.livefilestore.com/y1pnYl63S9Ybvdj1wuDEYbGAPhTByhoCshpMzUfxLtF6XaWqUYGhDLsort5wifYTq_6oE4km5_7ZF2OqJEGf6huf0N6K38sRTUp/gg090205.jpg
 
@@ -409,6 +406,12 @@ itpub.net/js_floatwindows.php
 itpub.net/popwindowjs.php
 itpub.net##div.popup
 space.itpub.net/attachments/2009/07/93405_200907011402161.jpg
+
+!---Javaeye
+ftp.javaeye.com/$object
+ftp.javaeye.com/public/
+javaeye.com##div#forum_advert_f5
+javaeye.com##ul.adverts
 
 !---开心网
 kaixin001.com#div(id=kxcpmdiv)
@@ -529,7 +532,6 @@ ouyaoxiazai.com/ad/$subdocument
 !---远景
 pbcdn.com/mac/ad$image
 bbs.pcbeta.com##DIV[class="pcbeta-gg s_clear"]
-bbs.pcbeta.com##div[id^="ad_thread"]
 
 !---PCGames
 .pcgames.com.cn/club/fz/tuijian/
@@ -1167,7 +1169,6 @@ ad.itiexue.net/$script
 itocp.com/html/$object
 d.itopnetworks.com/b/
 izy.cn/script/qq_piaofu.js
-ftp.javaeye.com/$object
 img.jb51.net/imgby/
 .jiatx.com/html/chinajiatx/
 jobems.com/js/ShowADsKw.js
@@ -1296,6 +1297,7 @@ u.1133.cc^
 ||118114.cn^$third-party
 ||18lian.com^$third-party
 ||2bj.cn/click.html?$subdocument
+||3gpz.net^$third-party
 ||51link.com^$third-party
 ||click.5j.com^$~third-party
 ||7iam.com^$third-party
@@ -1389,6 +1391,7 @@ click2/count/$script
 ||cnzz.com^$third-party
 .com.cn/pv.js
 /ktrace/ktrace$script
+/PV?peerid=
 |http://counter.
 |http://stat.$script,domain=~verycd.com
 ||linezing.com^$third-party
@@ -1396,6 +1399,7 @@ click2/count/$script
 
 !-----------------------Element Hiding--------------------
 ###ad_interthread
+##div[id^="ad_thread"]
 52topview.com##div#main-info
 56zz.com##div.adbox
 66wz.com##div.inarticle
