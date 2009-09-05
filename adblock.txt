@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: bCQ6Rg2DevMqpoGs0SOr8g
+!  Checksum: PfbCXf3pVKr8yPiQ90M6oQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 05 Sep 2009 21:55:36 +0800
+!  Last Modified:  Sat, 05 Sep 2009 22:04:24 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -338,16 +338,6 @@ images.gxsky.com/
 shop.gxsky.com/tptuijian/
 skads.gxsky.com/$script
 gxsky.com##DIV[style="height: 90px;"]
-
-!---环球网
-huanqiu.com/hezuo/
-huanqiu.com/script/entPageText*.js
-huanqiu.com/script/homePage*.js
-huanqiu.com/script/content_js/cont_banner2.js
-acst.huanqiu.com/www/delivery/
-huanqiu.com#*(id^=banner0)
-huanqiu.com##body>#ad
-huanqiu.com##body>#hd+.ct>.adlist
 
 !---网络中国
 httpcn.com/js/$script
@@ -962,6 +952,9 @@ atchinese.com/images/banners/100x100
 atchinese.com/images/banners/300x300
 .daqi.com/clicklog.js
 ftchinese.com###leader_box:first-child
+huanqiu.com/script/homepage$script
+huanqiu.com/script/entPageText$script
+huanqiu.com##div[id^="banner"]
 my1510.cn/ads/$script
 nddaily.com/nddailyfile/webadv/
 .people.com.cn/zixun/
