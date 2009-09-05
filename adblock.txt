@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: FevyZ5oKPajBul8fO5RvJQ
+!  Checksum: 80EFILBftYpzV+JfGgKXTA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 05 Sep 2009 14:41:27 +0800
+!  Last Modified:  Sat, 05 Sep 2009 15:01:42 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -16,10 +16,6 @@
 @@crossdomain.xml|$subrequest
 
 !---------------------Well-known Sites-------------------
-!---馨灵风软
-1000fr.com/images/$object
-1000fr.com/images/760*.gif
-
 !---中国娱乐网
 img.67.com/aaAssembly/
 news.67.com/aa_sys_js/$script
@@ -163,10 +159,6 @@ kshuw.net,kshuw.com##span#award_19
 bbs.btpig.com###ajaxwaitid+div.wrap>#header+table+table[width="97%"][height="33"]
 bbs.btpig.com##div.wrap>table[width="97%"][bgcolor="#000000"][background="#ffffff"]
 btgod.com/ad/
-
-!---鸟瞰小说网
-birdsee.com/js/
-book.birdsee.com##div.scriptx>a>font
 
 !---赛迪网
 ccidnet.com/adimage
@@ -390,10 +382,6 @@ infoq.com##DIV.widgetContent
 infoq.com##DIV#leftbartextlinks
 infoq.com##div.vendor-content-box>div[style="float: right; width: 25%;"]
 
-!---IT168
-adshow.it168.com
-publish.it168.com/cad/
-
 !---倚天硬件
 itdoor.net/banner/pcdiy/5years1.swf
 link.itdoor.net
@@ -544,13 +532,11 @@ bbs.pcbeta.com##DIV[class="pcbeta-gg s_clear"]
 .pcgames.com.cn/js/ivy.js
 pcgames.com.cn#div(ad490)
 
-!---PCHome.net
+!---PCHome.net/tw
 pchome.net##DIV.w960.adW,#popWin
 btn.pchome.net
 btm.pchome.net
 images.pchome.net/global/js2/index2k9_min.js
-
-!---PCHome.tw
 ||pchome.com.tw/adpics/
 ||pchome.tw/adpics/
 
@@ -569,11 +555,6 @@ www.pconline.com.cn###PcPoPmarket
 pdafans.com/images/banner/
 bbs.pdafans.com##body#index>div#header+table[width="98%"]
 bbs.pdafans.com#table(width=960)(align=center)
-
-!---爆米花
-a.pomoho.com/play/channel15
-a.pomoho.com/roll/rollcaption
-ad2*.pomoho.com
 
 !---起点中文网
 qidian.com/Images/mark.gif
@@ -901,9 +882,6 @@ www.yam.com###m_tab6
 www.yam.com###main>#left+#middle>#m_tab1:first-child+#m_tab11+.m_eq
 admd.yam.com/*
 
-!---译言
-yeeyan.com/files/
-
 !---天极网
 yesky.com/*yeskyflash.js
 yesky.com/lbad/
@@ -999,6 +977,9 @@ nddaily.com/nddailyfile/webadv/
 .people.com.cn/zixun/
 
 !---Online Novel Sites
+birdsee.com/js/
+book.birdsee.com##div.scriptx>a>font
+booksky.org/$subdocument
 book.hxtdz.com/js/$subdocument
 book.hxtdz.com/js/youpiao2.js
 lxwxw.com/scripts/new/$script
@@ -1016,8 +997,11 @@ www.66ys.cn/d/$script
 union.bokecc.com/flash/textlist.xml
 union.bokecc.com/flash/imglist.xml
 down.didady.com/Ad/$script
+eeesoo.com/adshtml/$subdocument
+eeesoo.com/js/
 ||openv.com/coop/s114.php?$subdocument
 m.openv.tv/m/$image
+a.pomoho.com/$script
 ||qvodzy.com/ad/$script
 .atm.youku.com/
 v.youku.com##div#col3>div[style="margin-top: 10px;"]
@@ -1028,6 +1012,8 @@ v.youku.com##div#col3>div[style="margin-top: 10px;"]
 ##div#head_ad
 
 !--Miscellaneous
+1000fr.com/images/$object
+1000fr.com/images/760*.gif
 qm.1000meng.com/code
 189.cn##div#miniAd
 2500sz.com/site/
@@ -1096,8 +1082,11 @@ hxjs.tool.hexun.com/*/pageMediaControl1.js
 homerpublishing.com.tw/images/ad*.swf
 htpc1.com/newfolder/
 ||imp3.net/data/js/
+adshow.it168.com
+publish.it168.com/cad/
 img.jb51.net/imgby/
 knowsky.com/ad/
+wa.koowo.com/lyrics/img/kwgg/$subdocument
 linuxeden.com/image/adimg/
 i.mtime.cn/tg/
 ||mycodes.net/js/$image
@@ -1124,6 +1113,7 @@ wcm.xmnn.cn/trswcm_plugins/adintrs/data/script/$script
 xmnn.cn##div[class^="ad"]
 xue5.com/AD/
 xue5.com/itedu/js/DIVit_QQ.js
+yeeyan.com/files/
 .zuoche.com/*/promo_*.jsp$subdocument
 .zuoche.com##TD[width="260"][valign="top"][height="600"]:last-child
 .zuoche.com#TD(background=../images/line_y.gif)
@@ -1236,6 +1226,7 @@ union.zhongsou.com
 adpolestar
 /adshow.jsp?$script,subdocument
 /ADShow.aspx?$script
+/ADPShow.aspx?$script
 adsunion
 affiliate$subdocument,script,object
 friendlink$subdocument,image
@@ -1281,12 +1272,11 @@ bbs.xdxdxd.com###ad_888
 xiami.com##div.play_ad
 
 !-----------------------Temporary--------------------------------------------------------
-!-----------------------2009.8--------------------------------------------------------
-img.kenengba.com/a/fanfou012.png
+!-----------------------2009.9--------------------------------------------------------
+img.kenengba.com/a/$image
 ||long-jf.com/images/jxsj-lb.gif
 |http://hk.ndx.nextmedia.com/DFA/js_ndxtag_v409.cfm?*
 board.mozest.com/dewplayer-mini.swf
-bbs.orc3c.com/attachments/month_0906/0906120027d7ed1532e9fb340f.jpg
 shooter.cn/images/prom/svplayer_250_prom.jpg
 
 !------------------------End of List--------------------------------------------------------
