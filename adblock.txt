@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: BGszq+0JsxnHWqmibgvQtg
+!  Checksum: w9j6+q7Sgnb0++o5+OWW3Q
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 05 Sep 2009 11:40:43 +0800
+!  Last Modified:  Sat, 05 Sep 2009 12:31:08 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -19,6 +19,12 @@
 !---馨灵风软
 1000fr.com/images/$object
 1000fr.com/images/760*.gif
+
+!---中国娱乐网
+img.67.com/aaAssembly/
+news.67.com/aa_sys_js/$script
+passport.67.com/ShowSubcribe.aspx
+www.67.com/aa_js/$script
 
 !---奇法大陆
 ||78land.com/js/$script
@@ -246,7 +252,6 @@ topic.csdn.net##div[id^="Float"]
 
 !---手机中国
 cnmo.com##div[id^="Bar"]
-js.cnmo.com/pv.js
 pic.cnmo.com/$image,object
 cnmo.com##div[id^="AD"]
 
@@ -325,7 +330,6 @@ bbs.fengniao.com/forum/var/vbb_scroll_content.js
 bbs.fengniao.com##P[style="margin: 0pt; font-size: 12px; text-align: center;"]
 bbs.fengniao.com##TD[align="left"][colspan="2"]
 bbs.fengniao.com##td.smallfont>strong
-js.fengniao.com/pv.js
 pic.fengniao.com/200906/$object
 www.fengniao.com/images/mt2009.jpg
 
@@ -350,9 +354,6 @@ gxsky.com#div(class^=Ad_txt)
 gxsky.com#div(class^=hbanner)
 gxsky.com#div(class=button-gg)
 gxsky.com#div(class^=h2banner)
-
-!---HiNet
-hiad.myweb.hinet.net
 
 !---环球网
 huanqiu.com/hezuo/
@@ -529,15 +530,6 @@ pbd.sogou.com/$script
 ngacn.cc/misc/intel/
 img.ngacn.cc/web/res/js_adscommon.js
 bbs.ngacn.cc#*(id^=adsc)
-
-!---未来软件园
-orsoon.com##div#xin12, #xin14, #ad01, #adsmid,#youxi,#links
-orsoon.com/orsoon/$script
-y488.com/js.js
-
-!---偶要下载
-ouyaoxiazai.com/$script
-ouyaoxiazai.com/ad/$subdocument
 
 !---远景
 pbcdn.com/mac/ad$image
@@ -717,7 +709,6 @@ bjsite.sohu.com/s2009/5824/s265512777/
 sohu.com/bill/
 images.sohu.com/cs/jsfile/js/ct.js
 images.sohu.com/cs/sohuim/xiaozt/version/2.0/js/$script
-js.sohu.com/pv.js
 js.sohu.com/mail/pv/pv_v2.js
 scalink.sohu.com/
 /pv.sohu.com
@@ -843,11 +834,6 @@ d0.xcar.com.cn/newpush_n.php
 d0.xcar.com.cn/push_n.php
 d1.xcar.com.cn^$object
 
-!---绿色软件联盟
-xdowns.com/ggd.js
-bbs.xdowns.com/jump.js
-bbs.xdowns.com/9.js
-
 !---校内
 gg.xiaonei.com/view.jsp
 jebe.renren.com
@@ -945,7 +931,7 @@ zhuaxia.com##div[onclick^="send_ad_log"]
 
 !---逐浪小说网
 css.zhulang.net/js/header.js
-hm.baidu.com/h.js?$script
+hm.baidu.com/$third-party
 images2.zhulang.com/
 mc.zhulang.com/images/$image
 www.zhulang.com/js/pf2.js
@@ -963,10 +949,24 @@ zol.com.cn##div[class^="A_ad"],[class^="Bm_ad"]
 zol.com.cn##div[id^="Float"],[id^="Bar"],[id^="AD"]
 
 !-------------------Generic (sort by domain name)---------
+!---Download Sites
+05sun.com/js/$script
+4oa.com/adjs/
+www.366soft.net/t/$script
+cncrk.com/ggg/
+orsoon.com##div#xin12, #xin14, #ad01, #adsmid,#youxi,#links
+orsoon.com/orsoon/$script
+ouyaoxiazai.com/$script
+ouyaoxiazai.com/ad/$subdocument
+xdowns.com/ggd.js
+bbs.xdowns.com/jump.js
+bbs.xdowns.com/9.js
+
 !---Game Sites
 ali213.net/jsgg/
 bill.tgbus.com
 bmp.ali213.net
+img.cngba.com/da/
 images.gamebase.com.tw/200*/event/*_*/$image
 .gameflier.com/upload/Tower/
 gfg.gameflier.com/
@@ -986,6 +986,8 @@ atchinese.com/images/banners/300x300
 .people.com.cn/zixun/
 
 !---Video Sites
+0392vod.cn/ggjs/$script
+www.66ys.cn/d/$script
 union.bokecc.com/flash/textlist.xml
 union.bokecc.com/flash/imglist.xml
 ||openv.com/coop/s114.php?$subdocument
@@ -999,47 +1001,23 @@ v.youku.com##div#col3>div[style="margin-top: 10px;"]
 ##div#head_ad
 
 !--Miscellaneous
-0392vod.cn/ggjs/$script
-05sun.com/js/300info.js
-05sun.com/js/db250.js
 qm.1000meng.com/code
 189.cn##div#miniAd
-.1b2.cn/shipin/*.js
-.1ting.net/ADCodeClip/
 2500sz.com/site/
 2500sz.com/images/tv.gif
-366soft.net/other/
 images.366tian.net/ltyx/468-60.jpg
 bbs.366tian.net##div[id^="ad_intercat"]
-3ddown.com/other/js/760.js
-3ddown.com/other/js/A_*.js
-4oa.com/adjs/
-4oa.com/js/html/office300x300.html
-4oa.com/js/index970_4index.html
 other.51cto.com/ad/
 52topview.com/img/gp3335.gif
-580k.com/ad/
 5dmail.net/image/$object
 u.56wan.com/
-www.66ys.cn/d/$script
-.67.com/*/frmCircleNews.htm
-uid.77ck.com/images/6pu_100_300.gif
-uid.77ck.com/images/bc600_300.jpg
-sessionsmon.88db.com/
 88tou.com/ad/$image
 96bbs.com/images/adv/$image
 96bbs.com##table#table1
-dm.99770.com/haodm/28vegas.html
-c.9player.cn/a/$subdocument
 bbs.a9vg.com/showit/pic/*//
-y.abang.com/z/bd/abang.js
-abestweb.com/cgi-bin/Banner/csBanner.cgi
-/static.acs86.com/g.js
-51img.ajiang.net
 rcm.Amazon.com/e/cm
 arclive.com.cn/77070.swf
 arting365.com/bill/
-awocity.cn$~subdocument
 autohome.com.cn/33
 33.autohome.com.cn^$~image
 img.autohome.com.cn/pvpv$script
@@ -1048,43 +1026,20 @@ www.aybook.cn/other/js/$script
 bbs.avtime.cn/ad/
 www.av199.com/ad/
 www.av199.com,bbs.avtime.cn##tr.altbg2>TD[width="100%"]
-.babeijiu.com/js/bbj*.js
-.bahamut.com.tw/js/abanner.
-.bahamut.com.tw/js/building.js
-.bahamut.com.tw/js/fboard.js
 bbs.bccn.net/ad/
 benxiong.com/g/
-dannonces.bibidu.com/
 bitscn.com/pic2009/a*.js
-blogad.com.tw$script,object
-cp1.blcx.com/cpm2009/dipancpm.js
 gg.blueidea.com
-|http://www.booksky.org/popy.js
-vampire.btbbt.com/
-ad.btnibbler.com
 cbifamily.com/corporation/
-webunion.ccd.com.cn/
-blog.cersp.com/images/banner007.gif
 ||badongo.com/swf/banner.swf
 ||badongo.com/images/banners/
 ua.badongo.com/js/ua-remote.js?$script
 chdtv.net/attachments/day_090625/09062518267b86a7b2b2897528.gif
 chdtv.net##FIELDSET
-bbs.chetx.com/html/picyule.html
-chinaiiss.org/images/sitead/
-chinaiiss.org/js/javascript.asp?act=piclink
 chinaswine.org.cn/uploadfile/*$~object
-chinaventure.com.cn/common/images/130-180.gif
-chinaventure.com.cn/Common/images/251X220.gif
 chinaventure.com.cn/sponsors/
-banners.chinesenewsnet.com
 chnqiang.com/da/
 chnqiang.com##div[class^="ad"]
-.cn.vc/uploadfile/200712/200712311199104181.gif
-cncmax.cn:8080/issueunziped/
-cncrk.com/ggg/
-bwp.taiwan.cnet.com/
-img.cngba.com/da/*$subdocument,image,script,object
 .cnhan.com/other/$image,object
 .cnhan.com/*/tplimg/*.jpg$image
 codepub.com/wuse/pic/0903/
@@ -1128,7 +1083,6 @@ games32.cn/data/js/0.js
 giganews.com/banners/gn_unlimited_1.swf
 gimpusers.com/js/common.js
 .gndaily.com/gzad/
-/un.so.gougou.com
 gougou.com##table.ggADTable
 greenspe.com/other/js/$script
 dx.greenspe.com/pp216.js
@@ -1308,6 +1262,7 @@ u.1133.cc^
 ||91wan.com^$third-party
 ||991go.com^$third-party
 ||99click.com^$third-party
+||9player.cn^$third-party
 pop.9v.cn/
 v.9vcpm.cn/
 ||a8ww.net$third-party
@@ -1317,6 +1272,8 @@ v.9vcpm.cn/
 ||alimama.com^$third-party
 ||allyes.com^$third-party
 ||bafang.cc^$third-party
+||blcx.com^$third-party
+blogad.com.tw$script,object
 jsunion.boodvd.cn/script/
 jsunion.boodvd.com/union/
 ||bmwlong.com^$third-party
@@ -1375,7 +1332,8 @@ c.pee.cn^
 ||unionsys.bolaa.com^$third-party
 ||vodone.cn^$third-party
 ||wauee.com^$third-party
-||g.xuanyx.com^$third-party
+||xuanyx.com^$third-party
+||y488.com^$third-party
 ||yigao.com^$third-party
 ||yx007.com^$third-party
 union.zhongsou.com
@@ -1390,12 +1348,15 @@ affiliate$subdocument,script,object
 friendlink$subdocument,image
 guanggao
 images/adv/$image
+js/netjc.js
 
 !-----------------------------Privacy---------------------
+51img.ajiang.net
 click2/count/$script
 /count.js|
 ||cnzz.com^$third-party
-.com.cn/pv.js
+.com.cn/pv.js|
+.com/pv.js|
 /ktrace/ktrace$script
 /PV?peerid=
 |http://counter.
