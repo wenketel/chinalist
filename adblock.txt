@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: vGw3q7raC6P3P3dv8HdlGg
+!  Checksum: n3JD3wPREIxacx3ZbEyNyg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 05 Sep 2009 17:42:01 +0800
+!  Last Modified:  Sat, 05 Sep 2009 19:39:21 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -488,6 +488,7 @@ mitbbs.com,mitbbs.cn,unknownspace.org##body>center>table:first-child+table+table
 !---Mop
 union.mop.com/
 dzh.mop.com/static/$object
+gg.mop.com
 tt.mop.com##div.mt5
 ||yx.mop.com^$third-party
 
@@ -1072,6 +1073,7 @@ fj007.com##div#wordlink
 flash8.net/flash8_a_d_s/
 free9.net/myc/myc.js
 free9.net/myc/$subdocment
+geekcook.org/ad/$image
 hanzify.org/Main/Template/*/a-d-s/
 .hbrchina.com/*/3/$image,object
 hxjs.tool.hexun.com/*/pageMediaControl.js
@@ -1219,7 +1221,6 @@ union.zhongsou.com
 ||zoxad.net^$third-party
 
 !--------------------------Other (sort by letter)--------
-//gg[/\.]/$subdocument,image,script,object
 /guangg/
 adpolestar
 /adshow.jsp?$script,subdocument
@@ -1229,8 +1230,8 @@ adsunion
 affiliate$subdocument,script,object
 friendlink$subdocument,image
 guanggao
+|http://gg.$subdocument,image,script,object
 images/adv/$image
-js/netjc.js
 
 !-----------------------------Privacy---------------------
 51img.ajiang.net
@@ -1241,6 +1242,7 @@ click2/count/$script
 .com/pv.js|
 /ktrace/ktrace$script
 js/tongji.js|
+js/netjc.js|
 /PV?peerid=
 |http://counter.
 |http://stat.$script,domain=~verycd.com
