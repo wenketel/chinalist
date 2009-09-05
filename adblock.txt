@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: 2Vae1Oir1lU/GFGwdYpjFw
+!  Checksum: iKYbVI7tPFEMRejfnGer8A
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 05 Sep 2009 21:01:11 +0800
+!  Last Modified:  Sat, 05 Sep 2009 21:34:47 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -290,11 +290,12 @@ img.duote.com/js/clickDownAjax3.js
 duote.com##DIV.tuwen.line_ggreen
 
 !---多玩游戏网
-.duowan.com/market/
 duowan.com/public/s/top_gg.js
 market.duowan.com/duowan/*.js
+market.duowan.com/duowan/$script
+market.duowan.com/count03.js
+news.duowan.com##div#pageContTop
 web.duowan.com##div.advertise
-web.duowan.com##div#banner
 
 !---eNet
 .enet.com.cn/*/bottomsm.js
@@ -1240,9 +1241,10 @@ click2/count/$script
 ||cnzz.com^$third-party
 .com.cn/pv.js|
 .com/pv.js|
-/ktrace/ktrace$script
+||cdn.hiido.cn^$third-party
 js/tongji.js|
 js/netjc.js|
+/ktrace/ktrace$script
 /PV?peerid=
 |http://counter.
 |http://stat.$script,domain=~verycd.com
