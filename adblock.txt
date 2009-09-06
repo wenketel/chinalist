@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: 7fFGUPbJwhEBOFq7sZz9jQ
+!  Checksum: F8An7IkTdJYi5jhexAN5jQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 06 Sep 2009 22:31:54 +0800
+!  Last Modified:  Mon, 07 Sep 2009 00:45:55 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -578,6 +578,7 @@ rsdown.cn/$subdocument
 rsdown.cn/readme/rsdown.gif
 
 !---Sina
+/(^http://d)\d+\.sina\.com\.cn/
 blog.sina.com.cn/main/hot_tag/all/$script
 bbs.sina.com.cn/js/291/2009/0424/SinaDotPublicRelationCtrl_bbs.js
 bj.house.sina.com.cn/iframe/$subdocument,script
@@ -587,7 +588,6 @@ v.sina.com.cn/v/iframe/as/$subdocument
 rm.sina.com.cn/icast/rotator.js
 sinaimg.cn/unipro/
 blogjs.sinajs.cn/v5js/blogPromote.conf.js
-|http://d*.sina.com.cn
 sjs.sinajs.cn/common/js/webim.compressed.js
 sjs.sinajs.cn/tiezi/tpl/b1_1/images/wbg.jpg
 spacejs.sinajs.cn/view/js/adwidget.js
