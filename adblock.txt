@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: 8knq0cuiXoBwcsRIrhMYvA
+!  Checksum: tNleqt6WHgAya8ExUdHkBg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 06 Sep 2009 18:42:36 +0800
+!  Last Modified:  Sun, 06 Sep 2009 18:46:54 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -89,6 +89,7 @@ qun.51.com##div.mdk
 /forum/images/64080.gif
 /forum/images/kb728_90.gif
 /forum/images/sitead2.gif
+/forum/images/Bat_fid1.swf
 thinkpad.cn,51nb.com##tr.altbg1>td.line[style="padding: 5px;"]
 
 !---56.com
@@ -456,6 +457,7 @@ is.qq.com/js/addportal.js
 !---Mop
 union.mop.com/
 dzh.mop.com/static/$object
+tt.mop.com/club/$object
 tt.mop.com##div.mt5
 ||yx.mop.com^$third-party
 
@@ -750,7 +752,7 @@ img.vista123.com/images/win7master.gif
 !---威峰
 weiphone.com/a_img/
 aimg.weiphone.com/$image
-bbs.weiphone.com##div.ad-text,#ads_c_tpc
+bbs.weiphone.com##div[id^="ads_"],.ad-text
 www.gevey.com/taobao/ad.gif
 
 !---完美者
@@ -893,6 +895,7 @@ orsoon.com/orsoon/$script
 ouyaoxiazai.com/$script
 ouyaoxiazai.com/ad/$subdocument
 piaodown.com/other/js/$script
+bt.sfileydy.com/gg/$subdocument
 ||softnews.cn/other/js/A_*.js
 sz1001.net/Down_Style/$script
 ||xdowns.com/$script
@@ -1093,6 +1096,7 @@ u.1133.cc^
 ||37dz.com^$third-party
 ||3gpz.net^$third-party
 ||51link.com^$third-party
+||59163.com^$third-party
 ||click.5j.com^$third-party
 ||68link.com^$third-party
 ||7iam.com^$third-party
