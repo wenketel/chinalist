@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: PQzsI/h2m+0P67Z4+veakg
+!  Checksum: 80dNPPJOCgeYhrTKEiDtCQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 09 Sep 2009 09:52:50 +0800
+!  Last Modified:  Wed, 09 Sep 2009 09:57:37 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -395,10 +395,15 @@ sl.iciba.com/script/pop.js
 goto.www.iciba.com
 union*.kingsoft.com/
 
-!---ITPub
-168.it168.com/js/64.js
-168.it168.com/focusjs/64.js
+!---it168
+||it168.com/adjs/$script
+168.it168.com/js/6*.js
+168.it168.com/Runtxtjs/6*.js
+adshow.it168.com
 product.it168.com/talk/doc/38.txt?$script
+publish.it168.com/cad/
+
+!---ITPub
 itpub.net/js_floatwindows_for_publish.php
 itpub.net/js_floatwindows.php
 itpub.net/popwindowjs.php
@@ -1076,8 +1081,6 @@ homerpublishing.com.tw/images/ad*.swf
 htpc1.com/newfolder/
 i21st.cn/ad/
 ||imp3.net/data/js/
-adshow.it168.com
-publish.it168.com/cad/
 img.jb51.net/imgby/
 knowsky.com/ad/
 wa.koowo.com/lyrics/img/kwgg/$subdocument
