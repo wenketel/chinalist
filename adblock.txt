@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: 91UiUhQ76UEHpHJSOn34qQ
+!  Checksum: qYMvIHYdoIr/ZLbUXTA0Qg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 11 Sep 2009 09:17:05 +0800
+!  Last Modified:  Fri, 11 Sep 2009 09:21:34 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -128,10 +128,9 @@ pic.bahamut.com.tw/index_w/iSuper.swf
 !---Baidu
 /tk.baidu.com
 box.zhangmen.baidu.com/js/ad.js
-cpro.baidu.com
+cpro.baidu.com/$third-party
 drmcmm.baidu.com/js/$script
 eiv.baidu.com
-hiphotos.baidu.com/tubing/pic/item/f1f3173898b398f8b311c7ce.jpg
 hm.baidu.com/$third-party
 news.baidu.com/js/usertrack.js
 spcode.baidu.com/spcode
@@ -141,7 +140,7 @@ utk.baidu.com/usv/
 baidu.com##div[id^="bdfs"]
 baidu.com##table[width="30%"][align="right"] div[style|=border]
 baidu.com##body>div#container>div#ecomContainer>div#imContainer
-a.baidu.com/ecom?di=18&tm=baidufsbanner&$script
+a.baidu.com/ecom?di&$script
 image.baidu.com##table#relEcom
 mp3.baidu.com##div#dMA + script + table[cellspacing][cellpadding]
 news.baidu.com##DIV[id="ecad"]
