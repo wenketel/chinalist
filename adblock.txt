@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: xI2N6EBf+mQZrQBnNGvVew
+!  Checksum: KOKQ/XJasF2Uu+jIw1SprA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 13 Sep 2009 18:51:52 +0800
+!  Last Modified:  Mon, 14 Sep 2009 12:03:53 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -735,10 +735,11 @@ tompda.com##div.Advertising
 .p2v.tudou.com/extension/
 .p2v.tudou.com/$object_subrequest
 .p2v.tudou.com/poster/*.swf
+adcontrol.tudou.com/
 adextensioncontrol.tudou.com/cptadvcontrol/commonadv.html?$script
 @@|http://js.tudouui.com/bin/player_online/TudouVideoPlayer*.swf|
 js.tudouui.com/bin/player_online/$object_subrequest
-js.tudouui.com/js/page/$script
+!js.tudouui.com/js/page/$script
 tudou.com##div[id="pushlist"]
 tudou.com##a[id="gotoTudouVA"]
 |http://istat.$object_subrequest
