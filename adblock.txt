@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: F77m533babcdx/gDIFBOPg
+!  Checksum: IYt09VFngETkak6qFpcY0g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 15 Sep 2009 10:10:42 +0800
+!  Last Modified:  Tue, 15 Sep 2009 10:32:20 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -609,7 +609,8 @@ rsdown.cn/$subdocument
 rsdown.cn/readme/rsdown.gif
 
 !---Sina
-/(^http://d)\d+\.sina\.com\.cn/
+@@|http://down*.tech.sina.com.cn/$script
+|http://d*.sina.com.cn/
 blog.sina.com.cn/main/hot_tag/all/$script
 bbs.sina.com.cn/js/291/2009/0424/SinaDotPublicRelationCtrl_bbs.js
 bj.house.sina.com.cn/iframe/$subdocument,script
@@ -739,7 +740,6 @@ adcontrol.tudou.com/
 adextensioncontrol.tudou.com/cptadvcontrol/commonadv.html?$script
 @@|http://js.tudouui.com/bin/player_online/TudouVideoPlayer*.swf|
 js.tudouui.com/bin/player_online/$object_subrequest
-!js.tudouui.com/js/page/$script
 tudou.com##div[id="pushlist"]
 tudou.com##a[id="gotoTudouVA"]
 |http://istat.$object_subrequest
