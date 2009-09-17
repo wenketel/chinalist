@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: wWVPv2VwfOL5qwfaex0OVg
+!  Checksum: +UJJGMDH+ZWY7kW30FWa9Q
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 17 Sep 2009 17:18:33 +0800
+!  Last Modified:  Thu, 17 Sep 2009 17:28:30 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -461,16 +461,9 @@ mydrivers.com##TABLE[width="100%"][height="70"][bgcolor="#eaeaea"]
 !---NewHua
 @@/newhuagg/pixviewer.swf$domain=onlinedown.net|newhua.com
 /newhuagg$domain=onlinedown.net|newhua.com,image,object
-/newhuagg/newhua_index_pic$domain=onlinedown.net|newhua.com,script
-zhidao.newhua.com/images/temp/$image
-onlinedown.net/adhuajun2.js
-onlinedown.net/newhuagg/js_ad_*.js|
+/newhuagg/newhua_index_pic$script,domain=onlinedown.net|newhua.com
 news.newhua.com/zt/index_top4pic/$image
-newhua.com##div#t.m3>h4,.atxt
-onlinedown.net##table#top_tab>tbody>tr:first-child+tr
 news.newhua.com##DIV.news_blue_box[style="width: 99%;"]
-newhua.com##div#t.m3>h4,.atxt
-pbd.sogou.com/$script
 
 !---远景
 pbcdn.com/mac/ad$image
@@ -641,6 +634,7 @@ inte.sogou.com/cpc_matrix
 map.sogou.com/map412/images/gohouse.gif
 map.sogou.com/map412/scroll_ad.htm
 bjsite.sohu.com/s2009/5824/s265512777/
+pbd.sogou.com/$script
 
 !---Sohu
 sohu.com/bill/
