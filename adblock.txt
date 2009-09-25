@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: H7FoTSGBHLPhtoXz5ZO5/Q
+!  Checksum: 1n2UCZ+BmrDonIDEA9q0mg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 25 Sep 2009 12:11:17 +0800
+!  Last Modified:  Fri, 25 Sep 2009 13:23:45 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -473,18 +473,18 @@ qidian.com###AddMark
 qidian.com##div[class^="gg"]
 
 !---QQ
-adsview.qq.com/
-ads*.qq.com^$script,object
+@@|http://mat1.qq.com/ent/*/focus_weekly01.swf
+@@|http://mat1.qq.com/ent/*/focusAction0.swf
+|http://mat1.$object,domain=qq.com
+|http://ads*.qq.com^$script,object
 is.qq.com/js/addportal.js
 l.qq.com/lview?$script
-mat1.qq.com/cq/ad/$image,object
-mat1.qq.com/news/bobo0506$object
-mat1.qq.com/www/flash/
 tiapview.qq.com/tad.js
-qq.com##a[href^="http://adsclick.qq.com/adsclick"]
-qq.com##div.wenziad
-qq.com##*[id^="AdZone"]
+!--qq.com##a[href^="http://adsclick.qq.com/adsclick"]
+qq.com##*[id^="AdZone"],[class^="AdZone"]
+qq.com##div.adArea,.wenziad
 comic.qq.com##div[id^="Comic_Width"]
+ent.qq.com##div[id^="adbanner"]
 news.qq.com##div.news_ad_box
 news.qq.com###nav
 
