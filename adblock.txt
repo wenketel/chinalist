@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: i4N9icCWFkJr71Jx5mb7wA
+!  Checksum: esMC2VlZU5fTHBpw1ksPTw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 07 Oct 2009 03:05:22 +0800
+!  Last Modified:  Wed, 07 Oct 2009 03:25:57 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -361,6 +361,12 @@ ftp.javaeye.com/$object
 ftp.javaeye.com/public/
 javaeye.com##div#forum_advert_f5
 javaeye.com##ul.adverts
+
+!---激动网
+client.joy.cn/flvplayer/login_player.swf
+68get.joy.cn/js/ifrm.asp
+joy.cn/uploadfiles/fiv/*.swf|$object_subrequest
+68file.joy.cn/*.jpg|$object_subrequest
 
 !---开心网
 kaixin001.com#div(id=kxcpmdiv)
