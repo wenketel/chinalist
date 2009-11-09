@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: fULr5R1r1hjGmdksc3XuhQ
+!  Checksum: ekOlAArj3936b1HQNfWIvw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 09 Nov 2009 12:48:29 +0800
+!  Last Modified:  Mon, 09 Nov 2009 13:21:47 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -491,12 +491,14 @@ pbcdn.com/mac/ad$image
 bbs.pcbeta.com##DIV[class="pcbeta-gg s_clear"]
 
 !---PCHome.net/tw
-pchome.net##DIV.w960.adW,#popWin
 btn.pchome.net
 btm.pchome.net
 images.pchome.net/global/js2/index2k9_min.js
 ||pchome.com.tw/adpics/
-||pchome.tw/adpics/
+pchome.net##DIV.w960.adW,#popWin
+news.pchome.com.tw##div#t13bl
+pchome.com.tw##span.rright>div.ro1
+pchome.com.tw##a[href^="http://ad.adver.com.tw/"]
 
 !---PConline
 ||3conline.com/ivy/$image
@@ -1270,6 +1272,7 @@ u.1133.cc^
 ||acs86.com^$third-party
 ||adsame.com^$third-party
 ||adsfactor.net^$third-party
+||adver.com.tw^$third-party
 ||adwww.cn^$third-party
 ||adzhu.com^$third-party
 ||aiqianming.cn^$third-party
