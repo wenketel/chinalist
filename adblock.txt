@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: WZq1y9yiKhD4voq6QEOChA
+!  Checksum: 4g0QFEsABYJKvRImNPCmdQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 28 Nov 2009 19:57:24 +0800
+!  Last Modified:  Sun, 29 Nov 2009 11:34:21 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -973,9 +973,6 @@ bbs.xdowns.com/9.js
 xp500.com/images/mbox-tcn-160-90.gif
 xp500.com/images/180-120.gif
 zaoxue.com/gg/
-||advooe.com^$third-party
-||deplayer.net^$third-party
-||ujoin.net^$third-party
 
 !---Game Sites
 265g.com/images/gimg/$image,object
@@ -1000,6 +997,8 @@ atchinese.com/images/banners/300x300
 ||chinanews.com/gg/
 */fileftp/$object,domain=chinanews.com.cn|chinanews.com
 .daqi.com/clicklog.js
+nownews.com##DIV.floatBox,#focus_board,#related_link
+nownews.com##a[href^="http://ad1.nownews.com/"],[href^="http://rd.nownews.com/"]
 !---广州日报
 59.42.241.145/pub/news/gzrb/$script
 gzdaily.dayoo.com/tpl/$object
@@ -1288,6 +1287,9 @@ u.1133.cc^
 ||6621.com^$third-party
 ||27.768.net^$third-party
 ||778669.com^$third-party
+||advooe.com^$third-party
+||deplayer.net^$third-party
+||ujoin.net^$third-party
 !--北京网通用来给任意网站投放弹窗广告的流氓 IP
 61.135.22.
 ||68link.com^$third-party
