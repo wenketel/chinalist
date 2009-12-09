@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: 1Ao/R/7MnPb/D2Xso8ZVxA
+!  Checksum: v5DG6deNWD/xViQM/kNiSw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 09 Dec 2009 15:37:18 +0800
+!  Last Modified:  Wed, 09 Dec 2009 15:47:56 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -782,6 +782,7 @@ uwants.com/overture/$script
 uwants.com###thread_ads_bottom+table
 uwants.com###thread_ads_top+table
 uwants.com##table[width="730"][cellpadding="1"]:last-child
+uwants.com##div.ad
 
 !---VeryCD
 verycd.com##div.banner_toped2k,#baidu-cpro-1.banner,.banner
@@ -1078,7 +1079,6 @@ v.youku.com##div#col3>div[style="margin-top: 10px;"]
 
 !--Miscellaneous
 1000fr.com/images/$object
-1000fr.com/images/468x31.gif
 1000fr.com/images/760*.gif
 qm.1000meng.com/code
 111cn.cn/js/downc.js
@@ -1284,11 +1284,7 @@ yyets.net##div#leftsidebar,#rightsidebar,.text_ad,.nav_ad
 rd.youthwant.com.tw/scripts/$script
 youthwant.com.tw##div[class ^="ad"]
 yyfc.com/ad/
-.zuoche.com/*/promo_*.jsp$subdocument
-.zuoche.com##TD[width="260"][valign="top"][height="600"]:last-child
-.zuoche.com#TD(background=../images/line_y.gif)
-zhue.com.cn/advs/ad.js
-zhue.com.cn/js/showad.js
+||zuoche.com/*/promo_*.jsp$subdocument
 ||zyydy.com/gg/
 ||p4u.hinet.net/cowband^$third-party
 town.xuite.net/_ad/
@@ -1311,6 +1307,7 @@ u.1133.cc^
 ||3bu.com/$third-party
 ||3gpz.net^$third-party
 ||50bang.org^$third-party
+||518wz.com^$third-party
 ||51link.com^$third-party
 ||59163.com^$third-party
 ||click.5j.com^$third-party
@@ -1389,9 +1386,6 @@ jsunion.boodvd.com/union/
 ||heima8.com^$third-party
 ||hhsms.com^$third-party
 ||hitme.com.cn^$third-party
-i1.hk/ad/
-i1.hk/clinic/
-i1.hk/overture/
 ||icast.cn^$third-party
 ||u.iciba.com^$third-party
 ||ifocus.cn^$third-party
@@ -1517,7 +1511,6 @@ ied2k.com##TABLE[width="757"][cellspacing="0"][cellpadding="0"][align="center"]
 kenshuw.com##span#award_62
 lotour.com##div#banner
 mobile01.com##div.text_ad,.forum_sidemenu
-uwants.com##div.ad
 bbs.xdxdxd.com###ad_888
 xiami.com##div.play_ad
 
