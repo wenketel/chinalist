@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: 1C6lvbaC88exn7asWOlVbw
+!  Checksum: R9BE9TB5ahNpgMN/RSIEBA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 09 Dec 2009 22:11:47 +0800
+!  Last Modified:  Fri, 11 Dec 2009 10:02:43 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -59,14 +59,17 @@ www.20ju.com/js/caogen.js
 www.20ju.com/js/leftbottom.js
 www.20ju.com/js/right.js
 
+!---东莞视窗
+||dgnet.net/images/ad-flash/
+||dgnet.net/images/ad-gif/$image
+||dgnet.net/images/a3.gif
+||dgnet.net/images/ad*.gif
+
 !---21CN
-21cn.com/googlejs
 dist.21cn.com:8088
-it.21cn.com/images/itad
-.21cn.com/ashow?$script
+||shows.21cn.com^$subdocument
 game.21cn.com/09/upload/$image
-game.21cn.com/zhuanti/$image
-market.21cn.com/w/pay/
+market.21cn.com/w/pay/$domain=~dgnet.net
 ranking.21cn.com
 search.21cn.com##td.frame_2b>table[width="170"],[width="165"]
 
