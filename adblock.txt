@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: CQhCfksH9LakMB+EUUhgcQ
+!  Checksum: 0K03Trc5GrzGyrnjnIvYZg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 20 Dec 2009 15:42:06 +0800
+!  Last Modified:  Sun, 20 Dec 2009 16:57:42 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -1113,8 +1113,11 @@ union.bokecc.com/flash/imglist.xml
 down.didady.com/Ad/$script
 eeesoo.com/adshtml/$subdocument
 eeesoo.com/js/
-hung-ya.com##th[colspan="2"]:not(.AT):not(.ST):not(.ST_IN)
-hung-ya.com##th[colspan="4"]:not(.AT)
+||hung-ya.com/link/ind.htm
+||hung-ya.com/page/all.js$domain=hung-ya.com|~bbs.hung-ya.com
+hung-ya.com##TABLE[width="100%"][height="200"]
+hung-ya.com##th[colspan="2"]:not(.AT):not(.ST):not(.ST_IN),[colspan="4"]:not(.AT)
+hung-ya.com##TD.PG[colspan="2"],.PG[width="86"],.PG[colspan="6"]
 ||openv.com/coop/s114.php?$subdocument
 m.openv.tv/m/$image
 a.pomoho.com/$script
@@ -1305,6 +1308,8 @@ qd.code.qihoo.com/com_spe.js$script
 @@|http://www.qqkj.cn/js/copy.js
 union.qunar.com/live/wnxjs.php?$script
 blog.roodo.com/frogger/20541bad.swf
+ads.redtube.com
+redtube.com/_thumbs/banner
 .sellgreat.com/images/Bdvertisement/
 ||shooter.cn/images/prom/$image
 ||shooter.cn/jscript/siteadv.js
@@ -1351,6 +1356,7 @@ youthwant.com.tw##div[class ^="ad"]
 yyfc.com/ad/
 ||yes123.com.tw/banner_img/ad/
 yes123.com.tw##DIV#tbarad,#lrecad
+youporn.com/r/20090813.5/script/ads2.js
 ||zuoche.com/*/promo_*.jsp$subdocument
 ||zyydy.com/gg/
 
