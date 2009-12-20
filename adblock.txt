@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: svRVnGUXrZ6bkUF+KmWxCQ
+!  Checksum: CQhCfksH9LakMB+EUUhgcQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 20 Dec 2009 12:04:41 +0800
+!  Last Modified:  Sun, 20 Dec 2009 15:42:06 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -960,6 +960,13 @@ pic.zol-img.com.cn/$object
 zol.com.cn##div[class^="A_ad"],[class^="Bm_ad"]
 zol.com.cn##div[id^="Float"],[id^="Bar"],[id^="AD"]
 
+!---东快网
+dnkb.com.cn##div.r_ad_area
+dnkb.com.cn##div.f14
+dnkb.com.cn##div.top_ad_r
+dnkb.com.cn##div.top_ad_l
+dnkb.com.cn##div.pd_menu_down
+
 !-------------------Generic (sort by domain name)---------
 !---Download Sites
 05sun.com/js/$script
@@ -1579,5 +1586,8 @@ xiami.com##div.play_ad
 !-----------------------2009.11--------------------------------------------------------
 ||long-jf.com/images/dbgg.gif
 |http://hk.ndx.nextmedia.com/DFA/js_ndxtag_v409.cfm?*
+
+!-----------------------2009.12--------------------------------------------------------
+|http://www.fzhmzx.com/huameiad.js
 
 !------------------------End of List--------------------------------------------------------
