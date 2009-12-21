@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: Al+51aAmWWbtO3lpkoWbYw
+!  Checksum: /AWegmldJ7hdtcFBt2LZig
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 21 Dec 2009 12:01:08 +0800
+!  Last Modified:  Mon, 21 Dec 2009 22:30:49 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -1123,15 +1123,16 @@ union.bokecc.com/flash/imglist.xml
 down.didady.com/Ad/$script
 eeesoo.com/adshtml/$subdocument
 eeesoo.com/js/
+||hung-ya.com/page/s_1.htm
 ||hung-ya.com/link/ind.htm
 ||hung-ya.com/page/all.js$domain=hung-ya.com|~bbs.hung-ya.com
-hung-ya.com##IFRAME[src="http://hung-ya.com/link/top.htm"]
 hung-ya.com##TABLE[width="100%"][height="200"]
-hung-ya.com##th[colspan="2"]:not(.AT):not(.ST):not(.ST_IN),[colspan="4"]:not(.AT)
-hung-ya.com##TD.PG[width="86"],.PG[colspan="6"],.PG[width="86"][valign="top"]
-hung-ya.com##B.LK_1
 ~bbs.hung-ya.com##FONT.LK_2
-hung-ya.com##a[href^="http://hung-ya.com/page/s"],[href^="http://hung-ya.com/page/a_"],[href^="http://hung-ya.com/cgi-bin/link/out.pl"]
+~bbs.hung-ya.com##.LK_1
+hung-ya.com##a[href^="http://hung-ya.com/page/s_"],[href^="http://hung-ya.com/page/a_"],[href^="http://hung-ya.com/cgi-bin/link/out.pl?20jack.com"]
+hung-ya.com##DIV#floatAdv
+hung-ya.com##table[cellspacing][cellpadding][width]>tbody>tr>th.PG[width="50%"]
+hung-ya.com##tbody>tr>th.PG:first-child
 ||openv.com/coop/s114.php?$subdocument
 m.openv.tv/m/$image
 openv.com##DIV.ad-980
