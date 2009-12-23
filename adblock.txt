@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: 8rZYkZkqDjYEVrP9u1vLKQ
+!  Checksum: uF0fc0xa1Q7whszIqUcCsw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 23 Dec 2009 12:58:08 +0800
+!  Last Modified:  Wed, 23 Dec 2009 13:09:11 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -241,6 +241,9 @@ cnbeta.com##div.newslist>dl>dd.detail>em
 ||cnyes.com/promote/
 ||cnyes.com/usastock/txtad_js.aspx
 cnyes.com##DIV[class^="ad_ns"],[class^="cyads"],#adLayer
+chinayescache.com/sys/js/ad.js
+chinayes.com##DIV[class^="AD"],#biz
+chinayes.com##TABLE#tAD_header_4
 
 !---CNW
 a.computerworld.com.cn/$subdocument,script
@@ -490,13 +493,6 @@ tt.mop.com/club/$object
 tt.mop.com##div.mt5
 txt.mop.com/*/*/ad/$script
 ||yx.mop.com^$third-party
-
-!---木蚂蚁下载站
-||js.mumayi.net^
-www.mumayi.net/index/ad$image
-www.mumayi.net/index/news2.jpg
-www.mumayi.net/index/sp-1.jpg
-mumayi.net##A[href="http://shop.ku6.com"]
 
 !---驱动之家
 ||mydrivers.com/www/duilian.js
@@ -1012,6 +1008,8 @@ huacolor.com/adfile/
 huacolor.com/soft/js/xiazaiyoudao$script
 jfsky.com/show/$script
 jz5u.com/adfile/
+js.mumayi.net^
+||mumayi.net/index/ad$image
 nushou.com/g-g/$script
 onegreen.net/AD/$script
 onegreen.net/ggao/$script
@@ -1066,9 +1064,6 @@ diguo.ce.cn/include/diguo_gg.js
 ce.cn##div#toprad
 */fileftp/$object,domain=chinanews.com.cn|chinanews.com
 cdnews.com.tw/upload/200*/ad_
-chinayescache.com/sys/js/ad.js
-chinayes.com##DIV[class^="AD"],#biz
-chinayes.com##TABLE#tAD_header_4
 .daqi.com/clicklog.js
 img.epochtimes.com/i6/ad/
 news.epochtimes.com.tw/Rbanner.swf
