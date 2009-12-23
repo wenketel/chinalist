@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: uF0fc0xa1Q7whszIqUcCsw
+!  Checksum: JNfM/0syWet9lYLuXBLeeQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 23 Dec 2009 13:09:11 +0800
+!  Last Modified:  Wed, 23 Dec 2009 13:25:13 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -568,7 +568,6 @@ qidian.com##div[class^="gg"]
 is.qq.com/js/addportal.js
 l.qq.com/lview?$script
 tiapview.qq.com/tad.js
-!--qq.com##a[href^="http://adsclick.qq.com/adsclick"]
 qq.com##*[id^="AdZone"],[class^="AdZone"]
 qq.com##div.adArea,.wenziad
 comic.qq.com##div[id^="Comic_Width"]
@@ -652,35 +651,24 @@ bbs.siluhd.com##DIV.ad_column
 !---Sina
 /^http:\/\/d\d+\.sina\.com/
 blog.sina.com.cn/main/hot_tag/all/$script
-bbs.sina.com.cn/js/291/2009/0424/SinaDotPublicRelationCtrl_bbs.js
 bj.house.sina.com.cn/iframe/$subdocument,script
 ent.sina.com.cn/iframe/musicjs/
-mark.sina.com.cn
 v.sina.com.cn/v/iframe/as/$subdocument
 rm.sina.com.cn/icast/rotator.js
 sinaimg.cn/unipro/
-blogjs.sinajs.cn/v5js/blogPromote.conf.js
 sjs.sinajs.cn/common/js/webim.compressed.js
 sjs.sinajs.cn/common/js/680.js
-sjs.sinajs.cn/tiezi/tpl/b1_1/images/wbg.jpg
 spacejs.sinajs.cn/view/js/adwidget.js
-spacejs.sinajs.cn/js/space_all.js
-||sinaimg.cn/book/forum/tmpl/js/message2.js
-mag.sina.com.cn/iframes.php
-mybizsite.sina.com.cn/
 pfp.sina.com.cn/
 pfpip.sina.com/
-you.video.sina.com.cn/v/iframe/$subdocument
 news.sina.com.cn/pvcounter/pvcounter.js
 sina.com.cn##div.topadsbanner,.topAD,.topads
 sina.com.cn,sina.com##div[class^="AD"],div[class^="ads"],div[class$="ads"],div[class^="adsblk"],div[class^="txtadsblk"]
 sina.com.cn##a[href^="http://sina.allyes.com/main/adfclick?db"]
-bbs.sina.com.cn##div[class^="ad_"]
 blog.sina.com.cn##div.topbannerAD
 blog.sina.com.cn###wrap>.BlogTool+.PartA+.PartA+.PartA+.PartF
 finance.sina.com.cn##div.topADs,#adSinaHouseHeadLink
 tech.sina.com.cn##table.PartMj_B
-video.sina.com.cn###advertiseDiv
 mag.sina.com.cn##DIV#guide
 
 !---SkyCN
