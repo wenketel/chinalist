@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: 45TY+CC4rbV9/tCmsp+rVQ
+!  Checksum: 8rZYkZkqDjYEVrP9u1vLKQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 23 Dec 2009 12:44:24 +0800
+!  Last Modified:  Wed, 23 Dec 2009 12:58:08 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -235,6 +235,12 @@ img.cnbeta.com/idc300.gif
 img.cnbeta.com/ks$image
 cnbeta.com###fm_r,#userInfo,#AdForward,#comad
 cnbeta.com##div.newslist>dl>dd.detail>em
+
+!---cnYES
+||cnyes.com/cnyesad/
+||cnyes.com/promote/
+||cnyes.com/usastock/txtad_js.aspx
+cnyes.com##DIV[class^="ad_ns"],[class^="cyads"],#adLayer
 
 !---CNW
 a.computerworld.com.cn/$subdocument,script
@@ -1060,11 +1066,6 @@ diguo.ce.cn/include/diguo_gg.js
 ce.cn##div#toprad
 */fileftp/$object,domain=chinanews.com.cn|chinanews.com
 cdnews.com.tw/upload/200*/ad_
-||cnyes.com/cnyesad/
-||cnyes.com/promote/
-||cnyes.com/usastock/txtad_js.aspx
-cnyes.com##DIV[class^="ad_ns"],[class^="cyads"]
-cnyes.com##a[href^="http://ad.cnyes.com/cnYESAD/"]
 chinayescache.com/sys/js/ad.js
 chinayes.com##DIV[class^="AD"],#biz
 chinayes.com##TABLE#tAD_header_4
