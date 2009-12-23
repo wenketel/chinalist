@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: apI7JYG6MRiVTZeu8p5uAw
+!  Checksum: EDHhSOcqHL0DYNFsi2IKHA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 22 Dec 2009 22:52:36 +0800
+!  Last Modified:  Wed, 23 Dec 2009 10:49:09 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -109,9 +109,11 @@ thinkpad.cn,51nb.com##tr.altbg1>td.line[style="padding: 5px;"]
 6.cn/mdfor/index_new.js
 6.cn/mdfor/watch_new11.js
 hm.i8.com.cn/GetAdContent.aspx?$script
+r.6.cn/imges/v.swf
 r.6.cn/rm6_stat.js
 r.6.cn/playswf/$object_subrequest
-6.cn##div#palyerAdText,[id^="adText"]
+r.6.cn/pswf/$object_subrequest
+6.cn##div#palyerAdText,[id^="adText"],.listTextAd
 
 !---中国娱乐网
 img.67.com/aaAssembly/
@@ -301,16 +303,14 @@ duote.com##DIV.tuwen.line_green
 
 !---多玩游戏网
 duowan.com/public/s/top_gg.js
-market.duowan.com/duowan/$script
 market.duowan.com/count03.js
+market.duowan.com/duowan/$script
 news.duowan.com##div#pageContTop
 web.duowan.com##div.advertise
 
-!---圣城家园
-||dream2008.cn/gg/
-||public.blu.livefilestore.com^$domain=dream2008.cn
-||pa.images22.51img1.com^$domain=dream2008.cn
-||btscg.com/myaddream2008/
+!---TLF
+eastgame.net/etgo.swf
+job.chinesenow.org/jobs/$subdocument
 
 !---eNet
 .enet.com.cn/article_new/$subdocument
@@ -1250,7 +1250,6 @@ djkk.com/images/*ad.gif
 clt.dm5.com/js/
 .dospy.com/hezuo/$image
 downsc.com/ads_html
-eastgame.net/etgo.swf
 .ef360.com/_Public/_Upfile/*_*_*.*$object,image
 enfull.com/taobao.gif
 expreview.com/batch.jasd.php
