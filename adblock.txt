@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: dgknxJewi5aD+BR1yc7t1A
+!  Checksum: qWr42F+DZUPlQD4zJCu0+A
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 24 Dec 2009 23:00:39 +0800
+!  Last Modified:  Thu, 24 Dec 2009 23:16:32 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -317,6 +317,13 @@ market.duowan.com/duowan/$script
 news.duowan.com##div#pageContTop
 web.duowan.com##div.advertise
 
+!---东快网
+dnkb.com.cn##div.r_ad_area
+dnkb.com.cn##div.f14
+dnkb.com.cn##div.top_ad_r
+dnkb.com.cn##div.top_ad_l
+dnkb.com.cn##div.pd_menu_down
+
 !---TLF
 eastgame.net/etgo.swf
 job.chinesenow.org/jobs/$subdocument
@@ -501,11 +508,22 @@ images.mydrivers.com/$object
 mydrivers.com##div[align="center"],div[id^="ad_"]
 mydrivers.com##TABLE[width="100%"][height="70"][bgcolor="#eaeaea"]
 news.mydrivers.com##table[width="100%"][height="210"][cellpadding="0"]
+||myfiles.com.cn/js/duilian.js
+myfiles.com.cn##td[height="60"]
+myfiles.com.cn##div>a[target="_blank"]>img
+myfiles.com.cn##TABLE[align="center"][width="923"][height="60"]
 
 !---mysilu
 ||mysilu.com/*.swf|
 ||raymin.net^$domain=mysilu.com
 mysilu.com##div#ad_headerbanner,.ad_column
+
+!---msn.com
+tw.msn.com##DIV#bslink,#txtad,#partner1
+tw.msn.com##DIV.parent.tabmod.shop1
+||promotion.msn.com.tw
+news.msn.com.tw##TABLE[cellpadding="3"][width="90%"]
+news.msn.com.tw##TABLE[height="250"][width="300"]
 
 !---NewHua
 @@/newhuagg/pixviewer.swf$domain=onlinedown.net|newhua.com
@@ -924,6 +942,12 @@ yesky.com#div(class=tad)
 yesky.com#div(id^=adgg)
 q.yesky.com###pop_1.fdiv4
 
+!---Youmaker
+||youmaker.com/ad/
+||youmaker.com/logoad2.jpg
+||youmaker.com/edoors200708180-150.swf
+youmaker.com##td[width="120"][valign="top"],[width="150"][valign="top"]
+
 !---联合早报
 stars.zaobao.com/ssi/js/embedFlash.js
 zaobao.com###myMovie
@@ -957,13 +981,6 @@ pic.zol-img.com.cn/$object
 zol.com.cn##div[class^="A_ad"],[class^="Bm_ad"]
 zol.com.cn##div[id^="Float"],[id^="Bar"],[id^="AD"]
 
-!---东快网
-dnkb.com.cn##div.r_ad_area
-dnkb.com.cn##div.f14
-dnkb.com.cn##div.top_ad_r
-dnkb.com.cn##div.top_ad_l
-dnkb.com.cn##div.pd_menu_down
-
 !-------------------Generic (sort by domain name)---------
 !---Download Sites
 05sun.com/js/$script
@@ -992,11 +1009,7 @@ huacolor.com/soft/js/xiazaiyoudao$script
 jfsky.com/show/$script
 jz5u.com/adfile/
 js.mumayi.net^
-||mumayi.net/index/ad$image
-||myfiles.com.cn/js/duilian.js
-myfiles.com.cn##td[height="60"]
-myfiles.com.cn##div>a[target="_blank"]>img
-myfiles.com.cn##TABLE[align="center"][width="923"][height="60"]
+||mumayi.net/index/ad$imagef
 nushou.com/g-g/$script
 onegreen.net/AD/$script
 onegreen.net/ggao/$script
@@ -1056,11 +1069,6 @@ cdnews.com.tw/upload/200*/ad_
 img.epochtimes.com/i6/ad/
 ||epochtimes.com/images/upload/adv/
 epochtimes.com##DIV#insidearticleBodyAd
-tw.msn.com##DIV#bslink,#txtad,#partner1
-tw.msn.com##DIV.parent.tabmod.shop1
-||promotion.msn.com.tw
-news.msn.com.tw##TABLE[cellpadding="3"][width="90%"]
-news.msn.com.tw##TABLE[height="250"][width="300"]
 news.epochtimes.com.tw/Rbanner.swf
 nownews.com##DIV#focus_board,#related_link,#discount,#ad_for_video
 nownews.com/include_ver8/ezsaving_ad.htm
@@ -1128,9 +1136,6 @@ ad2gate.pomoho.com
 ||qvodzy.com/ad/$script
 .atm.youku.com/
 v.youku.com##div#col3>div[style="margin-top: 10px;"]
-||youmaker.com/ad/
-||youmaker.com/logoad2.jpg
-youmaker.com##td[width="120"][valign="top"],[width="150"][valign="top"]
 
 !---PHPWind Sites
 ##div#ads_r_tpc
