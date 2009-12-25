@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: qrzZMdVkK/gjW0WYx6ndIQ
+!  Checksum: 6nijurmmauu5MHCZBMUubA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 25 Dec 2009 22:17:23 +0800
+!  Last Modified:  Fri, 25 Dec 2009 23:10:59 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -236,15 +236,6 @@ img.cnbeta.com/idc300.gif
 img.cnbeta.com/ks$image
 cnbeta.com###fm_r,#userInfo,#AdForward,#comad
 cnbeta.com##div.newslist>dl>dd.detail>em
-
-!---cnYES
-||cnyes.com/cnyesad/
-||cnyes.com/promote/
-||cnyes.com/usastock/txtad_js.aspx
-cnyes.com##DIV[class^="ad_ns"],[class^="cyads"],#adLayer
-chinayescache.com/sys/js/ad.js
-chinayes.com##DIV[class^="AD"],#biz
-chinayes.com##TABLE#tAD_header_4
 
 !---CNW
 a.computerworld.com.cn/$subdocument,script
@@ -1088,6 +1079,19 @@ times.hinet.net##DIV.market.txtBlue13
 sinovision.net/ui/js/adm.js
 sinovision.net/ui/js/index_ad.js
 takungpao.com/images/top/ad.swf
+
+!---cnYES
+||cnyes.com/cnyesad/
+||cnyes.com/promote/
+||cnyes.com/usastock/txtad_js.aspx
+cnyes.com##DIV[class^="ad_ns"],[class^="cyads"],#adLayer
+cnyes.com##DIV.etline
+cnyes.com##table.textb
+cnyes.com##td[height="27"]
+cnyes.com##ul[id="bulletinTab_cnt_1"]
+chinayescache.com/sys/js/ad.js
+chinayes.com##DIV[class^="AD"],#biz
+chinayes.com##TABLE#tAD_header_4
 
 !---广州日报
 59.42.241.145/pub/news/gzrb/$script
