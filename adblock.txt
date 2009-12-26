@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: wrPVR/boAbpvY5Lt0s0sBA
+!  Checksum: cmHdvl1BQNAgWzEYNJ6lRg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 26 Dec 2009 20:59:14 +0800
+!  Last Modified:  Sat, 26 Dec 2009 21:52:31 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -527,19 +527,31 @@ news.newhua.com/zt/index_top4pic/$image
 pbcdn.com/mac/ad$image
 bbs.pcbeta.com##DIV[class="pcbeta-gg s_clear"]
 
-!---PCHome.net/tw
+!---PCHome.net
 btn.pchome.net
 btm.pchome.net
 images.pchome.net/global/js2/index2k9_min.js
+
+!---PChome.com.tw
+||pchome.com.tw/pic/sellad/
+||pchome.com.tw/common/js/ad/
+||pchome.com.tw/js/PChomeFS.js
 ||pchome.com.tw/adpics/
-pchome.net##DIV.w960.adW,#popWin
-news.pchome.com.tw##div#t13bl
-news.pchome.com.tw##a[href^="/adver/"]
-news.pchome.com.tw##div[style="padding-top: 12px;"]+table[width="316"][bgcolor="#eeeeee"]
-news.pchome.com.tw##TABLE[style="border: 1px solid rgb(204, 204, 204);"]
-pchome.com.tw##span.rright>div.ro1
-pchome.com.tw##a[href^="http://ad.adver.com.tw/"]
-forum.pchome.com.tw/img/ad/
+||money.pchome.com.tw/img/dyn/ad_
+pchome.com.tw##div.left2
+pchome.com.tw##span.rright
+pchome.com.tw##DIV#f4ad
+pchome.com.tw,syspower.com.tw##div#t13bl
+news.pchome.com.tw##TABLE[cellspacing="0"][width="316"]
+news.pchome.com.tw##TABLE[cellspacing="8"][width="316"]
+news.pchome.com.tw##DIV[style="padding-top: 6px; padding-bottom: 6px;"]
+money.pchome.com.tw##td.t1320
+money.pchome.com.tw##TD[bgcolor="#eceaeb"][width="312"][rowspan="2"]
+club.pchome.com.tw##div.adr2,#r3sx
+ejokeimg.pchome.com.tw##div[id^="pix-ad"]
+ruten.com.tw##div.market-info-adver.top-level
+ruten.com.tw##div.h-adver-text,.block.adver-info,.side-advertise,.common-adver-tab
+ruten.com.tw##DIV.internal-ads,.external-ads,.block.adver-sub
 
 !---PConline
 ||3conline.com/ivy/$image
