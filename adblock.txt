@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: r29O5OHI25Rr3rMOZXHS2g
+!  Checksum: I642i5FZj8znYVX0O2QV6Q
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 31 Dec 2009 00:17:22 +0800
+!  Last Modified:  Thu, 31 Dec 2009 00:27:19 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -503,9 +503,8 @@ myfiles.com.cn##TABLE[align="center"][width="923"][height="60"]
 ||11.mydrivers.com/drivers/$script
 
 !---mysilu
-||mysilu.com/*.swf|
-||raymin.net^$domain=mysilu.com
-mysilu.com##div#ad_headerbanner,.ad_column
+mysilu.com##DIV[id^="ad_"]
+mysilu.com##DIV[class$="banner"]
 
 !---msn.com
 tw.msn.com##DIV#bslink,#txtad,#partner1
