@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: wI+G9BTWGV/aqy/y+VTZLw
+!  Checksum: 3olA3vKVietHPCoKlVJerA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 09 Jan 2010 07:42:14 +0800
+!  Last Modified:  Sat, 09 Jan 2010 07:55:17 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -213,6 +213,12 @@ chinaitlab.com/ADjs/$script
 chinaitlab.com/gmail/$image,script
 chinaitlab.com/linux/js/linux_top.js
 
+!---中時電子報Chinatimes
+||chinatimes.com/2009Cti/Common/2009Cti-News-Ads-Right/
+||chinatimes.com/2007Cti/2007Cti-News/Common/2007Cti-News-Ads-listBanner/
+||chinatimes.com/vgn/ads/
+chinatimes.com##DIV.text-ad,.ad
+
 !---ChinaZ
 chinaz.com/js/text_link.js
 down.chinaz.com/other/js/$script
@@ -243,6 +249,20 @@ cnmo.com##div[id^="Bar"]
 pic.cnmo.com/$image,object
 cnmo.com##div[id^="AD"]
 
+!---cnYES
+||cnyes.com/cnyesad/
+||cnyes.com/promote/
+||cnyes.com/*stock/txtad_js.aspx
+||chinayescache.com/sys/js/ad.js
+cnyes.com##DIV[class^="ad_ns"],[class^="cyads"],#adLayer,#tabPage_page_8
+cnyes.com##DIV.etline,.cymsge
+cnyes.com##div#cnyesWinner_cnt_1>p
+cnyes.com##div.adglodtxt.cBlue,.hotxts
+cnyes.com##span.chartad
+chinayes.com##TABLE#tAD_header_4
+chinayes.com##div[class^="ad"],[class^="AD"],#biz
+chinayes.com##div.banner
+
 !---CNW
 a.computerworld.com.cn/$subdocument,script
 cnw.com.cn/zhuanti/flasha/js/showad1.js
@@ -256,6 +276,14 @@ community.csdn.net/t/floatBox.js
 topic.csdn.net/t/img/
 tougao.csdn.net/js.php?$script
 topic.csdn.net##div[id^="Float"]
+
+!---大紀元
+dajiyuan.com##DIV#insidearticleBodyAd
+||epochtimes.com/i6/ad/
+||epochtimes.com/images/upload/adv/
+||news.epochtimes.com.tw/Rbanner.swf
+||epochtimes.com.tw/images/upload/adv/
+epochtimes.com##DIV#insidearticleBodyAd
 
 !---桌面城市
 deskcity.com/images/banner/mydc.gif
@@ -354,6 +382,19 @@ images.gxsky.com/
 shop.gxsky.com/tptuijian/
 skads.gxsky.com/$script
 gxsky.com##DIV[style="height: 90px;"]
+
+!---广州日报
+59.42.241.145/pub/news/gzrb/$script
+gzdaily.dayoo.com/tpl/$object
+huanqiu.com/script/homepage$script
+huanqiu.com/script/entPageText$script
+huanqiu.com##div[id^="banner"]
+||mingpao.com/js/Adv/$script
+adc1.mingpao.com/
+my1510.cn/ads/$script
+nddaily.com/nddailyfile/webadv/
+.people.com.cn/zixun/
+||singtao.com/$script
 
 !---HDChina
 hdchina.org/hdx.gif
@@ -710,6 +751,12 @@ sogou.com##DIV#sidebar
 ||focus.cn/common/js/adm2008.js
 traffic.focus.cn/pv_focus$script
 focus.cn##div.ad_fp
+
+!---東菀陽光網
+||sun0769.com/wwwimg/sungg/
+||sun0769.com/upload/sungg/
+sun0769.com##DIV#outer01,#outer04,#o05rtopad,#outer06,#outer08
+sun0769.com##TABLE[cellspacing="1"][bgcolor="#e3e3e3"]
 
 !---TianYa
 801.tianya.cn
@@ -1085,57 +1132,10 @@ sinovision.net/ui/js/adm.js
 sinovision.net/ui/js/index_ad.js
 takungpao.com/images/top/ad.swf
 
-!---cnYES
-||cnyes.com/cnyesad/
-||cnyes.com/promote/
-||cnyes.com/*stock/txtad_js.aspx
-||chinayescache.com/sys/js/ad.js
-cnyes.com##DIV[class^="ad_ns"],[class^="cyads"],#adLayer,#tabPage_page_8
-cnyes.com##DIV.etline,.cymsge
-cnyes.com##div#cnyesWinner_cnt_1>p
-cnyes.com##div.adglodtxt.cBlue,.hotxts
-cnyes.com##span.chartad
-chinayes.com##TABLE#tAD_header_4
-chinayes.com##div[class^="ad"],[class^="AD"],#biz
-chinayes.com##div.banner
-
-!---中時電子報Chinatimes
-||chinatimes.com/2009Cti/Common/2009Cti-News-Ads-Right/
-||chinatimes.com/2007Cti/2007Cti-News/Common/2007Cti-News-Ads-listBanner/
-||chinatimes.com/vgn/ads/
-chinatimes.com##DIV.text-ad,.ad
-
-!---大紀元
-dajiyuan.com##DIV#insidearticleBodyAd
-||epochtimes.com/i6/ad/
-||epochtimes.com/images/upload/adv/
-||news.epochtimes.com.tw/Rbanner.swf
-||epochtimes.com.tw/images/upload/adv/
-epochtimes.com##DIV#insidearticleBodyAd
-
-!---广州日报
-59.42.241.145/pub/news/gzrb/$script
-gzdaily.dayoo.com/tpl/$object
-huanqiu.com/script/homepage$script
-huanqiu.com/script/entPageText$script
-huanqiu.com##div[id^="banner"]
-||mingpao.com/js/Adv/$script
-adc1.mingpao.com/
-my1510.cn/ads/$script
-nddaily.com/nddailyfile/webadv/
-.people.com.cn/zixun/
-||singtao.com/$script
-
-
-
-!---東菀陽光網
-||sun0769.com/wwwimg/sungg/
-||sun0769.com/upload/sungg/
-sun0769.com##DIV#outer01,#outer04,#o05rtopad,#outer06,#outer08
-sun0769.com##TABLE[cellspacing="1"][bgcolor="#e3e3e3"]
-
 !---Online Novel Sites
 ||365zw.com/static/js/show.js
+www.aybook.cn/love/?$script
+www.aybook.cn/other/js/$script
 birdsee.com/js/
 book.birdsee.com##div.scriptx>a>font
 booksky.org/$subdocument
@@ -1224,8 +1224,6 @@ arting365.com/bill/
 autohome.com.cn/33
 33.autohome.com.cn
 img.autohome.com.cn/pvpv$script
-www.aybook.cn/love/?$script
-www.aybook.cn/other/js/$script
 bbs.avtime.cn/ad/
 www.av199.com/ad/
 www.av199.com,bbs.avtime.cn##tr.altbg2>TD[width="100%"]
