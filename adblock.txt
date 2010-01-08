@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: rLdAmHhjGvsYlIL4YVpk+A
+!  Checksum: TPvFQv7CpWW50mnAt/cjzg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 08 Jan 2010 15:46:30 +0800
+!  Last Modified:  Fri, 08 Jan 2010 16:02:19 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -643,10 +643,12 @@ rsdown.cn/other/js/$script
 rsdown.cn/$subdocument
 rsdown.cn/readme/rsdown.gif
 
-!---siluhd
-||www1.siluhd.com/images/*.gif|
-||siluhd.com/images/*.swf|
-siluhd.com##DIV[id^="ad_"]
+!---思路
+||siluhd.com/data/js/$script
+||siluhd.com/images/$object
+||siluhd.com/data/js.php?$script
+siluhd.com##div#index_top,#index_hdp_gg,#index_zj_you1
+news.siluhd.com##div#tx_guangg
 
 !---Sina
 /^http:\/\/d\d+\.sina\.com/
