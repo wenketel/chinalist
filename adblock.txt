@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: ENN++v5oh52+tn17roNqWw
+!  Checksum: xUWhvA4T/gS1kMWNGFVxSQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 16 Jan 2010 22:28:38 +0800
+!  Last Modified:  Sat, 16 Jan 2010 22:35:05 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -734,6 +734,7 @@ sina.com.cn##a[href^="http://sina.allyes.com/main/adfclick?db"]
 blog.sina.com.cn##div.topbannerAD
 finance.sina.com.cn##div.topADs,#adSinaHouseHeadLink
 mag.sina.com.cn##DIV#guide
+news.sina.com.cn##div#divResNewsBottom
 sina.com.tw##div[class^="adbanr"],[class^="adevent"],[class^="coopad"]
 
 !---搜房
@@ -1717,8 +1718,6 @@ xiami.com##div.play_ad
 ||long-jf.com/images/dbgg.gif
 |http://hk.ndx.nextmedia.com/DFA/js_ndxtag_v409.cfm?*
 |http://www.fzhmzx.com/huameiad.js
-!---新浪新闻误杀
-@@|http://d*.sina.com.cn/201001/07/$object,domain=news.sina.com.cn
 ||amazon.cn^$third-party
 
 !------------------------End of List--------------------------------------------------------
