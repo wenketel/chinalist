@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: X/D9l6V5fSbegPzJES1g1w
+!  Checksum: GG0BoL3PvLtBL6wUSD4tvg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 19 Jan 2010 19:06:21 +0800
+!  Last Modified:  Tue, 19 Jan 2010 21:42:34 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -277,13 +277,10 @@ topic.csdn.net/t/img/
 tougao.csdn.net/js.php?$script
 topic.csdn.net##div[id^="Float"]
 
-!---大紀元
-dajiyuan.com##DIV#insidearticleBodyAd
-||epochtimes.com/i6/ad/
-||epochtimes.com/images/upload/adv/
-||news.epochtimes.com.tw/Rbanner.swf
-||epochtimes.com.tw/images/upload/adv/
-epochtimes.com##DIV#insidearticleBodyAd
+!---聖城家園
+||btscg.com/gg/
+||cnscg.com/gg/
+cnscg.com,btscg.com##table[width="960"][align="center"]div[style^=height]
 
 !---桌面城市
 deskcity.com/images/banner/mydc.gif
@@ -313,6 +310,14 @@ discuss.com.hk##TD[height="35"][colspan="6"]
 static.doyouhike.net/partner/
 doyouhike.net##DIV[style="margin: 0pt auto; width: 980px;"]
 doyouhike.net##DIV[style="margin: auto; width: 980px; height: 92px; padding-top: 2px;"]
+
+!---大紀元
+dajiyuan.com##DIV#insidearticleBodyAd
+||epochtimes.com/i6/ad/
+||epochtimes.com/images/upload/adv/
+||news.epochtimes.com.tw/Rbanner.swf
+||epochtimes.com.tw/images/upload/adv/
+epochtimes.com##DIV#insidearticleBodyAd
 
 !---红袖添香
 lucky.hongxiu.com/Agent/ShowMe.js
@@ -1297,7 +1302,6 @@ codepub.com/wuse/pic/0903/
 codepub.com##.r1,.r2,.l1,.l2
 creaders.net/html/site_ad_images
 ||cz88.net/images/adimage/
-||cnscg.com/gg/
 dabaoku.com$script,object,subdocument
 .dchome.net/pub/
 .dddxt.com/mf.php$script
