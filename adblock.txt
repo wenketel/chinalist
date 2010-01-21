@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: Jtmn4Doh01dppoYoFb+nFA
+!  Checksum: voIYlXLxTtfvrnICPZZxXg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 20 Jan 2010 17:20:20 +0800
+!  Last Modified:  Thu, 21 Jan 2010 17:50:15 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -474,6 +474,9 @@ joy.cn#div(id^=joke_1000_)
 !---开心网
 kaixin001.com#div(id=kxcpmdiv)
 img.kaixin001.com.cn/js/cpm*.js
+||xnimg.cn/imgpro/app/ad$image
+||cache.fminutes.com/images/v3_3//images/$image
+apps.kaixin.com##div.blank-bar
 
 !---酷讯网
 .kooxoo.com/shtml/www/Ticket/loushi.gif
@@ -1133,7 +1136,6 @@ gamania.com##table+table[width="190"][height="449"]
 twbbs.net.tw##DIV#globalTxtAD
 ||uuu9.com/gg/$script
 ||uuu9.com/code/tool/$subdocument
-||xnimg.cn/imgpro/app/ad-vote2.png
 
 !---News Sites
 122.146.0.242/indvideo.php
