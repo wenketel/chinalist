@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: VO0PPVkZHWsOEjiudpJjdQ
+!  Checksum: J6m3lnfjZc+e9KGjyRLlnA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 24 Jan 2010 05:49:34 +0800
+!  Last Modified:  Sun, 24 Jan 2010 06:11:08 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -842,23 +842,24 @@ tompda.com##div.Advertising
 |http://shanghai.newchannel.org/shnc468.swf
 
 !---土豆
-||tdimg.com/sales/$object_subrequest,object
-.p2v.tudou.com/extension/
-.p2v.tudou.com/$object_subrequest
-.p2v.tudou.com/poster/*.swf
 adcontrol.tudou.com/
-adextensioncontrol.tudou.com/cptadvcontrol/commonadv.html?$script
 css.tudouui.com/skin/play/img/tudouva.png
-@@|http://js.tudouui.com/bin/player_online/TudouVideoPlayer*.swf|
-js.tudouui.com/bin/player_online/$object_subrequest
 js.tudouui.com/js/fn/saleloader$script
-tudou.com##div[id="pushlist"]
-tudou.com##a[id="gotoTudouVA"]
 |http://istat.$object_subrequest
-|http://js.tudouui.com/bin/channels/IndexAdPanelAct$object
-|http://js.tudouui.com/bin/tudoumini/TudouMini_15.swf
 |http://stat.$object_subrequest
-tudou.com##DIV#adex_boardbox
+!======================================to be deleted
+!||tdimg.com/sales/$object_subrequest,object
+!.p2v.tudou.com/extension/
+!.p2v.tudou.com/$object_subrequest
+!.p2v.tudou.com/poster/*.swf
+!adextensioncontrol.tudou.com/cptadvcontrol/commonadv.html?$script
+!js.tudouui.com/bin/player_online/$object_subrequest
+!|http://js.tudouui.com/bin/channels/IndexAdPanelAct$object
+!|http://js.tudouui.com/bin/tudoumini/TudouMini_15.swf
+!@@|http://js.tudouui.com/bin/player_online/TudouVideoPlayer*.swf|
+@@tudou.com##DIV#adex_boardbox
+@@tudou.com##div[id="pushlist"]
+@@tudou.com##a[id="gotoTudouVA"]
 
 !---udn
 ||udn.com/1024*/ad
