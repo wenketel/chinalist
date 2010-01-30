@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: gMCZsPoKptzZl9J7zSmKfw
+!  Checksum: y2IsP0vj8T0zGqS1FTK2lQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 30 Jan 2010 20:13:28 +0800
+!  Last Modified:  Sat, 30 Jan 2010 21:01:25 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -866,10 +866,10 @@ js.tudouui.com/js/fn/saleloader$script
 
 !---udn
 ||udn.com/1024*/ad
+||udn.com/1024MAIN/inc/b$frame
+||udn.com/html/ad/
 ||udn.com/1024/BD/
-udn.com##iframe#biz,#bd
-udn.com##div#tabnav3,#tabbg3,#tabnav_arrow3,#tabnav4,#tabbg4,#tabnav_arrow4,#middle_cover_ad
-udn.com##DIV#ad_sash
+udn.com##DIV#ad_sash,#tabnav3,#tabnav4,[id^="tabbg"],[id^="tabnav_arrow"]
 
 !---zdnet.com.tw,taiwan.cnet.com(同一家)
 zdnet.com.tw/*ad*$image,background
