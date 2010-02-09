@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: 9BChOqYRmeo1m+e9swZfQQ
+!  Checksum: dVATUFyRKDECK2aiNHmf+g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 08 Feb 2010 19:08:27 +0800
+!  Last Modified:  Tue, 09 Feb 2010 09:25:27 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -489,6 +489,15 @@ joy.cn/uploadfiles/fiv/*.swf|$object_subrequest
 68file.joy.cn/*.jpg|$object_subrequest
 joy.cn##div.adbox
 joy.cn#div(id^=joke_1000_)
+
+!---日搜
+||jpseek.com/setsumei/$script
+||jpwave.net/top.jpg
+||jpseek.com/pr/$image
+||jtrip.net^$third-party
+||wearjp.com/1219/pr.jpg
+jpseek.com##table[width="99%"][height="100%"][cellspacing="0"] TABLE[bgcolor="#ff6500"]
+jpseek.com##table.big_table>tbody>tr>td>table:nth-of-type(2)
 
 !---开心网
 kaixin001.com#div(id=kxcpmdiv)
@@ -1733,6 +1742,7 @@ js/netjc.js|
 !-----------------------Element Hiding--------------------
 ###ad_interthread
 ##div[id^="ad_thread"]
+##div#focus
 189.cn##div#miniAd
 52topview.com##div#main-info
 56zz.com##div.adbox
