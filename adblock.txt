@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: 9rfw0G92EsgWEBBotfrnUg
+!  Checksum: ly5El5N74NYTYgKzVcRRtg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 13 Feb 2010 22:30:03 +0800
+!  Last Modified:  Sun, 14 Feb 2010 14:25:56 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -256,18 +256,10 @@ pic.cnmo.com/$image,object
 cnmo.com##div[id^="AD"]
 
 !---cnYES
-||cnyes.com/cnyesad/
-||cnyes.com/promote/
-||cnyes.com/*stock/txtad_js.aspx
-||chinayescache.com/sys/js/ad.js
-cnyes.com##DIV[class^="ad_ns"],[class^="cyads"],#adLayer,#tabPage_page_8
-cnyes.com##DIV.etline,.cymsge
-cnyes.com##div#cnyesWinner_cnt_1>p
-cnyes.com##div.adglodtxt.cBlue,.hotxts
-cnyes.com##span.chartad
-chinayes.com##TABLE#tAD_header_4
-chinayes.com##div[class^="ad"],[class^="AD"],#biz
-chinayes.com##div.banner
+||cnyes.com/images/300x100.gif
+cnyes.com##div[class^="cyads"],.hotxts,.cymsge,.etline
+chinayes.com##DIV.banner
+news.cnyes.com,chinayes.com##div[class^="ad"],#tabPage_page_8
 
 !---CNW
 a.computerworld.com.cn/$subdocument,script
