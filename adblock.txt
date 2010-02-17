@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: +L//rMcWUUDXONY2F4NDVg
+!  Checksum: cqZNA1LvAr9i9hVpKURkHQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 17 Feb 2010 12:46:51 +0800
+!  Last Modified:  Wed, 17 Feb 2010 15:09:11 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -640,12 +640,20 @@ qidian.com##div[class^="gg"]
 is.qq.com/js/addportal.js
 l.qq.com/lview?$script
 tiapview.qq.com/tad.js
+||fangqq.com/UserFiles/Flash/
+||fangqq.com/index.php/XAd
+image.fangqq.com/bj/styles/index_tc.js
+fangqq.com##div[class*="pro"],[class$="topd"]
+fangqq.com##div[id^="index_"],[class^="ad"],#LeftAd,#RightAd,#xp
+sh.fangqq.com##div.content_right_a,.content_right_e
 qq.com##*[id^="AdZone"],[class^="AdZone"]
 qq.com##div.adArea,.wenziad
 comic.qq.com##div[id^="Comic_Width"]
 ent.qq.com##div[id^="adbanner"]
 news.qq.com##div.news_ad_box
 news.qq.com###nav
+sports.qq.com##table[width="960"][style^="margin"]
+sports.qq.com##div[id^="ad"],[id^="Ad"],[id^="Sports_F"]
 
 !---QQ163
 61.128.196.133:8080/nogd*.js
