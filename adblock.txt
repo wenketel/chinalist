@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: qPdfD6YRbKNM007FHzuZQw
+!  Checksum: uNElFscPBKteZGttR4z0WA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 21 Feb 2010 16:33:47 +0800
+!  Last Modified:  Sun, 21 Feb 2010 17:00:41 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -569,11 +569,9 @@ mysilu.com##DIV[id^="ad_"]
 mysilu.com##DIV[class$="banner"]
 
 !---msn.com
-tw.msn.com##DIV#bslink,#txtad,#partner1
-tw.msn.com##DIV.parent.tabmod.shop1
 ||promotion.msn.com.tw
-news.msn.com.tw##TABLE[cellpadding="3"][width="90%"]
-news.msn.com.tw##TABLE[height="250"][width="300"]
+tw.msn.com##div[id^="bslink"],#partner1,[class*="shop"]
+news.msn.com.tw##div[id^="ad"],[id^="love"],#fashion_content,.right_travel_modelbg
 
 !---NewHua
 /newhuagg/*$image,domain=onlinedown.net|newhua.com
