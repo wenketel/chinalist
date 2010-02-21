@@ -1,1 +1,2 @@
-updateChecksum.bat adblock-Strict.txt
+ABPUtils.exe update adblock-Strict.txt
+@pause

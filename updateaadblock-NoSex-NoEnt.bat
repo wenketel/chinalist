@@ -1,1 +1,2 @@
-updateChecksum.bat adblock-NoSex-NoEnt.txt
+ABPUtils.exe update adblock-NoSex-NoEnt.txt
+@pause
