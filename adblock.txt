@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: EQPX3XZW3HAg982ci08Qtg
+!  Checksum: bzuyfB5aV5IfTFLtH+vTOA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 21 Feb 2010 13:46:52 +0800
+!  Last Modified:  Sun, 21 Feb 2010 13:55:16 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -135,25 +135,28 @@ ayxz.com/images/skype.gif
 ||gamer.com.tw/ad/
 
 !---Baidu
-/tk.baidu.com
-box.zhangmen.baidu.com/js/ad.js
-||cb.baidu.com^$third-party
-cpro.baidu.com/$third-party
-drmcmm.baidu.com/js/$script
-eiv.baidu.com
-hm.baidu.com/$third-party
-||ikcode.baidu.com^$third-party
+a.baidu.com/ecom$script
+||cb.baidu.com^
+||cpro.baidu.com^
+||drmcmm.baidu.com^
+||eiv.baidu.com^
+||hm.baidu.com^
+||ikcode.baidu.com^
 news.baidu.com/js/usertrack.js
 ||nsclick.baidu.com^
-spcode.baidu.com/spcode
-ucstat.baidu.com
-unstat.baidu.com
-utk.baidu.com/usv/
+||spcode.baidu.com^
+||tk.baidu.com^
+||tkweb.baidu.com^
+||tongji.baidu.com^
+||tracker.baidu.com^
+||ucstat.baidu.com^
+||unstat.baidu.com^
+||utk.baidu.com^
+box.zhangmen.baidu.com/js/ad.js
 baidu.com##div[id^="bdfs"]
 baidu.com##table[width="30%"][align="right"] div[style|=border]
 baidu.com##TD.f.EC_PP
 baidu.com##body>div#container>div#ecomContainer>div#imContainer
-a.baidu.com/ecom$script
 image.baidu.com##table#relEcom
 mp3.baidu.com##div#dMA + script + table[cellspacing][cellpadding]
 news.baidu.com##DIV[id="ecad"]
