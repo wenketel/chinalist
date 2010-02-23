@@ -1,17 +1,12 @@
 [Adblock Plus 1.1]
-!  Checksum: p/TLu6OiNwSjgmkG0NbBjQ
+!  Checksum: IHXUl6XeS1bURpnIrgc+vw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 23 Feb 2010 17:13:49 +0800
+!  Last Modified:  Tue, 23 Feb 2010 17:27:14 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
 
 !---------------------Well-known Sites-------------------
-!---馨灵风软
-1000fr.net/images/$object
-1000fr.net/images/760*.gif
-1000fr.net/images/QQ760-80.jpg
-
 !---网易
 adgeo.163.com/
 union.163.com/
@@ -23,6 +18,12 @@ bbs.163.com/bbs/floatlayer/floatLayer.js
 ent.163.com##div.gg360
 mail.163.com##div[id$="FakeLetterDiv"]
 news.163.com##*[class^="ad"]
+
+!---16k小說網
+||16kxs.com/Images/16kxs.gif
+||16kxs.com/Images/LOGO2.jpg
+||16kxs.com/js/ad$script
+16kxs.com##DIV#AdsT
 
 !---17173
 .17173.com/banner/
@@ -882,7 +883,7 @@ js.tudouui.com/js/fn/saleloader$script
 udn.com##div[id^="tabbg"],[id^="tabnav_arrow"],#scroller_stock,#ad_sash,#tabnav3,#tabnav4
 udn.com##li#ent
 
-!---zdnet.com.tw,taiwan.cnet.com(同一家)
+!---zdnet.com.tw/taiwan.cnet.com
 zdnet.com.tw/*ad*$image,background
 taiwan.cnet.com##div[class^="ads_"],#cnetevent_promo
 
@@ -1184,6 +1185,9 @@ twbbs.net.tw##DIV#globalTxtAD
 ||uuu9.com/gg/$script
 ||uuu9.com/code/tool/$subdocument
 
+!---Net Disks
+u.115.com/static/media/
+
 !---News Sites
 122.146.0.242/indvideo.php
 ndx.1-apple.com.tw/DFA/js_ndxtag.cfm
@@ -1254,12 +1258,6 @@ www.xs8.cn/data/iframe/xad$script,subdocument
 images.xxsy.net/sygg/
 ||zuilu.com/js/tan2/$script
 
-!---16k小說網
-||16kxs.com/Images/16kxs.gif
-||16kxs.com/Images/LOGO2.jpg
-||16kxs.com/js/ad$script
-16kxs.com##DIV#AdsT
-
 !---Video Sites
 0392vod.cn/ggjs/$script
 www.66ys.cn/d/$script
@@ -1294,7 +1292,6 @@ qm.1000meng.com/code
 104.com.tw##DIV#AD_menu
 ||1111.com.tw/adbanner/
 1111.com.tw##DIV#sliceNewHome_bannerBig,#sliceNewHome_bannerNewNews,#sliceNewHome_bannerFocus,#right_content_ad
-u.115.com/static/media/
 ||market.178.com^
 ||1m1m.cn/bar/
 ||1m1m.cn/zhuanti/20100203_kangshifu/images/kangshifu.gif
