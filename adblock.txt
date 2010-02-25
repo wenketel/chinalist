@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: PzVvAkxDCppHSgZSUny/oQ
+!  Checksum: q/oL+OjlOdQwYdj62DJVZw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 25 Feb 2010 18:43:03 +0800
+!  Last Modified:  Thu, 25 Feb 2010 18:53:06 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -112,11 +112,6 @@ ayxz.com/images/qq.js
 ayxz.com/images/right.js
 ayxz.com/images/skype.gif
 
-!---巴哈姆特电玩资讯
-||bahamut.com.tw/ad/
-||bahamut.com.tw/js/ad/
-||gamer.com.tw/ad/
-
 !---Baidu
 a.baidu.com/ecom$script
 ||c.baidu.com^
@@ -138,15 +133,10 @@ news.baidu.com/js/usertrack.js
 ||unstat.baidu.com^
 ||utk.baidu.com^
 box.zhangmen.baidu.com/js/ad.js
-baidu.com##div[id^="bdfs"]
 baidu.com##table[width="30%"][align="right"] div[style|=border]
-baidu.com##TD.f.EC_PP
-baidu.com##body>div#container>div#ecomContainer>div#imContainer
 image.baidu.com##table#relEcom
 mp3.baidu.com##div#dMA + script + table[cellspacing][cellpadding]
 news.baidu.com##DIV[id="ecad"]
-zhidao.baidu.com##div.cprodiv,#youa
-zhidao.baidu.com##table[width="100%"][cellspacing="0"][cellpadding="0"][bgcolor="#f5f5f5"][style="margin-left: 15px;"]
 
 !---书阁
 bookge.com/hz1/tcby.js
@@ -1145,6 +1135,8 @@ zaoxue.com/gg/
 265g.com/templets/js/index.js
 /jss/gg468x60.htm$domain=4399.com|4399.net
 4399.net/jss/youpiao50x300game.js
+||bahamut.com.tw/ad/
+||bahamut.com.tw/js/ad/
 ||tc2.chapm.com:8080/code/popjs.asp
 ||freegame.com.tw/p_ad_f.htm
 img.my4399.com^$third-party
