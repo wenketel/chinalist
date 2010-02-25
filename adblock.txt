@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: tZ2mWBGTn53uuQnr70kewA
+!  Checksum: ypbV9sNpqE9/XwORky7aSQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 25 Feb 2010 16:58:37 +0800
+!  Last Modified:  Thu, 25 Feb 2010 17:14:15 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -718,42 +718,34 @@ rsdown.cn/readme/rsdown.gif
 ||siluhd.com/images/huasuoo.jpg
 bbs.siluhd.com##DIV[id^="ad_"]
 
-!---Sina
-/^http:\/\/d\d+\.sina\.com/
-sina.com.cn/unipro/
-||sina.com.tw/images/*/ad$image
-||sina.com.tw/include/ad$frame
-||sina.com.tw/channel_ad/
-||sinaimg.cn/hs/$object
-blog.sina.com.cn/lm/mini/$subdocument
-blog.sina.com.cn/main/hot_tag/all/$script
-bj.house.sina.com.cn/iframe/$subdocument,script
-down1.tech.sina.com.cn/download/2009poll.js
-ent.sina.com.cn/iframe/musicjs/
-||house.sina.com.cn/ads/$image
-||lining.sina.com.cn^
-v.sina.com.cn/v/iframe/$subdocument
-v.sina.com.cn/v/ad/
-rm.sina.com.cn/icast/rotator.js
-sinaimg.cn/unipro/
-pfp.sina.com.cn/
-pfpip.sina.com/
-news.sina.com.cn/pvcounter/pvcounter.js
-||asimg.sinahk.net$third-party
-||as.sinahk.net$third-party
+!---sina.com
 ||sina.com/gb/ads/
 ||sina.com/bg/ads/
 ||sina.com/freeform/f.js
 ||sina.com/rm/
 ||sina.com/match/images/ads_banner/
 ||sina.com/assets/js/dart/
-sjs.sinajs.cn/common/js/680.js
 chinanews.sina.com##TABLE[cellspacing="0"][width="900"]
 chinanews.sina.com##div.M_Right
 dailynews.sina.com##DIV.col1
 dailynews.sina.com##TD[width="900"][height="100"]
-sina.com.hk##div[style="border: 1px solid rgb(206, 206, 206); width: 298px;"]
-sina.com.hk##div.sidebarItem>h2+div.sidebarItemContent.link1.M0.P0
+
+!---sina.com.cn
+/^http:\/\/d\d+\.sina\.com/
+sina.com.cn/unipro/
+||sinaimg.cn/hs/$object
+blog.sina.com.cn/lm/mini/$subdocument
+blog.sina.com.cn/main/hot_tag/all/$script
+bj.house.sina.com.cn/iframe/$subdocument,script
+ent.sina.com.cn/iframe/musicjs/
+||lining.sina.com.cn^
+v.sina.com.cn/v/iframe/$subdocument
+rm.sina.com.cn/icast/rotator.js
+sinaimg.cn/unipro/
+pfp.sina.com.cn/
+pfpip.sina.com/
+news.sina.com.cn/pvcounter/pvcounter.js
+sjs.sinajs.cn/common/js/680.js
 sina.com.cn##div.topadsbanner,.topAD,.topads
 sina.com.cn,sina.com##div[class^="AD"],div[class^="ads"],div[class$="ads"],div[class^="adsblk"],div[class^="txtadsblk"]
 sina.com.cn##a[href^="http://sina.allyes.com/main/adfclick?db"]
@@ -761,6 +753,17 @@ blog.sina.com.cn##div.topbannerAD
 finance.sina.com.cn##div.topADs,#adSinaHouseHeadLink
 mag.sina.com.cn##DIV#guide
 news.sina.com.cn##div#divResNewsBottom
+
+!---sina.com.hk
+||as.sinahk.net$third-party
+||asimg.sinahk.net$third-party
+sina.com.hk##div[style="border: 1px solid rgb(206, 206, 206); width: 298px;"]
+sina.com.hk##div.sidebarItem>h2+div.sidebarItemContent.link1.M0.P0
+
+!---sina.com.tw
+||sina.com.tw/images/*/ad$image
+||sina.com.tw/include/ad$frame
+||sina.com.tw/channel_ad/
 sina.com.tw##div[class^="adbanr"],[class^="adevent"],[class^="coopad"]
 google.sina.com.tw##div.adgoogle
 
