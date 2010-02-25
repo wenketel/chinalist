@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: Q83KxgAGewZMGFPzWmTcSA
+!  Checksum: w91Zt82nDxyIvnoly/RvPg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 25 Feb 2010 19:26:24 +0800
+!  Last Modified:  Thu, 25 Feb 2010 19:34:33 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -210,11 +210,6 @@ img.cnbeta.com/youdao576.gif
 cnbeta.com###fm_r,#userInfo,#AdForward,#comad
 cnbeta.com##div.newslist>dl>dd.detail>em
 
-!---手机中国
-cnmo.com##div[id^="Bar"]
-pic.cnmo.com/$image,object
-cnmo.com##div[id^="AD"]
-
 !---cnYES
 ||cnyes.com/images/300x100.gif
 cnyes.com##div[class^="cyads"],.hotxts,.cymsge,.etline
@@ -223,7 +218,7 @@ news.cnyes.com,chinayes.com##div[class^="ad"],#tabPage_page_8
 
 !---CNW
 a.computerworld.com.cn/$subdocument,script
-cnw.com.cn/zhuanti/flasha/js/showad1.js
+cnw.com.cn/zhuanti/$script
 passport.cnw.com.cn/Track/stat.js
 
 !---CSDN
@@ -1152,11 +1147,13 @@ atchinese.com/images/banners/300x300
 backchina.com##table[width="100%"][border="0"][cellspacing="0"][height="21"][cellpadding="0"]
 chinaitlab.com/gmail/$image,script
 ||chinanews.com/gg/
+*/fileftp/$object,domain=chinanews.com.cn|chinanews.com
 ||ce.cn/ce/newmain/ad/
 diguo.ce.cn/include/diguo_gg.js
 ce.cn##div#toprad
-*/fileftp/$object,domain=chinanews.com.cn|chinanews.com
 ||cdnews.com.tw/upload/20*/ad_
+pic.cnmo.com/$image,object
+cnmo.com##div[id^="AD"]
 .daqi.com/clicklog.js
 itxinwen.com##div[id^=followDiv]
 ||yangsam.com/data/banner/
