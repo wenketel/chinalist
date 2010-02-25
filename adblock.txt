@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: YEOhJidkkMt+d9C0u0Uh1Q
+!  Checksum: Q83KxgAGewZMGFPzWmTcSA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 25 Feb 2010 19:14:55 +0800
+!  Last Modified:  Thu, 25 Feb 2010 19:26:24 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -188,11 +188,6 @@ china.cn##div.rowLAd,.topAd
 pvstat.china.cn/statpv.js
 cd.code.ermchina.cn/show.php?$subdocument
 
-!---ChinaITLab
-chinaitlab.com/ADjs/$script
-chinaitlab.com/gmail/$image,script
-chinaitlab.com/linux/js/linux_top.js
-
 !---中時電子報Chinatimes
 ||chinatimes.com/2007Cti/2007Cti-Activity/2007Cti-Activity
 ||chinatimes.com/2009Cti/index/inc/2009Cti-Index-inc-04-Promote-CH-iframe/
@@ -214,17 +209,6 @@ img.cnbeta.com/ks$image
 img.cnbeta.com/youdao576.gif
 cnbeta.com###fm_r,#userInfo,#AdForward,#comad
 cnbeta.com##div.newslist>dl>dd.detail>em
-
-!---cngr河源下载
-www.cngr.cn/*/banner.js
-www.cngr.cn/*/footer.js
-www.cngr.cn/*/top*.js
-www.cngr.cn/dir/UploadPic/2009-6/200962214182728812.gif
-www.cngr.cn/js/down.js
-www.cngr.cn/js/gg
-www.cngr.cn/js/html/*$subdocument
-www.cngr.cn/js/jctj.js
-www.cngr.cn/js/soft_mid_cngr.js
 
 !---手机中国
 cnmo.com##div[id^="Bar"]
@@ -1071,6 +1055,7 @@ btchina.net/js/WaitAd.js
 crsky.com/ggao/
 crsky.com##div.banner,div.banner-leader-index
 cncrk.com/ggg/
+||cngr.cn/js/$script
 cnzz.cc/*js/top.js
 cnzz.cc/js/footer.js
 cnzz.cc/soft/js/a_
@@ -1165,6 +1150,7 @@ atchinese.com/images/banners/100x100
 atchinese.com/images/banners/300x300
 ||backchina.com/banners/
 backchina.com##table[width="100%"][border="0"][cellspacing="0"][height="21"][cellpadding="0"]
+chinaitlab.com/gmail/$image,script
 ||chinanews.com/gg/
 ||ce.cn/ce/newmain/ad/
 diguo.ce.cn/include/diguo_gg.js
