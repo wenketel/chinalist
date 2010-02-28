@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: aZjxqrA/hGZrsXxy4/4rtw
+!  Checksum: BtbTgG05dhdgPcjNm9PKnw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 01 Mar 2010 01:57:39 +0800
+!  Last Modified:  Mon, 01 Mar 2010 02:04:29 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -1016,8 +1016,8 @@ zol.com.cn##div[id^="Float"],[id^="Bar"],[id^="AD"]
 !-------------------Generic (sort by domain name)---------
 !---Blog Sites
 azo-freeware.blogspot.com##div#HTML26,#HTML29
-cwyuni.tw##div.article-content>p>a>img
-cwyuni.tw##div#banner>h2,#box27379
+www.cwyuni.tw##div.article-content>p>a>img
+www.cwyuni.tw##div#banner>h2,#box27379
 @@||adsense.easylife.tw$~script
 ||orzhd.com/briian/yahoobuy/
 sofree.cc##div#head-banner
@@ -1713,6 +1713,7 @@ js/netjc.js|
 !-----------------------Element Hiding--------------------
 ###ad_interthread
 ##div[id^="ad_thread"]
+##a[href^="http://www.books.com.tw"]
 189.cn##div#miniAd
 39.net##div.tonglan,.textlinks
 52topview.com##div#main-info
