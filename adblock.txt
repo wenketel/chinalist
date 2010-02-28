@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: MBqTPsMQFFOyTgRR8YbgWQ
+!  Checksum: aZjxqrA/hGZrsXxy4/4rtw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 28 Feb 2010 12:32:03 +0800
+!  Last Modified:  Mon, 01 Mar 2010 01:57:39 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -155,11 +155,6 @@ bitauto.com##div.bt_ad,.con_ad
 ||babidou.com/$domain=subpig.net
 subpig.net###ajaxwaitid+div.wrap>#header+table+table[width="97%"][height="33"]
 subpig.net##div.wrap>table[width="97%"][bgcolor="#000000"][background="#ffffff"]
-
-!---重灌狂人,綠色工廠
-d.yimg.com/no/gd/$domain=briian.com|portable.easylife.tw
-||orzhd.com/briian/yahoobuy/
-@@||adsense.easylife.tw$~script
 
 !---CCTV
 a.cctv.com/hserver/$object
@@ -937,6 +932,7 @@ p4pstatic.xunlei.com
 !---Yahoo
 ||yahoo.com/ads_area/
 l.yimg.com/f/a/tw/$~script
+d.yimg.com/no/gd/
 yimg.com/mq/a/hk/
 cn.yimg.com/a/
 cn.yimg.com/hxlia/hxli/*$image
@@ -1018,6 +1014,16 @@ zol.com.cn##div[class^="A_ad"],[class^="Bm_ad"]
 zol.com.cn##div[id^="Float"],[id^="Bar"],[id^="AD"]
 
 !-------------------Generic (sort by domain name)---------
+!---Blog Sites
+azo-freeware.blogspot.com##div#HTML26,#HTML29
+cwyuni.tw##div.article-content>p>a>img
+cwyuni.tw##div#banner>h2,#box27379
+@@||adsense.easylife.tw$~script
+||orzhd.com/briian/yahoobuy/
+sofree.cc##div#head-banner
+wretch.cc/_y/l/e/serv/blog/ysm.htm
+wretch.cc##div.admd
+
 !---Download Sites
 ||05sun.com^$script
 ||366soft.net/t/$script
@@ -1248,7 +1254,6 @@ autohome.com.cn/33
 33.autohome.com.cn
 img.autohome.com.cn/pvpv$script
 av199.com,hd199.com##tr.altbg2>TD[width="100%"]
-azo-freeware.blogspot.com##div#HTML26,#HTML29
 benxiong.com/g/
 .biidc.com/news/$subdocument
 bitscn.com/pic2009/a*.js
@@ -1417,8 +1422,6 @@ travel-web.com.tw/Temp/Adv/
 webcars.com.cn/js/InsertFlashAd$script
 ||weste.net/js_v2009/ggao
 soft.winzheng.com/u/_sponsor/$script
-wretch.cc/_y/l/e/serv/blog/ysm.htm
-wretch.cc##TD#ad_word
 js.xiaoyouxi.cn/ee/
 ||iads.xinmin.cn^
 my.xishui.net/aggd/$script
@@ -1582,6 +1585,7 @@ jsunion.boodvd.com/union/
 ||lianmeng.com^$third-party
 ||linkpage.cn^$third-party
 ||lovekkn.cn^$third-party
+||lativ.com.tw$third-party
 ||maomao8.com^$third-party
 ||menhutong.com.cn^$third-party
 ||union.moka.cn^$third-party
@@ -1733,10 +1737,9 @@ bbs.xdxdxd.com###ad_888
 xiami.com##div.play_ad
 
 !-----------------------Temporary--------------------------------------------------------
-!-----------------------2010.2--------------------------------------------------------
+!-----------------------2010.3--------------------------------------------------------
 ||long-jf.com/images/dbgg.gif
 |http://hk.ndx.nextmedia.com/DFA/js_ndxtag_v409.cfm?*
 |http://www.fzhmzx.com/huameiad.js
 ||amazon.cn^$third-party
-|http://img.harvest.6waves.com/farmgame_tw/static/img/76090.gif
 !------------------------End of List--------------------------------------------------------
