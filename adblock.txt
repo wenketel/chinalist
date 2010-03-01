@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: LTSjkD6sm3oQ/FhTj8W4lA
+!  Checksum: /tcP7yM5RXKfl8BIs1C7KQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 01 Mar 2010 17:02:57 +0800
+!  Last Modified:  Mon, 01 Mar 2010 17:18:03 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -269,10 +269,11 @@ dcview.com##div[class^="ad"],.infobox-market,.brand
 dcview.com.tw##p.tp-ad
 
 !---多玩游戏网
-duowan.com/public/s/top_gg.js
-market.duowan.com/count03.js
-market.duowan.com/duowan/$script
-news.duowan.com##div#pageContTop
+||duowan.com/duowan.js
+||duowan.com/public/s/market_count.js
+||duowan.com/public/s/top_gg.js
+market.duowan.com/
+news.duowan.com##div#pageContTop,#Link300
 web.duowan.com##div.advertise
 
 !---东快网
@@ -613,7 +614,6 @@ unionch.qyule.com/
 
 !---青岛新闻网
 .hiao.com/
-cdn.hiido.com/hiido.js
 qingdaonews.com/$subdocument
 qingdaonews.com/gb/images/9703.files/AD2v1.1.js
 vip.qingdaonews.com
@@ -1682,6 +1682,7 @@ click2/count/$script
 ||cnzz.com^$third-party
 .com.cn/pv.js|
 .com/pv.js|
+/hiido.js
 ||cdn.hiido.cn^$third-party
 js/tongji.js|
 js/netjc.js|
