@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: cqMyEaQ6VuJ+yjdqtUJc7Q
+!  Checksum: SS4sxM4dHdEaBF8uXRQIUA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 01 Mar 2010 16:12:49 +0800
+!  Last Modified:  Mon, 01 Mar 2010 16:30:14 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -221,10 +221,7 @@ passport.cnw.com.cn/Track/stat.js
 csdn.net/ggmm/
 book.csdn.net/html/newindex/gonggao.htm
 book.csdn.net/css/webad.js
-community.csdn.net/t/floatBox.js
-topic.csdn.net/t/img/
 tougao.csdn.net/js.php?$script
-topic.csdn.net##div[id^="Float"]
 
 !---聖城家園
 btscg.com/myaddream2008/
@@ -1696,6 +1693,7 @@ images/adv/$image
 51img.ajiang.net
 click2/count/$script
 /count.js|
+/counter.js
 ||cnzz.com^$third-party
 .com.cn/pv.js|
 .com/pv.js|
@@ -1704,7 +1702,6 @@ js/tongji.js|
 js/netjc.js|
 /ktrace/ktrace$script
 /PV?peerid=
-!|http://counter.
 |http://counter.$domain=~shooter.cn
 |http://stat.$script,domain=~verycd.com
 ||linezing.com^$third-party
