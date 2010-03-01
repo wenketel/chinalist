@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: GnX97DQCOfLvqwY4JTC/1w
+!  Checksum: A1ulfmS9jwIxH/WyWiHJRg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 01 Mar 2010 16:51:10 +0800
+!  Last Modified:  Mon, 01 Mar 2010 16:57:57 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -254,11 +254,6 @@ discuss.com.hk##div#subhead>div.ad
 discuss.com.hk##div#thread_ads_bottom + table[width="100%"]
 discuss.com.hk##div#thread_ads_top + table[width="100%"]
 
-!---磨坊
-static.doyouhike.net/partner/
-doyouhike.net##DIV[style="margin: 0pt auto; width: 980px;"]
-doyouhike.net##DIV[style="margin: auto; width: 980px; height: 92px; padding-top: 2px;"]
-
 !---大紀元
 dajiyuan.com##DIV#insidearticleBodyAd
 ||epochtimes.com/i6/ad/
@@ -267,12 +262,6 @@ dajiyuan.com##DIV#insidearticleBodyAd
 ||epochtimes.com.tw/images/upload/adv/
 epochtimes.com##DIV#insidearticleBodyAd
 
-!---红袖添香
-lucky.hongxiu.com/Agent/ShowMe.js
-novel.hongxiu.com/aspxnovel/a_images/
-pic.hongxiu.com/www/images/zhuantipic/
-www3.hongxiu.com
-
 !---多特软件站
 img.duote.com/duotehtml/$script
 img.duote.com/images/cop/
@@ -280,6 +269,12 @@ img.duote.com/js/pathAd.js
 img.duote.com/js/clickDownAjax4.js
 img.duote.com/js/clickDownAjax3.js
 duote.com##DIV.tuwen.line_green
+
+!---数位视野
+||dcview.com.tw/adscript/
+||dcview.com.tw/adnew/
+dcview.com##div[class^="ad"],.infobox-market,.brand
+dcview.com.tw##p.tp-ad
 
 !---多玩游戏网
 duowan.com/public/s/top_gg.js
@@ -343,6 +338,12 @@ images.gxsky.com/
 shop.gxsky.com/tptuijian/
 skads.gxsky.com/$script
 gxsky.com##DIV[style="height: 90px;"]
+
+!---红袖添香
+lucky.hongxiu.com/Agent/ShowMe.js
+novel.hongxiu.com/aspxnovel/a_images/
+pic.hongxiu.com/www/images/zhuantipic/
+www3.hongxiu.com
 
 !---广州日报
 59.42.241.145/pub/news/gzrb/$script
@@ -1294,10 +1295,7 @@ clt.dm5.com/js/
 ||dongle.cc/*ad$script
 .dospy.com/hezuo/
 downsc.com/ads_html
-||dcview.com.tw/adscript/
-||dcview.com.tw/adnew/
-dcview.com##div[class^="ad"],.infobox-market,.brand
-dcview.com.tw##p.tp-ad
+static.doyouhike.net/partner/
 ||ay.eastmoney.com^
 .ef360.com/_Public/_Upfile/*_*_*.*$object,image
 emu-zone.org/download/$image
