@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: TCeYsJlUi5U7o6+HFzinSA
+!  Checksum: kZr3nhgy5pwOtV0uIKbrpA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 02 Mar 2010 19:51:40 +0800
+!  Last Modified:  Tue, 02 Mar 2010 19:58:51 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -303,10 +303,9 @@ google.com.tw##div#tadsb
 mail.google.com##div.nH.u8
 
 !---时空网
-images.gxsky.com/
-shop.gxsky.com/tptuijian/
 skads.gxsky.com/$script
-gxsky.com##DIV[style="height: 90px;"]
+|http://211.138.250.195:8080^$domain=gxsky.com
+gxsky.com##div#indexad_txt
 
 !---红袖添香
 lucky.hongxiu.com/Agent/ShowMe.js
