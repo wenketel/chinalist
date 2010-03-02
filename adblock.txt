@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: xHgkztLipW2R0L3tJ7g4YQ
+!  Checksum: DNZyCBDcXo+v4mD9jxlrjg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 02 Mar 2010 20:08:02 +0800
+!  Last Modified:  Tue, 02 Mar 2010 20:19:30 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -306,19 +306,6 @@ mail.google.com##div.nH.u8
 skads.gxsky.com/$script
 |http://211.138.250.195:8080^$domain=gxsky.com
 gxsky.com##div#indexad_txt
-
-!---广州日报
-59.42.241.145/pub/news/gzrb/$script
-gzdaily.dayoo.com/tpl/$object
-huanqiu.com/script/homepage$script
-huanqiu.com/script/entPageText$script
-huanqiu.com##div[id^="banner"]
-||mingpao.com/js/Adv/$script
-adc1.mingpao.com/
-my1510.cn/ads/$script
-nddaily.com/nddailyfile/webadv/
-.people.com.cn/zixun/
-||singtao.com/$script
 
 !---HDChina
 hdchina.org/hdx.gif
@@ -1078,6 +1065,7 @@ u.115.com/static/media/
 
 !---News Sites
 122.146.0.242/indvideo.php
+59.42.241.145/pub/news/gzrb/$script
 ndx.1-apple.com.tw/DFA/js_ndxtag.cfm
 1-apple.com.tw###showbox
 1-apple.com.tw##div#contentbox>div>div.today_good
@@ -1093,10 +1081,17 @@ ce.cn##div#toprad
 pic.cnmo.com/$image,object
 cnmo.com##div[id^="AD"]
 .daqi.com/clicklog.js
+gzdaily.dayoo.com/tpl/$object
+huanqiu.com/script/homepage$script
+huanqiu.com/script/entPageText$script
+huanqiu.com##div[id^="banner"]
 itxinwen.com##div[id^=followDiv]
-||yangsam.com/data/banner/
 ||adp.joins.com/
 ||japanese.joins.com/upload/ad/
+||mingpao.com/js/Adv/$script
+adc1.mingpao.com/
+my1510.cn/ads/$script
+nddaily.com/nddailyfile/webadv/
 ||nownews.com/include_ver8/js/ezsaving
 nownews.com##div#focus_board,#life_info,#related_link,#ad_for_video,.floatBox
 ||newtalk.tw/ad_
@@ -1112,7 +1107,9 @@ sinovision.net/ui/js/index_ad.js
 takungpao.com/images/top/
 ||wenweipo.com/batch.ad.php
 image.wenweipo.com/*/ad_
+||singtao.com/$script
 sp.wenweipo.com/racing/img/474x60_cny.gif
+||yangsam.com/data/banner/
 
 !---Online Novel Sites
 ||365zw.com/static/js/show.js
