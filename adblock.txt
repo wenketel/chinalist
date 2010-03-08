@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: p/mM3sbPUIzAKN/YVd/lVw
+!  Checksum: NOu+WuR7H92Z2yEUZwOB2A
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 08 Mar 2010 14:09:18 +0800
+!  Last Modified:  Mon, 08 Mar 2010 14:41:04 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -315,16 +315,10 @@ httpcn.com/mysite/
 astro.httpcn.com/images/banner/banner_soft2.gif
 
 !---ifeng
-img.phoenixtv.com/tres/recommend/
 img.ifeng.com/tres/recommend/
-@@|http://img.ifeng.com/tres/recommend/client/*-480x360.flv
-news.ifeng.com/statics/all_content_ad_p
-sc.ifeng.com/event.ng/
-@@|http://sc.ifeng.com/html.ng/channel=free&level=vfree&location=1&site=ifeng&type=expansion
+news.ifeng.com/statics/$subdocument
 sta.ifeng.com/stadig/
-ifeng.com##div[class^="adlist"]
-ifeng.com##.areaAd
-ifeng.com###final_head_ad
+ifeng.com##div#final_head_ad,.areaAd,[class^="adlist"]
 
 !---Infoq
 ||infoq.com/resource/sponsorship/
