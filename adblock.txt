@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: sUQkY7SiDt2Xm5xeSmpUZw
+!  Checksum: GHQcdmrR9KM96cIS2fftEw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 09 Mar 2010 15:29:29 +0800
+!  Last Modified:  Tue, 09 Mar 2010 15:53:40 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -244,8 +244,8 @@ dict.cn##div#topgg
 discuss.com.hk/overture/
 i1.hk/ad*/
 ndx.netdrive.tv/DFA/
-!discuss.com.hk##div.ad
-!discuss.com.hk##div#thread_ads_bottom + table[width="100%"]
+discuss.com.hk##div.ad
+discuss.com.hk##div#thread_ads_bottom + table[width="100%"]
 !discuss.com.hk##div#thread_ads_top + table[width="100%"]
 
 !---多特软件站
@@ -721,7 +721,7 @@ taiwan.cnet.com##div[class^="ads_"],#cnetevent_promo
 !---Uwants
 uwants.com/overture/$script
 uwants.com###thread_ads_bottom+table
-uwants.com###thread_ads_top+table
+!uwants.com###thread_ads_top+table
 uwants.com##table[width="730"][cellpadding="1"]:last-child
 uwants.com##div.ad
 
