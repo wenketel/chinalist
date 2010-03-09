@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: urC6vNvc5xgn5hVq6h8Kwg
+!  Checksum: L9ZU+yAa/QLp4xVeyaBHaA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 09 Mar 2010 14:21:38 +0800
+!  Last Modified:  Tue, 09 Mar 2010 15:28:04 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -244,9 +244,9 @@ dict.cn##div#topgg
 discuss.com.hk/overture/
 i1.hk/ad*/
 ndx.netdrive.tv/DFA/
-discuss.com.hk##div.ad
-discuss.com.hk##div#thread_ads_bottom + table[width="100%"]
-discuss.com.hk##div#thread_ads_top + table[width="100%"]
+!discuss.com.hk##div.ad
+!discuss.com.hk##div#thread_ads_bottom + table[width="100%"]
+!discuss.com.hk##div#thread_ads_top + table[width="100%"]
 
 !---多特软件站
 img.duote.com/duotehtml/
@@ -1625,7 +1625,6 @@ js/netjc.js|
 ||vdoing.com^$third-party
 
 !-----------------------Element Hiding--------------------
-###ad_interthread
 ##div[id^="ad_thread"]
 ##div#focus.focus
 189.cn##div#miniAd
@@ -1658,5 +1657,4 @@ xiami.com##div.play_ad
 |http://hk.ndx.nextmedia.com/DFA/js_ndxtag_v409.cfm?*
 |http://www.fzhmzx.com/huameiad.js
 ||amazon.cn^$third-party
-/include/javascript/common_rev09.js|$domain=uwants.com|discuss.com.hk
 !------------------------End of List--------------------------------------------------------
