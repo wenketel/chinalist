@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: 8L1dJb4ZIlnCMkdY+6R5tg
+!  Checksum: +LvANi2ert9fNd9P6MqCOg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 10 Mar 2010 00:49:34 +0800
+!  Last Modified:  Wed, 10 Mar 2010 20:01:48 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -355,18 +355,15 @@ kkkmh.com/iframe/
 kkkmh.com##div[class^="mm-"]
 
 !---Ku6
-@@|http://img.c4.ku6.cn/index/upload/*/indexPlayer*.swf|
-image.ku6.com/a888d
-img.ku6.com/podcast/swf/*/TaskBar.swf|
-img.c4.ku6.cn/index/upload/$object_subrequest,object,image
+@@img.c4.ku6.cn/index/upload/*/indexPlayer*.swf|
 img.c4.ku6.cn/*/upload/$object
-js.ku6.com/a888/$script
-.stat.ku6.com/dostatv.do?$script
-ku6.com##div#swfdiv,#vbad
-ku6.com##DIV.miniVideo.mb10.cfix
-ku6.com##IMG.adh
-tv.ku6.com##div.advRight,.advLeft
-v.ku6.com##div.adList2.mb10,.theme,.flwin.flwin_min,.wd255[style="height: 156px;"],[id^="gg"]
+img.ku6.com/podcast/swf/*/TaskBar.swf|
+img.c4.ku6.cn/*/upload/$object
+image.ku6.com/a888d
+stat.ku6.com/dostatv.do$script
+ku6.com##img.adh,.b_ad
+ku6.com##div#swfdiv,.hotSearchArea.cfix
+v.ku6.com##div[id^="gg"],.flwin.flwin_min
 
 !---快车网
 game.kuaiche.com/d/js/acmsd/thea24.js
@@ -898,7 +895,7 @@ zol.com.cn##div[id^="Float"],[id^="Bar"],[id^="AD"]
 
 !-------------------Generic (sort by domain name)---------
 !---Blog Sites
-azo-freeware.blogspot.com##div#HTML26
+azo-freeware.blogspot.com##div#HTML26	
 www.cwyuni.tw##div.article-content>p>a>img
 www.cwyuni.tw##div#banner>h2,#box27379
 portable.easylife.tw/liv/enroute.jpg
