@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: QDSOcXF56EDO8pmub1y3FQ
+!  Checksum: HVT8PM0YcK1pgZoLCga06g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 14 Mar 2010 12:57:45 +0800
+!  Last Modified:  Sun, 14 Mar 2010 15:22:00 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -611,7 +611,7 @@ bai.sohu.com/user/reg/inc.do
 images.sohu.com/chat_online/market/
 images.sohu.com/cs/
 js.sohu.com/mail/pv/pv$script
-js2.pp.sohu.com.cn/ppp/bms/bms.popup.v.5.jss
+js2.pp.sohu.com.cn/ppp/bms/bms.popup.v.5.js
 sohu.com,chinaren.com#sohuadcode
 sohu.com##div#ad_TOP,div[id^="ad_"],div[class^="contAD"]
 
@@ -870,7 +870,7 @@ zol.com.cn##div[id^="Float"],[id^="Bar"],[id^="AD"]
 
 !-------------------Generic (sort by domain name)---------
 !---Blog Sites
-azo-freeware.blogspot.com##div#HTML26	
+azo-freeware.blogspot.com##div#HTML26
 www.cwyuni.tw##div.article-content>p>a>img
 www.cwyuni.tw##div#banner>h2,#box27379
 portable.easylife.tw/liv/enroute.jpg
@@ -955,6 +955,7 @@ xp500.com/images/180-120.gif
 ||ziyuan8.com^$script,subdocument
 
 !---Game Sites
+||market.178.com^
 265g.com/images/gimg/$image,object
 265g.com/templets/js/index.js
 /jss/gg468x60.htm$domain=4399.com|4399.net
@@ -1094,10 +1095,10 @@ res.youku.com/$image
 ##div#head_ad
 
 !--Miscellaneous
+www.1000fr.net/images/qvod_760_80.gif
 qm.1000meng.com/code
 111cn.cn/js/downc.js
 111cn.cn/*gg_$script
-||market.178.com^
 ||1m1m.cn/bar/
 ||1m1m.cn/zhuanti/20100203_kangshifu/images/kangshifu.gif
 2500sz.com/site/
@@ -1332,6 +1333,7 @@ u.1133.cc^
 ||18lian.com^$third-party
 ||19dc.com^$third-party
 ||2bj.cn/click.html?$subdocument
+||333wan.com^$third-party
 ||360quan.com^$third-party
 ||37cs.com^$third-party
 ||37dz.com^$third-party
