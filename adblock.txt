@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: x2CTjDM9vXTmVSDJexFm9g
+!  Checksum: liPModoObWjLGfXYG6YZsw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 18 Mar 2010 18:21:39 +0800
+!  Last Modified:  Thu, 18 Mar 2010 19:56:12 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -364,17 +364,16 @@ rwj.app.mop.com/rwjimages/quest4newuser.png
 rwj.app.mop.com/reference.swf
 
 !---驱动之家
-||mydrivers.com/www/duilian.js
-||mydrivers.com/www/main1001.js?$script
+@@images.mydrivers.com/player/focus2.swf
 images.mydrivers.com/$object
-mydrivers.com##div[align="center"],div[id^="ad_"]
-mydrivers.com##TABLE[width="100%"][height="70"][bgcolor="#eaeaea"]
-news.mydrivers.com##table[width="100%"][height="210"][cellpadding="0"]
-||myfiles.com.cn/js/duilian.js
+news.mydrivers.com/img/zhuanti/
+/duilian.js|$domain=mydrivers.com|myfiles.com.cn
+11.mydrivers.com/www/main01.js
+drivers.mydrivers.com/filesnewsAD.htm
+mydrivers.com##div[id^="ad"]
+news.mydrivers.com##table[border="0"][width="980"][height="90"]
+news.mydrivers.com##table[width="923"][height="185"],[height="210"]
 myfiles.com.cn##td[height="60"]
-myfiles.com.cn##div>a[target="_blank"]>img
-myfiles.com.cn##TABLE[align="center"][width="923"][height="60"]
-||11.mydrivers.com/drivers/$script
 
 !---mysilu
 mysilu.com##DIV[id^="ad_"]
