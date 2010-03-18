@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: tZ/+cJR2ulQhMQq/GUq4PA
+!  Checksum: S2toqZ91UQLTnq/Volvj9Q
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 18 Mar 2010 20:28:44 +0800
+!  Last Modified:  Thu, 18 Mar 2010 20:49:50 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -370,17 +370,16 @@ news.mydrivers.com/img/zhuanti/
 /duilian.js|$domain=mydrivers.com|myfiles.com.cn
 11.mydrivers.com/www/main01.js
 drivers.mydrivers.com/filesnewsAD.htm
-mydrivers.com##div[align="center"],[id^="ad"],[class^="l-gg"]
+mydrivers.com##div[id^="ad"],[class^="l-gg"],[align="center"][style]
 news.mydrivers.com##table[border="0"][width="980"][height="90"]
 news.mydrivers.com##table[width="923"][height="185"],[height="210"]
 myfiles.com.cn##td[height="60"]
 
 !---mysilu
 mysilu.com##DIV[id^="ad_"]
-mysilu.com##DIV[class$="banner"]
 
 !---msn.com
-||promotion.msn.com.tw
+promotion.msn.com.tw
 tw.msn.com##div[id^="bslink"],#partner1,[class*="shop"]
 news.msn.com.tw##div[id^="ad"],[id^="love"],[class^="three"]
 news.msn.com.tw##div#market,#fashion_content,.right_travel_modelbg
