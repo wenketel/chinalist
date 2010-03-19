@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: MbVvVa83dwkkUWqf+CVnmA
+!  Checksum: 1eSyO8nEQlfbCKIb/YHoBg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 18 Mar 2010 21:11:23 +0800
+!  Last Modified:  Fri, 19 Mar 2010 09:40:16 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -365,12 +365,14 @@ rwj.app.mop.com/reference.swf
 
 !---驱动之家
 @@images.mydrivers.com/player/focus2.swf
+mydrivers.com/002f/*/$subdocument
+11.mydrivers.com/$script
+count.mydrivers.com/
 images.mydrivers.com/$object
 news.mydrivers.com/img/zhuanti/
 /duilian.js|$domain=mydrivers.com|myfiles.com.cn
-11.mydrivers.com/www/main01.js
-drivers.mydrivers.com/filesnewsAD.htm
-mydrivers.com##div[id^="ad"],[class^="l-gg"],[align="center"][style]
+mydrivers.com##div.top + div.hang1
+mydrivers.com##div[id^="ad"]
 news.mydrivers.com##table[border="0"][width="980"][height="90"]
 news.mydrivers.com##table[width="923"][height="185"],[height="210"]
 myfiles.com.cn##td[height="60"]
