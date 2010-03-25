@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: 9WLvl5lnaaHxNCMKrHBw2w
+!  Checksum: ofOrsa21hmTyPE18rX9GOQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 25 Mar 2010 15:41:18 +0800
+!  Last Modified:  Thu, 25 Mar 2010 15:58:36 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -375,9 +375,6 @@ news.mydrivers.com##table[border="0"][width="980"][height="90"]
 news.mydrivers.com##table[width="923"][height="185"],[height="210"]
 myfiles.com.cn##td[height="60"]
 
-!---mysilu
-mysilu.com##DIV[id^="ad_"]
-
 !---msn.com
 promotion.msn.com.tw
 tw.msn.com##div[id^="bslink"],#partner1,[class*="shop"]
@@ -419,10 +416,9 @@ news.pchome.com.tw##div#sixi
 news.pchome.com.tw##span.t1322
 
 !---平湖在线
-ph66.com/$object
-ph66.com/2009ad/$image
-ph66.com##DIV#bbsad
-bbs.ph66.com/js/float.js
+||ph66.com/2009ad/
+i.ph66.com/attachment/$object
+ph66.com##*[id*="ad"]
 
 !---起点中文网
 qidian.com/Javascript/CaiHongJingLing.js
@@ -1537,6 +1533,7 @@ hoopchina.com##div.ad980,.ad728-90
 kenshuw.com##span#award_62
 lotour.com##div#banner
 mobile01.com##div.text_ad,.forum_sidemenu
+mysilu.com##DIV[id^="ad_"]
 bbs.pspchina.net##DIV[id^="ad_"]
 bbs.xdxdxd.com###ad_888
 xiami.com##div.play_ad
