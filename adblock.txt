@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: 14uTofGppsJtX6Fgea9CbQ
+!  Checksum: 8Sut836Qznn824318hYGAg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 25 Mar 2010 10:21:28 +0800
+!  Last Modified:  Thu, 25 Mar 2010 10:33:03 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -808,21 +808,6 @@ yam.com##div.yamfavor_block,[class^="yamrightcontent_life"]
 ||yanqiao.com/duote.js
 ||yanqiao.com/yanqiao/
 
-!---天极网
-yesky.com/*yeskyflash.js
-yesky.com/lbad/
-u.link.yesky.com/
-media.yesky.com/
-tools.yesky.com/imagelist$object
-/vd.yesky.com/html/js/1*.js
-/vd.yesky.com/html/js/2*.js
-/vd.yesky.com/html/js/3*.js
-yesky.com#div(class=tad)
-yesky.com#div(id^=adgg)
-q.yesky.com###pop_1.fdiv4
-mydown.yesky.com##*[href$=".exe"] > IMG[src^="/imagelist/"]
-mydown.yesky.com##DIV.mdddxglistnew
-
 !---Youmaker
 ||youmaker.com/logoad2.jpg
 ||youmaker.com/edoors200708180-150.swf
@@ -1042,6 +1027,8 @@ image.wenweipo.com/*/ad_
 ||singtao.com/$script
 sp.wenweipo.com/racing/img/474x60_cny.gif
 ||yangsam.com/data/banner/
+media.yesky.com/
+yesky.com##div[class^="ad"]
 
 !---Online Novel Sites
 ||365zw.com/static/js/show.js
