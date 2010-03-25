@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: l0iDTuvNVN9m5cMss0h7Zg
+!  Checksum: bxhY/Rf86KtcJQlSsHy+PA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 25 Mar 2010 16:01:49 +0800
+!  Last Modified:  Thu, 25 Mar 2010 16:56:47 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -434,21 +434,15 @@ qidian.com##div[class^="gg"]
 |http://ad*.qq.com^$script,object
 is.qq.com/js/addportal.js
 l.qq.com/lview?$script
-tiapview.qq.com/tad.js
-||fangqq.com/UserFiles/Flash/
-||fangqq.com/index.php/XAd
 image.fangqq.com/bj/styles/index_tc.js
-fangqq.com##div[class*="pro"],[class$="topd"]
-fangqq.com##div[id^="index_"],[class^="ad"],[id$="Ad"],#xp
-sh.fangqq.com##div.content_right_a,.content_right_e
-qq.com##*[id^="AdZone"],[class^="AdZone"]
 qq.com##div.adArea,.wenziad
 comic.qq.com##div[id^="Comic_Width"]
+ent.qq.com##div#main_nav_qq+table,#adzone2
 ent.qq.com##div[id^="adbanner"]
 news.qq.com##div.news_ad_box
-news.qq.com###nav
-news.qq.com#a(href^=http://adsclick.qq.com/adsclick?)
-sports.qq.com##table[width="960"][style^="margin"]
+news.qq.com##div#sideBars>div:nth-child(6)
+news.qq.com##div#sideBars>div:nth-child(odd)
+www.qq.com##div#proAd,[id^="QQCOM_Width"]
 sports.qq.com##div[id^="ad"],[id^="Ad"],[id^="Sports_F"]
 
 !---QQ163
