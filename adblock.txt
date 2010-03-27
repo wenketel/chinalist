@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: zgDoT9yaFwUTtwQyd/3Yzg
+!  Checksum: HyJPhOP0ix2bG5ru8r+o9g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 27 Mar 2010 12:32:33 +0800
+!  Last Modified:  Sat, 27 Mar 2010 12:48:13 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -452,10 +452,11 @@ qq163.com^$subdocument
 qq163.com/jss/share2.js
 
 !---巧巧读书
-||qqread.com/2008ad/
-||qqread.com/*js/$script
-||qqread.com/swf/$object
-qqread.com##div#baidu960ad
+@@qqread.com/swf/qqread_rollpic.swf
+qqread.com/swf/
+/2008ad/*$domain=qqread.com|jkgood.com
+qqread.com/*js/$script
+qqread.com##div[class$="ad"]
 
 !---趣盘
 google.mmjq.com/$subdocument
