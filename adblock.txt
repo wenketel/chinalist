@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: C08Chi/EWLIJEo2OMBXr3w
+!  Checksum: QdI6GCH/e8m5LtUN7VxgNg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 27 Mar 2010 13:23:43 +0800
+!  Last Modified:  Sat, 27 Mar 2010 13:48:02 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -462,11 +462,11 @@ qqread.com##div[class$="ad"]
 google.mmjq.com^
 tx908.com^
 
-!---青岛新闻网
-.hiao.com/
-qingdaonews.com/$subdocument
-qingdaonews.com/gb/images/9703.files/AD2v1.1.js
-vip.qingdaonews.com
+!---青岛新闻网,海奥网
+up.hiao.com^
+qingdaonews.com/AdPreview/
+www.hiao.com,qingdaonews.com##div.commonrightad
+hiao.com##div[class$="Ads"]
 
 !---飞速网
 img.rayfile.com/scr/$script
@@ -545,7 +545,7 @@ sina.com.hk##div.sidebarItem>h2+div.sidebarItemContent.link1.M0.P0
 
 !---sina.com.tw
 ||sina.com.tw/images/*/ad$image
-||sina.com.tw/include/ad$frame
+||sina.com.tw/include/ad$subdocument
 ||sina.com.tw/channel_ad/
 google.sina.com.tw##div.adgoogle
 
