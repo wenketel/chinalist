@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: T4XZyUJdi5VTjZpA0EmMSw
+!  Checksum: Weub9mda6iRY8xzTZduboA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 31 Mar 2010 18:43:37 +0800
+!  Last Modified:  Wed, 31 Mar 2010 20:36:12 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -186,6 +186,12 @@ chinaz.com/js/text_link.js
 down.chinaz.com/other/js/$script
 images.chinaz.com/*_images/
 images.chinaz.com/index_imagesa/
+
+!---中時電子報
+chinatimes.com/2007Cti*.shtml|
+chinatimes.com/2009Cti*pmotb*.shtml|
+chinatimes.com/vgn/ads/
+chinatimes.com##div.ad
 
 !---cnBeta
 img.cnbeta.com/$object
@@ -975,9 +981,6 @@ ce.cn##div#toprad
 ||cdnews.com.tw/upload/20*/ad_
 pic.cnmo.com/$image,object
 cnmo.com##div[id^="AD"]
-chinatimes.com/2007Cti*.shtml|
-chinatimes.com/2009Cti*pmotb*.shtml|
-chinatimes.com##div[class^="ad"]
 .daqi.com/clicklog.js
 gzdaily.dayoo.com/tpl/$object
 huanqiu.com/script/homepage$script
