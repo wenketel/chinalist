@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: lucgbaA4965jENEVHU5Cqw
+!  Checksum: qpTy7uM4rhwjbMa98OMRpw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 07 Apr 2010 09:14:11 +0800
+!  Last Modified:  Wed, 07 Apr 2010 09:23:58 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -58,10 +58,6 @@ search.21cn.com##td.frame_2b>table[width="170"],[width="165"]
 ||3boys2girls.com/include/overture_ads.js
 ||3boys2girls.com/images/newdefault/banner$image
 ktzhk.com/plugins/cache_template/adv_3b2g.js
-
-!---51.com
-qun.51.com/$subdocument
-v3.apic.51.com/vda09.js
 
 !---56.com
 /acs.56.com
@@ -162,10 +158,6 @@ www.cctv.com/script/ad_s.js
 ||cctv.com/Library/homepage2008/$script
 cctv.doulog.com/a.js
 @@|http://www.cctv.com/Library/homepage2008/20081114/script/top_111701.js
-
-!---计世网
-imgs.ccw.com.cn/200*/$image,object
-imgs.ccw.com.cn/ccw/1.htm
 
 !---中华网
 dvs.china.com/
@@ -281,11 +273,6 @@ bbs.fengniao.com##td[align="left"][colspan="2"]
 bbs.fengniao.com##td.smallfont>a[style][href]
 
 !---Google
-image.j-a-net.jp/
-google.cn###rhspad
-google.com##div[style="border-bottom: 2px solid rgb(0, 0, 0); width: 100%; padding-bottom: 10px; margin-bottom: 5px; margin-top: 10px;"]
-google.com##div[style="width: 100%; background-color: rgb(238, 238, 238);"]
-google.com##div.item-body>div>div[style="border-top: 1px solid rgb(203, 217, 217); padding-top: 20px; padding-bottom: 10px;"]
 google.com.tw##div#tadsb
 mail.google.com##div.nH.u8
 
@@ -463,10 +450,6 @@ qqread.com/swf/
 /2008ad/*$domain=qqread.com|jkgood.com
 qqread.com/*js/$script
 qqread.com##div[class$="ad"]
-
-!---趣盘
-google.mmjq.com^
-tx908.com^
 
 !---青岛新闻网,海奥网
 up.hiao.com^
@@ -966,6 +949,8 @@ u.115.com/static/media/
 ||brsbox.com/images/sitereg_ad.gif
 brsbox.com##a.downwps_blue,.downwps_p1
 brsbox.com##div.truedownloadwps,.downwps_blue
+google.mmjq.com^
+tx908.com^
 
 !---News Sites
 122.146.0.242/indvideo.php
@@ -977,6 +962,8 @@ atchinese.com/images/banners/100x100
 atchinese.com/images/banners/300x300
 ||backchina.com/banners/
 backchina.com##table[width="100%"][border="0"][cellspacing="0"][height="21"][cellpadding="0"]
+imgs.ccw.com.cn/200*/$image,object
+imgs.ccw.com.cn/ccw/1.htm
 chinaitlab.com/gmail/$image,script
 */fileftp/$object,domain=chinanews.com.cn|chinanews.com
 diguo.ce.cn/include/diguo_gg.js
@@ -1051,6 +1038,18 @@ www.xs8.cn/data/iframe/xad$script,subdocument
 images.xxsy.net/sygg/
 ||zuilu.com/js/tan2/$script
 
+!---PHPWind Sites
+##div#ads_r_tpc
+##div#ads_c_tpc
+##div#head_ad
+
+!---RSS
+image.j-a-net.jp/
+google.cn###rhspad
+google.com##div[style="border-bottom: 2px solid rgb(0, 0, 0); width: 100%; padding-bottom: 10px; margin-bottom: 5px; margin-top: 10px;"]
+google.com##div[style="width: 100%; background-color: rgb(238, 238, 238);"]
+google.com##div.item-body>div>div[style="border-top: 1px solid rgb(203, 217, 217); padding-top: 20px; padding-bottom: 10px;"]
+
 !---Video Sites
 0392vod.cn/ggjs/$script
 ||img.1ting.com/v5/js/*text.js
@@ -1070,11 +1069,6 @@ ad2gate.pomoho.com
 .atm.youku.com/
 res.youku.com/$image
 
-!---PHPWind Sites
-##div#ads_r_tpc
-##div#ads_c_tpc
-##div#head_ad
-
 !--Miscellaneous
 www.1000fr.net/images/qvod_760_80.gif
 qm.1000meng.com/code
@@ -1086,6 +1080,8 @@ qm.1000meng.com/code
 2500sz.com/images/tv.gif
 ||www.360doc.com/js/albb3.js
 3seconds.cn##DIV.banner300
+qun.51.com/$subdocument
+v3.apic.51.com/vda09.js
 images.51job.com/im/careerpost/onlinead
 51test.net/hezuo/
 51ztzj.com/qq8.gif
