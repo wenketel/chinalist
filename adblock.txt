@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: UMtCB5USNDe69mw0IyLNsA
+!  Checksum: NyiGbE1cMbBKUpsOGXGXXw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 07 Apr 2010 17:57:04 +0800
+!  Last Modified:  Wed, 07 Apr 2010 20:05:41 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -722,13 +722,10 @@ http://www.xinhuanet.com/undefined
 .xinhuanet.com/js/xilan/ad_right_2009.js
 ||imgs.xinhuanet.com/icon/photos/20071010tp.swf
 
-!---西子湖畔
-xici.net##div.ad_doc
-xici.net##div.doc_ad_r01
-xici.net##div.doc_l_ad
-xici.net##div.msgl_ad
-
 !---西祠胡同
+xici.net##DIV[class*="ad"]
+
+!---西子湖畔
 www.xizi.com/include/rotator.js
 www.xizi.com/include/sinaflash.js
 www.hz0752.com/a/$object
