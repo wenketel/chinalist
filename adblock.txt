@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: IbqasdyolUceTkB2QDxL3Q
+!  Checksum: dT6KxSb6ISLqdbgfRSEpIw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 08 Apr 2010 09:47:26 +0800
+!  Last Modified:  Thu, 08 Apr 2010 12:20:10 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -568,6 +568,7 @@ js.sohu.com/mail/pv/pv$script
 js2.pp.sohu.com.cn/ppp/bms/bms.popup.v.5.js
 sohu.com,chinaren.com#sohuadcode
 sohu.com##div#ad_TOP,div[id^="ad_"],div[class^="contAD"]
+class.chinaren.com##.guanggaoText
 
 !---搜狐焦点
 ||focus.cn/ad_publish/$script
@@ -974,6 +975,8 @@ gzdaily.dayoo.com/tpl/$object
 hxjs.tool.hexun.com/*/pageMediaControl.js
 hxjs.tool.hexun.com/*/pageMediaControl1.js
 img.hexun.com/hx_*/hx_*_finalpage.js
+hoopchina.com/d/file/p/
+hoopchina.com##div.ad980,.ad728-90
 htpc1.com/newfolder/
 huanqiu.com/script/homepage$script
 huanqiu.com/script/entPageText$script
@@ -1011,6 +1014,8 @@ yesky.com##div[class^="ad"]
 
 !---Online Novel Sites
 ||365zw.com/static/js/show.js
+f776.com/attachment/Mon_1004/3_1_8018e7205402df6.gif$domain=86zw.com
+86zw.com###Top>#TextSelect+center>table
 ||aybook.cn/love/
 ||aybook.cn/other/js/
 aybook.cn##div#welcome2
@@ -1493,31 +1498,17 @@ js/netjc.js|
 ~discuss.com.hk##div[id^="ad_thread"]
 ##div#focus.focus
 189.cn##div#miniAd
-39.net##div.tonglan,.textlinks
-52topview.com##div#main-info
-56zz.com##div.adbox
-66wz.com##div.inarticle
-86zw.com###Top>#TextSelect+center>table
-class.chinaren.com##.guanggaoText
 dianping.com##div[class^="DPAD"]
-ftchinese.com##div.conAd
 frdic.com##div#sidebar1
-gamez.com.tw##table#pid99999999
 godic.net##div#sidebar1
-hoopchina.com##div.ad980,.ad728-90
-kenshuw.com##span#award_62
-lotour.com##div#banner
 mobile01.com##div.text_ad,.forum_sidemenu
 mysilu.com##DIV[id^="ad_"]
 bbs.pspchina.net##DIV[id^="ad_"]
 bbs.xdxdxd.com###ad_888
-xiami.com##div.play_ad
 
 !-----------------------Temporary--------------------------------------------------------
 !-----------------------2010.4--------------------------------------------------------
 |http://hk.ndx.nextmedia.com/DFA/js_ndxtag_v409.cfm?*
-|http://www.fzhmzx.com/huameiad.js
 ||amazon.cn^$third-party
 ||board.mozest.com/dewplayer-mini.swf
-hoopchina.com/d/file/p/
 !------------------------End of List--------------------------------------------------------
