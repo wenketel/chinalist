@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: NyiGbE1cMbBKUpsOGXGXXw
+!  Checksum: IbqasdyolUceTkB2QDxL3Q
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 07 Apr 2010 20:05:41 +0800
+!  Last Modified:  Thu, 08 Apr 2010 09:47:26 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -836,7 +836,6 @@ blog.xuite.net/1/b/8/a/17149096/blog_755782/txt/11171*/
 .4oa.com^$script
 525down.com/dd/
 52bt.net^$object
-||52dopod.net/images/gg/
 ||52pk.com/adv/
 ||market.52pk.com^
 52z.com/show/All.js
@@ -928,7 +927,6 @@ img.cngba.com/da/
 tw.ad1.gamania.com
 tw.gamania.com/load.swf
 gamania.com##table[width="190"][height="449"]
-gamer.com.tw/ad/
 gamebase.com.tw/gbno1/
 gamebase.com.tw##span[id^="aid_"]
 ||huaqimen.com^$script
@@ -1212,7 +1210,6 @@ d.namipan.com/inc_js/$script
 www.offcn.com/qzzn/all.swf
 ||p5w.net/pfgg/
 pdafans.com/images/banner/
-admin.pdafans.com/gg/ggimg/
 bbs.pdafans.com##TABLE[width="980"][align="center"]
 bbs.pediy.com/images/edaysafe.gif
 j2.ssajax.cn/js/www/dladmin4.js
@@ -1398,7 +1395,6 @@ click.com$third-party
 ||ok8848.com^$third-party
 ||onecpc.cn^$third-party
 ||onetad.com^$third-party
-||pbcdn.com/gg/$third-party
 .pee.cn/$third-party
 ||ppzhe.cn^$third-party
 qianming*^$third-party
@@ -1444,7 +1440,6 @@ qianming*^$third-party
 /adshow.
 /ADPShow.
 /guangg/*
-/html/ad/*
 adpolestar
 adsunion
 affiliate$subdocument,script,object
@@ -1454,11 +1449,15 @@ guanggao
 |http://gg.$subdocument,image,script,object
 |http://ggg.$subdocument,image,script,object
 !---for/ad/
+/html/ad/*
+@@|http://www.equn.com/wiki/DNETC%40HOME
 |http://w*/ad/
+|http://*.org/ad/
 |http://*.com.cn/ad/
 |http://*.com.tw/ad/
 |http://*/image/ad/
 !---for /gg/
+/images/gg/*
 |http://www.*/gg/
 |http://*.com/gg/
 |http://*.com.cn/gg/
