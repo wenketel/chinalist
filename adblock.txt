@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: 1tC1+sNR1txxVSk2C2NZjA
+!  Checksum: psMcnj9JlVnDoe60fBZyPw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 09 Apr 2010 17:26:48 +0800
+!  Last Modified:  Fri, 09 Apr 2010 18:53:26 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -346,6 +346,11 @@ ku6.com##img.adh,.b_ad
 ku6.com##div#swfdiv,.hotSearchArea.cfix
 v.ku6.com##div[id^="gg"],.flwin.flwin_min
 
+!---自由時報
+122.146.0.242
+libertytimes.com.tw/IService2/AdLinkList.php
+libertytimes.com.tw/js/ajs/
+
 !---Mop
 mopimg.cn/app/pub/gen/5.js
 ||mop.com/fxb/js/fxb.js
@@ -637,11 +642,6 @@ udn.com/1024/BD/
 udn.com/1024MAIN/inc/b$subdocument
 udn.com##div#ad_sash
 
-!---zdnet.com.tw/taiwan.cnet.com
-zdnet.com.tw/*ad*$image,background
-zdnet.com.tw/graphics/
-taiwan.cnet.com##div[class^="ads_"],#cnetevent_promo
-
 !---VeryCD
 verycd.com##div.banner_toped2k,#baidu-cpro-1.banner,.banner
 verycd.com##div#relatiGood
@@ -787,6 +787,11 @@ zaobao.com###myMovie
 zaobao.com##table[class="small"][width="640"][lign="center"]
 zaobao.com/ads/
 zaobao.com/contest2009/
+
+!---zdnet.com.tw/taiwan.cnet.com
+zdnet.com.tw/*ad*$image,background
+zdnet.com.tw/graphics/
+taiwan.cnet.com##div#cnetevent_promo,.ads_tb
 
 !---抓虾
 zhuaxia.com/adImage/$image
@@ -964,8 +969,6 @@ nownews.com##div#focus_board,#life_info,#related_link,#ad_for_video,.floatBox
 ||ashow.pcpop.com
 ||nextmedia.com/DFA/js_ndxtag_v409.cfm?*
 tw.nextmedia.com##DIV.ad300x100,.contentAd_300x250
-||libertytimes.com.tw/IService2/AdLinkList.php
-||libertytimes.com.tw/js/ajs/
 sinovision.net/ui/js/adm.js
 sinovision.net/ui/js/index_ad.js
 takungpao.com/images/top/
