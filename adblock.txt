@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: 8XW7Km0001OjqZGZuvw76A
+!  Checksum: DvsDCzsu5Eo36NrKcDrBwQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 09 Apr 2010 15:09:56 +0800
+!  Last Modified:  Fri, 09 Apr 2010 15:43:45 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -957,64 +957,41 @@ google.mmjq.com^
 tx908.com^
 
 !---News Sites
-122.146.0.242/indvideo.php
-59.42.241.145/pub/news/gzrb/$script
-ndx.1-apple.com.tw/DFA/js_ndxtag.cfm
-1-apple.com.tw###showbox
-1-apple.com.tw##div#contentbox>div>div.today_good
-atchinese.com/images/banners/100x100
-atchinese.com/images/banners/300x300
 ||backchina.com/banners/
-backchina.com##table[width="100%"][border="0"][cellspacing="0"][height="21"][cellpadding="0"]
 imgs.ccw.com.cn/200*/$image,object
 imgs.ccw.com.cn/ccw/1.htm
 chinaitlab.com/gmail/$image,script
 */fileftp/$object,domain=chinanews.com.cn|chinanews.com
 ||rnd.dayoo.com^
-diguo.ce.cn/include/diguo_gg.js
-ce.cn##div#toprad
 ||cdnews.com.tw/upload/20*/ad_
 pic.cnmo.com/$image,object
 cnmo.com##div[id^="AD"]
 .daqi.com/clicklog.js
-gzdaily.dayoo.com/tpl/$object
 hxjs.tool.hexun.com/*/pageMediaControl.js
 hxjs.tool.hexun.com/*/pageMediaControl1.js
-img.hexun.com/hx_*/hx_*_finalpage.js
 hoopchina.com/d/file/p/
 hoopchina.com##div.ad980,.ad728-90
 htpc1.com/newfolder/
 huanqiu.com/script/homepage$script
 huanqiu.com/script/entPageText$script
 huanqiu.com##div[id^="banner"]
-itxinwen.com##div[id^=followDiv]
 ||adp.joins.com/
-||japanese.joins.com/upload/ad/
-||mingpao.com/js/Adv/$script
-adc1.mingpao.com/
-my1510.cn/ads/$script
 nddaily.com/nddailyfile/webadv/
 ||nownews.com/include_ver8/js/ezsaving
 nownews.com##div#focus_board,#life_info,#related_link,#ad_for_video,.floatBox
 ||newtalk.tw/ad_
-||newtalk.tw/media/ad
-||ntdtv.com/xtr/ad/
 /33.pcpop.com
 ||ashow.pcpop.com
+||nextmedia.com/DFA/js_ndxtag_v409.cfm?*
 tw.nextmedia.com##DIV.ad300x100,.contentAd_300x250
 ||libertytimes.com.tw/IService2/AdLinkList.php
 ||libertytimes.com.tw/js/ajs/
-times.hinet.net##DIV.market.txtBlue13
 sinovision.net/ui/js/adm.js
 sinovision.net/ui/js/index_ad.js
 takungpao.com/images/top/
-||wenweipo.com/batch.ad.php
 image.wenweipo.com/*/ad_
 ||singtao.com/$script
-sp.wenweipo.com/racing/img/474x60_cny.gif
 ||iads.xinmin.cn^
-||yangsam.com/data/banner/
-||yeeka.com/cgi-bin/adv/
 media.yesky.com/
 yesky.com##div[class^="ad"]
 
@@ -1426,6 +1403,8 @@ click.com$third-party
 ||zncool.com^$third-party
 
 !--------------------------Other (sort by letter)--------
+.ad.php?
+.cn/ads/*
 /ad_float
 /adfile/*
 /adfiles/*
@@ -1489,6 +1468,7 @@ js/netjc.js|
 ##div#focus.focus
 189.cn##div#miniAd
 av199.com,hd199.com##tr.altbg2>TD[width="100%"]
+ce.cn##div#toprad
 dianping.com##div[class^="DPAD"]
 frdic.com##div#sidebar1
 godic.net##div#sidebar1
@@ -1500,7 +1480,6 @@ xiami.com##div.play_ad
 
 !-----------------------Temporary--------------------------------------------------------
 !-----------------------2010.4--------------------------------------------------------
-|http://hk.ndx.nextmedia.com/DFA/js_ndxtag_v409.cfm?*
 ||amazon.cn^$third-party
 ||board.mozest.com/dewplayer-mini.swf
 !------------------------End of List--------------------------------------------------------
