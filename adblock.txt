@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: KV+kCSCa7i7+0iYSrZwBPg
+!  Checksum: T5PmpPE+JLxdCl2euytkew
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 09 Apr 2010 14:40:33 +0800
+!  Last Modified:  Fri, 09 Apr 2010 15:06:37 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -1014,12 +1014,12 @@ yesky.com##div[class^="ad"]
 
 !---Online Novel Sites
 ||365zw.com/static/js/show.js
-f776.com/attachment/Mon_1004/3_1_8018e7205402df6.gif$domain=86zw.com
 86zw.com###Top>#TextSelect+center>table
 ||aybook.cn/love/
 ||aybook.cn/other/js/
 aybook.cn##div#welcome2
-birdsee.com/js/
+||birdsee.com/js/
+book.birdsee.com^$script
 book.birdsee.com##div.scriptx>a>font
 ||booksky.org^$script,subdocument
 bingdi.com/skin/default/images/banner.jpg
@@ -1028,25 +1028,19 @@ book.hxtdz.com/js/youpiao2.js
 ||feiku.com/images/rxsg/
 ||feiku.com/images/sdo.jpg
 ||feiku.com/images/hexie.jpg
-||novel.hongxiu.com/fox/novel/yayang.html
 pic.hongxiu.com/fox/hx/$script
 pic.hongxiu.com/www/images/zhuantipic/
 lxwxw.com/scripts/new/$script
 ||qbooksky.com^$script,subdocument
 readnovel.com/js/$subdocument
 readnovel.com/web/js/header.js
-readnovel.com/web/js/channel_partlist_pop.js
-redbanana.cn$object
 sfw.com.cn/templets/banner/
 sfw.com.cn##div[class$="Banner1"]
-bbs.sfw.com.cn/include/javascript/common.js
-bbs.whsee.com/cnfriend/
 bbs.whsee.com/js/
-www.xs8.cn/data/adjsT.js
-www.xs8.cn/data/apic/$image
-www.xs8.cn/data/iframe/xad$script,subdocument
+||xs8.cn/data/adjsT.js
+||xs8.cn/data/apic/$image
+||xs8.cn/data/iframe/xad$script,subdocument
 images.xxsy.net/sygg/
-||zuilu.com/js/tan2/$script
 
 !---PHPWind Sites
 ##div#ads_r_tpc
@@ -1285,6 +1279,7 @@ u.1133.cc^
 ||37dz.com^$third-party
 ||3bu.com^$third-party
 ||3gpz.net^$third-party
+||45511.com^$third-party
 ||50bang.org^$third-party
 ||518wz.com^$third-party
 ||51link.com^$third-party
@@ -1358,6 +1353,7 @@ click.com$third-party
 ||flashads.cn^$third-party
 ||flashwing.net^$third-party
 ||gamediad.com$third-party
+||games32.cn^$third-party
 ||gcuj.com^$third-party
 ||haoll.com^$third-party
 ||hdtworld.com^$third-party
@@ -1395,7 +1391,6 @@ click.com$third-party
 ||onetad.com^$third-party
 .pee.cn/$third-party
 ||ppzhe.cn^$third-party
-qianming*^$third-party
 ||ttmsg.qianqian.com^
 ||quantui.com^$third-party
 ||richi.cc$third-party
@@ -1464,6 +1459,7 @@ guanggao
 |http://www*/ggao/
 images/adv/$image
 /paypic/*
+qianming*^$third-party
 
 !-----------------------------Privacy---------------------
 51img.ajiang.net
