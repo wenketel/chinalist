@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: tWC3cxD8abIDa+9ZEcHPXw
+!  Checksum: neqdjOrEXzf6HUaw0Ry69g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 12 Apr 2010 18:51:08 +0800
+!  Last Modified:  Mon, 12 Apr 2010 20:20:00 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -58,6 +58,13 @@ search.21cn.com##td.frame_2b>table[width="170"],[width="165"]
 ||3boys2girls.com/include/overture_ads.js
 ||3boys2girls.com/images/newdefault/banner$image
 ktzhk.com/plugins/cache_template/adv_3b2g.js
+
+!---51nb.com/thinkpad.cn
+@@/forum/images/*/*$domain=51nb.com|thinkpad.cn,image
+/forum/images/*$domain=51nb.com|thinkpad.cn,image
+thinkpad.cn,51nb.com##div.menu+div.maintable>table.t_rown[width="875"]
+thinkpad.cn,51nb.com##td.line[style="padding: 5px;"]
+thinkpad.cn,51nb.com##td[valign="middle"][align="left"]
 
 !---56.com
 /acs.56.com
@@ -1004,7 +1011,7 @@ m.openv.tv/$object_subquest
 res.youku.com/$image
 
 !--Miscellaneous
-www.1000fr.net/images/qvod_760_80.gif
+www.1000fr.net/images/adpk.jpg
 111cn.cn/js/downc.js
 111cn.cn/*gg_$script
 ||1m1m.cn/bar/
