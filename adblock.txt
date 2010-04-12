@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: cx+X6KB+ro8Q1YaZbTH+8Q
+!  Checksum: i+lWeSInpHMFXgo1IrE/GQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 12 Apr 2010 13:47:44 +0800
+!  Last Modified:  Mon, 12 Apr 2010 13:55:05 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -438,10 +438,6 @@ sports.qq.com##div[id^="ad"],[id^="Ad"],[id^="Sports_F"]
 ||fangqq.com/UserFiles/
 fangqq.com##div[id$="Ad"],[class^="ad"]
 
-!---QQ163
-qq163.com^$subdocument
-qq163.com/jss/share2.js
-
 !---巧巧读书
 @@qqread.com/swf/qqread_rollpic.swf
 qqread.com/swf/
@@ -454,10 +450,6 @@ up.hiao.com^
 qingdaonews.com/AdPreview/
 www.hiao.com,qingdaonews.com##div.commonrightad
 hiao.com##div[class$="Ads"]
-
-!---飞速网
-img.rayfile.com/scr/$script
-rayfile.com##div[class*="AD"],.nDown_level_0
 
 !---人人
 ||dj.renren.com^
@@ -715,9 +707,6 @@ http://www.xinhuanet.com/undefined
 .xinhuanet.com/js/xilan/ad_right_2009.js
 ||imgs.xinhuanet.com/icon/photos/20071010tp.swf
 
-!---西祠胡同
-xici.net##DIV[class*="ad"]
-
 !---西子湖畔
 www.xizi.com/include/rotator.js
 www.xizi.com/include/sinaflash.js
@@ -921,6 +910,8 @@ brsbox.com##a.downwps_blue,.downwps_p1
 brsbox.com##div.truedownloadwps,.downwps_blue
 google.mmjq.com^
 tx908.com^
+img.rayfile.com/scr/$script
+rayfile.com##div[class*="AD"],.nDown_level_0
 
 !---News Sites
 ||backchina.com/banners/
@@ -1163,6 +1154,8 @@ qianlong.com##DIV.aditem01
 qd.code.qihoo.com/com_spe.js$script
 ||qdcars.com/fla/$object,image
 ||qkzz.net/image2/$image
+qq163.com^$subdocument
+qq163.com/jss/share2.js
 ||qqkj.cn/$script
 @@|http://www.qqkj.cn/js/copy.js
 union.qunar.com/live/wnxjs.php?$script
@@ -1455,6 +1448,7 @@ mysilu.com##DIV[id^="ad_"]
 bbs.pspchina.net##DIV[id^="ad_"]
 bbs.xdxdxd.com###ad_888
 xiami.com##div.play_ad
+xici.net##DIV[class*="ad"]
 
 !-----------------------Temporary--------------------------------------------------------
 !-----------------------2010.4--------------------------------------------------------
