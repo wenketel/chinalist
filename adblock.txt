@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: eVyzVBm0gsJlOQ/fh4BZCw
+!  Checksum: Y2HHOG11OW9G3gTnDnPLLw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 15 Apr 2010 17:37:44 +0800
+!  Last Modified:  Thu, 15 Apr 2010 18:35:35 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -980,6 +980,7 @@ readnovel.com/js/$subdocument
 readnovel.com/web/js/header.js
 sfw.com.cn/templets/banner/
 sfw.com.cn##div[class$="Banner1"]
+bbs.sfw.com.cn/attachments/
 bbs.whsee.com/js/
 ||xs8.cn/data/adjsT.js
 ||xs8.cn/data/apic/$image
@@ -1439,7 +1440,7 @@ js/netjc.js|
 ||vdoing.com^$third-party
 
 !-----------------------Element Hiding--------------------
-~discuss.com.hk##div[id^="ad_thread"]
+##div[id^="ad_thread"]
 ##div#focus.focus
 189.cn##div#miniAd
 av199.com,hd199.com##tr.altbg2>TD[width="100%"]
