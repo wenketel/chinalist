@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: LKr7dSlv/iA5th1H1Way8A
+!  Checksum: NUdOTtOYA6zjsGUamfzg9A
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 16 Apr 2010 21:56:29 +0800
+!  Last Modified:  Fri, 16 Apr 2010 22:36:05 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -382,8 +382,8 @@ myfiles.com.cn##td[height="60"]
 news.msn.com.tw$object
 promotion.msn.com.tw
 tw.msn.com##div[id^="bslink"],#partner1,[class*="shop"]
-news.msn.com.tw##div[id^="ad"],[id^="love"],[class^="three"],#market_content
-news.msn.com.tw###market,#fashion_content,.right_travel_modelbg
+tw.msn.com##[id^="partner"],[id^="bslink"],[class*="shop"]
+news.msn.com.tw##[id^="ad_"],[id^="fashion_"],[id^="market"],[class^="three"],.right_travel
 
 !---NewHua
 /newhuagg/*$image,domain=onlinedown.net|newhua.com
@@ -530,9 +530,7 @@ sina.com.hk##div[style="border: 1px solid rgb(206, 206, 206); width: 298px;"]
 sina.com.hk##div.sidebarItem>h2+div.sidebarItemContent.link1.M0.P0
 
 !---sina.com.tw
-||sina.com.tw/images/*/ad$image
-||sina.com.tw/include/ad$subdocument
-||sina.com.tw/channel_ad/
+sina.com.tw$subdocument
 google.sina.com.tw##.adgoogle
 
 !---搜房
@@ -948,6 +946,7 @@ nownews.com###focus_board,#life_info,#related_link,#ad_for_video,.floatBox
 ||newtalk.tw/ad_
 /33.pcpop.com
 ||ashow.pcpop.com
+pcpop.com##td[valign="top"]
 ||nextmedia.com/DFA/js_ndxtag_v409.cfm?*
 tw.nextmedia.com##.ad300x100,.contentAd_300x250
 sinovision.net/ui/js/adm.js
