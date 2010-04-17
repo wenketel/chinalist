@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: 80lHPW+tEPhyiHeQDMLKeg
+!  Checksum: rGecytfxtaLkyrG/qH8qDA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 17 Apr 2010 11:12:30 +0800
+!  Last Modified:  Sat, 17 Apr 2010 12:35:09 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -245,12 +245,6 @@ img.duote.com/js/pathAd.js
 img.duote.com/js/clickDownAjax4.js
 img.duote.com/js/clickDownAjax3.js
 duote.com##.tuwen.line_green
-
-!---数位视野
-||dcview.com.tw/adscript/
-||dcview.com.tw/adnew/
-dcview.com##div[class^="ad"],.brand
-dcview.com.tw##p.tp-ad
 
 !---多玩游戏网
 ||duowan.com/duowan.js
@@ -736,11 +730,10 @@ cn.yimg.com/i/js/ymw/b02/ymw-window-min.js
 news.cn.yahoo.com##.shang,.aili,.tui,.k6,.st,.pah
 !--TW
 l.yimg.com/f/a/tw/
-l.yimg.com/f/i/tw/ysm/ruby/$subdocument
 l.yimg.com/hf/
-tw.knowledge.yahoo.com###ykpasyv,.ad
-tw.news.yahoo.com###[id^="ynwsad"],[id^="ynwskt"],[id^="ad"],#ynwsfture,#ynwspr,#ynwsmag,#ynwsnw
-tw.yahoo.com###ticker,#ad_mntl,.newsad,.admod
+yimg.com/*/tw/ysm/
+tw.yahoo.com##.admod,.newsad
+tw.news.yahoo.com##[id^="ad"],[id^="ynwsad"],#ynwsnw,#ynwsktw,#ynwsmag,#ynwsfture,#ynwspr,#containerktw
 !--HK
 yimg.com/mq/a/hk/
 hk.yahoo.com##div[id^="ad"],#mntl1,#ysm-hs-sc
