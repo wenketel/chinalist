@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: F7lOeexpH2WWFd01xXym4w
+!  Checksum: 6WUdfRYTx8ntyJyW8uXzug
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 17 Apr 2010 21:22:37 +0800
+!  Last Modified:  Sat, 17 Apr 2010 23:31:34 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -19,7 +19,7 @@ img2.126.net/ntesrich/$script
 bbs.163.com/bbs/floatlayer/floatLayer.js
 163.com##.gg210,.ggR,.ggM,.newMessage,#adMenuContent,.gg,.gg360
 ent.163.com##.gg360
-mail.163.com###[id$="FakeLetterDiv"]
+mail.163.com##[id$="FakeLetterDiv"]
 news.163.com##*[class^="ad"]
 
 !---16k小說網
@@ -81,7 +81,7 @@ hm.i8.com.cn/GetAdContent.aspx?$script
 r.6.cn/rm6_stat.js
 r.6.cn/pswf/*_pause_*.swf
 r.6.cn/pswf/*_fuceng_*.swf
-6.cn###[id^="adText"],[id=HDad],#palyerAdText,[id$="dxPopularize"],.listTextAd,[id$="TextAd"]
+6.cn##[id^="adText"],[id=HDad],#palyerAdText,[id$="dxPopularize"],.listTextAd,[id$="TextAd"]
 
 !---中国娱乐网
 img.67.com/aaAssembly/
@@ -128,7 +128,7 @@ www.baidu.com##table[width="30%"][align="right"] div[style|=border]
 image.baidu.com##table#relEcom
 image.baidu.com###ecomContainer
 mp3.baidu.com###dMA + script + table[cellspacing][cellpadding]
-news.baidu.com###[id="ecad"]
+news.baidu.com###ecad
 zhidao.baidu.com###right_be,#cproshow,#youa,.fc-down
 
 !---书阁
@@ -1432,7 +1432,7 @@ js/netjc.js|
 ||vdoing.com^$third-party
 
 !-----------------------Element Hiding--------------------
-###[id^="ad_thread"]
+##[id^="ad_thread"]
 ###focus.focus
 189.cn###miniAd
 av199.com,hd199.com##tr.altbg2>TD[width="100%"]
