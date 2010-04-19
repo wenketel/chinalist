@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: DFJeZU/FyFJbGSLPBevI0Q
+!  Checksum: L+PnD33Atx6Q6LN45dogbQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 19 Apr 2010 09:21:41 +0800
+!  Last Modified:  Mon, 19 Apr 2010 09:42:03 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -495,14 +495,10 @@ dailynews.sina.com##TD[width="900"][height="100"]
 
 !---sina.com.cn
 /^http:\/\/d\d+\.sina\.com/
-sina.com.cn/unipro/
-||sinaimg.cn/hs/$object
 blog.sina.com.cn/lm/mini/$subdocument
-blog.sina.com.cn/main/hot_tag/all/$script
 bj.house.sina.com.cn/iframe/$subdocument,script
 ent.sina.com.cn/iframe/musicjs/
-||lining.sina.com.cn^
-||sina.com.cn/*/taglist.html
+news.sina.com.cn/iframe/js/$script
 rm.sina.com.cn/icast/rotator.js
 sinaimg.cn/unipro/
 pfp.sina.com.cn/
@@ -519,12 +515,10 @@ news.sina.com.cn###divResNewsBottom
 !---sina.com.hk
 ||as.sinahk.net$third-party
 ||asimg.sinahk.net$third-party
-sina.com.hk##div[style="border: 1px solid rgb(206, 206, 206); width: 298px;"]
 sina.com.hk##div.sidebarItem>h2+div.sidebarItemContent.link1.M0.P0
 
 !---sina.com.tw
 sina.com.tw$subdocument
-google.sina.com.tw##.adgoogle
 
 !---搜房
 sofang.com/images/$object
