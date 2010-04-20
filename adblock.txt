@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: kwJQ7nY01pucwoVxRgBj1A
+!  Checksum: uf3AuykFhCltkvdYRHqweg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 20 Apr 2010 19:12:58 +0800
+!  Last Modified:  Tue, 20 Apr 2010 19:16:34 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -679,11 +679,6 @@ hk.yahoo.com##div[id^="ad"],#mntl1,#ysm-hs-sc
 ||admd.yam.com/
 yam.com##.yamfavor_block,[class^="yamrightcontent_life"]
 
-!---zdnet.com.tw/taiwan.cnet.com
-zdnet.com.tw/*ad*$image,background
-zdnet.com.tw/graphics/
-taiwan.cnet.com###cnetevent_promo,.ads_tb
-
 !---抓虾
 zhuaxia.com/adImage/$image
 zhuaxia.com/elong360/js/$script
@@ -864,6 +859,8 @@ image.wenweipo.com/*/ad_
 ||iads.xinmin.cn^
 media.yesky.com/
 yesky.com##div[class^="ad"]
+zdnet.com.tw/*ad*$image,background
+zdnet.com.tw/graphics/
 
 !---Online Novel Sites
 ||365zw.com/static/js/show.js
