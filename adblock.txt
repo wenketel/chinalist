@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: qUkaIAaap17qdMuLddJ6hw
+!  Checksum: i0AzcmkiX4/ZbbDSeT50sQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 20 Apr 2010 17:16:05 +0800
+!  Last Modified:  Tue, 20 Apr 2010 18:29:07 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -582,7 +582,6 @@ adcontrol.tudou.com/
 js.tudouui.com/js/fn/saleloader$script
 */tudoumini/$domain=tudou.com,object_subrequest
 |http://istat.$object_subrequest
-|http://stat.$object_subrequest
 www.tudou.com###adex_box
 
 !---udn
@@ -645,12 +644,6 @@ ent.wst.cn/skin/pixviewer.swf
 hr.wst.cn/ads/
 www.wst.cn##div[class*="ad"]
 campus.wst.cn,house.wst.cn##div[id^="BannerZoneAD_Div"]
-
-!---爱卡汽车网
-d0.xcar.com.cn/d0_js.js
-d0.xcar.com.cn/newpush_n.php
-d0.xcar.com.cn/push_n.php
-d1.xcar.com.cn^$object
 
 !---新华网
 news.cn/ad/
@@ -1149,6 +1142,8 @@ adv*.tw.tranews.com/
 webcars.com.cn/js/InsertFlashAd$script
 ||west263.com/vcp/
 ||weste.net/js_v2009/ggao
+d0.xcar.com.cn/
+xcar.com.cn##div[class^="adset"]
 js.xiaoyouxi.cn/ee/
 my.xishui.net/aggd/$script
 ||xitek.com/*mojs.php?$script
@@ -1393,11 +1388,11 @@ qianming*^$third-party
 !-----------------------------Privacy---------------------
 51img.ajiang.net
 click2/count/$script
-/count.js|
+/count.js
 /counter.js
 ||cnzz.com^$third-party
-.com.cn/pv.js|
-.com/pv.js|
+.com.cn/pv.js
+.com/pv.js
 /hiido.js
 ||cdn.hiido.cn^$third-party
 js/tongji.js|
@@ -1405,8 +1400,9 @@ js/netjc.js|
 /ktrace/ktrace$script
 /PV?peerid=
 |http://counter.$domain=~shooter.cn
+|http://count.
 |http://pv.
-|http://stat.$script,domain=~verycd.com
+|http://stat.$domain=~verycd.com
 ||pixanalytics.com^$third-party
 ||sitetag.us^$third-party
 ||linezing.com^$third-party
