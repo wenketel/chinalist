@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: YSfIAnXc+kv7vlXlP9uktg
+!  Checksum: UYDeZAxbcmNxC/PQ+1fDtQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 20 Apr 2010 19:36:03 +0800
+!  Last Modified:  Tue, 20 Apr 2010 23:40:18 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -671,7 +671,7 @@ yimg.com/mq/a/hk/
 hk.yahoo.com##div[id^="ad"],#mntl1,#ysm-hs-sc
 
 !---yam天空
-||admd.yam.com/
+admd.yam.com/
 yam.com##.yamfavor_block,[class^="yamrightcontent_life"]
 
 !---抓虾
@@ -1345,7 +1345,7 @@ images/adv/$image
 qianming*^$third-party
 
 !-----------------------------Privacy---------------------
-51img.ajiang.net
+51img.ajiang.net^
 click2/count/$script
 /count.js
 /counter.js
@@ -1353,6 +1353,7 @@ click2/count/$script
 .com.cn/pv.js
 .com/pv.js
 /hiido.js
+||hotrank.com.tw$third-party
 ||cdn.hiido.cn^$third-party
 js/tongji.js|
 js/netjc.js|
@@ -1363,7 +1364,7 @@ js/netjc.js|
 |http://pv.
 |http://stat.$domain=~verycd.com
 ||pixanalytics.com^$third-party
-||sitetag.us^$third-party
+||sitetag.us$third-party
 ||linezing.com^$third-party
 ||vdoing.com^$third-party
 
