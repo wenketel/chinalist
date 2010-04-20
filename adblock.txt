@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: VAWvjqnTqGKML3rp6V4/bg
+!  Checksum: DSDSpHNjL7buwva8AZBssw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 20 Apr 2010 19:21:25 +0800
+!  Last Modified:  Tue, 20 Apr 2010 19:24:13 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -565,11 +565,6 @@ file1.laibafile.cn/laiba/res/shadow-rc.png
 laiba.tianya.cn/laiba/$subdocument
 laiba.tianya.cn##.goog-roundedpanel
 
-!---Tom
-js.pub.tom.com/09-hp/$script
-sc.tom.com/*/$object
-tom.com##.tuijian
-
 !---TomPDA
 tompda.com/scripts/index.js
 ||tompda.com/tupian/adimgs/$image,object
@@ -855,6 +850,8 @@ tw.nextmedia.com##.ad300x100,.contentAd_300x250
 sinovision.net/ui/js/adm.js
 sinovision.net/ui/js/index_ad.js
 takungpao.com/images/top/
+js.pub.tom.com/
+tom.com##.tomgame
 image.wenweipo.com/*/ad_
 ||singtao.com/$script
 ||iads.xinmin.cn^
@@ -1374,7 +1371,6 @@ js/netjc.js|
 
 !-----------------------Element Hiding--------------------
 ##[id^="ad_thread"]
-###focus.focus
 189.cn###miniAd
 av199.com,hd199.com##tr.altbg2>TD[width="100%"]
 ce.cn###toprad
