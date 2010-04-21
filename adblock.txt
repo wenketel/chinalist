@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: 6m5bd6IFcrkazyrl8NcXLQ
+!  Checksum: WJQQT3cgfyqkGMZpPfF74g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 21 Apr 2010 00:49:29 +0800
+!  Last Modified:  Wed, 21 Apr 2010 09:26:33 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -1324,7 +1324,7 @@ guanggao
 @@|http://gg.a.5d6d.com$domain=bbs.vc52.cn
 |http://gg.$subdocument,image,script,object
 |http://ggg.$subdocument,image,script,object
-!---for/ad/
+!---/ad/
 /html/ad/*
 @@|http://www.equn.com/wiki/DNETC%40HOME
 |http://w*/ad/
@@ -1332,7 +1332,7 @@ guanggao
 |http://*.com.cn/ad/
 |http://*.com.tw/ad/
 |http://*/image/ad/
-!---for /gg/
+!---/gg/
 /images/gg/*
 |http://www.*/gg/
 |http://*.com/gg/
@@ -1346,32 +1346,33 @@ images/adv/$image
 qianming*^$third-party
 
 !-----------------------------Privacy---------------------
-51img.ajiang.net^
-click2/count/$script
+!--count
 /count.js
 /counter.js
-||cnzz.com^$third-party
+click2/count/$script
+|http://count.
+|http://counter.$domain=~shooter.cn
+!--pv
+/PV?peerid=
+|http://pv.
 .com.cn/pv.js
 .com/pv.js
-/hiido.js
-||hotrank.com.tw$third-party
-||cdn.hiido.cn^$third-party
-js/tongji.js|
-js/netjc.js|
-/ktrace/ktrace$script
-/PV?peerid=
-|http://counter.$domain=~shooter.cn
-|http://count.
-|http://pv.
-|http://stat.$domain=~verycd.com
+51img.ajiang.net^
+||cnzz.com^$third-party
 ||pixanalytics.com^$third-party
 ||sitetag.us$third-party
 ||linezing.com^$third-party
 ||vdoing.com^$third-party
+||hotrank.com.tw$third-party
+/hiido.js
+||cdn.hiido.cn^$third-party
+js/tongji.js
+js/netjc.js
+/ktrace/ktrace$script
+|http://stat.$domain=~verycd.com
 
 !-----------------------Element Hiding--------------------
 ##[id^="ad_thread"]
-189.cn###miniAd
 av199.com,hd199.com##tr.altbg2>TD[width="100%"]
 ce.cn###toprad
 crsky.com##.banner,.banner-leader-index
