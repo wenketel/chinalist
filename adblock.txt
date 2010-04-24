@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: A+j3KA5u7nL6XRzuJ6iJow
+!  Checksum: HIKiyYHA/Jy6zH7uBxvUgA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 24 Apr 2010 09:10:54 +0800
+!  Last Modified:  Sat, 24 Apr 2010 09:53:42 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -650,6 +650,11 @@ ent.wst.cn/skin/pixviewer.swf
 hr.wst.cn/ads/
 www.wst.cn##div[class*="ad"]
 campus.wst.cn,house.wst.cn##div[id^="BannerZoneAD_Div"]
+
+!---西祠胡同
+files.xici.net^$object
+xici.net##[class*=" ad"]
+xici.net##a[href^="http://xiciafp.allyes.com/main/adfclick"]
 
 !---西子湖畔
 www.xizi.com/include/rotator.js
@@ -1407,7 +1412,6 @@ bbs.pspchina.net##DIV[id^="ad_"]
 bbs.weiphone.com##div[id^="ads_"]
 bbs.xdxdxd.com###ad_888
 xiami.com##.play_ad
-xici.net##div[class*="ad"]
 zaobao.com###myMovie
 
 !-----------------------Temporary--------------------------------------------------------
