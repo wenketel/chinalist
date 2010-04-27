@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: 4z3RuBvIQDRyhUpFrjRutg
+!  Checksum: THUJzqOeT9woibbURj6dmQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 27 Apr 2010 17:09:02 +0800
+!  Last Modified:  Tue, 27 Apr 2010 17:15:21 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -1373,11 +1373,9 @@ qianming*^$third-party
 !-----------------------------Privacy---------------------
 !--count
 /count.js
-/counter.js
-/counter.php
 click2/count/$script
 |http://count.
-|http://counter.$domain=~shooter.cn
+/counter.$domain=~shooter.cn
 !--pv
 /PV?peerid=
 |http://pv.
