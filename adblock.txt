@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: jDktNxr+f0fzxwAFQ8uKgg
+!  Checksum: bPUEXBogIRgg6/VMMY1EHQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 28 Apr 2010 11:34:27 +0800
+!  Last Modified:  Wed, 28 Apr 2010 14:12:25 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -344,7 +344,6 @@ kkkmh.com##div[class^="mm-"]
 @@img.c4.ku6.cn/index/upload/*/indexPlayer*.swf|
 img.c4.ku6.cn/*/upload/$object
 img.ku6.com/podcast/swf/*/TaskBar.swf|
-img.c4.ku6.cn/*/upload/$object
 image.ku6.com/a888d/
 stat.ku6.com/dostatv.do$script
 ku6.com##img.adh,.b_ad
@@ -649,7 +648,6 @@ campus.wst.cn/js/floatADO.js
 car.wst.cn/ad/
 ent.wst.cn/FuWu/
 ent.wst.cn/skin/pixviewer.swf
-hr.wst.cn/ads/
 www.wst.cn##div[class*="ad"]
 campus.wst.cn,house.wst.cn##div[id^="BannerZoneAD_Div"]
 
@@ -953,8 +951,6 @@ images.51job.com/im/careerpost/onlinead
 ||bbs.5i.com/*/ad$script
 ||www.7369.com/pic/
 8684.cn/gg/*$script
-96bbs.com/images/adv/$image
-96bbs.com##table#table1
 ||99iche.com/*.swf|
 bbs.a9vg.com/showit/pic/*/
 ||aiting.com/js/ad_$script
@@ -1298,7 +1294,6 @@ click.com$third-party
 ||scupio.com^$third-party
 ||since1984.cn^$third-party
 ||skycn.org.cn^$third-party
-||inte.sogou.com^$third-party
 ||tazhao.com^$third-party
 .toocle.com/adu/?*
 ||totoso.com^$third-party
@@ -1399,6 +1394,7 @@ js/netjc.js
 !-----------------------Element Hiding--------------------
 ##[id^="ad_thread"]
 16kbook.com###AdsT
+96bbs.com##table#table1
 av199.com,hd199.com##tr.altbg2>TD[width="100%"]
 ce.cn###toprad
 crsky.com##.banner,.banner-leader-index
