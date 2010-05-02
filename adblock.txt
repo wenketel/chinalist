@@ -1,7 +1,15 @@
 [Adblock Plus 1.1]
+<<<<<<< .mine
+!  Checksum: 2beu1wJhtlmyhdun6rGDFw
+=======
 !  Checksum: uwA96li52AWwrC2nUs1w0g
+>>>>>>> .r2107
 !  Adblock Plus List with Main Focus on Chinese Sites.
+<<<<<<< .mine
+!  Last Modified:  Sun, 02 May 2010 23:52:55 +0800
+=======
 !  Last Modified:  Sun, 02 May 2010 23:35:04 +0800
+>>>>>>> .r2107
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -50,7 +58,8 @@ news.163.com##*[class^="ad"]
 ||game.21cn.com/09/upload/
 ||market.21cn.com/w/pay/$domain=~dgnet.net
 ||ranking.21cn.com
-search.21cn.com##td.frame_2b>table[width="170"],[width="165"]
+search.21cn.com##[width="165"]
+search.21cn.com##td.frame_2b>table[width="170"]
 
 !---3boys2girls
 ||3boys2girls.com/$subdocument
@@ -145,7 +154,8 @@ zhidao.baidu.com###youa
 ||autosense.bitauto.com^$script
 ||g.bitauto.com^$script
 ||ip.bitauto.com/ipLocation/iprss0801.ashx
-bitauto.com##.bt_ad,.con_ad
+bitauto.com##.bt_ad
+bitauto.com##.con_ad
 
 !---书阁
 ||bookge.com/hz1/tcby.js
@@ -274,7 +284,8 @@ deskcity.com##li[id^="tuijian_"]
 ||dict.cn/fy/$subdocument
 ||dict.cn/ok/
 ||dict.cn/sync2/pic$image
-dict.cn##.gg,div[style="background: none repeat scroll 0% 0% rgb(231, 247, 247);"]
+dict.cn##.gg
+dict.cn##div[style="background: none repeat scroll 0% 0% rgb(231, 247, 247);"]
 dict.cn###topgg
 
 !---多特软件站
@@ -290,7 +301,8 @@ duote.com##.tuwen.line_green
 ||duowan.com/public/s/market_count.js
 ||duowan.com/public/s/top_gg.js
 ||market.duowan.com/
-news.duowan.com###pageContTop,#Link300
+news.duowan.com###Link300
+news.duowan.com###pageContTop
 
 !---eNet
 .enet.com.cn/article_new/$subdocument
@@ -605,7 +617,8 @@ sina.com.cn,sina.com##[class^="txtadsblk"]
 sina.com.cn,sina.com###fiWrap
 sina.com.cn##a[href^="http://sina.allyes.com/main/adfclick?db"]
 blog.sina.com.cn##.topbannerAD
-finance.sina.com.cn##.topADs,#adSinaHouseHeadLink
+finance.sina.com.cn###adSinaHouseHeadLink
+finance.sina.com.cn##.topADs
 mag.sina.com.cn###guide
 news.sina.com.cn###divResNewsBottom
 
@@ -1523,7 +1536,8 @@ godic.net,frdic.com###sidebar1
 hdzone.org##table[width="740px"]
 hoopchina.com##.ad728-90
 hoopchina.com##.ad980
-mobile01.com##div.text_ad,.forum_sidemenu
+mobile01.com##.forum_sidemenu
+mobile01.com##.text_ad
 mysilu.com##div[id^="ad_"]
 bbs.pspchina.net##div[id^="ad_"]
 bbs.weiphone.com##div[id^="ads_"]
