@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: 9DFU09oOVwKwgVfnSLEK/w
+!  Checksum: H0JMA8McCzSv+J5kB4frKQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 02 May 2010 21:57:15 +0800
+!  Last Modified:  Sun, 02 May 2010 23:13:30 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -504,7 +504,12 @@ qidian.com##div[class^="gg"]
 |http://ad*.qq.com^$script,object
 ||is.qq.com/js/addportal.js
 ||l.qq.com/lview?$script
-qq.com##.adArea,.wenziad
+qq.com##[class^="right_ad"]
+qq.com##[id^="AdRight-Article-QQ"]
+qq.com##[class^="AdRight-Article-QQ"]
+qq.com##.adArea
+qq.com##.wenziad
+qq.com##.wrapper.AdTop-Article-QQ
 comic.qq.com##div[id^="Comic_Width"]
 ent.qq.com###adzone2
 ent.qq.com##div[id^="adbanner"]
@@ -513,9 +518,6 @@ news.qq.com##.news_ad_box
 news.qq.com###sideBars>div:nth-child(6)
 news.qq.com###sideBars>div:nth-child(10)
 news.qq.com###sideBars>div:nth-child(odd)
-sports.qq.com##[id^="Ad"]
-sports.qq.com##[id^="Sports_F"]
-sports.qq.com##div[id^="ad"]
 www.qq.com##[id^="QQCOM_Width"]
 www.qq.com###proAd
 
