@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: ZYr/I2OvbLtWVq83gjms3Q
+!  Checksum: oKzcpr2j+5POsKiG+ghOQw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 07 May 2010 14:48:42 +0800
+!  Last Modified:  Fri, 07 May 2010 19:01:04 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -584,31 +584,25 @@ dailynews.sina.com##.TopNav+table
 dailynews.sina.com##td[width="900"][height="100"]
 
 !---sina.com.cn
-/^http:\/\/d\d+\.sina\.com/
-||blog.sina.com.cn/lm/mini/$subdocument
+|http://d*.sina.com.cn
+/head.js$domain=sina.com.cn
 ||bj.house.sina.com.cn/iframe/$subdocument,script
-||ent.sina.com.cn/iframe/musicjs/
 ||news.sina.com.cn/iframe/js/$script
 ||rm.sina.com.cn/icast/rotator.js
 ||sinaimg.cn/unipro/
 ||pfp.sina.com.cn/
 ||pfpip.sina.com/
 ||news.sina.com.cn/pvcounter/pvcounter.js
-sina.com.cn##.topadsbanner
 sina.com.cn##.topAD
-sina.com.cn##.topads
+sina.com.cn,sina.com##*[id^="ads"]
+sina.com.cn,sina.com##*[class*="ads"]
 sina.com.cn,sina.com##div[class^="AD"]
-sina.com.cn,sina.com##[class^="ads"]
-sina.com.cn,sina.com##[class$="ads"]
-sina.com.cn,sina.com##[class^="adsblk"]
-sina.com.cn,sina.com##[class^="txtadsblk"]
 sina.com.cn,sina.com###fiWrap
-sina.com.cn##a[href^="http://sina.allyes.com/main/adfclick?db"]
 blog.sina.com.cn##.topbannerAD
 finance.sina.com.cn###adSinaHouseHeadLink
 finance.sina.com.cn##.topADs
 mag.sina.com.cn###guide
-news.sina.com.cn###divResNewsBottom
+www.sina.com.cn##.left
 
 !---sina.com.hk
 ||as.sinahk.net$third-party
