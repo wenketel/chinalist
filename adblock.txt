@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: STPEDy8jT+5EJfjftFm0rA
+!  Checksum: ZYr/I2OvbLtWVq83gjms3Q
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 07 May 2010 13:30:54 +0800
+!  Last Modified:  Fri, 07 May 2010 14:48:42 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -437,9 +437,10 @@ news.msn.com.tw##div[class^="three"]
 news.msn.com.tw##.right_travel
 
 !---NewHua
-/newhuagg/*$image,domain=onlinedown.net|newhua.com
-/newhuagg/*p$script,domain=onlinedown.net|newhua.com
-/newhuagg/*txt$script,domain=onlinedown.net|newhua.com
+/newhuagg/*$image,background
+/newhuagg/*p$script
+/newhuagg/*txt$script
+/newhuagg/IE
 ||newhua.com/zt/
 
 !---Nownews
