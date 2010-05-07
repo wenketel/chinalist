@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: g81O9f0BaqVi9YpGc+r5lw
+!  Checksum: vYz6BXXvMs8tCKi5hu8skA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 07 May 2010 20:18:38 +0800
+!  Last Modified:  Fri, 07 May 2010 22:29:48 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -69,19 +69,16 @@ thinkpad.cn,51nb.com##td[valign="middle"][align="left"]
 56.com##.rAd_text
 
 !---六间房
+/csjs10/tan_$domain=6.cn,script
 ||6.cn/mdfor/index_new.js
 ||6.cn/mdfor/watch_new11.js
-||6.cn/csjs10/tan_20100329.js
-||6.cn/csjs/tu/a_0.3.js
 ||hm.i8.com.cn/GetAdContent.aspx?$script
 ||r.6.cn/rm6_stat.js
-||r.6.cn/pswf/*_pause_*.swf
 ||r.6.cn/pswf/*_fuceng_*.swf
+6.cn##.listTextAd
 6.cn##[id^="adText"]
 6.cn##[id=HDad]
 6.cn##[id$="dxPopularize"]
-6.cn##[id$="TextAd"]
-6.cn##.listTextAd
 6.cn###palyerAdText
 tu.6.cn###slideShowAd
 
