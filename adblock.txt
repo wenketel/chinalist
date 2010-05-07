@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: vYz6BXXvMs8tCKi5hu8skA
+!  Checksum: 5vIavOYWyKv5MVjQ3ndF5g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 07 May 2010 22:29:48 +0800
+!  Last Modified:  Sat, 08 May 2010 00:00:16 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -496,29 +496,25 @@ qidian.com###AddMark
 qidian.com##div[class^="gg"]
 
 !---QQ
-@@|http://mat1.qq.com/*/focus*.swf
+@@|http://mat1.gtimg.com/news/commfocus/focus.swf
 |http://mat1.$object,domain=qq.com
 |http://ad*.qq.com^$script,object
 ||is.qq.com/js/addportal.js
 ||l.qq.com/lview?$script
-qq.com##[class^="right_ad"]
-qq.com##[id^="AdRight-Article-QQ"]
-qq.com##[class^="AdRight-Article-QQ"]
-qq.com##.adArea
-qq.com##.wenziad
-qq.com##.wrapper.AdTop-Article-QQ
-qq.com##A[href*="adsclick"]
-comic.qq.com##div[id^="Comic_Width"]
-ent.qq.com###adzone2
-ent.qq.com##div[id^="adbanner"]
-ent.qq.com###main_nav_qq+table
-news.qq.com##.news_ad_box
-news.qq.com###sideBars>div:nth-child(6)
-news.qq.com###sideBars>div:nth-child(10)
-news.qq.com###sideBars>div:nth-child(odd)
-sports.qq.com##[id^="Sports_F_"]
-www.qq.com##[id^="QQCOM_Width"]
+qq.com##[id^="Ad"]
+qq.com##[class*="Ad"]
+qq.com##[class*="business-Article-QQ"]
+qq.com##[id*="_F_Up"]
+qq.com##[id*="_Width"]
+qq.com##[class*="qiye-Article-QQ"]
+www.qq.com##.adArea
+www.qq.com##.l_qq_com
 www.qq.com###proAd
+ent.qq.com##[id^="adzone"]
+ent.qq.com##div#main_nav_qq+table[width="960"]
+news.qq.com##.news_ad_box
+news.qq.com###News_Rectangle
+sports.qq.com##[id^="ad"]
 
 !--fangQQ
 ||fangqq.com/UserFiles/
