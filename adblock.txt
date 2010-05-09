@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: mUExKHTmueNfq3BKyHqQrA
+!  Checksum: qRco1N9bPMeRZnElcfLsjA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 09 May 2010 16:19:15 +0800
+!  Last Modified:  Sun, 09 May 2010 18:16:16 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -12,17 +12,15 @@
 !---------------------Well-known Sites-------------------
 !---网易
 ||adgeo.163.com/
+||g.163.com^$subdocument
 ||img1.126.net^
 ||img2.126.net^
 ||youdao.com/imp/$script
-163.com##.gg
-163.com##.gg360
-163.com##.gg590
-163.com##.ggM
-163.com##.ggR
+163.com##[class^="gg"]
 mail.163.com##[id$="FakeLetterDiv"]
 mail.126.com,mail.163.com##.gWel-gg-2
 mail.126.com,mail.163.com##div.chl>a:last-child
+www.163.com##[class^="colL gg"]
 
 !---17173
 ||17173.com/if/
