@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: YD2eHZERgdyer++GLw2WkQ
+!  Checksum: H34bFn+oCucqPBgDaXiHaQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 12 May 2010 03:17:59 +0800
+!  Last Modified:  Wed, 12 May 2010 15:49:05 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -125,7 +125,7 @@ taobao.com##div[class^="banner"]
 www.baidu.com##.f.EC_PP
 www.baidu.com##table[bgcolor="#f5f5f5"][width="65%"]
 www.baidu.com##table[width="30%"][align="right"] div[style|=border]
-image.baidu.com##table#relEcom
+image.baidu.com###relEcom
 image.baidu.com###ecomContainer
 mp3.baidu.com###dMA + script + table[cellspacing][cellpadding]
 news.baidu.com###ecad
@@ -372,7 +372,7 @@ net.ithlj.com##[height="85"]
 ||jtrip.net^$third-party
 ||jpwave.net/top.jpg
 ||fdigi.com/fdigi.jpg
-jpseek.com##table.i_table[cellpadding="6"]
+jpseek.com##.i_table[cellpadding="6"]
 
 !---开心网
 ||kaixin001.com#div(id=kxcpmdiv)
@@ -626,8 +626,8 @@ sina.com.hk##div.sidebarItem>h2+div.sidebarItemContent.link1.M0.P0
 ||inte.sogou.com^
 ||pb.sogou.com^
 ||sogou.com/images/sogou3.gif
-sogou.com##table#sidebar
-pic.sogou.com##table#intword
+www.sogou.com###sidebar
+pic.sogou.com###intword
 pic.sogou.com###sidebar1
 v.sogou.com##.box123
 
@@ -702,7 +702,7 @@ verycd.com##.banner_toped2k
 verycd.com###relatiGood
 verycd.com##iframe.Banner1
 verycd.com##iframe.Banner2
-verycd.com##li.non-topic
+verycd.com##.non-topic
 verycd.com###page-body>iframe:first-child
 
 !---Vista123.com
@@ -779,7 +779,7 @@ gougou.com##A[href^="http://click.cm.sandai.net/"]
 ||cn.yahoo.com/bbs/tuiguang.html
 ||cn.yimg.com/bbs/feng/690-90.jpg
 ||cn.yimg.com/i/js/ymw/b02/ymw-window-min.js
-cn.yahoo.com##div.scrolldoorFrame
+cn.yahoo.com##.scrolldoorFrame
 news.cn.yahoo.com##.aili
 news.cn.yahoo.com##.k6
 news.cn.yahoo.com##.pah
@@ -830,7 +830,7 @@ zhulang.com##.hx_newgg
 ||zol.com.cn/imphit0*.gif?
 ||pic.zol-img.com.cn/$object
 zol.com.cn##.banner760_1
-zol.com.cn##ul.pic_ad
+zol.com.cn##.pic_ad
 zol.com.cn##div[id^="AD"]
 zol.com.cn##div[id^="Bar"]
 zol.com.cn##div[id^="Float"]
@@ -1528,7 +1528,6 @@ js/netjc.js
 !-----------------------Element Hiding--------------------
 ##[id^="ad_thread"]
 16kbook.com###AdsT
-96bbs.com##table#table1
 av199.com,hd199.com##tr.altbg2>TD[width="100%"]
 ce.cn###toprad
 cf8.com.cn##div.Left3Header div[style^="font-size"]
