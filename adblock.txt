@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: Rf2f0TCnqlPt9kLDoYZbdQ
+!  Checksum: cuNqAkvjuy8FM+CI03Crvg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 12 May 2010 15:59:10 +0800
+!  Last Modified:  Wed, 12 May 2010 22:22:27 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -63,7 +63,7 @@ thinkpad.cn,51nb.com##td.line[style="padding: 5px;"]
 thinkpad.cn,51nb.com##td[valign="middle"][align="left"]
 
 !---56.com
-/acs.56.com
+acs.56.com^
 ||56.com/tuiguang/$subdocument
 ||56img.com/js/56stat.js
 56.com##.rAd_text
@@ -203,13 +203,13 @@ china.cn##.topAd
 chinatimes.com##.ad
 
 !---cnBeta
-img.cnbeta.com/$object
-img.cnbeta.com/*250$image
-img.cnbeta.com/*300$image
-img.cnbeta.com/*340$image
-img.cnbeta.com/*576$image
-img.cnbeta.com/*600$image
-img.cnbeta.com/*950$image
+||img.cnbeta.com/$object
+||img.cnbeta.com/*250$image
+||img.cnbeta.com/*300$image
+||img.cnbeta.com/*340$image
+||img.cnbeta.com/*576$image
+||img.cnbeta.com/*600$image
+||img.cnbeta.com/*950$image
 ||u17.com/$domain=cnbeta.com
 cnbeta.com###comad
 cnbeta.com###fm_r
@@ -658,7 +658,7 @@ subpig.net##div.wrap>table[width="97%"][bgcolor="#000000"][background="#ffffff"]
 
 !---TianYa
 |http://8*.tianya.cn/
-global.tianyaui.com/global/wizard/js/wizard.js
+||global.tianyaui.com/global/wizard/js/wizard.js
 ||tianyabook.com/$script
 ||file1.laibafile.cn/laiba/res/shadow-rc.png
 ||laiba.tianya.cn/laiba/$subdocument
@@ -674,7 +674,7 @@ nba.tom.com##div[id^="Float_"]
 !---TomPDA
 ||tompda.com/scripts/index.js
 ||tompda.com/tupian/adimgs/$image,object
-cdnbbs.tompda.com/images/$image,object
+||cdnbbs.tompda.com/images/$image,object
 tompda.com##.Advertising
 
 !---土豆
@@ -953,7 +953,7 @@ rayfile.com##div[class*="AD"]
 ||region.cns.hk^
 ||pic.cnmo.com/$image,object
 cnmo.com##div[id^="AD"]
-.daqi.com/clicklog.js
+||daqi.com/clicklog.js
 ||hxjs.tool.hexun.com/*/pageMediaControl.js
 ||hxjs.tool.hexun.com/*/pageMediaControl1.js
 ||hinews.cn/out/www09index.js
@@ -1151,7 +1151,7 @@ bbs.hdchina.org##.home_l_shop
 bbs.hdchina.org##.home_new_ad
 ||hjenglish.com/js/double_index2007.js
 ||hudong.com/hzgg/
-hdad.hudong.com/hdad/
+||hdad.hudong.com/hdad/
 ||p4u.hinet.net/cowband^$third-party
 ithome.com.tw##.ad_title
 ithome.com.tw##td.big_ad
@@ -1180,7 +1180,7 @@ joy666.com###ad_footerbanner1
 kenengba.com##div#sidebar>script[src]+script+div
 ||kuqin.com/da/
 ||page.proxy-service.net/knb/knb.gif
-wa.koowo.com/lyrics/img/kwgg/$subdocument
+||wa.koowo.com/lyrics/img/kwgg/$subdocument
 ||www.kswchina.com/images/kao_top.swf
 com/mini*$domain=kugou.com|kugoo.com
 yule.kugou.com##TD.kuang[style="border-color: rgb(255, 245, 96); padding-top: 5px;"]
