@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: LQuJRoru5soXJ58T5g2BDA
+!  Checksum: w6BFzW7J3R/jRMY5xTfWWw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 13 May 2010 13:49:41 +0800
+!  Last Modified:  Thu, 13 May 2010 15:05:20 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -465,8 +465,8 @@ bbs.pcbeta.com##div[class="pcbeta-gg s_clear"]
 ||btm.pchome.net
 ||js-1.pchome.net/js/ipub/ipub_homepage.js
 ||js-1.pchome.net/ol.js
-pchome.net##div[id^="AD"]
-pchome.net##div[class*="ad"]
+pchome.net##[id^="AD"]
+pchome.net##[class^="ad"]
 
 !---PConline
 ||3conline.com/ivy/$image
@@ -1408,6 +1408,7 @@ youthwant.com.tw##div[class ^="ad"]
 ||molidao.com^$third-party
 ||myiee.com^$third-party
 ||naqigs.com^$third-party
+||narrowad.com^$third-party
 ||netgy.com^$third-party
 ||newwang.com^$third-party
 ||niwota.com$third-party
