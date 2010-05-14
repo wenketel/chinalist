@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: 4EdWkcODF4+0PyP8YEsXFA
+!  Checksum: Oz77pDi+B6P/GBx555nSEw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 14 May 2010 14:28:11 +0800
+!  Last Modified:  Fri, 14 May 2010 14:35:50 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -459,7 +459,7 @@ nownews.com###related_link
 !---远景
 ||pbcdn.com/img/ie8.swf
 ||pbcdn.com/img/notice_ie8_r.jpg
-bbs.pcbeta.com##div[class="pcbeta-gg s_clear"]
+bbs.pcbeta.com##.pcbeta-gg.s_clear
 
 !---PCHome.net
 ||btn.pchome.net
@@ -527,7 +527,7 @@ www.qq.com###proAd
 
 !--fangQQ
 ||fangqq.com/UserFiles/
-fangqq.com##div[id$="Ad"]
+fangqq.com##[id$="Ad"]
 fangqq.com##[class^="ad"]
 
 !---巧巧读书
@@ -535,13 +535,13 @@ fangqq.com##[class^="ad"]
 ||qqread.com/swf/
 /2008ad/*$domain=qqread.com|jkgood.com
 ||qqread.com/*js/$script
-qqread.com##div[class$="ad"]
+qqread.com##[class$="ad"]
 
 !---青岛新闻网,海奥网
 ||up.hiao.com^
 ||qingdaonews.com/AdPreview/
 hiao.com,qingdaonews.com##.commonrightad
-hiao.com##div[class$="Ads"]
+hiao.com##[class$="Ads"]
 
 !---人人
 ||dj.renren.com^
@@ -716,11 +716,11 @@ verycd.com###page-body>iframe:first-child
 ||win7china.com/script/ruanmei.js
 vista123.com###adwords
 vista123.com##P.w_330
-vista123.com##div[style="width: 260px; height: 260px; float: left; line-height: 18px;"]
+vista123.com##[style="width: 260px; height: 260px; float: left; line-height: 18px;"]
 
 !--Vista123.cn
 ||vista123.cn/notice.js
-vista123.cn##div[style="width: 260px; height: 260px; float: left;"]
+vista123.cn##[style="width: 260px; height: 260px; float: left;"]
 
 !---华声在线
 ||voc.com.cn/adsClick/
@@ -748,7 +748,7 @@ wmzhe.com##.Softcontent3
 ||car.wst.cn/ad/
 ||ent.wst.cn/FuWu/
 ||ent.wst.cn/skin/pixviewer.swf
-www.wst.cn##div[class*="ad"]
+www.wst.cn##[class*="ad"]
 campus.wst.cn,house.wst.cn##[id^="BannerZoneAD_Div"]
 
 !---西祠胡同
