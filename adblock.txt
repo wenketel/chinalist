@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-!  Checksum: xZO8bnINDw7DnIaL9N06Wg
+!  Checksum: MkwyiPQENG0yzi1O2F1YQA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 16 May 2010 16:34:30 +0800
+!  Last Modified:  Tue, 18 May 2010 17:10:24 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -1517,7 +1517,8 @@ click2/count/$script
 |http://pv.
 .com.cn/pv.js
 .com/pv.js
-51img.ajiang.net^
+||51img.ajiang.net^
+||51yes.com^$third-party
 ||cnzz.com^$third-party
 /hiido.js
 ||cdn.hiido.cn$third-party
@@ -1525,16 +1526,16 @@ click2/count/$script
 js/tongji.js
 js/netjc.js
 /ktrace/ktrace$script
-||51yes.com^$third-party
 ||linezing.com^$third-party
 ||look.urs.tw$third-party
 ||pixanalytics.com^$third-party
 ||referer.pixplug.in$third-party
 ||sitetag.us$third-party
+|http://stat.$domain=~verycd.com|~ameblo.jp
 ||twcount.com^$third-party
 |http://track.
 ||vdoing.com^$third-party
-|http://stat.$domain=~verycd.com|~ameblo.jp
+/visit.gif
 
 !-----------------------Element Hiding--------------------
 ##[id^="ad_thread"]
