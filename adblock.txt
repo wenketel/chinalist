@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: UTngOx/ffbqBrb0hJVwKLg
+!  Checksum: yRMS5GXJ002hJ4BnPRPLIA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 20 May 2010 19:49:38 +0800
+!  Last Modified:  Thu, 20 May 2010 20:02:38 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -498,6 +498,12 @@ news.pchome.com.tw##.t1322
 ||i.ph66.com/attachment/$object
 ph66.com##*[id*="ad"]
 
+!---痞客邦
+||pixnet.net/blog/addvisit?
+pixnet.net###ad-text
+||pixanalytics.com^$third-party
+||referer.pixplug.in$third-party
+
 !---起点中文网
 ||qidian.com/Javascript/CaiHongJingLing.js
 ||cj.qidian.com^
@@ -854,8 +860,6 @@ zol.com.cn##[id^="Float"]
 ||freegroup.org/files/adbox.html
 ||gordon168.tw/gameflier/
 minwt.com###CoverFlowAd
-||pixnet.net/blog/addvisit?
-pixnet.net###ad-text
 ||image.soft.idv.tw/ad/
 ||steachs.com^$object
 ||wretch.cc/_y/l/e/serv/blog/ysm.htm
@@ -1542,8 +1546,6 @@ js/netjc.js
 /ktrace/ktrace$script
 ||linezing.com^$third-party
 ||look.urs.tw$third-party
-||pixanalytics.com^$third-party
-||referer.pixplug.in$third-party
 ||sitetag.us$third-party
 |http://stat.$domain=~verycd.com|~ameblo.jp
 ||twcount.com^$third-party
