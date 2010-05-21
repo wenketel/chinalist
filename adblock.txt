@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: NgzybaLoY/jGTeXTbGOIig
+!  Checksum: gujs7qGJuqsvaAIn9DnHgw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 22 May 2010 01:00:22 +0800
+!  Last Modified:  Sat, 22 May 2010 07:41:32 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -63,10 +63,12 @@ thinkpad.cn,51nb.com##td.line[style="padding: 5px;"]
 thinkpad.cn,51nb.com##td[valign="middle"][align="left"]
 
 !---56.com
-acs.56.com^
-||56.com/tuiguang/$subdocument
-||56img.com/js/56stat.js
-56.com##.rAd_text
+||56.com/flashApp/p2v_out_ad.swf
+||56.com/tieba/ad/
+||corp.56.com
+||56img.com/56ads/
+/js/promo/*
+|http://acs.
 
 !---六间房
 /csjs10/tan_$domain=6.cn,script
