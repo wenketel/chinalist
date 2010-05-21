@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: Fx9o4vs/qnagU2Ld82A/NQ
+!  Checksum: 6NcgwtZyxtK/zfkjwu1dbg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 21 May 2010 09:29:46 +0800
+!  Last Modified:  Fri, 21 May 2010 09:43:51 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -211,7 +211,6 @@ chinatimes.com##.ad
 ||img.cnbeta.com/*576$image
 ||img.cnbeta.com/*600$image
 ||img.cnbeta.com/*950$image
-||u17.com/$domain=cnbeta.com
 cnbeta.com###comad
 cnbeta.com###fm_r
 cnbeta.com###userInfo
@@ -1028,7 +1027,6 @@ book.birdsee.com##div.scriptx>a>font
 ||sfw.com.cn/templets/banner/
 sfw.com.cn##[class$="Banner1"]
 ||bbs.sfw.com.cn/attachments/
-||u17.com/z/mylife/acfun/
 ||bbs.whsee.com/js/
 ||xs8.cn/data/adjsT.js
 ||xs8.cn/data/apic/$image
@@ -1162,6 +1160,7 @@ fj007.com###wordlink
 ||www.ggtee.com/gteam/300
 ||hanzify.org/Main/Template/*/a-d-s/
 ||haoting.com/gdjs/$script
+.hk/aeiou/$domain=discuss.com.hk|uwants.com
 ||hdchina.org/hdx.gif
 bbs.hdchina.org##.home_l_shop
 bbs.hdchina.org##.home_new_ad
@@ -1452,6 +1451,7 @@ youthwant.com.tw##[class^="ad"]
 ||tazhao.com^$third-party
 ||toocle.com/adu/?*
 ||totoso.com^$third-party
+.u17.com^$third-party
 .u88.cn/$third-party
 ||ubcpm.com^$third-party
 ||ujoin.net^$third-party
@@ -1528,7 +1528,7 @@ qianming*^$third-party
 click2/count/$script
 |http://count.
 |http://counter.$domain=~shooter.cn
-!--pvz
+!--pv
 /PV?peerid=
 |http://pv.
 .com.cn/pv.js
@@ -1573,8 +1573,4 @@ zaobao.com###myMovie
 !-----------------------Temporary--------------------------------------------------------
 !-----------------------2010.5--------------------------------------------------------
 ||amazon.cn$third-party
-!--discuss.com.hk & uwants.com
-||i1.hk/aeiou/
-||discuss.com.hk/aeiou/
-||uwants.com/aeiou/
 !------------------------End of List--------------------------------------------------------
