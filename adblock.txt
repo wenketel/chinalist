@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: +2JLLLEZ3Rkl0jJx1ycs0A
+!  Checksum: kc4bhjvuvWkw6fj7s0qrvw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 23 May 2010 11:06:07 +0800
+!  Last Modified:  Sun, 23 May 2010 12:00:41 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -124,7 +124,7 @@ taobao.com##[class^="banner"]
 ||unstat.baidu.com^
 ||utk.baidu.com^
 ||box.zhangmen.baidu.com/js/ad.js
-hi.baidu.com/ui/scripts/refer/refer.js
+||hi.baidu.com/ui/scripts/refer/refer.js
 www.baidu.com##.f.EC_PP
 www.baidu.com##table[bgcolor="#f5f5f5"][width="65%"]
 www.baidu.com##table[width="30%"][align="right"] div[style|=border]
@@ -205,12 +205,12 @@ china.cn##.topAd
 chinatimes.com##.ad
 
 !---cnBeta
-@@|http://img.cnbeta.com/newsimg/
-img.cnbeta.com/$object
-img.cnbeta.com/*300$image
-img.cnbeta.com/*340$image
-img.cnbeta.com/*576$image
-img.cnbeta.com/*950$image
+@@||img.cnbeta.com/newsimg/
+||img.cnbeta.com/$object
+||img.cnbeta.com/*300$image
+||img.cnbeta.com/*340$image
+||img.cnbeta.com/*576$image
+||img.cnbeta.com/*950$image
 cnbeta.com###comad
 cnbeta.com###fm_r
 cnbeta.com###userInfo
@@ -296,8 +296,8 @@ news.duowan.com###pageContTop
 ||img05.taobaocdn.com/imgextra/i5/*_!!70483262.gif
 
 !---eNet
-.enet.com.cn/article_new/$subdocument
-.enet.com.cn/enetshow.shtml
+||enet.com.cn/article_new/$subdocument
+||enet.com.cn/enetshow.shtml
 ||trace.enet.com.cn/
 enet.com.cn##[class^="ad"]
 enet.com.cn##div.fra>div.con222
@@ -417,9 +417,9 @@ ku6.com###swfdiv
 ||rwj.app.mop.com/reference.swf
 
 !---驱动之家
-@@images.mydrivers.com/player/focus2.swf
+@@||images.mydrivers.com/player/focus2.swf
 ||mydrivers.com/002f/*/$subdocument
-@@11.mydrivers.com/news/commv2.js
+@@||11.mydrivers.com/news/commv2.js
 ||11.mydrivers.com/$script
 ||count.mydrivers.com/
 ||images.mydrivers.com/$object
@@ -542,7 +542,7 @@ fangqq.com##[id$="Ad"]
 fangqq.com##[class^="ad"]
 
 !---巧巧读书
-@@qqread.com/swf/qqread_rollpic.swf
+@@||qqread.com/swf/qqread_rollpic.swf
 ||qqread.com/swf/
 /2008ad/*$domain=qqread.com|jkgood.com
 ||qqread.com/*js/$script
@@ -606,7 +606,7 @@ dailynews.sina.com##td[width="900"][height="100"]
 ||sinaimg.cn/unipro/
 ||pfp.sina.com.cn/
 ||pfpip.sina.com/
-img.house.sina.com.cn/a/201004/fst/585-90.swf
+||img.house.sina.com.cn/a/201004/fst/585-90.swf
 ||news.sina.com.cn/pvcounter/pvcounter.js
 sina.com.cn##.topAD
 sina.com.cn,sina.com##*[id^="ads"]
@@ -968,7 +968,7 @@ rayfile.com##[class*="AD"]
 ||pic.cnmo.com/$image,object
 cnmo.com##[id^="AD"]
 ||daqi.com/clicklog.js
-hxjs.tool.hexun.com/homeway/pageMediaControl_2010.js
+||hxjs.tool.hexun.com/homeway/pageMediaControl_2010.js
 ||hinews.cn/out/www09index.js
 ||hinews.cn/out/wwwpage.js
 ||htpc1.com/newfolder/
@@ -1059,7 +1059,7 @@ google.com##div.item-body>div>div[style="border-top: 1px solid rgb(203, 217, 217
 ||cnt.openv.com/apis/vmis.php
 ||m.openv.tv/$object_subquest
 ||pps.tv/js_a2d/
-.atm.youku.com/
+||atm.youku.com/
 ||res.youku.com/$image
 ||youmaker.com/logoad2.jpg
 ||youmaker.com/edoors200708180-150.swf
@@ -1075,7 +1075,7 @@ google.com##div.item-body>div>div[style="border-top: 1px solid rgb(203, 217, 217
 ||360doc.com/js/albb3.js
 ||app-g.39.net^
 3seconds.cn##.banner300
-.4oa.com^$script
+||4oa.com/$script
 ||qun.51.com/$subdocument
 ||v3.apic.51.com/vda09.js
 ||images.51job.com/im/careerpost/onlinead
@@ -1184,18 +1184,18 @@ ithome.com.tw##td.big_ad
 ||imanhua.com/v2/money/
 ||imp3.net/data/js/
 ||imusic.cn/common/b_$subdocument
-@@x.itiexue.net/html/yellowPage.js
+@@||x.itiexue.net/html/yellowPage.js
 ||x.itiexue.net/html/$script
 ||x.itiexue.net/images/$image,object
 ||www.ivsky.com/v3/ggpic/
-ftp.javaeye.com/public/
+||ftp.javaeye.com/public/
 javaeye.com###slides
 ||img.jb51.net/imgby/
 jcunbbs.cn##[id^="ad_"]
 ||jdunion.com^$third-party
 ||jd-bbs.com^$object
 joy666.com###ad_footerbanner1
-www.joy666.com/ad$script
+||joy666.com/ad$script
 ||kdnet.net/images/$object
 ||kdnet.net/upaffix/document/
 ||guobie.com^$third-party
@@ -1207,7 +1207,7 @@ kenengba.com##div#sidebar>script[src]+script+div
 com/mini*$domain=kugou.com|kugoo.com
 yule.kugou.com##TD.kuang[style="border-color: rgb(255, 245, 96); padding-top: 5px;"]
 ||kukudm.com/$script
-@@kukudm.com/js2/$script
+@@||kukudm.com/js2/$script
 ||kyer8.com/inc/Kyer8ad.js
 ||linuxidc.com/linuxfile/
 ||mtime.com/pr/news/$subdocument
@@ -1252,7 +1252,7 @@ stockstar.com##[class*="_ad"]
 techbang.com.tw##[class^="ad"]
 techbang.com.tw##[class^="clearfix "]
 techbang.com.tw##.section.last
-||tianshannet.com.cn^$object
+||tianshannet.com.cn$object
 ||tianshannet.com.cn/news/node_61586.htm
 tianshannet.com.cn##.adtxt1.link15
 ||topsage.com/service/$object
@@ -1263,7 +1263,7 @@ tianshannet.com.cn##.adtxt1.link15
 ||ttads.ttplayer.com/chtml/www.ttplayer.com.bottom.htm
 ||tz513.com$object
 ||u148.net/activity/$~object_subrequest
-.ucar.cn/$third-party
+||ucar.cn/$third-party
 ||ucar.cn/ucar/UploadPic/SecondHandCar/$object
 ||u-nas.cn/flash/chd.swf
 ||webcars.com.cn/js/InsertFlashAd$script
@@ -1302,23 +1302,23 @@ youthwant.com.tw##[class^="ad"]
 
 !----------------pornographic, spam, ads-union...........
 ||0252.com^$third-party
-.0cai.cn/$third-party
+||0cai.cn/$third-party
 ||100tone.com^$third-party
-||u.1133.cc^
+||u.1133.cc$third-party
 ||118114.cn$third-party
 ||122.com.tw$third-party
 ||158c.com^$third-party
 ||19dc.com^$third-party
 ||1gou.com^$third-party
 ||1stcngame.com
-||code.2bj.cc^$third-party
+||code.2bj.cc$third-party
 ||2bj.cn/click.html?$subdocument
 ||333wan.com^$third-party
 ||360quan.com^$third-party
 ||365tc.com^$third-party
 ||37cs.com^$third-party
 ||37dz.com^$third-party
-.3bu.com^$third-party
+||3bu.com/$third-party
 ||3gpz.net^$third-party
 ||45511.com^$third-party
 ||50bang.org^$third-party
@@ -1368,7 +1368,7 @@ youthwant.com.tw##[class^="ad"]
 ||atpanel.com^$third-party
 ||ad-plus.cn$third-party
 ||aiweb.tw$third-party
-||bafang.cc^$third-party
+||bafang.cc$third-party
 ||besthitsnow.com^$third-party
 ||blogad.com.tw$third-party
 ||blogupp.com^$third-party
@@ -1443,7 +1443,7 @@ youthwant.com.tw##[class^="ad"]
 ||onetad.com^$third-party
 .pee.cn/$third-party
 ||ppzhe.cn$third-party
-.tjq.com^$third-party
+||tjq.com/$third-party
 ||ttmsg.qianqian.com^
 ||quantui.com^$third-party
 ||richi.cc$third-party
@@ -1454,7 +1454,7 @@ youthwant.com.tw##[class^="ad"]
 ||tazhao.com^$third-party
 ||toocle.com/adu/?*
 ||totoso.com^$third-party
-.u17.com^$third-party
+||u17.com/$third-party
 .u88.cn/$third-party
 ||ubcpm.com^$third-party
 ||ujoin.net^$third-party
@@ -1479,7 +1479,7 @@ youthwant.com.tw##[class^="ad"]
 ||yiqifa.com^$third-party
 ||zhanzhangle.com^$third-party
 ||union.zhongsou.com^$third-party
-||utops.cc^$third-party
+||utops.cc$third-party
 ||zncool.com^$third-party
 
 !--------------------------Other (sort by letter)--------
