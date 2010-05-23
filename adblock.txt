@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: Gi5SOI6m3Z2+D7J+hIfd7g
+!  Checksum: +2JLLLEZ3Rkl0jJx1ycs0A
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 22 May 2010 23:53:54 +0800
+!  Last Modified:  Sun, 23 May 2010 11:06:07 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -265,13 +265,13 @@ dayoo.com##.adVideoS
 deskcity.com##[id^="tuijian_"]
 
 !---Dict.CN
-||dict.cn/ef/$subdocument
-||dict.cn/fy/$subdocument
+||dict.cn/sync2/
 ||dict.cn/ok/
-||dict.cn/sync2/pic$image
+||dict.cn/$subdocument
+dict.cn##[id$="gg"]
+dict.cn##div#main_right_right>div:nth-child(5)
 dict.cn##.gg
-dict.cn##[style="background: none repeat scroll 0% 0% rgb(231, 247, 247);"]
-dict.cn###topgg
+dict.cn##.widget.EF
 
 !---多特软件站
 ||img.duote.com/duotehtml/
