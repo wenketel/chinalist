@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: AAJIezWNz4g46Xi6rpvxyA
+!  Checksum: 27KMLbW8NjQBoABB45HXXQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 25 May 2010 16:32:17 +0800
+!  Last Modified:  Tue, 25 May 2010 18:52:50 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -526,19 +526,14 @@ qidian.com##[class^="gg"]
 @@||mat1.gtimg.com/sports/hd2009/loadingAs3.swf
 |http://mat1.$object,domain=qq.com
 |http://ad*.qq.com^$script,object
-||is.qq.com/js/addportal.js
-||l.qq.com/lview?$script
-qq.com##[id^="Ad"]
-qq.com##[class*="Ad"]
-qq.com##[class*="business-Article-QQ"]
-qq.com##[id*="_F_Up"]
-qq.com##[id*="_Width"]
-qq.com##[class*="qiye-Article-QQ"]
+is.qq.com/js/addportal.js
+l.qq.com/lview?$script
 ent.qq.com##[id^="adzone"]
 ent.qq.com##div#main_nav_qq+table[width="960"]
-news.qq.com##.news_ad_box
-news.qq.com##div#mini_nav_qq+table
-news.qq.com###News_Rectanglez
+news.qq.com###AdRight-Article-QQ
+news.qq.com##*.wrapper.AdTop-Article-QQ
+news.qq.com##[class*="mod-right business-Article-QQ"]
+news.qq.com##.sidBoxNoborder
 sports.qq.com##[id^="ad"]
 www.qq.com##.adArea
 www.qq.com##.l_qq_com
