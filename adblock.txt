@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: evgxmXs8gt0l5tcFUJZ2RQ
+!  Checksum: Tf5556gc/GU3BtHYtBrIZA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 25 May 2010 23:05:55 +0800
+!  Last Modified:  Wed, 26 May 2010 10:03:43 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -323,7 +323,8 @@ focus.cn##.ad_fp
 
 !---無料遊戲王
 ||freegame.com.tw/p_ad_f.htm
-bc.geocities.yahoo.co.jp/js/geov2.js
+||freegame.com.tw/count*.htm
+bc.geocities.yahoo.co.jp/
 
 !---Google
 google.com.tw###tadsb
@@ -940,8 +941,8 @@ down.x6x8.com/good/
 ||market.178.com^
 ||265g.com/templets/js/index.js
 market.52pk.com^
-bahamut.com.tw/js/ad/
-bmp.ali213.net
+pic.bahamut.com.tw/js/ad/
+bmp.ali213.net^
 img.cngba.com/da/
 ||gamebase.com.tw/gbno1/
 gamebase.com.tw##span[id^="aid_"]
@@ -1363,7 +1364,7 @@ u.1133.cc$third-party
 ||a8ww.net$third-party
 ||acs86.com^$third-party
 .ad2.cn/$third-party
-||adcenter.conn.tw$third-party
+||adcenter.com.tw$third-party
 ||adqoo.com$third-party
 ||adsame.com^$third-party
 ||adsfactor.cn$third-party
@@ -1539,7 +1540,6 @@ qianming*^$third-party
 !-----------------------------Privacy---------------------
 !--count
 /count.js
-/counter.htm
 /counter.js
 /counter.php
 click2/count/$script
@@ -1590,5 +1590,4 @@ zaobao.com###myMovie
 !-----------------------Temporary--------------------------------------------------------
 !-----------------------2010.5--------------------------------------------------------
 ||amazon.cn$third-party
-||wayi.com.tw$subdocument,domain=gamer.com.tw
 !------------------------End of List--------------------------------------------------------
