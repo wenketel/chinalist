@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: SAHz1WwrJN0puPYY40BC5g
+!  Checksum: Q+BNPAPmYW0useCgtzRj8g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 28 May 2010 16:19:06 +0800
+!  Last Modified:  Fri, 28 May 2010 17:01:07 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -831,7 +831,7 @@ hk.yahoo.com##[id^="ysm-"]
 hk.yahoo.com###mntl1
 
 !---yam天空
-admd.yam.com/
+admd.yam.com
 yam.com##.yamfavor_block
 yam.com##[class^="yamrightcontent_life"]
 
@@ -1183,7 +1183,6 @@ bbs.hdchina.org##.home_new_ad
 www.hoopchina.com##[class^="ad"]
 bbs.hoopchina.com##.plate_03
 hdad.hudong.com/hdad/
-p4u.hinet.net/cowband^$third-party
 ithome.com.tw##.ad_title
 ithome.com.tw##td.big_ad
 ||hltm.net/js/1.js
@@ -1421,6 +1420,7 @@ u.www.duba.net^$third-party
 ||hdtworld.com^$third-party
 ||heima8.com^$third-party
 ||hiad.myweb.hinet.net^
+||p4u.hinet.net^
 ||hitme.com.cn$third-party
 ||huoli.com^$third-party
 ||icast.cn$third-party
@@ -1472,6 +1472,7 @@ u.juyouxi.com^$third-party
 .u88.cn/$third-party
 ||ubcpm.com^$third-party
 ||ujoin.net^$third-party
+||u-link.nbb.tw$third-party
 ||union001.$third-party
 ||unionbig.com^$third-party
 ||unionbigcpm.cn$third-party
@@ -1481,6 +1482,7 @@ u.juyouxi.com^$third-party
 ||unionli.com^$third-party
 ||uucall.com^$third-party
 ||urlad.com.tw$third-party
+||v-links.net^$third-party
 ||vodone.cn$third-party
 ||vzhan.cn$third-party
 ||wauee.com^$third-party
@@ -1538,12 +1540,14 @@ qianming*^$third-party
 
 !-----------------------------Privacy---------------------
 !--count
+||blog104.com^$third-party
 /count.js
 /counter.js
 /counter.php
 click2/count/$script
 |http://count.
 |http://counter.$domain=~shooter.cn
+||tovery.net^$third-party
 !--pv
 /PV?peerid=
 |http://pv.
