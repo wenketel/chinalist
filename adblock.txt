@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: tPJmJyKY/Tb7Dq8SnZAOGQ
+!  Checksum: 6LFtDpO3I2a+JyBZ9oqsSQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 29 May 2010 09:45:34 +0800
+!  Last Modified:  Sat, 29 May 2010 11:34:06 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -73,12 +73,15 @@ corp.56.com^
 56.com##.rAd_text
 
 !---六间房
+@@|http://r.6.cn/pswf/*qtie
 /csjs10/tan_$domain=6.cn,script
 ||6.cn/mdfor/index_new.js
 ||6.cn/mdfor/watch_new11.js
 ||hm.i8.com.cn/GetAdContent.aspx?$script
 r.6.cn/rm6_stat.js
-r.6.cn/pswf/*_fuceng_*.swf
+||r.6.cn/pswf/
+||6.cn/hdyz.js
+||shrek.6.cn^
 6.cn##.listTextAd
 6.cn##[id^="adText"]
 6.cn##[id=HDad]
@@ -402,7 +405,9 @@ bbs.ktxp.com/iframe/banner.html
 kkkmh.com##[class^="mm-"]
 
 !---Ku6
-@@img.c4.ku6.cn/index/upload/*/indexPlayer*.swf|
+/crazyad
+@@/focusPlayer/MiniPlayerUp.swf
+||img.c4.ku6.cn/index/upload/20100426/niubin/index/body.jpg
 img.c4.ku6.cn/*/upload/$object
 img.ku6.com/podcast/swf/*/TaskBar.swf|
 image.ku6.com/a888d/
