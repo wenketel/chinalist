@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: YORuDKpRzjS1ZELNVpLVPg
+!  Checksum: wR8ZeCjpyI6PKdraiNdVqA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 01 Jun 2010 09:01:50 +0800
+!  Last Modified:  Tue, 01 Jun 2010 09:16:21 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -488,8 +488,11 @@ btn.pchome.net
 btm.pchome.net
 js-1.pchome.net/js/ipub/ipub_homepage.js
 js-1.pchome.net/ol.js
+||onlylady.com/kds/$subdocument
 pchome.net##[id^="AD"]
 pchome.net##[class^="ad"]
+www.pchome.net##*[id*="ad"]
+www.pchome.net###popWin
 
 !---PConline
 ||3conline.com/ivy/$image
