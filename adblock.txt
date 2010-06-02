@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: AyVOUa2NW+fbmOQY9yegeg
+!  Checksum: JNulapFuM3gCQRiwbB9lEA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 02 Jun 2010 14:11:22 +0800
+!  Last Modified:  Wed, 02 Jun 2010 14:24:36 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -55,10 +55,7 @@ thinkpad.cn,51nb.com##div.menu+div.maintable>table.t_rown[width="875"]
 thinkpad.cn,51nb.com##td.line[style="padding: 5px;"]
 
 !---56.com
-||56.com/flashApp/p2v_out_ad.swf
-||56.com/tieba/ad/
 corp.56.com^
-||56img.com/56ads/
 /js/promo/*
 |http://acs.
 56.com##.rAd_text
@@ -73,10 +70,9 @@ shrek.6.cn/api/pageViewCount.php
 hm.i8.com.cn/GetAdContent.aspx
 r.6.cn/pswf/
 6.cn##.listTextAd
-6.cn##[id^="adText"]
-6.cn##[id=HDad]
-6.cn##[id$="dxPopularize"]
 6.cn###palyerAdText
+6.cn##[id^="adText"]
+6.cn##[id$="dxPopularize"]
 tu.6.cn###slideShowAd
 
 !---中国娱乐网
@@ -98,26 +94,32 @@ marketing.taobao.com/
 taobao.com##[class^="banner"]
 
 !---Baidu
-a.baidu.com/ecom$script
+!--unions
 ||c.baidu.com^
 ||cb.baidu.com^
 ||cbjs.baidu.com^
-cpro.baidu.com^
+||cpro.baidu.com^
 ||drmcmm.baidu.com^
 ||eiv.baidu.com^
 ||hm.baidu.com^
 ||ikcode.baidu.com^
-news.baidu.com/js/usertrack.js
 ||nsclick.baidu.com^
 ||s.baidu.com^
-spcode.baidu.com^
+||spcode.baidu.com^
 ||tk.baidu.com^
-tkweb.baidu.com^
-tongji.baidu.com^
-tracker.baidu.com^
-ucstat.baidu.com^
-unstat.baidu.com^
-utk.baidu.com^
+||tkweb.baidu.com^
+||tongji.baidu.com^
+||tracker.baidu.com^
+||ucstat.baidu.com^
+||unstat.baidu.com^
+||utk.baidu.com^
+!--zhidao
+zhidao.baidu.com##.fc-down
+zhidao.baidu.com##.r
+zhidao.baidu.com###youa
+zhidao.baidu.com##div#center>div[style="width: 85%;"]
+a.baidu.com/ecom$script
+news.baidu.com/js/usertrack.js
 hi.baidu.com/ui/scripts/refer/refer.js
 www.baidu.com##.f.EC_PP
 www.baidu.com##table[bgcolor="#f5f5f5"][width="65%"]
@@ -126,10 +128,6 @@ image.baidu.com###relEcom
 image.baidu.com###ecomContainer
 mp3.baidu.com###dMA + script + table[cellspacing][cellpadding]
 news.baidu.com###ecad
-zhidao.baidu.com##.fc-down
-zhidao.baidu.com##.r
-zhidao.baidu.com###youa
-zhidao.baidu.com##div#center>div[style="width: 85%;"]
 ||qiyi.com/player/20100416215927/banner.swf
 
 !---易车网
