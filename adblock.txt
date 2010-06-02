@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: J8SadXhCsHlJhOZZolp1/g
+!  Checksum: WO6lN11DEKqUmHiLFf0sKg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 02 Jun 2010 13:50:13 +0800
+!  Last Modified:  Wed, 02 Jun 2010 13:52:53 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -127,7 +127,6 @@ tracker.baidu.com^
 ucstat.baidu.com^
 unstat.baidu.com^
 utk.baidu.com^
-box.zhangmen.baidu.com/js/ad.js
 hi.baidu.com/ui/scripts/refer/refer.js
 www.baidu.com##.f.EC_PP
 www.baidu.com##table[bgcolor="#f5f5f5"][width="65%"]
@@ -374,12 +373,6 @@ it168.com##.ad
 it168.com##body > div#header2009 + div.w980
 www.it168.com##div#header + div[style^="border"]
 
-!---IT黑龙江
-||ithlj.com/AD_sys/
-www.ithlj.com##table[height="64"]
-net.ithlj.com##table[height="70"]
-net.ithlj.com##[height="85"]
-
 !---日搜
 ||jpseek.com/pr/
 ||jtrip.net^$third-party
@@ -612,7 +605,6 @@ bbs.siluhd.com##[id^="ad_"]
 ||sina.com/bg/ads/
 ||sina.com/freeform/f.js
 ||sina.com/rm/
-||sina.com/match/images/ads_banner/
 ||sina.com/assets/js/dart/
 taglist.html$domain=sina.com.cn
 dailynews.sina.com##.col1
@@ -1127,13 +1119,10 @@ img.autohome.com.cn/pvpv$script
 ||by369.com/BBS/BBSads/
 ||by369.com/d/js/acmsd/
 ||c168c.com/*adv/
-media.carimg.com/ad_comm.js
 ||cbifamily.com/corporation/
 ||chdtv.net/nuogo.jpg
 ||chdtv.net/*.swf|
 chdtv.net##FIELDSET
-media.cheshi-img.com/ad_comm.js
-||chinaventure.com.cn/sponsors/
 ||cmbchina.com/*adv
 /NR/rdonlyres/*$domain=cmbchina.com|icbc.com.cn
 vip.cmbchina.com##td[style="height: 250px;"]
@@ -1601,8 +1590,10 @@ crsky.com##.banner.banner-leader-index
 dianping.com##[class^="DPAD"]
 godic.net,frdic.com###sidebar1
 hdzone.org##table[width="740px"]
+www.ithlj.com##table[height="64"]
+net.ithlj.com##table[height="70"]
+net.ithlj.com##[height="85"]
 mobile01.com##.forum_sidemenu
-mobile01.com##.text_ad
 mysilu.com##[id^="ad_"]
 bbs.pspchina.net##[id^="ad_"]
 bbs.weiphone.com##[id^="ads_"]
