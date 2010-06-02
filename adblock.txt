@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: kaIQlfZ/4Cz8Ndj3JRqQMQ
+!  Checksum: JJlKA3zcOG20LjLH+HEMpA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 02 Jun 2010 12:15:11 +0800
+!  Last Modified:  Wed, 02 Jun 2010 13:14:55 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -136,6 +136,7 @@ image.baidu.com###relEcom
 image.baidu.com###ecomContainer
 mp3.baidu.com###dMA + script + table[cellspacing][cellpadding]
 news.baidu.com###ecad
+zhidao.baidu.com##.fc-down
 zhidao.baidu.com##.r
 zhidao.baidu.com###youa
 zhidao.baidu.com##div#center>div[style="width: 85%;"]
@@ -924,6 +925,8 @@ town.xuite.net/_ad/
 ||cnzz.cc/*js/top.js
 ||cnzz.cc/js/footer.js
 ||soft.cnzz.cc/js/
+JS/zanzhu_*.js$domain=down.cnzz.cn
+down.cnzz.cn/zanzhu/
 ||downbai.com/gaog/
 ||downxia.com/js/
 ||greendl.com/images/
@@ -1605,9 +1608,9 @@ look.urs.tw$third-party
 ||vdoing.com^$third-party
 
 !-----------------------Element Hiding--------------------
+##div#focus.focus
 ##[id^="ad_thread"]
 16kbook.com###AdsT
-androidin.net###focus
 av199.com,hd199.com##tr.altbg2>TD[width="100%"]
 ce.cn###toprad
 cf8.com.cn##div.Left3Header div[style^="font-size"]
