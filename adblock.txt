@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: c6R+fXNgE4O5Yzi4x2a1gw
+!  Checksum: WfsuHiJjtLylhMhSgYoznQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 09 Jun 2010 17:55:16 +0800
+!  Last Modified:  Wed, 09 Jun 2010 19:04:56 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -832,6 +832,13 @@ hk.yahoo.com###mntl1
 yam.com##.yamfavor_block
 yam.com##[class^="yamrightcontent_life"]
 
+!---北青网
+||ynet.com/10171$script
+||ynet.com/var/cache/js/$script
+||fun.ynet.com/z2?
+||ranking.ynet.com^
+||js.auto.msn.com.cn/js/incsearch_a.js
+
 !---原文小說網
 ||yuanwen.com/images/$object
 ||yuanwen.com/images/265games.jpg
@@ -1312,8 +1319,6 @@ xmnn.cn##[class^="ad"]
 a4.yeshj.com^
 image.yingkong.net/data/attach/album/
 news.yingkong.net^
-||ynet.com/10171$script
-||ynet.com/var/cache/js/$script
 ||yododo.com/js/online_help.$script
 rd.youthwant.com.tw/scripts/$script
 youthwant.com.tw##[class^="ad"]
