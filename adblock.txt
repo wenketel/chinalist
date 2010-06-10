@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: wVhrISRRYirh9/y43IjJDw
+!  Checksum: tQy6sOqI+/Rf9SbSzk7LNw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 10 Jun 2010 00:20:59 +0800
+!  Last Modified:  Thu, 10 Jun 2010 09:25:25 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -54,6 +54,11 @@ search.21cn.com##td[width="184"][align="left"]
 /forum/images/*$domain=51nb.com|thinkpad.cn,image
 thinkpad.cn,51nb.com##div.menu+div.maintable>table.t_rown[width="875"]
 thinkpad.cn,51nb.com##td.line[style="padding: 5px;"]
+
+!--
+@@|http://www.52zy.com/gg/$image
+@@||52zy.com/other/js/A_14.js
+||52zy.com/other/js/
 
 !---56.com
 corp.56.com^
@@ -904,8 +909,6 @@ town.xuite.net/_ad/
 ||366soft.net/t/$script
 ||525down.com/dd/
 ||52z.com/show/All.js
-||52zy.com/other/js/
-@@||52zy.com/other/js/A_14.js
 ||7xdown.com/adgg/
 ||9553.com^$script,subdocument
 9553.com##label[style="font-size: 12px;"]
@@ -1097,6 +1100,7 @@ res.youku.com/$image
 ||youmaker.com/edoors200708180-150.swf
 
 !--Miscellaneous
+||1000fr.net/images/adad.gif
 ||1000fr.net/images/adpk.jpg
 ||111cn.cn/js/downc.js
 ||111cn.cn/*gg_$script
