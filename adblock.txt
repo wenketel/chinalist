@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: XZMyTV02sp0klQnfN/korQ
+!  Checksum: V74sjgwNOLF0Ok059Vhg5Q
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 11 Jun 2010 16:16:50 +0800
+!  Last Modified:  Fri, 11 Jun 2010 16:28:06 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -282,11 +282,6 @@ www.fengniao.com##.banner.mt2
 ||focus.cn/common/js/adm2008.js
 focus.cn##.ad_fp
 
-!---时空网
-skads.gxsky.com/$script
-|http://211.138.250.195:8080^$domain=gxsky.com
-gxsky.com###indexad_txt
-
 !---頭條網
 ||hkheadline.com/*promo/
 ||hkheadline.com/*banner$script
@@ -294,20 +289,11 @@ gxsky.com###indexad_txt
 ||hkheadline.com/js/right_promo.js
 ||news.hkheadline.com/js/*ad*.js
 
-!---网络中国
-||httpcn.com/js/
-||httpcn.com/*swf/
-||httpcn.com/mysite/
-||astro.httpcn.com/images/banner/banner_soft2.gif
-
 !---ifeng
 img.ifeng.com/tres/recommend/
-news.ifeng.com/statics/$subdocument
 sta.ifeng.com/stadig/
 ifeng.com##[class^="ad"]
 ifeng.com##.areaAd
-ifeng.com###final_head_ad
-ifeng.com##.maidunbox
 
 !---爱情公寓
 au.ipart.cn/comp/hooks.php
@@ -998,6 +984,8 @@ tw.nextmedia.com##.ad300x100
 tw.nextmedia.com##.contentAd_300x250
 ||sinovision.net/ui/js/adm.js
 ||sinovision.net/ui/js/index_ad.js
+skads.gxsky.com/$script
+gxsky.com###indexad_txt
 ||sznews.com/2008gg/
 ||sznews.com/ad
 ||sznews.com*.files/$object
