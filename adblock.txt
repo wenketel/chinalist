@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 2Cloz+pfC4qHSOX+tHTDhg
+!  Checksum: XZMyTV02sp0klQnfN/korQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 11 Jun 2010 16:05:31 +0800
+!  Last Modified:  Fri, 11 Jun 2010 16:16:50 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -282,15 +282,6 @@ www.fengniao.com##.banner.mt2
 ||focus.cn/common/js/adm2008.js
 focus.cn##.ad_fp
 
-!---無料遊戲王
-||freegame.com.tw/p_ad_f.htm
-||freegame.com.tw/counter.htm
-bc.geocities.yahoo.co.jp/js/geov2.js
-
-!---Google
-google.com.tw###tadsb
-mail.google.com##.nH.u8
-
 !---时空网
 skads.gxsky.com/$script
 |http://211.138.250.195:8080^$domain=gxsky.com
@@ -557,12 +548,6 @@ renren.com##.side-item.masterkong
 ||replays.net/fdsa/
 ||replays.net/images09/*.jpg
 ||replays.net/*/rnad/
-
-!---射手
-||shooter.cn/images/prom/$image
-||shooter.cn/jscript/siteadv.js
-||shooter.cn/static/gghotnews.txt
-shooter.cn##.rootnav
 
 !---思路
 ||siluhd.com/data/js.php?$script
@@ -1253,6 +1238,7 @@ union.qunar.com/live/wnxjs.php?$script
 ||rmdown.com/pc1.gif
 img.sccnn.com/zz/
 ||sellgreat.com/images/Bdvertisement/
+||shooter.cn/jscript/siteadv.js
 ||shudoo.com/jad/$script
 bbs.sjtu.cn,bbs.sjtu.edu.cn,bbs6.sjtu.edu.cn###ad
 image.sofang.com/upfiles/$object
@@ -1554,11 +1540,10 @@ qianming*^$third-party
 !--count
 ||blog104.com^$third-party
 /count.js
-/counter.js
-/counter.php
+@@|http://counter.shooter.cn/$script
+/counter.
 click2/count/$script
 |http://count.
-|http://counter.$domain=~shooter.cn
 counts.flashget.com^$third-party
 ||sitestates.com^$third-party
 ||top-bloggers.com^$third-party
@@ -1599,6 +1584,7 @@ dianping.com##[class^="DPAD"]
 discuz.net##[class^="wp a_"]
 epochtimes.com###insidearticleBodyAd
 godic.net,frdic.com###sidebar1
+mail.google.com##.nH.u8
 hdzone.org##table[width="740px"]
 ithome.com.tw##.ad_title
 ithome.com.tw##.big_ad
