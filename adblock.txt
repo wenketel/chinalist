@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: QJ6lrfaZnzW+3yCVYmWmeg
+!  Checksum: lLXwq46pXtwlMBDP6xwe8A
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 12 Jun 2010 09:05:27 +0800
+!  Last Modified:  Sat, 12 Jun 2010 11:30:08 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -1527,36 +1527,35 @@ qianming*^$third-party
 
 !-----------------------------Privacy---------------------
 !--count
-||blog104.com^$third-party
 /count.js
-@@|http://counter.shooter.cn/$script
-/counter.
+/counter.$domain=~shooter.cn
 click2/count/$script
 |http://count.
 counts.flashget.com^$third-party
-||sitestates.com^$third-party
-||top-bloggers.com^$third-party
-||tovery.net^$third-party
 !--pv
 /PV?peerid=
 |http://pv.
 .com.cn/pv.js
 .com/pv.js
+/hiido.js
+/ktrace/ktrace$script
 51img.ajiang.net^
 ||51yes.com^$third-party
+||blog104.com^$third-party
 ||cnzz.com^$third-party
-/hiido.js
 cdn.hiido.cn$third-party
+||tovery.net^$third-party
+|http://stat.$domain=~verycd.com|~ameblo.jp
+|http://track.
 ||hotrank.com.tw$third-party
 js/tongji.js
 js/netjc.js
-/ktrace/ktrace$script
 ||linezing.com^$third-party
-look.urs.tw$third-party
+||sitestates.com^$third-party
 ||sitetag.us$third-party
-|http://stat.$domain=~verycd.com|~ameblo.jp
+||top-bloggers.com^$third-party
 ||twcount.com^$third-party
-|http://track.
+look.urs.tw$third-party
 ||vdoing.com^$third-party
 
 !-----------------------Element Hiding--------------------
