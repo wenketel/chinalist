@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: QPifTNaaf1dohQg7AFx0LA
+!  Checksum: qP+HS9L9nAjAMZriKDSGNw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 14 Jun 2010 21:52:43 +0800
+!  Last Modified:  Tue, 15 Jun 2010 18:58:58 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -48,6 +48,12 @@ search.21cn.com##td[width="184"][align="left"]
 ||3boys2girls.com/include/overture_ads.js
 ||3boys2girls.com/images/newdefault/banner$image
 ||ktzhk.com/plugins/cache_template/adv_3b2g.js
+
+!---前程無憂
+.com/im/$object,domain=51.com|51job.com
+/careerpost/*$domain=51job.com|51jobcdn.com
+51job.com##[class^="ad_"]
+51job.com##[id^="ad_"]
 
 !---51nb.com/thinkpad.cn
 @@/forum/images/*/*$domain=51nb.com|thinkpad.cn,image
@@ -1052,7 +1058,6 @@ atm.youku.com/
 ||4oa.com/$script
 @@photo.51.com^$elemhide
 v3.apic.51.com/vda09.js
-images.51job.com/im/careerpost/onlinead
 ||51ztzj.com/qq8.gif
 ||52halfcd.com/V8(760X90).gif
 ||52halfcd.com/*.swf|
