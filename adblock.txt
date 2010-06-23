@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: FN2Rf6PB8NCBLcgX3CzR0Q
+!  Checksum: gZsgQ+2VFF9Alkzb20FF3A
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 23 Jun 2010 20:21:36 +0800
+!  Last Modified:  Wed, 23 Jun 2010 20:24:13 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -549,7 +549,8 @@ renren.com##.side-item.masterkong
 ||siluhd.com/images/huasuoo.jpg
 bbs.siluhd.com##[id^="ad_"]
 
-!---sina.com
+!---sina
+!--sina.com
 ||sina.com/gb/ads/
 ||sina.com/bg/ads/
 ||sina.com/freeform/f.js
@@ -561,10 +562,9 @@ chinanews.sina.com##.M_Right
 chinanews.sina.com##table[cellspacing="0"][width="900"]
 dailynews.sina.com##.TopNav+table
 dailynews.sina.com##td[width="900"][height="100"]
-
-!---sina.com.cn
+!--sina.com.cn
 @@|http://down*.tech.sina.com.cn/$script,subdocument
-|http://d*.sina.com.cn$domain=~data.ent.sina.com.cn,~stylesheet
+|http://d*.sina.com.cn$domain=~data.ent.sina.com.cn|~slide.2010.sina.com.cn,~stylesheet
 /head.js$domain=sina.com.cn
 bj.house.sina.com.cn/iframe/$subdocument,script
 news.sina.com.cn/iframe/js/$script
@@ -588,13 +588,11 @@ finance.sina.com.cn##.topADs
 finance.sina.com.cn##.qyfwBlk
 mag.sina.com.cn###guide
 www.sina.com.cn##.sinamall
-
-!---sina.com.hk
+!--sina.com.hk
 as.sinahk.net$third-party
 asimg.sinahk.net$third-party
 sina.com.hk##div.sidebarItem>h2+div.sidebarItemContent.link1.M0.P0
-
-!---sina.com.tw
+!--sina.com.tw
 ||sina.com.tw$subdocument
 
 !---人人软件站
