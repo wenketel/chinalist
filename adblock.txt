@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: Zv/dl+xBWedjntn9SszPDA
+!  Checksum: QDPqnwq4s85+ObajC3i2Wg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 23 Jun 2010 13:30:44 +0800
+!  Last Modified:  Wed, 23 Jun 2010 22:55:39 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -492,10 +492,6 @@ qidian.com###AddMark
 qidian.com##[class^="gg"]
 
 !---QQ
-@@|http://mat1.gtimg.com/$domain=worldcup.qq.com
-@@mat1.gtimg.com/news/commfocus/focus.swf
-@@mat1.gtimg.com/sports/hd2009/loadingAs3.swf
-|http://mat1.$object,domain=qq.com
 |http://ad*.qq.com^$script,object
 ||qq.com/js/ping_qqcom_v2.1.2.js
 is.qq.com/js/addportal.js
@@ -505,6 +501,7 @@ qq.com##.mod-left.bottom-Article-QQ.qiye-Article-QQ
 qq.com##[class^="mod-right business-Article-QQ"]
 qq.com##.mod-right.adBlock-Article-QQ
 qq.com###AdRight-Article-QQ
+mat1.qq.com/ent/
 news.qq.com##.news_ad_box
 news.qq.com###News_F_UpRight
 news.qq.com##.wrapper.AdTop-Article-QQ
