@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: gZsgQ+2VFF9Alkzb20FF3A
+!  Checksum: OK4TjWAqGlgrfBmA/7601Q
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 23 Jun 2010 20:24:13 +0800
+!  Last Modified:  Wed, 23 Jun 2010 20:55:37 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -556,16 +556,13 @@ bbs.siluhd.com##[id^="ad_"]
 ||sina.com/freeform/f.js
 ||sina.com/rm/
 ||sina.com/assets/js/dart/
-taglist.html$domain=sina.com.cn
-dailynews.sina.com##.col1
 chinanews.sina.com##.M_Right
 chinanews.sina.com##table[cellspacing="0"][width="900"]
 dailynews.sina.com##.TopNav+table
-dailynews.sina.com##td[width="900"][height="100"]
 !--sina.com.cn
 @@|http://down*.tech.sina.com.cn/$script,subdocument
 |http://d*.sina.com.cn$domain=~data.ent.sina.com.cn|~slide.2010.sina.com.cn,~stylesheet
-/head.js$domain=sina.com.cn
+/headwww.js$domain=sina.com.cn
 bj.house.sina.com.cn/iframe/$subdocument,script
 news.sina.com.cn/iframe/js/$script
 rm.sina.com.cn/icast/rotator.js
@@ -573,7 +570,6 @@ rm.sina.com.cn/icast/rotator.js
 pfp.sina.com.cn/
 pfpip.sina.com/
 ent.sina.com.cn/iframe/musicjs/importplayer.0.3.js
-img.house.sina.com.cn/a/201004/fst/585-90.swf
 news.sina.com.cn/pvcounter/pvcounter.js
 sjs.sinajs.cn/webchat/common/miniDynamicLoad.js
 sina.com.cn##.topAD
@@ -591,7 +587,6 @@ www.sina.com.cn##.sinamall
 !--sina.com.hk
 as.sinahk.net$third-party
 asimg.sinahk.net$third-party
-sina.com.hk##div.sidebarItem>h2+div.sidebarItemContent.link1.M0.P0
 !--sina.com.tw
 ||sina.com.tw$subdocument
 
@@ -649,10 +644,10 @@ subpig.net##div.wrap>table[width="97%"][bgcolor="#000000"][background="#ffffff"]
 
 !---TianYa
 |http://8*.tianya.cn/
+|http://8*.tianyaui.com/
 global.tianyaui.com/global/wizard/js/wizard.js
 ||tianyabook.com/$script
 file1.laibafile.cn/laiba/res/shadow-rc.png
-laiba.tianya.cn/laiba/$subdocument
 laiba.tianya.cn##.goog-roundedpanel
 www.tianya.cn##*[id*="_AD_"]
 
