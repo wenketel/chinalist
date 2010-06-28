@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: +Ibi/4GccPflsk/NYBhKzA
+!  Checksum: 1Glr1ZpQ9vhBkkdSde6Wqw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 28 Jun 2010 13:42:42 +0800
+!  Last Modified:  Mon, 28 Jun 2010 13:59:37 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -515,7 +515,6 @@ pingjs.qq.com^$domain=~web.qq.com
 www.qq.com##.adArea
 www.qq.com##.l_qq_com
 www.qq.com###proAd
-
 !--fangQQ
 ||fangqq.com/UserFiles/$~image
 fangqq.com##[id^="ad"]
@@ -647,6 +646,12 @@ sun0769.com###outer08
 ||babidou.com/$domain=subpig.net
 subpig.net###ajaxwaitid+div.wrap>#header+table+table[width="97%"][height="33"]
 subpig.net##div.wrap>table[width="97%"][bgcolor="#000000"][background="#ffffff"]
+
+!---T客邦
+||techbang.com.tw$subdocument
+techbang.com.tw##.ad
+techbang.com.tw##.article-ad
+techbang.com.tw##[class^="clearfix "]
 
 !---TianYa
 |http://8*.tianya.cn/
@@ -1237,9 +1242,6 @@ image.sofang.com/upfiles/$object
 ||sz118114.com/js/
 ||taisha.org^$object
 ||taisha.org/abroad/head/banner*.html
-||techbang.com.tw/pages/
-techbang.com.tw##.ad
-techbang.com.tw##[class^="clearfix "]
 ||tianshannet.com.cn$object
 ||tianshannet.com.cn/news/node_61586.htm
 tianshannet.com.cn##.adtxt1.link15
