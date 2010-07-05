@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: AK0ZI5X+fGKSNNxd73E+nw
+!  Checksum: wu/LV9dftn9McKzwyIVGtA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 04 Jul 2010 22:21:31 +0800
+!  Last Modified:  Mon, 05 Jul 2010 09:35:52 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -1170,6 +1170,7 @@ images.fangte.com^$object
 bbs.hdchina.org##.home_l_shop
 bbs.hdchina.org##.home_left_hot
 bbs.hdchina.org##.home_new_ad
+||hiapk.com/bbs/images/*banner$image
 ||hjenglish.com/js/double_index2007.js
 www.hoopchina.com##[class^="ad"]
 hdad.hudong.com/hdad/
@@ -1231,6 +1232,7 @@ qiushibaike.com##div#container>div[style]:last-child
 ||qqjia.com/images/ad
 ||qqkj.cn/$script
 ||qvodhd.com/template/kankan_2/qq/72q.js
+||rin9.com/jsad/
 ||rmdown.com/pc1.gif
 ||sccnn.com/zz/
 ||sellgreat.com/images/Bdvertisement/
@@ -1519,7 +1521,7 @@ guanggao
 !---/ad/
 /html/ad/*
 @@|http://www.equn.com/wiki/DNETC%40HOME
-|http://w*/ad/$domain=~gstatic.com,~object_subrequest
+|http://w*/ad/$domain=~gstatic.com
 |http://*.org/ad/
 |http://*.com.cn/ad/
 |http://*.com.tw/ad/
