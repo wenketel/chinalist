@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: mBs7azlFt379+7skb60h0Q
+!  Checksum: ZZlVSs2NGWSvqVkDQp+17Q
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 06 Jul 2010 10:45:40 +0800
+!  Last Modified:  Wed, 07 Jul 2010 09:52:47 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -310,6 +310,14 @@ hxjs.tool.hexun.com/news/pageMediaControl1.js
 img.hexun.com/hx_news/hx_news_finalpage.js
 news.hexun.com##.business
 www.hexun.com##.advp
+
+!---HiNet
+@@hichannel.hinet.net^$object_subrequest
+@@p4u.hinet.net/event.ng/
+p4u.hinet.net^
+hichannel.hinet.net/videoad2/
+times.hinet.net/headlineNews/
+hichannel.hinet.net##.txtimgad
 
 !---頭條網
 ||hkheadline.com/*promo/
@@ -1408,7 +1416,6 @@ s.hagou.com^$third-party
 ||hdtworld.com^$third-party
 ||heima8.com^$third-party
 ||hiad.myweb.hinet.net^
-||p4u.hinet.net^
 ||hitme.com.cn$third-party
 ||hoyiad.com^$third-party
 ||huoli.com^$third-party
