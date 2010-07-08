@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: jqjLqQSIOx/fyCVKHjcCYw
+!  Checksum: lTpetU5dWyWiR2jTwfxbGQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 08 Jul 2010 16:30:02 +0800
+!  Last Modified:  Thu, 08 Jul 2010 16:40:35 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -1024,8 +1024,9 @@ cnmo.com##[id^="AD"]
 ||huanqiu.com/script/entPageText$script
 huanqiu.com##[id^="banner"]
 ||nddaily.com/nddailyfile/webadv/
-33.pcpop.com
-ashow.pcpop.com
+ashow.pcpop.com^
+www.pcpop.com##div.Content>div.l1:first-child
+www.pcpop.com##div.Content>div.r1:nth-child(2)
 ||newtalk.tw/ad_
 ||nextmedia.com/DFA/js_ndxtag_v409.cfm?
 tw.nextmedia.com##.ad300x100
