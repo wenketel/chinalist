@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: gF6BjmcsXspKPtS0/SWkFw
+!  Checksum: 83e+hpfXHqKjHEhLOU31ng
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 16 Jul 2010 14:51:27 +0800
+!  Last Modified:  Fri, 16 Jul 2010 15:43:06 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -74,14 +74,11 @@ corp.56.com^
 56.com##.rAd_text
 
 !---六间房
-@@r.6.cn/pswf/*_qtie_*.swf
 ||6.cn/csjs10/tan_*.js
 ||6.cn/mdfor/index_new.js
 ||6.cn/mdfor/watch_new11.js
-||6.cn/hdyz.js
 shrek.6.cn/api/pageViewCount.php
 hm.i8.com.cn/GetAdContent.aspx
-r.6.cn/pswf/
 6.cn##.listTextAd
 6.cn###palyerAdText
 6.cn##[id^="adText"]
@@ -107,7 +104,6 @@ www.6park.com/wap/close.gif
 !---Baidu
 !--unions
 ||c.baidu.com^
-||cb.baidu.com^
 ||cbjs.baidu.com^
 ||cpro.baidu.com^
 ||drmcmm.baidu.com^
@@ -121,9 +117,6 @@ www.6park.com/wap/close.gif
 ||tkweb.baidu.com^
 ||tongji.baidu.com^
 ||tracker.baidu.com^
-||ucstat.baidu.com^
-||unstat.baidu.com^
-||utk.baidu.com^
 a.baidu.com/ecom$script
 hi.baidu.com/ui/scripts/refer/refer.js
 image.baidu.com###relEcom
@@ -1238,6 +1231,7 @@ news.sohu.com/upload/$domain=kyer8.com
 cache.meropar.tw/swf/blog/tw_rot.xml
 cache.meropar.tw/swf/blog/loadBanner/
 js.meropar.tw/tracking.jsp
+||mop.com/fxb/js/fxb.js
 ||mycodes.net/js/$image
 www.nokiabbs.com/wk_ad/
 b.now.cn/data/NOWA/1025.gif
@@ -1358,6 +1352,7 @@ www.2bj.cn^$third-party
 ||www.59.cn^$third-party
 ||un.5d6d.com^
 ||click.5j.com^$third-party
+||5uad.com^$third-party
 ||6621.com^$third-party
 ||6721.com^$third-party
 ||68link.com^$third-party
