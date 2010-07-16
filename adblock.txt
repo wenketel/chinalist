@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: jEuZE2tFDh7wzBBzTvRBqg
+!  Checksum: pKt0fxFuSUhALUP9FIgJ4g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 16 Jul 2010 15:56:11 +0800
+!  Last Modified:  Fri, 16 Jul 2010 16:11:38 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -296,8 +296,8 @@ www.fengniao.com##.banner.mt2
 focus.cn##.ad_fp
 
 !---和讯
-hxjs.tool.hexun.com/homeway/pageMediaControl_2010.js
-hxjs.tool.hexun.com/news/pageMediaControl1.js
+/att_count.js
+/pageMediaControl
 img.hexun.com/hx_news/hx_news_finalpage.js
 news.hexun.com##.business
 www.hexun.com##.advp
@@ -1540,7 +1540,7 @@ u.juyouxi.com^$third-party
 /adphoto/*
 /adservice/*
 /adshow.
-/ADPShow.
+/adpshow.
 /allyes.
 /guangg/*
 /img/adv/*
@@ -1577,18 +1577,21 @@ qianming*^$third-party
 
 !-----------------------------Privacy---------------------
 !--count
-/count.js
 /counter.$domain=~shooter.cn|~opensuse.org
-click2/count/$script
+/counts.
+m/count.
+n/count.
 |http://count.
-counts.flashget.com^$third-party
+
 !--pv
-/PV?peerid=
+/pv?peerid=
 |http://pv.
 .com.cn/pv.js
 .com/pv.js
+
 /hiido.js
 /ktrace/ktrace$script
+/usertrack.
 51img.ajiang.net^
 ||51yes.com^$third-party
 ||blog104.com^$third-party
