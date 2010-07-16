@@ -1,13 +1,13 @@
 [Adblock Plus 1.2]
-!  Checksum: EvBXWapkivfahnJzfgR3pQ
+!  Checksum: Ps8kM61MSG/qalFgYltgHw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 16 Jul 2010 09:39:10 +0800
+!  Last Modified:  Fri, 16 Jul 2010 09:53:12 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
 !---------------------White List------------------------
 @@crossdomain.xml|$subrequest
-@@||alimama.cn$stylesheet
+@@||alimama.cn^$stylesheet
 
 !---------------------Well-known Sites-------------------
 !---网易
@@ -423,7 +423,7 @@ news.mydrivers.com##table[border="0"][width="980"][height="90"]
 news.mydrivers.com##table[width="923"][height="185"]
 
 !---msn.com
-news.msn.com.tw$object
+news.msn.com.tw^$object
 promotion.msn.com.tw
 tw.msn.com##[class*="shop"]
 tw.msn.com##[id^="bslink"]
@@ -589,7 +589,7 @@ chinanews.sina.com##table[cellspacing="0"][width="900"]
 dailynews.sina.com##.TopNav+table
 !--sina.com.cn
 @@|http://down*.tech.sina.com.cn/$script,subdocument
-|http://d*.sina.com.cn$domain=~data.ent.sina.com.cn|~slide.2010.sina.com.cn,~stylesheet
+|http://d*.sina.com.cn^$domain=~data.ent.sina.com.cn|~slide.2010.sina.com.cn,~stylesheet
 /headwww.js$domain=sina.com.cn
 bj.house.sina.com.cn/iframe/$subdocument,script
 news.sina.com.cn/iframe/js/$script
@@ -617,7 +617,7 @@ www.sina.com.cn##.sinamall
 as.sinahk.net$third-party
 asimg.sinahk.net$third-party
 !--sina.com.tw
-||sina.com.tw$subdocument
+||sina.com.tw^$subdocument
 
 !---人人软件站
 ||softii.com/Images/2006_11_top002.gif
@@ -672,7 +672,7 @@ subpig.net###ajaxwaitid+div.wrap>#header+table+table[width="97%"][height="33"]
 subpig.net##div.wrap>table[width="97%"][bgcolor="#000000"][background="#ffffff"]
 
 !---T客邦
-||techbang.com.tw$subdocument
+||techbang.com.tw^$subdocument
 techbang.com.tw##.ad
 techbang.com.tw##[class^="clearfix "]
 techbang.com.tw##.section.last
@@ -905,7 +905,7 @@ zol.com.cn##[id^="Float"]
 !-------------------Generic (sort by domain name)---------
 !---Blog Sites
 ||appinn.com/wp-content/*.swf|
-@@adsense.easylife.tw$~script
+@@adsense.easylife.tw^$~script
 ||freegroup.org/files/adbox.html
 ||gordon168.tw/gameflier/
 liveasy.myweb.hinet.net^
@@ -1187,14 +1187,14 @@ club.excelhome.net/gga/
 ||fangte.com/uploadfiles/fangte_pic/pic/
 images.fangte.com^$object
 ||fdzone.org/logo/
-||ffw.com.cn$object
+||ffw.com.cn^$object
 ||ffw.com.cn/js/AD2v1.1.js
 ffw.com.cn##.box_daodu
 ||fj007.com/money
 fj007.com###wordlink
 ||flash8.net/flash8_a_d_s/
 ||fqlook.cn/vip/2009index/
-free9.cn$script
+free9.cn^$script
 ||hanzify.org/Main/Template/*/a-d-s/
 ||haoting.com/gdjs/$script
 .hk/aeiou/$domain=discuss.com.hk|uwants.com
@@ -1281,7 +1281,7 @@ image.sofang.com/upfiles/$object
 ||sz118114.com/js/
 ||taisha.org^$object
 ||taisha.org/abroad/head/banner*.html
-||tianshannet.com.cn$object
+||tianshannet.com.cn^$object
 ||tianshannet.com.cn/news/node_61586.htm
 tianshannet.com.cn##.adtxt1.link15
 ||topsage.com/service/$object
