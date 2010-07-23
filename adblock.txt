@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: YMskK4mGKScpTpDoGucLTw
+!  Checksum: p0SIuaLSbRYCOSKY5XfPBg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 23 Jul 2010 17:24:50 +0800
+!  Last Modified:  Fri, 23 Jul 2010 17:45:04 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -48,12 +48,6 @@ search.21cn.com##td[width="184"][align="left"]
 ||3boys2girls.com/include/overture_ads.js
 ||3boys2girls.com/images/newdefault/banner$image
 ||ktzhk.com/plugins/cache_template/adv_3b2g.js
-
-!---前程無憂
-.com/im/$object,domain=51.com|51job.com
-/careerpost/*$domain=51job.com|51jobcdn.com
-51job.com##[class^="ad_"]
-51job.com##[id^="ad_"]
 
 !---51nb.com/thinkpad.cn
 @@/forum/images/*/*$domain=51nb.com|thinkpad.cn,image
@@ -193,12 +187,9 @@ chinatimes.com##.ad
 
 !---cnBeta
 @@img.cnbeta.com/newsimg/
-img.cnbeta.com/$object
 img.cnbeta.com/u17cnbeta.jpg
-img.cnbeta.com/*300$image
 img.cnbeta.com/*340$image
 img.cnbeta.com/*576$image
-img.cnbeta.com/*950$image
 cnbeta.com###comad
 cnbeta.com###fm_r
 cnbeta.com###userInfo
@@ -1167,7 +1158,6 @@ free9.cn^$script
 ||haoting.com/gdjs/$script
 .hk/aeiou/$domain=discuss.com.hk|uwants.com
 ||headlinejobs.hk/images/banner/$image
-||hiapk.com/bbs/images/*banner$image
 ||hjenglish.com/js/double_index2007.js
 www.hoopchina.com##[class^="ad"]
 hdad.hudong.com/hdad/
@@ -1560,13 +1550,11 @@ qianming*^$third-party
 m/count.
 n/count.
 |http://count.
-
 !--pv
 /pv?peerid=
 |http://pv.
 .com.cn/pv.js
 .com/pv.js
-
 /hiido.js
 /ktrace/ktrace$script
 /usertrack.
@@ -1629,6 +1617,8 @@ zaobao.com###myMovie
 !-----------------------Temporary--------------------------------------------------------
 !-----------------------2010.7--------------------------------------------------------
 ||amazon.cn^$third-party
+||hiapk.com/bbs/images/ku6.gif
+||hiapk.com/bbs/images/91helper.gif
 news.pchome.com.tw/img/green_life_30080.gif
 |http://qzxw.qzwb.com/article_right.html
 |http://www.zaobao.com/ssi/bizp/mkt/
