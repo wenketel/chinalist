@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: qsjyFZN8blsxSPJPrHbxtA
+!  Checksum: YMskK4mGKScpTpDoGucLTw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 21 Jul 2010 17:06:50 +0800
+!  Last Modified:  Fri, 23 Jul 2010 17:24:50 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -1166,16 +1166,12 @@ free9.cn^$script
 ||hanzify.org/Main/Template/*/a-d-s/
 ||haoting.com/gdjs/$script
 .hk/aeiou/$domain=discuss.com.hk|uwants.com
-||hdchina.org/hdx.gif
-bbs.hdchina.org##.home_l_shop
-bbs.hdchina.org##.home_left_hot
-bbs.hdchina.org##.home_new_ad
+||headlinejobs.hk/images/banner/$image
 ||hiapk.com/bbs/images/*banner$image
 ||hjenglish.com/js/double_index2007.js
 www.hoopchina.com##[class^="ad"]
 hdad.hudong.com/hdad/
 ||hwit.net/acmsd/
-||i1.hk/ad/
 ||infoq.com/resource/skyscraper/
 ||ibook8.com/2/
 goto.www.iciba.com^$subdocument,domain=iciba.com
@@ -1514,6 +1510,7 @@ u.juyouxi.com^$third-party
 .ad.php?
 .allyes.
 .cn/ads/*
+.hk/ads/*
 .cn/adv/*
 .com/ads_
 .com/js/ad_
@@ -1544,6 +1541,7 @@ guanggao
 /html/ad/*
 /img/ad/*
 /image/ad/*
+||i1.hk/ad/
 |http://w*/ad/$domain=~gstatic.com
 !---/gg/
 /images/gg/*
@@ -1568,6 +1566,7 @@ n/count.
 |http://pv.
 .com.cn/pv.js
 .com/pv.js
+
 /hiido.js
 /ktrace/ktrace$script
 /usertrack.
@@ -1609,6 +1608,7 @@ chinese.engadget.com##.post[style^="border: 1px solid rgb(243, 229, 138);"]
 epochtimes.com###insidearticleBodyAd
 godic.net,frdic.com###sidebar1
 google.com.tw###tadsb.c
+bbs.hdchina.org##.home_left_hot
 imur.com.tw##.ad
 jandan.net##.eggs
 jandan.net##.xy
