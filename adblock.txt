@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: boZH31pQJ2WtGMSp+tNg5Q
+!  Checksum: x6h9e45nRGWMb/FmbR7E6w
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 28 Jul 2010 09:51:32 +0800
+!  Last Modified:  Wed, 28 Jul 2010 10:29:11 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -237,13 +237,17 @@ www.dayoo.com###lm_dywmtq+div.wOut.mt6
 !---Dict.CN
 ||dict.cn/course/
 ||dict.cn/ef/
+||dict.cn/iframes/hujiang_gg.php
+||dict.cn/nimgs/top_960
 ||dict.cn/ok/
 ||dict.cn/sync2/
 dict.cn##.gg
-dict.cn##[id$="gg"]
-dict.cn##body>div[onclick]:nth-child(4)
+dict.cn###chaci_nav_gg
+dict.cn###topgg
+dict.cn##body>div[onclick]
+dict.cn##div[style="width: 250px; height: 160px; overflow: hidden; padding-bottom: 5px;"]
 dict.cn##div#main_right_right>div:nth-child(5)
-dict.cn##[id^="gg250X"]
+
 
 !---多特软件站
 img.duote.com/duotehtml/
@@ -1567,8 +1571,6 @@ cdn.hiido.cn^$third-party
 |http://stat.$domain=~verycd.com|~ameblo.jp|~cttsl.sports.cn|~blog.sohu.com
 |http://track.
 ||hotrank.com.tw^$third-party
-js/tongji.js
-js/netjc.js
 ||linezing.com^$third-party
 ||sitebro.tw^$third-party
 ||sitestates.com^$third-party
@@ -1617,7 +1619,6 @@ zaobao.com###myMovie
 !-----------------------Temporary--------------------------------------------------------
 !-----------------------2010.7--------------------------------------------------------
 ||amazon.cn^$third-party
-||hiapk.com/bbs/images/ku6.gif
 ||hiapk.com/bbs/images/91helper.gif
 news.pchome.com.tw/img/green_life_30080.gif
 |http://qzxw.qzwb.com/article_right.html
