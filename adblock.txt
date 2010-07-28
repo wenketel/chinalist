@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: x6h9e45nRGWMb/FmbR7E6w
+!  Checksum: sXUlhltMknwqdZWl2+IKkQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 28 Jul 2010 10:29:11 +0800
+!  Last Modified:  Wed, 28 Jul 2010 10:59:54 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -106,10 +106,6 @@ www.6park.com/wap/close.gif
 ||nsclick.baidu.com^
 ||s.baidu.com^
 ||spcode.baidu.com^
-||tk.baidu.com^
-||tkweb.baidu.com^
-||tongji.baidu.com^
-||tracker.baidu.com^
 ||unstat.baidu.com^
 ||utk.baidu.com^
 a.baidu.com/ecom$script
@@ -160,8 +156,8 @@ club.china.com/data/littlewindow/js/littlewindow.js
 club.china.com/editor/js/$subdocument
 china.com###BJ
 news.china.com##.adclass
-news.china.com###EndPageRollText
 news.china.com###clm01
+news.china.com###EndPageRollText
 tech.china.com##*[class^="ad"]
 www.china.com##.fullClmAT
 www.china.com##.homeheadAT
@@ -175,8 +171,7 @@ china.cn##.topAd
 !---ChinaZ
 ||chinaz.com/js/text_link.js
 down.chinaz.com/other/js/$script
-images.chinaz.com/*_images/
-images.chinaz.com/index_imagesa/
+images.chinaz.com/$subdocument
 
 !---中時電子報
 ||chinatimes.com/2007Cti/
@@ -212,12 +207,6 @@ book.csdn.net/html/newindex/gonggao.htm
 book.csdn.net/css/webad.js
 topic.csdn.net/u/t5/include/
 
-!---聖城家園
-||btscg.com/myaddream2008/
-bbs.cnscg.com/t91wan0227.js
-static.51img1.com/v3/pub/img/nonvip.png
-public.blu.livefilestore.com/$domain=btscg.com|cnscg.com,image
-
 !---东莞视窗
 ||bbapp.net/iframe/dongguan/images/ad
 ||bbapp.net/iframe/dongguan/images/banner
@@ -248,14 +237,10 @@ dict.cn##body>div[onclick]
 dict.cn##div[style="width: 250px; height: 160px; overflow: hidden; padding-bottom: 5px;"]
 dict.cn##div#main_right_right>div:nth-child(5)
 
-
 !---多特软件站
 img.duote.com/duotehtml/
-img.duote.com/images/cop/
-img.duote.com/js/pathAd.js
 img.duote.com/js/clickDownAjax4.js
 img.duote.com/js/clickDownAjax3.js
-duote.com##.tuwen.line_green
 
 !---多玩游戏网
 ||duowan.com/duowan.js
@@ -264,9 +249,8 @@ duote.com##.tuwen.line_green
 news.duowan.com##.news_ad
 news.duowan.com##.yy-download
 
-!---電影天堂
+!---电影天堂
 dir.ejoina.com/taobao/mzm1.gif
-img05.taobaocdn.com/imgextra/i5/$domain=dy2018.com
 
 !---eNet
 ||enet.com.cn/article_new/$subdocument
@@ -389,18 +373,13 @@ v.ku6.com##.flwin.flwin_min
 ||libertytimes.com.tw/js/ajs/
 
 !---驱动之家
-/duilian.js$domain=mydrivers.com|myfiles.com.cn
-@@images.mydrivers.com/player/focus2.swf
 ||mydrivers.com/002f/*/$subdocument
 @@11.mydrivers.com/news/commv2.js
 11.mydrivers.com/$script
-drivers.mydrivers.com/filesnewsAD.htm
-images.mydrivers.com/$object
 news.mydrivers.com/img/zhuanti/
 mydrivers.com##div.top + div.hang1
 mydrivers.com##[id^="ad"]
 news.mydrivers.com##table[border="0"][width="980"][height="90"]
-news.mydrivers.com##table[width="923"][height="185"]
 
 !---msn.com
 news.msn.com.tw^$object
