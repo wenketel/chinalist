@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: Syrj3Fbh+7wkei2yPDHndQ
+!  Checksum: cC4TeRt6wlvBy0A5PgWb3w
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 04 Aug 2010 09:02:15 +0800
+!  Last Modified:  Thu, 05 Aug 2010 10:24:06 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -135,6 +135,12 @@ bitauto.com##.con_ad
 ||r.brsbox.com/images/sogou2.gif
 brsbox.com##A.up_butt_downpage
 
+!---东莞视窗
+||bbapp.net/iframe/dongguan/images/ad
+||bbapp.net/iframe/dongguan/images/banner
+||bbapp.net/iframe/gd_xxg_ad.js
+dgnet.net##.banner
+
 !---源碼網
 ||codepub.com/wuse/pic/
 codepub.com##.r1
@@ -206,11 +212,10 @@ book.csdn.net/html/newindex/gonggao.htm
 book.csdn.net/css/webad.js
 topic.csdn.net/u/t5/include/
 
-!---东莞视窗
-||bbapp.net/iframe/dongguan/images/ad
-||bbapp.net/iframe/dongguan/images/banner
-||bbapp.net/iframe/gd_xxg_ad.js
-dgnet.net##.banner
+!---cyzone
+||img.cyzone.cn/ad/
+www.cyzone.cn/bian/pic/top_banner.swf
+img.cyzone.com.cn/customer/$object
 
 !---大洋网
 59.42.241.145
@@ -493,6 +498,7 @@ news.qq.com##.news_ad_box
 news.qq.com###News_F_UpRight
 news.qq.com##.wrapper.AdTop-Article-QQ
 pingjs.qq.com^$domain=~web.qq.com
+||trace.qq.com^
 www.qq.com##.adArea
 www.qq.com###proAd
 qq.com##div#main_nav_qq+table[width]
@@ -632,6 +638,11 @@ file1.laibafile.cn/laiba/res/shadow-rc.png
 laiba.tianya.cn##.goog-roundedpanel
 www.tianya.cn##*[id*="_AD_"]
 
+!---tgfcer.com
+@@||club.tgfcer.com/images/*/$image
+club.tgfcer.com/images/
+hf.theres.cn/bee/img/5hr4rgh.gif
+
 !---Tom
 adserve2.tomoimg.cn
 js.pub.tom.com^
@@ -700,6 +711,11 @@ bbs.voc.com.cn/s.js
 ||wenxuecity.com/adinfo/
 news.wenxuecity.com##td[width="300"][valign="top"]
 news.wenxuecity.com##td[width="20"][bgcolor="#f0f0e0"][rowspan="2"]
+
+!---win7china
+img.win7china.com/images/355_80$image
+win7china.com##.commend
+win7china.com##.commend+[class="hot mt1"]
 
 !---尼泊爾華人網
 .com/biz/$domain=manitobacn.com|winnipegchinese.com
@@ -1139,6 +1155,7 @@ fj007.com###wordlink
 free9.cn^$script
 ||hanzify.org/Main/Template/*/a-d-s/
 ||haoting.com/gdjs/$script
+||discuss.com.hk/apps/ts_feed/$object
 .hk/aeiou/$domain=discuss.com.hk|uwants.com
 ||headlinejobs.hk/images/banner/$image
 ||hjenglish.com/js/double_index2007.js
@@ -1233,7 +1250,6 @@ u148.net##.article_right_google
 weste.net##.ggao
 ||wlanbbs.com/images/shangjiaad/
 d0.xcar.com.cn^
-xcar.com.cn##[class^="adset"]
 img.xiami.com/res/img/common/xiami_525_60.jpg
 js.xiaoyouxi.cn/ee/$script
 ||js.xiaoyouxi.cn/tan.js
@@ -1310,6 +1326,7 @@ www.2bj.cn^$third-party
 ||68link.com^$third-party
 ||69992.com^$third-party
 ||70yx.com^$third-party
+||74lm.com^$third-party
 ||778669.com^$third-party
 ||27.768.net^$third-party
 ||7stk.com^$third-party
@@ -1327,6 +1344,7 @@ v.9vcpc.cn^$third-party
 ||union.a8.com^$third-party
 ||a8ww.net$third-party
 ||acs86.com^$third-party
+||ad123456.com^$third-party
 .ad2.cn/$third-party
 ||adcenter.conn.tw^$third-party
 ||adqoo.com$third-party
@@ -1447,6 +1465,7 @@ u.juyouxi.com^$third-party
 ||rj518.com^$third-party
 ||cop.my.sandai.net^$third-party
 ||scupio.com^$third-party
+||sharele.cn^$third-party
 ||since1984.cn^$third-party
 ||skycn.org.cn^$third-party
 ||tazhao.com^$third-party
@@ -1471,6 +1490,8 @@ u.juyouxi.com^$third-party
 ||vodone.cn^$third-party
 ||vzhan.cn^$third-party
 ||wauee.com^$third-party
+||xenw.com^$third-party
+||xt918.com^$third-party
 ||yy.wofan.net^
 ||wyunion.com^$third-party
 ||gouwu.vip.xunlei.com^$third-party
@@ -1482,6 +1503,7 @@ u.juyouxi.com^$third-party
 ||zhanzhangle.com^$third-party
 ||union.zhongsou.com^$third-party
 ||utops.cc^$third-party
+||js.zdy.cc^$third-party
 ||zncool.com^$third-party
 
 !--------------------------Other (sort by letter)--------
