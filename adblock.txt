@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: cC4TeRt6wlvBy0A5PgWb3w
+!  Checksum: KgdIJJoJ9/5mlQYhtDYjmA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 05 Aug 2010 10:24:06 +0800
+!  Last Modified:  Thu, 05 Aug 2010 11:18:46 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -533,13 +533,6 @@ renren.com###nostar
 rsdown.cn##.right_inedx_1
 rsdown.cn##body>table:nth-child(4)
 
-!---思路
-||siluhd.com/data/js.php?$script
-||siluhd.com/data/js/$script
-||siluhd.com/images/*.swf|
-||siluhd.com/images/huasuoo.jpg
-bbs.siluhd.com##[id^="ad_"]
-
 !---sina
 !--sina.com
 ||sina.com/gb/ads/
@@ -612,12 +605,6 @@ sun0769.com###outer04
 sun0769.com###outer06
 sun0769.com###outer08
 
-!---猪猪乐园
-||tx8.cn/photo/lgink/$domain=subpig.net,image
-||babidou.com/$domain=subpig.net
-subpig.net###ajaxwaitid+div.wrap>#header+table+table[width="97%"][height="33"]
-subpig.net##div.wrap>table[width="97%"][bgcolor="#000000"][background="#ffffff"]
-
 !---ta.md
 ||dulei.si/files/59b02cb917c2fa1b8a1698f4ff615583.jpg
 ta.md##.postad
@@ -684,21 +671,23 @@ verycd.com##iframe.Banner2
 verycd.com##.non-topic
 verycd.com###page-body>iframe:first-child
 
-!---Vista123.com
-||vista123.com/script/3.js
+!---ruanmei
+!--Vista123.com
 ||vista123.com/script/popup_win.js
 img.vista123.com/images/*3*x*.
 img.vista123.com/images/355_80_cd.gif
 img.vista123.com/images/TweakCube468.gif
 img.vista123.com/images/win7master.gif
-||win7china.com/script/ruanmei.js
 vista123.com###adwords
 vista123.com##P.w_330
 vista123.com##[style="width: 260px; height: 260px; float: left; line-height: 18px;"]
-
 !--Vista123.cn
 ||vista123.cn/notice.js
 vista123.cn##[style="width: 260px; height: 260px; float: left;"]
+!--win7china
+img.win7china.com/images/355_80$image
+win7china.com##.commend
+win7china.com##.commend+[class="hot mt1"]
 
 !---华声在线
 ||voc.com.cn/adsClick/
@@ -712,33 +701,22 @@ bbs.voc.com.cn/s.js
 news.wenxuecity.com##td[width="300"][valign="top"]
 news.wenxuecity.com##td[width="20"][bgcolor="#f0f0e0"][rowspan="2"]
 
-!---win7china
-img.win7china.com/images/355_80$image
-win7china.com##.commend
-win7china.com##.commend+[class="hot mt1"]
-
 !---尼泊爾華人網
 .com/biz/$domain=manitobacn.com|winnipegchinese.com
 ||manitobacn.com/include/js/floatadv.js
 winnipegchinese.com,manitobacn.com##[class^="banner"]
-winnipegchinese.com,manitobacn.com##.section.txtads
 
 !---完美者
 ||wmzhe.com/attachments/other/$image
 ||wmzhe.com/attachments/show/top_fzl.jpg
 wmzhe.com##.Softcontent3
 
-!---二泉网
-||wst.cn/indexbbs/js/indexdl.js
-@@|http://www.wst.cn/indexbbs/swf/pixviewer.swf
-||wst.cn/index$object
-||wst.cn/*/uploadadpic/
-campus.wst.cn/js/floatADO.js
-car.wst.cn/ad/
-ent.wst.cn/FuWu/
-ent.wst.cn/skin/pixviewer.swf
-www.wst.cn##[class*="ad"]
-campus.wst.cn,house.wst.cn##[id^="BannerZoneAD_Div"]
+!---xcar.com.cn
+d0.xcar.com.cn^
+www.xcar.com.cn/bbs/images/shell_bbs.jpg
+www.xcar.com.cn/bbs/images/$object
+xcar.com.cn##*[class^="adset"]
+xcar.com.cn###eMeng
 
 !---西祠胡同
 files.xici.net^$object
@@ -1249,7 +1227,6 @@ u148.net##.article_right_google
 ||weste.net/js_v2009/ggao
 weste.net##.ggao
 ||wlanbbs.com/images/shangjiaad/
-d0.xcar.com.cn^
 img.xiami.com/res/img/common/xiami_525_60.jpg
 js.xiaoyouxi.cn/ee/$script
 ||js.xiaoyouxi.cn/tan.js
@@ -1573,7 +1550,6 @@ n/count.
 51img.ajiang.net^
 ||blog104.com^$third-party
 ||blogtw.net^$third-party
-||cnzz.com^$third-party
 cdn.hiido.cn^$third-party
 ||tovery.net^$third-party
 |http://stat.$domain=~verycd.com|~ameblo.jp|~cttsl.sports.cn|~blog.sohu.com
@@ -1587,7 +1563,6 @@ cdn.hiido.cn^$third-party
 ||twcount.com^$third-party
 look.urs.tw^$third-party
 ||vdoing.com^$third-party
-||wrating.com^$third-party
 
 !-----------------------Element Hiding--------------------
 ##.ad_footerbanner
@@ -1622,6 +1597,8 @@ price.com.hk##*[id^="ad"]
 bbs.pspchina.net##[id^="ad_"]
 qupan.com##.content_a
 www.soso.com##.s_r
+subpig.net###ajaxwaitid+div.wrap>#header+table+table[width="97%"][height="33"]
+subpig.net##div.wrap>table[width="97%"][bgcolor="#000000"][background="#ffffff"]
 bbs.weiphone.com##[id^="ads_"]
 bbs.xdxdxd.com###ad_888
 youhua.com##td[width="299"][valign="top"][align="left"]
