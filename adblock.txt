@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: uVdRgUyFwjlchrE9SynRuA
+!  Checksum: SaN3iwEa5PRf8ManyiWbkg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 06 Aug 2010 13:17:33 +0800
+!  Last Modified:  Fri, 06 Aug 2010 14:02:43 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -271,6 +271,12 @@ e0575.cn##td#banner
 trace.enet.com.cn/
 enet.com.cn##[class^="ad"]
 enet.com.cn##div.fra>div.con222
+
+!---excelhome.net
+||excelhome.net/club/TopVoice.htm
+||excelhome.net/club/training1.jpg
+club.excelhome.net/aa/
+club.excelhome.net/gga/
 
 !---蜂鸟
 pic.fengniao.com/
@@ -985,13 +991,13 @@ cnmo.com##[id^="AD"]
 ||huanqiu.com/script/entPageText$script
 huanqiu.com##[id^="banner"]
 /nddailyfile/webadv/*$domain=oeeee.com
-ashow.pcpop.com^
-www.pcpop.com##div.Content>div.l1:first-child
-www.pcpop.com##div.Content>div.r1:nth-child(2)
 ||newtalk.tw/ad_
 ||nextmedia.com/DFA/js_ndxtag_v409.cfm?
 tw.nextmedia.com##.ad300x100
 tw.nextmedia.com##.contentAd_300x250
+ashow.pcpop.com^
+www.pcpop.com##div.Content>div.l1:first-child
+www.pcpop.com##div.Content>div.r1:nth-child(2)
 ||sinovision.net/ui/js/adm.js
 ||sinovision.net/ui/js/index_ad.js
 skads.gxsky.com/$script
@@ -1000,6 +1006,7 @@ gxsky.com###indexad_txt
 ||sznews.com/ad
 ||sznews.com*.files/$object
 ||takungpao.com/images/top/
+||techweb.com.cn/images/partnerjs/$script
 image.wenweipo.com/*/ad_
 ||singtao.com/$script
 iads.xinmin.cn/
@@ -1015,6 +1022,7 @@ iads.xinmin.cn/
 ||aybook.cn/other/js/
 ||booksky.org^$script,subdocument
 ||dddbbb.net/popopf.js
+clt.dm5.com/js/
 book.hxtdz.com/js/$subdocument
 book.hxtdz.com/js/youpiao2.js
 pic.hongxiu.com/fox/hx/
@@ -1077,50 +1085,33 @@ v3.apic.51.com/vda09.js
 ||bitscn.com/pic2009/a*.js
 ||c168c.com/*adv/
 ||cbifamily.com/corporation/
-!---CHDBits
-||realhd.com.cn/hz/chdpt.gif
-chdtv.net##.a_mu
-||chnqiang.com/da/
 ||cht.com.tw/*AD$match-case
 ||city8.com/Search/script/absence.js
-clt.dm5.com/js/
-||cnmp3.com/js/playright.js
-dns*.cncmax.cn:8080
 ||cococ.com/click/roll.html
 ||cococ.com/js/click.js
 ||cococ.com/js/popwin.js
 ||codefans.net/ad_include/$script
-||creaders.net/html/site_ad_images/
 ||dabaoku.com^$script,object,subdocument
 ||dchome.net/pub/
-||ddmap.com^$object
-js.ddmap.com/flash/21/mode_3/36/flash.html
-||ddmapimg.com*/adv/
-||digitalwall.com/images/money_pen_n_t.gif
+||ddmapimg.com/adv/
 ||dj97.com/common/dj97$script
-||dj97.com/js/piao.js
 ||djkk.com/ak/
 ||djkk.com/images/*ad.gif
-dnkb.com.cn##[class^="top_ad"]
 ||dospy.com/hezuo/
 ||dospy.com^$subdocument
 static.doyouhike.net/partner/
 ||eastday.com/images/index09/ad
 ay.eastmoney.com^
 same.eastmoney.com^
-dir.ejoina.com/taobao/mzm1.gif
 eap.enorth.com.cn^
 ||examda.com/examdagg/
-||excelhome.net/club/TopVoice.htm
-||excelhome.net/club/training1.jpg
 ||expreview.com/batch.jasd.php
 ||expreview.com/exp3/script/expda.js
-club.excelhome.net/aa/
-club.excelhome.net/gga/
 ||cqcpu.com/andy/
 ||eywedu.com^$script
 ||fangte.com/uploadfiles/fangte_pic/pic/
 images.fangte.com^$object
+www.fangte.com/aswf.swf
 ||fdzone.org/logo/
 ||ffw.com.cn^$object
 ||ffw.com.cn/js/AD2v1.1.js
@@ -1548,6 +1539,7 @@ n/count.
 51img.ajiang.net^
 ||blog104.com^$third-party
 ||blogtw.net^$third-party
+||cnzz.com^$third-party
 cdn.hiido.cn^$third-party
 ||tovery.net^$third-party
 |http://stat.$domain=~verycd.com|~ameblo.jp|~cttsl.sports.cn|~blog.sohu.com
@@ -1572,6 +1564,7 @@ ce.cn###toprad
 cf8.com.cn##.ad
 cf8.com.cn###floatDiv
 cf8.com.cn##.leavePhone
+chdtv.net##.a_mu
 class.chinaren.com##.guanggaoText
 crsky.com##.banner
 dianping.com##[class^="DPAD"]
