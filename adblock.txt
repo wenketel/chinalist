@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: GxBZJMreV4PSOVqzSQr4tg
+!  Checksum: uVdRgUyFwjlchrE9SynRuA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 05 Aug 2010 16:56:46 +0800
+!  Last Modified:  Fri, 06 Aug 2010 13:17:33 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -243,6 +243,11 @@ dict.cn##body>div[onclick]
 dict.cn##div[style="width: 250px; height: 160px; overflow: hidden; padding-bottom: 5px;"]
 dict.cn##div#main_right_right>div:nth-child(5)
 
+!---discuss.com.hk
+||i1.hk/ad/
+||discuss.com.hk/apps/ts_feed/$object
+.hk/aeiou/$domain=discuss.com.hk|uwants.com
+
 !---多特软件站
 img.duote.com/duotehtml/
 img.duote.com/js/clickDownAjax4.js
@@ -259,9 +264,6 @@ news.duowan.com##.yy-download
 ||e0575.cn/js/float.js
 e0575.cn##div.tac
 e0575.cn##td#banner
-
-!---电影天堂
-dir.ejoina.com/taobao/mzm1.gif
 
 !---eNet
 ||enet.com.cn/article_new/$subdocument
@@ -326,16 +328,19 @@ ifeng.com##.areaAd
 ifeng.com##.maidunbox
 ifeng.com###final_head_ad
 
-!---IT168/ITPUB
+!---IT168
 168.it168.com/$script
 it168.com##[id^="ADV"]
-it168.com##body > div#header2009 + div.w980
+download.it168.com/2009images/alitong2010-07-21pic.gif
+download.it168.com/2009images/mysoft2010-07-19.gif
 download.it168.com/2009images/ucweb_conew1.jpg
 download.it168.com/jscript/bubble.js
 download.it168.com##.four_img1.mr10
-focus.it168.com^$subdocument
-software.it168.com^$subdocument
 www.it168.com##div#header + div[style^="border"]
+!--ITPUB
+||itpub.net/googlepv/pv.js
+||itpub.net/popwindowjs.php
+||itpub.net/js_floatwindows.php
 
 !---日搜
 ||jpseek.com/pr/
@@ -927,6 +932,8 @@ res.files.131.com/script/notif.js
 ||my4399.com^$domain=4399.com|4399.net
 market.52pk.com^
 pic.bahamut.com.tw/js/ad/
+bbs.a9vg.com/shop/js.php
+bbs.a9vg.com/showit/img_show.php
 bmp.ali213.net^
 img.cngba.com/da/
 freegame.com.tw/p_ad_f.htm
@@ -957,6 +964,9 @@ d.namipan.com/inc_js/$script
 img.rayfile.com/scr/$script
 
 !---News Sites
+||autohome.com.cn/33
+33.autohome.com.cn
+img.autohome.com.cn/pvpv$script
 ||backchina.com/banners/
 imgs.ccw.com.cn/200*/$image,object
 imgs.ccw.com.cn/ccw/1.htm
@@ -1046,12 +1056,9 @@ youku.com##.FIFAPOP
 ||youmaker.com/edoors200708180-150.swf
 
 !--Miscellaneous
-||078.com/flash_gg/
-||1000fr.net/images/adad.gif
 ||1000fr.net/images/adpk.jpg
 ||111cn.net/gg_ad/
 ||1m1m.cn/bar/
-||2010asiancup.com^$object
 ||2500sz.com/site/
 2500sz.com##.bk1
 2500sz.com###mainSub
@@ -1060,26 +1067,14 @@ youku.com##.FIFAPOP
 ||4oa.com/$script
 @@photo.51.com^$elemhide
 v3.apic.51.com/vda09.js
-||51ztzj.com/i/menu.js
-||51ztzj.com/script/youxiazt.js
-||52halfcd.com^$object
+||51ztzj.com/i/$script
 ||8684.cn/gg/*$script
 ||99iche.com^$object
-bbs.a9vg.com/shop/js.php
-bbs.a9vg.com/showit/img_show.php
-||admin5.com/images/javascript/
-||admin5.com/images/zz/
-||admin5.com/z/
 ||arting365.com/advs/
 ||arting365.com/bill/
 ||arting365.com/home/images/updater.js
-||autohome.com.cn/33
-33.autohome.com.cn
-img.autohome.com.cn/pvpv$script
 ||benxiong.com/g/
 ||bitscn.com/pic2009/a*.js
-||blueidea.com/js/ajs.js
-||by369.com/BBS/BBSads/
 ||c168c.com/*adv/
 ||cbifamily.com/corporation/
 !---CHDBits
@@ -1113,6 +1108,7 @@ static.doyouhike.net/partner/
 ||eastday.com/images/index09/ad
 ay.eastmoney.com^
 same.eastmoney.com^
+dir.ejoina.com/taobao/mzm1.gif
 eap.enorth.com.cn^
 ||examda.com/examdagg/
 ||excelhome.net/club/TopVoice.htm
@@ -1136,8 +1132,6 @@ fj007.com###wordlink
 free9.cn^$script
 ||hanzify.org/Main/Template/*/a-d-s/
 ||haoting.com/gdjs/$script
-||discuss.com.hk/apps/ts_feed/$object
-.hk/aeiou/$domain=discuss.com.hk|uwants.com
 ||headlinejobs.hk/images/banner/$image
 ||hjenglish.com/js/double_index2007.js
 www.hoopchina.com##[class^="ad"]
@@ -1449,6 +1443,7 @@ u.juyouxi.com^$third-party
 ||sharele.cn^$third-party
 ||since1984.cn^$third-party
 ||skycn.org.cn^$third-party
+||star8.net^$third-party
 ||tazhao.com^$third-party
 ||toocle.com/adu/?*
 ||totoso.com^$third-party
@@ -1523,7 +1518,6 @@ guanggao
 /html/ad/*
 /img/ad/*
 /image/ad/*
-||i1.hk/ad/
 |http://w*/ad/$domain=~gstatic.com
 !---/gg/
 /images/gg/*
