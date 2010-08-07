@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: G3ZIh/J8QoVoRNXFGF57AA
+!  Checksum: a9FIe31AtWXqmCQKPCM18A
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 07 Aug 2010 21:02:06 +0800
+!  Last Modified:  Sat, 07 Aug 2010 21:42:35 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -72,9 +72,9 @@ corp.56.com^
 ||6.cn/csjs10/tan_*.js
 ||6.cn/mdfor/index_new.js
 ||6.cn/mdfor/watch_new11.js
-shrek.6.cn/api/pageViewCount.php
+shrek.6.cn^
 hm.i8.com.cn/GetAdContent.aspx
-6.cn##.listTextAd
+||duduso.com^$third-party
 6.cn###palyerAdText
 6.cn##[id^="adText"]
 6.cn##[id$="dxPopularize"]
@@ -329,8 +329,7 @@ www.hsw.cn##table[width="980"][height="100"]
 
 !---凤凰网
 ||ifeng.com/statics/all_content_ad_
-img.ifeng.com/tres/recommend/
-sta.ifeng.com/stadig/
+||ifeng.com/tres/recommend/
 ifeng.com##[class^="ad"]
 ifeng.com##.areaAd
 ifeng.com##.maidunbox
@@ -385,7 +384,6 @@ kkkmh.com##[class^="mm-"]
 !---Ku6
 @@/niubin/ent/flash/index0513.swf
 gug.ku6cdn.com^
-js.ku6cdn.com/mv/2010/0612/duilian/dlScroll.js
 img.c4.ku6.cn/*/upload/$object
 stat.ku6.com/dostatv.do$script
 ku6.com###swfdiv
@@ -1551,6 +1549,7 @@ cdn.hiido.cn^$third-party
 ||twcount.com^$third-party
 look.urs.tw^$third-party
 ||vdoing.com^$third-party
+||wrating.com^$third-party
 
 !-----------------------Element Hiding--------------------
 ##.ad_footerbanner
