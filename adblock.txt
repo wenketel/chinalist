@@ -1,12 +1,11 @@
 [Adblock Plus 1.2]
-!  Checksum: SaN3iwEa5PRf8ManyiWbkg
+!  Checksum: fGE2gn9kts0bnUUPJilNyQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 06 Aug 2010 14:02:43 +0800
+!  Last Modified:  Sat, 07 Aug 2010 20:39:16 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
 !---------------------White List------------------------
-@@crossdomain.xml|$subrequest
 @@||alimama.cn^$stylesheet
 
 !---------------------Well-known Sites-------------------
@@ -62,9 +61,10 @@ thinkpad.cn,51nb.com##td.line[style="padding: 5px;"]
 ||52zy.com/other/js/
 
 !---56.com
-corp.56.com^
 /js/promo/*
 |http://acs.
+corp.56.com^
+/tuiguang/*$domain=56.com
 56.com##.rAd_text
 
 !---六间房
@@ -97,6 +97,7 @@ www.6park.com/wap/close.gif
 
 !---Baidu
 !--unions
+||cb.baidu.com^
 ||cbjs.baidu.com^
 ||cpro.baidu.com^
 ||drmcmm.baidu.com^
@@ -119,7 +120,7 @@ www.baidu.com##table[width="30%"][align="right"] div[style|=border]
 zhidao.baidu.com##.fc-down
 zhidao.baidu.com##.r
 !--qiyi
-||afp.qiyi.com^$subdocument
+||afp.qiyi.com^
 
 !---易车网
 g.bitauto.com^$script
@@ -657,10 +658,9 @@ cdnbbs.tompda.com/images/$image,object
 tompda.com##.Advertising
 
 !---土豆
+@@|http://adcontrol.tudou.com/crossdomain.xml
 adcontrol.tudou.com$~third-party
-css.tudouui.com/skin/play/img/tudouVa.png
-js.tudouui.com/js/fn/saleloader$script
-*/tudoumini/$domain=tudou.com,object_subrequest
+/saleloader$script,domain=~hd.tudou.com
 |http://istat.$object_subrequest
 
 !---udn
@@ -1049,17 +1049,15 @@ google.com##div.item-body>div>div[style="border-top: 1px solid rgb(203, 217, 217
 
 !---Video Sites
 img.1ting.com/v5/js/*text.js
-||bilibili.us/images/580X70.gif
 ||bilibili.us/images/970X100.gif
-||joy.cn/provider2.ashx
+/provider2.ashx
 client.joy.cn/flvplayer/login_player.swf
-casting.openv.com/getPlaySkin_De.php
+||pro.letv.com^
 cnt.openv.com/apis/vmis.php
 ||pipi.cn/player/
 pipi.cn##div#movie_tab_1+div[style]
 ||pps.tv/js_a2d/
 atm.youku.com/
-youku.com##.FIFAPOP
 ||youmaker.com/logoad2.jpg
 ||youmaker.com/edoors200708180-150.swf
 
@@ -1303,6 +1301,7 @@ www.2bj.cn^$third-party
 ||91ivr.com^$third-party
 ||91wan.com^$third-party
 ||991go.com^$third-party
+||999d.com^$third-party
 ||9v.cn/code/$third-party
 ||9vcpm.cn^$third-party
 v.9vcpc.cn^$third-party
