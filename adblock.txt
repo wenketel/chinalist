@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: fGE2gn9kts0bnUUPJilNyQ
+!  Checksum: G3ZIh/J8QoVoRNXFGF57AA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 07 Aug 2010 20:39:16 +0800
+!  Last Modified:  Sat, 07 Aug 2010 21:02:06 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -14,11 +14,12 @@ img1.126.net^
 img2.126.net^
 mail.126.com,mail.163.com##.gWel-gg-2
 mail.126.com,mail.163.com##div.chl>a:last-child
+mail.126.com,mail.163.com##*[id$="FakeLetterDiv"]
 adgeo.163.com^
+bbs.163.com/bbs/floatlayer/floatLayer.js
 ||g.163.com^$subdocument
 163.com##[class^="gg"]
 cpc.163.com^$subdocument
-mail.163.com##[id$="FakeLetterDiv"]
 www.163.com##[class^="colL gg"]
 www.youdao.com###sp
 ||youdao.com/imp/$script
@@ -620,10 +621,6 @@ sun0769.com###outer04
 sun0769.com###outer06
 sun0769.com###outer08
 
-!---ta.md
-||dulei.si/files/59b02cb917c2fa1b8a1698f4ff615583.jpg
-ta.md##.postad
-
 !---T客邦
 ||techbang.com.tw^$subdocument
 techbang.com.tw##.ad
@@ -931,6 +928,7 @@ down.x6x8.com/good/
 ||ziyuan8.com^$script,subdocument
 
 !---Game Sites
+www.131.com/js/gg.js
 res.files.131.com/script/notif.js
 ||market.178.com^
 ||265g.com/templets/js/index.js
@@ -1010,6 +1008,7 @@ gxsky.com###indexad_txt
 image.wenweipo.com/*/ad_
 ||singtao.com/$script
 iads.xinmin.cn/
+||zaobao.com/ssi/bizp/mkt/
 ||zdnet.com.tw/graphics/
 
 !---Online Novel/Comic Sites
@@ -1555,7 +1554,8 @@ look.urs.tw^$third-party
 
 !-----------------------Element Hiding--------------------
 ##.ad_footerbanner
-##div#focus.focus
+###ad_headerbanner
+###focus.focus
 ##[id^="ad_thread"]
 16kbook.com###AdsT
 av199.com,hd199.com##tr.altbg2>TD[width="100%"]
@@ -1572,14 +1572,16 @@ chinese.engadget.com##.post[style^="border: 1px solid rgb(243, 229, 138);"]
 epochtimes.com###insidearticleBodyAd
 godic.net,frdic.com###sidebar1
 google.com.tw###tadsb.c
+mail.google.com##.nH.u8
 bbs.hdchina.org##.home_left_hot
 imur.com.tw##.ad
 jandan.net##.eggs
 jandan.net##.xy
-mail.google.com##.nH.u8
 hdzone.org##table[width="740px"]
+hiapk.com##.ad_column
 ithome.com.tw##.ad_title
 ithome.com.tw##.big_ad
+luo.bo##.postad
 mobile01.com##.forum_sidemenu
 mysilu.com##[id^="ad_"]
 price.com.hk##.tb
@@ -1595,10 +1597,6 @@ youhua.com##td[width="299"][valign="top"][align="left"]
 zaobao.com###myMovie
 
 !-----------------------Temporary--------------------------------------------------------
-!-----------------------2010.7--------------------------------------------------------
+!-----------------------2010.8--------------------------------------------------------
 ||amazon.cn^$third-party
-||hiapk.com/bbs/images/91helper.gif
-news.pchome.com.tw/img/green_life_30080.gif
-|http://qzxw.qzwb.com/article_right.html
-|http://www.zaobao.com/ssi/bizp/mkt/
 !------------------------End of List--------------------------------------------------------
