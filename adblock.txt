@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: a9FIe31AtWXqmCQKPCM18A
+!  Checksum: 7ywkvB2sxZp6fEAYpmwkDw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 07 Aug 2010 21:42:35 +0800
+!  Last Modified:  Wed, 11 Aug 2010 09:15:25 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -1004,7 +1004,8 @@ gxsky.com###indexad_txt
 ||takungpao.com/images/top/
 ||techweb.com.cn/images/partnerjs/$script
 image.wenweipo.com/*/ad_
-||singtao.com/$script
+||singtao.com/*_ad*.js
+||singtao.com/js/ecard.js
 iads.xinmin.cn/
 ||zaobao.com/ssi/bizp/mkt/
 ||zdnet.com.tw/graphics/
@@ -1160,7 +1161,6 @@ cache.meropar.tw/swf/blog/tw_rot.xml
 cache.meropar.tw/swf/blog/loadBanner/
 js.meropar.tw/tracking.jsp
 ||mop.com/fxb/js/fxb.js
-||gg.mop.com^
 ||mycodes.net/js/$image
 www.nokiabbs.com/wk_ad/
 b.now.cn/data/NOWA/1025.gif
@@ -1514,6 +1514,7 @@ guanggao
 |http://*.net/gg/
 |http://ww*/adjs/
 |http://www*/ggao/
+m/promo/*
 qianming*^$third-party
 
 !-----------------------------Privacy---------------------
