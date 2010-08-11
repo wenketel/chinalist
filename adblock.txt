@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: KWJpQZOPvWTZ2opIwAza5w
+!  Checksum: NN3P156Z0zFyxevAFA4TYg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 11 Aug 2010 09:30:14 +0800
+!  Last Modified:  Wed, 11 Aug 2010 09:49:22 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -987,7 +987,6 @@ cnmo.com##[id^="AD"]
 ||huanqiu.com/script/entPageText$script
 huanqiu.com##[id^="banner"]
 /nddailyfile/webadv/*$domain=oeeee.com
-||mingpao.com/js/Adv/
 ||newtalk.tw/ad_
 ||nextmedia.com/DFA/js_ndxtag_v409.cfm?
 tw.nextmedia.com##.ad300x100
@@ -1090,7 +1089,6 @@ v3.apic.51.com/vda09.js
 ||codefans.net/ad_include/$script
 ||dabaoku.com^$script,object,subdocument
 ||dchome.net/pub/
-||ddmapimg.com/adv/
 ||dj97.com/common/dj97$script
 ||djkk.com/ak/
 ||djkk.com/images/*ad.gif
@@ -1475,7 +1473,6 @@ u.juyouxi.com^$third-party
 .allyes.
 .cn/ads/*
 .hk/ads/*
-.cn/adv/*
 .com/ads_
 .com/js/ad_
 .com/ggao/*
@@ -1487,8 +1484,6 @@ u.juyouxi.com^$third-party
 /adpshow.
 /allyes.
 /guangg/*
-/img/adv/*
-/images/adv/*
 /images/prom/*
 /js/acmsd/*
 /u/_sponsor/*
@@ -1507,6 +1502,12 @@ guanggao
 /img/ad/*
 /image/ad/*
 |http://w*/ad/$domain=~gstatic.com
+!---adv
+.cn/adv/*
+.com/adv/*
+/img/adv/*
+/images/adv/*
+/js/adv/*
 !---/gg/
 /images/gg/*
 |http://www.*/gg/
