@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: ciiFojfTA7odUO09dJUpkw
+!  Checksum: 0D+9LkMbzLCE9rr7CEAdKg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 20 Aug 2010 17:39:36 +0800
+!  Last Modified:  Sat, 21 Aug 2010 21:41:50 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -632,7 +632,6 @@ techbang.com.tw##.section.last
 
 !---TianYa
 |http://8*.tianya.cn/
-|http://8*.tianyaui.com/
 ||squidclick.bbs.tianya.cn^
 global.tianyaui.com/global/wizard/js/wizard.js
 ||tianyabook.com/$script
@@ -766,29 +765,13 @@ gougou.com##a[href^="http://click.cm.sandai.net/"]
 l.yimg.com/*/a/$~stylesheet
 !--CN
 cn.yimg.com/a/
-cn.yahoo.com/bbs/tuiguang.html
-cn.yimg.com/bbs/feng/690-90.jpg
-cn.yimg.com/i/js/ymw/b02/ymw-window-min.js
-cn.yahoo.com##.scrolldoorFrame
-news.cn.yahoo.com##.aili
-news.cn.yahoo.com##.k6
-news.cn.yahoo.com##.pah
-news.cn.yahoo.com##.shang
-news.cn.yahoo.com##.st
-news.cn.yahoo.com##.tui
 !--TW
-d.yimg.com/no/gd/
 l.yimg.com/*/tw/ysm/
 tw.yahoo.com##.admod
 tw.yahoo.com##.newsad
 tw.news.yahoo.com##[id^="ad"]
 tw.news.yahoo.com##[id^="ynwsad"]
 tw.news.yahoo.com###containerktw
-tw.news.yahoo.com###ynwsfture
-tw.news.yahoo.com###ynwsnw
-tw.news.yahoo.com###ynwsktw
-tw.news.yahoo.com###ynwsmag
-tw.news.yahoo.com###ynwspr
 !--HK
 hk.yahoo.com##[id^="ad"]
 hk.yahoo.com##[id^="ysm-"]
@@ -1074,6 +1057,7 @@ atm.youku.com/
 2500sz.com###mainSub
 ||360doc.com/js/albb3.js
 ||app-g.39.net^
+/gg_new/*$domain=3gp2.net|98.126.25.82
 ||4oa.com/$script
 @@photo.51.com^$elemhide
 v3.apic.51.com/vda09.js
