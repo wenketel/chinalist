@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: tIotFWemsKP3NODvabt7+g
+!  Checksum: I2Ujkmj3tHBc2PpMypPKmw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 24 Aug 2010 09:09:21 +0800
+!  Last Modified:  Tue, 24 Aug 2010 19:05:41 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -152,10 +152,10 @@ codepub.com##.r1
 codepub.com##.l1
 
 !---CCTV
-cctv.doulog.com/a.js
-a.cctv.com/hserver/$object
-blog.cctv.com/include/js/minipage.js
-www.cctv.com/script/ad_s.js
+@@|http://tansuo.cntv.cn/nettv/Library/video_bottom_page/js/tansuo_Advertise.js
+/script/ad_s.js$domain=cctv.com|cntv.cn
+/script/js_ad_utf8.js$domain=cctv.com|cntv.cn
+||cctv.com/special/flash/jshow.swf
 
 !---CHDBits
 ||chdbits.org/pic/p2pnow.jpeg
@@ -966,7 +966,6 @@ imgs.ccw.com.cn/ccw/1.htm
 ||region.cns.hk^
 ||pic.cnmo.com/$image,object
 cnmo.com##[id^="AD"]
-@@www.cctv.com/js/cntv_Advertise.js
 ||daqi.com/clicklog.js
 ||hinews.cn/out/www09index.js
 ||hinews.cn/out/wwwpage.js
