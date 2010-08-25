@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: I2Ujkmj3tHBc2PpMypPKmw
+!  Checksum: HSsGg2th80xHbTuxAdf61w
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 24 Aug 2010 19:05:41 +0800
+!  Last Modified:  Wed, 25 Aug 2010 15:23:12 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -430,9 +430,11 @@ news.msn.com.tw##.right_travel
 ||newhua.com/zt/
 
 !---Nownews
-||nownews.com/include_v10/js/ad_tab.js
 ||nownews.com/ad2004/
+||nownews.com/events/videonews/text-ad.htm
+||nownews.com/include_v10/js/ad_tab.js
 ||nownews.com/include_v10/js/float_ad/
+||nownews.com/yam/
 nownews.com##[id^="focus_"]
 nownews.com###ad_tab
 nownews.com###nownews_pickup
@@ -663,9 +665,10 @@ adcontrol.tudou.com$~third-party
 !---udn
 @@||video.udn.com^
 udn.monday.com.tw^$third-party
-||udn.com/1024*ad*$subdocument
+||udn.com/1024/AD/
 ||udn.com/1024*/BD/
 ||udn.com/1024MAIN/inc/b$subdocument
+||udn.com/adpinline/
 /PROJ_AD/*$domain=udn.com|udnjob.com
 mag.udn.com/html/
 udn.com###ad_sash
@@ -839,7 +842,7 @@ zol.com.cn##[id^="Float"]
 !---Blog Sites
 ||appinn.com/wp-content/*.swf|
 @@adsense.easylife.tw^$~script
-cdn.freegroup.org/files/ad.htm
+||freegroup.org^$subdocument
 ||gordon168.tw/gameflier/
 liveasy.myweb.hinet.net^
 minwt.com###CoverFlowAd
@@ -848,7 +851,7 @@ images.steachs.com^$object
 ||wretch.cc/_y/l/e/serv/blog/ysm.htm
 wretch.cc##.admd
 wretch.cc###ad_word
-/serv/video/video_player/BGMusicPlayer.swf$domain=js.wretch.yahoo.net|wretch.cc
+/BGMusicPlayer.swf$domain=js.wretch.yahoo.net|wretch.cc
 ||xuite.net/*count*.php
 town.xuite.net/_ad/
 
@@ -1569,6 +1572,7 @@ chinese.engadget.com##.post[style^="border: 1px solid rgb(243, 229, 138);"]
 epochtimes.com###insidearticleBodyAd
 godic.net,frdic.com###sidebar1
 google.com.tw###tadsb.c
+google.com.tw###rhs
 mail.google.com##.nH.u8
 bbs.hdchina.org##.home_left_hot
 imur.com.tw##.ad
@@ -1604,4 +1608,5 @@ zaobao.com###myMovie
 www.alibuybuy.com/wp-content/uploads/2010/08/ad.jpg
 www.alibuybuy.com/wp-content/uploads/2010/06/geektee.jpg
 js.tuigoo.com/AShow.aspx^
+photo.minwt.com/img/Content/other/mybook/
 !------------------------End of List--------------------------------------------------------
