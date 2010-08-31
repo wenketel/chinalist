@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: hJBRloi4Exh3PsjyzqhLjQ
+!  Checksum: JHaFBp2IeegsB2RO7aadxQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 30 Aug 2010 22:27:48 +0800
+!  Last Modified:  Tue, 31 Aug 2010 14:28:46 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -641,11 +641,6 @@ global.tianyaui.com/global/wizard/js/wizard.js
 ||tianyabook.com/$script
 www.tianya.cn##*[id*="_AD_"]
 
-!---tgfcer.com
-@@||club.tgfcer.com/images/*/$image
-club.tgfcer.com/images/
-hf.theres.cn/bee/img/5hr4rgh.gif
-
 !---Tom
 adserve2.tomoimg.cn
 js.pub.tom.com^
@@ -665,16 +660,13 @@ adcontrol.tudou.com$~third-party
 js.tudouui.com/bin/tudoumini/TudouMini_36.swf
 
 !---udn
-@@||video.udn.com^
 udn.monday.com.tw^$third-party
 ||udn.com/1024/AD/
 ||udn.com/1024*/BD/
 ||udn.com/1024MAIN/inc/b$subdocument
 ||udn.com/adpinline/
 /PROJ_AD/*$domain=udn.com|udnjob.com
-mag.udn.com/html/
-udn.com###ad_sash
-udn.com###warptop
+mag.udn.com/html/~$image
 
 !---VeryCD
 sponsor.verycd.com/$subdocument
@@ -1182,7 +1174,7 @@ image.sofang.com/upfiles/$object
 ||taisha.org/abroad/head/banner*.html
 ||taobao.com/go/rgn/favorite/baobei_ad.php
 ||topsage.com/service/$object
-||torrentgui.com/pic/donate_d.gif
+club.tgfcer.com/images/g
 ||tz513.com$object
 ||u148.net/activity/$~object_subrequest
 u148.net##.article_right_google
@@ -1569,7 +1561,6 @@ imur.com.tw##.ad
 hdzone.org##table[width="740px"]
 ||hdzone.org^$subdocument
 hiapk.com##.ad_column
-itfunz.com##.ad_float_left
 ithome.com.tw##.ad_title
 ithome.com.tw##.big_ad
 jandan.net##.eggs
