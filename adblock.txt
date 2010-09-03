@@ -1,14 +1,14 @@
 [Adblock Plus 1.2]
-!  Checksum: O0gHMFTmrMagbTVinUwo9g
+!  Checksum: I3OzqHcfsQ6+JkSdlLAIKg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 03 Sep 2010 09:09:42 +0800
+!  Last Modified:  Fri, 03 Sep 2010 09:56:31 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
-!---------------------White List------------------------
+!----------------------------White List--------------------
 @@||alimama.cn^$stylesheet
 
-!---------------------Well-known Sites-------------------
+!----------------------------Well-known Sites--------------
 !---网易
 img1.126.net^
 img2.126.net^
@@ -833,7 +833,7 @@ zol.com.cn##[id^="AD"]
 zol.com.cn##[id^="Bar"]
 zol.com.cn##[id^="Float"]
 
-!-------------------Generic (sort by domain name)---------
+!----------------------------Generic(sort by domain name)--
 !---Blog Sites
 ||appinn.com/wp-content/*.swf|
 @@adsense.easylife.tw^$~script
@@ -1054,7 +1054,7 @@ atm.youku.com/
 ||youmaker.com/logoad2.jpg
 ||youmaker.com/edoors200708180-150.swf
 
-!--Miscellaneous
+!---Miscellaneous
 ||1000fr.net/images/adpk.jpg
 ||111cn.net/gg_ad/
 ||1m1m.cn/bar/
@@ -1219,7 +1219,7 @@ zhyjms.com##[class^="gg"]
 ||zzsky.cn/images/a_d_
 ||zzsky.cn/images/aa4d.jpg
 
-!----------------pornographic, spam, ads-union...........
+!----------------------------ads-union---------------------
 ||0252.com^$third-party
 ||0cai.cn/$third-party
 ||100tone.com^$third-party
@@ -1450,7 +1450,7 @@ u.juyouxi.com^$third-party
 ||js.zdy.cc^$third-party
 ||zncool.com^$third-party
 
-!--------------------------Other (sort by letter)--------
+!----------------------------Other (sort by letter)--------
 .ad.php?
 .allyes.
 .cn/ads/*
@@ -1458,6 +1458,7 @@ u.juyouxi.com^$third-party
 .com/ads_
 .com/js/ad_
 .com/ggao/*
+/590x75.
 /ad_float
 /adfiles/*
 /adimage/*
@@ -1501,7 +1502,7 @@ guanggao
 |http://www*/ggao/
 qianming*^$third-party
 
-!-----------------------------Privacy---------------------
+!-----------------------------Privacy----------------------
 !--count
 /counter.$domain=~shooter.cn|~opensuse.org|~blog.sohu.com
 /counts.
@@ -1536,7 +1537,7 @@ look.urs.tw^$third-party
 ||vdoing.com^$third-party
 ||wrating.com^$third-party
 
-!-----------------------Element Hiding--------------------
+!-----------------------Element Hiding---------------------
 ##.ad_footerbanner
 ###ad_headerbanner
 ###focus.focus
@@ -1586,11 +1587,10 @@ yingkong.net##div[style^="width: 960px;"]+div[align="center"]
 youhua.com##td[width="299"][valign="top"][align="left"]
 zaobao.com###myMovie
 
-!-----------------------Temporary--------------------------------------------------------
-!-----------------------2010.8--------------------------------------------------------
-/590x75.
+!-----------------------Temporary---------------------------
+!---2010.9
 bbs.gfan.com/forumdata/images/android-toys.gif
 bbs.gfan.com/forumdata/images/Gfan-mobile-0.27.swf
 js.tuigoo.com/AShow.aspx^
 photo.minwt.com/img/Content/other/mybook/
-!------------------------End of List--------------------------------------------------------
+!------------------------End of List-------------------------
