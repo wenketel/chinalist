@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: X1oW3NzoCvWu2bzzwAJR3g
+!  Checksum: hkMgPjcuYi5zZVxITvpCYw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 12 Sep 2010 03:27:21 +0800
+!  Last Modified:  Sun, 12 Sep 2010 03:34:34 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -112,7 +112,7 @@ www.6park.com/wap/close.gif
 ||spcode.baidu.com^
 ||unstat.baidu.com^
 ||utk.baidu.com^
-a.baidu.com/ecom$script
+a.baidu.com/ecom^$script
 hi.baidu.com/ui/scripts/refer/refer.js
 static.mp3.baidu.com^
 image.baidu.com###relEcom
@@ -498,7 +498,7 @@ pixnet.net###extradiv3
 cj.qidian.com^
 ibw.sdo.com/flash/js/webwidget.js
 sndasdopassport.sdo.com/sdodownload/passport/SNDAHomepage/SNDANewsBar.aspx
-||igalive.com$third-party
+||igalive.com^$third-party
 qidian.com###AddMark
 qidian.com##[class^="gg"]
 
@@ -589,8 +589,8 @@ finance.sina.com.cn##.topADs
 finance.sina.com.cn##.qyfwBlk
 www.sina.com.cn##.sinamall
 !--sina.com.hk
-as.sinahk.net$third-party
-asimg.sinahk.net$third-party
+as.sinahk.net^$third-party
+asimg.sinahk.net^$third-party
 !--sina.com.tw
 ||sina.com.tw^$subdocument
 
@@ -655,11 +655,11 @@ tompda.com##.Advertising
 
 !---土豆
 @@|http://adcontrol.tudou.com/crossdomain.xml
-adcontrol.tudou.com$~third-party
+adcontrol.tudou.com^$~third-party
 /saleloader$script,domain=~hd.tudou.com
 js.tudouui.com/bin/tudoumini/TudouMini_36.swf
-tudou.com##*.b.seed
-tv.tudou.com##*#adex_board
+tudou.com##.b.seed
+tv.tudou.com###adex_board
 
 !---udn
 @@video.udn.com/udnad/videoad.php^
@@ -820,7 +820,7 @@ zhuaxia.com##[id^="pd_sg_"]
 zhuaxia.com##[onclick^="send_ad_log"]
 
 !---逐浪小说网
-||zhulang.com$object,subdocument
+||zhulang.com^$object,subdocument
 css.zhulang.net/js/header.js
 images2.zhulang.com^$script,image,object
 www.zhulang.com/js/pf2.js
@@ -1110,7 +1110,9 @@ eap.enorth.com.cn^
 fj007.com###wordlink
 ||flash8.net/flash8_a_d_s/
 ||fqlook.cn/vip/2009index/
-free9.cn^$script
+||frdic.com/dic_resource/revefrance.gif
+frdic.com,godic.net###sidebar1
+||free9.cn^$script
 ||hanzify.org/Main/Template/*/a-d-s/
 ||haoting.com/gdjs/$script
 ||headlinejobs.hk/images/banner/$image
@@ -1183,7 +1185,7 @@ bbs.t56.net/ad*/
 ||assets.taobaocdn.com/app/matrix/js/fload$script
 ||topsage.com/service/$object
 club.tgfcer.com/images/g
-||tz513.com$object
+||tz513.com^$object
 ||u148.net/activity/$~object_subrequest
 u148.net##.article_right_google
 ||ucar.cn/ucar/UploadPic/SecondHandCar/$object
@@ -1283,12 +1285,12 @@ v.9vcpc.cn^$third-party
 ||9wad.com^$third-party
 ||9wee.com^$third-party
 ||union.a8.com^$third-party
-||a8ww.net$third-party
+||a8ww.net^$third-party
 ||acs86.com^$third-party
 ||ad123456.com^$third-party
 .ad2.cn/$third-party
 ||adcenter.conn.tw^$third-party
-||adqoo.com$third-party
+||adqoo.com^$third-party
 ||adsame.com^$third-party
 ||adsfactor.cn^$third-party
 ||adsue.com^$third-party
@@ -1324,7 +1326,7 @@ v.9vcpc.cn^$third-party
 ||cjoy.com.cn^$third-party
 ||clickeye$third-party
 ||clicki.cn^$third-party
-||click.com$third-party
+||click.com^$third-party
 ||cnxad.com^$third-party
 ||cocoren.com^$third-party
 ||cpm9v.cn^$third-party
@@ -1349,7 +1351,7 @@ u.www.duba.net^$third-party
 ||flashads.cn^$third-party
 ||flashwing.net^$third-party
 ||fojafrog.com^$third-party
-||gamediad.com$third-party
+||gamediad.com^$third-party
 ||games32.cn^$third-party
 ||gcuj.com^$third-party
 ||ginkgotek.com^$third-party
@@ -1367,8 +1369,8 @@ s.hagou.com^$third-party
 u.*.iciba.com^$third-party
 ||ifocus.cn^$third-party
 ||inter-focus.cn^$third-party
-||itop247.com$third-party
-||itopnetworks.com$third-party
+||itop247.com^$third-party
+||itopnetworks.com^$third-party
 ||itsun.com^$third-party
 ||insenz.com^$third-party
 .izo.cn/$third-party
@@ -1397,7 +1399,7 @@ u.juyouxi.com^$third-party
 ||narrowad.com^$third-party
 ||netgy.com^$third-party
 ||newwang.com^$third-party
-||niwota.com$third-party
+||niwota.com^$third-party
 ||nnwm.com^$third-party
 ||oeya.com^$third-party
 ||ok8848.com^$third-party
@@ -1485,7 +1487,7 @@ adpolestar
 adsunion
 friendlink$subdocument,image
 guanggao
-@@|http://gg.a.5d6d.com$domain=bbs.vc52.cn
+@@|http://gg.a.5d6d.com^$domain=bbs.vc52.cn
 |http://gg.$subdocument,image,script,object
 |http://ggg.$subdocument,image,script,object
 !---/ad/
@@ -1538,7 +1540,7 @@ cdn.hiido.cn^$third-party
 ||linezing.com^$third-party
 ||sitebro.tw^$third-party
 ||sitestates.com^$third-party
-||sitetag.us$third-party
+||sitetag.us^$third-party
 ||top-bloggers.com^$third-party
 ||twcount.com^$third-party
 look.urs.tw^$third-party
@@ -1563,8 +1565,6 @@ dianping.com##[class^="DPAD"]
 discuz.net##[class^="wp a_"]
 chinese.engadget.com##.post[style^="border: 1px solid rgb(243, 229, 138);"]
 epochtimes.com###insidearticleBodyAd
-godic.net,frdic.com###sidebar1
-google.com.tw###tadsb.c
 mail.google.com##.nH.u8
 bbs.hdchina.org##.home_left_hot
 imur.com.tw##.ad
