@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 38cU5LgU8IIC1IM2xe7CBw
+!  Checksum: Q0EmTLTUe1LOInmThJ6ThQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 15 Sep 2010 13:53:39 +0800
+!  Last Modified:  Wed, 15 Sep 2010 16:18:18 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -575,20 +575,19 @@ bj.house.sina.com.cn/iframe/$subdocument,script
 news.sina.com.cn/iframe/js/$script
 rm.sina.com.cn/icast/rotator.js
 ||sinaimg.cn/unipro/
-pfp.sina.com.cn/
-pfpip.sina.com/
+pfp.sina.com.cn^
+pfpip.sina.com^
 ent.sina.com.cn/iframe/musicjs/importplayer.0.3.js
 sjs.sinajs.cn/webchat/common/miniDynamicLoad.js
 sina.com.cn##.topAD
+sina.com.cn##.blkContainerSblk+div
+sina.com.cn##*[id^="PublicRelation"]
 sina.com.cn,sina.com##*[id^="ads"]
 sina.com.cn,sina.com##*[class*="ads"]
 sina.com.cn,sina.com##[class^="AD"]
-blog.sina.com.cn##.blogreco
 blog.sina.com.cn##.topbannerAD
-finance.sina.com.cn###PublicRelation6
 finance.sina.com.cn###adSinaHouseHeadLink
 finance.sina.com.cn##.topADs
-finance.sina.com.cn##.qyfwBlk
 www.sina.com.cn##.sinamall
 !--sina.com.hk
 as.sinahk.net^$third-party
