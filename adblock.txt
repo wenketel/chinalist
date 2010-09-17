@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: N8wFZd6xr0zT9nKL7GMVvw
+!  Checksum: paoaXz4K/zkSYhpL4rsxWg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 16 Sep 2010 15:33:41 +0800
+!  Last Modified:  Fri, 17 Sep 2010 11:46:33 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -14,7 +14,7 @@ img1.126.net^
 img2.126.net^
 mail.126.com,mail.163.com##.gWel-gg-2
 mail.126.com,mail.163.com##div.chl>a:last-child
-mail.126.com,mail.163.com##*[id$="FakeLetterDiv"]
+mail.126.com,mail.163.com##[id$="FakeLetterDiv"]
 adgeo.163.com^
 bbs.163.com/bbs/floatlayer/floatLayer.js
 ||g.163.com^$subdocument
@@ -29,7 +29,7 @@ www.youdao.com###sp
 ||17173.com/x/$~script
 images.17173.com/*/sx/
 js.17173.com/ping.js
-17173.com##*[class^="banner"]
+17173.com##[class^="banner"]
 
 !---草根网
 ||20ju.com/js/caogen.js
@@ -174,7 +174,7 @@ china.com###BJ
 news.china.com##.adclass
 news.china.com###clm01
 news.china.com###EndPageRollText
-tech.china.com##*[class^="ad"]
+tech.china.com##[class^="ad"]
 www.china.com##.fullClmAT
 www.china.com##.homeheadAT
 
@@ -406,8 +406,8 @@ v.ku6.com##.flwin.flwin_min
 news.mydrivers.com/img/zhuanti/
 mydrivers.com##div.top + div.hang1
 mydrivers.com##[id^="ad"]
-drivers.mydrivers.com##*[align="center"][style="padding-bottom: 2px;"]
-news.mydrivers.com##*[align="center"][style="padding: 3px; font-size: 0px;"]
+drivers.mydrivers.com##[align="center"][style="padding-bottom: 2px;"]
+news.mydrivers.com##[align="center"][style="padding: 3px; font-size: 0px;"]
 news.mydrivers.com##table[border="0"][width="980"][height="90"]
 
 !---msn.com
@@ -458,7 +458,7 @@ js-1.pchome.net/ol.js
 ||onlylady.com/kds/$subdocument
 pchome.net##[id^="AD"]
 pchome.net##[class^="ad"]
-www.pchome.net##*[id*="ad"]
+www.pchome.net##[id*="ad"]
 www.pchome.net###popWin
 
 !---太平洋电脑网
@@ -485,7 +485,7 @@ photo.pchome.com.tw##.r300
 !---平湖在线
 ||ph66.com/2009ad/
 i.ph66.com/attachment/$object
-ph66.com##*[id*="ad"]
+ph66.com##[id*="ad"]
 
 !---痞客邦
 ||pixanalytics.com^
@@ -581,9 +581,9 @@ ent.sina.com.cn/iframe/musicjs/importplayer.0.3.js
 sjs.sinajs.cn/webchat/common/miniDynamicLoad.js
 sina.com.cn##.topAD
 sina.com.cn##.blkContainerSblk+div
-sina.com.cn##*[id^="PublicRelation"]
-sina.com.cn,sina.com##*[id^="ads"]
-sina.com.cn,sina.com##*[class*="ads"]
+sina.com.cn##[id^="PublicRelation"]
+sina.com.cn,sina.com##[id^="ads"]
+sina.com.cn,sina.com##[class*="ads"]
 sina.com.cn,sina.com##[class^="AD"]
 blog.sina.com.cn##.topbannerAD
 finance.sina.com.cn###adSinaHouseHeadLink
@@ -640,7 +640,7 @@ techbang.com.tw##.section.last
 ||squidclick.bbs.tianya.cn^
 global.tianyaui.com/global/wizard/js/wizard.js
 ||tianyabook.com/$script
-www.tianya.cn##*[id*="_AD_"]
+www.tianya.cn##[id*="_AD_"]
 
 !---Tom
 adserve2.tomoimg.cn
@@ -729,7 +729,7 @@ wmzhe.com##.Softcontent3
 d0.xcar.com.cn^
 www.xcar.com.cn/bbs/images/shell_bbs.jpg
 www.xcar.com.cn/bbs/images/$object
-xcar.com.cn##*[class^="adset"]
+xcar.com.cn##[class^="adset"]
 xcar.com.cn###eMeng
 
 !---西祠胡同
@@ -1231,6 +1231,7 @@ u.1133.cc^$third-party
 ||158c.com^$third-party
 ||160ads.com^$third-party
 union.yxp.163.com^$third-party
+||163click.com^
 ||19dc.com^$third-party
 ||1gou.com^$third-party
 ||1stcngame.com^$third-party
@@ -1574,7 +1575,7 @@ luo.bo##.postad
 mobile01.com##.forum_sidemenu
 mysilu.com##[id^="ad_"]
 price.com.hk##.tb
-price.com.hk##*[id^="ad"]
+price.com.hk##[id^="ad"]
 bbs.pspchina.net##[id^="ad_"]
 qianlong.com##.aditem01
 qiushibaike.com##.ad>div
