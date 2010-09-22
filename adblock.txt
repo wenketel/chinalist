@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: qGahCAKlGALBTuXgCWo8aA
+!  Checksum: ZkhLv86mdllsHdh4Jz2TYg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 22 Sep 2010 20:54:25 +0800
+!  Last Modified:  Wed, 22 Sep 2010 23:18:42 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -125,6 +125,8 @@ hi.baidu.com/ui/scripts/refer/refer.js
 static.mp3.baidu.com^
 image.baidu.com###relEcom
 image.baidu.com###ecomContainer
+video.baidu.com##div#rlinks+div[style="padding: 0pt 10px;"]
+video.baidu.com##[style="display: block; width: 1024px; height: 90px;"]
 www.baidu.com##.f.EC_PP
 www.baidu.com##table[bgcolor="#f5f5f5"][width="65%"]
 www.baidu.com##table[width="30%"][align="right"] div[style|=border]
