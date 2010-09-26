@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: vfZnMudyTuhuNVSOqblsrw
+!  Checksum: e3xStxhIllxSgntd/auuTg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 26 Sep 2010 13:43:22 +0800
+!  Last Modified:  Sun, 26 Sep 2010 17:04:06 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -12,14 +12,14 @@
 !---网易
 img1.126.net^
 img2.126.net^
-mail.126.com,mail.163.com##.gWel-gg-2
-mail.126.com,mail.163.com##div.chl>a:last-child
-mail.126.com,mail.163.com##[id$="FakeLetterDiv"]
 adgeo.163.com^
+analytics.163.com^
 bbs.163.com/bbs/floatlayer/floatLayer.js
 ||g.163.com^$subdocument
 163.com##[class^="gg"]
-cpc.163.com^$subdocument
+mail.126.com,mail.163.com##.gWel-gg-2
+mail.126.com,mail.163.com##div.chl>a:last-child
+mail.126.com,mail.163.com##[id$="FakeLetterDiv"]
 www.163.com##[class^="colL gg"]
 www.youdao.com###sp
 ||youdao.com/imp/$script
@@ -61,11 +61,6 @@ search.21cn.com##td[width="184"][align="left"]
 thinkpad.cn,51nb.com##.maintable+table.t_rown
 thinkpad.cn,51nb.com##div.menu+div.maintable>table.t_rown[width="875"]
 
-!---我爱资源
-@@|http://www.52zy.com/gg/$image
-@@||52zy.com/other/js/A_14.js
-||52zy.com/other/js/
-
 !---56.com
 /js/promo/*
 |http://acs.
@@ -97,9 +92,6 @@ img.6park.com/img/$image
 www.6park.com/parks/$script
 www.6park.com/wap/close.gif
 6park.com##body>table+table+table+table+table[width="978"][bgcolor="#ffffff"]
-
-!---加西中文網
-||jerrycanada.com^$third-party
 
 !---acfun.cn
 ||acfun.cn/images.js
@@ -145,11 +137,6 @@ bitauto.com##.con_ad
 ||bookge.com/zj85/$script
 ||bookge.com/rar/$subdocument,script
 ||bookge.com/$subdocument
-
-!---Brbox
-||r.brsbox.com/img0.29/downwps_btnbg.gif
-||r.brsbox.com/images/sogou2.gif
-brsbox.com##A.up_butt_downpage
 
 !---东莞视窗
 ||bbapp.net/iframe/dongguan/images/ad
@@ -239,13 +226,12 @@ www.cyzone.cn/bian/pic/top_banner.swf
 img.cyzone.com.cn/customer/$object
 
 !---大洋网
-59.42.241.145
+||dayoo.com/dayoo_xb/js/lucky_hg.js
 ||dayoo.com/sta/da.js
 dywg.dayoo.com/AdPub/
 images.dayoo.com/dywimg/
 club.dayoo.com/banner/
 gzdaily.dayoo.com/tpl/$object
-rnd.dayoo.com/javascript/app/roll_bar/20081030/FloatingPaneClass.js
 www.dayoo.com###lm_dywmtq+div.wOut.mt6
 
 !---Dict.CN
@@ -612,7 +598,6 @@ asimg.sinahk.net^$third-party
 
 !---人人软件站
 ||softii.com/Images/2006_11_top002.gif
-||softii.com/Images/qqwlds.gif
 ||softii.com/Images/xz2.gif
 ||softii.com/js/*0$script
 
@@ -625,9 +610,7 @@ shm.com.cn##.surround
 !---Sogou
 ||sogou.com/js/*ad.js
 brand.sogou.com^
-inte.sogou.com^
 pb.sogou.com^
-pic.sogou.com###intword
 v.sogou.com##.box123
 www.sogou.com##div#leftcolumn>div.right
 
@@ -876,6 +859,8 @@ town.xuite.net/_ad/
 ||366soft.net/t/$script
 ||525down.com/dd/
 ||52z.com/show/All.js
+@@|http://www.52zy.com/gg/$image
+||52zy.com/other/js/
 ||7xdown.com/adgg/
 ||9553.com^$script,subdocument
 9553.com##label[style="font-size: 12px;"]
@@ -971,6 +956,8 @@ bill.tgbus.com/html/
 !---Net Disks
 u.115.com/static/media/
 u.115.com/static/modules/
+||r.brsbox.com/img0.29/downwps_btnbg.gif
+||r.brsbox.com/images/sogou2.gif
 ||google.mmjq.com^
 ||tx908.com^
 d.namipan.com/inc_js/$script
@@ -997,6 +984,7 @@ cnmo.com##[id^="AD"]
 ||huanqiu.com/script/homepage$script
 huanqiu.com##[id^="banner"]
 ||itocp.com/html/$object
+||jerrycanada.com^$third-party
 ||mingpao.com/image/banner/adc/$image
 /nddailyfile/webadv/*$domain=oeeee.com
 ||newtalk.tw/ad_
