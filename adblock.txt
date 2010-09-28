@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: JCdwfBvE0wVCiT7tGdjPBw
+!  Checksum: vEHsuM5ASZfGOI5bb1b14g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 28 Sep 2010 12:12:28 +0800
+!  Last Modified:  Tue, 28 Sep 2010 14:13:05 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -506,28 +506,22 @@ qidian.com###AddMark
 qidian.com##[class^="gg"]
 
 !---QQ
-@@|http://mat1.gtimg.com/news/$script
-@@|http://mat1.gtimg.com/finance/st/$script
-mat1.gtimg.com/finance/stock_hq/quotpage_ad_2.gif
-mat1.gtimg.com/$script,domain=~t.qq.com|~stockhtm.finance.qq.com
-mat1.gtimg.com/*/*/*.swf|
-||qq.com/js/ping_qqcom_v2.1.2.js
-is.qq.com/js/addportal.js
-l.qq.com/lview?$script
+mat1.gtimg.com/news/fbgg/
+mat1.gtimg.com/ent/flash/dehneirong*.swf
+||trace.qq.com^
+pingjs.qq.com^$domain=~web.qq.com|~webqq.qq.com
+qq.com##.l_qq_com
 qq.com##.mod-left.AdBox-Article-QQ
 qq.com##.mod-left.bottom-Article-QQ.qiye-Article-QQ
+qq.com##.wrapper.AdTop-Article-QQ
 qq.com##[class^="mod-right business-Article-QQ"]
 qq.com##.mod-right.adBlock-Article-QQ
 qq.com###AdRight-Article-QQ
-qq.com##.l_qq_com
+edu.qq.com##.ad
 news.qq.com##.news_ad_box
 news.qq.com###News_F_UpRight
-news.qq.com##.wrapper.AdTop-Article-QQ
-pingjs.qq.com^$domain=~web.qq.com|~webqq.qq.com
-||trace.qq.com^
 www.qq.com##.adArea
 www.qq.com###proAd
-qq.com##div#main_nav_qq+table[width]
 !--fangQQ
 ||fangqq.com/uploadfile/$object
 fangqq.com##.content_right_a
