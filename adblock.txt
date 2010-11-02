@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: ijSOWk66dX1wT7HyicNZdA
+!  Checksum: Ysr8UYwNC37Z1trC1ztFng
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 02 Nov 2010 09:35:27 +0800
+!  Last Modified:  Tue, 02 Nov 2010 10:04:19 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -249,9 +249,8 @@ dict.cn###topgg
 dict.cn##div#main_right_right>div:nth-child(5)
 
 !---discuss.com.hk
-||i1.hk/ad/
-||discuss.com.hk/apps/ts_feed/$object
-.hk/aeiou/$domain=discuss.com.hk|uwants.com
+||discuss.com.hk/aeiou/
+||uwants.com/aeiou/
 
 !---多特软件站
 img.duote.com/duotehtml/
@@ -1588,7 +1587,7 @@ look.urs.tw^$third-party
 ##.ad_footerbanner
 ###ad_headerbanner
 ###focus.focus
-###threadad
+##.ad_column
 ##[id^="ad_thread"]
 16kbook.com###AdsT
 av199.com,hd199.com##tr.altbg2>TD[width="100%"]
@@ -1610,7 +1609,6 @@ bbs.hdchina.org##.home_left_hot
 imur.com.tw##.ad
 hdzone.org##table[width="740px"]
 ||hdzone.org^$subdocument
-hiapk.com##.ad_column
 itfunz.com##.a_pb
 itfunz.com##.focus
 jandan.net##.eggs
@@ -1635,10 +1633,9 @@ youhua.com##td[width="299"][valign="top"][align="left"]
 zaobao.com###myMovie
 
 !-----------------------Temporary---------------------------
-!---2010.10
+!---2010.11
 video.ofeva.com/wp-content/themes/firebug/images/shop2.gif
 photo.minwt.com/img/Content/other/mybook/
-nownews.com###TBAD_box
 js.tuigoo.com/AShow.aspx^
 login.yahoo.net/login_superads/
 !------------------------End of List-------------------------
