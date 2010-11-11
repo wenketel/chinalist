@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: np9LiX+3cTzQyAUV/k6btw
+!  Checksum: xX0mpofZtq7+NkfnXkm5tw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 11 Nov 2010 13:26:17 +0800
+!  Last Modified:  Thu, 11 Nov 2010 14:32:58 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -1162,6 +1162,8 @@ hdimg.hdbird.com/langzi/
 ||hk-pub.com/forum/images/banner/
 www.hoopchina.com##[class^="ad"]
 hdad.hudong.com/hdad/
+||hdzone.org^$subdocument
+hdzone.org##table[width="740px"]
 ||hwit.net/acmsd/
 ||infoq.com/resource/skyscraper/
 goto.www.iciba.com^$subdocument,domain=iciba.com
@@ -1598,26 +1600,13 @@ look.urs.tw^$third-party
 ##[id^="ad_thread"]
 16kbook.com###AdsT
 av199.com,hd199.com##tr.altbg2>TD[width="100%"]
-ce.cn###toprad
-cf8.com.cn##.ad
-cf8.com.cn##.leavePhone
-cf8.com.cn###floatDiv
 chdtv.net##.a_mu
-class.chinaren.com##.guanggaoText
 crsky.com##.banner
 dianping.com##[class^="DPAD"]
 discuz.net##[class^="wp a_"]
-chinese.engadget.com##.post[style]
-epochtimes.com###insidearticleBodyAd
 mail.google.com##.nH.u8
-www.google.com.tw###tadsb
-www.google.com.tw##table[style="border: 1px solid #FFFFF4"]
 bbs.hdchina.org##.home_left_hot
-imur.com.tw##.ad
-hdzone.org##table[width="740px"]
-||hdzone.org^$subdocument
 itfunz.com##.a_pb
-itfunz.com##.focus
 jandan.net##.eggs
 jandan.net##.xy
 www.kswchina.com###banner
@@ -1627,16 +1616,12 @@ mobile01.com##.textimg
 mysilu.com##[id^="ad_"]
 price.com.hk##.tb
 price.com.hk##[id^="ad"]
-bbs.pspchina.net##[id^="ad_"]
 qianlong.com##.aditem01
-www.soso.com##.s_r
 bbs.sjtu.cn,bbs.sjtu.edu.cn,bbs6.sjtu.edu.cn###ad
 subpig.net###ajaxwaitid+div.wrap>#header+table+table[width="97%"][height="33"]
 subpig.net##div.wrap>table[width="97%"][bgcolor="#000000"][background="#ffffff"]
 bbs.weiphone.com##[id^="ads_"]
-bbs.xdxdxd.com###ad_888
 yingkong.net##div[style^="width: 960px;"]+div[align="center"]
-youhua.com##td[width="299"][valign="top"][align="left"]
 zaobao.com###myMovie
 
 !-----------------------Temporary---------------------------
