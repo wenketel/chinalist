@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: fzjv6osaEUdYxOF4e5ltaA
+!  Checksum: 1IjhxdobfQyVpkmSoKF24A
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 17 Nov 2010 13:51:55 +0800
+!  Last Modified:  Wed, 17 Nov 2010 20:35:24 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -574,15 +574,19 @@ chinanews.sina.com##.M_Right
 chinanews.sina.com##table[cellspacing="0"][width="900"]
 dailynews.sina.com##.TopNav+table
 !--sina.com.cn
-@@data.*.sina.com.cn^$subdocument
+@@data.*.sina.com.cn^
 @@|http://down*.tech.sina.com.cn/$script,subdocument
-|http://d*.sina.com.cn^$domain=~data.ent.sina.com.cn|~slide.2010.sina.com.cn,~stylesheet
+|http://d*.sina.com.cn^$domain=~slide.2010.sina.com.cn,~stylesheet
 bj.house.sina.com.cn/iframe/$subdocument,script
 ||sinaimg.cn/dy/deco/$script
 ||sinaimg.cn/unipro/
 pfp.sina.com.cn^
 rm.sina.com.cn^
 ent.sina.com.cn/iframe/musicjs/importplayer.0.3.js
+!--video
+you.video.sina.com.cn/js/pg/play/vblogPop.js
+video.sina.com.cn/iframe/$subdocument
+||v.sina.com.cn/v/iframe/$subdocument
 sina.com.cn##.topAD
 sina.com.cn##.blkContainerSblk+div
 sina.com.cn##[id^="PublicRelation"]
