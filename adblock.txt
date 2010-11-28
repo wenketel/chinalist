@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: yEKEQFsdmUt6FTS4ezqhQg
+!  Checksum: pCeeHP1JBT2u05zfmKvLWw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 26 Nov 2010 09:16:06 +0800
+!  Last Modified:  Sun, 28 Nov 2010 19:32:29 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -75,7 +75,7 @@ corp.56.com^
 ||6.cn/hdad.js
 ||6.cn/mdfor/index_new.js
 ||6.cn/mdfor/watch_new11.js
-shrek.6.cn^
+||shrek.6.cn^
 r.6.cn/pswf/sw_pause_3.swf
 hm.i8.com.cn/GetAdContent.aspx
 ||duduso.com^$third-party
@@ -99,7 +99,7 @@ www.6park.com/wap/close.gif
 
 !---acfun.cn
 124.228.254.229/upload/68pk_ad.gif
-/ad_js.php
+/ad_js.php?
 /newflvplayer/xml/gg.xml
 
 !---Baidu
@@ -313,7 +313,7 @@ gy778tv.cn##.gg
 
 !---和讯
 /att_count.js
-/pageMediaControl
+/pageMediaControl_
 img.hexun.com/hx_news/hx_news_finalpage.js
 news.hexun.com##.business
 www.hexun.com##.advp
@@ -368,10 +368,6 @@ www.it168.com##div#header + div[style^="border"]
 ||jtrip.net^$third-party
 ||jpwave.net^$third-party
 jpseek.com##.i_table[cellpadding="6"]
-
-!---金融界
-/jrjad20
-||aps*.jrjimg.cn
 
 !---江蘇網絡電視台
 flv.jsbc.com/playerad/
@@ -677,7 +673,7 @@ tompda.com##.Advertising
 !---土豆
 @@|http://adcontrol.tudou.com/crossdomain.xml
 adcontrol.tudou.com^$~third-party
-/saleloader$script,domain=~hd.tudou.com
+/saleloader_$script,domain=~hd.tudou.com
 js.tudouui.com/bin/tudoumini/TudouMini_39.swf
 tudou.com##.b.seed
 tv.tudou.com###adex_board
@@ -977,8 +973,6 @@ bill.tgbus.com/html/
 ||61.135.22.
 ||jcxinxi.com^$document
 !--中國聯通CNC
-||59.51.96.35^
-||59.51.96.37^
 ||60.18.147.131
 ||60.190.105.7^
 ||60.190.105.9^
@@ -1188,6 +1182,7 @@ ftp.javaeye.com/public/
 img.jb51.net/imgby/
 jcunbbs.cn##[id^="ad_"]
 ||jd-bbs.com^$object
+||aps*.jrjimg.cn
 ||k666.com^$object
 ||panda.kdnet.net^
 kenengba.com##div#sidebar>script+div
@@ -1364,7 +1359,6 @@ v.9vcpc.cn^$third-party
 ||alimama.com^$third-party
 .all4ad.$third-party
 ||allyesky.cn^$third-party
-||amazon.cn^$third-party,~XMLHttpRequest
 ||artxun.com^$third-party
 ||atpanel.com^$third-party
 ||advooe.com^$third-party
@@ -1383,7 +1377,6 @@ union.bookintake.org^$third-party
 ||job.chinesenow.org^$third-party
 ||chitika.com^$third-party
 ||cjoy.com.cn^$third-party
-||clickeye$third-party
 ||clicki.cn^$third-party
 ||click.com^$third-party
 ||cnxad.com^$third-party
@@ -1529,11 +1522,10 @@ union.rising.com.cn^$third-party
 .allyes.
 .cn/ads/*
 .hk/ads/*
-.com/ads_
 .com/js/ad_
 .com/ggao/*
 /590x75.
-/ad_float
+/ad_float^
 /adfiles/*
 /adflash/*
 /adimage/*
@@ -1550,10 +1542,10 @@ union.rising.com.cn^$third-party
 /webafp?
 /overture_ads.js
 /paypic/*
-adpolestar
-adsunion
-friendlink$subdocument,image
-guanggao
+/adpolestar^
+/adsunion^
+/friendlink^$subdocument,image
+/guanggao^
 @@|http://gg.a.5d6d.com^$domain=bbs.vc52.cn
 |http://gg.$subdocument,image,script,object
 |http://ggg.$subdocument,image,script,object
@@ -1578,7 +1570,6 @@ guanggao
 |http://*.net/gg/
 |http://ww*/adjs/
 |http://www*/ggao/
-qianming*^$third-party
 
 !-----------------------------Privacy----------------------
 !--count
@@ -1592,7 +1583,6 @@ n/count.
 |http://pv.
 .com.cn/pv.js
 .com/pv/
-.com/pv.js
 /hiido.js
 /ktrace/ktrace$script
 /usertrack.
@@ -1605,7 +1595,6 @@ cdn.hiido.cn^$third-party
 |http://stat.$script,domain=~verycd.com|~ameblo.jp|zcool.com.cn
 |http://track.
 ||hotrank.com.tw^$third-party
-||linezing.com^$third-party
 ||sitebro.tw^$third-party
 ||sitestates.com^$third-party
 ||sitetag.us^$third-party
