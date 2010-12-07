@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: hlnqNlspDCK2IzzNL22JOg
+!  Checksum: Ytm6vSJF49X058BvP7/xgQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 07 Dec 2010 13:30:14 +0800
+!  Last Modified:  Tue, 07 Dec 2010 13:48:44 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -427,13 +427,17 @@ luo.bo##[class^="gg_single"]
 
 !---驱动之家
 ||mydrivers.com/002f/*/$subdocument
-11.mydrivers.com/www/$script
+||mydrivers.com/drivers/drivers03.js
+||mydrivers.com/www/$script
 news.mydrivers.com/img/zhuanti/
 mydrivers.com##div.top + div.hang1
 mydrivers.com##[id^="ad"]
 drivers.mydrivers.com##[align="center"][style="padding-bottom: 2px;"]
 news.mydrivers.com##[align="center"][style="padding: 3px; font-size: 0px;"]
 news.mydrivers.com##table[border="0"][width="980"][height="90"]
+!--myfiles
+||mydrivers.com/myfiles/duilian.js
+||mydrivers.com/myfiles/myfiles1001.js
 
 !---msn.com
 news.msn.com.tw^$object
@@ -961,6 +965,8 @@ free.xue5.com/templates/green/images/59300160.gif
 www.131.com/js/gg.js
 res.files.131.com/script/notif.js
 ||market.178.com^
+||ngacn.cc/common_res/js_adscommon.js
+||ngacn.cc/common_res/js_bbs_adslist.js
 ||265g.com/templets/js/index.js
 ||313g.com/313g/
 ||my4399.com^$domain=4399.com|4399.net
@@ -1320,7 +1326,6 @@ u.1133.cc^$third-party
 ||122.com.tw^$third-party
 ||158c.com^$third-party
 ||160ads.com^$third-party
-union.yxp.163.com^$third-party
 ||163click.com^
 ||19dc.com^$third-party
 ||1gou.com^$third-party
@@ -1329,7 +1334,6 @@ u1346.37117.com^$third-party
 ||22w.com/$third-party
 ||33hy.com^$third-party
 ||333wan.com^$third-party
-||union.360buy.com^$third-party
 ||365tc.com^$third-party
 ||37cs.com^$third-party
 ||37dz.com^$third-party
@@ -1338,7 +1342,7 @@ u1346.37117.com^$third-party
 ||51link.com^$third-party
 ||51wan.com^$third-party
 ||55620.com^$third-party
-||www.59.cn^$third-party
+www.59.cn^$third-party
 ||un.5d6d.com^
 ||click.5j.com^$third-party
 ||5k3g.com^$third-party
@@ -1366,7 +1370,7 @@ u1346.37117.com^$third-party
 v.9vcpc.cn^$third-party
 ||9wad.com^$third-party
 ||9wee.com^$third-party
-||union.a8.com^$third-party
+||acs86.com^$third-party
 .ad2.cn/$third-party
 ||adcenter.conn.tw^$third-party
 ||adqoo.com^$third-party
@@ -1390,7 +1394,6 @@ v.9vcpc.cn^$third-party
 ||blogad.com.tw^$third-party
 ||bloggerads.net^$third-party
 ||blogupp.com^$third-party
-union.bookintake.org^$third-party
 ||unionsys.bolaa.com^$third-party
 ||code.ceyunshi.cn^$third-party
 ||chanet.com.cn^$third-party
@@ -1406,7 +1409,6 @@ union.bookintake.org^$third-party
 ||cpp9v.cn^$third-party
 ||crazymike.tw^$third-party
 ||cs01.csyouxi.com^$third-party
-||union.dangdang.com^$third-party
 ||daoyoudao.com^$third-party
 ||dmclick.cn^$third-party
 ||doubleadv.com^$third-party
@@ -1472,7 +1474,6 @@ qd.code.qihoo.com^$third-party
 ||ttmsg.qianqian.com^
 ||qling.com^$third-party
 ||quantui.com^$third-party
-union.rising.com.cn^$third-party
 ||rj518.com^$third-party
 ||cop.my.sandai.net^$third-party
 ||scupio.com^$third-party
@@ -1489,7 +1490,6 @@ union.rising.com.cn^$third-party
 ||union001.$third-party
 ||unionbig.com^$third-party
 ||unionsky.cn^$third-party
-||union.vancl.com^$third-party
 ||unionli.com^$third-party
 ||uucall.com^$third-party
 ||urlad.com.tw^$third-party
@@ -1504,7 +1504,6 @@ union.rising.com.cn^$third-party
 ||yiqiwin.com^$third-party
 ||yoyi.tv/$third-party
 ||zhanzhangle.com^$third-party
-||union.zhongsou.com^$third-party
 ||utops.cc^$third-party
 ||xixianad.com^$third-party
 ||js.zdy.cc^$third-party
@@ -1521,20 +1520,21 @@ union.rising.com.cn^$third-party
 /adimage/*
 /adjk.php?
 /adphoto/*
+/adpolestar^
+/adpshow.
 /adservice/*
 /adsimg/*
-/adpshow.
+/adsunion^
 /allyes.
+/friendlink^$subdocument,image
 /guangg/*
+/guanggao^
 /images/prom/*
 /js/acmsd/*
 /u/_sponsor/*
 /webafp?
 /paypic/*
-/adpolestar^
-/adsunion^
-/friendlink^$subdocument,image
-/guanggao^
+/union.
 @@|http://gg.a.5d6d.com^$domain=bbs.vc52.cn
 |http://gg.$subdocument,image,script,object
 !---/ad/
