@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 3l+IifJRco2dtfcjf8I5Pw
+!  Checksum: c68lRwdpJi8zuHJnqMzD3g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 08 Dec 2010 16:55:37 +0800
+!  Last Modified:  Wed, 08 Dec 2010 20:34:33 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -693,6 +693,13 @@ nba.tom.com##[id^="Float_"]
 ||tompda.com/tupian/adimgs/$image,object
 cdnbbs.tompda.com/images/$image,object
 tompda.com##.Advertising
+
+!---tongji.net
+||tongji.net*/sp/
+||autobild.com.cn^$domain=tongji.net
+||shanghaidz.com^$domain=tongji.net
+tongji.net##.a_pr
+tongji.net##.wp.a_h
 
 !---TTG
 ||torrentgui.com/pic/donate_d.gif
