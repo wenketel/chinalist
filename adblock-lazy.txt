@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: K+HgEWuK048AK3RLKh7SsQ
+!  Checksum: UrFGaT+Sjr8teJdyreiuNw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 09 Dec 2010 14:04:49 +0800
+!  Last Modified:  Thu, 09 Dec 2010 15:50:56 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -694,6 +694,13 @@ nba.tom.com##[id^="Float_"]
 cdnbbs.tompda.com/images/$image,object
 tompda.com##.Advertising
 
+!---tongji.net
+||tongji.net*/sp/
+||autobild.com.cn^$domain=tongji.net
+||shanghaidz.com^$domain=tongji.net
+tongji.net##.a_pr
+tongji.net##.wp.a_h
+
 !---TTG
 ||torrentgui.com/pic/donate_d.gif
 ||torrentgui.com/pic/ggtb.gif
@@ -992,6 +999,7 @@ bbs.plu.cn/plu/images/
 ||replays.net/*/rnad/
 bill.tgbus.com/html/
 ||yatta.com.tw/ad*/
+||yxdown.com/inc/dlad.js
 
 !---IP
 !--中国电信流氓IP
@@ -1600,6 +1608,7 @@ crsky.com##.banner
 dianping.com##[class^="DPAD"]
 discuz.net##[class^="wp a_"]
 downg.com##.content.ad-b950x50
+chinese.engadget.com##.post[style]
 mail.google.com##.nH.u8
 google.com.hk###tadsb
 bbs.hdchina.org##.home_left_hot
