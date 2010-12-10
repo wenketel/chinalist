@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: zwSbBPgXXLe20cjjMyI2GQ
+!  Checksum: 65mxe979xMy/rSrm/mr6HQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 10 Dec 2010 12:29:08 +0800
+!  Last Modified:  Fri, 10 Dec 2010 14:27:11 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -1040,6 +1040,7 @@ imgs.ccw.com.cn/ccw/1.htm
 ||pic.cnmo.com/$image,object
 cnmo.com##[id^="AD"]
 ||daqi.com/clicklog.js
+eap.enorth.com.cn
 ||hinews.cn/out/www09index.js
 ||hinews.cn/out/wwwpage.js
 ||htpc1.com/newfolder/
@@ -1136,7 +1137,7 @@ cnt.openv.com/apis/vmis.php
 pipi.cn##div#movie_tab_1+div[style]
 ||pps.tv/js_a2d/
 pp2.pptv.com^
-atm.youku.com/
+||atm.youku.com^
 ||youmaker.com/logoad2.jpg
 ||youmaker.com/edoors200708180-150.swf
 
@@ -1144,8 +1145,6 @@ atm.youku.com/
 ||111cn.net/gg_ad/
 ||1m1m.cn/bar/
 ||2500sz.com/site/
-xw.2500sz.com/news/ggtp/
-2500sz.com###mainSub>a
 ||360doc.com/js/albb3.js
 ||app-g.39.net^
 /gg_new/*$domain=3gp2.net|98.126.25.82
@@ -1157,59 +1156,36 @@ v3.apic.51.com/vda09.js
 ||99iche.com^$object
 ||adp.cnki.net^
 ||arting365.com/advs/
-||arting365.com/bill/
 ||arting365.com/home/images/updater.js
 ||benxiong.com/g/
 ||bitscn.com/pic2009/a*.js
-||c114.net/news/js/ad.js
-||c114.net/news/js/ad2.js
 ||c168c.com/*adv/
 ||cbifamily.com/corporation/
-||chn51.com/da/
-chn51.com##.endAd336
 ||city8.com/Search/script/absence.js
 ||cococ.com/click/roll.html
 ||cococ.com/js/click.js
 ||cococ.com/js/popwin.js
-||codefans.net/ad_include/$script
 ||dabaoku.com^$script,object,subdocument
-||dchome.net/pub/
 ||dj97.com/common/dj97$script
 ||djkk.com/ak/
-||djkk.com/images/*ad.gif
 ||dospy.com/hezuo/
-||dospy.com^$subdocument
-static.doyouhike.net/partner/
-||eastday.com/images/index09/ad
-ay.eastmoney.com^
-same.eastmoney.com^
+||static.doyouhike.net/partner/
 eap.enorth.com.cn^
 ||examda.com/examdagg/
 ||expreview.com/batch.jasd.php
 ||expreview.com/exp3/script/expda.js
 ||cqcpu.com/andy/
 ||eywedu.com^$script
-||fdzone.org/logo/
-||fj007.com/money
-fj007.com###wordlink
+||fj007.com/money/
+fj007.com##.ad_div
 ||flash8.net/flash8_a_d_s/
 ||fqlook.cn/vip/2009index/
 ||frdic.com/dic_resource/revefrance.gif
 frdic.com,godic.net###sidebar1
 ||free9.cn^$script
 ||hanzify.org/Main/Template/*/a-d-s/
-||haoting.com/gdjs/$script
-||headlinejobs.hk/images/banner/$image
-||hdbird.com^$subdocument
-hdimg.hdbird.com/langzi/
-||hjenglish.com/js/double_index2007.js
-||hk-pub.com/forum/ads_html/
 ||hk-pub.com/forum/images/banner/
-||hoopchina.com/swf/361/
-www.hoopchina.com##[class^="ad"]
 hdad.hudong.com/hdad/
-||hdzone.org^$subdocument
-hdzone.org##table[width="740px"]
 ||hwit.net/acmsd/
 ||infoq.com/resource/skyscraper/
 goto.www.iciba.com^$subdocument,domain=iciba.com
@@ -1339,6 +1315,7 @@ u.1133.cc^$third-party
 ||158c.com^$third-party
 ||160ads.com^$third-party
 ||163click.com^
+||178gg.com^$third-party
 ||19dc.com^$third-party
 ||1gou.com^$third-party
 www.2bj.cn^$third-party
@@ -1354,7 +1331,7 @@ u1346.37117.com^$third-party
 ||51link.com^$third-party
 ||51wan.com^$third-party
 ||55620.com^$third-party
-www.59.cn^$third-party
+||www.59.cn^$third-party
 ||un.5d6d.com^
 ||click.5j.com^$third-party
 ||5k3g.com^$third-party
@@ -1462,6 +1439,7 @@ u.*.iciba.com^$third-party
 ||jujii.cn^$third-party
 u.juyouxi.com^$third-party
 ||kejet.com^$third-party
+||keydot.net^$third-party
 ||keyrun.cn^$third-party
 ||kfwan.com^$third-party
 ||union*.kingsoft.com^$third-party
@@ -1472,6 +1450,7 @@ u.juyouxi.com^$third-party
 ||molidao.com^$third-party
 ||myad.cn/$third-party
 ||myiee.com^$third-party
+||naqigs.com^$third-party
 ||newwang.com^$third-party
 ||niwota.com^$third-party
 .now.cn/$third-party
@@ -1526,7 +1505,6 @@ qd.code.qihoo.com^$third-party
 .hk/ads/*
 .com/js/ad_
 .com/ggao/*
-/ad_float^
 /adfiles/*
 /adflash/*
 /adimage/*
@@ -1608,6 +1586,7 @@ look.urs.tw^$third-party
 16kbook.com###AdsT
 av199.com,hd199.com##tr.altbg2>TD[width="100%"]
 chdtv.net##.a_mu
+chn51.com##.endAd336
 crsky.com##.banner
 dianping.com##[class^="DPAD"]
 discuz.net##[class^="wp a_"]
@@ -1616,6 +1595,7 @@ chinese.engadget.com##.post[style]
 mail.google.com##.nH.u8
 google.com.hk###tadsb
 bbs.hdchina.org##.home_left_hot
+www.hoopchina.com##[class^="ad"]
 itfunz.com##.a_pb
 itfunz.com###sitefocus.focus
 jandan.net##.eggs
@@ -11973,6 +11953,7 @@ _cedexis.php
 ||iperceptions.com^$third-party
 ||ipv6monitoring.eu^$third-party
 ||irelandmetrix.ie^$third-party
+||ist-track.com^$third-party
 ||izearanks.com^$third-party
 ||jbrlsr.com^$third-party
 ||jimdo-stats.com^$third-party
@@ -13167,7 +13148,6 @@ _cedexis.php
 ||enlightenment.secureshoppingbasket.com^
 ||entry-stats.huffingtonpost.com^
 ||environmentalgraffiti.com/eg/hits/logger?
-||estj.msn.com^
 ||event.newyorker.com^
 ||eweek.com/omnipagetrack.php?
 ||expbl2ro.xbox.com^
@@ -13612,6 +13592,9 @@ _cedexis.php
 ||horizont.net/stats/
 ||hse24.de^*/etracker.js
 ||indeed.de/rpc/log?
+||k-files.de/screen.js
+||k-foren.de/screen.js
+||k-play.de/screen.js
 ||kicker.de^*/videocount?
 ||koins.de/screen.js
 ||ksta.de^*/c2_count.js
