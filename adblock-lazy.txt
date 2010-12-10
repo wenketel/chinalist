@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: hQAmN1iz33rlNHbcLn1nNw
+!  Checksum: zwSbBPgXXLe20cjjMyI2GQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 09 Dec 2010 16:05:37 +0800
+!  Last Modified:  Fri, 10 Dec 2010 12:29:08 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -76,7 +76,8 @@ corp.56.com^
 ||6.cn/mdfor/index_new.js
 ||6.cn/mdfor/watch_new11.js
 ||shrek.6.cn^
-r.6.cn/pswf/sw_pause_3.swf
+||r.6.cn/pswf/*_pause_
+||r.6.cn/pswf/ren_tiepian_10.swf
 hm.i8.com.cn/GetAdContent.aspx
 ||duduso.com^$third-party
 6.cn###HDyz
@@ -1216,6 +1217,7 @@ goto.www.iciba.com^$subdocument,domain=iciba.com
 ||imp3.net/data/js/
 au.ipart.cn/comp/hooks.php
 x.itiexue.net/html/$script
+bbs.tiexue.net##.banner
 ftp.javaeye.com/public/
 img.jb51.net/imgby/
 jcunbbs.cn##[id^="ad_"]
@@ -2310,7 +2312,6 @@ login.yahoo.net/login_superads/
 /api/ads/*
 /app/ads.js
 /article_ad.
-/as3adplayer.
 /aseadnshow.
 /aspbanner_inc.asp?
 /assets/ads/*
@@ -2773,6 +2774,7 @@ login.yahoo.net/login_superads/
 /pagepeel/*
 /pagepeel_banner/*
 /pagepeelads.
+/paidads/*
 /paidlisting/*
 /partnerads/*
 /partnerads_
@@ -5585,6 +5587,7 @@ _768x90_
 ##.adcolumn_wrapper
 ~subito.it##.adcont
 ##.adcopy
+##.add_300x250
 ~superbikeplanet.com##.addiv
 ##.adfieldbg
 ##.adfoot
@@ -6211,6 +6214,7 @@ _768x90_
 ##.googleSearchAd_content
 ##.googleSearchAd_sidebar
 ##.google_ad
+##.google_ad_wide
 ##.google_add_container
 ##.google_ads
 ##.google_ads_bom_title
@@ -6754,6 +6758,7 @@ _768x90_
 ##.sponsoredtextlink_container_ovt
 ##.sponsorlink
 ##.sponsorlink2
+##.sponsormsg
 ##.sponsors
 ##.sponsors-box
 ##.sponsorshipbox
@@ -7801,8 +7806,6 @@ _768x90_
 ||allsolutionsnetwork.com/banners/
 ||aolcdn.com/os/music/img/*-skin.jpg
 ||apple.com/itunesaffiliates/
-||appwork.org/hoster/banner_$image
-||appwork.org/images/
 ||as.devbridge.com^$third-party
 ||autoprivileges.net/news/
 ||award.sitekeuring.net^
@@ -8667,6 +8670,7 @@ _768x90_
 ||worldmag.com/images/media/world_banner_
 ||worthdownloading.com/images/mirrors/preview_logo.gif
 ||wowwiki.com/__varnish_
+||wunderground.com^*/wuss_300ad2.php?
 ||wunderground.com/geo/swfad/
 ||www2.sys-con.com^*.cfm
 ||xbitlabs.com^*/xbanner.php?
@@ -9691,7 +9695,8 @@ japanvisitor.com###sponsor
 jarrowandhebburngazette.com###banner01
 javalobby.org###topLeaderboard
 jayisgames.com##.bfg-feature
-jdownloader.org##a[href^="http://fileserve.com/signup.php?reff="]
+jdownloader.org##a[href^="http://x7.to/foyer/"]
+jdownloader.org##img[alt="Filesonic Premium Download"]
 jekoo.com##.boxItem
 jekoo.com##.textCollSpons
 jeuxvideo-flash.com###pub_header
@@ -10376,6 +10381,7 @@ rghost.net##a[href^="http://www.binverse.com"]
 rhylfc.co.uk##.bannergroup
 rinkworks.com##table[style="float: right; border: 1px solid red; width: 250px; padding: 10px; margin: 10px;"]
 rivals.com###thecontainer
+rlslog.net##img[width="468"][height="60"]
 roadfly.com###leaderboardHead
 roadfly.com##.adv
 roadrunner.com##.leaderboard
@@ -11192,7 +11198,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||doubleclick.net/pfadx/channel.video.crn/;*;cue=pre;$object_subrequest
 @@||doubleclick.net/pfadx/slate.v.video/*;cue=pre;$object_subrequest
 @@||doubleclick.net/pfadx/umg.*;sz=10x$script
-@@||doubleclick.net/pfadx/vid.age/tv/*;sz=$script
+@@||doubleclick.net/pfadx/vid.age/*;sz=$script
 @@||doubleclick.net/pfadx/vid.smh/*;sz=$script
 @@||doubleclick.net^*/adj/wwe.shows/ecw_ecwreplay;*;sz=624x325;$script
 @@||doubleclick.net^*/listen/*;sz=$script,domain=last.fm
@@ -11317,7 +11323,6 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||promo2.tubemogul.com/lib/tubemoguldisplaylib.js$domain=comedy.com
 @@||quit.org.au/images/images/ad/
 @@||redir.adap.tv/redir/client/adplayer.swf$domain=cracked.com|egreetings.com|ehow.com|imgag.com|videosift.com|xxlmag.com
-@@||redir.adap.tv/redir/client/static/as3adplayer.swf$domain=king5.com|kptv.com|mavrixonline.com|newsinc.com|stickam.com|videodetective.com|videosift.com|wkbw.com
 @@||redir.adap.tv/redir/javascript/adaptvadplayer.js$object_subrequest,domain=imgag.com
 @@||redir.adap.tv/redir/plugins/*/adotubeplugin.swf?$domain=stickam.com
 @@||rosauers.com/locations/ads.html
@@ -11377,7 +11382,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||vindicoasset.edgesuite.net/repository/campaigncreative/*/instreamad/$domain=shackvideo.com
 @@||vortex.accuweather.com/adc2004/pub/ads/js/ads-2006_vod.js
 @@||vox-static.liverail.com/swf/*/admanager.swf
-@@||vox-static.liverail.com/swf/*/liverailplugin.swf?
+@@||vox-static.liverail.com/swf/*/liverailplugin.swf
 @@||vtstage.cbsinteractive.com/plugins/*_adplugin.swf
 @@||we7.com/api/streaming/advert-info?*&playsource=$object_subrequest
 @@||weather.com/common/a2/oasadframe.html?position=pagespon
@@ -11406,8 +11411,9 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||arto.com/includes/js/adtech.de/script.axd/adframe.js?
 @@||avforums.com/forums/adframe.js
 @@||cinshare.com/js/embed.js?*=http://adserving.cpxinteractive.com/?
-@@||cpalead.com/mygateway.php?pub=$script,domain=serialnumber.in|spotifyripping.com|stumblehere.com|videodownloadx.com|yourpcmovies.net|youserials.com
+@@||cpalead.com/mygateway.php?pub=$script,domain=pspmaniaonline.com|serialnumber.in|spotifyripping.com|stumblehere.com|videodownloadx.com|yourpcmovies.net|youserials.com
 @@||dailykos.com/ads/adblocker.blogads.css
+@@||dollarade.com/overlay_gateway.php?oid=$script,domain=pspmaniaonline.com
 @@||dropbox.com^$image,script,domain=seeingwithsound.com
 @@||eq2flames.com/adframe.js
 @@||funkyfun.altervista.org/adsense.js$domain=livevss.net
