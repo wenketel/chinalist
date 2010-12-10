@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: BdGzsAQhpfn4WB4VnxDpeg
+!  Checksum: I6Yk7NC9wVL8H33cqofoZg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 10 Dec 2010 14:27:11 +0800
+!  Last Modified:  Fri, 10 Dec 2010 17:42:40 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -820,24 +820,13 @@ gougou.com##.ggSideBox
 gougou.com##a[href^="http://click.cm.sandai.net/"]
 
 !---Yahoo
-l.yimg.com/*/a/$~stylesheet
 !--CN
-cn.yimg.com/a/
+||tanx.com^$third-party
 !--TW
-d.yimg.com/no/
+l.yimg.com/*/a/tw/$~stylesheet
 l.yimg.com/*/tw/ysm/
-tw.yahoo.com##.admod
-tw.yahoo.com##div#cbright>div.colpadding>div.tabmd
-tw.yahoo.com##.newsad
-tw.news.yahoo.com##[id^="ad"]
-tw.news.yahoo.com##.ynwsdclb
-tw.news.yahoo.com###ynwsfture
-tw.news.yahoo.com##[id^="ynwsad"]
-tw.news.yahoo.com###containerktw
 !--HK
-hk.yahoo.com##[id^="ad"]
-hk.yahoo.com##[id^="ysm-"]
-hk.yahoo.com###mntl1
+l.yimg.com/*/a/hk/$~stylesheet
 
 !---yam天空
 @@admd.yam.com^$object_subrequest
