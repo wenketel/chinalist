@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: i31jrzk4qxDIEx1ycsf18Q
+!  Checksum: n+6XBXedGLcocGpnVXEyCw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 10 Dec 2010 17:42:40 +0800
+!  Last Modified:  Sat, 11 Dec 2010 22:01:30 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -99,7 +99,7 @@ www.6park.com/wap/close.gif
 6park.com##body>table+table+table+table+table[width="978"][bgcolor="#ffffff"]
 
 !---acfun.cn
-124.228.254.229/upload/68pk_ad.gif
+||124.228.254.229/upload/$image
 /ad_js.php?
 /newflvplayer/xml/gg.xml
 
@@ -277,7 +277,8 @@ img.duote.com/js/clickDownAjax3.js
 !---多玩游戏网
 ||duowan.com/duowan.js
 ||duowan.com/public/s/market_count.js
-||market.duowan.com/
+||duowan.com/s/i/notice.js
+||market.duowan.com^
 news.duowan.com##.news_ad
 news.duowan.com##.yy-download
 
@@ -567,12 +568,6 @@ qingdaonews.com##.commonrightad
 !---人人
 dj.renren.com^
 shaft.jebe.renren.com^
-||xnimg.cn/imgpro/share/kfc/
-||xnimg.cn/swf/paint-profile$object
-||a.xnimg.cn/imgpro/notice/
-renren.com###banner
-renren.com###nostar
-renren.com###header-wide-banner
 
 !---红软基地
 ||rsdown.cn/vip_img/
@@ -1315,6 +1310,7 @@ u1346.37117.com^$third-party
 ||365tc.com^$third-party
 ||37cs.com^$third-party
 ||37dz.com^$third-party
+||37see.com^$third-party
 ||3gpz.net^$third-party
 ||50bang.org^$third-party
 ||51link.com^$third-party
@@ -1650,6 +1646,7 @@ login.yahoo.net/login_superads/
 .adplacement=
 .adriver.
 .ads.darla.
+.adsbox.
 .adserv/*
 .adserver.
 .aspx?ad=
@@ -2715,6 +2712,7 @@ login.yahoo.net/login_superads/
 /oasadframe.
 /oasadfunctionlive.
 /oascentral.$~object_subrequest
+/oasconfig/*
 /oasdefault/*
 /oasisi-*.php?
 /oasisi.php?
@@ -2932,6 +2930,7 @@ login.yahoo.net/login_superads/
 /sponsoredlinks.
 /sponsoredlinks/*
 /sponsoredlinksiframe.
+/sponsoredlisting.
 /sponsoring/*
 /sponsorpaynetwork.
 /sponsors_box.
@@ -2950,6 +2949,7 @@ login.yahoo.net/login_superads/
 /superads_
 /swf/ad-
 /swf/ad3-
+/swfbin/ad3-
 /synad2.
 /system/ad/*
 /systemad.
@@ -3302,6 +3302,7 @@ _120x600.
 _120x600_
 _120x60_
 _160_600_
+_160x600.
 _160x600_
 _300_250_
 _300x250-
@@ -3917,6 +3918,7 @@ _768x90_
 ###ads160left
 ###ads2
 ###ads300
+###ads300-250
 ###ads300Bottom
 ###ads300Top
 ###ads336x280
@@ -5684,6 +5686,7 @@ _768x90_
 ##.ads_tr
 ##.ads_widesky
 ##.ads_wrapperads_top
+##.adsbg300
 ##.adsblockvert
 ##.adsborder
 ##.adsbottom
@@ -7851,6 +7854,7 @@ _768x90_
 ||frontsight.com^*/banners/
 ||fugger.netfirms.com/moa.swf$third-party
 ||futuresite.register.com/us?$third-party
+||fyicentralmi.com/remote_widget?$third-party
 ||gameduell.com/res/affiliate/
 ||gamersaloon.com/images/banners/
 ||gamestop.com^*/aflbanners/
@@ -7860,6 +7864,7 @@ _768x90_
 ||giganews.com/banners/$third-party
 ||glam.com/js/$third-party
 ||gogousenet.com^*/promo.cgi
+||googlesyndication.com^*/click_to_buy/$object_subrequest,third-party
 ||googlesyndication.com^*/domainpark.cgi?
 ||graboid.com/affiliates/
 ||graduateinjapan.com/affiliates/
@@ -7881,6 +7886,7 @@ _768x90_
 ||jinx.com/content/banner/$third-party
 ||jlist.com/feed.php?affid=$third-party
 ||joylandcasino.com/promoredirect?$third-party
+||jrcdev.net/promos/
 ||justcutegirls.com/banners/$third-party
 ||kaango.com/fecustomwidgetdisplay?
 ||kallout.com^*.php?id=
@@ -8181,12 +8187,14 @@ _768x90_
 ||desiretoinspire.net^*_125x125.
 ||detnews.com^*/sponsor/
 ||develop-online.net/static/banners/
+||dictionary.com^*/serp_to/
 ||dig.abclocal.go.com/preroll/
 ||digdug.divxnetworks.com^
 ||digitaljournal.com/promo/
 ||digitallook.com^*/rbs-logo-ticker.gif
 ||digitalreality.co.nz^*/360_hacks_banner.gif
 ||digitizor.com/wp-content/digimages/xsoftspyse.png
+||display.superbay.net^
 ||divxme.com/images/play.png
 ||divxstage.net/images/download.png
 ||dl4all.com/data4.files/dpopupwindow.js
@@ -8639,8 +8647,8 @@ _768x90_
 ||worldmag.com/images/media/world_banner_
 ||worthdownloading.com/images/mirrors/preview_logo.gif
 ||wowwiki.com/__varnish_
-||wunderground.com^*/wuss_300ad2.php?
 ||wunderground.com/geo/swfad/
+||wunderground.com^*/wuss_300ad2.php?
 ||www2.sys-con.com^*.cfm
 ||xbitlabs.com^*/xbanner.php?
 ||xbox-scene.com/crave/logo_on_white_s160.jpg
@@ -9502,6 +9510,7 @@ hindustantimes.com##.story_lft_wid
 hitfix.com##.googlewide
 hollywood-elsewhere.com##.ad
 hollywoodreporter.com##.ad
+hollywoodreporter.com##.advert
 holyfragger.com##.ad
 hotfrog.com##.search-middle-adblock
 hotfroguk.co.uk##.search-middle-adblock
@@ -9880,6 +9889,7 @@ massively.com###topleader-wrap
 maxgames.com##div[style="margin: 3px auto; width: 728px; height: 90px; padding: 3px 3px 3px 18px; background-image: url(\"/images/sponsor_border_leaderboard.gif\"); background-repeat: no-repeat;"]
 maxgames.com##div[style="margin: 5px auto; width: 728px; height: 90px; padding: 0px 0px 0px 18px; background-image: url(\"/images/sponsor_border_leaderboard.gif\"); background-repeat: no-repeat;"]
 maxgames.com##td[bgcolor="#ffffff"][width="100%"][height="250"]
+maxim.com###intHorizBanner
 mcvuk.com###leaderboard
 mcvuk.com##.newsinsert
 mediabistro.com##.right-column-boxes-content-partners
@@ -10103,6 +10113,9 @@ nitrome.com###skyscraper_shadow
 nmap.org##img[height="90"][width="120"]
 nme.com###editorial_sky
 nme.com###skyscraper
+nme.com###takeover_head
+nme.com###takeover_left
+nme.com###takeover_right
 northjersey.com##.detail_boxwrap
 northjersey.com##.detail_pane_text
 notdoppler.com##table[width="312"][height="252"]
@@ -10843,7 +10856,9 @@ verizon.net##.sponsor
 vg247.com###leader
 vg247.com###rightbar > #halfpage
 vidbox.net##.overlayVid
+vidbux.com##.ad
 vidbux.com##a[href="http://www.vidbux.com/ccount/click.php?id=4"]
+vidbux.com##div[style="height: 120px; width: 730px; margin: 0pt auto;"]
 video.foxnews.com###cb_medrect1_div
 video2mp3.net###ad
 videogamer.com##.skinClick
@@ -10948,6 +10963,7 @@ worthingherald.co.uk###banner01
 worthplaying.com##.ad
 wow.com###topleader-wrap
 wow.com##.medrect
+wowhead.com##.block-bg
 wowwiki.com###HOME_LEFT_SKYSCRAPER_1
 wowwiki.com###HOME_TOP_LEADERBOARD
 wowwiki.com###LEFT_SKYSCRAPER_1
@@ -10999,6 +11015,7 @@ yahoo.com##.ysm-cont
 yahoo.com##.ysptblbdr3[cellspacing="0"][cellpadding="1"][width="100%"]
 yauba.com###sidebar > .block_result:first-child
 yauba.com##.resultscontent:first-child
+yellowbook.com##.resultsBanner
 yesasia.com##.advHr
 yfrog.com##.promo-area
 yodawgpics.com###top-leaderboard
@@ -11193,6 +11210,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||fokzine.net/templates/*/forum_min.js?*/advertisers
 @@||fwmrm.net/ad/p/1?$object_subrequest
 @@||fwmrm.net/crossdomain.xml$object_subrequest
+@@||fwmrm.net^*/renderers.xml$object_subrequest
 @@||gannett.gcion.com/addyn/3.0/*/adtech;alias=pluck_signin$script
 @@||garrysmod.org/ads/$image,script,stylesheet
 @@||google.*/complete/search?$script
@@ -11207,6 +11225,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||huffingtonpost.com/images/v/etp_advert.png
 @@||i.cdn.turner.com^*/adserviceadapter.swf
 @@||i.real.com/ads/*.swf?clicktag=$domain=rollingstone.com
+@@||ibnlive.com/videoads/*_ads_*.xml$object_subrequest
 @@||identity-us.com/ads/ads.html
 @@||ign.com/js.ng/size=headermainad&site=teamxbox$script,domain=teamxbox.com
 @@||ikea.com/ms/img/ads/
@@ -12139,6 +12158,7 @@ _cedexis.php
 ||svlu.net^$third-party
 ||swfstats.com^$third-party
 ||swiss-counter.com^$third-party
+||tcimg.com^$third-party
 ||teljari.is^$third-party
 ||tellapart.com^$third-party
 ||thecounter.com^$third-party
@@ -12616,6 +12636,7 @@ _cedexis.php
 ||analytics.live.com^
 ||analytics.rogersmedia.com^
 ||analytics.tribeca.vidavee.com^
+||analytics.yola.net^
 ||anvato.com/anvatoloader.swf?analytics=
 ||aolcdn.com/js/mg2.js
 ||aolcdn.com/omniunih.js
@@ -12668,6 +12689,7 @@ _cedexis.php
 ||dw.com.com^
 ||ecustomeropinions.com/survey/nojs.php?
 ||ecustomeropinions.com^*/i.php?
+||elogicwebsolutions.com/cgi-bin/statcount.pl?
 ||emihosting.com^*/tracking/
 ||entry-stats.huffpost.com^
 ||eservicesanalytics.com.au^
@@ -12748,7 +12770,6 @@ _cedexis.php
 ||outbrain.com^*/ping.html?
 ||partner.cynapse.com^
 ||partners.thefilter.com^
-||paypal.com^*/pixel.gif
 ||perfectmarket.com/pm/track?
 ||perfectmarket.com/pm/tracker.
 ||pg.buzzfeed.com^
@@ -12921,6 +12942,7 @@ _cedexis.php
 ||x.bloggurat.net^
 ||zs.dhl.de^
 !French
+||stat.prsmedia.fr^
 ||free.fr/cgi-bin/wwwcount.cgi?
 ||i-services.net^*/compteur.php?
 ||scriptsgratuits.com/sg/stats/
@@ -13197,6 +13219,7 @@ _cedexis.php
 ||hulu.com/beaconservice.swf
 ||i365.com^*/pv.aspx?
 ||iafrica.com/php-bin/iac/readcnt.php?
+||ibeat.indiatimes.com^
 ||id.google.*/verify/*.gif
 ||imageshack.us^*/ping.gif?
 ||imdb.com/twilight/?
@@ -13374,6 +13397,7 @@ _cedexis.php
 ||stats.justin.tv^
 ||stats.paypal.com^
 ||stats.shoppydoo.com^
+||stats.slashgear.com^
 ||stats.townnews.com^
 ||stats.wordpress.com^
 ||stats.wwd.com^
