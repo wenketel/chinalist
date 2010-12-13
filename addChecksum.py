@@ -37,7 +37,7 @@ def fileexist(filename):
 		current =  time.strftime('%Y%m%d',time.localtime(time.time()))
 		filetime = time.strftime('%Y%m%d',time.localtime(fileinfo.st_mtime))
 		if current == filetime:
-			return {"success":True,"reasion":'well done'}
+			return {"success":True,"reason":'well done'}
 		else:
 			return {"success":False,"reason":'file is too old'}
 	else:
