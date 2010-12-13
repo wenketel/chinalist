@@ -151,11 +151,11 @@ if __name__ == '__main__':
 	chinalazycontent = chinalistcontent
 	easylistcontent = read(easylist)
 	index = string.index(easylistcontent,'!-----------------General advert blocking filters-----------------!')
-	easylistcontent = easylistcontent[index:len(easylistcontent)]
+	easylistcontent = '\n! EasyList - https://easylist.adblockplus.org/\n\n' + easylistcontent[index:len(easylistcontent)]
 	#print easylistcontent
 	easyprivacycontent = read(easyprivacy)
 	index= string.index(easyprivacycontent,'!-----------------General tracking systems-----------------!')
-	easyprivacycontent = easyprivacycontent[index:len(easyprivacycontent)]
+	easyprivacycontent = '\n! EasyPrivacy - https://easylist.adblockplus.org/\n\n' + easyprivacycontent[index:len(easyprivacycontent)]
 	#print easyprivacycontent
 
 	checksum = '!  Checksum: {0}'.format(calculatchecksum(chinalistcontent))
