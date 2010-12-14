@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: f0Ndl64B9RRmTRswsEUUNw
+!  Checksum: byZIjMvFeoJPPKW9oqf4zw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 14 Dec 2010 10:06:55 +0800
+!  Last Modified:  Tue, 14 Dec 2010 14:39:01 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -359,10 +359,13 @@ www.hsw.cn##table[width="980"][height="100"]
 !---凤凰网
 ||ifeng.com/statics/all_content_ad_
 ||ifeng.com/tres/recommend/
+img.ifeng.com/tres/$object
+||sc.ifeng.com/js.ng/
+sta.ifeng.com^
 ifeng.com##[class^="ad"]
 ifeng.com##.areaAd
-ifeng.com##.maidunbox
 ifeng.com###final_head_ad
+news.ifeng.com##.right_picAd
 
 !---IT168
 168.it168.com/$script
@@ -1436,6 +1439,7 @@ u.juyouxi.com^$third-party
 ||kucent.com^$third-party
 ||love12.tw^$third-party
 ||manyan.net^$third-party
+||mediav.com^$script
 ||molidao.com^$third-party
 ||myad.cn/$third-party
 ||myiee.com^$third-party
