@@ -1,4 +1,4 @@
-#! /usr/bin/env python 2.6.6
+#! /usr/bin/env python
 #coding=utf-8
 #version=1.0
 
@@ -25,51 +25,54 @@ import re
 import sys
 import string
 
+def read(filename):
+	path = os.path.join(os.getcwd(),filename)
+	f =  codecs.open(filename,'rt',encoding = 'utf-8')
+	data = f.read()
+	f.close()
+	return data
+
+def calculatchecksum(content):
+	content = re.sub(r"\r\n","\n",content)
+	content = re.sub(r"\n+","\n",content)
+	m = hashlib.md5()
+	m.update(content)
+	validate = base64.b64encode(m.digest())
+	
+	return re.sub(r"=+$","",validate)
+
+def validate(filename):
+	path = os.path.join(os.getcwd(),filename)
+	if not os.path.exists(path):
+		print  filename + 'is not exist.'
+	data = read(filename)
+	prog = re.compile(r"\s*!\s*checksum[\s\-:]+([\w\+\/=]+).*\n",re.I)
+	match =  prog.search(data)
+	checksum = ''
+	if not match:
+		print 'Could not find a checksum in the file {0}'.format(filename)
+		sys.exit(0)
+	else:
+		temp = match.group().strip()
+		checksum = temp.split(':')[1].strip()
+		data = string.replace(data,temp,"")
+
+	validate = calculatchecksum(data)
+	if validate == checksum:
+		print filename + " 's checksum is valid."
+	else:
+		print 'Wrong checksum: found {0}, expected {1}'.format(checksum,validate)
+
+
 if __name__ == '__main__':
 	reload(sys)
 	sys.setdefaultencoding( "utf-8" )
-	#print sys.getdefaultencoding()
+
 	filename = ''
 	if len(sys.argv) != 2:
 		print 'Pls input validate file name.'
 		sys.exit(0)
 	else:
 		filename = sys.argv[1]
-		path = os.path.join(os.getcwd(),filename)
-		#print path
-		if not os.path.exists(path):
-			print  filename + 'is not exist.'
-			sys.exit(0)
-		f =  codecs.open(filename,'rt',encoding = 'utf-8')
-		#data = [line.strip for line in f.readlines()]
-		data = f.read()
-		f.close()
-		#print data
-		prog = re.compile(r"\s*!\s*checksum[\s\-:]+([\w\+\/=]+).*\n",re.I)
-		match =  prog.search(data)
-		checksum = ''
-		if not match:
-			print 'Could not find a checksum in the file {0}'.format(filename)
-			sys.exit(0)
-		else:
-			'''get checksum'''
-			temp = match.group().strip()
-			#print temp
-			checksum = temp.split(':')[1].strip()
-			#print checksum
-			data = string.replace(data,temp,"")
-		data = re.sub(r"\r\n","\n",data)
-		data = re.sub(r"\n+","\n",data)
-		#print data
-		'''generate checksum'''
-		m = hashlib.md5()
-		m.update(data)
-		validate = base64.b64encode(m.digest())
-		validate = re.sub(r"=+$","",validate)
-		#print validate
-		if validate == checksum:
-			print 'Checksum is valid.'
-			sys.exit(0)
-		else:
-			print 'Wrong checksum: found {0}, expected {1}'.format(checksum,validate)
-			sys.exit(1)
+		validate(filename)
+		sys.exit(1)
