@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: PbkilrjEfKVx9/MDXscACg
+!  Checksum: ApHnl1EGWHbE1nVhpQtxQw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 14 Dec 2010 14:39:02 +0800
+!  Last Modified:  Tue, 14 Dec 2010 14:53:32 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -370,8 +370,6 @@ news.ifeng.com##.right_picAd
 !---IT168
 168.it168.com/$script
 it168.com##[id^="ADV"]
-download.it168.com/2009images/alitong2010-07-21pic.gif
-download.it168.com/2009images/mysoft2010-07-19.gif
 download.it168.com/2009images/ucweb_conew1.jpg
 download.it168.com/jscript/bubble.js
 download.it168.com##.four_img1.mr10
@@ -410,11 +408,9 @@ bbs.ktxp.com/iframe/banner.html
 kkkmh.com##[class^="mm-"]
 
 !---Ku6
-@@/niubin/ent/flash/index0513.swf
 gug.ku6cdn.com^
 img.c4.ku6.cn/*/upload/$object
-stat.ku6.com/dostatv.do$script
-ku6.com###swfdiv
+||stat.ku6.com^
 v.ku6.com##[id^="gg"]
 v.ku6.com##.flwin.flwin_min
 
@@ -1563,7 +1559,7 @@ n/count.
 ||cnzz.com^$third-party
 cdn.hiido.cn^$third-party
 ||tovery.net^$third-party
-|http://stat.$script,domain=~verycd.com|~ameblo.jp|zcool.com.cn
+|http://stat.$script,domain=~verycd.com|~ameblo.jp|~zcool.com.cn
 |http://track.
 ||hotrank.com.tw^$third-party
 ||sitebro.tw^$third-party
