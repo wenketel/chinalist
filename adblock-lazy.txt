@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: I0ZB4sPeVnn5yEHsMepCwQ
+!  Checksum: /yVWiMFcRvsRi94+Y4LCNQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 21 Dec 2010 18:50:52 +0800
+!  Last Modified:  Wed, 22 Dec 2010 09:03:40 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -1257,6 +1257,7 @@ js.xiaoyouxi.cn/ee/$script
 ||xitek.com/newsite/mojs.php?
 xitek.com##[id^="mo"]
 ||xker.com/ggjs/
+||xltvrobbs.net/tuku/
 wcm.xmnn.cn/trswcm_plugins/adintrs/data/script/
 xmnn.cn##[class^="ad"]
 xmnn.cn###fuke
@@ -3481,6 +3482,7 @@ _768x90_
 ###LowerContentAd
 ###MainSponsoredLinks
 ###Nightly_adContainer
+###OverrideAdArea
 ###PREFOOTER_LEFT_BOXAD
 ###PREFOOTER_RIGHT_BOXAD
 ###PageLeaderAd
@@ -4617,7 +4619,7 @@ _768x90_
 ###main-ad160x600-img
 ###main-ad728x90
 ###main-bottom-ad
-###mainAd
+~wellsfargo.com###mainAd
 ###mainAdUnit
 ###mainAdvert
 ###main_ad
@@ -6941,6 +6943,7 @@ _768x90_
 ##.twoadcolr
 ##.tx_smartadserver_pi1
 ##.txt-ads
+##.txtAd
 ##.txtAds
 ##.txt_ads
 ##.txtadvertise
@@ -7370,7 +7373,7 @@ _768x90_
 ||doubleclick.net/pfadx/*adcat=$object_subrequest,third-party
 ||doubleclick.net^$object_subrequest,third-party,domain=addictinggames.com|atom.com|break.com|businessweek.com|cbs4denver.com|cnbc.com|darkhorizons.com|doubleviking.com|eonline.com|fandango.com|foxbusiness.com|foxnews.com|g4tv.com|joblo.com|kptv.com|mtv.co.uk|mtv.com|mtv.com.au|mtv.com.nz|mtvbase.com|mtvmusic.com|myfoxorlando.com|myfoxphoenix.com|newsweek.com|nick.com|nintendoeverything.com|pandora.com|play.it|ps3news.com|rte.ie|sbsun.com|sevenload.com|shockwave.com|southpark.nl|space.com|spike.com|syfy.com|thedailygreen.com|thedailyshow.com|thewire.com|ustream.tv|washingtonpost.com|wcbstv.com|wired.com|wkbw.com|wwe.com|youtube.com|zoomin.tv
 ||doubleclick.net^$~object_subrequest,third-party
-||doubleclick.net^*;sz=$object_subrequest,third-party,domain=1up.com|breitbart.tv|cbc.ca|digitaltrends.com|france24.com|gamesradar.com|gametrailers.com|heavy.com|muzu.tv|myfoxny.com|myspace.com|nbc.com|nhl.com|rapbasement.com|wptv.com|wsj.com
+||doubleclick.net^*;sz=$object_subrequest,third-party,domain=10news.com|1up.com|breitbart.tv|cbc.ca|digitaltrends.com|fox5sandiego.com|france24.com|gamesradar.com|gametrailers.com|heavy.com|muzu.tv|myfoxny.com|myspace.com|nbc.com|nbcsandiego.com|nhl.com|rapbasement.com|wptv.com|wsj.com
 ||dpbolvw.net^$third-party
 ||dt00.net^$domain=~marketgid.com|~mgid.com|~thechive.com
 ||dt07.net^$domain=~marketgid.com|~mgid.com|~thechive.com
@@ -8197,6 +8200,7 @@ _768x90_
 ||autosport.com/skinning/
 ||avaxhome.ws/banners/
 ||azlyrics.com^*_az.js
+||b.localpages.com^
 ||b92.net/images/banners/
 ||banner.atomicgamer.com^
 ||banner.itweb.co.za^
@@ -8287,6 +8291,7 @@ _768x90_
 ||dailytimes.com.pk/banners/
 ||dailywritingtips.com^*/money-making.gif
 ||davesite.com^*/aff/
+||dayport.com/ads/
 ||dcad.watersoul.com^
 ||demonoid.com/cached/ab_
 ||demonoid.com/cached/bnr_
@@ -8537,6 +8542,7 @@ _768x90_
 ||movstreaming.com/images/edhim.jpg
 ||mp3mediaworld.com*/!
 ||mp3raid.com/imesh.gif
+||mfcdn.net/media/game321/$image
 ||msn.com/?adunitid
 ||musicremedy.com/banner/
 ||musictarget.com*/!
@@ -8701,6 +8707,7 @@ _768x90_
 ||suntimes.com^*/banners/
 ||supernovatube.com/spark.html
 ||sydneyolympicfc.com/admin/media_manager/media/mm_magic_display/$image
+||techexams.net/banners/
 ||techpowerup.com/images/bnnrs/
 ||techradar.com^*/img/*_takeover_
 ||techsupportforum.com^*/banners/
@@ -8732,6 +8739,7 @@ _768x90_
 ||tripadvisor.co.uk/adp/
 ||tripadvisor.com/adp/
 ||tripadvisor.com^*/skyscraper.jpg
+||tucows.com/i/ads/
 ||turbobit.net/js/popunder2.js
 ||tvducky.com/imgs/graboid.
 ||tweaktown.com/cms/includes/i*.php
@@ -10039,7 +10047,8 @@ makeuseof.com##div[style="margin-bottom: 15px; margin-top: 15px; padding: 5px; b
 makezine.com##.ad
 malaysiastory.com##.box2
 maltonmercury.co.uk###banner01
-mangafox.com##a[href^="http://fs.game321.com/"]
+mangafox.com##a[href*=".game321.com/"]
+mangafox.com##.left[style="width: 930px; padding-bottom: 10px; padding-right: 10px; padding-left: 10px;"]
 map24.com###cont_m24up
 mapquest.com###offers
 marketingmag.ca###leaderboard_container
@@ -10396,6 +10405,7 @@ pcworld.com###resourceLinks
 pcworld.com###specialOffers
 pcworld.com##.msReminderBadgeBanner
 pcworld.com##.skyscraper
+pdf-archive.com##div[style$="width: 300px; height: 250px; float: left;"]
 pdfmyurl.com##.banner
 pdfzone.com##.Skyscraper_BG
 pdfzone.com##.sponsors_container
@@ -11315,6 +11325,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||adswizz.com^*/v-2-0.synchroclient2.js$domain=sky.fm
 @@||adtech.de/crossdomain.xml$object_subrequest,domain=deluxetelevision.com|gigwise.com|nelonen.fi|radiorock.fi|tv2.dk
 @@||ajmadison.com/images/adverts/
+@@||akamai.net^*/www.wellsfargo.com/img/ads/
 @@||apmex.com/resources/ads/
 @@||app.promo.tubemogul.com/feed/placement.html?id=$script,domain=comedy.com
 @@||apple.com^*/ads/$object,object_subrequest,xmlhttprequest
@@ -11557,6 +11568,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||we7.com/api/streaming/advert-info?*&playsource=$object_subrequest
 @@||weather.com/common/a2/oasadframe.html?position=pagespon
 @@||weather.com/common/a2/oasadframe.html?position=pointspon
+@@||wellsfargo.com/img/ads/
 @@||widget.slide.com^*/ads/*/preroll.swf
 @@||wrapper.teamxbox.com/a?size=headermainad&altlocdir=teamxbox$script
 @@||www.google.*/search?$subdocument
