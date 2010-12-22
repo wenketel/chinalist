@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: /yVWiMFcRvsRi94+Y4LCNQ
+!  Checksum: KCXqPZWtHexT0qIj5IBogQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 22 Dec 2010 09:03:40 +0800
+!  Last Modified:  Wed, 22 Dec 2010 09:13:53 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -418,13 +418,10 @@ luo.bo##[class^="gg_single"]
 ||xcbxj.cn/tg/xcbxweb300_250.gif
 
 !---驱动之家
+||11.mydrivers.com^
 ||mydrivers.com/002f/*/$subdocument
-||mydrivers.com/drivers/drivers03.js
-||mydrivers.com/www/$script
-news.mydrivers.com/img/zhuanti/
-mydrivers.com##div.top + div.hang1
 mydrivers.com##[id^="ad"]
-drivers.mydrivers.com##[align="center"][style="padding-bottom: 2px;"]
+drivers.mydrivers.com##[align="center"][style^="padding-bottom: 2px;"]
 news.mydrivers.com##[align="center"][style="padding: 3px; font-size: 0px;"]
 news.mydrivers.com##table[border="0"][width="980"][height="90"]
 !--myfiles
