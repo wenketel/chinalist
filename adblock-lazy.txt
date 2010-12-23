@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 5PjHEqklgXeeCkvx++cRSw
+!  Checksum: yMpdrDFArvDIS6c9QGBGhQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 22 Dec 2010 10:20:34 +0800
+!  Last Modified:  Thu, 23 Dec 2010 10:46:07 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -232,9 +232,11 @@ img.cyzone.com.cn/customer/$object
 ||dayoo.com/sta/da.js
 images.dayoo.com/dywimg/
 club.dayoo.com/banner/
-||stats.dayoo.com^
-||ganji.com/pagead/
+sta.dayoo.com^
 www.dayoo.com###lm_dywmtq+div.wOut.mt6
+!--gzdaily
+/pub/news/gzrb/*$script
+||gzdaily.dayoo.com/tpl/banner$object
 
 !---Dict.CN
 ||dict.cn/course/
@@ -3398,6 +3400,7 @@ _768x90_
 ###AdBanner_F1
 ###AdBar
 ###AdBar1
+###AdContainer
 ###AdContainerTop
 ###AdContentModule_F
 ###AdDetails_GoogleLinksBottom
@@ -3516,6 +3519,7 @@ _768x90_
 ###VM-header-adwrap
 ###XEadLeaderboard
 ###XEadSkyscraper
+###YahooAdParentContainer
 ###_ads
 ###about_adsbottom
 ###ad-120x600-sidebar
@@ -3546,6 +3550,7 @@ _768x90_
 ###ad-contentad
 ###ad-footer
 ###ad-footprint-160x600
+###ad-frame
 ###ad-front-footer
 ###ad-front-sponsoredlinks
 ###ad-halfpage
@@ -3869,6 +3874,7 @@ _768x90_
 ###ad_ss
 ###ad_table
 ###ad_term_bottom_place
+###ad_text
 ###ad_thread_first_post_content
 ###ad_top
 ###ad_top_holder
@@ -4917,6 +4923,7 @@ _768x90_
 ###sponsored_game_row_listing
 ###sponsored_links
 ###sponsored_v12
+###sponsoredads
 ###sponsoredlinks
 ###sponsoredlinks_cntr
 ###sponsoredresults_top
@@ -5112,6 +5119,7 @@ _768x90_
 ##.AdPlaceHolder
 ##.AdRingtone
 ~ph4.ru##.AdSense
+##.AdSenseLeft
 ##.AdSpace
 ##.AdTextSmallFont
 ~buy.com,~superbikeplanet.com##.AdTitle
@@ -5201,6 +5209,7 @@ _768x90_
 ##.SquareAd
 ##.StandardAdLeft
 ##.StandardAdRight
+##.TRU-onsite-ads-leaderboard
 ##.TextAd
 ##.TheEagleGoogleAdSense300x250
 ##.TopAd
@@ -5335,6 +5344,7 @@ _768x90_
 ##.ad125
 ##.ad160
 ##.ad160x600
+##.ad160x600GrayBorder
 ##.ad18
 ##.ad19
 ~russiantimes.com##.ad2
@@ -5466,6 +5476,7 @@ _768x90_
 ##.adTopboxright
 ##.adTout
 ##.adTxt
+##.adUnit
 ##.adUnitHorz
 ##.adUnitVert
 ##.adUnitVert_noImage
@@ -5532,6 +5543,7 @@ _768x90_
 ##.ad_disclaimer
 ##.ad_eyebrow
 ##.ad_footer
+##.ad_frame
 ##.ad_framed
 ##.ad_front_promo
 ##.ad_head
@@ -6023,6 +6035,7 @@ _768x90_
 ##.blog-ads-container
 ##.blogAd
 ##.blogAdvertisement
+##.blogArtAd
 ##.blogBigAd
 ##.blog_ad
 ##.blogads
@@ -6383,6 +6396,7 @@ _768x90_
 ##.insideStoryAd
 ##.inteliusAd_image
 ##.interest-based-ad
+##.internalAdsContainer
 ##.is24-adplace
 ##.isAd
 ##.islandAd
@@ -6831,6 +6845,7 @@ _768x90_
 ##.spotlightAd
 ##.squareAd
 ##.square_ad
+##.square_banner_ad
 ##.squared_ad
 ##.ss-ad-mpu
 ##.start__newest__big_game_container_body_games_advertising
@@ -6840,6 +6855,7 @@ _768x90_
 ##.story_AD
 ##.story_ad_div
 ##.storyad
+##.storysponsorimage
 ##.subad
 ##.subcontent-ad
 ##.subtitle-ad-container
@@ -8109,7 +8125,7 @@ _768x90_
 ||tigerdirect.com^*/affiliate_
 ||top5result.com/promo/
 ||toptenreviews.com/widgets/af_widget.js$third-party
-||toptenreviews.com^*/partner/
+||toptenreviews.com^*/request.php$third-party
 ||torrentfreebie.com/index.asp?pid=$third-party
 ||tosol.co.uk/international.php?$third-party
 ||toysrus.com/graphics/promo/
@@ -8124,6 +8140,7 @@ _768x90_
 ||videoplaza.com/creatives/
 ||visit.homepagle.com^$third-party
 ||visitorboost.com/images/$third-party
+||vxite.com/banner/
 ||warezhaven.org/warezhavenbann.jpg
 ||watch-naruto.tv/images/$third-party
 ||website.ws^*/banners/
@@ -8493,7 +8510,7 @@ _768x90_
 ||loaded.it^*/geld-internet-verdienen.jpg
 ||loaded.it^*/iframe_vid.
 ||loaded.it^*/my_banner
-||londonstockexchange.com/prices-and-news/*/fx.gif
+||londonstockexchange.com^*/fx.gif
 ||looky.hyves.org^
 ||loombo.com^*/remove-ads.
 ||loveolgy.com/banners/
@@ -8531,6 +8548,7 @@ _768x90_
 ||megavideo.com/goviral.php
 ||megavideo.com/unruley.php
 ||merriam-webster.com^*/accipiter.js
+||mfcdn.net/media/game321/$image
 ||mg.co.za/uploads/*.swf?
 ||mgnetwork.com/dealtaker/
 ||mirror.co.uk^*/gutters/
@@ -8545,7 +8563,6 @@ _768x90_
 ||movstreaming.com/images/edhim.jpg
 ||mp3mediaworld.com*/!
 ||mp3raid.com/imesh.gif
-||mfcdn.net/media/game321/$image
 ||msn.com/?adunitid
 ||musicremedy.com/banner/
 ||musictarget.com*/!
@@ -8838,6 +8855,7 @@ _768x90_
 9to5mac.com###page-top
 a10.com###gameunderbanner
 abc2news.com##.ad
+abc4.com##.LinksWeLike
 abclocal.go.com###bannerTop
 abclocal.go.com##.linksWeLike
 abcnews.go.com##.ad
@@ -9032,6 +9050,7 @@ boardgamegeek.com##tr > td[width="160"][valign="top"][align="center"][style="pad
 boingboing.net###cheetos_collapsed
 boingboing.net##.ad
 boingboing.net##div[style="height: 630px; width: 300px;"]
+boisegasprices.com##div[style="height: 250px; width: 301px; margin-bottom: 10px;"]
 bollywoodbuzz.in##div[style="height: 250px; width: 300px;"]
 bollywoodbuzz.in##div[style="height: 90px; width: 728px;"]
 bollywoodjodi.com##.tablehead td > a[href^="http"] > img
@@ -9715,6 +9734,7 @@ icelandreview.com###ImgArea2
 icenews.is###topbanner
 idg.com.au###skin_bump
 idg.com.au###top_adblock_fix
+ietab.net##a[href^="http://www.ietab.net/xadnet/gothere.php?target="]
 ign.com###LB_Row
 ign.com###boards_medrec_relative
 illimitux.net###screens
@@ -10030,6 +10050,7 @@ madeformums.com###contentbanner
 magic.co.uk###headerRowOne
 magme.com###top_banner
 mahalo.com##div[id^="ads-section-"]
+mail.google.com##.MI
 mail.google.com##.oM
 mail.live.com###SkyscraperContent
 mail.yahoo.com###MNW
@@ -10050,8 +10071,8 @@ makeuseof.com##div[style="margin-bottom: 15px; margin-top: 15px; padding: 5px; b
 makezine.com##.ad
 malaysiastory.com##.box2
 maltonmercury.co.uk###banner01
-mangafox.com##a[href*=".game321.com/"]
 mangafox.com##.left[style="width: 930px; padding-bottom: 10px; padding-right: 10px; padding-left: 10px;"]
+mangafox.com##a[href*=".game321.com/"]
 map24.com###cont_m24up
 mapquest.com###offers
 marketingmag.ca###leaderboard_container
@@ -10415,6 +10436,7 @@ pdfzone.com##.sponsors_container
 pdfzone.com##div[style="float: left; width: 336px; margin-right: 16px; margin-bottom: 5px;"]
 pedulum.com###header_top
 penny-arcade.com###funding-h
+people.co.uk##.promotop
 people.com##.quigo
 perfectlytimedphotos.com###top-leaderboard
 perfectlytimedphotos.com##.leaderboard
@@ -11306,7 +11328,6 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||ads.jetpackdigital.com.s3.amazonaws.com^$image,domain=vibe.com
 @@||ads.jetpackdigital.com/jquery.tools.min.js?$domain=vibe.com
 @@||ads.jetpackdigital.com^*/_uploads/$image,domain=vibe.com
-@@||ads.monster.com/html.ng/$image,subdocument,domain=monster.com
 @@||ads.morningstar.com/realmedia/ads/adstream_lx.ads/www.morningstar.com/video/$object_subrequest
 @@||ads.revsci.net/adserver/ako?$script,domain=foxbusiness.com|foxnews.com
 @@||ads.trutv.com/crossdomain.xml$object_subrequest
@@ -11327,6 +11348,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||adswizz.com/www/delivery/swfindex.php?reqtype=adssetup&$object_subrequest,domain=motogp.com
 @@||adswizz.com^*/v-2-0.synchroclient2.js$domain=sky.fm
 @@||adtech.de/crossdomain.xml$object_subrequest,domain=deluxetelevision.com|gigwise.com|nelonen.fi|radiorock.fi|tv2.dk
+@@||adtechus.com/crossdomain.xml$object_subrequest,domain=thestar.com
 @@||ajmadison.com/images/adverts/
 @@||akamai.net^*/www.wellsfargo.com/img/ads/
 @@||apmex.com/resources/ads/
@@ -11436,7 +11458,6 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||imwx.com/js/adstwo/adcontroller.js$domain=weather.com
 @@||itv.com^*.adserver.js
 @@||itweb.co.za/banners/en-cdt*.gif
-@@||jdn.monster.com/render/adservercontinuation.aspx?$subdocument,domain=monster.com
 @@||jobs.wa.gov.au/images/advertimages/
 @@||js.revsci.net/gateway/gw.js?$domain=foxbusiness.com|foxnews.com
 @@||kaufen-ist-toll.de/images/logos/
@@ -12164,6 +12185,7 @@ _cedexis.php
 ||ip-label.net^$third-party
 ||ip2location.com^$third-party
 ||ip2map.com^$third-party
+||ip2phrase.com^$third-party
 ||ipcatch.com^$third-party
 ||iperceptions.com^$third-party
 ||ipv6monitoring.eu^$third-party
@@ -12846,6 +12868,7 @@ _cedexis.php
 ||analytics.episodic.com^
 ||analytics.hosting24.com^
 ||analytics.live.com^
+||analytics.matchbin.com^
 ||analytics.rogersmedia.com^
 ||analytics.tribeca.vidavee.com^
 ||analytics.yola.net^
