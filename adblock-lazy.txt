@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 5GLd5qm1OXPuV/jZ1DCzDA
+!  Checksum: bs/4oJMc4l5ZjPMSUYtYdg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 23 Dec 2010 11:09:53 +0800
+!  Last Modified:  Fri, 24 Dec 2010 21:32:05 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -1122,7 +1122,7 @@ cnt.openv.com/apis/vmis.php
 pipi.cn##div#movie_tab_1+div[style]
 ||pps.tv/js_a2d/
 pp2.pptv.com^
-||atm.youku.com^
+||atm.youku.com^$~script
 ||youmaker.com/logoad2.jpg
 ||youmaker.com/edoors200708180-150.swf
 
@@ -1171,6 +1171,7 @@ frdic.com,godic.net###sidebar1
 ||hanzify.org/Main/Template/*/a-d-s/
 ||hk-pub.com/forum/images/banner/
 hdad.hudong.com/hdad/
+huodong.hudong.com^$subdocument
 ||hwit.net/acmsd/
 ||infoq.com/resource/skyscraper/
 goto.www.iciba.com^$subdocument,domain=iciba.com
@@ -2429,6 +2430,7 @@ login.yahoo.net/login_superads/
 /cpxads.
 /ctamlive160x160.
 /customad.
+/customads/*
 /customadsense.
 /cvs/ads/*
 /cwggoogleadshow.
@@ -3075,6 +3077,7 @@ login.yahoo.net/login_superads/
 =adtech_
 =advert/
 =advertorial&
+=com_ads&
 ?ad_ids=
 ?ad_type=
 ?ad_width=
@@ -4015,6 +4018,7 @@ _768x90_
 ###adsense-text
 ###adsenseOne
 ###adsenseWrap
+###adsense_article_left
 ~jeeppatriot.com###adsense_inline
 ###adsense_leaderboard
 ###adsense_overlay
@@ -8184,6 +8188,7 @@ _768x90_
 ||access.njherald.com^
 ||acidcow.com/banners.php?
 ||activewin.com^*/blaze_static2.gif
+||adap.tv^*/htmlbannerplugin.swf?
 ||adelaidecityfc.com.au/oak.swf
 ||adf.ly/market.php
 ||adpaths.com/_aspx/cpcinclude.aspx?
@@ -9080,7 +9085,6 @@ brothersoft.com##.sponsor
 btjunkie.org###main > div[height="10"]:first-child + table[width="100%"]
 btjunkie.org###main > div[height="10"]:first-child + table[width="100%"] + .tab_results
 btjunkie.org##th[align="left"][height="100%"]
-buenosairesherald.com###publiTopHeader
 buffalonews.com###bot-main
 buffalonews.com##.leaderboard_top
 builderau.com.au###leaderboard
@@ -10058,6 +10062,7 @@ mail.yahoo.com###northbanner
 mail.yahoo.com###nwPane
 mail.yahoo.com###slot_LREC
 majorgeeks.com##.Outlines
+majorgeeks.com##a[href^="http://bit.ly/"]
 majorgeeks.com##a[href^="http://www.pctools.com/registry-mechanic/?ref="]
 majorgeeks.com##a[href^="https://secure.avangate.com/affiliate.php"]
 majorgeeks.com##a[target="1"]
@@ -11129,6 +11134,7 @@ wenn.com###topbanner
 weselectmodels.com##div[style="width: 728px; height: 90px; background-color: black; text-align: center;"]
 westlothianhp.co.uk###banner01
 westsussextoday.co.uk###banner01
+wfmz.com###leaderboard-sticky
 wftv.com###leaderboard-sticky
 whatismyip.com##.gotomypc
 whatismyip.com##span[style="margin: 2px; float: left; width: 301px; height: 251px;"]
@@ -11705,6 +11711,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 ! *** easyprivacy_general.txt ***
 &name=atatracker&
 &name=atatracker?
+-xtcore.js
 /?livehit=
 /__utm.gif
 /aa.php?anuid=
@@ -11902,6 +11909,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 /wysistat.js
 /xgemius.js
 /xiti.js
+/xtclicks-$script
 /xtclicks.js
 /xtcore.js
 /xtrack.php?
@@ -12121,6 +12129,7 @@ _cedexis.php
 ||free-counter.com^$third-party
 ||free-counters.co.uk^$third-party
 ||free-website-hit-counters.com^$third-party
+||freecountercode.com^$third-party
 ||freelogs.com^$third-party
 ||freeonlineusers.com^$third-party
 ||freesitemapgenerator.com^$third-party
@@ -12674,6 +12683,7 @@ _cedexis.php
 ||zaehler.tv^$third-party
 !French
 ||a2dfp.net^$third-party
+||abcompteur.com^$third-party
 ||atraxio.com^$third-party
 ||countus.fr^$third-party
 ||cybermonitor.com^$third-party
@@ -12796,6 +12806,7 @@ _cedexis.php
 ||uzrating.com^$third-party
 ||web-visor.com^$third-party
 ||webvisor.ru^$third-party
+||zero.kz/$third-party
 !Slovak
 ||idot.cz/$third-party
 ||toplist.sk^$third-party
@@ -12804,6 +12815,7 @@ _cedexis.php
 ||contadorgratis.com^$third-party
 ||contadorgratis.es^$third-party
 ||eresmas.net^$third-party
+||hit.copesa.cl^$third-party
 ||hits.e.cl^$third-party
 ||intrastats.com^$third-party
 ||micodigo.com^$third-party
@@ -12958,6 +12970,7 @@ _cedexis.php
 ||i-stats.ieurop.net^
 ||images-amazon.com^*/1x1_trans.gif
 ||imageshack.us^*/thpix.gif
+||imghostsrc.com/counter.php?
 ||impi.tv/trackvideo.aspx?
 ||insights.gravity.com^
 ||instantservice.com/geoipapi.js?
@@ -13240,6 +13253,7 @@ _cedexis.php
 !Romanian
 ||top.skyzone.ro^
 !Russian
+||1in.kz/counter?
 ||adlik.akavita.com/bin/lik?
 ||an.yandex.ru^
 ||bs.yandex.ru^
@@ -13286,6 +13300,7 @@ _cedexis.php
 ||allmovieportal.com/hostpagescript.js
 ||alot.com/js/tracking.js
 ||alot.com/tb/cookiewriter.php?
+||analytics.disneyinternational.com^
 ||analytics.gorillanation.com^
 ||analytics.moneycontrol.com^
 ||analytics.newsinc.com^
@@ -13590,6 +13605,7 @@ _cedexis.php
 ||report.shell.com^
 ||reuters.com/tracker/
 ||reuters.com^*/tracker_article.js
+||revsci.tvguide.com^
 ||rok.com.com^
 ||rottentomatoes.com/i.gif?
 ||rover.ebay.co.uk^
@@ -13822,9 +13838,9 @@ _cedexis.php
 ||dsltarife.net/ddd.js
 ||dsltarife.net/statistik/
 ||dw-eu.com.com^
-||dw-world.de/scripts/run.js
-||dw-world.de/run.js
 ||dw-world.com/run.js
+||dw-world.de/run.js
+||dw-world.de/scripts/run.js
 ||elektromobil-dresden.de/tinc?
 ||elitepartner.de/km/tcnt.do?
 ||express.de/analytics/
@@ -14029,6 +14045,7 @@ _cedexis.php
 !Portuguese
 ||metrics.uol.com.br^
 ||sl.pt/wa.gif?
+||uv.terra.com.br^
 !Russian
 ||rutube.ru/img/playerstats.gif?
 !Slovene
@@ -14048,11 +14065,11 @@ _cedexis.php
 ||pixelcounter.marca.com^
 ||pixelcounter.telva.com^
 ||stats.cnnmexico.com^
+||stats.milenio.com^
 ||terra.com.mx^*/metrics_begin.js
 ||terra.com.mx^*/metrics_end.js
 ||terra.com^*/skstats_terraus.js
 ||terra.com^*/td.asp?bstat
-||uv.terra.com.br^
 !Swedish
 ||blocket.se/js/trafikfonden.js
 ||prisjakt.nu/js.php?p=trafikfonden
