@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: AuArbvrcsBjmoS3KrfOcEg
+!  Checksum: OjrsXUD1tH7RElPExDUZFg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 27 Dec 2010 09:57:46 +0800
+!  Last Modified:  Mon, 27 Dec 2010 17:05:45 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -118,6 +118,7 @@ static.mp3.baidu.com^
 image.baidu.com###ecomContainer
 image.baidu.com###relEcom
 image.baidu.com###relecom54
+mp3.baidu.com##.top.container_20
 mp3.baidu.com###dMA+script+table
 video.baidu.com##div#rlinks+div[style="padding: 0pt 10px;"]
 video.baidu.com##[style="display: block; width: 1024px; height: 90px;"]
@@ -766,7 +767,6 @@ news.wenxuecity.com##td[width="20"][bgcolor="#f0f0e0"][rowspan="2"]
 
 !---尼泊尔华人网
 .com/biz/$domain=manitobacn.com|winnipegchinese.com
-||manitobacn.com/include/js/floatadv.js
 winnipegchinese.com,manitobacn.com##[class^="banner"]
 
 !---完美者
@@ -976,7 +976,6 @@ gamebase.com.tw##span[id^="aid_"]
 ||gamersky.com/frame/
 ||huaqimen.com^$script
 ||huaqimen.com/flash/bcastr.swf
-bbs.plu.cn/include/javascript/floatadv.js
 bbs.plu.cn/plu/images/
 ||replays.net/images/eventad/
 ||replays.net/*/rnad/
@@ -1512,6 +1511,7 @@ qd.code.qihoo.com^$third-party
 /adsimg/*
 /adsunion^
 /allyes.
+/floatadv.
 /friendlink^$subdocument,image
 /guangg/*
 /guanggao^
