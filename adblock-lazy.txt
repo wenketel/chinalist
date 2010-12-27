@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: JAy4SFAeYAi+PHinVEi8pw
+!  Checksum: AuArbvrcsBjmoS3KrfOcEg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 24 Dec 2010 21:44:33 +0800
+!  Last Modified:  Mon, 27 Dec 2010 09:57:46 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -691,9 +691,9 @@ tongji.net##.wp.a_h
 !---TTG
 ||ttg.im/pic/51ps3_gg.gif
 ||ttg.im/pic/ggtb.gif
-||ttg.im/pic/ttg_gqsx.jpg
 ||ttg.im/pic/ttg-ps3copy.jpg
-||ttg.im/pic/ttg_samsung.gif
+@@|http://ttg.im/pic/ttg_logo.png
+||ttg.im/pic/ttg_
 
 !---土豆
 @@|http://adcontrol.tudou.com/crossdomain.xml
@@ -1188,9 +1188,6 @@ jcunbbs.cn##[id^="ad_"]
 ||panda.kdnet.net^
 kenengba.com##div#sidebar>script+div
 ||kuqin.com/da/
-||liehuo.net/images/gaogao/
-||liehuo.net/plus/
-images.love21cn.com^$subdocument
 links.kugoo.com^
 ring.kugou.com^
 ||kugz.net/gzad/
@@ -1199,8 +1196,13 @@ ring.kugou.com^
 ||kyer8.com/images/log.jpg
 ||kyer8.com/img/right*.gif
 news.sohu.com/upload/$domain=kyer8.com
+||liehuo.net/images/gaogao/
+||liehuo.net/plus/
 ||linuxidc.com/linuxfile/
 ||linuxidc.com/linuxren/linuxren*.js
+||liudu9.com/js/read_top.js
+||liudu9.com/js/read_link
+images.love21cn.com^$subdocument
 cache.meropar.tw/swf/blog/tw_rot.xml
 cache.meropar.tw/swf/blog/loadBanner/
 js.meropar.tw/tracking.jsp
@@ -1384,6 +1386,7 @@ v.9vcpc.cn^$third-party
 ||cpm9v.cn^$third-party
 ||cpmadworld.com^$third-party
 ||cpp9v.cn^$third-party
+||cpvm.net^$third-party
 ||crazymike.tw^$third-party
 ||cs01.csyouxi.com^$third-party
 ||daoyoudao.com^$third-party
@@ -1463,7 +1466,6 @@ qd.code.qihoo.com^$third-party
 ||skycn.org.cn^$third-party
 ||star8.net^$third-party
 ||tazhao.com^$third-party
-||toocle.com^$third-party
 ||txjy2008.com^$third-party
 ||u17.com/$third-party
 ||ubcpm.com^$third-party
@@ -1479,6 +1481,7 @@ qd.code.qihoo.com^$third-party
 ||v-links.net^$third-party
 ||vjia.com^$third-party
 ||wauee.com^$third-party
+||web933.com^$third-party
 ||wyunion.com^$third-party
 ||gouwu.vip.xunlei.com^$third-party
 ||y488.com^$third-party
@@ -4010,6 +4013,8 @@ _768x90_
 ###adsd_contentad_r1
 ###adsd_contentad_r2
 ###adsd_contentad_r3
+###adsd_topbanner
+###adsd_txt_sky
 ###adsdiv
 ~promoce.cz###adsense
 ###adsense-2
@@ -4268,6 +4273,8 @@ _768x90_
 ###buttonad
 ###buy-sell-ads
 ###c4ad-Middle1
+###c_ad_sb
+###c_ad_sky
 ###caAdLarger
 ###catad
 ###category-ad
@@ -4429,6 +4436,7 @@ _768x90_
 ###gallery_ads
 ###game-info-ad
 ###gasense
+###gglads
 ###global_header_ad_area
 ###gmi-ResourcePageAd
 ###gmi-ResourcePageLowerAd
@@ -4527,6 +4535,7 @@ _768x90_
 ###hiddenadAC
 ###hideads
 ###hl-sponsored-results
+###home-rectangle-ad
 ###homeTopRightAd
 ###home_ad
 ###home_bottom_ad
@@ -5279,6 +5288,7 @@ _768x90_
 ~dublinairport.com##.ad-holder
 ##.ad-homeleaderboard
 ##.ad-img
+##.ad-index-main
 ##.ad-island
 ##.ad-label
 ##.ad-leaderboard
@@ -5318,6 +5328,7 @@ _768x90_
 ##.ad-space
 ##.ad-space-mpu-box
 ##.ad-spot
+##.ad-square300
 ##.ad-squares
 ##.ad-statement
 ##.ad-tabs
@@ -5405,6 +5416,7 @@ _768x90_
 ##.adBoxInBignews
 ##.adBoxSidebar
 ##.adBoxSingle
+##.adBwrap
 ##.adCMRight
 ##.adColumn
 ##.adCont
@@ -5652,6 +5664,8 @@ _768x90_
 ##.adfootbox
 ~linux.com##.adframe
 ##.adhead
+##.adhead_h
+##.adhead_h_wide
 ##.adheader
 ##.adheader100
 ##.adhere
@@ -5717,6 +5731,7 @@ _768x90_
 ##.ads-text
 ##.ads-widget
 ##.ads-widget-partner-gallery
+##.ads160
 ##.ads2
 ##.ads3
 ##.ads300
@@ -5786,6 +5801,7 @@ _768x90_
 ##.adsclick
 ##.adscontainer
 ##.adscreen
+##.adsd_shift100
 ##.adsection_a2
 ##.adsection_c2
 ~lalsace.fr,~lepays.fr,~ph4.ru,~tonprenom.com##.adsense
@@ -6151,6 +6167,7 @@ _768x90_
 ##.contentad_right_col
 ##.contentadcontainer
 ##.contentadleft
+##.contentads
 ##.contenttextad
 ##.contest_ad
 ##.cp_ad
@@ -7885,6 +7902,7 @@ _768x90_
 ||advanced-intelligence.com/banner
 ||affil.mupromo.com^
 ||affiliate.astraweb.com^
+||affiliate.moveandstay.com^$third-party
 ||affiliates.a2hosting.com^
 ||affiliates.bhphotovideo.com^
 ||affiliates.bravenet.com^
@@ -8452,6 +8470,7 @@ _768x90_
 ||img*.i-comers.com^
 ||impulsedriven.com/app_images/wallpaper/
 ||independent.co.uk/multimedia/archive/$subdocument
+||indiatimes.com/googleshowbtm.
 ||informationmadness.com^*/banners/
 ||informer.com/images/sponsored.gif
 ||infoseek.co.jp/isweb/clip.html
@@ -8941,6 +8960,7 @@ app.com,argusleader.com,battlecreekenquirer.com,baxterbulletin.com,bucyrustelegr
 app.com,argusleader.com,battlecreekenquirer.com,baxterbulletin.com,bucyrustelegraphforum.com,burlingtonfreepress.com,centralohio.com,chillicothegazette.com,cincinnati.com,citizen-times.com,clarionledger.com,coloradoan.com,coshoctontribune.com,courier-journal.com,courierpostonline.com,dailyrecord.com,dailyworld.com,delawareonline.com,delmarvanow.com,democratandchronicle.com,desmoinesregister.com,dnj.com,fdlreporter.com,freep.com,greatfallstribune.com,greenbaypressgazette.com,greenvilleonline.com,guampdn.com,hattiesburgamerican.com,hometownlife.com,honoluluadvertiser.com,htrnews.com,indystar.com,jacksonsun.com,jconline.com,lancastereaglegazette.com,lansingstatejournal.com,livingstondaily.com,lohud.com,mansfieldnewsjournal.com,marionstar.com,marshfieldnewsherald.com,montgomeryadvertiser.com,mycentraljersey.com,mydesert.com,newarkadvocate.com,news-leader.com,news-press.com,newsleader.com,pal-item.com,pnj.com,portclintonnewsherald.com,postcrescent.com,poughkeepsiejournal.com,press-citizen.com,pressconnects.com,rgj.com,sctimes.com,sheboyganpress.com,shreveporttimes.com,stargazette.com,statesmanjournal.com,stevenspointjournal.com,tallahassee.com,tennessean.com,theadvertiser.com,thecalifornian.com,thedailyjournal.com,theithacajournal.com,theleafchronicle.com,thenews-messenger.com,thenewsstar.com,thenorthwestern.com,thespectrum.com,thestarpress.com,thetimesherald.com,thetowntalk.com,visaliatimesdelta.com,wausaudailyherald.com,wisconsinrapidstribune.com,zanesvilletimesrecorder.com##.leaderboard-container-top
 appleinsider.com###aadbox
 appleinsider.com###ldbd
+appleinsider.com###ldbd
 appleinsider.com##.bottombox
 appleinsider.com##.leaderboard
 appleinsider.com##.main_box4
@@ -9187,6 +9207,7 @@ columbiatribune.com##.skyscraper
 com.au##table.fdMember
 comcast.net##.ad
 comedy.com###hat
+cometbird.com##.gg_250x250
 comicartfans.com###contentcolumn:last-child > center > table[cellspacing="0"][cellpadding="1"][border="0"]:first-child
 comicgenesis.com###ks_da
 comicsalliance.com##.sidebarBanner
@@ -9328,6 +9349,7 @@ dishusa.net##table[style="border: 3px outset rgb(87, 173, 198); font-size: 16px;
 disney.go.com###banner
 disney.go.com###superBanner
 disney.go.com##div[style="position: relative; float: right; clear: right; width: 300px; height: 260px; top: 5px; margin: 10px 0px 5px 5px;"]
+ditii.com##.ads
 divxden.com###divxshowboxt > a[target="_blank"] > img[width="158"]
 divxden.com##.ad
 divxden.com##.header_greenbar
@@ -9934,6 +9956,7 @@ kohit.net##.top_banner
 kohit.net##div[style="width: 300px; height: 250px; background-color: rgb(0, 0, 0);"]
 kotaku.com###skySpacer
 kotaku.com###skyscraper
+kotsengkuba.com##div[style="position: absolute; top: 20px; right: 20px; width: 728px; height: 90px; margin: 0px 0px 20px 20px; padding: 4px; border: 1px solid rgb(221, 221, 221); -moz-border-radius: 3px 3px 3px 3px;"]
 kovideo.net##.h-728
 kovideo.net##.right-def-160
 kovideo.net##.search-728
@@ -10002,6 +10025,7 @@ loaded.it###ppad1
 loaded.it##img[style="border: 0px none; width: 750px;"]
 local.co.uk###borderTab
 local.yahoo.com##.yls-rs-paid
+lockergnome.com##div[style="float: left; width: 160px; height: 600px; margin: 0px 5px 10px 0px;"]
 londonstockexchange.com##.banner
 londonstockexchange.com##.bannerTop
 loombo.com##.ad
@@ -10167,7 +10191,6 @@ moviefone.com###WIAModule
 moviefone.com##.ent_promo_sidetexttitle
 moviefone.com##.mf-banner-container
 movies.yahoo.com###banner
-movies.yahoo.com##.lrec
 moviesfoundonline.com###banner
 moviesmobile.net##a[href*=".amobee.com"]
 moviesmobile.net##a[href*=".mojiva.com"]
@@ -10528,6 +10551,7 @@ radaronline.com###videoSkyscraper
 radio.com###i300x250Container
 radio.com###i728x90Container
 rapbasement.com##a[style="display: block; width: 100%; height: 280px; text-indent: -10000px; position: absolute;"]
+rapid-search-engine.com##.sp_header
 rapid8.com##.content:first-child > code:last-child
 rapid8.com##.content:first-child > form[method="post"] > code:last-child
 rapid8.com##a[href^="http://www.crowdGravity.com/AF_"]
@@ -10677,6 +10701,7 @@ shopping.net##table[border="1"][width="580"]
 shopping.yahoo.com##.shmod-ysm
 sify.com##div[style="width: 250px; height: 250px;"]
 siliconchip.com.au##td[align="RIGHT"][width="50%"][valign="BOTTOM"]
+siliconrepublic.com###banner-zone-k
 siliconrepublic.com###leaderboard
 siliconvalley.com##.blogBox
 siliconvalley.com##.lnbbgcolor
@@ -10844,6 +10869,7 @@ the217.com###textpromo
 theaa.com###unanimis1
 theage.com.au##.ad
 thebizzare.com##.adblock
+theblemish.com###header-b
 thecelebritycafe.com##table[width="135"][height="240"]
 thecourier.co.uk###sidebarMiddleCol
 theeagle.com##.SectionRightRail300x600Box
@@ -10864,6 +10890,7 @@ thehill.com###topbanner
 thehill.com##.banner
 thehill.com##.lbanner
 thehill.com##.vbanner
+thejakartaglobe.com###topbanner
 thelocalweb.net##.verdana9green
 themaineedge.com##td[height="80"][style="background-color: rgb(0, 0, 0);"]
 themaineedge.com##td[width="180"][style="background-color: rgb(51, 95, 155); text-align: center;"]
@@ -10929,6 +10956,7 @@ tinypic.com##.ad
 tinypic.com##.medrec
 tips.net###googlebig
 titantv.com##.leaderboard
+tmrzoo.com##.headbanner
 tmz.com###leaderboard
 tmz.com###skyscraper
 tnt.tv###right300x250
@@ -11038,6 +11066,7 @@ url.org###resspons1
 url.org###resspons2
 urlesque.com##.sidebarBanner
 urlesque.com##.topBanner
+usatoday.com###Adv9
 usatoday.com###expandedBanner
 usatoday.com###footerSponsorOne
 usatoday.com###footerSponsorTwo
@@ -11159,7 +11188,9 @@ windowsbbs.com##span[style="margin: 2px; float: left; width: 337px; height: 281p
 windowsitpro.com###dnn_pentonRoadblock_pnlRoadblock
 windowsxlive.net##div[style="width: 160px; height: 600px; margin-left: 12px; margin-top: 16px;"]
 windowsxlive.net##div[style="width: 336px; height: 380px; float: right; margin: 8px;"]
+winsupersite.com###ContentBottom
 winsupersite.com###footerLinks > table[width="100%"]:first-child
+winsupersite.com###leaderboard
 winsupersite.com##td[style="border-top: 1px none rgb(224, 224, 224); color: rgb(0, 0, 0); font-weight: normal; font-style: normal; font-family: sans-serif; font-size: 8pt; padding-right: 3px; padding-bottom: 3px; padding-top: 3px; text-align: left;"]
 wired.co.uk##.banner-top
 wired.co.uk##.banner1
@@ -13049,6 +13080,7 @@ _cedexis.php
 ||stats.big-boards.com^
 ||stats.datahjaelp.net^
 ||stats.free-rein.net^
+||stats.jtvnw.net^
 ||stats.magnify.net^
 ||stats.polldaddy.com^
 ||stats.surfaid.ihost.com^
@@ -13922,6 +13954,7 @@ _cedexis.php
 ||preisvergleich.de/setcookie/
 ||prisma.de/cgi-bin/ivw2.cgi?
 ||prosieben.de^*/simtracker.js
+||putpat.tv/tracking?
 ||quoka.de^*/wtlog_02.js
 ||reisetagebuch24.de/modules/starstats/logvisit.aspx?
 ||remixshare.com/stat/
