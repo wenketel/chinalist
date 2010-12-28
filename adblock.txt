@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: V0+oF9OCtnT61c/x90830g
+!  Checksum: /dmRAD94zxbKAUYlGOhSJA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 27 Dec 2010 19:46:36 +0800
+!  Last Modified:  Tue, 28 Dec 2010 15:51:17 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -182,7 +182,6 @@ www.china.com##.homeheadAT
 
 !---中国供应商
 pvstat.china.cn/statpv.js
-cd.code.ermchina.cn/show.php?$subdocument
 china.cn##.rowLAd
 
 !---ChinaZ
@@ -212,11 +211,6 @@ chart.cnyes.com/js/floatad_n.js
 cnyes.com##.textnews
 chinayes.com##.banner
 news.cnyes.com,chinayes.com##[class^="ad"]
-
-!---CNW
-a.computerworld.com.cn/$subdocument,script
-cnw.com.cn/zhuanti/$script
-passport.cnw.com.cn/Track/stat.js
 
 !---CSDN
 ||csdn.net/ggmm/
@@ -555,7 +549,7 @@ soso.com###rads
 qqread.com##[class$="ad"]
 
 !---青岛新闻网,海奥网
-up.hiao.com^
+||up.hiao.com^
 qingdaonews.com##.commonrightad
 
 !---人人
@@ -907,9 +901,8 @@ town.xuite.net/_ad/
 ||bkill.com/images/di.js
 ||cncrk.com/ggg/
 ||cngr.cn/js/$script
-||cnzz.cc/*js/top.js
 ||cnzz.cc/js/footer.js
-||soft.cnzz.cc/js/
+||cnzz.cc/soft/js/a_
 JS/zanzhu_*.js$domain=down.cnzz.cn
 down.cnzz.cn/zanzhu/
 ||downbai.com/gaog/
@@ -990,7 +983,6 @@ bill.tgbus.com/html/
 121.32.136.21
 !--北京网通
 ||61.135.22.
-||jcxinxi.com^$document
 !--中国联通CNC
 ||60.18.147.131
 ||60.190.105.7^
@@ -1002,10 +994,7 @@ bill.tgbus.com/html/
 !---Net Disks
 u.115.com/static/media/
 u.115.com/static/modules/
-||r.brsbox.com/img0.29/downwps_btnbg.gif
-||r.brsbox.com/images/sogou2.gif
 ||google.mmjq.com^
-||tx908.com^
 d.namipan.com/inc_js/$script
 img.rayfile.com/scr/$script
 
@@ -1022,11 +1011,10 @@ imgs.ccw.com.cn/ccw/1.htm
 ||region.cns.hk^
 ||pic.cnmo.com/$image,object
 cnmo.com##[id^="AD"]
+passport.cnw.com.cn/Track/stat.js
 ||daqi.com/clicklog.js
 ||same.eastmoney.com^
 eap.enorth.com.cn
-||hinews.cn/out/www09index.js
-||hinews.cn/out/wwwpage.js
 ||htpc1.com/newfolder/
 ||huanqiu.com/script/content_js/
 ||huanqiu.com/script/homepage$script
@@ -1079,19 +1067,16 @@ iads.xinmin.cn/
 ||dddbbb.net/popopf.js
 by.dm5.com^
 tongji.dm5.com^
-book.hxtdz.com/js/$subdocument
-book.hxtdz.com/js/youpiao2.js
 pic.hongxiu.com/fox/hx/
 ||ibook8.com/2/
 ||jdjxs.net/configs/article/
 ||lxwxw.com/scripts/new/
 ||niepo.com/js/tan2/
-||qbooksky.com^$script,subdocument
 80.qukanshu.com^
 ||readnovel.com/js/$subdocument
 ||sfw.com.cn/templets/banner/
-sfw.com.cn##.cataBanner1
 bbs.sfw.com.cn/attachments/
+sfw.com.cn##.cataBanner1
 bbs.whsee.com/js/
 ||xntk.com^$script
 @@||xntk.com/data/ph.js
@@ -1182,9 +1167,7 @@ x.itiexue.net/html/$script
 bbs.tiexue.net##.banner
 ftp.javaeye.com/public/
 img.jb51.net/imgby/
-jcunbbs.cn##[id^="ad_"]
 ||jd-bbs.com^$object
-||aps*.jrjimg.cn
 ||k666.com^$object
 ||panda.kdnet.net^
 kenengba.com##div#sidebar>script+div
@@ -1307,14 +1290,12 @@ u.1133.cc^$third-party
 ||19dc.com^$third-party
 ||1gou.com^$third-party
 www.2bj.cn^$third-party
-u1346.37117.com^$third-party
 ||22w.com/$third-party
 ||33hy.com^$third-party
 ||333wan.com^$third-party
 ||365tc.com^$third-party
 ||37cs.com^$third-party
 ||37dz.com^$third-party
-||37see.com^$third-party
 ||3gpz.net^$third-party
 ||50bang.org^$third-party
 ||51link.com^$third-party
@@ -1324,7 +1305,6 @@ u1346.37117.com^$third-party
 ||www.59.cn^$third-party
 ||un.5d6d.com^
 ||click.5j.com^$third-party
-||5k3g.com^$third-party
 ||5uad.com^$third-party
 ||6621.com^$third-party
 ||66-77.com^
@@ -1333,20 +1313,15 @@ u1346.37117.com^$third-party
 ||6cpm.com^$third-party
 ||70yx.com^$third-party
 ||74lm.com^$third-party
-||778669.com^$third-party
 ||7794.com^$third-party
 ||77go.com^$third-party
 ||7stk.com^$third-party
 ||8le8le.com^$third-party
-||91adv.com^$third-party
 ||91ivr.com^$third-party
 ||91wan.com^$third-party
 ||991go.com^$third-party
 ||999d.com^$third-party
 ||9v.cn/code/$third-party
-||9vcpm.cn^$third-party
-||9vcpp.cn^$third-party
-v.9vcpc.cn^$third-party
 ||9wad.com^$third-party
 ||9wee.com^$third-party
 ||acs86.com^$third-party
@@ -1384,12 +1359,9 @@ v.9vcpc.cn^$third-party
 ||click.com^$third-party
 ||cnxad.com^$third-party
 ||cocoren.com^$third-party
-||cpm9v.cn^$third-party
 ||cpmadworld.com^$third-party
-||cpp9v.cn^$third-party
 ||cpvm.net^$third-party
 ||crazymike.tw^$third-party
-||cs01.csyouxi.com^$third-party
 ||daoyoudao.com^$third-party
 ||dmclick.cn^$third-party
 ||doubleadv.com^$third-party
@@ -1405,7 +1377,6 @@ tg.feixue.com^$third-party
 ||gamediad.com^$third-party
 ||games32.cn^$third-party
 ||gcuj.com^$third-party
-||ginkgotek.com^$third-party
 ||gocsgo.com^$third-party
 un.so.gougou.com^$third-party
 ||guobie.com^$third-party
@@ -1438,7 +1409,6 @@ u.juyouxi.com^$third-party
 ||koowo.com^$third-party
 ||kucent.com^$third-party
 ||love12.tw^$third-party
-||manyan.net^$third-party
 ||mediav.com^$script
 ||molidao.com^$third-party
 ||myad.cn/$third-party
@@ -1467,6 +1437,7 @@ qd.code.qihoo.com^$third-party
 ||skycn.org.cn^$third-party
 ||star8.net^$third-party
 ||tazhao.com^$third-party
+||tuigoo.com^$third-party
 ||txjy2008.com^$third-party
 ||u17.com/$third-party
 ||ubcpm.com^$third-party
@@ -1478,21 +1449,18 @@ qd.code.qihoo.com^$third-party
 ||unionli.com^$third-party
 ||uucall.com^$third-party
 ||urlad.com.tw^$third-party
-||usep.cn^$third-party
 ||v-links.net^$third-party
 ||vjia.com^$third-party
 ||wauee.com^$third-party
 ||web933.com^$third-party
 ||wyunion.com^$third-party
 ||gouwu.vip.xunlei.com^$third-party
-||y488.com^$third-party
 ||yigao.com^$third-party
 ||yiqifa.com^$third-party
 ||yiqiwin.com^$third-party
 ||yoyi.tv/$third-party
 ||yunyu120.com^$third-party
 ||zhanzhangle.com^$third-party
-||utops.cc^$third-party
 ||xixianad.com^$third-party
 ||js.zdy.cc^$third-party
 
@@ -1562,7 +1530,7 @@ n/count.
 /hiido.js
 /ktrace/ktrace$script
 /usertrack.
-||114la.com^
+||114la.com^$third-party
 51img.ajiang.net^
 ||blog104.com^$third-party
 ||blogtw.net^$third-party
@@ -1621,6 +1589,5 @@ zaobao.com###myMovie
 video.ofeva.com/wp-content/themes/firebug/images/shop2.gif
 photo.minwt.com/img/Content/other/mybook/
 fu2.sdo.com/52/52/1011/9/34/7406_2382034.jpg
-js.tuigoo.com/AShow.aspx^
 login.yahoo.net/login_superads/
 !------------------------End of List-------------------------
