@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: xaAqjQMhfEg7Rqsb/yL3QQ
+!  Checksum: Gle7Knx+UeKxf+RZ/sDylg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 29 Dec 2010 10:59:49 +0800
+!  Last Modified:  Wed, 29 Dec 2010 15:35:11 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -179,10 +179,6 @@ news.china.com###EndPageRollText
 tech.china.com##[class^="ad"]
 www.china.com##.fullClmAT
 www.china.com##.homeheadAT
-
-!---中国供应商
-pvstat.china.cn/statpv.js
-china.cn##.rowLAd
 
 !---ChinaZ
 ||chinaz.com/js/text_link.js
@@ -406,12 +402,6 @@ v.ku6.com##.flwin.flwin_min
 ||libertytimes.com.tw/IService2/AdLinkList.php
 ||libertytimes.com.tw/js/ajs/
 
-!---梦卜网
-||dulei.si/files/daa84079f51e309fea29e1339cc8a047.gif
-||luo.bo/pages/
-luo.bo##[class^="gg_single"]
-||xcbxj.cn/tg/xcbxweb300_250.gif
-
 !---驱动之家
 @@11.mydrivers.com/news/commv2.js
 ||11.mydrivers.com^
@@ -515,7 +505,6 @@ qidian.com###AddMark
 qidian.com##[class^="gg"]
 
 !---糗百
-images.okjee.com/pro/qiushi.gif
 ||qiushibaike.com/ac/
 qiushibaike.com##.ad>div
 
@@ -1005,6 +994,8 @@ img.autohome.com.cn/pvpv$script
 ||backchina.com/banners/
 imgs.ccw.com.cn/200*/$image,object
 imgs.ccw.com.cn/ccw/1.htm
+pvstat.china.cn/statpv.js
+china.cn##.rowLAd
 ||chinaitlab.com/gmail/$image,script
 */fileftp/$object,domain=chinanews.com.cn|chinanews.com
 ||chinanews.com.cn/ad
@@ -1099,14 +1090,9 @@ img.1ting.com/v5/js/*text.js
 ||bilibili.us/arcgg2.js
 ||bilibili.us/ad-images/
 /provider2.ashx
-client.joy.cn/flvplayer/login_player.swf
 ||pro.letv.com^
-||m.openv.tv^
-cnt.openv.com/apis/vmis.php
 ||pipi.cn/player/
-pipi.cn##div#movie_tab_1+div[style]
 ||pps.tv/js_a2d/
-pp2.pptv.com^
 ||atm.youku.com^$~script
 ||youmaker.com/logoad2.jpg
 ||youmaker.com/edoors200708180-150.swf
@@ -1389,6 +1375,7 @@ s.hagou.com^$third-party
 ||hiad.myweb.hinet.net^
 ||hoyiad.com^$third-party
 ||huoli.com^$third-party
+||i-qianming.cn^$third-party
 ||icast.cn^$third-party
 u.*.iciba.com^$third-party
 ||ifocus.cn^$third-party

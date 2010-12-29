@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: KLpdH/VewPFVItPL94c0AA
+!  Checksum: VhxAXgz8FW6GvGvxRjAVww
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 29 Dec 2010 10:59:49 +0800
+!  Last Modified:  Wed, 29 Dec 2010 15:35:11 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -179,10 +179,6 @@ news.china.com###EndPageRollText
 tech.china.com##[class^="ad"]
 www.china.com##.fullClmAT
 www.china.com##.homeheadAT
-
-!---中国供应商
-pvstat.china.cn/statpv.js
-china.cn##.rowLAd
 
 !---ChinaZ
 ||chinaz.com/js/text_link.js
@@ -406,12 +402,6 @@ v.ku6.com##.flwin.flwin_min
 ||libertytimes.com.tw/IService2/AdLinkList.php
 ||libertytimes.com.tw/js/ajs/
 
-!---梦卜网
-||dulei.si/files/daa84079f51e309fea29e1339cc8a047.gif
-||luo.bo/pages/
-luo.bo##[class^="gg_single"]
-||xcbxj.cn/tg/xcbxweb300_250.gif
-
 !---驱动之家
 @@11.mydrivers.com/news/commv2.js
 ||11.mydrivers.com^
@@ -515,7 +505,6 @@ qidian.com###AddMark
 qidian.com##[class^="gg"]
 
 !---糗百
-images.okjee.com/pro/qiushi.gif
 ||qiushibaike.com/ac/
 qiushibaike.com##.ad>div
 
@@ -1005,6 +994,8 @@ img.autohome.com.cn/pvpv$script
 ||backchina.com/banners/
 imgs.ccw.com.cn/200*/$image,object
 imgs.ccw.com.cn/ccw/1.htm
+pvstat.china.cn/statpv.js
+china.cn##.rowLAd
 ||chinaitlab.com/gmail/$image,script
 */fileftp/$object,domain=chinanews.com.cn|chinanews.com
 ||chinanews.com.cn/ad
@@ -1099,14 +1090,9 @@ img.1ting.com/v5/js/*text.js
 ||bilibili.us/arcgg2.js
 ||bilibili.us/ad-images/
 /provider2.ashx
-client.joy.cn/flvplayer/login_player.swf
 ||pro.letv.com^
-||m.openv.tv^
-cnt.openv.com/apis/vmis.php
 ||pipi.cn/player/
-pipi.cn##div#movie_tab_1+div[style]
 ||pps.tv/js_a2d/
-pp2.pptv.com^
 ||atm.youku.com^$~script
 ||youmaker.com/logoad2.jpg
 ||youmaker.com/edoors200708180-150.swf
@@ -1389,6 +1375,7 @@ s.hagou.com^$third-party
 ||hiad.myweb.hinet.net^
 ||hoyiad.com^$third-party
 ||huoli.com^$third-party
+||i-qianming.cn^$third-party
 ||icast.cn^$third-party
 u.*.iciba.com^$third-party
 ||ifocus.cn^$third-party
@@ -2195,6 +2182,7 @@ login.yahoo.net/login_superads/
 /advert/*
 /advert?
 /advert_
+/advertise125x125.
 /advertise-
 /advertise.
 /advertise/*
@@ -2543,6 +2531,7 @@ login.yahoo.net/login_superads/
 /googleads2.
 /googleads3widetext.
 /googleads_
+/googleadsafc_
 /googleadsafs_
 /googleadsense.
 /googleafs.
@@ -3453,6 +3442,7 @@ _768x90_
 ###HomeAd1
 ###HouseAd
 ###ID_Ad_Sky
+###JobsearchResultsAds
 ###Journal_Ad_125
 ###Journal_Ad_300
 ###KH-contentAd
@@ -4080,7 +4070,7 @@ _768x90_
 ###advertise-now
 ###advertise1
 ###advertiseHere
-~ping-timeout.de###advertisement
+~4players.de,~ping-timeout.de###advertisement
 ###advertisement160x600
 ###advertisement728x90
 ###advertisementLigatus
@@ -4514,6 +4504,7 @@ _768x90_
 ###home_ad
 ###home_bottom_ad
 ###home_contentad
+###home_feature_ad
 ###home_mpu
 ###home_spensoredlinks
 ###homepage-ad
@@ -4962,6 +4953,7 @@ _768x90_
 ###themis-ads
 ###tile-ad
 ###tmglBannerAd
+###toolbarSlideUpAd
 ###top-ad
 ###top-ad-container
 ###top-ad-menu
@@ -5011,6 +5003,8 @@ _768x90_
 ###toprightad
 ###topsponsored
 ###toptextad
+###tour300Ad
+###tourSponsoredLinksContainer
 ###towerad
 ###ttp_ad_slot1
 ###ttp_ad_slot2
@@ -5061,6 +5055,7 @@ _768x90_
 ###yahooSponsored
 ###yahoo_ads
 ###yahoo_ads_2010
+###yahoo_text_ad
 ###yahooad-tbl
 ###yan-sponsored
 ###yatadsky
@@ -5326,6 +5321,7 @@ _768x90_
 ~russiantimes.com##.ad1
 ##.ad10
 ##.ad120
+##.ad120x240backgroundGray
 ##.ad120x600
 ##.ad125
 ##.ad160
@@ -6247,6 +6243,7 @@ _768x90_
 ##.gameAd
 ##.gamesPage_ad_content
 ##.gbl_advertisement
+##.gen_side_ad
 ##.gglAds
 ##.global_banner_ad
 ##.googad
@@ -6938,6 +6935,7 @@ _768x90_
 ##.topic_inad
 ##.topstoriesad
 ##.toptenAdBoxA
+##.tourFeatureAd
 ##.towerAd
 ##.towerAdLeft
 ##.towerAds
@@ -7472,7 +7470,6 @@ _768x90_
 ||hypervre.com^$third-party
 ||ibatom.com^$third-party
 ||icdirect.com^$third-party
-||imagesatlantic.com^$third-party
 ||imedia.co.il^$third-party
 ||imglt.com^$third-party
 ||imho.ru/$third-party
@@ -7672,6 +7669,7 @@ _768x90_
 ||revenuemantra.com^$third-party
 ||revfusion.net^$third-party
 ||revresda.com^$third-party
+||rewardsaffiliates.com^$third-party
 ||ricead.com^$third-party
 ||ringtonematcher.com^$third-party
 ||rmxads.com^$third-party
@@ -7875,10 +7873,12 @@ _768x90_
 ||adultfriendfinder.com/banners/$third-party
 ||adultfriendfinder.com/go/page/js_im_box?$third-party
 ||advanced-intelligence.com/banner
+||affeurope.com/banners/
 ||affil.mupromo.com^
 ||affiliate.astraweb.com^
 ||affiliate.moveandstay.com^$third-party
 ||affiliates.a2hosting.com^
+||affiliates.betwize.com^
 ||affiliates.bhphotovideo.com^
 ||affiliates.bravenet.com^
 ||affiliates.generatorsoftware.com^
@@ -7935,6 +7935,7 @@ _768x90_
 ||cash.neweramediaworks.com^
 ||cashmakingpowersites.com^*/banners/
 ||cashmyvideo.com/images/cashmyvideo_banner.gif
+||casinotropez.com/promodisplay?
 ||cazoz.com/banner.php
 ||cbanners.virtuagirlhd.com^$third-party
 ||cdn.sweeva.com/images/$third-party
@@ -7976,6 +7977,9 @@ _768x90_
 ||gamersaloon.com/images/banners/
 ||gamestop.com^*/aflbanners/
 ||gawkerassets.com/assets/marquee/$object,third-party
+||get.box24casino.com^$third-party
+||get.rubyroyal.com^$third-party
+||get.slotocash.com^$third-party
 ||gfxa.sheetmusicplus.com^$third-party
 ||ggmania.com^*.jpg$third-party
 ||giganews.com/banners/$third-party
@@ -8160,6 +8164,7 @@ _768x90_
 ||174.143.241.129^$domain=astalavista.com
 ||1up.com^*/promos/
 ||216.151.186.5^*/serve.php?$domain=sendspace.com
+||3dwallpaperstudio.com/hd_wallpapers.png
 ||4chan.org/support/
 ||5min.com^*/banners/
 ||77.247.178.36/layer/$domain=movie2k.com|movie2k.to
@@ -8188,6 +8193,7 @@ _768x90_
 ||adshare.freedocast.com^
 ||adv.letitbit.net^
 ||advt.manoramaonline.com^
+||affiliatesynergy.com^*/banner_
 ||akinator.com/publicite_
 ||akipress.com/_ban/
 ||akipress.org/ban/
@@ -8611,6 +8617,7 @@ _768x90_
 ||pcpro.co.uk^*skin_wide.
 ||pcworld.idg.com.au/files/skins/
 ||pettube.com/images/*-partner.
+||pgatour.com^*/featurebillboard_
 ||phobos.apple.com^$object_subrequest,domain=dailymotion.com
 ||photoshopguides.com/banners/
 ||photosupload.net/photosupload.js
@@ -8650,6 +8657,7 @@ _768x90_
 ||punksbusted.com^*/clanwarz-portal.jpg
 ||qrz.com/pix/*.gif
 ||querverweis.net/pu.js
+||qualityhealth.com^*/banner.jsp?
 ||quickload.to^*/layer.divx.js
 ||quickload.to^*/note.divx.js
 ||quickload.to^*/note.js
@@ -8733,6 +8741,7 @@ _768x90_
 ||telegraphindia.com^*/hoabanner.
 ||tentonhammer.com^*/takeovers/
 ||theaquarian.com^*/banners/
+||theboxotruth.com/banners/
 ||thecorrsmisc.com/10feet_banner.gif
 ||thecorrsmisc.com/brokenthread.jpg
 ||thecorrsmisc.com/msb_banner.jpg
@@ -9021,6 +9030,7 @@ bigblueball.com###text-384255551
 bigdownload.com##.quigo
 bigpond.com###header_banner
 bikeradar.com###shopping_partner_box_fat
+binaryturf.com###feature_gad
 bingo-hunter.com##img[width="250"][height="250"]
 birminghampost.net##.promotop
 bit-tech.net##div[style="width: 728px; height: 90px;"]
@@ -9837,6 +9847,8 @@ itworld.com###more_resources
 itworld.com###partner_strip
 iwebtool.com##table[cellspacing="0"][cellpadding="0"][border="1"]
 ixquick.com##td[bgcolor="#f7f9ff"]
+j-14.com###leaderboard
+j-14.com###med_rectangle
 jacarandafm.com###thebug
 jacarandafm.com##.block_120x600
 jakeludington.com###ablock
@@ -9867,6 +9879,7 @@ jeuxvideo-flash.com###pub_header
 jewtube.com###adv
 jewtube.com##div[style="display: block; width: 468px; height: 60px; padding: 5px; border: 1px solid rgb(221, 221, 221); text-align: left;"]
 jezebel.com###skyscraper
+jigzone.com###ad
 joe.ie###topbanner
 johnbridge.com###header_right_cell
 johnbridge.com##td[valign="top"] > table.tborder[width="140"][cellspacing="1"][cellpadding="6"][border="0"]
@@ -10776,6 +10789,7 @@ sunderlandecho.com###banner01
 sunshinecoastdaily.com.au###localOffers
 supernovatube.com##a[href^="http://preview.licenseacquisition.org/"]
 superpages.com##.sponsreulst
+surfwap.com##.ahblock2
 swamppolitics.com###leaderboard
 switched.com###topleader-wrap
 switched.com##.medrect
@@ -10847,6 +10861,11 @@ theaa.com###unanimis1
 theage.com.au##.ad
 thebizzare.com##.adblock
 theblemish.com###header-b
+theboxotruth.com##table[height="252"][bgcolor="#ffffff"][width="748"]
+theboxotruth.com##table[height="33"][bgcolor="#ffffff"][width="760"]
+theboxotruth.com##table[height="90"][width="748"]
+theboxotruth.com##table[width="162"]
+theboxotruth.com##td[bgcolor="#ffffff"][width="302"]
 thecelebritycafe.com##table[width="135"][height="240"]
 thecourier.co.uk###sidebarMiddleCol
 theeagle.com##.SectionRightRail300x600Box
@@ -11151,6 +11170,7 @@ wheels24.co.za###ctl00_ctl00_MainContentPlaceHolder_Column2PlaceHolder_rightColu
 wheels24.co.za###ctl00_ctl00_NavigationPlaceHolder_F1Header_f1HeaderFeaturedArticles_repHeaderBarFeatured_ctl00_featureArticleDiv
 wheels24.co.za###ctl00_ctl00_NavigationPlaceHolder_F1Header_f1HeaderFeaturedArticles_repHeaderBarFeatured_ctl01_featureArticleDiv
 whistlestopper.com##td[align="left"][width="160"][valign="top"]
+whptv.com##.LinksWeLike
 widescreengamingforum.com###banner-content
 wikia.com###HOME_LEFT_SKYSCRAPER_1
 wikia.com###HOME_TOP_LEADERBOARD
@@ -11674,6 +11694,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||theteacherscorner.net/adlayer/$script
 @@||tpmrpg.net/adframe.js
 @@||visualprosthesis.com^$image,script,domain=artificialvision.com|metamodal.com|seeingwithsound.com
+@@||zoomin.tv/adhandler/amalia.adm?$object_subrequest
 @@||zshare.net/ads.js?*&ad_url=/adbanner
 !Non-English
 @@||24ur.com/adserver/adall.php?*&video_on_page=1
