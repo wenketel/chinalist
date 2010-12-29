@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: rhgKm8ogG/FjuVNYSbeRnw
+!  Checksum: KLpdH/VewPFVItPL94c0AA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 28 Dec 2010 16:39:15 +0800
+!  Last Modified:  Wed, 29 Dec 2010 10:59:49 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -1297,6 +1297,7 @@ www.2bj.cn^$third-party
 ||365tc.com^$third-party
 ||37cs.com^$third-party
 ||37dz.com^$third-party
+||37see.com^$third-party
 ||3gpz.net^$third-party
 ||50bang.org^$third-party
 ||51link.com^$third-party
@@ -1391,14 +1392,15 @@ s.hagou.com^$third-party
 ||icast.cn^$third-party
 u.*.iciba.com^$third-party
 ||ifocus.cn^$third-party
+||imop.com^$third-party
+||insenz.com^$third-party
 ||itop247.com^$third-party
 ||itopnetworks.com^$third-party
 ||itsun.com^$third-party
-||insenz.com^$third-party
 .izo.cn/$third-party
 ||jdunion.com^$third-party
-||jinniu168.com^$third-party
 ||jingpi.net^$third-party
+||jinniu168.com^$third-party
 ||juandou.com^$third-party
 ||jujii.cn^$third-party
 u.juyouxi.com^$third-party
@@ -11769,9 +11771,12 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 /csi?v=*&action=
 /dcs.gif?
 /demandbase.js
+/dotomi_tracking/*
+/dtmtag.js
 /e107_plugins/log/log.php?
 /eae-logger/*
 /edata.js
+/elqcfg-$script
 /elqcfg.js
 /elqimg.js
 /elqnow/*
@@ -11805,6 +11810,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 /iperceptions.js
 /ipixel?spacedesc=
 /iqtm.js
+/getsidpixeltag?sid=
 /istat.aspx?
 /ivwanalytics.swf?
 /ivwbox/*
@@ -11897,6 +11903,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 /vstats/counter.php
 /vtrack.php?
 /webabacus-$script
+/webiq.js
 /webtraxs.js
 /webtrekk.js
 /webtrekk_
@@ -11945,6 +11952,7 @@ _cedexis.php
 ||360tag.net^$third-party
 ||3dlivestats.com^$third-party
 ||3dstats.com^$third-party
+||79.125.117.123^$third-party
 ||77tracking.com^$third-party
 ||7bpeople.com^$third-party
 ||99counters.com^$third-party
@@ -11955,11 +11963,15 @@ _cedexis.php
 ||activemeter.com^$third-party
 ||adadvisor.net^$third-party
 ||adbuyer.com^$third-party
+||adchemy.com^$third-party
 ||addfreestats.com^$third-party
+||adelixir.com^$third-party
 ||ademails.com^$third-party
 ||adgreed.com^$third-party
+||adku.co^$third-party
 ||adnxs.com^$third-party
 ||adsensedetective.com^$third-party
+||adsummos.net^$third-party
 ||affiliserve.com^$third-party
 ||agentinteractive.com^$third-party
 ||alenty.com^$third-party
@@ -12010,6 +12022,7 @@ _cedexis.php
 ||celebros-analytics.com^$third-party
 ||cetrk.com^$third-party
 ||cftrack.com^$third-party
+||chango.com^$third-party
 ||channelintelligence.com^$third-party
 ||chartbeat.com^$third-party
 ||chartbeat.net^$third-party
@@ -12027,6 +12040,7 @@ _cedexis.php
 ||clickdensity.com^$third-party
 ||clickequations.net^$third-party
 ||clickforensics.com^$third-party
+||clickmanage.com^$third-party
 ||clickstream.co.za^$third-party
 ||clicktale.net^$third-party
 ||clicktrack1.com^$third-party
@@ -12295,6 +12309,7 @@ _cedexis.php
 ||openclick.com^$third-party
 ||opentracker.net^$third-party
 ||optify.net^$third-party
+||optimizely.com^$third-party
 ||optimost.com^$third-party
 ||oranges88.com^$third-party
 ||overstat.com^$third-party
@@ -12358,6 +12373,7 @@ _cedexis.php
 ||searchfeed.com^$third-party
 ||searchignite.com^$third-party
 ||sedotracker.com^$third-party
+||seewhy.com^$third-party
 ||selaris.com^$third-party
 ||sendtraffic.com^$third-party
 ||serving-sys.com^$third-party
@@ -12445,6 +12461,7 @@ _cedexis.php
 ||turn.com^$third-party
 ||twittercounter.com^$third-party
 ||tynt.com^$third-party
+||u5e.com^$third-party
 ||urlself.com^$third-party
 ||useronlinecounter.com^$third-party
 ||valuedopinions.co.uk^$third-party
@@ -12771,6 +12788,7 @@ _cedexis.php
 ||webmobile.ws^$third-party
 !Japanese
 ||blogranking.net^$third-party
+||e-kaiseki.com^$third-party
 ||research-artisan.com^$third-party
 ||ziyu.net^$third-party
 !Korean
@@ -12859,6 +12877,7 @@ _cedexis.php
 ||4theclueless.com/adlogger/
 ||66.29.38.208/log.jsp?$third-party
 ||99widgets.com/counters/
+||adchemy-content.com^*/tracking.js
 ||addthis.com/at/
 ||addthis.com/live/
 ||addthis.com^*/p.json?*&ref=
@@ -13316,6 +13335,7 @@ _cedexis.php
 ||anp.se/track?
 ||aol.co.uk/track/
 ||aol.com/track/
+||appspot.com/tracking/
 ||arstechnica.com/*.ars$object
 ||arstechnica.com^*/breath.gif?id=
 ||asianblast.com/statx/
@@ -13345,6 +13365,8 @@ _cedexis.php
 ||bing.com/fd/ls/
 ||biosphoto.com^*/stats/
 ||birthvillage.com/watcher/
+||bluenile.ca/track/
+||bluenile.com/track/
 ||bmocorpmc.com^*/zig.js
 ||boston.com/upixel/
 ||branica.com/counter.php?
@@ -13403,6 +13425,7 @@ _cedexis.php
 ||db.com^*/stats.js?
 ||dell.com/metrics/
 ||dftba.com/shop/index.php?action=tracking_script
+||di-ve.com^*/stat2.aspx?
 ||direct.gov.uk^*/nielsenanalytics.js
 ||direct.gov.uk^*/webanalytics3.js
 ||divxden.com^*/tracker.js
@@ -13508,6 +13531,8 @@ _cedexis.php
 ||kksou.com^*/record.php?
 ||kosmix.com^*.txt?pvid=
 ||latimes.com/tracker.js
+||lendingtree.com/forms/eventtracking?
+||lendingtree.com/javascript/tracking.js
 ||linkedin.com/analytics/
 ||livejournal.com^*/pagestats/
 ||liveperson.net/hc/*/?visitor=
@@ -13601,6 +13626,8 @@ _cedexis.php
 ||pricegrabber.com/analytics.php
 ||projop.dnsalias.com/intranet-crm-tracking/
 ||proxypage.msn.com^
+||qualityhealth.com/pixellog.qh?
+||qualityhealth.com^*/pixels.jsp?
 ||rd.meebo.com^
 ||readwriteweb.com/stats.php?
 ||readwriteweb.com^*/stats.php?
@@ -13710,6 +13737,7 @@ _cedexis.php
 ||track.ning.com^
 ||tracker.anandtech.com^
 ||tracker.joost.com^
+||tracker.mattel.com^
 ||tracker.washtimes.com^
 ||tracking.batanga.com^
 ||tracking.military.com^
