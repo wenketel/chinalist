@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: RiO6Dad8ajAQC6gS4cqm2w
+!  Checksum: sQpOHnCtkFB2WSr2+13hXQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 30 Dec 2010 21:02:47 +0800
+!  Last Modified:  Sun, 02 Jan 2011 23:54:02 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -414,6 +414,11 @@ news.mydrivers.com##table[border="0"][width="980"][height="90"]
 !--myfiles
 ||mydrivers.com/myfiles/duilian.js
 ||mydrivers.com/myfiles/myfiles1001.js
+
+!---mysilu&hdroad
+||mysilu.com/data/attachment/common/cf/
+mysilu.com##[class*="a_"]
+mysilu.com##TD[width="33%"][align="center"]
 
 !---msn.com
 news.msn.com.tw^$object
@@ -1573,7 +1578,6 @@ jandan.net##.xy
 www.kswchina.com###banner
 mobile01.com##.forum_articles
 mobile01.com##.textimg
-mysilu.com##[id^="ad_"]
 newsmth.net##table.hot_title>tbody>tr>td[style]
 newsmth.net##table.HotTable>tbody>tr>td.HotTitle>script+a
 price.com.hk##.tb
@@ -2255,6 +2259,7 @@ login.yahoo.net/login_superads/
 /affilatebanner.
 /affiliate/banners/*
 /affiliate/script.php?
+/affiliate/scripts/*
 /affiliate_banners/*
 /affiliate_resources/*
 /affiliate_show_banner.
@@ -3283,6 +3288,7 @@ z/adx.js
 .728x90_
 .com/160_
 .com/728_
+/120x600-
 /125x125_banner.
 /160x600.
 /160x600_
@@ -3348,6 +3354,7 @@ _480x60.
 _480x60/
 _480x60_
 _720x90.
+_728-90.
 _728.gif
 _728.htm
 _728_90.
@@ -3791,6 +3798,7 @@ _768x90_
 ###ad_halfpage
 ###ad_head
 ###ad_header
+###ad_holder
 ###ad_horizontal
 ###ad_horseshoe_left
 ###ad_horseshoe_right
@@ -4754,6 +4762,7 @@ _768x90_
 ###region-top-ad
 ###rh-ad-container
 ###rh_tower_ad
+###rhapsodyAd
 ###rhs_ads
 ###rhsadvert
 ###right-ad
@@ -4994,10 +5003,12 @@ _768x90_
 ###topAdsContainer
 ###topAdvert
 ~neowin.net###topBannerAd
+###topBannerAdContainer
 ###topNavLeaderboardAdHolder
 ###topRightBlockAdSense
 ~morningstar.se###top_ad
 ###top_ad_area
+###top_ad_banner
 ###top_ad_game
 ###top_ad_wrapper
 ###top_ad_zone
@@ -6138,6 +6149,7 @@ _768x90_
 ##.cnn_adspc336cntr
 ##.cnn_adtitle
 ##.column2-ad
+##.columnRightAdvert
 ##.com-ad-server
 ##.comment-advertisement
 ##.comment_ad_box
@@ -7312,6 +7324,7 @@ _768x90_
 ||binlayer.de^$third-party
 ||bittads.com^$third-party
 ||blogads.com^$third-party
+||blueadvertise.com^$third-party
 ||bluestreak.com^$third-party
 ||bmanpn.com^$third-party
 ||bnetworx.com^$third-party
@@ -7412,6 +7425,7 @@ _768x90_
 ||doubleclick.net^$object_subrequest,third-party,domain=addictinggames.com|atom.com|break.com|businessweek.com|cbs4denver.com|cnbc.com|darkhorizons.com|doubleviking.com|eonline.com|fandango.com|foxbusiness.com|foxnews.com|g4tv.com|joblo.com|kptv.com|mtv.co.uk|mtv.com|mtv.com.au|mtv.com.nz|mtvbase.com|mtvmusic.com|myfoxorlando.com|myfoxphoenix.com|newsweek.com|nick.com|nintendoeverything.com|pandora.com|play.it|ps3news.com|rte.ie|sbsun.com|sevenload.com|shockwave.com|southpark.nl|space.com|spike.com|syfy.com|thedailygreen.com|thedailyshow.com|thewire.com|ustream.tv|washingtonpost.com|wcbstv.com|wired.com|wkbw.com|wwe.com|youtube.com|zoomin.tv
 ||doubleclick.net^$~object_subrequest,third-party
 ||doubleclick.net^*;sz=$object_subrequest,third-party,domain=10news.com|1up.com|breitbart.tv|cbc.ca|digitaltrends.com|fox5sandiego.com|france24.com|gamesradar.com|gametrailers.com|heavy.com|muzu.tv|myfoxny.com|myspace.com|nbc.com|nbcsandiego.com|nhl.com|rapbasement.com|wptv.com|wsj.com
+||doublepimp.com^$third-party
 ||dpbolvw.net^$third-party
 ||dt00.net^$domain=~marketgid.com|~mgid.com|~thechive.com
 ||dt07.net^$domain=~marketgid.com|~mgid.com|~thechive.com
@@ -8065,6 +8079,7 @@ _768x90_
 ||metaboli.fr^*/adgude_$third-party
 ||mfeed.newzfind.com^$third-party
 ||missnowmrs.com/images/banners/
+||mmo4rpg.com^*.gif|$third-party
 ||mto.mediatakeout.com^$third-party
 ||my-dirty-hobby.com/getmdhlink.$third-party
 ||mydirtyhobby.com/?sub=$third-party
@@ -8109,6 +8124,7 @@ _768x90_
 ||promote.pair.com^
 ||proxies2u.com/images/btn/$third-party
 ||proxyroll.com/proxybanner.php
+||pub.aujourdhui.com^$third-party
 ||pub.betclick.com^
 ||pubs.hiddennetwork.com^
 ||qiksilver.net^*/banners/
@@ -8140,6 +8156,7 @@ _768x90_
 ||stats.sitesuite.org^
 ||stockroom.com/banners/
 ||storage.to/affiliate/
+||streamate.com/exports/*?$subdocument,third-party
 ||supply.upjers.com^$third-party
 ||sweed.to/affiliates/
 ||sweeva.com/widget.php?w=$third-party
@@ -8453,6 +8470,7 @@ _768x90_
 ||guitaretab.com^*/ringtones_overlay.js
 ||gumtree.com^*/dart_wrapper_
 ||gwinnettdailypost.com/1.iframe.asp?
+||hd-bb.org^*/dl4fbanner.gif
 ||hdtvtest.co.uk^*/pricerunner.php
 ||helsinkitimes.fi^*/banners/
 ||holyfragger.com/images/skins/
@@ -8685,6 +8703,7 @@ _768x90_
 ||ps3news.com^*/lightake.gif
 ||ps3news.com^*/mod-chip.png
 ||ps3news.com^*/ps3break_top.jpg
+||psgroove.com/images/*.jpg|
 ||psx-scene.com^*/cyb_banners/
 ||psx-scene.com^*/sponsors/
 ||punksbusted.com/images/ventrilo/
@@ -8776,6 +8795,7 @@ _768x90_
 ||telegraphindia.com^*/banners/
 ||telegraphindia.com^*/hoabanner.
 ||tentonhammer.com^*/takeovers/
+||the-numbers.com^*/allposters/
 ||theaquarian.com^*/banners/
 ||theboxotruth.com/banners/
 ||thecorrsmisc.com/10feet_banner.gif
@@ -9063,6 +9083,7 @@ belfasttelegraph.co.uk##table[width="300"][height="250"][cellspacing="0"][cellpa
 bellinghamherald.com###mastBanner
 bestbuy.com###dart-container-728x90
 betterpropaganda.com##div[style="width: 848px; height: 91px; margin: 0pt; position: relative;"]
+bgames.com##.newAdvSec
 bigblueball.com###text-384255551
 bigdownload.com##.quigo
 bigpond.com###header_banner
@@ -9390,6 +9411,7 @@ dotsauce.com###leadsponsor
 dotsauce.com##.onetwentyfive
 dotsauce.com##img[width="260"][height="260"]
 downforeveryoneorjustme.com###container > .domain + p + br + center:last-child
+downforeveryoneorjustme.com###container > center:last-child > br:first-child + a:last-child
 downloadhelper.net##.banner-468x60
 downloadhelper.net##a[href^="/liutilities.php"]
 downloadsquad.com###newjobs-module
@@ -10514,6 +10536,7 @@ picapp.com##.ipad_728_90
 ping.eu##td[height="9"][bgcolor="white"][style="padding: 10px 25px 0px;"]
 pingtest.net##.ad
 pitchero.com###clubSponsor
+pixhost.org##a[href^="http://www.mydownloader.net/pr/"]
 planetxbox360.com###rightCol3gameHome
 planetxbox360.com##div[style="margin: 0px 0pt; padding: 2px; width: 300px; height: 250px;"]
 planetxbox360.com##td#rightCol1[align="right"][valign="top"]
@@ -10839,6 +10862,7 @@ sydneyfc.com##.promotion_wrapper
 sydneyolympicfc.com###horiz_image_rotation
 sys-con.com###elementDiv
 sys-con.com##td[width="180"][valign="top"][rowspan="3"]
+sythe.org##table[cellpadding="0"][align="center"][style="width: 1220px;"]
 talkingpointsmemo.com##.seventwentyeight
 talkxbox.com###features-sub
 tarot.com###leaderboardOuter
@@ -10897,6 +10921,7 @@ tfportal.net###snt_wrapper
 tgdaily.com###right-banner
 thatvideogameblog.com##table[width="310"][height="260"]
 thatvideosite.com##div[style="padding-bottom: 15px; height: 250px;"]
+the-numbers.com##a[href^="http://affiliates.allposters.com/"]
 the217.com###textpromo
 theaa.com###unanimis1
 theage.com.au##.ad
@@ -11913,7 +11938,6 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 /ntrack.asp?
 /oas_analytics.js
 /omnidiggthis|
-/omnitureactionsource.swf
 /omnitureanalytics.swf?
 /onestat.js
 /opinionlab.js
