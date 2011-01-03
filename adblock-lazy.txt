@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: WEAfClIqouzHnjXeVlOV8g
+!  Checksum: S+WNOve+ZsBy+DIC5bvV/g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 03 Jan 2011 00:14:14 +0800
+!  Last Modified:  Mon, 03 Jan 2011 17:40:25 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -1197,6 +1197,7 @@ www.nokiabbs.com/wk_ad/
 ||pdafans.com/images/banner/
 a-m-s.poco.cn^
 sub.powerapple.com^
+||pp2.pptv.com^
 ||ptfish.com/08html/
 ||ptfish.com/cmcc/
 ||qdcars.com/fla/$object,image
@@ -2341,6 +2342,7 @@ login.yahoo.net/login_superads/
 /banners/promo/*
 /banners_rotation.
 /bannerscript/*
+/bannerserve/wzforum.php?$script
 /bannerserver/*
 /bannersyndication.
 /bannerview.*?
@@ -2350,6 +2352,7 @@ login.yahoo.net/login_superads/
 /basic/ad/*
 /behaviorads/*
 /beta-ad.
+/betrad.js
 /bg-ad.jpg|
 /bg/ads/*
 /bg_ads_
@@ -3577,11 +3580,13 @@ _768x90_
 ###ad-righttop
 ###ad-row
 ###ad-side-text
+###ad-sidebar
 ###ad-sky
 ###ad-skyscraper
 ###ad-slug-wrapper
 ###ad-small-banner
 ###ad-space
+###ad-special
 ###ad-splash
 ###ad-sponsors
 ###ad-spot
@@ -7182,6 +7187,7 @@ _768x90_
 ||adprs.net^$third-party
 ||adquest3d.com^$third-party
 ||adreadytractions.com^$third-party
+||adresellers.com^$third-party
 ||adrise.de^$third-party
 ||adrocket.com^$third-party
 ||adroll.com^$third-party
@@ -7319,6 +7325,7 @@ _768x90_
 ||bestfindsite.com^$third-party
 ||bestofferdirect.com^$third-party
 ||bet365affiliates.com^$third-party
+||betrad.com^$third-party
 ||bfast.com^$third-party
 ||bidvertiser.com^$third-party
 ||biemedia.com^$third-party
@@ -8724,6 +8731,7 @@ _768x90_
 ||rapbasement.com/images/stacy-adams-rs.jpg
 ||readwriteweb.com^*/clouddownloadvmwarepromo.png
 ||readwriteweb.com^*/rwcloudlearnmorebutton.png
+||red.bayimg.net^
 ||rejournal.com/images/banners/
 ||rejournal.com/users/blinks/
 ||rejournal.com^*/images/homepage/
@@ -10594,7 +10602,6 @@ pureoverclock.com###adblock1
 pureoverclock.com###adblock2
 pureoverclock.com###mainbanner
 qj.net###shoppingapi
-qj.net##.square
 quackit.com###rightColumn
 quackit.com##div[style="margin: auto; width: 180px; height: 250px; text-align: center; background: url(\"/pix/ads/ad_zappyhost_search_box_180x250.gif\") no-repeat scroll left top rgb(255, 255, 255);"]
 querverweis.net##.iframe_box
@@ -11199,7 +11206,10 @@ walyou.com##.ad
 warez-files.com##.premium_results
 warezchick.com##div.top > p:last-child
 warezchick.com##img[border="0"]
+warezforum.info##a[href^="http://gorillaserver.net/"]
+warezforum.info##img[width="728"][height="90"]
 warezhaven.org##img[width="468"][height="60"]
+warezlobby.org##img[width="728"][height="90"]
 wareznova.com##img[width="298"][height="53"]
 wareznova.com##img[width="468"]
 wareznova.com##input[value="Download from DLP"]
@@ -11556,7 +11566,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||images.apple.com^*/images/ads_
 @@||img.thedailywtf.com/images/ads/
 @@||img.weather.weatherbug.com^*/stickers/$image,stylesheet
-@@||imgag.com/product/full/el/adaptvadplayer.swf$domain=egreetings.com
+@@||imgag.com^*/adaptvadplayer.swf$domain=egreetings.com
 @@||imwx.com/js/adstwo/adcontroller.js$domain=weather.com
 @@||itv.com^*.adserver.js
 @@||itweb.co.za/banners/en-cdt*.gif
@@ -11630,7 +11640,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||promo2.tubemogul.com/lib/tubemoguldisplaylib.js$domain=comedy.com
 @@||quit.org.au/images/images/ad/
 @@||redir.adap.tv/redir/client/adplayer.swf$domain=cracked.com|egreetings.com|ehow.com|imgag.com|videosift.com|xxlmag.com
-@@||redir.adap.tv/redir/javascript/adaptvadplayer.js$object_subrequest,domain=imgag.com
+@@||redir.adap.tv/redir/javascript/adaptvadplayer.js$object_subrequest,domain=egreetings.com|imgag.com
 @@||redir.adap.tv/redir/plugins/*/adotubeplugin.swf?$domain=stickam.com
 @@||refline.ch^*/advertisement.css
 @@||rosauers.com/locations/ads.html
@@ -12325,7 +12335,6 @@ _cedexis.php
 ||killerwebstats.com^$third-party
 ||kissmetrics.com^$third-party
 ||komtrack.com^$third-party
-||l1v.ly/1hr?$third-party
 ||landingpg.com^$third-party
 ||lead-tracking.biz^$third-party
 ||leadforce1.com^$third-party
@@ -12410,6 +12419,7 @@ _cedexis.php
 ||oranges88.com^$third-party
 ||overstat.com^$third-party
 ||owneriq.net^$third-party
+||p.l1v.ly/$third-party
 ||pa-oa.com^$third-party
 ||pardot.com^$third-party
 ||parklogic.com^$third-party
@@ -13978,7 +13988,6 @@ _cedexis.php
 ||dw-eu.com.com^
 ||dw-world.com/run.js
 ||dw-world.de/run.js
-||dw-world.de/scripts/run.js
 ||ef-magazin.de/adtrk/
 ||elektromobil-dresden.de/tinc?
 ||elitepartner.de/km/tcnt.do?
