@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: H7Lis5IQsXTE82sE5hoZ/Q
+!  Checksum: 4bdi0ZnMf5yahncCGxqrrQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 03 Jan 2011 19:56:25 +0800
+!  Last Modified:  Tue, 04 Jan 2011 14:15:26 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -880,6 +880,7 @@ zol.com.cn##[id^="Float"]
 ||freegroup.org^$subdocument
 ||gordon168.tw/gameflier/
 liveasy.myweb.hinet.net^
+photo.minwt.com/img/ADEvent/
 minwt.com###CoverFlowAd
 image.soft.idv.tw/ad/
 images.steachs.com^$object
@@ -1107,6 +1108,7 @@ img.1ting.com/v5/js/*text.js
 ||pro.letv.com^
 ||pipi.cn/player/
 ||pps.tv/js_a2d/
+||pp2.pptv.com^
 ||atm.youku.com^$~script
 ||youmaker.com/logoad2.jpg
 ||youmaker.com/edoors200708180-150.swf
@@ -1201,7 +1203,6 @@ www.nokiabbs.com/wk_ad/
 ||pdafans.com/images/banner/
 a-m-s.poco.cn^
 sub.powerapple.com^
-||pp2.pptv.com^
 ||ptfish.com/08html/
 ||ptfish.com/cmcc/
 ||qdcars.com/fla/$object,image
@@ -1401,7 +1402,7 @@ s.hagou.com^$third-party
 ||icast.cn^$third-party
 u.*.iciba.com^$third-party
 ||ifocus.cn^$third-party
-||imop.com^$third-party
+||u.imop.com^
 ||insenz.com^$third-party
 ||itop247.com^$third-party
 ||itopnetworks.com^$third-party
@@ -1451,6 +1452,7 @@ qd.code.qihoo.com^$third-party
 ||szvr.com^$third-party
 ||tazhao.com^$third-party
 ||tuigoo.com^$third-party
+||tuike.cn^$third-party
 ||txjy2008.com^$third-party
 ||u17.com/$third-party
 ||ubcpm.com^$third-party
@@ -1600,10 +1602,7 @@ yingkong.net##div[style^="width: 960px;"]+div[align="center"]
 zaobao.com###myMovie
 
 !-----------------------Temporary---------------------------
-!---2010.12
-video.ofeva.com/wp-content/themes/firebug/images/shop2.gif
-photo.minwt.com/img/Content/other/mybook/
-fu2.sdo.com/52/52/1011/9/34/7406_2382034.jpg
+!---2011.1
 login.yahoo.net/login_superads/
 !------------------------End of List-------------------------
 
@@ -2475,6 +2474,9 @@ login.yahoo.net/login_superads/
 /dynamicvideoad?
 /dynanews/ad-
 /dynbanner/flash/*
+/easyads/*
+/easyads.
+/easyadstrack.
 /ebay_ads/*
 /emailads/*
 /emediatead.
@@ -4120,6 +4122,7 @@ _768x90_
 ###advertisementPrio2
 ###advertiser-container
 ###advertiserLinks
+###advertisers
 ~spoofmail.de,~uscbookstore.com###advertising
 ###advertising-banner
 ###advertising-caption
@@ -7654,6 +7657,7 @@ _768x90_
 ||objectservers.com^$third-party
 ||oclus.com^$third-party
 ||offerforge.com^$third-party
+||offerserve.com^$third-party
 ||omg2.com^$third-party
 ||omguk.com^$third-party
 ||onads.com^$third-party
@@ -8286,6 +8290,7 @@ _768x90_
 ||azlyrics.com^*_az.js
 ||b.localpages.com^
 ||b92.net/images/banners/
+||ballreviews.com/banners/
 ||banner.atomicgamer.com^
 ||banner.itweb.co.za^
 ||banners-*.jobstreet.com^
@@ -9083,6 +9088,7 @@ babble.com.au###leaderboard-top
 babble.com.au###medium-rectangle
 babelfish.yahoo.com##.ovt
 babynamegenie.com##.promo
+ballreviews.com###topbowlerwebsite
 bangkokpost.com##.boomboxSize1
 bangkokpost.com##.buzzBoombox
 basketball.com##td[width="530"] + td[width="120"]
@@ -10149,6 +10155,7 @@ mail.yahoo.com###SKY
 mail.yahoo.com###northbanner
 mail.yahoo.com###nwPane
 mail.yahoo.com###slot_LREC
+mailinator.com##a[href="/soget.jsp"]
 majorgeeks.com##.Outlines
 majorgeeks.com##a[href^="http://bit.ly/"]
 majorgeeks.com##a[href^="http://www.pctools.com/registry-mechanic/?ref="]
@@ -11733,6 +11740,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||artificialvision.com^$elemhide,image,script
 @@||arto.com/includes/js/adtech.de/script.axd/adframe.js?
 @@||avforums.com/forums/adframe.js
+@@||ballreviews.com/advertisement.js
 @@||cinshare.com/js/embed.js?*=http://adserving.cpxinteractive.com/?
 @@||cpalead.com/mygateway.php?pub=$script,domain=pspmaniaonline.com|serialnumber.in|spotifyripping.com|stumblehere.com|videodownloadx.com|yourpcmovies.net|youserials.com
 @@||dailykos.com/ads/adblocker.blogads.css
@@ -12257,6 +12265,7 @@ _cedexis.php
 ||free-counter.com^$third-party
 ||free-counters.co.uk^$third-party
 ||free-website-hit-counters.com^$third-party
+||freebloghitcounter.com^$third-party
 ||freecountercode.com^$third-party
 ||freelogs.com^$third-party
 ||freeonlineusers.com^$third-party
