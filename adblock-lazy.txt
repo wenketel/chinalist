@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 4bdi0ZnMf5yahncCGxqrrQ
+!  Checksum: cEusMPYvzzNp2jRazQxRDg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 04 Jan 2011 14:15:26 +0800
+!  Last Modified:  Wed, 05 Jan 2011 09:09:37 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -1097,8 +1097,6 @@ images.xxsy.net/sygg/
 image.j-a-net.jp/
 www.cngadget.cn/ad/
 ||xiankankan.com/widgets/focus/
-!--Google Reader
-google.com##div.item-body>div>div[style="border-top: 1px solid rgb(203, 217, 217); padding-top: 20px; padding-bottom: 10px;"]
 
 !---Video Sites
 img.1ting.com/v5/js/*text.js
@@ -2474,8 +2472,8 @@ login.yahoo.net/login_superads/
 /dynamicvideoad?
 /dynanews/ad-
 /dynbanner/flash/*
-/easyads/*
 /easyads.
+/easyads/*
 /easyadstrack.
 /ebay_ads/*
 /emailads/*
@@ -2714,6 +2712,7 @@ login.yahoo.net/login_superads/
 /mod/adman/*
 /mod_ad/*
 /modalad.
+/modules/ad/*
 /modules/ad_
 /modules/ads/*
 /mpumessage.
@@ -3031,6 +3030,7 @@ login.yahoo.net/login_superads/
 /us-adcentre.
 /valueclick.
 /vclkads.
+/vert728ad.
 /video/ads/*
 /video_ad.
 /video_ad_
@@ -3716,6 +3716,7 @@ _768x90_
 ###adSpace_top
 ###adSpacer
 ###adSpecial
+###adSplotlightEm
 ###adSpot-Leader
 ###adSpot-banner
 ###adSpot-island
@@ -5274,9 +5275,11 @@ _768x90_
 ##.ad-728x90
 ##.ad-728x90-1
 ##.ad-728x90_forum
+##.ad-90x600
 ##.ad-above-header
 ##.ad-adlink-bottom
 ##.ad-adlink-side
+##.ad-area
 ##.ad-background
 ##.ad-banner
 ##.ad-bigsize
@@ -5753,10 +5756,13 @@ _768x90_
 ##.ads-text
 ##.ads-widget
 ##.ads-widget-partner-gallery
+##.ads1_250
 ##.ads160
 ##.ads2
 ##.ads3
 ##.ads300
+##.ads460
+##.ads460_home
 ##.ads468
 ##.ads728
 ##.adsArea
@@ -8303,6 +8309,7 @@ _768x90_
 ||bcdb.com^*/banners.pl?
 ||beingpc.com^*/banners/
 ||belfasttelegraph.co.uk/editorial/web/survey/recruit-div-img.js
+||bernama.com^*/jpgrotator.swf
 ||bigpoint.com/xml/recommender.swf?
 ||bigpond.com/home/skin_
 ||bit-tech.net/images/backgrounds/skin/
@@ -8474,6 +8481,7 @@ _768x90_
 ||gamecopyworld.com*/!
 ||gamemakerblog.com/gma/gatob.php
 ||gameplanet.co.nz^*-takeover.jpg
+||gamesforwork.com^*/dropalink_small.gif
 ||gametrailers.com^*/gt6_siteskin_$stylesheet
 ||gbrej.com/c/
 ||geocities.com/js_source/
@@ -8608,6 +8616,7 @@ _768x90_
 ||mani-admin-plugin.com^*/banners/
 ||mccont.com/sda/
 ||mccont.com/takeover/
+||mcnews.com.au/banners/
 ||mcstatic.com^*/billboard_
 ||mcvuk.com/static/banners/
 ||medhelp.org/hserver/
@@ -8679,6 +8688,7 @@ _768x90_
 ||osdir.com/ml/$subdocument
 ||ox.furaffinity.net^
 ||oyetimes.com/join/advertisers.html
+||pan2.ephotozine.com^$image
 ||payplay.fm^*/mastercs.js
 ||pbsrc.com/sponsor/
 ||pbsrc.com^*/sponsor/
@@ -8828,6 +8838,7 @@ _768x90_
 ||theispguide.com/topbanner.asp?
 ||themis-media.com/media/global/images/cskins/
 ||themis.yahoo.com^
+||thenationonlineng.net^*/banners/
 ||thepiratebay.org/img/bar.gif
 ||thestandard.co.zw^*/banners/
 ||thewb.com/thewb/swf/tmz-adblock/
@@ -9324,6 +9335,7 @@ crooksandliars.com###block-clam-7
 crunchgear.com##.ad
 crunchyroll.com##.anime-mrec
 crunchyroll.com##a[href^="http://clk.atdmt.com/"]
+csnews.com##.topBanner
 csschat.com##.tborder[width="100%"] + center
 cubeecraft.com###leaderboard
 cultofmac.com###leaderboard
@@ -9409,6 +9421,7 @@ digitizor.com##td[style="width: 348px;"]
 dir.yahoo.com##td[width="215"]
 discogs.com###div-gpt-Discogs_Release_Top_728x90
 discountvouchers.co.uk##a[rel="nofollow"]
+discovermagazine.com##.advert
 discovery.com##.rectangle
 dishusa.net##div[style="border: 1px dotted rgb(190, 190, 190); background-color: rgb(255, 255, 224); padding: 5px;"]
 dishusa.net##table[style="border: 3px outset rgb(87, 173, 198); font-size: 16px; background-color: rgb(253, 252, 240); margin-bottom: 10px;"]
@@ -9737,6 +9750,7 @@ google.com##.ts[style="margin: 0pt 0pt 12px; height: 92px;"]
 google.com.au##.ts[style="margin: 0pt 0pt 12px; height: 92px;"]
 googletutor.com##div[style="width: 125px; text-align: center;"]
 googlewatch.eweek.com###topBanner
+gourmetretailer.com##.topBanner
 governmentvideo.com##table[width="665"]
 gpsreview.net###lead
 grapevine.is##.ad
@@ -10543,6 +10557,7 @@ perfectlytimedphotos.com##.leaderboard
 perl.com###leaderboard
 perthglory.com.au##.promotion_wrapper
 pettube.com###ca
+pgmeatretailing.com##.topBanner
 phazeddl.com##a[href^="http://www.mydownloader.net/pr/"]
 phazeddl.com##table#searchResult:first-child
 phazemp3.com##a[href^="http://www.mydownloader.net/pr/"]
@@ -10600,6 +10615,7 @@ prisonplanet.com###bottombanners
 prisonplanet.com###efoods
 proaudioreview.com##table[width="665"]
 productreview.com.au##td[width="160"][valign="top"]
+progressivegrocer.com##.topBanner
 projectw.org##a[href^="http://uploading.com/partners/"]
 ps3news.com###bglink
 ps3news.com###sidebar > div > div > table[cellspacing="5px"]:first-child
@@ -10784,6 +10800,7 @@ siliconvalley.com##.lnbbgcolor
 silverlight.net##.banner_header
 simplyassist.co.uk##.std_BottomLine
 simplyhired.com##.featured
+singlestoreowner.com##.topBanner
 siteadvisor.com##.midPageSmallOuterDiv
 sitepoint.com##.industrybrains
 siteseer.ca###banZone
@@ -11014,6 +11031,7 @@ thesuperficial.com###leaderboard
 thetandd.com##.yahoo_content_match
 thevarguy.com###middlebannerwrapper
 thevarguy.com##.squarebanner160x160
+thinkdigit.com##.topPad5[width="164"]
 thisisbath.co.uk###mast-head
 thisisbristol.co.uk###mast-head
 thisisleicestershire.co.uk###mast-head
@@ -11584,6 +11602,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||jobs.wa.gov.au/images/advertimages/
 @@||js.revsci.net/gateway/gw.js?$domain=foxbusiness.com|foxnews.com
 @@||kaufen-ist-toll.de/images/logos/
+@@||keygamesnetwork.com/adserve/request/$object_subrequest,domain=gamesforwork.com
 @@||ksl.com/resources/classifieds/graphics/ad_
 @@||last.fm/ads.php?zone=*listen$subdocument
 @@||lightningcast.net/servlets/getplaylist?*&responsetype=asx&$object
@@ -13543,7 +13562,6 @@ _cedexis.php
 ||crunchyroll.com^*/breadcrumb.js
 ||current.com/tracking.htm?
 ||dailymail.co.uk^*/sophus//logging-code.js
-||data.travelzoo.com^
 ||daum.net^*/dwi.js
 ||db.com^*/stats.js?
 ||dell.com/metrics/
@@ -13872,6 +13890,8 @@ _cedexis.php
 ||tracking.yourfilehost.com^
 ||traffic.buyservices.com^
 ||traktr.news.com.au^
+||travelzoo.com/hit.ashx?
+||travelzoo.com/pagehitpixel.asp?
 ||trax.tvguide.com^
 ||trb.com/clear.gif?
 ||twitter.com/abacus?
