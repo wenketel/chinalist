@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 3YIKANPlQF+cyX/nnf276g
+!  Checksum: 3wzwgr6ntmrPUc/BeCdMlg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 05 Jan 2011 16:31:59 +0800
+!  Last Modified:  Thu, 06 Jan 2011 12:17:21 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -198,6 +198,7 @@ img.cnbeta.com/$object
 @@|http://img.cnbeta.com/newsimg/
 img.cnbeta.com/*340$image
 img.cnbeta.com/*576$image
+img.cnbeta.com/rk3*.gif
 cnbeta.com###comad
 cnbeta.com###fm_r
 cnbeta.com###userInfo
@@ -2662,7 +2663,9 @@ login.yahoo.net/login_superads/
 /jivoxadplayer.
 /jlist-affiliates/*
 /js/ads-
+/js/ads.
 /js/ads/*
+/js/ads2.
 /js/ads_
 /jsadscripts/*
 /jsfiles/ads/*
@@ -3329,6 +3332,7 @@ z/adx.js
 /480x60_
 /600x160_
 /728_90/*
+/728_90_
 /728x79_
 /728x90-
 /728x90.
@@ -3743,6 +3747,7 @@ _768x90_
 ###adText_container
 ###adTile
 ~ran.de###adTop
+###adTopContent
 ###adTopboxright
 ###adTower
 ###adUnit
@@ -4098,6 +4103,7 @@ _768x90_
 ###advert-top
 ###advert1
 ###advertBanner
+###advertContainer
 ###advertDB
 ###advertRight
 ###advert_125x125
@@ -4635,6 +4641,7 @@ _768x90_
 ###linkAds
 ###linkads
 ###live-ad
+###logoAd
 ###longAdSpace
 ###lowerAdvertisementImg
 ###lowerads
@@ -5758,8 +5765,8 @@ _768x90_
 ##.ads-text
 ##.ads-widget
 ##.ads-widget-partner-gallery
-##.ads1_250
 ##.ads160
+##.ads1_250
 ##.ads2
 ##.ads3
 ##.ads300
@@ -7448,7 +7455,7 @@ _768x90_
 ||doubleclick.net/pfadx/*.mtvi$object_subrequest,third-party
 ||doubleclick.net/pfadx/*.sevenload.com_$object_subrequest
 ||doubleclick.net/pfadx/*adcat=$object_subrequest,third-party
-||doubleclick.net^$object_subrequest,third-party,domain=addictinggames.com|atom.com|break.com|businessweek.com|cbs4denver.com|cnbc.com|darkhorizons.com|doubleviking.com|eonline.com|fandango.com|foxbusiness.com|foxnews.com|g4tv.com|joblo.com|kptv.com|mtv.co.uk|mtv.com|mtv.com.au|mtv.com.nz|mtvbase.com|mtvmusic.com|myfoxorlando.com|myfoxphoenix.com|newsweek.com|nick.com|nintendoeverything.com|pandora.com|play.it|ps3news.com|rte.ie|sbsun.com|sevenload.com|shockwave.com|southpark.nl|space.com|spike.com|syfy.com|thedailygreen.com|thedailyshow.com|thewire.com|ustream.tv|washingtonpost.com|wcbstv.com|wired.com|wkbw.com|wwe.com|youtube.com|zoomin.tv
+||doubleclick.net^$object_subrequest,third-party,domain=addictinggames.com|atom.com|break.com|businessweek.com|cbs4denver.com|cnbc.com|darkhorizons.com|doubleviking.com|eonline.com|fandango.com|foxbusiness.com|foxnews.com|g4tv.com|joblo.com|kptv.com|mtv.co.uk|mtv.com|mtv.com.au|mtv.com.nz|mtvbase.com|mtvmusic.com|myfoxorlando.com|myfoxphoenix.com|newsweek.com|nick.com|nintendoeverything.com|pandora.com|play.it|ps3news.com|rte.ie|sbsun.com|sevenload.com|shockwave.com|sk-gaming.com|southpark.nl|space.com|spike.com|syfy.com|thedailygreen.com|thedailyshow.com|thewire.com|ustream.tv|washingtonpost.com|wcbstv.com|wired.com|wkbw.com|wwe.com|youtube.com|zoomin.tv
 ||doubleclick.net^$~object_subrequest,third-party
 ||doubleclick.net^*;sz=$object_subrequest,third-party,domain=10news.com|1up.com|breitbart.tv|cbc.ca|digitaltrends.com|fox5sandiego.com|france24.com|gamesradar.com|gametrailers.com|heavy.com|muzu.tv|myfoxny.com|myspace.com|nbc.com|nbcsandiego.com|nhl.com|rapbasement.com|wptv.com|wsj.com
 ||doublepimp.com^$third-party
@@ -8623,6 +8630,7 @@ _768x90_
 ||mcvuk.com/static/banners/
 ||medhelp.org/hserver/
 ||media.abc.go.com^*/callouts/
+||media.entertainment.sky.com^*-background-image-
 ||media.mtvnservices.com/player/scripts/mtvn_player_control.js$domain=spike.com
 ||mediafire.com^*/linkto/default-$subdocument
 ||mediafire.com^*/remove_ads.gif
@@ -8819,6 +8827,7 @@ _768x90_
 ||supernovatube.com/spark.html
 ||sydneyolympicfc.com/admin/media_manager/media/mm_magic_display/$image
 ||tanzanite.infomine.com^
+||teamliquid.net/tlads/
 ||techexams.net/banners/
 ||techpowerup.com/images/bnnrs/
 ||techradar.com^*/img/*_takeover_
@@ -10246,6 +10255,7 @@ miniclip.com##.letterbox
 minnpost.com##.topleader
 missoulian.com###yahoo-contentmatch
 mlfat4arab.com##img[width="234"][height="60"]
+mmorpg-center.com##div[style="margin-top: 4px; border: 0.1em solid rgb(204, 204, 204); height: 250px;"]
 mmosite.com##.c_gg
 mmosite.com##.mmo_gg
 mmosite.com##.mmo_gg2
@@ -10952,6 +10962,8 @@ telegraph.co.uk##.comPuff
 telegraph.co.uk##a[href^="http://www.telegraph.co.uk/sponsored/"]
 telegraphindia.com##.Caption
 televisionbroadcast.com##table[width="665"]
+teoma.com###bottomPaidList
+teoma.com###topPaidList
 tesco.com###dartLeftSkipper
 tesco.com###dartRightSkipper
 tesco.com##.dart
@@ -11302,6 +11314,7 @@ winsupersite.com###leaderboard
 winsupersite.com##td[style="border-top: 1px none rgb(224, 224, 224); color: rgb(0, 0, 0); font-weight: normal; font-style: normal; font-family: sans-serif; font-size: 8pt; padding-right: 3px; padding-bottom: 3px; padding-top: 3px; text-align: left;"]
 wired.co.uk##.banner-top
 wired.co.uk##.banner1
+wired.co.uk##.leaderboardcontainer
 wired.com###featured
 wirelessforums.org##td[width="160"][valign="top"]
 wisegeek.com##[action="/the-best-schools-for-you.htm"]
@@ -11487,6 +11500,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||adserver.tvcatchup.com/|$object_subrequest
 @@||adserver.yahoo.com/a?*&l=head&$script,domain=yahoo.com
 @@||adserver.yahoo.com/a?*=headr$script,domain=mail.yahoo.com
+@@||adsremote.scrippsnetworks.com/crossdomain.xml$object_subrequest,domain=travelchannel.com
 @@||adswizz.com/www/components/$object_subrequest,domain=motogp.com
 @@||adswizz.com/www/delivery/swfindex.php?reqtype=adssetup&$object_subrequest,domain=motogp.com
 @@||adswizz.com^*/v-2-0.synchroclient2.js$domain=sky.fm
@@ -13270,6 +13284,7 @@ _cedexis.php
 ||webstats.thaindian.com^
 ||webworx24.co.uk/123trace.php
 ||whatismyip.akamai.com^
+||whosread.com/counter/
 ||widgeo.net/compteur.php?
 ||widgeo.net/geocompteur/
 ||widgeo.net/tracking.php?
@@ -13791,7 +13806,6 @@ _cedexis.php
 ||rt.rakuten.co.jp^
 ||runnersworld.com^*/stats/
 ||runnersworld.com^*/universalpixel.html
-||salon.com^*/tracking.js?
 ||satellite-tv-guides.com/stat/
 ||screentoaster.com/tracking?
 ||scribd.com^*/tracker.gif?
