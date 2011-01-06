@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 3wzwgr6ntmrPUc/BeCdMlg
+!  Checksum: +yYHSx6GQ28j0TY4VJBFhQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 06 Jan 2011 12:17:21 +0800
+!  Last Modified:  Thu, 06 Jan 2011 14:44:34 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -246,6 +246,7 @@ dict.cn##div#main_right_right>div:nth-child(5)
 ##.ad_column
 ###ads_c_tpc
 ###ad_headerbanner
+###focus.focus
 ###sitefocus.focus
 ##[id^="ad_thread"]
 
@@ -645,12 +646,6 @@ news.sohu.com##div.left>h2>span
 www.sohu.com###FLOAT2
 www.sohu.com##[id^="COUPLET"]
 
-!---splayer
-news.52pk.com/zt/$domain=splayer.org,subdocument
-||cc.zol.com.cn/splayer/
-||splayer.org/assets/360cn.png
-||splayer.org/assets/petonline_379x97.gif
-
 !---东菀阳光网
 ||sun0769.com/wwwimg/sungg/
 ||sun0769.com/upload/sungg/
@@ -722,13 +717,10 @@ mag.udn.com/html/campus/
 udn.com###warptop
 
 !---VeryCD
-||sponsor.verycd.com^
 ||sp.vcimg.com^
 statics.verycd.com/images/banner/topic_shooter.png
-image-7.verycd.com/8ee011acfe033bb8aca4f020bbe3805211383/thumb.jpg
 verycd.com##iframe.Banner2
 verycd.com##.banner_toped2k
-verycd.com###baidu-cpro-1.banner
 verycd.com###img
 verycd.com###page-body>iframe:first-child
 
@@ -810,10 +802,9 @@ xizi.com##.mt5.recommend
 
 !---XunLei
 biz*.sandai.net
-mtips.xunlei.com/js/kankan/banner_kankan.1.8.js
 misc.web.xunlei.com/kkpv/kkpv.js
+gougou.com##.ggAD
 gougou.com##.ggSideBox
-gougou.com##a[href^="http://click.cm.sandai.net/"]
 
 !---Yahoo
 !--CN
@@ -872,8 +863,7 @@ pic.zol-img.com.cn/$object
 zol.com.cn##.banner760_1
 zol.com.cn##.pic_ad
 zol.com.cn##[id^="AD"]
-zol.com.cn##[id^="Bar"]
-zol.com.cn##[id^="Float"]
+www.zol.com.cn###hq_float
 
 !----------------------------Generic(sort by domain name)--
 !---Blog Sites
