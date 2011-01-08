@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: Hez8MH04JFtts1dgWHtVmQ
+!  Checksum: FBPtQPM4ER9fx82FrXrw+A
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 06 Jan 2011 14:49:00 +0800
+!  Last Modified:  Sat, 08 Jan 2011 11:24:56 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -181,17 +181,16 @@ tech.china.com##[class^="ad"]
 www.china.com##.fullClmAT
 www.china.com##.homeheadAT
 
+!---Chinatimes
+||chinatimes.com/2007Cti/~$xmlhttprequest
+act.chinatimes.com/aimg/
+news.chinatimes.com/2009Cti/*Ads-Right*.shtml
+chinatimes.com##.ad
+
 !---ChinaZ
 ||chinaz.com/js/text_link.js
 down.chinaz.com/other/js/$script
 images.chinaz.com/$subdocument
-
-!---中时电子报
-||chinatimes.com/2007Cti/~$xmlhttprequest
-act.chinatimes.com/aimg/
-news.chinatimes.com/2009Cti*pmotb*.shtml
-news.chinatimes.com/2009Cti/*Ads-Right*.shtml
-chinatimes.com##.ad
 
 !---cnBeta
 img.cnbeta.com/$object
@@ -679,15 +678,9 @@ www.tudou.com###adExtension_baidu
 
 !---udn
 @@video.udn.com/udnad/videoad.php^
-udn.monday.com.tw^$third-party
-||udn.com/1024/AD/
-||udn.com/1024*/BD/
-||udn.com/1024MAIN/inc/ad_set_news.shtml
-||udn.com/1024MAIN/inc/b$subdocument
+||udn.com^*/ad/
+||udn.com^*/bd/
 ||udn.com/adpinline/
-/PROJ_AD/*$domain=udn.com|udnjob.com
-mag.udn.com/html/campus/
-udn.com###warptop
 
 !---VeryCD
 ||sp.vcimg.com^
@@ -784,7 +777,14 @@ gougou.com##.ggSideBox
 ||tanx.com^$third-party
 !--TW
 l.yimg.com/*/a/tw/$~stylesheet
+l.yimg.com/f/i/tw/news/news_banner/
 l.yimg.com/*/tw/ysm/
+tw.yahoo.com###travel
+tw.yahoo.com###ad-pe
+tw.yahoo.com##.admod
+tw.news.yahoo.com###ynwsadk
+tw.news.yahoo.com##[id^="ynwsktw"]
+
 !--HK
 l.yimg.com/*/a/hk/$~stylesheet
 
@@ -1316,10 +1316,11 @@ www.2bj.cn^$third-party
 ||advooe.com^$third-party
 ||besthitsnow.com^$third-party
 ||blcx.com^$third-party
-||bmgad.com^$third-party
 ||blogad.com.tw^$third-party
 ||bloggerads.net^$third-party
 ||blogupp.com^$third-party
+||bmgad.com^$third-party
+tw.content.btnibbler.com^$third-party
 ||unionsys.bolaa.com^$third-party
 ||code.ceyunshi.cn^$third-party
 ||channelray.com^$third-party
@@ -1480,7 +1481,7 @@ qd.code.qihoo.com^$third-party
 .com.tw/ad/
 /html/ad/*
 /image/ad/*
-|http://w*/ad/$domain=~gstatic.com
+|http://w*/ad/$~object_subrequest
 !---adv
 .cn/adv/*
 .com/adv/*
