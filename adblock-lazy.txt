@@ -1,12 +1,13 @@
 [Adblock Plus 1.2]
-!  Checksum: KHUpbXZU5xfxLgO4DuQ2tA
+!  Checksum: vURA0INgSDb7zqzJ/QikLA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 08 Jan 2011 11:40:01 +0800
+!  Last Modified:  Sun, 09 Jan 2011 13:50:28 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
 !----------------------------White List--------------------
 @@||alimama.cn^$stylesheet
+@@||360buy.com^$document
 
 !----------------------------Well-known Sites--------------
 !---网易
@@ -2082,6 +2083,7 @@ zaobao.com###myMovie
 /adservices/*
 /adservice|
 /adserving.
+/adserv|*|adtech;
 /adsfac.
 /adsfetch.
 /adsfile.
@@ -2204,6 +2206,7 @@ zaobao.com###myMovie
 /advertisments/*
 /advertize_
 /advertmedia/*
+/advertorial/*
 /advertorial_
 /advertorials/*
 /advertphp/*
@@ -2252,7 +2255,6 @@ zaobao.com###myMovie
 /ajax/ads/*
 /ajrotator/*
 /ajs.php?
-/annonser/*
 /api/ads/*
 /app/ads.js
 /article_ad.
@@ -2379,6 +2381,7 @@ zaobao.com###myMovie
 /content/ad_
 /content_ad.
 /content_ad_
+/contentad_
 /contentadxxl.
 /contentad|
 /contextad.
@@ -2957,6 +2960,7 @@ zaobao.com###myMovie
 /taxonomy-ads.
 /td_ads/*
 /tdlads/*
+/template/ad.
 /templates/_ads/*
 /templates/ads/*
 /testingad.
@@ -5291,9 +5295,11 @@ _768x90_
 ##.ad-hdr
 ##.ad-head
 ##.ad-header
+##.ad-heading
 ~dublinairport.com##.ad-holder
 ##.ad-homeleaderboard
 ##.ad-img
+##.ad-in-post
 ##.ad-index-main
 ##.ad-island
 ##.ad-label
@@ -5855,6 +5861,7 @@ _768x90_
 ##.adsnippet_widget
 ##.adspace
 ##.adspace-MR
+##.adspace-widget
 ##.adspace180
 ##.adspace_bottom
 ##.adspace_buysell
@@ -7788,7 +7795,7 @@ _768x90_
 ||sportsyndicator.com^$third-party
 ||spotrails.com^$third-party
 ||spottt.com^$third-party
-||spotxchange.com^$third-party,domain=~supernovatube.com
+||spotxchange.com^$third-party
 ||sproose.com^$third-party
 ||srtk.net^$third-party
 ||sta-ads.com^$third-party
@@ -8005,6 +8012,7 @@ _768x90_
 ||creatives.inmotionhosting.com^
 ||creatives.summitconnect.co.uk^
 ||dapatwang.com/images/banner/
+||dart.clearchannel.com^
 ||datakl.com/banner/
 ||desi4m.com/desi4m.gif$third-party
 ||detroitmedia.com/jfry/
@@ -8019,6 +8027,7 @@ _768x90_
 ||fantaz.com^*/banners/$third-party
 ||fapturbo.com/testoid/
 ||farmholidays.is/iframeallfarmsearch.aspx?$third-party
+||fatburningfurnace.com^*/fbf-banner-
 ||feedburner.com/~a/
 ||filedownloader.net/design/$third-party
 ||filesonic.com^*/banners/
@@ -8102,8 +8111,8 @@ _768x90_
 ||mydirtyhobby.com/custom/$third-party
 ||mydirtyhobby.com/getmdhlink.$third-party
 ||mydirtyhobby.com/gpromo/$third-party
-||mydirtyhobby.com/tpc.php?$third-party,subdocument
-||mydirtyhobby.com/track/$third-party,subdocument
+||mydirtyhobby.com/tpc.php?$subdocument,third-party
+||mydirtyhobby.com/track/$subdocument,third-party
 ||mydirtyhobby.com^*.php?*&goto=join$third-party
 ||mydirtyhobby.com^*/gpromo/$third-party
 ||myfreepaysite.info^*.gif$third-party
@@ -8153,6 +8162,7 @@ _768x90_
 ||redvase.bravenet.com^$third-party
 ||regnow.com/vendor/
 ||robofish.com/cgi-bin/banner.cgi?
+||sailthru.com^*/horizon.js
 ||sayswap.com/banners/
 ||searchportal.information.com/?$third-party
 ||secondspin.com/twcontent/
@@ -8666,6 +8676,7 @@ _768x90_
 ||nfl.com^*/page-background-image.jpg
 ||nirsoft.net/banners/
 ||nma-fallout.com^*_banner_120x240.jpg
+||nodevice.com/images/banners/
 ||ntdtv.com^*/adv/
 ||nu2.nu^*/sponsor/
 ||nu2.nu^*_banner.
@@ -8808,7 +8819,6 @@ _768x90_
 ||stuff.tv/client/skinning/
 ||succeed.co.za^*/banner_
 ||suntimes.com^*/banners/
-||supernovatube.com/spark.html
 ||sydneyolympicfc.com/admin/media_manager/media/mm_magic_display/$image
 ||tanzanite.infomine.com^
 ||teamliquid.net/tlads/
@@ -8831,6 +8841,11 @@ _768x90_
 ||theindependent.co.zw^*/banners/
 ||theispguide.com/premiumisp.html
 ||theispguide.com/topbanner.asp?
+||thejesperbay.com/bottom728.html
+||thejesperbay.com/left.html
+||thejesperbay.com/right.html
+||thejesperbay.com/top468.html
+||thejesperbay.com/top728.html
 ||themis-media.com/media/global/images/cskins/
 ||themis.yahoo.com^
 ||thenationonlineng.net^*/banners/
@@ -8941,7 +8956,10 @@ _768x90_
 9news.com##.poster
 9to5mac.com###block-dealmac-0
 9to5mac.com###page-top
+9wsyr.com##.LinksWeLike
 a10.com###gameunderbanner
+abc15.com##.ad
+abc15.com##.vertical-svg
 abc2news.com##.ad
 abc4.com##.LinksWeLike
 abclocal.go.com###bannerTop
@@ -8975,6 +8993,7 @@ akeelwap.net##a[href^="http://click.buzzcity.net/click.php?"]
 akihabaranews.com###bbTop
 akihabaranews.com###recSidebar
 alarabiya.net###side_banner
+alaskadispatch.com###leaderboard
 allakhazam.com###bannerMain
 allakhazam.com###towerRt
 allbusiness.com##.search_results
@@ -10074,6 +10093,9 @@ lifehacker.com###skySpacer
 lifehacker.com###skyscraper
 lifespy.com##.SRR
 lightreading.com##div[align="center"][style="height: 114px;"]
+linkcrypt.ws##a[href^="http://linkcrypt.ws/go/hoster-"]
+linkcrypt.ws##div[style*="width: 470px;"][style*="height: 60px;"][style*="text-align: center;"]
+linkcrypt.ws##tr[onclick*="'hightspeed"]
 linksave.in###wrap > #menue + #menuelinks
 linksave.in###wrap > #menue:first-child
 linksave.in##.text[align="center"] > table[width="513"][cellspacing="0"][cellpadding="0"][border="0"]:last-child
@@ -10317,6 +10339,7 @@ musicsonglyrics.com##td[width="300"][valign="top"]
 muskogeephoenix.com##div[style="height: 240px; width: 350px; background-color: rgb(238, 238, 238);"]
 muzu.tv##.merchandise
 my360.com.au##div[style="height: 250px;"]
+myabc50.com##.LinksWeLike
 myfoxny.com##.marketplace
 myfoxphoenix.com###leaderboard
 myfoxphoenix.com##.marketplace
@@ -10383,6 +10406,7 @@ nevadaappeal.com##.youradhere
 newcastlejets.com.au##.promotion_wrapper
 newgrounds.com##.wide_storepromo
 newgrounds.com##.wide_storepromobot
+news-press.com##.ad
 news.aol.co.uk###tdiv60
 news.aol.co.uk###tdiv71
 news.aol.co.uk###tdiv74
@@ -10405,6 +10429,7 @@ newstalkzb.co.nz##.content-promos
 newstatesman.com###footerbanner
 newsweek.com##.sponsor
 newsweek.com##.sponsorship
+next-gen.biz##.view-featured-job-ad
 nfl.com##.adcontainer
 nicknz.co.nz##.lrec
 nicknz.co.nz##.top-banner
@@ -10890,7 +10915,6 @@ stylelist.com##.partnerPromo
 stylelist.com##div[style="position: relative; border: 1px solid rgb(191, 191, 191); background: none repeat scroll 0% 0% white; width: 424px; display: block;"]
 sunderlandecho.com###banner01
 sunshinecoastdaily.com.au###localOffers
-supernovatube.com##a[href^="http://preview.licenseacquisition.org/"]
 superpages.com##.sponsreulst
 surfwap.com##.ahblock2
 swamppolitics.com###leaderboard
@@ -11335,6 +11359,7 @@ wwtdd.com##.s728x90
 www.google.co.in##table[cellpadding="0"][width="100%"][style^="border: 1px solid"]
 www.google.com##table[cellpadding="0"][width="100%"][style^="border: 1px solid"]
 wxyz.com##.ad
+wxyz.com##.vertical-svg
 wypr.org###leaderboard
 x17online.com##.gorilla
 xbox360rally.com###topbanner
@@ -11625,6 +11650,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||mads.com.com/ads/common/faith/*.xml$object_subrequest
 @@||manoramaonline.com/advt/cricbuzz/
 @@||marines.com/videos/commercials/$object_subrequest
+@@||media-imdb.com^*/js/ads.js$domain=imdb.com
 @@||media.abc.com/streaming/ads/preroll_$object_subrequest,domain=abc.go.com
 @@||media.monster.com/ads/$image,domain=monster.com
 @@||media.newjobs.com/ads/$image,object,domain=monster.com
@@ -11700,8 +11726,10 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||southparkstudios.com/layout/common/js/reporting/mtvi_ads_reporting_config.js
 @@||spotrails.com/crossdomain.xml$object_subrequest
 @@||spotrails.com^*/flowplayeradplayerplugin.swf
-@@||spotxchange.com/flash/adplayer.swf$domain=boxlive.tv
-@@||spotxchange.com/media/videos/flash/ad_player/$domain=boxlive.tv
+@@||spotxchange.com/flash/ad.swf?$domain=directon.tv
+@@||spotxchange.com/flash/adplayer.swf$domain=boxlive.tv|directon.tv
+@@||spotxchange.com/media/videos/flash/ad_player/$domain=boxlive.tv|directon.tv
+@@||spotxchange.com/media/videos/flash/adplayer_$domain=directon.tv
 @@||startxchange.com/textad.php?$xmlhttprequest
 @@||static.2mdn.net^*.xml$object_subrequest,domain=photoradar.com|youtube.com
 @@||static.ak.fbcdn.net^*/ads/$script
@@ -13217,7 +13245,6 @@ _cedexis.php
 ||roitrack.addlvr.com^
 ||royalecms.com/statistics.php?
 ||s.clickability.com^
-||sailthru.com^*/horizon.js
 ||salesforce.com/sfga.js
 ||scripts.psyma.com^
 ||seg.sharethis.com^
@@ -13735,7 +13762,6 @@ _cedexis.php
 ||msn.com/ro.aspx?
 ||msn.com^*/report.js
 ||mstar.com^*/mstartracking/
-||muzu.tv^*&trackcode=
 ||myshopping.com.au/checkstat.asp?
 ||mytravel.co.uk/thomascooktrack.gif?
 ||mywebsearch.com^*/mws_bw.gif?
