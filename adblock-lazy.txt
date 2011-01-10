@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: qvVLUrGyQd7Ryq/oPIs/tA
+!  Checksum: omV26xJAe3TmvAa36A6d6w
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 10 Jan 2011 15:46:09 +0800
+!  Last Modified:  Tue, 11 Jan 2011 01:08:52 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -1295,6 +1295,7 @@ www.2bj.cn^$third-party
 ||991go.com^$third-party
 ||999d.com^$third-party
 ||9v.cn/code/$third-party
+||9vcpc.cn^$third-party
 ||9vcpm.cn^$third-party
 ||9wad.com^$third-party
 ||9wee.com^$third-party
@@ -1422,6 +1423,7 @@ qd.code.qihoo.com^$third-party
 ||star8.net^$third-party
 ||szvr.com^$third-party
 ||tazhao.com^$third-party
+.tjq.com^$third-party
 ||tuigoo.com^$third-party
 ||tuike.cn^$third-party
 ||txjy2008.com^$third-party
@@ -3070,6 +3072,7 @@ zaobao.com###myMovie
 ?file=ads&
 ?getad=&$~object_subrequest
 ?goto=ad|
+?type=ad&
 ?view=ad&
 _140x600_
 _160_ad_
@@ -8195,6 +8198,7 @@ _768x90_
 ||smartclip.net/delivery/tag?
 ||smilepk.com/bnrsbtns/
 ||snapdeal.com^*.php$third-party
+||speedppc.com^*/banners/
 ||splashpagemaker.com/images/$third-party
 ||stats.sitesuite.org^
 ||stockroom.com/banners/
@@ -8234,6 +8238,7 @@ _768x90_
 ||warezhaven.org/warezhavenbann.jpg
 ||watch-naruto.tv/images/$third-party
 ||website.ws^*/banners/
+||williamhill.com/promodisplay?
 ||williamhill.com/promoloaddisplay?
 ||williamhill.com/promoredirect?
 ||williamhillcasino.com/promodisplay?
@@ -8968,6 +8973,8 @@ _768x90_
 123people.co.uk###l_banner
 1911encyclopedia.org##.google_block_style
 2gb-hosting.com##div.info[align="center"]
+360football.co.uk###leftAdd
+360football.co.uk##.headerRight
 4chan.org###ad
 4megaupload.com##table[width="100%"][cellspacing="0"][cellpadding="0"][border="0"][bgcolor="#d8d8d0"]
 4shared.com##.signupbanner
@@ -9121,6 +9128,7 @@ autosport.com##.content[width] td[height="17"][bgcolor="#dcdcdc"]
 autosport.com##td[align="center"][valign="top"][height="266"][bgcolor="#dcdcdc"]
 autotrader.co.uk###placeholderTopLeaderboard
 autotrader.co.uk###topLeaderboardContainer
+autotrader.co.za###top-banner-placeholder
 avantfind.com###right
 avantfind.com##div[style="width: 100%; background-color: rgb(236, 245, 250); height: auto; padding-left: 5px; margin-bottom: 15px;"]
 avaxsearch.com###bottom_block
@@ -9165,6 +9173,7 @@ birminghampost.net##.promotop
 bit-tech.net##div[style="width: 728px; height: 90px;"]
 bittorrent.am##td[height="120"][align="center"][style="background: none repeat scroll 0% 0% rgb(226, 240, 250);"]
 biz.yahoo.com##table[bgcolor="white"][width="100%"]
+bizcommunity.com##a[href*="/Ad/Redirect.aspx?"]
 bizrate.com###banner_top
 bizrate.com###rectangular
 blackberryforums.com##td[align="left"][width="160"][valign="top"]
@@ -9227,6 +9236,7 @@ business.com###railFls
 business.com##.wellFls
 businessdailyafrica.com##.c15r
 businessdictionary.com###topBnr
+businessghana.com##.leaderBoardBorder
 businessinsider.com###FM1
 businessinsurance.com##.StoryInsert
 businesstimes.com.sg##td[bgcolor="#333333"]
@@ -9295,6 +9305,7 @@ citynews.ca###SuperBannerContainer
 citynews.ca##.Box.BigBox
 citypaper.com###topLeaderboard
 citypaper.com##div[style="display: block; width: 980px; height: 120px;"]
+clarets-mad.co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 204); float: left;"]
 classifieds.aol.co.uk###dmn_results
 classifieds.aol.co.uk###dmn_results1
 clevelandgasprices.com##div[style="height: 250px; width: 301px; margin-bottom: 10px;"]
@@ -9375,6 +9386,7 @@ crooksandliars.com###block-clam-7
 crunchgear.com##.ad
 crunchyroll.com##.anime-mrec
 crunchyroll.com##a[href^="http://clk.atdmt.com/"]
+crystalpalace-mad.co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 204); float: left;"]
 csnews.com##.topBanner
 csschat.com##.tborder[width="100%"] + center
 cubeecraft.com###leaderboard
@@ -9562,9 +9574,11 @@ empireonline.com##table[align="center"][width="950"][height="130"]
 empireonline.com##td.smallgrey[width="300"][height="250"]
 engadget.com##.medrect
 engadget.com##.siteswelike
+england-mad.co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 204); float: left;"]
 england.fm###banbo
 englishforum.ch##td[style="width: 160px; padding-left: 15px;"]
 englishforum.ch##td[width="176"][style="padding-left: 15px;"]
+enn.com##.topwrapper
 entrepreneurmag.co.za###header_add_divider
 environmentalgraffiti.com##div[style="width: 300px; height: 250px; overflow: hidden;"]
 eonline.com###franchise
@@ -9589,6 +9603,7 @@ euronews.net###OAS2
 euronews.net##.col-pub-skyscraper
 euronews.net##.google-banner
 europolitics.info##.publicite1
+euroweek.com##.bnr-top
 everyjoe.com##.ad
 eweek.com###Table_01
 eweek.com###hp_special_reports
@@ -9681,6 +9696,7 @@ foodnetwork.co.uk##.right_header_row
 foodnetwork.com##.mrec
 fool.com###promoAndLeaderboard
 footylatest.com###leaderboardspace
+footymad.net###homeMPU
 forbes.com##.fifthN
 forbes.com##.top_banner
 forbes.com##div[style="width: 125px; height: 125px; padding: 20px 20px 20px 25px; float: left;"]
@@ -9712,6 +9728,7 @@ free-tv-video-online.info##a[style="margin-left: auto; font-size: 14px; padding:
 freecodesource.com###banner
 freedict.com##.partners
 freeiconsdownload.com###LeftBanner
+freeonlinegames.com##td[width="50%"][height="250"]
 freestreamtube.com###ad
 freshmeat.net##.banner-imu
 freshmeat.net##.banner1
@@ -9964,6 +9981,7 @@ iomtoday.co.im###banner01
 iphonefaq.org###sideBarsTop
 iphpbb3.com##table[width="728"][height="90"]
 ipmart-forum.com###table1
+ireland-mad.co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 204); float: left;"]
 irishcentral.com###banner
 irishtimes.com###banner-area
 isohunt.com##a[href*="/adclick.php?"]
@@ -10238,6 +10256,9 @@ malaysiastory.com##.box2
 maltonmercury.co.uk###banner01
 mangafox.com##.left[style="width: 930px; padding-bottom: 10px; padding-right: 10px; padding-left: 10px;"]
 mangafox.com##a[href*=".game321.com/"]
+manoramaonline.com##td[width="140"][height="126"]
+manoramaonline.com##td[width="140"][height="168"]
+manoramaonline.com##td[width="160"][height="600"]
 map24.com###cont_m24up
 mapquest.com###offers
 marketingmag.ca###leaderboard_container
@@ -10664,6 +10685,7 @@ post-trib.com###zip2save_link_widget
 powerbot.org##div[style="margin: 0pt auto; padding-bottom: 1em;"]
 press-citizen.com##.rightrail-promo
 pressf1.co.nz###sponsor_div
+prestonnorthend-mad.co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 204); float: left;"]
 pretorianews.co.za###sp_links
 pri.org###amazonBox180
 pricegrabber.co.uk###spl
@@ -10671,6 +10693,7 @@ pricegrabber.com##.topBanner
 pricespy.co.nz##.ad
 prisonplanet.com###bottombanners
 prisonplanet.com###efoods
+proactiveinvestors.co.uk##.above_header
 proaudioreview.com##table[width="665"]
 productreview.com.au##td[width="160"][valign="top"]
 progressivegrocer.com##.topBanner
@@ -10708,6 +10731,7 @@ rapid8.com##a[href^="http://www.crowdGravity.com/AF_"]
 rapidlibrary.com##table[cellspacing="1"][cellpadding="3"][border="0"][width="98%"]
 ratemyprofessors.com##.rmp_leaderboard
 rawstory.com##td[width="101"][align="center"][style][margin="0"]
+reading-mad.co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 204); float: left;"]
 readmetro.com##.header
 readwriteweb.com###ad_block
 readwriteweb.com###fm_conversationalist_zone
@@ -10749,6 +10773,7 @@ roadrunner.com##.leaderboard
 robotswithfeelings.com##div[style="height: 250px; width: 300px; background-color: rgb(0, 0, 0);"]
 robotswithfeelings.com##div[style="height: 90px; width: 728px; margin-left: auto; margin-right: auto; background-color: rgb(0, 0, 0);"]
 robtex.com##div[style="width: 728px; height: 90px; margin-left: auto; margin-right: auto;"]
+rochdale-mad.co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 204); float: left;"]
 rockpapershotgun.com##.marketing
 rollcall.com##.ad
 rollingstone.com##.ad
@@ -10787,6 +10812,7 @@ scientificamerican.com##div[style="height: 275px; margin: 0pt;"]
 scoop.co.nz###top-banner
 scoop.co.nz###top-banner-base
 scoop.co.nz###topHeader
+scotland-mad.co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 204); float: left;"]
 scotsman.com###banner01
 search.aol.ca##.SLL
 search.aol.ca##.WOL
@@ -10849,6 +10875,7 @@ shopping.com###featListingSection
 shopping.findtarget.com##div[style="background: none repeat scroll 0% 0% rgb(255, 255, 255); padding: 0pt 0.4em 0.1em 0pt; margin: 0.3em 0pt;"]
 shopping.net##table[border="1"][width="580"]
 shopping.yahoo.com##.shmod-ysm
+shrewsburytown-mad.co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 204); float: left;"]
 sify.com##div[style="width: 250px; height: 250px;"]
 siliconchip.com.au##td[align="RIGHT"][width="50%"][valign="BOTTOM"]
 siliconrepublic.com###banner-zone-k
@@ -11155,7 +11182,14 @@ totalfilm.com###mpuContainer
 totalfilm.com###mpu_container
 totalfilm.com###skyscraper_container
 tothepc.com##.sidebsa
+tottenhamhotspur-mad.co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 204); float: left;"]
 toynews-online.biz##.newsinsert
+tradearabia.com##table[width="120"][height="140"]
+tradearabia.com##td[style="font-family: Arial; font-size: 9px; border: 1px solid black; width: 120px; background-color: rgb(231, 250, 209);"]
+tradearabia.com##td[style="font-family: verdana; font-size: 9px; border: 1px solid blue;"]
+tradearabia.com##td[width="120"][align="center"]
+tradearabia.com##td[width="120"][height="115"]
+tradearabia.com##td[width="760"][height="120"]
 travel.yahoo.com##.spon
 travel.yahoo.com##.tgl-block
 treatmentforbruises.net##.fltlft
@@ -11293,6 +11327,7 @@ vogue.co.uk##.secondary-content-mpu-box
 w2c.in##[href^="http://c.admob.com/"]
 w3schools.com##a[rel="nofollow"]
 w3schools.com##div[style="width: 890px; height: 94px; position: relative; margin: 0px; padding: 0px; overflow: hidden;"]
+wales-mad.co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 204); float: left;"]
 walesonline.co.uk##.promobottom
 walesonline.co.uk##.promotop
 walletpop.com###attic
@@ -11372,6 +11407,7 @@ wirelessforums.org##td[width="160"][valign="top"]
 wisegeek.com##[action="/the-best-schools-for-you.htm"]
 wishtv.com###leaderboard
 wlfi.com###leaderboard
+wolverhamptonwanderers-mad.co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 204); float: left;"]
 wordreference.com##.bannertop
 workforce.com##td[width="970"][height="110"]
 worksopguardian.co.uk###banner01
@@ -13667,6 +13703,7 @@ _cedexis.php
 ||edmontonjournal.com^*/tracker.gif?
 ||edmunds.com^*/edw1x1.gif
 ||ehow.com^*/stats/
+||elance.com^*/emc.php?
 ||enlightenment.secureshoppingbasket.com^
 ||entry-stats.huffingtonpost.com^
 ||environmentalgraffiti.com/eg/hits/logger?
