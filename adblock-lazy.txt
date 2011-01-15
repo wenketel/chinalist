@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: IayJtRN2b1D3oXCOXujJzw
+!  Checksum: wPQ0KfRnfpIAqmspFK+ekg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 15 Jan 2011 15:02:24 +0800
+!  Last Modified:  Sat, 15 Jan 2011 16:18:06 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -1607,6 +1607,9 @@ zaobao.com###myMovie
 
 !-----------------------Temporary---------------------------
 !---2011.1
+t.douban.com/img/biz/
+bbs.goapk.com/data/attachment/common/cf/$image
+
 !------------------------End of List-------------------------
 
 ! EasyList - https://easylist.adblockplus.org/
@@ -11731,11 +11734,11 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||ebayrtm.com/rtm?rtmcmd&a=json&cb=parent.$script
 @@||edgar.pro-g.co.uk/data/*/videos/adverts/$object_subrequest
 @@||edmontonjournal.com/js/adsync/adsynclibrary.js
-@@||emediate.eu/crossdomain.xml$domain=tv3play.lv|tv3play.se
-@@||emediate.eu/eas?cu_key=*;ty=playlist;$object_subrequest,domain=tv3play.lv|tv3play.se
-@@||emediate.se/crossdomain.xml$domain=tv3play.lv|tv3play.se
-@@||emediate.se/eas?eascu_keys=$object_subrequest,domain=tv3play.lv|tv3play.se
-@@||emediate.se/eas_tag.1.0.js$domain=tv3play.lv|tv3play.se
+@@||emediate.eu/crossdomain.xml$domain=tv3play.lv|tv3play.se|tv6play.se|tv8play.se
+@@||emediate.eu/eas?cu_key=*;ty=playlist;$object_subrequest,domain=tv3play.lv|tv3play.se|tv6play.se|tv8play.se
+@@||emediate.se/crossdomain.xml$domain=tv3play.lv|tv3play.se|tv6play.se|tv8play.se
+@@||emediate.se/eas?eascu_keys=$object_subrequest,domain=tv3play.lv|tv3play.se|tv6play.se|tv8play.se
+@@||emediate.se/eas_tag.1.0.js$domain=tv3play.lv|tv3play.se|tv6play.se|tv8play.se
 @@||espn.go.com^*/espn360/banner?$subdocument
 @@||eyewonder.com^$object,script,domain=last.fm
 @@||eyewonder.com^*/video/$object_subrequest,domain=last.fm
