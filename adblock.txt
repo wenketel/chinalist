@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: sejnmZdybswMf7ydhihE0w
+!  Checksum: 74m067R5CeQmu02FW6a0yg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 14 Jan 2011 21:41:04 +0800
+!  Last Modified:  Sat, 15 Jan 2011 14:06:40 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -306,6 +306,11 @@ www.fengniao.com##.banner.mt2
 ||focus.cn/ad_publish/$script
 ||focus.cn/common/js/adm2008.js
 focus.cn##.ad_fp
+
+!---无料游戏王
+||freegame.com.tw^$script
+/p_ad_f.htm|$$domain=freegame.com.tw|free-game.cc
+/counter2.htm|$domain=freegame.com.tw|free-game.cc
 
 !---广友影视
 ||96.44.179.162
@@ -958,8 +963,6 @@ img.cngba.com/da/
 ||fangte.com/uploadfiles/fangte_pic/pic/
 images.fangte.com^$object
 www.fangte.com/aswf.swf
-||freegame.com.tw^$script
-||freegame.com.tw/p_ad_f.htm
 ||gamebase.com.tw/gbno1/
 gamebase.com.tw##span[id^="aid_"]
 ||gamersky.com/frame/

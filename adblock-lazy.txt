@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: g3R4ltD6xXLD7KTxwQIWrg
+!  Checksum: cQhCEOTmiHk09Qjqzs53RQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 14 Jan 2011 21:41:04 +0800
+!  Last Modified:  Sat, 15 Jan 2011 14:06:40 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -306,6 +306,11 @@ www.fengniao.com##.banner.mt2
 ||focus.cn/ad_publish/$script
 ||focus.cn/common/js/adm2008.js
 focus.cn##.ad_fp
+
+!---无料游戏王
+||freegame.com.tw^$script
+/p_ad_f.htm|$$domain=freegame.com.tw|free-game.cc
+/counter2.htm|$domain=freegame.com.tw|free-game.cc
 
 !---广友影视
 ||96.44.179.162
@@ -958,8 +963,6 @@ img.cngba.com/da/
 ||fangte.com/uploadfiles/fangte_pic/pic/
 images.fangte.com^$object
 www.fangte.com/aswf.swf
-||freegame.com.tw^$script
-||freegame.com.tw/p_ad_f.htm
 ||gamebase.com.tw/gbno1/
 gamebase.com.tw##span[id^="aid_"]
 ||gamersky.com/frame/
@@ -1714,6 +1717,7 @@ zaobao.com###myMovie
 .za/ads/
 /*;cue=pre;$object_subrequest
 /120ad.gif
+/2011/ads/*
 /300x250advert.
 /468ad.gif
 /468xads.
@@ -2340,7 +2344,6 @@ zaobao.com###myMovie
 /bannerframeopenads.
 /bannerframeopenads_
 /bannermanager/*
-/bannermedia/*
 /bannerrotation.
 /bannerrotation/*
 /banners.*&iframe=
@@ -8976,8 +8979,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||vortez.co.uk^*skyscraper.jpg
 ||w3schools.com/banners/
 ||wareseeker.com/banners/
-||webhostingtalk.com/js/callback.js
-||webhostingtalk.com/js/hail.js
+||webhostingtalk.com/js/ping.js
 ||webnewswire.com/images/banner
 ||websitehome.co.uk/seoheap/cheap-web-hosting.gif
 ||weddingtv.com/src/usefulstuff/*banner
@@ -10301,6 +10303,7 @@ magic.co.uk###headerRowOne
 magme.com###top_banner
 mahalo.com##div[id^="ads-section-"]
 mail.google.com##.oM
+mail.live.com###RadAdSkyscraper
 mail.live.com###SkyscraperContent
 mail.yahoo.com###MNW
 mail.yahoo.com###MON > div[style="color: rgb(0, 0, 0); font-size: 10px; font-family: Verdana,arial,sans-serif; text-align: center;"]
@@ -10331,6 +10334,7 @@ map24.com###cont_m24up
 mapquest.com###offers
 marketingmag.ca###leaderboard_container
 marketingpilgrim.com###ad
+mashable.com###leaderboard
 mashable.com##.header-banner
 massively.com###topleader-wrap
 maxgames.com##div[style="margin: 3px auto; width: 728px; height: 90px; padding: 3px 3px 3px 18px; background-image: url(\"/images/sponsor_border_leaderboard.gif\"); background-repeat: no-repeat;"]
@@ -11918,6 +11922,8 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||wrapper.teamxbox.com/a?size=headermainad&altlocdir=teamxbox$script
 @@||www.google.*/search?$subdocument
 @@||yallwire.com/pl_ads.php?$object_subrequest
+@@||yellupload.com/yell/videoads/*.flv|
+@@||yellupload.com/yell/videoads/yellvideoplayer.swf?
 @@||yimg.com^*&yat/js/ads_
 @@||yimg.com^*/java/promotions/js/ad_eo_1.1.js
 @@||zedo.com/*.swf$domain=rajshri.com
@@ -12608,6 +12614,7 @@ _cedexis.php
 ||mythings.com^$third-party
 ||myusersonline.com^$third-party
 ||nedstat.com^$third-party
+||nedstat.net^$third-party
 ||nedstatbasic.net^$third-party
 ||net-filter.com^$third-party
 ||netflame.cc^$third-party
