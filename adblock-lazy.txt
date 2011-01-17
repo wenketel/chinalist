@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 78VyTSvHtzwUBrWWCDaHJg
+!  Checksum: duLolcntpGEiu5iDNASEsw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 16 Jan 2011 18:44:30 +0800
+!  Last Modified:  Mon, 17 Jan 2011 17:26:54 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -235,10 +235,8 @@ www.dayoo.com###lm_dywmtq+div.wOut.mt6
 !---Dict.CN
 ||dict.cn/ef/
 ||dict.cn/sync2/
-||dict.cn/images/xwyy_cctv_150v230.jpg
-dict.cn##.gg
-dict.cn###chaci_nav_gg
-dict.cn###topgg
+dict.cn###block4
+dict.cn###top-gg
 dict.cn##div#main_right_right>div:nth-child(5)
 
 !---Discuz! & PHPWind etc.
@@ -2224,6 +2222,7 @@ bbs.goapk.com/data/attachment/common/cf/$image
 /advertise.
 /advertise/*
 /advertise125x125.
+/advertise_
 /advertisehere.
 /advertisement-
 /advertisement.
@@ -3113,6 +3112,7 @@ bbs.goapk.com/data/attachment/common/cf/$image
 ?advertising=
 ?advtile=
 ?advurl=
+?adzone=
 ?file=ads&
 ?getad=&$~object_subrequest
 ?goto=ad|
@@ -3257,7 +3257,7 @@ z/adx.js
 |http://adbox.
 |http://adimg.
 |http://adnet.
-|http://ads.$domain=~ahds.ac.uk
+|http://ads.$domain=~ads.su|~ahds.ac.uk
 |http://ads0.
 |http://ads1.
 |http://ads18.
@@ -3840,7 +3840,6 @@ _768x90_
 ###ad_feature
 ###ad_firstpost
 ###ad_footer
-###ad_frame_countdown3
 ###ad_front_three
 ###ad_fullbanner
 ###ad_global_header
@@ -4058,6 +4057,7 @@ _768x90_
 ###adsdiv
 ~promoce.cz###adsense
 ###adsense-2
+###adsense-header
 ###adsense-tag
 ###adsense-text
 ###adsenseOne
@@ -4138,6 +4138,7 @@ _768x90_
 ###advert_125x125
 ###advert_250x250
 ###advert_box
+###advert_home01
 ###advert_leaderboard
 ###advert_lrec_format
 ###advert_mid
@@ -4356,6 +4357,7 @@ _768x90_
 ###content-ad-header
 ###content-header-ad
 ~filecheck.ru###contentAd
+###contentBoxad
 ###contentTopAds2
 ~filestage.to,~maximonline.ru###content_ad
 ###content_ad_square
@@ -4955,7 +4957,6 @@ _768x90_
 ###speeds_ads_fstitem
 ###speedtest_mrec_ad
 ###sphereAd
-###splinks
 ###sponLinkDiv_1
 ###sponlink
 ###sponlinks
@@ -5616,6 +5617,7 @@ _768x90_
 ##.ad_bg
 ##.ad_bigbox
 ##.ad_biz
+##.ad_block
 ##.ad_block_338
 ##.ad_body
 ##.ad_border
@@ -6039,7 +6041,7 @@ _768x90_
 ##.advertising-local-links
 ##.advertising2
 ##.advertisingTable
-##.advertising_block
+~zauberlanka.de##.advertising_block
 ##.advertising_images
 ~macwelt.de##.advertisment
 ##.advertisment_two
@@ -6712,6 +6714,7 @@ _768x90_
 ##.portalCenterContentAdTop
 ##.portalcontentad
 ~netbooknews.de##.post-ad
+##.postAd
 ##.post_ad
 ##.post_ads
 ##.post_sponsor_unit
@@ -7987,6 +7990,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||xcelsiusadserver.com^$third-party
 ||xchangebanners.com^$third-party
 ||xgraph.net^$third-party
+||xx00.info^$third-party
 ||yceml.net^$third-party
 ||yesnexus.com^$third-party
 ||yieldbuild.com^$third-party
@@ -8109,6 +8113,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||desi4m.com/desi4m.gif$third-party
 ||detroitmedia.com/jfry/
 ||dynw.com/banner
+||emailcashpro.com/images/$third-party
 ||enticelabs.com/el/
 ||entrecard.com/static/banners/
 ||eplreplays.com/wl/
@@ -8198,6 +8203,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||microsoft.com^*/bannerrotator/$third-party
 ||missnowmrs.com/images/banners/
 ||mmo4rpg.com^*.gif|$third-party
+||mp3ix.com^$third-party
 ||mto.mediatakeout.com^$third-party
 ||my-dirty-hobby.com/getmdhlink.$third-party
 ||mydirtyhobby.com/?sub=$third-party
@@ -8257,6 +8263,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||regnow.com/vendor/
 ||robofish.com/cgi-bin/banner.cgi?
 ||sailthru.com^*/horizon.js
+||sape.ru/bn/$third-party
 ||sayswap.com/banners/
 ||searchportal.information.com/?$third-party
 ||secondspin.com/twcontent/
@@ -8354,6 +8361,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||a.giantrealm.com^
 ||a.thefreedictionary.com^
 ||a7.org/info_en/
+||abduzeedo.com^*/mt-banner.jpg
 ||about.com/0g/$subdocument
 ||abovetopsecret.com/300_
 ||ac2.msn.com^
@@ -9536,6 +9544,7 @@ deviantart.com###overhead-you-know-what
 deviantart.com##.ad-blocking-makes-fella-confused
 deviantart.com##.hidoframe
 deviantart.com##.subbyCloseX
+deviantart.com##[style="background-color: rgb(170, 177, 170); width: 300px; height: 120px;"]
 deviantart.com##a[href^="http://advertising.deviantart.com/"]
 deviantart.com##div[gmi-name="ad_zone"]
 deviantart.com##div[style="background-color: rgb(170, 177, 170); width: 300px; height: 250px;"]
@@ -10080,6 +10089,7 @@ itpro.co.uk###skyScraper
 itproportal.com###hp-accordion
 itproportal.com##.se_left
 itproportal.com##.se_right
+itproportal.com##.site_header
 itproportal.com##.teaser
 itreviews.co.uk###bmmBox
 itweb.co.za###cosponsor
@@ -10372,6 +10382,7 @@ megavideo.com##div[style="position: relative; width: 355px; height: 299px; margi
 megavideo.com##div[style="position: relative; width: 359px; height: 420px; margin-left: -3px; margin-top: 1px;"]
 melbourneheartfc.com.au##.promotion_wrapper
 melbournevictory.com.au##.promotion_wrapper
+menshealth.com###skyscraper
 mercurynews.com###mn_SP_Links
 merriam-webster.com###Dictionary-MW_DICT_728_BOT
 merriam-webster.com###google_creative_3
@@ -11798,7 +11809,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||liverail.com/swf/*/plugins/flowplayer/
 @@||loaded.it/images/advertise/divx/playeroverlay_$image
 @@||loaded.it/images/advertise/flash/playeroverlay_$object_subrequest
-@@||ltassrv.com/crossdomain.xml$object_subrequest,domain=animecrazy.net|gamepro.com
+@@||ltassrv.com/crossdomain.xml$object_subrequest,domain=animecrazy.net|gameanyone.com|gamepro.com
 @@||ltassrv.com/yume.swf$domain=animecrazy.net|gamepro.com
 @@||ltassrv.com/yume/yume_$object_subrequest,domain=animecrazy.net|gamepro.com
 @@||mads.cbs.com/mac-ad?$object_subrequest
@@ -11861,6 +11872,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||redir.adap.tv/redir/javascript/adaptvadplayer.js$object_subrequest,domain=egreetings.com|imgag.com
 @@||redir.adap.tv/redir/plugins/*/adotubeplugin.swf?$domain=stickam.com
 @@||refline.ch^*/advertisement.css
+@@||reports.adblockplus.org^$elemhide
 @@||rosauers.com/locations/ads.html
 @@||rotate.infowars.com/www/delivery/fl.js
 @@||rotate.infowars.com/www/delivery/spcjs.php
@@ -12282,6 +12294,7 @@ _cedexis.php
 ||360tag.net^$third-party
 ||3dlivestats.com^$third-party
 ||3dstats.com^$third-party
+||3gl.net/$third-party
 ||77tracking.com^$third-party
 ||79.125.117.123^$third-party
 ||7bpeople.com^$third-party
