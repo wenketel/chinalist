@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: vDElsc5Hioua7nUdfyzkyw
+!  Checksum: y1sfjq5rzhcMf1b7HNFgeg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 18 Jan 2011 13:24:17 +0800
+!  Last Modified:  Tue, 18 Jan 2011 19:56:20 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -706,6 +706,8 @@ www.tudou.com###adExtension_baidu
 ||sp.vcimg.com^
 statics.verycd.com/images/banner/topic_shooter.png
 verycd.com##iframe.Banner2
+verycd.com##iframe.Banner3
+verycd.com##iframe[width="980"][scrolling="no"]
 verycd.com##.banner_toped2k
 verycd.com###img
 verycd.com###page-body>iframe:first-child
@@ -3585,6 +3587,7 @@ _768x90_
 ###ad-front-sponsoredlinks
 ###ad-halfpage
 ~ifokus.se###ad-header
+###ad-horizontal-header
 ###ad-inner
 ###ad-label
 ###ad-leaderboard
@@ -4262,6 +4265,7 @@ _768x90_
 ###blox-halfpage-ad
 ###blox-tile-ad
 ###blox-tower-ad
+###body_728_ad
 ###book-ad
 ###botad
 ###bott_ad2
@@ -4450,7 +4454,7 @@ _768x90_
 ###footerAds
 ###footerAdvertisement
 ###footerAdverts
-###footer_ad
+~headlinestoday.intoday.in###footer_ad
 ###footer_ad_01
 ###footer_ad_block
 ###footer_ad_container
@@ -6938,6 +6942,7 @@ _768x90_
 ##.sponsored-results
 ##.sponsored-right-border
 ##.sponsored-text
+##.sponsoredBox
 ##.sponsoredInfo
 ##.sponsoredInner
 ##.sponsoredLabel
@@ -9388,6 +9393,7 @@ chairmanlol.com###top-leaderboard
 chairmanlol.com##.leaderboard
 chami.com##.c
 channel3000.com###leaderboard-sticky
+channelflip.com##.ad
 checkoutmyink.com###centerbanner
 checkoutmyink.com###mid
 checkthisvid.com##a[href^="http://links.verotel.com/"]
@@ -10844,6 +10850,7 @@ readwriteweb.com###rwwpartners
 readwriteweb.com###vmware-trial
 realitytvobsession.com###glinks
 realworldtech.com##.leaderboard_wrapper
+reason.com##.ads
 rebubbled.com##.leaderboard
 receeve.it##.carousel
 redbookmag.com###special_offer_300x100
