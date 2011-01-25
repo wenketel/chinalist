@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: q7HOK2kLSJ3jU+/RpftkgA
+!  Checksum: HiZ+FiJCAFULB4g8Cq8uLg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 24 Jan 2011 10:39:16 +0800
+!  Last Modified:  Tue, 25 Jan 2011 13:11:25 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -348,12 +348,18 @@ www.hsw.cn##table[width="980"][height="90"]
 www.hsw.cn##table[width="980"][height="100"]
 
 !---凤凰网
-||ifeng.com/tres/recommend/
-img.ifeng.com/tres/$object
-||sc.ifeng.com/js.ng/
+-298x68.
+-300x250.
+-336x280.
+-640x90.
+-950x90.
+||ifeng.com/statics/all_content_ad_
+img.ifeng.com/tres/recommend/
+sc.ifeng.com/js.ng/
 sta.ifeng.com^
-ifeng.com##[class^="ad"]
 ifeng.com##.areaAd
+ifeng.com##.label_3
+ifeng.com##[class^="ad"]
 ifeng.com###final_head_ad
 ifeng.com##[id^="flash_outer_"]
 
@@ -1611,7 +1617,7 @@ source.qunar.com/site/images/zhuanti/110113/dfs_
 ! EasyList - https://easylist.adblockplus.org/
 
 !-----------------General advert blocking filters-----------------!
-! *** easylist_general_block.txt ***
+! *** easylist/general_block.txt ***
 &ad_keyword=
 &ad_type_
 &adname=
@@ -3291,8 +3297,6 @@ z/adx.js
 -120x60.
 -120x600-
 -160x600.
--250x250.
--360x110.
 -468-60.
 -468_60.
 -468x60-
@@ -3333,9 +3337,6 @@ z/adx.js
 /125x125_banner.
 /160x600.
 /160x600_
-/180x150-
-/180x150_
-/250x250.
 /300x250-
 /300x250.
 /300x250_
@@ -3408,7 +3409,7 @@ _728x90/
 _728x90_
 _768x90_
 !-----------------General element hiding rules-----------------!
-! *** easylist_general_hide.txt ***
+! *** easylist/general_hide.txt ***
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
 ###A9AdsServicesWidgetTop
@@ -7217,7 +7218,7 @@ _768x90_
 !-mad.co.uk
 co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 204); float: left;"]
 !-----------------Third-party advertisers-----------------!
-! *** easylist_adservers.txt ***
+! *** easylist/adservers.txt ***
 ||10pipsaffiliates.com^$third-party
 ||1100i.com^$third-party
 ||188server.com^$third-party
@@ -7991,6 +7992,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||versetime.com^$third-party
 ||vianadserver.com^$third-party
 ||vibrantmedia.com^$third-party
+||video-loader.com^
 ||videoegg.com^$third-party
 ||videostrip.com^$~object_subrequest,third-party
 ||videostrip.com^*/admatcherclient.$object_subrequest,third-party
@@ -8049,7 +8051,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||smaato.net^$third-party
 ||waptrick.com^$third-party
 !-----------------Third-party adverts-----------------!
-! *** easylist_thirdparty.txt ***
+! *** easylist/thirdparty.txt ***
 ||000webhost.com/images/banners/
 ||208.43.84.120/trueswordsa3.gif$third-party
 ||21nova.com/promodisplay?
@@ -8270,6 +8272,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||paytel.co.za/code/ref
 ||pcash.imlive.com^$third-party
 ||perfectmarket.com/pm/ad-
+||pivotalinvestmentdirect.com/banners/$third-party
 ||play-asia.com/paos-$third-party
 ||pokerstars.com/euro_bnrs/
 ||pop6.com/banners/
@@ -8373,7 +8376,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 !Mobile
 ||iadc.qwapi.com^
 !-----------------Specific advert blocking filters-----------------!
-! *** easylist_specific_block.txt ***
+! *** easylist/specific_block.txt ***
 ||1057theoasis.com/addrotate_content.php?
 ||1079thealternative.com/addrotate_content.php?
 ||174.143.241.129^$domain=astalavista.com
@@ -8586,6 +8589,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||expatexchange.com/banner/
 ||expertreviews.co.uk/images/skins/
 ||expreview.com/exp2/
+||extratorrent.com/images/wintoolspro.gif
 ||fallout3nexus.com^*/300x600.php
 ||fear.themusicbay.org^
 ||feedsportal.com/creative/
@@ -8899,6 +8903,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||qrz.com/pix/*.gif
 ||qualityhealth.com^*/banner.jsp?
 ||querverweis.net/pu.js
+||quickload.to^*/blase.js
 ||quickload.to^*/layer.divx.js
 ||quickload.to^*/note.divx.js
 ||quickload.to^*/note.js
@@ -9101,7 +9106,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||indieclicktv.com/player/swf/*/icmmva%5eplugin.swf$object_subrequest
 ||longtailvideo.com^*/yume.swf$domain=watch-naruto.tv
 !-----------------Specific element hiding rules-----------------!
-! *** easylist_specific_hide.txt ***
+! *** easylist/specific_hide.txt ***
 10minutemail.com###shoutouts
 123people.co.uk###l_banner
 13wham.com##.LinksWeLike
@@ -9347,6 +9352,7 @@ books.google.com.au###rhswrapper font[size="-1"]
 booookmark.com###sitematches
 boston.com###externalBanner
 bostonherald.com##div[style="position: relative; margin-bottom: 16px; background-color: rgb(233, 233, 233); border-left: 16px solid rgb(23, 23, 23); padding: 20px 12px 20px 20px; clear: both;"]
+box10.com###TakeOverLink
 boxoffice.com###top_banner
 brandsoftheworld.com###leaderboardTop
 break.com###infospace-sidebar
@@ -10060,6 +10066,7 @@ images.search.yahoo.com###r-n
 imageshack.us###add_frame
 imdb.com###top_rhs_1_wrapper
 imdb.com###top_rhs_wrapper
+imfdb.org###amazoncontent
 imtranslator.net##td[align="right"][valign="bottom"][height="96"]
 inbox.com###r
 inbox.com##.slinks
@@ -10636,6 +10643,7 @@ newsmax.com##.sponsors_spacer
 newsnet5.com##.ad
 newsnet5.com##.marketplace
 newsniche.com##a[style="font-size: 12px; color: rgb(255, 166, 23);"]
+newsok.com##.yahoo_cm
 newsonjapan.com###squarebanner300x250
 newsroomamerica.com###promotional
 newstalkzb.co.nz##.content-promos
@@ -11691,7 +11699,7 @@ zuploads.net###buttoncontainer
 zuula.com##.sponsor
 zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 !-----------------Whitelists-----------------!
-! *** easylist_whitelist.txt ***
+! *** easylist/whitelist.txt ***
 @@||2mdn.net/*/dartshell*.swf
 @@||2mdn.net/*_ecw_$image,domain=wwe.com
 @@||2mdn.net/crossdomain.xml$object_subrequest
@@ -11781,6 +11789,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||campusfood.com/css/ad.css?
 @@||candystand.com/assets/images/ads/$image
 @@||cbs.com/sitecommon/includes/cacheable/combine.php?*/adfunctions.
+@@||cdn.cpmstar.com/cached/$domain=xfire.com
 @@||cdn.last.fm/adserver/video/
 @@||cdn.last.fm/adserver/video/adroll/*/adroll.swf$domain=last.fm
 @@||cdn.springboard.gorillanation.com/storage/lightbox_code/static/companion_ads.js$domain=comingsoon.net|gamerevolution.com
@@ -12033,6 +12042,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||212.115.192.168^$image,domain=seeingwithsound.com
 @@||216.97.231.225^$domain=seeingwithsound.com
 @@||84.243.214.232^$image,domain=seeingwithsound.com
+@@||ad.leadbolt.net/show_cu.js
 @@||akihabaranews.com/images/ad/
 @@||artificialvision.com^$elemhide,image,script
 @@||arto.com/includes/js/adtech.de/script.axd/adframe.js?
@@ -12129,7 +12139,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 ! EasyPrivacy - https://easylist.adblockplus.org/
 
 !-----------------General tracking systems-----------------!
-! *** easyprivacy_general.txt ***
+! *** easyprivacy/general.txt ***
 &name=atatracker&
 &name=atatracker?
 -xtcore.js
@@ -12355,7 +12365,7 @@ _cedexis.php
 |http://wzeu.*/i/i.gif?
 |http://wzus1.*/i/i.gif?
 !-----------------Third-party tracking domains-----------------!
-! *** easyprivacy_trackingservers.txt ***
+! *** easyprivacy/trackingservers.txt ***
 ||103bees.com^$third-party
 ||123count.com^$third-party
 ||24counter.com^$third-party
@@ -12941,7 +12951,7 @@ _cedexis.php
 ||yieldsoftware.com^$third-party
 ||zoomflow.com^$third-party
 !-----------------International third-party tracking domains-----------------!
-! *** easyprivacy_trackingservers_international.txt ***
+! *** easyprivacy/trackingservers_international.txt ***
 !German
 ||123-counter.de^$third-party
 ||193.197.158.209^$script
@@ -13292,7 +13302,7 @@ _cedexis.php
 ||mycounter.ua^$third-party
 ||weblog.com.ua^$third-party
 !-----------------Third-party tracking services-----------------!
-! *** easyprivacy_thirdparty.txt ***
+! *** easyprivacy/thirdparty.txt ***
 ||123myip.co.uk/ip-address/
 ||174.129.112.186/small.gif?$third-party
 ||174.129.6.226/tracker/$third-party,domain=~skytide.ip
@@ -13582,7 +13592,7 @@ _cedexis.php
 ||youtube-nocookie.com/gen_204?
 ||zemanta.com/pixy.gif?
 !-----------------International third-party tracking services-----------------!
-! *** easyprivacy_thirdparty_international.txt ***
+! *** easyprivacy/thirdparty_international.txt ***
 !German
 ||85.232.19.113^*/c2_count.js
 ||aftonbladet.se/trafikfonden/
@@ -13748,7 +13758,7 @@ _cedexis.php
 !Swedish
 ||counter.mtgnewmedia.se^
 !-----------------Individual tracking systems-----------------!
-! *** easyprivacy_specific.txt ***
+! *** easyprivacy/specific.txt ***
 ||208.88.226.75/log.php?$domain=giveawayoftheday.com
 ||213.8.193.45/themarker/$domain=haaretz.com
 ||2shared.com^*/adlogger.jsp?
@@ -14265,7 +14275,7 @@ _cedexis.php
 ||zvents.com/zat?
 ||zylom.com/pixel.jsp
 !-----------------International individual tracking systems-----------------!
-! *** easyprivacy_specific_international.txt ***
+! *** easyprivacy/specific_international.txt ***
 !German
 ||4players.de^*/foreplaypixel.js
 ||85.237.86.50/stat/$domain=bluray-disc.de
@@ -14383,6 +14393,7 @@ _cedexis.php
 ||n-tv.de/stats/
 ||n24.de^*/tracking.js
 ||news.ch/newslogbug.asp?
+||nickles.de/ivw/
 ||nowonscreen.com/statistik_
 ||nox.to/files/frame.htm
 ||noz.de/tracking/
@@ -14570,7 +14581,7 @@ _cedexis.php
 ||piccy.info/c?
 ||piccy.org.ua/c?
 !-----------------Whitelists-----------------!
-! *** easyprivacy_whitelist.txt ***
+! *** easyprivacy/whitelist.txt ***
 @@||as.webmd.com/html.ng/transactionid=$subdocument
 @@||b.photobucket.com^$object_subrequest
 @@||britishairways.com^*/visualsciences.js
@@ -14579,7 +14590,7 @@ _cedexis.php
 @@||debenhams.com/foresee/foresee-trigger.js
 @@||directline.com/touchclarity/$script
 @@||doubleclick.net/activityi;src=$object_subrequest,domain=cicispizza.com
-@@||dw.com.com/js/dw.js$domain=tv.com
+@@||dw.com.com/js/dw.js$domain=gamespot.com|tv.com
 @@||edge.quantserve.com/quant.js$domain=g4tv.com
 @@||js.revsci.net/gateway/gw.js?$domain=video.foxnews.com
 @@||lloydstsb.com/it/xslt/touchclarity/omtr_tc.js
@@ -14606,7 +14617,7 @@ _cedexis.php
 @@||vod.olympics2010.msn.com/beacon?$object_subrequest
 @@||vod.universalsports.com/beacon?$object_subrequest
 !-----------------International whitelists-----------------!
-! *** easyprivacy_whitelist_international.txt ***
+! *** easyprivacy/whitelist_international.txt ***
 !German
 @@||arte.tv^*/xtcore.js
 @@||cya1t.net/js/mkamp/87445.js$domain=videothek.bild.de
