@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: GIHwR3zCkUIgiarX0/e8kg
+!  Checksum: 5w4hLTYDsykUW0Tf5eIp2Q
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 28 Jan 2011 13:59:26 +0800
+!  Last Modified:  Sun, 30 Jan 2011 16:17:08 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -96,7 +96,6 @@ www.6park.com/wap/close.gif
 6park.com##body>table+table+table+table+table[width="978"][bgcolor="#ffffff"]
 
 !---acfun.cn
-||124.228.254.229/upload/$image
 /ad_js.php?
 /newflvplayer/xml/gg_a.xml
 
@@ -1464,6 +1463,7 @@ qd.code.qihoo.com^$third-party
 ||u-link.nbb.tw^$third-party
 ||ulink.cc^$third-party
 ||union001.$third-party
+||union178.com^$third-party
 ||unionbig.com^$third-party
 ||unionsky.cn^$third-party
 ||unionli.com^$third-party
@@ -2656,6 +2656,7 @@ source.qunar.com/site/images/zhuanti/110113/dfs_
 /inad.js
 /inad.php
 /inc/ads/*
+/inc_v2/ad_
 /include/ads/*
 /include/boxad_
 /include/skyad_
@@ -3080,6 +3081,7 @@ source.qunar.com/site/images/zhuanti/110113/dfs_
 /webads.
 /webads_
 /webadverts/*
+/webmailad.
 /welcome_ad.
 /widget/ads.
 /wipeads/*
@@ -4185,6 +4187,7 @@ _768x90_
 ###advertising-container
 ###advertising-control
 ###advertising-skyscraper
+###advertising2
 ###advertisingModule160x600
 ###advertisingModule728x90
 ###advertisment
@@ -4516,6 +4519,7 @@ _768x90_
 ###gmi-ResourcePageAd
 ###gmi-ResourcePageLowerAd
 ###goads
+###gooadtop
 ###google-ad
 ###google-ad-art
 ###google-ad-table-right
@@ -5217,6 +5221,7 @@ _768x90_
 ##.Ad160x600right
 ##.Ad2
 ##.Ad247x90
+##.Ad300x
 ##.Ad300x250
 ##.Ad300x250L
 ##.Ad728x90
@@ -5232,6 +5237,7 @@ _768x90_
 ##.AdRingtone
 ~ph4.ru##.AdSense
 ##.AdSenseLeft
+##.AdSlot
 ##.AdSpace
 ##.AdTextSmallFont
 ~buy.com,~superbikeplanet.com##.AdTitle
@@ -6185,6 +6191,7 @@ _768x90_
 ##.block_ad_sb_text
 ##.block_ad_sponsored_links
 ##.block_ad_sponsored_links-wrapper
+##.blockad
 ##.blocked-ads
 ##.blocsponsor
 ##.blog-ad-leader-inner
@@ -6353,6 +6360,7 @@ _768x90_
 ##.downloadAds
 ##.download_ad
 ##.downloadad
+##.dualAds
 ##.dynamic-ads
 ##.dynamic_ad
 ##.e-ad
@@ -7214,7 +7222,6 @@ _768x90_
 ##.ysmsponsor
 ##.ysponsor
 ##.yw-ad
-~marketgid.com,~mgid.com,~theberry.com,~thebrigade.com,~thechive.com,~thethrottle.com##[id^="MarketGid"]
 ~ebay.de##a[href^="http://ad-emea.doubleclick.net/"]
 ##a[href^="http://ad.doubleclick.net/"]
 ##a[href^="http://adserving.liveuniversenetwork.com/"]
@@ -7596,15 +7603,12 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||doubleclick.net^*;sz=$object_subrequest,third-party,domain=10news.com|1up.com|breitbart.tv|cbc.ca|digitaltrends.com|fox5sandiego.com|foxnews.com|france24.com|gamesradar.com|gametrailers.com|heavy.com|muzu.tv|myfoxny.com|myspace.com|nbc.com|nbcsandiego.com|newson6.com|nhl.com|rapbasement.com|wptv.com|wsj.com
 ||doublepimp.com^$third-party
 ||dpbolvw.net^$third-party
-||dt00.net^$domain=~marketgid.com|~mgid.com|~thechive.com
-||dt07.net^$domain=~marketgid.com|~mgid.com|~thechive.com
 ||e-planning.net^$third-party
 ||easyhits4u.com^$third-party
 ||ebannertraffic.com^$third-party
 ||ebayobjects.com.au^$third-party
 ||ebayobjects.com^$third-party
 ||edge-dl.andomedia.com^$third-party
-||edgecastcdn.net^$third-party
 ||egamingonline.com^$third-party
 ||ekmas.com^$third-party
 ||emediate.eu^$third-party
@@ -8241,6 +8245,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||jlist.com/feed.php?affid=$third-party
 ||joylandcasino.com/promoredirect?$third-party
 ||jrcdev.net/promos/
+||jsn.dt07.net^$third-party
 ||justcutegirls.com/banners/$third-party
 ||kaango.com/fecustomwidgetdisplay?
 ||kallout.com^*.php?id=
@@ -8266,6 +8271,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||meta4-group.com^*/promotioncorner.js?
 ||metaboli.fr^*/adgude_$third-party
 ||mfeed.newzfind.com^$third-party
+||mg.dt00.net^$third-party
 ||microsoft.com^*/bannerrotator/$third-party
 ||missnowmrs.com/images/banners/
 ||mmo4rpg.com^*.gif|$third-party
@@ -8415,6 +8421,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||1079thealternative.com/addrotate_content.php?
 ||174.143.241.129^$domain=astalavista.com
 ||1up.com^*/promos/
+||212.7.200.164/videobb160.htm
 ||216.151.186.5^*/serve.php?$domain=sendspace.com
 ||3dwallpaperstudio.com/hd_wallpapers.png
 ||4chan.org/support/
@@ -8618,6 +8625,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||electricenergyonline.com^*/bannieres/
 ||episodic.com^*/logos/player-
 ||espn.vad.go.com^$domain=youtube.com
+||essayinfo.com/img/125x125_
 ||esus.com/images/regiochat_logo.png
 ||eurogamer.net/quad.php
 ||eva.ucas.com^
@@ -9987,6 +9995,7 @@ geek.com##.picksBox
 geek.com##a[href^="http://www.geek.com/partners?"]
 geek.com##td[width="170"]
 geekologie.com###leaderboard
+geeky-gadgets.com##table[width="300"][style="text-align: left; height: 600px;"]
 generation-nt.com##.innerpub125
 generation-nt.com##.innerpub250
 generation-nt.com##.pub125
@@ -10778,7 +10787,6 @@ nydailynews.com###nydn-topbar
 nydailynews.com##.z_sponsor
 nymag.com###partner-feeds
 nymag.com##.google-bottom
-nypost.com##.ad
 nyrej.com###bottom_banner
 nytimes.com##.ad
 nzgamer.com###premierholder
@@ -11012,6 +11020,7 @@ rlslog.net##img[width="468"][height="60"]
 roadfly.com###leaderboardHead
 roadfly.com##.adv
 roadrunner.com##.leaderboard
+robotswithfeelings.com##.container[style="height: 90px; text-align: center;"]
 robotswithfeelings.com##div[style="height: 250px; width: 300px; background-color: rgb(0, 0, 0);"]
 robotswithfeelings.com##div[style="height: 90px; width: 728px; margin-left: auto; margin-right: auto; background-color: rgb(0, 0, 0);"]
 robtex.com##div[style="width: 728px; height: 90px; margin-left: auto; margin-right: auto;"]
@@ -11476,6 +11485,7 @@ twitter.com##.promoted-trend
 twitter.com##.promoted-tweet
 twitter.com##li[data*="advertiser_id"]
 u-file.net##.spottt_tb
+ubergizmo.com###sub_footer
 ucas.com##a[href^="http://eva.ucas.com/s/redirect.php?ad="]
 ucoz.com##div[id^="adBar"]
 ucoz.org##div[id^="adBar"]
@@ -12040,8 +12050,6 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||sfx-images.mozilla.org^$image,domain=spreadfirefox.com
 @@||shackvideo.com/playlist_xml.x?
 @@||sharehoster.com/design/advertise/premium_$~third-party
-@@||smartadserver.com/call/pubj/*/affiliate_id$script,domain=deezer.com
-@@||smartadserver.com/def/def/showdef.asp$domain=deezer.com
 @@||smartclip.net/delivery/tag?sid=$script,domain=last.fm
 @@||sonicstate.com/video/hd/hdconfig-geo.cfm?*/www/delivery/$object_subrequest
 @@||southparkstudios.com/layout/common/js/reporting/mtvi_ads_reporting.js
@@ -14630,6 +14638,7 @@ _cedexis.php
 !Polish
 ||kropka.onet.pl^
 ||nasza-klasa.pl^*/pp_gemius
+||stats.teledyski.info^
 !Portuguese
 ||metrics.uol.com.br^
 ||sl.pt/wa.gif?
