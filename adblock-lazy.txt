@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: F1PfNo1LpioaymiqfAaolQ
+!  Checksum: drjAPExDYJp544Aac/mQgg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 06 Feb 2011 19:09:51 +0800
+!  Last Modified:  Mon, 07 Feb 2011 21:31:47 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -1092,6 +1092,8 @@ www.cngadget.cn/ad/
 ||xiankankan.com/widgets/focus/
 
 !---Video Sites
+/tuiguang/*$domain=aipai.com
+||apas.aipai.com^
 img.1ting.com/v5/js/*text.js
 ||bilibili.us/arcgg2.js
 ||bilibili.us/ad-images/
@@ -1776,6 +1778,7 @@ bbs.goapk.com/data/attachment/common/cf/$image
 /ad.mason?
 /ad.php?
 /ad/files/*
+/ad/google/*
 /ad/iframe/*
 /ad/img/*
 /ad/script/*
@@ -3734,6 +3737,7 @@ _768x90_
 ###adBannerTable
 ###adBannerTop
 ###adBar
+###adBelt
 ###adBlock125
 ###adBlocks
 ###adBox
@@ -3874,6 +3878,7 @@ _768x90_
 ###ad_box_top
 ###ad_branding
 ###ad_bs_area
+###ad_buttons
 ###ad_center_monster
 ###ad_cont
 ~academics.de###ad_container
@@ -3994,6 +3999,7 @@ _768x90_
 ###adcontainerRight
 ###adcontainsm
 ###adcontent
+###adcontent1
 ###adcontrolPushSite
 ###add_ciao2
 ###addbottomleft
@@ -5528,6 +5534,7 @@ _768x90_
 ##.ad19
 ~russiantimes.com##.ad2
 ##.ad21
+##.ad230
 ##.ad250
 ##.ad250c
 ##.ad3
@@ -7324,6 +7331,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||accuserveadsystem.com^$third-party
 ||acf-webmaster.net^$third-party
 ||acronym.com^$third-party
+||ad-delivery.net^
 ||ad-flow.com^$third-party
 ||ad20.net^$third-party
 ||ad2games.com^$third-party
@@ -7665,6 +7673,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||dt00.net^$domain=~marketgid.com|~marketgid.ru|~marketgid.ua|~mgid.com|~thechive.com
 ||dt07.net^$domain=~marketgid.com|~marketgid.ru|~marketgid.ua|~mgid.com|~thechive.com
 ||e-planning.net^$third-party
+||easyad.com^$third-party
 ||easyhits4u.com^$third-party
 ||ebannertraffic.com^$third-party
 ||ebayobjects.com.au^$third-party
@@ -8251,6 +8260,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||entrecard.com/static/banners/
 ||eplreplays.com/wl/
 ||esport-betting.com^*/betbanner/
+||etrader.kalahari.net^$third-party
 ||eurogrand.com/promoredirect?
 ||everestpoker.com^*/?adv=
 ||expekt.com/affiliates/
@@ -9057,6 +9067,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||satelliteguys.us/burst_header_iframe.
 ||satelliteguys.us/burstbox_iframe.
 ||satelliteguys.us/burstsky_iframe.
+||satopsites.com^*/banners/
 ||scenereleases.info/wp-content/*.swf
 ||scenereleases.info^*/yourprivatevpn.gif
 ||scenicreflections.com/dhtmlpopup/
@@ -12496,6 +12507,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 /quant.js
 /quantcast.js
 /redirectexittrack.php?
+/remote/js_logger.php
 /revenuescience.js
 /revsci.js
 /s.gif?l=
@@ -12695,6 +12707,7 @@ _cedexis.php
 ||counter.gd^$third-party
 ||counter.top.kg^$third-party
 ||counter160.com^$third-party
+||counterbot.com^$third-party
 ||countercentral.com^$third-party
 ||counterland.com^$third-party
 ||counters4u.com^$third-party
