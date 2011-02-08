@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: TKURdMczEb62ICA45HQRuw
+!  Checksum: u6+pyxukhmyv36TsSMfYZA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 07 Feb 2011 21:31:47 +0800
+!  Last Modified:  Wed, 09 Feb 2011 06:17:26 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -221,6 +221,10 @@ topic.csdn.net/u/t5/include/
 ||img.cyzone.cn/ad/
 www.cyzone.cn/bian/pic/top_banner.swf
 img.cyzone.com.cn/customer/$object
+
+!---喷嚏网
+pic.dapenti.com/2011/02/09/dapenti_APL6waZ5_143idp.jpg
+pic.yupoo.com/leoxuan/ANy7yxF8/F0yP5.jpg
 
 !---大洋网
 ||dayoo.com/sta/da.js
@@ -751,9 +755,16 @@ www.wanjuanku.com/flad300209.gif
 news.wenxuecity.com##td[width="300"][valign="top"]
 news.wenxuecity.com##td[width="20"][bgcolor="#f0f0e0"][rowspan="2"]
 
+!---温尼星
+||winnistar.ca/images/star1.jpg
+||winnistar.ca/images/mid.jpg
+||winnistar.ca/images/c_banner.swf
+
 !---尼泊尔华人网
 .com/biz/$domain=manitobacn.com|winnipegchinese.com
-winnipegchinese.com,manitobacn.com##[class^="banner"]
+/js/float.js|$domain=manitobacn.com|winnipegchinese.com
+||manitobacn.com/attachment/Mon_1011/
+||manitobacn.com/attachment/pushpic/
 
 !---完美者
 bbs.anshouji.com/youxiajiao/wmzhe.js
@@ -1136,6 +1147,8 @@ v3.apic.51.com/vda09.js
 ||djkk.com/ak/
 ||dospy.com/hezuo/
 ||static.doyouhike.net/partner/
+||ejiji.com/*.gif
+ejiji.com##.BannerLeft
 eap.enorth.com.cn^
 ||eoemarket.com/eoe/images/banner/
 ||examda.com/examdagg/
@@ -1471,7 +1484,9 @@ qd.code.qihoo.com^$third-party
 ||tuike.cn^$third-party
 ||txjy2008.com^$third-party
 ||u17.com/$third-party
+union.vancl.com^$third-party
 ||ubcpm.com^$third-party
+union.vjia.com^$third-party
 ||ujoin.net^$third-party
 ||u-link.nbb.tw^$third-party
 ||ulink.cc^$third-party
