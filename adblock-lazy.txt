@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: yJyNWBpooO7IKK5vN13erg
+!  Checksum: clIU+AQZtDuUOqczSGpUlQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 09 Feb 2011 16:17:29 +0800
+!  Last Modified:  Thu, 10 Feb 2011 11:25:13 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -1597,6 +1597,7 @@ cdn.hiido.cn^$third-party
 ||twcount.com^$third-party
 look.urs.tw^$third-party
 ||vdoing.com^$third-party
+@@|http://msn.wrating.com/a1.js
 ||wrating.com^$third-party
 
 !-----------------------Element Hiding---------------------
@@ -2077,7 +2078,11 @@ bbs.goapk.com/data/attachment/common/cf/$image
 /ads.jsp
 /ads.php?
 /ads.pl?
+/ads/160.
 /ads/2010/*
+/ads/300.
+/ads/3002.
+/ads/728.
 /ads/cnvideo/*
 /ads/common/*
 /ads/default_
@@ -4812,6 +4817,7 @@ _768x90_
 ###masthead_topad
 ###medRecAd
 ###media_ad
+###mediaplayer_adburner
 ###mediumAdvertisement
 ###medrectad
 ###menuAds
@@ -7718,6 +7724,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||ebannertraffic.com^$third-party
 ||ebayobjects.com.au^$third-party
 ||ebayobjects.com^$third-party
+||ebuzzing.com^$third-party
 ||egamingonline.com^$third-party
 ||ekmas.com^$third-party
 ||emediate.eu^$third-party
@@ -11511,6 +11518,8 @@ theboxotruth.com##table[width="162"]
 theboxotruth.com##td[bgcolor="#ffffff"][width="302"]
 thecelebritycafe.com##table[width="135"][height="240"]
 thecourier.co.uk###sidebarMiddleCol
+thedailybeast.com###bing-module
+thedailybeast.com##.breakout-item
 theeagle.com##.SectionRightRail300x600Box
 theeastafrican.co.ke##.c15r
 thefashionspot.com###roadblock
@@ -13114,6 +13123,7 @@ _cedexis.php
 ||searchfeed.com^$third-party
 ||searchignite.com^$third-party
 ||sedotracker.com^$third-party
+||seehits.com^$third-party
 ||seewhy.com^$third-party
 ||selaris.com^$third-party
 ||sendtraffic.com^$third-party
@@ -13626,6 +13636,7 @@ _cedexis.php
 ||123myip.co.uk/ip-address/
 ||174.129.112.186/small.gif?$third-party
 ||174.129.6.226/tracker/$third-party,domain=~skytide.ip
+||174.129.88.189/partner.gif?$third-party
 ||174.129.98.240/small.gif?$third-party
 ||184.73.199.40/tracker/$third-party,domain=~skytide.ip
 ||184.73.199.44/tracker/$third-party,domain=~skytide.ip
@@ -13817,6 +13828,7 @@ _cedexis.php
 ||phoenix.untd.com^
 ||pixel.tree.com^
 ||planet49.com/log/
+||playtomic.com/tracker/
 ||plugins.longtailvideo.com/googlytics
 ||plugins.longtailvideo.com/yourlytics
 ||pr.blogflux.com^
@@ -13996,6 +14008,7 @@ _cedexis.php
 ||tracking.mindshare.de^
 ||tracking.promiflash.de^
 ||tracknet.twyn.com^
+||uni-duesseldorf.de/cgi-bin/nph-count?
 ||uni-leipzig.de^*/stats/
 ||webcounter.goweb.de^
 ||wrmwb.7val.com^
@@ -14608,6 +14621,7 @@ _cedexis.php
 ||yahoo.com^*/pageview/$subdocument
 ||yahoo.com^*/ystat.js
 ||yellowpages.com/images/logging_requests.gif
+||yorkshirepost.co.uk/js/webtrends/
 ||youtube.com/gen_204?
 ||youtube.com/generate_204
 ||youtube.com/player_204?
