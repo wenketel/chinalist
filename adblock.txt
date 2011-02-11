@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 8Heil/iWVf0a8iL1tzt4sw
+!  Checksum: nZ9F6Uv2yxSpr1wSayxVpw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 11 Feb 2011 15:43:50 +0800
+!  Last Modified:  Fri, 11 Feb 2011 15:58:55 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -499,6 +499,11 @@ ph66.com##[id*="ad"]
 api.pixnet.tv/count?
 referer.pixplug.in^
 pixnet.net##.ad
+
+!---代理中国
+||s5proxy.com^$subdocument
+www.s5proxy.com/img/socks5_40080.gif
+||proxycn.com/worldpeace/qq/qq7.js
 
 !---V游网
 ||verypsp.com/bd.html
