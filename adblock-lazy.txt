@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: knSBbCf9KwRTou7Ym5Yxaw
+!  Checksum: yjbSswj7aTqNmxlBD/niQA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 14 Feb 2011 09:48:07 +0800
+!  Last Modified:  Mon, 14 Feb 2011 21:39:43 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -583,16 +583,16 @@ dailynews.sina.com##.TopNav+table
 !--sina.com.cn
 @@data.*.sina.com.cn^
 @@|http://down*.tech.sina.com.cn/$script,subdocument
-@@||sinaimg.cn/dy/deco/2010/0527/headcj.js
 |http://d*.sina.com.cn^$domain=~slide.2010.sina.com.cn,~stylesheet
 bj.house.sina.com.cn/iframe/$subdocument,script
 ||sinaimg.cn/dy/deco/$script
 ||sinaimg.cn/unipro/
-pfp.sina.com.cn^
+pfp.sina.com.cn^$domain=~video.sina.com.cn
 rm.sina.com.cn^
 ent.sina.com.cn/iframe/135/2008/0721/14.html
 !--video
-you.video.sina.com.cn/js/pg/play/vblogPop.js
+@@||dcads.sina.com.cn^$domain=video.sina.com.cn
+@@||sina.com.cn/js/14/2010/0126/6.js
 video.sina.com.cn/iframe/$subdocument
 ||v.sina.com.cn/v/iframe/$subdocument
 !--sports
