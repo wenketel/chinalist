@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 69GwybxWhB4C9zktqp5BoQ
+!  Checksum: knSBbCf9KwRTou7Ym5Yxaw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 12 Feb 2011 00:15:26 +0800
+!  Last Modified:  Mon, 14 Feb 2011 09:48:07 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -626,25 +626,22 @@ biz.shm.com.cn^$object
 shm.com.cn##.surround
 
 !---Sogou
-||sogou.com/js/*ad.js
-brand.sogou.com^
+||brand.sogou.com^
+||inte.sogou.com^
 pb.sogou.com^
 v.sogou.com##.box123
 www.sogou.com##div#leftcolumn>div.right
 
 !---Sohu
 ||sohu.com/bill/
-images.sohu.com/cs/$domain=~wenda.sogou.com|~blog.sohu.com
+images.sohu.com/cs/htmlfile/brand/
 images.sohu.com/sms/
-||pp.sohu.com.cn/ppp/bms/bms.popup.v.5.js
 js.sohu.com/track/
 sohu.com,chinaren.com##sohuadcode
 sohu.com###ad_TOP
 sohu.com##[class^="contAD"]
 news.sohu.com###adList
 news.sohu.com##div.left>h2>span
-www.sohu.com###FLOAT2
-www.sohu.com##[id^="COUPLET"]
 
 !---东菀阳光网
 ||sun0769.com/wwwimg/sungg/
@@ -1950,6 +1947,7 @@ bbs.goapk.com/data/attachment/common/cf/$image
 /adf.cgi?
 /adfactory.
 /adfarm.
+/adfeedtestview.
 /adfetch?
 /adfetcher?
 /adfever_
@@ -1985,7 +1983,6 @@ bbs.goapk.com/data/attachment/common/cf/$image
 /adiframem1.
 /adiframem2.
 /adiframetop.
-/adify-
 /adify_box.
 /adify_leader.
 /adify_sky.
@@ -2092,6 +2089,7 @@ bbs.goapk.com/data/attachment/common/cf/$image
 /ads/300.
 /ads/3002.
 /ads/728.
+/ads/banner.
 /ads/cnvideo/*
 /ads/common/*
 /ads/default_
@@ -2172,6 +2170,7 @@ bbs.goapk.com/data/attachment/common/cf/$image
 /adserver2.
 /adserver2/*
 /adserver7/*
+/adserver8strip.
 /adserver?
 /adserver_
 /adserversolutions/*
@@ -2335,6 +2334,7 @@ bbs.goapk.com/data/attachment/common/cf/$image
 /affads/*
 /affclick/*
 /affilatebanner.
+/affiliate/ads/*
 /affiliate/banners/*
 /affiliate/script.php?
 /affiliate/scripts/*
@@ -2780,6 +2780,7 @@ bbs.goapk.com/data/attachment/common/cf/$image
 /main_ad.
 /main_ad/*
 /mainad.
+/marketing-banners/*
 /mbn_ad.
 /mcad.php
 /media/ads/*
@@ -2900,6 +2901,7 @@ bbs.goapk.com/data/attachment/common/cf/$image
 /printads/*
 /processads.
 /promo/ad_
+/promoads/*
 /promobuttonad.
 /promotions/ads.
 /promotions/ads?
@@ -3364,6 +3366,7 @@ z/adx.js
 -120x600-
 -120x600.
 -160x600.
+-300x250.
 -468-60.
 -468_60.
 -468x60-
@@ -4273,7 +4276,7 @@ _768x90_
 ###advertisment
 ###advertismentElementInUniversalbox
 ###advertorial
-~markt.de###adverts
+~chickenlicken.co.za,~markt.de###adverts
 ###adverts-top-container
 ###adverts-top-left
 ###adverts-top-middle
@@ -4438,6 +4441,7 @@ _768x90_
 ###cnnTopAd
 ###cnnVPAd
 ###col3_advertising
+###colAd
 ###colRightAd
 ###collapseobj_adsection
 ###column4-google-ads
@@ -5266,6 +5270,7 @@ _768x90_
 ###video_overlay_ad
 ###videoadlogo
 ###viewportAds
+###viewvid_ad300x250
 ###walltopad
 ###weblink_ads_container
 ###welcomeAdsContainer
@@ -5920,6 +5925,7 @@ _768x90_
 ##.adinside
 ##.adintro
 ##.adjlink
+##.adkicker
 ##.adkit
 ##.adkit-advert
 ##.adkit-lb-footer
@@ -6668,6 +6674,7 @@ _768x90_
 ##.in-page-ad
 ##.in-story-ads
 ##.in-story-text-ad
+##.indEntrySquareAd
 ##.indie-sidead
 ##.indy_googleads
 ##.inhousead
@@ -6719,6 +6726,7 @@ _768x90_
 ##.leftAd
 ##.leftAdColumn
 ##.leftAds
+##.left_ad
 ##.left_ad_box
 ##.left_adlink
 ##.left_ads
@@ -6726,6 +6734,7 @@ _768x90_
 ##.leftadtag
 ##.leftbar_ad_160_600
 ##.leftbarads
+##.leftbottomads
 ##.leftnavad
 ##.lgRecAd
 ##.lg_ad
@@ -6748,6 +6757,7 @@ _768x90_
 ##.macAd
 ##.macad
 ##.main-ad
+##.main-advert
 ##.main-tabs-ad-block
 ##.main_ad
 ##.main_ad_bg_div
@@ -6757,6 +6767,7 @@ _768x90_
 ##.marginadsthin
 ##.marketing-ad
 ##.masthead_topad
+##.matador_sidebar_ad_600
 ##.mdl-ad
 ##.media-advert
 ##.mediaAd
@@ -7005,6 +7016,7 @@ _768x90_
 ##.serp_sponsored
 ##.servsponserLinks
 ##.shoppingGoogleAdSense
+##.showcaseAd
 ##.sidbaread
 ##.side-ad
 ##.side-ads
@@ -7492,6 +7504,8 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||adsfactor.net^$third-party
 ||adsfast.com^$third-party
 ||adsforindians.com^$third-party
+||adsfundi.com^$third-party
+||adsfundi.net^$third-party
 ||adsfuse.com^$third-party
 ||adshopping.com^$third-party
 ||adshuffle.com^$third-party
@@ -7502,6 +7516,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||adspeed.com^$third-party
 ||adsrevenue.net^$third-party
 ||adsupermarket.com^$third-party
+||adsvert.com^$third-party
 ||adswizz.com^$third-party
 ||adtaily.com^$third-party
 ||adtaily.eu^$third-party
@@ -7546,6 +7561,10 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||adzerk.net^$third-party
 ||afcyhf.com^$third-party
 ||aff.biz/$third-party
+||affbot1.com^$third-party
+||affbot3.com^$third-party
+||affbot7.com^$third-party
+||affbot8.com^$third-party
 ||affiliate.com^$third-party
 ||affiliate.cx^$third-party
 ||affiliatefuel.com^$third-party
@@ -7976,6 +7995,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||paperg.com^$third-party
 ||partner.video.syndication.msn.com^$~object_subrequest,third-party
 ||partypartners.com^$third-party
+||paygear.com^$third-party
 ||payperpost.com^$third-party
 ||pc-ads.com^$third-party
 ||peer39.net^$third-party
@@ -8050,6 +8070,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||sbaffiliates.com^$third-party
 ||scanscout.com^$third-party
 ||search123.uk.com^$third-party
+||secure-softwaremanager.com^$third-party
 ||securewebsiteaccess.com^$third-party
 ||selsin.net^$third-party
 ||sendptp.com^$third-party
@@ -8228,6 +8249,8 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 !-----------------Third-party adverts-----------------!
 ! *** easylist/easylist_thirdparty.txt ***
 ||000webhost.com/images/banners/
+||110mb.com/images/banners/
+||1page.co.za/affiliate/
 ||208.43.84.120/trueswordsa3.gif$third-party
 ||21nova.com/promodisplay?
 ||21nova.com/promoredirect?
@@ -8252,6 +8275,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||affiliate.hotelkhoj.com^
 ||affiliate.moveandstay.com^$third-party
 ||affiliates.a2hosting.com^
+||affiliates.affiliatestar.com^
 ||affiliates.allposters.com^
 ||affiliates.betwize.com^
 ||affiliates.bhphotovideo.com^
@@ -8261,6 +8285,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||affiliates.jlist.com^
 ||affiliates.justhost.com^
 ||affiliates.supergreenhosting.com^
+||affiliates.ticketnetwork.com^
 ||affiliates.ufxpartners.com^
 ||affiliation.fotovista.com^
 ||affutdmedia.com^$third-party
@@ -8275,6 +8300,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||autoprivileges.net/news/
 ||award.sitekeuring.net^
 ||aweber.com/banners/
+||axandra.com/affiliates/
 ||b.livesport.eu^
 ||b.sell.com^$third-party
 ||b92.putniktravel.com^
@@ -8300,6 +8326,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||bittorrent.am/serws.php?$third-party
 ||blissful-sin.com/affiliates/
 ||box.anchorfree.net^
+||bpath.com/affiliates/
 ||bplaced.net/pub/
 ||bravenet.com/cserv.php?
 ||break.com/ads/preroll/
@@ -8337,6 +8364,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||esport-betting.com^*/betbanner/
 ||etrader.kalahari.net^$third-party
 ||eurogrand.com/promoredirect?
+||europolitique.info^*/pub/
 ||everestpoker.com^*/?adv=
 ||expekt.com/affiliates/
 ||facebook.com/whitepages/wpminiprofile.php?partner_id=$third-party
@@ -8353,6 +8381,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||freakshare.net/banner/
 ||free-football.tv/images/usd/
 ||freecycle.org^*/sponsors/
+||freetrafficsystem.com/fts/ban/
 ||frogatto.com/images/$third-party
 ||frontsight.com^*/banners/
 ||fugger.netfirms.com/moa.swf$third-party
@@ -8362,6 +8391,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||gamersaloon.com/images/banners/
 ||gamestop.com^*/aflbanners/
 ||gawkerassets.com/assets/marquee/$object,third-party
+||geostring.com/banners/
 ||get.box24casino.com^$third-party
 ||get.rubyroyal.com^$third-party
 ||get.slotocash.com^$third-party
@@ -8412,10 +8442,12 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||liveshows.com^*/live.js$third-party
 ||longtailvideo.com/ltas.swf$third-party
 ||lowbird.com/random/$third-party
+||mahndi.com/images/banner/
 ||marketing.888.com^
 ||marketsamurai.com/affiliate/
 ||mastiway.com/webimages/$third-party
 ||match.com^*/prm/$third-party
+||matrixmails.com/images/$third-party
 ||mazda.com.au/banners/
 ||media-toolbar.com^$third-party
 ||media.onlineteachers.co.in^$third-party
@@ -8429,6 +8461,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||mp3ix.com^$third-party
 ||mto.mediatakeout.com^$third-party
 ||my-dirty-hobby.com/getmdhlink.$third-party
+||my-dirty-hobby.com/track/$subdocument,third-party
 ||mydirtyhobby.com/?sub=$third-party
 ||mydirtyhobby.com/banner/$third-party
 ||mydirtyhobby.com/custom/$third-party
@@ -8528,6 +8561,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||themes420.com/bnrsbtns/
 ||themis-media.com^*/sponsorships/
 ||ticketmaster.com/promotionalcontent/
+||ticketnetwork.com/images/affiliates/
 ||tigerdirect.com^*/affiliate_
 ||top5result.com/promo/
 ||toptenreviews.com/widgets/af_widget.js$third-party
@@ -8561,6 +8595,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||williamhillcasino.com/promoredirect?
 ||wonderlabs.com/affiliate_pro/banners/
 ||ws.amazon.*/widgets/q?$third-party
+||xara.com/affiliate/
 ||xgaming.com/rotate*.php?$third-party
 ||xml.exactseek.com/cgi-bin/js-feed.cgi?$third-party
 ||yieldmanager.edgesuite.net^
@@ -8807,7 +8842,6 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||feedsportal.com/videoserve/flowplayer.commercial-$object
 ||ffiles.com/counters.js
 ||fgfx.co.uk/banner.js?
-||fhm.co.za/media/fhm_coza/cellc.jpg
 ||filebase.to/gfx/*.jpg
 ||filebase.to/xtend/
 ||filebase.to^*/boxy.js
@@ -9088,6 +9122,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||pcpro.co.uk/images/skins/
 ||pcpro.co.uk^*/pcprositeskin
 ||pcpro.co.uk^*skin_wide.
+||pcr-online.biz/static/banners/
 ||pcworld.idg.com.au/files/skins/
 ||pedestrian.tv/_crunk/wp-content/files_flutter/
 ||pettube.com/images/*-partner.
@@ -9134,6 +9169,8 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||qrz.com/pix/*.gif
 ||qualityhealth.com^*/banner.jsp?
 ||querverweis.net/pu.js
+||quickload.to/pub/rdm/divx.top.banner.
+||quickload.to/res/gr/divx.view.png
 ||quickload.to^*/blase.js
 ||quickload.to^*/blase1.js
 ||quickload.to^*/blase2.js
@@ -9252,6 +9289,10 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||theleader.info/banner
 ||themis-media.com/media/global/images/cskins/
 ||themis.yahoo.com^
+||themusicbay.com/bottom728.html
+||themusicbay.com/left.html
+||themusicbay.com/right.html
+||themusicbay.com/top468.html
 ||thenationonlineng.net^*/banners/
 ||thepeninsulaqatar.com^*/banners/
 ||thepiratebay.org/img/bar.gif
@@ -9343,6 +9384,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||zam.com/i/promos/*-skin.
 ||zambiz.co.zm/banners/
 ||zanews.co.za^*/banners/
+||zigzag.co.za/images/oww-
 ||zonein.tv/adds.php
 ||zonein.tv/adds1.php
 ||zonein.tv/addsz.php
@@ -9484,6 +9526,7 @@ arabianbusiness.com###banner-container
 arabiclookup.com##td[style="width: 156px; border-style: solid; text-align: center;"]
 arabiclookup.com##td[style="width: 157px; border-style: solid; text-align: left;"]
 arabnews.com##div[style="width: 336px; height: 280px; margin: 10px auto;"]
+archiv.to###banner-container
 armorgames.com###click_left_skin
 armorgames.com###click_right_skin
 armorgames.com###leaderboard
@@ -10027,6 +10070,7 @@ euronews.net##.google-banner
 europolitics.info##.publicite1
 euroweek.com##.bnr-top
 everyjoe.com##.ad
+evilchili.com###overlayVid
 eweek.com###Table_01
 eweek.com###hp_special_reports
 eweek.com###syndication
@@ -10101,9 +10145,11 @@ finance.yahoo.com###yfi_pf_ysm
 finance.yahoo.com###yfi_ysm
 finance.yahoo.com##.ad
 finance.yahoo.com##.ysm
+financenews.co.uk###ads
 financialpost.com###npLeaderboardRow
 findfiles.com##.tvisible[width="468"][cellspacing="0"][cellpadding="0"][bgcolor="#ffffff"][align="center"]
 firewallguide.com##td[width="300"][height="250"]
+five.tv##.ad
 flashgot.net##.tla
 flashscore.com##div[style="height: 240px ! important;"]
 flashscore.com##div[style="height: 90px ! important;"]
@@ -10397,6 +10443,7 @@ informationmadness.com###ja-topsl
 informationweek.com###buylink
 informationweek.com##.ad
 informit.com###leaderboard
+infosecurity-magazine.com##.skyscraper
 infoworld.com##.recRes_head
 inquirer.net###bottom_container
 inquirer.net###leaderboard_frame
@@ -10416,6 +10463,7 @@ internet.com###contentmarketplace
 internet.com###mbEnd
 internet.com##.ch
 internetevolution.com##div[style="border: 2px solid rgb(230, 230, 230); margin-top: 30px;"]
+inthenews.co.uk###top-banner
 investopedia.com###leader
 investopedia.com##.mainbodyleftcolumntrade
 investopedia.com##.partner-center
@@ -10526,6 +10574,7 @@ justin.tv###iphone_banner
 kaldata.net###header2
 katu.com###mrktplace_tabbed
 katu.com##.callout
+katu.com##.fisher468
 katz.cd###spon
 katzforums.com###aff
 keepvid.com##.sponsors-s
@@ -11174,6 +11223,7 @@ popularmechanics.com###circ300x200
 popularmechanics.com###circ300x300
 popularmechanics.com###circ620x100
 popularscreensavers.com###topFooter
+portlandmonthlymag.com##.adlabel
 post-trib.com###zip2save_link_widget
 powerbot.org##div[style="margin: 0pt auto; padding-bottom: 1em;"]
 press-citizen.com##.rightrail-promo
@@ -11206,6 +11256,7 @@ qj.net###shoppingapi
 quackit.com###rightColumn
 quackit.com##div[style="margin: auto; width: 180px; height: 250px; text-align: center; background: url(\"/pix/ads/ad_zappyhost_search_box_180x250.gif\") no-repeat scroll left top rgb(255, 255, 255);"]
 querverweis.net##.iframe_box
+quickload.to##a[href="http://www.quickload.to/Usenet.exe"]
 quickload.to##a[href^="http://www.quickload.to/click.php?id="]
 quicksilverscreen.com##a[href="http://www.tubeplus.com"]
 quicksilverscreen.com##a[href^="http://install.secure-softwaremanager.com/"]
@@ -11669,6 +11720,7 @@ tomsgames.it###pub_header
 tomsguide.com##.sideOffers
 tomwans.com##a.big_button[target="_blank"]
 toofab.com###leaderboard
+tooshocking.com###overlayVid
 top4download.com##div[style="float: left; width: 620px; height: 250px; clear: both;"]
 top4download.com##div[style="width: 450px; height: 205px; clear: both;"]
 topgear.com###skyscraper
@@ -11844,7 +11896,11 @@ walyou.com##.ad
 warez-files.com##.premium_results
 warezchick.com##div.top > p:last-child
 warezchick.com##img[border="0"]
+warezforum.info###rs
+warezforum.info##.button_dl
+warezforum.info##.button_dl1
 warezforum.info##a[href^="http://gorillaserver.net/"]
+warezforum.info##img[width="500"][height="70"]
 warezforum.info##img[width="728"][height="90"]
 warezhaven.org##img[width="468"][height="60"]
 warezlobby.org##img[width="728"][height="90"]
@@ -12027,6 +12083,8 @@ zdnet.com##.skinClick
 zedomax.com##.entry > div[style="width: 100%; height: 280px;"]
 zedomax.com##.entry > div[style="width: 336px; height: 280px;"]
 zeenews.com##.ban-720-container
+zigzag.co.za###imageLeft
+zigzag.co.za###imageRight
 zigzag.co.za##td[width="300"][height="250"]
 zippyshare.com##.center_reklamy
 zomganime.com##a[href="http://fs.game321.com/?utm_source=zomganime&utm_medium=skin_banner&utm_term=free&utm_campaign=fs_zomg_skin"]
@@ -12145,6 +12203,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||cdn.springboard.gorillanation.com/storage/lightbox_code/static/companion_ads.js$domain=comingsoon.net|gamerevolution.com
 @@||channel4.com/media/scripts/oasconfig/siteads.js
 @@||chibis.adotube.com/appruntime/player/$object,object_subrequest
+@@||chickenlicken.co.za/images/menu/adverts*.gif
 @@||chloe.videogamer.com/data/*/videos/adverts/$object_subrequest
 @@||cisco.com/html.ng/site=cdc&concept=products$script
 @@||clustrmaps.com/images/clustrmaps-back-soon.jpg$third-party
@@ -12275,7 +12334,6 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||o.aolcdn.com/ads/adswrapper.js$domain=photos.tmz.com
 @@||oas.absoluteradio.co.uk/realmedia/ads/$object_subrequest
 @@||oas.bigflix.com/realmedia/ads/$object_subrequest
-@@||oas.five.tv/realmedia/ads/adstream_sx.ads/demand.five.tv/$object_subrequest
 @@||oascentral.feedroom.com/realmedia/ads/adstream_sx.ads/$script,domain=businessweek.com|economist.com|feedroom.com|stanford.edu
 @@||oascentral.surfline.com/realmedia/ads/adstream_sx.ads/www.surfline.com/articles$object_subrequest
 @@||objects.tremormedia.com/embed/js/$domain=bostonherald.com|deluxetelevision.com|theunlockr.com
@@ -12663,6 +12721,9 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 /statcountex/count.asp?
 /stateye/*
 /statsadvance.js
+/statscript.js
+/stwc-counter/*
+/stwc/code.js
 /tacoda_ams_ddc_header.js
 /tagomnitureengine.js
 /tc_logging.js
@@ -12707,6 +12768,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 /yalst/pixel*.php?
 /zag.gif?
 ?_siteid=
+?stwc_cz=
 ?wpgb_public_action=*&referrer=
 _cedexis.php
 |http://c.*/c.gif?
@@ -12719,6 +12781,7 @@ _cedexis.php
 ! *** easyprivacy/easyprivacy_trackingservers.txt ***
 ||103bees.com^$third-party
 ||123count.com^$third-party
+||1freecounter.com^$third-party
 ||24counter.com^$third-party
 ||24log.com^$third-party
 ||2cnt.net^$third-party
@@ -12734,6 +12797,7 @@ _cedexis.php
 ||79.125.117.123^$third-party
 ||7bpeople.com^$third-party
 ||99counters.com^$third-party
+||a-counters.com^$third-party
 ||aaddzz.com^$third-party
 ||abcstats.com^$third-party
 ||abmr.net^
@@ -12747,7 +12811,7 @@ _cedexis.php
 ||adelixir.com^$third-party
 ||ademails.com^$third-party
 ||adgreed.com^$third-party
-||adku.co^$third-party
+||adku.co/$third-party
 ||adnxs.com^$third-party
 ||adsensedetective.com^$third-party
 ||adsummos.net^$third-party
@@ -12767,6 +12831,7 @@ _cedexis.php
 ||avazudsp.net^$third-party
 ||axf8.net^$third-party
 ||baptisttop1000.com^$third-party
+||basicstat.com^$third-party
 ||baynote.net^$third-party
 ||bebj.com^$third-party
 ||belstat.at^$third-party
@@ -12855,6 +12920,7 @@ _cedexis.php
 ||countercentral.com^$third-party
 ||counterland.com^$third-party
 ||counters4u.com^$third-party
+||counterservis.com^$third-party
 ||countertracker.com^$third-party
 ||countomat.com^$third-party
 ||cpmadvisors.com^$third-party
@@ -12895,6 +12961,7 @@ _cedexis.php
 ||easy-hit-counters.com^$third-party
 ||easycounter.com^$third-party
 ||easyhitcounters.com^$third-party
+||ecommstats.com^$third-party
 ||effectivemeasure.net^$third-party
 ||elitics.com^$third-party
 ||eloqua.com^$third-party
@@ -12927,12 +12994,14 @@ _cedexis.php
 ||ewebcounter.com^$third-party
 ||extreme-dm.com^$third-party
 ||ezytrack.com^$third-party
+||fastanalytic.com^$third-party
 ||fastonlineusers.com^$third-party
 ||fastwebcounter.com^$third-party
 ||fbgdc.com^$third-party
 ||feedjit.com^$third-party
 ||fetchback.com^$third-party
 ||finalid.com^$third-party
+||fishhoo.com^$third-party
 ||flagcounter.com^$third-party
 ||flash-counter.com^$third-party
 ||flashadengine.com^$third-party
@@ -13013,6 +13082,8 @@ _cedexis.php
 ||ip2phrase.com^$third-party
 ||ipcatch.com^$third-party
 ||iperceptions.com^$third-party
+||iplocationtools.com^$third-party
+||ipstat.com^$third-party
 ||ipv6monitoring.eu^$third-party
 ||irelandmetrix.ie^$third-party
 ||ist-track.com^$third-party
@@ -13059,6 +13130,7 @@ _cedexis.php
 ||maxymiser.com^$third-party
 ||measuremap.com^$third-party
 ||mediaforgews.com^$third-party
+||mega-stats.com^$third-party
 ||mercadoclics.com^$third-party
 ||mercent.com^$third-party
 ||meteorsolutions.com^$third-party
@@ -13104,6 +13176,7 @@ _cedexis.php
 ||observerapp.com^$third-party
 ||odoscope.com^$third-party
 ||offermatica.com^$third-party
+||olark.com^$third-party
 ||omeda.com^$third-party
 ||omtrdc.net^$third-party
 ||onestat.com^$third-party
@@ -13142,7 +13215,6 @@ _cedexis.php
 ||pulsemgr.com^$third-party
 ||pureairhits.com^$third-party
 ||q-counter.com^$third-party
-||quantcast.com^$third-party
 ||quantserve.com^$third-party
 ||quillion.com^$third-party
 ||quintelligence.com^$third-party
@@ -13153,10 +13225,12 @@ _cedexis.php
 ||reachforce.com^$third-party
 ||readertracking.com^$third-party
 ||realcounter.eu^$third-party
+||realcounters.com^$third-party
 ||realtracker.com^$third-party
 ||redcounter.net^$third-party
 ||referforex.com^$third-party
 ||reinvigorate.net^$third-party
+||relmaxtop.com^$third-party
 ||res-x.com^$third-party
 ||researchnow.co.uk^$third-party
 ||revolvermaps.com^$third-party
@@ -13210,12 +13284,15 @@ _cedexis.php
 ||sptag1.com^$third-party
 ||sptag2.com^$third-party
 ||sptag3.com^$third-party
+||spycounter.net^$third-party
 ||stat08.com^$third-party
 ||stat24.com^$third-party
 ||statcount.com^$third-party
 ||statcounter.com^$third-party
 ||statistx.com^$third-party
 ||stats2.com^$third-party
+||stats4you.com^$third-party
+||statsbox.nl^$third-party
 ||statsit.com^$third-party
 ||statssheet.com^$third-party
 ||stattooz.com^$third-party
@@ -13225,6 +13302,7 @@ _cedexis.php
 ||submitnet.net^$third-party
 ||superstats.com^$third-party
 ||surfcounters.com^$third-party
+||surfertracker.com^$third-party
 ||svlu.net^$third-party
 ||swfstats.com^$third-party
 ||swiss-counter.com^$third-party
@@ -13273,7 +13351,7 @@ _cedexis.php
 ||turn.com^$third-party
 ||twittercounter.com^$third-party
 ||tynt.com^$third-party
-||u5e.com^$third-party
+||u5e.com/$third-party
 ||urlself.com^$third-party
 ||useronlinecounter.com^$third-party
 ||valuedopinions.co.uk^$third-party
@@ -13325,6 +13403,7 @@ _cedexis.php
 ||xiti.com^$third-party
 ||yieldoptimizer.com^$third-party
 ||yieldsoftware.com^$third-party
+||your-counter.be^$third-party
 ||zesep.com^$third-party
 ||zoomflow.com^$third-party
 !-----------------International third-party tracking domains-----------------!
@@ -13523,6 +13602,7 @@ _cedexis.php
 ||wemfbox.ch^$third-party
 ||wwa.wipe.de^$~script,third-party
 ||xa-counter.com^$third-party
+||xl-counti.com^$third-party
 ||xplosion.de^$third-party
 ||yoochoose.net^$third-party
 ||zaehler.tv^$third-party
@@ -13546,6 +13626,7 @@ _cedexis.php
 !Chinese
 ||51yes.com^$third-party
 ||99click.com^$third-party
+||clicki.cn^$third-party
 ||datamaster.com.cn^$third-party
 ||oadz.com^$third-party
 ||users.51.la^$third-party
@@ -13555,7 +13636,9 @@ _cedexis.php
 ||netagent.cz^$third-party
 ||toplist.cz^$third-party
 !Danish
+||andersenit.dk^$third-party
 ||chart.dk^$third-party
+||gixmo.dk^$third-party
 ||hitcount.dk^$third-party
 ||infocollect.dk^$third-party
 ||livecounter.dk^$third-party
@@ -13564,13 +13647,16 @@ _cedexis.php
 ||netstats.dk^$third-party
 ||parameter.dk^$third-party
 ||peakcounter.dk^$third-party
+||sitechart.dk^$third-party
 ||tns-gallup.dk^$third-party
 ||zipstat.dk^$third-party
 !Dutch
+||active24stats.nl^$third-party
 ||istats.nl^$third-party
 ||metriweb.be^$third-party
 ||mtrack.nl^$third-party
 ||mystats.nl^$third-party
+||stealth.nl^$third-party
 ||traffic4u.nl^$third-party
 !Estonian
 ||mediaindex.ee^$third-party
@@ -13618,6 +13704,7 @@ _cedexis.php
 ||webmeter.ws^$third-party
 ||webmobile.ws^$third-party
 !Japanese
+||a-cast.jp^$third-party
 ||blogranking.net^$third-party
 ||e-kaiseki.com^$third-party
 ||research-artisan.com^$third-party
@@ -13627,12 +13714,23 @@ _cedexis.php
 ||logger.co.kr^$third-party
 !Latvian
 ||puls.lv/$third-party
+||statistika.lv^$third-party
+||textads.lv^$third-party
+||webstatistika.lv^$third-party
+!Lithuanian
+||easy.lv/$third-party
+||reitingas.lt^$third-party
+||stats.lt^$third-party
+||visits.lt^$third-party
+||www.hey.lt^$third-party
 !Norwegian
 ||webstat.no^$third-party
 ||xtractor.no^$third-party
 !Persian
 ||persianstat.com^$third-party
 ||persianstat.ir^$third-party
+||webgozar.com^$third-party
+||webgozar.ir^$third-party
 !Polish
 ||adstat.4u.pl^$third-party
 ||gemius.pl^$third-party
@@ -13650,10 +13748,12 @@ _cedexis.php
 ||trafic.ro^$third-party
 !Russian
 ||24log.ru^$third-party
+||cnstats.ru^$third-party
 ||gostats.ru^$third-party
 ||hotlog.ru^$third-party
 ||kmindex.ru^$third-party
 ||luxup.ru^$third-party
+||mediaplan.ru^$third-party
 ||openstat.net^$third-party
 ||proext.com^$third-party
 ||spylog.com^$third-party
@@ -13689,10 +13789,12 @@ _cedexis.php
 ||sayyac.com^$third-party
 ||sayyac.net^$third-party
 ||webservis.gen.tr^$third-party
+||zirve100.com^$third-party
 !Ukranian
 ||c.hit.ua^$third-party
 ||mycounter.com.ua^$third-party
 ||mycounter.ua^$third-party
+||uapoisk.net^$third-party
 ||weblog.com.ua^$third-party
 !-----------------Third-party tracking services-----------------!
 ! *** easyprivacy/easyprivacy_thirdparty.txt ***
@@ -13782,9 +13884,12 @@ _cedexis.php
 ||collection.acromas.com^
 ||comet.ibsrv.net^
 ||communicatorcorp.com^*/conversiontracking.js
+||count.me.uk^
 ||count.paycounter.com^
 ||counter.htmlvalidator.com^
+||counter.pagesview.com^
 ||counter.pax.com^
+||counter.sparklit.com^
 ||counter.webmasters.bpath.com^
 ||counter.yadro.ru^
 ||counters.freewebs.com^
@@ -13800,6 +13905,7 @@ _cedexis.php
 ||domodomain.com^*/ddsense.aspx?
 ||doug1izaerwt3.cloudfront.net^
 ||dw.com.com^
+||ecommstats.s3.amazonaws.com^$third-party
 ||ecustomeropinions.com/survey/nojs.php?
 ||ecustomeropinions.com^*/i.php?
 ||elogicwebsolutions.com/cgi-bin/statcount.pl?
@@ -13918,6 +14024,7 @@ _cedexis.php
 ||seg.sharethis.com^
 ||serifwebresources.com/control.php?
 ||sitereports.officelive.com^
+||spaceprogram.com/webstats/
 ||sparklit.com/counter/
 ||statistics.infowap.info^
 ||statistics.wibiya.com^
@@ -14084,6 +14191,7 @@ _cedexis.php
 !French
 ||free.fr/cgi-bin/wwwcount.cgi?
 ||i-services.net^*/compteur.php?
+||nvc.n1bus-exp.com^
 ||piximedia.fr^*/track2.php?
 ||scriptsgratuits.com/sg/stats/
 ||stat.prsmedia.fr^
@@ -14092,7 +14200,12 @@ _cedexis.php
 ||wrating.com/a.gif?
 ||wrating.com/a1.js
 !Danish
+||blogtoppen.dk^*/bt_tracker.js
 ||counter.nope.dk^$third-party
+||newbie.dk/topref.php?
+||newbie.dk^*/counter.php?
+||wee.dk/modules/$third-party
+||wwwportal.dk/statistik.php
 !Dutch
 ||marktplaats.net/cnt/
 !Finnish
@@ -14130,9 +14243,13 @@ _cedexis.php
 !Japanese
 ||otoshiana.com/ufo/
 ||rd.rakuten.co.jp^
-!Persian
-||webgozar.com^
-||webgozar.ir^
+!Latvian
+||counter.hackers.lv^
+!Lithuanian
+||counter.top.dating.lt^
+||counter.top.dkd.lt^
+||top.chebra.lt^$third-party
+||top.dating.lt^$third-party
 !Polish
 ||cafenews.pl/mpl/pageview.ashx?
 ||liczniki.org/hit.php
@@ -14250,7 +14367,7 @@ _cedexis.php
 ||c.microsoft.com^
 ||cafepress.*/trafficcookie.js
 ||carmax.com/ping?
-||cbc.ca^*/stats/
+||cbc.ca/g/stats/
 ||cbox.ws^*/relay.swf?host=
 ||cbsnews.com/i/trk/j.gif?
 ||cd.musicmass.com^
@@ -14353,6 +14470,7 @@ _cedexis.php
 ||geo.yahoo.com^
 ||geoip.mlive.com^
 ||geoip.nola.com^
+||geoip.oregonlive.com^
 ||geoiplookup.wikimedia.org^
 ||ghostery.com^*/clicky.js
 ||go.com/stat/
@@ -14365,6 +14483,7 @@ _cedexis.php
 ||greatschools.org/res/js/trackit.js
 ||guim.co.uk^*/sophusthree-tracking.js
 ||harrisbank.com^*/zig.js
+||hemeltoday.co.uk/js/webtrends/
 ||heraldm.com/tracker.tsp?
 ||hitcount.heraldm.com^
 ||holiday-rentals.co.uk/thirdparty/tag
@@ -14400,6 +14519,7 @@ _cedexis.php
 ||jtv.com^*/__analytics-tracking?
 ||justanswer.com/browsercheck/
 ||kalahari.net/includes/swatag.js
+||katu.com/boost_stats.php?
 ||kelkoo.co.uk^*/tracker/
 ||kidc.net/tracker.tsp?
 ||killerstartups.com^*/adsensev
@@ -14569,6 +14689,7 @@ _cedexis.php
 ||stats.ft.com^
 ||stats.ign.com^
 ||stats.justin.tv^
+||stats.paste2.org^
 ||stats.paypal.com^
 ||stats.piaggio.com^
 ||stats.propublica.org^
@@ -14860,6 +14981,7 @@ _cedexis.php
 ||s.fsphp.t-online.de^
 ||salzburg.com/nwas/count.php?
 ||shortnews.de/iframes/view_news.cfm?
+||stargate-planet.de^*counter*/c$image,script
 ||stats.bmw.de^
 ||stats.daserste.de^
 ||sueddeutsche.de/l.gif?
@@ -14948,6 +15070,7 @@ _cedexis.php
 ||mydespar.it^*/stat.aspx?
 ||quattroruote.it/log.htm?
 ||repubblica.it/ad/
+||rmastri.it/plugins/log/log.php?
 ||stats.splinder.com^
 ||tracking.gruppo.mps.it^
 ||virgilio.it/clientinfo.gif?
