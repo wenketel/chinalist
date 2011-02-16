@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: w32WIx+26pNu/vIqZyeM4Q
+!  Checksum: lBfHMYqvuvIoFwwPAWaXrg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 15 Feb 2011 15:05:11 +0800
+!  Last Modified:  Wed, 16 Feb 2011 10:31:24 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -256,7 +256,6 @@ dict.cn##div#main_right_right>div:nth-child(5)
 
 !---多特软件站
 img.duote.com/duotehtml/
-img.duote.com/techImg/
 img.duote.com/js/clickDownAjax3.js
 img.duote.com/js/clickDownAjax4.js
 
@@ -2887,6 +2886,7 @@ bbs.goapk.com/data/attachment/common/cf/$image
 /play/ad/*
 /player/ad/*
 /player/ads/*
+/plugins_ads_
 /pool.ads.
 /pop_ad.
 /popads.
@@ -3437,6 +3437,7 @@ z/adx.js
 /728x90-
 /728x90.
 /728x90/*
+/728x90?
 /728x90_
 /768x90-
 /768x90.
@@ -4259,7 +4260,6 @@ _768x90_
 ###advertise-now
 ###advertise1
 ###advertiseHere
-~4players.de,~meetelugu.com,~ping-timeout.de###advertisement
 ###advertisement160x600
 ###advertisement728x90
 ###advertisementLigatus
@@ -4654,7 +4654,7 @@ _768x90_
 ###google_ads_test
 ###google_ads_top
 ###google_adsense_home_468x60_1
-###googlead
+~pescorner.net###googlead
 ###googlead2
 ###googleadbox
 ###googleads
@@ -5143,6 +5143,7 @@ _768x90_
 ###sponsoredads
 ###sponsoredlinks
 ###sponsoredlinks_cntr
+###sponsoredlinkslabel
 ###sponsoredresults_top
 ###sponsoredwellcontainerbottom
 ###sponsoredwellcontainertop
@@ -5253,6 +5254,7 @@ _768x90_
 ###tour300Ad
 ###tourSponsoredLinksContainer
 ###towerad
+###ts-ad_module
 ###ttp_ad_slot1
 ###ttp_ad_slot2
 ###twogamesAd
@@ -5292,6 +5294,8 @@ _768x90_
 ###widget_advertisement
 ###wrapAdRight
 ###wrapAdTop
+###wrapperAdsTopLeft
+###wrapperAdsTopRight
 ###y-ad-units
 ###y708-ad-expedia
 ###y708-ad-lrec
@@ -6573,6 +6577,7 @@ _768x90_
 ##.googleAd
 ##.googleAd-content
 ##.googleAd-list
+##.googleAd300x250_wrapper
 ##.googleAdBox
 ##.googleAdSense
 ##.googleAdSenseModule
@@ -7514,6 +7519,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||adsfundi.com^$third-party
 ||adsfundi.net^$third-party
 ||adsfuse.com^$third-party
+||adshack.com^$third-party
 ||adshopping.com^$third-party
 ||adshuffle.com^$third-party
 ||adsignals.com^$third-party
@@ -7760,7 +7766,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||doubleclick.net/pfadx/*.mtvi$object_subrequest,third-party
 ||doubleclick.net/pfadx/*.sevenload.com_$object_subrequest,third-party
 ||doubleclick.net/pfadx/*adcat=$object_subrequest,third-party
-||doubleclick.net^$object_subrequest,third-party,domain=addictinggames.com|atom.com|break.com|businessweek.com|cbs4denver.com|cnbc.com|darkhorizons.com|doubleviking.com|eonline.com|fandango.com|foxbusiness.com|g4tv.com|gorillanation.com|joblo.com|kptv.com|mtv.co.uk|mtv.com|mtv.com.au|mtv.com.nz|mtvbase.com|mtvmusic.com|myfoxorlando.com|myfoxphoenix.com|newsweek.com|nick.com|nintendoeverything.com|pandora.com|play.it|ps3news.com|rte.ie|sbsun.com|sevenload.com|shockwave.com|sk-gaming.com|southpark.nl|space.com|spike.com|syfy.com|thedailygreen.com|thedailyshow.com|thewire.com|ustream.tv|washingtonpost.com|wcbstv.com|wired.com|wkbw.com|wwe.com|youtube.com|zoomin.tv
+||doubleclick.net^$object_subrequest,third-party,domain=addictinggames.com|atom.com|break.com|businessweek.com|cbs4denver.com|cnbc.com|darkhorizons.com|doubleviking.com|eonline.com|fandango.com|foxbusiness.com|g4tv.com|gorillanation.com|joblo.com|kptv.com|mtv.co.uk|mtv.com|mtv.com.au|mtv.com.nz|mtvbase.com|mtvmusic.com|myfoxorlando.com|myfoxphoenix.com|newsweek.com|nick.com|nintendoeverything.com|pandora.com|play.it|ps3news.com|rte.ie|sbsun.com|sevenload.com|shockwave.com|sk-gaming.com|southpark.nl|space.com|spike.com|syfy.com|thedailygreen.com|thedailyshow.com|thewire.com|ustream.tv|washingtonpost.com|wcbstv.com|wetransfer.com|wired.com|wkbw.com|wwe.com|youtube.com|zoomin.tv
 ||doubleclick.net^$~object_subrequest,third-party
 ||doubleclick.net^*;sz=$object_subrequest,third-party,domain=10news.com|1up.com|breitbart.tv|cbc.ca|digitaltrends.com|fox5sandiego.com|foxnews.com|france24.com|gamesradar.com|gametrailers.com|heavy.com|muzu.tv|myfoxny.com|myspace.com|nbc.com|nbcsandiego.com|news.com.au|newson6.com|nhl.com|rapbasement.com|wptv.com|wsj.com
 ||doublepimp.com^$third-party
@@ -8498,6 +8504,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||pagead2.googlesyndication.com^$~object_subrequest
 ||partner.bargaindomains.com^
 ||partner.catchy.com^
+||partner.e-conomic.com^$third-party
 ||partner.premiumdomains.com^
 ||partners.agoda.com^
 ||partners.dogtime.com/network/
@@ -8585,7 +8592,9 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||tosol.co.uk/international.php?$third-party
 ||toysrus.com/graphics/promo/
 ||tracking.hostgator.com^
+||tradearabia.com/banners/
 ||travelmail.traveltek.net^$third-party
+||ttnonline.com/banners/
 ||turbotrafficsystem.com^*/banners/
 ||twivert.com/external/banner234x60.
 ||u-loader.com/image/hotspot_
@@ -8716,6 +8725,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||blackberryforums.net/banners/
 ||blinkx.com/adhocnetwork/
 ||blinkx.com/f2/overlays/adhoc
+||blip.fm/ad/
 ||blogspider.net/images/promo/
 ||bloomberg.com^*/banner.js
 ||bnrs.ilm.ee^
@@ -8876,6 +8886,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||flv.sales.cbs.com^$object_subrequest,domain=cbsnews.com
 ||flyordie.com/games/free/b/
 ||fmr.co.za^*/banners/
+||footballtradedirectory.com^*banner
 ||fordforums.com.au/banner.swf
 ||forumimg.ipmart.com/swf/ipmart_forum/banner
 ||forumw.org/images/uploading.gif
@@ -8913,6 +8924,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||gowilkes.com/other/
 ||grapevine.is/media/flash/*.swf
 ||guitaretab.com^*/ringtones_overlay.js
+||gulf-daily-news.com/180x150.htm
 ||gumtree.com^*/dart_wrapper_
 ||gwinnettdailypost.com/1.iframe.asp?
 ||hd-bb.org^*/dl4fbanner.gif
@@ -9006,7 +9018,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||klav1230am.com^*/banners/
 ||knowfree.net^*/ezm125x125.gif
 ||krapps.com^*-banner-
-||krebsonsecurity.com/a-$object
+||krebsonsecurity.com^$object
 ||kstp.com^*/flexhousepromotions/
 ||kxlh.com/images/banner/
 ||kyivpost.com^*/adv_
@@ -10202,6 +10214,8 @@ forbes.com##div[style="width: 125px; height: 125px; padding: 20px 20px 20px 25px
 forbes.com##div[style="width: 125px; height: 125px; padding: 20px 25px 20px 20px; float: right;"]
 forexnewsnow.com###offerbox
 forexnewsnow.com###toplinkbox
+forexpros.com##.fusionblock[style="width: 300px;"]
+forexpros.com##.grey-zone
 forrst.com##.ad
 forum.notebookreview.com##td[width="400"][height="280"]
 forum.rpg.net##img[border="0"][style="outline: medium none;"]
@@ -10224,6 +10238,7 @@ foxnews.com##.ads
 foxnews.com##.quigo
 foxreno.com###leaderboard-sticky
 fpsbanana.com##a[href^="http://www.xfactorservers.com/clients/link.php?id="]
+freakmov.com##.overlayVid
 free-tv-video-online.info##a[style="margin-left: auto; font-size: 14px; padding: 3px; margin-right: auto; width: 640px; display: block; text-decoration: none;"]
 freecodesource.com###banner
 freedict.com##.partners
@@ -10338,6 +10353,7 @@ guanabee.com##.skyscraper
 guardian.co.uk###commercial-partners
 guardian.co.uk##.kelkoo
 guitaretab.com##.ring_link
+gulf-daily-news.com##td[height="110"][bgcolor="#ffffff"]
 guru3d.com##a[href^="http://driveragent.com/?ref="]
 guruji.com###SideBar
 guruji.com##div[style="border: 1px solid rgb(250, 239, 209); margin: 0px 4px; padding: 4px; background-color: rgb(255, 248, 221);"]
@@ -10351,6 +10367,7 @@ hbr.org###partnerCenter
 hdtvtest.co.uk##.deal
 healthboards.com##td[\!valign="top"]
 healthboards.com##td[align="left"][width="300"]:first-child
+healthzone.ca###verticalsBigBox
 healthzone.pk##.DataTDDefault[width="160"][height="600"]
 healthzone.pk##.maintablebody
 hebdenbridgetimes.co.uk###banner01
@@ -10797,6 +10814,7 @@ malaysiastory.com##.box2
 maltonmercury.co.uk###banner01
 mangafox.com##.left[style="width: 930px; padding-bottom: 10px; padding-right: 10px; padding-left: 10px;"]
 mangafox.com##a[href*=".game321.com/"]
+mangafox.com##div[style*="width: 728px; height: 90px;"]
 manoramaonline.com##td[width="140"][height="126"]
 manoramaonline.com##td[width="140"][height="168"]
 manoramaonline.com##td[width="160"][height="600"]
@@ -10930,6 +10948,7 @@ msnbc.msn.com##.w460
 mstar.com##.MPFBannerWrapper
 mtv.co.uk###mtv-shop
 mtv.com###gft-sponsors
+multiply.com##td[style="height: 125px;"]
 multiupload.com##div[style="position: relative; width: 701px; height: 281px; background-image: url(\"img/ad_bgr.gif\");"]
 mumbaimirror.com##.bottombanner
 mumbaimirror.com##.topbanner
@@ -11963,6 +11982,7 @@ westlothianhp.co.uk###banner01
 westsussextoday.co.uk###banner01
 wfmz.com###leaderboard-sticky
 wftv.com###leaderboard-sticky
+wgtools.com##div[style="margin: 15px 0pt 8px 25px; height: 600px; width: 160px; border: 1px solid rgb(204, 204, 204);"]
 whatismyip.com##.gotomypc
 whatismyip.com##span[style="margin: 2px; float: left; width: 301px; height: 251px;"]
 wheels.ca##div[style="color: rgb(153, 153, 153); font-size: 9px; clear: both; border-top: 1px solid rgb(238, 238, 238); padding-top: 15px;"]
@@ -14114,6 +14134,7 @@ _cedexis.php
 ||webstats.seoinc.com^
 ||webstats.thaindian.com^
 ||webworx24.co.uk/123trace.php
+||wetpaint.com^*/track?
 ||whatismyip.akamai.com^
 ||whosread.com/counter/
 ||widgeo.net/compteur.php?
@@ -14608,6 +14629,7 @@ _cedexis.php
 ||newegg.com/common/thirdparty/$subdocument
 ||newegg.com/viewtracking.aspx?
 ||news-leader.com^*/analytics.js
+||news.cn/webdig.js
 ||news.com.au/tracking/
 ||news10.net^*/stats/
 ||newser.com/utility.aspx?
