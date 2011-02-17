@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: /kaGrllvcfV+Tf55WaQKgg
+!  Checksum: Qsr82icHRSdAPI/KgHMrMw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 16 Feb 2011 17:23:51 +0800
+!  Last Modified:  Thu, 17 Feb 2011 09:34:41 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -1607,7 +1607,7 @@ n/count.
 ||cnzz.com^$third-party
 cdn.hiido.cn^$third-party
 ||tovery.net^$third-party
-|http://stat.$script,domain=~verycd.com|~ameblo.jp|~blog.sohu.com|~zcool.com.cn
+|http://stat.$script,domain=~verycd.com|~ameblo.jp|~i.sohu.com|~zcool.com.cn
 |http://track.
 ||hotrank.com.tw^$third-party
 ||jiankongbao.com^$third-party
@@ -1686,6 +1686,7 @@ bbs.goapk.com/data/attachment/common/cf/$image
 -adhelper.
 -adserver-
 -advert-
+-advert.
 -banner-ads/
 -banner468x60.
 -bin/ad_
@@ -3214,6 +3215,8 @@ _acorn_ad_
 _ad.php?
 _ad120x120_
 _ad234x90-
+_ad300x250.
+_ad728x90.
 _ad_big.
 _ad_bsb.
 _ad_code.
@@ -7728,6 +7731,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||clicksor.com^$third-party
 ||clicksor.net^$third-party
 ||clickthrucash.com^$third-party
+||clickwinks.com^$third-party
 ||clixgalore.com^$third-party
 ||coadvertise.com^$third-party
 ||cogsdigital.com^$third-party
@@ -8978,12 +8982,10 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||imageshack.us/ym.php?
 ||img*.i-comers.com^
 ||imgburn.com/images/ddigest_
-||imgburn.com/images/ds-banner-130x600px.gif
-||imgburn.com/images/rb-banner-130x600px.gif
-||imgburn.com/images/ub_ds_banner_235x58px.png
-||imgburn.com/images/ub_ds_before_you_download.png
-||imgburn.com/images/ub_rb_banner_235x58px.png
-||imgburn.com/images/ub_rb_we_recommend.png
+||imgburn.com/images/ds-banner-
+||imgburn.com/images/rb-banner-
+||imgburn.com/images/ub_ds_
+||imgburn.com/images/ub_rb_
 ||impulsedriven.com/app_images/wallpaper/
 ||independent.co.uk/multimedia/archive/$subdocument
 ||indianexpress.com^*/banner/
@@ -9343,6 +9345,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||themusicbay.com/right.html
 ||themusicbay.com/top468.html
 ||thenationonlineng.net^*/banners/
+||theonion.com/ads/video-ad/$xmlhttprequest
 ||thepeninsulaqatar.com^*/banners/
 ||thepiratebay.org/img/bar.gif
 ||thestandard.co.zw^*/banners/
@@ -9407,6 +9410,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||worthdownloading.com/images/mirrors/preview_logo.gif
 ||wowwiki.com/__varnish_
 ||wpdaddy.com^*/banners/
+||wrc.com/swf/homeclock_edox_hori.swf
 ||wunderground.com/geo/swfad/
 ||wunderground.com^*/wuss_300ad2.php?
 ||www2.sys-con.com^*.cfm
@@ -10347,8 +10351,11 @@ golivewire.com##div[style="height: 292px; margin-left: 10px; background-image: u
 good.is##.ad
 goodhopefm.co.za##.mrec
 goodhousekeeping.com###hpV2_728x90
+google.co.uk##.ts[style="margin: 0pt 0pt 12px; height: 92px; width: 100%;"]
 google.co.uk##.ts[style="margin: 0pt 0pt 12px; height: 92px;"]
+google.com##.ts[style="margin: 0pt 0pt 12px; height: 92px; width: 100%;"]
 google.com##.ts[style="margin: 0pt 0pt 12px; height: 92px;"]
+google.com.au##.ts[style="margin: 0pt 0pt 12px; height: 92px; width: 100%;"]
 google.com.au##.ts[style="margin: 0pt 0pt 12px; height: 92px;"]
 googletutor.com##div[style="width: 125px; text-align: center;"]
 googlewatch.eweek.com###topBanner
@@ -10769,6 +10776,7 @@ lyricsfreak.com##.ad
 lyricsfreak.com##.ringtone
 lyricsmode.com##a[style="color: red; font-size: 14px; font-family: Arial; font-weight: bold;"]
 lyricsmode.com##div[style="text-align: center; margin-top: 15px; height: 90px;"]
+lyricstime.com###ads
 lyricwiki.org###p-navigation + .portlet
 lyrster.com##.el_results
 m-w.com###google_creative_3
@@ -12353,6 +12361,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||lightningcast.net/servlets/getplaylist?*&responsetype=asx&$object
 @@||live365.com/mini/blank300x250.html
 @@||live365.com/scripts/liveads.js
+@@||liverail.com/?lr_publisher_id=$object_subrequest,domain=wrc.com
 @@||liverail.com/crossdomain.xml$object_subrequest
 @@||liverail.com/swf/*/plugins/flowplayer/
 @@||loaded.it/images/advertise/divx/playeroverlay_$image
@@ -12458,9 +12467,10 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||thekraftgroup.com/ad.cfc?*&key=prerollvideo.*,midrollvideo.$object_subrequest,domain=patriots.com
 @@||thekraftgroup.com/crossdomain.xml$object_subrequest,domain=patriots.com
 @@||thenewsroom.com^*/advertisement.xml$object_subrequest
-@@||theonion.com/ads/video-ad/$object_subrequest,xmlhttprequest
 @@||theonion.com^*/videoads.js
 @@||thestreet.com/js/ads/adplacer.js
+@@||tidaltv.com/crossdomain.xml$object_subrequest,domain=wrc.com
+@@||tidaltv.com/tpas1.aspx?$object_subrequest,domain=wrc.com
 @@||timeinc.net/people/static/i/advertising/getpeopleeverywhere-*$image,domain=people.com|peoplestylewatch.com
 @@||timeinc.net^*/tii_ads.js$domain=ew.com|life.com|time.com
 @@||trutv.com/includes/banners/de/video/*.ad|$object_subrequest
@@ -12733,6 +12743,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 /mycounter/counter_in.php?
 /mystats/track.js
 /netmind-$script
+/netupdate/live.php?
 /nielson_stats.js
 /njs.gif?
 /nm_tr_combined-min.js
@@ -13537,6 +13548,7 @@ _cedexis.php
 ||euro-pr.eu^$third-party
 ||eurocounter.com^$third-party
 ||exmarkt.de^$third-party
+||free-counters.net^$third-party
 ||freihit.de^$third-party
 ||fun-hits.com^$third-party
 ||gacela.eu^$third-party
