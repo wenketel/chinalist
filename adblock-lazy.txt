@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: CTsFRvz1JpYAlELfmIQt3Q
+!  Checksum: WlXEaxIhgET36Vey4cD8lA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 17 Feb 2011 09:45:00 +0800
+!  Last Modified:  Thu, 17 Feb 2011 10:41:51 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -201,6 +201,12 @@ cnbeta.com###userInfo
 cnbeta.com##div.newslist>dl>dd.detail>em
 cnbeta.com###sideBar>div:nth-child(6)
 cnbeta.com###sideBar>div:nth-child(12)
+
+!---CNKI
+||adp.cnki.net^
+cdmd.cnki.com.cn/js/adDetail1.js
+cnki.com.cn##[id$="_80x80"]
+cnki.com.cn##[id$="_gg"]
 
 !---cnYES
 chart.cnyes.com/js/floatad_n.js
@@ -1138,7 +1144,6 @@ v3.apic.51.com/vda09.js
 ||51ztzj.com/i/$script
 ||8684.cn/gg/*$script
 ||99iche.com^$object
-||adp.cnki.net^
 ||arting365.com/advs/
 ||arting365.com/home/images/updater.js
 ||benxiong.com/g/
