@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: SaheH4JDiWa/XHHzmZoi1w
+!  Checksum: Vhl7+1HHhZAI6Ykh02lK3g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 17 Feb 2011 18:38:07 +0800
+!  Last Modified:  Thu, 17 Feb 2011 22:56:04 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -191,8 +191,9 @@ down.chinaz.com/other/js/$script
 images.chinaz.com/$subdocument
 
 !---cnBeta
-img.cnbeta.com/$object
+img.cnbeta.com^$object
 @@|http://img.cnbeta.com/newsimg/
+img.cnbeta.com/*300$image
 img.cnbeta.com/*576$image
 img.cnbeta.com/rk3*.gif
 img.cnbeta.com/qy950.gif
@@ -476,6 +477,7 @@ ozchinese.com##table[cellspacing="1"][cellpadding="4"]
 ozchinese.com##.t_infoline
 
 !---远景
+img.cnbeta.com/mole300.jpg
 bbs.pcbeta.com/taobao/images/
 bbs.pcbeta.com###pbtextad_t
 
