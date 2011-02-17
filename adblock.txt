@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 9k/F513Frz0KhfbkrtJLNw
+!  Checksum: SaheH4JDiWa/XHHzmZoi1w
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 17 Feb 2011 18:28:38 +0800
+!  Last Modified:  Thu, 17 Feb 2011 18:38:07 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -9,7 +9,7 @@
 @@||alimama.cn^$stylesheet
 @@||360buy.com/uploads/$image
 @@||51job.com^$elemhide
-@@/crossdomain.xml|
+@@/crossdomain.xml|$object_subrequest
 
 !----------------------------Well-known Sites--------------
 !---网易
@@ -494,12 +494,12 @@ club.pchome.net###shop_promotion
 !---Pchome.com.tw
 w6.pchome.com.tw^$script
 w6.pchome.com.tw/adpics/
-www.pchome.com.tw##.trvl
-www.pchome.com.tw##.ro1
 www.pchome.com.tw##[id$="ad"]
-www.pchome.com.tw##.actnws
-www.pchome.com.tw###topnewsb
 news.pchome.com.tw###ad_bg_div
+www.pchome.com.tw##.actnws
+www.pchome.com.tw##.ro1
+www.pchome.com.tw###topnewsb
+www.pchome.com.tw##.trvl
 
 !---太平洋电脑网
 ||3conline.com/ivy/
@@ -905,7 +905,6 @@ www.zol.com.cn###hq_float
 !----------------------------Generic(sort by domain name)--
 !---Blog Sites
 ||appinn.com/wp-content/*.swf|
-@@adsense.easylife.tw^$~script
 ||freegroup.org^$subdocument
 ||gordon168.tw/gameflier/
 liveasy.myweb.hinet.net^
@@ -1010,7 +1009,6 @@ bbs.plu.cn/plu/images/
 ||replays.net/images/eventad/
 ||replays.net/*/rnad/
 ||inc.tgbus.com/javascript/adFloatPage.js
-||yatta.com.tw/ad*/
 ||yxdown.com/inc/dlad.js
 
 !---IP
@@ -1222,9 +1220,6 @@ news.sohu.com/upload/$domain=kyer8.com
 ||liudu9.com/js/read_top.js
 ||liudu9.com/js/read_link
 images.love21cn.com^$subdocument
-cache.meropar.tw/swf/blog/tw_rot.xml
-cache.meropar.tw/swf/blog/loadBanner/
-js.meropar.tw/tracking.jsp
 ||mfxk.com^$subdocument
 secret.moumentei.com/images/ac/x.gif
 ||mop.com/fxb/js/fxb.js
