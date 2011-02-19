@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: zlO3hdj2V1NITC6e+HM0hw
+!  Checksum: A7ZYOBhb6P+gu04lN/evRg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 18 Feb 2011 23:27:22 +0800
+!  Last Modified:  Sat, 19 Feb 2011 12:24:19 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -1137,6 +1137,9 @@ img.1ting.com/v5/js/*text.js
 ||pipi.cn/player/
 ||pps.tv/js_a2d/
 ||pp2.pptv.com^
+luckstatic.v1.cn/st/10000/
+luck.v1.cn/adxml.php?zoneid=*&stype=startAD
+luck.v1.cn/adxml.php?zoneid=*&stype=endAD
 ||atm.youku.com^$~script
 ||youmaker.com/logoad2.jpg
 ||youmaker.com/edoors200708180-150.swf
@@ -2212,6 +2215,7 @@ bbs.goapk.com/data/attachment/common/cf/$image
 /adservices/*
 /adservice|
 /adserving.
+/adserving/*
 /adserv|*|adtech;
 /adsfac.
 /adsfetch.
@@ -2948,6 +2952,7 @@ bbs.goapk.com/data/attachment/common/cf/$image
 /public/ad?
 /publicidad.$~object_subrequest
 /publicidad/*
+/pullads.
 /qandaads/*
 /quadadvert.
 /questions/ads/*
@@ -3279,8 +3284,8 @@ _adsys.js
 _adtext_
 _adtitle.
 _advert.
-_advert_
 _advert1.
+_advert_
 _advertise.
 _advertise180.
 _advertisehere.
@@ -3393,6 +3398,7 @@ z/adx.js
 |http://getad.
 |http://jazad.
 |http://openx.
+|http://prerollads.
 |http://pubad.
 |http://rss.*/~a/
 |http://synad.
@@ -8446,6 +8452,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||futuresite.register.com/us?$third-party
 ||fyicentralmi.com/remote_widget?$third-party
 ||gameduell.com/res/affiliate/
+||gamegecko.com/banners/
 ||gamersaloon.com/images/banners/
 ||gamestop.com^*/aflbanners/
 ||gawkerassets.com/assets/marquee/$object,third-party
@@ -8658,6 +8665,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||wonderlabs.com/affiliate_pro/banners/
 ||ws.amazon.*/widgets/q?$third-party
 ||xara.com/affiliate/
+||xcams.com/livecams/pub_collante/script.php?$third-party
 ||xgaming.com/rotate*.php?$third-party
 ||xml.exactseek.com/cgi-bin/js-feed.cgi?$third-party
 ||yieldmanager.edgesuite.net^
@@ -8779,6 +8787,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||brothersoft.com^*/float.js
 ||browsershots.org/static/images/creative/
 ||bt.am/banners/
+||bubblebox.com/banners/
 ||budapesttimes.hu/images/banners/
 ||burnsoftware.info*/!
 ||businessdayonline.com^*/banners/
@@ -9392,6 +9401,9 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||unicast.msn.com^
 ||universalhub.com/bban/
 ||uploading.com/static/banners/
+||urlcash.net/click.js
+||urlcash.org/abp/
+||urlcash.org/banners/
 ||urlgone.com^*/banners/
 ||viamichelin.co.uk/htm/cmn/afs*.htm?
 ||videodownloadtoolbar.com/fancybox/
@@ -9659,6 +9671,7 @@ bangkokpost.com##.boomboxSize1
 bangkokpost.com##.buzzBoombox
 basketball.com##td[width="530"] + td[width="120"]
 battellemedia.com##.sidebar
+bazoocam.org###mapub3
 bbc.co.uk##.bbccom_display_none
 bbc.com###bbccom_leaderboard
 bdnews24.com###bannerdiv2
@@ -9739,6 +9752,7 @@ brothersoft.com##.sponsor
 btjunkie.org###main > div[height="10"]:first-child + table[width="100%"]
 btjunkie.org###main > div[height="10"]:first-child + table[width="100%"] + .tab_results
 btjunkie.org##th[align="left"][height="100%"]
+bubblebox.com###banner_box
 buffalonews.com###bot-main
 buffalonews.com##.leaderboard_top
 builderau.com.au###leaderboard
@@ -11425,6 +11439,7 @@ rte.ie###story_island
 rte.ie###tilesHolder
 rte.ie##div[style="background-color: rgb(239, 238, 234); text-align: center; width: 728px; height: 92px; padding-top: 2px;"]
 rubbernews.com##td[width="250"]
+rumorcontrol.info##.adv
 runescape.com###tb
 rushlimbaugh.com###top_leaderboard
 rwonline.com##table[width="665"]
@@ -11915,6 +11930,8 @@ urbandictionary.com###rollup
 urbandictionary.com##.zazzle_links
 url.org###resspons1
 url.org###resspons2
+urlcash.org###bannerbox
+urlcash.org##.bannertop > CENTER > #leftbox
 urlesque.com##.sidebarBanner
 urlesque.com##.topBanner
 urlgone.com###secondColumn
@@ -11929,6 +11946,7 @@ userstyles.org##.ad
 usnews.com##.ad
 usniff.com###bottom
 usniff.com##.top-usniff-torrents
+uvnc.com##a[href^="http://sponsor2.uvnc.com"]
 v3.co.uk###superSky
 v3.co.uk##.ad
 v3.co.uk##.hpu
@@ -12213,6 +12231,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||adm.fwmrm.net/p/espn_live/espnsubmitrequest.swf
 @@||adm.fwmrm.net^*/admanager-$object_subrequest
 @@||adm.fwmrm.net^*/admanager.swf?
+@@||adm.fwmrm.net^*/videoadrenderer.swf$domain=ign.com
 @@||admin.brightcove.com/viewer/*/advertisingmodule.swf$domain=fox.com|guardian.co.uk|slate.com
 @@||adnet.twitvid.com/crossdomain.xml$object_subrequest
 @@||ads.ad4game.com/www/delivery/ajs.php?zoneid=*&loc=/armorgames.com/play/$script
