@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: cdoe2yKuyeZ1B/PlUq/c/g
+!  Checksum: eSBbruHXIfijz54Zue/IOA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 26 Feb 2011 20:03:58 +0800
+!  Last Modified:  Sun, 27 Feb 2011 14:34:53 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -122,7 +122,7 @@ mp3.baidu.com##.top.container_20
 mp3.baidu.com###dMA+script+table
 video.baidu.com##div#rlinks+div[style="padding: 0pt 10px;"]
 video.baidu.com##[style="display: block; width: 1024px; height: 90px;"]
-www.baidu.com##div#tool+table[width="30%"]
+www.baidu.com###wrapper>table[width="30%"]:nth-child(4)
 www.baidu.com##table.EC_mr15
 !--zhidao
 img.baidu.com/img/iknow/egg/egg.swf
@@ -908,6 +908,12 @@ zol.com.cn##.banner760_1
 zol.com.cn##.pic_ad
 zol.com.cn##[id^="AD"]
 www.zol.com.cn###hq_float
+!-中关村在线武汉站
+||pc3w.com/adpic/
+||pc3w.com/Article/UploadFiles/$image
+||pc3w.com/jS/
+pc3w.com###ad_down_title
+pc3w.com##table[width="925"][height="305"]
 
 !----------------------------Generic(sort by domain name)--
 !---Blog Sites
@@ -1739,6 +1745,7 @@ bbs.goapk.com/data/attachment/common/cf/$image
 .au/_ads/
 .au/ads/
 .biz/ad.
+.biz/ad/
 .ca/ads/
 .cc/ads/
 .com/ad-
@@ -2444,6 +2451,7 @@ bbs.goapk.com/data/attachment/common/cf/$image
 /bannerads-
 /bannerads.
 /bannerads/*
+/banneradverts/*
 /banneradviva.
 /bannercode.php
 /bannerconduit.swf?
@@ -3200,6 +3208,7 @@ bbs.goapk.com/data/attachment/common/cf/$image
 /welcome_ad.
 /widget/ads.
 /wipeads/*
+/wire/ads/*$image
 /wp-content/ads/*
 /wp-content/plugins/bhcb/lock.js
 /wp-content/plugins/fasterim-optin/*
@@ -7984,6 +7993,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||jangonetwork.com^$third-party
 ||jdoqocy.com^$third-party
 ||jobthread.com^$third-party
+||joytocash.com^$third-party
 ||js.cdn.ac^$third-party
 ||jscount.com^$third-party
 ||jsfeedadsget.com^$third-party
@@ -8251,6 +8261,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||tidaltv.com^$third-party
 ||tiser.com^$third-party
 ||tkqlhce.com^$third-party
+||tldadserv.com^$third-party
 ||topauto10.com^$third-party
 ||total-media.net^$third-party
 ||tqlkg.com^$third-party
@@ -8942,6 +8953,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||ebuddy.com/web_banners/
 ||ebuddy.com/web_banners_
 ||ecommerce-journal.com/specdata.php?
+||economist.com.na^*/banners/
 ||ed2k.2x4u.de/mfc/
 ||ehow.com/images/brands/
 ||ekrit.de/serious-gamer/1.swf
@@ -12132,6 +12144,7 @@ wefindads.co.uk##div.posts-holder[style="margin-top: 10px;"]
 wefollow.com##.ad
 wenn.com###topbanner
 weselectmodels.com##div[style="width: 728px; height: 90px; background-color: black; text-align: center;"]
+westcapenews.com###leaderboardspace
 westlothianhp.co.uk###banner01
 westsussextoday.co.uk###banner01
 wfmz.com###leaderboard-sticky
@@ -12401,6 +12414,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||cdn.last.fm/adserver/video/
 @@||cdn.springboard.gorillanation.com/storage/lightbox_code/static/companion_ads.js$domain=comingsoon.net|gamerevolution.com
 @@||cdn.travidia.com/rop-ad/
+@@||cdn.travidia.com/rop-sub/
 @@||channel4.com/media/scripts/oasconfig/siteads.js
 @@||chibis.adotube.com/appruntime/player/$object,object_subrequest
 @@||chickenlicken.co.za/images/menu/adverts*.gif
@@ -12437,6 +12451,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||dyncdn.buzznet.com/catfiles/?f=dojo/*.googleadservices.$script
 @@||earthtechling.com^*/imasters-wp-adserver-styles.css
 @@||ebayrtm.com/rtm?rtmcmd&a=json&cb=parent.$script
+@@||economist.com.na^*/banners/cartoon_
 @@||edgar.pro-g.co.uk/data/*/videos/adverts/$object_subrequest
 @@||edmontonjournal.com/js/adsync/adsynclibrary.js
 @@||emediate.eu/crossdomain.xml$domain=tv3play.lv|tv3play.se|tv6play.se|tv8play.se
@@ -12718,7 +12733,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||autoscout24.*/all.js.aspx?m=css&*=/stylesheets/adbanner.css
 @@||banneradmin.rai.it/js.ng/sezione_rai=barramenu$script
 @@||bnrs.ilm.ee/www/delivery/fl.js
-@@||e-planning.net/eb/*?*fvp=2&$object_subrequest,domain=clarin.com|emol.com
+@@||e-planning.net/eb/*?*fvp=2&$object_subrequest,domain=clarin.com|emol.com|tn.com.ar
 @@||ebayrtm.com/rtm?$script,domain=annonces.ebay.fr|ebay.it
 @@||forolockerz.com/advertisement.js
 @@||fotojorgen.no/images/*/webadverts/
@@ -12737,6 +12752,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||ring.bg/adserver/adall.php?*&video_on_page=1
 @@||static.mobile.eu^*/resources/images/ads/superteaser_$image,domain=automobile.fr|automobile.it|mobile.eu|mobile.ro
 @@||style.seznam.cz/ad/im.js
+@@||tn.com.ar^*/vivo/300/publicidad.html$subdocument
 @@||uol.com.br/html.ng/*&affiliate=$object_subrequest
 @@||viamichelin.be/static/advert/afsquery/afsquery.js
 @@||viamichelin.es/static/advert/afsquery/afsquery.js
@@ -12990,9 +13006,9 @@ _cedexis.php
 |http://wzeu.*/i/i.gif?
 |http://wzus1.*/i/i.gif?
 !Russian rating sites
+/img.php?id=*&page=
 |http://top.*/count/cnt.php?
 |http://top.*/hit/
-|http://top.*/img.php?id=
 !-----------------Third-party tracking domains-----------------!
 ! *** easyprivacy/easyprivacy_trackingservers.txt ***
 ||103bees.com^$third-party
@@ -13976,6 +13992,7 @@ _cedexis.php
 ||a-counter.kiev.ua^$third-party
 ||announcement.ru^$third-party
 ||apkonline.ru^$third-party
+||cityua.net^$third-party
 ||clubcollector.com^$third-party
 ||cnstats.ru^$third-party
 ||counter.1i.kz^
@@ -13987,6 +14004,7 @@ _cedexis.php
 ||hsdn.org^$third-party
 ||infostroy.nnov.ru^$third-party
 ||intergid.ru^$third-party
+||iryazan.ru^$third-party
 ||jetcounter.ru^$third-party
 ||kmindex.ru^$third-party
 ||kmindex.ru^$third-party
@@ -14547,7 +14565,9 @@ _cedexis.php
 ||agates.ru/counters/
 ||all-top.ru/cgi-bin/topcount.cgi?
 ||an.yandex.ru^
+||autoretro.com.ua/smtop/
 ||bigday.ru/counter.php?
+||bioraywaterrank.ru/count/
 ||bs.yandex.ru^
 ||c.bigmir.net^
 ||clck.yandex.ru^
@@ -14567,6 +14587,7 @@ _cedexis.php
 ||gainings.biz/counter.php?
 ||gde.ru/isapi/tracker.dll?
 ||goodgoods.ru/cgi-bin/counter.cgi?
+||gorod-smr.ru/stat.php?
 ||ifolder.ru/stat/?
 ||infopolit.com/counter/
 ||inforotor.net/rotor/
@@ -14582,9 +14603,11 @@ _cedexis.php
 ||mymetal.ru/counter/
 ||myrealty.su/counter/
 ||niknok.ru/count.asp?
+||odessaaccommodations.com/counter.php
 ||onlines.su/counter.php?
 ||optimizavr.ru/counter.php?
 ||penza-online.ru^*/userstats.pl?
+||prompages.ru/top/
 ||promworld.ru^*/counter.php?
 ||properm.ru/top/counter_new.php?
 ||rustopweb.ru/cnt.php?
@@ -14592,13 +14615,19 @@ _cedexis.php
 ||s.holm.ru/stat/
 ||scnt.rambler.ru^
 ||sishik.ru/counter.php?
+||spb-gorod.ru/stat.php?
 ||stainlesssteel.ru/counter.php?
 ||stat-counter.tass-online.ru^
 ||t.pusk.ru^
+||tbe.tom.ru^
+||top.bur-bur.ru^
+||top.elec.ru^
+||top.sec.uz^
 ||traktor.ru^*/counter.php?
 ||wapson.ru/counter.php?
 ||webtop.org.ru/counter.cgi/
 ||wmtools.ru/counter.php?
+||xn--90acjmnnc1hybf.su/stat.php?
 ||xn--e1aaipcdgnfsn.su^*/counter.php
 ||yandeg.ru/count/
 ||yandex.ru/cycounter?
@@ -14616,7 +14645,6 @@ _cedexis.php
 !Swedish
 ||counter.mtgnewmedia.se^
 !Ukranian
-||cityua.net/count.php?
 ||metalportal.com.ua/count.php?
 ||mgz.com.ua/counter.php?
 ||top.zp.ua/counter/
@@ -14852,6 +14880,7 @@ _cedexis.php
 ||justanswer.com/browsercheck/
 ||kalahari.net/includes/swatag.js
 ||katu.com/boost_stats.php?
+||kayafm.co.za/tracker/
 ||kelkoo.co.uk^*/tracker/
 ||kidc.net/tracker.tsp?
 ||killerstartups.com^*/adsensev

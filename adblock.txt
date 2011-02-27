@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: xpI8kqnig+qJvDvMF9XABw
+!  Checksum: vOKswqgU6IofJIWEpTvsSg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 26 Feb 2011 20:03:57 +0800
+!  Last Modified:  Sun, 27 Feb 2011 14:34:53 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -122,7 +122,7 @@ mp3.baidu.com##.top.container_20
 mp3.baidu.com###dMA+script+table
 video.baidu.com##div#rlinks+div[style="padding: 0pt 10px;"]
 video.baidu.com##[style="display: block; width: 1024px; height: 90px;"]
-www.baidu.com##div#tool+table[width="30%"]
+www.baidu.com###wrapper>table[width="30%"]:nth-child(4)
 www.baidu.com##table.EC_mr15
 !--zhidao
 img.baidu.com/img/iknow/egg/egg.swf
@@ -908,6 +908,12 @@ zol.com.cn##.banner760_1
 zol.com.cn##.pic_ad
 zol.com.cn##[id^="AD"]
 www.zol.com.cn###hq_float
+!-中关村在线武汉站
+||pc3w.com/adpic/
+||pc3w.com/Article/UploadFiles/$image
+||pc3w.com/jS/
+pc3w.com###ad_down_title
+pc3w.com##table[width="925"][height="305"]
 
 !----------------------------Generic(sort by domain name)--
 !---Blog Sites
