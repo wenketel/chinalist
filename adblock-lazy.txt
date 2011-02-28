@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: eSBbruHXIfijz54Zue/IOA
+!  Checksum: Rpyqx1p14Pz9FnG5ug5s4g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 27 Feb 2011 14:34:53 +0800
+!  Last Modified:  Mon, 28 Feb 2011 09:36:16 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -1534,6 +1534,7 @@ qd.code.qihoo.com^$third-party
 ||txjy2008.com^$third-party
 ||u17.com/$third-party
 ||ubcpm.com^$third-party
+||ugooo.cc^$third-party
 ||ujoin.net^$third-party
 ||u-link.nbb.tw^$third-party
 ||ulink.cc^$third-party
@@ -1638,6 +1639,7 @@ n/count.
 ||blogtw.net^$third-party
 ||cnzz.com^$third-party
 cdn.hiido.cn^$third-party
+log.daqi.com^
 ||tovery.net^$third-party
 |http://stat.$script,domain=~verycd.com|~ameblo.jp|~sohu.com|~zcool.com.cn
 |http://track.
@@ -1668,6 +1670,8 @@ google.com.hk###tadsb
 bbs.hdchina.org##.home_left_hot
 www.hoopchina.com##[class^="ad"]
 itfunz.com##.a_pb
+ivaluing.com###aa
+ivaluing.com##[class^="ads"]
 jandan.net##.eggs
 jandan.net##.xy
 www.javaeye.com###forum_recommended_f4
@@ -4273,6 +4277,7 @@ _768x90_
 ###adspot_300x250
 ###adspot_468x60
 ###adspot_728x90
+###adsquare
 ###adsright
 ###adst
 ###adstop
@@ -6071,6 +6076,7 @@ _768x90_
 ##.ads-sky
 ##.ads-stripe
 ##.ads-text
+##.ads-top
 ##.ads-widget
 ##.ads-widget-partner-gallery
 ##.ads160
@@ -6103,6 +6109,7 @@ _768x90_
 ##.ads_180
 ##.ads_300
 ##.ads_300x250
+##.ads_320
 ##.ads_337x280
 ##.ads_728x90
 ##.ads_big
@@ -6160,6 +6167,7 @@ _768x90_
 ##.adsense-category
 ##.adsense-category-bottom
 ##.adsense-heading
+##.adsense-overlay
 ##.adsense-post
 ##.adsense-right
 ##.adsense-title
@@ -6242,6 +6250,7 @@ _768x90_
 ##.advert-text
 ##.advert-txt
 ##.advert300
+##.advert300x250
 ##.advert4
 ##.advert5
 ##.advert8
@@ -7271,6 +7280,7 @@ _768x90_
 ##.sponsors
 ##.sponsors-box
 ##.sponsors_bar
+##.sponsors_table
 ##.sponsorshipbox
 ##.sponsortable
 ##.sponsortext
@@ -8477,6 +8487,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||desi4m.com/desi4m.gif$third-party
 ||detroitmedia.com/jfry/
 ||dynw.com/banner
+||ebay.com/ws/ebayisapi.dll?$third-party
 ||emailcashpro.com/images/$third-party
 ||enticelabs.com/el/
 ||eplreplays.com/wl/
@@ -8823,6 +8834,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||banners.itweb.co.za^
 ||bashandslash.com/images/banners/
 ||bbc.co.uk^*/bbccom.js?
+||bbclifestyle.com/img/banners/
 ||bcdb.com^*/banners.pl?
 ||beingpc.com^*/banners/
 ||belfasttelegraph.co.uk/editorial/web/survey/recruit-div-img.js
@@ -8945,6 +8957,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||dl4all.com/data4.files/dpopupwindow.js
 ||domaining.com/banners/
 ||dontblockme.modaco.com^$~image
+||driverdb.com/campaigns/banners/
 ||dvdvideosoft.com^*/banners/
 ||earthlink.net^*/promos/
 ||ebayrtm.com/rtm?
@@ -10139,6 +10152,7 @@ downloadsquad.com###topleader-wrap
 downloadsquad.com##.medrect
 dragcave.net###prefooter
 drive.com.au##.cA-twinPromo
+driverdb.com###banners
 drugs.com###topbannerWrap
 dt-updates.com##.adv_items
 dt-updates.com##div[style="margin: 20px auto 0pt; text-align: left;"]
@@ -10386,8 +10400,7 @@ friday-ad.co.uk##.PlateFood
 frozen-roms.in##a[href^="http://mirror.frozen-roms.in"]
 ft.com###leaderboard
 ft.com##.marketing
-ftv.com###hdr_c
-ftv.com###hdr_r
+ftv.com##.commercialBox
 fudzilla.com###showcase
 fudzilla.com##.artbannersxtd
 fukgames.com###TakeOverLink
@@ -10741,6 +10754,7 @@ johnbridge.com##td[valign="top"] > table.tborder[width="140"][cellspacing="1"][c
 joomla.org##div[style="margin: 0pt auto; width: 728px; height: 100px;"]
 joox.net###body-sidebar
 joox.net##img[alt="Download FLV Direct"]
+jordantimes.com##a[href^="http://www.aigcmiddleast.com/ads"]
 joystickdivision.com###Page_Header
 joystiq.com###medrect
 joystiq.com###medrectrb
@@ -11042,6 +11056,7 @@ mobilust.net##a[href^="http://nicevid.net/?af="]
 modernhealthcare.com##.mh_topshade_b
 mofunzone.com###ldrbrd_td
 money.co.uk###topBar
+money.cnn.com###moneySponsorBox
 moneyweb.co.za##a[href^="http://adserver.adtech.de/"]
 monstersandcritics.com##div[style="height: 690px;"]
 morefailat11.com###top-leaderboard
@@ -12624,7 +12639,6 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||timeinc.net/people/static/i/advertising/getpeopleeverywhere-*$image,domain=people.com|peoplestylewatch.com
 @@||timeinc.net^*/tii_ads.js$domain=ew.com|life.com|time.com
 @@||trutv.com/includes/banners/de/video/*.ad|$object_subrequest
-@@||turner.com^*/advertisement/cnnmoney_sponsors.gif$domain=money.cnn.com
 @@||tvgorge.com^*/adplayer.swf
 @@||tvnz.co.nz/stylesheets/tvnz/lib/js/advertisement.js
 @@||twitvid.com/mediaplayer_*.swf?
@@ -12885,6 +12899,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 /logger/p.gif?
 /md.js?country=
 /mdwtc/click_thru/*
+/metriweb.js
 /mint/?js
 /mintstats/?js
 /mmcore.js
@@ -12896,6 +12911,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 /msftaudience.js
 /mtvi_reporting.js
 /mwtag.js
+/mwtag_flash.js
 /myasg/stats_js.asp
 /mycounter/counter_in.php?
 /mystats/track.js
@@ -13820,6 +13836,7 @@ _cedexis.php
 ||suchmaschinen-ranking-hits.de^$third-party
 ||sunios.de^$third-party
 ||tamedia.ch^$third-party
+||teriotracker.de^$third-party
 ||tfag.de/$third-party
 ||tophits4u.de^$third-party
 ||topstat.com^$third-party
@@ -14503,6 +14520,7 @@ _cedexis.php
 ||wee.dk/modules/$third-party
 ||wwwportal.dk/statistik.php
 !Dutch
+||c.pebblemedia.be^
 ||marktplaats.net/cnt/
 ||stats.bluebillywig.com^
 !Estonian
