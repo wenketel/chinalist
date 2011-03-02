@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: uVoa822y9c2HCEgLmPyU3A
+!  Checksum: 6SeX+tjtQlfY4COAasgFSg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 02 Mar 2011 15:52:49 +0800
+!  Last Modified:  Wed, 02 Mar 2011 22:57:34 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -497,17 +497,6 @@ pchome.net##[class^="ad"]
 www.pchome.net###popWin
 club.pchome.net###first-ad>a
 club.pchome.net###shop_promotion
-
-!---Pchome.com.tw
-w6.pchome.com.tw^$script
-news.pchome.com.tw###ad_bg_div
-www.pchome.com.tw##.abs
-www.pchome.com.tw##.ro1
-www.pchome.com.tw##.trvl
-www.pchome.com.tw##[id$="ad"]
-www.pchome.com.tw##[id^="ad_"]
-pchome.syspower.com.tw/get_ad_img.php
-pchome.syspower.com.tw###sixi
 
 !---太平洋电脑网
 ||3conline.com/ivy/
@@ -1052,6 +1041,7 @@ img.rayfile.com/scr/$script
 33.autohome.com.cn
 img.autohome.com.cn/pvpv$script
 ||backchina.com/banners/
+||cankaoa.com/new/$script
 imgs.ccw.com.cn/200*/$image,object
 imgs.ccw.com.cn/ccw/1.htm
 pvstat.china.cn/statpv.js
@@ -1389,7 +1379,7 @@ u.1133.cc^$third-party
 ||adsame.com^$third-party
 ||adsfactor.cn^$third-party
 ||adsue.com^$third-party
-||adver.com.tw^$~script
+||adver.com.tw^$third-party
 ||advprotraffic.com^$third-party
 ||adwww.cn^$third-party
 ||adyeye.com^$third-party
@@ -1532,7 +1522,9 @@ qd.code.qihoo.com^$third-party
 ||vodone.cn^$third-party
 ||wauee.com^$third-party
 ||web933.com^$third-party
+||wy31.com^$third-party
 ||wyunion.com^$third-party
+||xixianad.com^$third-party
 ||xt918.com^$third-party
 ||gouwu.vip.xunlei.com^$third-party
 ||yigao.com^$third-party
@@ -1543,7 +1535,6 @@ uimg.youxjia.com^$third-party
 ||yoyocm.com^$third-party
 ||yunyu120.com^$third-party
 ||zhanzhangle.com^$third-party
-||xixianad.com^$third-party
 ||js.zdy.cc^$third-party
 
 !----------------------------Other (sort by letter)--------
@@ -1663,6 +1654,7 @@ mobile01.com##.forum_articles
 mobile01.com##.textimg
 newsmth.net##table.hot_title>tbody>tr>td[style]
 newsmth.net##table.HotTable>tbody>tr>td.HotTitle>script+a
+news.pchome.com.tw,pchome.syspower.com.tw###ad_bg_div
 price.com.hk##.tb
 price.com.hk##[id^="ad"]
 qianlong.com##.aditem01
@@ -5329,6 +5321,7 @@ _768x90_
 ###topbar-ad
 ###topcustomad
 ###topleaderboardad
+###topnav-ad-shell
 ###toprightAdvert
 ###toprightad
 ###topsponsored
@@ -11058,9 +11051,13 @@ mindspark.com##.desc
 miniclip.com##.block_300x250
 miniclip.com##.letterbox
 minnpost.com##.topleader
+missliterati.com###leaderboard
+missliterati.com###med_rectangle
 missoulian.com###yahoo-contentmatch
 mlfat4arab.com##img[width="234"][height="60"]
 mmegi.bw##.advert
+mmm-mag.com###leaderboard
+mmm-mag.com###med_rectangle
 mmorpg-center.com##div[style="margin-top: 4px; border: 0.1em solid rgb(204, 204, 204); height: 250px;"]
 mmosite.com##.c_gg
 mmosite.com##.mmo_gg
@@ -11434,6 +11431,7 @@ planetxbox360.com##td[align="center"][height="100"][bgcolor="#3f3f3f"]
 play.tm###sky
 playkidsgames.com##table[bgcolor="#333333"][width="320"][height="219"]
 playkidsgames.com##table[width="100%"][height="105"]
+plumasnews.com##.w49
 plusnetwork.com##.more_links
 plussports.com##.midBanner
 pmptoday.com##div[style="background-color: rgb(255, 255, 255); border: 1px solid rgb(51, 0, 0); font-family: Verdana,Arial,Sans-serif; font-size: 10px; padding: 0px; line-height: 11px; color: rgb(0, 0, 0); width: 728px; height: 90px;"]
@@ -12033,6 +12031,8 @@ tvsquad.com##.banner
 tvtechnology.com##table[width="665"]
 twcenter.net##div[style="width: 728px; height: 90px; margin: 1em auto 0pt;"]
 twilightwap.com##.ahblock2
+twistmagazine.com###leaderboard
+twistmagazine.com###med_rectangle
 twitter.com##.promoted-account
 twitter.com##.promoted-trend
 twitter.com##.promoted-tweet
@@ -12363,7 +12363,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||2mdn.net/*/dartshell*.swf
 @@||2mdn.net/*_ecw_$image,domain=wwe.com
 @@||2mdn.net/crossdomain.xml$object_subrequest
-@@||2mdn.net/instream/ads_sdk_config.xml$object_subrequest,domain=globaltv.com|youtube.com
+@@||2mdn.net/instream/ads_sdk_config.xml$object_subrequest,domain=globaltv.com|nouvelobs.com|youtube.com
 @@||2mdn.net/instream/adsapi_$object_subrequest,domain=globaltv.com|youtube.com
 @@||2mdn.net/viewad/817-grey.gif$object_subrequest,domain=imdb.com
 @@||a.ads2.msads.net^*.swf$domain=msnbc.msn.com
@@ -12790,6 +12790,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||openx.zomoto.nl/live/www/delivery/fl.js
 @@||openx.zomoto.nl/live/www/delivery/spcjs.php?id=
 @@||pagead2.googlesyndication.com/pagead/abglogo/abg-da-100c-000000.png$domain=janno.dk|nielco.dk
+@@||pagead2.googlesyndication.com^*/adsapi_$object_subrequest,$domain=nouvelobs.com
 @@||ping.indieclicktv.com/www/delivery/ajs.php?zoneid=$object_subrequest,domain=penny-arcade.com
 @@||ring.bg/adserver/adall.php?*&video_on_page=1
 @@||static.mobile.eu^*/resources/images/ads/superteaser_$image,domain=automobile.fr|automobile.it|mobile.eu|mobile.ro

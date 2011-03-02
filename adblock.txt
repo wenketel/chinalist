@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: zjqPaildcbXrZZccYbaitQ
+!  Checksum: weHgFhF4VQr94bTl19UgUQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 02 Mar 2011 15:52:49 +0800
+!  Last Modified:  Wed, 02 Mar 2011 22:57:34 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -497,17 +497,6 @@ pchome.net##[class^="ad"]
 www.pchome.net###popWin
 club.pchome.net###first-ad>a
 club.pchome.net###shop_promotion
-
-!---Pchome.com.tw
-w6.pchome.com.tw^$script
-news.pchome.com.tw###ad_bg_div
-www.pchome.com.tw##.abs
-www.pchome.com.tw##.ro1
-www.pchome.com.tw##.trvl
-www.pchome.com.tw##[id$="ad"]
-www.pchome.com.tw##[id^="ad_"]
-pchome.syspower.com.tw/get_ad_img.php
-pchome.syspower.com.tw###sixi
 
 !---太平洋电脑网
 ||3conline.com/ivy/
@@ -1052,6 +1041,7 @@ img.rayfile.com/scr/$script
 33.autohome.com.cn
 img.autohome.com.cn/pvpv$script
 ||backchina.com/banners/
+||cankaoa.com/new/$script
 imgs.ccw.com.cn/200*/$image,object
 imgs.ccw.com.cn/ccw/1.htm
 pvstat.china.cn/statpv.js
@@ -1389,7 +1379,7 @@ u.1133.cc^$third-party
 ||adsame.com^$third-party
 ||adsfactor.cn^$third-party
 ||adsue.com^$third-party
-||adver.com.tw^$~script
+||adver.com.tw^$third-party
 ||advprotraffic.com^$third-party
 ||adwww.cn^$third-party
 ||adyeye.com^$third-party
@@ -1532,7 +1522,9 @@ qd.code.qihoo.com^$third-party
 ||vodone.cn^$third-party
 ||wauee.com^$third-party
 ||web933.com^$third-party
+||wy31.com^$third-party
 ||wyunion.com^$third-party
+||xixianad.com^$third-party
 ||xt918.com^$third-party
 ||gouwu.vip.xunlei.com^$third-party
 ||yigao.com^$third-party
@@ -1543,7 +1535,6 @@ uimg.youxjia.com^$third-party
 ||yoyocm.com^$third-party
 ||yunyu120.com^$third-party
 ||zhanzhangle.com^$third-party
-||xixianad.com^$third-party
 ||js.zdy.cc^$third-party
 
 !----------------------------Other (sort by letter)--------
@@ -1663,6 +1654,7 @@ mobile01.com##.forum_articles
 mobile01.com##.textimg
 newsmth.net##table.hot_title>tbody>tr>td[style]
 newsmth.net##table.HotTable>tbody>tr>td.HotTitle>script+a
+news.pchome.com.tw,pchome.syspower.com.tw###ad_bg_div
 price.com.hk##.tb
 price.com.hk##[id^="ad"]
 qianlong.com##.aditem01
