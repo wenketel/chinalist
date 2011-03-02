@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 9fcWAfOLrJibsK9DataJ2A
+!  Checksum: sIFnkcImNOiVWd02PLoOng
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 02 Mar 2011 11:15:50 +0800
+!  Last Modified:  Wed, 02 Mar 2011 13:33:15 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -609,31 +609,18 @@ siluhd.com###index_top
 !---sina
 !--sina.com
 ||sina.com/gb/ads/
-||sina.com/freeform/f.js
 ||sina.com/rm/
 ||sina.com/assets/js/dart/
-chinanews.sina.com##.M_Right
-chinanews.sina.com##table[cellspacing="0"][width="900"]
 dailynews.sina.com##.TopNav+table
 !--sina.com.cn
 @@data.*.sina.com.cn^
 @@|http://down*.tech.sina.com.cn/$script,subdocument
 |http://d*.sina.com.cn^$domain=~slide.2010.sina.com.cn,~stylesheet
-bj.house.sina.com.cn/iframe/$subdocument,script
 ||sinaimg.cn/unipro/
 pfp.sina.com.cn^$domain=~video.sina.com.cn
 rm.sina.com.cn^
 ent.sina.com.cn/iframe/135/2008/0721/14.html
-!--finance
-@@counter.sina.com.cn/time?fm=JS
-||sinaimg.cn/dy/deco/$script,domain=~finance.sina.com.cn
-!--video
-@@||dcads.sina.com.cn^$domain=video.sina.com.cn
-@@||sina.com.cn/js/14/2010/0126/6.js
-video.sina.com.cn/iframe/$subdocument
-||v.sina.com.cn/v/iframe/$subdocument
-!--sports
-||lining.sina.com.cn^$subdocument
+bj.house.sina.com.cn/iframe/$subdocument,script
 sina.com.cn##.topAD
 sina.com.cn##.blkContainerSblk+div
 sina.com.cn##[id^="PublicRelation"]
@@ -642,9 +629,19 @@ sina.com.cn,sina.com##[class*="ads"]
 sina.com.cn,sina.com##[class^="AD"]
 blog.sina.com.cn##.blogreco
 blog.sina.com.cn##.topbannerAD
+www.sina.com.cn##.sinamall
+!--finance
+@@counter.sina.com.cn/time?fm=JS
+||sinaimg.cn/dy/deco/$script,domain=~finance.sina.com.cn
 finance.sina.com.cn###adSinaHouseHeadLink
 finance.sina.com.cn##.topADs
-www.sina.com.cn##.sinamall
+!--video
+@@||dcads.sina.com.cn^$domain=video.sina.com.cn
+@@||sina.com.cn/js/14/2010/0126/6.js
+video.sina.com.cn/iframe/$subdocument
+||v.sina.com.cn/v/iframe/$subdocument
+!--sports
+||lining.sina.com.cn^$subdocument
 !--sina.com.hk
 as.sinahk.net^$third-party
 asimg.sinahk.net^$third-party
@@ -1165,8 +1162,6 @@ luck.v1.cn/adxml.php?zoneid=*&stype=pauseAD
 ||510379.com/510379ad/
 /gg_new/*$domain=3gp2.net|98.126.25.82
 ||app-g.39.net^
-6park700.appspot.com^
-6park700.appspot.com##table[width="978"][cellpadding="3"]
 ||4oa.com/$script
 @@photo.51.com^$elemhide
 v3.apic.51.com/vda09.js
