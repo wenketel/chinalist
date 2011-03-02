@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: IQ7Kypluq/6wPlNyKwpZkA
+!  Checksum: 9fcWAfOLrJibsK9DataJ2A
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 02 Mar 2011 10:45:02 +0800
+!  Last Modified:  Wed, 02 Mar 2011 11:15:50 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -432,16 +432,17 @@ v.ku6.com##.flwin.flwin_min
 @@||11.mydrivers.com/news/commv2.js
 @@||11.mydrivers.com/news/define.js
 @@||11.mydrivers.com/www/index730.js
-||11.mydrivers.com^
+||11.mydrivers.com^$~third-party
 ||mydrivers.com/002f/*/$subdocument
-mydrivers.com##[id^="ad"]
-drivers.mydrivers.com##[align="center"][style^="padding-bottom: 2px;"]
-news.mydrivers.com##[align="center"][style="padding: 3px; font-size: 0px;"]
+mydrivers.com##[id^="ad_"]
+drivers.mydrivers.com##div[align="center"]
 news.mydrivers.com##table[border="0"][width="980"][height="90"]
-
+www.mydrivers.com##.top+.hang1
 !--myfiles
-||mydrivers.com/myfiles/duilian.js
-||mydrivers.com/myfiles/myfiles1001.js
+/duilian.js
+11.mydrivers.com/myfiles/04.js
+11.mydrivers.com/myfiles/myfiles100*.js
+myfiles.com.cn##[id^="ad_"]
 
 !---法语法国
 ||myfrfr.com^$object,script
@@ -454,7 +455,6 @@ myfrfr.com##table[width="756"]
 myfrfr.com##table[width="765"]
 
 !---mysilu&hdroad
-||mysilu.com/data/attachment/common/cf/
 mysilu.com##[class*="a_"]
 mysilu.com##TD[width="33%"][align="center"]
 
@@ -1679,7 +1679,7 @@ zaobao.com###myMovie
 !---2011.3
 t.douban.com/img/files/$object
 douban.com/js/sns/packed_faq$script
-bbs.goapk.com/data/attachment/common/cf/$image
+/data/attachment/common/cf/
 ||livefilestore.com^$domain=bbs.cnscg.com
 
 !------------------------End of List-------------------------
