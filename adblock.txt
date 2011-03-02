@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: rqPViTvhxi4tsAt29kMYRw
+!  Checksum: IQ7Kypluq/6wPlNyKwpZkA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 02 Mar 2011 10:09:07 +0800
+!  Last Modified:  Wed, 02 Mar 2011 10:45:02 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -112,24 +112,26 @@ www.6park.com/wap/close.gif
 ||hm.baidu.com^
 ||nsclick.baidu.com^
 ||spcode.baidu.com^
+||unstat.baidu.com^
+a.baidu.com/ecom$script
 hi.baidu.com/ui/scripts/refer/refer.js
-static.mp3.baidu.com^
 baike.baidu.com###mabox
+!--image
 image.baidu.com###ecomContainer
 image.baidu.com###relEcom
 image.baidu.com###relecom54
+!--MP3
+static.mp3.baidu.com^
 mp3.baidu.com##.top.container_20
-mp3.baidu.com###dMA+script+table
-video.baidu.com##div#rlinks+div[style="padding: 0pt 10px;"]
-video.baidu.com##[style="display: block; width: 1024px; height: 90px;"]
+mp3.baidu.com###ecom
 www.baidu.com###wrapper>table[width="30%"]:nth-child(4)
 www.baidu.com##table.EC_mr15
 !--zhidao
-img.baidu.com/img/iknow/egg/egg.swf
 zhidao.baidu.com##.ad-fc-down
-zhidao.baidu.com##.fc-down
 zhidao.baidu.com##.r
-zhidao.baidu.com###ec_link
+zhidao.baidu.com###ad-brand-down
+zhidao.baidu.com###qb-ad-cpro
+zhidao.baidu.com##[style="margin:10px 0;text-align:left;width:100%;overflow:hidden;"]
 zhidao.baidu.com##TABLE[width="100%"][bgcolor="#f5f5f5"]
 !--qiyi
 ||afp.qiyi.com^
