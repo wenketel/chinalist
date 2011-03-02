@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: sIFnkcImNOiVWd02PLoOng
+!  Checksum: zjqPaildcbXrZZccYbaitQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 02 Mar 2011 13:33:15 +0800
+!  Last Modified:  Wed, 02 Mar 2011 15:52:49 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -500,13 +500,14 @@ club.pchome.net###shop_promotion
 
 !---Pchome.com.tw
 w6.pchome.com.tw^$script
-w6.pchome.com.tw/adpics/
-www.pchome.com.tw##[id$="ad"]
 news.pchome.com.tw###ad_bg_div
-www.pchome.com.tw##.actnws
+www.pchome.com.tw##.abs
 www.pchome.com.tw##.ro1
-www.pchome.com.tw###topnewsb
 www.pchome.com.tw##.trvl
+www.pchome.com.tw##[id$="ad"]
+www.pchome.com.tw##[id^="ad_"]
+pchome.syspower.com.tw/get_ad_img.php
+pchome.syspower.com.tw###sixi
 
 !---太平洋电脑网
 ||3conline.com/ivy/
@@ -1388,7 +1389,7 @@ u.1133.cc^$third-party
 ||adsame.com^$third-party
 ||adsfactor.cn^$third-party
 ||adsue.com^$third-party
-||adver.com.tw^$third-party
+||adver.com.tw^$~script
 ||advprotraffic.com^$third-party
 ||adwww.cn^$third-party
 ||adyeye.com^$third-party
@@ -1556,6 +1557,7 @@ uimg.youxjia.com^$third-party
 /adimage/*
 /adjk.php?
 /adphoto/*
+/adpics/*
 /adpolestar^
 /adpshow.
 /adservice/*
