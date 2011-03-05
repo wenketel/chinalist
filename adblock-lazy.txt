@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: d7Q/xP3UV0dO1PA+Tv4HjQ
+!  Checksum: eYtEZRB0QYfbCnUX8WrPFQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 04 Mar 2011 22:40:37 +0800
+!  Last Modified:  Sat, 05 Mar 2011 08:40:27 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -1653,9 +1653,8 @@ jandan.net##.eggs
 jandan.net##.xy
 www.javaeye.com###forum_recommended_f4
 www.javaeye.com###forum_recommended_f5
-www.kswchina.com###banner
-mobile01.com##.forum_articles
-mobile01.com##.textimg
+www.kswchina.com###
+mobile01.com##[class$="-ad"]
 newsmth.net##table.hot_title>tbody>tr>td[style]
 newsmth.net##table.HotTable>tbody>tr>td.HotTitle>script+a
 news.pchome.com.tw,pchome.syspower.com.tw###ad_bg_div
@@ -2040,6 +2039,7 @@ douban.com/js/sns/packed_faq$script
 /adlayer.
 /adlayer/*
 /adleader.
+/adleaderboardtop.
 /adlink-
 /adlink.
 /adlink_
@@ -2253,6 +2253,7 @@ douban.com/js/sns/packed_faq$script
 /adsponsor.
 /adspro/*
 /adsquare.
+/adsquareleft.
 /adsremote.
 /adsreporting/*
 /adsrich.
@@ -8441,6 +8442,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||as.devbridge.com^$third-party
 ||astalavista.box.sk/c-astalink2a.jpg
 ||autoprivileges.net/news/
+||avalanchers.com/scripts/custom/$third-party
 ||avapartner.com/banners/
 ||award.sitekeuring.net^
 ||aweber.com/banners/
@@ -9314,6 +9316,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||pinknews.co.uk/newweb/
 ||piratebay.net^$subdocument,domain=thepiratebay.org
 ||pitchero.com^*/toolstation.gif
+||pixhost.org/image/fik1.jpg
 ||pocketpcaddict.com/forums/images/banners/
 ||pons.eu^*/lingeniobanner.swf
 ||popbytes.com/img/*-ad.jpg
@@ -11015,6 +11018,7 @@ manoramaonline.com##td[width="160"][height="600"]
 map24.com###cont_m24up
 mapcrunch.com###locinfo
 mapquest.com###offers
+maps.yahoo.com###ymap_main_footer
 marketingmag.ca###leaderboard_container
 marketingpilgrim.com###ad
 mashable.com###leaderboard
@@ -12653,7 +12657,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||pumpkinpatchkids.com/www/delivery/ajs.php?$script
 @@||quit.org.au/images/images/ad/
 @@||rcm-images.amazon.com/images/$domain=rankbank.net
-@@||redir.adap.tv/redir/client/adplayer.swf$domain=blogtalkradio.com|cracked.com|egreetings.com|ehow.com|imgag.com|videosift.com|xxlmag.com
+@@||redir.adap.tv/redir/client/adplayer.swf$domain=|blogtalkradio.com|cracked.com|egreetings.com|ehow.com|freeonlinegames.com|imgag.com|videosift.com|xxlmag.com
 @@||redir.adap.tv/redir/javascript/adaptvadplayer.js$object_subrequest,domain=egreetings.com|imgag.com
 @@||redir.adap.tv/redir/plugins/*/adotubeplugin.swf?$domain=stickam.com
 @@||refline.ch^*/advertisement.css
