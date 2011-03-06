@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: eYtEZRB0QYfbCnUX8WrPFQ
+!  Checksum: dts/rJuGibDTOFXMQbTRpw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 05 Mar 2011 08:40:27 +0800
+!  Last Modified:  Sun, 06 Mar 2011 09:05:37 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -422,6 +422,13 @@ img.c4.ku6.cn/*/upload/$object
 ||stat.ku6.com^
 v.ku6.com##[id^="gg"]
 v.ku6.com##.flwin.flwin_min
+!--special.ku6.com
+special.ku6img.com/projects/2010/yintai/flash/
+ku6img.com/cms/dv/201102/14/yintailiucheng.jpg
+ku6img.com/cms/dv/201102/a/danpin008.jpg
+promotion.yintai.com/slide/index.html
+special.ku6.com###recommend>div:last-child
+special.ku6.com###Tab4
 
 !---libertytimes
 122.146.0.242
@@ -2145,14 +2152,17 @@ douban.com/js/sns/packed_faq$script
 /ads/layer.
 /ads/leaderboard_
 /ads/openx/*
+/ads/post-
 /ads/preloader/*
 /ads/preroll_
 /ads/promo_
 /ads/rectangle_
 /ads/ringtone_
+/ads/side-
 /ads/sponsor_
 /ads/square-
 /ads/third-party/*
+/ads/top-
 /ads/video_
 /ads09a/*
 /ads2.html
@@ -3682,7 +3692,9 @@ _768x90_
 ###SponsoredLinks
 ###TOP_ADROW
 ###TOP_RIGHT_BOXAD
+###Tadspacefoot
 ~kids.t-online.de###Tadspacehead
+###Tadspacemrec
 ###Top468x60AD
 ~isource.com###TopAd
 ###TopAdBox
@@ -10444,6 +10456,7 @@ funnyordie.com###header_takeover
 funnytipjars.com###top-leaderboard
 funnytipjars.com##.leaderboard
 furaffinity.net##.ads
+furiousfanboys.com##.big-banner
 fxnetworks.com###adBlock
 gadgetzone.com.au###Leaderboard-placeholder
 gadgetzone.com.au##td[style="width: 300px;"]
@@ -11387,6 +11400,8 @@ pakladies.com##div[style="width: 336px; height: 280px;"]
 pakladies.com##div[style="width: 728px; height: 90px;"]
 passedoutphotos.com###top-leaderboard
 passedoutphotos.com##.leaderboard
+pastie.org##.ads
+pastie.org##.sponsor
 pbs.org###corp-sponsor-sec
 pbs.org###masthead1
 pbs.org###masthead2
@@ -13113,7 +13128,7 @@ _cedexis.php
 ||a-counters.com^$third-party
 ||aaddzz.com^$third-party
 ||abcstats.com^$third-party
-||abmr.net^
+||abmr.net^$third-party
 ||absolstats.co.za^$third-party
 ||acestats.net^$third-party
 ||activemeter.com^$third-party
@@ -13184,6 +13199,7 @@ _cedexis.php
 ||c-webstats.de^$third-party
 ||cache.am^$third-party
 ||cache.fm^$third-party
+||campaigncog.com^$third-party
 ||cedexis.com^$third-party
 ||cedexis.net^$third-party
 ||celebros-analytics.com^$third-party
@@ -13339,6 +13355,7 @@ _cedexis.php
 ||geovisite.com^$third-party
 ||getclicky.com^$third-party
 ||getstatistics.se^$third-party
+||gigcount.com^$third-party
 ||glanceguide.com^$third-party
 ||globase.com^$third-party
 ||globel.co.uk^$third-party
@@ -14376,6 +14393,7 @@ _cedexis.php
 ||plugins.longtailvideo.com/yourlytics
 ||pr.blogflux.com^
 ||praekelt.com^*/webtracker.js
+||projecthaile.com/js/trb-1.js
 ||prstats.postrelease.com^
 ||pt.crossmediaservices.com^
 ||purevideo.com^*/pvshim.gif?
@@ -15089,7 +15107,10 @@ _cedexis.php
 ||rediff.com^*/?rkey=
 ||report.shell.com^
 ||reuters.com/tracker/
+||reuters.com^*/tracker_activitystream.js
 ||reuters.com^*/tracker_article.js
+||reuters.com^*/webtrends.js
+||reuters.com^*/widget-rta-poc.js
 ||revsci.tvguide.com^
 ||ripe.net/1x1.gif?
 ||rok.com.com^
