@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: stKeH1C/RaVYIG9l3Ah+7Q
+!  Checksum: +4WQudQRiCMW6777WC1SkA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 06 Mar 2011 09:36:49 +0800
+!  Last Modified:  Mon, 07 Mar 2011 10:00:50 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -1132,6 +1132,7 @@ bbs.whsee.com/js/
 ||xs8.cn/data/iframe/$script
 images.xxsy.net/sygg/
 ||ydnovel.com^$script
+static.zongheng.com/upload/ad/
 
 !---RSS
 ||feedsky.com/r/i/feedsky/*/art01.gif
@@ -1708,6 +1709,7 @@ douban.com/js/sns/packed_faq$script
 -adserver-
 -advert-
 -advert.
+-banner-ad.
 -banner-ads/
 -banner468x60.
 -bin/ad_
@@ -3248,6 +3250,7 @@ douban.com/js/sns/packed_faq$script
 ://synad.
 ;adsense_
 ;iframeid=ad_
+=ad_iframe&
 =adtech_
 =advert/
 =advertorial&
@@ -3602,9 +3605,12 @@ _768x90_
 ###AdText
 ###AdTop
 ###AdTopLeader
+###Ad_BelowContent
 ###Ad_Block
 ###Ad_Center1
 ###Ad_Right1
+###Ad_RightBottom
+###Ad_RightTop
 ###Ad_Top
 ~cynamite.de###Adbanner
 ###Adrectangle
@@ -4246,6 +4252,7 @@ _768x90_
 ###adsense-header
 ###adsense-tag
 ###adsense-text
+###adsenseLeft
 ###adsenseOne
 ###adsenseWrap
 ###adsense_article_left
@@ -5000,6 +5007,8 @@ _768x90_
 ###noresults_ad_container
 ###noresultsads
 ###northad
+###ns_ad1
+###ns_ad2
 ###ns_ad3
 ###oanda_ads
 ###onespot-ads
@@ -5189,6 +5198,7 @@ _768x90_
 ###slideshow_ad_300x250
 ###sm-banner-ad
 ###small_ad
+###small_ads
 ###smallerAd
 ###some-ads
 ###some-more-ads
@@ -5244,6 +5254,7 @@ _768x90_
 ###sponsoredresults_top
 ###sponsoredwellcontainerbottom
 ###sponsoredwellcontainertop
+###sponsorfull
 ###sponsoring_bar
 ###sponsorlink
 ###sponsors
@@ -5525,6 +5536,7 @@ _768x90_
 ##.Post5ad
 ##.Post9ad
 ##.RBboxAd
+##.RW_ad300
 ##.RectangleAd
 ##.RelatedAds
 ##.Right300x250AD
@@ -5950,6 +5962,7 @@ _768x90_
 ##.ad_plus
 ##.ad_post
 ##.ad_power
+##.ad_promo
 ##.ad_rectangle
 ~didaktik-der-mathematik.de##.ad_right
 ##.ad_right_col
@@ -6176,10 +6189,10 @@ _768x90_
 ##.adsd_shift100
 ##.adsection_a2
 ##.adsection_c2
-~jobmail.co.za,~lalsace.fr,~lepays.fr,~ph4.ru,~tonprenom.com##.adsense
 ##.adsense-ad
 ##.adsense-category
 ##.adsense-category-bottom
+##.adsense-googleAds
 ##.adsense-heading
 ##.adsense-overlay
 ##.adsense-post
@@ -6191,6 +6204,7 @@ _768x90_
 ##.adsenseBlock
 ##.adsenseContainer
 ##.adsenseGreenBox
+##.adsenseList
 ##.adsense_bdc_v2
 ##.adsense_mpu
 ##.adsensebig
@@ -6963,6 +6977,7 @@ _768x90_
 ##.mpu_gold
 ##.mpu_holder
 ##.mpu_platinum
+##.mpu_side
 ##.mpu_text_ad
 ##.mpuad
 ##.mpuholderportalpage
@@ -7190,6 +7205,8 @@ _768x90_
 ##.singleAd
 ##.singleAdsContainer
 ##.singlead
+##.site_ad_120_600
+##.site_ad_300x250
 ##.sitesponsor
 ##.skinAd
 ##.skin_ad_638
@@ -8595,6 +8612,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||legitonlinejobs.com/images/$third-party
 ||lego.com^*/affiliate/
 ||letters.coursekey.com/lettertemplates_$third-party
+||lijit.com/delivery/
 ||liutilities.com/partners/affiliate/
 ||livejasmin.com^$subdocument,third-party
 ||liveshows.com^*/live.js$third-party
@@ -8823,6 +8841,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||allthingsd.com^*_ad_
 ||amd.com/publishingimages/*/master_
 ||analytics.mmosite.com^
+||andr.net/banners/
 ||androidpit.com/app-seller/app-seller.swf?xmlpath=$object
 ||animationxpress.com/anex/crosspromotions/
 ||animationxpress.com/anex/solutions/
@@ -9265,6 +9284,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||mystream.to^*/button_close.png
 ||mysubtitles.com^*_banner.jpg
 ||myway.com/gca_iframe.html
+||mywot.net/files/wotcert/vipre.png
 ||nasaspaceflight.com/banners/
 ||nationalturk.com^*/banner
 ||naukimg.com/banner/
@@ -9295,11 +9315,10 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||nu2.nu^*_banner.
 ||nuts.co.uk/themes/takeovers/$image
 ||ny1.com^*/servecontent.aspx?iframe=
-||nyaatorrents.org/images/nw.
-||nyaatorrents.org/images/skyscraper.
 ||nymag.com^*/metrony_
 ||nypost.com^*/takeovers/
 ||nyrej.com/c/
+||nznewsuk.co.uk/banners/
 ||objects.tremormedia.com/embed/swf/bcacudeomodule.swf$domain=radaronline.com
 ||ocforums.com/adj/
 ||oldgames.sk/images/topbar/
@@ -9640,6 +9659,7 @@ abndigital.com###banner468
 abndigital.com###leaderboard_728x90
 about.com###adB
 about.com##.gB
+acapelladdl.com##div[id][style^="display: block;"]
 accuradio.com###masthead
 accuradio.com###rightskyscraper_placeholder
 accuradio.com###top_leaderboard
@@ -9697,6 +9717,8 @@ ancestry.com##.uprPromo
 anchorfree.net##div[style="width: 728px; display: block; height: 90px; margin: 15px 0pt;"]
 androidapps.com##.ad
 androidpit.com##.boxLightLeft[style="width: 620px; text-align: center; font-size: 95%;"]
+androidpolice.com###execphp-4
+androidpolice.com###execphp-7
 anime-planet.com##.medrec
 animea.net##.ad
 animenewsnetwork.com###page-header-banner
@@ -9766,6 +9788,7 @@ au.yahoo.com###y708-windowshade
 audioreview.com##.MiddleTableRightColumn
 audioreview.com##script + table[width="539"]
 audioreview.com##table[width="300"][style="border: 1px solid rgb(65, 103, 122); margin-left: 10px;"]
+aussie-nintendo.com##.ad
 autoblog.com##.leader
 autoblog.com##.medrect
 autoblog.com##.topleader
@@ -9866,6 +9889,8 @@ bostonherald.com##div[style="position: relative; margin-bottom: 16px; background
 box10.com###TakeOverLink
 boxoffice.com###top_banner
 brandsoftheworld.com###leaderboardTop
+brantfordexpositor.ca##.npLgInteriorMedia
+brantfordexpositor.ca##div[style="float: right; padding-left: 10px; padding-bottom: 10px; width: 300px;"]
 break.com###infospace-sidebar
 break.com##.ad
 break.com##.breaking_news
@@ -10457,6 +10482,7 @@ funnyordie.com###header_takeover
 funnytipjars.com###top-leaderboard
 funnytipjars.com##.leaderboard
 furaffinity.net##.ads
+furiousfanboys.com##.advert
 furiousfanboys.com##.big-banner
 fxnetworks.com###adBlock
 gadgetzone.com.au###Leaderboard-placeholder
@@ -11023,6 +11049,7 @@ makeuseof.com##div[style="margin-bottom: 15px; margin-top: 15px; padding: 5px; b
 makezine.com##.ad
 malaysiastory.com##.box2
 maltonmercury.co.uk###banner01
+mamma.com##.adw
 mangafox.com##.left[style="width: 930px; padding-bottom: 10px; padding-right: 10px; padding-left: 10px;"]
 mangafox.com##a[href*=".game321.com/"]
 mangafox.com##div[style*="width: 728px; height: 90px;"]
@@ -11329,18 +11356,7 @@ nwsource.com##.adblock
 nwsource.com##.googlemiddle
 ny1.com##.bannerSidebar
 ny1.com##.bannerTop
-nyaatorrents.org###main > div > div > a > img
-nyaatorrents.org###main > div > div > div > a > img
-nyaatorrents.org###maincont:first-child:last-child > div > a > img
-nyaatorrents.org###maincont:first-child:last-child > div:first-child > div:first-child > a > img
-nyaatorrents.org###maincontent > div > a > img
-nyaatorrents.org###maincontent > div:first-child > div:first-child > a > img
-nyaatorrents.org##a[href^="http://www.nyaatorrents.org/a?"]
-nyaatorrents.org##a[href^="http://www.nyaatorrents.org/b?"]
-nyaatorrents.org##a[href^="http://www.nyaatorrents.org/c?"]
-nyaatorrents.org##div[style="float: left; width: 760px; height: 97px; text-align: left; padding: 7px 0px 0px 5px;"]
-nyaatorrents.org##div[style="width: 120px; float: right; margin-top: 65px; margin-left: 6px;"]
-nyaatorrents.org##div[style="width: 800px; float: left; text-align: left; padding: 2px 0px 0px 5px; margin-top: -4px;"]
+nyaa.eu##a[href^="http://www.nyaa.eu/e?"]
 nydailynews.com###nydn-topbar
 nydailynews.com##.z_sponsor
 nymag.com###partner-feeds
@@ -11476,6 +11492,7 @@ planetxbox360.com##div[style="margin: 0px 0pt; padding: 2px; width: 300px; heigh
 planetxbox360.com##td#rightCol1[align="right"][valign="top"]
 planetxbox360.com##td[align="center"][height="100"][bgcolor="#3f3f3f"]
 play.tm###sky
+playhd.info##a[href^="http://www.affbuzzads.com/affiliate/"]
 playkidsgames.com##table[bgcolor="#333333"][width="320"][height="219"]
 playkidsgames.com##table[width="100%"][height="105"]
 plumasnews.com##.w49
@@ -11531,6 +11548,7 @@ pureoverclock.com###adblock1
 pureoverclock.com###adblock2
 pureoverclock.com###mainbanner
 pv-tech.org##.ad
+pwtorch.com##td[width="306"][height="250"]
 qj.net###shoppingapi
 quackit.com###rightColumn
 quackit.com##div[style="margin: auto; width: 180px; height: 250px; text-align: center; background: url(\"/pix/ads/ad_zappyhost_search_box_180x250.gif\") no-repeat scroll left top rgb(255, 255, 255);"]
@@ -12056,6 +12074,7 @@ trucknetuk.com##table[width="620"][cellspacing="3"][bgcolor="#ffffff"][align="ce
 trueslant.com##.bot_banner
 trustedreviews.com###bottom-sky
 trustedreviews.com###top-sky
+trustedreviews.com##div[style="width: 300px; height: 250px; margin-right: auto; margin-left: auto; margin-bottom: 26px;"]
 trutv.com##.banner
 tsviewer.com###layer
 tuaw.com##.medrect
@@ -12279,6 +12298,7 @@ wired.com###featured
 wirelessforums.org##td[width="160"][valign="top"]
 wishtv.com###leaderboard
 wlfi.com###leaderboard
+womanandhome.com##.ads
 wordreference.com##.bannertop
 workforce.com##td[width="970"][height="110"]
 worksopguardian.co.uk###banner01
@@ -12660,8 +12680,9 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||openx.org/ck.php?$subdocument,domain=cubeecraft.com
 @@||pagead2.googlesyndication.com/pagead/scache/show_invideo_ads.js$domain=sciencedaily.com
 @@||pagead2.googlesyndication.com/pagead/static?format=in_video_ads&$elemhide,subdocument
-@@||partner.googleadservices.com/gampad/google_ads.js$domain=avclub.com
-@@||partner.googleadservices.com/gampad/google_service.js$domain=avclub.com
+@@||partner.googleadservices.com/gampad/google_ads.js$domain=avclub.com|mysoju.com
+@@||partner.googleadservices.com/gampad/google_ads2.js$domain=mysoju.com
+@@||partner.googleadservices.com/gampad/google_service.js$domain=avclub.com|mysoju.com
 @@||partners.thefilter.com/crossdomain.xml$object_subrequest,domain=dailymotion.com|dailymotion.virgilio.it
 @@||partners.thefilter.com/dailymotionservice/$image,object_subrequest,script,domain=dailymotion.com|dailymotion.virgilio.it
 @@||pix04.revsci.net^*/pcx.js?$script,domain=foxbusiness.com|foxnews.com
@@ -12670,6 +12691,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||promo2.tubemogul.com/adtags/slim_no_iframe.js$domain=comedy.com
 @@||promo2.tubemogul.com/flash/youtube.swf$domain=comedy.com
 @@||promo2.tubemogul.com/lib/tubemoguldisplaylib.js$domain=comedy.com
+@@||pubads.g.doubleclick.net/gampad/ads?$script,domain=mysoju.com
 @@||pumpkinpatchkids.com/www/delivery/ajs.php?$script
 @@||quit.org.au/images/images/ad/
 @@||rcm-images.amazon.com/images/$domain=rankbank.net
@@ -12765,7 +12787,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||avforums.com/forums/adframe.js
 @@||ballreviews.com/advertisement.js
 @@||cinshare.com/js/embed.js?*=http://adserving.cpxinteractive.com/?
-@@||cpalead.com/mygateway.php?pub=$script,domain=pspmaniaonline.com|serialnumber.in|spotifyripping.com|stumblehere.com|videodownloadx.com|yourpcmovies.net|youserials.com
+@@||cpalead.com/mygateway.php?pub=$script,domain=acapelladdl.com|pspmaniaonline.com|serialnumber.in|spotifyripping.com|stumblehere.com|videodownloadx.com|yourpcmovies.net|youserials.com
 @@||dailykos.com/ads/adblocker.blogads.css
 @@||dollarade.com/overlay_gateway.php?oid=$script,domain=pspmaniaonline.com
 @@||eq2flames.com/adframe.js
@@ -13754,6 +13776,7 @@ _cedexis.php
 ||adtraxx.de^$third-party
 ||adzoe.de^$third-party
 ||anormal-tracker.de^$third-party
+||asci.freenet.de^
 ||avencio.de^$third-party
 ||backlink-test.de^$third-party
 ||backlink-umsonst.de^$third-party
@@ -14303,6 +14326,7 @@ _cedexis.php
 ||events.eyeviewdigital.com^*.gif?r=
 ||evri.com/analytics/
 ||facebook.com/campaign/impression.php?
+||facilitatedigital.com/hit.aspx?
 ||fastcounter.onlinehoster.net^
 ||flagship.asp-host.co.uk^
 ||flixster.com^*/analytics.
@@ -15108,6 +15132,7 @@ _cedexis.php
 ||rediff.com^*/?rkey=
 ||report.shell.com^
 ||reuters.com/tracker/
+||reuters.com^*/rcom-wt-mlt.js
 ||reuters.com^*/tracker_activitystream.js
 ||reuters.com^*/tracker_article.js
 ||reuters.com^*/webtrends.js
