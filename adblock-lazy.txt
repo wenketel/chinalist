@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: pr93LAlGDhkf4IT0i1GWpQ
+!  Checksum: DBlZkrJtwD1SqL6dCoXnZQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 07 Mar 2011 16:32:57 +0800
+!  Last Modified:  Tue, 08 Mar 2011 22:59:27 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -917,14 +917,12 @@ pc3w.com##table[width="925"][height="305"]
 
 !----------------------------Generic(sort by domain name)--
 !---Blog Sites
-||appinn.com/wp-content/*.swf|
+appinn.com##.ads
 ||freegroup.org^$subdocument
 ||gordon168.tw/gameflier/
-liveasy.myweb.hinet.net^
 ||minwt.com/img/ADEvent/
 photo.minwt.com/img/banner/
 image.soft.idv.tw/ad/
-images.steachs.com^$object
 ||wretch.cc/_y/l/e/serv/blog/ysm.htm
 wretch.cc##.admd
 wretch.cc###ad_word
@@ -1494,6 +1492,7 @@ u.juyouxi.com^$third-party
 ||onetad.com^$third-party
 .pee.cn/$third-party
 ||ppunion.com^$third-party
+||prohost.com.tw^$third-party
 qd.code.qihoo.com^$third-party
 ||qiyou.com^$third-party
 ||qizhao.com^$third-party
@@ -1514,6 +1513,7 @@ qd.code.qihoo.com^$third-party
 ||tazhao.com^$third-party
 ||tenoad.com^$third-party
 .tjq.com^$third-party
+||twm.com.tw^$third-party
 ||float2006.tq.cn^
 ||tuigoo.com^$third-party
 ||tuike.cn^$third-party
@@ -1664,7 +1664,6 @@ jandan.net##.eggs
 jandan.net##.xy
 www.javaeye.com###forum_recommended_f4
 www.javaeye.com###forum_recommended_f5
-www.kswchina.com###
 mobile01.com##[class$="-ad"]
 newsmth.net##table.hot_title>tbody>tr>td[style]
 newsmth.net##table.HotTable>tbody>tr>td.HotTitle>script+a
@@ -2235,6 +2234,7 @@ douban.com/js/sns/packed_faq$script
 /adserving.
 /adserving/*
 /adserv|*|adtech;
+/adsetup.
 /adsfac.
 /adsfetch.
 /adsfile.
@@ -2619,6 +2619,7 @@ douban.com/js/sns/packed_faq$script
 /emailads/*
 /emediatead.
 /eng/ads/*
+/exitsplash.php
 /ext_ads.
 /external/ad.
 /external/ads/*
@@ -3429,6 +3430,7 @@ z/adx.js
 |http://ads3.
 |http://ads4.
 |http://ads5.
+|http://ads6.
 |http://adserv
 |http://bwp.*/search
 |http://feeds.*/~a/
@@ -5550,6 +5552,7 @@ _768x90_
 ##.RightTowerAd
 ##.STR_AdBlock
 ##.SideAdCol
+###SideAdMpu
 ##.SidebarAd
 ##.SidebarAdvert
 ##.SitesGoogleAdsModule
@@ -5644,6 +5647,7 @@ _768x90_
 ##.ad-img
 ##.ad-in-post
 ##.ad-index-main
+##.ad-inline
 ##.ad-island
 ##.ad-label
 ##.ad-leaderboard
@@ -7171,6 +7175,8 @@ _768x90_
 ##.serp_sponsored
 ##.servsponserLinks
 ##.shoppingGoogleAdSense
+##.showAd_No
+##.showAd_Yes
 ##.showcaseAd
 ##.sidbaread
 ##.side-ad
@@ -8338,6 +8344,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||twittad.com^$third-party
 ||tyroo.com^$third-party
 ||udmserve.net^$third-party
+||uiadserver.com^$third-party
 ||ukbanners.com^$third-party
 ||unanimis.co.uk^$third-party
 ||undertone.com^$third-party
@@ -8787,6 +8794,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||xml.exactseek.com/cgi-bin/js-feed.cgi?$third-party
 ||yieldmanager.edgesuite.net^
 ||yimg.com^*/quickplay_maxwellhouse.png
+||ziffdavisenterprise.com/contextclicks/
 !Preliminary third-party adult section
 ||hotcaracum.com/banner/$third-party
 !Mobile
@@ -9031,6 +9039,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||eurogamer.net/quad.php
 ||eva.ucas.com^
 ||eweek.com/images/stories/marketing/
+||eweek.com/widgets/ibmtco/
 ||excite.com/gca_iframe.html?
 ||expatexchange.com/banner/
 ||expertreviews.co.uk/images/skins/
@@ -9046,6 +9055,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||filebase.to^*/boxy.js
 ||filebase.to^*/note.js
 ||filefront.com/linkto/
+||files.nyaa.eu/common/*.jpg
 ||filespazz.com/imx/template_r2_c3.jpg
 ||filespazz.com^*/copyartwork_side_banner.gif
 ||filestube.com/files/images/ggta_*.gif
@@ -9115,7 +9125,17 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||hostsearch.com/creative/
 ||hotbollywoodactress.net/ff2.gif
 ||hotbollywoodactress.net/freedatingindia.gif
+||hotfrog.ca/adblock.ashx?
+||hotfrog.co.nz/adblock.ashx?
+||hotfrog.co.za/adblock.ashx?
+||hotfrog.co.uk/adblock.ashx?
 ||hotfrog.com/adblock.ashx?
+||hotfrog.com.au/adblock.ashx?
+||hotfrog.com.my/adblock.ashx?
+||hotfrog.ie/adblock.ashx?
+||hotfrog.in/adblock.ashx?
+||hotfrog.ph/adblock.ashx?
+||hotfrog.sg/adblock.ashx?
 ||howtogeek.com/go/
 ||hulkshare.oncdn.com^*/removeads.
 ||hummy.org.uk^*/brotator/
@@ -10329,6 +10349,8 @@ eweek.com###hp_special_reports
 eweek.com###syndication
 eweek.com##.hp_link_online_classifieds
 eweek.com##.omniture_module_tracker
+eweek.com##.sl-inner
+eweek.com##.sxs-bg
 eweek.com##table[width="500"][style="border: 1px solid rgb(204, 204, 204); margin: 5px 10px 5px 20px;"]
 exactseek.com###featured
 exactseek.com##.recommended
@@ -10628,8 +10650,17 @@ hollywoodreporter.com##.ad
 hollywoodreporter.com##.advert
 holyfragger.com##.ad
 hotbollywoodactress.net##a[href*=".makdi.com"]
-hotfrog.com##.search-middle-adblock
-hotfroguk.co.uk##.search-middle-adblock
+hotfrog.ca##.banner
+hotfrog.co.nz##.banner
+hotfrog.co.uk##.banner
+hotfrog.co.za##.banner
+hotfrog.com##.banner
+hotfrog.com.au##.banner
+hotfrog.com.my##.banner
+hotfrog.ie##.banner
+hotfrog.in##.banner
+hotfrog.ph##.banner
+hotfrog.sg##.banner
 hotjobs.yahoo.com###sponsorResults
 hotlinkfiles.com###leaderboard
 hotshare.net##.publi_videos1
@@ -10969,6 +11000,7 @@ load.to##.download_right
 loaded.it###apDiv1
 loaded.it###bottomcorner
 loaded.it###ppad1
+loaded.it##TR > td[style="text-align: center; vertical-align: top; font-size: 12px;"]:first-child:last-child
 loaded.it##img[style="border: 0px none; width: 750px;"]
 local.co.uk###borderTab
 local.yahoo.com##.yls-rs-paid
@@ -12761,6 +12793,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||videoads.washingtonpost.com^$object_subrequest,domain=slatev.com
 @@||vidtech.cbsinteractive.com/plugins/*_adplugin.swf
 @@||vindicoasset.edgesuite.net/repository/campaigncreative/*/instreamad/$domain=shackvideo.com
+@@||vk.com/ads_rotate.php
 @@||vortex.accuweather.com/adc2004/pub/ads/js/ads-2006_vod.js
 @@||vox-static.liverail.com/swf/*/admanager.swf
 @@||vox-static.liverail.com/swf/*/liverailplugin.swf
@@ -13248,6 +13281,7 @@ _cedexis.php
 ||clickdensity.com^$third-party
 ||clickequations.net^$third-party
 ||clickforensics.com^$third-party
+||clickinc.com^$third-party
 ||clickmanage.com^$third-party
 ||clickstream.co.za^$third-party
 ||clicktale.net^$third-party
@@ -14137,7 +14171,7 @@ _cedexis.php
 ||logger.su^$third-party
 ||logua.com^$third-party
 ||logxp.ru^$third-party
-||logz.ru^$third-party
+||logz.ru/$third-party
 ||lookmy.info^$third-party
 ||lugansk-info.ru^$third-party
 ||luxup.ru^$third-party
@@ -14160,11 +14194,11 @@ _cedexis.php
 ||spylog.ru^$third-party
 ||stat24.ru^$third-party
 ||stats21.com^$third-party
-||tbex.ru^$third-party
+||tbex.ru/$third-party
 ||tns-counter.ru^$third-party
 ||uarating.com^$third-party
 ||uzrating.com^$third-party
-||vira.ru^$third-party
+||vira.ru/$third-party
 ||volgograd-info.ru^$third-party
 ||vologda-info.ru^$third-party
 ||web-visor.com^$third-party
