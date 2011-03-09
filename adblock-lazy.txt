@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: sNJwT/IYmNAiU/+dIp9wIQ
+!  Checksum: ehfSczjz/r2zqSLJyunY9g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 09 Mar 2011 04:06:25 +0800
+!  Last Modified:  Thu, 10 Mar 2011 06:36:36 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -1129,6 +1129,7 @@ pic.hongxiu.com/fox/hx/
 ||sfw.com.cn/templets/banner/
 bbs.sfw.com.cn/attachments/
 sfw.com.cn##.cataBanner1
+||shanwen.com^$script
 ||wanshulou.com/skin/js/1.js
 bbs.whsee.com/js/
 ||xntk.com^$script
@@ -1987,6 +1988,7 @@ douban.com/js/sns/packed_faq$script
 /adconfig.js
 /adconfig.xml?
 /adconfig/*
+/adcontainer?
 /adcontent.$~object_subrequest
 /adcontroller.
 /adcreative.
@@ -3097,7 +3099,6 @@ douban.com/js/sns/packed_faq$script
 /small_ads/*
 /smartad.
 /smartads.
-/smartlinks.
 /smb/ads/*
 /socialads.
 /socialads/*
@@ -3527,7 +3528,6 @@ z/adx.js
 /728x90_
 /768x90-
 /768x90.
-=300x250;
 _120_600
 _120x60.
 _120x600.
@@ -3634,6 +3634,7 @@ _768x90_
 ###Ads_BA_CAD_box
 ###Ads_BA_SKY
 ###Ads_CAD
+###Ads_OV_BS
 ###Ads_Special
 ###AdvertMPU23b
 ###AdvertPanel
@@ -3703,6 +3704,7 @@ _768x90_
 ###RightSponsoredAd
 ###SectionAd300-250
 ###SectionSponsorAd
+###SideAdMpu
 ###SidebarAdContainer
 ###SkyAd
 ###SpecialAds
@@ -3882,6 +3884,7 @@ _768x90_
 ###adBar
 ###adBelt
 ###adBlock125
+###adBlockTop
 ###adBlocks
 ###adBox
 ###adBox350
@@ -4018,6 +4021,7 @@ _768x90_
 ###ad_banner_top
 ###ad_bar
 ###ad_bellow_post
+###ad_bigsize_wrapper
 ###ad_block_1
 ###ad_block_2
 ###ad_bottom
@@ -4379,6 +4383,8 @@ _768x90_
 ###advertising2
 ###advertisingModule160x600
 ###advertisingModule728x90
+###advertising_btm
+###advertising_horiz_cont
 ###advertisment
 ###advertismentElementInUniversalbox
 ###advertorial
@@ -4444,7 +4450,7 @@ _768x90_
 ###banner_ads
 ###banner_content_ad
 ###banner_topad
-~shareapic.net###bannerad
+~modernmedicine.com,~shareapic.net###bannerad
 ###bannerad2
 ###baseAdvertising
 ###bbccom_mpu
@@ -4965,7 +4971,7 @@ _768x90_
 ###midadspace
 ###middle-ad
 ###middlead
-###middleads
+~der-postillon.com###middleads
 ###midrect_ad
 ###midstrip_ad
 ###mini-ad
@@ -5559,7 +5565,6 @@ _768x90_
 ##.RightTowerAd
 ##.STR_AdBlock
 ##.SideAdCol
-###SideAdMpu
 ##.SidebarAd
 ##.SidebarAdvert
 ##.SitesGoogleAdsModule
@@ -6172,6 +6177,7 @@ _768x90_
 ##.ads_rectangle
 ##.ads_right
 ##.ads_sc_bl_i
+##.ads_sc_tb
 ##.ads_sc_tl_i
 ##.ads_show_if
 ##.ads_side
@@ -6946,7 +6952,7 @@ _768x90_
 ##.mid_ad
 ##.midad
 ##.middleAds
-##.middleads
+~der-postillon.com##.middleads
 ##.min_navi_ad
 ##.mini-ad
 ##.miniad
@@ -7006,6 +7012,7 @@ _768x90_
 ##.narrow_ads
 ##.navAdsBanner
 ##.navBads
+##.nav_ad
 ##.navadbox
 ##.navi_ad300
 ##.naviad
@@ -7850,6 +7857,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||captainad.com^$third-party
 ||casalemedia.com^$third-party
 ||cash4members.com^$third-party
+||cashtrafic.com^$third-party
 ||cbclickbank.com^$third-party
 ||cbclicks.com^$third-party
 ||cc-dt.com^$third-party
@@ -7909,6 +7917,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||decisionmark.com^$third-party
 ||decisionnews.com^$third-party
 ||decknetwork.net^$third-party
+||dedicatednetworks.com^$third-party
 ||deepmetrix.com^$third-party
 ||defaultimg.com^$third-party
 ||deplayer.net^$third-party
@@ -8056,6 +8065,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||ipromote.com^$third-party
 ||jangonetwork.com^$third-party
 ||jdoqocy.com^$third-party
+||jeetyetmedia.com^$third-party
 ||joytocash.com^$third-party
 ||js.cdn.ac^$third-party
 ||jscount.com^$third-party
@@ -8214,6 +8224,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||proximic.com^$third-party
 ||psclicks.com^$third-party
 ||ptp.lolco.net^$third-party
+||pubdirecte.com^$third-party
 ||publisheradnetwork.com^$third-party
 ||pubmatic.com^$third-party
 ||pulse360.com^$third-party
@@ -8222,6 +8233,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||qnsr.com^$third-party
 ||questionmarket.com^$third-party
 ||questus.com^$third-party
+||raasnet.com^$third-party
 ||radiusmarketing.com^$third-party
 ||rapt.com^$third-party
 ||rbcdn.com^$third-party
@@ -8546,6 +8558,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||detroitmedia.com/jfry/
 ||dynw.com/banner
 ||ebay.com/ws/ebayisapi.dll?$third-party
+||edge.pagerage.com^$subdocument,third-party
 ||emailcashpro.com/images/$third-party
 ||enticelabs.com/el/
 ||eplreplays.com/wl/
@@ -9134,11 +9147,11 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||hotbollywoodactress.net/freedatingindia.gif
 ||hotfrog.ca/adblock.ashx?
 ||hotfrog.co.nz/adblock.ashx?
-||hotfrog.co.za/adblock.ashx?
 ||hotfrog.co.uk/adblock.ashx?
-||hotfrog.com/adblock.ashx?
+||hotfrog.co.za/adblock.ashx?
 ||hotfrog.com.au/adblock.ashx?
 ||hotfrog.com.my/adblock.ashx?
+||hotfrog.com/adblock.ashx?
 ||hotfrog.ie/adblock.ashx?
 ||hotfrog.in/adblock.ashx?
 ||hotfrog.ph/adblock.ashx?
@@ -9242,6 +9255,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||loaded.it^*/geld-internet-verdienen.jpg
 ||loaded.it^*/iframe_vid.
 ||loaded.it^*/my_banner
+||localdirectories.com.au^*/bannerimages/
 ||londonstockexchange.com^*/fx.gif
 ||lookbook.nu/show_leaderboard.html
 ||lookbook.nu/show_skyscraper.html
@@ -9623,6 +9637,7 @@ co.uk##div[style="width: 728px; height: 90px; background-color: rgb(204, 204, 20
 ||yahoo.com/darla/
 ||yahoo.com/ysmload.html?
 ||yahoo.com^*/eyc-themis?
+||yellow.co.nz/doubleclickloader.ds?
 ||yellowpages.co.za/bms/
 ||yfrog.com/images/contests/
 ||yfrog.com/images/weezer-bloggie-bg.png
@@ -10480,6 +10495,7 @@ forums.worldofwarcraft.com##td[width="130px"][valign="top"][align="center"]:last
 forums.wow-europe.com##td[align="center"][width="130"]
 forums.wow-europe.com##td[width="130px"][valign="top"][align="center"]:last-child
 forumserver.twoplustwo.com##td[width="120"][valign="top"][style="padding-left: 10px;"]
+forumw.org##table[height="60"][width="468"]
 fox.com##.ad
 foxbusiness.com###cb_medrect1_div
 foxbusiness.com##.ad
@@ -11236,6 +11252,7 @@ msnbc.msn.com##.w460
 mstar.com##.MPFBannerWrapper
 mtv.co.uk###mtv-shop
 mtv.com###gft-sponsors
+muchshare.net##.ad
 multiply.com##td[style="height: 125px;"]
 multiupload.com##div[style="position: relative; width: 701px; height: 281px; background-image: url(\"img/ad_bgr.gif\");"]
 mumbaimirror.com##.bottombanner
@@ -12719,11 +12736,12 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||onionstatic.com^*/videoads.js
 @@||openx.org/afr.php?$subdocument,domain=cubeecraft.com
 @@||openx.org/ck.php?$subdocument,domain=cubeecraft.com
+@@||pagead2.googlesyndication.com/pagead/imgad?$image,domain=nedbank.co.za
 @@||pagead2.googlesyndication.com/pagead/scache/show_invideo_ads.js$domain=sciencedaily.com
 @@||pagead2.googlesyndication.com/pagead/static?format=in_video_ads&$elemhide,subdocument
-@@||partner.googleadservices.com/gampad/google_ads.js$domain=avclub.com|mysoju.com
+@@||partner.googleadservices.com/gampad/google_ads.js$domain=avclub.com|mysoju.com|nedbank.co.za
 @@||partner.googleadservices.com/gampad/google_ads2.js$domain=mysoju.com
-@@||partner.googleadservices.com/gampad/google_service.js$domain=avclub.com|mysoju.com
+@@||partner.googleadservices.com/gampad/google_service.js$domain=avclub.com|mysoju.com|nedbank.co.za
 @@||partners.thefilter.com/crossdomain.xml$object_subrequest,domain=dailymotion.com|dailymotion.virgilio.it
 @@||partners.thefilter.com/dailymotionservice/$image,object_subrequest,script,domain=dailymotion.com|dailymotion.virgilio.it
 @@||pix04.revsci.net^*/pcx.js?$script,domain=foxbusiness.com|foxnews.com
@@ -12732,7 +12750,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||promo2.tubemogul.com/adtags/slim_no_iframe.js$domain=comedy.com
 @@||promo2.tubemogul.com/flash/youtube.swf$domain=comedy.com
 @@||promo2.tubemogul.com/lib/tubemoguldisplaylib.js$domain=comedy.com
-@@||pubads.g.doubleclick.net/gampad/ads?$script,domain=mysoju.com
+@@||pubads.g.doubleclick.net/gampad/ads?$script,domain=mysoju.com|nedbank.co.za
 @@||pumpkinpatchkids.com/www/delivery/ajs.php?$script
 @@||quit.org.au/images/images/ad/
 @@||rcm-images.amazon.com/images/$domain=rankbank.net
@@ -12870,6 +12888,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||thecrims.cachefly.net/js/ads.js$domain=thecrims.com
 @@||theteacherscorner.net/adlayer/$script
 @@||tpmrpg.net/adframe.js
+@@||usaupload.net/ads.js
 @@||zoomin.tv/adhandler/amalia.adm?$object_subrequest
 @@||zshare.net/ads.js?*&ad_url=/adbanner
 !Non-English
@@ -12889,7 +12908,6 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||amarillas.cl/js/advertise/$script
 @@||applevideo.edgesuite.net/admedia/$object_subrequest,domain=nextmedia.com
 @@||autoscout24.*/all.js.aspx?m=css&*=/stylesheets/adbanner.css
-@@||banneradmin.rai.it/js.ng/sezione_rai=barramenu$script
 @@||bnrs.ilm.ee/www/delivery/fl.js
 @@||e-planning.net/eb/*?*fvp=2&$object_subrequest,domain=clarin.com|emol.com|tn.com.ar
 @@||ebayrtm.com/rtm?$script,domain=annonces.ebay.fr|ebay.it
@@ -12897,7 +12915,6 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||fotojorgen.no/images/*/webadverts/
 @@||fusion.adtoma.com/*.flv$domain=expressen.se
 @@||hry.cz/ad/adcode.js
-@@||img.deniksport.cz/css/reklama.css?
 @@||mail.bg/mail/index/getads/$xmlhttprequest
 @@||megatv.com^*/adverts.asp?$object_subrequest
 @@||nextmedia.com/admedia/$object_subrequest
@@ -12970,6 +12987,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 /cgi-bin/ivw/*
 /cgi-bin/pagedot.gif?
 /cgi-bin/vdz/cp/*
+/ch/additional.php?res_width=
 /chcounter/*
 /clickheat.js
 /clickheat/*
@@ -13914,7 +13932,6 @@ _cedexis.php
 ||kostenlose-counter.com^$third-party
 ||kupona.de^$third-party
 ||lddt.de/$third-party
-||lead-alliance.net^$third-party
 ||leserservice-tracking.de^$third-party
 ||link-empfehlen24.de^$third-party
 ||linktausch-pagerank.de^$third-party
@@ -14429,6 +14446,7 @@ _cedexis.php
 ||media-imdb.com/twilight/?
 ||mediaite.com^*/track/
 ||mediametrics.mpsa.com^
+||mediapartner.bigpoint.net^$third-party
 ||metrics.ctvdigital.net^
 ||metrics.feedroom.com^
 ||metrics.loomia.com^
@@ -14439,6 +14457,7 @@ _cedexis.php
 ||mtv.com^*spacer.gif?
 ||mtvnservices.com/metrics/
 ||mysociety.org/track/
+||navlink.com/__utmala.js
 ||neocounter.neoworx-blog-tools.net^
 ||neoworx.net/neocounter/
 ||netscape.com/c.cgi?
@@ -14526,6 +14545,7 @@ _cedexis.php
 ||tracking.searchmarketing.com^
 ||tracking.sokrati.com^
 ||tracksys.developlabs.net^
+||trax.dirxion.com^
 ||trc.taboolasyndication.com^
 ||trustsquare.net/trafficmonitor/
 ||tsk5.com/17*?*=ex-
@@ -14837,6 +14857,7 @@ _cedexis.php
 ||agnitum.*/bitrix/spread.php?
 ||aimini.com/webcounter/
 ||alarabiya.net/track_content_views.php?
+||alarabiya.net^*/googleid.js
 ||allafrica.com^*/s_trans.gif?
 ||allafrica.com^*/s_trans_nc.gif?
 ||allexperts.com/px/?
@@ -15583,6 +15604,8 @@ _cedexis.php
 ||ftchinese.com/log/new_log.php?
 ||istat.tudou.com^
 ||nstat.tudou.com^
+||soufun.com/click/
+||soufun.com/stats/
 ||stat.caijing.com.cn^
 ||stat.tudou.com^
 ||stats.tudou.com^
@@ -15666,7 +15689,6 @@ _cedexis.php
 ||pixelcounter.expansion.com^
 ||pixelcounter.marca.com^
 ||pixelcounter.telva.com^
-||stats.cnnmexico.com^
 ||stats.milenio.com^
 ||terra.com.mx^*/metrics_begin.js
 ||terra.com.mx^*/metrics_end.js
