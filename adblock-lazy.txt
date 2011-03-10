@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 6zcL4OEBaCWqSpf8XbKE2g
+!  Checksum: ctaMHFJygUDnb6k6yq67uw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 10 Mar 2011 22:45:16 +0800
+!  Last Modified:  Thu, 10 Mar 2011 23:18:20 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -851,12 +851,17 @@ ks.cn.yahoo.com/ks_q1_tg.html
 cn.yimg.com/i/ks/img/kqill_tg_
 !--TW
 ||yimg.com/no/$domain=~yahoo.com
-l.yimg.com/*/a/tw/$~stylesheet
+l.yimg.com/d/lib/bc/bcr_2.0.5.js
 l.yimg.com/f/i/tw/news/news_banner/
-l.yimg.com/*/tw/ysm/
-tw.yahoo.com###travel
-tw.yahoo.com###ad-pe
+l.yimg.com/pq/
+l.yimg.com^*/a/tw/$~stylesheet
+l.yimg.com^*/tw/ysm/
 tw.yahoo.com##.admod
+tw.yahoo.com##.colpadding>div.tabmd
+tw.yahoo.com###ec
+tw.yahoo.com##.newsad
+tw.yahoo.com###ticker
+tw.news.yahoo.com###ynwsfture
 tw.news.yahoo.com##[id^="ynwsad"]
 tw.news.yahoo.com##[id^="ynwsktw"]
 !--HK
