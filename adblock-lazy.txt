@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: WCc0EKkxc+c74H1NMnfdzw
+!  Checksum: Aexdz7UdjBEDqd9zyZZUxg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 15 Mar 2011 13:09:46 +0800
+!  Last Modified:  Tue, 15 Mar 2011 16:02:04 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -377,7 +377,7 @@ ifeng.com##[id^="flash_outer_"]
 ifeng.com###StreamMediaWrap
 
 !---IT168
-168.it168.com/$script
+168.it168.com^$script
 download.it168.com/2009images/ucweb_conew1.jpg
 download.it168.com/jscript/bubble.js
 download.it168.com##.four_img1.mr10]
@@ -1691,6 +1691,8 @@ jandan.net##.xy
 www.javaeye.com###forum_recommended_f4
 www.javaeye.com###forum_recommended_f5
 mobile01.com##[class$="-ad"]
+mobile01.com##a[href^="adredir.php"]
+mobile01.com##a[href="promotionlist.php"]
 newsmth.net##table.hot_title>tbody>tr>td[style]
 newsmth.net##table.HotTable>tbody>tr>td.HotTitle>script+a
 news.pchome.com.tw,pchome.syspower.com.tw###ad_bg_div
@@ -6065,7 +6067,7 @@ _768x90_
 ##.ad_square_r
 ##.ad_square_top
 ##.ad_tag_middle
-~bbs.newhua.com,~leboncoin.fr##.ad_text
+~bbs.pcsoft.com.cn,~leboncoin.fr##.ad_text
 ##.ad_text_w
 ##.ad_title
 ##.ad_top
