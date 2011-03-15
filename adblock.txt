@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: KUX6JwHzvWTU5eqv5Ve+6g
+!  Checksum: GcP66PozErUWTPFHFEesGQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 15 Mar 2011 16:02:04 +0800
+!  Last Modified:  Wed, 16 Mar 2011 07:45:29 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -434,6 +434,12 @@ special.ku6.com###Tab4
 122.146.0.242
 ||libertytimes.com.tw/IService2/AdLinkList.php
 ||libertytimes.com.tw/js/ajs/
+
+!---Mobile01.com
+attach2.mobile01.com/js/google$script
+mobile01.com##[class$="-ad"]
+mobile01.com##a[href^="adredir.php"]
+mobile01.com##a[href="promotionlist.php"]
 
 !---驱动之家
 @@||11.mydrivers.com/news/commv2.js
@@ -1690,9 +1696,6 @@ jandan.net##.eggs
 jandan.net##.xy
 www.javaeye.com###forum_recommended_f4
 www.javaeye.com###forum_recommended_f5
-mobile01.com##[class$="-ad"]
-mobile01.com##a[href^="adredir.php"]
-mobile01.com##a[href="promotionlist.php"]
 newsmth.net##table.hot_title>tbody>tr>td[style]
 newsmth.net##table.HotTable>tbody>tr>td.HotTitle>script+a
 news.pchome.com.tw,pchome.syspower.com.tw###ad_bg_div
