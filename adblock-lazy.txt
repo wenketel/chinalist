@@ -1,12 +1,13 @@
 [Adblock Plus 1.2]
-!  Checksum: tISwKnKEQY2nSQgDfz4qHw
+!  Checksum: 8s024jeXTrwP/bB58H82ew
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 16 Mar 2011 10:11:34 +0800
+!  Last Modified:  Wed, 16 Mar 2011 12:05:56 +0800
 !         ----http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
 !----------------------------White List--------------------
 @@||alimama.cn^$stylesheet
+@@/attachments/*
 @@||360buy.com/uploads/$image
 @@||51job.com^$elemhide
 @@/crossdomain.xml|$object_subrequest
@@ -112,7 +113,7 @@ www.6park.com/wap/close.gif
 ||hm.baidu.com^
 ||nsclick.baidu.com^
 ||spcode.baidu.com^
-||unstat.baidu.com^
+||unstat.baidu.com^$domain=~dzh.mop.com
 a.baidu.com/ecom$script
 hi.baidu.com/ui/scripts/refer/refer.js
 baike.baidu.com###mabox
@@ -553,8 +554,8 @@ soft.verypsp.com/pic/
 !---起点中文网
 ||qidian.com/Javascript/CaiHongJingLing.js
 ||cj.qidian.com/svnad/
-qidian.com###AddMark
 qidian.com##[class^="gg"]
+qidian.com##[class^="topad"]
 
 !---糗百
 ||qiushibaike.com/ac/
@@ -1120,7 +1121,8 @@ iads.xinmin.cn/
 ||zaobao.com/ssi/bizp/mkt/
 
 !---Online Novel/Comic Sites
-||86zw.com/zz/tan3.js
+||86zhongwen.com/ads/
+||86zw.com/zz/
 ||87ks.com/93xw/$script
 @@||89890.com/js/bd2.js
 @@||89890.com/Js/Vol4.js
@@ -1134,10 +1136,12 @@ iads.xinmin.cn/
 ||dddbbb.net/popopf.js
 by.dm5.com^
 tongji.dm5.com^
+||du8du8.com/du8du8/pagebottom$script
 pic.hongxiu.com/fox/hx/
 ||hweisk.com/Skin/Default/js/k*.js
 ||ibook8.com/2/
 ||jdjxs.net/configs/article/
+||jumpcn.com^$subdocument
 ||lxwxw.com/scripts/new/
 ||niepo.com/js/tan2/
 80.qukanshu.com^
@@ -1147,6 +1151,8 @@ sfw.com.cn##.cataBanner1
 ||shanwen.com^$script
 ||wanshulou.com/skin/js/1.js
 bbs.whsee.com/js/
+||xiaoyanwenxue.com/configs/article/indexbottom.js
+||xiaoyanwenxue.com/contentjs/
 ||xntk.com^$script
 @@||xntk.com/data/ph.js
 ||xs8.cn/data/adjsT.js
@@ -1154,6 +1160,7 @@ bbs.whsee.com/js/
 ||xs8.cn/data/iframe/$script
 images.xxsy.net/sygg/
 ||ydnovel.com^$script
+||yueshuba.com^$script
 static.zongheng.com/upload/ad/
 
 !---RSS
@@ -1181,6 +1188,7 @@ luck.v1.cn/adxml.php?zoneid=*&stype=pauseAD
 
 !---Miscellaneous
 ||111cn.net/gg_ad/
+||114la.com/114la.js
 ||1m1m.cn/bar/
 ||2500sz.com/site/
 ||360doc.com/js/albb3.js
@@ -1226,6 +1234,7 @@ frdic.com,godic.net###sidebar1
 ||free9.cn^$script
 ||hanzify.org/Main/Template/*/a-d-s/
 hdad.hudong.com/hdad/
+img.hdbird.com/langzi/20100212/0320.gif
 huodong.hudong.com^$subdocument
 ||hwit.net/acmsd/
 ||infoq.com/resource/skyscraper/
@@ -1296,6 +1305,7 @@ bbs.t56.net/ad*/
 ||assets.taobaocdn.com/app/matrix/js/fload$script
 ||topsage.com/service/$object
 club.tgfcer.com/images/g
+club.tgfcer.com/images/sungalogo.gif
 ||tz513.com^$object
 ||u148.net/activity/$~object_subrequest
 ||ucar.cn/ucar/UploadPic/SecondHandCar/$object
@@ -1373,9 +1383,11 @@ pic.198game.net^$third-party
 ||365tc.com^$third-party
 ||37cs.com^$third-party
 ||37dz.com^$third-party
+||37see.com^$third-party
 ||3gpz.net^$third-party
 ||51link.com^$third-party
 ||51wan.com^$third-party
+||52cpm.com^$third-party
 ||55620.com^$third-party
 ||5566ad.com^$third-party
 ||5622.cn/$third-party
