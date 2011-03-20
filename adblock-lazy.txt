@@ -1,8 +1,8 @@
 [Adblock Plus 1.2]
-!  Checksum: gMij18ZUm1dbyoM5cqhehg
+!  Checksum: bU9w6D/BGbaOPlQtxQlQkA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 19 Mar 2011 23:07:09 +0800
-!         ----http://adblock-chinalist.googlecode.com/
+!  Last Modified:  Sun, 20 Mar 2011 13:18:11 +0800
+!  Need help?please visit: http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
 !----------------------------White List--------------------
@@ -1752,10 +1752,8 @@ t.douban.com/img/files/$object
 douban.com/js/sns/packed_faq$script
 /data/attachment/common/cf/*
 ||livefilestore.com^$domain=bbs.cnscg.com
-maps.google.com.tw###mclip
 
 !------------------------End of List-------------------------
-
 ! EasyList - https://easylist.adblockplus.org/
 
 !-----------------General advert blocking filters-----------------!
@@ -2637,6 +2635,7 @@ maps.google.com.tw###mclip
 /country_ad.
 /cpxads.
 /ctamlive160x160.
+/cubead.
 /customad.
 /customads/*
 /customadsense.
@@ -3165,6 +3164,7 @@ maps.google.com.tw###mclip
 /siteads/*
 /siteafs.txt?
 /sites/ad_
+/skyad.h
 /skyad.php
 /skyadjs/*
 /skybar_ad.
@@ -3181,6 +3181,7 @@ maps.google.com.tw###mclip
 /socialads.
 /socialads/*
 /someads.
+/sp_ads/*
 /spc.php?
 /spcjs.php?
 /special-ads/*
@@ -3208,6 +3209,7 @@ maps.google.com.tw###mclip
 /sponsoredlisting.
 /sponsorpaynetwork.
 /sponsors_box.
+/sponsorship-
 /sponsorship.
 /sponsorship_
 /sponsorstrips/*
@@ -3369,6 +3371,7 @@ _140x600_
 _160_ad_
 _acorn_ad_
 _ad.php?
+_ad1.jpg
 _ad120x120_
 _ad234x90-
 _ad300x250.
@@ -3467,6 +3470,7 @@ _inc/adsrc.
 _index_ad.
 _mainad.
 _media/ads/*
+_media/sponsors/*
 _mmsadbanner/
 _org_ad.
 _overlay_ad.
@@ -3672,7 +3676,6 @@ _768x90_
 ###Ad3TextAd
 ###AdA
 ###AdArea
-###AdB
 ###AdBanner_F1
 ###AdBar
 ###AdBar1
@@ -3733,6 +3736,7 @@ _768x90_
 ~ping-timeout.de###Advertisements
 ###Advertorial
 ###Advertorials
+###BannerAd
 ###BannerAdvert
 ###BigBoxAd
 ###BodyAd
@@ -4520,6 +4524,7 @@ _768x90_
 ###apmNADiv
 ###araHealthSponsorAd
 ###area-adcenter
+###area1ads
 ###article-ad-container
 ###article-box-ad
 ###articleAdReplacement
@@ -5253,6 +5258,7 @@ _768x90_
 ###searchAdSkyscraperBox
 ###search_ads
 ###search_result_ad
+###sec_adspace
 ###second-adlayer
 ###secondBoxAdContainer
 ###secondrowads
@@ -5593,6 +5599,7 @@ _768x90_
 ~backpage.com##.AdInfo
 ##.AdMedium
 ##.AdPlaceHolder
+##.AdProduct
 ##.AdRingtone
 ~ph4.ru##.AdSense
 ##.AdSenseLeft
@@ -5966,6 +5973,7 @@ _768x90_
 ##.adSKY
 ##.adSelfServiceAdvertiseLink
 ##.adServer
+##.adSky
 ##.adSky600
 ##.adSkyscraperHolder
 ##.adSlot
@@ -6427,6 +6435,7 @@ _768x90_
 ##.advert-txt
 ##.advert300
 ##.advert300x250
+##.advert300x440
 ##.advert4
 ##.advert5
 ##.advert8
@@ -6769,6 +6778,7 @@ _768x90_
 ##.detailMpu
 ##.detail_ad
 ##.detail_top_advert
+##.displayAdSlot
 ##.divAd
 ##.divAdright
 ##.divad1
@@ -7018,8 +7028,11 @@ _768x90_
 ##.largeUnitAd
 ##.lastRowAd
 ##.lcontentbox_ad
+##.leaderAdSlot
 ##.leaderAdTop
 ##.leaderAdvert
+##.leaderBoardAdHolder
+##.leaderOverallAdArea
 ##.leader_ad
 ##.leaderboardAd
 ##.leaderboardad
@@ -7739,6 +7752,7 @@ _768x90_
 ||adbasket.net^$third-party
 ||adblade.com^$third-party
 ||adbrite.com^$third-party
+||adbuilder.ie^$third-party
 ||adbull.com^$third-party
 ||adbureau.net^$third-party
 ||adbutler.com^$third-party
@@ -8711,6 +8725,7 @@ _768x90_
 ||detroitmedia.com/jfry/
 ||dynw.com/banner
 ||ebay.com/ws/ebayisapi.dll?$third-party
+||economedia.bg/getban.php?
 ||edge.pagerage.com^$subdocument,third-party
 ||emailcashpro.com/images/$third-party
 ||enticelabs.com/el/
@@ -9100,6 +9115,7 @@ _768x90_
 ||brothersoft.com/softsale/
 ||brothersoft.com^*/float.js
 ||browsershots.org/static/images/creative/
+||brudirect.com/images/banners/
 ||bt.am/banners/
 ||bubblebox.com/banners/
 ||budapesttimes.hu/images/banners/
@@ -9421,6 +9437,7 @@ _768x90_
 ||labtimes.org/banner/
 ||lastminute.com^*/universal.html?
 ||latex-community.org/images/banners/
+||latimes.com^*/leaderboard.html
 ||learnspanishtoday.com/aff/img/banners/
 ||licensing.biz/media/banners/
 ||lightningcast.net^*/getplaylist?$third-party,domain=dramafever.com|reuters.com
@@ -9486,6 +9503,7 @@ _768x90_
 ||mgnetwork.com/dealtaker/
 ||mi-pro.co.uk/banners/
 ||middle-east-online.com^*/meoadv/
+||midlandsradio.fm/bms/
 ||mirror.co.uk^*/gutters/
 ||mirror.co.uk^*/m4_gutters/
 ||mirror.co.uk^*/m4_partners/
@@ -9829,6 +9847,7 @@ _768x90_
 ||yahoo.com^*/eyc-themis?
 ||yellow.co.nz/doubleclickloader.ds?
 ||yellowpages.co.za/bms/
+||yellowpages.ly/user_media/banner/
 ||yfrog.com/images/contests/
 ||yfrog.com/images/weezer-bloggie-bg.png
 ||yfrog.com/ym.php?
@@ -10121,6 +10140,7 @@ brantfordexpositor.ca##div[style="float: right; padding-left: 10px; padding-bott
 break.com###infospace-sidebar
 break.com##.ad
 break.com##.breaking_news
+breakingtravelnews.com###flybebanner
 breakingviews.com###floatit
 breitbart.com##.sidebar
 brighouseecho.co.uk###banner01
@@ -10133,6 +10153,7 @@ broadcastnewsroom.com###shopperartbox
 broadcastnewsroom.com##.bfua
 broadcastnewsroom.com##.bottombanner
 brothersoft.com##.sponsor
+btimes.com.my###topadv
 btjunkie.org###main > div[height="10"]:first-child + table[width="100%"]
 btjunkie.org###main > div[height="10"]:first-child + table[width="100%"] + .tab_results
 btjunkie.org##th[align="left"][height="100%"]
@@ -10474,6 +10495,7 @@ eeeuser.com###header
 efinancialnews.com##.promo-leaderboard
 ehow.com###jsWhoCanHelp
 ehow.com##.takeoverBanner
+el33tonline.com###AdB
 el33tonline.com###AdD
 elated.com##div[style="width: 728px; height: 90px; margin: 0 auto 30px auto;"]
 electricenergyonline.com###top_pub
@@ -11073,6 +11095,7 @@ kuklaskorner.com###ultimate
 kumu.com###bannerImageName
 kval.com###mrktplace_tabbed
 kval.com##.callout
+kxly.com###leaderboard-sticky
 l4dmaps.com##.skyscraper
 langmaker.com##table[width="120"]
 lastminute.com###sponsoredFeature
@@ -11867,6 +11890,7 @@ songlyrics.com##.content-bottom-banner
 songs.pk##img[width="120"][height="60"]
 songs.pk##table[width="149"][height="478"]
 songs.pk##td[width="100%"][height="20"]
+sowetanlive.co.za##.advert
 space.com###expandedBanner
 space.com##table[width="321"][height="285"][bgcolor="#000000"]
 space.com##td[colspan="2"]:first-child > table[width="968"]:first-child
@@ -12246,6 +12270,7 @@ w2c.in##a[href^="http://c.admob.com/"]
 w3schools.com##a[rel="nofollow"]
 walesonline.co.uk##.promobottom
 walesonline.co.uk##.promotop
+walesonline.co.uk##.puffs
 walletpop.com###attic
 walletpop.com##.medrect
 walletpop.com##.sponsWidget
@@ -12274,6 +12299,7 @@ washingtonscene.thehill.com##.top
 wasterecyclingnews.com##.bigbanner
 watchotmovies.co.cc###partners
 watoday.com.au##.ad
+wbez.org##.ad
 weather.com###twc-partner-spot
 weather.ninemsn.com.au###msnhd_div3
 weather.yahoo.com###yw-sponsoredad
@@ -12446,6 +12472,8 @@ zuploads.net###buttoncontainer
 zuula.com##.sponsor
 zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 !Style rules conversion to support Firefox 4 and Chrome (in progress)
+bharatchronicle.com##div[style="background-color: rgb(202, 233, 243); width: 272px; height: 278px;"]
+bharatchronicle.com##div[style="background-color: rgb(234, 234, 234); width: 950px; height: 93px;"]
 gethuman.com##td[style="width: 200px;"]
 getprice.com.au##li[style="clear: both; padding-left: 0pt; padding-bottom: 0pt; width: 580px;"]
 gizmocrunch.com##div[style="background-color: rgb(235, 242, 247); width: 560px;"]
@@ -12652,6 +12680,7 @@ worldmag.com##div[style="text-align: center; padding: 8px 0px; clear: both;"]
 yourmindblown.com##div[style="float: right; width: 300px; height: 600px; padding: 10px 0px;"]
 yourmindblown.com##div[style="width: 300px; min-height: 250px; padding: 10px 0px; background: none repeat scroll 0% 0% rgb(255, 255, 255);"]
 yourtomtom.com##div[style="height: 600px; padding: 6px 0pt; border: 1px solid rgb(180, 195, 154); background: none repeat scroll 0% 0% rgb(249, 252, 241); margin: 0pt;"]
+zeenews.com##div[style="height: 250px; overflow: hidden;"]
 ~pregecko2,961kiss.com##div[style="width: 300px; height: 250px; overflow: hidden; margin-bottom: 10px;"]
 ~pregecko2,afl.com.au##div[style="width: 300px; height: 250px;"]
 ~pregecko2,anchorfree.net##div[style="width: 728px; display: block; height: 90px; margin: 15px 0pt;"]
@@ -12903,6 +12932,8 @@ yourtomtom.com##div[style="height: 600px; padding: 6px 0pt; border: 1px solid rg
 @@||imgag.com^*/adaptvadplayer.swf$domain=egreetings.com
 @@||imwx.com/js/adstwo/adcontroller.js$domain=weather.com
 @@||itv.com^*.adserver.js
+@@||itv.com^*/flvplayer.swf?$object
+@@||itv.com^*/tvshows_adcall_08.js
 @@||itweb.co.za/banners/en-cdt*.gif
 @@||jobs.wa.gov.au/images/advertimages/
 @@||js.revsci.net/gateway/gw.js?$domain=foxbusiness.com|foxnews.com
@@ -13399,6 +13430,7 @@ yourtomtom.com##div[style="height: 600px; padding: 6px 0pt; border: 1px solid rg
 /wp-counter.php
 /wp-powerstat/*
 /wp-slimstat/*
+/wt_capi.js
 /wtbase.js
 /wtcore.js
 /wtid.js
@@ -14558,6 +14590,7 @@ _cedexis.php
 ||analytics.hosting24.com^
 ||analytics.live.com^
 ||analytics.matchbin.com^
+||analytics.performable.com^
 ||analytics.rogersmedia.com^
 ||analytics.tribeca.vidavee.com^
 ||analytics.yola.net^
@@ -14614,6 +14647,7 @@ _cedexis.php
 ||counters.gigya.com^
 ||csi.gstatic.com^
 ||curate.nestedmedia.com^
+||d1nu2rn22elx8m.cloudfront.net^
 ||data.alexa.com^
 ||dealnews.com/lw/log_syndication.php?
 ||devshed.com^*/pixeltrack.php?
@@ -14664,6 +14698,7 @@ _cedexis.php
 ||imageshack.us^*/thpix.gif
 ||imghostsrc.com/counter.php?
 ||impi.tv/trackvideo.aspx?
+||inq.com/tagserver/tracking/
 ||insights.gravity.com^
 ||instantservice.com/geoipapi.js?
 ||intelligencefocus.com^*/sensor.js
@@ -15293,7 +15328,6 @@ _cedexis.php
 ||harrisbank.com^*/zig.js
 ||hellomagazine.ca/idcookie/pixel.png?
 ||hellomagazine.com/idcookie/pixel.png?
-||hemeltoday.co.uk/js/webtrends/
 ||heraldm.com/tracker.tsp?
 ||hitcount.heraldm.com^
 ||holiday-rentals.co.uk/thirdparty/tag
@@ -15396,6 +15430,8 @@ _cedexis.php
 ||mytravel.co.uk/thomascooktrack.gif?
 ||mywebsearch.com^*/mws_bw.gif?
 ||national-lottery.co.uk/player/*/site-tracker.js?
+||nationalgeographic.com/stats/
+||nationalgeographic.com^*/tracker.gif?
 ||nb.myspace.com^
 ||ned.itv.com^
 ||netmag.co.uk/matchbox/traffic/
@@ -15406,7 +15442,6 @@ _cedexis.php
 ||news.com.au/tracking/
 ||news10.net^*/stats/
 ||newser.com/utility.aspx?
-||newsletter.co.uk/js/webtrends/
 ||nhsdirect.nhs.uk/assets/scripts/googleanalytics.js
 ||ning.com^*/xn_track.js
 ||nir.theregister.co.uk^
@@ -15500,6 +15535,7 @@ _cedexis.php
 ||smallcapnetwork.com^*/viewtracker/
 ||smartmoney.com^*/s.gif?
 ||smartvoip.com^*/webstats.php?
+||sowetanlive.co.za/statistics/
 ||spiegel.com/spacer.gif?
 ||sportsnet.ca^*/analytics.php.js
 ||st.mirror.co.uk^
@@ -15636,7 +15672,6 @@ _cedexis.php
 ||yahoo.com^*/pageview/$subdocument
 ||yahoo.com^*/ystat.js
 ||yellowpages.com/images/logging_requests.gif
-||yorkshirepost.co.uk/js/webtrends/
 ||youtube.com/gen_204?
 ||youtube.com/generate_204
 ||youtube.com/player_204?
