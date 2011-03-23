@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: RgCGCNwNgtD+LPzc00FPOQ
+!  Checksum: d5aOp4UCqToxUwgrESzxMA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 23 Mar 2011 13:01:47 +0800
+!  Last Modified:  Wed, 23 Mar 2011 16:41:40 +0800
 !  Need help?please visit: http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -164,8 +164,9 @@ codepub.com##.r1
 codepub.com##.l1
 
 !---CCTV
-@@http://www.cctv.com/js/cntv_Advertise.js
-/a.cntv.cn/*$domain=cctv.com
+@@_Advertise.js|$domain=cntv.cn
+||cntv.cn/library/script/flash_guanggaodiaoyong.js
+||a.cntv.cn/main/s^
 ||log.player.cntv.cn^
 
 !---CHDBits&chdtv
@@ -265,7 +266,7 @@ dict.cn##div#main_right_right>div:nth-child(5)
 ###ad_headerbanner
 ~yyets.net###focus.focus
 ###sitefocus.focus
-##[id^="ad_thread"]
+~top81.cn##[id^="ad_thread"]
 
 !---discuss.com.hk
 ||discuss.com.hk/aeiou/
@@ -575,6 +576,7 @@ qq.com##[class^="mod-right business-Article-QQ"]
 qq.com##.mod-right.adBlock-Article-QQ
 qq.com###AdRight-Article-QQ
 edu.qq.com##.ad
+fw.qq.com/ipaddress
 news.qq.com##.news_ad_box
 news.qq.com###News_F_UpRight
 t.qq.com##div#homeBannerTip
@@ -994,6 +996,7 @@ dx.greenspe.com/pp216.js
 ||happydown.com^$script,subdocument
 ||huacolor.com/soft/js/$script
 ||jfsky.com/show/$script
+||lzbt.net/images/nc.jpg
 js.mumayi.net^
 ||lwdown.com/user08/
 ||mumayi.net/index/ad$image
@@ -1039,6 +1042,7 @@ bbs.a9vg.com/shop/js.php
 bbs.a9vg.com/showit/img_show.php
 bmp.ali213.net^
 img.cngba.com/da/
+||dashuye.com/data/cache/myad*.htm
 ||fangte.com/uploadfiles/fangte_pic/pic/
 images.fangte.com^$object
 www.fangte.com/aswf.swf
@@ -1127,6 +1131,11 @@ iads.xinmin.cn/
 ||zaobao.com/ssi/bizp/mkt/
 
 !---Online Novel/Comic Sites
+@@||52kdm.com/images/lib.js
+||52kdm.com^$script
+@@jj.5ccc.net/scripts/new/pagetop.js
+@@jj.5ccc.net/scripts/new/pagebottom2.js
+||5ccc.net^$script
 ||58xs.com/hot/hot*.js
 ||58xs.com/news_gonggao.js
 ||86zhongwen.com/ads/
@@ -1139,11 +1148,14 @@ iads.xinmin.cn/
 ||mx99.com/js/k*.js
 ||aybook.cn/love/
 ||aybook.cn/other/js/
+||baishuku.com/news/$script
 ||bookcu.com^$script,subdocument
 ||booksky.org^$script,subdocument
 @@||caihongwenxue.com/js/BookText.js
 ||caihongwenxue.com/js/$script
 ||dddbbb.net/popopf.js
+||dm002.com/s*/
+||dm002.com/javascript/show.js
 by.dm5.com^
 tongji.dm5.com^
 ||du8du8.com/du8du8/pagebottom*.js
@@ -1157,11 +1169,14 @@ pic.hongxiu.com/fox/hx/
 ||niepo.com/js/tan2/
 ||pfwx.com/acc/$script
 ||pfwx.com/configs/article/pagetop.js
+||qibi.com/js/luenbo.js
 80.qukanshu.com^
 ||readnovel.com/js/$subdocument
 bbs.sfw.com.cn/attachments/
 sfw.com.cn##.cataBanner1
 ||shanwen.com^$script
+||uczw.com/configs/article/zj02.js
+||uczw.com/js/
 ||wanshulou.com/skin/js/1.js
 bbs.whsee.com/js/
 ||xiaoyanwenxue.com/configs/article/indexbottom.js
@@ -1174,6 +1189,7 @@ bbs.whsee.com/js/
 images.xxsy.net/sygg/
 ||ydnovel.com^$script
 ||yueshuba.com^$script
+||yunxuange.net/js/list_control.js
 ||yunxuange.net/js/zhangjie/
 static.zongheng.com/upload/ad/
 
@@ -1196,7 +1212,7 @@ img.1ting.com/v5/js/*text.js
 luckstatic.v1.cn/st/10000/
 luck.v1.cn/adxml.php?zoneid=*&stype=endAD
 luck.v1.cn/adxml.php?zoneid=*&stype=pauseAD
-||atm.youku.com^$~script
+||atm.youku.com^$~object
 ||youmaker.com/logoad2.jpg
 ||youmaker.com/edoors200708180-150.swf
 
@@ -1220,6 +1236,8 @@ v3.apic.51.com/vda09.js
 ||bitscn.com/pic2009/a*.js
 ||c168c.com/*adv/
 ||cbifamily.com/corporation/
+||chinacaipu.com^$subdocument
+||chinacaipu.com/a/p2.asp
 ||city8.com/Search/script/absence.js
 ||cococ.com/click/roll.html
 ||cococ.com/js/click.js
@@ -1320,6 +1338,8 @@ bbs.t56.net/ad*/
 ||taisha.org/abroad/head/banner*.html
 ||taobao.com/go/rgn/favorite/baobei_ad.php
 ||assets.taobaocdn.com/app/matrix/js/fload$script
+img.taoguba.com.cn/gbimg/
+img.taoguba.com.cn/js/tc.js
 ||topsage.com/service/$object
 club.tgfcer.com/images/g
 club.tgfcer.com/images/sungalogo.gif
@@ -1376,6 +1396,7 @@ pic.zygod.net:8383/ad*.jpg
 
 !----------------------------ads-union---------------------
 ||000wan.com^$third-party
+||001union.com^$third-party
 ||0cai.cn/$third-party
 ||100tone.com^$third-party
 ||100fenlm.cn^$third-party
@@ -1390,6 +1411,7 @@ link.155game.com^$third-party
 pic.198game.net^$third-party
 ||19dc.com^$third-party
 ||1gou.com^$third-party
+||2a.com^$third-party
 ||21union.com^$third-party
 ||22w.com/$third-party
 ||25888.in^$third-party
@@ -1398,9 +1420,11 @@ pic.198game.net^$third-party
 ||33hy.com^$third-party
 ||333wan.com^$third-party
 ||365tc.com^$third-party
+u1346.37117.com^$third-party
 ||37cs.com^$third-party
 ||37dz.com^$third-party
-||37see.com^$third-party
+p.37lai.com^$third-party
+cs.37see.com^$third-party
 ||3gpz.net^$third-party
 ||51link.com^$third-party
 ||51wan.com^$third-party
@@ -1498,7 +1522,7 @@ u.www.duba.net^$third-party
 ||esearches.com.tw^$third-party
 ||etopad.com^$third-party
 ||ezsaving.com^$third-party
-||f776.com^$third-party
+www.f776.com^$third-party
 tg.feixue.com^$third-party
 ||flashads.cn^$third-party
 ||flashwing.net^$third-party
@@ -1565,7 +1589,6 @@ qd.code.qihoo.com^$third-party
 ||qling.com^
 ||qq937.com^$third-party
 ||quantui.com^$third-party
-||qushimeiti.com^$third-party
 author.richi.cc^$third-party
 ||rj518.com^$third-party
 ||cop.my.sandai.net^$third-party
@@ -1575,6 +1598,7 @@ author.richi.cc^$third-party
 ||skycn.org.cn^$third-party
 ||snyu.com^$third-party
 ||soua.com^$third-party
+js.ssrj.net^$third-party
 ||star8.net^$third-party
 ||szvr.com^$third-party
 ||tazhao.com^$third-party
@@ -1640,8 +1664,9 @@ union.ziye8.com^$third-party
 /adsimg/*
 /adsunion^
 /allyes.
-/banner/*
+/banner/$domain=~xunlei.com
 /floatadv.
+/guangao/*
 /guangg/*
 /guanggao^
 /images/prom/*
@@ -1722,9 +1747,7 @@ chn51.com##.endAd336
 crsky.com##.banner
 discuz.net##[class^="wp a_"]
 downg.com##.content.ad-b950x50
-chinese.engadget.com##.post[style]
-mail.google.com##.nH.u8
-google.com.hk###tadsb
+hao123.com##.middle
 bbs.hdchina.org##.home_left_hot
 www.hoopchina.com##[class^="ad"]
 itfunz.com##.a_pb
