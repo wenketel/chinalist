@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: +aXPsgodu9iqEuc6MV6Hxw
+!  Checksum: WS0W+h/KpSp+3vMwWiZGjA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 23 Mar 2011 16:44:05 +0800
+!  Last Modified:  Wed, 23 Mar 2011 20:36:03 +0800
 !  Need help?please visit: http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -32,14 +32,13 @@ www.youdao.com###sp
 www.youdao.com##.sp-h
 
 !---17173
-/2010/www/if/*$domain=17173.com
+/www/2011/*$domain=17173.com
+/www/ggcommon*.js|$domain=17173.com
 ||17173.com/if/
-@@flash.17173.com/x/$script
+/if/video/*$domain=17173.com
 ||17173.com/x/
-||app-02.my.17173.com^
-images.17173.com/*/sx/
+images.17173.com^$object
 js.17173.com/ping.js
-www.17173.com/script/ggcommon.js
 17173.com##[class^="banner"]
 
 !---草根网
