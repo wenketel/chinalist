@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: qsTdgs+nboNv8+Bzcvp53A
+!  Checksum: HjjYUGZ3DK8J9GZT06rqRQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 24 Mar 2011 23:29:55 +0800
+!  Last Modified:  Thu, 24 Mar 2011 23:54:27 +0800
 !  Need help?please visit: http://adblock-chinalist.googlecode.com/
 !coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
@@ -908,6 +908,12 @@ mydown.yesky.com##.xznr_2
 ||yuanwen.com/js/mn/mn_indexbottom950.js
 pic.yuanwen.com/images/
 
+!---优酷
+html.atm.youku.com^
+lstat.youku.com^
+val*.atm.youku.com^
+static.atm.youku.com/so_008/index/js/popup.js
+
 !---中搜
 imgad.zhongsou.com^
 logasp.zhongsou.com/fm_search.asp?
@@ -1210,9 +1216,6 @@ img.1ting.com/v5/js/*text.js
 luckstatic.v1.cn/st/10000/
 luck.v1.cn/adxml.php?zoneid=*&stype=endAD
 luck.v1.cn/adxml.php?zoneid=*&stype=pauseAD
-||atm.youku.com^$~object,domain=~soku.com
-static.atm.youku.com/so_008/index/js/popup.js
-||lstat.youku.com^
 ||youmaker.com/logoad2.jpg
 ||youmaker.com/edoors200708180-150.swf
 
