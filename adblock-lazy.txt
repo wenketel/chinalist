@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: nTAbsPwBYDbj/gMJSLQKmQ
+!  Checksum: I+S7PrMEoxebpVTAAe8+1w
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 25 Mar 2011 21:35:09 +0800
+!  Last Modified:  Sat, 26 Mar 2011 02:00:17 +0800
 !
 !  As a supplement of EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Plase subscribe EasyList also.
@@ -747,11 +747,9 @@ www.top100.cn###titlebar+a
 !---土豆
 ||tdimg.com/sales/
 ||tdcm.tudou.com^
-css.tudouui.com/skin/ad/
+js.tudouui.com/js/fn/saleloader_63.js
 tudou.com##.b.seed
 tv.tudou.com###adex_board
-www.tudou.com##.adExtension_alimama
-www.tudou.com###adExtension_baidu
 
 !---udn
 @@video.udn.com/udnad/videoad.php^
@@ -3333,6 +3331,7 @@ douban.com/js/sns/packed_faq$script
 /upload/ads/*
 /uploads/ads/*
 /us-adcentre.
+/userad/*
 /valueclick.
 /vclkads.
 /vert728ad.
@@ -4074,6 +4073,7 @@ _768x90_
 ###adPlaceHolderRight
 ###adPlacer
 ###adRight
+###adSPLITCOLUMNTOPRIGHT
 ###adSenseModule
 ###adSenseWrapper
 ###adServer_marginal
@@ -4869,6 +4869,8 @@ _768x90_
 ###footerads
 ###footeradsbox
 ###forum_top_ad
+###fpad1
+###fpad2
 ###fpv_companionad
 ###fr_ad_center
 ###frame_admain
@@ -5562,6 +5564,7 @@ _768x90_
 ###topcustomad
 ###topleaderboardad
 ###topnav-ad-shell
+###topnavad
 ###toprightAdvert
 ###toprightad
 ###topsponsored
@@ -6222,7 +6225,7 @@ _768x90_
 ##.ad_zone
 ##.adarea
 ##.adarea-long
-##.adbanner
+~cvvp.nva.gov.lv##.adbanner
 ##.adbannerbox
 ##.adbannerright
 ##.adbar
@@ -9772,6 +9775,7 @@ _768x90_
 ||riderfans.com/other/
 ||rocktelevision.com^*_banner_
 ||rom-freaks.net/popup.php
+||rpgwatch.com^*/banner/
 ||rss2search.com/delivery/
 ||sahilonline.org/adv/
 ||sameip.org/images/froghost.gif
@@ -11021,6 +11025,8 @@ idg.com.au###skin_bump
 idg.com.au###top_adblock_fix
 ieee.org###bannerTop
 ietab.net##a[href*="/xadnet/"]
+ifans.com###skyscraper1
+ifans.com###skyscraper2
 ign.com###LB_Row
 ign.com###boards_medrec_relative
 illimitux.net###screens
@@ -11800,6 +11806,7 @@ pcworld.com###industryWebcasts
 pcworld.com###resourceCenters
 pcworld.com###resourceLinks
 pcworld.com###specialOffers
+pcworld.com###todaysSpecialOffers
 pcworld.com##.msReminderBadgeBanner
 pcworld.com##.skyscraper
 pdf-archive.com##div[style$="width: 300px; height: 250px; float: left;"]
@@ -12971,6 +12978,7 @@ yourmindblown.com##div[style="width: 300px; min-height: 250px; padding: 10px 0px
 @@||a.ads2.msads.net^*.swf$domain=msnbc.msn.com
 @@||a.giantrealm.com/assets/vau/grplayer*.swf
 @@||ad.103092804.com/st?ad_type=$subdocument,domain=wizard.mediacoderhq.com
+@@||ad.doubleclick.net/ad/*;outlet=cbs%20production;*;playerversion=$object_subrequest
 @@||ad.doubleclick.net/adx/nbcu.nbc/rewind$object_subrequest
 @@||ad.doubleclick.net/pfadx/nbcu.nbc/rewind$object_subrequest
 @@||ad.zanox.com/ppc/$subdocument,domain=wisedock.at|wisedock.co.uk|wisedock.com|wisedock.de|wisedock.eu
@@ -13156,6 +13164,7 @@ yourmindblown.com##div[style="width: 300px; min-height: 250px; padding: 10px 0px
 @@||kaufen-ist-toll.de/images/logos/
 @@||kentucky.com/mistats/finalizestats.js
 @@||keygamesnetwork.com/adserve/request/$object_subrequest,domain=gamesforwork.com
+@@||krispykreme.com/content/images/ads/
 @@||ksl.com/resources/classifieds/graphics/ad_
 @@||last.fm/ads.php?zone=*listen$subdocument
 @@||lightningcast.net/servlets/getplaylist?*&responsetype=asx&$object
@@ -13244,6 +13253,7 @@ yourmindblown.com##div[style="width: 300px; min-height: 250px; padding: 10px 0px
 @@||server.cpmstar.com/adviewas*.swf?$object_subrequest
 @@||server.cpmstar.com/globaljs.aspx?$subdocument,domain=xfire.com
 @@||server.cpmstar.com/view.aspx?poolid=$domain=newgrounds.com
+@@||server.cpmstar.com^*.swf?$object_subrequest,domain=xfire.com
 @@||sfx-images.mozilla.org^$image,domain=spreadfirefox.com
 @@||shackvideo.com/playlist_xml.x?
 @@||sharehoster.com/design/advertise/premium_$~third-party
@@ -15388,7 +15398,7 @@ _cedexis.php
 ||b.imwx.com^
 ||b.moviefone.com^
 ||b.myspace.com^
-||b.photobucket.com^
+||b.photobucket.com^$~object_subrequest
 ||barneys.com/spacer.gif?
 ||barneys.com^*/__analytics-tracking?
 ||barrons.com^*/pixeltracking.html?
@@ -16231,7 +16241,6 @@ _cedexis.php
 !-----------------Whitelists-----------------!
 ! *** easyprivacy/easyprivacy_whitelist.txt ***
 @@||as.webmd.com/html.ng/transactionid=$subdocument
-@@||b.photobucket.com^$object_subrequest
 @@||britishairways.com^*/visualsciences.js
 @@||bt.com^*/touchclarity/homepage/omtr_tc.js
 @@||cot.priceminister.co.uk/res/static/*/xtcore.js
