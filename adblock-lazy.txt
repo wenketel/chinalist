@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: nSov0tsVk44u8aElBgxQOA
+!  Checksum: fKTcUd7j9QsLD+pke4hqTA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 27 Mar 2011 05:07:08 +0800
+!  Last Modified:  Mon, 28 Mar 2011 00:56:10 +0800
 !
 !  As a supplement of EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Plase subscribe EasyList also.
@@ -1478,6 +1478,7 @@ cs.37see.com^$third-party
 ||7794.com^$third-party
 ||77go.com^$third-party
 ||7stk.com^$third-party
+||81813.com^$third-party
 ||84232.com^$third-party
 ||88210212.com^$third-party
 ||88888q.com^$third-party
@@ -3608,6 +3609,7 @@ z/adx.js
 -120x600-
 -120x600.
 -160x600.
+-300-250.
 -300x250.
 -468-60.
 -468_60.
@@ -4899,6 +4901,7 @@ _768x90_
 ###ft-ad-1
 ###ft-ad-container
 ###ft_mpu
+###fullsizebanner_468x60
 ###fusionad
 ###fw-advertisement
 ###g_ad
@@ -5626,7 +5629,10 @@ _768x90_
 ###whitepaper-ad
 ###whoisRightAdContainer
 ###wide_ad_unit_top
+###wideskyscraper_160x600_left
+###wideskyscraper_160x600_right
 ###widget_advertisement
+###widgetwidget_adserve2
 ###wrapAdRight
 ###wrapAdTop
 ###wrapperAdsTopLeft
@@ -6619,7 +6625,7 @@ _768x90_
 ##.adwrapper948
 ##.adzone-footer
 ##.adzone-sidebar
-~skiamade.com,~virginmobile.fr##.affiliate
+~bild.de,~skiamade.com,~virginmobile.fr##.affiliate
 ##.affiliate-link
 ##.affiliate-sidebar
 ##.affiliateAdvertText
@@ -7299,8 +7305,10 @@ _768x90_
 ##.ovAdSky
 ##.ovAdartikel
 ##.ov_spns
+##.pageBottomGoogleAd
 ##.pageGoogleAd
 ##.pageGoogleAdFlat
+##.pageGoogleAdSubcontent
 ##.pageLeaderAd
 ##.page_content_right_ad
 ##.pagead
@@ -8176,6 +8184,7 @@ _768x90_
 ||ctrhub.com^$third-party
 ||cubics.com^$third-party
 ||d.m3.net^$third-party
+||d03x2011.com^$third-party
 ||dapper.net^$third-party
 ||dashboardad.net^$third-party
 ||dbbsrv.com^$third-party
@@ -8189,6 +8198,7 @@ _768x90_
 ||destinationurl.com^$third-party
 ||dexplatform.com^$third-party
 ||dgmaustralia.com^$third-party
+||digitalriver.com^$third-party
 ||digitrevenue.com^$third-party
 ||dinclinx.com^$third-party
 ||directleads.com^$third-party
@@ -8665,6 +8675,7 @@ _768x90_
 ||vibrantmedia.com^$third-party
 ||video-loader.com^$third-party
 ||videoegg.com^$third-party
+||videoplaza.tv^$third-party
 ||videostrip.com^$~object_subrequest,third-party
 ||videostrip.com^*/admatcherclient.$object_subrequest,third-party
 ||vidpay.com^$third-party
@@ -9396,12 +9407,7 @@ _768x90_
 ||filebase.to^*/boxy.js
 ||filebase.to^*/note.js
 ||filefront.com/linkto/
-||files.nyaa.eu/derp/
-||files.nyaa.eu/herp/
-||files.nyaa.eu/hurf/
-||files.nyaa.eu/kyun/
-||files.nyaa.eu/lulz/
-||files.nyaa.eu/mokyuu/
+||files.nyaa.eu^*.nou
 ||filespazz.com/imx/template_r2_c3.jpg
 ||filespazz.com^*/copyartwork_side_banner.gif
 ||filestube.com/files/images/ggta_*.gif
@@ -9675,6 +9681,7 @@ _768x90_
 ||naukimg.com/banner/
 ||nba.com^*/amex_logo
 ||nba.com^*/steinersports_
+||ncrypt.in^*/layer.$script
 ||nearlygood.com^*/_aff.php?
 ||neoseeker.com/a_pane.php
 ||nerej.com/c/
@@ -10016,6 +10023,7 @@ _768x90_
 ||zanews.co.za^*/banners/
 ||zawya.com/ads/
 ||zawya.com/brands/
+||zerochan.net/skyscraper.html
 ||zigzag.co.za/images/oww-
 ||zimdiaspora.com/banners/
 ||zonein.tv/adds.php
@@ -10262,6 +10270,7 @@ bizrate.com###banner_top
 bizrate.com###rectangular
 blackberryforums.com##td[align="left"][width="160"][valign="top"]
 blackmesasource.com##.ad
+blinkbox.com##.mpupnl
 block.opendns.com###acbox
 bloggingbuyouts.com##.topleader
 bloggingstocks.com##.topleader
@@ -10889,6 +10898,7 @@ games.com##.ad
 gamesindustry.biz###leader
 gamesindustry.biz###leader-container
 gamesradar.com##.tablets
+gametrailers.com##.adv_block
 gametrailers.com##.top_banner_space
 gawker.com###skySpacer
 gawker.com###skyscraper
@@ -11266,7 +11276,12 @@ king-mag.com###skyscraper
 kino.to###LeftFull
 kino.to###RightFull
 kino.to##.Special
+kino.to##a[href="/Stream/EatThis.html"]
+kino.to##a[href="/Stream/XMan3001.html"]
+kino.to##a[href^="http://bit.ly"]
 kino.to##a[href^="http://tinyurl.com"]
+kino.to##div[style*="width: 970px"][style*="height: 450px"]
+kino.to##div[style^="display: inline; width: 970px; top: 130px; height: 450px;"]
 kioskea.net###topContent
 kioskea.net##a[href^="http://www3.smartadserver.com/"]
 kizna-blog.com##a[href$=".clickbank.net"]
@@ -11363,6 +11378,7 @@ local.yahoo.com##.yls-rs-paid
 lockergnome.com##div[style="float:left;width:160px;height:600px; margin: 0px 5px 10px 0px;"]
 londonstockexchange.com##.banner
 londonstockexchange.com##.bannerTop
+lonelyplanet.com##.leaderboard
 longislandpress.com##.adblock
 longislandpress.com##.pad10
 longislandpress.com##div[style="float:left; clear:left; margin:10px 20px 5px 0px;"]
@@ -11738,12 +11754,14 @@ nwsource.com##.googlemiddle
 ny1.com##.bannerSidebar
 ny1.com##.bannerTop
 nyaa.eu##a[href^="http://www.nyaa.eu/a?"]
+nyaa.eu##a[href^="http://www.nyaa.eu/b?"]
 nyaa.eu##a[href^="http://www.nyaa.eu/e?"]
 nyaa.eu##a[href^="http://www.nyaa.eu/h?"]
 nyaa.eu##a[href^="http://www.nyaa.eu/i?"]
-nyaa.eu##div[style="float:left;width:800px;text-align:left;padding:3px 0px 0px 5px;margin-top:-4px;"] > A > img[src^="http://files.nyaa.eu/"]
-nyaa.eu##div[style="float:right;width:120px;margin-top:68px;margin-left:6px;"] > A > img[src^="http://files.nyaa.eu/"]
-nyaa.eu##div[style="width:760px;height:100px;float:left;text-align:left;padding:7px 0px 0px 5px;"] > A > img[src^="http://files.nyaa.eu/"]
+nyaa.eu##div > a > img[alt=""][src^="http://files.nyaa.eu/"]
+nyaa.eu##div[style^="float:left;width:800px;"] > a > img[src^="http://files.nyaa.eu/"]
+nyaa.eu##div[style^="float:right;width:120px;"] a > img[src^="http://files.nyaa.eu/"]
+nyaa.eu##div[style^="width:760px;height:100px;float:left;"] > a > img[src^="http://files.nyaa.eu/"]
 nyaa.eu##span > a > img[alt=""][src^="http://files.nyaa.eu/"]
 nydailynews.com###nydn-topbar
 nydailynews.com##.mod-adblock
@@ -12171,6 +12189,7 @@ spikedhumor.com##.ad
 spoiledphotos.com###top-leaderboard
 spoiledphotos.com##.leaderboard
 spokesman.com##.ad
+spoonyexperiment.com##.cont_adv
 squidoo.com###header_banner
 stagevu.com##.ad
 star-magazine.co.uk###imu
@@ -12353,6 +12372,7 @@ thisisbristol.co.uk###mast-head
 thisisleicestershire.co.uk###mast-head
 thisisleicestershire.co.uk##.banner-extButton
 thisismoney.co.uk###Sky
+thisisnotporn.net###headerbanner
 thisisplymouth.co.uk##.leaderboard
 threatpost.com###partners
 tidbits.com###top_banner
@@ -12712,6 +12732,7 @@ yourdiscovery.com###hp-mpu
 yourtomtom.com##.bot
 yourtomtom.com##div[style="height:600px;padding:6px 0 6px 0;border: 1px solid #b4c39a;background:#f9fcf1 none;margin:0;"]
 yourtomtom.com##div[style="width:160px;height:100px;padding:6px;margin:0 0 18px 0;border: solid #b4c39a;background:#f9fcf1 none;border-width: 1px;"]
+yourwire.net###mscount
 youserials.com##div[style^="display: block; position: absolute;"]
 youserials.com##div[style^="display: block; text-align: center; line-height: normal; visibility: visible; position: absolute;"]
 youtube.com###feedmodule-PRO
@@ -12745,6 +12766,7 @@ zedomax.com##div[style="width:100%;height:280px;"]
 zedomax.com##div[style="width:336px;height:280px;float:center;"]
 zeenews.com##.ban-720-container
 zeenews.com##div[style="height:250px;overflow:hidden;"]
+zerochan.net###skyscraper
 zigzag.co.za###imageLeft
 zigzag.co.za###imageRight
 zigzag.co.za##td[width="300"][height="250"]
@@ -13588,6 +13610,7 @@ yourmindblown.com##div[style="width: 300px; min-height: 250px; padding: 10px 0px
 /livezilla/server.php?request=track&
 /logaholictracker.php?
 /logger/p.gif?
+/logger?*ctxid=
 /md.js?country=
 /mdwtc/click_thru/*
 /metriweb.js
@@ -14195,6 +14218,7 @@ _cedexis.php
 ||rfihub.com^$third-party
 ||riastats.com^$third-party
 ||richard-group.com^$third-party
+||richrelevance.com^$third-party
 ||ritecounter.com^$third-party
 ||rlcdn.com^$third-party
 ||roia.biz^$third-party
@@ -14219,6 +14243,7 @@ _cedexis.php
 ||servustats.com^$third-party
 ||shinystat.com^$third-party
 ||signup-way.com^$third-party
+||simpli.fi^$third-party
 ||sitebro.com^$third-party
 ||sitecompass.com^$third-party
 ||siteimprove.com^$third-party
@@ -14335,6 +14360,7 @@ _cedexis.php
 ||vizu.com^$third-party
 ||voicefive.com^$third-party
 ||w3counter.com^$third-party
+||w55c.net^$third-party
 ||waudit.cz^$third-party
 ||web-stat.com^$third-party
 ||webcounter.ws^$third-party
@@ -15387,6 +15413,7 @@ _cedexis.php
 ||track.bluecompany.cl^
 !Swedish
 ||counter.mtgnewmedia.se^
+||stats.dominoplaza.com^
 !Ukranian
 ||metalportal.com.ua/count.php?
 ||mgz.com.ua/counter.php?
@@ -15457,6 +15484,7 @@ _cedexis.php
 ||bing.com/fd/ls/
 ||biosphoto.com^*/stats/
 ||birthvillage.com/watcher/
+||blinkbox.com/tracking
 ||bluenile.ca/track/
 ||bluenile.co.uk/track/
 ||bluenile.com/track/
@@ -16048,6 +16076,7 @@ _cedexis.php
 ||hse24.de^*/etracker.js
 ||indeed.de/rpc/log?
 ||ivwextern.prosieben.de^
+||jobanova.de/stats.php?
 ||k-files.de/screen.js
 ||k-foren.de/screen.js
 ||k-play.de/screen.js
@@ -16175,7 +16204,6 @@ _cedexis.php
 ||cnzz.com/stat.
 ||counter.sina.com.cn^
 ||ftchinese.com/log/new_log.php?
-||istat.tudou.com^
 ||nstat.tudou.com^
 ||soufun.com/click/
 ||soufun.com/stats/
