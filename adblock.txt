@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: M2Lh9NM7L9X2W3z2Dq9hAQ
+!  Checksum: lNAyt+AW955hHj8d1QqGjg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 29 Mar 2011 16:39:40 +0800
+!  Last Modified:  Wed, 30 Mar 2011 15:41:26 +0800
 !
 !  As a supplement of EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Plase subscribe EasyList also.
@@ -104,6 +104,8 @@ www.6park.com/wap/close.gif
 6park.com##body>table+table+table+table+table[width="978"][bgcolor="#ffffff"]
 
 !---acfun.cn
+124.228.254.229/images.js
+124.228.254.229/upload/acfun.js
 /ad_js.php?
 /newflvplayer/xml/gg_a.xml
 
@@ -512,7 +514,7 @@ ozchinese.com##.t_infoline
 
 !---远景
 bbs.pcbeta.com/static/image/biz/
-bbs.pcbeta.com##.mbm.cl
+bbs.pcbeta.com##div.m_bd.mbm+div.mbm.cl
 
 !---PCHome.net
 btn.pchome.net
@@ -565,10 +567,10 @@ www.s5proxy.com/img/socks5_40080.gif
 soft.verypsp.com/pic/
 
 !---起点中文网
-||qidian.com/Javascript/CaiHongJingLing.js
-||cj.qidian.com/svnad/
-qidian.com##[class^="gg"]
-qidian.com##[class^="topad"]
+||qidian.com/javascript/NewSNDAPop.js
+cj.qidian.com^$object
+cj.qidian.com/svnad/
+www.qidian.com##[class^="gg"]
 
 !---糗百
 ||qiushibaike.com/ac/
@@ -946,12 +948,13 @@ zhulang.com##[class^="ad"]
 zhulang.com##.hx_newgg
 
 !---ZOL
-||zol.com.cn/imphit0*.gif?
-pic.zol-img.com.cn/$object
-zol.com.cn##.banner760_1
-zol.com.cn##.pic_ad
-zol.com.cn##[id^="AD"]
-www.zol.com.cn###hq_float
+.com.cn^*.swf|$domain=zol.com.cn
+pic.zol-img.com.cn/2011*/
+www.zol.com.cn###ad_32
+www.zol.com.cn##[id^="Bar18"]
+www.zol.com.cn##.bb_index_140
+www.zol.com.cn##.add_gg
+www.zol.com.cn##div.nav+div.wrapper.clearfix
 !--中关村在线武汉站
 ||pc3w.com/adpic/
 ||pc3w.com/Article/UploadFiles/$image
@@ -1157,9 +1160,10 @@ iads.xinmin.cn/
 !---Online Novel/Comic Sites
 @@||52kdm.com/images/lib.js
 ||52kdm.com^$script
-@@jj.5ccc.net/scripts/new/pagetop.js
 @@jj.5ccc.net/scripts/new/pagebottom2.js
-||5ccc.net^$script
+@@jj.5ccc.net/scripts/new/pagetop.js
+||5ccc.net/scripts/articleinfo.js
+jj.5ccc.net^
 ||58xs.com/hot/hot*.js
 ||58xs.com/news_gonggao.js
 ||86zhongwen.com/ads/
@@ -1168,6 +1172,9 @@ iads.xinmin.cn/
 @@||89890.com/js/bd2.js
 @@||89890.com/Js/Vol4.js
 ||89890.com/js/
+||92to.com/92*/
+||92to.com/scripts/new/inline.js
+||92to.com/soye/
 @@||99770.cc/haodm/dmjs/book.js
 @@||99770.cc/v3/i.js
 ||99770.cc^$script
@@ -1225,8 +1232,9 @@ bbs.whsee.com/js/
 images.xxsy.net/sygg/
 ||ydnovel.com^$script
 ||yueshuba.com^$script
-||yunxuange.net/js/list_control.js
+||yunxuange.net/js/list.js
 ||yunxuange.net/js/zhangjie/
+||yunxuange.net/js8/
 static.zongheng.com/upload/ad/
 
 !---RSS
@@ -1391,6 +1399,9 @@ bbs.weiphone.com##[id^="ads_"]
 www.west263.com/images/imageswestlogo.gif
 ||weste.net/js_v2009/ggao
 weste.net##.ggao
+||win7china.com/Script/win7elements/
+img.win7china.com/images/300_80_
+win7china.com##.site_ad
 ||wlanbbs.com/images/shangjiaad/
 ||a.wm090.com/biz_icon/
 ||a.wm090.com/jbl/0421/jbl.swf
@@ -1596,6 +1607,7 @@ u.*.iciba.com^$third-party
 ||juandou.com^$third-party
 ||jujii.cn^$third-party
 u.juyouxi.com^$third-party
+www.kankanews.com/iframe/$third-party
 ||kejet.com^$third-party
 ||keydot.net^$third-party
 ||keyrun.cn^$third-party
@@ -1619,6 +1631,7 @@ u.juyouxi.com^$third-party
 .pee.cn/$third-party
 ||ppunion.com^$third-party
 ||prohost.com.tw^$third-party
+qa.colorful.cn^$third-party
 ||ttmsg.qianqian.com^
 qd.code.qihoo.com^$third-party
 ||qiyou.com^$third-party
@@ -1637,11 +1650,12 @@ author.richi.cc^$third-party
 ||soua.com^$third-party
 js.ssrj.net^$third-party
 ||star8.net^$third-party
+ipic.staticsdo.com^$third-party
 ||szvr.com^$third-party
 ||tanx.com^$third-party
 ||tazhao.com^$third-party
 ||tenoad.com^$third-party
-.tjq.com^$third-party
+cs.twcczhu.com^$third-party
 ||twm.com.tw^$third-party
 ||float2006.tq.cn^
 ||tuigoo.com^$third-party
@@ -1654,6 +1668,7 @@ js.ssrj.net^$third-party
 ||u-link.nbb.tw^$third-party
 ||ulink.cc^$third-party
 ||union001.$third-party
+uimg.union178.com^$third-party
 ||unionbig.com^$third-party
 ||unionsky.cn^$third-party
 ||unionli.com^$third-party

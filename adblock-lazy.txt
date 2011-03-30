@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 1PjddcVlkIipo1J1bJMWGA
+!  Checksum: kYQthe8nvRsS60agRgUjeA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 29 Mar 2011 16:39:40 +0800
+!  Last Modified:  Wed, 30 Mar 2011 15:41:26 +0800
 !
 !  As a supplement of EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Plase subscribe EasyList also.
@@ -104,6 +104,8 @@ www.6park.com/wap/close.gif
 6park.com##body>table+table+table+table+table[width="978"][bgcolor="#ffffff"]
 
 !---acfun.cn
+124.228.254.229/images.js
+124.228.254.229/upload/acfun.js
 /ad_js.php?
 /newflvplayer/xml/gg_a.xml
 
@@ -512,7 +514,7 @@ ozchinese.com##.t_infoline
 
 !---远景
 bbs.pcbeta.com/static/image/biz/
-bbs.pcbeta.com##.mbm.cl
+bbs.pcbeta.com##div.m_bd.mbm+div.mbm.cl
 
 !---PCHome.net
 btn.pchome.net
@@ -565,10 +567,10 @@ www.s5proxy.com/img/socks5_40080.gif
 soft.verypsp.com/pic/
 
 !---起点中文网
-||qidian.com/Javascript/CaiHongJingLing.js
-||cj.qidian.com/svnad/
-qidian.com##[class^="gg"]
-qidian.com##[class^="topad"]
+||qidian.com/javascript/NewSNDAPop.js
+cj.qidian.com^$object
+cj.qidian.com/svnad/
+www.qidian.com##[class^="gg"]
 
 !---糗百
 ||qiushibaike.com/ac/
@@ -946,12 +948,13 @@ zhulang.com##[class^="ad"]
 zhulang.com##.hx_newgg
 
 !---ZOL
-||zol.com.cn/imphit0*.gif?
-pic.zol-img.com.cn/$object
-zol.com.cn##.banner760_1
-zol.com.cn##.pic_ad
-zol.com.cn##[id^="AD"]
-www.zol.com.cn###hq_float
+.com.cn^*.swf|$domain=zol.com.cn
+pic.zol-img.com.cn/2011*/
+www.zol.com.cn###ad_32
+www.zol.com.cn##[id^="Bar18"]
+www.zol.com.cn##.bb_index_140
+www.zol.com.cn##.add_gg
+www.zol.com.cn##div.nav+div.wrapper.clearfix
 !--中关村在线武汉站
 ||pc3w.com/adpic/
 ||pc3w.com/Article/UploadFiles/$image
@@ -1157,9 +1160,10 @@ iads.xinmin.cn/
 !---Online Novel/Comic Sites
 @@||52kdm.com/images/lib.js
 ||52kdm.com^$script
-@@jj.5ccc.net/scripts/new/pagetop.js
 @@jj.5ccc.net/scripts/new/pagebottom2.js
-||5ccc.net^$script
+@@jj.5ccc.net/scripts/new/pagetop.js
+||5ccc.net/scripts/articleinfo.js
+jj.5ccc.net^
 ||58xs.com/hot/hot*.js
 ||58xs.com/news_gonggao.js
 ||86zhongwen.com/ads/
@@ -1168,6 +1172,9 @@ iads.xinmin.cn/
 @@||89890.com/js/bd2.js
 @@||89890.com/Js/Vol4.js
 ||89890.com/js/
+||92to.com/92*/
+||92to.com/scripts/new/inline.js
+||92to.com/soye/
 @@||99770.cc/haodm/dmjs/book.js
 @@||99770.cc/v3/i.js
 ||99770.cc^$script
@@ -1225,8 +1232,9 @@ bbs.whsee.com/js/
 images.xxsy.net/sygg/
 ||ydnovel.com^$script
 ||yueshuba.com^$script
-||yunxuange.net/js/list_control.js
+||yunxuange.net/js/list.js
 ||yunxuange.net/js/zhangjie/
+||yunxuange.net/js8/
 static.zongheng.com/upload/ad/
 
 !---RSS
@@ -1391,6 +1399,9 @@ bbs.weiphone.com##[id^="ads_"]
 www.west263.com/images/imageswestlogo.gif
 ||weste.net/js_v2009/ggao
 weste.net##.ggao
+||win7china.com/Script/win7elements/
+img.win7china.com/images/300_80_
+win7china.com##.site_ad
 ||wlanbbs.com/images/shangjiaad/
 ||a.wm090.com/biz_icon/
 ||a.wm090.com/jbl/0421/jbl.swf
@@ -1596,6 +1607,7 @@ u.*.iciba.com^$third-party
 ||juandou.com^$third-party
 ||jujii.cn^$third-party
 u.juyouxi.com^$third-party
+www.kankanews.com/iframe/$third-party
 ||kejet.com^$third-party
 ||keydot.net^$third-party
 ||keyrun.cn^$third-party
@@ -1619,6 +1631,7 @@ u.juyouxi.com^$third-party
 .pee.cn/$third-party
 ||ppunion.com^$third-party
 ||prohost.com.tw^$third-party
+qa.colorful.cn^$third-party
 ||ttmsg.qianqian.com^
 qd.code.qihoo.com^$third-party
 ||qiyou.com^$third-party
@@ -1637,11 +1650,12 @@ author.richi.cc^$third-party
 ||soua.com^$third-party
 js.ssrj.net^$third-party
 ||star8.net^$third-party
+ipic.staticsdo.com^$third-party
 ||szvr.com^$third-party
 ||tanx.com^$third-party
 ||tazhao.com^$third-party
 ||tenoad.com^$third-party
-.tjq.com^$third-party
+cs.twcczhu.com^$third-party
 ||twm.com.tw^$third-party
 ||float2006.tq.cn^
 ||tuigoo.com^$third-party
@@ -1654,6 +1668,7 @@ js.ssrj.net^$third-party
 ||u-link.nbb.tw^$third-party
 ||ulink.cc^$third-party
 ||union001.$third-party
+uimg.union178.com^$third-party
 ||unionbig.com^$third-party
 ||unionsky.cn^$third-party
 ||unionli.com^$third-party
@@ -1836,6 +1851,7 @@ douban.com/js/sns/packed_faq$script
 -ad-util-
 -ad1.jpg
 -ad2.gif
+-ad3.jpg
 -adhelper.
 -adserver-
 -advert-
@@ -2100,6 +2116,7 @@ douban.com/js/sns/packed_faq$script
 /adcde.js
 /adcell/*
 /adcentral.
+/adchain-
 /adchannel_
 /adclick.
 /adclient.
@@ -2913,6 +2930,7 @@ douban.com/js/sns/packed_faq$script
 /images/ads/*
 /images/ads_
 /images/aff-
+/images/affiliate/*
 /images/gads_
 /images/sponsored/*
 /images_jtads/*
@@ -3037,6 +3055,7 @@ douban.com/js/sns/packed_faq$script
 /news_ad.
 /newtopmsgad.
 /nextad/*
+/nl-ads/*
 /o2contentad.
 /oas-config.
 /oas_ad_
@@ -4310,7 +4329,7 @@ _768x90_
 ###ad_widget
 ###ad_window
 ###ad_wrap
-~amnestyusa.org,~drownedinsound.com###ad_wrapper
+~amnestyusa.org,~drownedinsound.com,~lirs.org###ad_wrapper
 ###adbForum
 ###adbanner
 ###adbar
@@ -7616,7 +7635,7 @@ _768x90_
 ##.sponsorlink
 ##.sponsorlink2
 ##.sponsormsg
-~soccer-match.de##.sponsors
+~retirehq.com,~soccer-match.de##.sponsors
 ##.sponsors-box
 ##.sponsors_bar
 ##.sponsors_table
@@ -7809,6 +7828,8 @@ _768x90_
 ##.wp125ad_2
 ##.wpn_ad_content
 ##.wrap-ads
+##.wrapper-ad
+##.wrapper-ad-sidecol
 ##.wsSponsoredLinksRight
 ##.wsTopSposoredLinks
 ##.x03-adunit
@@ -8220,7 +8241,6 @@ _768x90_
 ||destinationurl.com^$third-party
 ||dexplatform.com^$third-party
 ||dgmaustralia.com^$third-party
-||digitalriver.com^$third-party
 ||digitrevenue.com^$third-party
 ||dinclinx.com^$third-party
 ||directleads.com^$third-party
@@ -9236,6 +9256,7 @@ _768x90_
 ||armorgames.com^*/banners/
 ||armorgames.com^*/site-skins/
 ||armorgames.com^*/siteskin.css
+||arstechnica.com/public/shared/scripts/da-1.5.js
 ||artima.com/zcr/
 ||asianewsnet.net/banner/
 ||ask.com/fifdart?
@@ -9383,6 +9404,7 @@ _768x90_
 ||dishusa.net/templates/flero/images/book_sprava.gif
 ||display.superbay.net^
 ||distrowatch.com/images/kokoku/
+||distrowatch.com/images/yvzhuwbpy/
 ||divxme.com/images/play.png
 ||divxstage.net/images/download.png
 ||divxstage.net^*/remove_ads.
@@ -9402,6 +9424,7 @@ _768x90_
 ||ecommerce-journal.com/specdata.php?
 ||economist.com.na^*/banners/
 ||ed2k.2x4u.de/mfc/
+||egamer.co.za^*-background-
 ||ehow.com/images/brands/
 ||ekrit.de/serious-gamer/1.swf
 ||ekrit.de/serious-gamer/film1.swf
@@ -9434,6 +9457,7 @@ _768x90_
 ||filebase.to^*/note.js
 ||filefront.com/linkto/
 ||files.nyaa.eu^*.nou
+||files.nyaa.eu^*.ohu
 ||filespazz.com/imx/template_r2_c3.jpg
 ||filespazz.com^*/copyartwork_side_banner.gif
 ||filestube.com/files/images/ggta_*.gif
@@ -9945,6 +9969,7 @@ _768x90_
 ||thessdreview.com^*/owc-full-banner.jpg
 ||thessdreview.com^*/owc-new-gif1.gif
 ||thestandard.co.zw^*/banners/
+||thetvbay.com^$subdocument,domain=thepiratebay.org
 ||thewb.com/thewb/swf/tmz-adblock/
 ||tigerdroppings.com^*&adcode=
 ||times-herald.com/pubfiles/
@@ -10629,6 +10654,17 @@ discovery.com##.rectangle
 disney.go.com###banner
 disney.go.com###superBanner
 disney.go.com##div[style="position:relative; float:right; clear:right; width:300px; height:260px; top:5px; margin-top:10px; margin-bottom:5px; margin-left:5px; margin-right:0px;"]
+distrowatch.com##a[href*="/centrify.php"]
+distrowatch.com##a[href*="/flexicloud.php"]
+distrowatch.com##a[href="http://distrowatch.com/ccfpqbaq"]
+distrowatch.com##a[href="http://distrowatch.com/wzehf"]
+distrowatch.com##a[href^="http://distrowatch.tradepub.com/"]
+distrowatch.com##a[href^="http://www.3cx.com/"]
+distrowatch.com##a[href^="http://www.acunetix.com/"]
+distrowatch.com##a[href^="http://www.amazon.com/exec/obidos/ASIN/"]
+distrowatch.com##a[href^="http://www.couponcactus.com/"]
+distrowatch.com##a[href^="http://www.offers.com/"]
+distrowatch.com##a[href^="http://www.osdisc.com/"]
 ditii.com##.ads
 divxden.com###divxshowboxt > a[target="_blank"] > img[width="158"]
 divxden.com##.ad
@@ -10670,6 +10706,7 @@ eartheasy.com##td[width="200"][height="4451"][bgcolor="#e1e3de"][rowspan="19"]
 earthweb.com##.footerbanner
 easybib.com##.banner
 ebaumsworld.com###eacs-sidebar
+ebuddy.com###Banner
 ebuddy.com###Rectangle
 ebuddy.com###banner_rectangle
 eclipse.org##.ad
@@ -10737,11 +10774,13 @@ esus.com##a[href="http://www.regiochat.be"]
 etonline.com##.superbanner
 eurogamer.net###skyscraper
 eurogamer.net###tabbaz
+eurometeo.com##td[height="14"][width="738"]
 euronews.net###OAS1
 euronews.net###OAS2
 euronews.net##.col-pub-skyscraper
 euronews.net##.google-banner
 europolitics.info##.publicite1
+euroweather.net##td[height="14"][width="738"]
 euroweek.com##.bnr-top
 everyjoe.com##.ad
 evilchili.com###overlayVid
@@ -11312,16 +11351,13 @@ kino.to##.Special
 kino.to##a[href="/Stream/EatThat.html"]
 kino.to##a[href="/Stream/EatThis.html"]
 kino.to##a[href="/Stream/HavePhun.html"]
-kino.to##a[href="/Stream/XMan3001.html"]
-kino.to##a[href="/Stream/XMan3002.html"]
-kino.to##a[href="/Stream/XMan3003.html"]
-kino.to##a[href^="/Stream/"] > IMG
 kino.to##a[href^="http://bit.ly"]
 kino.to##a[href^="http://kino.to/Stream/"] > IMG
 kino.to##a[href^="http://tinyurl.com"]
 kino.to##div[style*="http://res.kino.to/"]
 kino.to##div[style*="width: 970px"]
 kino.to##div[style^="display: inline; width: 970px; top: 130px; height: 450px;"]
+kino.to##li > a[href^="/Stream/"] > img
 kino.to##span[style]:last-child
 kioskea.net###topContent
 kioskea.net##a[href^="http://www3.smartadserver.com/"]
@@ -11800,9 +11836,11 @@ ny1.com##.bannerSidebar
 ny1.com##.bannerTop
 nyaa.eu##a[href^="http://www.nyaa.eu/a?"]
 nyaa.eu##a[href^="http://www.nyaa.eu/b?"]
+nyaa.eu##a[href^="http://www.nyaa.eu/c?"]
 nyaa.eu##a[href^="http://www.nyaa.eu/e?"]
 nyaa.eu##a[href^="http://www.nyaa.eu/h?"]
 nyaa.eu##a[href^="http://www.nyaa.eu/i?"]
+nyaa.eu##div > a > img[alt=" "][src^="http://files.nyaa.eu/"]
 nyaa.eu##div > a > img[alt=""][src^="http://files.nyaa.eu/"]
 nyaa.eu##div[style^="float:left;width:800px;"] > a > img[src^="http://files.nyaa.eu/"]
 nyaa.eu##div[style^="float:right;width:120px;"] a > img[src^="http://files.nyaa.eu/"]
@@ -12411,6 +12449,7 @@ thesun.co.uk##.float-right.padding-left-10.width-300.padding-bottom-10.padding-t
 thesun.co.uk##.srch_cont
 thesuperficial.com###leaderboard
 thetandd.com##.yahoo_content_match
+thetycho.com##.bnr728
 thevarguy.com###middlebannerwrapper
 thevarguy.com##.squarebanner160x160
 thinkdigit.com##.topPad5[width="164"]
@@ -12475,6 +12514,7 @@ tradearabia.com##td[width="120"][height="115"]
 tradearabia.com##td[width="760"][height="120"]
 travel.yahoo.com##.spon
 travel.yahoo.com##.tgl-block
+travelwkly.com###sidebar-bottom-left
 treatmentforbruises.net##.fltlft
 treatmentforbruises.net##.fltrt
 treehugger.com##.google-indiv-box2
@@ -13020,7 +13060,6 @@ yourmindblown.com##div[style="width: 300px; min-height: 250px; padding: 10px 0px
 ~pregecko2,jwire.com.au##div[style="width: 468px; height: 60px; margin: 10px auto;"]
 ~pregecko2,kids-in-mind.com##td[valign="top"][style="padding-left: 5px; padding-right: 5px;"]
 ~pregecko2,kidsinmind.com##td[valign="top"][style="padding-left: 5px; padding-right: 5px;"]
-~pregecko2,kino.to##div[style*="background-color: rgb(255, 255, 255)"]
 ~pregecko2,kohit.net##div[style="width: 300px; height: 250px; background-color: rgb(0, 0, 0);"]
 ~pregecko2,linkcrypt.ws##div[style*="width: 470px;"][style*="height: 60px;"][style*="text-align: center;"]
 ~pregecko2,lockergnome.com##div[style="float: left; width: 160px; height: 600px; margin: 0px 5px 10px 0px;"]
@@ -14132,6 +14171,7 @@ _cedexis.php
 ||leadforce1.com^$third-party
 ||legolas-media.com^$third-party
 ||levexis.com^$third-party
+||lfov.net^$third-party
 ||linezing.com^$third-party
 ||linkconnector.com^$third-party
 ||linkpulse.com^$third-party
@@ -14996,6 +15036,7 @@ _cedexis.php
 ||digimedia.com/pageviews.php?
 ||directnews.co.uk/feedtrack/
 ||disqus.com/stats.html
+||disqus.com^*/count.js
 ||dnn506yrbagrg.cloudfront.net^
 ||domodomain.com^*/ddsense.aspx?
 ||doug1izaerwt3.cloudfront.net^
@@ -15159,6 +15200,7 @@ _cedexis.php
 ||tr-metrics.loomia.com^
 ||tr.interlake.net^
 ||track.did-it.com^
+||track.digitalriver.com^
 ||track.monitis.com^
 ||track.parse.ly^
 ||track.untd.com^
