@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 0VH7O4NQwuMA0wh5FalbLQ
+!  Checksum: u3fDfiSjWvV8yIOmIcuQrQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 31 Mar 2011 23:58:58 +0800
+!  Last Modified:  Fri, 01 Apr 2011 03:06:57 +0800
 !
 !  As a supplement of EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Plase subscribe EasyList also.
@@ -488,11 +488,10 @@ mysilu.com##[class*="a_"]
 mysilu.com##TD[width="33%"][align="center"]
 
 !---NewHua
-@@/newhuagg/currencyshow.swf
-/newhuagg/*$image,background,object
-/newhuagg/*p$script
-/newhuagg/*txt$script
-||newhua.com/zt/
+@@/newhuagg/*hot$script
+@@||bbs.pcsoft.com.cn^$elemhide
+/newhuagg/*
+zhidao.newhua.com/askgg/
 
 !---Nownews
 ||nownews.com/ad2004/
@@ -854,6 +853,11 @@ junshi.xilu.com##.xlad
 www.xilu.com###gg_yitong
 www.xilu.com##.page_adbox1
 www.xilu.com##.xl09v2_right_ad
+
+!---新华网
+www.news.cn/js20100613/ad_01.js
+imgs.xinhuanet.com/js/news/xilanad.js
+news.xinhuanet.com/js/js/xilan/xilan_banner_0621.js
 
 !---西子湖畔
 ||xizi.com/include/rotator.js
@@ -1415,8 +1419,6 @@ win7china.com##.site_ad
 ||a.wm090.com/jbl/0421/jbl.swf
 js.xiaoyouxi.cn/ee/$script
 ||js.xiaoyouxi.cn/tan.js
-||imgs.xinhuanet.com/js/news/xilanad.js
-||xinjipin.com/imgx/xingyun28.gif
 .com/aggd/$domain=xishuiw.com|xishuiw.net
 ||xishuiw.com/down/JS/$subdocument
 ||xitek.com/newsite/mojs.php?
@@ -1565,6 +1567,7 @@ cs.37see.com^$third-party
 ||cpmadworld.com^$third-party
 ||cpvm.net^$third-party
 ||crazymike.tw^$third-party
+static.csbew.com^$third-party
 ||cssyouxi.com^$third-party
 ||daoyoudao.com^$third-party
 ||dingge.cc^$third-party
