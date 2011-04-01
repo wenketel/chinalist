@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 4P4cuHAXPk6gX4/OyMVe7g
+!  Checksum: gMvfckoMtP/OnIvtJh1DEg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 01 Apr 2011 23:41:47 +0800
+!  Last Modified:  Sat, 02 Apr 2011 00:43:15 +0800
 !
 !  As a supplement of EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Plase subscribe EasyList also.
@@ -215,7 +215,6 @@ img.cnbeta.com/*300$image
 img.cnbeta.com/*576$image
 img.cnbeta.com/qy950.gif
 img.cnbeta.com/rk3*.gif
-img.cnbeta.com/yodao$image
 !cnbeta.com###comad
 cnbeta.com###fm_r
 cnbeta.com###userInfo
@@ -449,11 +448,6 @@ promotion.yintai.com/slide/index.html
 special.ku6.com###recommend>div:last-child
 special.ku6.com###Tab4
 
-!---libertytimes
-122.146.0.242
-||libertytimes.com.tw/IService2/AdLinkList.php
-||libertytimes.com.tw/js/ajs/
-
 !---Mobile01.com
 attach2.mobile01.com/js/google$script
 mobile01.com##[class$="-ad"]
@@ -498,13 +492,11 @@ zhidao.newhua.com/askgg/
 
 !---Nownews
 ||nownews.com/ad2004/
-||nownews.com/events/videonews/text-ad.htm
-||nownews.com/include_v10/js/ad_tab.js
-||nownews.com/include_v10/js/float_ad/
+||nownews.com/include_v11/js/ad_tab.js
 ||nownews.com/yam/
 nownews.com##[id^="focus_"]
-nownews.com###ad_tab
 nownews.com###nownews_pickup
+nownews.com###travel_ad
 
 !---澳洲中文网
 ||ozchinese.com/images/
@@ -1135,6 +1127,8 @@ huanqiu.com##[id^="banner"]
 ||itocp.com/html/$object
 ||jerrycanada.com^$third-party
 ||junshier.com/data/js/
+||libertytimes.com.tw/IService2/AdLinkList.php
+||libertytimes.com.tw/js/ajs/
 /nddailyfile/webadv/*$domain=oeeee.com
 ||newtalk.tw/ad_
 ashow.pcpop.com^
@@ -1144,6 +1138,9 @@ www.pcpop.com##div.Content>div.r1:nth-child(2)
 ||sinovision.net/ui/js/index_ad.js
 skads.gxsky.com/$script
 gxsky.com###indexad_txt
+news.showche.com/data/$script
+||singtao.com/*_ad*.js
+||singtao.com/js/ecard.js
 ||sznews.com/2008gg/
 ||sznews.com/ad
 ||sznews.com*.files/$object
@@ -1153,9 +1150,6 @@ gxsky.com###indexad_txt
 ||tianshannet.com.cn/news/node_61586.htm
 tianshannet.com.cn##.adtxt1.link15
 image.wenweipo.com/*/ad_
-news.showche.com/data/$script
-||singtao.com/*_ad*.js
-||singtao.com/js/ecard.js
 iads.xinmin.cn/
 ||younet.com^$object
 ||zaobao.com/ssi/bizp/mkt/
@@ -1443,8 +1437,6 @@ xmnn.cn###fuke
 ||yanqiao.com/yanqiao/
 a4.yeshj.com^
 yeshj.com###adv_zone
-rd.youthwant.com.tw/scripts/$script
-youthwant.com.tw##[class^="ad"]
 ||ytbbs.com/image/$object
 ||zbinfo.net/*zbxxg2009b/ggw/dmtgg/
 ||zhongguo.ca/upload_files/label/
