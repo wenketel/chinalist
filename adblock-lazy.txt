@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: SyTvZrAVV+zWzZ6CYIgDUg
+!  Checksum: DbQgEj183amcKp3GuAKnug
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 02 Apr 2011 00:57:35 +0800
+!  Last Modified:  Sat, 02 Apr 2011 15:11:20 +0800
 !
 !  As a supplement of EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Plase subscribe EasyList also.
@@ -11,10 +11,10 @@
 !  coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
 !----------------------------White List--------------------
-@@||alimama.cn^$stylesheet
-@@/attachments/*
 @@||360buy.com/uploads/$image
 @@||51job.com^$elemhide
+@@||alimama.cn^$stylesheet
+@@/attachments/*
 @@/crossdomain.xml|$object_subrequest
 
 !----------------------------Well-known Sites--------------
@@ -1389,6 +1389,9 @@ qdcars.com###top_jy
 ||so100.cn/images/a*.js
 ||so100.cn/images/newshead.htm
 image.sofang.com/upfiles/$object
+||suopao.org^$object
+||suopao.org/ads.js
+suopao.org##.t5
 bbs.t56.net/ad*/
 ||taisha.org^$object
 ||taisha.org/abroad/head/banner*.html
@@ -1457,6 +1460,8 @@ pic.zygod.net:8383/ad*.jpg
 ||100fenlm.cn^$third-party
 u.1133.cc^$third-party
 ||114.com.cn^$third-party
+www.114lm.com^$third-party
+js.17ol.org^$third-party
 ||118114.cn^$third-party
 ||122.com.tw^$third-party
 link.155game.com^$third-party
