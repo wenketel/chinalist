@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 5kE9ZuOGSp3q2NBy4J+Gig
+!  Checksum: eChm7omhBrgW9mY0WszqYQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 02 Apr 2011 15:11:20 +0800
+!  Last Modified:  Wed, 06 Apr 2011 01:46:36 +0800
 !
 !  As a supplement of EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Plase subscribe EasyList also.
@@ -260,10 +260,15 @@ www.dayoo.com###lm_dywmtq+div.wOut.mt6
 
 !---Dict.CN
 ||dict.cn/ef/
-||dict.cn/sync2/
+||dict.cn/sync2/pic161_1.gif
+||dict.cn/sync2/pic229_1.gif
+||dict.cn/sync2/pic239_1.png
+||dict.cn/sync2/pic274_1.png
+dict.cn###block3
 dict.cn###block4
-dict.cn###top-gg
-dict.cn##div#main_right_right>div:nth-child(5)
+dict.cn##[id^="gg_"]
+dict.cn###haici-tuijian
+dict.cn##.text-gg-bar
 
 !---Discuz! & PHPWind etc.
 /overture_ads.js
@@ -507,7 +512,8 @@ ozchinese.com##.t_infoline
 
 !---远景
 bbs.pcbeta.com/static/image/biz/
-bbs.pcbeta.com##div.m_bd.mbm+div.mbm.cl
+bbs.pcbeta.com##.a_pt
+bbs.pcbeta.com##.mbm.cl
 
 !---PCHome.net
 btn.pchome.net
@@ -631,6 +637,7 @@ siluhd.com###index_top
 
 !---sina
 !--sina.com
+@@||data.ent.sina.com.cn^
 ||sina.com^*ads/
 ||sina.com/rm/
 ||sina.com/assets/js/dart/
@@ -644,7 +651,7 @@ news.sina.com.cn/pfpnews/js/libweb.js
 pfp.sina.com.cn^
 ||rm.sina.com.cn^
 ||v.sina.com.cn^$subdocument
-||sinaimg.cn^$object
+||sinaimg.cn^$object,domain=~data.ent.sina.com.cn
 ||sinaimg.cn/pop_win/
 ||sinaimg.cn/unipro/
 sh.sinaimg.cn/313/
@@ -958,9 +965,15 @@ www.zol.com.cn##div.nav+div.wrapper.clearfix
 pc3w.com###ad_down_title
 pc3w.com##table[width="925"][height="305"]
 
+!---左岸读书
+storage.live.com/items/F298F5385BDA1232!182?filename=xmj1.21.jpg
+storage.live.com/items/F298F5385BDA1232!198?filename=printyourmind.jpg
+storage.live.com/items/F298F5385BDA1232!202?filename=shanhun.jpg
+
 !----------------------------Generic(sort by domain name)--
 !---Blog Sites
 ||alibuybuy.com/wp-content/uploads/$object
+||alibuybuy.com/wp-content/uploads/2011/03/739_90.gif
 ||alibuybuy.com/wp-content/uploads/2011/03/zaker468x60-11.jpg
 azo-freeware.blogspot.com###adsense336x280
 cwyuni.tw##div.article-content>p:nth-last-child(2)
@@ -1153,7 +1166,7 @@ tianshannet.com.cn##.adtxt1.link15
 image.wenweipo.com/*/ad_
 iads.xinmin.cn/
 ||younet.com^$object
-||zaobao.com/ssi/bizp/mkt/
+||zaobao.com/ssi/bizp/
 
 !---Online Novel/Comic Sites
 @@||52kdm.com/images/lib.js
@@ -1336,6 +1349,8 @@ img.jb51.net/imgby/
 ||lady8844.com/js/das/
 ||lady8844.com/DA_HTML/
 ||lady8844.com/images/bjsmall.jpg
+||normteam.com/js/popup.js
+normteam.com##.tac.mb5
 ||panda.kdnet.net^
 kenengba.com##div#sidebar>script+div
 ||kuqin.com/da/
