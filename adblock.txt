@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: Du8eVZ5741QVm6otuqxkHg
+!  Checksum: HjkcbXrmrG1cdWCTAsy51Q
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 07 Apr 2011 04:32:00 +0800
+!  Last Modified:  Thu, 07 Apr 2011 05:08:47 +0800
 !
 !  As a supplement of EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Plase subscribe EasyList also.
@@ -139,7 +139,7 @@ mp3.baidu.com##.top.container_20
 mp3.baidu.com###ecom
 www.baidu.com###wrapper>table[width="30%"]:nth-child(4)
 www.baidu.com##table.EC_mr15
-!--tieba.baidu.com
+!--tieba
 tieba.baidu.com###sgp_top_frame
 !--zhidao
 zhidao.baidu.com##.ad-fc-down
@@ -661,7 +661,7 @@ dailynews.sina.com##.TopNav+table
 !--sina.com.cn
 @@||data.*.sina.com.cn^
 bj.house.sina.com.cn/iframe/
-||d*.sina.com.cn^$~stylesheet
+||d*.sina.com.cn^$~stylesheet,domain=~66ys.cc
 news.sina.com.cn/pfpnews/js/libweb.js
 pfp.sina.com.cn^$script
 ||rm.sina.com.cn^
