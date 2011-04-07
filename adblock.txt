@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: HjkcbXrmrG1cdWCTAsy51Q
+!  Checksum: dYnic0SiGgFmq3iGxl3Zdw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 07 Apr 2011 05:08:47 +0800
+!  Last Modified:  Thu, 07 Apr 2011 08:30:25 +0800
 !
 !  As a supplement of EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Plase subscribe EasyList also.
@@ -12,7 +12,6 @@
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
 !----------------------------White List--------------------
 @@||360buy.com/uploads/$image
-@@||51job.com^$elemhide
 @@||alimama.cn^$stylesheet
 @@/attachments/*
 @@/crossdomain.xml|$object_subrequest
@@ -368,8 +367,6 @@ www.hexun.com##.advp
 @@hichannel.hinet.net^$object_subrequest
 hichannel.hinet.net/videoad2/
 p4u.hinet.net^
-times.hinet.net/headlineNews/
-hichannel.hinet.net##.txtimgad
 
 !---头条网
 ||hkheadline.com/*promo/
@@ -461,12 +458,12 @@ special.ku6.com###Tab4
 @@||kkkxs.com/configs/article/bottom.js
 @@||kkkxs.com/configs/article/pagetop.js
 @@||kkkxs.com/configs/article/pagebottom.js
+||kkkxs.com/configs/article/$script
 ||kkkxs.com/configs/article/gggg/
 ||kkkxs.com/jj680-60.jpg
-||kkkxs.com/configs/article/$script
 
 !---Mobile01.com
-attach2.mobile01.com/js/google$script
+attach2.mobile01.com/js/ga.js
 mobile01.com##[class$="-ad"]
 mobile01.com##a[href^="adredir.php"]
 mobile01.com##a[href="promotionlist.php"]
@@ -1330,6 +1327,7 @@ img.1ting.com/v5/js/*text.js
 ||2500sz.com/site/
 ||360doc.com/js/albb3.js
 ||510379.com/510379ad/
+@@||51job.com^$elemhide
 ||51junshi.com/new/$script
 /gg_new/*$domain=3gp2.net|98.126.25.82
 ||app-g.39.net^
@@ -1848,7 +1846,7 @@ n/count.
 !--pv
 !-general filters
 |http://pv.
-|http://stat.$script,domain=~verycd.com|~ameblo.jp|~sohu.com|~zcool.com.cn
+|http://stat.$script,domain=~ameblo.jp|~sohu.com|~verycd.com|~zcool.com.cn
 |http://track.
 .com/pv.
 .com/pv/$domain=~proxyvote.com
