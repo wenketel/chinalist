@@ -1,9 +1,9 @@
 [Adblock Plus 1.2]
-!  Checksum: fk8gOYhct/fxnkuxCH8h5g
+!  Checksum: VfYWsEx69Xqbie/f2AZcnQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 08 Apr 2011 14:21:33 +0800
+!  Last Modified:  Sat, 09 Apr 2011 04:32:44 +0800
 !
-!  As a supplement of EasyList,ChinaList won't provide the filters
+!  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Plase subscribe EasyList also.
 !
 !  Need help?please visit: http://adblock-chinalist.googlecode.com/
@@ -71,7 +71,6 @@ thinkpad.cn,51nb.com##.maintable+table.t_rown
 thinkpad.cn,51nb.com##div.menu+div.maintable>table.t_rown[width="875"]
 
 !---56.com
-/js/promo/*
 |http://acs.
 corp.56.com^
 56.com##.rAd_text
@@ -284,7 +283,6 @@ dict.cn##.text-gg-bar
 !---discuss.com.hk
 /aeiou/*$domain=discuss.com.hk|uwants.com
 /overture/*$domain=discuss.com.hk|uwants.com
-/promo/*$domain=discuss.com.hk|uwants.com
 discuss.com.hk##.ad
 discuss.com.hk##a[href^="http://adsrv.nw-imedia.com/"]
 discuss.com.hk,uwants.com##div[id^="thread_ads_"]+table
@@ -434,7 +432,6 @@ apps.kaixin.com##.blank-bar
 
 !---极影动漫/看漫画
 /javascripts/nmjui/*$domain=kkkmh.com|ktxp.com
-||kkkmh.com/iframe/
 ||kkkmh.com/iframe/
 kkkmh.com##[class^="mm-"]
 bbs.ktxp.com/iframe/banner.html
@@ -1162,7 +1159,6 @@ china.cn##.rowLAd
 ||region.cns.hk^
 ||pic.cnmo.com/$image,object
 cnmo.com##[id^="AD"]
-passport.cnw.com.cn/Track/stat.js
 ||daqi.com/clicklog.js
 ||same.eastmoney.com^
 ||hebei.com.cn/eap/
@@ -1224,7 +1220,6 @@ jj.5ccc.net^
 ||58xs.com/news_gonggao.js
 ||70192.com/files/$script
 70192.com###ptcmsad1
-||86zhongwen.com/ads/
 ||86zw.com/zz/
 ||87ks.com/93xw/$script
 @@||89890.com/js/bd2.js
@@ -1300,6 +1295,8 @@ sfw.com.cn##.cataBanner1
 bbs.whsee.com/js/
 ||xiaoyanwenxue.com/configs/article/indexbottom.js
 ||xiaoyanwenxue.com/contentjs/
+@@||xiaoxiucai.org/js/default.js
+||xiaoxiucai.org/js/
 ||xntk.com^$script
 @@||xntk.com/data/ph.js
 ||xntk.net^$script
@@ -1308,7 +1305,7 @@ bbs.whsee.com/js/
 ||xs8.cn/data/iframe/$script
 images.xxsy.net/sygg/
 @@||yankuai.com/ads/pagebottom.js
-@@||yankuai.com/ads/pagetop.js
+@@||yankuai//pagetop.js
 ||ydnovel.com^$script
 ||yueshuba.com^$script
 ||yunxuange.net/js/list.js
@@ -1738,7 +1735,6 @@ author.richi.cc^$third-party
 ||scupio.com^$third-party
 ||shendu.cc^$third-party
 ||sharele.cn^$third-party
-||since1984.cn^$third-party
 ||skycn.org.cn^$third-party
 ||snyu.com^$third-party
 ||soua.com^$third-party
@@ -1799,14 +1795,14 @@ union.ziye8.com^$third-party
 
 !----------------------------Other (sort by letter)--------
 .allyes.
-.cn/ads/*
-.hk/ads/*
+.cn/ads/
+.hk/ads/
 .com/js/ad_
-.com/ggao/*
+.com/ggao/
 /adfiles/*
 /adflash/*
 /adimage/*
-/adjk.php?
+/adjk.php^
 /adphoto/*
 /adpics/*
 /adpolestar^
@@ -1826,6 +1822,7 @@ union.ziye8.com^$third-party
 /u/_sponsor/*
 /webafp?
 /paypic/*
+/promo/*
 /tanchuang^
 /tuiguang/*
 |http://gg.$subdocument,image,script,object,domain=~pcwaishe.cn
@@ -1837,8 +1834,8 @@ union.ziye8.com^$third-party
 /image/ad/*
 |http://w*/ad/$~object_subrequest
 !---adv
-.cn/adv/*
-.com/adv/*
+.cn/adv/
+.com/adv/
 |http://adv.
 /img/adv/*
 /images/adv/*
@@ -1854,12 +1851,10 @@ union.ziye8.com^$third-party
 
 !-----------------------------Privacy----------------------
 !--count
+/count.$domain=~taobao.com
 /counter.$domain=~cnbeta.com|~opensuse.org|~shooter.cn|~blog.sohu.com
 /counts.
 /tongji.js
-m/count.
-n/count.
-|http://count.$domain=~taobao.com
 !--pv
 !-general filters
 |http://pv.
