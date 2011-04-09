@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 9U5lDM5mnMWYKcI6YXemuQ
+!  Checksum: XnP6M+1QseqqSe1WSr0y5g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 09 Apr 2011 14:05:09 +0800
+!  Last Modified:  Sat, 09 Apr 2011 20:45:30 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Plase subscribe EasyList also.
@@ -281,7 +281,8 @@ dict.cn##.text-gg-bar
 ~top81.cn##[id^="ad_thread"]
 
 !---discuss.com.hk
-/aeiou/*$domain=discuss.com.hk|uwants.com
+i.uwants.com/aeiou/
+i.discuss.com.hk/aeiou/
 /overture/*$domain=discuss.com.hk|uwants.com
 discuss.com.hk##.ad
 discuss.com.hk##a[href^="http://adsrv.nw-imedia.com/"]
@@ -1541,12 +1542,12 @@ link.155game.com^$third-party
 pic.198game.net^$third-party
 ||19dc.com^$third-party
 ||1gou.com^$third-party
-||2a.com^$third-party
+.2a.com/$third-party
 ||21union.com^$third-party
 ||22w.com/$third-party
 ||25888.in^$third-party
 |http://code*.2bj.cc^$third-party
-||2bj.cn^$third-party
+.2bj.cn/$third-party
 ||33hy.com^$third-party
 ||333wan.com^$third-party
 ||365tc.com^$third-party
@@ -1570,7 +1571,7 @@ cs.37see.com^$third-party
 ||6621.com^$third-party
 ||66-77.com^
 ||6721.com^$third-party
-||6693.cc^$third-party
+||6693.cc/$third-party
 ||6cpm.com^$third-party
 ||6dad.com^$third-party
 ||70yx.com^$third-party
@@ -1706,7 +1707,7 @@ www.kankanews.com/iframe/$third-party
 ||molidao.com^$third-party
 ||myad.cn/$third-party
 ||myiee.com^$third-party
-||na7.cc^$third-party
+.na7.cc/$third-party
 ||naqigs.com^$third-party
 ||newwang.com^$third-party
 ||niwota.com^$third-party
@@ -1814,11 +1815,9 @@ union.ziye8.com^$third-party
 /guanggao^
 /images/prom/*
 /js/acmsd/*
-/union^
 /u/_sponsor/*
 /webafp?
 /paypic/*
-/promo/*
 /tanchuang^
 /tuiguang/*
 |http://gg.$subdocument,image,script,object,domain=~pcwaishe.cn
@@ -1847,12 +1846,12 @@ union.ziye8.com^$third-party
 
 !-----------------------------Privacy----------------------
 !--count
-/count.$domain=~taobao.com
 /counter.$domain=~cnbeta.com|~opensuse.org|~shooter.cn|~blog.sohu.com
 /counts.
 /tongji.js
 !--pv
 !-general filters
+|http://count.$domain=~taobao.com
 |http://pv.
 |http://stat.$script,domain=~ameblo.jp|~sohu.com|~verycd.com|~zcool.com.cn
 |http://track.
