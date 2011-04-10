@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 7yTVr/mOtWdfMfPbv/jXSw
+!  Checksum: sRwS7PqeKAclNoh/xvR0Pg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 10 Apr 2011 22:53:43 +0800
+!  Last Modified:  Mon, 11 Apr 2011 07:58:30 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Plase subscribe EasyList also.
@@ -287,6 +287,7 @@ i.discuss.com.hk/aeiou/
 discuss.com.hk##.ad
 discuss.com.hk##a[href^="http://adsrv.nw-imedia.com/"]
 discuss.com.hk,uwants.com##div[id^="thread_ads_"]+table
+uwants.com##div#foruminfo+div[align="center"]
 
 !---多特软件站
 img.duote.com/duotehtml/
@@ -383,7 +384,6 @@ www.hsw.cn##table[width="980"][height="90"]
 www.hsw.cn##table[width="980"][height="100"]
 
 !---凤凰网
-auto.ifeng.com/js/recomment.js
 comment.ifeng.com/count_
 img.ifeng.com/tres/ifeng/
 img.ifeng.com/tres/recommend/
@@ -392,9 +392,9 @@ img.ifeng.com/tres/ylgm/
 sc.ifeng.com^
 sta.ifeng.com^
 stadig.ifeng.com^
-img.ifeng.com/tres/html/adtest/
 ifeng.com##.areaAd
 ifeng.com##[id^="flash_outer_"]
+ifeng.com##[class^="adList"]
 ifeng.com###StreamMediaWrap
 
 !---IT168
@@ -1782,6 +1782,7 @@ uimg.xiaoangel.com^$third-party
 ||yiqiwin.com^$third-party
 union.youdao.com^$third-party
 ||youxjia.com^$third-party
+||yoyi.com.cn^$third-party
 ||yoyi.tv/$third-party
 ||yoyocm.com^$third-party
 ||yunyu120.com^$third-party
