@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: OLWewKv+pvLUeJRJQFp0cg
+!  Checksum: 1+uk1ABdbkU4Bp8nRKNDNA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 11 Apr 2011 18:19:35 +0800
+!  Last Modified:  Tue, 12 Apr 2011 23:52:05 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -727,6 +727,8 @@ sohu.com###ad_TOP
 sohu.com##[class^="contAD"]
 news.sohu.com###adList
 news.sohu.com##div.left>h2>span
+!-ads union
+images.sohu.com/cs/jsfile/js/ct.js
 
 !---东菀阳光网
 ||sun0769.com/wwwimg/sungg/
@@ -1420,9 +1422,6 @@ ring.kugou.com^
 ||kugz.net/gzad/
 ||kukudm.com/$script
 @@||kukudm.com/js2/$script
-||kyer8.com/images/log.jpg
-||kyer8.com/img/right*.gif
-news.sohu.com/upload/$domain=kyer8.com
 ||liehuo.net/images/gaogao/
 ||liehuo.net/plus/
 ||linuxidc.com/linuxfile/
@@ -1769,6 +1768,7 @@ uimg.union178.com^$third-party
 ||unionli.com^$third-party
 ||uucall.com^$third-party
 ||urlad.com.tw^$third-party
+union.vancl.com^$third-party
 ||v-links.net^$third-party
 ||s.vipcnzz.com^$third-party
 ||vjia.com^$third-party
