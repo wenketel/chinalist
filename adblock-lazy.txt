@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: LMbXbQiO8mh9715eDDdQYg
+!  Checksum: HUPY+UOPe711LVS/YOyInQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 14 Apr 2011 14:28:50 +0800
+!  Last Modified:  Thu, 14 Apr 2011 17:50:00 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -442,13 +442,15 @@ kkkmh.com##[class^="mm-"]
 bbs.ktxp.com/iframe/banner.html
 
 !---Ku6
+ku6afp.allyes.com^$domain=ku6.com
 img.c4.ku6.cn/*/upload/$object
-main.gslb.ku6.com^
 st.vq.ku6.cn^
 ||stat.ku6.com^
 gug.ku6cdn.com^
 v.ku6.com##[id^="gg"]
 v.ku6.com##.flwin.flwin_min
+!--embed ads fot third party
+main.gslb.ku6.com^$third-party
 !--special.ku6.com
 special.ku6img.com/projects/2010/yintai/flash/
 ku6img.com/cms/dv/201102/14/yintailiucheng.jpg
@@ -1012,8 +1014,8 @@ zhulang.com##.hx_newgg
 
 !---ZOL
 pic.zol-img.com.cn^$object
-zol.com.cn##[id^="Bar"]
 zol.com.cn##[id^="AD"]
+zol.com.cn##[id^="Bar"]
 www.zol.com.cn##.banner960
 !--中关村在线武汉站
 ||pc3w.com/adpic/
