@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: uzjfn3AATBCjuFuiTFdQXw
+!  Checksum: LMbXbQiO8mh9715eDDdQYg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 14 Apr 2011 10:00:50 +0800
+!  Last Modified:  Thu, 14 Apr 2011 14:28:50 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -123,6 +123,7 @@ appinn.com##.gad
 ||nsclick.baidu.com^
 ||spcode.baidu.com^
 ||unstat.baidu.com^$domain=~dzh.mop.com
+||utk.baidu.com^
 a.baidu.com/ecom$script
 hi.baidu.com/ui/scripts/refer/refer.js
 baike.baidu.com###mabox
@@ -357,8 +358,8 @@ gy778tv.cn##.gg
 
 !---和讯
 /att_count.js
-/pageMediaControl_
 blog.hexun.com/inc/popbox.aspx
+hxjs.tool.hexun.com^
 img.hexun.com/hx_news/hx_news_finalpage.js
 news.hexun.com##.business
 www.hexun.com##.advp
@@ -718,6 +719,13 @@ bbs.shm.com.cn/bbs_list/ad/
 biz.shm.com.cn^$object
 shm.com.cn##.surround
 
+!---手机乐园
+img.shouji.com.cn/images/bbs/dazhe_500x60.gif
+img.shouji.com.cn/images/soft/ucweb.gif
+js.shouji.com.cn/script/adsite.js
+js.shouji.com.cn/script/showban.js
+js.shouji.com.cn/tg/dlwap.gif
+
 !---Sogou
 ||brand.sogou.com^
 ||inte.sogou.com^
@@ -912,6 +920,10 @@ news.xinhuanet.com/js/js/xilan/xilan_banner_0621.js
 ||xizi.com/a/$object
 xizi.com##.mt5.recommend
 
+!---新丝路
+61.128.121.99/nsrad/
+xj163.cn##[class^="ad"]
+
 !---XunLei
 biz*.sandai.net^
 misc.web.xunlei.com/kkpv/kkpv.js
@@ -923,6 +935,12 @@ gougou.com##.ggSideBox
 ks.cn.yahoo.com/ks_q1_tg.html
 cn.yimg.com/i/ks/img/kqill_tg_
 !--TW
+tw.yahoo.com##.admod
+tw.yahoo.com###ec
+tw.yahoo.com###eyebrow>a:not(#sethomepage)
+tw.yahoo.com##.newsad
+tw.yahoo.com##.colpadding>div.tabmd
+tw.yahoo.com###ticker
 ||yimg.com/no/$domain=~yahoo.com
 l.yimg.com/d/lib/bc/bcr_2.0.5.js
 l.yimg.com/f/i/tw/news/news_banner/
@@ -994,8 +1012,8 @@ zhulang.com##.hx_newgg
 
 !---ZOL
 pic.zol-img.com.cn^$object
-www.zol.com.cn##[id^="AD"]
-www.zol.com.cn##[id^="Bar1"]
+zol.com.cn##[id^="Bar"]
+zol.com.cn##[id^="AD"]
 www.zol.com.cn##.banner960
 !--中关村在线武汉站
 ||pc3w.com/adpic/
@@ -1047,6 +1065,8 @@ town.xuite.net/_ad/
 ||7xdown.com/adgg/
 ||9553.com^$script,subdocument
 9553.com##label[style="font-size: 12px;"]
+||99d.com/images/99d_980x60_110408.gif
+||99d.com/js/web_5253_tanchuang.js
 data.99pan.com/download/images/img_018.gif
 ||abcdown.net/hezuo/
 ||ayxz.com/images/$script,subdocument
@@ -1230,6 +1250,7 @@ site.24novel.com/js/readbottom.js
 ||360wxw.com/js/index_top46860.js
 ||360wxw.com/kanshuren/yuedu/
 ||360wxw.com/kanshurenads/
+||3zcn.com/3z/
 @@||52kdm.com/images/lib.js
 ||52kdm.com^$script
 ||52tian.net/qq/
@@ -1246,6 +1267,7 @@ jj.5ccc.net^
 ||70192.com/files/$script
 70192.com###ptcmsad1
 ||86zw.com/zz/
+86zw.com###span_ad_01
 ||87ks.com/93xw/$script
 @@||89890.com/js/bd2.js
 @@||89890.com/Js/Vol4.js
@@ -1260,6 +1282,7 @@ jj.5ccc.net^
 @@||99comic.com/js/book.js
 @@||99comic.com/v3/i.js
 ||99comic.com^$script
+||9lala.com/js/
 @@||99manga.com/haodm/dmjs/book.js
 @@||99manga.com/v3/i.js
 ||99manga.com^$script
@@ -1272,6 +1295,7 @@ jj.5ccc.net^
 ||baiwandu.com/data/1.js
 ||baiwandu.com/files/friend/
 baiwandu.com###ptcmsad1
+static.bengou.com/js2/guga_
 ||bookcu.com^$script,subdocument
 ||bookgew.com/ml85/
 ||bookgew.com/rar/
@@ -1282,41 +1306,55 @@ baiwandu.com###ptcmsad1
 @@||cococomic.com/js/book.js
 @@||cococomic.com/v3/i3.js
 ||cococomic.com/g/
-||dddbbb.net/popopf.js
+||dddbbb.net^$script
 ||dm002.com/s*/
 ||dm002.com/javascript/show.js
 by.dm5.com^
 tongji.dm5.com^
 ||du8du8.com/du8du8/pagebottom*.js
 www.ekok.net/files/friend/
+||fygxs.com/Skin/duodu/$script
+@@||js.ggyy8.cc/1/ts_cn.j
+js.ggyy8.cc^
 pic.hongxiu.com/fox/hx/
 ||hotsk.com/js/asp.js
 ||hotsk.com/js/fy.js
+||huaxiasg.com^*/ads/
 ||hweisk.com/Skin/Default/js/k*.js
 ||ibook8.com/2/
 ||jdjxs.net/configs/article/
 ||jumpcn.com^$subdocument
+||jumpcn.com/javascript/xshow.js
+||jumpcn.com/s*/$script
 i.kanshu.la/js/001.js
 ||laiwx.com/js/
 ||lxwxw.com/scripts/new/
 ||mx99.com/js/h*.js
 ||mx99.com/js/k*.js
 ||narutom.com/v2/js/198game_Lt.js
+||nidua.com/3.*.js
+||nidua.com/configs/article/indexbottom.js
+||nidua.com/configs/article/z_quanzhantan.js
 ||niepo.com/js/tan2/
 ||pfwx.com/acc/$script
 ||pfwx.com/configs/article/pagetop.js
+www.q520.org/configs/article/pagebottom1.js
+www.q520.org/js/tj.js
 ||qibi.com/js/luenbo.js
 80.qukanshu.com^
 ||readnovel.com/js/$subdocument
 bbs.sfw.com.cn/attachments/
 sfw.com.cn##.cataBanner1
 ||shanwen.com^$script
+@@||tlxsw.com/configs/article/wangzhai.js
+||tlxsw.com/configs/$script
 ||ttshu.com/js/
 www.u17.com/z/mylife/acfun/qianxiang.js
 image.mylife.u17t.com^$object
 image.mylife.u17t.com/2011/03/15/1300169967_tI0Y23SxZjF3.gif
 ||uczw.com/configs/article/zj02.js
 ||uczw.com/js/
+comic.veryim.com/Images/resource.js
 ||wanshulou.com/skin/js/
 ||wenchangshuyuan.com/configs/article/indexbottom.js
 ||wenchangshuyuan.com/contentjs/
@@ -1366,6 +1404,7 @@ img.1ting.com/v5/js/*text.js
 !---Miscellaneous
 ||111cn.net/gg_ad/
 ||1m1m.cn/bar/
+||210.6.90.159^*/ads_
 ||2500sz.com/site/
 js.2u.com.cn/pv.js
 pic.2u.com.cn^$object
@@ -1412,17 +1451,20 @@ eap.enorth.com.cn^
 ||expreview.com/batch.jasd.php
 ||expreview.com/exp3/script/expda.js
 ||eywedu.com^$script
+||feedtrade.com.cn/CusPages/homeAd/
+||feedtrade.com.cn/js/duilian-homepage.js
+||feedtrade.com.cn/js/topad.js
 ||fj007.com/money/
 fj007.com##.ad_div
 2so.fjxn.com/css/$script
 ||flash8.net/flash8_a_d_s/
-||feedtrade.com.cn/CusPages/homeAd/
-||feedtrade.com.cn/js/duilian-homepage.js
-||feedtrade.com.cn/js/topad.js
 ||fqlook.cn/vip/2009index/
 ||frdic.com/dic_resource/revefrance.gif
 frdic.com,godic.net###sidebar1
 ||free9.cn^$script
+||fyjs.cn/1440.js
+fyjs.cn##div#main>div.bdbA+div.t5
+||fzlol.com/images/$script
 ||hanzify.org/Main/Template/*/a-d-s/
 hdad.hudong.com/hdad/
 img.hdbird.com/langzi/20100212/0320.gif
@@ -1442,6 +1484,9 @@ img.jb51.net/imgby/
 ||lady8844.com/js/das/
 ||lady8844.com/DA_HTML/
 ||lady8844.com/images/bjsmall.jpg
+bbs.linuxsky.org/images/dolbar.gif
+86file.megajoy.com^
+||mojim.com/htm99t/iad.js
 ||normteam.com/js/popup.js
 normteam.com##.tac.mb5
 ||panda.kdnet.net^
@@ -1489,6 +1534,7 @@ qdcars.com###top_jy
 ||qvodhd.com/template/kankan_2/qq/72q.js
 ||qzwb.com/AdPreview/
 ||rin9.com/jsad/
+||scan001.com/js/*_*_$script
 ||sccnn.com/zz/
 ||sellgreat.com/images/Bdvertisement/
 ||shudoo.com/jad/$script
@@ -1579,6 +1625,7 @@ code.u.18dx.com^$third-party
 link.155game.com^$third-party
 ||160ads.com^$third-party
 ||163click.com^
+||17cpm.com^$third-party
 ||178gg.com^$third-party
 pic.198game.net^$third-party
 ||19dc.com^$third-party
@@ -1640,6 +1687,7 @@ www.8peng.com^$third-party
 ||9wad.com^$third-party
 ||9wee.com^$third-party
 ||acs86.com^$third-party
+cpc.ad123456.com^$third-party
 .ad2.cn/$third-party
 ||adcenter.conn.tw^$third-party
 ||adhai.com^$third-party
@@ -1749,6 +1797,7 @@ www.kankanews.com/iframe/$third-party
 ||koowo.com^$third-party
 ||kucent.com^$third-party
 ||kuqi.com^$third-party
+cluclick.leshu.com^$third-party
 ||love12.tw^$third-party
 ||mediav.com^$third-party
 ||molidao.com^$third-party
@@ -1804,6 +1853,7 @@ js.tjq.com^$third-party
 ||u-link.nbb.tw^$third-party
 ||ulink.cc^$third-party
 ||union001.$third-party
+||union009.com^$third-party
 uimg.union178.com^$third-party
 ||unionbig.com^$third-party
 ||unioncpm.com^$third-party
@@ -1829,6 +1879,7 @@ uimg.xiaoangel.com^$third-party
 ||yiqifa.com^$third-party
 ||yiqiwin.com^$third-party
 union.youdao.com^$third-party
+www.youxitui.net^$third-party
 ||youxjia.com^$third-party
 ||yoyi.com.cn^$third-party
 ||yoyi.tv/$third-party
@@ -1913,6 +1964,7 @@ union.ziye8.com^$third-party
 /usertrack.
 !-sort by domain
 ||114la.com^$third-party
+||51yes.com^$third-party
 51img.ajiang.net^
 ||blog104.com^$third-party
 ||blogtw.net^$third-party
@@ -1923,6 +1975,7 @@ log.daqi.com^
 ||hotrank.com.tw^$third-party
 ||jiankongbao.com^$third-party
 ||linezing.com^$third-party
+||sitebro.cn^$third-party
 ||sitebro.tw^$third-party
 ||sitestates.com^$third-party
 ||sitetag.us^$third-party
@@ -1962,6 +2015,7 @@ news.pchome.com.tw,pchome.syspower.com.tw###ad_bg_div
 price.com.hk##.tb
 price.com.hk##[id^="ad"]
 qianlong.com##.aditem01
+sncj.com.cn##div.top+div[style^="width:960px;"]
 bbs.sjtu.cn,bbs.sjtu.edu.cn,bbs6.sjtu.edu.cn###ad
 subpig.net###ajaxwaitid+div.wrap>#header+table+table[width="97%"][height="33"]
 subpig.net##div.wrap>table[width="97%"][bgcolor="#000000"][background="#ffffff"]
