@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 4LYtyRCaLCLegg3MBpWpeQ
+!  Checksum: Fm3oXrrasFV60SACQb+dAw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 14 Apr 2011 17:50:00 +0800
+!  Last Modified:  Thu, 14 Apr 2011 22:27:42 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -397,6 +397,7 @@ sta.ifeng.com^
 stadig.ifeng.com^
 ifeng.com##[class^="adList"]
 ifeng.com##.areaAd
+ifeng.com##[id^="couplet3_"]
 ifeng.com##[id^="flash_outer_"]
 ifeng.com##.navAd
 ifeng.com###StreamMediaWrap
@@ -449,7 +450,7 @@ st.vq.ku6.cn^
 gug.ku6cdn.com^
 v.ku6.com##[id^="gg"]
 v.ku6.com##.flwin.flwin_min
-!--embed ads fot third party
+!--embed ads for third party
 main.gslb.ku6.com^$third-party
 !--special.ku6.com
 special.ku6img.com/projects/2010/yintai/flash/
@@ -938,7 +939,6 @@ ks.cn.yahoo.com/ks_q1_tg.html
 cn.yimg.com/i/ks/img/kqill_tg_
 !--TW
 tw.yahoo.com##.admod
-tw.yahoo.com###ec
 tw.yahoo.com###eyebrow>a:not(#sethomepage)
 tw.yahoo.com##.newsad
 tw.yahoo.com##.colpadding>div.tabmd
