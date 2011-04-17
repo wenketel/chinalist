@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: F36ShV3CgOGxlSVB2ZaNgw
+!  Checksum: eVXfyV804MukVbKWqJQwZA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 16 Apr 2011 13:19:51 +0800
+!  Last Modified:  Sun, 17 Apr 2011 11:12:09 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -689,7 +689,6 @@ www.sina.com.cn##.yleft2blk
 !--auto
 @@||auto.sina.com.cn^$elemhide
 !--finance
-@@counter.sina.com.cn/time?fm=JS
 finance.sina.com.cn###adSinaHouseHeadLink
 finance.sina.com.cn##.topADs
 !--video
@@ -1894,7 +1893,6 @@ uimg.yxcpm.com^$third-party
 union.ziye8.com^$third-party
 
 !----------------------------Other (sort by letter)--------
-.allyes.$~object_subrequest
 .cn/ads/
 .hk/ads/
 .com/js/ad_
@@ -1910,6 +1908,8 @@ union.ziye8.com^$third-party
 /adservice/*
 /adsimg/*
 /adsunion^
+/affiliate/*
+.allyes.$~object_subrequest
 /allyes.
 /banner/*$domain=~xunlei.com
 /floatadv.
@@ -1949,7 +1949,7 @@ union.ziye8.com^$third-party
 
 !-----------------------------Privacy----------------------
 !--count
-/counter.$domain=~cnbeta.com|~opensuse.org|~pixnet.net|~shooter.cn|~blog.sohu.com
+/counter.$domain=~cnbeta.com|~opensuse.org|~pixnet.net|~shooter.cn|~finance.sina.com.cn|~blog.sohu.com
 /counts.
 /tongji.js
 !--pv
