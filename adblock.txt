@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: qyKTkY9002axp+qbERroCA
+!  Checksum: IGh8tyjo1wiNwzlQvnldDg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 17 Apr 2011 11:45:20 +0800
+!  Last Modified:  Mon, 18 Apr 2011 10:52:17 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -121,6 +121,7 @@ appinn.com##.gad
 ||eiv.baidu.com^
 ||hm.baidu.com^
 ||nsclick.baidu.com^
+||sclick.baidu.com/union.gif^
 ||spcode.baidu.com^
 ||unstat.baidu.com^$domain=~dzh.mop.com
 ||utk.baidu.com^
@@ -133,10 +134,11 @@ image.baidu.com###relEcom
 image.baidu.com###relecom54
 !--MP3
 static.mp3.baidu.com^
-mp3.baidu.com##.top.container_20
+imgs.zhangmen.baidu.com/ecom/mp3ecom.js
 mp3.baidu.com###ecom
-www.baidu.com###wrapper>table[width="30%"]
-www.baidu.com##table.EC_mr15
+!--search
+baidu.com,www.baidu.hrf.cn##.EC_mr15
+baidu.com,www.baidu.hrf.cn###wrapper>table[width="30%"]
 !--tieba
 static.tieba.baidu.com/tb/coloregg/
 tieba.baidu.com###sgp_top_frame
@@ -675,7 +677,7 @@ pfp.sina.com.cn^$script
 pfp.sina.com.cn/iframe/
 ||rm.sina.com.cn^
 ||v.sina.com.cn^$subdocument
-||sinaimg.cn^*/deco/$script,domain=~finance.sina.com.cn
+||sinaimg.cn^*/deco/$script
 ||sinaimg.cn/pop_win/
 ||sinaimg.cn/unipro/
 sh.sinaimg.cn/313/
@@ -689,6 +691,9 @@ www.sina.com.cn##.yleft2blk
 !--auto
 @@||auto.sina.com.cn^$elemhide
 !--finance
+@@||counter.sina.com.cn/time?fm=JS$domain=finance.sina.com.cn
+@@||sinaimg.cn^*/headcj.js$domain=finance.sina.com.cn
+finance.sina.com.cn/iframe/*.html|
 finance.sina.com.cn###adSinaHouseHeadLink
 finance.sina.com.cn##.topADs
 !--video
@@ -1045,6 +1050,7 @@ jiaren.org##a[href^="http://pindao.huoban.taobao.com/"]>img
 jiaren.org##a[href^="http://s.click.taobao.com/"]>img
 ||minwt.com/img/ADEvent/
 image.soft.idv.tw/ad/
+images.steachs.com/dcview_food.jpg
 ||wretch.cc/_y/l/e/serv/blog/ysm.htm
 wretch.cc##.admd
 wretch.cc##[id^="ad_"]:not(#ad_square)
@@ -1774,6 +1780,7 @@ s.hagou.com^$third-party
 ||housefun.com.tw^$third-party
 ||hoyiad.com^$third-party
 ||huoli.com^$third-party
+||icast.cn^$third-party
 ||ifocus.cn^$third-party
 ||i-qianming.cn^$third-party
 u.*.iciba.com^$third-party
@@ -1948,7 +1955,7 @@ union.ziye8.com^$third-party
 
 !-----------------------------Privacy----------------------
 !--count
-/counter.$domain=~cnbeta.com|~opensuse.org|~pixnet.net|~shooter.cn|~finance.sina.com.cn|~blog.sohu.com
+/counter.$domain=~cnbeta.com|~opensuse.org|~pixnet.net|~shooter.cn|~blog.sohu.com
 /counts.
 /tongji.js
 !--pv
