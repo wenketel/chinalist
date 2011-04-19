@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: A+TiipejN8mCpPjr6jhSRA
+!  Checksum: 9FDYNvAUYL1Lx869O2KXig
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 18 Apr 2011 14:58:18 +0800
+!  Last Modified:  Tue, 19 Apr 2011 10:46:01 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -1787,12 +1787,13 @@ s.hagou.com^$third-party
 ||housefun.com.tw^$third-party
 ||hoyiad.com^$third-party
 ||huoli.com^$third-party
+||i-qianming.cn^$third-party
 ||icast.cn^$third-party
 ||ifocus.cn^$third-party
-||i-qianming.cn^$third-party
 u.*.iciba.com^$third-party
 ||u.imop.com^
 ||insenz.com^$third-party
+||ishare.tw^$subdocument,third-party
 ||itop247.com^$third-party
 ||itopnetworks.com^$third-party
 .izo.cn/$third-party
@@ -1963,7 +1964,7 @@ union.ziye8.com^$third-party
 
 !-----------------------------Privacy----------------------
 !--count
-/counter.$domain=~cnbeta.com|~opensuse.org|~pixnet.net|~shooter.cn|~blog.sohu.com
+/counter.$domain=~cnbeta.com|~cwyuni.tw|~opensuse.org|~pixnet.net|~shooter.cn|~blog.sohu.com
 /counts.
 /tongji.js
 !--pv
@@ -3849,6 +3850,7 @@ _top_ad_
 _topad.php
 _tribalfusion.
 _videoad.
+_webad.gif
 a/adx.js
 couk/ads/
 d/adx.js
@@ -5173,6 +5175,7 @@ _768x90_
 ###evotopTen_advert
 ###ex-ligatus
 ###exads
+###extra-search-ads
 ~discuss.com.hk,~uwants.com###featuread
 ###featured-advertisements
 ###featuredAdContainer2
@@ -6872,7 +6875,9 @@ _768x90_
 ~pdc.tv##.advertColumn
 ##.advertCont
 ##.advertContainer
+##.advertContent
 ##.advertHeadline
+##.advertIslandWrapper
 ##.advertRight
 ##.advertSuperBanner
 ##.advertText
@@ -7235,6 +7240,7 @@ _768x90_
 ##.divad3
 ##.divads
 ##.divider_ad
+##.dlSponsoredLinks
 ##.dmco_advert_iabrighttitle
 ##.downloadAds
 ##.download_ad
@@ -7552,6 +7558,7 @@ _768x90_
 ##.medium-rectangle-ad
 ##.mediumRectangleAdvert
 ##.medrect_ad
+##.member-ads
 ##.menuItemBannerAd
 ##.menueadimg
 ##.messageBoardAd
@@ -8569,7 +8576,7 @@ _768x90_
 ||doubleclick.net/pfadx/nbcu.nbc/$object_subrequest,third-party
 ||doubleclick.net^$object_subrequest,third-party,domain=addictinggames.com|atom.com|businessweek.com|cbs4denver.com|cnbc.com|darkhorizons.com|doubleviking.com|eonline.com|fandango.com|foxbusiness.com|g4tv.com|gorillanation.com|hulu.com|joblo.com|kptv.com|listen.grooveshark.com|mtv.co.uk|mtv.com|mtv.com.au|mtv.com.nz|mtvbase.com|mtvmusic.com|myfoxorlando.com|myfoxphoenix.com|newsweek.com|nick.com|nintendoeverything.com|pandora.com|play.it|ps3news.com|rte.ie|sbsun.com|sevenload.com|shockwave.com|sk-gaming.com|southpark.nl|space.com|spike.com|syfy.com|thedailygreen.com|thedailyshow.com|thewire.com|ustream.tv|washingtonpost.com|wcbstv.com|wetransfer.com|wired.com|wkbw.com|wwe.com|youtube.com|zoomin.tv
 ||doubleclick.net^$~object_subrequest,third-party
-||doubleclick.net^*;sz=$object_subrequest,third-party,domain=10news.com|1up.com|breitbart.tv|cbc.ca|dailystar.co.uk|digitaltrends.com|fox5sandiego.com|foxnews.com|france24.com|gamesradar.com|gametrailers.com|heavy.com|muzu.tv|myfoxny.com|myspace.com|nbc.com|nbcsandiego.com|news.com.au|newson6.com|nhl.com|player.amri.ca|rapbasement.com|wptv.com|wsj.com
+||doubleclick.net^*;sz=$object_subrequest,third-party,domain=10news.com|1up.com|breitbart.tv|cbc.ca|dailystar.co.uk|digitaltrends.com|fox5sandiego.com|foxnews.com|france24.com|gamesradar.com|gametrailers.com|heavy.com|muzu.tv|myfoxatlanta.com|myfoxny.com|myspace.com|nbc.com|nbcsandiego.com|news.com.au|newson6.com|nhl.com|player.amri.ca|rapbasement.com|wptv.com|wsj.com
 ||doublepimp.com^$third-party
 ||dpbolvw.net^$third-party
 ||dt00.net^$third-party,domain=~marketgid.com|~marketgid.ru|~marketgid.ua|~mgid.com|~thechive.com
@@ -9275,6 +9282,7 @@ _768x90_
 ||freetrafficsystem.com/fts/ban/
 ||frogatto.com/images/$third-party
 ||frontsight.com^*/banners/
+||fugger.ipage.com/banners/
 ||fugger.netfirms.com/moa.swf$third-party
 ||funtonia.com/promo/
 ||futuresite.register.com/us?$third-party
@@ -9574,7 +9582,7 @@ _768x90_
 |http://$subdocument,third-party,domain=u.bb
 ||1057theoasis.com/addrotate_content.php?
 ||1079thealternative.com/addrotate_content.php?
-||173.199.120.7/delivery/$domain=videobb.com
+||173.199.120.7/delivery/
 ||174.143.241.129^$domain=astalavista.com
 ||1up.com^*/promos/
 ||212.7.200.164^$domain=wjunction.com
@@ -10478,7 +10486,6 @@ _768x90_
 ||webhostingtalk.com^*/adj/
 ||webnewswire.com/images/banner
 ||websitehome.co.uk/seoheap/cheap-web-hosting.gif
-||weddingtv.com/src/usefulstuff/*banner
 ||werlv.com^*banner
 ||weselectmodels.com^*/new_banner.jpg
 ||whatsontv.co.uk^*/promo/
@@ -10536,6 +10543,7 @@ _768x90_
 ||zawya.com/ads/
 ||zawya.com/brands/
 ||zerochan.net/skyscraper.html
+||ziddu.com/banners/
 ||zigzag.co.za/images/oww-
 ||zimdiaspora.com/banners/
 ||zimyellow.com/admin/banners/
@@ -10568,6 +10576,7 @@ _768x90_
 961kiss.com##div[style="width:300px;height:250px;overflow:hidden;margin-bottom:10px;"]
 977music.com###banner350
 977music.com###banner_bottom
+98fm.com##.advert
 9and10news.com##.storysponsorimage
 9news.com##.poster
 9to5mac.com###block-dealmac-0
@@ -11191,6 +11200,8 @@ downloadhelper.net##a[href^="http://www.secrethelper.net/affclick/"]
 downloadsquad.com###newjobs-module
 downloadsquad.com###topleader-wrap
 downloadsquad.com##.medrect
+downloadstube.org##.frame_side
+downloadstube.org##.frame_top
 dragcave.net###prefooter
 drive.com.au##.cA-twinPromo
 driverdb.com###banners
@@ -11379,13 +11390,13 @@ firewallguide.com##td[width="300"][height="250"]
 five.tv##.ad
 flashgot.net###google > span + style + *
 flashgot.net###google a[target="_blank"][href*="flashgot.net/"]
-flashgot.net###google a[target="_blank"][href^="/"]
+flashgot.net###google a[target][href^="/"]
 flashgot.net###head a[target="_blank"][href*="flashgot.net/"]
-flashgot.net###head a[target="_blank"][href^="/"]
+flashgot.net###head a[target][href^="/"]
 flashgot.net###head style + :last-child
 flashgot.net###left-side > :nth-child(n+3) a[href^="/"]
 flashgot.net###left-side a[href*="flashgot.net/"]
-flashgot.net##.content :not(p) > a[target="_blank"][href^="/"]
+flashgot.net##.content :not(p) > a[target][href^="/"]
 flashgot.net##.content > div > style + :last-child
 flashgot.net##.content > p > style + * a[target="_blank"][href*="flashgot.net/"]
 flashgot.net##.product-logo + .install-button + style + *
@@ -12402,16 +12413,16 @@ northjersey.com##.detail_pane_text
 noscript.net###google > span + span + *
 noscript.net###google > span + span + style + *
 noscript.net###google a[target="_blank"][href*="noscript.net/"]
-noscript.net###google a[target="_blank"][href^="/"]
+noscript.net###google a[target][href^="/"]
 noscript.net###head :first-child:last-child > :first-child:last-child
 noscript.net###head a[target="_blank"][href*="noscript.net/"]
-noscript.net###head a[target="_blank"][href^="/"]
+noscript.net###head a[target][href^="/"]
 noscript.net###head style + :last-child
 noscript.net###left-side > .product-logo + :last-child
 noscript.net###left-side > :nth-child(n+3) a[href^="/"]
 noscript.net###left-side a[href*="noscript.net/"]
 noscript.net###main > .content > :first-child
-noscript.net##.content :not(p) > a[target="_blank"][href^="/"]
+noscript.net##.content :not(p) > a[target][href^="/"]
 noscript.net##.content > .section > div + :last-child
 noscript.net##.content > p > :first-child:last-child
 noscript.net##.content > p > a:first-child + *
@@ -12852,6 +12863,8 @@ share-links.biz###infoC
 share-links.biz##.m10.center
 share-links.biz##.w160.dark.center
 share-online.biz###consumer_bottom
+share-online.biz###consumer_bottom_dl
+share-online.biz###consumer_top
 sharehoster.com##a[href^="http://www.stargames.com/bridge.asp"]
 shine.yahoo.com###ylf-ysm-side
 shinyshiny.tv##.leaderboard
@@ -13470,6 +13483,8 @@ wpbt2.org##.home_banners
 wpdaddy.com###block1
 wphostingdiscount.com##.ad
 wptv.com##.module.horizontal
+wsbtv.com###leaderboard-sticky
+wsbtv.com###middleLeaderBoard
 wsj.com##.spn_links_box
 wtop.com###above-header-980
 wwl.com###BannerXGroup
@@ -14188,6 +14203,7 @@ yourmindblown.com##div[style="width: 300px; min-height: 250px; padding: 10px 0px
 @@||cpalead.com/mygateway.php?pub=$script,domain=acapelladdl.com|pspmaniaonline.com|serialnumber.in|spotifyripping.com|stumblehere.com|videodownloadx.com|yourpcmovies.net|youserials.com
 @@||dailykos.com/ads/adblocker.blogads.css
 @@||dollarade.com/overlay_gateway.php?oid=$script,domain=pspmaniaonline.com
+@@||downloadstube.org^*/adframe.js
 @@||eq2flames.com/adframe.js
 @@||funkyfun.altervista.org/adsense.js$domain=livevss.net
 @@||gallery.aethereality.net/advertisement.js
@@ -15767,6 +15783,7 @@ _cedexis.php
 ||counters.gigya.com^
 ||csi.gstatic.com^
 ||curate.nestedmedia.com^
+||d1nu2rn22elx8m.cloudfront.net^
 ||data.alexa.com^
 ||daylogs.com/counter/
 ||dealnews.com/lw/log_syndication.php?
