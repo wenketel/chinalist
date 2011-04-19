@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: g3i8z2AX4RANrQyuiI2KlQ
+!  Checksum: xCQQ8lFtzYGkwtHlE5wpMg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 19 Apr 2011 21:56:14 +0800
+!  Last Modified:  Tue, 19 Apr 2011 23:35:48 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -1058,6 +1058,7 @@ images.ixiqi.com/images/valentine2011-banner.gif
 jiaren.org##a[href^="http://pindao.huoban.taobao.com/"]>img
 jiaren.org##a[href^="http://s.click.taobao.com/"]>img
 ||minwt.com/img/ADEvent/
+blog.soft.idv.tw/csg-ad*.js
 image.soft.idv.tw/ad/
 images.steachs.com/dcview_food.jpg
 ||wretch.cc/_y/l/e/serv/blog/ysm.htm
@@ -7897,6 +7898,7 @@ _768x90_
 ##.sponsor-link
 ##.sponsor-links
 ##.sponsor-services
+##.sponsorPanel
 ##.sponsorPost
 ##.sponsorPostWrap
 ##.sponsorStrip
@@ -8183,6 +8185,7 @@ _768x90_
 ###mbEnd[cellspacing="0"][style]
 ###mclip_container:last-child
 ###rtpl.c[style="margin-top: 11px; padding: 5px 5px 5px 2px;"]
+###ssmiwdiv[jsdisplay]
 ###tads.c
 ###tadsb.c
 ##.ch[onclick="ga(this,event)"]
@@ -8747,6 +8750,7 @@ _768x90_
 ||linkz.net^$third-party
 ||liverail.com^$third-party
 ||liveuniversenetwork.com^$third-party
+||logo-net.co.uk^$third-party
 ||looksmart.com^$third-party
 ||ltassrv.com.s3.amazonaws.com^$third-party
 ||ltassrv.com^$third-party
@@ -9764,6 +9768,7 @@ _768x90_
 ||crazymotion.net/video_*.php?key=
 ||crushorflush.com/html/promoframe.html
 ||cruzine.com^*/banners/
+||cyanogenmod.com/static/tdr_skyscraper.png
 ||cyclur.com/cyclur.php?feedurl=http://www.rainbowskill.com/feed?s=adsense&$domain=bollywoodjodi.com
 ||d-addicts.com^*/banner/
 ||d.annarbor.com^
@@ -11717,6 +11722,9 @@ iloubnan.info###bann
 iloveim.com###closeAdsDiv
 imagebanana.com##.ad
 images.search.yahoo.com###r-n
+imagesfood.com##.top-banner-div
+imagesfood.com##div[style="margin-top:10px; margin-left:1px; margin-bottom:10px;"]
+imagesfood.com##div[style="margin-top:10px; margin-left:1px; margin-bottom:3px;"]
 imageshack.us###add_frame
 imdb.com###top_rhs_1_wrapper
 imdb.com###top_rhs_wrapper
@@ -12992,6 +13000,7 @@ stv.tv###google
 stylelist.com###cod-promo
 stylelist.com##.fromsponsor
 stylelist.com##.partnerPromo
+sumotorrent.com##.clear + .title_green[align="left"][style="margin-top:18px;"] + table
 sundancechannel.com###sidebar_banner
 sundayindependent.co.za###sp_links
 sundaytribune.co.za###sp_links
@@ -13890,7 +13899,7 @@ yourmindblown.com##div[style="width: 300px; min-height: 250px; padding: 10px 0px
 @@||adswizz.com/www/delivery/swfindex.php?reqtype=adssetup&$object_subrequest,domain=motogp.com
 @@||adswizz.com^*/v-2-0.synchroclient2.js$domain=sky.fm
 @@||adtech.de/apps/*.swf?targettag=$object,domain=cartoonnetworkasia.com
-@@||adtech.de/crossdomain.xml$object_subrequest,domain=gigwise.com|jimtv.fi|kinotv.fi|livtv.fi|nelonen.fi|nelonenpro.fi|radioaalto.fi|radiorock.fi|ruutu.fi|talksport.co.uk|tv2.dk
+@@||adtech.de/crossdomain.xml$object_subrequest,domain=gigwise.com|iltasanomat.fi|jimtv.fi|kinotv.fi|livtv.fi|nelonen.fi|nelonenpro.fi|radioaalto.fi|radiorock.fi|ruutu.fi|talksport.co.uk|tv2.dk
 @@||adtechus.com/crossdomain.xml$object_subrequest,domain=thestar.com
 @@||ajmadison.com/images/adverts/
 @@||aka-cdn-ns.adtech.de/apps/$object_subrequest,domain=talksport.co.uk
@@ -14262,6 +14271,7 @@ yourmindblown.com##div[style="width: 300px; min-height: 250px; padding: 10px 0px
 @@||ads.us.e-planning.net^*&ma=*&vv=$object_subrequest,domain=elcomercio.pe
 @@||adser.localport.it/banman.asp?zoneid=71$subdocument
 @@||adswizz.com^*/synchroclient2.js$domain=infomaniak.ch
+@@||adtech.de/?adrawdata/3.0/*;sub1=$domain=iltasanomat.fi
 @@||adtech.de/?adrawdata/3.0/*;|$object_subrequest,domain=jimtv.fi|kinotv.fi|livtv.fi|nelonen.fi|nelonenpro.fi|radioaalto.fi|radiorock.fi|ruutu.fi|tv2.dk
 @@||adtech.panthercustomer.com^*.flv$domain=tv3.ie
 @@||afterdark-nfs.com/ad/$image,script,stylesheet
