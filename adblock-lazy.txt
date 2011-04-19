@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: xCQQ8lFtzYGkwtHlE5wpMg
+!  Checksum: zw2iSsSTkdW7Q28ige5dDw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 19 Apr 2011 23:35:48 +0800
+!  Last Modified:  Wed, 20 Apr 2011 01:33:10 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -357,6 +357,7 @@ focus.cn##.ad_fp
 ||freegame.com.tw^$script
 /p_ad_f.htm|$domain=freegame.com.tw|free-game.cc
 /counter2.htm|$domain=freegame.com.tw|free-game.cc
+free-game.cc,freegame.com.tw##a[href^="http://www.itaiwanmj.com.tw/"]
 
 !---机锋
 down.gfan.com/weite/
@@ -958,13 +959,13 @@ tw.yahoo.com##.newsad
 tw.yahoo.com##.colpadding>div.tabmd
 tw.yahoo.com###ticker
 ||yimg.com/no/$domain=~yahoo.com
+||yimg.com^*/300x115.jpg
 l.yimg.com/d/lib/bc/bcr_2.0.5.js
 l.yimg.com/f/i/tw/news/news_banner/
 l.yimg.com/pq/
 l.yimg.com^*/a/tw/$~stylesheet
 l.yimg.com^*/tw/ysm/
 tw.news.yahoo.com##[id^="ynwsad"]
-tw.news.yahoo.com###ynwsfture
 tw.news.yahoo.com##[id^="ynwsktw"]
 tw.news.yahoo.com###ynwsnw
 !--HK
@@ -2435,6 +2436,7 @@ www.htky365.com/img/jmzs.jpg
 /adindex/*
 /adinjector.
 /adinsert.
+/adinsertionplugin.
 /adinterax.
 /adition.
 /adjs.php?
@@ -4756,7 +4758,7 @@ _768x90_
 ###adsd_topbanner
 ###adsd_txt_sky
 ###adsdiv
-~flashmob-forum.de,~promoce.cz###adsense
+~flashmob-forum.de,~lablue.de,~promoce.cz###adsense
 ###adsense-2
 ###adsense-header
 ###adsense-tag
