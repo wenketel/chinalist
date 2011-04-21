@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: rS0r/chfKTZZU+vj7R1W1A
+!  Checksum: fvxGoXg5atBtyQZMhPnyZg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 21 Apr 2011 04:42:55 +0800
+!  Last Modified:  Thu, 21 Apr 2011 15:33:27 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -699,12 +699,12 @@ pfp.sina.com.cn/iframe/
 sh.sinaimg.cn/313/
 sina.com.cn##.topAD
 sh.sina.com.cn##[class^="jsad"]
+www.sina.com.cn###PartA>div[style]
 www.sina.com.cn##[class^="AD"]
 www.sina.com.cn##.cleft
-www.sina.com.cn##[class^="txtadsblk"]
-www.sina.com.cn##.PartLBtnAds4
-www.sina.com.cn##.partc_ra_780x90Div
-www.sina.com.cn##div#PartG>div.rightbox
+www.sina.com.cn##[class$="ra_780x90Div"]
+www.sina.com.cn###PartG>div.rightbox
+www.sina.com.cn##[class^="txtads"]
 www.sina.com.cn##.yleft2blk
 !--auto
 @@||auto.sina.com.cn^$elemhide
@@ -727,6 +727,8 @@ as.sinahk.net^
 asimg.sinahk.net^
 !--sina.com.tw
 ||sina.com.tw^$subdocument
+!--weibo
+weibo.com##.tips_player
 
 !---Since1984
 ||since1984.cn^$object
