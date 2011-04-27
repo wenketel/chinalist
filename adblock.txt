@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 2xStBcXkub2x7Zpi52p0LQ
+!  Checksum: lRlWQYNEyme/rEJbsaG+OQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 25 Apr 2011 23:04:55 +0800
+!  Last Modified:  Wed, 27 Apr 2011 12:57:28 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -36,6 +36,7 @@ www.youdao.com##.sp-h
 ||mimg.126.net/external/public163.js
 
 !---17173
+@@||flash.17173.com/x/flashhzh700500.js
 /www/2011/*$domain=17173.com
 /www/ggcommon*.js|$domain=17173.com
 ||17173.com/if/
@@ -371,6 +372,15 @@ free-game.cc,freegame.com.tw##a[href^="http://www.itaiwanmj.com.tw/"]
 bbs.gfan.com###section2
 bbs.gfan.com###veryim111
 
+!---时空网
+||images.nnsky.com^
+||images.gxsky.com^
+||skads.gxsky.com^$script
+gxsky.com###AdsLayerRight
+gxsky.com##[class^="topadsbanner"]
+gxsky.com###RightBottom
+news.gxsky.com##div#clickeye_content > div[align="left"]
+
 !---广友影视
 ||96.44.179.162
 gy778tv.cn##.gg
@@ -460,15 +470,12 @@ kkkmh.com##[class^="mm-"]
 ||bbs.ktxp.com/iframe/banner.html
 
 !---Ku6
-ku6afp.allyes.com^$domain=ku6.com
 ||img.c4.ku6.cn/*/upload/$object
 ||st.vq.ku6.cn^
 ||stat.ku6.com^
 ||gug.ku6cdn.com^
 v.ku6.com##[id^="gg"]
 v.ku6.com##.flwin.flwin_min
-!--embed ads for third party
-main.gslb.ku6.com^$third-party
 !--special.ku6.com
 ||special.ku6img.com/projects/2010/yintai/flash/
 ||ku6img.com/cms/dv/201102/14/yintailiucheng.jpg
@@ -792,6 +799,14 @@ sun0769.com###outer01
 sun0769.com###outer04
 sun0769.com###outer06
 sun0769.com###outer08
+
+!---电玩巴士
+||inc.tgbus.com/frame/
+||inc.tgbus.com/javascript/adFloatPage.js
+||inc.tgbus.com/javascript/jzwar/
+||vista.tgbus.com/s.js
+tgbus.com##.neck
+tgbus.com##[class^="adv_"]
 
 !---TianYa
 ||blog.tianya.cn/tuijian/tanchu.js
@@ -1202,7 +1217,6 @@ www.mmog.asia/new_header/images/340x60.swf
 bbs.plu.cn/plu/images/
 ||replays.net/images/eventad/
 ||replays.net/*/rnad/
-||inc.tgbus.com/javascript/jzwar/
 ||vgabc.com/page/vgabc.js
 bbs.youxiri.com/attachment/advpic/
 bbs.youxiri.com/images/play.jpg
@@ -1219,6 +1233,7 @@ bbs.youxiri.com/images/play.jpg
 !--中国电信流氓IP
 ||114.247.19.164^
 ||121.32.136.21^
+||221.236.17.23^
 !--铁通
 ||116.9.156.88^
 !--2kk.cc
@@ -1278,8 +1293,6 @@ www.pcpop.com##div.Content>div.r1:nth-child(2)
 ||popyard.com^$subdocument
 ||sinovision.net/ui/js/adm.js
 ||sinovision.net/ui/js/index_ad.js
-||skads.gxsky.com/$script
-gxsky.com###indexad_txt
 ||news.showche.com/data/$script
 ||singtao.com/*_ad*.js
 ||singtao.com/js/ecard.js
@@ -1300,6 +1313,8 @@ tianshannet.com.cn##.adtxt1.link15
 
 !---Online Novel/Comic Sites
 ||www.163187.com/ggjs/
+||16kbook.com/all/chapter.js
+16kbook.com###AdsT
 @@||17kanshu.net/17kanshuad/zhangjiezuo$script
 ||17kanshu.net/17kanshuad/
 @@||24novel.com^$elemhide
@@ -1384,6 +1399,8 @@ baiwandu.com###ptcmsad1
 ||dm002.com/javascript/show.js
 ||by.dm5.com^
 ||tongji.dm5.com^
+||d3zw.com/js/list*.aspx
+||d3zw.com/js/read*.aspx
 ||du8du8.com/du8du8/pagebottom*.js
 ||dudu8.net/a_d/
 ||dudu8.net/js/indextz.js
@@ -1418,6 +1435,8 @@ gougoushuji.com###ptcmsad1
 ||mingshuyuan.com/contentjs/
 ||mx99.com/js/h*.js
 ||mx99.com/js/k*.js
+@@||js.myshulou.com/newgg/c.js
+||js.myshulou.com/newgg/
 ||narutom.com/v2/js/198game_Lt.js
 ||nidua.com/3.*.js
 ||nidua.com/configs/article/indexbottom.js
@@ -1436,6 +1455,9 @@ gougoushuji.com###ptcmsad1
 bbs.sfw.com.cn/attachments/
 sfw.com.cn##.cataBanner1
 ||shanwen.com^$script
+@@||shukeju.com/configs/article/indextop.js
+||shukeju.com/configs/$script
+||shukeju.com/contentjs/
 @@||tlxsw.com/configs/article/wangzhai.js
 ||tlxsw.com/configs/$script
 ||ttshu.com/js/
@@ -2130,7 +2152,6 @@ zhyjms.com##[class^="gg"]
 ||analytics-union.sandai.net^$third-party
 
 !-----------------------Element Hiding---------------------
-16kbook.com###AdsT
 52blackberry.com###focus.focus
 sbsrunningman.5d6d.com###header
 ab2xy.com##[id^="zzjs_net_"]
@@ -2145,8 +2166,8 @@ chinese.engadget.com##.post[style]
 hao123.com##.middle
 bbs.hdchina.org##.home_left_hot
 www.hoopchina.com##[class^="ad"]
-g-fox.cn###ad_links
-g-fox.cn###banner_show
+g-fox.cn##[id^="ad_links"]
+g-fox.cn##[id^="banner_show"]
 itfunz.com##.a_pb
 ivaluing.com###aa
 ivaluing.com##[class^="ads"]
