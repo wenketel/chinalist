@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: lRlWQYNEyme/rEJbsaG+OQ
+!  Checksum: LYlZNziw77XP2B/eUHR9NA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 27 Apr 2011 12:57:28 +0800
+!  Last Modified:  Wed, 27 Apr 2011 13:03:30 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -423,8 +423,11 @@ www.hsw.cn##table[width="980"][height="100"]
 ||sc.ifeng.com^
 ||sta.ifeng.com^
 ||stadig.ifeng.com^
+/coupletnew/*$domain=ifeng.com
+ifeng.com##[id^="adv_"]
 ifeng.com##[class^="adList"]
 ifeng.com##.areaAd
+ifeng.com##[id^="couplet3_"]
 ifeng.com##[id^="flash_outer_"]
 ifeng.com##.navAd
 ifeng.com###StreamMediaWrap
