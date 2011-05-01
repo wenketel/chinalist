@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: ByVDyioVeSqJHyMD5hkakw
+!  Checksum: 9MPR7KiIdnQ7HJJYYVlVSA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 30 Apr 2011 05:25:36 +0800
+!  Last Modified:  Sun, 01 May 2011 13:09:16 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -926,12 +926,6 @@ win7china.com##.commend+[class="hot mt1"]
 ||voc.com.cn/Frame/qqms_cs.html
 bbs.voc.com.cn/s.js
 
-!---万卷库
-||js.wanjuan.net^$subdocument
-||js.wanjuanku.com^$subdocument
-||js.wanjuanku.com/readcheaper/tan.js
-||www.wanjuanku.com/flad300209.gif
-
 !---文学城
 ||wenxuecity.com/adinfo/
 news.wenxuecity.com##td[width="300"][valign="top"]
@@ -953,6 +947,13 @@ news.wenxuecity.com##td[width="20"][bgcolor="#f0f0e0"][rowspan="2"]
 ||wmzhe.com/tc/js/
 ||wmzhe.com/attachments/other/$image
 ||wmzhe.com/attachments/show/top_fzl.jpg
+
+!---无名小站
+||wretch.cc/_y/l/e/serv/blog/ysm.htm
+wretch.cc##.admd
+wretch.cc##[id^="ad_"]:not(#ad_square)
+wretch.cc###push-down-ad
+wretch.cc###wretchinfo
 
 !---xcar.com.cn
 ||d0.xcar.com.cn^
@@ -1117,17 +1118,11 @@ jiaren.org##a[href^="http://s.click.taobao.com/"]>img
 ||blog.soft.idv.tw/csg-ad*.js
 ||image.soft.idv.tw/ad/
 ||images.steachs.com/dcview_food.jpg
-||wretch.cc/_y/l/e/serv/blog/ysm.htm
-wretch.cc##.admd
-wretch.cc##[id^="ad_"]:not(#ad_square)
-wretch.cc###push-down-ad
-wretch.cc###wretchinfo
 ||town.xuite.net/_ad/
 
 !---Download Sites
 ||05sun.com^$script
 ||2010down.com/hzy/
-||366soft.net/t/$script
 @@||3edyy.com/js/dan3.js
 ||3edyy.com^$script,subdocument
 ||52z.com/show/All.js
@@ -1189,7 +1184,7 @@ www.ddooo.com/js/
 ||soxia.cc^$subdocument
 ||soxia.cc/pop.php^
 ||sz1001.net/Down_Style/$script
-||tntdown.cn/News/js/C_
+||tntdown.com/News/js/C_
 ||vipcn.com/hezuo/
 soft.winzheng.com/link_img/
 down.x6x8.com/good/
@@ -1261,9 +1256,7 @@ down.x6x8.com/good/
 !---Net Disks
 /static/modules/*$domain=u.115.com
 /static//modules/*$domain=u.115.com
-||google.mmjq.com^
 ||d.namipan.com/inc_js/$script
-||img.rayfile.com/scr/$script
 
 !---News Sites
 ||autohome.com.cn/33
@@ -1341,7 +1334,6 @@ tianshannet.com.cn##.adtxt1.link15
 ||33xs.com/configs/article/indexbottom.js
 ||33xs.com/hot/
 ||33xs.com/js/ad.js
-||33xs.com/js/tan.js
 ||33xs.com/news_gonggao.js
 ||35xs.com/js/fmt.js
 ||35xs.com/js/ggp.js
@@ -1421,15 +1413,11 @@ baiwandu.com###ptcmsad1
 ||tongji.dm5.com^
 ||d3zw.com/js/list*.aspx
 ||d3zw.com/js/read*.aspx
-||du8du8.com/du8du8/pagebottom*.js
-||dudu8.net/a_d/
-||dudu8.net/js/indextz.js
 ||www.ekok.net/files/friend/
 ||b.faloo.com/js/ad.js
 b.faloo.com##[class^="ad_i_"]
 ||ffnovel.info/configs/article/indexbottom.js
 ||fygxs.com/Skin/duodu/$script
-||geiliwx.com/js/tan.js
 ||geiliwx.com/read/ad*.js
 @@||js.ggyy8.cc/1/ts_cn.js
 ||js.ggyy8.cc^
@@ -1442,7 +1430,6 @@ gougoushuji.com###ptcmsad1
 ||huaxiaxs.com/skin/default/ads/
 ||hweisk.com/Skin/Default/js/k*.js
 ||ibook8.com/2/
-||jdjxs.net/configs/article/
 ||www.jpnovel.com/myjs/
 ||jumpcn.com^$subdocument
 ||jumpcn.com/javascript/xshow.js
@@ -1456,8 +1443,6 @@ gougoushuji.com###ptcmsad1
 ||lxwxw.com/scripts/new/
 ||mingshuyuan.com/configs/article/indexbottom.js
 ||mingshuyuan.com/contentjs/
-||mx99.com/js/h*.js
-||mx99.com/js/k*.js
 @@||js.myshulou.com/newgg/c.js
 ||js.myshulou.com/newgg/
 ||narutom.com/v2/js/198game_Lt.js
@@ -1484,16 +1469,13 @@ sfw.com.cn##.cataBanner1
 @@||tlxsw.com/configs/article/wangzhai.js
 ||tlxsw.com/configs/$script
 ||ttshu.com/js/
-||www.u17.com/z/mylife/acfun/qianxiang.js
+www.u17.com/z/mylife/acfun/qianxiang.js
 u17.com##.ad_728_90
 u17.com##.www_hd_middle_ct
-||image.mylife.u17t.com^$object
-||image.mylife.u17t.com/2011/03/15/1300169967_tI0Y23SxZjF3.gif
 ||txt6.net/j/js/list.js
 ||js.txt6.net/new/
 ||uczw.com/configs/article/zj02.js
 ||uczw.com/js/
-||comic.veryim.com/Images/resource.js
 ||wanshulou.com/skin/js/
 ||wenchangshuyuan.com/configs/article/indexbottom.js
 ||wenchangshuyuan.com/contentjs/
@@ -1522,8 +1504,6 @@ xxsy.net###msg_win
 ||yunxuange.net/js/zhangjie/
 ||yunxuange.net/js8/
 ||bbsupload.yydm.com^$object
-||zhuishu.com/Skin/Default/js/mulu1.js
-||zhuishu.com/Skin/Default/js/tan.js
 ||log.zongheng.com^
 ||static.zongheng.com/upload/ad/
 ||static.zongheng.com/v2_0/js/adClickStat.js
@@ -1556,9 +1536,7 @@ xxsy.net###msg_win
 ||2500sz.com/site/
 ||js.2u.com.cn/pv.js
 ||pic.2u.com.cn^$object
-||static.2u-img.com.cn/www/js/ad1.js
 ||360doc.com/js/albb3.js
-||app-g.39.net^
 /gg_new/*$domain=3gp2.net|98.126.25.82
 @@||www.4oa.com/skins/default/Js/easytabs.js
 ||www.4oa.com/$script
@@ -1589,9 +1567,6 @@ www.5dmail.net##td[width="145"]
 ||chinacaipu.com/a/p2.asp
 ||city8.com/Search/script/absence.js
 ||disk.cjdby.com/filestores/
-||cococ.com/click/roll.html
-||cococ.com/js/click.js
-||cococ.com/js/popwin.js
 ||cqcpu.com/andy/
 ||dabaoku.com^$script,object,subdocument
 ||daili39.com/i.js
@@ -1792,7 +1767,6 @@ zhyjms.com##[class^="gg"]
 !----------------------------ads-union---------------------
 ||000wan.com^$third-party
 ||001union.com^$third-party
-||0cai.cn/$third-party
 ||100tone.com^$third-party
 ||100fenlm.cn^$third-party
 ||u.1133.cc^$third-party
@@ -1802,16 +1776,12 @@ zhyjms.com##[class^="gg"]
 ||16975.com^$third-party
 ||js.17ol.org^$third-party
 ||118114.cn^$third-party
-||code.u.18dx.com^$third-party
 ||122.com.tw^$third-party
-||link.155game.com^$third-party
 ||160ads.com^$third-party
-||163click.com^
 ||178gg.com^$third-party
 ||17cpm.com^$third-party
 ||17g.net^$third-party
 ||pic.198game.net^$third-party
-||19dc.com^$third-party
 ||1gou.com^$third-party
 .2a.com/$third-party
 ||21union.com^$third-party
@@ -1822,11 +1792,9 @@ zhyjms.com##[class^="gg"]
 ||33hy.com^$third-party
 ||333wan.com^$third-party
 ||365tc.com^$third-party
-||u1346.37117.com^$third-party
 ||37cs.com^$third-party
 ||37dz.com^$third-party
 ||p.37lai.com^$third-party
-||cs.37see.com^$third-party
 ||3gpz.net^$third-party
 ||51link.com^$third-party
 ||51wan.com^$third-party
@@ -1841,7 +1809,6 @@ zhyjms.com##[class^="gg"]
 ||un.5d6d.com^
 ||click.5j.com^$third-party
 ||5uad.com^$third-party
-||6621.com^$third-party
 ||66-77.com^
 ||6721.com^$third-party
 ||6693.cc/$third-party
@@ -1850,7 +1817,6 @@ zhyjms.com##[class^="gg"]
 ||70e.com^$third-party
 ||70yx.com^$third-party
 ||74lm.com^$third-party
-||778669.com^$third-party
 ||7794.com^$third-party
 ||77go.com^$third-party
 ||789un.com^$third-party
@@ -1859,10 +1825,7 @@ zhyjms.com##[class^="gg"]
 ||81813.com^$third-party
 ||82816.com^$third-party
 ||84232.com^$third-party
-||88210212.com^$third-party
 ||885ad.com^$third-party
-||88888q.com^$third-party
-||u.8cnd.com^$third-party
 ||8le8le.com^$third-party
 ||www.8peng.com^$third-party
 ||9165.net^$third-party
@@ -1872,15 +1835,12 @@ zhyjms.com##[class^="gg"]
 ||991go.com^$third-party
 ||999d.com^$third-party
 ||9cpm.com^$third-party
-||res.9dzc.com^$third-party
 ||9vcpc.cn^$third-party
 ||9vcpm.cn^$third-party
 ||9vcpp.cn^$third-party
 ||9wad.com^$third-party
 ||9wee.com^$third-party
 ||acs86.com^$third-party
-||cpc.ad123456.com^$third-party
-.ad2.cn/$third-party
 ||adcenter.conn.tw^$third-party
 ||adhai.com^$third-party
 ||admin6.com^$third-party
@@ -1888,7 +1848,6 @@ zhyjms.com##[class^="gg"]
 ||adnets.cn^$third-party
 ||adqoo.com^$third-party
 ||adsame.com^$third-party
-||adsfactor.cn^$third-party
 ||adsue.com^$third-party
 ||adver.com.tw^$third-party
 ||advprotraffic.com^$third-party
@@ -1915,10 +1874,8 @@ zhyjms.com##[class^="gg"]
 ||bmw100.cn^$third-party
 ||bolebank.com^$third-party
 ||books.com.tw/exep/ap/$third-party
-||btnibbler.com^$third-party
 ||channelray.com^$third-party
 ||chanet.com.cn^$third-party
-||chinaih.com^$third-party
 ||job.chinesenow.org^$third-party
 ||chitika.com^$third-party
 ||click.com^$third-party
@@ -1928,12 +1885,9 @@ zhyjms.com##[class^="gg"]
 ||cpmadworld.com^$third-party
 ||cpvm.net^$third-party
 ||crazymike.tw^$third-party
-||static.csbew.com^$third-party
 ||cssyouxi.com^$third-party
-||cs01.csyouxi.com^$third-party
 ||d9ad.com^$third-party
 ||daoyoudao.com^$third-party
-||union.dianxin.cn^$third-party
 ||dingge.cc^$third-party
 ||dilingling.com^$third-party
 ||diyiunion.com^$third-party
@@ -1949,7 +1903,6 @@ zhyjms.com##[class^="gg"]
 ||tg.feixue.com^$third-party
 ||flashads.cn^$third-party
 ||flashwing.net^$third-party
-||tervcxs.fot7.info^$third-party
 ||gamecps.com^$third-party
 ||gamediad.com^$third-party
 ||games32.cn^$third-party
@@ -2012,7 +1965,6 @@ zhyjms.com##[class^="gg"]
 ||ok8848.com^$third-party
 ||okzad.com^$third-party
 ||onetad.com^$third-party
-||coc.pagebelt.com^$third-party
 ||pagechoice.net^$third-party
 .pee.cn/$third-party
 ||pixelinteractivemedia.com^$third-party
@@ -2022,22 +1974,17 @@ zhyjms.com##[class^="gg"]
 ||qd.code.qihoo.com^$third-party
 ||qiyou.com^$third-party
 ||qizhao.com^$third-party
-||qling.com^
 ||qq937.com^$third-party
 ||quantui.com^$third-party
 ||author.richi.cc^$third-party
-||rj518.com^$third-party
 ||samboc.com^$third-party
 ||cop.my.sandai.net^$third-party
 ||scupio.com^$third-party
-||c.sfilm.com^$third-party
 ||sharele.cn^$third-party
-||shendu.cc^$third-party
 ||shouyibao.com^$third-party
 ||skycn.org.cn^$third-party
 ||snyu.com^$third-party
 ||soua.com^$third-party
-||js.ssrj.net^$third-party
 ||star8.net^$third-party
 ||ipic.staticsdo.com^$third-party
 ||c.subo.me^$third-party
@@ -2047,13 +1994,11 @@ zhyjms.com##[class^="gg"]
 ||tazhao.com^$third-party
 ||tenoad.com^$third-party
 ||tjj.com^$third-party
-||cs.twcczhu.com^$third-party
 ||twm.com.tw^$third-party
 ||float2006.tq.cn^
 ||js.tjq.com^$third-party
 ||tuigoo.com^$third-party
 ||tuike.cn^$third-party
-||txjy2008.com^$third-party
 ||ubcpm.com^$third-party
 ||uctrac.com^$third-party
 ||ugooo.cc^$third-party
@@ -2069,7 +2014,6 @@ zhyjms.com##[class^="gg"]
 ||unionli.com^$third-party
 ||uucall.com^$third-party
 ||urlad.com.tw^$third-party
-||union.vancl.com^$third-party
 ||v-links.net^$third-party
 ||s.vipcnzz.com^$third-party
 ||vjia.com^$third-party
@@ -2078,8 +2022,6 @@ zhyjms.com##[class^="gg"]
 ||web933.com^$third-party
 ||wy31.com^$third-party
 ||wyunion.com^$third-party
-||v.xi666.com^$third-party
-||uimg.xiaoangel.com^$third-party
 ||xixianad.com^$third-party
 ||xt918.com^$third-party
 ||gouwu.vip.xunlei.com^$third-party
@@ -2087,18 +2029,14 @@ zhyjms.com##[class^="gg"]
 ||yigao.com^$third-party
 ||yiqifa.com^$third-party
 ||yiqiwin.com^$third-party
-||union.youdao.com^$third-party
 ||www.youxitui.net^$third-party
 ||youxjia.com^$third-party
 ||yoyi.com.cn^$third-party
 ||yoyi.tv/$third-party
 ||yoyocm.com^$third-party
 ||yunyu120.com^$third-party
-||uimg.yxcpm.com^$third-party
 ||zhanzhangle.com^$third-party
 ||js.zdy.cc^$third-party
-||union.ziye8.com^$third-party
-||js.zfjiu.com^$third-party
 
 !----------------------------Other (sort by letter)--------
 .cn/ads/
@@ -2125,7 +2063,9 @@ zhyjms.com##[class^="gg"]
 /guanggao^
 /images/prom/*
 /js/acmsd/*
+/js/tan.js
 /u/_sponsor/*
+/union.
 /webafp?
 /paypic/*
 /tanchuang^
@@ -2198,7 +2138,6 @@ zhyjms.com##[class^="gg"]
 ||analytics-union.sandai.net^$third-party
 
 !-----------------------Element Hiding---------------------
-news.2ky.cn##[class^="t_ad"]
 3dmgame.com##.banner_1
 52blackberry.com###focus.focus
 sbsrunningman.5d6d.com###header
