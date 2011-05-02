@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: bRQLbTkdfkE3OdFXxrEVwA
+!  Checksum: TZHeQx//Jf5iGLGjLyoqrg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 02 May 2011 19:17:51 +0800
+!  Last Modified:  Mon, 02 May 2011 19:54:40 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -25,15 +25,15 @@
 ||v.163.com/special/008547FN/gg20091116.xml
 163.com##[class^="gg"]
 163.com###ag-pub
-mail.126.com,mail.163.com##.gWel-gg-2
-mail.126.com,mail.163.com##div.chl>a:last-child
-mail.126.com,mail.163.com##[id$="FakeLetterDiv"]
 www.163.com##[class^="colL gg"]
 ||youdao.com/imp/$script
 www.youdao.com###sp
 www.youdao.com##.sp-h
 !--mail
 ||mimg.126.net/external/public163.js
+mail.126.com,mail.163.com##.gWel-gg-2
+mail.126.com,mail.163.com##div.chl>a:last-child
+mail.126.com,mail.163.com##[id$="FakeLetterDiv"]
 
 !---17173
 @@||flash.17173.com/x/flashhzh700500.js
@@ -225,19 +225,17 @@ chinatimes.com##.ad
 ||images.chinaz.com/$subdocument
 
 !---cnBeta
-||cnbeta.com/*125$image
 ||cnbeta.com/js/google.js
 @@||img.cnbeta.com/newsimg/
 ||img.cnbeta.com^$object
+||img.cnbeta.com/*125$image
 ||img.cnbeta.com/*300$image
 ||img.cnbeta.com/*576$image
 ||img.cnbeta.com/qy950.gif
-||img.cnbeta.com/rk3*.gif
 cnbeta.com###fm_r
 cnbeta.com###userInfo
 cnbeta.com##div.newslist>dl>dd.detail>em
 cnbeta.com###sideBar>div#votes:nth-child(6)
-cnbeta.com###sideBar>div#votes:nth-child(12)
 
 !---中金在线
 ||cnfolimg.com/uploads/$object
@@ -268,9 +266,6 @@ news.cnyes.com,chinayes.com##[class^="ad"]
 ||img.cyzone.cn/ad/
 ||www.cyzone.cn/bian/pic/top_banner.swf
 ||img.cyzone.com.cn/customer/$object
-
-!---喷嚏网
-||pic.dapenti.com/2011/03/29/dapenti_AXawfdyE_Bh7U9.gif
 
 !---大洋网
 ||dayoo.com/sta/da.js
@@ -1423,8 +1418,6 @@ gougoushuji.com###ptcmsad1
 ||pic.hongxiu.com/fox/hx/
 ||hotsk.com/js/asp.js
 ||hotsk.com/js/fy.js
-||huaxiasg.com^*/ads/
-||huaxiaxs.com/skin/default/ads/
 ||hweisk.com/Skin/Default/js/k*.js
 ||ibook8.com/2/
 ||www.jpnovel.com/myjs/
@@ -2038,14 +2031,13 @@ zhyjms.com##[class^="gg"]
 ||js.zdy.cc^$third-party
 
 !----------------------------Other (sort by letter)--------
-.cn/ads/
-.hk/ads/
 .com/js/ad_
-.com/ggao/
 /adfiles/*
 /adflash/*
 /adimage/*
 /adjk.php^
+/adjs/*
+/ads/*
 /adphoto/*
 /adpics/*
 /adpolestar^
@@ -2057,6 +2049,7 @@ zhyjms.com##[class^="gg"]
 .allyes.$~object_subrequest
 /allyes.
 /floatadv.
+/ggao/*
 /guangao/*
 /guangg/*
 /guanggao^
@@ -2071,45 +2064,36 @@ zhyjms.com##[class^="gg"]
 /tuiguang/*
 |http://gg.$subdocument,image,script,object,domain=~pcwaishe.cn|~bbs.vc52.cn
 !---/ad/
-.com/ads/
 .com.cn/ad/
 .com.tw/ad/
 /html/ad/*
 /image/ad/*
 |http://w*/ad/$~object_subrequest,domain=~tp-link.cn
 !---adv
-.cn/adv/
-.com/adv/
-|http://adv.
-/img/adv/*
-/images/adv/*
-/js/adv/*
+/adv.
+/adv/*
 !---/gg/
 /images/gg/*
 .com/gg/
 .com.cn/gg/
 .net/gg/$~stylesheet
 |http://www.*/gg/
-|http://ww*/adjs/
-|http://www*/ggao/
 
 !-----------------------------Privacy----------------------
 !--count
 /counter.$image
 /counts.
 /tongji.js
-!--pv
 !-general filters
 |http://count.$domain=~taobao.com
 |http://pv.
-|http://stat.$script,domain=~ameblo.jp|~sohu.com|~verycd.com|~zcool.com.cn
-|http://track.
+/stat.$script,domain=~ameblo.jp|~sohu.com|~verycd.com|~zcool.com.cn
+/track.
 .com/pv.
 .com/pv/$domain=~proxyvote.com
 /hiido.js
 /ktrace/ktrace$script
 /pv?peerid=
-/stat.js
 /usertrack.
 !-sort by domain
 ||114la.com^$third-party
@@ -2182,10 +2166,9 @@ zaobao.com###myMovie
 
 !-----------------------Temporary---------------------------
 !---2011.5
-||t.douban.com/img/files/$object
 ||douban.com/js/sns/packed_faq$script
-/data/attachment/common/cf/*
-||www.htky365.com/img/jmzs.jpg
+||eoemarket.com/eoe/images/banner/$image
+www.htky365.com/img/jmzs.jpg
 ||livefilestore.com^$domain=bbs.cnscg.com
 ||mooogu.cn/ad/
 ||okjee.com/js/union_api.js
