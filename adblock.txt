@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: TZHeQx//Jf5iGLGjLyoqrg
+!  Checksum: pbJxoXE9UC7VTuZZqgDJpA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 02 May 2011 19:54:40 +0800
+!  Last Modified:  Mon, 02 May 2011 23:28:00 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -128,7 +128,6 @@ appinn.com##.gad
 ||eiv.baidu.com^
 ||hm.baidu.com^
 ||nsclick.baidu.com^
-||sclick.baidu.com/union.gif^
 ||spcode.baidu.com^
 ||unstat.baidu.com^$~subdocument
 ||utk.baidu.com^
@@ -263,7 +262,6 @@ news.cnyes.com,chinayes.com##[class^="ad"]
 ||topic.csdn.net/u/t5/include/
 
 !---cyzone
-||img.cyzone.cn/ad/
 ||www.cyzone.cn/bian/pic/top_banner.swf
 ||img.cyzone.com.cn/customer/$object
 
@@ -290,7 +288,8 @@ dict.cn##.text-gg-bar
 
 !---Discuz! & PHPWind etc.
 /overture_ads.js
-##.ad_footerbanner
+##.archiver_banner
+##[class^="ad_footerbanner"]
 ##.ad_column
 ###ads_c_tpc
 ###ad_headerbanner
@@ -364,8 +363,8 @@ focus.cn##.ad_fp
 free-game.cc,freegame.com.tw##a[href^="http://www.itaiwanmj.com.tw/"]
 
 !---gamer.com.tw
+_460x260_
 /banner/*$domain=gamer.com.tw
-||pic.bahamut.com.tw/js/ad/
 
 !---机锋
 ||down.gfan.com/weite/
@@ -452,7 +451,6 @@ jpseek.com##.i_table[cellpadding="6"]
 
 !---江苏网络电视台
 ||flv.jsbc.com/playerad/
-||image.jsbc.com/v_tvshow/gg/
 ||playerwebservice.jsbc.com/GetPlayCount.aspx
 ||playerwebservice.jsbc.com/getip.aspx
 ||playerwebservice.jsbc.com/flash/PauseAd.xml
@@ -601,7 +599,6 @@ ph66.com##[id*="ad"]
 !---PIXNET
 ||pixanalytics.com^
 ||pixnet.net/blog/addvisit?
-||counter.pixplug.in/count.php^
 ||events.pixnet.net^$subdocument
 ||api.pixnet.tv/count?
 ||referer.pixplug.in^
@@ -761,7 +758,6 @@ img.uu1001.cn^$domain=since1984.cn
 
 !---水母网
 ||a.shm.com.cn/up/loc/
-||bbs.shm.com.cn/bbs_list/ad/
 ||biz.shm.com.cn^$object
 shm.com.cn##.surround
 
@@ -804,7 +800,7 @@ sun0769.com###outer06
 sun0769.com###outer08
 
 !---太和网
-||taihe.net/adv/$~subdocument
+@@||taihe.net/adv/adv_home_new.htm
 ||taihe.net/js/ad.js
 taihe.net##[id^="ad"]
 taihe.net###msg_win
@@ -869,7 +865,6 @@ tv.tudou.com###adex_board
 
 !---udn
 @@||video.udn.com/udnad/videoad.php^
-|http://udn.com^*/ad/
 |http://udn.com^*/bd/
 ||udn.com/adpinline/
 ||udn.com/NEWS/watermark_omo_2010.js
@@ -914,7 +909,6 @@ win7china.com##.commend+[class="hot mt1"]
 
 !---华声在线
 ||voc.com.cn/adsClick/
-||voc.com.cn/js/gg/
 ||hunan.voc.com.cn/Script/ArticleContentAD.js
 ||voc.com.cn/Frame/qqms_cs.html
 bbs.voc.com.cn/s.js
@@ -1105,8 +1099,6 @@ itopdog.cn##[id^="itopdog_ad-"]
 jiaren.org##a[href^="http://pindao.huoban.taobao.com/"]>img
 jiaren.org##a[href^="http://s.click.taobao.com/"]>img
 ||minwt.com/img/ADEvent/
-||blog.soft.idv.tw/csg-ad*.js
-||image.soft.idv.tw/ad/
 ||images.steachs.com/dcview_food.jpg
 ||town.xuite.net/_ad/
 
@@ -1170,7 +1162,6 @@ www.ddooo.com/js/
 ||shooter.cn/adfree/
 ||shooter.cn/a/*adv$script
 ||skycn.com/tuijianimg/
-||smalltool.cn/ad/
 ||soxia.cc^$subdocument
 ||soxia.cc/pop.php^
 ||sz1001.net/Down_Style/$script
@@ -1182,7 +1173,6 @@ down.x6x8.com/good/
 ||xdowns.com/$script
 ||xiazaiba.com/js/
 ||xiazaiba.com/uploadfiles/xert_img/
-||xlpu.cc/adv/
 ||xp500.com/images/mbox-tcn-160-90.gif
 ||xp500.com/images/180-120.gif
 ||free.xue5.com/qq/qq.js
@@ -1482,7 +1472,6 @@ u17.com##.www_hd_middle_ct
 ||xs8.cn/data/iframe/$script
 @@||xsbook.net/js/readtop.js
 ||xsbook.net/js/
-||xxsy.net/js/count.js
 ||images.xxsy.net/sygg/
 ||images.xxsy.net/js/xxsypop.js
 ||read.xxsy.net/js/menu/bottom.js
@@ -1495,14 +1484,12 @@ xxsy.net###msg_win
 ||yunxuange.net/js8/
 ||bbsupload.yydm.com^$object
 ||log.zongheng.com^
-||static.zongheng.com/upload/ad/
 ||static.zongheng.com/v2_0/js/adClickStat.js
 ||static.zongheng.com/v2_0/pic/js/view_c_1.js
 
 !---RSS
 ||feedsky.com/r/i/feedsky/*/art01.gif
 ||image.j-a-net.jp/
-||www.cngadget.cn/ad/
 ||th.ki.ki/files/
 ||my1510.cn/images/rss_ad_new.jpg
 ||xiankankan.com/widgets/focus/
@@ -1544,7 +1531,6 @@ price.52che.com##.if_boxShow02
 ||www.5dmail.net/image/$object
 www.5dmail.net##td[width="145"]
 ||www.71727.com/img/*x
-||8684.cn/gg/$script
 ||99iche.com^$object
 ||bus.aibang.com/js11041614/BizAd.js
 ||arting365.com/advs/
@@ -1739,7 +1725,6 @@ xmnn.cn###fuke
 ||yanqiao.com/yanqiao/
 ||a4.yeshj.com^
 yeshj.com###adv_zone
-||bbs.yoka.com/js/ad/
 ||ytbbs.com/image/$object
 ||zbinfo.net/*zbxxg2009b/ggw/dmtgg/
 ||zhibo8.com/go/
@@ -2045,6 +2030,8 @@ zhyjms.com##[class^="gg"]
 /adservice/*
 /adsimg/*
 /adsunion^
+/adv.
+/adv/*
 /affiliate/*
 .allyes.$~object_subrequest
 /allyes.
@@ -2062,38 +2049,23 @@ zhyjms.com##[class^="gg"]
 /paypic/*
 /tanchuang^
 /tuiguang/*
-|http://gg.$subdocument,image,script,object,domain=~pcwaishe.cn|~bbs.vc52.cn
-!---/ad/
-.com.cn/ad/
-.com.tw/ad/
-/html/ad/*
-/image/ad/*
-|http://w*/ad/$~object_subrequest,domain=~tp-link.cn
-!---adv
-/adv.
-/adv/*
-!---/gg/
-/images/gg/*
-.com/gg/
-.com.cn/gg/
-.net/gg/$~stylesheet
-|http://www.*/gg/
+|http://*/ad/$~object_subrequest,domain=~tp-link.cn
+|http://gg.$~stylesheet,domain=~pcwaishe.cn|~bbs.vc52.cn
+|http://*/gg/$~stylesheet
 
 !-----------------------------Privacy----------------------
-!--count
+/count.$domain=~taobao.com
 /counter.$image
 /counts.
-/tongji.js
-!-general filters
-|http://count.$domain=~taobao.com
-|http://pv.
-/stat.$script,domain=~ameblo.jp|~sohu.com|~verycd.com|~zcool.com.cn
-/track.
-.com/pv.
-.com/pv/$domain=~proxyvote.com
 /hiido.js
+|http://pv.
+|http://*/pv.
+|http://*/pv/$domain=~proxyvote.com
 /ktrace/ktrace$script
 /pv?peerid=
+/stat.$script,domain=~ameblo.jp|~sohu.com|~verycd.com|~zcool.com.cn
+/tongji.js
+/track.
 /usertrack.
 !-sort by domain
 ||114la.com^$third-party
@@ -2170,7 +2142,6 @@ zaobao.com###myMovie
 ||eoemarket.com/eoe/images/banner/$image
 www.htky365.com/img/jmzs.jpg
 ||livefilestore.com^$domain=bbs.cnscg.com
-||mooogu.cn/ad/
 ||okjee.com/js/union_api.js
 ||taobaocdn.com/imgextra/$domain=mooogu.cn
 

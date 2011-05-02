@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: tBiczB3+n4GMAZotdWyx9w
+!  Checksum: HJq5NccbCrvsdNeP4Eqe3Q
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 02 May 2011 19:54:40 +0800
+!  Last Modified:  Mon, 02 May 2011 23:28:01 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -128,7 +128,6 @@ appinn.com##.gad
 ||eiv.baidu.com^
 ||hm.baidu.com^
 ||nsclick.baidu.com^
-||sclick.baidu.com/union.gif^
 ||spcode.baidu.com^
 ||unstat.baidu.com^$~subdocument
 ||utk.baidu.com^
@@ -263,7 +262,6 @@ news.cnyes.com,chinayes.com##[class^="ad"]
 ||topic.csdn.net/u/t5/include/
 
 !---cyzone
-||img.cyzone.cn/ad/
 ||www.cyzone.cn/bian/pic/top_banner.swf
 ||img.cyzone.com.cn/customer/$object
 
@@ -290,7 +288,8 @@ dict.cn##.text-gg-bar
 
 !---Discuz! & PHPWind etc.
 /overture_ads.js
-##.ad_footerbanner
+##.archiver_banner
+##[class^="ad_footerbanner"]
 ##.ad_column
 ###ads_c_tpc
 ###ad_headerbanner
@@ -364,8 +363,8 @@ focus.cn##.ad_fp
 free-game.cc,freegame.com.tw##a[href^="http://www.itaiwanmj.com.tw/"]
 
 !---gamer.com.tw
+_460x260_
 /banner/*$domain=gamer.com.tw
-||pic.bahamut.com.tw/js/ad/
 
 !---机锋
 ||down.gfan.com/weite/
@@ -452,7 +451,6 @@ jpseek.com##.i_table[cellpadding="6"]
 
 !---江苏网络电视台
 ||flv.jsbc.com/playerad/
-||image.jsbc.com/v_tvshow/gg/
 ||playerwebservice.jsbc.com/GetPlayCount.aspx
 ||playerwebservice.jsbc.com/getip.aspx
 ||playerwebservice.jsbc.com/flash/PauseAd.xml
@@ -601,7 +599,6 @@ ph66.com##[id*="ad"]
 !---PIXNET
 ||pixanalytics.com^
 ||pixnet.net/blog/addvisit?
-||counter.pixplug.in/count.php^
 ||events.pixnet.net^$subdocument
 ||api.pixnet.tv/count?
 ||referer.pixplug.in^
@@ -761,7 +758,6 @@ img.uu1001.cn^$domain=since1984.cn
 
 !---水母网
 ||a.shm.com.cn/up/loc/
-||bbs.shm.com.cn/bbs_list/ad/
 ||biz.shm.com.cn^$object
 shm.com.cn##.surround
 
@@ -804,7 +800,7 @@ sun0769.com###outer06
 sun0769.com###outer08
 
 !---太和网
-||taihe.net/adv/$~subdocument
+@@||taihe.net/adv/adv_home_new.htm
 ||taihe.net/js/ad.js
 taihe.net##[id^="ad"]
 taihe.net###msg_win
@@ -869,7 +865,6 @@ tv.tudou.com###adex_board
 
 !---udn
 @@||video.udn.com/udnad/videoad.php^
-|http://udn.com^*/ad/
 |http://udn.com^*/bd/
 ||udn.com/adpinline/
 ||udn.com/NEWS/watermark_omo_2010.js
@@ -914,7 +909,6 @@ win7china.com##.commend+[class="hot mt1"]
 
 !---华声在线
 ||voc.com.cn/adsClick/
-||voc.com.cn/js/gg/
 ||hunan.voc.com.cn/Script/ArticleContentAD.js
 ||voc.com.cn/Frame/qqms_cs.html
 bbs.voc.com.cn/s.js
@@ -1105,8 +1099,6 @@ itopdog.cn##[id^="itopdog_ad-"]
 jiaren.org##a[href^="http://pindao.huoban.taobao.com/"]>img
 jiaren.org##a[href^="http://s.click.taobao.com/"]>img
 ||minwt.com/img/ADEvent/
-||blog.soft.idv.tw/csg-ad*.js
-||image.soft.idv.tw/ad/
 ||images.steachs.com/dcview_food.jpg
 ||town.xuite.net/_ad/
 
@@ -1170,7 +1162,6 @@ www.ddooo.com/js/
 ||shooter.cn/adfree/
 ||shooter.cn/a/*adv$script
 ||skycn.com/tuijianimg/
-||smalltool.cn/ad/
 ||soxia.cc^$subdocument
 ||soxia.cc/pop.php^
 ||sz1001.net/Down_Style/$script
@@ -1182,7 +1173,6 @@ down.x6x8.com/good/
 ||xdowns.com/$script
 ||xiazaiba.com/js/
 ||xiazaiba.com/uploadfiles/xert_img/
-||xlpu.cc/adv/
 ||xp500.com/images/mbox-tcn-160-90.gif
 ||xp500.com/images/180-120.gif
 ||free.xue5.com/qq/qq.js
@@ -1482,7 +1472,6 @@ u17.com##.www_hd_middle_ct
 ||xs8.cn/data/iframe/$script
 @@||xsbook.net/js/readtop.js
 ||xsbook.net/js/
-||xxsy.net/js/count.js
 ||images.xxsy.net/sygg/
 ||images.xxsy.net/js/xxsypop.js
 ||read.xxsy.net/js/menu/bottom.js
@@ -1495,14 +1484,12 @@ xxsy.net###msg_win
 ||yunxuange.net/js8/
 ||bbsupload.yydm.com^$object
 ||log.zongheng.com^
-||static.zongheng.com/upload/ad/
 ||static.zongheng.com/v2_0/js/adClickStat.js
 ||static.zongheng.com/v2_0/pic/js/view_c_1.js
 
 !---RSS
 ||feedsky.com/r/i/feedsky/*/art01.gif
 ||image.j-a-net.jp/
-||www.cngadget.cn/ad/
 ||th.ki.ki/files/
 ||my1510.cn/images/rss_ad_new.jpg
 ||xiankankan.com/widgets/focus/
@@ -1544,7 +1531,6 @@ price.52che.com##.if_boxShow02
 ||www.5dmail.net/image/$object
 www.5dmail.net##td[width="145"]
 ||www.71727.com/img/*x
-||8684.cn/gg/$script
 ||99iche.com^$object
 ||bus.aibang.com/js11041614/BizAd.js
 ||arting365.com/advs/
@@ -1739,7 +1725,6 @@ xmnn.cn###fuke
 ||yanqiao.com/yanqiao/
 ||a4.yeshj.com^
 yeshj.com###adv_zone
-||bbs.yoka.com/js/ad/
 ||ytbbs.com/image/$object
 ||zbinfo.net/*zbxxg2009b/ggw/dmtgg/
 ||zhibo8.com/go/
@@ -2045,6 +2030,8 @@ zhyjms.com##[class^="gg"]
 /adservice/*
 /adsimg/*
 /adsunion^
+/adv.
+/adv/*
 /affiliate/*
 .allyes.$~object_subrequest
 /allyes.
@@ -2062,38 +2049,23 @@ zhyjms.com##[class^="gg"]
 /paypic/*
 /tanchuang^
 /tuiguang/*
-|http://gg.$subdocument,image,script,object,domain=~pcwaishe.cn|~bbs.vc52.cn
-!---/ad/
-.com.cn/ad/
-.com.tw/ad/
-/html/ad/*
-/image/ad/*
-|http://w*/ad/$~object_subrequest,domain=~tp-link.cn
-!---adv
-/adv.
-/adv/*
-!---/gg/
-/images/gg/*
-.com/gg/
-.com.cn/gg/
-.net/gg/$~stylesheet
-|http://www.*/gg/
+|http://*/ad/$~object_subrequest,domain=~tp-link.cn
+|http://gg.$~stylesheet,domain=~pcwaishe.cn|~bbs.vc52.cn
+|http://*/gg/$~stylesheet
 
 !-----------------------------Privacy----------------------
-!--count
+/count.$domain=~taobao.com
 /counter.$image
 /counts.
-/tongji.js
-!-general filters
-|http://count.$domain=~taobao.com
-|http://pv.
-/stat.$script,domain=~ameblo.jp|~sohu.com|~verycd.com|~zcool.com.cn
-/track.
-.com/pv.
-.com/pv/$domain=~proxyvote.com
 /hiido.js
+|http://pv.
+|http://*/pv.
+|http://*/pv/$domain=~proxyvote.com
 /ktrace/ktrace$script
 /pv?peerid=
+/stat.$script,domain=~ameblo.jp|~sohu.com|~verycd.com|~zcool.com.cn
+/tongji.js
+/track.
 /usertrack.
 !-sort by domain
 ||114la.com^$third-party
@@ -2170,7 +2142,6 @@ zaobao.com###myMovie
 ||eoemarket.com/eoe/images/banner/$image
 www.htky365.com/img/jmzs.jpg
 ||livefilestore.com^$domain=bbs.cnscg.com
-||mooogu.cn/ad/
 ||okjee.com/js/union_api.js
 ||taobaocdn.com/imgextra/$domain=mooogu.cn
 
@@ -2182,13 +2153,12 @@ www.htky365.com/img/jmzs.jpg
 ! *** easylist/easylist_general_block.txt ***
 &ad_keyword=
 &ad_type_
-&adid=
 &adname=
 &adspace=
 &adtype=
 &advertiserid=
+&clientype=*&adid=
 &googleadword=
-&popunder=
 &program=revshare&
 &view=ad&
 +adverts/
@@ -2200,7 +2170,6 @@ www.htky365.com/img/jmzs.jpg
 -ad1.jpg
 -ad2.gif
 -ad3.jpg
--adcentre.
 -adhelper.
 -adserver-
 -advert-
@@ -2209,9 +2178,10 @@ www.htky365.com/img/jmzs.jpg
 -banner-ad.
 -banner-ads-
 -banner-ads/
+-banner468x60.
 -bin/ad_
+-content/adsys/
 -contest-ad.
--fe-ads/
 -games/ads/
 -images/ad-
 -inspire-ad.
@@ -2221,7 +2191,6 @@ www.htky365.com/img/jmzs.jpg
 -rebels-ads/
 -text-ads.
 -third-ad.
-.1d/ads/*
 .a3s?n=*&zone_id=
 .ad.footer.
 .ad.page.
@@ -2229,9 +2198,8 @@ www.htky365.com/img/jmzs.jpg
 .adplacement=
 .ads.darla.
 .adsbox.
-.adserv/
+.adserv/*
 .adserver.
-.adserver1.
 .aspx?ad=
 .aspx?zoneid=*&task=
 .au/_ads/
@@ -2249,19 +2217,23 @@ www.htky365.com/img/jmzs.jpg
 .com/ad?
 .com/ad_
 .com/adlib/
+.com/adops/
 .com/ads-
 .com/ads.
 .com/ads/$image,object,subdocument
 .com/ads?
 .com/ads_
-.com/advertising/$object,object-subrequest
+.com/adtag/
+.com/advertising/
 .com/advt/
 .com/adx/
 .com/adz/
 .com/bads/
 .com/gads/
 .com/miads/
+.com/openx/
 .com/ss/ad/
+.com/yin-ad/
 .eu/ads/
 .html?ad=
 .in/ads/
@@ -2272,6 +2244,8 @@ www.htky365.com/img/jmzs.jpg
 .net/_ads/
 .net/ad/$~object-subrequest
 .net/ads/
+.net/ads2/
+.net/ads3/
 .net/ads_
 .nl/ads/
 .no/ads/
@@ -2289,6 +2263,7 @@ www.htky365.com/img/jmzs.jpg
 .swf?1&clicktag=
 .swf?ad=
 .swf?clicktag=
+.to/ad.php|
 .to/ads/
 .tv/ads/
 .tz/ads/
@@ -2296,11 +2271,11 @@ www.htky365.com/img/jmzs.jpg
 .us/ads/
 .za/ads.
 .za/ads/
-/120ad.
-/2010/ads/*
+/*;cue=pre;$object-subrequest
+/120ad.gif
 /2011/ads/*
 /300x250advert.
-/468ad.
+/468ad.gif
 /468xads.
 /?addyn|*
 /?advideo/*
@@ -2344,8 +2319,16 @@ www.htky365.com/img/jmzs.jpg
 /ad.jsp?
 /ad.mason?
 /ad.php?
-/ad.php|
+/ad/ads1/*
+/ad/ads10/*
+/ad/ads11/*
+/ad/ads3/*
+/ad/ads4/*
+/ad/ads5/*
+/ad/ads6/*
+/ad/ads8/*
 /ad/files/*
+/ad/getads|
 /ad/google/*
 /ad/iframe/*
 /ad/img/*
@@ -2355,8 +2338,7 @@ www.htky365.com/img/jmzs.jpg
 /ad/sponsored-
 /ad/takeover/*
 /ad1.html
-/ad125.
-/ad160.
+/ad160.php
 /ad160x600.
 /ad1place.
 /ad1x1home.
@@ -2364,13 +2346,14 @@ www.htky365.com/img/jmzs.jpg
 /ad2.html
 /ad2.php
 /ad2border.
-/ad300.
+/ad300.htm
 /ad300x145.
-/ad350.
+/ad350.html
 /ad4.gif
-/ad728.
+/ad728.php
 /ad728x15.
 /ad?count=
+/ad_adify.
 /ad_agency/*
 /ad_area.
 /ad_banner.
@@ -2388,7 +2371,7 @@ www.htky365.com/img/jmzs.jpg
 /ad_editorials_
 /ad_engine?
 /ad_entry_
-/ad_feed.
+/ad_feed.js?
 /ad_files/*
 /ad_footer.
 /ad_forum_
@@ -2458,10 +2441,11 @@ www.htky365.com/img/jmzs.jpg
 /adbanners/*
 /adbar.aspx
 /adbg.jpg
-/adbot_
+/adbot_promos/*
 /adbottom.
-/adbox.
-/adbox/*
+/adbox.gif
+/adbox.js
+/adbox.php
 /adboxes/*
 /adbrite.
 /adbureau.
@@ -2530,7 +2514,7 @@ www.htky365.com/img/jmzs.jpg
 /adheadertxt.
 /adhomepage.
 /adhtml/*
-/adhug_
+/adhug_jc.
 /adiframe.
 /adiframe/*
 /adiframe?
@@ -2542,14 +2526,13 @@ www.htky365.com/img/jmzs.jpg
 /adimage.
 /adimages.
 /adimages/*$~subdocument
-/adimg.
 /adindex/*
 /adinjector.
 /adinsert.
 /adinsertionplugin.
 /adinterax.
 /adition.
-/adjs.php
+/adjs.php?
 /adjsmp.
 /adlabel.
 /adlabel_
@@ -2564,8 +2547,9 @@ www.htky365.com/img/jmzs.jpg
 /adlist_
 /adloader.
 /adm/ad/*
-/adman.
-/adman/*
+/adman.js
+/adman/image/*
+/adman/www/*
 /admanagement/*
 /admanagementadvanced.
 /admanager.$~object-subrequest
@@ -2582,12 +2566,10 @@ www.htky365.com/img/jmzs.jpg
 /admega.
 /admeld.
 /admentor/*
-/admeta.
 /admicro2.
 /admicro_
 /admin/ad_
 /adminibanner2.
-/adnet.
 /adnetmedia.
 /adnetwork.
 /adnews.
@@ -2595,7 +2577,6 @@ www.htky365.com/img/jmzs.jpg
 /adng.html
 /adnotice.
 /adonline.
-/adops/*
 /adotubeplugin.
 /adp.htm
 /adpage.
@@ -2623,7 +2604,7 @@ www.htky365.com/img/jmzs.jpg
 /adrolays.
 /adroller.
 /adroot/*
-/adrot.
+/adrot.js
 /adrotator.
 /adrotator/*
 /adrotv2.
@@ -2667,6 +2648,7 @@ www.htky365.com/img/jmzs.jpg
 /ads/labels/*
 /ads/layer.
 /ads/leaderboard_
+/ads/openx/*
 /ads/post-
 /ads/preloader/*
 /ads/preroll_
@@ -2676,33 +2658,16 @@ www.htky365.com/img/jmzs.jpg
 /ads/side-
 /ads/sponsor_
 /ads/square-
-/ads/third-
+/ads/third-party/*
 /ads/top-
 /ads/video_
-/ads0.
 /ads09a/*
-/ads1.
-/ads1/*
-/ads10/*
-/ads11/*
-/ads18.
-/ads2.
-/ads2/*
-/ads2_
-/ads3.
-/ads3/*
-/ads4.
-/ads4/*
-/ads5.
-/ads5/*
-/ads6.
-/ads6/*
-/ads7.
-/ads7/*
-/ads8.
-/ads8/*
-/ads9.
-/ads9/*
+/ads2.html
+/ads2.php
+/ads2_2.
+/ads2_header.
+/ads3.js
+/ads9.dll
 /ads?id=
 /ads?key=
 /ads_160_
@@ -2712,6 +2677,7 @@ www.htky365.com/img/jmzs.jpg
 /ads_global.
 /ads_google.
 /ads_iframe.
+/ads_openx/*
 /ads_php/*
 /ads_reporting/*
 /ads_yahoo.
@@ -2752,20 +2718,13 @@ www.htky365.com/img/jmzs.jpg
 /adsensegoogle.
 /adsensets.
 /adserv.
-/adserv/*
-/adserv1.
 /adserv2.
-/adserv3.
-/adserv_
 /adserve.
 /adserve/*
-/adserve_
 /adserver.
 /adserver/*
-/adserver1.
 /adserver2.
 /adserver2/*
-/adserver3.
 /adserver7/*
 /adserver8strip.
 /adserver?
@@ -2775,7 +2734,6 @@ www.htky365.com/img/jmzs.jpg
 /adservice|
 /adserving.
 /adserving/*
-/adserving_
 /adserv|*|adtech;
 /adsetup.
 /adsfac.
@@ -2784,7 +2742,6 @@ www.htky365.com/img/jmzs.jpg
 /adsfolder/*
 /adsframe.
 /adshandler.
-/adshare3.
 /adsheader.
 /adshow.
 /adshow?
@@ -2794,7 +2751,7 @@ www.htky365.com/img/jmzs.jpg
 /adsimage/*
 /adsinclude.
 /adsinsert.
-/adsky.
+/adsky.php
 /adskyright.
 /adskyscraper.
 /adslots.
@@ -2814,14 +2771,12 @@ www.htky365.com/img/jmzs.jpg
 /adspro/*
 /adsquare.
 /adsquareleft.
-/adsrc.
 /adsremote.
 /adsreporting/*
 /adsrich.
 /adsright.
 /adsrotate.
 /adsrule.
-/adsrv.
 /adsserv.
 /adssrv.
 /adstatic.
@@ -2832,7 +2787,6 @@ www.htky365.com/img/jmzs.jpg
 /adstream_
 /adstub.
 /adstubs/*
-/adsvr.
 /adswap.
 /adswap/*
 /adswide.
@@ -2843,12 +2797,11 @@ www.htky365.com/img/jmzs.jpg
 /adsync/*
 /adsyndication.
 /adsyndication/*
-/adsys.
-/adsys/*
+/adsys/ads.
 /adsystem/*
 /adtable_
-/adtag.
-/adtag/*
+/adtag.gif
+/adtag/type/*
 /adtago.
 /adtags.
 /adtags/*
@@ -2865,7 +2818,8 @@ www.htky365.com/img/jmzs.jpg
 /adtitle.
 /adtology.
 /adtonomy.
-/adtop.
+/adtop.do
+/adtop.js
 /adtrack/*
 /adtraff.
 /adttext.
@@ -2874,7 +2828,6 @@ www.htky365.com/img/jmzs.jpg
 /adunit.
 /adunits/*
 /adv/ads/*
-/adver.
 /adverserve.
 /advert-$~stylesheet
 /advert.$domain=~kp.ru
@@ -2944,7 +2897,7 @@ www.htky365.com/img/jmzs.jpg
 /afcsearchads.
 /aff/images/*
 /aff_frame.
-/affad?
+/affad?q=
 /affads/*
 /affclick/*
 /affilatebanner.
@@ -2961,10 +2914,11 @@ www.htky365.com/img/jmzs.jpg
 /affiliateimages/*
 /affiliatelinks.
 /affiliates.*.aspx?
+/affiliates/banner
 /affiliatewiz/*
 /affiliation/*
 /affiliationcash.
-/affilinet/*
+/affilinet/ads/*
 /affimages/*
 /afimages.
 /afr.php?
@@ -2983,7 +2937,7 @@ www.htky365.com/img/jmzs.jpg
 /austria_ad.
 /auto_ad_
 /back-ad.
-/ban_ad.
+/ban_ad.jpg
 /ban_m.php?
 /banimpress.
 /banman.asp?
@@ -3001,10 +2955,11 @@ www.htky365.com/img/jmzs.jpg
 /banner_ads/*
 /banner_ads_
 /banner_adv/*
+/banner_advert/*
 /banner_control.php?
 /banner_db.php?
 /banner_file.php?
-/banner_image.php?
+/banner_image.php?*&bannerxid=
 /banner_js.*?
 /banner_management/*
 /banner_skyscraper.
@@ -3032,7 +2987,8 @@ www.htky365.com/img/jmzs.jpg
 /banners/promo/*
 /banners_rotation.
 /bannerscript/*
-/bannerserve/*
+/bannerserve/*.php?user_id=$script
+/bannerserve/wzforum.php?$script
 /bannerserver/*
 /bannersyndication.
 /bannerview.*?
@@ -3047,7 +3003,7 @@ www.htky365.com/img/jmzs.jpg
 /bg/ads/*
 /bg_ads_
 /bi_affiliate.js
-/bigad.
+/bigad.p
 /bigads/*
 /bigboxad.
 /bkgrndads/*
@@ -3066,16 +3022,16 @@ www.htky365.com/img/jmzs.jpg
 /bottomad.
 /bottomad/*
 /bottomads.
-/boxad_
 /breakad_
 /btn_ad_
 /bucketads.
 /butler.php?type=
 /buttonads.
 /buttonads/*
-/buyad.
+/buyad.html
 /buyclicks/*
 /buysellads.
+/bw_adsys.
 /bytemark_ad.
 /call/pubif/*
 /campus/ads/*
@@ -3088,9 +3044,12 @@ www.htky365.com/img/jmzs.jpg
 /chinaadclient.
 /chitika-ad?
 /circads.
+/client_adlog.
 /cms/ads/*
 /cms/js/ad_
+/cn-fe-ads/*
 /cnnslads.
+/cnwk.1d/ads/*
 /cnxad-
 /coldseal_ad.
 /columnads/*
@@ -3154,7 +3113,7 @@ www.htky365.com/img/jmzs.jpg
 /dne_ad.
 /dnsads.html?
 /doors/ads/*
-/doubleclick.php
+/doubleclick.phpi?
 /doubleclick/iframe.
 /doubleclick_ads.
 /doubleclick_ads/*
@@ -3197,6 +3156,7 @@ www.htky365.com/img/jmzs.jpg
 /featuredadshome.
 /file/ad.
 /files/ad/*
+/files/adman/*
 /files/ads/*
 /fimserve.
 /flash/ad_
@@ -3230,13 +3190,15 @@ www.htky365.com/img/jmzs.jpg
 /geo-ads_
 /geo/ads.
 /get-ad.
-/getad.
-/getad?
+/getad.aspx
+/getad.js
+/getad.php?
+/getad.php|
+/getad?n=
 /getadframe.
 /getads.
 /getads/*
 /getads?
-/getads|
 /getadvertimageservlet?
 /getarticleadvertimageservlet?
 /getbanner.cfm?
@@ -3325,6 +3287,7 @@ www.htky365.com/img/jmzs.jpg
 /images/ad.
 /images/ad/*
 /images/ad1.
+/images/ad125.
 /images/ad2.
 /images/ad4.
 /images/ad5.
@@ -3337,19 +3300,22 @@ www.htky365.com/img/jmzs.jpg
 /images/gads_
 /images/sponsored/*
 /images_ads/*
+/images_jtads/*
 /img/ad-
 /img/ad/*
 /img/ad2/*
 /img/ad_
 /img/ads/*
+/img/topad_
 /imgads/*
 /imgs/ads/*
 /inad.js
 /inad.php
 /inc/ads/*
 /inc_v2/ad_
-/include/ad/*
 /include/ads/*
+/include/boxad_
+/include/skyad_
 /included_ads/*
 /includes/ad_
 /includes/ads/*
@@ -3382,6 +3348,7 @@ www.htky365.com/img/jmzs.jpg
 /js/ads-
 /js/ads.
 /js/ads/*
+/js/ads2.
 /js/ads_
 /jsadscripts/*
 /jsfiles/ads/*
@@ -3410,7 +3377,6 @@ www.htky365.com/img/jmzs.jpg
 /linkedads/*
 /links_sponsored_
 /linkshare/*
-/live_ad.
 /liveads.
 /loadad.aspx?
 /loadadwiz.
@@ -3439,6 +3405,7 @@ www.htky365.com/img/jmzs.jpg
 /mnetorfad.js
 /mobile_ad.
 /mobilephonesad/*
+/mod/adman/*
 /mod_ad/*
 /modalad.
 /modules/ad/*
@@ -3481,9 +3448,8 @@ www.htky365.com/img/jmzs.jpg
 /openads.
 /openads/*
 /openads2/*
-/openx.
-/openx/*
-/openx_
+/openx/www/*
+/openx_fl.
 /other/ads/*
 /overlay_ad_
 /ovt_show.asp?
@@ -3498,11 +3464,11 @@ www.htky365.com/img/jmzs.jpg
 /pagepeel-
 /pagepeel.
 /pagepeel/*
-/pagepeel_
+/pagepeel_banner/*
 /pagepeelads.
 /paidads/*
 /paidlisting/*
-/partner_ads_
+/partner_ads_gallery/*
 /partnerads/*
 /partnerads_
 /partnerbanner.
@@ -3539,7 +3505,7 @@ www.htky365.com/img/jmzs.jpg
 /popads/*
 /popunder.
 /popunder2.
-/popunder_
+/popunder_ads/*
 /position=*/aamsz=
 /post_ads_
 /ppd_ads.
@@ -3547,7 +3513,6 @@ www.htky365.com/img/jmzs.jpg
 /premierebtnad/*
 /premium_ad.
 /premiumads/*
-/prerollads.
 /previews/ad/*
 /printad.
 /printad/*
@@ -3608,7 +3573,9 @@ www.htky365.com/img/jmzs.jpg
 /rotateads.
 /rotatingpeels.js
 /rsads.js
-/rsads/*
+/rsads/c
+/rsads/r
+/rsads/u
 /rss/ads/*
 /rswebsiteads/*
 /salesad/*
@@ -3665,8 +3632,8 @@ www.htky365.com/img/jmzs.jpg
 /siteads/*
 /siteafs.txt?
 /sites/ad_
-/skyad.
-/skyad_
+/skyad.h
+/skyad.php
 /skyadjs/*
 /skybannerview.
 /skybar_ad.
@@ -3765,10 +3732,10 @@ www.htky365.com/img/jmzs.jpg
 /top_ad_
 /top_ads/*
 /top_ads_
-/topad.
-/topad_
+/topad.h
+/topad.jpg
+/topad.php
 /topads.
-/topads|
 /topleftads.
 /topperad.
 /tracked_ad.
@@ -3780,7 +3747,6 @@ www.htky365.com/img/jmzs.jpg
 /twgetad3.
 /tx_macinabanners/*
 /txt_ad.
-/u-ads.
 /u/ads/*
 /ukc-ad.
 /unibluead.
@@ -3788,6 +3754,7 @@ www.htky365.com/img/jmzs.jpg
 /update_ads/*
 /upload/ads/*
 /uploads/ads/*
+/us-adcentre.
 /userad/*
 /valueclick.
 /vclkads.
@@ -3804,7 +3771,7 @@ www.htky365.com/img/jmzs.jpg
 /view/banner/*/zone?zid=
 /vtextads.
 /wallpaperads/*
-/webad?
+/webad?a
 /webadimg/*
 /webads.
 /webads_
@@ -3825,34 +3792,28 @@ www.htky365.com/img/jmzs.jpg
 /xmladparser.
 /yahoo-ads/*
 /yahooads.
-/yin-ad/*
 /your-ad.
 /youradhere468-
 /ysmads.
 /zanox.js
 /zanox/banner/*
 /zanox_ad/*
-://a.ads.
-://ad0.
-://ad1.
-://ad2.$domain=~ad2.zophar.net
-://ad3.
-://ad4.
-://ad5.
-://ad6.
-://ad7.
-://ads.$domain=~ads.su|~ahds.ac.uk
+2010/ads/
+8080/ads/
+://adbox.
+://adimg.
+://adnet.
+://adseu.
+://adsrv.
+://adsvr.
+://adsys.
+://adtag.
+://adver.
 ://banners.$third-party
-://bwp.*/search
-://feeds.*/~a/
-://oas.*@
+://prerollads.
 ://pubad.
-://rss.*/~a/
 ://synad.
-://wrapper.*/a?
-:8080/ads/
 ;adsense_
-;cue=pre;$object-subrequest
 ;iframeid=ad_
 =ad_iframe&
 =adtech_
@@ -3870,10 +3831,8 @@ www.htky365.com/img/jmzs.jpg
 ?adsite=
 ?adsize=
 ?adslot=
-?adtarget=
 ?adtechplacementid=
 ?adtype=
-?advertiser=
 ?advertising=
 ?advtile=
 ?advurl=
@@ -3881,9 +3840,11 @@ www.htky365.com/img/jmzs.jpg
 ?file=ads&
 ?getad=&$~object-subrequest
 ?goto=ad|
-?service=ad&
 ?type=ad&
 ?view=ad&
+^adtarget=
+^advertiser=
+^popunder^
 _160_ad_
 _acorn_ad_
 _ad.php?
@@ -3916,24 +3877,18 @@ _ad_widesky.
 _adagency/
 _adbanner.
 _adbanner_
-_adbg1a.
-_adbg2.
-_adbg2a.
 _adbreak.
 _adcall_
 _adengine_
 _adfunction.
-_adify.
-_adlog.
 _adpage=
 _adpartner.
 _adplugin.
-_adrow-
 _ads.html
 _ads.php?
 _ads/files/
 _ads/script.
-_ads1.
+_ads1.asp
 _ads?pid=
 _ads_index_
 _ads_reporting.
@@ -3941,15 +3896,13 @@ _ads_single_
 _adserve/
 _adshare.
 _adshow.
-_adsjs.
-_adsrv?
-_adsys.
+_adsjs.php?
+_adsrv^
+_adsys.js
 _adtech_
 _adtext_
 _adtitle.
-_adtop.
 _advert.
-_advert/
 _advert1.
 _advert_
 _advertise.
@@ -3986,20 +3939,24 @@ _dynamicads/
 _engine_ads_
 _externalad.
 _fach_ad.
+_fd_adbg1a.
+_fd_adbg2.
+_fd_adbg2a.
+_fd_adtop.
 _feast_ad.
 _gads_bottom.
 _gads_footer.
 _gads_top.
 _get_ads?
 _headerad.
+_home_adrow-
 _images/ads/
+_inc/adsrc.
 _index_ad.
-_jtads/
 _link_ads-
 _mainad.
-_media/ads/
+_media/ads/*
 _mmsadbanner/
-_openx/
 _org_ad.
 _overlay_ad.
 _paidadvert_
@@ -4017,11 +3974,48 @@ _temp/ad_
 _theme/ads/
 _top_ad.
 _top_ad_
-_topad.
+_topad.php
 _tribalfusion.
 _videoad.
-_webad.
+_webad.gif
+couk/ads/
+m/adbox/
+m/topads|
+|http://a.ads.
+|http://ad-uk.
 |http://ad.$~object-subrequest,domain=~europa.eu|~gogopin.com|~sjsu.edu|~uitm.edu.my|~uni-freiburg.de|~vfb.de
+|http://ad0.
+|http://ad1.
+|http://ad2.$domain=~ad2.zophar.net
+|http://ad3.
+|http://ad4.
+|http://ad5.
+|http://ad6.
+|http://ad7.
+|http://adman.
+|http://ads.$domain=~ads.su|~ahds.ac.uk
+|http://ads0.
+|http://ads1.
+|http://ads18.
+|http://ads2.
+|http://ads3.
+|http://ads4.
+|http://ads5.
+|http://ads6.
+|http://adserv
+|http://adshare3.
+|http://bwp.*/search
+|http://feeds.*/~a/
+|http://getad.
+|http://jazad.
+|http://oas.*@
+|http://onad.
+|http://openx.
+|http://rss.*/~a/
+|http://u-ads.
+|http://wrapper.*/a?
+|https://ads.
+||adserver1.
 ! Dimensions
 -120x60-
 -120x60.
@@ -4048,7 +4042,6 @@ _webad.
 -728x90.
 -728x90/
 -728x90_
--banner468x60.
 .468x60-
 .468x60.
 .468x60/
@@ -4104,11 +4097,9 @@ _webad.
 /728x90top.
 /768x90-
 /768x90.
-/bottom728.html
 /bottom728x90.
-/top468.html
-/top728.html
 /top728x90.
+_120_600
 _120x60.
 _120x600.
 _120x600_
@@ -4324,7 +4315,6 @@ _768x90_
 ###XEadSkyscraper
 ###YahooAdParentContainer
 ###_ads
-###abHeaderAdStreamer
 ###about_adsbottom
 ###abovepostads
 ###ad-120x600-sidebar
@@ -5744,7 +5734,6 @@ _768x90_
 ###qm-ad-big-box
 ###qm-ad-sky
 ###qm-dvdad
-###quigo_ad
 ###r1SoftAd
 ###rail_ad1
 ###rail_ad2
@@ -5870,7 +5859,6 @@ _768x90_
 ###sideline-ad
 ###single-mpu
 ###singlead
-###site-ad-container
 ###site-leaderboard-ads
 ###site_top_ad
 ###sitead
@@ -6328,7 +6316,6 @@ _768x90_
 ##.ad-btn-heading
 ~assetbar.com##.ad-button
 ##.ad-cell
-##.ad-column
 ~arbetsformedlingen.se##.ad-container
 ##.ad-container-300x250
 ##.ad-container-728x90
@@ -7652,8 +7639,6 @@ _768x90_
 ##.jimdoAdDisclaimer
 ##.jp-advertisment-promotional
 ##.js-advert
-##.kdads-empty
-##.kdads-link
 ##.kw_advert
 ##.kw_advert_pair
 ##.l_ad_sub
@@ -8587,7 +8572,6 @@ _768x90_
 ||assoc-amazon.co.uk^$third-party
 ||assoc-amazon.com^$third-party
 ||atdmt.com^$third-party
-||atemda.com^$third-party
 ||atmalinks.com^$third-party
 ||atwola.com^$third-party
 ||audienceprofiler.com^$third-party
@@ -9006,7 +8990,6 @@ _768x90_
 ||offerserve.com^$third-party
 ||omg2.com^$third-party
 ||omguk.com^$third-party
-||onad.eu^$third-party
 ||onads.com^$third-party
 ||onenetworkdirect.com^$third-party
 ||onenetworkdirect.net^$third-party
@@ -9178,7 +9161,6 @@ _768x90_
 ||targetnet.com^$third-party
 ||targetpoint.com^$third-party
 ||targetspot.com^$third-party
-||telemetryverification.net^$~object-subrequest,third-party
 ||teracent.net^$third-party
 ||testnet.nl^$third-party
 ||text-link-ads.com^$third-party
@@ -9791,7 +9773,10 @@ _768x90_
 ||iadc.qwapi.com^
 !-----------------Specific advert blocking filters-----------------!
 ! *** easylist/easylist_specific_block.txt ***
+/bottom728.html$domain=thepiratebay.org
 /left.html$domain=thepiratebay.org
+/top468.html$domain=thepiratebay.org
+/top728.html$domain=thepiratebay.org
 |http://$subdocument,third-party,domain=adf.ly
 |http://$subdocument,third-party,domain=u.bb
 ||1057theoasis.com/addrotate_content.php?
@@ -9835,7 +9820,6 @@ _768x90_
 ||affiliatesynergy.com^*/banner_
 ||afloat.ie^*/banners/
 ||africaonline.com.na^*/banners/
-||ajnad.aljazeera.net^
 ||akinator.com/publicite_
 ||akipress.com/_ban/
 ||akipress.org/ban/
@@ -10591,7 +10575,6 @@ _768x90_
 ||serials.ws^*/logo.gif
 ||serialzz.us/ad.js
 ||sfbaytimes.com/img-cont/banners
-||shanghaidaily.com/include/bettertraffic.asp
 ||share-links.biz^*/hs.gif
 ||sharebeast.com^*/remove_ads.gif
 ||sharetera.com/images/icon_download.png
@@ -10770,7 +10753,6 @@ _768x90_
 ||wowhead.com/uploads/skins/$image
 ||wowwiki.com/__varnish_
 ||wpdaddy.com^*/banners/
-||wrc.com/img/sponsors-
 ||wrc.com/swf/homeclock_edox_hori.swf
 ||wunderground.com/geo/swfad/
 ||wunderground.com^*/wuss_300ad2.php?
@@ -11375,7 +11357,6 @@ daniweb.com###textsponsor
 daparto.de###leaderboard
 daringfireball.net###SidebarTheDeck
 darkhorizons.com###content-island
-dashhacks.com###banner
 dataopedia.com##.container_banner
 datpiff.com###leaderboard
 dawn.com##div[style="float:left;background-color:#e9e8e8;clear:both;height:auto;border-top:4px solid #333;"]
@@ -12066,7 +12047,6 @@ inquirer.net##.padtopbot5
 inquirer.net##table[width="780"][height="90"]
 inquisitr.com###topx2
 insanelymac.com##.ad
-insidefacebook.com##a[href="/advertise"]
 insidetoronto.com##.td-SideWrapperBigBox
 instapaper.com###deckpromo
 intelligencer.ca###banZone
@@ -13850,7 +13830,6 @@ wpbt2.org##.home_banners
 wpdaddy.com###block1
 wphostingdiscount.com##.ad
 wptv.com##.module.horizontal
-wrc.com###sponsorsbtm
 wsbtv.com###leaderboard-sticky
 wsbtv.com###middleLeaderBoard
 wsj.com##.spn_links_box
@@ -16218,7 +16197,6 @@ _cedexis.php
 ||grabnetworks.com/beacons/
 ||gscounters.gigya.com^
 ||haymarket.com/injector/deliver/
-||hits.dealer.com^
 ||hits.informer.com^
 ||hits.top.lv^
 ||hop.clickbank.net^
@@ -16306,7 +16284,6 @@ _cedexis.php
 ||r.msn.com^
 ||radiocompanion.com/count.php?
 ||realplayer.com^*/pixel?
-||reverbnation.com/widgets/trk/
 ||rhapsody.com^*/pixel?
 ||roitrack.addlvr.com^
 ||royalecms.com/statistics.php?
@@ -16930,9 +16907,6 @@ _cedexis.php
 ||independent.co.uk^*/newsophus/
 ||indiatimes.com/trackjs.
 ||indiatimes.com/trackjs_
-||infiniti-me.com/js/tagging/tagtrack.js
-||infiniti.co.uk/js/tagging/tagtrack.js
-||infinitieurope.com/js/tagging/tagtrack.js
 ||inquiries.redhat.com^
 ||insideline.com^*/edw1x1.gif
 ||instaforex.com/click_stat/
@@ -17386,9 +17360,6 @@ _cedexis.php
 ||horizont.net/stats/
 ||hse24.de^*/etracker.js
 ||indeed.de/rpc/log?
-||infiniti.at/js/tagging/tagtrack.js
-||infiniti.ch/js/tagging/tagtrack.js
-||infiniti.de/js/tagging/tagtrack.js
 ||ivwextern.prosieben.de^
 ||jobanova.de/stats.php?
 ||k-files.de/screen.js
@@ -17507,8 +17478,6 @@ _cedexis.php
 ||arte.tv/includes/xiti/
 ||e.pagesjaunes.fr^
 ||gstat.orange.fr^
-||infiniti.be/js/tagging/tagtrack.js
-||infiniti.fr/js/tagging/tagtrack.js
 ||nouvelobs.com/scripts/stats.php?
 ||nouvelobs.com/trafiz-
 ||orange.fr/track?
@@ -17537,7 +17506,6 @@ _cedexis.php
 ! Czech
 ||blesk.cz/js/tracker.js
 ! Dutch
-||infiniti-cars.nl/js/tagging/tagtrack.js
 ||marktplaats.nl/add_counter_image.
 ||webstatistieken.xs4all.nl^
 ! Finnish
@@ -17592,7 +17560,6 @@ _cedexis.php
 ! Persian
 ||irib.ir/count.php?
 ! Polish
-||infiniticars.pl/js/tagging/tagtrack.js
 ||kropka.onet.pl^
 ||nasza-klasa.pl^*/pp_gemius
 ||stats.teledyski.info^
@@ -17601,13 +17568,7 @@ _cedexis.php
 ||sl.pt/wa.gif?
 ||uv.terra.com.br^
 ! Russian
-||ad7.bigmir.net^
-||count.rbc.ru^
-||infiniti.ru/js/tagging/tagtrack.js
-||list.ru/counter?
-||mail.ru/counter?
 ||rutube.ru/img/playerstats.gif?
-||stat.lenta.ru^
 ! Slovene
 ||24ur.com/bin/usrtrck-new.php?
 ! Spanish
@@ -17618,7 +17579,6 @@ _cedexis.php
 ||anapixel.telva.com^
 ||estadisticas.lanacion.com.ar^
 ||estadonline.publiguias.cl^
-||infiniti.es/js/tagging/tagtrack.js
 ||mercadolibre.com.ar/jm/ml.track.me?
 ||pixelcounter.aprendeingles.com^
 ||pixelcounter.elmundo.es^
@@ -17634,6 +17594,12 @@ _cedexis.php
 ! Swedish
 ||blocket.se/js/trafikfonden.js
 ||prisjakt.nu/js.php?p=trafikfonden
+! Russian
+||ad7.bigmir.net^
+||count.rbc.ru^
+||list.ru/counter?
+||mail.ru/counter?
+||stat.lenta.ru^
 ! Ukrainian
 ||piccy.info/c?
 ||piccy.org.ua/c?
