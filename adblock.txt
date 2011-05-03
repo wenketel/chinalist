@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: mnQnZTFXn1J+xhBozrGV4w
+!  Checksum: uiIuwjEKHlyWZMvUMTFZnw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 03 May 2011 08:20:08 +0800
+!  Last Modified:  Tue, 03 May 2011 16:36:01 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -597,9 +597,10 @@ ph66.com##[id*="ad"]
 
 !---PIXNET
 ||pixanalytics.com^
-||pixnet.net/blog/addvisit?
+||pixnet.net/blog/addvisit^
 ||events.pixnet.net^$subdocument
-||api.pixnet.tv/count?
+||api.pixnet.tv/count^
+@@||counter.pixplug.in/getcounter.php^$script
 ||referer.pixplug.in^
 pixnet.net##.ad
 
@@ -2054,7 +2055,7 @@ zhyjms.com##[class^="gg"]
 
 !-----------------------------Privacy----------------------
 /count.$domain=~taobao.com
-/counter.$image
+/counter.
 /counts.
 /hiido.js
 |http://pv.
