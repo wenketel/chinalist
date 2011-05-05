@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: utJg681FuT4WcRjEtsWtbw
+!  Checksum: I9Wahwo+8Ka5GWNKp3RL8w
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 06 May 2011 05:04:32 +0800
+!  Last Modified:  Fri, 06 May 2011 07:00:24 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -596,10 +596,11 @@ ph66.com##[id*="ad"]
 
 !---PIXNET
 ||pixanalytics.com^
-||pixnet.net/blog/addvisit^
+/blog/addvisit^
 ||events.pixnet.net^$subdocument
 ||api.pixnet.tv/count^
 @@||counter.pixplug.in/getcounter.php^$script
+||error.pixplug.in^
 ||referer.pixplug.in^
 pixnet.net##.ad
 
@@ -2224,7 +2225,7 @@ zaobao.com###myMovie
 -rebels-ads/
 -text-ads.
 -third-ad.
-.1d/ads/*
+.1d/ads/
 .a3s?n=*&zone_id=
 .ad.footer.
 .ad.page.
@@ -8942,6 +8943,7 @@ _768x90_
 ||justrelevant.com^$third-party
 ||kalooga.com^$third-party
 ||kanoodle.com^$third-party
+||kantarmedia.com^$third-party
 ||keewurd.com^$third-party
 ||kehalim.com^$third-party
 ||kerg.net^$third-party
@@ -15015,21 +15017,21 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 /xtroi.js
 /yalst/pixel*.php?
 /zag.gif?
+://c.*/c.gif?
+://gdyn.*/1.gif?
+://mint.*/?js
+://timeslog.
+://wzeu.*/i/i.gif?
+://wzus1.*/i/i.gif?
 ?_siteid=
 ?stwc_cz=
 ?wpgb_public_action=*&referrer=
 ^name=atatracker^
 _cedexis.php
-|http://c.*/c.gif?
-|http://gdyn.*/1.gif?
-|http://mint.*/?js
-|http://timeslog.
-|http://wzeu.*/i/i.gif?
-|http://wzus1.*/i/i.gif?
 ! Russian rating sites
 /img.php?id=*&page=
-|http://top.*/count/cnt.php?
-|http://top.*/hit/
+://top.*/count/cnt.php?
+://top.*/hit/
 !-----------------Third-party tracking domains-----------------!
 ! *** easyprivacy/easyprivacy_trackingservers.txt ***
 ||103bees.com^$third-party
@@ -16246,6 +16248,7 @@ _cedexis.php
 ||bumpin.com^*/analytics.html
 ||buzzbox.buzzfeed.com^
 ||c.compete.com^
+||c.homestore.com^
 ||centerix.ru^*/count.msl?
 ||cgicounter.oneandone.co.uk^
 ||cgicounter.puretec.de^
