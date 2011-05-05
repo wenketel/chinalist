@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: Tfv8ic9hRQOsfx/W3r6IZg
+!  Checksum: I3KeJo8XBW5M3mZHR7KMFQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 05 May 2011 07:10:28 +0800
+!  Last Modified:  Fri, 06 May 2011 04:52:50 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -998,7 +998,6 @@ tw.yahoo.com###ticker
 ||yimg.com/no/$domain=~yahoo.com
 ||yimg.com^*/300x115.
 ||l.yimg.com/d/lib/bc/bcr_2.0.5.js
-||l.yimg.com/f/i/tw/news/news_banner/
 ||l.yimg.com/pq/
 ||l.yimg.com^*/a/tw/$~stylesheet
 ||l.yimg.com^*/tw/ysm/
@@ -3245,6 +3244,7 @@ zaobao.com###myMovie
 /getadvertimageservlet?
 /getarticleadvertimageservlet?
 /getbanner.cfm?
+/getdigitalad/*
 /gethalfpagead.
 /getmarketplaceads.
 /getmdhlayer.
@@ -3459,6 +3459,7 @@ zaobao.com###myMovie
 /mylayer-ad/*
 /mysimpleads/*
 /neoads.
+/netads.
 /netspiderads2.
 /new/ad/*
 /new_ads/*
@@ -3793,6 +3794,7 @@ zaobao.com###myMovie
 /unibluead.
 /unity/ad/*
 /update_ads/*
+/update_layer/layer_os_new.php$script
 /upload/ads/*
 /uploads/ads/*
 /userad/*
@@ -3834,6 +3836,7 @@ zaobao.com###myMovie
 /yahoo-ads/*
 /yahooads.
 /yin-ad/*
+/your-ad-
 /your-ad.
 /youradhere468-
 /ysmads.
@@ -4803,7 +4806,7 @@ _768x90_
 ###addiv-top
 ###adfooter
 ###adfooter_728x90
-###adframe:not(frameset)
+~luebeck.de###adframe:not(frameset)
 ###adhead
 ###adhead_g
 ###adheader
@@ -4815,6 +4818,7 @@ _768x90_
 ###adition_content_ad
 ###adlabel
 ###adlabelFooter
+###adlayerContainer
 ###adlayerad
 ###adleaderboard
 ###adleaderboard_flex
@@ -8661,6 +8665,7 @@ _768x90_
 ||bestdeals.ws^$third-party
 ||bestfindsite.com^$third-party
 ||bestgameads.com^$third-party
+||besthitsnow.com^$third-party
 ||bestofferdirect.com^$third-party
 ||bet365affiliates.com^$third-party
 ||betrad.com^$third-party
@@ -8796,6 +8801,7 @@ _768x90_
 ||doubleclick.net^*;sz=$object-subrequest,third-party,domain=10news.com|1up.com|breitbart.tv|cbc.ca|dailystar.co.uk|digitaltrends.com|fox5sandiego.com|foxnews.com|france24.com|gamesradar.com|heavy.com|muzu.tv|myfoxatlanta.com|myfoxny.com|myspace.com|nbc.com|nbcsandiego.com|news.com.au|newson6.com|nhl.com|player.amri.ca|rapbasement.com|wptv.com|wsj.com
 ||doublepimp.com^$third-party
 ||dpbolvw.net^$third-party
+||dsnr-affiliates.com^$third-party
 ||dt00.net^$third-party,domain=~marketgid.com|~marketgid.ru|~marketgid.ua|~mgid.com|~thechive.com
 ||dt07.net^$third-party,domain=~marketgid.com|~marketgid.ru|~marketgid.ua|~mgid.com|~thechive.com
 ||dualmarket.info^$third-party
@@ -8850,6 +8856,7 @@ _768x90_
 ||fusionads.net^$third-party
 ||fwmrm.net^$~object-subrequest,third-party
 ||g.doubleclick.net^$object-subrequest,third-party
+||gaikai.com^$third-party
 ||gambling-affiliation.com^$third-party
 ||game-advertising-online.com^$third-party
 ||gameads.com^$third-party
@@ -9298,6 +9305,7 @@ _768x90_
 ||webmasterplan.com^$third-party
 ||weborama.fr^$third-party
 ||webtraffic.ttinet.com^$third-party
+||wegetpaid.net^$third-party
 ||wgreatdream.com^$third-party
 ||widgetbucks.com^$third-party
 ||widgets.fccinteractive.com^$third-party
@@ -9446,8 +9454,6 @@ _768x90_
 ||bravenet.com/cserv.php?
 ||break.com/ads/preroll/
 ||break.com^*/partnerpublish/
-||browser-analyzer.com/update_layer/
-||browser-checker.com/update_layer/
 ||bruteforceseo.com/affiliates/
 ||bruteforcesocialmedia.com/affiliates/
 ||btguard.com/images/$third-party
@@ -9783,7 +9789,6 @@ _768x90_
 ||u-loader.com/image/hotspot_
 ||ultimatewebtraffic.info/images/fbautocash
 ||unsereuni.at/resources/img/$third-party
-||updates-browser.com/update_layer/
 ||uploaded.to/img/public/$third-party
 ||v.movad.de^*/ad.xml
 ||valuate.com/banners/
@@ -9793,9 +9798,6 @@ _768x90_
 ||videozr.com^$third-party
 ||visit.homepagle.com^$third-party
 ||visitorboost.com/images/$third-party
-||vplay-test.com/update_layer/
-||vplay-to.com/update_layer/
-||vplaycheck.com/update_layer/
 ||vxite.com/banner/
 ||warezhaven.org/warezhavenbann.jpg
 ||washingtonpost.com/wp-srv/wapolabs/dw/readomniturecookie.html
@@ -10100,6 +10102,7 @@ _768x90_
 ||divxme.com/images/play.png
 ||divxstage.net/images/download.png
 ||divxstage.net^*/remove_ads.
+||djluv.in/android.gif
 ||dl4all.com/data4.files/dpopupwindow.js
 ||domaining.com/banners/
 ||dominicantoday.com/stor/banners/
@@ -10376,6 +10379,8 @@ _768x90_
 ||lightningcast.net^*/getplaylist?$third-party,domain=dramafever.com|reuters.com
 ||linksafe.info^*/mirror.png
 ||linksave.in^*/downloadbutton_highspeed.png
+||linuxmint.com^*/sponsor/
+||linuxmint.com^*/sponsors/
 ||linuxtopia.org/includes/$subdocument
 ||livestream.com^*/overlay/
 ||ll.a.hulu.com^
@@ -10744,6 +10749,7 @@ _768x90_
 ||thirdage.com^*_banner.php
 ||tigerdroppings.com^*&adcode=
 ||times-herald.com/pubfiles/
+||timesnow.tv/googlehome.cms
 ||titanbet.com/promoloaddisplay?
 ||tmz.vo.llnwd.net^*/assets/overlay/
 ||torrentfreak.com^*/wyzo.gif
@@ -11514,6 +11520,7 @@ divxme.com##a[href^="http://www.jdoqocy.com/"]
 divxstage.net##.ad
 diyfail.com###top-leaderboard
 diyfail.com##.leaderboard
+djluv.in###header + center > a > img
 dkszone.net##.liutilities-top
 dl4all.com###deluxePopupWindow-container
 dll-free-download.org##table[height="145"][width="789"]
@@ -11637,6 +11644,7 @@ epinions.com##td[width="180"][valign="top"]
 eq2flames.com##td[width="120"][style="padding-left:5px;white-space:normal"]
 erictric.com###banner300-top-right
 erictric.com###head-banner468
+escapistmagazine.com###partners_panel
 esecurityplanet.com###gemhover
 esecurityplanet.com###partners
 esecurityplanet.com##.vspace
@@ -12382,8 +12390,10 @@ linksave.in##a[href^="http://www.gamesaffiliate.de/"]
 linksave.in##a[href^="http://www.uws-board.com"]
 linux-mag.com##.sponsor-widget
 linuxforums.org###rightColumn
-linuxforums.org###showimage[style^="position:absolute;width:700px;left:10px;top:1320px;"]
+linuxforums.org###showimage[style^="position:absolute;width:700px;left:10px;"]
+linuxforums.org##a[href^="http://linuxforums.tradepub.com/"]
 linuxforums.org##div[style^="margin: 2px; float: right; width: 300px; height: 250px;"]
+linuxforums.org##table[width="98%"][cellspacing="0"][cellpadding="5"][border="0"][style="background:#ededed; margin:10px"]
 linuxforums.org##td[width="300"][style="border:1px solid #ccc;padding:10px"]
 linuxinsider.com###welcome-box
 linuxinsider.com##.content-block-slinks
@@ -12537,6 +12547,7 @@ metro.co.uk##.google-sky
 metro.co.uk##.sky
 metro.us###pullquote_adu
 metro.us##div[style=" width:300px; height:250px; float:right;"]
+metro.us##div[style="width:300px;height:600px;"]
 metrolyrics.com###cee_box
 metrolyrics.com###cee_overlay
 metrolyrics.com###ipod
@@ -13052,6 +13063,7 @@ qj.net###shoppingapi
 quackit.com###rightColumn
 quackit.com##div[style="margin:auto;width:180px;height:250px;text-align:center;background:#fff url('/pix/ads/ad_zappyhost_search_box_180x250.gif') no-repeat top left;"]
 querverweis.net##.iframe_box
+quickload.to###ball
 quickload.to##a[href="http://www.quickload.to/Usenet.exe"]
 quickload.to##a[href^="http://www.quickload.to/click.php?id="]
 quicksilverscreen.com##a[href="http://www.tubeplus.com"]
@@ -13063,6 +13075,7 @@ radaronline.com###videoExternalBanner
 radaronline.com###videoSkyscraper
 radio.com###i300x250Container
 radio.com###i728x90Container
+railmuseums.com##td[width="760"]:first-child + td[width="160"][valign="top"]:last-child
 rapbasement.com##div[align="center"][style="height:90px;margin-top:5px;"]
 rapbasement.com##div[style="text-align:center;font-size:12px;font-weight:bold;margin-top:6px;margin-bottom:6px;"]
 rapbasement.com##div[style="width:160px;height:600px;margin-left:5px;margin-right:5px;background:#0b1620;float:left;"]
@@ -14484,6 +14497,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||msads.net^*.flv|$domain=msnbc.msn.com
 @@||mussil.com/mussilcomfiles/commercials/*.jpg
 @@||mxtabs.net/ads/interstitial$subdocument
+@@||mycricket.com/openx/offers/$image
 @@||newgrounds.com/ads/ad_medals.gif
 @@||newsarama.com/common/js/advertisements.js
 @@||newsweek.com/ads/adscripts/prod/*_$script
