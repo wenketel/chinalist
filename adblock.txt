@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 3h7AWtCIATBcgQ39zD4AzA
+!  Checksum: z/ck3oUUYY0PJi36CgZ2Vw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 06 May 2011 17:43:37 +0800
+!  Last Modified:  Sun, 08 May 2011 07:07:07 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -687,7 +687,6 @@ siluhd.com###index_top
 
 !---sina
 !--sina.com
-||sina.com^*ads/
 ||sina.com/rm/
 ||sina.com/assets/js/dart/
 dailynews.sina.com##.TopNav+table
@@ -848,7 +847,7 @@ tongji.net##.wp.a_h
 ||ttg.im/pic/51ps3_gg.gif
 ||ttg.im/pic/ggtb.gif
 ||ttg.im/pic/ttg-
-@@|http://ttg.im/pic/ttg_logo.png
+@@||ttg.im/pic/ttg_logo.png
 ||ttg.im/pic/ttg_
 
 !---土豆
@@ -862,7 +861,7 @@ tv.tudou.com###adex_board
 
 !---udn
 @@||video.udn.com/udnad/videoad.php^
-|http://udn.com^*/bd/
+||udn.com^*/bd/
 ||udn.com/adpinline/
 ||udn.com/NEWS/watermark_omo_2010.js
 /PROJ_AD/*$domain=udn.com
@@ -1106,7 +1105,6 @@ jiaren.org##a[href^="http://s.click.taobao.com/"]>img
 @@||3edyy.com/js/dan3.js
 ||3edyy.com^$script,subdocument
 ||52z.com/show/All.js
-@@|http://www.52zy.com/gg/$image
 ||52zy.com/other/js/
 ||66ys.org/d/
 ||7edown.com/db/
@@ -1168,8 +1166,8 @@ www.ddooo.com/js/
 ||vipcn.com/hezuo/
 soft.winzheng.com/link_img/
 down.x6x8.com/good/
-@@|http://www.xdowns.com/soft/js/$script
-||xdowns.com/$script
+@@||xdowns.com/soft/js/$script
+||xdowns.com^$script
 ||xiazaiba.com/js/
 ||xiazaiba.com/uploadfiles/xert_img/
 ||xp500.com/images/mbox-tcn-160-90.gif
