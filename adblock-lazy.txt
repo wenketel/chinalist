@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: +ZvSxBJjZthgOW4tZTgg4Q
+!  Checksum: mA6zEhdKS2c74rIm1hRaNw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 14 May 2011 11:25:21 +0800
+!  Last Modified:  Sun, 15 May 2011 11:33:35 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -86,7 +86,9 @@ thinkpad.cn,51nb.com##div.menu+div.maintable>table.t_rown[width="875"]
 ||6.cn/csjs10/tan_*.js
 ||6.cn/mdfor/index_new.js
 ||6.cn/mdfor/watch_new11.js
-||r.6.cn/pswf/
+||r.6.cn/pswf/*_pause_*.swf
+||r.6.cn/pswf/*_tiepian_*.swf
+||r.6.cn/pswf/*_banner_*.swf
 ||hm.i8.com.cn/GetAdContent.aspx
 6.cn###palyerAdText
 6.cn##[id^="adText"]
@@ -2538,6 +2540,7 @@ zaobao.com###myMovie
 /adfever_
 /adfile/*
 /adfooter.
+/adformats/*
 /adframe.
 /adframe/*
 /adframe?
@@ -2618,6 +2621,7 @@ zaobao.com###myMovie
 /admicro2.
 /admicro_
 /admin/ad_
+/admin/banners/*
 /adminibanner2.
 /adnet.
 /adnetmedia.
@@ -4265,6 +4269,7 @@ _768x90_
 ###AdShowcase_F1
 ###AdSky23
 ###AdSkyscraper
+###AdSpacing
 ###AdSponsor_SF
 ###AdSubsectionShowcase_F1
 ###AdTargetControl1_iframe
@@ -4951,6 +4956,7 @@ _768x90_
 ###ads_catDiv
 ###ads_footer
 ###ads_fullsize
+###ads_header
 ###ads_html1
 ###ads_html2
 ###ads_inner
@@ -5301,6 +5307,7 @@ _768x90_
 ###common_right_player_adspace
 ###common_right_right_adspace
 ###common_top_adspace
+###comp_AdsLeaderboardTop
 ###companion-ad
 ###companionAdDiv
 ###companionad
@@ -6373,6 +6380,7 @@ _768x90_
 ##.SponsoredLinksModule
 ##.SponsoredLinksPadding
 ##.SponsoredLinksPanel
+##.Sponsored_link
 ##.SquareAd
 ##.StandardAdLeft
 ##.StandardAdRight
@@ -7029,6 +7037,7 @@ _768x90_
 ##.ads_vtlLink
 ##.ads_widesky
 ##.ads_wrapperads_top
+##.adsafp
 ##.adsbg300
 ##.adsblockvert
 ##.adsborder
@@ -7976,6 +7985,7 @@ _768x90_
 ##.pagead
 ##.pagenavindexcontentad
 ##.paneladvert
+##.partner-ad
 ##.partner-ads-container
 ##.partnersTextLinks
 ##.pencil_ad
@@ -8398,6 +8408,7 @@ _768x90_
 ##.type_miniad
 ##.type_promoads
 ##.ukAds
+##.ukn-banner-ads
 ##.undertimyads
 ##.unit-ad
 ##.universalboxADVBOX01
@@ -9058,12 +9069,12 @@ _768x90_
 ||lbm1.com^$third-party
 ||lduhtrp.net^$third-party
 ||leadacceptor.com^$third-party
+||leadadvert.info^$third-party
 ||leadbolt.net^$third-party
 ||liftdna.com^$third-party
 ||ligatus.com^$third-party
 ||lightningcast.net^$~object-subrequest,third-party
 ||lingospot.com^$third-party
-||linkbucks.com^$third-party
 ||linkbuddies.com^$third-party
 ||linkexchange.com^$third-party
 ||linkreferral.com^$third-party
@@ -9165,6 +9176,7 @@ _768x90_
 ||openx.org^$third-party
 ||opinionbar.com^$third-party
 ||opt-intelligence.com^$third-party
+||orbengine.com^$third-party
 ||othersonline.com^$third-party
 ||overture.com^$third-party
 ||oxado.com^$third-party
@@ -9752,7 +9764,7 @@ _768x90_
 ||missnowmrs.com/images/banners/
 ||mlgpro.com/javascript/data/addata.php
 ||mmo4rpg.com^*.gif|$third-party
-||mobyler.com/img/banner/$third-party
+||mobyler.com/img/banner/
 ||moneywise.co.uk/affiliate/
 ||mp3ix.com^$third-party
 ||mto.mediatakeout.com^$third-party
@@ -10040,11 +10052,13 @@ _768x90_
 ||azlyrics.com^*_az.js
 ||b.localpages.com^
 ||b92.net/images/banners/
+||backpagelead.com.au/images/banners/
 ||ballreviews.com/banners/
 ||banner.atomicgamer.com^
 ||banner.itweb.co.za^
 ||banners-*.jobstreet.com^
 ||banners.beevpn.com^
+||banners.beted.com^
 ||banners.expressindia.com^
 ||banners.friday-ad.co.uk/hpbanneruploads/$image
 ||banners.i-comers.com^
@@ -10344,6 +10358,7 @@ _768x90_
 ||gq.co.za^*/sitetakeover/
 ||grapevine.is/media/flash/*.swf
 ||green.virtual-nights.com^
+||gsprating.com/gap/image.php?
 ||guitaretab.com^*/ringtones_overlay.js
 ||gulf-daily-news.com/180x150.htm
 ||gumtree.com^*/dart_wrapper_
@@ -10396,6 +10411,7 @@ _768x90_
 ||images-amazon.com^*/marqueepushdown/
 ||imageshack.us/images/contests/*/lp-bg.jpg
 ||imageshack.us/ym.php?
+||imagevenue.com/interstitial.
 ||img*.i-comers.com^
 ||imgburn.com/images/ddigest_
 ||imgburn.com/images/ds-banner-
@@ -10562,6 +10578,7 @@ _768x90_
 ||mi-pro.co.uk/banners/
 ||middle-east-online.com^*/meoadv/
 ||midlandsradio.fm/bms/
+||mirosport.net^*/background-
 ||mirror.co.uk^*/gutters/
 ||mirror.co.uk^*/m4_gutters/
 ||mirror.co.uk^*/m4_partners/
@@ -10633,6 +10650,7 @@ _768x90_
 ||omgpop.com/dc?
 ||omgpop.com/dc?campaign=
 ||onlineshopping.co.za/expop/
+||optics.org/banners/
 ||oraclebroadcasting.com/images/enerfood-300x90.gif
 ||oraclebroadcasting.com/images/extendovite300.gif
 ||oraclebroadcasting.com/images/hempusa_330.gif
@@ -12070,6 +12088,7 @@ goodhopefm.co.za##.mrec
 goodhousekeeping.com###hpV2_728x90
 googletutor.com##div[style="width:125px;text-align:center;"]
 googlewatch.eweek.com###topBanner
+gossiponthis.com##.medrectangle
 gotfrag.com##div[style="width:160px;height:600px"]
 gotfrag.com##div[style="width:300px;height:250px"]
 gotfrag.com##div[style="width:468px;height:60px"]
@@ -12084,6 +12103,9 @@ grindtv.com###LREC
 grindtv.com###SKY
 grindtv.com###hLREC
 growingbusiness.co.uk##.siteLeaderBoard
+gsprating.com##.banner
+gsprating.com##.banner2
+gsprating.com##div[onclick="window.open('http://www.nationvoice.com')"]
 gtainside.com##td[height="100%"][width="857"][valign="top"] > table[width="857"]:first-child
 gtainside.com##td[width="851"][valign="top"] > table[width="851"]:first-child
 gtplanet.net###a2
@@ -12270,6 +12292,7 @@ inquirer.net##table[width="780"][height="90"]
 inquisitr.com###topx2
 insanelymac.com##.ad
 insidefacebook.com##a[href="/advertise"]
+insidehalton.com##.td-SideWrapperBigBox
 insidetoronto.com##.td-SideWrapperBigBox
 instantpulp.com##.adsense
 instapaper.com###deckpromo
@@ -13376,6 +13399,7 @@ searchenginejournal.com##.even
 searchenginejournal.com##.odd
 searchenginesuggestions.com###top-leaderboard
 searchenginesuggestions.com##.leaderboard
+searchenginewatch.com##.ukn-iab-300x250
 secretmaryo.org##div[style="width: 728px; height: 90px; margin-left: 6px;"]
 securityfocus.com##td[width="160"][bgcolor="#eaeaea"]
 securitymattersmag.com##.homeart_marketpl_container
@@ -13464,6 +13488,7 @@ smoothradiowestmidlands.co.uk###skyscraper
 snapfiles.com###bannerbar
 snapfiles.com###borderbar
 snapfiles.com###prodmsg
+snapfiles.com###prodmsgdl
 snow.co.nz###content-footer-wrap
 snow.co.nz###header-banner
 snowtv.co.nz###header-banner
@@ -13522,6 +13547,7 @@ stopdroplol.com##.leaderboard
 storagereview.com##td[width="410"]:first-child + td[align="right"]
 stormfront.org##img[border="0"][rel="nofollow"]
 stormfront.org##table[width="863"]
+strata40.megabyet.net##a[href^="http://tiny.cc/freescan"]
 streetinsider.com##.ad
 stripes.com##.ad
 stuff.co.nz##.adv_box_narrow
@@ -13615,6 +13641,7 @@ telegraph.co.uk##.innerPlugin
 telegraph.co.uk##a[href^="http://www.telegraph.co.uk/sponsored/"]
 telegraphindia.com##.Caption
 televisionbroadcast.com##table[width="665"]
+tennis.com##td[height="250"][width="300"]
 teoma.com###Slink
 teoma.com###bottomPaidList
 teoma.com###topPaidList
@@ -13994,6 +14021,7 @@ washingtonpost.com###textlinkWrapper
 washingtonscene.thehill.com##.top
 wasterecyclingnews.com##.bigbanner
 watchotmovies.co.cc###partners
+watchseries.eu##a[href^="http://watchseries.eu/download_"]
 watoday.com.au##.ad
 wattpad.com##div[style="width:100%;height:90px;text-align:center"]
 way2sms.com##.w2mtad
@@ -14829,6 +14857,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||hackers.co.id/adframe/adframe.js
 @@||hardforum.com^*/adframe.js
 @@||js.adscale.de/getads.js$domain=megaup.ws
+@@||leadadvert.info/content_locker.php?$domain=gsprating.com
 @@||livevss.net/adsense.js
 @@||macobserver.com/js/adlink.js
 @@||media.fastclick.net/w/get.media?sid=*&tp=5&$script,domain=flv2mp3.com
@@ -14943,6 +14972,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 /astrack.js
 /astracker.js
 /atapixel.js
+/awstats.js
 /awstats_misc_tracker.js
 /b/ss/*&ce=iso-8859-1&
 /b/ss/*&ce=utf-8&
@@ -15055,6 +15085,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 /library/svy/broker.js
 /linkinformer.js
 /livezilla/server.php?request=track&
+/log_e.php?id=
 /logaholictracker.php?
 /logger/p.gif?
 /logger?*ctxid=
@@ -15145,6 +15176,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 /tnsmetrix/*
 /touchclarity/*
 /tpix.gif?
+/track/*?rnd=0.$image
 /tracker/event?
 /tracking/tynt_
 /traffic/?
@@ -16390,6 +16422,7 @@ _cedexis.php
 ||analytics.matchbin.com^
 ||analytics.performable.com^
 ||analytics.rogersmedia.com^
+||analytics.sitewit.com^
 ||analytics.tribeca.vidavee.com^
 ||analytics.yola.net^
 ||anvato.com/anvatoloader.swf?analytics=
@@ -16983,6 +17016,7 @@ _cedexis.php
 ||213.8.193.45/themarker/$domain=haaretz.com
 ||2shared.com^*/adlogger.jsp?
 ||64.151.94.43/clear.gif?$domain=glam.com
+||67.228.151.70^$third-party,domain=doctorwhonews.net
 ||6waves.com/trker/
 ||86.63.194.248/js/measure.js$third-party,domain=feedcat.net
 ||a7.org/infol.php?
@@ -17111,6 +17145,7 @@ _cedexis.php
 ||creativecommons.org^*/triples?
 ||creditcards.com/actions/page_view.php?
 ||crn.com.au/t.ashx?
+||crunchsports.com/tracking_fetchinfo.aspx?
 ||crunchyroll.com/tracker
 ||crunchyroll.com^*/breadcrumb.js
 ||current.com/tracking.htm?
@@ -17381,6 +17416,7 @@ _cedexis.php
 ||redeye.williamhill.com^
 ||rediff.com^*/?rkey=
 ||report.shell.com^
+||request.issuu.com^
 ||reuters.com/tracker/
 ||reuters.com^*/rcom-wt-mlt.js
 ||reuters.com^*/tracker_activitystream.js
@@ -17409,6 +17445,7 @@ _cedexis.php
 ||shopping.com/pixel/
 ||showstreet.com/log/
 ||shutterfly.com^*/pageloadtime.gif?
+||sidebar.issuu.com^
 ||sitelife.ehow.com^
 ||sky.com^*/hightrafficsurveycode.js
 ||skype.com^*/inclient/
@@ -17817,6 +17854,7 @@ _cedexis.php
 ||beacon.sina.com.cn^
 ||cnzz.com/stat.
 ||counter.sina.com.cn^
+||cri.cn/a1.js
 ||ftchinese.com/log/new_log.php?
 ||nstat.tudou.com^
 ||soufun.com/click/
