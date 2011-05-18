@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: x2RWzVO8Sl63uAuUbGil/g
+!  Checksum: AvkoONo+6S44Kn7jR6Kp+w
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 17 May 2011 22:05:39 +0800
+!  Last Modified:  Wed, 18 May 2011 12:08:49 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -550,6 +550,7 @@ nownews.com###travel_ad
 !---东方电视
 @@||home.on.cc/adv/
 @@|http://tv.on.cc/ad/$subdocument
+@@||orientaldaily.on.cc^$object
 tv.on.cc###superbanner
 tv.on.cc###large
 
@@ -813,6 +814,7 @@ tgbus.com##[class^="adv_"]
 ||squidclick.bbs.tianya.cn^
 ||global.tianyaui.com/global/wizard/js/wizard.js
 ||tianyabook.com/$script
+||urchin.tianya.cn^
 www.tianya.cn##[id*="_AD_"]
 
 !---Tom
@@ -1812,6 +1814,7 @@ zhyjms.com##[class^="gg"]
 ||cs.37see.com^$third-party
 ||3gpz.net^$third-party
 ||51link.com^$third-party
+||51cnad.com^$third-party
 ||51wan.com^$third-party
 ||523688.com^$third-party
 ||52cpm.com^$third-party
@@ -1846,6 +1849,7 @@ zhyjms.com##[class^="gg"]
 ||885ad.com^$third-party
 ||8le8le.com^$third-party
 ||www.8peng.com^$third-party
+||f.913h6.cn^$third-party
 ||9165.net^$third-party
 ||91ivr.com^$third-party
 ||91wan.com^$third-party
@@ -1859,6 +1863,7 @@ zhyjms.com##[class^="gg"]
 ||9vlm.com^$third-party
 ||9wad.com^$third-party
 ||9wee.com^$third-party
+||a3p4.com^$third-party
 ||acs86.com^$third-party
 ||adcenter.conn.tw^$third-party
 ||adhai.com^$third-party
@@ -1867,6 +1872,7 @@ zhyjms.com##[class^="gg"]
 ||ads80.com^$third-party
 ||adnets.cn^$third-party
 ||adqoo.com^$third-party
+||ads126.com^$third-party
 ||adsame.com^$third-party
 ||adsue.com^$third-party
 ||adver.com.tw^$third-party
@@ -2109,6 +2115,7 @@ zhyjms.com##[class^="gg"]
 |http://*/ad/$domain=~10010.com|~42qu.com|~bangumi.tv|~bgm.tv|~chii.in|~ezpeer.com|~tp-link.cn
 |http://gg.$~stylesheet,domain=~bbs.vc52.cn
 |http://*/gg/$~stylesheet
+|http://*/i.js|
 
 !-----------------------------Privacy----------------------
 /count.$domain=~bilibili.us|~downg.com|~taobao.com
@@ -3331,6 +3338,7 @@ zaobao.com###myMovie
 /gt6skyadtop.
 /header-ad.
 /header_ads_
+/headerad.
 /headerads.
 /headvert.
 /hitbar_ad_
@@ -7535,6 +7543,7 @@ _768x90_
 ##.detailMpu
 ##.detail_ad
 ##.detail_top_advert
+##.dfrads
 ##.displayAdSlot
 ##.divAd
 ##.divAdright
@@ -8621,9 +8630,11 @@ _768x90_
 ||adprovi.de^$third-party
 ||adprs.net^$third-party
 ||adquest3d.com^$third-party
+||adready.com^$third-party
 ||adreadytractions.com^$third-party
 ||adresellers.com^$third-party
 ||adrise.de^$third-party
+||adriver.ru^$third-party
 ||adrocket.com^$third-party
 ||adroll.com^$third-party
 ||ads-stats.com^$third-party
@@ -8725,6 +8736,7 @@ _768x90_
 ||alleliteads.com^$third-party
 ||alloydigital.com^$third-party
 ||alphagodaddy.com^$third-party
+||am10.ru^$third-party
 ||amgdgt.com^$third-party
 ||ampxchange.com^$third-party
 ||andomedia.com^$third-party
@@ -8961,6 +8973,7 @@ _768x90_
 ||firstadsolution.com^$third-party
 ||firstlightera.com^$third-party
 ||fixionmedia.com^$third-party
+||flashclicks.com^$third-party
 ||flashtalking.com^$third-party
 ||fluxads.com^$third-party
 ||fmpub.net^$third-party
@@ -9581,6 +9594,7 @@ _768x90_
 ||bijk.com^*/banners/
 ||bitshare.com^*/banner/
 ||bittorrent.am/serws.php?$third-party
+||bl.wavecdn.de^*/banner/
 ||blissful-sin.com/affiliates/
 ||bloodstock.uk.com/affiliates/
 ||bluhostedbanners.blucigs.com^
@@ -9668,6 +9682,7 @@ _768x90_
 ||fugger.ipage.com/banners/
 ||fugger.netfirms.com/moa.swf$third-party
 ||funtonia.com/promo/
+||fupa.com/aw.aspx?$third-party
 ||futuresite.register.com/us?$third-party
 ||fyicentralmi.com/remote_widget?$third-party
 ||fyiwashtenaw.com/remote_widget?
@@ -10523,6 +10538,7 @@ _768x90_
 ||licensing.biz/media/banners/
 ||lightningcast.net^*/getplaylist?$third-party,domain=dramafever.com|reuters.com|viddler.com
 ||linkbucksmedia.com/director/
+||linkcrypt.ws/image/hoster/
 ||linksafe.info^*/mirror.png
 ||linksave.in^*/downloadbutton_highspeed.png
 ||linuxmint.com^*/sponsor/
@@ -10605,6 +10621,8 @@ _768x90_
 ||mmorpg.com/images/skins/
 ||mochiads.com/srv/
 ||moneycontrol.com^*_promo_
+||movie2k.to/img/1banner25.gif
+||movie2k.to/img/1banner25_
 ||movshare.net^*/remove_ads.jpg
 ||movstreaming.com/images/edhim.jpg
 ||mp3mediaworld.com*/!
@@ -10713,6 +10731,7 @@ _768x90_
 ||prisonplanet.com^*sky.
 ||project-for-sell.com/_google.php
 ||promo.fileforum.com^
+||proxy-list.org/img/isellsite.gif
 ||proxy.org/af.html
 ||proxy.org/ah.html
 ||ps3news.com/banner/
@@ -11787,6 +11806,7 @@ electronista.com###footerleft
 electronista.com###footerright
 electronista.com###leaderboard
 electronista.com###supportbod
+elite-games.net###gameStatsBox span:nth-child(10) a > img[width="100"]
 elizium.nu##ul[style="padding: 0; width: 100%; margin: 0; list-style: none;"]
 elle.com###ad-block-bottom
 elliotsblog.com###sidebar-sps
@@ -12559,13 +12579,16 @@ lifehacker.com###skyscraper
 lifespy.com##.SRR
 lightreading.com##.bordercornercontent[style="padding-left: 17px; padding-right: 17px;"]
 linkbucks.com###container > #content > CENTER:first-child:last-child > .int_layout1[border="0"]
+linkcrypt.ws###alink
 linkcrypt.ws###altlink
 linkcrypt.ws###mirror
+linkcrypt.ws##a[href^="http://linkcrypt.ws/go/"]
 linkcrypt.ws##a[href^="http://linkcrypt.ws/go/gh-"]
 linkcrypt.ws##a[href^="http://linkcrypt.ws/go/h-"]
 linkcrypt.ws##a[href^="http://linkcrypt.ws/go/hoster-"]
 linkcrypt.ws##div[style="width:470px; height:60px; overflow:hidden; border:1px solid #000; text-align:center;"]
 linkcrypt.ws##tr[onclick*="'hightspeed"]
+linkcrypt.ws##tr[onclick^="javascript:document.getElementById('m12')"]
 linksave.in###wrap > #menue + #menuelinks
 linksave.in###wrap > #menue:first-child
 linksave.in##.text[align="center"] > table[width="513"][cellspacing="0"][cellpadding="0"][border="0"]:last-child
@@ -13239,6 +13262,7 @@ productreview.com.au##td[width="160"][valign="top"]
 progressivegrocer.com##.topBanner
 projectw.org##a[href^="http://uploading.com/partners/"]
 projectw.org##table[height="60"][width="468"]
+proxy-list.org###banner
 ps3-hacks.com###banner
 ps3news.com###bglink
 ps3news.com###sidebar > div > div > table[cellspacing="5px"]:first-child
@@ -15229,6 +15253,8 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 /webtrekk_
 /where-go-add.js.php?
 /whoson_*_trackingonly.js
+/wlexpert_tracker.
+/wlexpert_tracker/*
 /wp-clickmap/*
 /wp-content/plugins/stats/count.php?
 /wp-counter.php
@@ -16793,6 +16819,7 @@ _cedexis.php
 ||cgicounter.onlinehome.de^
 ||collect.finanzen.net^
 ||computerfrage.net^*/blank.gif?
+||confido.dyndns.org^*/dot.php?
 ||count.asnetworks.de^
 ||count.snacktv.de^
 ||counter.1i.kz^
@@ -17530,6 +17557,7 @@ _cedexis.php
 ||storenvy.com/tracking/
 ||stratfor.com/js/linktracker.js
 ||streamstats1.blinkx.com^
+||stribe.com/00/logs?
 ||suite101.com/tracking/
 ||sun.com/share/metrics/
 ||t-ak.hulu.com^

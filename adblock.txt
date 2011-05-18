@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: bmSGU2hNeUiQniHbKAGmtg
+!  Checksum: Oj5fulAZDNLw9OZ8udzGgQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 17 May 2011 22:05:38 +0800
+!  Last Modified:  Wed, 18 May 2011 12:08:49 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -550,6 +550,7 @@ nownews.com###travel_ad
 !---东方电视
 @@||home.on.cc/adv/
 @@|http://tv.on.cc/ad/$subdocument
+@@||orientaldaily.on.cc^$object
 tv.on.cc###superbanner
 tv.on.cc###large
 
@@ -813,6 +814,7 @@ tgbus.com##[class^="adv_"]
 ||squidclick.bbs.tianya.cn^
 ||global.tianyaui.com/global/wizard/js/wizard.js
 ||tianyabook.com/$script
+||urchin.tianya.cn^
 www.tianya.cn##[id*="_AD_"]
 
 !---Tom
@@ -1812,6 +1814,7 @@ zhyjms.com##[class^="gg"]
 ||cs.37see.com^$third-party
 ||3gpz.net^$third-party
 ||51link.com^$third-party
+||51cnad.com^$third-party
 ||51wan.com^$third-party
 ||523688.com^$third-party
 ||52cpm.com^$third-party
@@ -1846,6 +1849,7 @@ zhyjms.com##[class^="gg"]
 ||885ad.com^$third-party
 ||8le8le.com^$third-party
 ||www.8peng.com^$third-party
+||f.913h6.cn^$third-party
 ||9165.net^$third-party
 ||91ivr.com^$third-party
 ||91wan.com^$third-party
@@ -1859,6 +1863,7 @@ zhyjms.com##[class^="gg"]
 ||9vlm.com^$third-party
 ||9wad.com^$third-party
 ||9wee.com^$third-party
+||a3p4.com^$third-party
 ||acs86.com^$third-party
 ||adcenter.conn.tw^$third-party
 ||adhai.com^$third-party
@@ -1867,6 +1872,7 @@ zhyjms.com##[class^="gg"]
 ||ads80.com^$third-party
 ||adnets.cn^$third-party
 ||adqoo.com^$third-party
+||ads126.com^$third-party
 ||adsame.com^$third-party
 ||adsue.com^$third-party
 ||adver.com.tw^$third-party
@@ -2109,6 +2115,7 @@ zhyjms.com##[class^="gg"]
 |http://*/ad/$domain=~10010.com|~42qu.com|~bangumi.tv|~bgm.tv|~chii.in|~ezpeer.com|~tp-link.cn
 |http://gg.$~stylesheet,domain=~bbs.vc52.cn
 |http://*/gg/$~stylesheet
+|http://*/i.js|
 
 !-----------------------------Privacy----------------------
 /count.$domain=~bilibili.us|~downg.com|~taobao.com
