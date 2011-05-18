@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: EavjP9gRamphAYOobSV7zQ
+!  Checksum: 0c6xTgO9suG/65YUj4QF9w
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 18 May 2011 16:24:35 +0800
+!  Last Modified:  Thu, 19 May 2011 00:26:04 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -1919,6 +1919,7 @@ zhyjms.com##[class^="gg"]
 ||click.com^$third-party
 ||cnxad.com^$third-party
 ||cocoren.com^$third-party
+||qa.colorful.cn^$third-party
 ||cpm9v.cn^$third-party
 ||cpmadworld.com^$third-party
 ||v.cpp9v.cn^$third-party
@@ -2011,7 +2012,7 @@ zhyjms.com##[class^="gg"]
 ||pee.cn^$third-party
 ||pixelinteractivemedia.com^$third-party
 ||ppunion.com^$third-party
-||qa.colorful.cn^$third-party
+||prohost.com.tw^$third-party
 ||ttmsg.qianqian.com^
 ||qd.code.qihoo.com^$third-party
 ||qiyou.com^$third-party
@@ -2251,6 +2252,7 @@ zaobao.com###myMovie
 -ad-manager/
 -ad-server/
 -ad-util-
+-ad-vertical-
 -ad1.jpg
 -ad2.gif
 -ad3.jpg
@@ -6556,7 +6558,7 @@ _768x90_
 ##.ad-unit-300-wrapper
 ##.ad-unit-anchor
 ##.ad-vert
-~speedtest.net##.ad-vertical-container
+##.ad-vertical-container
 ##.ad-vtu
 ##.ad-widget-list
 ##.ad-with-us
@@ -8943,7 +8945,7 @@ _768x90_
 ||doubleclick.net/pfadx/*.sevenload.com_$object-subrequest,third-party
 ||doubleclick.net/pfadx/*adcat=$object-subrequest,third-party
 ||doubleclick.net/pfadx/nbcu.nbc/$object-subrequest,third-party
-||doubleclick.net^$object-subrequest,third-party,domain=addictinggames.com|atom.com|businessweek.com|cbs4denver.com|cnbc.com|dailytelegraph.com.au|darkhorizons.com|doubleviking.com|eonline.com|fandango.com|foxbusiness.com|g4tv.com|gametrailers.com|gorillanation.com|hulu.com|joblo.com|kptv.com|listen.grooveshark.com|mtv.co.uk|mtv.com|mtv.com.au|mtv.com.nz|mtvbase.com|mtvmusic.com|myfoxorlando.com|myfoxphoenix.com|news.com.au|newsweek.com|nick.com|nintendoeverything.com|pandora.com|play.it|ps3news.com|rte.ie|sbs.com.au|sbsun.com|sevenload.com|shockwave.com|sk-gaming.com|southpark.nl|space.com|spike.com|syfy.com|thedailygreen.com|thedailyshow.com|thewire.com|ustream.tv|washingtonpost.com|wcbstv.com|wetransfer.com|wired.com|wkbw.com|wsj.com|wwe.com|youtube.com|zappinternet.com|zoomin.tv
+||doubleclick.net^$object-subrequest,third-party,domain=addictinggames.com|atom.com|businessweek.com|cbs4denver.com|cnbc.com|dailytelegraph.com.au|darkhorizons.com|doubleviking.com|eonline.com|fandango.com|foxbusiness.com|g4tv.com|gametrailers.com|gorillanation.com|hulu.com|joblo.com|kptv.com|listen.grooveshark.com|mtv.co.uk|mtv.com|mtv.com.au|mtv.com.nz|mtvbase.com|mtvmusic.com|myfoxorlando.com|myfoxphoenix.com|news.com.au|newsweek.com|nick.com|nintendoeverything.com|npr.org|pandora.com|play.it|ps3news.com|rte.ie|sbs.com.au|sbsun.com|sevenload.com|shockwave.com|sk-gaming.com|southpark.nl|space.com|spike.com|syfy.com|thedailygreen.com|thedailyshow.com|thewire.com|ustream.tv|washingtonpost.com|wcbstv.com|wetransfer.com|wired.com|wkbw.com|wsj.com|wwe.com|youtube.com|zappinternet.com|zoomin.tv
 ||doubleclick.net^$~object-subrequest,third-party
 ||doubleclick.net^*;sz=$object-subrequest,third-party,domain=10news.com|1up.com|breitbart.tv|cbc.ca|dailystar.co.uk|digitaltrends.com|fox5sandiego.com|foxnews.com|france24.com|gamesradar.com|heavy.com|muzu.tv|myfoxatlanta.com|myfoxny.com|myspace.com|nbc.com|nbcsandiego.com|news.com.au|newson6.com|nhl.com|player.amri.ca|rapbasement.com|wptv.com
 ||doublepimp.com^$third-party
@@ -10079,6 +10081,7 @@ _768x90_
 ||armorgames.com^*/banners/
 ||armorgames.com^*/site-skins/
 ||armorgames.com^*/siteskin.css
+||arnnet.com.au/files/skins/
 ||arstechnica.com/public/shared/scripts/da-1.5.js
 ||artima.com/zcr/
 ||asianewsnet.net/banner/
@@ -10167,6 +10170,7 @@ _768x90_
 ||cdnlayer.com/howtogeek/geekers/up/netshel125x125.gif
 ||celebjihad.com/widget/widget.js$domain=popbytes.com
 ||centos.org/donors/
+||channelonline.tv/channelonline_advantage/
 ||chapagain.com.np^*_125x125_
 ||chapala.com/wwwboard/webboardtop.htm
 ||china.com^*/googlehead.js
@@ -10561,10 +10565,6 @@ _768x90_
 ||linuxtopia.org/includes/$subdocument
 ||livestream.com^*/overlay/
 ||ll.a.hulu.com^
-||loaded.it/images/ban*.swf
-||loaded.it^*/geld-internet-verdienen.jpg
-||loaded.it^*/iframe_vid.
-||loaded.it^*/my_banner
 ||localdirectories.com.au^*/bannerimages/
 ||londonstockexchange.com^*/fx.gif
 ||lookbook.nu/show_leaderboard.html
@@ -10730,6 +10730,8 @@ _768x90_
 ||pitchero.com^*/toolstation.gif
 ||pixhost.org/image/fik1.jpg
 ||pocketpcaddict.com/forums/images/banners/
+||policeprofessional.com/files/banners-
+||policeprofessional.com/files/pictures-
 ||pons.eu^*/lingeniobanner.swf
 ||popbytes.com/img/*-ad.jpg
 ||popbytes.com/img/becomeasponsor.gif
@@ -11031,6 +11033,7 @@ _768x90_
 ||xup.in/layer.php
 ||xxlmag.com/js/takeover/
 ||yahoo.*/serv?s=
+||yahoo.com/contextual-shortcuts
 ||yahoo.com/darla/
 ||yahoo.com/neo/darla/
 ||yahoo.com/ysmload.html?
@@ -12140,6 +12143,8 @@ goodhopefm.co.za##.mrec
 goodhousekeeping.com###hpV2_728x90
 googletutor.com##div[style="width:125px;text-align:center;"]
 googlewatch.eweek.com###topBanner
+gosanangelo.com###content_match_wrapper
+gosanangelo.com##.bigbox_wrapper
 gossiponthis.com##.medrectangle
 gotfrag.com##div[style="width:160px;height:600px"]
 gotfrag.com##div[style="width:300px;height:250px"]
@@ -12288,6 +12293,7 @@ ifc.com###bottom_banner
 ifc.com###content-right-b
 ign.com###LB_Row
 ign.com###boards_medrec_relative
+iii.co.uk###marketdatabox_content_footer
 illimitux.net###screens
 illimitux.net##.pub_bot
 illimitux.net##.pub_top
@@ -12642,7 +12648,6 @@ lmgtfy.com###sponsor_wrapper
 lmgtfy.com##.sponsor
 load.to##.download_right
 load.to##img[width="468"][height="60"]
-loaded.it###ppad1
 loaded.it##tr > td[style="text-align: center; vertical-align: top; font-size: 12px;"]:first-child:last-child
 local.co.uk###borderTab
 local.yahoo.com##.yls-rs-paid
@@ -13596,6 +13601,7 @@ spoiledphotos.com###top-leaderboard
 spoiledphotos.com##.leaderboard
 spokesman.com##.ad
 spoonyexperiment.com##.cont_adv
+sportsillustrated.co.za###text-4
 squidoo.com###header_banner
 stagevu.com##.ad
 star-magazine.co.uk###imu
@@ -13806,6 +13812,7 @@ thesun.co.uk##.float-right.padding-left-10.width-300.padding-bottom-10.padding-t
 thesun.co.uk##.srch_cont
 thesuperficial.com###leaderboard
 thetandd.com##.yahoo_content_match
+thetechherald.com##div[style="height: 640px"]
 thetycho.com##.bnr728
 thevarguy.com###middlebannerwrapper
 thevarguy.com##.squarebanner160x160
@@ -14052,6 +14059,7 @@ vladtv.com###banner-bottom
 vmn.net##.results_sponsor
 vogue.co.uk##.headFullWidth
 vogue.co.uk##.secondary-content-mpu-box
+voxilla.com##.top_banner
 w2c.in##a[href^="http://c.admob.com/"]
 w3schools.com##a[rel="nofollow"]
 w3schools.com##div[style="width:960px;height:94px;position:relative;margin-left:auto;margin-right:auto;margin:0px;padding:0px;overflow:hidden"]
@@ -16803,6 +16811,7 @@ _cedexis.php
 ||widgeo.net/geocompteur/
 ||widgeo.net/tracking.php?
 ||widgetbox.com/syndication/track/
+||widgethost.com/pax/counter.js?
 ||widgetserver.com/metrics/
 ||widgetserver.com/t/
 ||widgetserver.com^*/quantcast.swf
