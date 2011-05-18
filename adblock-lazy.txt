@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: tLZRuDdLccyGbfP+H2M/Gg
+!  Checksum: EavjP9gRamphAYOobSV7zQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 18 May 2011 16:18:58 +0800
+!  Last Modified:  Wed, 18 May 2011 16:24:35 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -370,7 +370,6 @@ focus.cn##.ad_fp
 free-game.cc,freegame.com.tw##a[href^="http://www.itaiwanmj.com.tw/"]
 
 !---gamer.com.tw
-_460x260
 /banner/*$domain=gamer.com.tw
 
 !---机锋
@@ -2126,6 +2125,7 @@ zhyjms.com##[class^="gg"]
 /tanchuang^
 /tuiguang/*
 |http://*/ad/$domain=~10010.com|~42qu.com|~bangumi.tv|~bankcomm.com|~bgm.tv|~chii.in|~ezpeer.com|~tp-link.cn
+|https://*/ad/
 |http://gg.$~stylesheet,domain=~bbs.vc52.cn
 |http://*/gg/$~stylesheet
 |http://*/i.js|
