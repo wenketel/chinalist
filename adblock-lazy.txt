@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: AvkoONo+6S44Kn7jR6Kp+w
+!  Checksum: tLZRuDdLccyGbfP+H2M/Gg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 18 May 2011 12:08:49 +0800
+!  Last Modified:  Wed, 18 May 2011 16:18:58 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -15,7 +15,7 @@
 @@||51job.com^$elemhide
 @@||union.bokecc.com/flash/pocle/player.swf^
 @@||shangcuwang.com/ads/$image
-@@/userdirs/*$image
+@@||a.5d6d.com^$image
 
 !----------------------------Well-known Sites--------------
 !---网易
@@ -41,10 +41,13 @@ mail.126.com,mail.163.com##[id$="FakeLetterDiv"]
 !---17173
 @@||flash.17173.com/x/flashhzh700500.js
 /www/2011/sx/*$domain=17173.com
+/www/2011/bbs/*$domain=download.17173.com
 /www/ggcommon*.js|$domain=17173.com
 ||17173.com/if/
 /if/video/*$domain=17173.com
 ||17173.com/x/
+||book.17173.com/17k/xct/
+||book.17173.com/csite_ad.js
 ||images.17173.com^$object
 ||media.17173.com/09gonggao.js
 17173.com##[class^="banner"]
@@ -80,7 +83,6 @@ thinkpad.cn,51nb.com##div.menu+div.maintable>table.t_rown[width="875"]
 56.com##.rAd_text
 
 !---六间房
-@@||static.acs86.com/player/
 ||shrek.6.cn^
 ||lisbon.6rooms.com^
 ||6.cn/csjs10/tan_*.js
@@ -145,7 +147,7 @@ image.baidu.com###ecomContainer
 image.baidu.com###relEcom
 image.baidu.com###relecom54
 !--MP3
-||static.mp3.baidu.com^
+||static.mp3.baidu.com^$~stylesheet
 ||imgs.zhangmen.baidu.com/ecom/mp3ecom.js
 mp3.baidu.com###ecom
 mp3.baidu.com##.area-top-ads
@@ -171,6 +173,12 @@ zhidao.baidu.com##TABLE[width="100%"][bgcolor="#f5f5f5"]
 !--qiyi
 ||afp.qiyi.com^
 
+!---东莞视窗
+||bbapp.net/iframe/dongguan/images/ad
+||bbapp.net/iframe/dongguan/images/banner
+||bbapp.net/iframe/gd_xxg_ad.js
+dgnet.net##.banner
+
 !---bilibili.us
 ||bilibili.us/arcads.js
 /ad-images/*$domain=bilibili.us
@@ -186,11 +194,6 @@ bitauto.com##.con_ad
 ||bookge.com/rar/$subdocument,script
 ||bookge.com/$subdocument
 
-!---东莞视窗
-||bbapp.net/iframe/dongguan/images/ad
-||bbapp.net/iframe/dongguan/images/banner
-||bbapp.net/iframe/gd_xxg_ad.js
-dgnet.net##.banner
 
 !---源码网
 ||codepub.com/wuse/pic/
@@ -367,7 +370,7 @@ focus.cn##.ad_fp
 free-game.cc,freegame.com.tw##a[href^="http://www.itaiwanmj.com.tw/"]
 
 !---gamer.com.tw
-_460x260_
+_460x260
 /banner/*$domain=gamer.com.tw
 
 !---机锋
@@ -420,6 +423,7 @@ www.hsw.cn##table[width="980"][height="100"]
 !---凤凰网
 ||comment.ifeng.com/count_
 ||img.ifeng.com/tres/ifeng/
+||img.ifeng.com/tres/market/
 ||img.ifeng.com/tres/recommend/
 ||img.ifeng.com/tres/TemplateRes/ifengRotatorAd.js
 ||img.ifeng.com/tres/ylgm/
@@ -744,6 +748,10 @@ video.sina.com.cn###bgad_div
 ||sina.com.tw^$subdocument
 !--weibo
 weibo.com##.tips_player
+
+!---东方宽频
+@@||acs86.com/crossdomain.xml
+@@||static.acs86.com/player/
 
 !---人人软件站
 ||softii.com/Images/2006_11_top002.gif
@@ -1233,8 +1241,9 @@ down.x6x8.com/good/
 
 !---News Sites
 ||autohome.com.cn/33
-||33.autohome.com.cn
+||33.autohome.com.cn^
 ||img.autohome.com.cn/pvpv$script
+autohome.com.cn##div.mainContainer>div[style^="width:960px;"]
 ||backchina.com/banners/
 ||cankaoa.com/new/$script
 ||imgs.ccw.com.cn/200*/$image,object
@@ -1463,6 +1472,7 @@ sfw.com.cn##.cataBanner1
 @@||tlxsw.com/configs/article/wangzhai.js
 ||tlxsw.com/configs/$script
 ||ttshu.com/js/
+||tvbkt.cn/js/tvb/
 ||u17.com/z/mylife/acfun/qianxiang.js
 ||image.mylife.u17t.com^$object
 u17.com##.ad_728_90
@@ -1761,6 +1771,7 @@ xmnn.cn###fuke
 ||a4.yeshj.com^
 yeshj.com###adv_zone
 ||ytbbs.com/image/$object
+||yxlady.com/cdd/
 ||zbinfo.net/*zbxxg2009b/ggw/dmtgg/
 ||zhibo8.com/go/
 ||zhibo8.com/js/float2.js
@@ -1911,6 +1922,7 @@ zhyjms.com##[class^="gg"]
 ||cocoren.com^$third-party
 ||cpm9v.cn^$third-party
 ||cpmadworld.com^$third-party
+||v.cpp9v.cn^$third-party
 ||cpvm.net^$third-party
 ||crazymike.tw^$third-party
 ||cssyouxi.com^$third-party
@@ -2062,6 +2074,7 @@ zhyjms.com##[class^="gg"]
 ||xt918.com^$third-party
 ||gouwu.vip.xunlei.com^$third-party
 ||code.xwadv.com^$third-party
+||yczpw.com^$third-party
 ||js.ylunion.com^$third-party
 ||yigao.com^$third-party
 ||yiqifa.com^$third-party
@@ -2107,12 +2120,12 @@ zhyjms.com##[class^="gg"]
 /tan.js
 /u/_sponsor/*
 /uimg.
-/union.
+/union.$domain=~ctrip.com
 /webafp?
 /paypic/*
 /tanchuang^
 /tuiguang/*
-|http://*/ad/$domain=~10010.com|~42qu.com|~bangumi.tv|~bgm.tv|~chii.in|~ezpeer.com|~tp-link.cn
+|http://*/ad/$domain=~10010.com|~42qu.com|~bangumi.tv|~bankcomm.com|~bgm.tv|~chii.in|~ezpeer.com|~tp-link.cn
 |http://gg.$~stylesheet,domain=~bbs.vc52.cn
 |http://*/gg/$~stylesheet
 |http://*/i.js|
@@ -2205,12 +2218,14 @@ zaobao.com###myMovie
 !-----------------------Temporary---------------------------
 !---2011.5
 ||kafan.cn/static/kafan_img/
+||linuxeden.com/image/rongxinguangyu1.gif
 ||linuxdiyf.com/it/vfast.gif
 ||linuxdiyf.com/it/yutianedu*.gif
 ||livefilestore.com^$domain=bbs.cnscg.com
 ||okjee.com/js/union_api.js
 @@||bbs.pcbeta.com/static/image/biz/bbs_banner.png
 ||pic.yupoo.com/dapenti/B0OnizUM/LmVHV.gif
+||yutianedu.com/pic/linux95050.gif
 
 !------------------------End of List-------------------------
 
