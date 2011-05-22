@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: OPqCeT7yJ/1fAHx1QcdJ3Q
+!  Checksum: DCBro/VLQ30CxjpDnsudHA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 20 May 2011 12:59:13 +0800
+!  Last Modified:  Sun, 22 May 2011 23:11:48 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -184,6 +184,7 @@ dgnet.net##.banner
 !---bilibili.us
 ||bilibili.us/arcads.js
 /ad-images/*$domain=bilibili.us
+static.u17i.com^$domain=bilibili.us
 
 !---易车网
 ||g.bitauto.com^$script
@@ -1538,6 +1539,7 @@ xxsy.net###msg_win
 ||/provider2.ashx
 ||pro.letv.com^
 ||pipi.cn/player/
+||a.pomoho.com^
 ||pps.tv/js_a2d/
 ||pp2.pptv.com^
 ||xcdvd.com/xc_dvdjs/
@@ -2240,6 +2242,7 @@ zaobao.com###myMovie
 &adid=
 &adname=
 &adserver=
+&adslot=
 &adspace=
 &adtype=
 &advertiserid=
@@ -2858,6 +2861,7 @@ zaobao.com###myMovie
 /adshow.
 /adshow?
 /adshow_
+/adsidebarrect.
 /adsiframe/*
 /adsign.
 /adsimage/*
@@ -3386,6 +3390,7 @@ zaobao.com###myMovie
 /iframe_ads/*
 /iframe_ads?
 /iframe_chitika_
+/iframe_sponsor_
 /iframead.
 /iframead/*
 /iframead_
@@ -3901,6 +3906,7 @@ zaobao.com###myMovie
 /wire/ads/*$image
 /wmads.
 /wp-content/ads/*
+/wp-content/mbp-banner/*
 /wp-content/plugins/bhcb/lock.js
 /wp-content/plugins/fasterim-optin/*
 /wp-srv/ad/*
@@ -5063,6 +5069,7 @@ _768x90_
 ###adslot
 ###adsonar
 ~cooperhewitt.org,~metblogs.com,~oreilly.com,~thisisthehive.net###adspace
+###adspace-1
 ###adspace-300x250
 ###adspace300x250
 ###adspaceBox
@@ -5092,6 +5099,9 @@ _768x90_
 ###adt
 ###adtab
 ###adtag_right_side
+###adtagfooter
+###adtagheader
+###adtagrightcol
 ###adtaily-widget-light
 ###adtech_googleslot_03c
 ###adtech_takeover
@@ -5192,6 +5202,10 @@ _768x90_
 ###adzerk1
 ###adzoneBANNER
 ###affinityBannerAd
+###after-content-ads
+###after-header-ad-left
+###after-header-ad-right
+###after-header-ads
 ###agi-ad300x250
 ###agi-ad300x250overlay
 ###agi-sponsored
@@ -6974,6 +6988,7 @@ _768x90_
 ##.adkit-lb-footer
 ##.adlabel-horz
 ##.adlabel-vert
+##.adlabelleft
 ##.adleader
 ##.adleaderboard
 ##.adleft1
@@ -8510,6 +8525,7 @@ _768x90_
 ##.widget_ad_rotator
 ##.widget_econaabachoadswidget
 ##.widget_island_ad
+##.widget_maxbannerads
 ##.widget_sdac_bottom_ad_widget
 ##.widget_sdac_footer_ads_widget
 ##.widget_sdac_skyscraper_ad_widget
@@ -8746,6 +8762,7 @@ _768x90_
 ||advertlets.com^$third-party
 ||advertserve.com^$third-party
 ||advertstatic.com^$third-party
+||advertstream.com^$third-party
 ||advertxi.com^$third-party
 ||advg.jp^$third-party
 ||advgoogle.com^$third-party
@@ -8789,6 +8806,7 @@ _768x90_
 ||am10.ru^$third-party
 ||amgdgt.com^$third-party
 ||ampxchange.com^$third-party
+||anastasiasaffiliate.com^$third-party
 ||andomedia.com^$third-party
 ||anrdoezrs.net^$third-party
 ||apmebf.com^$third-party
@@ -8978,7 +8996,7 @@ _768x90_
 ||doubleclick.net/pfadx/*.sevenload.com_$object-subrequest,third-party
 ||doubleclick.net/pfadx/*adcat=$object-subrequest,third-party
 ||doubleclick.net/pfadx/nbcu.nbc/$object-subrequest,third-party
-||doubleclick.net^$object-subrequest,third-party,domain=addictinggames.com|atom.com|businessweek.com|cbs4denver.com|cnbc.com|dailytelegraph.com.au|darkhorizons.com|doubleviking.com|eonline.com|fandango.com|foxbusiness.com|g4tv.com|gametrailers.com|gorillanation.com|hulu.com|joblo.com|kptv.com|listen.grooveshark.com|mtv.co.uk|mtv.com|mtv.com.au|mtv.com.nz|mtvbase.com|mtvmusic.com|myfoxorlando.com|myfoxphoenix.com|nationalgeographic.com|news.com.au|newsweek.com|nick.com|nintendoeverything.com|npr.org|pandora.com|photoradar.com|play.it|ps3news.com|rte.ie|sbs.com.au|sbsun.com|sevenload.com|shockwave.com|sk-gaming.com|southpark.nl|southparkstudios.se|space.com|spike.com|syfy.com|thedailygreen.com|thedailyshow.com|thewire.com|ustream.tv|videojug.com|washingtonpost.com|wcbstv.com|wetransfer.com|wired.com|wkbw.com|wsj.com|wwe.com|youtube.com|zappinternet.com|zoomin.tv
+||doubleclick.net^$object-subrequest,third-party,domain=addictinggames.com|atom.com|businessweek.com|cbs4denver.com|cnbc.com|dailytelegraph.com.au|darkhorizons.com|doubleviking.com|eonline.com|fandango.com|foxbusiness.com|g4tv.com|gametrailers.com|gorillanation.com|hulu.com|joblo.com|kptv.com|listen.grooveshark.com|mtv.co.uk|mtv.com|mtv.com.au|mtv.com.nz|mtvbase.com|mtvmusic.com|myfoxorlando.com|myfoxphoenix.com|nationalgeographic.com|news.com.au|newsweek.com|nick.com|nintendoeverything.com|npr.org|pandora.com|photoradar.com|play.it|ps3news.com|rte.ie|sbs.com.au|sbsun.com|sevenload.com|shockwave.com|sk-gaming.com|southpark.nl|southparkstudios.se|space.com|spike.com|syfy.com|thebostonchannel.com|thedailygreen.com|thedailyshow.com|thewire.com|ustream.tv|videojug.com|washingtonpost.com|wcbstv.com|wetransfer.com|wired.com|wkbw.com|wsj.com|wwe.com|youtube.com|zappinternet.com|zoomin.tv
 ||doubleclick.net^$~object-subrequest,third-party
 ||doubleclick.net^*;sz=$object-subrequest,third-party,domain=10news.com|1up.com|bet.com|breitbart.tv|cbc.ca|dailystar.co.uk|digitaltrends.com|fox5sandiego.com|foxnews.com|france24.com|gamesradar.com|heavy.com|muzu.tv|myfoxatlanta.com|myfoxny.com|myspace.com|nbc.com|nbcsandiego.com|news.com.au|newson6.com|nhl.com|player.amri.ca|rapbasement.com|wptv.com
 ||doublepimp.com^$third-party
@@ -9529,6 +9547,7 @@ _768x90_
 ||yieldmanager.com^$third-party
 ||yieldmanager.net^$third-party
 ||yldmgrimg.net^$third-party
+||ymads.com^$third-party
 ||yottacash.com^$third-party
 ||yumenetworks.com^$third-party
 ||yvoria.com^$third-party
@@ -9665,6 +9684,7 @@ _768x90_
 ||buzznet.com^*/showpping-banner-$third-party
 ||cancomdigital.com/resourcecenter/$third-party
 ||canonresourcecenter.com^$third-party
+||carefuldoctor.com/adv/search.php
 ||cas.clickability.com^
 ||cash.neweramediaworks.com^
 ||cashmakingpowersites.com^*/banners/
@@ -10419,6 +10439,7 @@ _768x90_
 ||gametrailers.com/images/gtindexforslices_32.gif
 ||gametrailers.com^*/gt6_siteskin_$stylesheet
 ||gappon.com/images/hot2.gif
+||gawker.com/creative/
 ||gawkerassets.com/assets/_takeover/
 ||gawkerassets.com/assets/doubleclick/
 ||gaydarnation.com/userportal/miva/
@@ -10600,6 +10621,7 @@ _768x90_
 ||linuxmint.com^*/sponsor/
 ||linuxmint.com^*/sponsors/
 ||linuxtopia.org/includes/$subdocument
+||livestream.com/filestore/logos/*-bg-image.jpg
 ||livestream.com^*/overlay/
 ||ll.a.hulu.com^
 ||localdirectories.com.au^*/bannerimages/
@@ -12379,6 +12401,7 @@ information-management.com##.ad
 informationmadness.com###ja-topsl
 informationweek.com###buylink
 informationweek.com##.ad
+informer.com##.advert
 informit.com###leaderboard
 infosecurity-magazine.com##.skyscraper
 infoworld.com##.recRes_head
@@ -13616,6 +13639,7 @@ softonic.com##.topbanner_program
 softpedia.com##.logotable[align="right"] > a[target="_blank"]
 softpedia.com##.pagehead_op2
 softpedia.com##img[width="600"][height="90"]
+software.informer.com##.w_e
 solarmovie.com###l_35061
 solomontimes.com###casino_banner
 someecards.com###shop
@@ -13899,6 +13923,8 @@ titanshare.to##a[onclick^="FileDownload('file',"]
 titantorrent.to##a[onclick^="DownloadFile('file'"]
 titantorrent.to##a[onclick^="FileDownload('file',"]
 titantv.com##.leaderboard
+tmonews.com###googlead-sidebar-middle
+tmonews.com###googlead-sidebar-top
 tmrzoo.com##.headbanner
 tmz.com###leaderboard
 tmz.com###skyscraper
@@ -14636,6 +14662,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||apple.com^*/video-ad.html
 @@||applevideo.edgesuite.net/admedia/*.flv
 @@||ar.atwola.com/file/adswrapper.js$script,domain=gasprices.mapquest.com
+@@||as.medscape.com/html.ng/transactionid%$subdocument,domain=medscape.com
 @@||as.webmd.com/html.ng/transactionid=$object-subrequest
 @@||as.webmd.com/html.ng/transactionid=*&frame=$subdocument
 @@||assets.idiomag.com/flash/adverts/yume_$object-subrequest
@@ -14657,6 +14684,14 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||bing.com/images/async?q=$xmlhttprequest
 @@||bing.net/images/thumbnail.aspx?q=$image
 @@||bitgravity.com/revision3/swf/player/admanager.swf?$object-subrequest,domain=area5.tv
+@@||blog.deadspin.com/static/ad_iframe.php?
+@@||blog.gawker.com/static/ad_iframe.php?
+@@||blog.gizmodo.com/static/ad_iframe.php?
+@@||blog.io9.com/static/ad_iframe.php?
+@@||blog.jalopnik.com/static/ad_iframe.php?
+@@||blog.jezebel.com/static/ad_iframe.php?
+@@||blog.kotaku.com/static/ad_iframe.php?
+@@||blog.lifehacker.com/static/ad_iframe.php?
 @@||bloomberg.com/rapi/ads/js_config.js
 @@||box10.com/advertising/preroll/*-preloader.swf$object
 @@||break.com/ads/preroll/$object-subrequest,domain=videosift.com
@@ -16699,6 +16734,7 @@ _cedexis.php
 ||metrics.ctvdigital.net^
 ||metrics.feedroom.com^
 ||metrics.loomia.com^
+||metrics.scribblelive.com^
 ||mkcms.com/stats.js
 ||mochiads.com/clk/
 ||modules.ooyala.com^*/analytics-
@@ -17146,7 +17182,7 @@ _cedexis.php
 ||86.63.194.248/js/measure.js$third-party,domain=feedcat.net
 ||a7.org/infol.php?
 ||abc.net.au/counters/
-||acronymfinder.com^*/track.ashx?
+||acronymfinder.com/~/st/af.js
 ||addresses.com/track_event.php?
 ||adf.ly/omni*.swf
 ||adidas.com/analytics/
@@ -17773,6 +17809,7 @@ _cedexis.php
 ||arlt.com^*/econda/
 ||arte.tv^*=countstats,
 ||augsburger-allgemeine.de^*/etracker.js
+||beepworld.de^*/visitortracker.pl?
 ||berlinonline.de^*/cp.php?
 ||bild.de/code/jiffy,*.js
 ||bild.de/code/linktracking,*.js
@@ -18025,6 +18062,7 @@ _cedexis.php
 ||quattroruote.it/log.htm?
 ||repubblica.it/ad/
 ||rmastri.it/plugins/log/log.php?
+||seat.it/cgi-bin/getcod.cgi?
 ||stats.splinder.com^
 ||supereva.it/stats.gif?
 ||tracking.gruppo.mps.it^
@@ -18107,7 +18145,7 @@ _cedexis.php
 @@||imrworldwide.com^*/flashdetect.js
 @@||imrworldwide.com^*/swfobject.js
 @@||js.revsci.net/gateway/gw.js?$domain=foxbusiness.com|foxnews.com
-@@||livepass.conviva.com^$object-subrequest,domain=edgesuite.net
+@@||livepass.conviva.com^$object-subrequest,domain=cbc.ca|edgesuite.net
 @@||lloydstsb.com/it/xslt/touchclarity/omtr_tc.js
 @@||maxmind.com^*/geoip.js$domain=incgamers.com|stoli.com
 @@||media-imdb.com^*/clickstream.js
@@ -18115,6 +18153,8 @@ _cedexis.php
 @@||metrics.nissanusa.com/b/ss/nissanusacom/$image
 @@||myfamilycominc.tt.omtrdc.net^$script,domain=ancestry.com.au
 @@||networkworld.com^*/demandbase.js
+@@||nexus.ensighten.com/crossdomain.xml$domain=thebostonchannel.com
+@@||nexus.ensighten.com^*/ensightenplugin.swf$domain=thebostonchannel.com
 @@||o.aolcdn.com/omniunih.js$domain=mapquest.com|www.aol.com
 @@||optimost.com/counter/*/event.js?$domain=bebo.com
 @@||optimost.com^*/content.js?$domain=bebo.com
@@ -18127,8 +18167,8 @@ _cedexis.php
 @@||statcounter.com/js/fusioncharts.js
 @@||statcounter.com/msline.swf
 @@||trc.taboolasyndication.com/log/breitbart/click?$image,domain=breitbart.tv
-@@||tubemogul.com/crossdomain.xml$object-subrequest,domain=clgaming.net|holysh1t.net|own3d.tv
-@@||tubemogul.com^*/tubemogulflowplayer.swf$domain=clgaming.net|holysh1t.net|own3d.tv
+@@||tubemogul.com/crossdomain.xml$object-subrequest,domain=clgaming.net|holysh1t.net|own3d.tv|thebostonchannel.com
+@@||tubemogul.com^*/tubemogulflowplayer.swf$domain=clgaming.net|holysh1t.net|own3d.tv|thebostonchannel.com
 @@||vod.olympics2010.msn.com/beacon?$object-subrequest
 @@||vod.universalsports.com/beacon?$object-subrequest
 !-----------------International whitelists-----------------!
