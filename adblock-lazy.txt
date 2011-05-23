@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: DCBro/VLQ30CxjpDnsudHA
+!  Checksum: fAgWFVmlYqlm6frOdU3KIw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 22 May 2011 23:11:48 +0800
+!  Last Modified:  Mon, 23 May 2011 22:06:24 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -2146,7 +2146,7 @@ zhyjms.com##[class^="gg"]
 /pv?peerid=
 /stat.$script,domain=~ameblo.jp|~sohu.com|~verycd.com|~zcool.com.cn
 /tongji.js
-/track.
+/track.$domain=~bioinformatics.bms.com
 /usertrack.
 !-sort by domain
 ||114la.com^$third-party
@@ -5596,6 +5596,8 @@ _768x90_
 ###google_ads_top
 ###google_adsense_home_468x60_1
 ~pescorner.net###googlead
+###googlead-sidebar-middle
+###googlead-sidebar-top
 ###googlead2
 ###googleadbox
 ###googleads
@@ -5684,6 +5686,7 @@ _768x90_
 ###horizontal_ad
 ###horizontal_ad_top
 ###horizontalads
+###hot-deals-ad
 ###houseAd
 ###hp-header-ad
 ###hp-right-ad
@@ -6339,6 +6342,7 @@ _768x90_
 ~co-operative.coop##.AdBox
 ##.AdBox7
 ##.AdContainerBox308
+##.AdContainerModule
 ##.AdHeader
 ##.AdHere
 ~backpage.com##.AdInfo
@@ -11704,6 +11708,7 @@ dawn.com##div[style="float:left;background-color:#e9e8e8;clear:both;height:auto;
 deadspin.com###skyscraper
 dealbrothers.com##.specials
 dealmac.com###banner-bottom
+dealnews.com##.ad
 dealnews.com##.banner
 deargirlsaboveme.com##.ad
 deditv.com##.overlayVid
@@ -13923,8 +13928,6 @@ titanshare.to##a[onclick^="FileDownload('file',"]
 titantorrent.to##a[onclick^="DownloadFile('file'"]
 titantorrent.to##a[onclick^="FileDownload('file',"]
 titantv.com##.leaderboard
-tmonews.com###googlead-sidebar-middle
-tmonews.com###googlead-sidebar-top
 tmrzoo.com##.headbanner
 tmz.com###leaderboard
 tmz.com###skyscraper
@@ -14830,6 +14833,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||mochiads.com/srv/*.swf?cxnid=$domain=gamesforwork.com
 @@||monster.com/services/bannerad.asmx/getadsrc$xmlhttprequest,domain=monster.com
 @@||mozilla.com/img/tignish/plugincheck/*/728_90/loading.png$domain=mozilla.com
+@@||mp32u.net/adframe.js
 @@||msads.net/*.swf|$domain=msnbc.msn.com
 @@||msads.net/crossdomain.xml$object-subrequest,domain=msnbc.msn.com
 @@||msads.net^*.flv|$domain=msnbc.msn.com
@@ -16247,6 +16251,7 @@ _cedexis.php
 ||seitwert.de^$third-party
 ||sensic.net^$third-party
 ||sitebro.de^$third-party
+||space-link.de^$third-party
 ||spacehits.net^$third-party
 ||speedcounter.net^$third-party
 ||speedtracker.de^$third-party
@@ -16539,6 +16544,7 @@ _cedexis.php
 ||195.182.58.105/statistics/$third-party,domain=~stream5.tv.ip
 ||204.236.233.138/tracker/$third-party,domain=~skytide.ip
 ||204.236.243.21/small.gif?$third-party,domain=~skytide.ip
+||209.15.236.80/allwebhosts/$third-party,domain=~tmonews.ip
 ||209.20.84.187/blank.gif?$third-party,domain=~gatehousenewsservice.com.ip
 ||4theclueless.com/adlogger/
 ||99widgets.com/counters/
@@ -16601,6 +16607,7 @@ _cedexis.php
 ||bit.ly/stats?
 ||bitgravity.com^*/tracking/
 ||blogblog.com/tracker/
+||bmw.com^*/tracking_add_ons.js
 ||bravenet.com/counter/
 ||brcdn.com^*/br-trk.js
 ||bumpin.com^*/analytics.html
@@ -16936,6 +16943,7 @@ _cedexis.php
 ||im.aol.de^
 ||ivw.discover-outdoor.de^
 ||ivw.dumontreise.de^
+||ivw.fem.com^
 ||koe-vip.com/statistik/
 ||kt-g.de/counter.php?
 ||log.worldsoft-cms.info^
@@ -17779,6 +17787,7 @@ _cedexis.php
 ||yahoo.com^*/ystat.js
 ||yellowpages.com/images/logging_requests.gif
 ||yellowpages.com/proxy/envoy/yahoo/listings?
+||yourfilehost.com/counter.htm
 ||youtube.com/gen_204?
 ||youtube.com/generate_204
 ||youtube.com/player_204?
@@ -17958,6 +17967,7 @@ _cedexis.php
 ||rundschau-online.de^*/c2_count.js
 ||s.fsphp.t-online.de^
 ||salzburg.com/nwas/count.php?
+||secreta.de/tinc?
 ||shortnews.de/iframes/view_news.cfm?
 ||stargate-planet.de^*counter*/c$image,script
 ||static-fra.de^*/tracking.js
