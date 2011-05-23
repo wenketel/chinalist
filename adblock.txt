@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: /LcSLNc9m01QmZg8MKrFWg
+!  Checksum: +2ErfYdp9F4sV1e5C5JJOg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 23 May 2011 22:06:24 +0800
+!  Last Modified:  Tue, 24 May 2011 00:21:19 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -184,7 +184,7 @@ dgnet.net##.banner
 !---bilibili.us
 ||bilibili.us/arcads.js
 /ad-images/*$domain=bilibili.us
-static.u17i.com^$domain=bilibili.us
+||static.u17i.com^$domain=bilibili.us
 
 !---易车网
 ||g.bitauto.com^$script
@@ -2132,7 +2132,7 @@ zhyjms.com##[class^="gg"]
 |https://*/ad/
 |http://gg.$~stylesheet,domain=~bbs.vc52.cn
 |http://*/gg/$~stylesheet
-|http://*/i.js|
+|http://*/i.js|$third-party
 
 !-----------------------------Privacy----------------------
 /count.$domain=~bilibili.us|~downg.com|~taobao.com

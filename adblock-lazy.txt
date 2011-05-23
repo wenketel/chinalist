@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: fAgWFVmlYqlm6frOdU3KIw
+!  Checksum: ptfExSkQv8joRiRXi5Zpsg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 23 May 2011 22:06:24 +0800
+!  Last Modified:  Tue, 24 May 2011 00:21:19 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -184,7 +184,7 @@ dgnet.net##.banner
 !---bilibili.us
 ||bilibili.us/arcads.js
 /ad-images/*$domain=bilibili.us
-static.u17i.com^$domain=bilibili.us
+||static.u17i.com^$domain=bilibili.us
 
 !---易车网
 ||g.bitauto.com^$script
@@ -2132,7 +2132,7 @@ zhyjms.com##[class^="gg"]
 |https://*/ad/
 |http://gg.$~stylesheet,domain=~bbs.vc52.cn
 |http://*/gg/$~stylesheet
-|http://*/i.js|
+|http://*/i.js|$third-party
 
 !-----------------------------Privacy----------------------
 /count.$domain=~bilibili.us|~downg.com|~taobao.com
@@ -10543,6 +10543,7 @@ _768x90_
 ||injpn.net/images/banners/
 ||insidehw.com/images/banners/
 ||inspirefirst.com^*/banners/
+||intellicast.com/outsidein.js
 ||intellicast.com/travel/cheapflightswidget.htm
 ||interfacelift.com/inc_new/$subdocument
 ||interfacelift.com^*/artistsvalley_160x90_
@@ -10621,6 +10622,7 @@ _768x90_
 ||linkbucksmedia.com/director/
 ||linkcrypt.ws/image/hoster/
 ||linksafe.info^*/mirror.png
+||linksave.in/fopen.html.php?
 ||linksave.in^*/downloadbutton_highspeed.png
 ||linuxmint.com^*/sponsor/
 ||linuxmint.com^*/sponsors/
@@ -15025,7 +15027,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||pagead2.googlesyndication.com/pagead/ads?client=$subdocument,domain=full-ngage-games.blogspot.com
 @@||pagead2.googlesyndication.com/pagead/expansion_embed.js$domain=full-ngage-games.blogspot.com|gameserver.n4cer.de|gpxplus.net|ninjaraider.com|upfordown.com
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=full-ngage-games.blogspot.com|gameserver.n4cer.de|geeklab.info|gpxplus.net|ninjaraider.com|upfordown.com
-@@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=articlewagon.com|full-ngage-games.blogspot.com|gameserver.n4cer.de|geeklab.info|gpxplus.net|myspace.com|ninjaraider.com|spreadlink.us|upfordown.com|warp2search.net
+@@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=articlewagon.com|full-ngage-games.blogspot.com|gameserver.n4cer.de|geeklab.info|gpxplus.net|iphoneitalia.com|myspace.com|ninjaraider.com|spreadlink.us|upfordown.com|warp2search.net
 @@||ping.indieclicktv.com/www/delivery/ajs.php?zoneid=$object-subrequest
 @@||rapid8.com/ads/adcontroller.js
 @@||ratebeer.com/javascript/advertisement.js
@@ -15052,6 +15054,8 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||ads.e-planning.net^*/preroll?$object-subrequest,domain=ole.com.ar
 @@||ads.globo.com/crossdomain.xml$object-subrequest
 @@||ads.globo.com/realmedia/ads/adstream_jx.ads/$object-subrequest,domain=globo.com
+@@||ads.spinblog.it/www/delivery/ajs.php?zoneid=15&$domain=ipaditalia.com
+@@||ads.spinblog.it/www/delivery/ajs.php?zoneid=3&$domain=iphoneitalia.com
 @@||ads.us.e-planning.net/crossdomain.xml$object-subrequest,domain=elcomercio.pe
 @@||ads.us.e-planning.net/crossdomain.xml$object-subrequest,domain=streamtheworld.com
 @@||ads.us.e-planning.net^*&ma=*&vv=$object-subrequest,domain=elcomercio.pe
@@ -16544,7 +16548,7 @@ _cedexis.php
 ||195.182.58.105/statistics/$third-party,domain=~stream5.tv.ip
 ||204.236.233.138/tracker/$third-party,domain=~skytide.ip
 ||204.236.243.21/small.gif?$third-party,domain=~skytide.ip
-||209.15.236.80/allwebhosts/$third-party,domain=~tmonews.ip
+||209.15.236.80^$third-party,domain=~crosspixelmedia.ip
 ||209.20.84.187/blank.gif?$third-party,domain=~gatehousenewsservice.com.ip
 ||4theclueless.com/adlogger/
 ||99widgets.com/counters/
