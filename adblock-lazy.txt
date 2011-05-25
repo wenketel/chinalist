@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: ZoQDP9T/5mbce7XVWFrFIw
+!  Checksum: n6Kb/Aoq9SIbm5atR7VgFA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 25 May 2011 17:26:06 +0800
+!  Last Modified:  Wed, 25 May 2011 22:44:39 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -124,7 +124,6 @@ v.6.cn###playerAd
 !---小众软件
 ||appinn.com/wp-content/since84.jpg
 ||appinn.com/wp-content/uploads/$image
-||nanrenwa.com/_img/a/appinn.150.jpg
 appinn.com##.ads
 appinn.com##.gad
 
@@ -1591,6 +1590,7 @@ www.bzcm.net##[id^="followDiv"]
 ||cbifamily.com/corporation/
 ||chinacaipu.com^$subdocument
 ||chinacaipu.com/a/p2.asp
+||img.chromi.org/2011/03/AD300150.png
 ||city8.com/Search/script/absence.js
 ||disk.cjdby.com/filestores/
 ||cqcpu.com/andy/
@@ -2227,6 +2227,7 @@ zaobao.com###myMovie
 ||linuxdiyf.com/it/vfast.gif
 ||linuxdiyf.com/it/yutianedu*.gif
 ||livefilestore.com^$domain=bbs.cnscg.com
+||nanrenwa.com/_img/a/
 ||okjee.com/js/union_api.js
 @@||bbs.pcbeta.com/static/image/biz/bbs_banner.png
 ||pic.yupoo.com/dapenti/B0OnizUM/LmVHV.gif
@@ -2673,6 +2674,7 @@ zaobao.com###myMovie
 /adplayer.
 /adplayer/*
 /adplugin.
+/adplugin_
 /adpoint.
 /adpool/*
 /adpopup.
@@ -7307,6 +7309,7 @@ _768x90_
 ##.advertisespace_div
 ##.advertising-banner
 ##.advertising-header
+##.advertising-leaderboard
 ##.advertising-local-links
 ##.advertising2
 ##.advertisingTable
@@ -7390,6 +7393,7 @@ _768x90_
 ##.bannerAd
 ##.bannerAdWrapper300x250
 ##.bannerAdWrapper730x86
+##.bannerAdvert
 ##.bannerRightAd
 ##.banner_300x250
 ~milenio.com##.banner_728x90
@@ -7668,6 +7672,7 @@ _768x90_
 ##.footerAdModule
 ##.footerAds
 ##.footerAdslot
+##.footerAdverts
 ##.footerTextAd
 ##.footer_ad
 ##.footer_ad336
@@ -8156,6 +8161,7 @@ _768x90_
 ##.right-sidebar-box-ad
 ~theberrics.com##.rightAd
 ##.rightAdBox
+##.rightAdverts
 ##.rightColAd
 ##.rightColumnRectAd
 ##.rightRailAd
@@ -8268,6 +8274,7 @@ _768x90_
 ##.skyAd
 ##.skyAdd
 ##.skyAdvert
+##.skyAdvert2
 ~radaronline.com##.sky_ad
 ##.sky_scraper_ad
 ##.skyad
@@ -8450,6 +8457,7 @@ _768x90_
 ##.topAdWrap
 ~timescall.com##.topAds
 ##.topAdvertisement
+##.topAdverts
 ##.topBannerAd
 ##.topLeaderboardAd
 ##.top_Ad
@@ -8688,6 +8696,7 @@ _768x90_
 ||adlink.net^$third-party
 ||adlisher.com^$third-party
 ||admagnet.net^$third-party
+||adman.gr^$third-party
 ||admarketplace.net^$third-party
 ||admaya.in^$third-party
 ||admeld.com^$third-party
@@ -9234,6 +9243,7 @@ _768x90_
 ||mktseek.com^$third-party
 ||mmotraffic.com^$third-party
 ||money4ads.com^$third-party
+||monsoonads.com^$third-party
 ||mookie1.com^$third-party
 ||mootermedia.com^$third-party
 ||moregamers.com^$third-party
@@ -11665,6 +11675,7 @@ crackdb.cd##td[background="/img/tittel.gif"]:first-child > h1:first-child + h1:l
 cracked.com##.Ad
 crackserver.com##input[onclick^="window.open('http://www.friendlyduck.com/AF_"]
 craftster.org##table[height="90"][width="728"]
+crash.net##.mpuBack
 crazymotion.net###fadeinbox
 creatives.livejasmin.com##body
 cricbuzz.com###chrome_home_banner
@@ -13502,6 +13513,7 @@ rubbernews.com##td[width="250"]
 rumorcontrol.info##.adv
 runescape.com###tb
 rushlimbaugh.com###top_leaderboard
+rwdmag.com##.advert
 rwonline.com##table[width="665"]
 sabcmobile.co.za##a[href^="http://c.admob.com/"]
 sabcnews.mobi##a[href^="http://c.admob.com/"]
@@ -15114,6 +15126,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||openx.zomoto.nl/live/www/delivery/spcjs.php?id=
 @@||pagead2.googlesyndication.com/pagead/abglogo/abg-da-100c-000000.png$domain=janno.dk|nielco.dk
 @@||ring.bg/adserver/adall.php?*&video_on_page=1
+@@||skai.gr/advert/*.flv$object-subrequest
 @@||smartadserver.com/call/pubj/$object-subrequest,domain=antena3.com
 @@||smartadserver.com/crossdomain.xml$object-subrequest,domain=antena3.com
 @@||static.mobile.eu^*/resources/images/ads/superteaser_$image,domain=automobile.fr|automobile.it|mobile.eu|mobile.ro
@@ -17422,9 +17435,10 @@ _cedexis.php
 ||go.com/stat/
 ||goauto.com.au^*/ecblank.gif?
 ||godaddy.com/image.aspx?
+||google.*/gen204?
+||google.*/gen_204?
 ||google.*/gwt/x/ts?
 ||google.*/stats?ev=
-||google.com/gen204?
 ||google.com/lh/ajaxlog?
 ||google.com/uds/stats?
 ||greatschools.org/res/js/trackit.js
@@ -17802,6 +17816,9 @@ _cedexis.php
 ||ws.md/c.png?
 ||wsj.com^*/pixeltracking.html?
 ||wsj.net^*/pixeltracking.html?
+||www.google.*/imghover?$image
+||www.google.*/sbd?$xmlhttprequest
+||www.google.*/url?$image
 ||www.imdb.*/rd/?q=
 ||yahoo.com/b?p=
 ||yahoo.com/p.gif;
@@ -17811,6 +17828,7 @@ _cedexis.php
 ||yahoo.com^*/ystat.js
 ||yellowpages.com/images/logging_requests.gif
 ||yellowpages.com/proxy/envoy/yahoo/listings?
+||yimg.com^*/yabcs.js
 ||yourfilehost.com/counter.htm
 ||youtube.com/gen_204?
 ||youtube.com/generate_204
@@ -18206,6 +18224,7 @@ _cedexis.php
 @@||tremor.nuggad.net/crossdomain.xml$object-subrequest,domain=deluxemusic.tv
 @@||tubemogul.com/crossdomain.xml$object-subrequest,domain=clgaming.net|holysh1t.net|own3d.tv|thebostonchannel.com
 @@||tubemogul.com^*/tubemogulflowplayer.swf$domain=clgaming.net|holysh1t.net|own3d.tv|thebostonchannel.com
+@@||vacayvitamins.com/wp-content/plugins/wp-minify/min/?*/google-analyticator/$script
 @@||vod.olympics2010.msn.com/beacon?$object-subrequest
 @@||vod.universalsports.com/beacon?$object-subrequest
 @@||yimg.com/mi/ywa.js$domain=nydailynews.com
