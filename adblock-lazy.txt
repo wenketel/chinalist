@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 9ULZgw0B9DBKcl+HzyBx8w
+!  Checksum: jL2iwu6Sy/CSqtiwTlKjXg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 26 May 2011 04:15:14 +0800
+!  Last Modified:  Thu, 26 May 2011 11:21:11 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -389,6 +389,10 @@ news.gxsky.com##div#clickeye_content > div[align="left"]
 !---广友影视
 ||96.44.179.162
 gy778tv.cn##.gg
+
+!---hdchina
+||hdchina.org/ad.swf
+bbs.hdchina.org##.home_left_hot
 
 !---和讯
 /att_count.js
@@ -2227,7 +2231,6 @@ chinese.engadget.com##.post[style]
 g-fox.cn##[id^="ad_links"]
 g-fox.cn##[id^="banner_show"]
 hao123.com##.middle
-bbs.hdchina.org##.home_left_hot
 www.hoopchina.com##[class^="ad"]
 itfunz.com##.a_pb
 ivaluing.com###aa
@@ -8735,6 +8738,7 @@ _768x90_
 ||adlink.net^$third-party
 ||adlisher.com^$third-party
 ||admagnet.net^$third-party
+||admamba.com^$third-party
 ||adman.gr^$third-party
 ||admarketplace.net^$third-party
 ||admaya.in^$third-party
@@ -9094,6 +9098,7 @@ _768x90_
 ||exelator.com^$third-party
 ||exitexplosion.com^$third-party
 ||exitjunction.com^$third-party
+||exoclick.com^$third-party
 ||exponential.com^$third-party
 ||eyereturn.com^$third-party
 ||eyewonder.com^$third-party
@@ -9611,6 +9616,7 @@ _768x90_
 ||xx00.info^$third-party
 ||yceml.net^$third-party
 ||yesnexus.com^$third-party
+||yfum.com^$third-party
 ||yieldads.com^$third-party
 ||yieldbuild.com^$third-party
 ||yieldmanager.com^$third-party
@@ -9640,6 +9646,10 @@ _768x90_
 ||mojiva.com^$third-party
 ||smaato.net^$third-party
 ||waptrick.com^$third-party
+! *** easylist_adult/adult_adservers.txt ***
+||mediagra.com^$third-party
+||naiadsystems.com^$third-party
+||nsimg.net^$third-party
 !-----------------Third-party adverts-----------------!
 ! *** easylist/easylist_thirdparty.txt ***
 ||000webhost.com/images/banners/
@@ -10122,10 +10132,11 @@ _768x90_
 ||yimg.com^*/quickplay_maxwellhouse.png
 ||you-cubez.com/images/banners/
 ||ziffdavisenterprise.com/contextclicks/
-! Preliminary third-party adult section
-||hotcaracum.com/banner/$third-party
 ! Mobile
 ||iadc.qwapi.com^
+! *** easylist_adult/adult_thirdparty.txt ***
+||hotcaracum.com/banner/$third-party
+||promos.meetlocals.com^$third-party
 !-----------------Specific advert blocking filters-----------------!
 ! *** easylist/easylist_specific_block.txt ***
 /left.html$domain=thepiratebay.org
@@ -11206,6 +11217,8 @@ _768x90_
 ||indieclicktv.com/player/swf/*/icmmva%5eplugin.swf$object-subrequest
 ||longtailvideo.com^*/yume.swf$domain=watch-naruto.tv
 ||satelliteguys.us/antiadblock.js
+! *** easylist_adult/adult_specific_block.txt ***
+||porntube.com/ads|
 !-----------------Specific element hiding rules-----------------!
 ! *** easylist/easylist_specific_hide.txt ***
 10minutemail.com###shoutouts
@@ -14671,6 +14684,9 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 ~pregecko2,zedomax.com##div[style="width: 100%; height: 280px;"]
 ~pregecko2,zedomax.com##div[style="width: 336px; height: 280px;"]
 ~pregecko2,zeenews.com##div[style="height: 250px; overflow: hidden;"]
+! *** easylist_adult/adult_specific_hide.txt ***
+xhamster.com##a[href="http://premium.xhamster.com/join.html?from=no_ads"]
+xtube.com##div[style="text-align:center; width:1000px; height: 150px;"]
 !-----------------Whitelists-----------------!
 ! *** easylist/easylist_whitelist.txt ***
 @@/static/ad_iframe.php?*%3bsz%3d640x360%3b$domain=deadspin.com|gawker.com|gizmodo.com|io9.com|jalopnik.com|jezebel.com|kotaku.com|lifehacker.com
@@ -15187,6 +15203,8 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||video1.italiaoggi.it/movie/movie/adserver_$object,object-subrequest
 @@||video1.milanofinanza.it/movie/movie/adserver_$object,object-subrequest
 @@||videos.lanacion.com.ar^*/xml/publicidad/$object
+! *** easylist_adult/adult_whitelist.txt ***
+@@||fucktube.com/work/videoad.php?
 
 ! EasyPrivacy - https://easylist.adblockplus.org/
 
