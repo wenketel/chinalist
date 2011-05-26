@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: qC8ZWmzyVPufrDzTY9zfyQ
+!  Checksum: 1gIWTwItud/IEFehDs9xFg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 26 May 2011 15:15:28 +0800
+!  Last Modified:  Thu, 26 May 2011 16:32:42 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -2148,7 +2148,7 @@ zhyjms.com##[class^="gg"]
 /adv.
 /adv/*
 /affiliate/*
-.allyes.$~object_subrequest
+.allyes.
 /allyes.
 /floatadv.
 /ggao/*
@@ -6790,6 +6790,7 @@ _768x90_
 ##.adPanel
 ##.adPod
 ##.adRect
+##.adResult
 ##.adRight
 ##.adSKY
 ##.adSelfServiceAdvertiseLink
@@ -7270,6 +7271,7 @@ _768x90_
 ##.advert-mpu
 ##.advert-skyscraper
 ##.advert-text
+##.advert-title
 ##.advert-txt
 ##.advert300
 ##.advert300x250
@@ -8337,6 +8339,7 @@ _768x90_
 ##.spl_ad2
 ##.spl_ad_plus
 ##.splitAd
+##.splitAdResultsPane
 ##.sponlinkbox
 ##.spons-link
 ##.spons_links
@@ -9551,6 +9554,7 @@ _768x90_
 ||valueclick.com^$third-party
 ||valueclickmedia.com^$third-party
 ||vcmedia.com^$third-party
+||vdopia.com^$third-party
 ||velmedia.net^$third-party
 ||veoxa.com^$third-party
 ||versetime.com^$third-party
@@ -13446,6 +13450,7 @@ querverweis.net##.iframe_box
 quibblo.com##.ad
 quickload.to###ball
 quickload.to##a[href="http://www.quickload.to/Usenet.exe"]
+quickload.to##a[href^="http://videoplay-to.com"]
 quickload.to##a[href^="http://www.quickload.to/click.php?id="]
 quicksilverscreen.com##a[href="http://www.tubeplus.com"]
 quicksilverscreen.com##a[href^="http://install.secure-softwaremanager.com/"]
@@ -14976,6 +14981,7 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||sonicstate.com/video/hd/hdconfig-geo.cfm?*/www/delivery/$object-subrequest
 @@||southparkstudios.com/layout/common/js/reporting/mtvi_ads_reporting.js
 @@||southparkstudios.com/layout/common/js/reporting/mtvi_ads_reporting_config.js
+@@||spendino.de/admanager/
 @@||spotrails.com/crossdomain.xml$object-subrequest
 @@||spotrails.com^*/flowplayeradplayerplugin.swf
 @@||spotxchange.com/ad_player/as3.swf$domain=onescreen.net
