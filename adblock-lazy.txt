@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: zhUm3xcXRnKhEJo1xoZGFA
+!  Checksum: qC8ZWmzyVPufrDzTY9zfyQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 26 May 2011 13:37:18 +0800
+!  Last Modified:  Thu, 26 May 2011 15:15:28 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -478,19 +478,13 @@ kkkmh.com##[class^="mm-"]
 ||bbs.ktxp.com/iframe/banner.html
 
 !---Ku6
-||img.c4.ku6.cn/*/upload/$object
 ||st.vq.ku6.cn^
 ||stat.ku6.com^
+@@||ku6afp.allyes.com^*App.Payoff.response
+||ku6afp.allyes.com^$domain=ku6.com
 ||gug.ku6cdn.com^
 v.ku6.com##[id^="gg"]
 v.ku6.com##.flwin.flwin_min
-!--special.ku6.com
-||special.ku6img.com/projects/2010/yintai/flash/
-||ku6img.com/cms/dv/201102/14/yintailiucheng.jpg
-||ku6img.com/cms/dv/201102/a/danpin008.jpg
-||promotion.yintai.com/slide/index.html
-special.ku6.com###recommend>div:last-child
-special.ku6.com###Tab4
 
 !---三K小说网
 @@||kkkxs.com/configs/article/bottom.js
