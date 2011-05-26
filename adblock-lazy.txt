@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: UBXKCJ3c34wfJ61Cjr9dtg
+!  Checksum: utXII8/ll9p7Zxg3kJYz+w
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 26 May 2011 22:47:29 +0800
+!  Last Modified:  Thu, 26 May 2011 23:18:00 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -27,18 +27,15 @@
 ||bbs.163.com/bbs/floatlayer/floatLayer.js
 ||g.163.com^
 ||v.163.com/special/open_adv/
-||v.163.com/special/008547FN/gg20091116.xml
 163.com##[class^="gg"]
 163.com###ag-pub
-www.163.com##[class^="colL gg"]
+!--有道
 ||youdao.com/imp/$script
 ||a.youdao.com^
-www.youdao.com###sp
-www.youdao.com##.sp-h
+youdao.com###sp
 !--mail
 ||mimg.126.net/external/public163.js
 mail.126.com,mail.163.com##.gWel-gg-2
-mail.126.com,mail.163.com##div.chl>a:last-child
 mail.126.com,mail.163.com##[id$="FakeLetterDiv"]
 
 !---17173
@@ -6784,7 +6781,6 @@ _768x90_
 ##.adPanel
 ##.adPod
 ##.adRect
-##.adResult
 ##.adRight
 ##.adSKY
 ##.adSelfServiceAdvertiseLink
@@ -7265,7 +7261,6 @@ _768x90_
 ##.advert-mpu
 ##.advert-skyscraper
 ##.advert-text
-##.advert-title
 ##.advert-txt
 ##.advert300
 ##.advert300x250
@@ -8333,7 +8328,6 @@ _768x90_
 ##.spl_ad2
 ##.spl_ad_plus
 ##.splitAd
-##.splitAdResultsPane
 ##.sponlinkbox
 ##.spons-link
 ##.spons_links
@@ -9548,7 +9542,6 @@ _768x90_
 ||valueclick.com^$third-party
 ||valueclickmedia.com^$third-party
 ||vcmedia.com^$third-party
-||vdopia.com^$third-party
 ||velmedia.net^$third-party
 ||veoxa.com^$third-party
 ||versetime.com^$third-party
@@ -13444,7 +13437,6 @@ querverweis.net##.iframe_box
 quibblo.com##.ad
 quickload.to###ball
 quickload.to##a[href="http://www.quickload.to/Usenet.exe"]
-quickload.to##a[href^="http://videoplay-to.com"]
 quickload.to##a[href^="http://www.quickload.to/click.php?id="]
 quicksilverscreen.com##a[href="http://www.tubeplus.com"]
 quicksilverscreen.com##a[href^="http://install.secure-softwaremanager.com/"]
@@ -14975,7 +14967,6 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||sonicstate.com/video/hd/hdconfig-geo.cfm?*/www/delivery/$object-subrequest
 @@||southparkstudios.com/layout/common/js/reporting/mtvi_ads_reporting.js
 @@||southparkstudios.com/layout/common/js/reporting/mtvi_ads_reporting_config.js
-@@||spendino.de/admanager/
 @@||spotrails.com/crossdomain.xml$object-subrequest
 @@||spotrails.com^*/flowplayeradplayerplugin.swf
 @@||spotxchange.com/ad_player/as3.swf$domain=onescreen.net
