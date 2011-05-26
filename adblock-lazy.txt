@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: jL2iwu6Sy/CSqtiwTlKjXg
+!  Checksum: zhUm3xcXRnKhEJo1xoZGFA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 26 May 2011 11:21:11 +0800
+!  Last Modified:  Thu, 26 May 2011 13:37:18 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -714,6 +714,7 @@ dailynews.sina.com##.TopNav+table
 ||sinaimg.cn/pop_win/
 ||sinaimg.cn/unipro/
 ||sh.sinaimg.cn/313/
+music.sina.com.cn/yueku/mpw/2010/adstext.js
 sina.com.cn##.topAD
 news.sina.com.cn###divResNewsBottom
 sh.sina.com.cn##[class^="jsad"]
@@ -6795,7 +6796,6 @@ _768x90_
 ##.adPanel
 ##.adPod
 ##.adRect
-##.adResult
 ##.adRight
 ##.adSKY
 ##.adSelfServiceAdvertiseLink
@@ -7276,7 +7276,6 @@ _768x90_
 ##.advert-mpu
 ##.advert-skyscraper
 ##.advert-text
-##.advert-title
 ##.advert-txt
 ##.advert300
 ##.advert300x250
@@ -8344,7 +8343,6 @@ _768x90_
 ##.spl_ad2
 ##.spl_ad_plus
 ##.splitAd
-##.splitAdResultsPane
 ##.sponlinkbox
 ##.spons-link
 ##.spons_links
@@ -8738,7 +8736,6 @@ _768x90_
 ||adlink.net^$third-party
 ||adlisher.com^$third-party
 ||admagnet.net^$third-party
-||admamba.com^$third-party
 ||adman.gr^$third-party
 ||admarketplace.net^$third-party
 ||admaya.in^$third-party
@@ -9098,7 +9095,6 @@ _768x90_
 ||exelator.com^$third-party
 ||exitexplosion.com^$third-party
 ||exitjunction.com^$third-party
-||exoclick.com^$third-party
 ||exponential.com^$third-party
 ||eyereturn.com^$third-party
 ||eyewonder.com^$third-party
@@ -9561,7 +9557,6 @@ _768x90_
 ||valueclick.com^$third-party
 ||valueclickmedia.com^$third-party
 ||vcmedia.com^$third-party
-||vdopia.com^$third-party
 ||velmedia.net^$third-party
 ||veoxa.com^$third-party
 ||versetime.com^$third-party
@@ -9616,7 +9611,6 @@ _768x90_
 ||xx00.info^$third-party
 ||yceml.net^$third-party
 ||yesnexus.com^$third-party
-||yfum.com^$third-party
 ||yieldads.com^$third-party
 ||yieldbuild.com^$third-party
 ||yieldmanager.com^$third-party
@@ -9646,10 +9640,6 @@ _768x90_
 ||mojiva.com^$third-party
 ||smaato.net^$third-party
 ||waptrick.com^$third-party
-! *** easylist_adult/adult_adservers.txt ***
-||mediagra.com^$third-party
-||naiadsystems.com^$third-party
-||nsimg.net^$third-party
 !-----------------Third-party adverts-----------------!
 ! *** easylist/easylist_thirdparty.txt ***
 ||000webhost.com/images/banners/
@@ -10132,11 +10122,10 @@ _768x90_
 ||yimg.com^*/quickplay_maxwellhouse.png
 ||you-cubez.com/images/banners/
 ||ziffdavisenterprise.com/contextclicks/
+! Preliminary third-party adult section
+||hotcaracum.com/banner/$third-party
 ! Mobile
 ||iadc.qwapi.com^
-! *** easylist_adult/adult_thirdparty.txt ***
-||hotcaracum.com/banner/$third-party
-||promos.meetlocals.com^$third-party
 !-----------------Specific advert blocking filters-----------------!
 ! *** easylist/easylist_specific_block.txt ***
 /left.html$domain=thepiratebay.org
@@ -11217,8 +11206,6 @@ _768x90_
 ||indieclicktv.com/player/swf/*/icmmva%5eplugin.swf$object-subrequest
 ||longtailvideo.com^*/yume.swf$domain=watch-naruto.tv
 ||satelliteguys.us/antiadblock.js
-! *** easylist_adult/adult_specific_block.txt ***
-||porntube.com/ads|
 !-----------------Specific element hiding rules-----------------!
 ! *** easylist/easylist_specific_hide.txt ***
 10minutemail.com###shoutouts
@@ -13465,7 +13452,6 @@ querverweis.net##.iframe_box
 quibblo.com##.ad
 quickload.to###ball
 quickload.to##a[href="http://www.quickload.to/Usenet.exe"]
-quickload.to##a[href^="http://videoplay-to.com"]
 quickload.to##a[href^="http://www.quickload.to/click.php?id="]
 quicksilverscreen.com##a[href="http://www.tubeplus.com"]
 quicksilverscreen.com##a[href^="http://install.secure-softwaremanager.com/"]
@@ -14684,9 +14670,6 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 ~pregecko2,zedomax.com##div[style="width: 100%; height: 280px;"]
 ~pregecko2,zedomax.com##div[style="width: 336px; height: 280px;"]
 ~pregecko2,zeenews.com##div[style="height: 250px; overflow: hidden;"]
-! *** easylist_adult/adult_specific_hide.txt ***
-xhamster.com##a[href="http://premium.xhamster.com/join.html?from=no_ads"]
-xtube.com##div[style="text-align:center; width:1000px; height: 150px;"]
 !-----------------Whitelists-----------------!
 ! *** easylist/easylist_whitelist.txt ***
 @@/static/ad_iframe.php?*%3bsz%3d640x360%3b$domain=deadspin.com|gawker.com|gizmodo.com|io9.com|jalopnik.com|jezebel.com|kotaku.com|lifehacker.com
@@ -14999,7 +14982,6 @@ xtube.com##div[style="text-align:center; width:1000px; height: 150px;"]
 @@||sonicstate.com/video/hd/hdconfig-geo.cfm?*/www/delivery/$object-subrequest
 @@||southparkstudios.com/layout/common/js/reporting/mtvi_ads_reporting.js
 @@||southparkstudios.com/layout/common/js/reporting/mtvi_ads_reporting_config.js
-@@||spendino.de/admanager/
 @@||spotrails.com/crossdomain.xml$object-subrequest
 @@||spotrails.com^*/flowplayeradplayerplugin.swf
 @@||spotxchange.com/ad_player/as3.swf$domain=onescreen.net
@@ -15203,8 +15185,6 @@ xtube.com##div[style="text-align:center; width:1000px; height: 150px;"]
 @@||video1.italiaoggi.it/movie/movie/adserver_$object,object-subrequest
 @@||video1.milanofinanza.it/movie/movie/adserver_$object,object-subrequest
 @@||videos.lanacion.com.ar^*/xml/publicidad/$object
-! *** easylist_adult/adult_whitelist.txt ***
-@@||fucktube.com/work/videoad.php?
 
 ! EasyPrivacy - https://easylist.adblockplus.org/
 
