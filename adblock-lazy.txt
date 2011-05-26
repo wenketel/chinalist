@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: BL8mGxqfPxYGusyH91SB/A
+!  Checksum: 6+w45QmPRH+22WtqkaIluw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 26 May 2011 17:32:06 +0800
+!  Last Modified:  Thu, 26 May 2011 22:31:20 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -15,6 +15,7 @@
 @@||51job.com^$elemhide
 @@||a.5d6d.com^$image
 @@||union.bokecc.com^$object,object_subrequest,script
+@@||pic.top100.cn/AdImg/
 @@/adbanner/*$image,domain=books.com.tw
 @@||shangcuwang.com/ads/$image
 
@@ -49,7 +50,6 @@ mail.126.com,mail.163.com##[id$="FakeLetterDiv"]
 /if/video/*$domain=17173.com
 ||17173.com/x/
 ||book.17173.com/17k/xct/
-||book.17173.com/csite_ad.js
 ||images.17173.com^$object
 ||media.17173.com/09gonggao.js
 17173.com##[class^="banner"]
@@ -178,7 +178,6 @@ zhidao.baidu.com##TABLE[width="100%"][bgcolor="#f5f5f5"]
 !---东莞视窗
 ||bbapp.net/iframe/dongguan/images/ad
 ||bbapp.net/iframe/dongguan/images/banner
-||bbapp.net/iframe/gd_xxg_ad.js
 dgnet.net##.banner
 
 !---bilibili.us
@@ -885,7 +884,6 @@ udn.com###ads
 ||luckstatic.v1.cn/st/10000/
 ||v1.cn/tidejs/201010/auto.js
 ||v1.cn/tidejs/201010/richmedia.js
-||v1.cn/tidejs/201010/v1_rotator_ad.js
 
 !---VeryCD
 ||sp.vcimg.com^
@@ -1051,7 +1049,6 @@ mydown.yesky.com##.xznr_2
 !---人人影视
 ||t.tvsup.com^
 ||yyets.com/forumid_495/
-||yyets.com/template/default/js/kevin_download_ad.js
 yyets.com##[id^="kads"]
 
 !---中搜
@@ -1304,7 +1301,6 @@ www.pcpop.com##div.Content>div.l1:first-child
 www.pcpop.com##div.Content>div.r1:nth-child(2)
 ||popyard.com^$subdocument
 ||sinovision.net/ui/js/adm.js
-||sinovision.net/ui/js/index_ad.js
 ||news.showche.com/data/$script
 ||singtao.com/*_ad*.js
 ||singtao.com/js/ecard.js
@@ -1757,8 +1753,6 @@ suopao.org##.t5[style^="margin-top:8px;"]
 ||club.tgfcer.com/images/g
 ||club.tgfcer.com/images/sungalogo.gif
 ||img.tongzhuo100.com/play/$object_subrequest
-@@||pic.top100.cn/AdImg/
-||top100.cn/jscripts/top100_ad.js
 ||tz513.com^$object
 ||u148.net/activity/$~object_subrequest
 ||ucar.cn/ucar/UploadPic/SecondHandCar/$object
@@ -2166,6 +2160,7 @@ zhyjms.com##[class^="gg"]
 /tuiguang/*
 |http://*/ad/$domain=~10010.com|~42qu.com|~bangumi.tv|~bankcomm.com|~bgm.tv|~chii.in|~ezpeer.com|~kupig.cc|~tp-link.cn
 |https://*/ad/
+|http://*/*_ad.js
 |http://gg.$~stylesheet,domain=~bbs.vc52.cn
 |http://*/gg/$~stylesheet
 |http://*/i.js|$third-party
@@ -6789,7 +6784,6 @@ _768x90_
 ##.adPanel
 ##.adPod
 ##.adRect
-##.adResult
 ##.adRight
 ##.adSKY
 ##.adSelfServiceAdvertiseLink
@@ -7270,7 +7264,6 @@ _768x90_
 ##.advert-mpu
 ##.advert-skyscraper
 ##.advert-text
-##.advert-title
 ##.advert-txt
 ##.advert300
 ##.advert300x250
@@ -8338,7 +8331,6 @@ _768x90_
 ##.spl_ad2
 ##.spl_ad_plus
 ##.splitAd
-##.splitAdResultsPane
 ##.sponlinkbox
 ##.spons-link
 ##.spons_links
@@ -9553,7 +9545,6 @@ _768x90_
 ||valueclick.com^$third-party
 ||valueclickmedia.com^$third-party
 ||vcmedia.com^$third-party
-||vdopia.com^$third-party
 ||velmedia.net^$third-party
 ||veoxa.com^$third-party
 ||versetime.com^$third-party
@@ -13449,7 +13440,6 @@ querverweis.net##.iframe_box
 quibblo.com##.ad
 quickload.to###ball
 quickload.to##a[href="http://www.quickload.to/Usenet.exe"]
-quickload.to##a[href^="http://videoplay-to.com"]
 quickload.to##a[href^="http://www.quickload.to/click.php?id="]
 quicksilverscreen.com##a[href="http://www.tubeplus.com"]
 quicksilverscreen.com##a[href^="http://install.secure-softwaremanager.com/"]
@@ -14980,7 +14970,6 @@ zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 @@||sonicstate.com/video/hd/hdconfig-geo.cfm?*/www/delivery/$object-subrequest
 @@||southparkstudios.com/layout/common/js/reporting/mtvi_ads_reporting.js
 @@||southparkstudios.com/layout/common/js/reporting/mtvi_ads_reporting_config.js
-@@||spendino.de/admanager/
 @@||spotrails.com/crossdomain.xml$object-subrequest
 @@||spotrails.com^*/flowplayeradplayerplugin.swf
 @@||spotxchange.com/ad_player/as3.swf$domain=onescreen.net
