@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: wgs18E5fOazjkDcDtaL6rw
+!  Checksum: IIgL/0SHXUeYBUeHYJkuAQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 28 May 2011 13:44:28 +0800
+!  Last Modified:  Sun, 29 May 2011 09:18:53 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -545,8 +545,8 @@ tv.on.cc###superbanner
 tv.on.cc###large
 
 !---远景
-bbs.pcbeta.com/static/image/ADDED/
-bbs.pcbeta.com/static/image/biz/
+||bbs.pcbeta.com/static/image/ADDED/
+||bbs.pcbeta.com/static/image/biz/
 bbs.pcbeta.com##[class^="a_p"]
 bbs.pcbeta.com##.bm.a_c
 bbs.pcbeta.com##.mbm.cl[style]
@@ -612,7 +612,7 @@ pixnet.net##.ad
 ||cj.qidian.com^$object
 ||cj.qidian.com/Picture/20110519_110022.jpg
 ||cj.qidian.com/svnad/
-qidian.com##[class^="show_ggpic"]
+qidian.com##[class^="show_ggpic"] img
 www.qidian.com##[class^="gg"]
 
 !---QQ
@@ -2168,7 +2168,7 @@ zhyjms.com##[class^="gg"]
 |http://*/pv/$domain=~proxyvote.com|~guba.stock.sohu.com
 /ktrace/ktrace$script
 /pv?peerid=
-/stat.$script,domain=~ameblo.jp|~sohu.com|~verycd.com|~zcool.com.cn
+/stat.$domain=~ameblo.jp|~sohu.com|~verycd.com|~zcool.com.cn
 /tongji.js
 /track.$domain=~bioinformatics.bms.com|~cmbchina.com
 /usertrack.
