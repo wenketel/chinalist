@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: rv5fQXapgoIQia0QhsXtyQ
+!  Checksum: aJTYwjhadPvzYV4/EEFK1g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 02 Jun 2011 14:15:00 +0800
+!  Last Modified:  Thu, 02 Jun 2011 14:31:03 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -619,9 +619,9 @@ www.qidian.com##[class^="gg"]
 
 !---QQ
 ||mat1.gtimg.com/news/fbgg/
+||mat1.gtimg.com/sports/2011ad/
 ||adslvfile.qq.com^
 /avd/*$domain=hb.qq.com
-edu.qq.com##.ad
 ||trace.qq.com^
 qq.com##.l_qq_com
 qq.com##.mod-left.AdBox-Article-QQ
@@ -633,6 +633,7 @@ qq.com###AdRight-Article-QQ
 @@||mb.qq.com^$elemhide
 news.qq.com##.news_ad_box
 news.qq.com###News_F_UpRight
+sports.qq.com##.indextopad
 t.qq.com##div#homeBannerTip
 www.qq.com###ppInfo
 www.qq.com##[id^="adAreaA"]
@@ -1534,10 +1535,10 @@ xxsy.net###msg_win
 ||static.zongheng.com/v2_0/pic/js/view_c_1.js
 
 !---RSS
+||mrss.dokoda.jp/v/$image
 ||feedsky.com/r/i/feedsky/*/art01.gif
 ||image.j-a-net.jp/
 ||th.ki.ki/files/
-||my1510.cn/images/rss_ad_new.jpg
 ||xiankankan.com/widgets/focus/
 
 !---Video Sites
@@ -1559,7 +1560,6 @@ xxsy.net###msg_win
 
 !---Miscellaneous
 ||111cn.net/gg_ad/
-||141hongkong.com/forum/data/attachment/common/cf/
 ||141hongkong.com/images/
 ||1m1m.cn/bar/
 ||210.6.90.159^*/ads_
@@ -2136,6 +2136,7 @@ zhyjms.com##[class^="gg"]
 /affiliate/*
 .allyes.
 /allyes.
+/common/cf/*$image
 /floatadv.
 /ggao/*
 /ggjs/*
