@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: H1B2aAQgPh39VeohxHy45A
+!  Checksum: eHGnETIgkxZKrp7ag5n4jg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 30 May 2011 03:36:41 +0800
+!  Last Modified:  Thu, 02 Jun 2011 08:01:40 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -593,6 +593,8 @@ ph66.com##[id*="ad"]
 ||error.pixplug.in^
 ||referer.pixplug.in^
 pixnet.net##.ad
+www.pixnet.net###extradiv2
+www.pixnet.net###extradiv5
 
 !---代理中国
 ||s5proxy.com^$subdocument
@@ -1077,7 +1079,6 @@ pc3w.com##table[width="925"][height="305"]
 
 !----------------------------Generic(sort by domain name)--
 !---Blog Sites
-azo-freeware.blogspot.com###ADs
 azo-freeware.blogspot.com###CustomSearch1 + #HTML6
 cwyuni.tw##div.article-content > script + p
 cwyuni.tw##div#banner > h2
