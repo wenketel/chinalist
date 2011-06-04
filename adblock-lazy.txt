@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: yQWU4RO3fERvvZojcdISRA
+!  Checksum: c8vtq6YQLCYQLRmnVb/wpQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 04 Jun 2011 20:02:40 +0800
+!  Last Modified:  Sat, 04 Jun 2011 22:36:59 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -197,7 +197,7 @@ codepub.com##.l1
 !---CCTV
 @@_Advertise.js|$domain=cntv.cn
 @@/crossdomain.xml|$object_subrequest,domain=cntv.cn
-@@||js.player.cntv.cn/creator/ent_bg_ad.js
+@@||js.player.cntv.cn/creator/*_bg_ad.js
 ||cntv.cn/library/script/flash_guanggaodiaoyong.js
 ||a.cntv.cn/main/s^
 ||log.player.cntv.cn^
@@ -293,10 +293,10 @@ dict.cn###top-gg
 ##[class^="ad_footerbanner"]
 ##.ad_column
 ###ad_headerbanner
-~top81.cn##[id^="ad_thread"]
+~top81.jschina.com.cn,~top81.cn##[id^="ad_thread"]
 ###ads_c_tpc
 ##.archiver_banner
-###focus.focus
+~yyets.com,~zol.com.cn###focus.focus
 ###sitefocus.focus
 
 !---discuss.com.hk
@@ -426,6 +426,7 @@ www.hsw.cn##table[width="980"][height="100"]
 ||sta.ifeng.com^
 ||stadig.ifeng.com^
 /coupletnew/*$domain=ifeng.com
+||www2.vadcast.com^
 ifeng.com##[id^="adv_"]
 ifeng.com##[class^="adList"]
 ifeng.com##.areaAd
@@ -624,6 +625,7 @@ www.qidian.com##[class^="gg"]
 ||mat1.gtimg.com/sports/2011ad/
 ||adslvfile.qq.com^
 /avd/*$domain=hb.qq.com
+||pingfore.qq.com^
 ||trace.qq.com^
 qq.com##.l_qq_com
 qq.com##.mod-left.AdBox-Article-QQ
@@ -821,7 +823,6 @@ tgbus.com##[class^="adv_"]
 ||squidclick.bbs.tianya.cn^
 ||global.tianyaui.com/global/wizard/js/wizard.js
 ||tianyabook.com/$script
-||urchin.tianya.cn^
 www.tianya.cn##[id*="_AD_"]
 
 !---Tom
@@ -1008,6 +1009,8 @@ tw.news.yahoo.com###ynwsnw
 @@||yahoo.net^*/ads/$image,domain=buy.yahoo.com.tw
 !--HK
 ||l.yimg.com/*/a/hk/$~stylesheet
+hk.yahoo.com###mntl1
+hk.yahoo.com###ysm-ad
 
 !---yam
 @@||admd.yam.com^$object_subrequest
@@ -1269,11 +1272,12 @@ www.cnhubei.com##.A
 ||pic.cnmo.com/$image,object
 cnmo.com##[id^="AD"]
 ||daqi.com/clicklog.js
-||hk.ndx.nextmedia.com/DFA/js_ndxtag_v409.cfm^$domain=~hk.dv.nextmedia.com
 ||same.eastmoney.com^
+||go.hangzhou.com.cn^
 ||hebei.com.cn/eap/
 ||hebei.com.cn/swf/
 ||hebei.com.cn/sys/online_calc.js^
+||hk.ndx.nextmedia.com/DFA/js_ndxtag_v409.cfm^$domain=~hk.dv.nextmedia.com
 ||hinews.cn/out/img/$object
 ||hinews.cn/out/img/*/*x
 ||htpc1.com/newfolder/
@@ -1472,7 +1476,8 @@ gougoushuji.com###ptcmsad1
 ||www.q520.org/js/tj.js
 ||qibi.com/js/luenbo.js
 80.qukanshu.com^
-||readnovel.com/js/$subdocument
+||readnovel.com/js/adposition/
+||readnovel.com/js/2011*/
 bbs.sfw.com.cn/attachments/
 sfw.com.cn##.cataBanner1
 @@||shanwen.com/configs/article/pagetop3.js
@@ -1608,6 +1613,7 @@ www.bzcm.net##[id^="followDiv"]
 ||city8.com/Search/script/absence.js
 ||disk.cjdby.com/filestores/
 ||img.cjdby.com/client/uuzu/
+cjdby.net##.a_pb
 ||cqcpu.com/andy/
 ||dabaoku.com^$script,object,subdocument
 ||daili39.com/i.js
@@ -1667,6 +1673,7 @@ bbs.hefei.cc###lovexin13
 ||au.ipart.cn/comp/hooks.php
 ||x.itiexue.net/html/$script
 ||img.jb51.net/imgby/
+||img1.jczqw.com/img/
 ||jd-bbs.com^$object
 ||jiatx.com/jiatx/mall/outer/
 ||jpwind.com/images/partner/
@@ -1703,6 +1710,7 @@ bbs.tiexue.net##.banner
 ||secret.moumentei.com/images/ac/x.gif
 ||pub.mop.com/widget.jsp?bId
 ||mop.com/fxb/js/fxb.js
+||mscbsc.com/gbook/search.gif
 ||mycodes.net/js/$image
 ||needpop.com/jvc.jpg
 needpop.com##.spaceborder[style="width: 98%"]
@@ -1836,6 +1844,7 @@ zhyjms.com##[class^="gg"]
 ||hhhdhgjdkghwu.2eljk.info^$third-party
 ||33hy.com^$third-party
 ||333wan.com^$third-party
+||360kaixin.com^$third-party
 ||365tc.com^$third-party
 ||u1346.37117.com^$third-party
 ||37cs.com^$third-party
@@ -2155,7 +2164,7 @@ zhyjms.com##[class^="gg"]
 /tanchuang^
 /tuiguang/*
 |http://ad.
-|http://*/ad/$domain=~10010.com|~42qu.com|~bangumi.tv|~bankcomm.com|~bgm.tv|~chii.in|~ezpeer.com|~kupig.cc|~tp-link.cn
+|http://*/ad/$~stylesheet,domain=~10010.com|~42qu.com|~bankcomm.com|~ezpeer.com|~kupig.cc|~tp-link.cn
 |https://*/ad/
 |http://*/*_ad.js
 |http://gg.$~stylesheet,domain=~bbs.vc52.cn
@@ -2172,7 +2181,7 @@ zhyjms.com##[class^="gg"]
 |http://*/pv/$domain=~proxyvote.com|~guba.stock.sohu.com
 /ktrace/ktrace$script
 /pv?peerid=
-/stat.$domain=~ameblo.jp|~sohu.com|~verycd.com|~zcool.com.cn
+/stat.$~script,domain=~ameblo.jp|~zcool.com.cn
 /tongji.js
 /track.$domain=~bioinformatics.bms.com|~cmbchina.com
 /usertrack.
@@ -2202,7 +2211,6 @@ zhyjms.com##[class^="gg"]
 
 !-----------------------Element Hiding---------------------
 3dmgame.com##[class^="banner_"]
-52blackberry.com###focus.focus
 sbsrunningman.5d6d.com###header
 ab2xy.com##[id^="zzjs_net_"]
 www.alibuybuy.com##[class^="ad_"]
@@ -2252,6 +2260,7 @@ zaobao.com###myMovie
 ||linuxdiyf.com/it/vfast.gif
 ||linuxdiyf.com/it/yutianedu*.gif
 ||livefilestore.com^$domain=cnscg.com
+||blog.hi.mop.com/flash/830-310.swf
 ||nanrenwa.com/_img/a/
 ||okjee.com/js/union_api.js
 ||pic.yupoo.com/dapenti/B0OnizUM/LmVHV.gif
