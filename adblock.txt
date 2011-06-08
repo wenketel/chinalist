@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: /+f0QwKxQZ7eXGeKK+Wzvg
+!  Checksum: JnZO8cDPRFJjmfjq4irO4Q
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 08 Jun 2011 12:14:13 +0800
+!  Last Modified:  Wed, 08 Jun 2011 16:13:04 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -15,6 +15,7 @@
 @@||51job.com^$elemhide
 @@||a.5d6d.com^$image
 @@||union.bokecc.com^$object,object_subrequest,script
+@@||afp.goyeah.com^$object_subrequest
 @@||pic.top100.cn/AdImg/
 @@/adbanner/*$image,domain=books.com.tw
 @@||shangcuwang.com/ads/$image
@@ -197,7 +198,6 @@ codepub.com##.l1
 
 !---CCTV
 @@_Advertise.js|$domain=cntv.cn
-@@/crossdomain.xml|$object_subrequest,domain=cntv.cn
 @@||js.player.cntv.cn/creator/*_bg_ad.js
 ||cntv.cn/library/script/flash_guanggaodiaoyong.js
 ||a.cntv.cn/main/s^
@@ -276,7 +276,7 @@ news.cnyes.com,chinayes.com##[class^="ad"]
 ||dayoo.com/sta/da.js
 ||images.dayoo.com/dywimg/
 ||sta.dayoo.com^
-www.dayoo.com###lm_dywmtq + div.wOut.mt6
+www.dayoo.com###ad_t1
 !--gzdaily
 /pub/news/gzrb/*$script
 ||gzdaily.dayoo.com/tpl/banner$object
@@ -287,6 +287,8 @@ www.dayoo.com###lm_dywmtq + div.wOut.mt6
 ||dict.cn/images/360.gif
 ||dict.cn/sync2/pic*_1.
 ||dict.cn/sync2/pic310_0.png
+dict.cn######haici-tuijian
+dict.cn##.text-gg-bar
 dict.cn###top-gg
 
 !---Discuz! & PHPWind etc.
@@ -418,6 +420,7 @@ www.hsw.cn##table[width="980"][height="100"]
 
 !---凤凰网
 ||comment.ifeng.com/count_
+||img.ifeng.com/tres/html/
 ||img.ifeng.com/tres/ifeng/
 ||img.ifeng.com/tres/market/
 ||img.ifeng.com/tres/recommend/
@@ -426,7 +429,6 @@ www.hsw.cn##table[width="980"][height="100"]
 ||sc.ifeng.com^
 ||sta.ifeng.com^
 ||stadig.ifeng.com^
-/coupletnew/*$domain=ifeng.com
 ||www2.vadcast.com^
 ifeng.com##[id^="adv_"]
 ifeng.com##[class^="adList"]
@@ -693,8 +695,9 @@ siluhd.com###index_top
 ||sina.com/assets/js/dart/
 dailynews.sina.com##.TopNav + table
 !--sina.com.cn
+/950-90.
 ||bj.house.sina.com.cn/iframe/$domain=~leju.com
-||d1.sina.com.cn^
+||d1.sina.com.cn^$domain=~weibo.com
 ||d2.sina.com.cn^
 ||d3.sina.com.cn^
 ||d4.sina.com.cn^
@@ -1071,6 +1074,7 @@ zhulang.com##[class^="ad"]
 zhulang.com##.hx_newgg
 
 !---ZOL
+||pic.zol.com.cn^$object
 ||pic.zol-img.com.cn^$object
 zol.com.cn##[id^="Bar"]
 www.zol.com.cn##[id^="AD"]
@@ -1230,6 +1234,7 @@ gamersky.com##.adc
 ||60.190.105.7^
 ||60.190.105.9^
 ||61.172.192.73^
+||221.204.213.27^
 !--北京网通
 ||61.135.22.
 !--中国电信流氓IP
@@ -1560,7 +1565,6 @@ xxsy.net###msg_win
 ||pipi.cn/player/
 ||pomoho.com/adpop/
 ||a.pomoho.com^
-||pvstat.pomoho.com^
 ||pps.tv/js_a2d/
 ||pp2.pptv.com^
 ||xcdvd.com/xc_dvdjs/
@@ -1627,7 +1631,6 @@ dianping.com##[class^="DPAD"]
 ||dospy.com/hezuo/
 ||bbs.dospy.com/proxy.html
 ||dpfile.com/awbrand/
-||i3.dukuai.com/dukuai/
 ||static.doyouhike.net/partner/
 ||ejiji.com/*.gif
 ejiji.com##.BannerLeft
@@ -1718,6 +1721,8 @@ bbs.tiexue.net##.banner
 ||needpop.com/jvc.jpg
 needpop.com##.spaceborder[style="width: 98%"]
 ||www.nokiabbs.com/wk_ad/
+||normteam.com/ADJPG/
+normteam.com##.a_mu
 ||offcn.com/$object
 ||p5w.net/pfgg/
 ||a-m-s.poco.cn^
@@ -2003,10 +2008,10 @@ zhyjms.com##[class^="gg"]
 ||u.*.iciba.com^$third-party
 ||u.imop.com^
 ||insenz.com^$third-party
+||ipinyou.com^$third-party
 ||ishare.tw^$subdocument,third-party
 ||itop247.com^$third-party
-||itopnetworks.com^$third-party
-.izo.cn/$third-party
+||izo.cn^$third-party
 ||jdunion.com^$third-party
 ||jidian5.com^$third-party
 ||jingpi.net^$third-party
@@ -2050,7 +2055,7 @@ zhyjms.com##[class^="gg"]
 ||ppunion.com^$third-party
 ||prohost.com.tw^$third-party
 ||ttmsg.qianqian.com^
-||qd.code.qihoo.com^$third-party
+||qd.code.^$third-party
 ||qiyou.com^$third-party
 ||qizhao.com^$third-party
 ||qling.com^$third-party
@@ -2148,9 +2153,10 @@ zhyjms.com##[class^="gg"]
 /adv.
 /adv/*
 /affiliate/*
-.allyes.
+.allyes.$third-party
 /allyes.
 /common/cf/*$image
+/dkgg/*
 /floatadv.
 /ggao/*
 /ggjs/*
@@ -2167,19 +2173,20 @@ zhyjms.com##[class^="gg"]
 /tanchuang^
 /tuiguang/*
 |http://ad.
-|http://*/ad/$~stylesheet,domain=~10010.com|~42qu.com|~bankcomm.com|~ezpeer.com|~kupig.cc|~tp-link.cn
+|http://*/ad/$~stylesheet,domain=~10010.com|~42qu.com|~bankcomm.com|~ezpeer.com|~kupig.cc|~ruten.com.tw|~tp-link.cn
 |https://*/ad/
-|http://*/*_ad.js
+|http://*/*_ad.js$domain=~icson.com
 |http://gg.$~stylesheet,domain=~bbs.vc52.cn
 |http://*/gg/$~stylesheet
 |http://*/i.js|$third-party
 
 !-----------------------------Privacy----------------------
-/count.$domain=~bilibili.us|~downg.com|~kupig.cc|~taobao.com
+/count.$domain=~124.228.254.229|~bilibili.us|~downg.com|~kupig.cc|~taobao.com
 /counter.
 /counts.
 /hiido.js
 |http://pv.
+|http://pvstat.
 |http://*/pv.
 |http://*/pv/$domain=~proxyvote.com|~guba.stock.sohu.com
 /ktrace/ktrace$script
@@ -2239,11 +2246,11 @@ www.javaeye.com###forum_recommended_f5
 www.mywenxue.com###msg_win
 newsmth.net##table.hot_title > tbody > tr > td[style]
 newsmth.net##table.HotTable > tbody > tr > td.HotTitle > script + a
-www.normteam.com##.a_mu
 news.pchome.com.tw,pchome.syspower.com.tw###ad_bg_div
 price.com.hk##.tb
 price.com.hk##[id^="ad"]
 qianlong.com##.aditem01
+qihoo.com###clk_right_imgAD
 sncj.com.cn##div.top + div[style^="width:960px;"]
 bbs.sjtu.cn,bbs.sjtu.edu.cn,bbs6.sjtu.edu.cn###ad
 subpig.net###ajaxwaitid + div.wrap > #header + table + table[width="97%"][height="33"]
@@ -2258,6 +2265,7 @@ zaobao.com###myMovie
 
 !-----------------------Temporary---------------------------
 !---2011.6
+||taobao.com/go/chn/tbk_channel/$domain=aiqing520.com
 ||kafan.cn/static/kafan_img/
 ||linuxeden.com/image/rongxinguangyu1.gif
 ||linuxdiyf.com/it/vfast.gif
