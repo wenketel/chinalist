@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: dpXQCsHn70thS6ye5dGxpA
+!  Checksum: 16VlaA0nZZwDu18sdvXsww
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 09 Jun 2011 09:17:32 +0800
+!  Last Modified:  Thu, 09 Jun 2011 18:04:03 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -167,7 +167,8 @@ zhidao.baidu.com##div#main > div#right > div#right_be
 zhidao.baidu.com##[style="margin:10px 0;text-align:left;width:100%;overflow:hidden;"]
 zhidao.baidu.com##TABLE[width="100%"][bgcolor="#f5f5f5"]
 !--qiyi
-||afp.qiyi.com^$~object_subrequest
+@@||afp.qiyi.com^*&local=xml|
+^db=qiyiafp^
 
 !---东莞视窗
 ||bbapp.net/iframe/dongguan/images/ad
@@ -1827,7 +1828,7 @@ zhyjms.com##[class^="gg"]
 ||100fenlm.cn^$third-party
 ||u.1133.cc^$third-party
 ||114.com.cn^$third-party
-||www.114lm.com^$third-party
+www.114lm.com^$third-party
 ||link.155game.com^$third-party
 ||115.238.103.82^$third-party
 ||16975.com^$third-party
@@ -1852,6 +1853,7 @@ zhyjms.com##[class^="gg"]
 ||hhhdhgjdkghwu.2eljk.info^$third-party
 ||33hy.com^$third-party
 ||333wan.com^$third-party
+||union.360buy.com^
 ||360kaixin.com^$third-party
 ||365tc.com^$third-party
 ||u1346.37117.com^$third-party
@@ -2438,6 +2440,7 @@ zaobao.com###myMovie
 /ad-loader-
 /ad-local.
 /ad-managment/*
+/ad-right2.
 /ad-server/*
 /ad-template/*
 /ad-top-
@@ -6496,6 +6499,7 @@ _768x90_
 ##.AdInline
 ##.AdMedium
 ##.AdPlaceHolder
+##.AdProS728x90Container
 ##.AdProduct
 ##.AdRingtone
 ~ph4.ru##.AdSense
@@ -7349,6 +7353,7 @@ _768x90_
 ##.adstop
 ##.adstory
 ##.adstrip
+##.adtab
 ~rinkworks.com,~vtomske.ru##.adtable
 ##.adtag
 ##.adtech
@@ -8686,6 +8691,7 @@ _768x90_
 ##.vert-adsBlock
 ##.vertad
 ##.vertical-adsense
+##.vidadtext
 ##.videoAd
 ##.videoBoxAd
 ##.video_ad
@@ -10377,6 +10383,9 @@ _768x90_
 ! Mobile
 ||iadc.qwapi.com^
 ! *** easylist_adult/adult_thirdparty.txt ***
+||213.174.140.76^*/ads/
+||213.174.140.76^*/js/msn-$script
+||213.174.140.76^*/js/msn.js
 ||adultdvd.com/plugins/*/store.html$third-party
 ||adultfriendfinder.com^$third-party
 ||br.realitykings.com^
@@ -10869,6 +10878,8 @@ _768x90_
 ||idg.com.au/images/*_promo$image
 ||idg.com.au^*_skin.jpg
 ||ifilm.com/website/*-skin-
+||iload.to^*/impopi.js
+||iload.tv^*/impopi.js
 ||iloveim.com/cadv4.jsp?
 ||imagerise.com/ir.js
 ||images-amazon.com^*/marqueepushdown/
@@ -11277,6 +11288,7 @@ _768x90_
 ||shoppingpartners2.futurenet.com^
 ||shops.tgdaily.com^*&widget=
 ||shortcuts.search.yahoo.com^*&callback=yahoo.shortcuts.utils.setdittoadcontents&
+||show-links.tv/layer.php
 ||showstreet.com/banner.
 ||sify.com^*/gads_
 ||sk-gaming.com/image/acersocialw.gif
@@ -11515,6 +11527,7 @@ _768x90_
 ||satelliteguys.us/antiadblock.js
 ! *** easylist_adult/adult_specific_block.txt ***
 /100bucksbabes.com/banners/*$domain=100bucksbabes.com
+||213.174.140.76/ast/js/msn-$script,domain=ashemaletube.com
 ||2adultflashgames.com/images/v12.gif
 ||2adultflashgames.com/img/
 ||2adultflashgames.com^*_160x500.jpg
@@ -11933,6 +11946,7 @@ cantbeunseen.com###top-leaderboard
 cantbeunseen.com##.leaderboard
 capeargus.co.za###sp_links
 capetimes.co.za###sp_links
+capitalradiomalawi.com###mainmodules6
 capitalstool.com##img[width="120"][height="120"]
 caranddriver.com##.shopping-tools
 carbuyer.co.uk###leaderboard
@@ -12264,6 +12278,9 @@ downloadhelper.net##a[href^="http://www.secrethelper.net/affclick/"]
 downloadsquad.com###newjobs-module
 downloadsquad.com###topleader-wrap
 downloadsquad.com##.medrect
+downloadstube.org###results > div[class]:first-child
+downloadstube.org###results > div[class]:first-child + script + div[class]
+downloadstube.org##.download > a[onclick]:first-child + br + a[onclick]:last-child
 downloadstube.org##.download_hoster
 downloadstube.org##.frame_side
 downloadstube.org##.frame_top
@@ -12271,6 +12288,7 @@ downloadstube.org##.frameside
 downloadstube.org##.frametop
 downloadstube.org##.mirror
 downloadstube.org##.side_frame
+downloadstube.org##.sidebox_details > div[class]:first-child
 downloadstube.org##.top_frame
 downloadstube.org##a[href^="/download-file.php?type="]
 downloadstube.org##a[onclick^="DownloadFile('details'"]
@@ -12281,6 +12299,8 @@ downloadstube.org##a[onclick^="MirrorDownload('details',"]
 downloadstube.org##a[onclick^="MirrorDownload('result_details',"]
 downloadstube.org##a[onclick^="openNew('/download-file.php?type="]
 downloadstube.org##a[onclick^="window.open('/download-file.php?type=premium&"]
+downloadstube.org##div[id^="ddl_"] + div[id] + a[onclick] + br + a[onclick]
+downloadstube.org##div[id^="ddl_"] + div[id] + br + a[onclick]
 dprogram.net###container-rightimages
 dragcave.net###prefooter
 drive.com.au##.cA-twinPromo
@@ -12837,6 +12857,10 @@ iii.co.uk###marketdatabox_content_footer
 illimitux.net###screens
 illimitux.net##.pub_bot
 illimitux.net##.pub_top
+iload.to##h1[onclick^="closeIM();window.open('http://ul.to/ref/"]
+iload.to##p[onclick^="closeIM();window.open('http://ul.to/ref/"]
+iload.tv##h1[onclick^="closeIM();window.open('http://ul.to/ref/"]
+iload.tv##p[onclick^="closeIM();window.open('http://ul.to/ref/"]
 iloubnan.info###bann
 iloveim.com###closeAdsDiv
 imagebanana.com##.ad
@@ -14075,6 +14099,8 @@ shopcrazy.com.ph###topleaderboard
 shopping.com###featListingSection
 shopping.net##table[border="1"][width="580"]
 shopping.yahoo.com##.shmod-ysm
+show-links.tv###ball
+show-links.tv##.ad
 siliconchip.com.au##td[align="RIGHT"][width="50%"][valign="BOTTOM"]
 siliconera.com###b5leaderboard
 siliconrepublic.com###banner-zone-k
@@ -15361,14 +15387,11 @@ xxxymovies.com##a[href^="http://enter.brazzersnetwork.com/track/"]
 @@||images.apple.com^*/images/ad-
 @@||images.apple.com^*/images/ad_
 @@||images.apple.com^*/images/ads_
-@@||img.mybettersearch.com/$image
 @@||img.thedailywtf.com/images/ads/
 @@||img.weather.weatherbug.com^*/stickers/$image,stylesheet
 @@||imgag.com^*/adaptvadplayer.swf$domain=egreetings.com
 @@||imwx.com/js/adstwo/adcontroller.js$domain=weather.com
 @@||indiatimes.com/configspace/ads/$object,object-subrequest
-@@||inplay.tubemogul.com/bootloader/tubemogulflowplayer.swf$object-subrequest,domain=majorleaguegaming.com|teamliquid.net
-@@||inplay.tubemogul.com/crossdomain.xml$object-subrequest,domain=majorleaguegaming.com|teamliquid.net
 @@||inserts2online.com/i2o_mainframe.jsp?*&adid=$subdocument
 @@||itv.com^*.adserver.js
 @@||itv.com^*/flvplayer.swf?$object
@@ -15449,9 +15472,9 @@ xxxymovies.com##a[href^="http://enter.brazzersnetwork.com/track/"]
 @@||pagead2.googlesyndication.com/pagead/imgad?$image,domain=nedbank.co.za|nedbankgreen.co.za
 @@||pagead2.googlesyndication.com/pagead/scache/show_invideo_ads.js$domain=sciencedaily.com
 @@||pagead2.googlesyndication.com/pagead/static?format=in_video_ads&$elemhide,subdocument
-@@||partner.googleadservices.com/gampad/google_ads.js$domain=avclub.com|mysoju.com|nedbank.co.za|nedbankgreen.co.za|pcper.com|yfrog.com
+@@||partner.googleadservices.com/gampad/google_ads.js$domain=avclub.com|ensonhaber.com|mysoju.com|nedbank.co.za|nedbankgreen.co.za|pcper.com|yfrog.com
 @@||partner.googleadservices.com/gampad/google_ads2.js$domain=motorcycle.com|mysoju.com|nedbank.co.za|yfrog.com
-@@||partner.googleadservices.com/gampad/google_service.js$domain=avclub.com|motorcycle.com|mysoju.com|nedbank.co.za|nedbankgreen.co.za|pcper.com|yfrog.com
+@@||partner.googleadservices.com/gampad/google_service.js$domain=avclub.com|ensonhaber.com|motorcycle.com|mysoju.com|nedbank.co.za|nedbankgreen.co.za|pcper.com|yfrog.com
 @@||partners.thefilter.com/crossdomain.xml$object-subrequest,domain=dailymotion.com|dailymotion.virgilio.it
 @@||partners.thefilter.com/dailymotionservice/$image,object-subrequest,script,domain=dailymotion.com|dailymotion.virgilio.it
 @@||pets4homes.co.uk/*/advert.js
@@ -15710,6 +15733,7 @@ xxxymovies.com##a[href^="http://enter.brazzersnetwork.com/track/"]
 @@||viamichelin.pt^*/rentacar.js
 @@||video1.italiaoggi.it/movie/movie/adserver_$object,object-subrequest
 @@||video1.milanofinanza.it/movie/movie/adserver_$object,object-subrequest
+@@||videonuz.ensonhaber.com/player/hdflvplayer/xml/ads.xml?$object-subrequest
 @@||videos.lanacion.com.ar^*/xml/publicidad/$object
 ! *** easylist_adult/adult_whitelist.txt ***
 @@||eskimotube.com/advertisements.php?$script
@@ -18096,6 +18120,7 @@ _cedexis.php
 ||independent.co.uk^*/newsophus/
 ||indiatimes.com/trackjs.
 ||indiatimes.com/trackjs_
+||infomine.com/imcounter.js
 ||inquiries.redhat.com^
 ||insideline.com^*/edw1x1.gif
 ||instaforex.com/click_stat/
@@ -18839,6 +18864,8 @@ _cedexis.php
 @@||doubleclick.net/activityi;src=$object-subrequest,domain=cicispizza.com
 @@||dw.com.com/js/dw.js$domain=gamespot.com|tv.com
 @@||edge.quantserve.com/quant.js$domain=apps.facebook.com|g4tv.com
+@@||ensighten.com/crossdomain.xml$domain=thebostonchannel.com|wyff4.com
+@@||ensighten.com/libs/flowplayer/ensightenplugin.swf$domain=thebostonchannel.com|wyff4.com
 @@||go.com/stat/flash/analyticreportingas3.swf
 @@||imrworldwide.com^*/flashdetect.js
 @@||imrworldwide.com^*/swfobject.js
@@ -18853,8 +18880,6 @@ _cedexis.php
 @@||moulinex.com/js/xtroi.js
 @@||myfamilycominc.tt.omtrdc.net^$script,domain=ancestry.com.au
 @@||networkworld.com^*/demandbase.js
-@@||nexus.ensighten.com/crossdomain.xml$domain=thebostonchannel.com
-@@||nexus.ensighten.com^*/ensightenplugin.swf$domain=thebostonchannel.com
 @@||o.aolcdn.com/omniunih.js$domain=mapquest.com|www.aol.com
 @@||optimost.com/counter/*/event.js?$domain=bebo.com
 @@||optimost.com^*/content.js?$domain=bebo.com
@@ -18866,8 +18891,8 @@ _cedexis.php
 @@||statcounter.com/msline.swf
 @@||trc.taboolasyndication.com/log/breitbart/click?$image,domain=breitbart.tv
 @@||tremor.nuggad.net/crossdomain.xml$object-subrequest,domain=deluxemusic.tv
-@@||tubemogul.com/crossdomain.xml$object-subrequest,domain=clgaming.net|holysh1t.net|own3d.tv|thebostonchannel.com|voxafrica.co.uk
-@@||tubemogul.com^*/tubemogulflowplayer.swf$domain=clgaming.net|holysh1t.net|own3d.tv|thebostonchannel.com
+@@||tubemogul.com/bootloader/tubemogulflowplayer.swf$domain=clgaming.net|holysh1t.net|majorleaguegaming.com|own3d.tv|teamliquid.net|thebostonchannel.com|wyff4.com
+@@||tubemogul.com/crossdomain.xml$object-subrequest,domain=clgaming.net|holysh1t.net|majorleaguegaming.com|own3d.tv|teamliquid.net|thebostonchannel.com|voxafrica.co.uk|wyff4.com
 @@||vacayvitamins.com/wp-content/plugins/wp-minify/min/?*/google-analyticator/$script
 @@||vod.olympics2010.msn.com/beacon?$object-subrequest
 @@||vod.universalsports.com/beacon?$object-subrequest
@@ -18883,14 +18908,16 @@ _cedexis.php
 @@||heute.de/zdf/flash/eplayer/player.swf?*/cgi-bin/ivw/
 @@||ing-diba.de^*/sitestat.js
 @@||ip.nuggad.net/rc?$script,domain=vox.de
+@@||tubemogul.com/bootloader/tubemogulflowplayer.swf$object-subrequest,domain=mystarcraft.de|pcgames.de|pcgameshardware.de
+@@||tubemogul.com/crossdomain.xml$object-subrequest,domain=mystarcraft.de|pcgames.de|pcgameshardware.de
 @@||willhaben.apa.net/clientscript/xtcore.js
 @@||zdf.de/zdf/flash/eplayer/player.swf?*/cgi-bin/ivw/
 ! French
 @@||cot.priceminister.com/res/static/*/xtcore.js
 ! Greek
 @@||stats.e-go.gr/rx.asp?$object-subrequest,domain=megatv.com
-! Russian
-@@||afisha.ru/proxy/videonetworkproxy.ashx?$xmlhttprequest
 ! Polish
 @@||kropka.onet.pl^*/onet.js$domain=tvnwarszawa.pl
+! Russian
+@@||afisha.ru/proxy/videonetworkproxy.ashx?$xmlhttprequest
 
