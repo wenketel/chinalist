@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 5TFru6JEQtoMmpacL1Oaww
+!  Checksum: XH2Y9+Q8UaBq+W9+p/A8yQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 09 Jun 2011 19:30:53 +0800
+!  Last Modified:  Fri, 10 Jun 2011 15:36:31 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -364,6 +364,12 @@ focus.cn##.ad_fp
 /counter*.htm|$domain=freegame.com.tw|free-game.cc
 free-game.cc,freegame.com.tw##a[href^="http://www.itaiwanmj.com.tw/"]
 
+!---火狐主页
+||i.g-fox.cn/iframes/$subdocument
+g-fox.cn###taobao
+g-fox.cn##[id^="ad_links"]
+g-fox.cn##[id^="banner_show"]
+
 !---gamer.com.tw
 /banner/*$domain=gamer.com.tw
 
@@ -604,7 +610,7 @@ www.pixnet.net###extradiv5
 
 !---代理中国
 ||s5proxy.com^$subdocument
-||www.s5proxy.com/img/socks5_40080.gif
+www.s5proxy.com/img/socks5_40080.gif
 ||proxycn.com/worldpeace/qq/qq7.js
 
 !---V游网
@@ -891,6 +897,7 @@ udn.com###ads
 
 !---VeryCD
 ||sp.vcimg.com^
+statics.verycd.com/images/banner/topic_shooter.png
 verycd.com##.no_topic
 verycd.com##.banner_toped2k
 verycd.com##.game_advertisment
@@ -2233,8 +2240,6 @@ discuz.net##[class^="wp a_"]
 downg.com##.content.ad-b950x50
 www.dzahz.net##marquee
 chinese.engadget.com##.post[style]
-g-fox.cn##[id^="ad_links"]
-g-fox.cn##[id^="banner_show"]
 hao123.com##.middle
 www.hoopchina.com##[class^="ad"]
 itfunz.com##.a_pb
@@ -2289,6 +2294,7 @@ zaobao.com###myMovie
 &adid=
 &adname=
 &adserver=
+&adsize=
 &adslot=
 &adspace=
 &adtype=
@@ -2327,6 +2333,8 @@ zaobao.com###myMovie
 -leaderboard-ad-
 -panel_ad_
 -permads.
+-popup-ad.
+-popup-ads-
 -rebels-ads/
 -text-ads.
 -third-ad.
@@ -2464,6 +2472,7 @@ zaobao.com###myMovie
 /ad/side_
 /ad/sponsored-
 /ad/takeover/*
+/ad000/*
 /ad1.html
 /ad125.
 /ad160.
@@ -3376,6 +3385,7 @@ zaobao.com###myMovie
 /geo-ads_
 /geo/ads.
 /geo_banner.htm?
+/geoad/*
 /get-ad.
 /get_ad.php?
 /getad.
@@ -7140,6 +7150,7 @@ _768x90_
 ~backpage.com##.adinfo
 ##.adinside
 ##.adintro
+##.adits
 ##.adjlink
 ##.adkicker
 ##.adkit
@@ -7336,6 +7347,7 @@ _768x90_
 ##.adsmalltext
 ##.adsmessage
 ##.adsnippet_widget
+##.adsp
 ~giga.de##.adspace
 ##.adspace-MR
 ##.adspace-widget
@@ -7473,7 +7485,7 @@ _768x90_
 ##.advertisment_two
 ##.advertize
 ##.advertize_here
-##.advertorial
+~1und1.de,~gmx.net,~web.de##.advertorial
 ##.advertorial-2
 ##.advertorial-promo-box
 ##.advertorial_red
@@ -9914,6 +9926,7 @@ _768x90_
 ||affiliates.minisites.com^
 ||affiliates.supergreenhosting.com^
 ||affiliates.ticketnetwork.com^
+||affiliates.tyroodr.com^
 ||affiliates.ufxpartners.com^
 ||affiliation.fotovista.com^
 ||affutdmedia.com^$third-party
@@ -10408,6 +10421,7 @@ _768x90_
 ||privatamateure.com/promotion/
 ||promo.badoink.com^
 ||promos.meetlocals.com^
+||red-tube.com/dynbanner.php?
 ||sexy.fling.com^$third-party
 ||sleepgalleries.com/recips/$third-party
 ||streamen.com/exports/$third-party
@@ -10560,6 +10574,8 @@ _768x90_
 ||break.com^*/marketguide-iframe.html
 ||brecorder.com^*/banners/
 ||brenz.net/img/bannerrss.gif
+||broadcastingworld.net/*-promo.jpg
+||broadcastingworld.net/marquee-
 ||brothersoft.com/softsale/
 ||brothersoft.com^*/float.js
 ||browsershots.org/static/images/creative/
@@ -10613,6 +10629,7 @@ _768x90_
 ||comparestoreprices.co.uk/images/promotions/
 ||compassnewspaper.com/images/banners/
 ||complexmedianetwork.com^*/takeovers/
+||complexmedianetwork.com^*/toolbarlogo.png
 ||computerandvideogames.com^*/promos/
 ||computerworld.com^*/jobroll/
 ||consumerreports.org^*/sx.js
@@ -10877,7 +10894,11 @@ _768x90_
 ||idg.com.au/images/*_promo$image
 ||idg.com.au^*_skin.jpg
 ||ifilm.com/website/*-skin-
+||iload.to/img/ul/
+||iload.to/img/ul/
+||iload.to/php/static/1a.html
 ||iload.to^*/impopi.js
+||iload.tv/php/static/1a.html
 ||iload.tv^*/impopi.js
 ||iloveim.com/cadv4.jsp?
 ||imagerise.com/ir.js
@@ -11315,6 +11336,7 @@ _768x90_
 ||soundtracklyrics.net^*_az.js
 ||southafricab2b.co.za/banners/
 ||space.com/promo/
+||spaceforradio.com/newbanner/
 ||spartoo.eu/footer_tag_iframe_
 ||sponsors.webosroundup.com^
 ||startxchange.com/bnr.php
@@ -11323,6 +11345,7 @@ _768x90_
 ||steroid.com/dsoct09.swf
 ||stlyrics.com^*_az.js
 ||strategypage.com^*_banner
+||streamfinder.com/promo_logos/
 ||stuff.tv/client/skinning/
 ||succeed.co.za^*/banner_
 ||sunriseradio.com/js/rbanners.js
@@ -11378,6 +11401,7 @@ _768x90_
 ||times-herald.com/pubfiles/
 ||timesnow.tv/googlehome.cms
 ||titanbet.com/promoloaddisplay?
+||tmcs.net^
 ||tmz.vo.llnwd.net^*/assets/overlay/
 ||torrentfreak.com^*/wyzo.gif
 ||torrentfreak.com^*banner.png|
@@ -11532,6 +11556,7 @@ _768x90_
 ||2adultflashgames.com^*_160x500.jpg
 ||2adultflashgames.com^*_80x468.gif
 ||ads.xxxbunker.com^
+||celeb.gate.cc/misc/event_*.js
 ||efukt.com/stuff/
 ||eskimotube.com/banners/
 ||exgfpics.com/150x200-
@@ -11893,6 +11918,8 @@ brisbanetimes.com.au##.ad
 broadbandchoices.co.uk###bb-Site-override-left
 broadbandchoices.co.uk###bb-Site-override-right
 broadbandreports.com##td[width="125"][valign="TOP"][nowrap][bgcolor="#FFFFFF"][align="CENTER"][style]
+broadcastingworld.net##.midsection
+broadcastingworld.net##div[style="width: 980px; height: 200px; margin-left: auto; margin-right: auto;"]
 broadcastnewsroom.com###shopperartbox
 broadcastnewsroom.com##.bfua
 broadcastnewsroom.com##.bottombanner
@@ -12441,6 +12468,8 @@ experts-exchange.com###compSky
 experts-exchange.com##.ontopBanner
 explainthisimage.com###top-leaderboard
 explainthisimage.com##.leaderboard
+expressnews.lk##table[align="center"][width="300"]
+expressnews.lk##table[border="0"][width="200"]
 extremeoverclocking.com##td[height="104"][colspan="2"]
 facebook.com###home_sponsor_nile
 facebook.com##.ego_spo
@@ -12686,6 +12715,7 @@ gizmocrunch.com###Mod177
 gizmodo.com###skySpacer
 gizmodo.com###skyscraper
 gmanews.tv##.left[style="width:250px; height:280px; border-top:1px solid #cccccc;"]
+gmx.co.uk##.PanelPartners
 goal.com###marketplaceModule
 goal.com##.betDropdown
 goal.com##.betting200x120
@@ -12856,8 +12886,10 @@ iii.co.uk###marketdatabox_content_footer
 illimitux.net###screens
 illimitux.net##.pub_bot
 illimitux.net##.pub_top
+iload.to###imPopup
 iload.to##h1[onclick^="closeIM();window.open('http://ul.to/ref/"]
 iload.to##p[onclick^="closeIM();window.open('http://ul.to/ref/"]
+iload.tv###imPopup
 iload.tv##h1[onclick^="closeIM();window.open('http://ul.to/ref/"]
 iload.tv##p[onclick^="closeIM();window.open('http://ul.to/ref/"]
 iloubnan.info###bann
@@ -12883,6 +12915,7 @@ independent.co.uk##.googleCols
 independent.co.uk##.homepagePartnerList
 independent.co.uk##.spotlight
 indiaglitz.com##table[height="90"][width="740"]
+indianetzone.com##td[height="110"]
 indianexpress.com###shopping_deals
 indianexpress.com##.box
 indiatimes.com###jobsbox
@@ -14080,6 +14113,8 @@ sfgate.com##.kaango
 sfgate.com##.z-sponsored-block
 sfx.co.uk###banner
 sfx.co.uk##.ad
+shaaditimes.com##.txt[style="border: solid 1px #A299A6; background-color: #FDFCFC;"]
+shaaditimes.com##div[style="padding: 5 0 0 0px; height: 138px; text-align:center; width:780px; background: url('/imgs/top-ad-bg.gif') repeat-x left bottom; background-color:#FFF9D0;"]
 shacknews.com###superleader
 share-links.biz###advice
 share-links.biz###inf_outer
@@ -14216,6 +14251,10 @@ storagereview.com##td[width="410"]:first-child + td[align="right"]
 stormfront.org##img[border="0"][rel="nofollow"]
 stormfront.org##table[width="863"]
 strata40.megabyet.net##a[href^="http://tiny.cc/freescan"]
+streamfinder.com###superbanner
+streamfinder.com##.bodytext[style="float:left; display:inline;  margin-right:9px; margin-top:10px; width:125px; height:120px; border-right:dotted 1px #cccccc;"]
+streamfinder.com##div[style="width:150px; height:150px; float:left; display:inline; margin-top:10px;"]
+streamfinder.com##div[style="width:150px; height:150px; float:left; display:inline; margin-top:10px;margin-right:10px;"]
 streetinsider.com##.ad
 stripes.com##.ad
 stuff.co.nz##.adv_box_narrow
@@ -14425,6 +14464,7 @@ thisismoney.co.uk###Sky
 thisisnotporn.net###headerbanner
 thisisplymouth.co.uk##.leaderboard
 threatpost.com###partners
+ticketmaster.com###thisSpon
 tidbits.com###top_banner
 tigerdirect.ca##div[style="width:936px; clear:both; margin-top:2px; height:90px;"]
 tigerdroppings.com##td[height="95"][bgcolor="#dedede"]
@@ -15345,6 +15385,7 @@ xxxymovies.com##a[href^="http://enter.brazzersnetwork.com/track/"]
 @@||ebayrtm.com/rtm?rtmcmd&a=json&cb=parent.$script
 @@||economist.com.na^*/banners/cartoon_
 @@||edgar.pro-g.co.uk/data/*/videos/adverts/$object-subrequest
+@@||edgesuite.net/general/ibn/ads/*.flv$object-subrequest,domain=ibnlive.in.com
 @@||edgesuite.net^*/instreamad/*.flv$domain=cbs.com
 @@||edmontonjournal.com/js/adsync/adsynclibrary.js
 @@||espn.go.com^*/espn360/banner?$subdocument
@@ -15641,7 +15682,7 @@ xxxymovies.com##a[href^="http://enter.brazzersnetwork.com/track/"]
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=full-ngage-games.blogspot.com|gameserver.n4cer.de|geeklab.info|gpxplus.net|ninjaraider.com|upfordown.com
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=articlewagon.com|full-ngage-games.blogspot.com|gameserver.n4cer.de|geeklab.info|gpxplus.net|ipaditalia.com|iphoneitalia.com|myspace.com|ninjaraider.com|spreadlink.us|upfordown.com|warp2search.net
 @@||ping.indieclicktv.com/www/delivery/ajs.php?zoneid=$object-subrequest
-@@||rapid8.com/ads/adcontroller.js
+@@||rapid8.com/ads/*.js
 @@||ratebeer.com/javascript/advertisement.js
 @@||remixshare.com^*.js
 @@||sankakucomplex.com^$script
@@ -15798,6 +15839,7 @@ xxxymovies.com##a[href^="http://enter.brazzersnetwork.com/track/"]
 /chartbeat.js
 /chat/server.php?request=track&output=
 /chcounter/*
+/click_track.js
 /clickheat.js
 /clickheat/*
 /clickstream.js
@@ -16772,6 +16814,7 @@ _cedexis.php
 ||counteronline.de^$third-party
 ||counterserver.de^$third-party
 ||counterstation.de^$third-party
+||counterstatistik.de^$third-party
 ||counthis.com^$third-party
 ||counti.de^$third-party
 ||countimo.de^$third-party
@@ -18393,6 +18436,7 @@ _cedexis.php
 ||theplatform.com/tracker.log?
 ||thesaurus.com/track/
 ||theweek.com/decor/track/
+||ticketmaster.com/clicktrack?
 ||timeinc.net/shared/static/swf/tcmanalytics_
 ||timeslogtn.timesnow.tv^
 ||timestrends.indiatimes.com^
@@ -18910,6 +18954,7 @@ _cedexis.php
 @@||tubemogul.com/bootloader/tubemogulflowplayer.swf$object-subrequest,domain=mystarcraft.de|pcgames.de|pcgameshardware.de
 @@||tubemogul.com/crossdomain.xml$object-subrequest,domain=mystarcraft.de|pcgames.de|pcgameshardware.de
 @@||willhaben.apa.net/clientscript/xtcore.js
+@@||yimg.com/mi/eu/ywa.js$domain=immowelt.de
 @@||zdf.de/zdf/flash/eplayer/player.swf?*/cgi-bin/ivw/
 ! French
 @@||cot.priceminister.com/res/static/*/xtcore.js

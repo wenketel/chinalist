@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: GPtlqEIqv92sqQRbiMwAoA
+!  Checksum: PKTm3z+xuDaeUs+0Rw+VCA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 09 Jun 2011 19:30:53 +0800
+!  Last Modified:  Fri, 10 Jun 2011 15:36:31 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -364,6 +364,12 @@ focus.cn##.ad_fp
 /counter*.htm|$domain=freegame.com.tw|free-game.cc
 free-game.cc,freegame.com.tw##a[href^="http://www.itaiwanmj.com.tw/"]
 
+!---火狐主页
+||i.g-fox.cn/iframes/$subdocument
+g-fox.cn###taobao
+g-fox.cn##[id^="ad_links"]
+g-fox.cn##[id^="banner_show"]
+
 !---gamer.com.tw
 /banner/*$domain=gamer.com.tw
 
@@ -604,7 +610,7 @@ www.pixnet.net###extradiv5
 
 !---代理中国
 ||s5proxy.com^$subdocument
-||www.s5proxy.com/img/socks5_40080.gif
+www.s5proxy.com/img/socks5_40080.gif
 ||proxycn.com/worldpeace/qq/qq7.js
 
 !---V游网
@@ -891,6 +897,7 @@ udn.com###ads
 
 !---VeryCD
 ||sp.vcimg.com^
+statics.verycd.com/images/banner/topic_shooter.png
 verycd.com##.no_topic
 verycd.com##.banner_toped2k
 verycd.com##.game_advertisment
@@ -2233,8 +2240,6 @@ discuz.net##[class^="wp a_"]
 downg.com##.content.ad-b950x50
 www.dzahz.net##marquee
 chinese.engadget.com##.post[style]
-g-fox.cn##[id^="ad_links"]
-g-fox.cn##[id^="banner_show"]
 hao123.com##.middle
 www.hoopchina.com##[class^="ad"]
 itfunz.com##.a_pb
