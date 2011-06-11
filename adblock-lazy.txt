@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: P1EufWhhbOrlWxlyQi2aBQ
+!  Checksum: 47CuxbqEvlYeEcADHiVt/g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 11 Jun 2011 10:58:25 +0800
+!  Last Modified:  Sun, 12 Jun 2011 00:05:58 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -2189,7 +2189,6 @@ www.114lm.com^$third-party
 |http://*/i.js|$third-party
 
 !-----------------------------Privacy----------------------
-/count.$domain=~124.228.254.229|~bilibili.us|~downg.com|~kupig.cc|~taobao.com
 /counter.
 /counts.
 /hiido.js
@@ -2361,6 +2360,7 @@ zaobao.com###myMovie
 .biz/ad/
 .ca/ads/
 .cc/ads/
+.cfm?ad=
 .com/ad-
 .com/ad.
 .com/ad/
@@ -3577,6 +3577,7 @@ zaobao.com###myMovie
 /lbl_ad.
 /leader_ad.
 /leaderboardads.
+/leftad.
 /leftad_
 /leftsidebarads.
 /linkads.
@@ -6772,6 +6773,7 @@ _768x90_
 ##.ad-unit-300
 ##.ad-unit-300-wrapper
 ##.ad-unit-anchor
+##.ad-unit-top
 ##.ad-vert
 ##.ad-vertical-container
 ##.ad-vtu
@@ -15279,6 +15281,7 @@ xxxymovies.com##a[href^="http://enter.brazzersnetwork.com/track/"]
 @@||ad.zanox.com/ppc/$subdocument,domain=wisedock.at|wisedock.co.uk|wisedock.com|wisedock.de|wisedock.eu
 @@||ad2.zophar.net/images/logo.jpg$image
 @@||adap.tv/redir/client/adplayer.swf$object-subrequest
+@@||adap.tv/redir/javascript/vpaid.js$domain=hallpass.com
 @@||addictinggames.com^*/mtvi_ads_reporting.js
 @@||adf.ly/images/ad_top_bg.png
 @@||adgear.com/adgear.js/current/uncompressed/adgear.js$domain=tac.tv
@@ -15762,6 +15765,7 @@ xxxymovies.com##a[href^="http://enter.brazzersnetwork.com/track/"]
 @@||autoscout24.*/all.js.aspx?m=css&*=/stylesheets/adbanner.css
 @@||autotube.cz/ui/player/ad.php?id=$object-subrequest
 @@||bnrs.ilm.ee/www/delivery/fl.js
+@@||checkm8.com/modules/video/*/plugin/advantagevideo.swf$object-subrequest,domain=terra.cl
 @@||e-planning.net/eb/*?*fvp=2&$object-subrequest,domain=clarin.com|emol.com|tn.com.ar
 @@||ebayrtm.com/rtm?$script,domain=annonces.ebay.fr|ebay.it
 @@||emediate.eu/crossdomain.xml$domain=bandit.se|playradio.se|tv3play.ee|tv3play.lv|tv3play.se|tv6play.se|tv8play.se
@@ -15784,6 +15788,7 @@ xxxymovies.com##a[href^="http://enter.brazzersnetwork.com/track/"]
 @@||openx.zomoto.nl/live/www/delivery/fl.js
 @@||openx.zomoto.nl/live/www/delivery/spcjs.php?id=
 @@||pagead2.googlesyndication.com/pagead/abglogo/abg-da-100c-000000.png$domain=janno.dk|nielco.dk
+@@||rentalsystems.com/advert_price_imbed.asp?$subdocument
 @@||ring.bg/adserver/adall.php?*&video_on_page=1
 @@||skai.gr/advert/*.flv$object-subrequest
 @@||smartadserver.com/call/pubj/$object-subrequest,domain=antena3.com
