@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: AEsGgRZKfeDeCABfHu3XuA
+!  Checksum: 0qjHIdThdls/70Cb316Tog
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 10 Jun 2011 17:21:27 +0800
+!  Last Modified:  Sat, 11 Jun 2011 09:34:41 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -14,10 +14,11 @@
 @@||360buy.com/uploads/$image
 @@||51job.com^$elemhide
 @@||a.5d6d.com^$image
+@@/pic/cover/*$image,domain=bangumi.tv|bgm.tv|chii.tv
 @@||union.bokecc.com^$object,object_subrequest,script
-@@||afp.goyeah.com^$object_subrequest
-@@||pic.top100.cn/AdImg/
 @@/adbanner/*$image,domain=books.com.tw
+@@||pic.top100.cn/AdImg/
+@@||afp.goyeah.com^$object_subrequest
 @@||shangcuwang.com/ads/$image
 
 !----------------------------Well-known Sites--------------
@@ -898,7 +899,7 @@ udn.com###ads
 
 !---VeryCD
 ||sp.vcimg.com^
-statics.verycd.com/images/banner/topic_shooter.png
+||statics.verycd.com/images/banner/topic_shooter.png
 verycd.com##.no_topic
 verycd.com##.banner_toped2k
 verycd.com##.game_advertisment
@@ -2182,7 +2183,7 @@ www.114lm.com^$third-party
 /tanchuang^
 /tuiguang/*
 |http://ad.
-|http://*/ad/$~stylesheet,domain=~10010.com|~42qu.com|~bankcomm.com|~ezpeer.com|~kupig.cc|~ruten.com.tw|~tp-link.cn
+|http://*/ad/$~stylesheet,domain=~42qu.com|~bangumi.tv|~bankcomm.com|~bgm.tv|~chii.in|~ezpeer.com|~kupig.cc|~ruten.com.tw
 |https://*/ad/
 |http://*/*_ad.js
 |http://gg.$~stylesheet,domain=~bbs.vc52.cn
@@ -2275,13 +2276,17 @@ zaobao.com###myMovie
 ||taobao.com/go/chn/tbk_channel/$domain=aiqing520.com
 ||kafan.cn/static/kafan_img/
 ||linuxeden.com/image/rongxinguangyu1.gif
+||linuxdiyf.com/it/enkj.gif
 ||linuxdiyf.com/it/vfast.gif
 ||linuxdiyf.com/it/yutianedu*.gif
 ||livefilestore.com^$domain=cnscg.com
+||tuan.cnscg.com/img/
 ||blog.hi.mop.com/flash/830-310.swf
 ||nanrenwa.com/_img/a/
 ||okjee.com/js/union_api.js
-||pic.yupoo.com/dapenti/B0OnizUM/LmVHV.gif
+@@||pic.yupoo.com/dapenti/13454957faef/evz295vf.jpg
+@@||pic.yupoo.com/dapenti/B7a9YMWa/RT7vO.jpg
+||pic.yupoo.com/dapenti/
 ||yutianedu.com/pic/linux95050.gif
 
 !------------------------End of List-------------------------
