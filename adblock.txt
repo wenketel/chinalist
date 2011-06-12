@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: dwN+jJGOBOFgTPBvjGrmfg
+!  Checksum: nBl8PbzaZcGW0A5ycj51ng
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 12 Jun 2011 10:11:54 +0800
+!  Last Modified:  Sun, 12 Jun 2011 11:02:26 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -291,13 +291,13 @@ dict.cn##.text-gg-bar
 dict.cn###top-gg
 
 !---Discuz! & PHPWind etc.
-/overture_ads.js
+/common/cf/*$image
 ##[class^="ad_footerbanner"]
 ##.ad_column
+##.archiver_banner
 ###ad_headerbanner
 ~top81.jschina.com.cn,~top81.cn##[id^="ad_thread"]
 ###ads_c_tpc
-##.archiver_banner
 ~yyets.com,~zol.com.cn###focus.focus
 ###sitefocus.focus
 
@@ -2163,7 +2163,6 @@ www.114lm.com^$third-party
 /affiliate/*
 .allyes.$third-party
 /allyes.
-/common/cf/*$image
 /dkgg/*
 /floatadv.
 /ggao/*
@@ -2229,36 +2228,28 @@ www.114lm.com^$third-party
 !-----------------------Element Hiding---------------------
 3dmgame.com##[class^="banner_"]
 sbsrunningman.5d6d.com###header
-ab2xy.com##[id^="zzjs_net_"]
 www.alibuybuy.com##[class^="ad_"]
 av199.com,hd199.com##tr.altbg2 > TD[width="100%"]
-btscg.com##img[width="960"]
-chn51.com##.endAd336
 crsky.com##.banner
 www.dapenti.com##td.oblog_t_4
 www.dapenti.com##.oblog_t_2 > div[align="center"]
 discuz.net##[class^="wp a_"]
 downg.com##.content.ad-b950x50
 www.dzahz.net##marquee
-chinese.engadget.com##.post[style]
 hao123.com##.middle
 www.hoopchina.com##[class^="ad"]
-itfunz.com##.a_pb
-ivaluing.com###aa
 ivaluing.com##[class^="ads"]
 jandan.net##.eggs
 jandan.net##.xy
-www.javaeye.com###forum_recommended_f4
-www.javaeye.com###forum_recommended_f5
+iteye.com###forum_recommended_f4
+iteye.com###forum_recommended_f5
 www.mywenxue.com###msg_win
 newsmth.net##table.hot_title > tbody > tr > td[style]
 newsmth.net##table.HotTable > tbody > tr > td.HotTitle > script + a
-news.pchome.com.tw,pchome.syspower.com.tw###ad_bg_div
 price.com.hk##.tb
 price.com.hk##[id^="ad"]
 qianlong.com##.aditem01
 qihoo.com###clk_right_imgAD
-sncj.com.cn##div.top + div[style^="width:960px;"]
 bbs.sjtu.cn,bbs.sjtu.edu.cn,bbs6.sjtu.edu.cn###ad
 subpig.net###ajaxwaitid + div.wrap > #header + table + table[width="97%"][height="33"]
 subpig.net##div.wrap > table[width="97%"][bgcolor="#000000"][background="#ffffff"]
@@ -2267,7 +2258,6 @@ xfastest.com##body[id^="backdrop"] > a
 xfastest.com##[id^="ad"]
 xfastest.com##[class^="ad"]
 xfastest.com###main-bot > .cl
-yingkong.net##div[style^="width: 960px;"] + div[align="center"]
 zaobao.com###myMovie
 
 !-----------------------Temporary---------------------------
@@ -2278,8 +2268,7 @@ zaobao.com###myMovie
 ||linuxdiyf.com/it/enkj.gif
 ||linuxdiyf.com/it/vfast.gif
 ||linuxdiyf.com/it/yutianedu*.gif
-||livefilestore.com^$domain=cnscg.com
-||tuan.cnscg.com/img/
+||livefilestore.com^$domain=cnscg.com|btscg.com
 ||blog.hi.mop.com/flash/830-310.swf
 ||nanrenwa.com/_img/a/
 ||okjee.com/js/union_api.js
