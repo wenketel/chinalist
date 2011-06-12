@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 47CuxbqEvlYeEcADHiVt/g
+!  Checksum: TZj5ncZSpFI58uMFidyfsw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 12 Jun 2011 00:05:58 +0800
+!  Last Modified:  Sun, 12 Jun 2011 10:11:55 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -2235,6 +2235,8 @@ av199.com,hd199.com##tr.altbg2 > TD[width="100%"]
 btscg.com##img[width="960"]
 chn51.com##.endAd336
 crsky.com##.banner
+www.dapenti.com##td.oblog_t_4
+www.dapenti.com##.oblog_t_2 > div[align="center"]
 discuz.net##[class^="wp a_"]
 downg.com##.content.ad-b950x50
 www.dzahz.net##marquee
@@ -2281,9 +2283,6 @@ zaobao.com###myMovie
 ||blog.hi.mop.com/flash/830-310.swf
 ||nanrenwa.com/_img/a/
 ||okjee.com/js/union_api.js
-@@||pic.yupoo.com/dapenti/13454957faef/evz295vf.jpg
-@@||pic.yupoo.com/dapenti/B7a9YMWa/RT7vO.jpg
-||pic.yupoo.com/dapenti/
 ||yutianedu.com/pic/linux95050.gif
 
 !------------------------End of List-------------------------
@@ -8357,6 +8356,7 @@ _768x90_
 ##.right_ad_top
 ##.right_ads
 ~dailymotion.com,~dailymotion.virgilio.it##.right_ads_column
+##.right_box_ad_rotating_container
 ##.right_col_ad
 ##.right_hand_advert_column
 ##.right_side-partyad
@@ -8818,6 +8818,7 @@ _768x90_
 ||2mdn.net^$~object-subrequest,third-party
 ||360ads.com^$third-party
 ||360yield.com^$third-party
+||365sbaffiliates.com^$third-party
 ||3rdads.com^$third-party
 ||43plc.com^$third-party
 ||600z.com^$third-party
@@ -9864,7 +9865,7 @@ _768x90_
 ||naiadsystems.com^$third-party
 ||plugrush.com^$third-party
 ||porkolt.com^$third-party
-||sascentral.com^$third-partyparty
+||sascentral.com^$third-party
 ||sexdatecash.com^$third-party
 ||sexsearch.com^$third-party
 ||sextracker.com^$third-party
@@ -10295,7 +10296,7 @@ _768x90_
 ||robofish.com/cgi-bin/banner.cgi?
 ||sailthru.com^*/horizon.js
 ||sayswap.com/banners/
-||scribol.com/txwidget.js$third-party
+||scribol.com/txwidget$third-party
 ||searchportal.information.com/?$third-party
 ||secondspin.com/twcontent/
 ||selectperformers.com/images/a/
@@ -10932,7 +10933,9 @@ _768x90_
 ||imod.co.za^*_120x600b.jpg
 ||impactradio.co.za^*/banners/
 ||impulsedriven.com/app_images/wallpaper/
+||independent.co.uk/kelkoo/
 ||independent.co.uk/multimedia/archive/$subdocument
+||independent.co.uk^*/partners/
 ||indiainfoline.com/wc/ads/
 ||indianexpress.com^*/banner/
 ||indiatimes.com/google_articleshow_
@@ -10964,6 +10967,7 @@ _768x90_
 ||itweb.co.za/logos/
 ||itweb.co.za/sidelogos/
 ||ivillage.com/iframe_render?
+||iwayafrica.co.zw/images/banners/
 ||iwebtool.com^*/bannerview.php
 ||jackfm.co.uk^*/ads/
 ||jackfm.co.uk^*/splashbanner.php
@@ -10979,6 +10983,8 @@ _768x90_
 ||johnbridge.com/vbulletin/images/tyw/cdlogo-john-bridge.jpg
 ||johnbridge.com/vbulletin/images/tyw/wedi-shower-systems-solutions.png
 ||jollo.com/images/travel.gif
+||jozikids.co.za/uploadimages/*_140x140_
+||jozikids.co.za/uploadimages/140x140_
 ||jpost.com/images/*/promos/
 ||jpost.com/images/2009/newsite/
 ||jpost.com/wzo.swf
@@ -11175,6 +11181,7 @@ _768x90_
 ||oraclebroadcasting.com/images/hempusa_330.gif
 ||osdir.com/ml/$subdocument
 ||ox-d.majorgeeks.com^
+||ox-d.sbnation.com^
 ||ox.furaffinity.net^
 ||oyetimes.com/join/advertisers.html
 ||paktribune.com^*/banner/
@@ -11470,6 +11477,7 @@ _768x90_
 ||vortez.co.uk^*skyscraper.jpg
 ||w3schools.com/banners/
 ||wareseeker.com/banners/
+||warriorforum.com/vbppb/
 ||watchotmovies.co.cc/wp-content/plugins/wplockz/
 ||waterford-today.ie^*/banners/
 ||wbgo.org^*/banners/
@@ -11673,6 +11681,10 @@ abcnews.go.com##.ad
 abndigital.com###banner468
 abndigital.com###leaderboard_728x90
 about.com###adB
+about.com###coupon_head
+about.com###coupons
+about.com###google1
+about.com###leaderboard
 about.com##.gB
 acapelladdl.com##div[id][style^="display: block;"]
 accuradio.com###masthead
@@ -12935,11 +12947,15 @@ inbox.com##.slinks
 indeed.co.uk##.sjl
 independent.co.uk###article > .box
 independent.co.uk###bottom_link
+independent.co.uk###tertiaryColumn > .slider
 independent.co.uk###yahooLinks
 independent.co.uk##.commercialpromo
 independent.co.uk##.googleCols
 independent.co.uk##.homepagePartnerList
+independent.co.uk##.partners
 independent.co.uk##.spotlight
+independent.co.uk##a[target="_blank"][rel="nofollow"][onclick*="Partner Slider"]
+independent.co.uk##div[style="position:relative;width:300px;height:250px;"]
 indiaglitz.com##table[height="90"][width="740"]
 indianetzone.com##td[height="110"]
 indianexpress.com###shopping_deals
@@ -13113,6 +13129,7 @@ joystiq.com###medrectrb
 joystiq.com###topleader-wrap
 joystiq.com##.medrect
 jozifm.co.za##.mrec
+jozikids.co.za##img[height="140"][width="140"]
 jpost.com###ads\.gbox\.1
 jpost.com###ads\.gbox\.2
 jpost.com###grid_sidepane
@@ -13128,6 +13145,7 @@ justin.tv###iphone_banner
 jwire.com.au##div[style="width:468px;height:60px;margin:10px auto;"]
 kaldata.net###header2
 karambavidz.com###adblock4
+kat.ph##.advertising
 katu.com###leader-sponsor
 katu.com###mrktplace_tabbed
 katu.com###sponsor
@@ -13476,6 +13494,7 @@ motionempire.com##div[style="width:728px; margin-top:3px; margin-bottom:3px; hei
 motorauthority.com##.chitika-listings
 motorcycle-usa.com##.bannergoogle
 motorcycle.com##.ad
+movdivx.com##a[href^="http://install.secure-softwaremanager.com/"]
 movie2k.to###ball
 movie2k.to###details > strong > a:first-child:last-child
 movie2k.to###tablemoviesindex:last-child > tbody:first-child:last-child > tr:last-child
@@ -13548,6 +13567,7 @@ mylifeisaverage.com##.ad
 mynokiablog.com###head-banner468
 mynokiablog.com##.banner728
 myoutsourcedbrain.com###HTML2
+mype.co.za##td[style="vertical-align: top; background-color: rgb(207, 207, 207);"]
 myretrotv.com##img[width="875"][height="110"]
 mysanantonio.com###advertisement
 mysanantonio.com##.row1
@@ -14637,6 +14657,7 @@ ucoz.org##div[id^="adBar"]
 ugotfile.com##a[href="https://www.astrill.com/"]
 ugotfile.com##a[href^="http://ugotfile.com/affiliate?"]
 ukclimbing.com##img[width="250"][height="350"]
+ulmb.com##.ad
 ultimate-guitar.com##.ads
 ultimate-guitar.com##.b[style="height:110px; vertical-align:middle; text-align:center"]
 ultimate-guitar.com##.pca
@@ -18396,6 +18417,7 @@ _cedexis.php
 ||showstreet.com/log/
 ||shutterfly.com^*/pageloadtime.gif?
 ||sidebar.issuu.com^
+||sigma.disqus.com^
 ||sitelife.ehow.com^
 ||sky.com^*/hightrafficsurveycode.js
 ||skype.com^*/inclient/
