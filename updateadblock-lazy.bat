@@ -1,2 +1,2 @@
-ABPUtils.exe merge adblock.txt adblock-lazy.txt
+ABPUtils.exe merge adblock.txt
 @pause
