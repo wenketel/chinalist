@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 6WI0GDEFlWYKLpFbwi/RuA
+!  Checksum: XrW/5BiT8FCUdB1IXSamrw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 13 Jun 2011 23:55:41 +0800
+!  Last Modified:  Tue, 14 Jun 2011 10:51:24 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -1090,12 +1090,11 @@ zhulang.com##.hx_newgg
 ||pic.zol.com.cn^$object
 ||pic.zol-img.com.cn^$object
 zol.com.cn##[id^="Bar"]
-www.zol.com.cn##[id^="AD"]
-www.zol.com.cn##.banner960
+zol.com.cn##[id^="AD"]
+www.zol.com.cn##[class^="banner"]
 !--中关村在线武汉站
 ||pc3w.com/adpic/
 ||pc3w.com/Article/UploadFiles/$image
-||pc3w.com/jS/
 pc3w.com##table[width="925"][height="305"]
 
 !---左岸读书
@@ -1265,8 +1264,6 @@ gamersky.com##.adc
 ||221.7.244.118^
 
 !---Net Disks
-/static/modules/*$domain=u.115.com
-/static//modules/*$domain=u.115.com
 ||d.namipan.com/inc_js/$script
 ||img.rayfile.com/scr/$script
 ||rayfile.com/_.gif?vid

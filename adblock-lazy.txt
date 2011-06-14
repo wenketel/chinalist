@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: DVDfx5licojKEp6fegtqNw
+!  Checksum: az5OU1IY6f/ROU/JnaqsKA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 13 Jun 2011 23:55:42 +0800
+!  Last Modified:  Tue, 14 Jun 2011 10:51:24 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -1090,12 +1090,11 @@ zhulang.com##.hx_newgg
 ||pic.zol.com.cn^$object
 ||pic.zol-img.com.cn^$object
 zol.com.cn##[id^="Bar"]
-www.zol.com.cn##[id^="AD"]
-www.zol.com.cn##.banner960
+zol.com.cn##[id^="AD"]
+www.zol.com.cn##[class^="banner"]
 !--中关村在线武汉站
 ||pc3w.com/adpic/
 ||pc3w.com/Article/UploadFiles/$image
-||pc3w.com/jS/
 pc3w.com##table[width="925"][height="305"]
 
 !---左岸读书
@@ -1265,8 +1264,6 @@ gamersky.com##.adc
 ||221.7.244.118^
 
 !---Net Disks
-/static/modules/*$domain=u.115.com
-/static//modules/*$domain=u.115.com
 ||d.namipan.com/inc_js/$script
 ||img.rayfile.com/scr/$script
 ||rayfile.com/_.gif?vid
@@ -2675,6 +2672,7 @@ zaobao.com###myMovie
 /adinsert.
 /adinsertionplugin.
 /adinterax.
+/adiro.
 /adition.
 /adjs.php
 /adjsmp.
@@ -2766,6 +2764,7 @@ zaobao.com###myMovie
 /ads-rectangle.
 /ads-rec|
 /ads-right.
+/ads-scroller-
 /ads-service.
 /ads-skyscraper.
 /ads-sky|
@@ -3717,6 +3716,7 @@ zaobao.com###myMovie
 /popunder.
 /popunder2.
 /popunder_
+/popunderking.
 /position=*/aamsz=
 /post_ads_
 /ppd_ads.
@@ -6051,6 +6051,7 @@ _768x90_
 ###player-below-advert
 ###player_ad
 ###player_ads
+###pmad-in1
 ###pod-ad-video-page
 ###populate_ad_bottom
 ###populate_ad_left
@@ -6175,6 +6176,8 @@ _768x90_
 ###side-ad
 ###side-ad-container
 ###sideAd
+###sideAd1
+###sideAd2
 ###sideAdSub
 ###sideBarAd
 ###side_ad
@@ -6668,6 +6671,7 @@ _768x90_
 ##.ad-area
 ##.ad-background
 ##.ad-banner
+##.ad-banner-smaller
 ##.ad-bigsize
 ##.ad-block
 ##.ad-blog2biz
@@ -6790,6 +6794,7 @@ _768x90_
 ##.ad125
 ##.ad140
 ~pcper.com##.ad160
+##.ad160600
 ##.ad160x600
 ##.ad160x600GrayBorder
 ##.ad18
@@ -7488,7 +7493,7 @@ _768x90_
 ##.advertisment_two
 ##.advertize
 ##.advertize_here
-~1und1.de,~gmx.net,~web.de##.advertorial
+~1und1.de,~gmx.at,~gmx.net,~web.de##.advertorial
 ##.advertorial-2
 ##.advertorial-promo-box
 ##.advertorial_red
@@ -8211,6 +8216,7 @@ _768x90_
 ##.navBads
 ##.nav_ad
 ##.navadbox
+##.navcommercial
 ##.navi_ad300
 ##.naviad
 ##.nba300Ad
@@ -8272,6 +8278,8 @@ _768x90_
 ##.player_hover_ad
 ##.player_page_ad_box
 ##.plista_inimg_box
+##.pm-ad
+##.pmad-in2
 ##.pnp_ad
 ##.pod-ad-300
 ##.podRelatedAdLinksWidget
@@ -9002,6 +9010,7 @@ _768x90_
 ||affbot3.com^$third-party
 ||affbot7.com^$third-party
 ||affbot8.com^$third-party
+||affbuzzads.com^$third-party
 ||affiliate-robot.com^$third-party
 ||affiliate.com^$third-party
 ||affiliate.cx^$third-party
@@ -9330,6 +9339,7 @@ _768x90_
 ||gratisnetwork.com^$third-party
 ||guardiandigitalcomparison.co.uk^$third-party
 ||gumgum.com^$third-party
+||gururevenue.com^$third-party
 ||gwallet.com^$third-party
 ||halogennetwork.com^$third-party
 ||harrenmedianetwork.com^$third-party
@@ -9357,6 +9367,7 @@ _768x90_
 ||impact-ad.jp^$third-party
 ||implix.com^$third-party
 ||impresionesweb.com^$third-party
+||impressioncontent.info^$third-party
 ||impressionvalue.mobi^$third-party
 ||indiabanner.com^$third-party
 ||indiads.com^$third-party
@@ -9888,6 +9899,7 @@ _768x90_
 ||208.43.84.120/trueswordsa3.gif$third-party,domain=~trueswords.com.ip
 ||209.222.8.217/delivery/$domain=~p2p.adserver.ip
 ||20dollars2surf.com/ban_$third-party
+||216.41.211.36/widget/$third-party,domain=~bpaww.com.ip
 ||217.115.147.241/media/$third-party,domain=~elb-kind.de.ip
 ||21nova.com/promodisplay?
 ||21nova.com/promoredirect?
