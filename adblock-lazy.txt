@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: iAiz64NhtshZlB/xDs1XPg
+!  Checksum: mzWc6C0zJzGe/RZ0ZrzCvg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 16 Jun 2011 11:15:19 +0800
+!  Last Modified:  Thu, 16 Jun 2011 11:40:03 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -712,7 +712,6 @@ siluhd.com###index_top
 ||sina.com/assets/js/dart/
 dailynews.sina.com##.TopNav + table
 !--sina.com.cn
-/950-90.
 ||bj.house.sina.com.cn/iframe/$domain=~leju.com
 ||d1.sina.com.cn^$domain=~weibo.com
 ||d2.sina.com.cn^
@@ -725,7 +724,6 @@ dailynews.sina.com##.TopNav + table
 ||rm.sina.com.cn^$~stylesheet
 ||v.sina.com.cn^$subdocument
 ||sinaimg.cn^*/deco/$script
-||sinaimg.cn/pop_win/
 ||sinaimg.cn/unipro/
 ||sh.sinaimg.cn/313/
 music.sina.com.cn/yueku/mpw/2010/adstext.js
@@ -746,19 +744,15 @@ www.sina.com.cn##.yleft2blk
 @@||sinaimg.cn^*/headcj.js$domain=finance.sina.com.cn
 ||finance.sina.com.cn/iframe/*.html|
 finance.sina.com.cn###adSinaHouseHeadLink
-finance.sina.com.cn##.topADs
 !--house
 ||d1.leju.com^$object
 ||bj.house.sina.com.cn/pdps/290/2010/1201/965.js
 ||sinaimg.cn/hs/zjwei/base/swf/picshow_160x90.swf
-house.sina.com.cn##.brand_bg
 house.sina.com.cn##[id^="miniDL_"]
-house.sina.com.cn###tuiguang
 !--大片
 ||video.sina.com.cn/iframe/$subdocument
 sina.com.cn##.adNone
 sina.com.cn###bgad_div
-||you.video.sina.com.cn/js/pg/play/vblogPop.js
 !--sports
 @@||sinaimg.cn/dy/deco/*/sinaObj.js
 ||lining.sina.com.cn^$subdocument
