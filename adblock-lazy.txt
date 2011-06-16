@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: +7vWtpuh8gNSAUCQilwloA
+!  Checksum: iAiz64NhtshZlB/xDs1XPg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 16 Jun 2011 10:20:34 +0800
+!  Last Modified:  Thu, 16 Jun 2011 11:15:19 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -72,6 +72,13 @@ search.21cn.com##td[width="184"][align="left"]
 thinkpad.cn,51nb.com##.maintable + table.t_rown
 thinkpad.cn,51nb.com##div.menu + div.maintable > table.t_rown[width="875"]
 
+!---
+||52che.com/Inc/FooterComm_1_1.js
+||52che.com/inc/rightflash.js
+||52che.com/NewLocal/TemplateHtml/
+||pic.52che.com/Files/blogupfile/imgs/
+www.52che.com##.auto_ad06
+
 !---56.com
 |http://acs.
 ||corp.56.com^
@@ -103,8 +110,8 @@ v.6.cn###playerAd
 ||am.6park.com/img/
 ||image.6park.com
 ||img.6park.com/img/$image
-||www.6park.com/parks/$script
-||www.6park.com/wap/close.gif
+www.6park.com/parks/$script
+www.6park.com/wap/close.gif
 6park.com##body > table + table + table + table + table[width="978"][bgcolor="#ffffff"]
 
 !---acfun.cn
@@ -1602,11 +1609,6 @@ xxsy.net###msg_win
 ||510379.com/510379ad/
 ||51junshi.com/new/$script
 ||51ztzj.com/i/$script
-||52che.com/Inc/FooterComm_1_1.js
-||52che.com/inc/rightflash.js
-||52che.com/NewLocal/TemplateHtml/
-||pic.52che.com/Files/blogupfile/imgs/
-price.52che.com##.if_boxShow02
 ||www.5dmail.net/js/
 ||www.5dmail.net/image/$object
 www.5dmail.net##td[width="145"]
@@ -1620,10 +1622,6 @@ www.5dmail.net##td[width="145"]
 ||badmintoncn.com/cbo_gg/
 ||benxiong.com/g/
 ||bitscn.com/pic2009/a*.js
-www.bzcm.net/data/50.files/dianxinfugai2.gif
-www.bzcm.net/data/50.files/guanying.jpg
-www.bzcm.net/data/50.files/maotai.gif
-www.bzcm.net##[id^="followDiv"]
 ||c168c.com/*adv/
 ||cbifamily.com/corporation/
 ||chinacaipu.com^$subdocument
@@ -1667,11 +1665,8 @@ fyjs.cn##div#main > div.bdbA + div.t5
 ||fzlol.com/images/$script
 ||hanzify.org/Main/Template/*/a-d-s/
 ||img.hdbird.com/langzi/20100212/0320$image
-||www.hefei.cc/templates/default/index_ad62.js
-www.hefei.cc###slideAD
+www.hefei.cc/templates/default/index_ad62.js
 bbs.hefei.cc##[id^="close_"]
-bbs.hefei.cc###lovexin14
-bbs.hefei.cc###lovexin13
 ||hk-pub.com/forum/ads_html/
 ||hk-pub.com/forum/images/banner/
 ||hdad.hudong.com/hdad/
@@ -1684,7 +1679,6 @@ bbs.hefei.cc###lovexin13
 ||img.itbulo.com/js/11/$subdocument
 ||img.itbulo.com/js/11/gg.js
 ||img.itbulo.com/js/11/style.js
-||img.itbulo.com/js/11/style_font.js
 ||infoq.com/resource/skyscraper/
 ||imanhua.com/v2/money/
 ||imp3.net/data/js/
@@ -1696,6 +1690,7 @@ bbs.hefei.cc###lovexin13
 ||jiatx.com/jiatx/mall/outer/
 ||jpwind.com/images/partner/
 jpwind.com##[id^="ShowAD"]
+||kafan.cn/static/kafan_img/
 ||panda.kdnet.net^
 ||kuqin.com/da/
 ||links.kugoo.com^
@@ -1720,19 +1715,18 @@ bbs.tiexue.net##.banner
 ||lady8844.com/IMAGE/$~image
 ||lady8844.com/js/das/
 ||lady8844.com/DA_HTML/
-||lady8844.com/images/bjsmall.jpg
 ||bbs.linuxsky.org/images/dolbar.gif
 ||86file.megajoy.com^
 ||mojim.com/htm99t/iad.js
 ||mfxk.com^$subdocument
-||secret.moumentei.com/images/ac/x.gif
 ||pub.mop.com/widget.jsp?bId
 ||mop.com/fxb/js/fxb.js
 ||mscbsc.com/gbook/search.gif
+||static1.mtime.cn^$subdocument
 ||mycodes.net/js/$image
-||needpop.com/jvc.jpg
+||needpop.com/jvc.gif
 needpop.com##.spaceborder[style="width: 98%"]
-||www.nokiabbs.com/wk_ad/
+www.nokiabbs.com/wk_ad/
 ||normteam.com/ADJPG/
 normteam.com##.a_mu
 ||offcn.com/$object
@@ -1754,7 +1748,6 @@ qdcars.com###top_jy
 qxzqw.com###banner
 ||qzwb.com/AdPreview/
 ||rin9.com/jsad/
-||scan001.com/js/*_*_$script
 ||sccnn.com/zz/
 ||sellgreat.com/images/Bdvertisement/
 ||shanxiwch.com/backwh/webmore/ad_imshow.asp^
@@ -1769,8 +1762,6 @@ suopao.org##.t5[style^="margin-top:8px;"]
 ||bbs.t56.net/ad*/
 ||taisha.org^$object
 ||taisha.org/abroad/head/banner*.html
-||taobao.com/go/rgn/favorite/baobei_ad.php
-||assets.taobaocdn.com/app/matrix/js/fload$script
 ||img.taoguba.com.cn/gbimg/
 ||img.taoguba.com.cn/js/tc.js
 ||topsage.com/service/$object
@@ -1787,11 +1778,6 @@ webcars.com.cn##div.body + div.mt10
 webkaka.com###Table1
 ||weiphone.com/baidu.html?id=
 bbs.weiphone.com##[id^="ads_"]
-||west263.com/*ads/
-||west263.com/wwwflash/
-||www.west263.com/images/imageswestlogo.gif
-||weste.net/js_v2009/ggao
-weste.net##.ggao
 ||win7china.com/Script/win7elements/
 ||img.win7china.com/images/300_80_
 win7china.com##.site_ad
@@ -1827,8 +1813,8 @@ yeshj.com###adv_zone
 ||zhyjms.com/*.jpg
 zhyjms.com##[class^="gg"]
 ||zxproxy.com/white.png
-||pic.zygod.net:8383/ad*.jpg
 ||zygod.net/js/
+www.zygod.net/shilei.gif
 ||zzsky.cn/images/a_d_
 
 !----------------------------ads-union---------------------
@@ -2120,6 +2106,7 @@ www.114lm.com^$third-party
 ||s.vipcnzz.com^$third-party
 ||vjia.com^$third-party
 ||vodone.cn^$third-party
+||wanliuliang.com^$third-party
 ||wauee.com^$third-party
 ||web933.com^$third-party
 ||wy31.com^$third-party
@@ -2203,7 +2190,6 @@ www.114lm.com^$third-party
 /ktrace/ktrace$script
 /pv?peerid=
 /stat.$~script,domain=~ameblo.jp|~zcool.com.cn
-/tongji.js
 /track.$domain=~bioinformatics.bms.com|~cmbchina.com
 /usertrack.
 !-sort by domain
@@ -2268,16 +2254,12 @@ zaobao.com###myMovie
 !-----------------------Temporary---------------------------
 !---2011.6
 ||taobao.com/go/chn/tbk_channel/$domain=aiqing520.com
-||kafan.cn/static/kafan_img/
 ||linuxeden.com/image/rongxinguangyu1.gif
 ||linuxdiyf.com/it/enkj.gif
 ||linuxdiyf.com/it/vfast.gif
 ||linuxdiyf.com/it/yutianedu*.gif
 ||livefilestore.com^$domain=cnscg.com|btscg.com
 ||blog.hi.mop.com/flash/830-310.swf
-||nanrenwa.com/_img/a/
-||okjee.com/js/union_api.js
-||yutianedu.com/pic/linux95050.gif
 
 !------------------------End of List-------------------------
 ! EasyList - https://easylist.adblockplus.org/
