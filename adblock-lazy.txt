@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: C1sDB0ZHPfq9lXOpkO+v6g
+!  Checksum: RcTrYapwav2mWAdIMEqEAA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 16 Jun 2011 13:51:42 +0800
+!  Last Modified:  Thu, 16 Jun 2011 14:09:54 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -496,7 +496,6 @@ kkkmh.com##[class^="mm-"]
 ||gug.ku6cdn.com^
 v.ku6.com##[id^="gg"]
 v.ku6.com##.flwin.flwin_min
-@@||snyu.com/crossdomain.xml|$object_subrequest
 
 !---三K小说网
 @@||kkkxs.com/configs/article/bottom.js
@@ -2064,7 +2063,7 @@ www.114lm.com^$third-party
 ||sharele.cn^$third-party
 ||shouyibao.com^$third-party
 ||skycn.org.cn^$third-party
-||snyu.com^$third-party
+||snyu.com^$third-party,domain=~v.ku6.com
 ||soua.com^$third-party
 ||js.ssrj.net^$third-party
 ||star8.net^$third-party
