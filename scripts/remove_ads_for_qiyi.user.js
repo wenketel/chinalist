@@ -3,9 +3,8 @@
 // @author Gythialy
 // @description  Remove qiyi.com flash ads for ChinaList
 // @create 2011-6-16
-// @lastmodified 2011-6-16
-// @version 1.0.1
-// @updatelog ....
+// @lastmodified 2011-6-17
+// @version 1.0.2
 // @namespace  http://code.google.com/p/adblock-chinalist/
 // @include http://www.qiyi.com/*
 // @include http://yule.qiyi.com/*
@@ -36,9 +35,8 @@
 	}
 
 	closeCrazy();
-
-	var protocol = window.location.protocol.toString();
-	var url = window.location.href.toString().substring(protocol.length);
+	
+	var url = window.location.href.toString();
 
 	var qycrazy = getQCookie('qycrazy');
 	qycrazy = qycrazy == null ? 0 : qycrazy;
@@ -47,7 +45,7 @@
 	}
 
 	var qyylcrazy = getQCookie('qyylcrazy');
-	qyylcrazy = qyylcrazy == null ? 0 : qycrazy;
+	qyylcrazy = qyylcrazy == null ? 0 : qyylcrazy;
 	if (qycrazy < 2 && url.indexOf('yule') != -1) {
 		setQCookie('qyylcrazy', 2, 1);
 	}
