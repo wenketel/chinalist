@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: uQ1bLdv9QcbPAAFAoXCs+g
+!  Checksum: th2ajftbjC+TMeTYiuH9Aw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 16 Jun 2011 22:43:20 +0800
+!  Last Modified:  Sat, 18 Jun 2011 14:52:39 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -182,9 +182,10 @@ zhidao.baidu.com##TABLE[width="100%"][bgcolor="#f5f5f5"]
 dgnet.net##.banner
 
 !---bilibili.us
-||bilibili.us/arcads.js
+www.bilibili.us/ggad.html
+www.bilibili.us/html/arcads.js
 /ad-images/*$domain=bilibili.us
-||static.u17i.com^$domain=bilibili.us
+||u17.com^$image,domain=bilibili.us
 
 !---易车网
 ||g.bitauto.com^$script
@@ -2262,6 +2263,7 @@ zaobao.com###myMovie
 ! *** easylist/easylist_general_block.txt ***
 &ad_keyword=
 &ad_type_
+&adcount=
 &adid=
 &adname=
 &adserver=
@@ -2724,6 +2726,7 @@ zaobao.com###myMovie
 /adrelated.
 /adreload?
 /adremote.
+/adrequest.
 /adrevenue/*
 /adrevolver/*
 /adrobot.
@@ -3817,6 +3820,7 @@ zaobao.com###myMovie
 /sidecol_ad.
 /silver/ads/*
 /site=*/size=*/viewid=*
+/site=*/viewid=*/size=*
 /site_ads.
 /siteads.
 /siteads/*
@@ -4356,6 +4360,8 @@ _768x90_
 ###ADVERTISE_HERE_ROW
 ###AD_CONTROL_22
 ###AD_ROW
+###AD_newsblock
+###ADgoogle_newsblock
 ###ADsmallWrapper
 ~digitalhome.ca###Ad1
 ###Ad160x600
@@ -5269,6 +5275,8 @@ _768x90_
 ###advertisementLigatus
 ###advertisementPrio2
 ###advertisementRight
+###advertisementRightcolumn0
+###advertisementRightcolumn1
 ###advertisementsarticle
 ###advertiser-container
 ###advertiserLinks
@@ -5328,6 +5336,7 @@ _768x90_
 ###apiBackgroundAd
 ###apiTopAdWrap
 ###apmNADiv
+###apolload
 ###araHealthSponsorAd
 ###area-adcenter
 ###area1ads
@@ -5417,6 +5426,7 @@ _768x90_
 ###bottomAdSense
 ###bottomAdSenseDiv
 ###bottomAds
+###bottomContentAd
 ###bottomRightAd
 ###bottomRightAdSpace
 ###bottom_ad
@@ -5566,6 +5576,7 @@ _768x90_
 ###cubead
 ###cubead-2
 ###currencies-sponsored-by
+###dAdverts
 ###dItemBox_ads
 ###dart_160x600
 ###dc-display-right-ad-1
@@ -5912,6 +5923,9 @@ _768x90_
 ###main-ad160x600
 ###main-ad160x600-img
 ###main-ad728x90
+###main-advert1
+###main-advert2
+###main-advert3
 ###main-bottom-ad
 ###main-tj-ad
 ~wellsfargo.com###mainAd
@@ -6078,6 +6092,7 @@ _768x90_
 ###right-ad-title
 ###right-ad1
 ###right-ads-3
+###right-advert
 ###right-box-ad
 ###right-featured-ad
 ###right-mpu-1-ad-container
@@ -6518,6 +6533,7 @@ _768x90_
 ##.AdsLinks2
 ##.AdsRec
 ~swanseacity.net,~wrexhamafc.co.uk##.Advert
+##.Advert300x250
 ##.AdvertMidPage
 ##.AdvertiseWithUs
 ##.Advertisement
@@ -6733,6 +6749,7 @@ _768x90_
 ##.ad-slot-234-60
 ##.ad-slot-300-250
 ##.ad-slot-728-90
+##.ad-source
 ##.ad-space
 ##.ad-space-mpu-box
 ##.ad-space-topbanner
@@ -7767,12 +7784,15 @@ _768x90_
 ##.cse_ads
 ##.cspAd
 ##.ct_ad
+##.ctnAdSkyscraper
+##.ctnAdSquare300
 ##.cube-ad
 ##.cubeAd
 ##.cube_ads
 ##.currency_ad
 ##.custom_ads
 ##.cwAdvert
+##.cxAdvertisement
 ##.darla_ad
 ##.dart-ad
 ##.dartAdImage
@@ -8385,6 +8405,7 @@ _768x90_
 ##.search-sponsor
 ##.search-sponsored
 ##.searchAd
+##.searchAdTop
 ##.searchAds
 ##.searchSponsoredResultsBox
 ##.searchSponsoredResultsList
@@ -8718,6 +8739,7 @@ _768x90_
 ##.wide_ads
 ##.wide_google_ads
 ##.widget-ad
+##.widget-ad-codes
 ##.widget-ad300x250
 ##.widget-entry-ads-160
 ##.widgetYahooAds
@@ -9541,6 +9563,7 @@ _768x90_
 ||pepperjamnetwork.com^$third-party
 ||perfb.com^$third-party
 ||performance-based.com^$third-party
+||performanceadvertising.mobi^$third-party
 ||performancetrack.info^$third-party
 ||performancingads.com^$third-party
 ||pgmediaserve.com^$third-party
@@ -10413,6 +10436,7 @@ _768x90_
 ||cwgads.com/launch.js$third-party
 ||cwgads.com^$~script,third-party
 ||datefree.com^$third-party
+||easy-dating.org/promo/$third-party
 ||feeds.videosz.com^$subdocument,third-party
 ||ff.nsg.org.ua^
 ||fleshlight.com/images/banners/
@@ -10733,7 +10757,6 @@ _cedexis.php
 ://top.*/hit/
 !-----------------Third-party tracking domains-----------------!
 ! *** easyprivacy/easyprivacy_trackingservers.txt ***
-||103bees.com^$third-party
 ||123count.com^$third-party
 ||1freecounter.com^$third-party
 ||208.88.226.75^$third-party,domain=~informer.com.ip
