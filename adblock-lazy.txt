@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: IzW1gSL/3dG4PhWExSvyZQ
+!  Checksum: F7QQCJ5v18SdPVUJLjMTJg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 19 Jun 2011 04:25:59 +0800
+!  Last Modified:  Tue, 21 Jun 2011 04:15:30 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -2222,6 +2222,7 @@ www.dapenti.com##.oblog_t_2 > div[align="center"]
 discuz.net##[class^="wp a_"]
 downg.com##.content.ad-b950x50
 www.dzahz.net##marquee
+chinese.engadget.com##.post[style]
 hao123.com##.middle
 www.hoopchina.com##[class^="ad"]
 ivaluing.com##[class^="ads"]
@@ -2635,6 +2636,7 @@ zaobao.com###myMovie
 /adhomepage.
 /adhtml/*
 /adhug_
+/adicon_
 /adiframe.
 /adiframe/*
 /adiframe?
@@ -2680,6 +2682,8 @@ zaobao.com###myMovie
 /admanager3.
 /admanagers/*
 /admanagerstatus/*
+/admarker.
+/admarker_
 /admarket/*
 /admaster.
 /admaster?
@@ -3910,6 +3914,7 @@ zaobao.com###myMovie
 /textad.
 /textad/*
 /textad?
+/textad_
 /textadrotate.
 /textads.
 /textads/*
@@ -4712,7 +4717,7 @@ _768x90_
 ###adBlock125
 ###adBlockTop
 ###adBlocks
-###adBox
+~refline.ch###adBox
 ###adBox11
 ###adBox16
 ###adBox350
@@ -5135,6 +5140,7 @@ _768x90_
 ###ads_right_sidebar
 ###ads_sidebar_roadblock
 ###ads_space
+###ads_text
 ###ads_top
 ###ads_watch_top_square
 ###ads_zone27
@@ -5188,6 +5194,7 @@ _768x90_
 ###adspaceBox
 ###adspaceBox300
 ###adspace_header
+###adspace_leaderboard
 ###adspacer
 ###adsponsorImg
 ###adspot
@@ -5294,6 +5301,7 @@ _768x90_
 ###advertisingModule728x90
 ###advertisingTopWrapper
 ###advertising_btm
+###advertising_contentad
 ###advertising_horiz_cont
 ###advertisment
 ###advertismentElementInUniversalbox
@@ -5805,8 +5813,10 @@ _768x90_
 ###hideads
 ###hl-sponsored-results
 ###hly_ad_side_bar_tower_left
+###hly_inner_page_google_ad
 ###home-advert-module
 ###home-rectangle-ad
+###home-top-ads
 ###homeMPU
 ###homeTopRightAd
 ###home_ad
@@ -5854,6 +5864,7 @@ _768x90_
 ###inlinegoogleads
 ###inlist-ad-block
 ###inner-advert-row
+###inner-top-ads
 ###innerpage-ad
 ###inside-page-ad
 ###insider_ad_wrapper
@@ -6543,6 +6554,7 @@ _768x90_
 ##.Advman_Widget
 ##.ArticleAd
 ##.ArticleInlineAd
+##.BCA_Advertisement
 ##.BannerAd
 ##.BigBoxAd
 ##.BlockAd
@@ -6774,7 +6786,7 @@ _768x90_
 ##.ad-unit-anchor
 ##.ad-unit-top
 ##.ad-vert
-##.ad-vertical-container
+~speedtest.net##.ad-vertical-container
 ##.ad-vtu
 ##.ad-widget-list
 ##.ad-with-us
@@ -7035,6 +7047,7 @@ _768x90_
 ##.ad_info_block
 ##.ad_inline
 ##.ad_island
+##.ad_jnaught
 ##.ad_label
 ##.ad_launchpad
 ##.ad_leader
@@ -8157,6 +8170,7 @@ _768x90_
 ##.mf-ad300-container
 ##.micro_ad
 ~driverscollection.com##.mid_ad
+##.mid_page_ad
 ##.midad
 ##.middleAds
 ~der-postillon.com##.middleads
@@ -8276,6 +8290,7 @@ _768x90_
 ##.pageLeaderAd
 ##.page_content_right_ad
 ##.pagead
+##.pageads
 ##.pagenavindexcontentad
 ##.paneladvert
 ##.partner-ad
@@ -8747,6 +8762,7 @@ _768x90_
 ##.widgetYahooAds
 ##.widget_ad
 ##.widget_ad_rotator
+##.widget_advert_widget
 ##.widget_econaabachoadswidget
 ##.widget_island_ad
 ##.widget_maxbannerads
@@ -8795,7 +8811,7 @@ _768x90_
 ##.yw-ad
 ##.zRightAdNote
 ~ebay.de##a[href^="http://ad-emea.doubleclick.net/"]
-##a[href^="http://ad.doubleclick.net/"]
+~zdnet.de##a[href^="http://ad.doubleclick.net/"]
 ##a[href^="http://adserving.liveuniversenetwork.com/"]
 ##a[href^="http://galleries.pinballpublishernetwork.com/"]
 ##a[href^="http://galleries.securewebsiteaccess.com/"]
@@ -9255,7 +9271,7 @@ _768x90_
 ||doubleclick.net/pfadx/*.sevenload.com_$object-subrequest,third-party
 ||doubleclick.net/pfadx/*adcat=$object-subrequest,third-party
 ||doubleclick.net/pfadx/nbcu.nbc/$object-subrequest,third-party
-||doubleclick.net^$object-subrequest,third-party,domain=addictinggames.com|atom.com|bbc.co.uk|bloomberg.com|businessweek.com|cbs4denver.com|cbsnews.com|cnbc.com|dailytelegraph.com.au|darkhorizons.com|dorkly.com|doubleviking.com|eonline.com|fandango.com|foxbusiness.com|g4tv.com|gamespot.com|gametrailers.com|globalnational.com|globalnews.ca|gorillanation.com|hulu.com|joblo.com|kptv.com|listen.grooveshark.com|mtv.co.uk|mtv.com|mtv.com.au|mtv.com.nz|mtvbase.com|mtvmusic.com|myfoxorlando.com|myfoxphoenix.com|nationalgeographic.com|news.com.au|newsweek.com|nfl.com|nick.com|nintendoeverything.com|npr.org|pandora.com|photoradar.com|play.it|ps3news.com|radio.com|reuters.com|rte.ie|sbs.com.au|sbsun.com|sevenload.com|shacknews.com|shockwave.com|sk-gaming.com|smh.com.au|southpark.nl|southparkstudios.se|space.com|spike.com|syfy.com|theage.com.au|thebostonchannel.com|thedailygreen.com|thedailyshow.com|thewire.com|ustream.tv|videojug.com|washingtonpost.com|wcbstv.com|wetransfer.com|wired.com|wkbw.com|wral.com|wrc.com|wsj.com|wwe.com|youtube.com|zappinternet.com|zoomin.tv
+||doubleclick.net^$object-subrequest,third-party,domain=addictinggames.com|atom.com|bbc.co.uk|bloomberg.com|businessweek.com|cbs4denver.com|cbsnews.com|cnbc.com|dailytelegraph.com.au|darkhorizons.com|dorkly.com|doubleviking.com|eonline.com|fandango.com|foxbusiness.com|g4tv.com|gamespot.com|gametrailers.com|globalnational.com|globalnews.ca|gorillanation.com|hulu.com|joblo.com|kptv.com|listen.grooveshark.com|mtv.co.uk|mtv.com|mtv.com.au|mtv.com.nz|mtvbase.com|mtvmusic.com|myfoxorlando.com|myfoxphoenix.com|nationalgeographic.com|news.com.au|newsweek.com|nfl.com|nick.com|nintendoeverything.com|npr.org|pandora.com|photoradar.com|play.it|ps3news.com|radio.com|reuters.com|rte.ie|sbs.com.au|sbsun.com|sevenload.com|shacknews.com|shockwave.com|sk-gaming.com|smh.com.au|southpark.nl|southparkstudios.com|southparkstudios.se|space.com|spike.com|syfy.com|theage.com.au|thebostonchannel.com|thedailygreen.com|thedailyshow.com|thewire.com|ustream.tv|videojug.com|washingtonpost.com|wcbstv.com|wetransfer.com|wired.com|wkbw.com|wral.com|wrc.com|wsj.com|wwe.com|youtube.com|zappinternet.com|zoomin.tv
 ||doubleclick.net^$~object-subrequest,third-party
 ||doubleclick.net^*;sz=$object-subrequest,third-party,domain=10news.com|1up.com|bet.com|breitbart.tv|cbc.ca|dailystar.co.uk|digitaltrends.com|four.co.nz|fox5sandiego.com|foxnews.com|france24.com|gamesradar.com|heavy.com|muzu.tv|myfoxatlanta.com|myfoxny.com|myspace.com|nbc.com|nbcsandiego.com|news.com.au|newson6.com|nhl.com|player.amri.ca|rapbasement.com|tv3.co.nz|wptv.com
 ||doublepimp.com^$third-party
