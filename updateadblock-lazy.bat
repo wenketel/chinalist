@@ -1,2 +1,2 @@
-ABPUtils.exe merge adblock.txt
+ABPUtils.exe merge adblock.txt patch
 @pause

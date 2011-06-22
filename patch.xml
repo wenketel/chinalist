@@ -1,21 +1,24 @@
 <?xml version="1.0"?>
-<PatchConfigurations xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<PatchConfigurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <RemovedItems>
-    <string>||users.51.la^$third-party</string>
-    <string>||oadz.com^$third-party</string>
+    <string>||mydirtyhobby.com/track.php?$third-party</string>
+    <string>||storage.to/affiliate/</string>
+    <string>/counter.php?chcounter_mode=</string>
+    <string>/mystats/track.js</string>
+    <string>/vstats/counter.php</string>
+    <string>/webstatistik/track.asp</string>
+    <string>||mydirtyhobby.com/?sub=$third-party</string>
+    <string>||1page.co.za/affiliate/</string>
+    <string>||buy.com^*/affiliate/</string>
+    <string>||lego.com^*/affiliate/</string>
+    <string>||liutilities.com/partners/affiliate/</string>
+    <string>||marketsamurai.com/affiliate/</string>
+    <string>||moneywise.co.uk/affiliate/</string>
+    <string>||storage.to/affiliate/</string>
+    <string>||xara.com/affiliate/</string>
+    <string>||adultfriendfinder.com/go/page/js_im_box?$third-party</string>
+    <string>||adultfriendfinder.com/banners/$third-party</string>
   </RemovedItems>
-  <NewItems>
-    <string>||users.51.la^$third-party</string>
-    <string>||oadz.com^$third-party</string>
-  </NewItems>
-  <ModifyItems>
-    <ModifyItem>
-      <OldItem>||wordstream.com^$third-party</OldItem>
-      <NewItem>||wordstream.com^$third-party</NewItem>
-    </ModifyItem>
-    <ModifyItem>
-      <OldItem>||wpdstat.com^$third-party</OldItem>
-      <NewItem>||wpdstat.com^$third-party</NewItem>
-    </ModifyItem>
-  </ModifyItems>
+  <NewItems />
+  <ModifyItems />
 </PatchConfigurations>
