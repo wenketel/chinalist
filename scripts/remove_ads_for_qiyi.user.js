@@ -13,8 +13,7 @@
 
 (function() {
 	function getQCookie(name) {
-		var arr = document.cookie.match(new RegExp("(^| )" + name
-				+ "=([^;]*)(;|$)"));
+		var arr = document.cookie.match(new RegExp("(^| )" + name + "=([^;]*)(;|$)"));
 		if (arr != null)
 			return unescape(arr[2]);
 
@@ -24,8 +23,7 @@
 	function setQCookie(name, value, expire) {
 		var crazy_exp = new Date();
 		crazy_exp.setTime(crazy_exp.getTime() + expire * 24 * 60 * 60 * 1000);
-		document.cookie = name + "=" + value + ";expires="
-				+ crazy_exp.toGMTString();
+		document.cookie = name + "=" + value + ";expires=" + crazy_exp.toGMTString();
 	}
 
 	function hideAdByIds(ids) {
@@ -37,16 +35,19 @@
 	}
 
 	var url = window.location.href.toString();
-	if (url.indexOf('www') != -1) {
-		var cookies = ['qysyskin', 'qycrazyjm', 'qycrazy'];
+	if (url.indexOf('www') > -1) {
+		var cookies = ['qysyskin', 'qycrazyjm', 'qycrazy', 'qydyskin', 'qydycrazy', 'qydsjskin', 'qydsjcrazy'];
 		for (var i = 0, length = cookies.length; i < length; i++) {
-			setQCookie(cookies[i], 5, 1);
+			var value = getQCookie(cookies[i]);
+			value = value == null ? 0 : value;
+			if (value < 5)
+				setQCookie(cookies[i], 5, 1);
 		}
 	}
 
 	var qyylcrazy = getQCookie('qyylcrazy');
 	qyylcrazy = qyylcrazy == null ? 0 : qyylcrazy;
-	if (qyylcrazy < 2 && url.indexOf('yule') != -1) {
+	if (qyylcrazy < 2 && url.indexOf('yule') > -1) {
 		setQCookie('qyylcrazy', 2, 1);
 	}
 
