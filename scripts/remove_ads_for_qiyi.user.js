@@ -1,18 +1,20 @@
 // ==UserScript==
 // @name Qiyi ads Remover
 // @author Gythialy
-// @description  Remove qiyi.com flash ads for ChinaList
+// @description Remove qiyi.com flash ads for ChinaList
 // @create 2011-6-16
-// @lastmodified 2011-6-17
-// @version 1.0.2
-// @namespace  http://code.google.com/p/adblock-chinalist/
+// @lastmodified 2011-6-24
+// @version 1.0.3
+// @updateURL:https://adblock-chinalist.googlecode.com/svn/trunk/scripts/remove_ads_for_qiyi.user.js
+// @namespace http://code.google.com/p/adblock-chinalist/
 // @include http://www.qiyi.com/*
 // @include http://yule.qiyi.com/*
 // ==/UserScript==
 
 (function() {
 	function getQCookie(name) {
-		var arr = document.cookie.match(new RegExp("(^| )" + name + "=([^;]*)(;|$)"));
+		var arr = document.cookie.match(new RegExp("(^| )" + name
+				+ "=([^;]*)(;|$)"));
 		if (arr != null)
 			return unescape(arr[2]);
 
@@ -22,31 +24,36 @@
 	function setQCookie(name, value, expire) {
 		var crazy_exp = new Date();
 		crazy_exp.setTime(crazy_exp.getTime() + expire * 24 * 60 * 60 * 1000);
-		document.cookie = name + "=" + value + ";expires=" + crazy_exp.toGMTString();
+		document.cookie = name + "=" + value + ";expires="
+				+ crazy_exp.toGMTString();
 	}
 
-	function closeCrazy() {
-		var jdtflash = document.getElementById('jdtflash');
-		if (jdtflash)
-			jdtflash.style.display = '';
-		var adflash = document.getElementById('adflash');
-		if (adflash)
-			adflash.style.display = 'none';
+	function hideAdByIds(ids) {
+		for (var i = 0, length = ids.length; i < length; i++) {
+			var t = document.getElementById(ids[i]);
+			if (t)
+				t.style.display = 'none';
+		}
 	}
 
-	closeCrazy();
-	
 	var url = window.location.href.toString();
-
-	var qycrazy = getQCookie('qycrazy');
-	qycrazy = qycrazy == null ? 0 : qycrazy;
-	if (qycrazy < 2 && url.indexOf('www') != -1) {
-		setQCookie('qycrazy', 2, 1);
+	if (url.indexOf('www') != -1) {
+		var cookies = ['qysyskin', 'qycrazyjm', 'qycrazy'];
+		for (var i = 0, length = cookies.length; i < length; i++) {
+			setQCookie(cookies[i], 5, 1);
+		}
 	}
 
 	var qyylcrazy = getQCookie('qyylcrazy');
 	qyylcrazy = qyylcrazy == null ? 0 : qyylcrazy;
-	if (qycrazy < 2 && url.indexOf('yule') != -1) {
+	if (qyylcrazy < 2 && url.indexOf('yule') != -1) {
 		setQCookie('qyylcrazy', 2, 1);
 	}
+
+	var jdtflash = document.getElementById('jdtflash');
+	if (jdtflash)
+		jdtflash.style.display = '';
+
+	var ids = ['adflash', 'backgroundskin', 'clicka'];
+	hideAdByIds(ids);
 })();

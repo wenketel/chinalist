@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: tF2vPqWpF33IKKtj4YDMZQ
+!  Checksum: 17mXKEYU6nZ/emY51oIXpA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 22 Jun 2011 20:28:57 +0800
+!  Last Modified:  Fri, 24 Jun 2011 20:21:04 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -175,6 +175,7 @@ zhidao.baidu.com##TABLE[width="100%"][bgcolor="#f5f5f5"]
 !--qiyi
 @@||afp.qiyi.com^*&local=xml|
 ^db=qiyiafp^
+||qiyipic.com/common/20110622/mini_
 
 !---东莞视窗
 ||bbapp.net/iframe/dongguan/images/ad
@@ -1911,6 +1912,7 @@ www.114lm.com^$third-party
 ||adyeye.com^$third-party
 ||adzhu.com^$third-party
 ||aiweb.tw^$third-party
+||aldm88.com^$third-party
 ||algj-27dy.cn^$third-party
 ||china.alibaba.com^$third-party
 ||alimama.cn^$third-party,domain=~taobao.com|~taobao.com.cn
@@ -2349,6 +2351,7 @@ zaobao.com###myMovie
 .info/ads/
 .jp/ads/
 .ke/ads/
+.mv/ads/
 .net/_ads/
 .net/ad/$~object-subrequest
 .net/ads/
@@ -3246,6 +3249,7 @@ zaobao.com###myMovie
 /cpxads.
 /ctamlive160x160.
 /cubead.
+/custads/*
 /customad.
 /customads/*
 /customadsense.
@@ -3499,6 +3503,7 @@ zaobao.com###myMovie
 /index_ads.
 /inline_ad.
 /inline_ad_
+/inline_ads.
 /inlineads/*
 /innerads.
 /insertads.
@@ -4112,6 +4117,7 @@ _ads.php?
 _ads/files/
 _ads/script.
 _ads1.
+_ads=
 _ads?pid=
 _ads_index_
 _ads_manager_
@@ -4429,7 +4435,7 @@ _768x90_
 ###AdvertMPU23b
 ###AdvertPanel
 ~designspotter.com###AdvertiseFrame
-~acmilan.com,~winload.de###Advertisement
+~acmilan.com,~kopavogur.is,~winload.de###Advertisement
 ~ping-timeout.de###Advertisements
 ###Advertorial
 ###Advertorials
@@ -4981,7 +4987,7 @@ _768x90_
 ~streetinsider.com###ad_space
 ~wretch.cc###ad_square
 ###ad_ss
-~bestadsontv.com,~vivastreet.fr###ad_table
+~bestadsontv.com,~vivastreet.co.uk,~vivastreet.com,~vivastreet.fr###ad_table
 ###ad_term_bottom_place
 ###ad_text:not(textarea)
 ###ad_thread_first_post_content
@@ -5196,6 +5202,8 @@ _768x90_
 ###adspot-295x60
 ###adspot-2a
 ###adspot-2b
+###adspot-300x110-pos-1
+###adspot-300x125
 ###adspot-300x250-pos-1
 ###adspot-300x250-pos-2
 ###adspot-468x60-pos-2
@@ -6756,6 +6764,7 @@ _768x90_
 ##.ad-sidebar300
 ##.ad-sky
 ##.ad-skyscr
+##.ad-skyscraper
 ##.ad-slot
 ##.ad-slot-234-60
 ##.ad-slot-300-250
@@ -6940,6 +6949,7 @@ _768x90_
 ##.adSplash
 ##.adSponsor
 ##.adSpot
+##.adSpot-brought
 ##.adSpot-searchAd
 ##.adSpot-textBox
 ##.adSpot-twin
@@ -8085,6 +8095,7 @@ _768x90_
 ##.kw_advert_pair
 ##.l_ad_sub
 ##.l_banner.ads_show_if
+##.label-ad
 ##.labelads
 ##.largeRecAdNewsContainerRight
 ##.largeRectangleAd
@@ -9271,7 +9282,7 @@ _768x90_
 ||doubleclick.net/pfadx/*.sevenload.com_$object-subrequest,third-party
 ||doubleclick.net/pfadx/*adcat=$object-subrequest,third-party
 ||doubleclick.net/pfadx/nbcu.nbc/$object-subrequest,third-party
-||doubleclick.net^$object-subrequest,third-party,domain=addictinggames.com|atom.com|bbc.co.uk|bloomberg.com|businessweek.com|cbs4denver.com|cbsnews.com|cnbc.com|dailytelegraph.com.au|darkhorizons.com|dorkly.com|doubleviking.com|eonline.com|fandango.com|foxbusiness.com|g4tv.com|gamespot.com|gametrailers.com|globalnational.com|globalnews.ca|gorillanation.com|hulu.com|joblo.com|kptv.com|listen.grooveshark.com|mtv.co.uk|mtv.com|mtv.com.au|mtv.com.nz|mtvbase.com|mtvmusic.com|myfoxorlando.com|myfoxphoenix.com|nationalgeographic.com|news.com.au|newsweek.com|nfl.com|nick.com|nintendoeverything.com|npr.org|pandora.com|photoradar.com|play.it|ps3news.com|radio.com|reuters.com|rte.ie|sbs.com.au|sbsun.com|sevenload.com|shacknews.com|shockwave.com|sk-gaming.com|smh.com.au|southpark.nl|southparkstudios.com|southparkstudios.se|space.com|spike.com|syfy.com|theage.com.au|thebostonchannel.com|thedailygreen.com|thedailyshow.com|thewire.com|ustream.tv|videojug.com|washingtonpost.com|wcbstv.com|wetransfer.com|wired.com|wkbw.com|wral.com|wrc.com|wsj.com|wwe.com|youtube.com|zappinternet.com|zoomin.tv
+||doubleclick.net^$object-subrequest,third-party,domain=addictinggames.com|atom.com|bbc.co.uk|bloomberg.com|businessweek.com|cbs4denver.com|cbsnews.com|click2houston.com|cnbc.com|dailytelegraph.com.au|darkhorizons.com|dorkly.com|doubleviking.com|eonline.com|fandango.com|foxbusiness.com|g4tv.com|gamespot.com|gametrailers.com|globalnational.com|globalnews.ca|gorillanation.com|hulu.com|joblo.com|kptv.com|listen.grooveshark.com|mtv.co.uk|mtv.com|mtv.com.au|mtv.com.nz|mtvbase.com|mtvmusic.com|myfoxorlando.com|myfoxphoenix.com|nationalgeographic.com|news.com.au|newsweek.com|nfl.com|nick.com|nintendoeverything.com|npr.org|own3d.tv|pandora.com|photoradar.com|play.it|ps3news.com|radio.com|reuters.com|rte.ie|sbs.com.au|sbsun.com|sevenload.com|shacknews.com|shockwave.com|sk-gaming.com|smh.com.au|southpark.nl|southparkstudios.com|southparkstudios.se|space.com|spike.com|syfy.com|theage.com.au|thebostonchannel.com|thedailygreen.com|thedailyshow.com|thewire.com|ustream.tv|videojug.com|washingtonpost.com|wcbstv.com|wetransfer.com|wired.com|wkbw.com|wral.com|wrc.com|wsj.com|wwe.com|youtube.com|zappinternet.com|zoomin.tv
 ||doubleclick.net^$~object-subrequest,third-party
 ||doubleclick.net^*;sz=$object-subrequest,third-party,domain=10news.com|1up.com|bet.com|breitbart.tv|cbc.ca|dailystar.co.uk|digitaltrends.com|four.co.nz|fox5sandiego.com|foxnews.com|france24.com|gamesradar.com|heavy.com|muzu.tv|myfoxatlanta.com|myfoxny.com|myspace.com|nbc.com|nbcsandiego.com|news.com.au|newson6.com|nhl.com|player.amri.ca|rapbasement.com|tv3.co.nz|wptv.com
 ||doublepimp.com^$third-party
@@ -9940,6 +9951,7 @@ _768x90_
 ||a.ucoz.net^
 ||a.watershed-publishing.com^
 ||ablacrack.com/popup-pvd.js$third-party
+||ad.sensismediasmart.com.au^
 ||adap.tv/redir/plugins/$object-subrequest
 ||adap.tv/redir/plugins3/$object-subrequest
 ||adclick.cz.cc/ac/
@@ -10473,6 +10485,7 @@ _768x90_
 ||sexy.fling.com^$third-party
 ||sleepgalleries.com/recips/$third-party
 ||streamen.com/exports/$third-party
+||swurve.com/affiliates/
 ||thrixxx.com/scripts/show_banner.php?
 ||xnxx.com^$third-party
 ||youpornmate.com/dif/?cid=$third-party
@@ -10536,7 +10549,6 @@ _768x90_
 /chartbeat.js
 /chat/server.php?request=track&output=
 /chcounter/*
-/click_track.js
 /clickheat.js
 /clickheat/*
 /clickstream.js
@@ -11166,10 +11178,12 @@ _cedexis.php
 ||mybloglog.com^$third-party
 ||myfastcounter.com^$third-party
 ||mynewcounter.com^$third-party
+||mypagerank.net^$third-party
 ||myroitracking.com^$third-party
 ||myseostats.com^$third-party
 ||mythings.com^$third-party
 ||myusersonline.com^$third-party
+||mywebstats.com.au^$third-party
 ||navegg.com^$third-party
 ||nedstat.com^$third-party
 ||nedstat.net^$third-party
