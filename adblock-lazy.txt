@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 17mXKEYU6nZ/emY51oIXpA
+!  Checksum: GY0zIXtf332x9Dm+nKqCeA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 24 Jun 2011 20:21:04 +0800
+!  Last Modified:  Sat, 25 Jun 2011 11:59:46 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -29,6 +29,7 @@
 ||g.163.com^
 ||v.163.com/special/*gg*.xml
 163.com##[class^="gg"]
+www.163.com###g5n2
 !--有道
 ||youdao.com/imp/$script
 ||a.youdao.com^
@@ -2507,6 +2508,7 @@ zaobao.com###myMovie
 /ad_rectangle_
 /ad_refresher.
 /ad_reloader_
+/ad_request.
 /ad_right.
 /ad_rotation.
 /ad_rotator.
@@ -2994,6 +2996,7 @@ zaobao.com###myMovie
 /adtxt.
 /adtype.
 /adunit.
+/adunit/*
 /adunits/*
 /adv/ads/*
 /adver.
@@ -3065,6 +3068,8 @@ zaobao.com###myMovie
 /adyard300.
 /adzone.
 /adzone_
+/adzonebottom.
+/adzoneleft.
 /adzones/*
 /afc-match?q=
 /afcsearchads.
@@ -4035,6 +4040,7 @@ zaobao.com###myMovie
 ;cue=pre;$object-subrequest
 ;iframeid=ad_
 =ad_iframe&
+=adspremiumplacement&
 =adtech_
 =advert/
 =advertorial&
@@ -4653,7 +4659,7 @@ _768x90_
 ###ad-zone-inline
 ###ad01
 ###ad02
-~autoscout24.de,~festzeit.ch,~tphousing.com,~tvgorge.com###ad1
+~autoscout24.de,~badger.ru,~festzeit.ch,~tphousing.com,~tvgorge.com###ad1
 ###ad1006
 ###ad11
 ###ad125BL
@@ -4664,7 +4670,7 @@ _768x90_
 ###ad160x600
 ###ad160x600right
 ###ad1Sp
-###ad2
+~badger.ru###ad2
 ###ad2Sp
 ~absoluteradio.co.uk###ad3
 ###ad300
@@ -9284,7 +9290,7 @@ _768x90_
 ||doubleclick.net/pfadx/nbcu.nbc/$object-subrequest,third-party
 ||doubleclick.net^$object-subrequest,third-party,domain=addictinggames.com|atom.com|bbc.co.uk|bloomberg.com|businessweek.com|cbs4denver.com|cbsnews.com|click2houston.com|cnbc.com|dailytelegraph.com.au|darkhorizons.com|dorkly.com|doubleviking.com|eonline.com|fandango.com|foxbusiness.com|g4tv.com|gamespot.com|gametrailers.com|globalnational.com|globalnews.ca|gorillanation.com|hulu.com|joblo.com|kptv.com|listen.grooveshark.com|mtv.co.uk|mtv.com|mtv.com.au|mtv.com.nz|mtvbase.com|mtvmusic.com|myfoxorlando.com|myfoxphoenix.com|nationalgeographic.com|news.com.au|newsweek.com|nfl.com|nick.com|nintendoeverything.com|npr.org|own3d.tv|pandora.com|photoradar.com|play.it|ps3news.com|radio.com|reuters.com|rte.ie|sbs.com.au|sbsun.com|sevenload.com|shacknews.com|shockwave.com|sk-gaming.com|smh.com.au|southpark.nl|southparkstudios.com|southparkstudios.se|space.com|spike.com|syfy.com|theage.com.au|thebostonchannel.com|thedailygreen.com|thedailyshow.com|thewire.com|ustream.tv|videojug.com|washingtonpost.com|wcbstv.com|wetransfer.com|wired.com|wkbw.com|wral.com|wrc.com|wsj.com|wwe.com|youtube.com|zappinternet.com|zoomin.tv
 ||doubleclick.net^$~object-subrequest,third-party
-||doubleclick.net^*;sz=$object-subrequest,third-party,domain=10news.com|1up.com|bet.com|breitbart.tv|cbc.ca|dailystar.co.uk|digitaltrends.com|four.co.nz|fox5sandiego.com|foxnews.com|france24.com|gamesradar.com|heavy.com|muzu.tv|myfoxatlanta.com|myfoxny.com|myspace.com|nbc.com|nbcsandiego.com|news.com.au|newson6.com|nhl.com|player.amri.ca|rapbasement.com|tv3.co.nz|wptv.com
+||doubleclick.net^*;sz=$object-subrequest,third-party,domain=10news.com|1up.com|bet.com|breitbart.tv|cbc.ca|dailystar.co.uk|digitaltrends.com|four.co.nz|fox5sandiego.com|foxnews.com|france24.com|gamesradar.com|heavy.com|latimes.com|muzu.tv|myfoxatlanta.com|myfoxny.com|myspace.com|nbc.com|nbcsandiego.com|news.com.au|newson6.com|nhl.com|player.amri.ca|rapbasement.com|tv3.co.nz|wptv.com
 ||doublepimp.com^$third-party
 ||dpbolvw.net^$third-party
 ||dsnr-affiliates.com^$third-party
@@ -9909,6 +9915,7 @@ _768x90_
 ||enoratraffic.com^$third-party
 ||gridlockparadise.com^$third-party
 ||hentaibiz.com^$third-party
+||highnets.com^$third-party
 ||jackao.net^$third-party
 ||mediagra.com^$third-party
 ||naiadsystems.com^$third-party
@@ -10450,6 +10457,7 @@ _768x90_
 ||213.174.140.76^*/ads/
 ||213.174.140.76^*/js/msn-$script
 ||213.174.140.76^*/js/msn.js
+||ad.iloveinterracial.com^
 ||adultdvd.com/plugins/*/store.html$third-party
 ||adultfriendfinder.com^$third-party
 ||br.realitykings.com^
@@ -10698,6 +10706,7 @@ _768x90_
 /sophus3/logging-code.js
 /sophus3/logging.js
 /sophus3_logging.js
+/staffcp/save_stats.php?
 /stat36/stat/track.php
 /statcounter.js
 /statcountex/count.asp?
