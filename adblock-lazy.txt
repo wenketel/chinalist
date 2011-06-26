@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: DN9jC35ajHZU5SuykkcGKQ
+!  Checksum: vFlc/Z+YcAJvd1B65XqEag
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 25 Jun 2011 19:32:42 +0800
+!  Last Modified:  Sun, 26 Jun 2011 11:31:19 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -497,6 +497,8 @@ kkkmh.com##[class^="mm-"]
 ||st.vq.ku6.cn^
 ||stat.ku6.com^
 ||gug.ku6cdn.com^
+||snyu.com/sdk/flash^$third-party
+js.ku6cdn.com/www/2011/0623/release.js
 v.ku6.com##[id^="gg"]
 v.ku6.com##.flwin.flwin_min
 
@@ -2056,7 +2058,6 @@ www.114lm.com^$third-party
 ||sharele.cn^$third-party
 ||shouyibao.com^$third-party
 ||skycn.org.cn^$third-party
-||snyu.com^$third-party,domain=~v.ku6.com
 ||soua.com^$third-party
 ||js.ssrj.net^$third-party
 ||star8.net^$third-party
@@ -2420,6 +2421,7 @@ zaobao.com###myMovie
 /ad-managment/*
 /ad-right2.
 /ad-server/*
+/ad-tandem.
 /ad-template/*
 /ad-top-
 /ad-topbanner-
@@ -2456,8 +2458,11 @@ zaobao.com###myMovie
 /ad2border.
 /ad300.
 /ad300x145.
+/ad300x250.
+/ad300x250_
 /ad350.
 /ad4.gif
+/ad468x80.
 /ad728.
 /ad728x15.
 /ad?count=
@@ -2660,6 +2665,7 @@ zaobao.com###myMovie
 /adlayer/*
 /adleader.
 /adleaderboardtop.
+/adleft/*
 /adlink-
 /adlink.
 /adlink_
@@ -2706,6 +2712,7 @@ zaobao.com###myMovie
 /adonline.
 /adops/*
 /adotubeplugin.
+/adoverlay/*
 /adp.htm
 /adpage.
 /adpage/*
@@ -2730,6 +2737,7 @@ zaobao.com###myMovie
 /adrequest.
 /adrevenue/*
 /adrevolver/*
+/adright/*
 /adrobot.
 /adrolays.
 /adroller.
@@ -3344,6 +3352,7 @@ zaobao.com###myMovie
 /flashad.
 /flashads.
 /flashads/*
+/floater_ad.
 /floatingads.
 /footad-
 /footad.
@@ -3833,6 +3842,7 @@ zaobao.com###myMovie
 /siteads.
 /siteads/*
 /siteafs.txt?
+/sitemanagement/ads/*
 /sites/ad_
 /skyad.
 /skyad_
@@ -4583,6 +4593,7 @@ _768x90_
 ~madame.lefigaro.fr###ad-container
 ###ad-content
 ###ad-contentad
+###ad-first-post
 ###ad-flex-first
 ###ad-footer
 ###ad-footprint-160x600
@@ -4604,6 +4615,9 @@ _768x90_
 ###ad-leaderboard-spot
 ###ad-leaderboard-top
 ###ad-left
+###ad-left-sidebar-ad-1
+###ad-left-sidebar-ad-2
+###ad-left-sidebar-ad-3
 ###ad-links-content
 ###ad-list-row
 ###ad-lrec
@@ -4623,6 +4637,8 @@ _768x90_
 ###ad-placeholder
 ###ad-rectangle
 ###ad-right
+###ad-right-sidebar-ad-1
+###ad-right-sidebar-ad-2
 ###ad-righttop
 ###ad-row
 ###ad-side-text
@@ -4831,6 +4847,7 @@ _768x90_
 ###adTag1
 ###adTag2
 ###adText
+###adTextCustom
 ###adTextLink
 ###adText_container
 ###adTile
@@ -6511,8 +6528,11 @@ _768x90_
 ##.AD_MOVIE_ITEM
 ##.AD_MOVIE_ITEMLIST
 ##.AD_MOVIE_ITEMROW
+##.Ad-300x100
+##.Ad-Container-976x166
 ##.Ad-Header
 ##.Ad-MPU
+##.Ad-Wrapper-300x100
 ##.Ad1
 ##.Ad120x600
 ##.Ad160x600
@@ -6711,6 +6731,7 @@ _768x90_
 ~arbetsformedlingen.se,~mobile.de##.ad-container
 ##.ad-container-300x250
 ##.ad-container-728x90
+##.ad-container-994x282
 ~autorambler.ru,~horsebase.at,~horsebase.com,~horsebase.de,~pferde-suchen.com,~pferde-verkaufen.com##.ad-content
 ##.ad-context
 ##.ad-disclaimer
@@ -7883,6 +7904,7 @@ _768x90_
 ##.floatingAds
 ##.fm-badge-ad
 ##.fns_td_wrap
+##.fold-ads
 ##.footad
 ##.footer-ad
 ##.footerAd
@@ -10493,6 +10515,7 @@ _768x90_
 ||promos.meetlocals.com^
 ||red-tube.com/dynbanner.php?
 ||sexy.fling.com^$third-party
+||share-image.com/borky/
 ||sleepgalleries.com/recips/$third-party
 ||streamen.com/exports/$third-party
 ||swurve.com/affiliates/
@@ -10530,6 +10553,7 @@ _768x90_
 /b/ss/*?[aqb]&ndh=
 /b/ss/*?aqb=1&ndh=
 /b/ss/*?aqb=1&pccr=
+/b/ss/*?pagename=
 /b/ss/ueglobaldev/*
 /b/ss/wdgdolad,
 /baynote-observer.js
@@ -10698,6 +10722,7 @@ _768x90_
 /revsci.js
 /s.gif?l=
 /sdctag.js?
+/sdxp1/dru4/meta?_hc=
 /shinystat.cgi?
 /sitestat.js
 /sitestats.gif?
