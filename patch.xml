@@ -1,14 +1,19 @@
 <?xml version="1.0"?>
 <PatchConfigurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <RemovedItems>
-    <string>||mydirtyhobby.com/track.php?$third-party</string>
-    <string>||storage.to/affiliate/</string>
-    <string>/counter.php?chcounter_mode=</string>
-    <string>/mystats/track.js</string>
-    <string>/vstats/counter.php</string>
-    <string>/webstatistik/track.asp</string>
-    <string>||mydirtyhobby.com/?sub=$third-party</string>
+    <string>/affiliate/ads/*</string>
+    <string>/affiliate/ads/*</string>
+	<string>/affiliate/banner.php?</string>
+	<string>/affiliate/banners/*</string>
+	<string>/affiliate/script.php?</string>
+	<string>/affiliate/scripts/*</string>
+	<string>/banner/affiliate/*</string>
+	<string>/banners/affiliate/*</string>
+	<string>/image/affiliate/*</string>
+	<string>/images/affiliate/*</string>
     <string>||1page.co.za/affiliate/</string>
+    <string>||gameduell.com/res/affiliate/</string>
+    <string>||handango.com/marketing/affiliate/</string>
     <string>||buy.com^*/affiliate/</string>
     <string>||lego.com^*/affiliate/</string>
     <string>||liutilities.com/partners/affiliate/</string>
@@ -18,6 +23,17 @@
     <string>||xara.com/affiliate/</string>
     <string>||adultfriendfinder.com/go/page/js_im_box?$third-party</string>
     <string>||adultfriendfinder.com/banners/$third-party</string>
+    <string>.com/ads/$image,object,subdocument</string>
+    <string>/adv/ads/*</string>
+    <string>||carefuldoctor.com/adv/search.php</string>
+    <string>/stat36/stat/track.php</string>
+    <string>/stats/track.asp?</string>
+    <string>/counter.php?chcounter_mode=</string>
+    <string>/mystats/track.js</string>
+    <string>/vstats/counter.php</string>
+    <string>/webstatistik/track.asp</string>
+    <string>||mydirtyhobby.com/track.php?$third-party</string>
+    <string>||mydirtyhobby.com/?sub=$third-party</string>
   </RemovedItems>
   <NewItems>
   	<string>||beacon.sina.com.cn^</string>

@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: U7/DFyKi5YqUO35sVisQTQ
+!  Checksum: PxfJhONIb4lkQm0LMwz1aw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 26 Jun 2011 11:31:18 +0800
+!  Last Modified:  Wed, 29 Jun 2011 10:44:41 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -74,13 +74,6 @@ search.21cn.com##td[width="184"][align="left"]
 /forum/images/*$domain=51nb.com|thinkpad.cn,image
 thinkpad.cn,51nb.com##.maintable + table.t_rown
 thinkpad.cn,51nb.com##div.menu + div.maintable > table.t_rown[width="875"]
-
-!---
-||52che.com/Inc/FooterComm_1_1.js
-||52che.com/inc/rightflash.js
-||52che.com/NewLocal/TemplateHtml/
-||pic.52che.com/Files/blogupfile/imgs/
-www.52che.com##.auto_ad06
 
 !---56.com
 |http://acs.
@@ -469,6 +462,11 @@ www.it168.com##div#header  +  div[style^="border"]
 ||itpub.net/googlepv/pv.js
 ||itpub.net/popwindowjs.php
 ||itpub.net/js_floatwindows.php
+
+!---iteye
+||info-database.csdn.net^$domain=iteye.com,image
+iteye.com###forum_recommended_f4
+iteye.com###forum_recommended_f5
 
 !---日搜
 ||jpseek.com/pr/
@@ -2221,8 +2219,6 @@ ivaluing.com##[class^="ads"]
 jandan.net##.eggs
 jandan.net##.xy
 icson.com##[id$="_top_ad"]
-iteye.com###forum_recommended_f4
-iteye.com###forum_recommended_f5
 www.mywenxue.com###msg_win
 newsmth.net##table.hot_title > tbody > tr > td[style]
 newsmth.net##table.HotTable > tbody > tr > td.HotTitle > script + a
