@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: uLA5dS49iW5U9wx214gOiw
+!  Checksum: a+YEUUeYDg0ANCSij6zTQw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 29 Jun 2011 11:04:31 +0800
+!  Last Modified:  Wed, 29 Jun 2011 12:36:28 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -56,10 +56,11 @@ mail.126.com,mail.163.com##[id$="FakeLetterDiv"]
 ||20ju.com/js/RightJs1.js
 
 !---21CN
-||game.21cn.com/09/upload/$object
+||analytics.21cn.com^
 ||shows.21cn.com^
-market.21cn.com/$domain=~dgnet.net
+||market.21cn.com^
 ||ranking.21cn.com^
+igame.21cn.com/zhanwai/
 search.21cn.com##td[height="35"]
 search.21cn.com##td[width="184"][align="left"]
 
@@ -2144,7 +2145,6 @@ www.114lm.com^$third-party
 /ggjs/*
 /guangao/*
 /guangg/*
-/guanggao^
 /guanggao.
 /images/prom/*
 /tan.js
@@ -2195,7 +2195,6 @@ www.114lm.com^$third-party
 ||twcount.com^$third-party
 ||look.urs.tw^$third-party
 ||vdoing.com^$third-party
-@@|http://msn.wrating.com/a1.js
 ||wrating.com^$third-party
 ||analytics-union.sandai.net^$third-party
 
