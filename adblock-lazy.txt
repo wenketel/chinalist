@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: +nN9F/qlTW9fgku9xXflYg
+!  Checksum: A4PMahvvxYiKzNxpyTtNtg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 01 Jul 2011 22:03:26 +0800
+!  Last Modified:  Sat, 02 Jul 2011 10:32:10 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -72,7 +72,8 @@ search.21cn.com##td[width="184"][align="left"]
 !---51nb.com/thinkpad.cn
 @@/forum/images/*/*$domain=51nb.com|thinkpad.cn,image
 /forum/images/*$domain=51nb.com|thinkpad.cn,image
-thinkpad.cn,51nb.com##div.menu + div.maintable > table.t_rown[width="875"]
+thinkpad.cn,51nb.com##div.menu + div.maintable >table.t_rown
+thinkpad.cn,51nb.com##div.secmenu:last-child
 
 !---56.com
 |http://acs.
@@ -3666,6 +3667,7 @@ zaobao.com###myMovie
 /publicidad.$~object-subrequest
 /publicidad/*
 /pullads.
+/punder.js
 /qandaads/*
 /quadadvert.
 /questions/ads/*
@@ -5077,6 +5079,7 @@ _768x90_
 ###ads_box
 ###ads_button
 ###ads_catDiv
+###ads_container
 ###ads_footer
 ###ads_fullsize
 ###ads_header
@@ -5406,6 +5409,7 @@ _768x90_
 ###bottomadsense
 ###bottomadwrapper
 ###bottomleaderboardad
+###box-ad-section
 ###box-content-ad
 ###box-googleadsense-1
 ###box-googleadsense-r
@@ -5965,7 +5969,7 @@ _768x90_
 ###msad
 ###multiLinkAdContainer
 ###multi_ad
-###my-ads
+~campusboard.at###my-ads
 ###myads_HeaderButton
 ###n_sponsor_ads
 ###namecom_ad_hosting_main
@@ -6095,6 +6099,7 @@ _768x90_
 ###rightcolhouseads
 ###rightcolumn_300x250ad
 ###rightgoogleads
+###rightinfoad
 ###rightside-ads
 ###rightside_ad
 ###righttop-adverts
@@ -10463,6 +10468,7 @@ _768x90_
 ||nakedshygirls.com/bannerimg/
 ||nude.hu/html/$third-party
 ||nudemix.com/widget/
+||pod.manplay.com^$third-party
 ||popit.mediumpimpin.com^
 ||premiumhdv.com/bn/
 ||privatamateure.com/promotion/
