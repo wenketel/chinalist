@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: ireLwTyWSM8i74CwaJeUEQ
+!  Checksum: Dpd/dOaqV9JpPwjJbNz9TQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 02 Jul 2011 10:32:10 +0800
+!  Last Modified:  Sat, 02 Jul 2011 10:50:14 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -72,7 +72,8 @@ search.21cn.com##td[width="184"][align="left"]
 !---51nb.com/thinkpad.cn
 @@/forum/images/*/*$domain=51nb.com|thinkpad.cn,image
 /forum/images/*$domain=51nb.com|thinkpad.cn,image
-thinkpad.cn,51nb.com##div.menu + div.maintable >table.t_rown
+thinkpad.cn,51nb.com##div.menu + div.maintable > table.t_rown:first-child
+thinkpad.cn,51nb.com##div.menu + div.maintable > table.t_rown[width="98%"]
 thinkpad.cn,51nb.com##div.secmenu:last-child
 
 !---56.com
