@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: PIoD6vZl4Iw4Ya9ffKKs0A
+!  Checksum: X1zOXXtcuTlkIrki9kfZUw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 03 Jul 2011 10:24:27 +0800
+!  Last Modified:  Sun, 03 Jul 2011 15:08:38 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -112,10 +112,10 @@ www.6park.com/wap/close.gif
 pop.6park.com##TABLE[width="122"]
 
 !---acfun.cn
-@@||124.228.254.229/plus/ad_js.php?aid=8
+@@||acfun.tv/plus/ad_js.php?aid=8
+||acfun.tv/upload/acfuntc.js
 /ad_js.php?
 /newflvplayer/xml/gg_a.xml
-||124.228.254.229/images.js
 
 !---小众软件
 ||appinn.com/wp-content/uploads/$image
@@ -527,6 +527,7 @@ onlinedown.net,newhua.com##.scroll-flash
 ||nownews.com/yam/
 nownews.com##[id^="focus_"]
 nownews.com###nownews_pickup
+nownews.com###primary_1 > div.page_title:first-child
 nownews.com###related_link
 nownews.com###travel_ad
 ||yes123.com.tw/nownews/
