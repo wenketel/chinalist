@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: X1zOXXtcuTlkIrki9kfZUw
+!  Checksum: nAxhgMIf5Geg4Rampy6rTA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 03 Jul 2011 15:08:38 +0800
+!  Last Modified:  Mon, 04 Jul 2011 10:17:40 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -1213,8 +1213,6 @@ gamersky.com##.adc
 ||114.247.19.164^
 ||121.32.136.21^
 ||221.236.17.23^
-!--上海电信
-||family001.com^
 !--铁通
 ||116.9.156.88^
 !--2kk.cc
@@ -1657,6 +1655,7 @@ bbs.tiexue.net##.banner
 ||mop.com/fxb/js/fxb$script
 ||mscbsc.com/gbook/search.gif
 ||static1.mtime.cn^$subdocument
+www.mtime.com###notice_box
 ||mycodes.net/js/$image
 ||needpop.com/jvc.gif
 needpop.com##.spaceborder[style="width: 98%"]
@@ -2087,6 +2086,7 @@ www.114lm.com^$third-party
 |https://*/ad/
 |http://*/*_ad.js
 |http://gg.$~stylesheet,domain=~bbs.vc52.cn
+@@||vansky.com/gg/*$xmlhttprequest
 |http://*/gg/$~stylesheet
 |http://*/i.js|$third-party
 
@@ -3172,6 +3172,7 @@ zaobao.com###myMovie
 /companion_ads.
 /components/ads/*
 /configspace/ads/*
+/contaxe_
 /content/ad_
 /content_ad.
 /content_ad_
@@ -4300,6 +4301,7 @@ _728x90.
 _728x90/
 _728x90_
 _768x90_
+_a468x60.
 !-----------------General element hiding rules-----------------!
 ! *** easylist/easylist_general_hide.txt ***
 ###A9AdsMiddleBoxTop
@@ -5603,6 +5605,7 @@ _768x90_
 ###fl_hdrAd
 ###flash_ads_1
 ###flexiad
+###floatingAd
 ###floating_ad_container
 ###foot-ad-1
 ###footad
@@ -9943,6 +9946,7 @@ _768x90_
 ||adap.tv/redir/plugins3/$object-subrequest
 ||adclick.cz.cc/ac/
 ||addirector.vindicosuite.com^
+||adf.ly/images/banners/
 ||adf.ly^*/link-converter.js$third-party
 ||adlandpro.com^$third-party
 ||admeta.vo.llnwd.net^
