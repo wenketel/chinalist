@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: jUOlu1Qqp9xW+uIyEj2twQ
+!  Checksum: Xa2fmEp7+Awoxkr5ahSVnw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 04 Jul 2011 10:24:25 +0800
+!  Last Modified:  Mon, 04 Jul 2011 10:45:53 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -942,11 +942,6 @@ www.xilu.com###gg_yitong
 www.xilu.com##.page_adbox1
 www.xilu.com##.xl09v2_right_ad
 
-!---新华网
-||www.news.cn/js20100613/ad_01.js
-||imgs.xinhuanet.com/js/news/xilanad.js
-||news.xinhuanet.com/js/js/xilan/xilan_banner_0621.js
-
 !---西子湖畔
 ||xizi.com/include/rotator.js
 ||xizi.com/include/sinaflash.js
@@ -1274,6 +1269,8 @@ junshijia.com##.newlist7_1
 ||miltt.com/da/sex/news_right.js
 ||miltt.com/uploadfile/*.gif
 miltt.com##[class^="ad"]
+@@||imgs.xinhuanet.com/ad/*$script
+www.news.cn/js20100613/ad_01.js
 ||ashow.pcpop.com^
 www.pcpop.com##div.Content > div.l1:first-child
 www.pcpop.com##div.Content > div.r1:nth-child(2)
