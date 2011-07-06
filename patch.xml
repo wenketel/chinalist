@@ -47,5 +47,10 @@
     <string>||widgethost.com/pax/counter.js?</string>
   </RemovedItems>
   <NewItems />
-  <ModifyItems />
+  <ModifyItems>
+    <ModifyItem>
+      <OldItem>/socialads/*</OldItem>
+      <NewItem>/socialads/*$domain=~profiles.google.com</NewItem>
+    </ModifyItem>
+  </ModifyItems>
 </PatchConfigurations>

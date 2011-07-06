@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 0Q2dYRpHBJSRtnFJurVthQ
+!  Checksum: 2J00mJ+KBaXG7oBRnP8xMA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 06 Jul 2011 19:58:08 +0800
+!  Last Modified:  Wed, 06 Jul 2011 20:27:37 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -11,7 +11,6 @@
 !  coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
 !----------------------------White List--------------------
-@@||360buy.com/uploads/$image
 @@||51job.com^$elemhide
 @@||a.5d6d.com^$image
 @@||union.bokecc.com^$object,object_subrequest,script
@@ -1973,6 +1972,7 @@ www.114lm.com^$third-party
 ||scupio.com^$third-party
 ||c.sfilm.com^$third-party
 ||sharele.cn^$third-party
+||shenduchuanmei.com^$third-party
 ||shouyibao.com^$third-party
 ||skycn.org.cn^$third-party
 ||soua.com^$third-party
@@ -2120,6 +2120,7 @@ www.114lm.com^$third-party
 ||analytics-union.sandai.net^$third-party
 
 !-----------------------Element Hiding---------------------
+www.360buy.com##[clstag$="guanggao"]
 3dmgame.com##[class^="banner_"]
 sbsrunningman.5d6d.com###header
 www.alibuybuy.com##[class^="ad_"]
