@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 2J00mJ+KBaXG7oBRnP8xMA
+!  Checksum: IN/PNEikM+XKUZQZ8+RXXg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 06 Jul 2011 20:27:37 +0800
+!  Last Modified:  Wed, 06 Jul 2011 20:57:20 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -703,7 +703,6 @@ dailynews.sina.com##.TopNav + table
 ||sinaimg.cn^*/deco/$script
 ||sinaimg.cn/unipro/
 ||sh.sinaimg.cn/313/
-music.sina.com.cn/yueku/mpw/2010/adstext.js
 sina.com.cn##.topAD
 news.sina.com.cn###divResNewsBottom
 sh.sina.com.cn##[class^="jsad"]
@@ -725,17 +724,15 @@ finance.sina.com.cn###adSinaHouseHeadLink
 ||d1.leju.com^$object
 ||bj.house.sina.com.cn/pdps/290/2010/1201/965.js
 ||sinaimg.cn/hs/zjwei/base/swf/picshow_160x90.swf
-house.sina.com.cn##[id^="miniDL_"]
 !--大片
 ||video.sina.com.cn/iframe/$subdocument
 sina.com.cn##.adNone
-sina.com.cn###bgad_div
 !--sports
 @@||sinaimg.cn/dy/deco/*/sinaObj.js
 ||lining.sina.com.cn^$subdocument
+sports.sina.com.cn##.lining_ad.motu-event
 !--sina.com.hk
 ||as.sinahk.net^
-||asimg.sinahk.net^
 !--sina.com.tw
 ||sina.com.tw^$subdocument
 !--weibo
@@ -1887,6 +1884,7 @@ www.114lm.com^$third-party
 ||tg.feixue.com^$third-party
 ||flashads.cn^$third-party
 ||flashwing.net^$third-party
+||flunion.cn^$third-party
 ||gamecps.com^$third-party
 ||resource.gamediad.com^$third-party
 ||games32.cn^$third-party
