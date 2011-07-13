@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: gVejBa18Depv0t+KiXOQeg
+!  Checksum: UA7zzBAZlxnw9FPWU23jbw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 10 Jul 2011 17:21:52 +0800
+!  Last Modified:  Wed, 13 Jul 2011 17:26:21 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -164,6 +164,7 @@ video.baidu.com##div[style="display:block;width:990px;height:90px;"]
 ||cp.zhidao.baidu.com^$script
 iknow.baidu.com,zhidao.baidu.com##.ad-fc-down
 zhidao.baidu.com###ad-brand-down
+zhidao.baidu.com###bdfs0
 iknow.baidu.com,zhidao.baidu.com###qb-ad-cpro
 zhidao.baidu.com##div#main > div#right > div#right_be
 zhidao.baidu.com##TABLE[width="100%"][bgcolor="#f5f5f5"]
@@ -282,7 +283,7 @@ dict.cn###top-gg
 ||i.discuss.com.hk/aeiou/
 /overture/*$domain=discuss.com.hk|uwants.com
 discuss.com.hk##.ad
-discuss.com.hk##a[href^="http://adsrv.nw-imedia.com/"]
+discuss.com.hk,uwants.com##a[href^="http://ad"]
 discuss.com.hk,uwants.com##div[id^="thread_ads_"] + table
 uwants.com##div#foruminfo + div[align="center"]
 
@@ -318,7 +319,7 @@ enet.com.cn##div.fra > div.con222
 ||club.excelhome.net/gga/
 
 !---蜂鸟
-||pic.fengniao.com/
+||pic.fengniao.com^
 ||bbs.fengniao.com/pic/baidu.html
 ||bbs.fengniao.com/forum/clientscript/vbb_scroll.js
 ||bbs.fengniao.com/forum/var/vbb_scroll_content.js
@@ -411,6 +412,7 @@ www.hsw.cn##table[width="980"][height="100"]
 ||sta.ifeng.com^
 ||stadig.ifeng.com^
 ||www2.vadcast.com^
+ifeng.com##.adbox
 ifeng.com##[id^="adv_"]
 ifeng.com##[class^="adList"]
 ifeng.com##.areaAd
@@ -418,9 +420,6 @@ ifeng.com##[id^="couplet3_"]
 ifeng.com##[id^="flash_outer_"]
 ifeng.com##.navAd
 ifeng.com###StreamMediaWrap
-!--embed video
-@@||sc.ifeng.com^$object_subrequest,third-party
-@@||img.ifeng.com/tres/recommend/$object_subrequest,third-party
 
 !---IT168
 ||168.it168.com^$script
@@ -506,7 +505,6 @@ drivers.mydrivers.com##div[align="center"]
 news.mydrivers.com##table[border="0"][width="980"][height="90"]
 www.mydrivers.com##.top + .hang1
 !--myfiles
-/duilian.js
 ||11.mydrivers.com/myfiles/04.js
 ||11.mydrivers.com/myfiles/myfiles100*.js
 myfiles.com.cn##[id^="ad_"]
@@ -812,7 +810,7 @@ tgbus.com##[class^="adv_"]
 ||8*.tianya.cn^
 ||squidclick.bbs.tianya.cn^
 ||global.tianyaui.com/global/wizard/js/wizard.js
-||tianyabook.com/$script
+||tianyabook.com^$script
 www.tianya.cn##[id*="_AD_"]
 
 !---Tom
@@ -930,13 +928,14 @@ xici.net##a[href^="http://xiciafp.allyes.com/main/adfclick"]
 !---西陆网
 ||xilu.com/js/artjs/
 ||xilu.com/js/bd.js
-||xilu.com/uploadfile/
+||xilu.com/uploadfile/~image
 ||newspage.xilu.com/model/visitlog.js
 ||tp.xilu.com^
 junshi.xilu.com##.xl_page_cs
 junshi.xilu.com##.xl_ad.mt_5
 junshi.xilu.com##.xlad
 xilu.com##.bbs_topad
+xilu.com##.xladimg
 www.xilu.com###gg_yitong
 www.xilu.com##.page_adbox1
 www.xilu.com##.xl09v2_right_ad
@@ -1133,7 +1132,7 @@ www.ddooo.com/js/
 ||oyksoft.com/oyksoft_js/
 ||pcunion.cn/skins/FxMei_blueo/zzs.js
 ||piaodown.com/other/js/$script
-||piaohua.com/js/yz/
+||piaohua.com/js/yzz/
 ||quick8.cn/softimg/*AD.gif
 ||shooter.cn/adfree/
 ||shooter.cn/a/*adv$script
@@ -1172,6 +1171,7 @@ down.x6x8.com/good/
 ||bbs.a9vg.com/shop/js.php
 ||bbs.a9vg.com/showit/img_show.php
 ||bmp.ali213.net^
+ali213.net###banner
 ||img.cngba.com/da/
 ||pp.cngba.com/uploads/allimg/
 ||dashuye.com/data/cache/myad*.htm
@@ -1428,7 +1428,6 @@ gougoushuji.com###ptcmsad1
 ||images.paipaitxt.com/images/banner-pmxj.jpg
 ||images.paipaitxt.com/js/fgg.js
 ||pfwx.com/acc/$script
-||pfwx.com/configs/article/pagetop.js
 ||www.q520.org/configs/article/pagebottom1.js
 ||www.q520.org/js/tj.js
 ||qibi.com/js/luenbo.js
@@ -1644,10 +1643,11 @@ bbs.tiexue.net##.banner
 ||bbs.linuxsky.org/images/dolbar.gif
 ||mojim.com/htm99t/iad.js
 ||mfxk.com^$subdocument
-||pub.mop.com/widget.jsp?bId
+||pub.mop.com/widget.jsp?
 ||mop.com/fxb/js/fxb$script
 ||mscbsc.com/gbook/search.gif
 ||static1.mtime.cn^$subdocument
+||static1.mtime.cn/pr/
 www.mtime.com###notice_box
 ||mycodes.net/js/$image
 ||needpop.com/jvc.gif
@@ -1754,6 +1754,7 @@ www.114lm.com^$third-party
 ||122.com.tw^$third-party
 ||160ads.com^$third-party
 ||178gg.com^$third-party
+||code.u.18dx.com^$third-party
 ||pic.198game.net^$third-party
 ||1gou.com^$third-party
 ||1lo0.net^$third-party
@@ -1782,6 +1783,7 @@ www.114lm.com^$third-party
 ||55620.com^$third-party
 ||5566ad.com^$third-party
 ||5622.cn^$third-party
+||565882.com^$third-party
 ||58ar.com^$third-party
 ||www.59.cn^$third-party
 ||un.5d6d.com^
@@ -1803,17 +1805,23 @@ www.114lm.com^$third-party
 ||81813.com^$third-party
 ||82816.com^$third-party
 ||84232.com^$third-party
+||84422.com^$third-party
 ||88210212.com^$third-party
 ||885ad.com^$third-party
 ||8le8le.com^$third-party
 ||www.8peng.com^$third-party
 ||9165.net^$third-party
+||js.91tiger.com^$third-party
 ||91wan.com^$third-party
 ||92cg.com^$third-party
 ||991go.com^$third-party
 ||999d.com^$third-party
 ||9cpm.com^$third-party
 ||res.9dzc.com^$third-party
+||9vcpc.cn^$third-party
+||f.9vcpm.cn^$third-party
+||v.9vcpp.cn^$third-party
+||9vcpp.com^$third-party
 ||9vlm.com^$third-party
 ||9wad.com^$third-party
 ||9wee.com^$third-party
@@ -1863,7 +1871,9 @@ www.114lm.com^$third-party
 ||cnxad.com^$third-party
 ||cocoren.com^$third-party
 ||qa.colorful.cn^$third-party
+||cpm9v.cn^$third-party
 ||cpmadworld.com^$third-party
+||v.cpp9v.cn^$third-party
 ||cpvm.net^$third-party
 ||crazymike.tw^$third-party
 ||d9ad.com^$third-party
@@ -1930,7 +1940,6 @@ www.114lm.com^$third-party
 ||kfwan.com^$third-party
 ||koowo.com^$third-party
 ||kucent.com^$third-party
-||kunlun.tw^$third-party
 ||kuqi.com^$third-party
 ||cluclick.leshu.com^$third-party
 ||love12.tw^$third-party
@@ -1973,6 +1982,7 @@ www.114lm.com^$third-party
 ||shouyibao.com^$third-party
 ||skycn.org.cn^$third-party
 ||soua.com^$third-party
+||js.ssrj.net^$third-party
 ||star8.net^$third-party
 ||ipic.staticsdo.com^$third-party
 ||c.subo.me^$third-party
@@ -2057,6 +2067,7 @@ www.114lm.com^$third-party
 .allyes.$third-party
 /allyes.
 /dkgg/*
+/duilian.
 /floatadv.
 /ggao/*
 /ggjs/*
@@ -2079,7 +2090,7 @@ www.114lm.com^$third-party
 |http://gg.$~stylesheet,domain=~bbs.vc52.cn
 @@||vansky.com/gg/*$xmlhttprequest
 |http://*/gg/$~stylesheet
-|http://*/i.js|$third-party
+|http://*/i.js$third-party
 
 !-----------------------------Privacy----------------------
 /counter.
@@ -2092,7 +2103,7 @@ www.114lm.com^$third-party
 /ktrace/ktrace$script
 /pv?peerid=
 /stat.$~script,domain=~ameblo.jp|~zcool.com.cn|~kompas.com
-/track.$domain=~bioinformatics.bms.com|~cmbchina.com
+/track.$domain=~bioinformatics.bms.com|~cmbchina.com|~sf-express.com
 /usertrack.
 !-sort by domain
 ||114la.com^$third-party
@@ -2160,5 +2171,6 @@ zaobao.com###myMovie
 ||blog.hi.mop.com/flash/830-310.swf
 www.ifanr.com/g+.png
 ||photobucket.com/albums/ae292/zreading/zuoanrss.jpg
+||mg.gamebean.com/665-090.gif
 
 !------------------------End of List-------------------------
