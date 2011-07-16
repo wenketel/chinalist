@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: U3JGhvM71U5dDhHcdyfH1w
+!  Checksum: eDNawYHjAIznlUlR8Il2Fg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 16 Jul 2011 13:47:53 +0800
+!  Last Modified:  Sat, 16 Jul 2011 14:57:28 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -977,6 +977,7 @@ tw.yahoo.com###ticker
 tw.news.yahoo.com##[id^="ynwsad"]
 tw.news.yahoo.com##[id^="ynwsktw"]
 tw.news.yahoo.com###ynwsnw
+tw.news.yahoo.com##a[href^="http://tw.advertorial.news.yahoo.com/"]
 !-buy.yahoo.com.tw
 @@||yahoo.net^*/ads/$image,domain=buy.yahoo.com.tw
 !--HK
@@ -985,10 +986,7 @@ hk.yahoo.com###mntl1
 hk.yahoo.com###ysm-ad
 
 !---yam
-@@||admd.yam.com^$object_subrequest
 ||s1.josho.yamedia.tw/f/plugin.swf^
-yam.com##.yamfavor_block
-yam.com##[class^="yamrightcontent_life"]
 
 !---天极网
 ||media.yesky.com/
