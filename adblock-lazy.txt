@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: zOflgh0E9+xPJl9olubLmg
+!  Checksum: EJih6mHIl8jRN/ViqT/1Dg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 17 Jul 2011 17:47:09 +0800
+!  Last Modified:  Sun, 17 Jul 2011 18:13:24 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -470,14 +470,6 @@ js.ku6cdn.com/www/2011/0623/release.js
 v.ku6.com##[id^="gg"]
 v.ku6.com##.flwin.flwin_min
 
-!---三K小说网
-@@||kkkxs.com/configs/article/bottom.js
-@@||kkkxs.com/configs/article/pagetop.js
-@@||kkkxs.com/configs/article/pagebottom.js
-||kkkxs.com/configs/article/$script
-||kkkxs.com/configs/article/gggg/
-||kkkxs.com/jj680-60.jpg
-
 !---Libertytimes.com.tw
 ||libertytimes.com.tw/IService2/AdLinkList.php
 ||libertytimes.com.tw/js/ajs/
@@ -639,14 +631,6 @@ www.qq.com##[id^="adAreaG"]
 www.qq.com###ppInfo
 www.qq.com###proAd
 
-!--fangQQ
-||fangqq.com/uploadfile/$object
-fangqq.com##.content_right_a
-
-!--soso
-soso.com##.ad_zdq
-soso.com###rads
-
 !---巧巧读书
 @@||qqread.com/swf/qqread_rollpic.swf
 ||qqread.com/swf/
@@ -673,7 +657,6 @@ rsdown.cn##body > table:nth-child(4)
 ||blog.seomaven.org/wp-content/uploads/epinv.png
 ||blog.seomaven.org/wp-content/uploads/guangg1.png
 ||blog.seomaven.org/wp-content/themes/wpgeekg/images/zhaozu.jpg
-blog.seomaven.org##.postad
 blog.seomaven.org##.post-top-ad
 
 !---siluhd
@@ -830,13 +813,6 @@ tompda.com##.Advertising
 ||shanghaidz.com^$domain=tongji.net
 tongji.net##.a_pr
 tongji.net##.wp.a_h
-
-!---天使中文网
-@@||www.tszw.net/configs/article/pagebottom.js
-@@||www.tszw.net/configs/article/bottom.js
-@@||www.tszw.net/configs/article/pagetop.js
-||www.tszw.net/configs/article/$script
-||www.tszw.net/configs/article/gggg/
 
 !---TTG
 ||ttg.im/pic/ttg-
@@ -1052,11 +1028,6 @@ pc3w.com##table[width="925"][height="305"]
 ||static.zongheng.com/v2_0/pic/$object
 zongheng.com###bookHotShowReadDiv
 zongheng.com###wlqz
-
-!---左岸读书
-||storage.live.com/items/F298F5385BDA1232!182?filename=xmj1.21.jpg
-||storage.live.com/items/F298F5385BDA1232!198?filename=printyourmind.jpg
-||storage.live.com/items/F298F5385BDA1232!202?filename=shanhun.jpg
 
 !----------------------------Generic(sort by domain name)--
 !---Blog Sites
@@ -1295,6 +1266,11 @@ tianshannet.com.cn##.adtxt1.link15
 ||zaobao.com/ssi/bizp/
 
 !---Online Novel/Comic Sites
+@@/configs/article/bottom.js
+@@/configs/article/pagetop.js
+@@/configs/article/pagebottom.js
+/configs/article/*$script
+/configs/article/gggg/*
 ||16kbook.com/all/
 16kbook.com###AdsT
 ||img.17k.com/channel/ebook/*_$image
@@ -1406,23 +1382,17 @@ gougoushuji.com###ptcmsad1
 ||jumpcn.com/javascript/xshow.js
 ||jumpcn.com/s*/$script
 ||i.kanshu.la/js/001.js
-||laikanshuba.com/configs/article/bottm2.js
-||laikanshuba.com/configs/article/pagetop2.js
-||laikanshuba.com/configs/article/indextop-2.js
-||laikanshuba.com/configs/article/indextop.js
+||kkkxs.com/jj680-60.jpg
 ||laishu.com/lsgg/
 ||laishu.com/mb/
 ||laiwx.com/js/
 ||lxwxw.com/scripts/new/
-||mingshuyuan.com/configs/article/indexbottom.js
 ||mingshuyuan.com/contentjs/
 ||mypcera.com^$script
 @@||js.myshulou.com/newgg/c.js
 ||js.myshulou.com/newgg/
 ||narutom.com/v2/js/198game_Lt.js
 ||nidua.com/3.*.js
-||nidua.com/configs/article/indexbottom.js
-||nidua.com/configs/article/z_quanzhantan.js
 ||niepo.com/js/tan2/
 ||niubb.net/niubbad/
 ||quanben.net/js/
@@ -1430,7 +1400,6 @@ gougoushuji.com###ptcmsad1
 ||images.paipaitxt.com/images/banner-pmxj.jpg
 ||images.paipaitxt.com/js/fgg.js
 ||pfwx.com/acc/$script
-||www.q520.org/configs/article/pagebottom1.js
 ||www.q520.org/js/tj.js
 ||qibi.com/js/luenbo.js
 80.qukanshu.com^
@@ -1441,10 +1410,7 @@ sfw.com.cn##.cataBanner1
 @@||shanwen.com/configs/article/pagetop3.js
 ||shanwen.com^$script
 @@||shukeju.com/configs/article/indextop.js
-||shukeju.com/configs/$script
 ||shukeju.com/contentjs/
-@@||tlxsw.com/configs/article/wangzhai.js
-||tlxsw.com/configs/$script
 ||ttshu.com/js/
 ||tvbkt.cn/js/tvb/
 ||txt6.net/j/js/list.js
@@ -1452,16 +1418,13 @@ sfw.com.cn##.cataBanner1
 ||image.mylife.cdn.u17.com^$object
 u17.com##.ad_728_90
 u17.com##.www_hd_middle_ct
-||uczw.com/configs/article/zj02.js
-||uczw.com/js/
+||uczw.com/js/$~stylesheet
 ||wanshulou.com/skin/js/
-||wenchangshuyuan.com/configs/article/indexbottom.js
 ||wenchangshuyuan.com/contentjs/
 ||wenxue6.com/js/jumppagetop.js
 ||wenxue6.com/js/lzh/
 ||wenxue6.com/js/readadend.js
 ||bbs.whsee.com/js/
-||xiaoyanwenxue.com/configs/article/indexbottom.js
 ||xiaoyanwenxue.com/contentjs/
 @@||xiaoxiucai.org/js/default.js
 ||xiaoxiucai.org/js/
@@ -2169,8 +2132,8 @@ zaobao.com###myMovie
 !-----------------------Temporary---------------------------
 !---2011.7
 ||taobao.com/go/chn/tbk_channel/$domain=aiqing520.com
+bbs.goapk.com/xda_jinzi/ZTE.gif
 ||blog.hi.mop.com/flash/830-310.swf
-www.ifanr.com/g+.png
 ||photobucket.com/albums/ae292/zreading/zuoanrss.jpg
 ||mg.gamebean.com/665-090.gif
 
