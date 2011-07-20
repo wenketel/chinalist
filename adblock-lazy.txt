@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 9M029I8+NSPB69IjmRoaLA
+!  Checksum: kaLItQqch/D6qLeZ7T56Cg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 20 Jul 2011 13:15:40 +0800
+!  Last Modified:  Wed, 20 Jul 2011 13:29:05 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -827,6 +827,12 @@ tongji.net##.wp.a_h
 tudou.com##.b.seed
 tv.tudou.com###adex_board
 
+!---U17
+||image.mylife.cdn.u17.com^$object
+||static.cdn.u17.com/v2/js/ad_api/$script
+u17.com##.ad_728_90
+u17.com##.www_hd_middle_ct
+
 !---udn
 @@||video.udn.com/player/Adv.swf$object_subrequest
 @@||video.udn.com/udnad/videoad.php^$object_subrequest
@@ -1415,9 +1421,6 @@ sfw.com.cn##.cataBanner1
 ||tvbkt.cn/js/tvb/
 ||txt6.net/j/js/list.js
 ||js.txt6.net/new/
-||image.mylife.cdn.u17.com^$object
-u17.com##.ad_728_90
-u17.com##.www_hd_middle_ct
 ||uczw.com/js/$~stylesheet
 ||wanshulou.com/skin/js/
 ||wenchangshuyuan.com/contentjs/
@@ -1752,6 +1755,7 @@ www.114lm.com^$third-party
 ||un.5d6d.com^
 ||click.5j.com^$third-party
 ||5uad.com^$third-party
+||659659.com^$third-party
 ||66-77.com^
 ||6721.com^$third-party
 ||6693.cc^$third-party
