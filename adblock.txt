@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: QJiu+Yn5N0ttXkS7fxvWTg
+!  Checksum: ChH2hAudauxLPXLpTH/23w
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 20 Jul 2011 13:54:39 +0800
+!  Last Modified:  Wed, 20 Jul 2011 14:04:46 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -412,13 +412,13 @@ www.hsw.cn##table[width="980"][height="100"]
 ||stadig.ifeng.com^
 ||www2.vadcast.com^
 ifeng.com##.adbox
+ifeng.com##.areaAd
+ifeng.com###StreamMediaWrap
+ifeng.com##.navAd
 ifeng.com##[id^="adv_"]
 ifeng.com##[class^="adList"]
-ifeng.com##.areaAd
 ifeng.com##[id^="couplet3_"]
 ifeng.com##[id^="flash_outer_"]
-ifeng.com##.navAd
-ifeng.com###StreamMediaWrap
 
 !---IT168
 ||168.it168.com^$script
@@ -758,9 +758,9 @@ sohu.com###ad_TOP
 sohu.com##[class^="contAD"]
 news.sohu.com###adList
 news.sohu.com##div.left > h2 > span
-!-tv
+!--tv
 /dov.do?
-!-unions
+!--unions
 ||images.sohu.com/cs/jsfile/
 
 !---东菀阳光网
@@ -977,14 +977,6 @@ mydown.yesky.com##.xznr_2
 ||ranking.ynet.com^
 ||js.auto.msn.com.cn/js/incsearch_a.js
 
-!---原文小说网
-||yuanwen.com/images/$object
-||yuanwen.com/images/265games.jpg
-||yuanwen.com/images/*_*x*.gif
-||yuanwen.com/images/zt.gif
-||yuanwen.com/js/mn/mn_indexbottom950.js
-||pic.yuanwen.com/images/
-
 !---优酷
 /300-50.
 ||html.atm.youku.com^
@@ -1005,12 +997,9 @@ page.zhongsou.com##table.ta + table
 
 !---逐浪小说网
 ||zhulang.com^$object,subdocument
-||css.zhulang.net/js/header.js
 ||images2.zhulang.com^$script,image,object
-||www.zhulang.com/js/pf2.js
-zhulang.com###topAds_chk_show
 zhulang.com##[class^="ad"]
-zhulang.com##.hx_newgg
+zhulang.com###reader_top
 
 !---ZOL
 ||pic.zol.com.cn^$object
