@@ -100,7 +100,12 @@ namespace ABPUtils
             using (WebClient webClient = new WebClient())
             {
                 if (proxy != null)
+                {
                     webClient.Proxy = proxy;
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.WriteLine("use proxy: {0}", proxy.Address.Authority.ToString());
+                    Console.ResetColor();
+                }
 
                 Dictionary<string, string> lists = new Dictionary<string, string>();
                 lists.Add(EASYLIST, EASYLIST_URL);

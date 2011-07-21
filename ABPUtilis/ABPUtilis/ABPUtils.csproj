@@ -74,7 +74,7 @@
     <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
-    <OutputPath>..\..\</OutputPath>
+    <OutputPath>bin\x64\Release\</OutputPath>
     <Optimize>true</Optimize>
     <DebugType>pdbonly</DebugType>
     <PlatformTarget>x64</PlatformTarget>
@@ -105,7 +105,7 @@
     <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
-    <OutputPath>bin\x86\Debug\</OutputPath>
+    <OutputPath>bin\x86\Release\</OutputPath>
     <Optimize>true</Optimize>
     <DebugType>pdbonly</DebugType>
     <PlatformTarget>x64</PlatformTarget>
@@ -167,8 +167,12 @@
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>if $(PlatformName)== x64  AND $(ConfigurationName) == Release (
-       copy $(TargetFileName) $(TargetName)_x64.exe /y
+    <PostBuildEvent>if $(ConfigurationName) == Release (
+      if $(PlatformName) == x86 (
+             copy $(TargetPath)  ..\..\..\..\..\..\trunk\$(TargetFileName)
+       )else if  $(PlatformName) == x64 (
+             copy $(TargetPath)  ..\..\..\..\..\..\trunk\$(TargetName)_x64.exe
+      )
 )</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
