@@ -167,13 +167,23 @@
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>if $(ConfigurationName) == Release (
-      if $(PlatformName) == x86 (
-             copy $(TargetPath)  ..\..\..\..\..\..\trunk\$(TargetFileName)
-       )else if  $(PlatformName) == x64 (
-             copy $(TargetPath)  ..\..\..\..\..\..\trunk\$(TargetName)_x64.exe
-      )
-)</PostBuildEvent>
+    <PostBuildEvent>REM If Debug config, do nothing...
+if NOT $(ConfigurationName) == Release goto exit
+
+if $(PlatformName) == x86 goto buildx86
+
+if $(PlatformName) == x64 goto buildx64
+
+:buildx86
+echo Build binary for x86 platform
+copy $(TargetPath)  $(TargetDir)..\..\..\..\..\..\trunk\$(TargetFileName)
+
+:buildx64
+echo Build binary for x64 platform
+copy $(TargetPath)  $(TargetDir)..\..\..\..\..\..\trunk\$(TargetName)_x64.exe
+
+:exit
+echo Finished Post Build Event</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
