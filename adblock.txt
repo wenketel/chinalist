@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 33FR7n78C98HwKP2dk/HcQ
+!  Checksum: D3WxRRzI0cDm4RLgVuNIHg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 22 Jul 2011 16:22:14 +0800
+!  Last Modified:  Fri, 22 Jul 2011 16:33:50 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -226,27 +226,21 @@ cnbeta.com###userInfo
 cnbeta.com##div.newslist > dl > dd.detail > em
 cnbeta.com###sideBar > div#votes:nth-child(7)
 
-!---CNKI
-||adp.cnki.net^
-||cdmd.cnki.com.cn/js/adDetail1.js
-cnki.com.cn##[id$="_80x80"]
-cnki.com.cn##[id$="_gg"]
-
 !---CSDN
 ||csdn.net/1341df/csdn_ggmm.js
 ||csdn.net/ggmm/
 ||csdn.net/js/right_gg.js
 ||topic.csdn.net/u/t5/include/
-
-!---cyzone
-||www.cyzone.cn/bian/pic/top_banner.swf
-||img.cyzone.com.cn/customer/$object
+!--iteye
+||info-database.csdn.net^$domain=iteye.com,image
+iteye.com###forum_recommended_f4
+iteye.com###forum_recommended_f5
 
 !---大洋网
 ||dayoo.com/sta/da.js
 ||images.dayoo.com/dywimg/
 ||sta.dayoo.com^
-www.dayoo.com###ad_t1
+www.dayoo.com##body > div[style]
 !--gzdaily
 /pub/news/gzrb/*$script
 ||gzdaily.dayoo.com/tpl/banner$object
@@ -422,11 +416,6 @@ www.it168.com##div#header  +  div[style^="border"]
 ||itpub.net/googlepv/pv.js
 ||itpub.net/popwindowjs.php
 ||itpub.net/js_floatwindows.php
-
-!---iteye
-||info-database.csdn.net^$domain=iteye.com,image
-iteye.com###forum_recommended_f4
-iteye.com###forum_recommended_f5
 
 !---日搜
 ||jpseek.com/pr/
@@ -1472,6 +1461,8 @@ www.5dmail.net##td[width="145"]
 ||images.chinaz.com/$subdocument
 ||img.chromi.org/2011/03/AD300150.png
 ||city8.com/Search/script/absence.js
+||adp.cnki.net^
+cnki.com.cn##[id$="_gg"]
 ||disk.cjdby.com/filestores/
 ||img.cjdby.com/client/uuzu/
 cjdby.net##.a_pb
