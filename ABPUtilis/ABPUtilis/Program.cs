@@ -120,11 +120,11 @@ namespace ABPUtils
                 sBuilder.Append(chinaListContent);
             }
 
-            string easyListContent = ParseEasyList();
+            string easyListContent = TrimEasyList();
             sBuilder.AppendLine("!-----------------------EasyList----------------------------");
             sBuilder.AppendLine(easyListContent);
 
-            string easyPrivacyContent = ParseEasyPrivacy();
+            string easyPrivacyContent = TrimEasyPrivacy();
             sBuilder.AppendLine("!-----------------------EasyPrivacy----------------------------");
             sBuilder.Append(easyPrivacyContent);
 
@@ -251,7 +251,6 @@ namespace ABPUtils
             byte[] buffer = Encoding.ASCII.GetBytes(data);
             int timeout = 120;
 
-            int i = 0;
             try
             {
                 PingReply reply = pingSender.Send(url, timeout, buffer, options);
@@ -291,7 +290,7 @@ namespace ABPUtils
             return (dt.ToString("yyyy-MM-dd").Equals(DateTime.Now.ToString("yyyy-MM-dd")) && fileInfo.Length > 0);
         }
 
-        static string ParseEasyList()
+        static string TrimEasyList()
         {
             StringBuilder sBuilder = new StringBuilder();
             using (StreamReader sr = new StreamReader(EASYLIST, Encoding.UTF8))
@@ -313,10 +312,10 @@ namespace ABPUtils
                 }
             }
 
-            return sBuilder.ToString();
+            return sBuilder.Replace("\r", string.Empty).ToString();
         }
 
-        static string ParseEasyPrivacy()
+        static string TrimEasyPrivacy()
         {
             StringBuilder sBuilder = new StringBuilder();
             using (StreamReader sr = new StreamReader(EASYPRIVACY, Encoding.UTF8))
@@ -351,7 +350,7 @@ namespace ABPUtils
                 }
             }
 
-            return sBuilder.ToString();
+            return sBuilder.Replace("\r", string.Empty).ToString();
         }
     }
 }
