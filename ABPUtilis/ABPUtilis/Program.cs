@@ -11,6 +11,13 @@ namespace ABPUtils
 {
     class Program
     {
+        const string PATCH_FILE = "patch.xml";
+        const string EASYLIST = "easylist_noadult.txt";
+        const string EASYLIST_URL = "https://easylist-downloads.adblockplus.org/easylist_noadult.txt";
+        const string EASYPRIVACY = "easyprivacy.txt";
+        const string EASYPRIVACY_URL = "https://easylist-downloads.adblockplus.org/easyprivacy.txt";
+        const string CHINALIST_END_MARK = "!------------------------End of List-------------------------";
+
         static void Main(string[] args)
         {
             if (null == args || args.Length == 0)
@@ -19,14 +26,15 @@ namespace ABPUtils
                 return;
             }
 
+            ChinaList chinaList = new ChinaList(args[1]);
             switch (args[0].ToLower())
             {
                 case "update":
-                    TextHelper.Update(args[1]);
-                    Validate(args[1]);
+                    chinaList.Update();
+                    chinaList.Validate();
                     break;
                 case "validate":
-                    Validate(args[1]);
+                    chinaList.Validate();
                     break;
                 case "merge":
                     List<string> argsList = new List<string>();
@@ -64,38 +72,7 @@ namespace ABPUtils
             //Console.ReadKey();
         }
 
-        const string PATCH_FILE = "patch.xml";
-        const string EASYLIST = "easylist_noadult.txt";
-        const string EASYLIST_URL = "https://easylist-downloads.adblockplus.org/easylist_noadult.txt";
-        const string EASYPRIVACY = "easyprivacy.txt";
-        const string EASYPRIVACY_URL = "https://easylist-downloads.adblockplus.org/easyprivacy.txt";
-        const string CHINALIST_END_MARK = "!------------------------End of List-------------------------";
-
-        static int Validate(string fileName)
-        {
-            string checkSum = TextHelper.FindCheckSum(fileName);
-            if (string.IsNullOrEmpty(checkSum))
-            {
-                Console.WriteLine("Couldn't find a checksum in the file " + fileName);
-                return -1;
-            }
-            string content = TextHelper.GetContentForValidate(fileName);
-            string contentForHash = TextHelper.GetContentForHash(content);
-            string genearteCheckSum = Md5Helper.GetMD5Hash(contentForHash);
-
-            if (checkSum.Equals(genearteCheckSum))
-            {
-                Console.WriteLine(fileName + " 's checksum is valid.");
-                return 1;
-            }
-            else
-            {
-                Console.WriteLine(string.Format("Wrong checksum [{0}] found in the file {1}, expected is [{2}]", checkSum, fileName, genearteCheckSum));
-                return 0;
-            }
-        }
-
-        static void Merge(string chinaList, WebProxy proxy, bool patch, string lazyChinaList = "adblock-lazy.txt")
+        static void Merge(string chinaList, WebProxy proxy, bool patch, string lazyList = "adblock-lazy.txt")
         {
             using (WebClient webClient = new WebClient())
             {
@@ -155,7 +132,7 @@ namespace ABPUtils
             if (File.Exists(PATCH_FILE) && patch)
             {
                 Console.ForegroundColor = ConsoleColor.Yellow;
-                Console.WriteLine("use {0} to patch {1}", PATCH_FILE, lazyChinaList);
+                Console.WriteLine("use {0} to patch {1}", PATCH_FILE, lazyList);
                 using (StreamReader sr = new StreamReader(PATCH_FILE, Encoding.UTF8))
                 {
                     string xml = sr.ReadToEnd();
@@ -190,13 +167,15 @@ namespace ABPUtils
             sBuilder.AppendLine(CHINALIST_END_MARK);
 
             Console.WriteLine(string.Format("Merge {0}, {1} and {2}.", chinaList, EASYLIST, EASYPRIVACY));
-            TextHelper.Save(lazyChinaList, sBuilder.ToString());
+            ChinaList.Save(lazyList, sBuilder.ToString());
 
-            TextHelper.Update(chinaList);
-            Validate(chinaList);
+            ChinaList cl = new ChinaList(chinaList);
+            cl.Update();
+            cl.Validate();
+            cl = new ChinaList(lazyList);
+            cl.Update();
+            cl.Validate();
 
-            TextHelper.Update(lazyChinaList);
-            Validate(lazyChinaList);
             Console.WriteLine("End of merge and validate.");
         }
 
@@ -207,7 +186,8 @@ namespace ABPUtils
         /// <param name="missurl"></param>
         static void CheckUrls(string fileName, string missurl = "invalidurls.txt")
         {
-            List<string> urls = TextHelper.GetUrls(fileName);
+            ChinaList cl = new ChinaList(fileName);
+            List<string> urls = cl.GetUrls();
             StringBuilder stringBuilder = new StringBuilder();
             List<string> urlList = new List<string>();
 
@@ -233,7 +213,7 @@ namespace ABPUtils
                             if (IsUrlExists(url))
                             {
                                 ret = true;
-                                Console.WriteLine("{0} is validate by HttpWebRequest.", url);
+                                Console.WriteLine("{0} is validated by HttpWebRequest.", url);
                             }
                             else
                             {
@@ -253,7 +233,7 @@ namespace ABPUtils
             foreach (var u in urlList)
                 stringBuilder.AppendLine(u);
 
-            TextHelper.Save(missurl, stringBuilder.ToString());
+            ChinaList.Save(missurl, stringBuilder.ToString());
         }
 
         /// <summary>

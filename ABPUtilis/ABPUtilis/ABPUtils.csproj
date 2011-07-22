@@ -127,13 +127,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Convertor.cs" />
-    <Compile Include="Md5Helper.cs" />
+    <Compile Include="ChinaList.cs" />
     <Compile Include="PatchConfigurations.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SimpleSerializer.cs" />
-    <Compile Include="TextHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
@@ -184,6 +182,16 @@ copy $(TargetPath)  $(TargetDir)..\..\..\..\..\..\trunk\$(TargetName)_x64.exe
 
 :exit
 echo Finished Post Build Event</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>REM If Debug config, do nothing...
+if NOT $(ConfigurationName) == Debug goto exit
+
+copy /Y $(TargetDir)..\..\..\..\..\..\trunk\adblock.txt $(TargetDir)
+copy /Y $(TargetDir)..\..\..\..\..\..\trunk\patch.xml $(TargetDir)
+
+:exit
+echo Finished Pre Build Event</PreBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
