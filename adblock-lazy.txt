@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 3jtW+7vFYEsqD7LRMHe2gw
+!  Checksum: rIGjCj8CwzexIn46s9Yr/w
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 24 Jul 2011 22:38:56 +0800
+!  Last Modified:  Mon, 25 Jul 2011 11:41:15 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -1643,6 +1643,14 @@ www.zygod.net/shilei.gif
 ||zzsky.cn/images/a_d_
 
 !----------------------------ads-union---------------------
+!--9v
+||9vcpc.cn^$third-party
+||f.9vcpm.cn^$third-party
+||v.9vcpp.cn^$third-party
+||9vcpp.com^$third-party
+||cpm9v.cn^$third-party
+||v.cpp9v.cn^$third-party
+!--sort by domain
 ||000wan.com^$third-party
 ||001union.com^$third-party
 ||100tone.com^$third-party
@@ -1724,10 +1732,6 @@ www.114lm.com^$third-party
 ||999d.com^$third-party
 ||9cpm.com^$third-party
 ||res.9dzc.com^$third-party
-||9vcpc.cn^$third-party
-||f.9vcpm.cn^$third-party
-||v.9vcpp.cn^$third-party
-||9vcpp.com^$third-party
 ||9wad.com^$third-party
 ||9wee.com^$third-party
 ||acs86.com^$third-party
@@ -1776,9 +1780,7 @@ www.114lm.com^$third-party
 ||cnxad.com^$third-party
 ||cocoren.com^$third-party
 ||qa.colorful.cn^$third-party
-||cpm9v.cn^$third-party
 ||cpmadworld.com^$third-party
-||v.cpp9v.cn^$third-party
 ||cpvm.net^$third-party
 ||crazymike.tw^$third-party
 ||d9ad.com^$third-party
@@ -2008,7 +2010,7 @@ www.114lm.com^$third-party
 /stat.$~script,domain=~ameblo.jp|~zcool.com.cn|~kompas.com
 /track.$domain=~bioinformatics.bms.com|~cmbchina.com|~sf-express.com
 /usertrack.
-!-sort by domain
+!--sort by domain
 ||114la.com^$third-party
 51img.ajiang.net^
 ||blog104.com^$third-party
@@ -2523,6 +2525,7 @@ bbs.goapk.com/xda_jinzi/ZTE.gif
 /admega.
 /admeld.
 /admentor/*
+/admentorserve.
 /admeta.
 /admez.
 /admez/*
@@ -3132,6 +3135,7 @@ bbs.goapk.com/xda_jinzi/ZTE.gif
 /delivery/apu.php
 /delivery/avw.php
 /descpopup.js
+/dfpsearchads.
 /direct_ads.
 /directads.
 /display_ads.
@@ -3329,6 +3333,7 @@ bbs.goapk.com/xda_jinzi/ZTE.gif
 /images/ads/*
 /images/ads_
 /images/aff-
+/images/affs/*
 /images/gads_
 /images/sponsored/*
 /images1/ad_
@@ -3434,6 +3439,7 @@ bbs.goapk.com/xda_jinzi/ZTE.gif
 /media_ads/*
 /megaad.
 /metaadserver/*
+/microad.
 /microads/*
 /mini-ads/*
 /mini_ads.
@@ -4019,6 +4025,7 @@ _banner_adv_
 _bannerad.
 _blogads.
 _bottom_ads_
+_box_ad_
 _box_ads/
 _buttonad.
 _companionad.
@@ -4621,6 +4628,7 @@ _a468x60.
 ###adMiddle0Frontpage
 ###adMiniPremiere
 ###adMonster1
+###adOuter
 ###adP
 ###adPlaceHolderRight
 ###adPlacer
@@ -6569,6 +6577,9 @@ _a468x60.
 ##.ad-120x600
 ##.ad-160
 ##.ad-160x600
+##.ad-160x600x1
+##.ad-160x600x2
+##.ad-160x600x3
 ##.ad-250
 ##.ad-300
 ##.ad-300-block
@@ -9071,6 +9082,7 @@ _a468x60.
 ||bannersnack.net^$third-party
 ||bannersurvey.biz^$third-party
 ||bannertgt.com^$third-party
+||baronsoffers.com^$third-party
 ||bbelements.com^$third-party
 ||beaconads.com^$third-party
 ||belointeractive.com^$third-party
@@ -9225,7 +9237,7 @@ _a468x60.
 ||doubleclick.net/pfadx/*.sevenload.com_$object-subrequest,third-party
 ||doubleclick.net/pfadx/*adcat=$object-subrequest,third-party
 ||doubleclick.net/pfadx/nbcu.nbc/$object-subrequest,third-party
-||doubleclick.net^$object-subrequest,third-party,domain=addictinggames.com|atom.com|bbc.co.uk|bicycling.com|bloomberg.com|break.com|businessweek.com|cbs4denver.com|cbsnews.com|click2houston.com|cnbc.com|dailytelegraph.com.au|darkhorizons.com|dorkly.com|doubleviking.com|eonline.com|fandango.com|foxbusiness.com|g4tv.com|gamespot.com|gametrailers.com|globalnational.com|globalnews.ca|gorillanation.com|hulu.com|independent.ie|joblo.com|kptv.com|listen.grooveshark.com|mtv.co.uk|mtv.com|mtv.com.au|mtv.com.nz|mtvbase.com|mtvmusic.com|myfoxorlando.com|myfoxphoenix.com|necn.com|neopets.com|news.com.au|newsweek.com|nfl.com|nick.com|nintendoeverything.com|npr.org|own3d.tv|pandora.com|photoradar.com|play.it|ps3news.com|radio.com|reuters.com|rte.ie|sbs.com.au|sbsun.com|sevenload.com|shacknews.com|shockwave.com|sk-gaming.com|smh.com.au|southpark.nl|southparkstudios.com|southparkstudios.se|space.com|spike.com|syfy.com|theage.com.au|thebostonchannel.com|thedailygreen.com|thedailyshow.com|thewire.com|ufc.com|ustream.tv|videojug.com|washingtonpost.com|wcbstv.com|wetransfer.com|wired.com|wkbw.com|wral.com|wrc.com|wsj.com|wwe.com|youtube.com|zappinternet.com|zoomin.tv
+||doubleclick.net^$object-subrequest,third-party,domain=addictinggames.com|atom.com|bbc.co.uk|bicycling.com|bloomberg.com|break.com|businessweek.com|cbs4denver.com|cbsnews.com|click2houston.com|cnbc.com|couriermail.com.au|dailytelegraph.com.au|darkhorizons.com|dorkly.com|doubleviking.com|eonline.com|fandango.com|foxbusiness.com|g4tv.com|gamespot.com|gametrailers.com|globalnational.com|globalnews.ca|gorillanation.com|hulu.com|independent.ie|joblo.com|kptv.com|listen.grooveshark.com|mtv.co.uk|mtv.com|mtv.com.au|mtv.com.nz|mtvbase.com|mtvmusic.com|myfoxorlando.com|myfoxphoenix.com|necn.com|neopets.com|news.com.au|newsweek.com|nfl.com|nick.com|nintendoeverything.com|npr.org|own3d.tv|pandora.com|photoradar.com|play.it|ps3news.com|radio.com|reuters.com|rte.ie|sbs.com.au|sbsun.com|sevenload.com|shacknews.com|shockwave.com|sk-gaming.com|smh.com.au|southpark.nl|southparkstudios.com|southparkstudios.se|space.com|spike.com|syfy.com|theage.com.au|thebostonchannel.com|thedailygreen.com|thedailyshow.com|thewire.com|ufc.com|ustream.tv|videojug.com|washingtonpost.com|wcbstv.com|wetransfer.com|wired.com|wkbw.com|wral.com|wrc.com|wsj.com|wwe.com|youtube.com|zappinternet.com|zoomin.tv
 ||doubleclick.net^$~object-subrequest,third-party
 ||doubleclick.net^*;sz=$object-subrequest,third-party,domain=10news.com|1up.com|bet.com|breitbart.tv|cbc.ca|dailystar.co.uk|digitaltrends.com|four.co.nz|fox5sandiego.com|foxnews.com|france24.com|gamesradar.com|heavy.com|latimes.com|muzu.tv|myfoxatlanta.com|myfoxny.com|myspace.com|nationalgeographic.com|nbc.com|nbcsandiego.com|news.com.au|nhl.com|player.amri.ca|rapbasement.com|tv3.co.nz|wptv.com
 ||doublepimp.com^$third-party
@@ -9316,6 +9328,7 @@ _a468x60.
 ||gmads.net^$third-party
 ||go2media.org^$third-party
 ||go2speed.org^$third-party
+||goodadvert.ru^$third-party
 ||googleadservices.com^$third-party
 ||googletagservices.com^$third-party
 ||grabmyads.com^$third-party
@@ -9860,6 +9873,7 @@ _a468x60.
 ||110mb.com/images/banners/
 ||173.199.120.7/delivery/$domain=~p2p.adserver.ip
 ||1st-russian-bride.com/banners/
+||1stag.com/main/img/banners/
 ||208.43.84.120/trueswordsa3.gif$third-party,domain=~trueswords.com.ip
 ||209.222.8.217/delivery/$domain=~p2p.adserver.ip
 ||20dollars2surf.com/ban_$third-party
@@ -10305,6 +10319,7 @@ _a468x60.
 ||snapdeal.com^*.php$third-party
 ||speedppc.com^*/banners/
 ||splashpagemaker.com/images/$third-party
+||sponsorandwin.com/images/banner-
 ||sportingbet.com.au/sbacontent/puntersparadise.html
 ||sportsdigitalcontent.com/betting/
 ||ssshoesss.ro/banners/
@@ -10507,6 +10522,7 @@ _a468x60.
 /globalpagetracking.js
 /google-analyticator/*
 /google-analytics-for-wordpress/*
+/googleanalytics-prod.swf
 /googleanalytics.swf
 /googleanalytics/ga.php?$image
 /googleanalyticsmanagement.swf
@@ -10855,6 +10871,7 @@ _cedexis.php
 ||csdata1.com^$third-party
 ||csi-tracking.com^$third-party
 ||customerconversio.com^$third-party
+||cxense.com^$third-party
 ||dc-storm.com^$third-party
 ||dc.tremormedia.com^$third-party
 ||decdna.net^$third-party

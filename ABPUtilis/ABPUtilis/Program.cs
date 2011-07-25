@@ -26,14 +26,15 @@ namespace ABPUtils
                 return;
             }
 
-            ChinaList chinaList = new ChinaList(args[1]);
             switch (args[0].ToLower())
             {
                 case "update":
+                    ChinaList chinaList = new ChinaList(args[1]);
                     chinaList.Update();
                     chinaList.Validate();
                     break;
                 case "validate":
+                    chinaList = new ChinaList(args[1]);
                     chinaList.Validate();
                     break;
                 case "merge":
@@ -63,6 +64,29 @@ namespace ABPUtils
                         CheckUrls(args[1]);
                     else
                         CheckUrls(args[1], args[2]);
+                    break;
+                case "ns":
+                    Console.WriteLine("DNS Query Tool, User Google Public DNS : 8.8.8.8 to query.");
+                    IPAddress dnsServer = IPAddress.Parse("8.8.8.8");
+                    Console.WriteLine("DNS Query Tool, type 'quit' to exit");
+
+                    while (true)
+                    {
+                        Console.Write(">");
+                        string domain = Console.ReadLine();
+
+                        // break out on quit command
+                        if (domain.ToLower() == "quit") break;
+
+                        // Information
+                        Console.WriteLine("Querying DNS records for domain: " + domain);
+
+                        // query AName, MX, NS, SOA
+                        Query(dnsServer, domain, DnsType.ANAME);
+                        Query(dnsServer, domain, DnsType.MX);
+                        Query(dnsServer, domain, DnsType.NS);
+                        Query(dnsServer, domain, DnsType.SOA);
+                    }
                     break;
                 default:
                     break;
@@ -190,6 +214,7 @@ namespace ABPUtils
             List<string> urls = cl.GetUrls();
             StringBuilder stringBuilder = new StringBuilder();
             List<string> urlList = new List<string>();
+            IPAddress dnsServer = IPAddress.Parse("8.8.8.8");
 
             Parallel.ForEach(urls, url =>
             {
@@ -214,6 +239,11 @@ namespace ABPUtils
                             {
                                 ret = true;
                                 Console.WriteLine("{0} is validated by HttpWebRequest.", url);
+                            }
+                            else if (DNSValidate(dnsServer, url))
+                            {
+                                ret = true;
+                                Console.WriteLine("{0} is validated by DNSValidate.", url);
                             }
                             else
                             {
@@ -351,6 +381,88 @@ namespace ABPUtils
             }
 
             return sBuilder.Replace("\r", string.Empty).ToString();
+        }
+
+        static bool DNSValidate(IPAddress dnsServer, string domain)
+        {
+            bool ret = false;
+            try
+            {
+                DnsType[] types = new DnsType[] { DnsType.ANAME, DnsType.MX, DnsType.NS, DnsType.SOA };
+                foreach (var type in types)
+                {
+                    Request request = new Request();
+                    request.AddQuestion(new Question(domain, type, DnsClass.IN));
+                    Response response = Resolver.Lookup(request, dnsServer);
+                    if (response != null)
+                    {
+                        ret = (response.Answers.Length > 0 || response.NameServers.Length > 0 || response.AdditionalRecords.Length > 0);
+                    }
+                    if (ret)
+                        break;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+
+            return ret;
+        }
+
+        static void Query(IPAddress dnsServer, string domain, DnsType type)
+        {
+            try
+            {
+                // create a DNS request
+                Request request = new Request();
+
+                // create a question for this domain and DNS CLASS
+                request.AddQuestion(new Question(domain, type, DnsClass.IN));
+
+                // send it to the DNS server and get the response
+                Response response = Resolver.Lookup(request, dnsServer);
+
+                // check we have a response
+                if (response == null)
+                {
+                    Console.WriteLine("No answer");
+                    return;
+
+                }
+                // display each RR returned
+                Console.WriteLine("--------------------------------------------------------------");
+
+                // display whether this is an authoritative answer or not
+                if (response.AuthoritativeAnswer)
+                {
+                    Console.WriteLine("authoritative answer");
+                }
+                else
+                {
+                    Console.WriteLine("Non-authoritative answer");
+                }
+
+                // Dump all the records - answers/name servers/additional records
+                foreach (Answer answer in response.Answers)
+                {
+                    Console.WriteLine("{0} ({1}) : {2}", answer.Type.ToString(), answer.Domain, answer.Record.ToString());
+                }
+
+                foreach (NameServer nameServer in response.NameServers)
+                {
+                    Console.WriteLine("{0} ({1}) : {2}", nameServer.Type.ToString(), nameServer.Domain, nameServer.Record.ToString());
+                }
+
+                foreach (AdditionalRecord additionalRecord in response.AdditionalRecords)
+                {
+                    Console.WriteLine("{0} ({1}) : {2}", additionalRecord.Type.ToString(), additionalRecord.Domain, additionalRecord.Record.ToString());
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
         }
     }
 }
