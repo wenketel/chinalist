@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: aCBPt99SLCMKwptqmWrbeQ
+!  Checksum: hZJuFm25GDbI3u3vKdyOog
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 26 Jul 2011 22:03:28 +0800
+!  Last Modified:  Wed, 27 Jul 2011 19:18:39 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -46,6 +46,7 @@ mail.126.com,mail.163.com##[id$="FakeLetterDiv"]
 ||book.17173.com/17k/xct/
 ||images.17173.com^$object
 ||media.17173.com/09gonggao.js
+||17173.com/play/zqtop_960.html
 ||media.17173.com/x/
 ||17173.itc.cn^$third-party,object-subrequest
 17173.com##[class^="banner"]
@@ -584,9 +585,11 @@ www.s5proxy.com/img/socks5_40080.gif
 ||cj.qidian.com/Picture/20110519_110022.jpg
 ||cj.qidian.com/svnad/
 qidian.com##[class^="show_ggpic"] > div > a > img
+qidian.com##a[href^="http://www.qidian.com/showavd.aspx?"]
 www.qidian.com##[class^="gg"]
 
 !---QQ
+||mat1.gtimg.com/cq/
 ||mat1.gtimg.com/news/fbgg/
 ||mat1.gtimg.com/sports/2011ad/
 ||adslvfile.qq.com^
@@ -803,7 +806,8 @@ tongji.net##.wp.a_h
 !---土豆
 ||tdimg.com/sales/
 ||tudou.com/framepage/
-||tudou.com/tdcm/adcontrol
+||tudou.com/tdap/
+||tudou.com/tdcm/
 ||js.tudouui.com/js/fn/saleloader_*.js
 tudou.com##.b.seed
 tv.tudou.com###adex_board
@@ -1159,7 +1163,8 @@ china.cn##.rowLAd
 */fileftp/$object,domain=chinanews.com.cn|chinanews.com
 ||fj.chinanews.com^$object
 ||chinanews.com.cn/ad
-||www.cnhubei.com/gg_10/
+||cnhubei.com/gg_10/
+||cnhubei.com^*/g2
 www.cnhubei.com##.A
 ||region.cns.hk^
 ||pic.cnmo.com/$image,object
@@ -1177,6 +1182,7 @@ cnmo.com##[id^="AD"]
 ||huanqiu.com/script/content_js/
 ||huanqiu.com/script/homepage$script
 huanqiu.com##[id^="banner"]
+||ithome.com/block/*_google
 ||itocp.com/html/$object
 ||jerrycanada.com^$third-party
 ||jjxw.cn^$object
@@ -1189,8 +1195,8 @@ junshijia.com##.newlist7_1
 ||miltt.com/da/sex/news_right.js
 ||miltt.com/uploadfile/*.gif
 miltt.com##[class^="ad"]
-@@||imgs.xinhuanet.com/ad/*$script
-www.news.cn/js20100613/ad_01.js
+||www.xinhuanet.com/classad/
+||www.news.cn/js20100613/ad_01.js
 ||ashow.pcpop.com^
 www.pcpop.com##div.Content > div.l1:first-child
 www.pcpop.com##div.Content > div.r1:nth-child(2)
@@ -1270,6 +1276,7 @@ tianshannet.com.cn##.adtxt1.link15
 ||8du8.com/js/ggp.js
 ||8du8.com/skin/bq/
 ||mh.99770.cc^$subdocument
+||mh.99770.cc/x/t.js
 @@||99comic.com/js/book.js
 @@||99comic.com/v3/i.js
 ||99comic.com^$script
@@ -1290,7 +1297,8 @@ baiwandu.com###ptcmsad1
 ||bookgew.com/ml85/
 ||bookgew.com/rar/
 ||bookgew.com/zj85/
-||booksky.org^$script,subdocument
+||booksky.org/*.htm
+||booksky.org/pop.js
 @@||caihongwenxue.com/js/BookText.js
 ||caihongwenxue.com/js/$script
 @@||cococomic.com/js/book.js
@@ -1678,6 +1686,7 @@ www.114lm.com^$third-party
 ||25888.in^$third-party
 ||2bj.cc^$third-party
 ||2bj.cn^$third-party
+||33878.com^$third-party
 ||33hy.com^$third-party
 ||333wan.com^$third-party
 ||union.360buy.com^
@@ -1735,6 +1744,7 @@ www.114lm.com^$third-party
 ||res.9dzc.com^$third-party
 ||9wad.com^$third-party
 ||9wee.com^$third-party
+||a1click.aiqun.com^$third-party
 ||acs86.com^$third-party
 ||adcenter.conn.tw^$third-party
 ||adhai.com^$third-party
@@ -1757,6 +1767,7 @@ www.114lm.com^$third-party
 ||china.alibaba.com^$third-party
 ||alimama.cn^$third-party,domain=~taobao.com|~taobao.com.cn
 ||alimama.com^$third-party,domain=~taobao.com|~taobao.com.cn
+||all-winner.com^$third-party
 .all4ad.$third-party
 ||allyesky.cn^$third-party
 ||artxun.com^$third-party
@@ -1853,6 +1864,7 @@ www.114lm.com^$third-party
 ||love12.tw^$third-party
 ||maxreturn.cn^$third-party
 ||mediav.com^$third-party
+||miaozhen.com^$third-party
 ||molidao.com^$third-party
 ||myad.cn^$third-party
 ||myiee.com^$third-party
@@ -1867,6 +1879,7 @@ www.114lm.com^$third-party
 ||ok8848.com^$third-party
 ||okzad.com^$third-party
 ||onetad.com^$third-party
+||oounion.com^$third-party
 ||pagechoice.net^$third-party
 ||pee.cn^$third-party
 ||pixelinteractivemedia.com^$third-party
@@ -1877,8 +1890,10 @@ www.114lm.com^$third-party
 ||qiyou.com^$third-party
 ||qizhao.com^$third-party
 ||qling.com^$third-party
+||qq61.com^$third-party
 ||qq937.com^$third-party
 ||quantui.com^$third-party
+||360.rbc.cn^$third-party
 ||www.redu-click.com^$third-party
 ||author.richi.cc^$third-party
 ||samboc.com^$third-party
@@ -1889,6 +1904,7 @@ www.114lm.com^$third-party
 ||shouyibao.com^$third-party
 ||skycn.org.cn^$third-party
 ||soua.com^$third-party
+||js.ssrj.net^$third-party
 ||star8.net^$third-party
 ||ipic.staticsdo.com^$third-party
 ||c.subo.me^$third-party
@@ -2009,7 +2025,7 @@ www.114lm.com^$third-party
 /ktrace/ktrace$script
 /pv?peerid=
 /stat.$~script,domain=~ameblo.jp|~zcool.com.cn|~kompas.com
-/track.$domain=~bioinformatics.bms.com|~cmbchina.com|~sf-express.com
+/track.$domain=~aaeweb.com|~bioinformatics.bms.com|~cmbchina.com|~sf-express.com
 /usertrack.
 !--sort by domain
 ||114la.com^$third-party
