@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: yXQAROKOQ1zL9IzigB/5Tg
+!  Checksum: y62XO8OSlwAeoM0FEbvmxg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 03 Aug 2011 14:52:10 +0800
+!  Last Modified:  Wed, 03 Aug 2011 17:49:56 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -49,7 +49,6 @@ mail.126.com,mail.163.com##[id$="FakeLetterDiv"]
 ||media.17173.com/09gonggao.js
 ||17173.com/play/zqtop_960.html
 ||media.17173.com/x/
-||17173.itc.cn^$third-party,object-subrequest
 17173.com##[class^="banner"]
 
 !---草根网
@@ -339,6 +338,7 @@ g-fox.cn##[id^="banner_show"]
 ||gamefiles.qq494.cn^$object
 ||gamersky.com/frame/
 ||image.gamersky.com/img/$object
+||image.gamersky.com/img/300d.jpg
 gamersky.com##.adc
 
 !---gamer.com.tw
@@ -679,6 +679,7 @@ news.sina.com.cn###divResNewsBottom
 sh.sina.com.cn##[class^="jsad"]
 www.sina.com.cn##.ads_140x120_1
 www.sina.com.cn##.cleft
+www.sina.com.cn##.PartLBtnAds4
 www.sina.com.cn##.yleft2blk
 www.sina.com.cn##[class^="AD"]
 www.sina.com.cn##[class$="ra_780x90Div"]
@@ -894,6 +895,7 @@ xici.net##a[href^="http://xiciafp.allyes.com/main/adfclick"]
 ||xilu.com/js/artjs/
 ||xilu.com/js/bd.js
 ||xilu.com/uploadfile/~image
+||content.xilu.com/uploadfile/$object
 ||newspage.xilu.com/model/visitlog.js
 ||tp.xilu.com^
 junshi.xilu.com##.xl_page_cs
@@ -1184,7 +1186,7 @@ cnmo.com##[id^="AD"]
 ||hinews.cn/out/img/$object
 ||hinews.cn/out/img/*/*x
 ||htpc1.com/newfolder/
-||huanqiu.com/script/content_js/
+||huanqiu.com/script/content_js/*_ad
 ||huanqiu.com/script/homepage$script
 huanqiu.com##[id^="banner"]
 ||ithome.com/block/*_google
@@ -1262,6 +1264,7 @@ tianshannet.com.cn##.adtxt1.link15
 ||cnzz.52tian.net^
 ||manhua.52tian.net/online.js
 ||75zw.com/ptcms/ptcmswin.js
+||86zw.com/zz/
 @@||jj.5ccc.net/scripts/new/pagebottom2.js
 @@||jj.5ccc.net/scripts/new/pagetop.js
 ||5ccc.net/scripts/articleinfo.js
@@ -1303,7 +1306,7 @@ baiwandu.com###ptcmsad1
 ||bookgew.com/rar/
 ||bookgew.com/zj85/
 ||booksky.org/*.htm
-||booksky.org/pop.js
+||booksky.org/*.js
 @@||caihongwenxue.com/js/BookText.js
 ||caihongwenxue.com/js/$script
 @@||cococomic.com/js/book.js
@@ -1756,6 +1759,7 @@ www.114lm.com^$third-party
 ||adhai.com^$third-party
 ||admin6.com^$third-party
 ||adpower.cn^
+||ads001.com^$third-party
 ||ads80.com^$third-party
 ||adnets.cn^$third-party
 ||adqoo.com^$third-party
@@ -1802,6 +1806,7 @@ www.114lm.com^$third-party
 ||cpmadworld.com^$third-party
 ||cpvm.net^$third-party
 ||crazymike.tw^$third-party
+||csbew.com^$third-party
 ||d9ad.com^$third-party
 ||daoyoudao.com^$third-party
 ||dingge.cc^$third-party
@@ -1864,6 +1869,7 @@ www.114lm.com^$third-party
 ||kejet.com^$third-party
 ||keydot.net^$third-party
 ||keyrun.cn^$third-party
+||keyyou.net^$third-party
 ||kfwan.com^$third-party
 ||koowo.com^$third-party
 ||kucent.com^$third-party
@@ -1895,6 +1901,7 @@ www.114lm.com^$third-party
 ||prohost.com.tw^$third-party
 ||ttmsg.qianqian.com^
 ||qd.code.^$third-party
+||qi-yue.com^$third-party
 ||qiyou.com^$third-party
 ||qizhao.com^$third-party
 ||qling.com^$third-party
@@ -1907,6 +1914,7 @@ www.114lm.com^$third-party
 ||samboc.com^$third-party
 ||cop.my.sandai.net^$third-party
 ||scupio.com^$third-party
+||js.shenduchuanmei.com^$third-party
 ||c.sfilm.com^$third-party
 ||sharele.cn^$third-party
 ||shouyibao.com^$third-party
@@ -2025,7 +2033,7 @@ www.114lm.com^$third-party
 |http://*/i.js$third-party
 
 !-----------------------------Privacy----------------------
-/counter.
+/counter.$domain=~dl.pconline.com.cn
 /counts.
 |http://pv.
 |http://pvstat.
@@ -2035,6 +2043,7 @@ www.114lm.com^$third-party
 /ktrace/ktrace$script
 /pv?peerid=
 /stat.$~script,domain=~ameblo.jp|~zcool.com.cn|~kompas.com
+/tracking.
 /usertrack.
 !--sort by domain
 ||114la.com^$third-party
