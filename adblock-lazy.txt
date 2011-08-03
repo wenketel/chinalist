@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: e3R3z3Cx6Quoe/UYVeSaMQ
+!  Checksum: EL/q5n7RWKXDUq8+NSibqg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 03 Aug 2011 14:16:04 +0800
+!  Last Modified:  Wed, 03 Aug 2011 14:33:48 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -334,6 +334,12 @@ free-game.cc,freegame.com.tw##a[href^="http://www.itaiwanmj.com.tw/"]
 g-fox.cn###taobao
 g-fox.cn##[id^="ad_links"]
 g-fox.cn##[id^="banner_show"]
+
+!---游民星空
+||gamefiles.qq494.cn^$object
+||gamersky.com/frame/
+||image.gamersky.com/img/$object
+gamersky.com##.adc
 
 !---gamer.com.tw
 /banner/*$domain=gamer.com.tw
@@ -1125,9 +1131,6 @@ ali213.net###banner
 ||fangte.com/uploadfiles/fangte_pic/pic/
 ||images.fangte.com^$object
 ||www.fangte.com/aswf.swf
-||gamersky.com/frame/
-||image.gamersky.com/img/$object
-gamersky.com##.adc
 ||www.golue.com/js/artical_down.js
 ||www.golue.com/js/tan_gl.js
 ||huaqimen.com^$script
