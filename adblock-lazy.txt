@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: eSjUmYor/gksal7RsC1LZA
+!  Checksum: Mw1dfbxOE3hXjez3kv+Q9Q
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 04 Aug 2011 23:25:31 +0800
+!  Last Modified:  Fri, 05 Aug 2011 02:23:31 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -18,7 +18,6 @@
 @@/adbanner/*$image,domain=books.com.tw
 @@||afp.goyeah.com^$object_subrequest
 @@||iphone4.tw/forums/news_proxy.php
-@@||narutom.com$elemhide
 @@||shangcuwang.com/ads/$image
 @@||pic.top100.cn/AdImg/
 
@@ -257,7 +256,7 @@ dict.cn###top-gg
 
 !---Discuz! & PHPWind etc.
 /common/cf/*$image
-##[class^="ad_footerbanner"]
+##.ad_footerbanner
 ##.ad_column
 ##.archiver_banner
 ##.a_pb
@@ -323,12 +322,6 @@ www.fengniao.com##.banner.mt2
 ||focus.cn/ad_publish/$script
 ||focus.cn/common/js/adm2008.js
 focus.cn##.ad_fp
-
-!---freegame.com.tw
-||freegame.com.tw^$script
-/p_ad_f.htm|$domain=freegame.com.tw|free-game.cc
-/counter*.htm|$domain=freegame.com.tw|free-game.cc
-free-game.cc,freegame.com.tw##a[href^="http://www.itaiwanmj.com.tw/"]
 
 !---火狐主页
 ||i.g-fox.cn/iframes/$subdocument
@@ -942,6 +935,7 @@ tw.yahoo.com##.colpadding > div.tabmd
 tw.yahoo.com###ticker
 ||yimg.com/no/$domain=~yahoo.com
 @@||l.yimg.com^*/common/js/1/setup-min.js
+@@||l.yimg.com/f/a/tw/js/flash_general_20090213.js|$domain=tw.yahoo.com
 ||l.yimg.com/d/lib/bc/bcr_2.0.5.js
 ||l.yimg.com/pq/
 ||l.yimg.com^*/a/tw/$~stylesheet
@@ -2029,7 +2023,6 @@ www.114lm.com^$third-party
 |https://*/ad/
 |http://*/*_ad.js
 |http://gg.$~stylesheet,domain=~bbs.vc52.cn
-@@||vansky.com/gg/*$xmlhttprequest
 |http://*/gg/$~stylesheet
 |http://*/i.js$third-party
 
@@ -2048,7 +2041,7 @@ www.114lm.com^$third-party
 /usertrack.
 !--sort by domain
 ||114la.com^$third-party
-51img.ajiang.net^
+||51img.ajiang.net^
 ||blog104.com^$third-party
 ||blogtw.net^$third-party
 ||cnzz.com^$third-party
@@ -2106,15 +2099,12 @@ xfastest.com###main-bot > .cl
 zaobao.com###myMovie
 
 !-----------------------Temporary---------------------------
-!---2011.7
+!---2011.8
 ||taobao.com/go/chn/tbk_channel/$domain=aiqing520.com
 ||t.douban.com/img/files/$object
 ||bbs.goapk.com/xda_jinzi/ZTE.gif
 ||blog.hi.mop.com/flash/830-310.swf
 ||mg.gamebean.com/665-090.gif
-||bbs.bj100.com/pic/images/610-60.jpg
-||at.bj100.com/20110630/20110630145040_19396.gif
-bbs.bj100.com##.ggzy
 
 !-----------------------EasyList----------------------------
 ! *** easylist/easylist_general_block.txt ***
