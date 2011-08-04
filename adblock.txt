@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: O3/w1fb5OfSPjSs+lvi50A
+!  Checksum: k1J1X+oufRWn/ys4S1NbUg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 03 Aug 2011 17:49:55 +0800
+!  Last Modified:  Thu, 04 Aug 2011 23:25:31 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -260,11 +260,13 @@ dict.cn###top-gg
 ##[class^="ad_footerbanner"]
 ##.ad_column
 ##.archiver_banner
+##.a_pb
+~discuz.net##.a_pt
 ###ad_headerbanner
-~top81.jschina.com.cn,~top81.cn##[id^="ad_thread"]
 ~xdjz.net###ads_c_tpc
 ~yyets.com,~zol.com.cn###focus.focus
 ###sitefocus.focus
+~top81.jschina.com.cn,~top81.cn##[id^="ad_thread"]
 
 !---discuss.com.hk
 ||i.uwants.com/aeiou/
@@ -1476,7 +1478,6 @@ www.5dmail.net##td[width="145"]
 cnki.com.cn##[id$="_gg"]
 ||disk.cjdby.com/filestores/
 ||img.cjdby.com/client/uuzu/
-cjdby.net##.a_pb
 ||cqcpu.com/andy/
 ||dabaoku.com^$script,object,subdocument
 ||daili39.com/i.js
