@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: Ao/gB61vbMPsGrw2uvJtvw
+!  Checksum: lMIaBW13TXuFA50hNl6UHQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 05 Aug 2011 02:23:31 +0800
+!  Last Modified:  Sat, 06 Aug 2011 22:28:24 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -2036,6 +2036,8 @@ www.114lm.com^$third-party
 |http://track.
 /ktrace/ktrace$script
 /pv?peerid=
+&refer=$image,object_subrequest
+&referer=$image,object_subrequest
 /stat.$~script,domain=~ameblo.jp|~zcool.com.cn|~kompas.com
 /tracking.
 /usertrack.

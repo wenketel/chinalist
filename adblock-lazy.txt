@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: Mw1dfbxOE3hXjez3kv+Q9Q
+!  Checksum: 4RuQCk9SGv8hlJulVfTMxg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 05 Aug 2011 02:23:31 +0800
+!  Last Modified:  Sat, 06 Aug 2011 22:28:24 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -2036,6 +2036,8 @@ www.114lm.com^$third-party
 |http://track.
 /ktrace/ktrace$script
 /pv?peerid=
+&refer=$image,object_subrequest
+&referer=$image,object_subrequest
 /stat.$~script,domain=~ameblo.jp|~zcool.com.cn|~kompas.com
 /tracking.
 /usertrack.
@@ -2316,6 +2318,7 @@ zaobao.com###myMovie
 /ad300x250_
 /ad350.
 /ad4.
+/ad468x60.
 /ad468x80.
 /ad5.
 /ad6.
@@ -2695,6 +2698,7 @@ zaobao.com###myMovie
 /ads9/*
 /ads?id=
 /ads?key=
+/ads?zone=
 /ads_160_
 /ads_code.
 /ads_display.
@@ -4089,6 +4093,7 @@ _overlay_ad.
 _paidadvert_
 _platform_ads.
 _player_ads_
+_popunder.
 _popunder_
 _psu_ad.
 _request_ad.
@@ -5143,7 +5148,7 @@ _a468x60.
 ###adtech_googleslot_03c
 ###adtech_takeover
 ~mautofied.com###adtext
-###adtop
+~ew.com###adtop
 ###adtophp
 ###adtxt
 ###adv-masthead
@@ -6530,6 +6535,7 @@ _a468x60.
 ##.DeptAd
 ##.DisplayAd
 ##.FT_Ad
+##.FeaturedAdIndexAd
 ##.FlatAds
 ##.GOOGLE_AD
 ##.GoogleAd
@@ -6571,6 +6577,7 @@ _a468x60.
 ##.Right300x250AD
 ##.RightAd1
 ##.RightAdvertiseArea
+##.RightAdvertisement
 ##.RightGoogleAFC
 ##.RightRailAd
 ##.RightRailTop300x250Ad
@@ -7739,6 +7746,7 @@ _a468x60.
 ##.cnn_adtitle
 ##.cntrad
 ##.column2-ad
+##.columnBoxAd
 ##.columnRightAdvert
 ##.com-ad-server
 ##.comment-advertisement
@@ -8728,6 +8736,7 @@ _a468x60.
 ##.type_promoads
 ##.ukAds
 ##.ukn-banner-ads
+##.under_ads
 ##.undertimyads
 ##.unit-ad
 ##.universalboxADVBOX01
@@ -9781,6 +9790,7 @@ _a468x60.
 ||topcasino10.com^$third-party
 ||total-media.net^$third-party
 ||tqlkg.com^$third-party
+||trackadvertising.net^$third-party
 ||tracking.to^$third-party
 ||tradedoubler.com^$third-party
 ||tradepub.com^$third-party
@@ -10455,6 +10465,7 @@ _a468x60.
 ||yimg.com^*/quickplay_maxwellhouse.png
 ||you-cubez.com/images/banners/
 ||you-only-you.com/banners/
+||zapads.zapak.com^
 ||ziffdavisenterprise.com/contextclicks/
 ! Mobile
 ||iadc.qwapi.com^
@@ -11552,7 +11563,6 @@ _cedexis.php
 ||centerix.ru^*/count.msl?
 ||cgicounter.oneandone.co.uk^
 ||cgicounter.puretec.de^
-||chase.com/js/reporting.js
 ||clearspring.com/at/
 ||clearspring.com/t/
 ||click.geopaysys.com^
