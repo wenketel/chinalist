@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: DKIEzKX1Bv5cDTHJ/rUQFA
+!  Checksum: JflWvekz1AyxJ90M8bXERw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 08 Aug 2011 13:50:51 +0800
+!  Last Modified:  Tue, 09 Aug 2011 08:37:47 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -2038,7 +2038,7 @@ www.114lm.com^$third-party
 |http://track.
 /ktrace/ktrace$script
 /pv?peerid=
-&refer=$image,object_subrequest
+&refer=$image,object_subrequest,domain=~vlog.xuite.net
 &referer=$image,object_subrequest
 /stat.$~script,domain=~ameblo.jp|~zcool.com.cn|~kompas.com
 /tracking.
@@ -3807,10 +3807,12 @@ zaobao.com###myMovie
 /taxonomy-ads.
 /td_ads/*
 /tdlads/*
+/teaseimg/ads/*
 /template/ad.
 /templateadvimages/*
 /templates/_ads/*
 /templates/ads/*
+/testads/*
 /testingad.
 /textad.
 /textad/*
@@ -7520,7 +7522,7 @@ _a468x60.
 ##.adwrapper948
 ##.adzone-footer
 ##.adzone-sidebar
-~bild.de,~grooveshark.com,~skiamade.com,~virginmobile.fr##.affiliate
+~bild.de,~d-reizen.nl,~grooveshark.com,~skiamade.com,~virginmobile.fr##.affiliate
 ##.affiliate-link
 ##.affiliate-sidebar
 ##.affiliateAdvertText
@@ -7566,6 +7568,7 @@ _a468x60.
 ##.banner-ads
 ##.banner-advert
 ##.banner-adverts
+##.banner-buysellads
 ##.banner300by250
 ##.banner300x100
 ##.banner300x250
@@ -8695,6 +8698,7 @@ _a468x60.
 ##.top_ad_wrapper
 ~trailvoy.com##.top_ads
 ##.top_advert
+##.top_advertisement
 ##.top_advertising_lb
 ##.top_bar_ad
 ##.top_container_ad
@@ -10649,6 +10653,8 @@ _a468x60.
 /nielson_stats.js
 /njs.gif?
 /nm_tr_combined-min.js
+/nm_tr_combined.js
+/nm_track.js
 /nm_trck.gif?
 /ntpagetag.gif
 /ntpagetag.js
