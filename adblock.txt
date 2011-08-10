@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: vIQy/EBi/UmF5IBp7crFww
+!  Checksum: GQvNxZBGm4j/4DN5syrZFw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 10 Aug 2011 11:18:30 +0800
+!  Last Modified:  Wed, 10 Aug 2011 13:54:05 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -19,6 +19,7 @@
 @@||afp.goyeah.com^$object_subrequest
 @@||iphone4.tw/forums/news_proxy.php
 @@||shangcuwang.com/ads/$image
+@@/advertise/$image,domain=suning.com
 @@||pic.top100.cn/AdImg/
 
 !----------------------------Well-known Sites--------------
@@ -29,11 +30,14 @@
 ||bbs.163.com/bbs/floatlayer/floatLayer.js
 ||g.163.com^
 ||v.163.com/special/*gg*.xml
+||netease.com/channel4/$object
+||netease.com/channel5/$object
 163.com##[class^="gg"]
 www.163.com###g5n2
 !--有道
 ||youdao.com/imp/$script
 ||a.youdao.com^
+||union.youdao.com^$third-party
 youdao.com##.sp-h
 youdao.com###sp
 !--mail
@@ -174,7 +178,6 @@ iknow.baidu.com,zhidao.baidu.com###qb-ad-cpro
 !---bilibili.tv
 www.bilibili.tv/html/arcads.js
 /ad-images/*$domain=bilibili.tv
-||u17.com^$image,domain=bilibili.tv
 
 !---易车网
 ||g.bitauto.com^$script
@@ -199,8 +202,9 @@ chdtv.net##.a_mu
 
 !---中华网
 ||dvs.china.com^
+||military.china.com/zh_cn/etc/gghead950.html
 ||news.china.com/zh_cn/etc/$subdocument
-club.china.com/data/littlewindow/js/littlewindow.js
+||club.china.com/data/littlewindow/js/littlewindow.js
 www.china.com##.gg
 club.china.com##.headbanner
 
@@ -341,7 +345,9 @@ gamersky.com##.adc
 /banner/*$domain=gamer.com.tw
 
 !---机锋
+@@||gfan.lkpress.com^$script
 ||down.gfan.com/weite/
+bbs.gfan.com##.ad_headerbanner
 bbs.gfan.com###section2
 bbs.gfan.com###veryim111
 
@@ -817,6 +823,7 @@ tudou.com##.b.seed
 tv.tudou.com###adex_board
 
 !---U17
+||u17.com^$third-party
 ||image.mylife.cdn.u17.com^$object
 ||static.cdn.u17.com/v2/js/ad_api/$script
 u17.com##.ad_728_90
@@ -976,6 +983,7 @@ mydown.yesky.com##.xznr_2
 ||static.atm.youku.com^*/popup.js
 
 !---人人影视
+@@||www.yyets.com^$elemhide
 ||t.tvsup.com^
 ||yyets.com/forumid_495/
 yyets.com##[id^="kads"]
@@ -1668,6 +1676,7 @@ www.zygod.net/shilei.gif
 ||001union.com^$third-party
 ||100tone.com^$third-party
 ||100fenlm.cn^$third-party
+||code.100Goo.com^$third-party
 ||11125.in^$third-party
 ||u.1133.cc^$third-party
 ||114.com.cn^$third-party
@@ -1675,6 +1684,7 @@ www.114lm.com^$third-party
 ||115.238.103.82^$third-party
 ||155game.com^$third-party
 ||16975.com^$third-party
+||17kuxun.com^$third-party
 ||js.17ol.org^$third-party
 ||118114.cn^$third-party
 ||122.com.tw^$third-party
@@ -1753,12 +1763,13 @@ www.114lm.com^$third-party
 ||acs86.com^$third-party
 ||adcenter.conn.tw^$third-party
 ||adhai.com^$third-party
+||adkongjian.com^$third-party
 ||admin6.com^$third-party
+||adnets.cn^$third-party
 ||adpower.cn^
+||adqoo.com^$third-party
 ||ads001.com^$third-party
 ||ads80.com^$third-party
-||adnets.cn^$third-party
-||adqoo.com^$third-party
 ||ads126.com^$third-party
 ||adsame.com^$third-party
 ||adsue.com^$third-party
@@ -1913,6 +1924,7 @@ www.114lm.com^$third-party
 ||samboc.com^$third-party
 ||cop.my.sandai.net^$third-party
 ||scupio.com^$third-party
+||sdo.com^$third-party
 ||js.shenduchuanmei.com^$third-party
 ||c.sfilm.com^$third-party
 ||sharele.cn^$third-party
@@ -1980,6 +1992,7 @@ www.114lm.com^$third-party
 ||yoyi.tv^$third-party
 ||yoyocm.com^$third-party
 ||yunyu120.com^$third-party
+||code.yy32.com^$third-party
 ||js.zdy.cc^$third-party
 ||js.zfjiu.com^$third-party
 ||zhanzhangle.com^$third-party
@@ -2043,7 +2056,7 @@ www.114lm.com^$third-party
 /pv?peerid=
 &refer=$image,object_subrequest,domain=~vlog.xuite.net
 &referer=$image,object_subrequest
-/stat.$~script,domain=~ameblo.jp|~zcool.com.cn|~kompas.com
+/stat.$~script,domain=~ameba.jp|~ameblo.jp|~zcool.com.cn
 /tracking.
 /usertrack.
 !--sort by domain
@@ -2090,6 +2103,7 @@ icson.com##[id$="_top_ad"]
 www.mywenxue.com###msg_win
 newsmth.net##table.hot_title > tbody > tr > td[style]
 newsmth.net##table.HotTable > tbody > tr > td.HotTitle > script + a
+news.pchome.com.tw###ad_bg_div
 price.com.hk##.tb
 price.com.hk##[id^="ad"]
 qianlong.com##.aditem01
@@ -2107,7 +2121,6 @@ zaobao.com###myMovie
 
 !-----------------------Temporary---------------------------
 !---2011.8
-||taobao.com/go/chn/tbk_channel/$domain=aiqing520.com
 ||t.douban.com/img/files/$object
 ||bbs.goapk.com/xda_jinzi/ZTE.gif
 ||blog.hi.mop.com/flash/830-310.swf
