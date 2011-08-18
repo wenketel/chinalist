@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: T/054/J7/4/OrLgNaALqjA
+!  Checksum: KrZmEtzZwnCYW1WLj3nlqg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 18 Aug 2011 11:47:29 +0800
+!  Last Modified:  Thu, 18 Aug 2011 12:03:43 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -927,6 +927,7 @@ xj163.cn##[class^="ad"]
 @@||ads.16house.com/JS/AdManage.js$domain=xmhouse.com
 
 !---XunLei
+||analytics-union.sandai.net^$third-party
 ||biz*.sandai.net^
 ||misc.web.xunlei.com/kkpv/kkpv.js
 ||gouwu.vip.xunlei.com^$third-party
@@ -986,6 +987,7 @@ mydown.yesky.com##.xznr_2
 ||static.atm.youku.com^*/popup.js
 
 !---人人影视
+@@||www.yyets.com^$elemhide
 ||fujian.yyets.com/forumid_194/
 ||t.tvsup.com^
 /yyets_94080.gif
@@ -2071,6 +2073,7 @@ www.zygod.net/shilei.gif
 ||51img.ajiang.net^
 ||blog104.com^$third-party
 ||blogtw.net^$third-party
+||dw.cbsi.com.cn^$third-party
 ||cnzz.com^$third-party
 ||cdn.hiido.cn^$third-party
 ||log.daqi.com^
@@ -2086,7 +2089,6 @@ www.zygod.net/shilei.gif
 ||look.urs.tw^$third-party
 ||vdoing.com^$third-party
 ||wrating.com^$third-party
-||analytics-union.sandai.net^$third-party
 
 !-----------------------Element Hiding---------------------
 www.360buy.com##[clstag$="guanggao"]
@@ -4938,7 +4940,7 @@ _a468x60.
 ###ad_ss
 ~bestadsontv.com,~vivastreet.co.uk,~vivastreet.com,~vivastreet.fr###ad_table
 ###ad_term_bottom_place
-~yyets.com###ad_text:not(textarea)
+###ad_text:not(textarea)
 ###ad_thread_first_post_content
 ###ad_top
 ###ad_top_holder
@@ -7107,7 +7109,7 @@ _a468x60.
 ##.ad_square_top
 ##.ad_sub
 ##.ad_tag_middle
-~yyets.com,~leboncoin.fr##.ad_text
+~leboncoin.fr##.ad_text
 ##.ad_text_w
 ##.ad_title
 ##.ad_top
