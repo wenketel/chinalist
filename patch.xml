@@ -28,9 +28,12 @@
     <string>||carefuldoctor.com/adv/search.php</string>
     <string>/stat36/stat/track.php</string>
     <string>||breakmedia.com/track.jpg?</string>
+	<string>/mystats/track.js</string>
     <string>/stats/track.asp?</string>
-    <string>/counter.php?chcounter_mode=</string>
-    <string>/mystats/track.js</string>
+	<string>||adchemy-content.com^*/tracking.js</string>
+	<string>||facebook.com/js/conversions/tracking.js</string>
+	<string>||widgeo.net/tracking.php?</string>
+	<string>/counter.php?chcounter_mode=</string>
     <string>/vstats/counter.php</string>
     <string>/webstatistik/track.asp</string>
 	<string>||goadv.com^*/track.js</string>
@@ -46,12 +49,21 @@
     <string>||agendize.com^*/counts.jsp?</string>
     <string>||weather.ca/counter.gif?</string>
     <string>||widgethost.com/pax/counter.js?</string>
+    <string>@@||www.yyets.com^$elemhide</string>
   </RemovedItems>
   <NewItems />
   <ModifyItems>
     <ModifyItem>
       <OldItem>/socialads/*</OldItem>
       <NewItem>/socialads/*$domain=~profiles.google.com</NewItem>
+    </ModifyItem>
+     <ModifyItem>
+      <OldItem>~leboncoin.fr##.ad_text</OldItem>
+      <NewItem>~yyets.com,~leboncoin.fr##.ad_text</NewItem>
+    </ModifyItem>
+     <ModifyItem>
+      <OldItem>###ad_text:not(textarea)</OldItem>
+      <NewItem>~yyets.com###ad_text:not(textarea)</NewItem>
     </ModifyItem>
   </ModifyItems>
 </PatchConfigurations>

@@ -6,6 +6,7 @@ using System.Net.NetworkInformation;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using System.Net.Sockets;
 
 namespace ABPUtils
 {
@@ -123,9 +124,10 @@ namespace ABPUtils
                         Console.WriteLine("{0} is out of date, to start the update.", s.Key);
                         webClient.DownloadFile(s.Value, s.Key);
                         Console.WriteLine("update {0} completed.", s.Key);
-                        if (!File.Exists(s.Key))
+                        ChinaList t = new ChinaList(s.Key);
+                        if (t.Validate() != 1)
                         {
-                            Console.WriteLine(string.Format("Can't download {0},pls try later.", s.Key));
+                            Console.WriteLine(string.Format("Download {0} error,pls try later.", s.Key));
                             return;
                         }
                     }
@@ -386,10 +388,11 @@ namespace ABPUtils
         static bool DNSValidate(IPAddress dnsServer, string domain)
         {
             bool ret = false;
-            try
+
+            DnsType[] types = new DnsType[] { DnsType.ANAME, DnsType.MX, DnsType.NS, DnsType.SOA };
+            foreach (var type in types)
             {
-                DnsType[] types = new DnsType[] { DnsType.ANAME, DnsType.MX, DnsType.NS, DnsType.SOA };
-                foreach (var type in types)
+                try
                 {
                     Request request = new Request();
                     request.AddQuestion(new Question(domain, type, DnsClass.IN));
@@ -401,10 +404,9 @@ namespace ABPUtils
                     if (ret)
                         break;
                 }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
+                catch
+                {
+                }
             }
 
             return ret;
@@ -463,6 +465,25 @@ namespace ABPUtils
             {
                 Console.WriteLine(ex.Message);
             }
+        }
+
+        static string GetWhoisInformation(string whoisServer, string url)
+        {
+            StringBuilder stringBuilderResult = new StringBuilder();
+            TcpClient tcpClinetWhois = new TcpClient(whoisServer, 43);
+            NetworkStream networkStreamWhois = tcpClinetWhois.GetStream();
+            BufferedStream bufferedStreamWhois = new BufferedStream(networkStreamWhois);
+            StreamWriter streamWriter = new StreamWriter(bufferedStreamWhois);
+
+            streamWriter.WriteLine(url);
+            streamWriter.Flush();
+
+            StreamReader streamReaderReceive = new StreamReader(bufferedStreamWhois);
+
+            while (!streamReaderReceive.EndOfStream)
+                stringBuilderResult.AppendLine(streamReaderReceive.ReadLine());
+
+            return stringBuilderResult.ToString();
         }
     }
 }

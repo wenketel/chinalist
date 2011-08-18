@@ -86,7 +86,7 @@ namespace ABPUtils
             foreach (Match match in matches)
             {
                 string url = match.Value;
-                if (urls.Contains(url) || url.EndsWith(".tw"))
+                if (urls.Contains(url))
                     continue;
                 urls.Add(match.Value);
             }
