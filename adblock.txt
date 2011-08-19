@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: PftP1Xd1E5A6JcN5VXXOzg
+!  Checksum: VtRrfweOGtey4uZiGxOx7w
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 19 Aug 2011 12:08:31 +0800
+!  Last Modified:  Fri, 19 Aug 2011 18:15:00 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -929,6 +929,7 @@ xj163.cn##[class^="ad"]
 !---XunLei
 ||analytics-union.sandai.net^$third-party
 ||biz*.sandai.net^
+||float.sandai.net^
 ||misc.web.xunlei.com/kkpv/kkpv.js
 ||gouwu.vip.xunlei.com^$third-party
 ||jsunion.kankan.xunlei.com^$third-party
@@ -945,9 +946,9 @@ tw.yahoo.com###eyebrow > a:not(#sethomepage)
 tw.yahoo.com##.newsad
 tw.yahoo.com##.colpadding > div.tabmd
 tw.yahoo.com###ticker
-||yimg.com/no/$domain=~yahoo.com
 @@||l.yimg.com^*/common/js/1/setup-min.js
 @@||l.yimg.com/f/a/tw/js/flash_general_20090213.js|$domain=tw.yahoo.com
+||yimg.com/no/$domain=~yahoo.com
 ||l.yimg.com/d/lib/bc/bcr_2.0.5.js
 ||l.yimg.com/pq/
 ||l.yimg.com^*/a/tw/$~stylesheet
@@ -1057,10 +1058,8 @@ jiaren.org##a[href^="http://s.click.taobao.com/"] > img
 ||99d.com/html/99d_index_a1.js^
 ||99d.com/images/99d_980x60_110408.gif
 ||99d.com/js/web_5253_tanchuang.js
-data.99pan.com/download/images/img_018.gif
 ||abcdown.net/hezuo/
 ||ayxz.com/images/$script,subdocument
-||badongo.com/swf/banner.swf
 ||badongo.com/00081C/images/$object
 ||bkill.com/images/di.js
 ||cncrk.com/ggg/
