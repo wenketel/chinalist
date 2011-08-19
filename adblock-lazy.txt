@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: uHx3v90tvgX/f42OGsrRnQ
+!  Checksum: kwcWUHWNGd0MQKNzFZ+QXw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 18 Aug 2011 12:06:13 +0800
+!  Last Modified:  Fri, 19 Aug 2011 12:08:31 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -2097,7 +2097,7 @@ www.alibuybuy.com##[class^="ad_"]
 av199.com,hd199.com##tr.altbg2 > TD[width="100%"]
 chinayes.com##.banner
 news.cnyes.com,chinayes.com##[class^="ad"]
-crsky.com##.banner
+crsky.com##[id$="_TL"]
 dapenti.com##td.oblog_t_2 > div[align="center"]
 dapenti.com##.oblog_t_4 > a > img
 discuz.net##[class^="wp a_"]
@@ -2229,6 +2229,7 @@ zaobao.com###myMovie
 .com/ads_
 .com/advt/
 .com/adx/
+.com/adx_
 .com/adz/
 .com/bads/
 .com/gads/
@@ -6803,6 +6804,7 @@ _a468x60.
 ##.ad08sky
 ~russiantimes.com##.ad1
 ##.ad10
+##.ad100
 ##.ad120
 ##.ad120x240backgroundGray
 ##.ad120x600
@@ -9328,7 +9330,7 @@ _a468x60.
 ||doubleclick.net/pfadx/*.sevenload.com_$object-subrequest,third-party
 ||doubleclick.net/pfadx/*adcat=$object-subrequest,third-party
 ||doubleclick.net/pfadx/nbcu.nbc/$object-subrequest,third-party
-||doubleclick.net^$object-subrequest,third-party,domain=addictinggames.com|atom.com|bbc.co.uk|bicycling.com|bloomberg.com|break.com|businessweek.com|cbs4denver.com|cbsnews.com|click2houston.com|cnbc.com|couriermail.com.au|dailytelegraph.com.au|darkhorizons.com|dorkly.com|doubleviking.com|eonline.com|fandango.com|foxbusiness.com|g4tv.com|gamespot.com|gametrailers.com|globalnational.com|globalnews.ca|gorillanation.com|hulu.com|independent.ie|joblo.com|kptv.com|listen.grooveshark.com|mtv.co.uk|mtv.com|mtv.com.au|mtv.com.nz|mtvbase.com|mtvmusic.com|myfoxorlando.com|myfoxphoenix.com|necn.com|neopets.com|news.com.au|newsweek.com|nfl.com|nick.com|nintendoeverything.com|npr.org|own3d.tv|pandora.com|photoradar.com|play.it|ps3news.com|radio.com|reuters.com|rte.ie|sbs.com.au|sbsun.com|sevenload.com|shacknews.com|shockwave.com|sk-gaming.com|smh.com.au|southpark.nl|southparkstudios.com|southparkstudios.se|space.com|spike.com|syfy.com|theage.com.au|thebostonchannel.com|thedailygreen.com|thedailyshow.com|thewire.com|ufc.com|ustream.tv|videojug.com|washingtonpost.com|wcbstv.com|wetransfer.com|wired.com|wkbw.com|wmur.com|wral.com|wrc.com|wsj.com|wwe.com|youtube.com|zappinternet.com|zoomin.tv
+||doubleclick.net^$object-subrequest,third-party,domain=addictinggames.com|atom.com|bbc.co.uk|bicycling.com|bloomberg.com|break.com|businessweek.com|cbs4denver.com|cbsnews.com|click2houston.com|cnbc.com|couriermail.com.au|dailytelegraph.com.au|darkhorizons.com|dorkly.com|doubleviking.com|eonline.com|fandango.com|foxbusiness.com|g4tv.com|gamespot.com|gametrailers.com|globalnational.com|globalnews.ca|gorillanation.com|hulu.com|independent.ie|joblo.com|kptv.com|listen.grooveshark.com|mtv.co.uk|mtv.com|mtv.com.au|mtv.com.nz|mtvbase.com|mtvmusic.com|my9tv.com|myfoxorlando.com|myfoxphoenix.com|myfoxtampabay.com|necn.com|neopets.com|news.com.au|newsweek.com|nfl.com|nick.com|nintendoeverything.com|npr.org|own3d.tv|pandora.com|photoradar.com|play.it|ps3news.com|radio.com|reuters.com|rte.ie|sbs.com.au|sbsun.com|sevenload.com|shacknews.com|shockwave.com|sk-gaming.com|smh.com.au|southpark.nl|southparkstudios.com|southparkstudios.se|space.com|spike.com|syfy.com|theage.com.au|thebostonchannel.com|thedailygreen.com|thedailyshow.com|thewire.com|ufc.com|ustream.tv|videojug.com|washingtonpost.com|wcbstv.com|wetransfer.com|wired.com|wkbw.com|wmur.com|wral.com|wrc.com|wsj.com|wwe.com|youtube.com|zappinternet.com|zoomin.tv
 ||doubleclick.net^$~object-subrequest,third-party
 ||doubleclick.net^*;sz=$object-subrequest,third-party,domain=10news.com|1up.com|bet.com|breitbart.tv|cbc.ca|dailystar.co.uk|digitaltrends.com|four.co.nz|fox5sandiego.com|foxnews.com|france24.com|gamesradar.com|heavy.com|latimes.com|muzu.tv|myfoxatlanta.com|myfoxny.com|myspace.com|nationalgeographic.com|nbc.com|nbcsandiego.com|news.com.au|nhl.com|player.amri.ca|rapbasement.com|tv3.co.nz|wptv.com
 ||doublepimp.com^$third-party
@@ -10065,6 +10067,7 @@ _a468x60.
 ||banner2.casino.com^
 ||bbcchannels.com/workspace/uploads/
 ||bc.coupons.com^$third-party
+||bergen.com^*/sponsoredby-
 ||bet-at-home.com/oddbanner.aspx?
 ||beta.down2crazy.com^$third-party
 ||bidorbuy.co.za/jsp/system/referral.jsp?
@@ -11532,7 +11535,6 @@ _cedexis.php
 ||4theclueless.com/adlogger/
 ||99widgets.com/counters/
 ||activities.niagara.comedycentral.com^
-||adchemy-content.com^*/tracking.js
 ||addthis.com/at/
 ||addthis.com/live/
 ||addthis.com^*/p.json?*&ref=
@@ -11662,7 +11664,6 @@ _cedexis.php
 ||events.eyeviewdigital.com^*.gif?r=
 ||evri.com/analytics/
 ||facebook.com/campaign/impression.php?
-||facebook.com/js/conversions/tracking.js
 ||facilitatedigital.com/hit.aspx?
 ||fastcounter.onlinehoster.net^
 ||feedcat.net/button/
@@ -11903,7 +11904,6 @@ _cedexis.php
 ||whosread.com/counter/
 ||widgeo.net/compteur.php?
 ||widgeo.net/geocompteur/
-||widgeo.net/tracking.php?
 ||widgetbox.com/syndication/track/
 ||widgetserver.com/metrics/
 ||widgetserver.com/t/
