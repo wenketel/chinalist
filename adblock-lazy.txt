@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 8W2VfJtGpK9NPahlm7gZLw
+!  Checksum: 2qvwFeqU34gDACLMFDKjvw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 19 Aug 2011 20:54:43 +0800
+!  Last Modified:  Sat, 20 Aug 2011 11:37:45 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -682,15 +682,12 @@ dailynews.sina.com##.TopNav + table
 sina.com.cn##.topAD
 news.sina.com.cn###divResNewsBottom
 sh.sina.com.cn##[class^="jsad"]
-www.sina.com.cn##.ads_140x120_1
-www.sina.com.cn##.cleft
-www.sina.com.cn##.PartLBtnAds4
-www.sina.com.cn##.yleft2blk
 www.sina.com.cn##[class^="AD"]
-www.sina.com.cn##[class$="ra_780x90Div"]
+www.sina.com.cn##.cleft
+www.sina.com.cn##div#PartA > div.left > div:not(#sina_house_link9)
+www.sina.com.cn##div#PartG  > div.rightbox
 www.sina.com.cn##[class^="txtads"]
-www.sina.com.cn###PartA > div[style]
-www.sina.com.cn###PartG > div.rightbox
+www.sina.com.cn##.yleft2blk
 !--auto
 @@||auto.sina.com.cn^$elemhide
 !--finance
@@ -2322,6 +2319,7 @@ zaobao.com###myMovie
 /ad/iframe/*
 /ad/img/*
 /ad/index/*
+/ad/rotate?
 /ad/script/*
 /ad/side_
 /ad/sponsored-
@@ -3012,6 +3010,7 @@ zaobao.com###myMovie
 /afimages.
 /afr.php?
 /ajax/ads/*
+/ajaxads.
 /ajrotator/*
 /ajs.php?
 /all_ads/*
@@ -7248,6 +7247,7 @@ _a468x60.
 ##.ads160
 ##.ads1_250
 ##.ads2
+##.ads24Block
 ##.ads3
 ##.ads300
 ##.ads460
