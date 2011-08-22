@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 85LB1HCr1/HcA5zm+tqkNQ
+!  Checksum: tzDmiBXQA33U6iHikU56WA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 20 Aug 2011 11:46:33 +0800
+!  Last Modified:  Mon, 22 Aug 2011 12:46:17 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -2048,7 +2048,7 @@ www.zygod.net/shilei.gif
 |http://*/i.js$third-party
 
 !-----------------------------Privacy----------------------
-/counter.$domain=~dl.pconline.com.cn
+/counter.$domain=~cnbeta.com|~dl.pconline.com.cn
 /counts.
 |http://pv.
 |http://pvstat.
@@ -2082,6 +2082,7 @@ www.zygod.net/shilei.gif
 ||look.urs.tw^$third-party
 ||vdoing.com^$third-party
 ||wrating.com^$third-party
+||static.wumii.com^$third-party
 
 !-----------------------Element Hiding---------------------
 www.360buy.com##[clstag$="guanggao"]
@@ -5447,6 +5448,7 @@ _a468x60.
 ###channel_ad
 ###channel_ads
 ###ciHomeRHSAdslot
+###cineplex-h-topAds
 ###circ_ad
 ###closeable-ad
 ###cmn_ad_box
@@ -6125,6 +6127,7 @@ _a468x60.
 ###ros_ad
 ###rotatingads
 ###row2AdContainer
+###rprightHeaderAd
 ###rr_MSads
 ###rt-ad
 ###rt-ad-top
@@ -6894,7 +6897,7 @@ _a468x60.
 ##.adFtr
 ##.adFullWidthMiddle
 ##.adGoogle
-~ctv.ca##.adHeader
+~ctv.ca,~ctvnews.ca##.adHeader
 ##.adHeadline
 ~namesecure.com,~superhry.cz##.adHolder
 ##.adHome300x250
@@ -7441,6 +7444,7 @@ _a468x60.
 ##.advert120
 ##.advert300
 ##.advert300x250
+##.advert300x300
 ##.advert300x440
 ##.advert4
 ##.advert5
@@ -8905,6 +8909,8 @@ _a468x60.
 ||accuserveadsystem.com^$third-party
 ||acf-webmaster.net^$third-party
 ||acronym.com^$third-party
+||actiondesk.com^$third-party
+||activedancer.com^$third-party
 ||ad-balancer.net^$third-party
 ||ad-delivery.net^$third-party
 ||ad-flow.com^$third-party
@@ -9806,6 +9812,7 @@ _a468x60.
 ||survey-poll.com^$third-party
 ||surveyvalue.mobi^$third-party
 ||surveyvalue.net^$third-party
+||surveywidget.biz^$third-party
 ||tacoda.net^$third-party
 ||tailsweep.com^$third-party
 ||targetnet.com^$third-party
@@ -9826,6 +9833,7 @@ _a468x60.
 ||topauto10.com^$third-party
 ||topcasino10.com^$third-party
 ||total-media.net^$third-party
+||totemcash.com^$third-party
 ||tqlkg.com^$third-party
 ||trackadvertising.net^$third-party
 ||tracking.to^$third-party
@@ -10123,6 +10131,7 @@ _a468x60.
 ||dennis.co.uk^*/siteskins/
 ||depositfiles.com^*.php?ref=
 ||desi4m.com/desi4m.gif$third-party
+||deskbabes.com/ref.php?
 ||detroitmedia.com/jfry/
 ||digitalmediacommunications.com/belleville/employment/
 ||dot.tk/urlfwd/searchbar/bar.html
@@ -10416,6 +10425,7 @@ _a468x60.
 ||smartdestinations.com/ai/$third-party
 ||smilepk.com/bnrsbtns/
 ||snapdeal.com^*.php$third-party
+||socialorganicleads.com/interstitial/
 ||speedppc.com^*/banners/
 ||splashpagemaker.com/images/$third-party
 ||sponsorandwin.com/images/banner-
@@ -10473,6 +10483,8 @@ _a468x60.
 ||viagogo.co.uk/feeds/widget.ashx?
 ||videoplaza.com/creatives/
 ||videozr.com^$third-party
+||virtuagirl.com/ref.php?
+||virtuaguyhd.com/ref.php?
 ||visit.homepagle.com^$third-party
 ||visitorboost.com/images/$third-party
 ||vitabase.com/images/relationships/$third-party
@@ -10491,6 +10503,7 @@ _a468x60.
 ||williamhillcasino.com/promodisplay?
 ||williamhillcasino.com/promoloaddisplay?
 ||williamhillcasino.com/promoredirect?
+||winpalace.com/?affid=
 ||wonderlabs.com/affiliate_pro/banners/
 ||ws.amazon.*/widgets/q?$third-party
 ||wupload.com/images/banners/
@@ -10805,6 +10818,7 @@ _a468x60.
 _cedexis.php
 ! Russian rating sites
 /img.php?id=*&page=
+://ivw.*/get?referrer=
 ://top.*/count/cnt.php?
 ://top.*/hit/
 ! *** easyprivacy/easyprivacy_trackingservers.txt ***
@@ -11719,7 +11733,6 @@ _cedexis.php
 ||link.informer.com^
 ||linkwithin.com/pixel.png
 ||livepass.conviva.com^
-||liveperson.net^*/mtag.js?
 ||log.adap.tv^$object-subrequest
 ||longtailvideo.com^*/googlytics-
 ||longtailvideo.com^*/yourlytics-
