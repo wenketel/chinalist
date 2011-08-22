@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: meKd5QBleX+YEJiDXddf7Q
+!  Checksum: 5zaRsidIGcDq8GBiv0vznA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 22 Aug 2011 20:53:56 +0800
+!  Last Modified:  Mon, 22 Aug 2011 21:11:49 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -984,9 +984,12 @@ mydown.yesky.com##.xznr_2
 ||static.atm.youku.com^*/popup.js
 
 !---人人影视
-||fujian.yyets.com/forumid_166/
+||fujian.yyets.com/forumid_166/$domain=~www.yyets.com
 ||copy.ousns.com^$image
 yyets.com##[id^="kads"]
+!--forum
+||fujian.yyets.com/forumid_194/
+/yyets_94080.gif
 
 !---中搜
 ||imgad.zhongsou.com^
