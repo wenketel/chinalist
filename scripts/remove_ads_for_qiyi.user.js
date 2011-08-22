@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name Qiyi ads Remover
-// @namespace http://code.google.com/p/adblock-chinalist/
+// @namespace gythialy@chinalist
 // @description Remove qiyi.com flash ads for ChinaList
 // @author Gythialy
 // @create 2011-6-16
@@ -65,6 +65,6 @@
 	if (jdtflash)
 		jdtflash.style.display = '';
 
-	var ids = [ 'adflash', 'backgroundskin', 'clicka' ];
+	var ids = [ 'adflash', 'backgroundskin', 'clicka', 'floatLayerFavDiv' ];
 	hideAdByIds(ids);
 })();

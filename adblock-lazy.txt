@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: KqLxX3eF/YV0unxVpL4sUA
+!  Checksum: Dl2O3Da0ezBxfHBseoeOBg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 22 Aug 2011 12:48:25 +0800
+!  Last Modified:  Mon, 22 Aug 2011 17:53:44 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -481,7 +481,6 @@ mobile01.com##a[href="promotionlist.php"]
 @@||11.mydrivers.com/news/define.js
 @@||11.mydrivers.com/www/index*.js
 ||11.mydrivers.com^$~third-party
-||mydrivers.com/002f/*/$subdocument
 mydrivers.com##[id^="ad_"]
 drivers.mydrivers.com##div[align="center"]
 news.mydrivers.com##table[border="0"][width="980"][height="90"]
@@ -2126,9 +2125,10 @@ zaobao.com###myMovie
 !-----------------------Temporary---------------------------
 !---2011.8
 ||t.douban.com/img/files/$object
+||mg.gamebean.com/665-090.gif
 ||bbs.goapk.com/xda_jinzi/ZTE.gif
 ||blog.hi.mop.com/flash/830-310.swf
-||mg.gamebean.com/665-090.gif
+||nanrenwa.com/_img/a/$third-party
 
 !-----------------------EasyList----------------------------
 ! *** easylist/easylist_general_block.txt ***
@@ -5590,6 +5590,7 @@ _a468x60.
 ###extra-search-ads
 ###fb_adbox
 ###fb_rightadpanel
+###featAds
 ~discuss.com.hk,~uwants.com###featuread
 ###featured-advertisements
 ###featuredAdContainer2
