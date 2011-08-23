@@ -1,7 +1,14 @@
 [Adblock Plus 1.2]
-!  Checksum: mjqPFB+dFKFnWQZuzAvzYg
+!  Checksum: HhXroF3lIpJCGrxEWwWMDw
+<<<<<<< .mine
+=======
+>>>>>>> .r3592
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 23 Aug 2011 18:31:00 +0800
+<<<<<<< .mine
+!  Last Modified:  Tue, 23 Aug 2011 18:36:32 +0800
+=======
+!  Last Modified:  Tue, 23 Aug 2011 18:36:32 +0800
+>>>>>>> .r3592
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -13,7 +20,7 @@
 !----------------------------White List--------------------
 @@||book.360buy.com/book/BookShowService.aspx^$xmlhttprequest
 @@||51job.com^$elemhide
-@@||a.5d6d.com^$image
+@@||a.5d6d.com^$image,object_subrequest
 @@||union.bokecc.com^$object,object_subrequest,script
 @@/adbanner/*$image,domain=books.com.tw
 @@||afp.goyeah.com^$object_subrequest
@@ -1259,7 +1266,7 @@ tianshannet.com.cn##.adtxt1.link15
 ||360wxw.com/kanshuren/yuedu/
 ||360wxw.com/kanshurenads/
 ||3yt.com/2009js/
-@@||3zcn.com$elemhide
+@@||3zcn.com^$elemhide
 ||3zcn.com/3z/
 @@||5026.com/js/foot.js
 ||5026.com/js/
@@ -2012,7 +2019,7 @@ www.zygod.net/shilei.gif
 /ads/*$~stylesheet
 /adphoto/*
 /adpics/*
-/adpolestar^
+/adpolestar/*
 /adpshow.
 /adservice/*
 /adsimg/*
@@ -2020,7 +2027,7 @@ www.zygod.net/shilei.gif
 /adv.
 /adv/*
 /affiliate/*
-.allyes.$third-party
+.allyes.
 /allyes.
 /dkgg/*
 /duilian.
@@ -2037,13 +2044,13 @@ www.zygod.net/shilei.gif
 /union.$third-party,domain=~ctrip.com
 /webafp?
 /paypic/*
-/tanchuang^
+/tanchuang.
 /tuiguang/*
 |http://ad.
 |http://*/ad/$~stylesheet,domain=~42qu.com|~bangumi.tv|~bankcomm.com|~bgm.tv|~chii.in|~ezpeer.com|~kupig.cc|~picplz.com|~xiachufang.com
 |https://*/ad/
 |http://*/*_ad.js
-|http://gg.$~stylesheet,domain=~bbs.vc52.cn
+|http://gg.$~stylesheet
 |http://*/gg/$~stylesheet
 |http://*/i.js$third-party
 
@@ -2068,9 +2075,8 @@ www.zygod.net/shilei.gif
 ||blogtw.net^$third-party
 ||dw.cbsi.com.cn^$third-party
 ||cnzz.com^$third-party
-||cdn.hiido.cn^$third-party
 ||log.daqi.com^
-||tovery.net^$third-party
+||cdn.hiido.cn^$third-party
 ||hotrank.com.tw^$third-party
 ||jiankongbao.com^$third-party
 ||sitebro.cn^$third-party
@@ -2078,6 +2084,7 @@ www.zygod.net/shilei.gif
 ||sitestates.com^$third-party
 ||sitetag.us^$third-party
 ||top-bloggers.com^$third-party
+||tovery.net^$third-party
 ||twcount.com^$third-party
 ||look.urs.tw^$third-party
 ||vdoing.com^$third-party
