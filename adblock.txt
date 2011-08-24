@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: Mm7NwQy1+3ckY1BXrplUyQ
+!  Checksum: GaYC156GkHoJUr7sWcf2rg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 24 Aug 2011 16:24:39 +0800
+!  Last Modified:  Wed, 24 Aug 2011 16:26:23 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -91,7 +91,7 @@ thinkpad.cn,51nb.com##div.secmenu:last-child
 ||6.cn/mdfor/index_new.js
 ||6.cn/mdfor/watch_new11.js
 ||r.6.cn/adkids/
-||r.6.cn/mq/
+|http://r.6.cn/mq/
 ||hm.i8.com.cn/GetAdContent.aspx
 6.cn###palyerAdText
 6.cn##[id^="adText"]
@@ -330,7 +330,7 @@ www.fengniao.com##.banner.mt2
 focus.cn##.ad_fp
 
 !---火狐主页
-/iframes/$subdocument,domain=i.firefoxchina.cn|i.g-fox.cn
+/iframes/*$subdocument,domain=i.firefoxchina.cn|i.g-fox.cn
 i.firefoxchina.cn,g-fox.cn###taobao
 i.firefoxchina.cn,g-fox.cn##[id^="ad_links"]
 i.firefoxchina.cn,g-fox.cn##[id^="banner_show"]
