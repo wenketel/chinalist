@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: EwUdxnnatNI3uuYkDND88w
+!  Checksum: unjkIaBaCV5FPtchapM1SQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 23 Aug 2011 18:38:34 +0800
+!  Last Modified:  Wed, 24 Aug 2011 16:24:39 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -20,6 +20,7 @@
 @@||iphone4.tw/forums/news_proxy.php
 @@||shangcuwang.com/ads/$image
 @@/advertise/*$image,domain=suning.com
+@@||taobao.com^$elemhide
 @@||zerodm.cn/js/ads/zxdmxz.js
 
 !----------------------------Well-known Sites--------------
@@ -89,8 +90,8 @@ thinkpad.cn,51nb.com##div.secmenu:last-child
 ||shrek.6.cn^
 ||6.cn/mdfor/index_new.js
 ||6.cn/mdfor/watch_new11.js
-||r.6.cn/pswf/*_pause_*.swf
-||r.6.cn/pswf/*_tiepian_*.swf
+||r.6.cn/adkids/
+||r.6.cn/mq/
 ||hm.i8.com.cn/GetAdContent.aspx
 6.cn###palyerAdText
 6.cn##[id^="adText"]
@@ -162,7 +163,7 @@ tieba.baidu.com###frs_banner_ad
 tieba.baidu.com###sgp_top_frame
 !--video
 video.baidu.com##div[style="padding:0 10px"]
-video.baidu.com##div[style="display:block;width:990px;height:90px;"]
+video.baidu.com##div#user-bar + div[style^="display:block;"]
 !--zhidao
 ||baidu.com^*/egg*.swf
 ||cp.zhidao.baidu.com^$script
@@ -176,7 +177,7 @@ iknow.baidu.com,zhidao.baidu.com###qb-ad-cpro
 ^db=qiyiafp^
 
 !---bilibili.tv
-www.bilibili.tv/html/arcads.js
+||bilibili.tv/html/arcads.js
 /ad-images/*$domain=bilibili.tv
 
 !---易车网
@@ -329,10 +330,10 @@ www.fengniao.com##.banner.mt2
 focus.cn##.ad_fp
 
 !---火狐主页
-||i.g-fox.cn/iframes/$subdocument
-g-fox.cn###taobao
-g-fox.cn##[id^="ad_links"]
-g-fox.cn##[id^="banner_show"]
+/iframes/$subdocument,domain=i.firefoxchina.cn|i.g-fox.cn
+i.firefoxchina.cn,g-fox.cn###taobao
+i.firefoxchina.cn,g-fox.cn##[id^="ad_links"]
+i.firefoxchina.cn,g-fox.cn##[id^="banner_show"]
 
 !---游民星空
 ||gamefiles.qq494.cn^$object
@@ -455,8 +456,8 @@ kkkmh.com##[class^="mm-"]
 ||st.vq.ku6.cn^
 ||stat.ku6.com^
 ||gug.ku6cdn.com^
-||snyu.com/sdk/flash^$third-party
-js.ku6cdn.com/www/2011/0623/release.js
+||js.ku6cdn.com/www/2011/0623/release.js
+/ku6.gif?
 v.ku6.com##[id^="gg"]
 v.ku6.com##.flwin.flwin_min
 
@@ -525,8 +526,8 @@ tv.on.cc###large
 !---远景
 ||bbs.pcbeta.com/static/image/ADDED/
 bbs.pcbeta.com##.mbm.cl[style]
-bbs.pcbeta.com##DIV.bm_c.cl + DIV[style]
-bbs.pcbeta.com##DIV.mbm[style]
+bbs.pcbeta.com##div.bm_c.cl + div[style]
+bbs.pcbeta.com##div.mbm[style]
 
 !---PCHome.net
 ||btn.pchome.net^
@@ -600,7 +601,6 @@ www.qidian.com##[class^="gg"]
 ||pingfore.qq.com^
 ||trace.qq.com^
 ||tcss.qq.com/ping.js
-||v.t.qq.com/follow/widget.js
 qq.com##.l_qq_com
 qq.com##.mod-left.AdBox-Article-QQ
 qq.com##.mod-left.bottom-Article-QQ.qiye-Article-QQ
@@ -664,7 +664,7 @@ siluhd.com###index_top
 dailynews.sina.com##.TopNav + table
 !--sina.com.cn
 ||bj.house.sina.com.cn/iframe/$domain=~leju.com
-||d1.sina.com.cn^$domain=~weibo.com
+||d1.sina.com.cn^
 ||d2.sina.com.cn^
 ||d3.sina.com.cn^
 ||d4.sina.com.cn^
@@ -815,14 +815,20 @@ tongji.net##.wp.a_h
 ||tudou.com/tdap/
 ||tudou.com/tdcm/
 ||js.tudouui.com/js/fn/saleloader_*.js
+/pos?pt=
 tudou.com##.b.seed
 tv.tudou.com###adex_board
+!--embeded
+||tdap.tudou.com^
+||tdcm.tudou.com^
 
 !---U17
 ||u17.com^$third-party
 ||image.mylife.cdn.u17.com^$object
 ||static.cdn.u17.com/v2/js/ad_api/$script
 u17.com##.ad_728_90
+u17.com##.pd_b_13
+u17.com##.w_728.pos_r.mylife
 u17.com##.www_hd_middle_ct
 
 !---udn
@@ -954,7 +960,8 @@ tw.news.yahoo.com##[id^="ynwsktw"]
 tw.news.yahoo.com###ynwsnw
 tw.news.yahoo.com##a[href^="http://tw.advertorial.news.yahoo.com/"]
 !-buy.yahoo.com.tw
-@@||yahoo.net^*/ads/$image,domain=buy.yahoo.com.tw
+@@/ads/*$image,domain=buy.yahoo.com.tw
+@@||buy.yahoo.com.tw^$elemhide
 !--HK
 ||l.yimg.com/*/a/hk/$~stylesheet
 hk.yahoo.com###mntl1
@@ -1174,8 +1181,8 @@ china.cn##.rowLAd
 ||chinaitlab.com/gmail/$image,script
 @@/fileftp/2007*/*$domain=fj.chinanews.com,object
 */fileftp/$object,domain=chinanews.com.cn|chinanews.com
-||fj.chinanews.com^$object
-||chinanews.com.cn/ad
+/ad2008/*$domain=chinanews.com
+##.syad
 ||cnhubei.com/gg_10/
 ||cnhubei.com^*/g2
 www.cnhubei.com##.A
@@ -1241,7 +1248,8 @@ tianshannet.com.cn##.adtxt1.link15
 /configs/article/gggg/*
 ||16kbook.com/all/
 16kbook.com###AdsT
-||img.17k.com/channel/ebook/*_$image
+||img.17k.com/channel/flash/
+||img.17k.com/channel/qita/
 ||log.17k.com^
 17k.com##[id^="ad0"]
 @@||17kanshu.net/17kanshuad/zhangjiezuo$script
@@ -1394,6 +1402,7 @@ sfw.com.cn##.cataBanner1
 ||xinniepo.com/themes/jieqi160/neirongxia*.js
 ||xinniepo.com/themes/jieqi160/xinxi*.js
 ||xizibook.com/js_ad/
+||xkzw.org/wlxsjs/gg
 ||xntk.com^$script
 @@||xntk.com/data/ph.js
 ||xntk.net^$script
@@ -1542,7 +1551,7 @@ bbs.hefei.cc##[id^="close_"]
 ||jpwind.com/images/partner/
 jpwind.com##[id^="ShowAD"]
 ||kafan.cn/static/kafan_img/
-||panda.kdnet.net^
+||panda*.kdnet.net^
 ||kuqin.com/da/
 ||links.kugoo.com^
 ||ring.kugou.com^
@@ -1821,6 +1830,7 @@ www.zygod.net/shilei.gif
 ||daoyoudao.com^$third-party
 ||dingge.cc^$third-party
 ||dilingling.com^$third-party
+||resmkt.dipan.com^$third-party
 ||diyiunion.com^$third-party
 ||dmclick.cn^$third-party
 ||dotmore.com.tw^$third-party
@@ -1930,6 +1940,7 @@ www.zygod.net/shilei.gif
 ||js.shenduchuanmei.com^$third-party
 ||c.sfilm.com^$third-party
 ||sharele.cn^$third-party
+||snyu.com^$third-party
 ||shouyibao.com^$third-party
 ||skycn.org.cn^$third-party
 ||soua.com^$third-party
@@ -1963,6 +1974,7 @@ www.zygod.net/shilei.gif
 ||unionsky.cn^$third-party
 ||unionli.com^$third-party
 ||unionwk.com^$third-party
+||uu06.com^$third-party
 ||img.uu1001.cn^$third-party,domain=~alimama.com|~taobao.com
 ||uucall.com^$third-party
 ||urlad.com.tw^$third-party
@@ -2027,6 +2039,7 @@ www.zygod.net/shilei.gif
 /floatadv.
 /ggao/*
 /ggjs/*
+/ggpic/*
 /guangao/*
 /guangg/*
 /guanggao.
@@ -2058,7 +2071,7 @@ www.zygod.net/shilei.gif
 /ktrace/ktrace$script
 /pv?peerid=
 /stat.$~script,domain=~ameba.jp|~ameblo.jp|~zcool.com.cn
-/tongji.
+/tongji.$domain=~tongji.baidu.com
 /tracking.
 /usertrack.
 !--sort by domain
@@ -2113,6 +2126,7 @@ price.com.hk##[id^="ad"]
 qianlong.com##.aditem01
 qihoo.com###clk_right_imgAD
 bbs.sjtu.cn,bbs.sjtu.edu.cn,bbs6.sjtu.edu.cn###ad
+soso.com##[ss_c^="ad_"]
 subpig.net###ajaxwaitid + div.wrap > #header + table + table[width="97%"][height="33"]
 subpig.net##div.wrap > table[width="97%"][bgcolor="#000000"][background="#ffffff"]
 suopao.org##.t5[style^="margin-top:8px;"]
@@ -5450,7 +5464,6 @@ _a468x60.
 ###channel_ad
 ###channel_ads
 ###ciHomeRHSAdslot
-###cineplex-h-topAds
 ###circ_ad
 ###closeable-ad
 ###cmn_ad_box
@@ -6429,6 +6442,7 @@ _a468x60.
 ###video_cnv_ad
 ###video_overlay_ad
 ###videoadlogo
+###viewads
 ###viewportAds
 ###viewvid_ad300x250
 ###wall_advert
@@ -9339,7 +9353,7 @@ _a468x60.
 ||doubleclick.net/pfadx/nbcu.nbc/$object-subrequest,third-party
 ||doubleclick.net^$object-subrequest,third-party,domain=addictinggames.com|atom.com|bbc.co.uk|bicycling.com|bloomberg.com|break.com|businessweek.com|cbs4denver.com|cbsnews.com|click2houston.com|cnbc.com|couriermail.com.au|dailytelegraph.com.au|darkhorizons.com|dorkly.com|doubleviking.com|eonline.com|fandango.com|foxbusiness.com|g4tv.com|gamespot.com|gametrailers.com|globalnational.com|globalnews.ca|gorillanation.com|hulu.com|independent.ie|joblo.com|kptv.com|listen.grooveshark.com|mtv.co.uk|mtv.com|mtv.com.au|mtv.com.nz|mtvbase.com|mtvmusic.com|my9tv.com|myfoxorlando.com|myfoxphoenix.com|myfoxtampabay.com|necn.com|neopets.com|news.com.au|newsweek.com|nfl.com|nick.com|nintendoeverything.com|npr.org|own3d.tv|pandora.com|photoradar.com|play.it|ps3news.com|radio.com|reuters.com|rte.ie|sbs.com.au|sbsun.com|sevenload.com|shacknews.com|shockwave.com|sk-gaming.com|smh.com.au|southpark.nl|southparkstudios.com|southparkstudios.se|space.com|spike.com|syfy.com|theage.com.au|thebostonchannel.com|thedailygreen.com|thedailyshow.com|thewire.com|ufc.com|ustream.tv|videojug.com|washingtonpost.com|wcbstv.com|wetransfer.com|wired.com|wkbw.com|wmur.com|wral.com|wrc.com|wsj.com|wwe.com|youtube.com|zappinternet.com|zoomin.tv
 ||doubleclick.net^$~object-subrequest,third-party
-||doubleclick.net^*;sz=$object-subrequest,third-party,domain=10news.com|1up.com|bet.com|breitbart.tv|cbc.ca|dailystar.co.uk|digitaltrends.com|four.co.nz|fox5sandiego.com|foxnews.com|france24.com|gamesradar.com|heavy.com|latimes.com|muzu.tv|myfoxatlanta.com|myfoxny.com|myspace.com|nationalgeographic.com|nbc.com|nbcsandiego.com|news.com.au|nhl.com|player.amri.ca|rapbasement.com|tv3.co.nz|wptv.com
+||doubleclick.net^*;sz=$object-subrequest,third-party,domain=10news.com|1up.com|bet.com|breitbart.tv|cbc.ca|dailystar.co.uk|digitaltrends.com|four.co.nz|fox5sandiego.com|foxnews.com|france24.com|gamesradar.com|heavy.com|latimes.com|muzu.tv|myfoxatlanta.com|myfoxny.com|myspace.com|nationalgeographic.com|nbc.com|nbcsandiego.com|news.com.au|nhl.com|nypost.com|player.amri.ca|rapbasement.com|tv3.co.nz|wptv.com
 ||doublepimp.com^$third-party
 ||dpbolvw.net^$third-party
 ||drowle.com^$third-party
@@ -10462,6 +10476,7 @@ _a468x60.
 ||ticketmaster.com/promotionalcontent/
 ||ticketnetwork.com/images/affiliates/
 ||tigerdirect.com^*/affiliate_
+||tmbattle.com/images/promo_
 ||todaysfinder.com^$subdocument,third-party
 ||top5result.com/promo/
 ||toptenreviews.com/widgets/af_widget.js$third-party
