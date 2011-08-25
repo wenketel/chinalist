@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: uBmlCRvtAR45G2ckp3miiA
+!  Checksum: UW3wMv3tFEsUTZbEUQAveQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 25 Aug 2011 22:22:29 +0800
+!  Last Modified:  Thu, 25 Aug 2011 23:03:51 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -806,8 +806,8 @@ tongji.net##.a_pr
 tongji.net##.wp.a_h
 
 !---TTG
-||ttg.im/pic/ttg-
 @@||ttg.im/pic/ttg_logo.png
+||ttg.im/pic/ttg-
 ||ttg.im/pic/ttg_
 
 !---土豆
@@ -944,11 +944,7 @@ gougou.com##.ggSideBox
 ||ks.cn.yahoo.com/ks_q1_tg.html
 ||cn.yimg.com/i/ks/img/kqill_tg_
 !--TW
-tw.yahoo.com##.admod
-tw.yahoo.com###eyebrow > a:not(#sethomepage)
-tw.yahoo.com##.newsad
-tw.yahoo.com##.colpadding > div.tabmd
-tw.yahoo.com###ticker
+||tw.rd.yahoo.com^
 @@||l.yimg.com^*/common/js/1/setup-min.js
 @@||l.yimg.com/f/a/tw/js/flash_general_20090213.js|$domain=tw.yahoo.com
 ||yimg.com/no/$domain=~yahoo.com
@@ -956,6 +952,11 @@ tw.yahoo.com###ticker
 ||l.yimg.com/pq/
 ||l.yimg.com^*/a/tw/$~stylesheet
 ||l.yimg.com^*/tw/ysm/
+tw.yahoo.com##.admod
+tw.yahoo.com###eyebrow > a:not(#sethomepage)
+tw.yahoo.com##.newsad
+tw.yahoo.com##.colpadding > div.tabmd
+tw.yahoo.com###ticker
 tw.news.yahoo.com##[id^="ynwsad"]
 tw.news.yahoo.com##[id^="ynwsktw"]
 tw.news.yahoo.com###ynwsnw
@@ -1031,7 +1032,6 @@ zongheng.com###wlqz
 
 !----------------------------Generic(sort by domain name)--
 !---Blog Sites
-azo-freeware.blogspot.com###CustomSearch1 + #HTML6
 cwyuni.tw##div.article-content > script + p
 cwyuni.tw##div#banner > h2
 cwyuni.tw##div#links-row-1 > div[id^="box"]:not(#box32499):not(#box533632)
@@ -1113,7 +1113,7 @@ jiaren.org##a[href^="http://s.click.taobao.com/"] > img
 ||sz1001.net/Down_Style/$script
 ||tntdown.com/News/js/C_
 ||vipcn.com/hezuo/
-down.x6x8.com/good/
+||down.x6x8.com/good/
 @@||xdowns.com/soft/js/$script
 ||xdowns.com^$script
 ||xiazaiba.com/js/
