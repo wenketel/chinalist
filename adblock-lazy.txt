@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: gb0urG6t94uCz9SgV7Wd7g
+!  Checksum: 8ZJg7biAyHDFpZCxyTcC6A
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 27 Aug 2011 05:24:47 +0800
+!  Last Modified:  Sat, 27 Aug 2011 10:39:49 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -71,6 +71,10 @@ search.21cn.com##td[width="184"][align="left"]
 !---51nb.com/thinkpad.cn
 @@/forum/images/*/*$domain=51nb.com|thinkpad.cn,image
 /forum/images/*$domain=51nb.com|thinkpad.cn,image
+!--forum
+thinkpad.cn,51nb.com##div.menu + div.maintable > table.t_rown:first-child
+thinkpad.cn,51nb.com##div.menu + div.maintable > table.t_rown[width="98%"]
+thinkpad.cn,51nb.com##div.secmenu:last-child
 
 !---56.com
 |http://acs.
@@ -88,10 +92,6 @@ search.21cn.com##td[width="184"][align="left"]
 6.cn###palyerAdText
 6.cn##[id^="adText"]
 v.6.cn###playerAd
-
-!---中国娱乐网
-||67.com/img/$object
-||passport.67.com/ShowSubcribe.aspx
 
 !---留园网
 @@||6park.com/parks/wordex.js
@@ -271,10 +271,6 @@ discuss.com.hk,uwants.com##a[href^="http://ad"]
 discuss.com.hk,uwants.com##div[id^="thread_ads_"] + table
 uwants.com##div#foruminfo + div[align="center"]
 
-!---多特软件站
-||img.duote.com/duotehtml/
-||img.duote.com/js/clickDownAjax3.js
-
 !---多玩游戏网
 ||duowan.com/duowan.js
 ||duowan.com/public/s/market_count.js
@@ -393,10 +389,6 @@ www.it168.com##div#header + div[style^="border"]
 ||jpwave.net^$third-party
 jpseek.com##.i_table[cellpadding="6"]
 
-!---江苏网络电视台
-||image.jstv.com/jstv/photo.js
-www.jstv.com###jstvadtop
-
 !---开心网
 ||img.kaixin001.com.cn/js/cpm*.js
 ||xnimg.cn/imgpro/app/ad$image
@@ -449,10 +441,6 @@ www.mydrivers.com##body > div.hang1:nth-child(10)
 ||11.mydrivers.com/myfiles/04.js
 ||11.mydrivers.com/myfiles/myfiles100*.js
 myfiles.com.cn##[id^="ad_"]
-
-!---mysilu&hdroad
-mysilu.com##[class*="a_"]
-mysilu.com##td[width="33%"][align="center"]
 
 !---NewHua
 @@/newhuagg/*3030$image
@@ -702,10 +690,6 @@ tgbus.com##[class^="adv_"]
 ||tianyabook.com^$script
 www.tianya.cn##[id*="_AD_"]
 
-!---Tom
-||js.pub.tom.com^
-tom.com##.tomgame
-
 !---TTG
 @@||ttg.im/pic/ttg_logo.png
 ||ttg.im/pic/ttg-
@@ -749,10 +733,6 @@ verycd.com##.no_topic
 verycd.com##.banner_toped2k
 verycd.com##.rightDiv > div[style="width:250px;height:200px;padding:4px;border:1px solid #ccc;"]
 www.verycd.com##iframe
-
-!---软媒
-!--Vista123.cn
-||vista123.cn/notice.js
 
 !---华声在线
 ||voc.com.cn/adsClick/
@@ -844,10 +824,6 @@ hk.yahoo.com###ysm-ad
 !---yam
 ||s1.josho.yamedia.tw/f/plugin.swf^
 
-!---天极网
-||media.yesky.com/
-yesky.com##[class^="ad"]
-
 !---北青网
 ||ynet.com/10171$script
 ||fun.ynet.com/z2?
@@ -919,6 +895,8 @@ jiaren.org/###text-276115465
 ||down.cnzz.cn/zanzhu/
 ||ddooo.com/js/
 ||downxia.com/js/
+||img.duote.com/duotehtml/
+||img.duote.com/js/clickDownAjax3.js
 ||e666.cn/db/
 ||e666.cn/newbd/$script
 ||gpxz.com/js2/
@@ -976,6 +954,8 @@ ali213.net##.newright
 ||rayfile.com/_.gif?vid
 
 !---News Sites
+||67.com/img/$object
+||passport.67.com/ShowSubcribe.aspx
 ||33.autohome.com.cn^$script
 ||img.autohome.com.cn/pvpv$script
 autohome.com.cn##[style^="width: 960px;"]
@@ -1025,8 +1005,12 @@ www.pcpop.com##div.Content > div.r1:nth-child(2)
 ||sznews.com/ad
 ||sznews.com^*.files/$object
 ||forum.techweb.com.cn/advtcnt.php
+||js.pub.tom.com^
+tom.com##.tomgame
 ||image.wenweipo.com/*/ad_
 ||iads.xinmin.cn^
+||media.yesky.com/
+yesky.com##[class^="ad"]
 ||zaobao.com/ssi/bizp/
 
 !---Online Novel/Comic Sites
@@ -1176,6 +1160,8 @@ sfw.com.cn##.cataBanner1
 !---Video Sites
 ||5156ys.net/g/
 ||apas.aipai.com^
+||image.jstv.com/jstv/photo.js
+www.jstv.com###jstvadtop
 ||img.1ting.com/v5/js/*text.js
 ||pro.letv.com^
 ||86file.megajoy.com^
@@ -1373,6 +1359,7 @@ qxzqw.com###banner
 ||tz513.com^$object
 ||u148.net/activity/$~object_subrequest
 ||ucar.cn/ucar/UploadPic/SecondHandCar/$object
+||vista123.cn/notice.js
 ||webacg.com/data/js/
 ||files.webcars.com.cn^$object
 webcars.com.cn##div.body + div.mt10
@@ -1871,6 +1858,8 @@ ivaluing.com##[class^="ads"]
 jandan.net##.eggs
 jandan.net##.xy
 icson.com##[id$="_top_ad"]
+mysilu.com##[class*="a_"]
+mysilu.com##td[width="33%"][align="center"]
 www.mywenxue.com###msg_win
 newsmth.net##table.hot_title > tbody > tr > td[style]
 newsmth.net##table.HotTable > tbody > tr > td.HotTitle > script + a
