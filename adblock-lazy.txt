@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: KWU4HoNnqMFK94Qy7iXYgQ
+!  Checksum: BglvqagK3CkctFS/jygrmA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 27 Aug 2011 22:59:41 +0800
+!  Last Modified:  Sun, 28 Aug 2011 15:58:32 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -250,7 +250,7 @@ dict.cn###haici-tuijian
 dict.cn###top-gg
 
 !---Discuz! & PHPWind etc.
-/common/cf/*$image
+/common/cf/*$image,object
 ##.ad_footerbanner
 ##.archiver_banner
 ##.a_pb
@@ -787,6 +787,7 @@ gougou.com##.ggAD
 gougou.com##.ggSideBox
 !--unions
 ||analytics-union.sandai.net^$third-party
+||cop.my.sandai.net^$third-party
 ||jsunion.kankan.xunlei.com^$third-party
 ||gouwu.vip.xunlei.com^$third-party
 
@@ -1066,7 +1067,6 @@ js.17kkmh.com/scriptAD/
 ||9lala.com/js/
 @@||99manga.com/w/i.js
 ||dm.99manga.com^$script,subdocument
-||9vp.net/js/tj.js
 ||baishuku.com/news/$script
 ||baiwandu.com/data/1.js
 ||baiwandu.com/files/friend/
@@ -1118,7 +1118,6 @@ laishu.com###g_baidu
 ||niubb.net/niubbad/
 ||quanben.net/js/
 ||pfwx.com/ac*/$script
-||www.q520.org/js/tj.js
 ||readnovel.com/js/adposition/
 ||readnovel.com/js/2011*/
 ||bbs.sfw.com.cn/attachments/
@@ -1288,10 +1287,14 @@ www.mtime.com###notice_box
 ||mycodes.net/js/$image
 ||needpop.com/jvc.gif
 needpop.com##.spaceborder[style="width: 98%"]
+||newsmth.net/nForum/ajax/left_ads
 ||offcn.com^$object
 ||p5w.net/pfgg/
 ||pchome.com.tw/js/PChomeFS.js
 news.pchome.com.tw###ad_bg_div
+||ph66.com^$object
+||bbs.ph66.com/attachment/advpic/
+ph66.com##[class^="ad_"]
 ||a-m-s.poco.cn^
 ||sub.powerapple.com^
 ||pt80.com/down/ad/
@@ -1306,11 +1309,16 @@ news.pchome.com.tw###ad_bg_div
 ||simplecd.org/static/adcp$script
 ||so100.cn/images/a*.js
 ||so100.cn/images/newshead.htm
+||soso.com/pingd?
+||dr.soso.com^
+soso.com##[ss_c^="ad_"]
 ||bbs.t56.net/ad*/
 ||img.taoguba.com.cn/gbimg/
 ||img.taoguba.com.cn/js/tc.js
 ||topsage.com/service/$object
 ||tompda.com^$object
+||txzqw.com/attachment321/
+||txzqw.com/gif/
 ||u148.net/activity/$~object_subrequest
 ||ucar.cn/ucar/UploadPic/SecondHandCar/$object
 ||vista123.cn/notice.js
@@ -1603,7 +1611,6 @@ xitek.com##[id^="mo"]
 ||redu-click.com^$third-party
 ||author.richi.cc^$third-party
 ||samboc.com^$third-party
-||cop.my.sandai.net^$third-party
 ||scupio.com^$third-party
 ||aa.sdo.com^$third-party
 ||js.shenduchuanmei.com^$third-party
@@ -1614,11 +1621,13 @@ xitek.com##[id^="mo"]
 ||sitemaji.com^$third-party
 ||skycn.org.cn^$third-party
 ||snyu.com^$third-party
+||soo-boo.com^$third-party
 ||soua.com^$third-party
 ||js.ssrj.net^$third-party
 ||star8.net^$third-party
 ||ipic.staticsdo.com^$third-party
 ||c.subo.me^$third-party
+||svem.cc^$third-party
 ||sxtengchuang.cn^$third-party
 ||szvr.com^$third-party
 ||tanx.com^$third-party,domain=~taobao.com
@@ -1700,7 +1709,6 @@ xitek.com##[id^="mo"]
 /adpshow.
 /adservice/*
 /adsimg/*
-/adsunion^
 /adv.
 /adv/*
 /affiliate/*
@@ -1708,6 +1716,7 @@ xitek.com##[id^="mo"]
 /allyes.
 .com/js/ad.
 .com/js/ad_
+.com/js/ad/
 .com.cn/js/ad.
 .com.tw/ad/
 .com.tw/js/ad.
@@ -1723,22 +1732,22 @@ xitek.com##[id^="mo"]
 /guangg/*
 /guanggao.
 /guanggao/*
+|http://*/*_ad.js
+|http://gg.$~stylesheet
+|http://*/gg/$~stylesheet
+|http://*/i.js$third-party
+|https://*/ad/
 .idv.tw/ad/
 /images/prom/*
 /tan.js
 /u/_sponsor/*
 /uimg.
-/union.$third-party,domain=~ctrip.com
+/union.$third-party
 /upload/ad/*
 /webafp?
 /paypic/*
 /tanchuang.
 /tuiguang/*
-|https://*/ad/
-|http://*/*_ad.js
-|http://gg.$~stylesheet
-|http://*/gg/$~stylesheet
-|http://*/i.js$third-party
 
 !-----------------------------Privacy----------------------
 /counter.$domain=~cnbeta.com|~dl.pconline.com.cn|~shooter.cn
@@ -1747,6 +1756,7 @@ xitek.com##[id^="mo"]
 |http://pvstat.
 |http://*/pv.
 |http://*/pv/$domain=~proxyvote.com|~guba.stock.sohu.com
+|http://*/tj.js
 /ktrace/ktrace$script
 /pv?peerid=
 /stat.$~script,domain=~ameba.jp|~ameblo.jp|~zcool.com.cn
@@ -1777,46 +1787,33 @@ xitek.com##[id^="mo"]
 ||wumii.com/images/pixel.png
 
 !-----------------------Element Hiding---------------------
-www.360buy.com##[clstag$="guanggao"]
 3dmgame.com##[class^="banner_"]
 sbsrunningman.5d6d.com###header
 www.alibuybuy.com##[class^="ad_"]
-av199.com,hd199.com##tr.altbg2 > TD[width="100%"]
-chinayes.com##.banner
+av199.com,hd199.com###table[height="30"]
 cnmo.com##[id^="AD"]
-news.cnyes.com,chinayes.com##[class^="ad"]
+news.cnyes.com##[class^="ad"]
 crsky.com##[id$="_TL"]
 dapenti.com##td.oblog_t_2 > div[align="center"]
 dapenti.com##.oblog_t_4 > a > img
-discuz.net##[class^="wp a_"]
 downg.com##.content.ad-b950x50
 chinese.engadget.com##.post[style]
 hao123.com##.middle
 www.hoopchina.com##[class^="ad"]
-ivaluing.com##[class^="ads"]
 jandan.net##.eggs
 jandan.net##.xy
-icson.com##[id$="_top_ad"]
-mysilu.com##[class*="a_"]
+mysilu.com##[class^="a_"]
 mysilu.com##td[width="33%"][align="center"]
 www.mywenxue.com###msg_win
-newsmth.net##table.hot_title > tbody > tr > td[style]
-newsmth.net##table.HotTable > tbody > tr > td.HotTitle > script + a
 normteam.com##.a_mu
-ph66.com##[id*="ad"]
 price.com.hk##.tb
 price.com.hk##[id^="ad"]
-qianlong.com##.aditem01
+qianlong.com##.aditemwrap
 qihoo.com###clk_right_imgAD
 bbs.siluhd.com##img[width="850"][height="85"]
-bbs.sjtu.cn,bbs.sjtu.edu.cn,bbs6.sjtu.edu.cn###ad
-soso.com##[ss_c^="ad_"]
-subpig.net###ajaxwaitid + div.wrap > #header + table + table[width="97%"][height="33"]
-subpig.net##div.wrap > table[width="97%"][bgcolor="#000000"][background="#ffffff"]
+bbs.sjtu.cn,bbs.sjtu.edu.cn,bbs6.sjtu.edu.cn##a[href^="http://adclient.dentsu.com.cn/"]
 suopao.org##.t5[style^="margin-top:8px;"]
 t17.techbang.com.tw##.promote-event
-txzqw.com###banner
-txzqw.com##.tac
 xfastest.com##body[id^="backdrop"] > a
 xfastest.com##[id^="ad"]
 xfastest.com##[class^="ad"]
