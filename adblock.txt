@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 6ovDtDnk62B5LEFVXe+pOw
+!  Checksum: 7c/HetFoYCrTkv1Wfzb5yQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 29 Aug 2011 18:37:43 +0800
+!  Last Modified:  Tue, 30 Aug 2011 00:25:08 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -264,7 +264,7 @@ dict.cn###top-gg
 !---discuss.com.hk
 /aeiou/*$domain=discuss.com.hk|uwants.com
 /overture/*$domain=discuss.com.hk|uwants.com
-/promo/*$subdocument,domaon=discuss.com.hk
+/promo/*$subdocument,domain=discuss.com.hk
 discuss.com.hk##.ad
 discuss.com.hk,uwants.com##a[href^="http://ad"]
 discuss.com.hk,uwants.com##div[id^="thread_ads_"] + table
@@ -794,7 +794,9 @@ gougou.com##.ggSideBox
 !---Yahoo
 !--CN
 ||ks.cn.yahoo.com/ks_q1_tg.html
-||cn.yimg.com/i/ks/img/kqill_tg_
+||cn.yimg.com/i/ks/img/23450524.jpg
+cn.yahoo.com##[class^="ad"]
+cn.yahoo.com###r_expandable
 !--TW
 ||tw.rd.yahoo.com^
 ||tw.img.webmaster.yahoo.com^*/ystats.gif
@@ -808,7 +810,8 @@ gougou.com##.ggSideBox
 tw.news.yahoo.com##[id^="ynwsad"]
 tw.news.yahoo.com##[id^="ynwsktw"]
 tw.news.yahoo.com###ynwsnw
-tw.news.yahoo.com##a[href^="http://tw.advertorial.news.yahoo.com/"]
+beta.tw.news.yahoo.com##a[href^="http://tw.advertorial.news.yahoo.com/"]
+beta.tw.news.yahoo.com###navigation  a[href^="http://tw.rd.yahoo.com/referurl/"]
 tw.yahoo.com##.admod
 tw.yahoo.com###eyebrow > a:not(#sethomepage)
 tw.yahoo.com##.newsad
@@ -875,8 +878,8 @@ cwyuni.tw##div#links-row-1 > div[id^="box"]:not(#box32499):not(#box533632)
 itopdog.cn##[class^="ad"]
 itopdog.cn##[id^="itopdog_ad-"]
 ||images.ixiqi.com/images/valentine2011-banner.gif
-jiaren.org/###more-menu
-jiaren.org/###text-276115465
+jiaren.org###more-menu
+jiaren.org###text-276115465
 ||a.jojos.tw^
 
 !---Download Sites
@@ -1726,7 +1729,6 @@ xitek.com##[id^="mo"]
 .com.tw/ad/
 .com.tw/js/ad.
 .com.tw/js/ad/
-.info/ad/*
 /dkgg/*
 /duilian.
 /events/ad/*
@@ -1745,13 +1747,14 @@ xitek.com##[id^="mo"]
 |https://*/ad/
 .idv.tw/ad/
 /images/prom/*
+.info/ad/
+/paypic/*
 /tan.js
 /u/_sponsor/*
 /uimg.
 /union.$third-party
 /upload/ad/*
 /webafp?
-/paypic/*
 /tanchuang.
 /tuiguang/*
 
