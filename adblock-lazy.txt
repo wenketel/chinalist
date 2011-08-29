@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: ao69X9PA1URLyJRnO+cBFA
+!  Checksum: TbuUSH2ywCcE37m/K6CkrA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 28 Aug 2011 21:51:11 +0800
+!  Last Modified:  Mon, 29 Aug 2011 18:37:44 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -1725,6 +1725,7 @@ xitek.com##[id^="mo"]
 .com.tw/ad/
 .com.tw/js/ad.
 .com.tw/js/ad/
+.info/ad/*
 /dkgg/*
 /duilian.
 /events/ad/*
@@ -1818,6 +1819,7 @@ bbs.siluhd.com##img[width="850"][height="85"]
 bbs.sjtu.cn,bbs.sjtu.edu.cn,bbs6.sjtu.edu.cn##a[href^="http://adclient.dentsu.com.cn/"]
 suopao.org##.t5[style^="margin-top:8px;"]
 t17.techbang.com.tw##.promote-event
+xiachufang.com##div#sidebarblock > a
 xfastest.com##body[id^="backdrop"] > a
 xfastest.com##[id^="ad"]
 xfastest.com##[class^="ad"]
@@ -1893,6 +1895,7 @@ zaobao.com###myMovie
 -show-ads.
 -text-ads.
 -third-ad.
+-webad1.
 .1d/ads/
 .a3s?n=*&zone_id=
 .ad.footer.
@@ -2257,6 +2260,7 @@ zaobao.com###myMovie
 /adleader.
 /adleaderboardtop.
 /adleft/*
+/adleftsidebar.
 /adlink-
 /adlink.
 /adlink_
@@ -2893,6 +2897,7 @@ zaobao.com###myMovie
 /deliver.nmi?
 /deliverad/*
 /deliverjs.nmi?
+/delivery/*?advplaces=
 /delivery/ag.php
 /delivery/al.php
 /delivery/apu.php
@@ -2980,6 +2985,7 @@ zaobao.com###myMovie
 /gads.js
 /gafsads?
 /galleryad.
+/gam_ad.
 /gamead/*
 /gamersad.
 /general-ad-
@@ -3109,6 +3115,7 @@ zaobao.com###myMovie
 /img3/ads/*
 /imgads/*
 /imgs/ads/*
+/impop.php
 /inad.
 /inc/ads/*
 /inc_v2/ad_
@@ -3228,6 +3235,7 @@ zaobao.com###myMovie
 /nd_affiliate.
 /neoads.
 /netads.
+/netreachtextads/*
 /netspiderads2.
 /new/ad/*
 /new_ads/*
@@ -3523,6 +3531,7 @@ zaobao.com###myMovie
 /supernorthroomad.
 /swf/ad-
 /swf/ad3-
+/swf/ads/*
 /swfbin/ad-
 /swfbin/ad3-
 /synad2.
@@ -5006,6 +5015,7 @@ _a468x60.
 ###araHealthSponsorAd
 ###area-adcenter
 ###area1ads
+###article-ad
 ###article-ad-container
 ###article-box-ad
 ###articleAdReplacement
@@ -8652,6 +8662,7 @@ _a468x60.
 ||adfrontiers.com^$third-party
 ||adfusion.com^$third-party
 ||adgardener.com^$third-party
+||adgatemedia.com^$third-party
 ||adgear.com^$third-party
 ||adgent007.com^$third-party
 ||adgine.net^$third-party
@@ -9041,7 +9052,7 @@ _a468x60.
 ||doubleclick.net/pfadx/nbcu.nbc/$object-subrequest,third-party
 ||doubleclick.net^$object-subrequest,third-party,domain=addictinggames.com|atom.com|bbc.co.uk|bicycling.com|bloomberg.com|break.com|businessweek.com|cbs4denver.com|cbsnews.com|click2houston.com|cnbc.com|couriermail.com.au|dailytelegraph.com.au|darkhorizons.com|dorkly.com|doubleviking.com|eonline.com|fandango.com|foxbusiness.com|g4tv.com|gamespot.com|gametrailers.com|globalnational.com|globalnews.ca|gorillanation.com|hulu.com|independent.ie|joblo.com|kptv.com|listen.grooveshark.com|mtv.co.uk|mtv.com|mtv.com.au|mtv.com.nz|mtvbase.com|mtvmusic.com|my9tv.com|myfoxorlando.com|myfoxphoenix.com|myfoxtampabay.com|necn.com|neopets.com|news.com.au|newsweek.com|nfl.com|nick.com|nintendoeverything.com|npr.org|own3d.tv|pandora.com|photoradar.com|play.it|ps3news.com|radio.com|reuters.com|rte.ie|sbs.com.au|sbsun.com|sevenload.com|shacknews.com|shockwave.com|sk-gaming.com|smh.com.au|southpark.nl|southparkstudios.com|southparkstudios.se|space.com|spike.com|syfy.com|theage.com.au|thebostonchannel.com|thedailygreen.com|thedailyshow.com|thewire.com|ufc.com|ustream.tv|videojug.com|washingtonpost.com|wcbstv.com|wetransfer.com|wired.com|wkbw.com|wmur.com|wral.com|wrc.com|wsj.com|wwe.com|youtube.com|zappinternet.com|zoomin.tv
 ||doubleclick.net^$~object-subrequest,third-party
-||doubleclick.net^*;sz=$object-subrequest,third-party,domain=10news.com|1up.com|bet.com|breitbart.tv|cbc.ca|dailystar.co.uk|digitaltrends.com|four.co.nz|fox5sandiego.com|foxnews.com|france24.com|gamesradar.com|heavy.com|latimes.com|muzu.tv|myfoxatlanta.com|myfoxny.com|myspace.com|nationalgeographic.com|nbc.com|nbcsandiego.com|news.com.au|nhl.com|nypost.com|player.amri.ca|rapbasement.com|tv3.co.nz|wptv.com
+||doubleclick.net^*;sz=$object-subrequest,third-party,domain=10news.com|1up.com|bet.com|breitbart.tv|cbc.ca|cltv.com|dailystar.co.uk|digitaltrends.com|four.co.nz|fox5sandiego.com|foxnews.com|france24.com|gamesradar.com|heavy.com|latimes.com|muzu.tv|myfoxatlanta.com|myfoxny.com|myspace.com|nationalgeographic.com|nbc.com|nbcsandiego.com|news.com.au|nhl.com|nypost.com|player.amri.ca|rapbasement.com|tv3.co.nz|wgntv.com|wptv.com
 ||doublepimp.com^$third-party
 ||dpbolvw.net^$third-party
 ||drowle.com^$third-party
@@ -9228,6 +9239,7 @@ _a468x60.
 ||leadad.mobi^$third-party
 ||leadadvert.info^$third-party
 ||leadbolt.net^$third-party
+||leadintelligence.co.uk^$third-party
 ||letsgoshopping.tk^$third-party
 ||liftdna.com^$third-party
 ||ligatus.com^$third-party
@@ -9463,7 +9475,6 @@ _a468x60.
 ||sexmoney.com^$third-party
 ||shareasale.com^$third-party
 ||sharegods.com^$third-party
-||shareit.com^$third-party
 ||shareresults.com^$third-party
 ||shinobi.jp^$third-party
 ||showyoursite.com^$third-party
@@ -9545,6 +9556,7 @@ _a468x60.
 ||tqlkg.com^$third-party
 ||trackadvertising.net^$third-party
 ||tracking.to^$third-party
+||trackingoffer.net^$third-party
 ||trackpath.biz^$third-party
 ||trackpromotion.net^$third-party
 ||tradedoubler.com^$third-party
@@ -9658,6 +9670,7 @@ _a468x60.
 ||yldmgrimg.net^$third-party
 ||ymads.com^$third-party
 ||yottacash.com^$third-party
+||yourquickads.com^$third-party
 ||yumenetworks.com^$third-party
 ||yvoria.com^$third-party
 ||z5x.net^$third-party
@@ -9840,6 +9853,7 @@ _a468x60.
 ||dapatwang.com/images/banner/
 ||dart.clearchannel.com^
 ||datakl.com/banner/
+||delivery.tacticalrepublic.com^
 ||dennis.co.uk^*/siteskins/
 ||depositfiles.com^*.php?ref=
 ||desi4m.com/desi4m.gif$third-party
@@ -10053,6 +10067,7 @@ _a468x60.
 ||onegameplace.com/iframe.php$third-party
 ||onlinekeystore.com/banner.php?
 ||oriongadgets.com^*/banners/
+||oron.com/img/banners/
 ||pagead2.googlesyndication.com^$~object-subrequest
 ||pantherssl.com/banners/
 ||partner.bargaindomains.com^
