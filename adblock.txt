@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: pX9RHnXTDaAQ4MhivltP2A
+!  Checksum: R1dBT50+0FFm9ANfhJhWVA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 30 Aug 2011 08:35:02 +0800
+!  Last Modified:  Tue, 30 Aug 2011 10:33:24 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -309,9 +309,6 @@ i.firefoxchina.cn,g-fox.cn##[id^="banner_show"]
 ||image.gamersky.com/img/300d.jpg
 gamersky.com##.adc
 
-!---gamer.com.tw
-/banner/*$domain=gamer.com.tw
-
 !---机锋
 @@||gfan.lkpress.com^$script
 ||down.gfan.com/weite/
@@ -503,8 +500,8 @@ pconline.com.cn##table[width="950"][cellspacing="0"][cellpadding="0"]
 ||www1.pconline.com.cn/itbbs09/js/itbbs09_wd.js
 
 !---PIXNET
-||pixanalytics.com^
 /blog/addvisit^
+||pixanalytics.com^
 ||events.pixnet.net^$subdocument
 ||api.pixnet.tv/count^
 @@||counter.pixplug.in/getcounter.php^$script
@@ -527,22 +524,22 @@ www.qidian.com##[class^="gg"]
 
 !---QQ
 @@||adsrich.qq.com/web/$script,domain=news.qq.com
+@@||mb.qq.com^$elemhide
 ||mat1.gtimg.com/cq/
 ||mat1.gtimg.com/news/fbgg/
 ||mat1.gtimg.com/sports/2011ad/
 ||adslvfile.qq.com^
 /avd/*$domain=hb.qq.com
 ||pingfore.qq.com^
-||trace.qq.com^
 ||tcss.qq.com/ping.js
+||trace.qq.com^
+qq.com###AdRight-Article-QQ
 qq.com##.l_qq_com
 qq.com##.mod-left.AdBox-Article-QQ
 qq.com##.mod-left.bottom-Article-QQ.qiye-Article-QQ
-qq.com##.wrapper.AdTop-Article-QQ
-qq.com##[class^="mod-right business-Article-QQ"]
 qq.com##.mod-right.adBlock-Article-QQ
-qq.com###AdRight-Article-QQ
-@@||mb.qq.com^$elemhide
+qq.com##[class^="mod-right business-Article-QQ"]
+qq.com##.wrapper.AdTop-Article-QQ
 news.qq.com##.news_ad_box
 news.qq.com###News_F_UpRight
 sports.qq.com##.indextopad
@@ -814,7 +811,7 @@ tw.news.yahoo.com##[id^="ynwsad"]
 tw.news.yahoo.com##[id^="ynwsktw"]
 tw.news.yahoo.com###ynwsnw
 beta.tw.news.yahoo.com##a[href^="http://tw.advertorial.news.yahoo.com/"]
-beta.tw.news.yahoo.com###navigation  a[href^="http://tw.rd.yahoo.com/referurl/"]
+beta.tw.news.yahoo.com###navigation a[href^="http://tw.rd.yahoo.com/referurl/"]
 tw.yahoo.com##.admod
 tw.yahoo.com###eyebrow > a:not(#sethomepage)
 tw.yahoo.com##.newsad
@@ -949,6 +946,7 @@ jiaren.org###text-276115465
 ali213.net##.newright
 ||img.cngba.com/da/
 ||dashuye.com/data/cache/myad*.htm
+/banner/*$domain=gamer.com.tw
 ||replays.net/images/eventad/
 ||replays.net/*/rnad/
 ||bbs.youxiri.com/attachment/advpic/
