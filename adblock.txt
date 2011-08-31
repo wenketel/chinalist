@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 1pdWgi4M/8NLqQG08npQ/A
+!  Checksum: DY2Fu4UJF87vms+lJVuzmA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 01 Sep 2011 01:14:04 +0800
+!  Last Modified:  Thu, 01 Sep 2011 01:53:43 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -256,7 +256,7 @@ dict.cn###top-gg
 ~discuz.net##.a_pt
 ###ad_headerbanner
 ~xdjz.net###ads_c_tpc
-s.163.com,~yyets.com,~zol.com.cn###focus.focus
+~s.163.com,~yyets.com,~zol.com.cn###focus.focus
 ###sitefocus.focus
 ~top81.jschina.com.cn,~top81.cn##[id^="ad_thread"]
 
@@ -540,21 +540,12 @@ www.qidian.com##[class^="gg"]
 ||pingfore.qq.com^
 ||tcss.qq.com/ping.js
 ||trace.qq.com^
-qq.com###AdRight-Article-QQ
+qq.com##[class*="Ad"][class$="-Article-QQ"]
+qq.com##.business-Article-QQ
 qq.com##.l_qq_com
-qq.com##.mod-left.AdBox-Article-QQ
-qq.com##.mod-left.bottom-Article-QQ.qiye-Article-QQ
-qq.com##.mod-right.adBlock-Article-QQ
-qq.com##[class^="mod-right business-Article-QQ"]
-qq.com##.wrapper.AdTop-Article-QQ
-news.qq.com##.news_ad_box
-news.qq.com###News_F_UpRight
-sports.qq.com##.indextopad
-sports.qq.com###flashAd
-t.qq.com##div#homeBannerTip
-www.qq.com##[id^="adAreaA"]
-www.qq.com##[id^="adAreaG"]
-www.qq.com###ppInfo
+qq.com##.qiye-Article-QQ
+news.qq.com###news_ad
+www.qq.com##.adArea
 www.qq.com###proAd
 
 !---巧巧读书
