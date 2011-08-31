@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: R1dBT50+0FFm9ANfhJhWVA
+!  Checksum: OAVxIg7h2aiImrMc3fE8iw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 30 Aug 2011 10:33:24 +0800
+!  Last Modified:  Wed, 31 Aug 2011 19:25:45 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -13,7 +13,6 @@
 !----------------------------White List--------------------
 @@||book.360buy.com/book/BookShowService.aspx^$xmlhttprequest
 @@||51job.com^$elemhide
-@@||a.5d6d.com^$image,object_subrequest
 @@||union.bokecc.com^$object,object_subrequest,script
 @@/adbanner/*$image,domain=books.com.tw
 @@||afp.goyeah.com^$object_subrequest
@@ -714,6 +713,9 @@ u17.com##.ad_728_90
 u17.com##.pd_b_13
 u17.com##.w_728.pos_r.mylife
 u17.com##.www_hd_middle_ct
+
+!---精锐
+@@||5d6d.^$image,object_subrequest
 
 !---udn
 @@||video.udn.com/player/Adv.swf$object_subrequest
