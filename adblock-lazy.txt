@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 1RnS0U8vNc327HhmDFdv3w
+!  Checksum: xKoKS4GJPfdGmS6NqS4eVg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 01 Sep 2011 06:38:06 +0800
+!  Last Modified:  Fri, 02 Sep 2011 04:02:55 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -220,8 +220,8 @@ cnbeta.com##div.newslist > dl > dd.detail > em
 cnbeta.com###sideBar > div#votes:nth-child(7)
 
 !---CSDN
-||csdn.net/ggmm/
 ||csdn.net/1341df/csdn_ggmm.js
+||csdn.net/ggmm/
 ||csdn.net/js/right_gg.js
 ||articles.csdn.net/static/cloud/images/clound.jpg
 csdn.com###tlbanner
@@ -1179,6 +1179,7 @@ sfw.com.cn##.cataBanner1
 !---Video Sites
 ||5156ys.net/g/
 ||aipai.com^*/ADPlayer_new.swf
+||aipai.com^*ggfull.js
 ||apas.aipai.com/www/$object_subrequest
 ||image.jstv.com/jstv/photo.js
 www.jstv.com##.content_gg
@@ -3609,6 +3610,7 @@ zaobao.com###myMovie
 /tracked_ad.
 /trade_punder.
 /tradead_
+/transad.
 /tremoradrenderer.
 /tribalad.
 /tripplead/*
@@ -4797,6 +4799,7 @@ _a468x60.
 ###ads300-250
 ###ads300Bottom
 ###ads300Top
+###ads315
 ###ads336x280
 ###ads7
 ###ads728bottom
@@ -4934,7 +4937,6 @@ _a468x60.
 ###adver5
 ###adver6
 ###adver7
-~finn.no,~gcrg.org,~kalaydo.de,~m424.com,~secondamano.it,~sepa.org.uk,~willhaben.at###advert
 ###advert-1
 ###advert-120
 ###advert-boomer
@@ -5461,6 +5463,7 @@ _a468x60.
 ###googlead2
 ###googleadbox
 ###googleads
+###googleads_mpu_injection
 ###googleadsense
 ###googlesponsor
 ###gpt-ad-halfpage
@@ -6897,6 +6900,7 @@ _a468x60.
 ##.adbox_366x280
 ##.adbox_468X60
 ##.adbox_bottom
+##.adbox_br
 ##.adboxclass
 ##.adbreak
 ##.adbug
@@ -7282,7 +7286,7 @@ _a468x60.
 ##.advertisment_two
 ##.advertize
 ##.advertize_here
-~1und1.de,~gmx.at,~gmx.net,~web.de##.advertorial
+~1und1.de,~gmx.at,~gmx.de,~gmx.net,~web.de##.advertorial
 ##.advertorial-2
 ##.advertorial-promo-box
 ##.advertorial_red
@@ -7330,6 +7334,7 @@ _a468x60.
 ##.article-ads
 ##.article-content-adwrap
 ##.articleAd
+##.articleAd300x250
 ##.articleAds
 ##.articleAdsL
 ##.articleEmbeddedAdBox
@@ -7640,6 +7645,9 @@ _a468x60.
 ##.feature_ad
 ##.featuredAds
 ##.featuredadvertising
+##.fireplaceadleft
+##.fireplaceadright
+##.fireplaceadtop
 ##.firstpost_advert_container
 ##.flagads
 ##.flash-advertisement
@@ -7938,6 +7946,8 @@ _a468x60.
 ##.main-ad
 ##.main-advert
 ##.main-tabs-ad-block
+##.mainAd
+##.mainLinkAd
 ##.main_ad
 ##.main_ad_bg_div
 ##.main_adbox
@@ -8307,6 +8317,7 @@ _a468x60.
 ##.smallads
 ##.smallsponsorad
 ##.smart_ads_bom_title
+##.spLinks
 ##.specialAd175x90
 ##.speedyads
 ##.sphereAdContainer
@@ -9751,6 +9762,7 @@ _a468x60.
 ||217.115.147.241/media/$third-party,domain=~elb-kind.de.ip
 ||21nova.com/promodisplay?
 ||21nova.com/promoredirect?
+||24.co.za^*/ads/
 ||2leep.com/ticker2/$third-party
 ||770.com/banniere.php?
 ||a-bride-from-russia.com/banners/
@@ -10549,6 +10561,7 @@ _a468x60.
 /visualstat/stat.php
 /vtrack.php?
 /webabacus-$script
+/webforensics/*
 /webiq.js
 /webtraxs.js
 /webtrekk.js
@@ -11259,7 +11272,9 @@ _cedexis.php
 ||w55c.net^$third-party
 ||waudit.cz^$third-party
 ||web-stat.com^$third-party
+||webcounter.co.za^$third-party
 ||webcounter.ws^$third-party
+||webforensics.co.uk^$third-party
 ||webiqonline.com^$third-party
 ||website-hit-counters.com^$third-party
 ||websiteceo.com^$third-party
@@ -11337,9 +11352,10 @@ _cedexis.php
 ||alphasitebuilder.co.za/tracker/
 ||amatomu.com/link/log/
 ||amatomu.com/log.php?
+||amazonaws.com/*.kissinsights.com/
+||amazonaws.com/*.kissmetrics.com/
 ||amazonaws.com/ki.js/
 ||amazonaws.com/new.cetrk.com/
-||amazonaws.com/scripts.kissmetrics.com/
 ||analytics.apnewsregistry.com^
 ||analytics.atomiconline.com^
 ||analytics.aweber.com^
@@ -11356,6 +11372,7 @@ _cedexis.php
 ||analytics.rogersmedia.com^
 ||analytics.sitewit.com^
 ||analytics.tribeca.vidavee.com^
+||analytics.wildtangent.com^
 ||analytics.yola.net^
 ||anscdn.net/images/1x1p.gif?
 ||anvato.com/anvatoloader.swf?analytics=
