@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: hfDEXJoW/Tn/izT3bGsEPw
+!  Checksum: eOiwHTZcdkN+LcBkKPj3og
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 02 Sep 2011 21:20:08 +0800
+!  Last Modified:  Fri, 02 Sep 2011 22:46:51 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -523,9 +523,11 @@ pixnet.net##.ad
 www.pixnet.net###extradiv2
 www.pixnet.net###extradiv5
 
-!---V游网
-||verypsp.com^subdocument
-||soft.verypsp.com/pic/tiaofuad.gif
+!---千脑
+||down.qiannao.com/tomos/ui/*$subdocument
+||count.qiannao.com^
+down.qiannao.com###PageRigntAds
+down.qiannao.com##div[style="padding: 8px;"]
 
 !---起点中文网
 ||qidian.com/javascript/NewSNDAPop.js
@@ -960,6 +962,8 @@ ali213.net##.newright
 /banner/*$domain=gamer.com.tw
 ||replays.net/images/eventad/
 ||replays.net/*/rnad/
+||verypsp.com^subdocument
+||soft.verypsp.com/pic/tiaofuad.gif
 ||wowmovies.cn/img/17jnh/
 ||bbs.youxiri.com/attachment/advpic/
 ||yxdown.com/inc/dlad.js
@@ -1453,6 +1457,7 @@ xitek.com##[id^="mo"]
 ||789un.com^$third-party
 ||web.7k7k.com^$script,third-party
 ||7stk.com^$third-party
+||7pk.com^$third-party
 ||81813.com^$third-party
 ||82816.com^$third-party
 ||84232.com^$third-party
@@ -10545,6 +10550,7 @@ _a468x60.
 /statscript.js
 /stwc-counter/*
 /stwc/code.js
+/swfaddress.js?tracker=
 /tacoda_ams_ddc_header.js
 /tagomnitureengine.js
 /tc_logging.js
@@ -10651,6 +10657,7 @@ _cedexis.php
 ||adgreed.com^$third-party
 ||adku.co^$third-party
 ||adnxs.com^$third-party
+||adoftheyear.com^$third-party
 ||adsensedetective.com^$third-party
 ||adsummos.net^$third-party
 ||adultblogtoplist.com^$third-party
