@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: eOiwHTZcdkN+LcBkKPj3og
+!  Checksum: ofy41j+HfuF6ekerM3zXFA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 02 Sep 2011 22:46:51 +0800
+!  Last Modified:  Sat, 03 Sep 2011 00:49:07 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -514,6 +514,7 @@ pconline.com.cn##table[width="950"][cellspacing="0"][cellpadding="0"]
 !---PIXNET
 /blog/addvisit^
 ||pixanalytics.com^
+||ad.pixnet.net^
 ||events.pixnet.net^$subdocument
 ||api.pixnet.tv/count^
 @@||counter.pixplug.in/getcounter.php^$script
@@ -706,7 +707,7 @@ ttg.im##.wp.a_t
 ||tudou.com/tdap/
 ||tudou.com/tdcm/
 ||js.tudouui.com/js/fn/saleloader_*.js
-/pos?pt=
+/pos?$object_subrequest
 tudou.com##.b.seed
 tv.tudou.com###adex_board
 !--embeded
@@ -10319,8 +10320,8 @@ _a468x60.
 
 !-----------------------EasyPrivacy----------------------------
 ! *** easyprivacy/easyprivacy_dnt.txt ***
-*$image,~image,donottrack
-@@||easy.box^$image,~image,donottrack
+*$donottrack,image,~image
+@@||easy.box^$donottrack,image,~image
 ! *** easyprivacy/easyprivacy_general.txt ***
 -xtcore.js
 /?livehit=
