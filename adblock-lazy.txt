@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: ofy41j+HfuF6ekerM3zXFA
+!  Checksum: TJz84o47MD1j3tR3CBobQQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 03 Sep 2011 00:49:07 +0800
+!  Last Modified:  Sun, 04 Sep 2011 17:54:34 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -952,6 +952,8 @@ jiaren.org###text-276115465
 ||tuiguang.178.com^$script
 ||adm.265g.com^
 ||313g.com/xyx/
+||3dmgame.com/images/lttl.swf
+3dmgame.com##[class^="banner_"]
 ||market.52pk.com^
 ||61mole.com/js/
 ||bbs.a9vg.com/shop/js.php
@@ -1822,7 +1824,6 @@ xitek.com##[id^="mo"]
 ||wumii.com/images/pixel.png
 
 !-----------------------Element Hiding---------------------
-3dmgame.com##[class^="banner_"]
 sbsrunningman.5d6d.com###header
 www.alibuybuy.com##[class^="ad_"]
 av199.com,hd199.com##table[height="30"]
@@ -1864,7 +1865,7 @@ zaobao.com###myMovie
 ||nanrenwa.com/_img/a/$third-party
 
 !-----------------------EasyList----------------------------
-! *** easylist/easylist_general_block.txt ***
+! *** easylist:easylist/easylist_general_block.txt ***
 &ad_keyword=
 &ad_type_
 &adcount=
@@ -3496,8 +3497,8 @@ zaobao.com###myMovie
 /sidebarad/*
 /sidecol_ad.
 /silver/ads/*
-/site=*/size=*/viewid=*
-/site=*/viewid=*/size=*
+/site=*/size=*/viewid=
+/site=*/viewid=*/size=
 /site_ads.
 /siteads.
 /siteads/*
@@ -3655,7 +3656,7 @@ zaobao.com###myMovie
 /videowall-ad.
 /view/banner/*&referrer=
 /view/banner/*/zone?zid=
-/viewid=*/site=*/size=*
+/viewid=*/site=*/size=
 /vtextads.
 /wallpaperads/*
 /web/ads/*
@@ -4038,7 +4039,7 @@ _728x90/
 _728x90_
 _768x90_
 _a468x60.
-! *** easylist/easylist_general_hide.txt ***
+! *** easylist:easylist/easylist_general_hide.txt ***
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
 ###A9AdsServicesWidgetTop
@@ -7294,6 +7295,7 @@ _a468x60.
 ##.advertising_images
 ~macwelt.de##.advertisment
 ##.advertisment_bar
+##.advertisment_caption
 ##.advertisment_two
 ##.advertize
 ##.advertize_here
@@ -8669,7 +8671,7 @@ _a468x60.
 ##.ch[onclick="ga(this,event)"]
 ##.ra[align="left"][width="30%"]
 ##.ra[align="right"][width="30%"]
-! *** easylist/easylist_adservers.txt ***
+! *** easylist:easylist/easylist_adservers.txt ***
 ||10pipsaffiliates.com^$third-party
 ||1100i.com^$third-party
 ||188server.com^$third-party
@@ -9666,6 +9668,7 @@ _a468x60.
 ||v2cigs.com^$third-party
 ||validclick.com^$third-party
 ||valuead.com^$third-party
+||valueaffiliate.net^$third-party
 ||valueclick.com^$third-party
 ||valueclickmedia.com^$third-party
 ||vcmedia.com^$third-party
@@ -9759,7 +9762,7 @@ _a468x60.
 ||mojiva.com^$third-party
 ||smaato.net^$third-party
 ||waptrick.com^$third-party
-! *** easylist/easylist_thirdparty.txt ***
+! *** easylist:easylist/easylist_thirdparty.txt ***
 ||000webhost.com/images/banners/
 ||1-in-a-million.com/banners/
 ||110mb.com/images/banners/
@@ -10319,10 +10322,10 @@ _a468x60.
 ||iadc.qwapi.com^
 
 !-----------------------EasyPrivacy----------------------------
-! *** easyprivacy/easyprivacy_dnt.txt ***
+! *** easylist:easyprivacy/easyprivacy_dnt.txt ***
 *$donottrack,image,~image
 @@||easy.box^$donottrack,image,~image
-! *** easyprivacy/easyprivacy_general.txt ***
+! *** easylist:easyprivacy/easyprivacy_general.txt ***
 -xtcore.js
 /?livehit=
 /__utm.gif
@@ -10622,7 +10625,7 @@ _cedexis.php
 ://ivw.*/get?referrer=
 ://top.*/count/cnt.php?
 ://top.*/hit/
-! *** easyprivacy/easyprivacy_trackingservers.txt ***
+! *** easylist:easyprivacy/easyprivacy_trackingservers.txt ***
 ||123count.com^$third-party
 ||1freecounter.com^$third-party
 ||208.88.226.75^$third-party,domain=~informer.com.ip
@@ -11321,7 +11324,7 @@ _cedexis.php
 ||your-counter.be^$third-party
 ||zesep.com^$third-party
 ||zoomflow.com^$third-party
-! *** easyprivacy/easyprivacy_trackingservers_international.txt ***
+! *** easylist:easyprivacy/easyprivacy_trackingservers_international.txt ***
 ! Chinese
 ||51yes.com^$third-party
 ||99click.com^$third-party
@@ -11329,7 +11332,7 @@ _cedexis.php
 ||datamaster.com.cn^$third-party
 ||oadz.com^$third-party
 ||users.51.la^$third-party
-! *** easyprivacy/easyprivacy_thirdparty.txt ***
+! *** easylist:easyprivacy/easyprivacy_thirdparty.txt ***
 ||123myip.co.uk/ip-address/
 ||174.129.112.186/small.gif?$third-party,domain=~skytide.ip
 ||174.129.135.197/partner.gif?$third-party,domain=~skytide.ip
@@ -11733,14 +11736,14 @@ _cedexis.php
 ||yimg.com^*/ywa.js
 ||ypcdn.com/*/webyp?
 ||zemanta.com/pixy.gif?
-! *** easyprivacy/easyprivacy_thirdparty_international.txt ***
+! *** easylist:easyprivacy/easyprivacy_thirdparty_international.txt ***
 ! Chinese
 ||baidu.com/h.js?
 ||baidu.com/hm.gif?
 ||baidu.com/js/o.js
 ||cri.cn/js/a1.js
 ||webterren.com/webdig.js?
-! *** easyprivacy/easyprivacy_specific_international.txt ***
+! *** easylist:easyprivacy/easyprivacy_specific_international.txt ***
 ! Chinese
 ||analytics.nextmedia.com^
 ||beacon.sina.com.cn^
