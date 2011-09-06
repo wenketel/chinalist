@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: pkJuYX0zGPsjus1ZW6KA4Q
+!  Checksum: ys9v56VUTAWih+kqDSOJqQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 04 Sep 2011 17:56:45 +0800
+!  Last Modified:  Tue, 06 Sep 2011 09:38:08 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -1615,6 +1615,7 @@ xitek.com##[id^="mo"]
 ||molidao.com^$third-party
 ||myad.cn^$third-party
 ||myiee.com^$third-party
+||mylovewebs.com^$third-party
 ||i.na7.cc^$third-party
 ||naqigs.com^$third-party
 ||netgy.com^$third-party
@@ -2602,6 +2603,7 @@ zaobao.com###myMovie
 /adstacodaeu.
 /adstatic.
 /adstemplate/*
+/adstop_
 /adstorage.
 /adstracking.
 /adstream.
@@ -3512,6 +3514,7 @@ zaobao.com###myMovie
 /skybar_ad.
 /skyframeopenads.
 /skyframeopenads_
+/skyscraper-ad.
 /skyscraperad.
 /slafc.js
 /slice.php?ad=
@@ -6159,6 +6162,7 @@ _a468x60.
 ###topsponsored
 ###toptextad
 ###tour300Ad
+###tour728Ad
 ###tourSponsoredLinksContainer
 ###towerad
 ###ts-ad_module
@@ -7127,6 +7131,7 @@ _a468x60.
 ##.adsenseBlock
 ##.adsenseContainer
 ##.adsenseGreenBox
+##.adsenseInPost
 ##.adsenseList
 ##.adsense_bdc_v2
 ##.adsense_mpu
@@ -7540,6 +7545,7 @@ _a468x60.
 ##.cms-Advert
 ##.cnbc_badge_banner_ad_area
 ##.cnbc_banner_ad_area
+##.cnbc_leaderboard_ad
 ##.cnn160AdFooter
 ##.cnnAd
 ##.cnnMosaic160Container
@@ -8142,7 +8148,7 @@ _a468x60.
 ##.postgroup-ads-middle
 ##.prebodyads
 ##.premium_ad_container
-##.promoAd
+~timeoutbengaluru.net,~timeoutdelhi.net,~timeoutmumbai.net##.promoAd
 ##.promoAds
 ##.promo_ad
 ##.ps-ligatus_placeholder
@@ -8643,6 +8649,7 @@ _a468x60.
 ##.ysponsor
 ##.yw-ad
 ##.zRightAdNote
+##a[href^="http://ad-apac.doubleclick.net/"]
 ~ebay.de##a[href^="http://ad-emea.doubleclick.net/"]
 ~zdnet.de##a[href^="http://ad.doubleclick.net/"]
 ##a[href^="http://adserving.liveuniversenetwork.com/"]
@@ -8791,7 +8798,6 @@ _a468x60.
 ||adreadytractions.com^$third-party
 ||adresellers.com^$third-party
 ||adrise.de^$third-party
-||adriver.ru^$third-party
 ||adrocket.com^$third-party
 ||adroll.com^$third-party
 ||ads-stats.com^$third-party
@@ -9119,7 +9125,7 @@ _a468x60.
 ||doubleclick.net/pfadx/nbcu.nbc/$object-subrequest,third-party
 ||doubleclick.net^$object-subrequest,third-party,domain=addictinggames.com|atom.com|bbc.co.uk|bicycling.com|bloomberg.com|break.com|businessweek.com|cbs4denver.com|cbsnews.com|click2houston.com|cnbc.com|couriermail.com.au|dailytelegraph.com.au|darkhorizons.com|dorkly.com|doubleviking.com|eonline.com|fandango.com|foxbusiness.com|g4tv.com|gamespot.com|gametrailers.com|globalnational.com|globalnews.ca|gorillanation.com|hulu.com|independent.ie|joblo.com|kptv.com|listen.grooveshark.com|mtv.co.uk|mtv.com|mtv.com.au|mtv.com.nz|mtvbase.com|mtvmusic.com|my9tv.com|myfoxorlando.com|myfoxphoenix.com|myfoxtampabay.com|necn.com|neopets.com|news.com.au|newsweek.com|nfl.com|nick.com|nintendoeverything.com|npr.org|own3d.tv|pandora.com|photoradar.com|play.it|ps3news.com|radio.com|reuters.com|rte.ie|sbs.com.au|sbsun.com|sevenload.com|shacknews.com|shockwave.com|sk-gaming.com|smh.com.au|southpark.nl|southparkstudios.com|southparkstudios.se|space.com|spike.com|syfy.com|theage.com.au|thebostonchannel.com|thedailygreen.com|thedailyshow.com|thewire.com|ufc.com|ustream.tv|videojug.com|washingtonpost.com|wcbstv.com|wetransfer.com|wired.com|wkbw.com|wmur.com|wral.com|wrc.com|wsj.com|wwe.com|youtube.com|zappinternet.com|zoomin.tv
 ||doubleclick.net^$~object-subrequest,third-party
-||doubleclick.net^*;sz=$object-subrequest,third-party,domain=10news.com|1up.com|baltimoresun.com|bet.com|breitbart.tv|cbc.ca|cltv.com|courant.com|dailystar.co.uk|digitaltrends.com|four.co.nz|fox5sandiego.com|foxnews.com|france24.com|gamesradar.com|heavy.com|ktla.com|latimes.com|muzu.tv|myfoxatlanta.com|myfoxny.com|myspace.com|nationalgeographic.com|nbc.com|nbcsandiego.com|news.com.au|nhl.com|nypost.com|player.amri.ca|rapbasement.com|the33tv.com|tv3.co.nz|wgntv.com|wpix.com|wptv.com
+||doubleclick.net^*;sz=$object-subrequest,third-party,domain=10news.com|1up.com|abc26.com|baltimoresun.com|bet.com|breitbart.tv|cbc.ca|cltv.com|courant.com|dailystar.co.uk|digitaltrends.com|four.co.nz|fox5sandiego.com|foxnews.com|france24.com|gamesradar.com|heavy.com|ktla.com|latimes.com|muzu.tv|myfoxatlanta.com|myfoxny.com|myspace.com|nationalgeographic.com|nbc.com|nbcsandiego.com|news.com.au|nhl.com|nypost.com|player.amri.ca|rapbasement.com|the33tv.com|tv3.co.nz|wgntv.com|wpix.com|wptv.com
 ||doublepimp.com^$third-party
 ||dpbolvw.net^$third-party
 ||drowle.com^$third-party
@@ -9878,6 +9884,7 @@ _a468x60.
 ||blissful-sin.com/affiliates/
 ||bloodstock.uk.com/affiliates/
 ||bluhostedbanners.blucigs.com^
+||booking.com/general.html?$third-party
 ||bordernode.com/images/$third-party
 ||box.anchorfree.net^
 ||bpath.com/affiliates/
@@ -10955,6 +10962,7 @@ _cedexis.php
 ||ip2phrase.com^$third-party
 ||ipcatch.com^$third-party
 ||iperceptions.com^$third-party
+||ipfingerprint.com^$third-party
 ||ipinfo.info^$third-party
 ||iplocationtools.com^$third-party
 ||ipstat.com^$third-party
