@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: AeCsiydYOXPkIp3KXuLuGQ
+!  Checksum: 9xFwwdjJNa1nCfNLi2v2BA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 07 Sep 2011 11:35:35 +0800
+!  Last Modified:  Thu, 08 Sep 2011 16:44:12 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -964,8 +964,6 @@ ali213.net##.newright
 ||img.cngba.com/da/
 ||dashuye.com/data/cache/myad*.htm
 /banner/*$domain=gamer.com.tw
-||replays.net/images/eventad/
-||replays.net/*/rnad/
 ||verypsp.com^subdocument
 ||soft.verypsp.com/pic/tiaofuad.gif
 ||wowmovies.cn/img/17jnh/
@@ -1911,6 +1909,7 @@ zaobao.com###myMovie
 -banner-ad.
 -banner-ads-
 -banner-ads/
+-bannerads/
 -bin/ad_
 -content-ad.
 -contest-ad.
@@ -2027,6 +2026,7 @@ zaobao.com###myMovie
 /ad-box-
 /ad-cdn.
 /ad-frame.
+/ad-gallery.
 /ad-header.
 /ad-hug.
 /ad-iframe-
@@ -2799,6 +2799,8 @@ zaobao.com###myMovie
 /banner_management/*
 /banner_skyscraper.
 /bannerad.
+/bannerad1-
+/bannerad2-
 /bannerad_
 /bannerads-
 /bannerads.
@@ -3275,6 +3277,7 @@ zaobao.com###myMovie
 /mtvi_ads_
 /mylayer-ad/*
 /mysimpleads/*
+/navads/*
 /nd_affiliate.
 /neoads.
 /netads.
@@ -3877,6 +3880,7 @@ _link_ads-
 _mainad.
 _media/ads/
 _mmsadbanner/
+_onlinead_
 _openx/
 _org_ad.
 _overlay_ad.
@@ -4554,8 +4558,10 @@ _a468x60.
 ###ad_300a
 ###ad_300b
 ###ad_300c
+###ad_300x100_m_c
 ###ad_300x250
 ###ad_300x250_content_column
+###ad_300x250_m_c
 ###ad_300x250m
 ###ad_300x90
 ###ad_4
@@ -5263,6 +5269,7 @@ _a468x60.
 ###content_ads_content
 ###content_box_300body_sponsoredoffers
 ###content_box_adright300_google
+###content_lower_center_right_ad
 ###content_mpu
 ###contentad
 ###contentad_imtext
@@ -5556,6 +5563,7 @@ _a468x60.
 ###home_bottom_ad
 ###home_contentad
 ###home_feature_ad
+###home_lower_center_right_ad
 ###home_mpu
 ###home_spensoredlinks
 ###homead
@@ -5664,6 +5672,7 @@ _a468x60.
 ###live-ad
 ###logoAd
 ###longAdSpace
+###long_advertisement
 ###lowerAdvertisementImg
 ###lowerads
 ###lowerthirdad
@@ -6607,6 +6616,7 @@ _a468x60.
 ##.ad300x50-right
 ##.ad300x600
 ##.ad310
+##.ad315
 ##.ad336x280
 ##.ad343x290
 ##.ad4
@@ -7200,6 +7210,7 @@ _a468x60.
 ##.adv-mpu
 ##.adver
 ##.adverTag
+##.adverTxt
 ##.adver_cont_below
 ##.advert-300-side
 ##.advert-300x100-side
@@ -7207,6 +7218,7 @@ _a468x60.
 ##.advert-article-bottom
 ##.advert-bannerad
 ##.advert-bg-250
+##.advert-bloggrey
 ##.advert-box
 ##.advert-btm
 ##.advert-head
@@ -7276,6 +7288,7 @@ _a468x60.
 ~mocpages.com##.advertisement-swimlane
 ##.advertisement-text
 ##.advertisement-top
+##.advertisement300x250
 ##.advertisement468
 ##.advertisementBox
 ##.advertisementColumnGroup
@@ -7517,6 +7530,7 @@ _a468x60.
 ##.bx_ad_right
 ##.cA-adStrap
 ##.cColumn-TextAdsBox
+##.cLeftTextAdUnit
 ##.c_ligatus_nxn
 ##.calloutAd
 ##.carbonad
@@ -8026,6 +8040,7 @@ _a468x60.
 ##.moduletablesquaread
 ~gamespot.com##.mpu
 ##.mpu-ad
+##.mpu-ad-con
 ##.mpu-advert
 ##.mpu-footer
 ##.mpu-fp
@@ -8227,6 +8242,7 @@ _a468x60.
 ##.rightcol_boxad
 ##.rightcoladvert
 ##.rightcoltowerad
+##.rightmenu_ad
 ##.rnav_ad
 ##.rngtAd
 ##.rot_ads
@@ -9129,7 +9145,7 @@ _a468x60.
 ||doubleclick.net/pfadx/*.sevenload.com_$object-subrequest,third-party
 ||doubleclick.net/pfadx/*adcat=$object-subrequest,third-party
 ||doubleclick.net/pfadx/nbcu.nbc/$object-subrequest,third-party
-||doubleclick.net^$object-subrequest,third-party,domain=addictinggames.com|atom.com|bbc.co.uk|bicycling.com|bloomberg.com|break.com|businessweek.com|cbs4denver.com|cbsnews.com|click2houston.com|cnbc.com|couriermail.com.au|dailytelegraph.com.au|darkhorizons.com|dorkly.com|doubleviking.com|eonline.com|fandango.com|foxbusiness.com|g4tv.com|gamespot.com|gametrailers.com|globalnational.com|globalnews.ca|gorillanation.com|hulu.com|independent.ie|joblo.com|kptv.com|listen.grooveshark.com|mtv.co.uk|mtv.com|mtv.com.au|mtv.com.nz|mtvbase.com|mtvmusic.com|my9tv.com|myfoxorlando.com|myfoxphoenix.com|myfoxtampabay.com|necn.com|neopets.com|news.com.au|newsweek.com|nfl.com|nick.com|nintendoeverything.com|npr.org|own3d.tv|pandora.com|photoradar.com|play.it|ps3news.com|radio.com|reuters.com|rte.ie|sbs.com.au|sbsun.com|sevenload.com|shacknews.com|shockwave.com|sk-gaming.com|smh.com.au|southpark.nl|southparkstudios.com|southparkstudios.se|space.com|spike.com|syfy.com|theage.com.au|thebostonchannel.com|thedailygreen.com|thedailyshow.com|thewire.com|ufc.com|ustream.tv|videojug.com|washingtonpost.com|wcbstv.com|wetransfer.com|wired.com|wkbw.com|wmur.com|wral.com|wrc.com|wsj.com|wwe.com|youtube.com|zappinternet.com|zoomin.tv
+||doubleclick.net^$object-subrequest,third-party,domain=addictinggames.com|atom.com|bbc.co.uk|bicycling.com|bloomberg.com|break.com|businessweek.com|cbs4denver.com|cbsnews.com|click2houston.com|cnbc.com|couriermail.com.au|dailytelegraph.com.au|darkhorizons.com|dorkly.com|doubleviking.com|eonline.com|fandango.com|foxbusiness.com|g4tv.com|gamespot.com|gametrailers.com|globalnational.com|globalnews.ca|gorillanation.com|hulu.com|independent.ie|joblo.com|kptv.com|listen.grooveshark.com|mtv.co.uk|mtv.com|mtv.com.au|mtv.com.nz|mtvbase.com|mtvmusic.com|my9tv.com|myfoxorlando.com|myfoxphoenix.com|myfoxtampabay.com|necn.com|neopets.com|news.com.au|newsweek.com|nfl.com|nick.com|nintendoeverything.com|npr.org|own3d.tv|pandora.com|photoradar.com|play.it|ps3news.com|radio.com|reuters.com|rte.ie|sbs.com.au|sbsun.com|sevenload.com|shacknews.com|shockwave.com|sk-gaming.com|smh.com.au|southpark.nl|southparkstudios.com|southparkstudios.se|space.com|spike.com|syfy.com|theage.com.au|theaustralian.com.au|thebostonchannel.com|thedailygreen.com|thedailyshow.com|thewire.com|ufc.com|ustream.tv|videojug.com|washingtonpost.com|wcbstv.com|wetransfer.com|wired.com|wkbw.com|wmur.com|wral.com|wrc.com|wsj.com|wwe.com|youtube.com|zappinternet.com|zoomin.tv
 ||doubleclick.net^$~object-subrequest,third-party
 ||doubleclick.net^*;sz=$object-subrequest,third-party,domain=10news.com|1up.com|abc26.com|baltimoresun.com|bet.com|breitbart.tv|cbc.ca|cltv.com|courant.com|dailystar.co.uk|digitaltrends.com|four.co.nz|fox5sandiego.com|foxnews.com|france24.com|gamesradar.com|heavy.com|ktla.com|latimes.com|muzu.tv|myfoxatlanta.com|myfoxny.com|myspace.com|nationalgeographic.com|nbc.com|nbcsandiego.com|news.com.au|nhl.com|nypost.com|player.amri.ca|rapbasement.com|the33tv.com|tv3.co.nz|wgntv.com|wpix.com|wptv.com
 ||doublepimp.com^$third-party
@@ -9975,6 +9991,7 @@ _a468x60.
 ||fatburningfurnace.com^*/fbf-banner-
 ||feedburner.com/~a/
 ||filedownloader.net/design/$third-party
+||filedroid.net/af_ta/$third-party
 ||fileserve.com/images/banner_$third-party
 ||filesonic.com^*/banners/
 ||filesonic.it^*/banners/
