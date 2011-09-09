@@ -7,7 +7,7 @@
 // @lastmodified 2011-9-09
 // @version 1.0.6
 // @updateURL:https://adblock-chinalist.googlecode.com/svn/trunk/scripts/remove_ads_for_qiyi.user.js
-// @include http://www.qiyi.com/*
+// @include http://*.qiyi.com/*
 // ==/UserScript==
 
 (function() {
