@@ -4,16 +4,14 @@
 // @description Remove qiyi.com flash ads for ChinaList
 // @author Gythialy
 // @create 2011-6-16
-// @lastmodified 2011-9-08
-// @version 1.0.5
+// @lastmodified 2011-9-09
+// @version 1.0.6
 // @updateURL:https://adblock-chinalist.googlecode.com/svn/trunk/scripts/remove_ads_for_qiyi.user.js
-// @include http://www.qiyi.com/
-// @include http://yule.qiyi.com/
+// @include http://www.qiyi.com/*
 // ==/UserScript==
 
 (function() {
 	var DEBUG = 0;
-	var URL_INDEX = 7;
 	function log(message) {
 		if (DEBUG && GM_log) {
 			GM_log(message);
@@ -34,7 +32,7 @@
 		document.cookie = name + "=" + value + ";expires=" + crazy_exp.toGMTString();
 	}
 
-	function hideAdByIds(ids) {
+	function hideAds(ids) {
 		for ( var i = 0, length = ids.length; i < length; i++) {
 			var t = document.getElementById(ids[i]);
 			if (t) {
@@ -44,30 +42,12 @@
 		}
 	}
 
-	var url = window.location.href.toString();
-
-	if (url.indexOf('www') == URL_INDEX) {
+	if (document.getElementById('floatLayerFavDiv'))
 		setQCookie('floatLayerFav', 1, 1);
-		var cookies = [ 'qyskin', ' qycrazysz', ' qycrazy', 'qydsjskin' ];
-		for ( var i = 0, length = cookies.length; i < length; i++) {
-			var value = getQCookie(cookies[i]);
-			value = value == null ? 0 : value;
-			log(cookies[i] + ' value is: ' + value);
-			if (value < 5)
-				setQCookie(cookies[i], 5, 1);
-		}
-	}
 
-	var qyylcrazy = getQCookie('ylcrazyjm');
-	qyylcrazy = qyylcrazy == null ? 0 : qyylcrazy;
-	if (qyylcrazy < 2 && url.indexOf('yule') == URL_INDEX) {
-		setQCookie('ylcrazyjm', 2, 1);
-	}
-
-	var jdtflash = document.getElementById('jdtflash');
-	if (jdtflash)
-		jdtflash.style.display = '';
+	if (document.getElementById('jdtflash'))
+		document.getElementById('jdtflash').style.display = '';
 
 	var ids = [ 'adflash', 'backgroundskin', 'clicka', 'floatLayerFavDiv' ];
-	hideAdByIds(ids);
+	hideAds(ids);
 })();
