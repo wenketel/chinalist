@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: WB4b5x0tBHeXsojL2zY0Tg
+!  Checksum: 3m3vr6cIX9+gMtuRLSxQ5Q
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 10 Sep 2011 23:42:00 +0800
+!  Last Modified:  Sun, 11 Sep 2011 01:01:03 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -71,8 +71,8 @@ search.21cn.com##td[width="184"][align="left"]
 @@/forum/images/*/*$domain=51nb.com|thinkpad.cn,image
 /forum/images/*$domain=51nb.com|thinkpad.cn,image
 !--forum
-thinkpad.cn,51nb.com##div.menu + div.maintable>table.t_rown:first-child
-thinkpad.cn,51nb.com##div.menu + div.maintable>table.t_rown[width="98%"]
+thinkpad.cn,51nb.com##div.menu + div.maintable > table.t_rown:first-child
+thinkpad.cn,51nb.com##div.menu + div.maintable > table.t_rown[width="98%"]
 thinkpad.cn,51nb.com##div.secmenu:last-child
 
 !---56.com
@@ -100,7 +100,7 @@ v.6.cn###playerAd
 ||image.6park.com
 ||img.6park.com/img/$image
 ||6park.com/parks/$script
-6park.com##body>table + table + table + table + table[width="978"][bgcolor="#ffffff"]
+6park.com##body > table + table + table + table + table[width="978"][bgcolor="#ffffff"]
 pop.6park.com##TABLE[width="122"]
 
 !---acfun.cn
@@ -160,7 +160,7 @@ video.baidu.com##div#user-bar + div[style^="display:block;"]
 iknow.baidu.com,z.baidu.com,zhidao.baidu.com##.ad-fc-down
 zhidao.baidu.com##.r
 zhidao.baidu.com###ad-brand-down
-zhidao.baidu.com###center>div[style="width:85%"]
+zhidao.baidu.com###center > div[style="width:85%"]
 iknow.baidu.com,zhidao.baidu.com###qb-ad-cpro
 !--qiyi
 @@||afp.qiyi.com^*&local=xml|
@@ -220,8 +220,8 @@ chinatimes.com##.ad
 ||img.cnbeta.com/*950$image
 cnbeta.com###fm_r
 cnbeta.com###userInfo
-cnbeta.com##div.newslist>dl>dd.detail>em
-cnbeta.com###sideBar>div#votes:nth-child(7)
+cnbeta.com##div.newslist > dl > dd.detail > em
+cnbeta.com###sideBar > div#votes:nth-child(7)
 
 !---CSDN
 ||csdn.net/1341df/csdn_ggmm.js
@@ -239,7 +239,7 @@ iteye.com###forum_recommended_f5
 ||dayoo.com/sta/da.js
 ||images.dayoo.com/dywimg/
 ||sta.dayoo.com^
-www.dayoo.com##body>div[style]
+www.dayoo.com##body > div[style]
 !--gzdaily
 /pub/news/gzrb/*$script
 ||gzdaily.dayoo.com/tpl/banner$object
@@ -291,7 +291,7 @@ enet.com.cn##[class^="ad"]
 ||bbs.fengniao.com/forum/clientscript/vbb_scroll.js
 ||bbs.fengniao.com/forum/var/vbb_scroll_content.js
 fengniao.com##[id^="AD"]
-bbs.fengniao.com##[style="font-size: 12px;"]>a
+bbs.fengniao.com##[style="font-size: 12px;"] > a
 bbs.fengniao.com##.sing_ad_text
 www.fengniao.com##.banner.mt2
 
@@ -448,7 +448,7 @@ mydrivers.com##[id^="ad_"]
 drivers.mydrivers.com##div[align="center"]
 news.mydrivers.com##table[border="0"][width="980"][height="90"]
 www.mydrivers.com##.top + .hang1
-www.mydrivers.com##body>div.hang1:nth-child(11)
+www.mydrivers.com##body > div.hang1:nth-child(11)
 !--myfiles
 ||11.mydrivers.com/myfiles/04.js
 ||11.mydrivers.com/myfiles/myfiles100*.js
@@ -583,7 +583,7 @@ readersdigest.cn###fixeddiv
 !---红软基地
 ||rsdown.cn/other/js/$script
 rsdown.cn##.right_inedx_1
-rsdown.cn##body>table:nth-child(4)
+rsdown.cn##body > table:nth-child(4)
 
 !---sina
 !--sina.com
@@ -610,8 +610,8 @@ news.sina.com.cn###divResNewsBottom
 sh.sina.com.cn##[class^="jsad"]
 www.sina.com.cn##[class^="AD"]
 www.sina.com.cn##.cleft
-www.sina.com.cn##div#PartA>div.left>div:not(#sina_house_link9)
-www.sina.com.cn##div#PartG>div.rightbox
+www.sina.com.cn##div#PartA > div.left > div:not(#sina_house_link9)
+www.sina.com.cn##div#PartG > div.rightbox
 www.sina.com.cn##[class^="txtads"]
 www.sina.com.cn##.yleft2blk
 !--auto
@@ -668,7 +668,7 @@ sohu.com,chinaren.com##sohuadcode
 sohu.com###ad_TOP
 sohu.com##[class^="contAD"]
 news.sohu.com###adList
-news.sohu.com##div.left>h2>span
+news.sohu.com##div.left > h2 > span
 !--tv
 /dov.do?
 
@@ -721,7 +721,7 @@ tv.tudou.com###adex_board
 ||image.mylife.cdn.u17.com^$object
 ||static.cdn.u17.com/v2/js/ad_api/$script
 u17.com##.ad_728_90
-u17.com##.pd_b_13>a>img
+u17.com##.pd_b_13 > a > img
 u17.com##.w_728.pos_r.mylife
 u17.com##.www_hd_middle_ct
 
@@ -743,7 +743,7 @@ udn.com###ads
 ||sp.vcimg.com^
 verycd.com##.no_topic
 verycd.com##.banner_toped2k
-verycd.com##.rightDiv>div[style="width:250px;height:200px;padding:4px;border:1px solid #ccc;"]
+verycd.com##.rightDiv > div[style="width:250px;height:200px;padding:4px;border:1px solid #ccc;"]
 www.verycd.com##iframe
 
 !---华声在线
@@ -827,9 +827,9 @@ tw.news.yahoo.com###ynwsnw
 beta.tw.news.yahoo.com##a[href^="http://tw.advertorial.news.yahoo.com/"]
 beta.tw.news.yahoo.com###navigation a[href^="http://tw.rd.yahoo.com/referurl/"]
 tw.yahoo.com##.admod
-tw.yahoo.com###eyebrow>a:not(#sethomepage)
+tw.yahoo.com###eyebrow > a:not(#sethomepage)
 tw.yahoo.com##.newsad
-tw.yahoo.com##.colpadding>div.tabmd
+tw.yahoo.com##.colpadding > div.tabmd
 tw.yahoo.com###ticker
 !-buy.yahoo.com.tw
 @@/ads/*$image,domain=buy.yahoo.com.tw
@@ -885,9 +885,9 @@ zongheng.com###wlqz
 
 !----------------------------Generic(sort by domain name)--
 !---Blog Sites
-cwyuni.tw##div.article-content>script + p
-cwyuni.tw##div#banner>h2
-cwyuni.tw##div#links-row-1>div[id^="box"]:not(#box32499):not(#box533632)
+cwyuni.tw##div.article-content > script + p
+cwyuni.tw##div#banner > h2
+cwyuni.tw##div#links-row-1 > div[id^="box"]:not(#box32499):not(#box533632)
 itopdog.cn##[class^="ad"]
 itopdog.cn##[id^="itopdog_ad-"]
 ||images.ixiqi.com/images/valentine2011-banner.gif
@@ -955,7 +955,7 @@ jiaren.org###text-276115465
 ||adm.265g.com^
 ||313g.com/xyx/
 3dmgame.com##[class^="banner_"]
-bbs.3dmgame.com##body>table[style^="border: #CCC"]:nth-child(4)
+bbs.3dmgame.com##body > table[style^="border: #CCC"]:nth-child(4)
 ||market.52pk.com^
 ||61mole.com/js/
 ||bbs.a9vg.com/shop/js.php
@@ -985,7 +985,7 @@ ali213.net##.newright
 ||33.autohome.com.cn^$script
 ||img.autohome.com.cn/pvpv$script
 autohome.com.cn##[style^="width: 960px;"]
-autohome.com.cn##div.mainContainer>div[style^="width: 960px;"]
+autohome.com.cn##div.mainContainer > div[style^="width: 960px;"]
 ||backchina.com/banners/
 ||cankaoa.com/new/$script
 ||imgs.ccw.com.cn^*_260_80.
@@ -1021,8 +1021,8 @@ junshijia.com##.newlist7_1
 ||xinhuanet.com/classad/
 ||news.cn/js20100613/ad_01.js
 ||ashow.pcpop.com^
-www.pcpop.com##div.Content>div.l1:first-child
-www.pcpop.com##div.Content>div.r1:nth-child(2)
+www.pcpop.com##div.Content > div.l1:first-child
+www.pcpop.com##div.Content > div.r1:nth-child(2)
 ||ad.rednet.cn^
 ||sinovision.net/ui/js/adm.js
 ||singtao.com/*_ad*.js
@@ -1833,8 +1833,8 @@ av199.com,hd199.com##table[height="30"]
 cnmo.com##[id^="AD"]
 news.cnyes.com##[class^="ad"]
 crsky.com##[id$="_TL"]
-dapenti.com##td.oblog_t_2>div[align="center"]
-dapenti.com##.oblog_t_4>a>img
+dapenti.com##td.oblog_t_2 > div[align="center"]
+dapenti.com##.oblog_t_4 > a > img
 downg.com##.content.ad-b950x50
 chinese.engadget.com##.post[style]
 hao123.com##.middle
@@ -1853,11 +1853,11 @@ bbs.siluhd.com##img[width="850"][height="85"]
 bbs.sjtu.cn,bbs.sjtu.edu.cn,bbs6.sjtu.edu.cn##a[href^="http://adclient.dentsu.com.cn/"]
 suopao.org##.t5[style^="margin-top:8px;"]
 t17.techbang.com.tw##.promote-event
-xiachufang.com##div#sidebarblock>a
-xfastest.com##body[id^="backdrop"]>a
+xiachufang.com##div#sidebarblock > a
+xfastest.com##body[id^="backdrop"] > a
 xfastest.com##[id^="ad"]
 xfastest.com##[class^="ad"]
-xfastest.com###main-bot>.cl
+xfastest.com###main-bot > .cl
 zaobao.com###myMovie
 
 !-----------------------Temporary---------------------------
@@ -11783,7 +11783,7 @@ _cedexis.php
 ||wunderloop.aol.co.uk^
 ||wvnetworkmedia.org/min/?
 ||x.weather.com^
-||yimg.com^*/ywa.js
+||yimg.com^*/ywa.js$domain=~yahoo.com
 ||ypcdn.com/*/webyp?
 ||zemanta.com/pixy.gif?
 ! *** easylist:easyprivacy/easyprivacy_thirdparty_international.txt ***
