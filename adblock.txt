@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: xypx2r8GrV3m0yn6nL8maA
+!  Checksum: lCkVpuijLN4gPiLcGei6Xw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 10 Sep 2011 20:14:19 +0800
+!  Last Modified:  Sat, 10 Sep 2011 20:27:47 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -448,7 +448,7 @@ mydrivers.com##[id^="ad_"]
 drivers.mydrivers.com##div[align="center"]
 news.mydrivers.com##table[border="0"][width="980"][height="90"]
 www.mydrivers.com##.top + .hang1
-www.mydrivers.com##body > div.hang1:nth-child(10)
+www.mydrivers.com##body > div.hang1:nth-child(11)
 !--myfiles
 ||11.mydrivers.com/myfiles/04.js
 ||11.mydrivers.com/myfiles/myfiles100*.js
@@ -955,8 +955,8 @@ jiaren.org###text-276115465
 ||tuiguang.178.com^$script
 ||adm.265g.com^
 ||313g.com/xyx/
-||3dmgame.com/images/$object
 3dmgame.com##[class^="banner_"]
+bbs.3dmgame.com##body> table[style^="border: #CCC"]:nth-child(4)
 ||market.52pk.com^
 ||61mole.com/js/
 ||bbs.a9vg.com/shop/js.php
