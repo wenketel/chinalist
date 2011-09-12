@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: HSHkEygLTw5VMtWckat56A
+!  Checksum: 6G1qsIscKErOKF39YAGYFA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 12 Sep 2011 15:15:44 +0800
+!  Last Modified:  Mon, 12 Sep 2011 20:56:17 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -165,6 +165,7 @@ iknow.baidu.com,zhidao.baidu.com###qb-ad-cpro
 !--qiyi
 @@||afp.qiyi.com^*&local=xml|
 ^db=qiyiafp^
+||track.video.qiyi.com^
 
 !---bilibili.tv
 ||bilibili.tv/html/arcads.js
@@ -384,6 +385,7 @@ ifeng.com##[class^="adList"]
 ifeng.com##[id^="couplet3_"]
 ifeng.com##[id^="flash_outer_"]
 ifeng.com###StreamMediaWrap
+bbs.ifeng.com###box[style="height: 206px;"]
 finance.ifeng.com##.cultureService
 finance.ifeng.com###final_head_ad
 finance.ifeng.com##.maidunbox
@@ -975,6 +977,7 @@ ali213.net##.newright
 !---Net Disks
 /tjj/*$domain=115.com
 ||115img.com/static/modules/js/tjj.js
+||static.115img.com/static/delivery/*
 ||d.namipan.com/inc_js/$script
 ||img.rayfile.com/scr/$script
 ||rayfile.com/_.gif?vid
