@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: XUj6TEBwWsur8oWtCcm+Ag
+!  Checksum: gzRt19t89od8Bqk8+RiemA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 14 Sep 2011 21:09:40 +0800
+!  Last Modified:  Thu, 15 Sep 2011 10:10:05 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -222,7 +222,7 @@ chinatimes.com##.ad
 cnbeta.com###fm_r
 cnbeta.com###userInfo
 cnbeta.com##div.newslist > dl > dd.detail > em
-cnbeta.com###sideBar > div#votes:nth-child(7)
+cnbeta.com###sideBar > div#votes:nth-child(8)
 
 !---CSDN
 ||csdn.net/1341df/csdn_ggmm.js
@@ -1878,8 +1878,6 @@ zaobao.com###myMovie
 
 !-----------------------EasyList----------------------------
 ! *** easylist:easylist/easylist_general_block.txt ***
--ads-management/
-/adrotate/*
 &ad_keyword=
 &ad_type_
 &adcount=
@@ -1914,6 +1912,7 @@ zaobao.com###myMovie
 -adhelper.
 -adimage-
 -adrotation.
+-ads-management/
 -ads-manager/
 -adserver-
 -adserver/
@@ -2390,6 +2389,7 @@ zaobao.com###myMovie
 /adroller.
 /adroot/*
 /adrot.
+/adrotate/*
 /adrotator.
 /adrotator/*
 /adrotv2.
@@ -2677,6 +2677,13 @@ zaobao.com###myMovie
 /adunit.
 /adunit/*
 /adunits/*
+/adv/managers/*
+/adv1.
+/adv2.
+/adv3.
+/adv4.
+/adv5.
+/adv_flash.
 /advaluewriter.
 /adver.
 /adverserve.
@@ -2736,6 +2743,7 @@ zaobao.com###myMovie
 /advision.
 /advolatility.
 /advpartnerinit.
+/advzones/*
 /adwords/*
 /adworks.
 /adworks/*
@@ -2840,6 +2848,7 @@ zaobao.com###myMovie
 /banners.*&iframe=
 /banners/ad_
 /banners/ads-
+/banners/adv_
 /banners/promo/*
 /banners_rotation.
 /bannerscript/*
@@ -3725,6 +3734,8 @@ zaobao.com###myMovie
 /zanox_ad/*
 ://a.ads.
 ://ads.
+://adv-banner.
+://adv.
 ://banners.$third-party
 ://bwp.*/search
 ://feeds.*/~a/
@@ -3929,7 +3940,6 @@ _tribalfusion.
 _videoad.
 _webad.
 ! Dimensions
-_120_60.
 -120x60-
 -120x60.
 -120x600-
@@ -4024,6 +4034,7 @@ _120_60.
 /top468.html
 /top728.html
 /top728x90.
+_120_60.
 _120x60.
 _120x600.
 _120x600_
@@ -4852,7 +4863,9 @@ _a468x60.
 ###ads728bottom
 ###ads728top
 ###ads790
+###adsContent
 ###adsDisplay
+###adsHeader
 ###adsID
 ###ads_160
 ###ads_300
@@ -4975,8 +4988,12 @@ _a468x60.
 ###adtophp
 ###adtxt
 ###adv-masthead
+###adv300bottom
+###adv300top
+###adv728
 ###adv_google_300
 ###adv_google_728
+###adv_sky
 ###adv_top_banner_wrapper
 ###adver1
 ###adver2
@@ -5057,7 +5074,10 @@ _a468x60.
 ###adverts-top-right
 ###advertsingle
 ###advertspace
+###advheader
 ###advt
+###advtext
+~tirebusiness.com###advtop
 ###adwhitepaperwidget
 ###adwin_rec
 ###adwith
@@ -5342,6 +5362,7 @@ _a468x60.
 ###cubead
 ###cubead-2
 ###currencies-sponsored-by
+###custom-advert-leadboard-spacer
 ###dAdverts
 ###dItemBox_ads
 ###dart_160x600
@@ -5993,6 +6014,7 @@ _a468x60.
 ###sidebar-ad-wrap
 ###sidebar-ad3
 ~gaelick.com###sidebar-ads
+###sidebar-adv
 ###sidebar2ads
 ###sidebar_ad
 ###sidebar_ad_widget
@@ -6297,6 +6319,7 @@ _a468x60.
 ##.AD_MOVIE_ITEM
 ##.AD_MOVIE_ITEMLIST
 ##.AD_MOVIE_ITEMROW
+##.ADbox
 ##.Ad-300x100
 ##.Ad-Container-976x166
 ##.Ad-Header
@@ -6536,6 +6559,7 @@ _a468x60.
 ##.ad-island
 ##.ad-label
 ##.ad-leaderboard
+##.ad-left
 ~guloggratis.dk##.ad-links
 ##.ad-lrec
 ##.ad-medium
@@ -7239,6 +7263,7 @@ _a468x60.
 ##.adtxtlinks
 ##.adunit
 ##.adv-mpu
+##.adv_banner_hor
 ##.adver
 ##.adverTag
 ##.adverTxt
@@ -7266,6 +7291,7 @@ _a468x60.
 ##.advert300x250
 ##.advert300x300
 ##.advert300x440
+##.advert350ih
 ##.advert4
 ##.advert5
 ##.advert8
@@ -7352,7 +7378,7 @@ _a468x60.
 ##.advertisment_two
 ##.advertize
 ##.advertize_here
-~1und1.de,~gmx.at,~gmx.de,~gmx.net,~web.de##.advertorial
+~1und1.de,~deejay.it,~gmx.at,~gmx.de,~gmx.net,~web.de##.advertorial
 ##.advertorial-2
 ##.advertorial-promo-box
 ##.advertorial_red
@@ -7420,6 +7446,7 @@ _a468x60.
 ##.banner-468x60
 ##.banner-ad
 ##.banner-ads
+##.banner-adv
 ##.banner-advert
 ##.banner-adverts
 ##.banner-buysellads
@@ -9546,6 +9573,7 @@ _a468x60.
 ||prod.untd.com^$third-party
 ||profitpeelers.com^$third-party
 ||projectwonderful.com^$third-party
+||promotionoffer.mobi^$third-party
 ||promotiontrack.mobi^$third-party
 ||proximic.com^$third-party
 ||psclicks.com^$third-party
@@ -9836,7 +9864,6 @@ _a468x60.
 ||smaato.net^$third-party
 ||waptrick.com^$third-party
 ! *** easylist:easylist/easylist_thirdparty.txt ***
-||booking.com^*;tmpl=banner_
 ||000webhost.com/images/banners/
 ||1-in-a-million.com/banners/
 ||110mb.com/images/banners/
@@ -9955,6 +9982,7 @@ _a468x60.
 ||bloodstock.uk.com/affiliates/
 ||bluhostedbanners.blucigs.com^
 ||booking.com/general.html?$third-party
+||booking.com^*;tmpl=banner_
 ||bordernode.com/images/$third-party
 ||box.anchorfree.net^
 ||bpath.com/affiliates/
@@ -10418,6 +10446,7 @@ _a468x60.
 /aa.php?anuid=
 /add_page_view?
 /adlogger_tracker.js?
+/adlogger_tracker.php
 /afrpt.gif?
 /aggbug.aspx?
 /analysis-logger/logger?
@@ -10464,6 +10493,7 @@ _a468x60.
 /cgi-bin/ctasp-server.cgi?
 /cgi-bin/ivw-ssl/*
 /cgi-bin/ivw/*
+/cgi-bin/online/uos.cgi?
 /cgi-bin/pagedot.gif?
 /cgi-bin/vdz/cp/*
 /cgi-sys/count.cgi?df=
@@ -11247,6 +11277,7 @@ _cedexis.php
 ||signup-way.com^$third-party
 ||simpli.fi^$third-party
 ||singlefeed.com^$third-party
+||sitebro.net^$third-party
 ||sitecompass.com^$third-party
 ||siteimprove.com^$third-party
 ||sitemeter.com^$third-party
@@ -11447,7 +11478,6 @@ _cedexis.php
 ||affiliate.godaddy.com^
 ||afrigator.com/track/
 ||agencytradingdesk.net/watsontracker/
-||aiya.com.cn/stat.js
 ||akamai.com/crs/lgsitewise.js
 ||akamai.net^*/hints.netflame.cc/
 ||akamai.net^*/tracking/clicktracking.js
@@ -11714,7 +11744,6 @@ _cedexis.php
 ||southafricahome.com/statsmodulev2/
 ||spaceprogram.com/webstats/
 ||sparklit.com/counter/
-||stat.easydate.biz^
 ||statistics.infowap.info^
 ||statistics.wibiya.com^
 ||stats.big-boards.com^
@@ -11844,10 +11873,21 @@ _cedexis.php
 ||nstat.tudou.com^
 ||soufun.com/click/
 ||soufun.com/stats/
-||stat.caijing.com.cn^
-||stat.tudou.com^
 ||stats.tudou.com^
 ||titan24.com/scripts/stats.js
 ||webd.home.news.cn/1.gif?
+!-----------------additional for ChinaList Lazy-------------
+||espn.vad.go.com^$domain=youtube.com
+||google.com/jsapi?autoload=*%22ads%22$script,domain=youtube.com
+||ytimg.com^*_banner$domain=youtube.com
+youtube.com##.promoted-videos
+youtube.com##.watch-extra-info-column
+youtube.com##.watch-extra-info-right
+youtube.com##a[href^="http://www.youtube.com/cthru?"]
+youtube.com###feedmodule-PRO
+youtube.com###homepage-chrome-side-promo
+youtube.com###search-pva
+youtube.com###watch-branded-actions
+youtube.com###watch-buy-urls
 
 !------------------------End of List-------------------------

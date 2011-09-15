@@ -178,6 +178,8 @@ namespace ABPUtils
                     }
 
                     Console.ForegroundColor = ConsoleColor.Green;
+                    if (patchconfig.NewItems.Count > 0)
+                        sBuilder.AppendLine("!-----------------additional for ChinaList Lazy-------------");
                     foreach (var item in patchconfig.NewItems)
                     {
                         sBuilder.AppendLine(item);

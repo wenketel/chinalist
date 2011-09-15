@@ -51,9 +51,25 @@
     <string>||widgethost.com/pax/counter.js?</string>
     <string>@@||www.yyets.com^$elemhide</string>
     <string>||sitebro.com^$third-party</string>
-    <string>||sitebro.net^$third-party</string>
+    <string>||aiya.com.cn/stat.js</string>
+    <string>||stat.easydate.biz^</string>
+    <string>||stat.caijing.com.cn^</string>
+    <string>||stat.tudou.com^</string>
   </RemovedItems>
-  <NewItems />
+  <NewItems>
+  	<string>||espn.vad.go.com^$domain=youtube.com</string>
+  	<string>||google.com/jsapi?autoload=*%22ads%22$script,domain=youtube.com</string>
+  	<string>||ytimg.com^*_banner$domain=youtube.com</string>
+  	<string>youtube.com##.promoted-videos</string>
+  	<string>youtube.com##.watch-extra-info-column</string>
+  	<string>youtube.com##.watch-extra-info-right</string>
+  	<string>youtube.com##a[href^="http://www.youtube.com/cthru?"]</string>
+  	<string>youtube.com###feedmodule-PRO</string>
+  	<string>youtube.com###homepage-chrome-side-promo</string>
+  	<string>youtube.com###search-pva</string>
+  	<string>youtube.com###watch-branded-actions</string>
+  	<string>youtube.com###watch-buy-urls</string>
+  </NewItems>
   <ModifyItems>
     <ModifyItem>
       <OldItem>/socialads/*</OldItem>
