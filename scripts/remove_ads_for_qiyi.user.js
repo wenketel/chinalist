@@ -1,12 +1,11 @@
 // ==UserScript==
 // @name Qiyi ads Remover
-// @namespace gythialy@chinalist
-// @description Remove qiyi.com flash ads for ChinaList
+// @namespace https://code.google.com/p/adblock-chinalist/
 // @author Gythialy
-// @create 2011-6-16
-// @lastmodified 2011-9-09
 // @version 1.0.6
-// @updateURL:https://adblock-chinalist.googlecode.com/svn/trunk/scripts/remove_ads_for_qiyi.user.js
+// @description Remove qiyi.com flash ads for ChinaList
+// @homepage https://code.google.com/p/adblock-chinalist/
+// @updateURL https://adblock-chinalist.googlecode.com/svn/trunk/scripts/remove_ads_for_qiyi.user.js
 // @include http://*.qiyi.com/*
 // ==/UserScript==
 

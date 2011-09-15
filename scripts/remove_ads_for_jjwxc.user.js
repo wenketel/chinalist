@@ -1,17 +1,21 @@
 // ==UserScript==
 // @name jjwxc ads Remover
+// @namespace https://code.google.com/p/adblock-chinalist/
 // @author Gythialy
-// @description  Remove jjwxc.net ads for ChinaList
-// @create 2011-6-17
-// @lastmodified 2011-6-17
 // @version 1.0.1
-// @updatelog ....
-// @namespace  http://code.google.com/p/adblock-chinalist/
+// @description Remove jjwxc.net ads for ChinaList
+// @homepage https://code.google.com/p/adblock-chinalist/
+// @updateURL https://adblock-chinalist.googlecode.com/svn/trunk/scripts/remove_ads_for_jjwxc.user.js
 // @include http://www.jjwxc.net/*
 // ==/UserScript==
+
 (function() {
-	disablePop();
-	removeAds();
+	var DEBUG = 0;
+	function log(message) {
+		if (DEBUG && GM_log) {
+			GM_log(message);
+		}
+	}
 
 	function remove(elm) {
 		if (elm.snapshotItem) {
@@ -59,21 +63,24 @@
 		return null;
 	}
 
-	function disablePop() {
-		var pop = getQCookie('jj_pop_hy');
-		if (pop == null)
-			setQCookie('jj_pop_hy', 'popup', 1);
+	var pop = getQCookie('jj_pop_hy');
+	if (pop == null)
+		setQCookie('jj_pop_hy', 'popup', 1);
+
+	var script = x('//script[@event="onunload"]');
+	if (script) {
+		log(script);
+		remove(script);
 	}
 
-	function removeAds() {
-		var script = x('//script[@event="onunload"]');
-		if (script)
-			remove(script);
-		var form = x('//*[@id="pop_ads"]');
-		if (form)
-			remove(form);
-		var body = $('/body')[0];
-		if (body.hasAttribute('onclick'))
-			body.removeAttribute('onclick');
+	var form = x('//*[@id="pop_ads"]');
+	if (form) {
+		log(form);
+		remove(form);
+	}
+
+	var body = $('/body')[0];
+	if (body.hasAttribute('onclick')) {
+		body.removeAttribute('onclick');
 	}
 })();
