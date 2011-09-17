@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: xNnaliYKdSpk+aZH+MuwOA
+!  Checksum: lKMdvusZFAjAhHzcoQEFpA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 16 Sep 2011 21:32:15 +0800
+!  Last Modified:  Sat, 17 Sep 2011 12:50:12 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -262,7 +262,7 @@ dict.cn###top-gg
 ~discuz.net##.a_pt
 ###ad_headerbanner
 ~xdjz.net###ads_c_tpc
-~s.163.com,~yyets.com,~zol.com.cn###focus.focus
+~s.163.com,~qq.com,~yyets.com,~zol.com.cn###focus.focus
 ###sitefocus.focus
 ~top81.jschina.com.cn,~top81.cn##[id^="ad_thread"]
 
@@ -395,6 +395,7 @@ finance.ifeng.com##.maidunbox
 ||download.it168.com/2009images/ucweb_conew1.jpg
 ||download.it168.com/jscript/bubble.js
 it168.com##[id^="ADV"]
+it168.com##table[width="668"]
 www.it168.com##div#header + div[style^="border"]
 
 !---日搜
@@ -518,7 +519,6 @@ pconline.com.cn##table[width="950"][cellspacing="0"][cellpadding="0"]
 !---PIXNET
 /blog/addvisit^
 ||pixanalytics.com^
-||ad.pixnet.net^
 ||events.pixnet.net^$subdocument
 ||api.pixnet.tv/count^
 @@||counter.pixplug.in/getcounter.php^$script
@@ -539,6 +539,7 @@ down.qiannao.com##div[style="padding: 8px;"]
 ||cj.qidian.com^$object
 ||cj.qidian.com/svnad/
 qidian.com##a[href^="http://www.qidian.com/showavd.aspx?"]
+www.qidian.com##.DH17
 www.qidian.com##[class^="gg"]
 
 !---QQ
@@ -610,6 +611,7 @@ dailynews.sina.com##.TopNav + table
 sina.com.cn##.topAD
 news.sina.com.cn###divResNewsBottom
 sh.sina.com.cn##[class^="jsad"]
+www.sina.com.cn##[class$="780x90Div"]
 www.sina.com.cn##[class^="AD"]
 www.sina.com.cn##.cleft
 www.sina.com.cn##div#PartA > div.left > div:not(#sina_house_link9)
@@ -856,6 +858,7 @@ ynet.com###ta01
 ||lstat.youku.com^
 ||v*.atm.youku.com^
 ||static.atm.youku.com^*/popup.js
+||minisite2.youku.com/kingsoft/search.html$third-party
 
 !---人人影视
 ||fujian.yyets.com/forumid_166/$domain=~www.yyets.com
@@ -1028,7 +1031,6 @@ junshijia.com##.newlist7_1
 ||ashow.pcpop.com^
 www.pcpop.com##div.Content > div.l1:first-child
 www.pcpop.com##div.Content > div.r1:nth-child(2)
-||ad.rednet.cn^
 ||sinovision.net/ui/js/adm.js
 ||singtao.com/*_ad*.js
 ||singtao.com/js/ecard.js
@@ -1369,8 +1371,9 @@ www.subpig.net##.a_mu
 webkaka.com###Table1
 ||weiphone.com/baidu.html?id=
 bbs.weiphone.com##[id^="ads_"]
-||win7china.com/Script/win7elements/
-win7china.com##.site_ad
+/script/*$subdocument,domain=win7china.com|win8china.com
+win7china.com,win8china.com##.hot_down
+win7china.com,win8china.com##.site_ad
 ||a.wm090.com/biz_icon/
 /aggd/*$domain=xishuiw.com|xishuiw.net
 ||xitek.com/newsite/mojs.php?
@@ -1478,6 +1481,7 @@ xitek.com##[id^="mo"]
 ||8601098.com^$third-party
 ||88210212.com^$third-party
 ||885ad.com^$third-party
+||8cnd.com^$third-party
 ||8le8le.com^$third-party
 ||www.8peng.com^$third-party
 ||9165.net^$third-party
@@ -1558,7 +1562,6 @@ xitek.com##[id^="mo"]
 ||dmclick.cn^$third-party
 ||dotmore.com.tw^$third-party
 ||doubleadv.com^$third-party
-||ad.hk.doubleclick.net^$third-party
 ||doublepimp.com^$third-party
 ||u.www.duba.net^$third-party
 ||dyunion.net^$third-party
@@ -1618,7 +1621,6 @@ xitek.com##[id^="mo"]
 ||kucent.com^$third-party
 ||kuqi.com^$third-party
 ||cluclick.leshu.com^$third-party
-||ad.lifeshow.com.tw^$third-party
 ||love12.tw^$third-party
 ||maxreturn.cn^$third-party
 ||mediav.com^$third-party
@@ -1707,6 +1709,7 @@ xitek.com##[id^="mo"]
 ||urlad.com.tw^$third-party
 ||vadcast.com^$third-party
 ||v-links.net^$third-party
+||vipads.cn^$third-party
 ||s.vipcnzz.com^$third-party
 ||vjia.com^$third-party
 ||vodone.cn^$third-party
@@ -1778,6 +1781,7 @@ xitek.com##[id^="mo"]
 /guangg/*
 /guanggao.
 /guanggao/*
+|http://ad.
 |http://*/*_ad.js
 |http://*/js/ad/
 |http://gg.$~stylesheet
@@ -1812,7 +1816,6 @@ xitek.com##[id^="mo"]
 /tracking.
 /usertrack.
 !--sort by domain
-||114la.com^$third-party
 ||51img.ajiang.net^
 ||blog104.com^$third-party
 ||blogtw.net^$third-party
