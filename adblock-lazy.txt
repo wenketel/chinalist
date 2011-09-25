@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: aX3OxLI64tOKJfgDAFl/Ug
+!  Checksum: xkqWHUvZuEZBqZm2jlSYyw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 22 Sep 2011 11:22:00 +0800
+!  Last Modified:  Sun, 25 Sep 2011 10:51:20 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -977,6 +977,7 @@ ali213.net##.newright
 /tjj/*$domain=115.com
 ||115img.com/static/modules/js/tjj.js
 ||static.115img.com/static/delivery/*
+||static.ctdisk.com/cpv/cpv.js
 ||d.namipan.com/inc_js/$script
 ||img.rayfile.com/scr/$script
 ||rayfile.com/_.gif?vid
@@ -1875,7 +1876,7 @@ zaobao.com###myMovie
 ||bbs.goapk.com/xda_jinzi/ZTE.gif
 ||blog.hi.mop.com/flash/830-310.swf
 ||nanrenwa.com/_img/a/$third-party
-
+||download.note.sdo.com/res/33aea74a-2095-4a10-bb8f-c802e7cdab75
 !-----------------------EasyList----------------------------
 ! *** easylist:easylist/easylist_general_block.txt ***
 &ad_keyword=
@@ -1891,6 +1892,7 @@ zaobao.com###myMovie
 &adurl=
 &adv_keywords=
 &advertiserid=
+&advtile=
 &googleadword=
 &largead=
 &popunder=
@@ -2069,6 +2071,7 @@ zaobao.com###myMovie
 /ad.mason?
 /ad.php?
 /ad.php|
+/ad/banner.
 /ad/files/*
 /ad/generate?
 /ad/google/*
@@ -3727,6 +3730,7 @@ zaobao.com###myMovie
 /wp-content/mbp-banner/*
 /wp-content/plugins/bhcb/lock.js
 /wp-content/plugins/fasterim-optin/*
+/wp-content/plugins/popup-domination/*
 /wp-srv/ad/*
 /wpads/iframe.
 /writelayerad.
@@ -3863,7 +3867,7 @@ _adshare.
 _adshow.
 _adsjs.
 _adskin.
-_adsmanager/
+_adsmanager/$~stylesheet
 _adsrv?
 _adsys.
 _adtech/
@@ -5016,8 +5020,12 @@ _a468x60.
 ###adv728
 ###adv_300
 ###adv_728
+###adv_border
 ###adv_google_300
 ###adv_google_728
+###adv_halfpage
+###adv_halfpage_title
+###adv_leaderboard
 ###adv_sky
 ###adv_top_banner_wrapper
 ###adver1
@@ -6589,6 +6597,7 @@ _a468x60.
 ##.ad-google
 ##.ad-graphic-large
 ##.ad-gray
+##.ad-grey
 ##.ad-hdr
 ##.ad-head
 ##.ad-header
@@ -7302,6 +7311,7 @@ _a468x60.
 ##.adtile
 ##.adtips
 ##.adtips1
+##.adtitle
 ##.adtop
 ##.adtravel
 ##.adtxt
@@ -7444,6 +7454,7 @@ _a468x60.
 ##.advt-sec
 ##.advt300
 ##.advt720
+##.advtitle
 ##.adwhitespace
 ##.adwordListings
 ##.adwords
@@ -7614,6 +7625,8 @@ _a468x60.
 ##.box_ad_spacer
 ##.box_ad_wrap
 ##.box_ads
+##.box_adv
+##.box_adv_new
 ##.box_advertising
 ##.box_advertisment_62_border
 ##.box_content_ad
@@ -7712,7 +7725,7 @@ _a468x60.
 ##.containerSqAd
 ##.container_serendipity_plugin_google_adsense
 ##.content-ad
-##.content-ads
+~spottingworld.com##.content-ads
 ##.content-advert
 ~theology.edu##.contentAd
 ##.contentAdFoot
@@ -8149,7 +8162,7 @@ _a468x60.
 ##.mod-adopenx
 ##.mod-vertical-ad
 ##.mod_admodule
-~corrieredicomo.it##.module-ad
+~corrierecomo.it,~corrieredicomo.it##.module-ad
 ##.module-ad-small
 ##.module-ads
 ##.module-sponsored-ads
@@ -9278,7 +9291,7 @@ _a468x60.
 ||doubleclick.net/pfadx/*.sevenload.com_$object-subrequest,third-party
 ||doubleclick.net/pfadx/*adcat=$object-subrequest,third-party
 ||doubleclick.net/pfadx/nbcu.nbc/$object-subrequest,third-party
-||doubleclick.net^$object-subrequest,third-party,domain=abc15.com|abc2news.com|abcactionnews.com|addictinggames.com|atom.com|bbc.co.uk|bicycling.com|bloomberg.com|businessweek.com|cbs19.tv|cbs3springfield.com|cbs4denver.com|cbsatlanta.com|cbsnews.com|click2houston.com|clickorlando.com|cnbc.com|collegehumor.com|couriermail.com.au|dailytelegraph.com.au|darkhorizons.com|dorkly.com|doubleviking.com|eonline.com|fandango.com|fox5vegas.com|foxbusiness.com|foxcarolina.com|g4tv.com|gamespot.com|gametrailers.com|globalnational.com|globalnews.ca|gorillanation.com|hulu.com|independent.ie|joblo.com|kcci.com|kcra.com|kctv5.com|ketv.com|kjrh.com|koat.com|koco.com|kpho.com|kptv.com|ksat.com|ksbw.com|listen.grooveshark.com|local10.com|mtv.co.uk|mtv.com|mtv.com.au|mtv.com.nz|mtvbase.com|mtvmusic.com|my9tv.com|myfoxorlando.com|myfoxphoenix.com|myfoxtampabay.com|nbcactionnews.com|necn.com|neopets.com|news.com.au|news4jax.com|newsnet5.com|newsweek.com|nfl.com|nick.com|nintendoeverything.com|npr.org|own3d.tv|pandora.com|photoradar.com|play.it|ps3news.com|radio.com|reuters.com|rte.ie|sbs.com.au|sbsun.com|sevenload.com|shacknews.com|shockwave.com|sk-gaming.com|smh.com.au|southpark.nl|southparkstudios.com|southparkstudios.se|space.com|spike.com|syfy.com|theage.com.au|theaustralian.com.au|thebostonchannel.com|thedailygreen.com|thedailyshow.com|thedenverchannel.com|theindychannel.com|theinquirer.net|thewire.com|turnto23.com|tv3winchester.com|ufc.com|ustream.tv|videojug.com|wapt.com|washingtonpost.com|wate.com|wbaltv.com|wcbstv.com|wcpo.com|wdsu.com|wetransfer.com|wfsb.com|wgal.com|wired.com|wisn.com|wkbw.com|wlky.com|wlns.com|wlwt.com|wmur.com|wnem.com|wowt.com|wptv.com|wral.com|wsj.com|wsmv.com|wtae.com|wwe.com|wxii12.com|wxyz.com|wyff4.com|youtube.com|zappinternet.com|zoomin.tv
+||doubleclick.net^$object-subrequest,third-party,domain=abc15.com|abc2news.com|abcactionnews.com|addictinggames.com|atom.com|bbc.co.uk|bicycling.com|bloomberg.com|businessweek.com|cbs19.tv|cbs3springfield.com|cbs4denver.com|cbsatlanta.com|cbsnews.com|click2houston.com|clickorlando.com|cnbc.com|collegehumor.com|couriermail.com.au|current.com|dailytelegraph.com.au|darkhorizons.com|dorkly.com|doubleviking.com|eonline.com|fandango.com|fox5vegas.com|foxbusiness.com|foxcarolina.com|g4tv.com|gamespot.com|gametrailers.com|globalnational.com|globalnews.ca|gorillanation.com|hulu.com|independent.ie|joblo.com|kcci.com|kcra.com|kctv5.com|ketv.com|kjrh.com|koat.com|koco.com|kpho.com|kptv.com|ksat.com|ksbw.com|listen.grooveshark.com|local10.com|mtv.co.uk|mtv.com|mtv.com.au|mtv.com.nz|mtvbase.com|mtvmusic.com|my9tv.com|myfoxorlando.com|myfoxphoenix.com|myfoxtampabay.com|nbcactionnews.com|necn.com|neopets.com|news.com.au|news4jax.com|newsnet5.com|newsweek.com|nfl.com|nick.com|nintendoeverything.com|npr.org|own3d.tv|pandora.com|photoradar.com|play.it|ps3news.com|radio.com|reuters.com|rte.ie|sbs.com.au|sbsun.com|sevenload.com|shacknews.com|shockwave.com|sk-gaming.com|smh.com.au|southpark.nl|southparkstudios.com|southparkstudios.se|space.com|spike.com|syfy.com|theage.com.au|theaustralian.com.au|thebostonchannel.com|thedailygreen.com|thedailyshow.com|thedenverchannel.com|theindychannel.com|theinquirer.net|thewire.com|turnto23.com|tv3winchester.com|ufc.com|ustream.tv|videojug.com|wapt.com|washingtonpost.com|wate.com|wbaltv.com|wcbstv.com|wcpo.com|wdsu.com|wetransfer.com|wfsb.com|wgal.com|wired.com|wisn.com|wkbw.com|wlky.com|wlns.com|wlwt.com|wmur.com|wnem.com|wowt.com|wptv.com|wral.com|wsj.com|wsmv.com|wtae.com|wwe.com|wxii12.com|wxyz.com|wyff4.com|youtube.com|zappinternet.com|zoomin.tv
 ||doubleclick.net^$~object-subrequest,third-party
 ||doubleclick.net^*;sz=$object-subrequest,third-party,domain=10news.com|1up.com|39online.com|abc26.com|baltimoresun.com|bet.com|break.com|breitbart.tv|cbc.ca|cltv.com|courant.com|ct.com|dailystar.co.uk|digitaltrends.com|four.co.nz|fox17online.com|fox40.com|fox59.com|fox5sandiego.com|foxnews.com|france24.com|gamesradar.com|heavy.com|indianas4.com|kdvr.com|ktla.com|kwgn.com|ky3.com|latimes.com|muzu.tv|myfoxatlanta.com|myfoxny.com|myspace.com|nationalgeographic.com|nbc.com|nbcsandiego.com|news.com.au|nhl.com|nypost.com|player.amri.ca|rapbasement.com|sun-sentinel.com|the33tv.com|tv3.co.nz|wgnradio.com|wgntv.com|wpix.com|wtvr.com
 ||doublepimp.com^$third-party
@@ -9739,6 +9752,7 @@ _a468x60.
 ||specificmedia.com^$third-party
 ||speedsuccess.net^$third-party
 ||spinbox.freedom.com^$third-party
+||splinky.com^$third-party
 ||spongecell.com^$third-party
 ||sponsorads.de^$third-party
 ||sponsoredtweets.com^$third-party
@@ -9879,6 +9893,7 @@ _a468x60.
 ||wfnetwork.com^$third-party
 ||wgreatdream.com^$third-party
 ||widgetadvertising.biz^$third-party
+||widgetbanner.mobi^$third-party
 ||widgetbucks.com^$third-party
 ||widgets.fccinteractive.com^$third-party
 ||wigetmedia.com^$third-party
@@ -10183,6 +10198,7 @@ _a468x60.
 ||gamestop.com^*/aflbanners/
 ||gateway.fortunelounge.com^
 ||gawkerassets.com/assets/marquee/$object,third-party
+||geobanner.passion.com^
 ||geostring.com/banners/
 ||get.2leep.com^$third-party
 ||get.box24casino.com^$third-party
@@ -10331,7 +10347,6 @@ _a468x60.
 ||oron.com/img/banners/
 ||ox-d.mediamark.co.za^
 ||pagead2.googlesyndication.com^$~object-subrequest
-||pantherssl.com/banners/
 ||partner.bargaindomains.com^
 ||partner.catchy.com^
 ||partner.e-conomic.com^$third-party
@@ -11636,6 +11651,7 @@ _cedexis.php
 ||clickstream.loomia.com^
 ||clicktale.pantherssl.com^
 ||clicktracks.aristotle.net^
+||cloudfront.net/atrk.js
 ||cloudfront.net/tracker.js
 ||cnt.mastorage.net^
 ||collection.acromas.com^
