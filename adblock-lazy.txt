@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: WqSvftiRM3MBmWq3MDX5uQ
+!  Checksum: U/JLPpfBWXygdJ6VEfyMmw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 26 Sep 2011 21:35:12 +0800
+!  Last Modified:  Tue, 27 Sep 2011 11:30:38 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -2026,6 +2026,7 @@ zaobao.com###myMovie
 .za/ads/
 .zw/ads/
 /120ad.
+/120ads/*
 /2010/ads/*
 /2011/ads/*
 /300x250advert.
@@ -2589,6 +2590,7 @@ zaobao.com###myMovie
 /adsfolder/*
 /adsframe.
 /adshandler.
+/adshare/*
 /adshare3.
 /adsheader.
 /adshop/*
@@ -2688,7 +2690,6 @@ zaobao.com###myMovie
 /adunit.
 /adunit/*
 /adunits/*
-/adv.asp
 /adv02.
 /adv03.
 /adv1.
@@ -3757,7 +3758,6 @@ zaobao.com###myMovie
 ://a.ads.
 ://ads.
 ://adv-banner.
-://adv.
 ://banners.$third-party
 ://bwp.*/search
 ://feeds.*/~a/
@@ -4856,6 +4856,7 @@ _a468x60.
 ###adright
 ###adright2
 ###adrighthome
+###ads-250
 ###ads-468
 ###ads-area
 ###ads-block
@@ -4924,6 +4925,7 @@ _a468x60.
 ###ads_space
 ###ads_text
 ###ads_top
+###ads_topbanner
 ###ads_watch_top_square
 ###ads_zone27
 ###adsbottom
@@ -5018,8 +5020,16 @@ _a468x60.
 ###adtxt
 ###adv-300
 ###adv-leaderboard
+###adv-left
 ###adv-masthead
+###adv-middle
 ###adv-mpux
+###adv-x36
+###adv-x37
+###adv-x38
+###adv-x39
+###adv-x40
+###adv1
 ###adv300bottom
 ###adv300top
 ###adv728
@@ -9959,6 +9969,58 @@ _a468x60.
 ||mojiva.com^$third-party
 ||smaato.net^$third-party
 ||waptrick.com^$third-party
+! *** easylist:easylist_adult/adult_adservers.txt ***
+||173.245.86.115^$domain=~yobt.com.ip
+||777-partner.com^$third-party
+||777partner.com^$third-party
+||adult-profit-files.com^$third-party
+||adultpopunders.com^$third-party
+||advmania.com^$third-party
+||adxpansion.com^$third-party
+||belasninfetas.org^$third-party
+||camads.net^$third-party
+||campartner.com^$third-party
+||cash-program.com^$third-party
+||cdn.nsimg.net^$third-party
+||clickthruserver.com^$third-party
+||clicktrace.info^$third-party
+||coldhardcash.com^$third-party
+||crocoads.com^$third-party
+||danzabucks.com^$third-party
+||data-ero-advertising.com^$third-party
+||datingfactory.com^$third-party
+||enoratraffic.com^$third-party
+||fncash.com^$third-party
+||funcel.mobi^$third-party
+||gridlockparadise.com^$third-party
+||hentaibiz.com^$third-party
+||highnets.com^$third-party
+||hotsocials.com^$third-party
+||jackao.net^$third-party
+||juicyads.com^$third-party
+||lovercash.com^$third-party
+||mediagra.com^$third-party
+||naiadsystems.com^$third-party
+||otherprofit.com^$third-party
+||plugrush.com^$third-party
+||porkolt.com^$third-party
+||sascentral.com^$third-party
+||sexdatecash.com^$third-party
+||sexsearch.com^$third-party
+||sextracker.com^$third-party
+||socialsexnetwork.net^$third-party
+||startwebpromo.com^$third-party
+||sv2.biz^$third-party
+||targetingnow.com^$third-party
+||tinyweene.com^$third-party
+||tubedspots.com^$third-party
+||twistyscash.com^$third-party
+||webcambait.com^$third-party
+||whaleads.com^$third-party
+||xfuckbook.com^$third-party
+||xhamstercams.com^$third-party
+||xxxlnk.com^$third-party
+||yfum.com^$third-party
 ! *** easylist:easylist/easylist_thirdparty.txt ***
 ||000webhost.com/images/banners/
 ||1-in-a-million.com/banners/
@@ -10549,6 +10611,79 @@ _a468x60.
 ||ziffdavisenterprise.com/contextclicks/
 ! Mobile
 ||iadc.qwapi.com^
+! *** easylist:easylist_adult/adult_thirdparty.txt ***
+||213.174.140.76^*/ads/
+||213.174.140.76^*/js/msn-$script
+||213.174.140.76^*/js/msn.js
+||ad.iloveinterracial.com^
+||adultartnetwork.com/banners/
+||adultdvd.com/plugins/*/store.html$third-party
+||affiliates.thrixxx.com^
+||br.realitykings.com^
+||brazzers.com/ads/
+||cwgads.com/launch.js$third-party
+||cwgads.com^$~script,third-party
+||daredorm.com^$subdocument,third-party
+||datefree.com^$third-party
+||ddstatic.com^*/banners/
+||delivery.yourfuckbook.com^
+||easy-dating.org/promo/$third-party
+||eliterotica.com/images/banners/
+||facialabuse.com/banners/
+||feeds.videosz.com^$subdocument,third-party
+||ff.nsg.org.ua^
+||fleshlight.com/images/banners/
+||fleshlight.com/images/peel/
+||fuckhub.net^*?pid=$third-party
+||geobanner.getiton.com^
+||geobanner.socialflirt.com^
+||girls-home-alone.com/dating/
+||hentaikey.com/images/banners/
+||hotcaracum.com/banner/
+||imageshack.us^$domain=fapscreens.com
+||imglb.yobihost.com^
+||kaktuz.com/td/js/kaksvpopup.js
+||mallcom.com/simages/
+||manhunt.net/?dm=$third-party
+||media.eurolive.com^$third-party
+||media.mykocam.com^$third-party
+||media.mykodial.com^$third-party
+||mofomedia.nl/pop-*.js
+||mrvids.com/network/$third-party
+||naked.com/promos/$third-party
+||nakedshygirls.com/bannerimg/
+||nastydollars.com/vbanners/
+||nude.hu/html/$third-party
+||nudemix.com/widget/
+||partners.yobt.com^$third-party
+||paydir.com/images/bnr
+||pod.manplay.com^$third-party
+||popit.mediumpimpin.com^
+||premiumhdv.com/bn/
+||premiumhdv.com^$subdocument,third-party
+||privatamateure.com/promotion/
+||promo.adult-empire.com^
+||promo.badoink.com^
+||promos.meetlocals.com^
+||rawtubelive.com/exports/$third-party
+||realitykings.com/vbanners/
+||red-tube.com/dynbanner.php?
+||secretbehindporn.com^$subdocument,third-party
+||sextronix.com/b/
+||sexy.fling.com^$third-party
+||sexycams.com/exports/$third-party
+||share-image.com/borky/
+||sleepgalleries.com/recips/$third-party
+||smutmodels.com/banners/
+||streamen.com/exports/$third-party
+||swurve.com/affiliates/
+||thrixxx.com/scripts/show_banner.php?
+||tubefck.com^*/adawe.swf
+||xlovecam.com/acwm/
+||xnxx.com^$third-party
+||youfck.com^*/adawe.swf
+||youpornmate.com/dif/?cid=$third-party
+||ztod.com/flash/wall2.swf
 
 !-----------------------EasyPrivacy----------------------------
 ! *** easylist:easyprivacy/easyprivacy_dnt.txt ***
@@ -10820,6 +10955,7 @@ _a468x60.
 /wp-clickmap/*
 /wp-content/plugins/stats/count.php?
 /wp-counter.php
+/wp-js/analytics.js?
 /wp-powerstat/*
 /wp-slimstat/*
 /wt_capi.js
@@ -11323,6 +11459,7 @@ _cedexis.php
 ||plecki.com^$third-party
 ||plugin.ws^$third-party
 ||pointomatic.com^$third-party
+||populis.com^$third-party
 ||ppctracking.net^$third-party
 ||prchecker.info^$third-party
 ||predicta.net^$third-party

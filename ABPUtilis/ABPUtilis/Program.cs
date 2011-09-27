@@ -13,11 +13,23 @@ namespace ABPUtils
     class Program
     {
         const string PATCH_FILE = "patch.xml";
-        const string EASYLIST = "easylist_noadult.txt";
-        const string EASYLIST_URL = "https://easylist-downloads.adblockplus.org/easylist_noadult.txt";
+        const string EASYLIST = "easylist.txt";
+        const string EASYLIST_URL = "https://easylist-downloads.adblockplus.org/easylist.txt";
         const string EASYPRIVACY = "easyprivacy.txt";
         const string EASYPRIVACY_URL = "https://easylist-downloads.adblockplus.org/easyprivacy.txt";
         const string CHINALIST_END_MARK = "!------------------------End of List-------------------------";
+        const int EASYLIST_EASYLIST_GENERAL_BLOCK = 1;
+        const int EASYLIST_EASYLIST_GENERAL_HIDE = 2;
+        const int EASYLIST_EASYLIST_ADSERVERS = 3;
+        const int EASYLIST_ADULT_ADULT_ADSERVERS = 4;
+        const int EASYLIST_EASYLIST_THIRDPARTY = 5;
+        const int EASYLIST_ADULT_ADULT_THIRDPARTY = 6;
+        const int EASYLIST_EASYLIST_SPECIFIC_BLOCK = 7;//ignore
+        const int EASYLIST_ADULT_ADULT_SPECIFIC_BLOCK = 8;//ignore
+        const int EASYLIST_EASYLIST_SPECIFIC_HIDE = 9;//ignore
+        const int EASYLIST_ADULT_ADULT_SPECIFIC_HIDE = 10;//ignore
+        const int EASYLIST_EASYLIST_WHITELIST = 11;//ignore
+        const int EASYLIST_ADULT_ADULT_WHITELIST = 12;//ignore
 
         static void Main(string[] args)
         {
@@ -334,7 +346,9 @@ namespace ABPUtils
 
                 for (int i = 1; i < t.Length; i++)
                 {
-                    if (i == 5 || i == 6 || i == 7)
+                    if (i == EASYLIST_EASYLIST_SPECIFIC_BLOCK || i == EASYLIST_ADULT_ADULT_SPECIFIC_BLOCK
+                            || i == EASYLIST_EASYLIST_SPECIFIC_HIDE || i == EASYLIST_ADULT_ADULT_SPECIFIC_HIDE
+                            || i == EASYLIST_EASYLIST_WHITELIST || i == EASYLIST_ADULT_ADULT_WHITELIST)
                         continue;
                     var s = t[i];
                     var index = s.IndexOf("!-----------------");
