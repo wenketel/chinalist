@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: vk/eM4ahMM61kl3LdTtfjg
+!  Checksum: dT1ijEPZRnI39EnxDsMDLw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 27 Sep 2011 15:22:26 +0800
+!  Last Modified:  Tue, 27 Sep 2011 15:33:29 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -610,22 +610,21 @@ www.sina.com.cn##.yleft2blk
 @@||sinaimg.cn^*/headcj.js$domain=finance.sina.com.cn
 ||finance.sina.com.cn/iframe/*.html|
 finance.sina.com.cn###adSinaHouseHeadLink
+!--house
+||d1.leju.com^$object
+||bj.house.sina.com.cn/pdps/290/2010/1201/965.js
+||sinaimg.cn/hs/zjwei/base/swf/picshow_160x90.swf
 !--sh.sina.com.cn
 ||sh.sinaimg.cn/*/ad/
 sh.sina.com.cn##[class^="jsad"]
 sh.sina.com.cn###jesse12
 sh.house.sina.com.cn##[id^="coupletAd"]
-!--house
-||d1.leju.com^$object
-||bj.house.sina.com.cn/pdps/290/2010/1201/965.js
-||sinaimg.cn/hs/zjwei/base/swf/picshow_160x90.swf
+!--sports
+||lining.sina.com.cn^$subdocument
+||p4p.sina.com.cn^
 !--大片
 ||video.sina.com.cn/iframe/$subdocument
 sina.com.cn##.adNone
-!--sports
-@@||sinaimg.cn/dy/deco/*/sinaObj.js
-||lining.sina.com.cn^$subdocument
-sports.sina.com.cn##.mt-liningad.mt-ghost
 !--sina.com.hk
 ||as.sinahk.net^
 !--sina.com.tw
