@@ -127,25 +127,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ANameRecord.cs" />
     <Compile Include="ChinaList.cs" />
-    <Compile Include="Enums.cs" />
-    <Compile Include="InvalidResponseException.cs" />
-    <Compile Include="MXRecord.cs" />
-    <Compile Include="NoResponseException.cs" />
-    <Compile Include="NSRecord.cs" />
     <Compile Include="PatchConfigurations.cs" />
-    <Compile Include="Pointer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Question.cs" />
-    <Compile Include="RecordBase.cs" />
-    <Compile Include="Request.cs" />
-    <Compile Include="Resolver.cs" />
-    <Compile Include="ResourceRecord.cs" />
-    <Compile Include="Response.cs" />
     <Compile Include="SimpleSerializer.cs" />
-    <Compile Include="SoaRecord.cs" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
