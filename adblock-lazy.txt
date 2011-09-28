@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: ljvsCYxMDXIK7EFQJH88Tg
+!  Checksum: 54MX4a1jdlnOIVyH1vDgEg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 28 Sep 2011 17:46:19 +0800
+!  Last Modified:  Wed, 28 Sep 2011 17:59:13 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -952,7 +952,9 @@ jiaren.org###text-276115465
 ||tuiguang.178.com^$script
 ||adm.265g.com^
 ||313g.com/xyx/
-3dmgame.com##[class^="banner_"]
+3dmgame.com##.banner > a > img
+3dmgame.com##.banner_1
+3dmgame.com##img[width="997"] + center
 bbs.3dmgame.com##body > table[style^="border: #CCC"]:nth-child(4)
 ||market.52pk.com^
 ||61mole.com/js/
