@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: Sl5M0jNJGZ6RiqBJJakkwA
+!  Checksum: u8qwh7bIZ5e4Zbu7diCAqg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 27 Sep 2011 15:33:29 +0800
+!  Last Modified:  Wed, 28 Sep 2011 17:46:19 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -529,7 +529,6 @@ www.qidian.com##.DH17
 www.qidian.com##[class^="gg"]
 
 !---QQ
-@@||adsrich.qq.com/web/$script,domain=news.qq.com
 @@||mb.qq.com^$elemhide
 ||mat1.gtimg.com/cq/
 ||mat1.gtimg.com/news/fbgg/
@@ -725,9 +724,11 @@ u17.com##.www_hd_middle_ct
 !---udn
 @@||video.udn.com/player/Adv.swf$object_subrequest
 @@||video.udn.com/udnad/videoad.php^$object_subrequest
+||udn.com/1024/NEWS/INCLUDE/
 ||udn.com^*/ad/
 ||udn.com^*/bd/
 ||udn.com/adpinline/
+||udn.com/images/forumimg/digad.html
 ||udn.com/NEWS/watermark_omo_2010.js
 /PROJ_AD/*$domain=udn.com
 ||event.udn.com^
@@ -1755,6 +1756,7 @@ xitek.com##[id^="mo"]
 /adsimg/*
 /adv.
 /adv/*
+/advpic/*
 /affiliate/*
 .allyes.
 /allyes.
