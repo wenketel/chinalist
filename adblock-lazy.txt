@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 54MX4a1jdlnOIVyH1vDgEg
+!  Checksum: TnjtB/GqF/rw+q2dTRLT1w
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 28 Sep 2011 17:59:13 +0800
+!  Last Modified:  Wed, 28 Sep 2011 20:14:32 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -473,9 +473,8 @@ tv.on.cc###large
 
 !---远景
 ||bbs.pcbeta.com/static/image/ADDED/
-bbs.pcbeta.com##.mbm.cl[style]
-bbs.pcbeta.com##div.bm_c.cl + div[style]
-bbs.pcbeta.com##div.mbm[style]
+bbs.pcbeta.com###forum_rules_237 + div
+bbs.pcbeta.com##.forum_top + div[style]:nth-child(3)
 
 !---PCHome.net
 ||btn.pchome.net^
