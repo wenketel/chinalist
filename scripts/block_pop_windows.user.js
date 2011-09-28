@@ -3,7 +3,7 @@
 // @namespace https://code.google.com/p/adblock-chinalist/
 // @author Gythialy
 // @version 1.0.0
-// @description disable pop windows (only for Scriptish)
+// @description disable pop windows
 // @homepage https://code.google.com/p/adblock-chinalist/
 // @updateURL https://adblock-chinalist.googlecode.com/svn/trunk/scripts/block_pop_windows.user.js
 // @include http://www.jandown.com/*

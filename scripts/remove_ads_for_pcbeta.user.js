@@ -1,0 +1,48 @@
+// ==UserScript==
+// @name pcbeta ads Remover
+// @namespace https://code.google.com/p/adblock-chinalist/
+// @author Gythialy
+// @version 1.0.0
+// @description Remove bbs.pcbeta.com ads for ChinaList
+// @homepage https://code.google.com/p/adblock-chinalist/
+// @updateURL https://adblock-chinalist.googlecode.com/svn/trunk/scripts/remove_ads_for_pcbeta.user.js
+// @include http://bbs.pcbeta.com/*
+// ==/UserScript==
+(function() {
+	var DEBUG = 0;
+	function log(message) {
+		if (DEBUG && GM_log) {
+			GM_log(message);
+		}
+	}
+
+	function x(xpath, parent, type, result) {
+		return document.evaluate(xpath, parent || document, null, type || XPathResult.ORDERED_NODE_SNAPSHOT_TYPE, result);
+	}
+
+	function remove(elm) {
+		if (elm.snapshotItem) {
+			for ( var i = 0; i < elm.snapshotLength; i++) {
+				remove(elm.snapshotItem(i));
+			}
+		} else if (elm[0]) {
+			while (elm[0]) {
+				remove(elm[0]);
+			}
+		} else {
+			elm.parentNode.removeChild(elm);
+		}
+	}
+
+	var t = x('//div[@id="wp"]/div[@style]');
+	if (t.snapshotItem(0)) {
+		var node = t.snapshotItem(0);
+		log(node.style.height);
+		if (node.style.height === '447px') {
+			node.style.height = '267px';
+		}
+	}
+
+	remove(x('//div[@style="padding:0 10px 10px;background:#d0dae4;"]/div[contains(@style,"height:90px")]'));
+	remove(x('//div[contains(@style,"height:170px")]'));
+})();

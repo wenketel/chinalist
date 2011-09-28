@@ -3,7 +3,7 @@
 // @namespace https://code.google.com/p/adblock-chinalist/
 // @author Gythialy
 // @version 1.0.1
-// @description Remove qidian.com ads for ChinaList (Only for Scriptish)
+// @description Remove qidian.com ads for ChinaList
 // @homepage https://code.google.com/p/adblock-chinalist/
 // @updateURL https://adblock-chinalist.googlecode.com/svn/trunk/scripts/remove_ads_for_qidian.user.js
 // @include http://www.qidian.com/*
@@ -28,7 +28,7 @@
 
 	document.addEventListener("DOMNodeInserted", function(e) {
 		function x(xpath, parent, type, result) {
-			return document.evaluate(xpath, parent || document, null, type || 7, result);
+			return document.evaluate(xpath, parent || document, null, type || XPathResult.ORDERED_NODE_SNAPSHOT_TYPE, result);
 		}
 
 		function remove(elm) {
