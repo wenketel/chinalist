@@ -88,5 +88,9 @@
       <OldItem>###ad_text:not(textarea)</OldItem>
       <NewItem>~www.yyets.com###ad_text:not(textarea)</NewItem>
     </ModifyItem>
+	<ModifyItem>
+      <OldItem>/img/ad/*</OldItem>
+      <NewItem>/img/ad/*$domain=~picplz.com</NewItem>
+    </ModifyItem>
   </ModifyItems>
 </PatchConfigurations>
