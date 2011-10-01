@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: x9DTxrwh9vzySEXLdsJOAQ
+!  Checksum: En9ORX8yKGAbrqPSMBkAKQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 29 Sep 2011 23:33:06 +0800
+!  Last Modified:  Sat, 01 Oct 2011 12:44:05 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -1310,7 +1310,6 @@ bbs.kafan.cn##table.header_gg
 ||lady8844.com/DA_HTML/
 ||linuxidc.com/linuxfile/
 ||linuxidc.com/linuxren/linuxren*.js
-||bbs.linuxsky.org/images/dolbar.gif
 ||sp.luo.bo^$subdocument
 ||mfxk.com^$subdocument
 ||mojim.com/htm99t/iad.js
@@ -1804,7 +1803,7 @@ xitek.com##[id^="mo"]
 |http://pv.
 |http://pvstat.
 |http://*/pv.
-|http://*/pv/$domain=~proxyvote.com|~guba.stock.sohu.com
+|http://*/pv/$~stylesheet,domain=~proxyvote.com|~guba.stock.sohu.com
 |http://*/tj.js
 |http://track.
 /ktrace/ktrace$script
@@ -2691,6 +2690,7 @@ zaobao.com###myMovie
 /adunit.
 /adunit/*
 /adunits/*
+/adv.jsp
 /adv02.
 /adv03.
 /adv1.
@@ -3430,6 +3430,7 @@ zaobao.com###myMovie
 /popad-
 /popads.
 /popads/*
+/popads_
 /popunder.
 /popunder1_
 /popunder2.
@@ -3940,6 +3941,7 @@ _mainad.
 _media/ads/
 _mmsadbanner/
 _onlinead_
+_openx.
 _openx/
 _org_ad.
 _overlay_ad.
@@ -5049,7 +5051,7 @@ _a468x60.
 ###adv_halfpage
 ###adv_halfpage_title
 ###adv_leaderboard
-###adv_sky
+~trouw.nl###adv_sky
 ###adv_top_banner_wrapper
 ###adver1
 ###adver2
@@ -5257,6 +5259,7 @@ _a468x60.
 ###bott_ad2_300
 ###bottom-ad
 ###bottom-ad-container
+###bottom-ad-tray
 ###bottom-ad-wrapper
 ###bottom-ads
 ###bottomAd
@@ -5633,7 +5636,7 @@ _a468x60.
 ###header-advertisement
 ###header-advertising
 ###header-adverts
-###headerAd
+~newgrowbook.com###headerAd
 ###headerAdBackground
 ###headerAdContainer
 ###headerAdWrap
@@ -5999,6 +6002,7 @@ _a468x60.
 ~muz.ru###right_ad
 ###right_ad_wrapper
 ###right_ads
+###right_advert
 ###right_advertisement
 ###right_advertising
 ###right_column_ad_container
@@ -6607,7 +6611,7 @@ _a468x60.
 ##.ad-column
 ~arbetsformedlingen.se,~mobile.de##.ad-container
 ##.ad-container-300x250
-##.ad-container-728x90
+~sidereel.com##.ad-container-728x90
 ##.ad-container-994x282
 ##.ad-context
 ##.ad-disclaimer
@@ -7716,7 +7720,9 @@ _a468x60.
 ##.cinemabotad
 ##.classifiedAdThree
 ##.clearerad
+##.cmAdContainer
 ##.cmAdFind
+##.cmAdSponsoredLinksBox
 ##.cm_ads
 ##.cms-Advert
 ##.cnbc_badge_banner_ad_area
@@ -8197,6 +8203,7 @@ _a468x60.
 ~corrierecomo.it,~corrieredicomo.it##.module-ad
 ##.module-ad-small
 ##.module-ads
+##.module-advertisement
 ##.module-sponsored-ads
 ##.moduleAd
 ##.moduleAdvertContent
@@ -8706,6 +8713,7 @@ _a468x60.
 ##.topLeaderboardAd
 ##.top_Ad
 ##.top_ad
+##.top_ad1
 ##.top_ad_728
 ##.top_ad_728_90
 ##.top_ad_disclaimer
@@ -8867,7 +8875,7 @@ _a468x60.
 ##a[href^="http://www.my-dirty-hobby.com/?sub="]
 ##a[href^="http://www.ringtonematcher.com/"]
 ! Google
-~asana.com###mbEnd[cellspacing="0"][style]
+###mbEnd[cellspacing="0"][cellpadding="0"]
 ###mclip_container:last-child
 ###ssmiwdiv[jsdisplay]
 ###tads.c
@@ -9092,6 +9100,7 @@ _a468x60.
 ||affiliatebannerfarm.com^$third-party
 ||affiliatefuel.com^$third-party
 ||affiliatefuture.com^$third-party
+||affiliategateways.co^$third-party
 ||affiliatelounge.com^$third-party
 ||affiliatemembership.com^$third-party
 ||affiliatesensor.com^$third-party
@@ -10006,6 +10015,7 @@ _a468x60.
 ||data-ero-advertising.com^$third-party
 ||datingfactory.com^$third-party
 ||enoratraffic.com^$third-party
+||flashadtools.com^$third-party
 ||fncash.com^$third-party
 ||funcel.mobi^$third-party
 ||gridlockparadise.com^$third-party
@@ -10555,6 +10565,7 @@ _a468x60.
 ||themes420.com/bnrsbtns/
 ||themis-media.com^*/sponsorships/
 ||thetechnologyblog.net^*/bp_internet/
+||ticketkai.com/banner/
 ||ticketmaster.com/promotionalcontent/
 ||ticketnetwork.com/images/affiliates/
 ||tigerdirect.com^*/affiliate_
@@ -10657,6 +10668,7 @@ _a468x60.
 ||girls-home-alone.com/dating/
 ||hentaikey.com/images/banners/
 ||hotcaracum.com/banner/
+||ihookup.com/configcreatives/
 ||imageshack.us^$domain=fapscreens.com
 ||imglb.yobihost.com^
 ||kaktuz.com/td/js/kaksvpopup.js
@@ -11057,6 +11069,7 @@ _cedexis.php
 ||amadesa.com^$third-party
 ||amazingcounters.com^$third-party
 ||amung.us^$third-party
+||amxdt.com^$third-party
 ||analoganalytics.com^$third-party
 ||analyticswizard.com^$third-party
 ||anametrix.net^$third-party
@@ -11174,6 +11187,7 @@ _cedexis.php
 ||craktraffic.com^$third-party
 ||crazyegg.com^$third-party
 ||crowdscience.com^$third-party
+||crsspxl.com^$third-party
 ||crwdcntrl.net^$third-party
 ||csdata1.com^$third-party
 ||csi-tracking.com^$third-party
@@ -11447,7 +11461,6 @@ _cedexis.php
 ||od.visiblemeasures.com^$object-subrequest,third-party
 ||odoscope.com^$third-party
 ||offermatica.com^$third-party
-||olark.com^$third-party
 ||omeda.com^$third-party
 ||omtrdc.net^$third-party
 ||onestat.com^$third-party
@@ -12028,6 +12041,7 @@ _cedexis.php
 ||stats.itweb.co.za^
 ||stats.jtvnw.net^
 ||stats.magnify.net^
+||stats.olark.com^
 ||stats.polldaddy.com^
 ||stats.ref2000.com^
 ||stats.surfaid.ihost.com^
@@ -12095,6 +12109,7 @@ _cedexis.php
 ||virgingames.com/tracker/
 ||virginmedia.com^*/analytics/
 ||virtualearth.net^*/loggingservice/
+||visibone.com/cklink.gif?
 ||visit.geocities.com^
 ||visit.webhosting.yahoo.com^
 ||viximo.com/1px.gif?
