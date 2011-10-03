@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: t4XbLzWcajvqGm6xwuNMkw
+!  Checksum: apIt+fwZoDGvQr+T4nWGeg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 02 Oct 2011 01:37:56 +0800
+!  Last Modified:  Mon, 03 Oct 2011 17:18:19 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -973,7 +973,9 @@ ali213.net##.newright
 !---Net Disks
 /tjj/*$domain=115.com
 ||115img.com/static/modules/js/tjj.js
-||static.115img.com/static/delivery/*
+||static.115img.com/static/delivery/
+115.com##[class^="ban-"]
+115.com##.col-sub
 ||static.ctdisk.com/cpv/cpv.js
 ||d.namipan.com/inc_js/$script
 ||img.rayfile.com/scr/$script
@@ -3722,6 +3724,7 @@ zaobao.com###myMovie
 /view/banner/*&referrer=
 /view/banner/*/zone?zid=
 /viewid=*/site=*/size=
+/vpaidadrenderer.
 /vtextads.
 /wallpaperads/*
 /web/ads/*
@@ -4921,6 +4924,7 @@ _a468x60.
 ~trovit.de###ads_container
 ###ads_footer
 ###ads_fullsize
+###ads_halfsize
 ###ads_header
 ###ads_html1
 ###ads_html2
@@ -5015,7 +5019,7 @@ _a468x60.
 ###adsright
 ###adst
 ###adstop
-###adt
+~wideroe.no###adt
 ###adtab
 ###adtag_right_side
 ###adtagfooter
@@ -5204,6 +5208,7 @@ _a468x60.
 ###bannerAdTop
 ~visitscotland.com###bannerAdWrapper
 ###bannerAd_ctr
+###bannerAd_rdr
 ###banner_160x600
 ###banner_300_250
 ###banner_ad
@@ -6692,7 +6697,7 @@ _a468x60.
 ##.ad-statement
 ##.ad-story-inject
 ##.ad-tabs
-~jobmail.co.za,~realqwh.cn,~willhaben.at##.ad-text
+~jobmail.co.za,~realqwh.cn,~version2.dk,~willhaben.at##.ad-text
 ##.ad-text-links
 ##.ad-tile
 ##.ad-title
@@ -8972,6 +8977,7 @@ _a468x60.
 ||adlayer.net^$third-party
 ||adlink.net^$third-party
 ||adlisher.com^$third-party
+||adm.fwmrm.net/p/mtvn_live/$object-subrequest,third-party
 ||admagnet.net^$third-party
 ||admamba.com^$third-party
 ||adman.gr^$third-party
@@ -9482,6 +9488,7 @@ _a468x60.
 ||infolinks.com^$third-party
 ||information-sale.com^$third-party
 ||innity.com^$third-party
+||innovid.com^$third-party
 ||insightexpress.com^$third-party
 ||insightexpressai.com^$third-party
 ||insitepromotion.com^$third-party
@@ -9528,6 +9535,7 @@ _a468x60.
 ||leadadvert.info^$third-party
 ||leadbolt.net^$third-party
 ||leadintelligence.co.uk^$third-party
+||leetmedia.com^$third-party
 ||letsgoshopping.tk^$third-party
 ||liftdna.com^$third-party
 ||ligatus.com^$third-party
@@ -9550,6 +9558,7 @@ _a468x60.
 ||loseads.eu^$third-party
 ||love-banner.com^$third-party
 ||lqcdn.com^$third-party
+||lqw.me^$third-party
 ||ltassrv.com.s3.amazonaws.com^$third-party
 ||ltassrv.com^$third-party
 ||luminate.com^$third-party
@@ -9836,6 +9845,7 @@ _a468x60.
 ||testnet.nl^$third-party
 ||text-link-ads.com^$third-party
 ||textonlyads.com^$third-party
+||textsrv.com^$third-party
 ||theloungenet.com^$third-party
 ||thewebgemnetwork.com^$third-party
 ||tidaltv.com^$third-party
@@ -10218,6 +10228,7 @@ _a468x60.
 ||creatives.inmotionhosting.com^
 ||creatives.summitconnect.co.uk^
 ||customcodebydan.com/images/banner.gif
+||d3lvr7yuk4uaui.cloudfront.net^
 ||dapatwang.com/images/banner/
 ||dart.clearchannel.com^
 ||datakl.com/banner/
@@ -10262,6 +10273,7 @@ _a468x60.
 ||feedburner.com/~a/
 ||filedownloader.net/design/$third-party
 ||filedroid.net/af_ta/$third-party
+||filejungle.com/images/banner/
 ||fileserve.com/images/banner_$third-party
 ||filesonic.com^*/banners/
 ||filesonic.it^*/banners/
@@ -10616,6 +10628,7 @@ _a468x60.
 ||website.ws^*/banners/
 ||widget.awsmer.com^
 ||widget.imshopping.com^$third-party
+||widget.kelkoo.com^
 ||williamhill.com/promodisplay?
 ||williamhill.com/promoloaddisplay?
 ||williamhill.com/promoredirect?
@@ -11940,6 +11953,7 @@ _cedexis.php
 ||lingows.appspot.com/page_data/?
 ||link.informer.com^
 ||linkwithin.com/pixel.png
+||livefyre.com/tracking/
 ||livepass.conviva.com^
 ||log.adap.tv^$object-subrequest
 ||longtailvideo.com^*/googlytics-
