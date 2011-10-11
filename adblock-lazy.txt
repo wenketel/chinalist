@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: w7Q5CnwdDWeBADuAQmg7jw
+!  Checksum: NSx1ozDhZBtuW2+hFKg4Rg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 11 Oct 2011 10:56:40 +0800
+!  Last Modified:  Tue, 11 Oct 2011 11:12:46 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -586,6 +586,7 @@ dailynews.sina.com##.TopNav + table
 ||pfp.sina.com.cn/iframe/
 ||rm.sina.com.cn^$~stylesheet,domain=~sinatair.sinaapp.com
 ||v.sina.com.cn^$subdocument
+@@||sinaimg.cn^*/deco/*/commonvideo.js
 ||sinaimg.cn^*/deco/$script
 ||sinaimg.cn/unipro/
 ||rs.sinajs.cn^
@@ -1238,6 +1239,7 @@ www.jstv.com##div[style^="width:540px;"]
 ||5dmail.net/image/$object
 www.5dmail.net##td[width="145"]
 ||js.5ilog.com/qq/js/jsgg.js
+||sj.91.com/script/index/110105/float_pg_1.js
 ||99iche.com^$object
 ||i2.aibangjuxin.com/js11082219/BizAd.js
 ||arting365.com/advs/
@@ -1321,7 +1323,7 @@ mscbsc.com##.bao1
 www.mtime.com###notice_box
 ||mycodes.net/js/$image
 ||needpop.com/jvc.gif
-needpop.com##.spaceborder[style="width: 98%"]
+needpop.com##div > div.spaceborder[style="width: 98%"]
 ||newsmth.net/nForum/ajax/left_ads
 ||offcn.com^$object
 ||p5w.net/pfgg/
