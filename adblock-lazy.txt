@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: e04ifazUOzVGSkrhdAMKvg
+!  Checksum: +higls0lvETKDImGpT5A9w
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 10 Oct 2011 17:36:17 +0800
+!  Last Modified:  Tue, 11 Oct 2011 10:25:15 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -148,11 +148,11 @@ video.baidu.com##div#user-bar + div[style^="display:block;"]
 !--zhidao
 ||baidu.com^*/egg*.swf
 ||cp.zhidao.baidu.com^$script
-iknow.baidu.com,z.baidu.com,zhidao.baidu.com##.ad-fc-down
-zhidao.baidu.com##.r
-zhidao.baidu.com###ad-brand-down
-zhidao.baidu.com###center > div[style="width:85%"]
-iknow.baidu.com,zhidao.baidu.com###qb-ad-cpro
+iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com##.ad-fc-down
+zidao.baidu.com,zhidao.baidu.com##.r
+zidao.baidu.com,zhidao.baidu.com###ad-brand-down
+zidao.baidu.com,zhidao.baidu.com###center > div[style="width:85%"]
+iknow.baidu.com,zidao.baidu.com,zhidao.baidu.com###qb-ad-cpro
 !--qiyi
 @@||afp.qiyi.com^*&local=xml|
 ^db=qiyiafp^
@@ -1922,6 +1922,8 @@ zaobao.com###myMovie
 -adrotation.
 -ads-management/
 -ads-manager/
+-ads.
+-ads/
 -adserver-
 -adserver/
 -adv-v1/
@@ -1930,25 +1932,19 @@ zaobao.com###myMovie
 -advertisement.
 -banner-ad.
 -banner-ads-
--banner-ads/
 -bannerads/
 -bin/ad_
 -content-ad.
 -contest-ad.
--fe-ads/
 -games/ads/
 -images/ad-
 -img/ads/
 -inspire-ad.
--layer-ads/
 -leaderboard-ad-
 -panel_ad_
 -permads.
 -popup-ad.
 -popup-ads-
--rebels-ads/
--show-ads.
--text-ads.
 -third-ad.
 -webad1.
 .1d/ads/
@@ -2831,7 +2827,6 @@ zaobao.com###myMovie
 /banman/*
 /banner-ad-
 /banner-ad/*
-/banner-ads/*
 /banner/ad_
 /banner468_
 /banner_468.
@@ -2848,6 +2843,7 @@ zaobao.com###myMovie
 /banner_js.*?
 /banner_management/*
 /banner_skyscraper.
+/banner_zanox/*
 /bannerad.
 /bannerad1-
 /bannerad2-
@@ -3123,7 +3119,6 @@ zaobao.com###myMovie
 /glam_ads.
 /google-ad-
 /google-ad?
-/google-ads.
 /google-adsense-
 /google-adsense.
 /google_ad_
@@ -3161,7 +3156,6 @@ zaobao.com###myMovie
 /headvert.
 /hitbar_ad_
 /homepage_ads/*
-/house-ads/*
 /house_ad-
 /house_ad_
 /house_ads/*
@@ -3176,7 +3170,6 @@ zaobao.com###myMovie
 /i/ads/*
 /icon_ad.
 /idevaffiliate/*
-/iframe-ads/*
 /iframe.ad/*
 /iframe/ad/*
 /iframe_ad.
@@ -3271,7 +3264,6 @@ zaobao.com###myMovie
 /large_ads/*
 /large_right_ads/*
 /layer-ad.
-/layer-ads.
 /layer/ad.
 /layer/ads.
 /layer160x600.
@@ -3300,7 +3292,6 @@ zaobao.com###myMovie
 /lotto_ad_
 /lrec_ad.
 /mac-ad?
-/magic-ads/*
 /main/ad_
 /main_ad.
 /main_ad/*
@@ -3315,7 +3306,6 @@ zaobao.com###myMovie
 /metaadserver/*
 /microad.
 /microads/*
-/mini-ads/*
 /mini_ads.
 /mint/ads/*
 /misc/ad-
@@ -3353,7 +3343,6 @@ zaobao.com###myMovie
 /newtopmsgad.
 /newuploader_ad.
 /nextad/*
-/nl-ads/*
 /no_ads.
 /o2contentad.
 /oas-config.
@@ -3381,7 +3370,6 @@ zaobao.com###myMovie
 /ovt_show.asp?
 /ox/www/*
 /ox_ultimate/www/*
-/page-ads.
 /pageadimg/*
 /pageads/*
 /pageear.
@@ -3483,15 +3471,12 @@ zaobao.com###myMovie
 /rawtubelivead.
 /rcolads1.
 /rcolads2.
-/rcom-ads.
-/rcom-video-ads.
 /realmedia/ads/*
 /reclame/*
 /recommendations/ad.
 /rect_ad.
 /rectangle_ad.
 /refreshads-
-/related-ads.
 /relatedads.
 /relevance_ad.
 /requestadvertisement.
@@ -3531,7 +3516,6 @@ zaobao.com###myMovie
 /searchads/*
 /secondads.
 /secondads_
-/seo-ads.
 /servead.
 /serveads.
 /services/ads/*
@@ -3539,7 +3523,6 @@ zaobao.com###myMovie
 /share/ads/*
 /shared/ads/*
 /show-ad.
-/show-ads.
 /show_ad.
 /show_ad_
 /show_ads.js
@@ -3596,7 +3579,6 @@ zaobao.com###myMovie
 /sp_ads/*
 /spc.php?
 /spcjs.php
-/special-ads/*
 /special_ads/*
 /specials/htads/*
 /spo_show.asp?
@@ -3618,7 +3600,6 @@ zaobao.com###myMovie
 /sponsoredlisting.
 /sponsorpaynetwork.
 /sponsors/amg.php?
-/square-ads/*
 /squaread.
 /src/ads_
 /srv/ad/*
@@ -3631,7 +3612,6 @@ zaobao.com###myMovie
 /stories/ads/*
 /story_ad.
 /subad2_
-/subs-ads/*
 /superads_
 /supernorthroomad.
 /swf/ad-
@@ -3642,7 +3622,6 @@ zaobao.com###myMovie
 /systemad.
 /systemad_
 /tableadnorth.
-/taxonomy-ads.
 /td_ads/*
 /tdlads/*
 /teaseimg/ads/*
@@ -3696,7 +3675,6 @@ zaobao.com###myMovie
 /twgetad3.
 /txt_ad.
 /txtads/*
-/u-ads.
 /u/ads/*
 /uberlayadrenderer.
 /ukc-ad.
@@ -3753,7 +3731,6 @@ zaobao.com###myMovie
 /xfiles/ads/*
 /xml/ads_
 /xmladparser.
-/yahoo-ads/*
 /yahooads.
 /yin-ad/*
 /your-ad-
@@ -5654,7 +5631,7 @@ _a468x60.
 ###headerAds
 ###headerAdsWrapper
 ###headerTopAd
-~cmt.com###header_ad
+~airplaydirect.com,~cmt.com###header_ad
 ###header_ad_728_90
 ###header_ad_container
 ###header_adcode
@@ -8680,6 +8657,7 @@ _a468x60.
 ##.teaser-sponsor
 ##.teaserAdContainer
 ##.teaser_adtiles
+##.teaser_advert_content
 ##.text-ad
 ##.text-ad-links
 ##.text-ads
@@ -8933,6 +8911,7 @@ _a468x60.
 ||ad-flow.com^$third-party
 ||ad-sponsor.com^$third-party
 ||ad20.net^$third-party
+||ad2games.com^$image,~image,popup
 ||ad2games.com^$third-party
 ||ad4game.com^$third-party
 ||adaction.se^$third-party
@@ -8987,6 +8966,7 @@ _a468x60.
 ||adjal.com^$third-party
 ||adjug.com^$third-party
 ||adjuggler.com^$third-party
+||adjuggler.net^$image,~image,popup
 ||adjuggler.net^$third-party
 ||adk2.com^$third-party
 ||adknowledge.com^$third-party
@@ -9119,6 +9099,7 @@ _a468x60.
 ||affbot7.com^$third-party
 ||affbot8.com^$third-party
 ||affbuzzads.com^$third-party
+||affec.tv^$third-party
 ||affiliate-robot.com^$third-party
 ||affiliate.com^$third-party
 ||affiliate.cx^$third-party
@@ -9409,6 +9390,7 @@ _a468x60.
 ||falkag.net^$third-party
 ||fastclick.net^$third-party
 ||feed-ads.com^$third-party
+||fidel.to^$image,~image,popup
 ||fidel.to^$third-party
 ||filtermomosearch.com^$third-party
 ||fimserve.com^$third-party
@@ -10052,6 +10034,7 @@ _a468x60.
 ||data-ero-advertising.com^$third-party
 ||desiad.net^$third-party
 ||enoratraffic.com^$third-party
+||ero-advertising.com^$image,~image,popup
 ||flashadtools.com^$third-party
 ||fncash.com^$third-party
 ||funcel.mobi^$third-party
@@ -10272,6 +10255,7 @@ _a468x60.
 ||detroitmedia.com/jfry/
 ||digitalmediacommunications.com/belleville/employment/
 ||dot.tk/urlfwd/searchbar/bar.html
+||download.bitdefender.com/resources/media/$third-party
 ||dreamstime.com/banner/
 ||dreamstime.com/refbanner-
 ||dynw.com/banner
@@ -10288,6 +10272,7 @@ _a468x60.
 ||etrader.kalahari.net^$third-party
 ||eurogrand.com/promodisplay/
 ||eurogrand.com/promoredirect?
+||eurogrand.com^$image,~image,popup
 ||europacasino.com/promoloaddisplay?
 ||europolitique.info^*/pub/
 ||events.kalooga.com^
@@ -10312,6 +10297,7 @@ _a468x60.
 ||filesonic.com^*/banners/
 ||filesonic.it^*/banners/
 ||filmlush.com/banners/
+||firstload.com^$image,~image,popup
 ||firstload.de^$third-party
 ||flipchat.com/index.php?$third-party
 ||flower.com/img/lsh/
@@ -10507,6 +10493,7 @@ _a468x60.
 ||partners.sportingbet.com.au^
 ||partycasino.com^*?wm=$third-party
 ||partypoker.com/hp_landingpages/$third-party
+||partypoker.com^$image,~image,popup
 ||partypoker.com^*?wm=$third-party
 ||paytel.co.za/code/ref
 ||pcash.imlive.com^$third-party
@@ -10527,6 +10514,7 @@ _a468x60.
 ||ppc-coach.com/jamaffiliates/
 ||premium-template.com/banner/$third-party
 ||prestigecasino.com/promoredirect?
+||prestigecasino.com^$image,~image,popup
 ||pricegrabber.com/cb_table.php$third-party
 ||pricegrabber.com/mlink.php?$third-party
 ||promo.bauermedia.co.uk^
@@ -10587,6 +10575,7 @@ _a468x60.
 ||smartdestinations.com/ai/$third-party
 ||smilepk.com/bnrsbtns/
 ||snapdeal.com^*.php$third-party
+||socialmonkee.com/images/$third-party
 ||socialorganicleads.com/interstitial/
 ||speedppc.com^*/banners/
 ||splashpagemaker.com/images/$third-party
@@ -10644,7 +10633,9 @@ _a468x60.
 ||ultimatewebtraffic.info/images/fbautocash
 ||unsereuni.at/resources/img/$third-party
 ||uploaded.to/img/public/$third-party
+||uploaded.to/ref/$image,~image,popup
 ||uploadstation.com/images/banners/
+||usenet.nl^$image,~image,popup
 ||valuate.com/banners/
 ||valuechecker.co.uk/banners/$third-party
 ||vegasred.com/promodisplay?
@@ -10672,11 +10663,14 @@ _a468x60.
 ||williamhill.com/promodisplay?
 ||williamhill.com/promoloaddisplay?
 ||williamhill.com/promoredirect?
+||williamhill.com^$image,~image,popup
 ||williamhillcasino.com/promodisplay?
 ||williamhillcasino.com/promoloaddisplay?
 ||williamhillcasino.com/promoredirect?
+||williamhillcasino.com^$image,~image,popup
 ||winpalace.com/?affid=
 ||wonderlabs.com/affiliate_pro/banners/
+||wptpoker.com^$image,~image,popup
 ||ws.amazon.*/widgets/q?$third-party
 ||wupload.com/images/banners/
 ||xcams.com/livecams/pub_collante/script.php?$third-party
@@ -10689,6 +10683,7 @@ _a468x60.
 ||you-cubez.com/images/banners/
 ||you-only-you.com/banners/
 ||zapads.zapak.com^
+||zapunited.com/w/wjs?id=$third-party
 ||ziffdavisenterprise.com/contextclicks/
 ! Mobile
 ||iadc.qwapi.com^
@@ -10696,9 +10691,11 @@ _a468x60.
 ||213.174.140.76^*/ads/
 ||213.174.140.76^*/js/msn-$script
 ||213.174.140.76^*/js/msn.js
+||21sextury.com^$image,~image,popup
 ||ad.iloveinterracial.com^
 ||adultartnetwork.com/banners/
 ||adultdvd.com/plugins/*/store.html$third-party
+||adultfriendfinder.com/go/$image,~image,popup
 ||affiliates.thrixxx.com^
 ||br.realitykings.com^
 ||brazzers.com/ads/
@@ -10718,6 +10715,7 @@ _a468x60.
 ||fleshlight.com/images/peel/
 ||freeporn.hu/banners/
 ||fuckhub.net^*?pid=$third-party
+||fuckshow.org^*&adr=$image,~image,popup
 ||geobanner.getiton.com^
 ||geobanner.socialflirt.com^
 ||gfrevenge.com^$subdocument,third-party
@@ -10727,9 +10725,11 @@ _a468x60.
 ||ihookup.com/configcreatives/
 ||imageshack.us^$domain=fapscreens.com
 ||imglb.yobihost.com^
+||join.whitegfs.com^$image,~image,popup
 ||jsexnetwork.com/banners/
 ||juicyjav.com/banners/
 ||kaktuz.com/td/js/kaksvpopup.js
+||livejasmin.com^$image,~image,popup
 ||mallcom.com/simages/
 ||manhunt.net/?dm=$third-party
 ||media.eurolive.com^$third-party
@@ -10757,6 +10757,7 @@ _a468x60.
 ||rawtubelive.com/exports/$third-party
 ||realitykings.com/vbanners/
 ||red-tube.com/dynbanner.php?
+||redtube.com/bid/$image,~image,popup
 ||secretbehindporn.com^$subdocument,third-party
 ||sextronix.com/b/
 ||sexy.fling.com^$third-party
@@ -10764,14 +10765,17 @@ _a468x60.
 ||share-image.com/borky/
 ||sleepgalleries.com/recips/$third-party
 ||smutmodels.com/banners/
+||streamate.com/landing/$image,~image,popup
 ||streamen.com/exports/$third-party
 ||swurve.com/affiliates/
 ||thrixxx.com/scripts/show_banner.php?
 ||tubefck.com^*/adawe.swf
+||videobox.com/tour/$image,~image,popup
 ||xlovecam.com/acwm/
 ||xnxx.com^$third-party
 ||youfck.com^*/adawe.swf
 ||youpornmate.com/dif/?cid=$third-party
+||yuvutu.com^$image,~image,popup
 ||ztod.com/flash/wall2.swf
 
 !-----------------------EasyPrivacy----------------------------
@@ -11565,7 +11569,6 @@ _cedexis.php
 ||profilesnitch.com^$third-party
 ||prtracker.com^$third-party
 ||pstats.com^$third-party
-||pswec.com^$third-party
 ||psyma-statistics.com^$third-party
 ||publishflow.com^$third-party
 ||pulsemgr.com^$third-party
@@ -12126,6 +12129,7 @@ _cedexis.php
 ||survey.io/log?
 ||synergizeonline.net/trackpoint/
 ||t.flux.com^
+||t.pswec.com^
 ||taboolasyndication.com/log/
 ||technorati.com/technoratimedia-pixel.js
 ||the-group.net/aether/
