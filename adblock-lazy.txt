@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: NSx1ozDhZBtuW2+hFKg4Rg
+!  Checksum: wYI6u4lIR8DCkZXST6FyWA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 11 Oct 2011 11:12:46 +0800
+!  Last Modified:  Tue, 11 Oct 2011 19:11:40 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -2032,6 +2032,8 @@ zaobao.com###myMovie
 /?addyn|*
 /?advideo/*
 /_affiliatebanners/*
+/_global/ads/*
+/_img/_ads/*
 /_img/ad_
 /a2/ads/*
 /aamsz=
@@ -8927,6 +8929,7 @@ _a468x60.
 ||adbull.com^$third-party
 ||adbureau.net^$third-party
 ||adbutler.com^$third-party
+||adcash.com^$third-party
 ||adcastplus.net^$third-party
 ||adcde.com^$third-party
 ||adcentriconline.com^$third-party
@@ -11076,6 +11079,7 @@ _a468x60.
 ://c.*/c.gif?
 ://gdyn.*/1.gif?
 ://mint.*/?js
+://sett.*/log.js
 ://timeslog.
 ://wzeu.*/i/i.gif?
 ://wzus1.*/i/i.gif?
@@ -12247,6 +12251,7 @@ _cedexis.php
 !-----------------additional for ChinaList Lazy-------------
 ||espn.vad.go.com^$domain=youtube.com
 ||google.com/jsapi?autoload=*%22ads%22$script,domain=youtube.com
+||linkbucksmedia.com/director/
 ||ytimg.com^*_banner$domain=youtube.com
 youtube.com##.promoted-videos
 youtube.com##.watch-extra-info-column
