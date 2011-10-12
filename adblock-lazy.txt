@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: wYI6u4lIR8DCkZXST6FyWA
+!  Checksum: dc/6HKPFgH4DGhpotN6aBQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 11 Oct 2011 19:11:40 +0800
+!  Last Modified:  Wed, 12 Oct 2011 18:14:17 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -821,6 +821,7 @@ tw.news.yahoo.com###ynwsnw
 beta.tw.news.yahoo.com##a[href^="http://tw.advertorial.news.yahoo.com/"]
 beta.tw.news.yahoo.com###navigation a[href^="http://tw.rd.yahoo.com/referurl/"]
 tw.yahoo.com##.admod
+tw.yahoo.com###banner
 tw.yahoo.com###eyebrow > a:not(#sethomepage)
 tw.yahoo.com##.newsad
 tw.yahoo.com##.colpadding > div.tabmd
@@ -3125,6 +3126,7 @@ zaobao.com###myMovie
 /google-ad?
 /google-adsense-
 /google-adsense.
+/google/adv.
 /google_ad_
 /google_ads.
 /google_ads/*
@@ -3772,6 +3774,7 @@ zaobao.com###myMovie
 =showsearchgoogleads&
 =webad2&
 ?ad_ids=
+?ad_tag=
 ?ad_type=
 ?ad_width=
 ?adarea=
@@ -3967,6 +3970,7 @@ _webad.
 -300-250.
 -300x250-
 -300x250.
+-300x250_
 -468-60.
 -468_60.
 -468x60-
@@ -4112,6 +4116,9 @@ _a468x60.
 ###ADSLOT_SKYSCRAPER
 ###ADVERTISE_HERE_ROW
 ###AD_CONTROL_22
+###AD_CONTROL_28
+###AD_CONTROL_29
+###AD_CONTROL_8
 ###AD_ROW
 ###AD_newsblock
 ###ADgoogle_newsblock
@@ -4216,6 +4223,7 @@ _a468x60.
 ###FIN_videoplayer_300x250ad
 ###FooterAd
 ###FooterAdContainer
+###GOOGLE_ADS_47
 ###GoogleAd1
 ###GoogleAd2
 ###GoogleAd3
@@ -4526,6 +4534,7 @@ _a468x60.
 ###adSenseModule
 ###adSenseWrapper
 ###adServer_marginal
+###adShortTower
 ###adSidebar
 ###adSidebarSq
 ###adSky
@@ -5205,7 +5214,7 @@ _a468x60.
 ###banner_ads
 ###banner_content_ad
 ###banner_topad
-~alltimesgames.com,~modernmedicine.com,~shareapic.net,~viva.tv###bannerad
+~alltimesgames.com,~comedycentral.de,~modernmedicine.com,~shareapic.net,~viva.tv###bannerad
 ###bannerad2
 ###baseAdvertising
 ###basket-adContainer
@@ -6478,6 +6487,7 @@ _a468x60.
 ##.FT_Ad
 ##.FeaturedAdIndexAd
 ##.FlatAds
+##.FooterAds
 ##.GOOGLE_AD
 ##.GoogleAd
 ##.GoogleAdSenseBottomModule
@@ -6485,6 +6495,7 @@ _a468x60.
 ##.HPG_Ad_B
 ##.HPNewAdsBannerDiv
 ##.HPRoundedAd
+##.HeaderAds
 ##.HomeContentAd
 ##.IABAdSpace
 ##.InArticleAd
@@ -7607,7 +7618,9 @@ _a468x60.
 ##.blockAd
 ##.blockAds
 ~bigtracker.ru,~kin0.org##.block_ad
+##.block_ad_floating_bar
 ##.block_ad_sb_text
+##.block_ad_sb_text2
 ##.block_ad_sponsored_links
 ##.block_ad_sponsored_links-wrapper
 ##.block_ad_sponsored_links_localized
@@ -9348,7 +9361,7 @@ _a468x60.
 ||doubleclick.net/pfadx/*.sevenload.com_$object-subrequest,third-party
 ||doubleclick.net/pfadx/*adcat=$object-subrequest,third-party
 ||doubleclick.net/pfadx/nbcu.nbc/$object-subrequest,third-party
-||doubleclick.net^$object-subrequest,third-party,domain=abc15.com|abc2news.com|abcactionnews.com|addictinggames.com|atom.com|bbc.co.uk|bicycling.com|bloomberg.com|businessweek.com|calgaryherald.com|cbs19.tv|cbs3springfield.com|cbs4denver.com|cbsatlanta.com|cbsnews.com|click2houston.com|clickorlando.com|cnbc.com|collegehumor.com|complex.com|couriermail.com.au|current.com|dailytelegraph.com.au|darkhorizons.com|doctoroz.com|dorkly.com|doubleviking.com|edmontonjournal.com|eonline.com|euronews.net|fandango.com|fox5vegas.com|foxcarolina.com|g4tv.com|gamespot.com|gametrailers.com|globalnational.com|globalnews.ca|gorillanation.com|history.com|hulu.com|independent.ie|joblo.com|kcci.com|kcra.com|kctv5.com|ketv.com|kjrh.com|koat.com|koco.com|kpho.com|kptv.com|ksat.com|ksbw.com|leaderpost.com|listen.grooveshark.com|local10.com|montrealgazette.com|mtv.co.uk|mtv.com|mtv.com.au|mtv.com.nz|mtvbase.com|mtvmusic.com|my9tv.com|myfoxorlando.com|myfoxphoenix.com|myfoxtampabay.com|nationalpost.com|nbcactionnews.com|necn.com|neopets.com|news.com.au|news4jax.com|newsnet5.com|newsweek.com|nfl.com|nick.com|nintendoeverything.com|own3d.tv|pandora.com|perthnow.com.au|photoradar.com|play.it|ps3news.com|radio.com|reuters.com|rottentomatoes.com|rte.ie|sbs.com.au|sbsun.com|sevenload.com|shacknews.com|shockwave.com|sk-gaming.com|smh.com.au|southpark.nl|southparkstudios.com|southparkstudios.se|space.com|spike.com|syfy.com|theage.com.au|theaustralian.com.au|thebostonchannel.com|thedailygreen.com|thedailyshow.com|thedenverchannel.com|theindychannel.com|theinquirer.net|theprovince.com|thestarphoenix.com|thewire.com|timescolonist.com|turnto23.com|tv3winchester.com|ufc.com|ustream.tv|vancouversun.com|videojug.com|wapt.com|washingtonpost.com|wate.com|wbaltv.com|wcbstv.com|wcpo.com|wdsu.com|wetransfer.com|wfsb.com|wgal.com|windsorstar.com|wired.com|wisn.com|wkbw.com|wlky.com|wlns.com|wlwt.com|wmur.com|wnem.com|wowt.com|wptv.com|wral.com|wsj.com|wsmv.com|wtae.com|wwe.com|wxii12.com|wxyz.com|wyff4.com|youtube.com|zappinternet.com|zoomin.tv
+||doubleclick.net^$object-subrequest,third-party,domain=abc15.com|abc2news.com|abcactionnews.com|addictinggames.com|atom.com|automotive.com|bbc.co.uk|bicycling.com|bloomberg.com|businessweek.com|calgaryherald.com|cbs19.tv|cbs3springfield.com|cbs4denver.com|cbsatlanta.com|cbsnews.com|click2houston.com|clickorlando.com|cnbc.com|collegehumor.com|complex.com|couriermail.com.au|current.com|dailytelegraph.com.au|darkhorizons.com|doctoroz.com|dorkly.com|doubleviking.com|edmontonjournal.com|eonline.com|euronews.net|fandango.com|fox5vegas.com|foxcarolina.com|g4tv.com|gamespot.com|gametrailers.com|globalnational.com|globalnews.ca|gorillanation.com|history.com|hulu.com|independent.ie|joblo.com|kcci.com|kcra.com|kctv5.com|ketv.com|kjrh.com|koat.com|koco.com|kpho.com|kptv.com|ksat.com|ksbw.com|leaderpost.com|listen.grooveshark.com|local10.com|montrealgazette.com|mtv.co.uk|mtv.com|mtv.com.au|mtv.com.nz|mtvbase.com|mtvmusic.com|my9tv.com|myfoxorlando.com|myfoxphoenix.com|myfoxtampabay.com|nationalpost.com|nbcactionnews.com|necn.com|neopets.com|news.com.au|news4jax.com|newsnet5.com|newsweek.com|nfl.com|nick.com|nintendoeverything.com|own3d.tv|pandora.com|perthnow.com.au|photoradar.com|play.it|ps3news.com|radio.com|reuters.com|rottentomatoes.com|rte.ie|sbs.com.au|sbsun.com|sevenload.com|shacknews.com|shockwave.com|sk-gaming.com|smh.com.au|southpark.nl|southparkstudios.com|southparkstudios.se|space.com|spike.com|syfy.com|theage.com.au|theaustralian.com.au|thebostonchannel.com|thedailygreen.com|thedailyshow.com|thedenverchannel.com|theindychannel.com|theinquirer.net|theprovince.com|thestarphoenix.com|thewire.com|timescolonist.com|turnto23.com|tv3winchester.com|ufc.com|ustream.tv|vancouversun.com|videojug.com|wapt.com|washingtonpost.com|wate.com|wbaltv.com|wcbstv.com|wcpo.com|wdsu.com|wetransfer.com|wfsb.com|wgal.com|windsorstar.com|wired.com|wisn.com|wkbw.com|wlky.com|wlns.com|wlwt.com|wmur.com|wnem.com|wowt.com|wptv.com|wral.com|wsj.com|wsmv.com|wtae.com|wwe.com|wxii12.com|wxyz.com|wyff4.com|youtube.com|zappinternet.com|zoomin.tv
 ||doubleclick.net^$~object-subrequest,third-party
 ||doubleclick.net^*;sz=$object-subrequest,third-party,domain=10news.com|1up.com|39online.com|abc26.com|baltimoresun.com|bet.com|break.com|breitbart.tv|cbc.ca|cltv.com|courant.com|ct.com|dailystar.co.uk|digitaltrends.com|four.co.nz|fox17online.com|fox40.com|fox59.com|fox5sandiego.com|france24.com|gamesradar.com|heavy.com|huffingtonpost.com|indianas4.com|kdvr.com|ktla.com|kwgn.com|ky3.com|latimes.com|muzu.tv|myfoxatlanta.com|myfoxny.com|myspace.com|nationalgeographic.com|nbc.com|nbcsandiego.com|news.com.au|nhl.com|npr.org|nypost.com|player.amri.ca|rapbasement.com|sun-sentinel.com|the33tv.com|tv3.co.nz|wgnradio.com|wgntv.com|wpix.com|wtvr.com
 ||doublepimp.com^$third-party
@@ -9979,12 +9992,14 @@ _a468x60.
 ||xchangebanners.com^$third-party
 ||xdev.info^$third-party
 ||xgraph.net^$third-party
+||xtendmedia.com^$image,~image,popup
 ||xtendmedia.com^$third-party
 ||xx00.info^$third-party
 ||yceml.net^$third-party
 ||yesnexus.com^$third-party
 ||yieldads.com^$third-party
 ||yieldbuild.com^$third-party
+||yieldmanager.com^$image,~image,popup
 ||yieldmanager.com^$third-party
 ||yieldmanager.net^$third-party
 ||yldmgrimg.net^$third-party
@@ -10601,6 +10616,7 @@ _a468x60.
 ||sweetwater.com/feature/$third-party
 ||sweeva.com/widget.php?w=$third-party
 ||swiftco.net/banner/
+||swimg.net^*/banners/
 ||take2.co.za/misc/bannerscript.php?
 ||takeover.bauermedia.co.uk^$image,script
 ||talkfusion.com^*/banners/
@@ -11453,6 +11469,7 @@ _cedexis.php
 ||landingpg.com^$third-party
 ||lead-tracking.biz^$third-party
 ||leadforce1.com^$third-party
+||leadformix.com^$third-party
 ||legolas-media.com^$third-party
 ||levexis.com^$third-party
 ||lfov.net^$third-party
