@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: dc/6HKPFgH4DGhpotN6aBQ
+!  Checksum: BJzrZUGPo1qMxuzRX1V+Yg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 12 Oct 2011 18:14:17 +0800
+!  Last Modified:  Thu, 13 Oct 2011 15:20:25 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -1314,6 +1314,10 @@ bbs.kafan.cn##table.header_gg
 ||linuxidc.com/linuxfile/
 ||linuxidc.com/linuxren/linuxren*.js
 ||sp.luo.bo^$subdocument
+||img.maxpda.com/images/
+maxpda.com##.ad
+maxpda.com##[id^="dp-ads"]
+bbs.maxpda.com##.wp.a_t
 ||mfxk.com^$subdocument
 ||mojim.com/htm99t/iad.js
 ||mop.com/fxb/js/fxb$script
@@ -2996,6 +3000,7 @@ zaobao.com###myMovie
 /deferads.
 /deliver.nmi?
 /deliverad/*
+/deliverads.
 /deliverjs.nmi?
 /delivery/*?advplaces=
 /delivery/ag.php
@@ -3347,7 +3352,6 @@ zaobao.com###myMovie
 /news/ads/*
 /news_ad.
 /newtopmsgad.
-/newuploader_ad.
 /nextad/*
 /no_ads.
 /o2contentad.
@@ -3524,6 +3528,7 @@ zaobao.com###myMovie
 /secondads_
 /servead.
 /serveads.
+/servewebads/*
 /services/ads/*
 /sevenl_ad.
 /share/ads/*
@@ -5038,7 +5043,7 @@ _a468x60.
 ###adv-x38
 ###adv-x39
 ###adv-x40
-~gamefront.com###adv1
+~gamefront.com,~orthotwin.de###adv1
 ###adv300bottom
 ###adv300top
 ###adv728
@@ -8938,7 +8943,6 @@ _a468x60.
 ||adbasket.net^$third-party
 ||adblade.com^$third-party
 ||adbrite.com^$third-party
-||adbuilder.ie^$third-party
 ||adbull.com^$third-party
 ||adbureau.net^$third-party
 ||adbutler.com^$third-party
@@ -8952,7 +8956,6 @@ _a468x60.
 ||adcolo.com^$third-party
 ||adcru.com^$third-party
 ||addaim.com^$third-party
-||addynamo.com^$third-party
 ||adecn.com^$third-party
 ||adengage.com^$third-party
 ||adf01.net^$third-party
@@ -9392,6 +9395,7 @@ _a468x60.
 ||entrecard.s3.amazonaws.com^$third-party
 ||epicgameads.com^$third-party
 ||ero-advertising.com^$third-party
+||erovinmo.com^$third-party
 ||etology.com^$third-party
 ||euroclick.com^$third-party
 ||euros4click.de^$third-party
@@ -9515,6 +9519,7 @@ _a468x60.
 ||inskinad.com^$third-party
 ||inskinmedia.com^$third-party
 ||instantbannercreator.com^$third-party
+||instantdollarz.com^$third-party
 ||instivate.com^$third-party
 ||intellibanners.com^$third-party
 ||intellitxt.com^$third-party
@@ -9540,6 +9545,7 @@ _a468x60.
 ||kehalim.com^$third-party
 ||kerg.net^$third-party
 ||ketoo.com^$third-party
+||keywordblocks.com^$third-party
 ||kitnmedia.com^$third-party
 ||klikvip.com^$third-party
 ||klipmart.com^$third-party
@@ -9565,6 +9571,7 @@ _a468x60.
 ||linkexchange.com^$third-party
 ||linkreferral.com^$third-party
 ||linkshowoff.com^$third-party
+||linksmart.com^$third-party
 ||linkstorm.net^$third-party
 ||linksynergy.com^$third-party
 ||linkwash.de^$third-party
@@ -9976,6 +9983,7 @@ _a468x60.
 ||widgetbanner.mobi^$third-party
 ||widgetbucks.com^$third-party
 ||widgets.fccinteractive.com^$third-party
+||widgetsurvey.biz^$third-party
 ||wigetmedia.com^$third-party
 ||wikia-beacon.com^$third-party
 ||wlmarketing.com^$third-party
@@ -10630,13 +10638,13 @@ _a468x60.
 ||ticketkai.com/banner/
 ||ticketmaster.com/promotionalcontent/
 ||ticketnetwork.com/images/affiliates/
+||tickles.ie^$subdocument,third-party
 ||tigerdirect.com^*/affiliate_
 ||titanpoker.com/promodisplay?
 ||tmbattle.com/images/promo_
 ||todaysfinder.com^$subdocument,third-party
 ||top5result.com/promo/
-||toptenreviews.com/widgets/af_widget.js$third-party
-||toptenreviews.com^*/request.php$third-party
+||toptenreviews.com/r/c/
 ||torrentfreebie.com/index.asp?pid=$third-party
 ||tosol.co.uk/international.php?$third-party
 ||toysrus.com/graphics/promo/
