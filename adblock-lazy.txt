@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: +e4tx2zuIn3jz1GKygrWEg
+!  Checksum: HPfxBXs1te1+rF8ep04nAw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 13 Oct 2011 23:04:36 +0800
+!  Last Modified:  Fri, 14 Oct 2011 01:59:58 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -808,6 +808,7 @@ cn.yahoo.com###r_expandable
 !--TW
 ||tw.rd.yahoo.com^
 ||tw.img.webmaster.yahoo.com^*/ystats.gif
+@@||tw.news.yahoo.com/_xhr/$xmlhttprequest
 @@||l.yimg.com^*/common/js/1/setup-min.js
 @@||l.yimg.com/f/a/tw/js/flash_general_20090213.js|$domain=tw.yahoo.com
 ||yimg.com/no/$domain=~yahoo.com
@@ -2224,6 +2225,7 @@ zaobao.com###myMovie
 /adcentral.
 /adchain-
 /adchannel_
+/adchoices.
 /adclick.
 /adclient.
 /adclient/*
@@ -2685,6 +2687,7 @@ zaobao.com###myMovie
 /adtology.
 /adtonomy.
 /adtop.
+/adtrack.
 /adtrack/*
 /adtraff.
 /adttext.
@@ -10723,6 +10726,7 @@ _a468x60.
 ||adultdvd.com/plugins/*/store.html$third-party
 ||adultfriendfinder.com/go/$image,~image,popup
 ||affiliates.thrixxx.com^
+||bigmovies.com/images/banners/
 ||br.realitykings.com^
 ||brazzers.com/ads/
 ||cwgads.com/launch.js$third-party
