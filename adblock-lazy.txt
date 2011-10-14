@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: HPfxBXs1te1+rF8ep04nAw
+!  Checksum: tiQyr9C5jLViaY7K/YghJw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 14 Oct 2011 01:59:58 +0800
+!  Last Modified:  Sat, 15 Oct 2011 00:01:12 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -951,6 +951,7 @@ jiaren.org###text-276115465
 ||313g.com/xyx/
 3dmgame.com##.banner > a > img
 3dmgame.com##.banner_1
+3dmgame##div.game-xiazai + div.banner > center > a
 3dmgame.com##img[width="997"] + center
 bbs.3dmgame.com##body > table[style^="border: #CCC"]:nth-child(4)
 ||market.52pk.com^
@@ -2438,6 +2439,7 @@ zaobao.com###myMovie
 /ads/ad_
 /ads/ads_
 /ads/banner.
+/ads/banner01.
 /ads/banner468.
 /ads/banners/*
 /ads/cnvideo/*
@@ -4533,7 +4535,7 @@ _a468x60.
 ###adPlaceHolderRight
 ###adPlacer
 ###adPosOne
-###adRight
+~dipeo.de###adRight
 ###adRight2
 ###adSPLITCOLUMNTOPRIGHT
 ###adSenseModule
@@ -5043,7 +5045,7 @@ _a468x60.
 ###adv-x38
 ###adv-x39
 ###adv-x40
-~gamefront.com,~orthotwin.de###adv1
+~gamefront.com,~modellclub-schwedt.de,~orthotwin.de###adv1
 ###adv300bottom
 ###adv300top
 ###adv728
@@ -7886,6 +7888,7 @@ _a468x60.
 ##.fold-ads
 ##.footad
 ##.footer-ad
+##.footer-advert
 ##.footerAd
 ##.footerAdModule
 ##.footerAds
@@ -8133,6 +8136,7 @@ _a468x60.
 ##.leaderboardad
 ##.leaderboardadtop
 ##.left-ad
+##.left-advert
 ##.leftAd
 ##.leftAdColumn
 ##.leftAds
@@ -8306,7 +8310,7 @@ _a468x60.
 ##.onethirdadholder
 ##.openads
 ##.openadstext_after
-~antronio.com##.openx
+~antronio.com,~frogueros.com##.openx
 ##.openx-ad
 ##.openx_ad
 ##.osan-ads
@@ -8371,7 +8375,7 @@ _a468x60.
 ##.pub_300x250m
 ##.pub_728x90
 ##.publication-ad
-##.publicidad
+~frogueros.com##.publicidad
 ##.puff-advertorials
 ##.qa_ad_left
 ##.qm-ad-content
@@ -9099,6 +9103,7 @@ _a468x60.
 ||advertisingvalue.info^$third-party
 ||advertlead.net^$third-party
 ||advertlets.com^$third-party
+||advertmarketing.com^$third-party
 ||advertserve.com^$third-party
 ||advertstatic.com^$third-party
 ||advertstream.com^$third-party
@@ -9592,6 +9597,7 @@ _a468x60.
 ||luminate.com^$third-party
 ||lzjl.com^$third-party
 ||madisonlogic.com^$third-party
+||makecashtakingsurveys.biz^$third-party
 ||markethealth.com^$third-party
 ||marketingsolutions.yahoo.com^$third-party
 ||marketleverage.com^$third-party
@@ -9885,6 +9891,7 @@ _a468x60.
 ||topauto10.com^$third-party
 ||topcasino10.com^$third-party
 ||total-media.net^$third-party
+||totalprofitplan.com^$third-party
 ||totemcash.com^$third-party
 ||tqlkg.com^$third-party
 ||trackadvertising.net^$third-party
@@ -10400,6 +10407,7 @@ _a468x60.
 ||ilapi.ebay.com^$third-party
 ||image.com.com^*/skin2.jpg$third-party
 ||images-amazon.com/images/*/banner/$third-party
+||images-pw.secureserver.net/images/100yearsofchevy.gif
 ||images-pw.secureserver.net^*_*.$image,third-party
 ||images.mylot.com^$third-party
 ||images.youbuy.it/images/$third-party
@@ -10768,6 +10776,7 @@ _a468x60.
 ||mofomedia.nl/pop-*.js
 ||mrvids.com/network/$third-party
 ||my-dirty-hobby.com/?sub=$third-party
+||myfreecams.com/?co_id=$image,~image,popup
 ||naked.com/promos/$third-party
 ||nakedshygirls.com/bannerimg/
 ||nastydollars.com/vbanners/
@@ -10788,6 +10797,7 @@ _a468x60.
 ||realitykings.com/vbanners/
 ||red-tube.com/dynbanner.php?
 ||redtube.com/bid/$image,~image,popup
+||scoreland.com/banner/
 ||secretbehindporn.com^$subdocument,third-party
 ||sextronix.com/b/
 ||sexy.fling.com^$third-party
@@ -10894,6 +10904,7 @@ _a468x60.
 /demandbase.js
 /dotomi_tracking/*
 /dtmtag.js
+/e086ec.aspx?q=l3mkwgak
 /e107_plugins/log/log.php?
 /eae-logger/*
 /econa-site-search-ajax-log-referrer.php
@@ -12012,6 +12023,7 @@ _cedexis.php
 ||grabnetworks.com/beacons/
 ||gravity.com^*/beacons/
 ||gscounters.gigya.com^
+||harvester.ext.square-enix-europe.com^
 ||haymarket.com/injector/deliver/
 ||hits.dealer.com^
 ||hits.informer.com^
@@ -12083,6 +12095,7 @@ _cedexis.php
 ||newsinc.com/analytics_ping.htm?
 ||oddcast.com/event.php?$object-subrequest
 ||offermatica.intuit.com^
+||ogt.jp/plog?
 ||ohnorobot.com/verify.pl?
 ||onescreen.net^*/log.gif?
 ||onsugar.com^*/clicktracker.js
