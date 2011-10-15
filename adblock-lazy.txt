@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: GkUV1ojQDbZa8B2oEQd0Ww
+!  Checksum: KlAd8PhHpdR6UNlJnpipTQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 15 Oct 2011 00:07:14 +0800
+!  Last Modified:  Sat, 15 Oct 2011 18:19:12 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -1872,7 +1872,7 @@ bbs.siluhd.com##img[width="850"][height="85"]
 bbs.sjtu.cn,bbs.sjtu.edu.cn,bbs6.sjtu.edu.cn##a[href^="http://adclient.dentsu.com.cn/"]
 suopao.org##.t5[style^="margin-top:8px;"]
 t17.techbang.com.tw##.promote-event
-xiachufang.com##div#sidebarblock > a
+xiachufang.com###google_ad_show
 xfastest.com##body[id^="backdrop"] > a
 xfastest.com##[id^="ad"]
 xfastest.com##[class^="ad"]
@@ -3311,6 +3311,7 @@ zaobao.com###myMovie
 /mainad.
 /marketing-banners/*
 /marketing/banners/*
+/marketing/banners_
 /mbn_ad.
 /mcad.php
 /media/ads/*
@@ -5057,7 +5058,7 @@ _a468x60.
 ###adv_halfpage
 ###adv_halfpage_title
 ###adv_leaderboard
-~trouw.nl###adv_sky
+~trouw.nl,~volkskrant.nl###adv_sky
 ###adv_top_banner_wrapper
 ###adver1
 ###adver2
@@ -6907,7 +6908,7 @@ _a468x60.
 ##.adWithTab
 ##.adWord
 ##.adWrap
-##.adWrapper
+~brisbanetimes.com.au,~smh.com.au,~theage.com.au,~watoday.com.au##.adWrapper
 ##.ad_0
 ~sanmarcosrecord.com##.ad_1
 ##.ad_120x90
@@ -7246,6 +7247,10 @@ _a468x60.
 ##.ads_medrect
 ##.ads_mpu
 ##.ads_outer
+##.ads_post_end
+##.ads_post_end_code
+##.ads_post_start
+##.ads_post_start_code
 ##.ads_rectangle
 ##.ads_remove
 ##.ads_right
@@ -8208,6 +8213,7 @@ _a468x60.
 ##.midad
 ##.middle-ad
 ##.middleAds
+##.middlead
 ~der-postillon.com##.middleads
 ##.min_navi_ad
 ##.mini-ad
@@ -8946,6 +8952,7 @@ _a468x60.
 ||adbard.net^$third-party
 ||adbasket.net^$third-party
 ||adblade.com^$third-party
+||adboost.com^$third-party
 ||adbrite.com^$third-party
 ||adbull.com^$third-party
 ||adbureau.net^$third-party
@@ -9962,7 +9969,6 @@ _a468x60.
 ||vidpay.com^$third-party
 ||viglink.com^$third-party
 ||vipquesting.com^$third-party
-||viraladnetwork.net^$third-party
 ||visiblegains.com^$third-party
 ||visitdetails.com^$third-party
 ||vitalads.net^$third-party
@@ -10479,6 +10485,7 @@ _a468x60.
 ||mmdcash.com/mmdcash01.gif
 ||mmo4rpg.com^*.gif|$third-party
 ||mobyler.com/img/banner/
+||mokonocdn.com/mpn.js?
 ||mp3ix.com^$third-party
 ||mto.mediatakeout.com^$third-party
 ||musicmemorization.com/images/$third-party
@@ -10601,6 +10608,7 @@ _a468x60.
 ||shop4tech.com^*/banner/
 ||shragle.com^*?ref=
 ||sidekickunlock.net/banner/
+||simplycast.com/affiliate/
 ||singlemuslim.com/affiliates/
 ||sitegrip.com^*/swagbucks-
 ||skydsl.eu/banner/$third-party
@@ -10618,6 +10626,7 @@ _a468x60.
 ||sponsorandwin.com/images/banner-
 ||sportingbet.com.au/sbacontent/puntersparadise.html
 ||sportsdigitalcontent.com/betting/
+||srwww1.com^*/affiliate/
 ||ssshoesss.ro/banners/
 ||startmakingmoneynow.co.cc/img/$third-party
 ||static.multiplayuk.com/images/w/w-
@@ -10633,6 +10642,7 @@ _a468x60.
 ||sweeva.com/widget.php?w=$third-party
 ||swiftco.net/banner/
 ||swimg.net^*/banners/
+||syndication1.viraladnetwork.net^
 ||take2.co.za/misc/bannerscript.php?
 ||takeover.bauermedia.co.uk^$image,script
 ||talkfusion.com^*/banners/
@@ -10687,6 +10697,7 @@ _a468x60.
 ||visit.homepagle.com^$third-party
 ||visitorboost.com/images/$third-party
 ||vitabase.com/images/relationships/$third-party
+||vittgam.net/images/b/
 ||vxite.com/banner/
 ||warezhaven.org/warezhavenbann.jpg
 ||washingtonpost.com/wp-srv/wapolabs/dw/readomniturecookie.html
@@ -10694,9 +10705,12 @@ _a468x60.
 ||watchme.com/track/$subdocument,third-party
 ||weberotic.net/banners/$third-party
 ||website.ws^*/banners/
+||weeklyprizewinner.com-net.info^$image,~image,popup
 ||widget.awsmer.com^
 ||widget.imshopping.com^$third-party
 ||widget.kelkoo.com^
+||widget.raaze.com^
+||wildamaginations.com/mdm/banner/
 ||williamhill.com/promodisplay?
 ||williamhill.com/promoloaddisplay?
 ||williamhill.com/promoredirect?
@@ -10735,6 +10749,7 @@ _a468x60.
 ||adultfriendfinder.com/go/$image,~image,popup
 ||affiliates.thrixxx.com^
 ||bigmovies.com/images/banners/
+||br.fling.com^
 ||br.realitykings.com^
 ||brazzers.com/ads/
 ||cwgads.com/launch.js$third-party
@@ -10790,6 +10805,7 @@ _a468x60.
 ||premiumhdv.com/bn/
 ||premiumhdv.com^$subdocument,third-party
 ||privatamateure.com/promotion/
+||program3.com/promo/
 ||promo.adult-empire.com^
 ||promo.badoink.com^
 ||promos.meetlocals.com^
@@ -10811,6 +10827,7 @@ _a468x60.
 ||thrixxx.com/scripts/show_banner.php?
 ||tubefck.com^*/adawe.swf
 ||videobox.com/tour/$image,~image,popup
+||viorotica.com^*/banners/
 ||xlovecam.com/acwm/
 ||xnxx.com^$third-party
 ||youfck.com^*/adawe.swf
@@ -10889,6 +10906,7 @@ _a468x60.
 /clickheat.js
 /clickheat/*
 /clickstream.js
+/cm?ci=*&tid=
 /cm?tid=
 /cnstats/cntg.php?
 /cnt-combined.php?
@@ -11220,6 +11238,7 @@ _cedexis.php
 ||blvdstatus.com^$third-party
 ||bm23.com^$third-party
 ||bmmetrix.com^$third-party
+||boomerang.com.au^$third-party
 ||bridgevine.com^$third-party
 ||brightedge.com^$third-party
 ||brilig.com^$third-party
@@ -12290,7 +12309,6 @@ _cedexis.php
 !-----------------additional for ChinaList Lazy-------------
 ||espn.vad.go.com^$domain=youtube.com
 ||google.com/jsapi?autoload=*%22ads%22$script,domain=youtube.com
-||linkbucksmedia.com/director/
 ||ytimg.com^*_banner$domain=youtube.com
 youtube.com##.promoted-videos
 youtube.com##.watch-extra-info-column
