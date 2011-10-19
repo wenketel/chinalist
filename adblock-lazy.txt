@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: dEbEfk8LoL9sp/qFvW3S3Q
+!  Checksum: RaJDFmZikkGznC0cuypTww
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 18 Oct 2011 11:09:58 +0800
+!  Last Modified:  Wed, 19 Oct 2011 08:04:57 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -458,9 +458,9 @@ onlinedown.net,newhua.com##.scroll-flash
 ||nownews.com/include_house/
 ||nownews.com/include_v11/js/ad_tab.js
 ||nownews.com/yam/
-nownews.com##[id^="c_list"]:not(#c_list_5):not(#c_list_6)
 nownews.com##[id^="focus_"]
 nownews.com###nownews_pickup
+nownews.com##.site_collection
 ||yes123.com.tw/nownews/
 
 !---东方电视
@@ -2376,6 +2376,7 @@ zaobao.com###myMovie
 /admin/ad_
 /admin/banners/*
 /adminibanner2.
+/admixer_
 /adnet.
 /adnetmedia.
 /adnetwork.
@@ -3278,6 +3279,7 @@ zaobao.com###myMovie
 /js/ads.
 /js/ads/*
 /js/ads_
+/js/adv/*
 /jsadscripts/*
 /jsfiles/ads/*
 /jstextad.
@@ -5810,6 +5812,7 @@ _a468x60.
 ###linkAds
 ###linkads
 ###live-ad
+###localAds
 ###logoAd
 ###longAdSpace
 ###long_advertisement
@@ -7123,6 +7126,7 @@ _a468x60.
 ##.adhead_h_wide
 ##.adheader
 ##.adheader100
+##.adheader416
 ##.adhi
 ##.adhint
 ~northjersey.com,~rabota.by##.adholder
@@ -7663,6 +7667,7 @@ _a468x60.
 ##.blog_ad
 ##.blogads
 ##.blox3featuredAd
+##.bn_textads
 ##.body_ad
 ##.body_sponsoredresults_bottom
 ##.body_sponsoredresults_middle
@@ -7688,6 +7693,7 @@ _a468x60.
 ##.box-ad-grey
 ##.box-ads
 ##.box-adsense
+##.box-adverts
 ##.boxAd
 ##.boxAds
 ##.boxAdsInclude
@@ -8088,6 +8094,7 @@ _a468x60.
 ##.ic-ads
 ##.ico-adv
 ##.idMultiAd
+##.iframe-ad
 ##.image-advertisement
 ##.imageAd
 ##.imageads
@@ -9034,6 +9041,7 @@ _a468x60.
 ||admeld.com^$third-party
 ||admeta.com^$third-party
 ||admitad.com^$third-party
+||admixer.net^$third-party
 ||admpads.com^$third-party
 ||adnectar.com^$third-party
 ||adnet-media.net^$third-party
@@ -9853,6 +9861,8 @@ _a468x60.
 ||skimlinks.com^$third-party
 ||skimresources.com^$third-party
 ||skoovyads.com^$third-party
+||slimtrade.com/out.php?$image,~image,popup
+||slimtrade.com^$third-party
 ||smart.allocine.fr^$third-party
 ||smart2.allocine.fr^$third-party
 ||smartadserver.com^$third-party
@@ -9903,6 +9913,7 @@ _a468x60.
 ||surveyvalue.mobi^$third-party
 ||surveyvalue.net^$third-party
 ||surveywidget.biz^$third-party
+||symbiosting.com^$third-party
 ||tacoda.net^$third-party
 ||tailsweep.com^$third-party
 ||targetnet.com^$third-party
@@ -10361,6 +10372,7 @@ _a468x60.
 ||farmholidays.is/iframeallfarmsearch.aspx?$third-party
 ||fatburningfurnace.com^*/fbf-banner-
 ||feedburner.com/~a/
+||feeds.logicbuy.com^
 ||filedownloader.net/design/$third-party
 ||filedroid.net/af_ta/$third-party
 ||filejungle.com/images/banner/
@@ -10664,6 +10676,7 @@ _a468x60.
 ||ssshoesss.ro/banners/
 ||startmakingmoneynow.co.cc/img/$third-party
 ||static.multiplayuk.com/images/w/w-
+||staticworld.net/images/*_skin_
 ||stats.sitesuite.org^
 ||stockroom.com/banners/
 ||stylefind.com^*?campaign=$subdocument,third-party
@@ -11706,6 +11719,7 @@ _cedexis.php
 ||roia.biz^$third-party
 ||roiservice.com^$third-party
 ||roispy.com^$third-party
+||rpxnow.com^$third-party
 ||rsvpgenius.com^$third-party
 ||rtfn.net^$third-party
 ||s2d6.com^$third-party
@@ -11736,7 +11750,6 @@ _cedexis.php
 ||sitestat.com^$third-party
 ||sitetagger.co.uk^$third-party
 ||sitetracker.com^$third-party
-||slimtrade.com^$third-party
 ||smartracker.net^$third-party
 ||smfsvc.com^$third-party
 ||smileyhost.net^$third-party
@@ -12027,6 +12040,7 @@ _cedexis.php
 ||d1nu2rn22elx8m.cloudfront.net^
 ||d1qpxk1wfeh8v1.cloudfront.net^
 ||d1ros97qkrwjf5.cloudfront.net^
+||d3c3cq33003psk.cloudfront.net^
 ||d3l3lkinz3f56t.cloudfront.net^
 ||data.alexa.com^
 ||daylogs.com/counter/
