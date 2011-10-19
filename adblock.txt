@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: YPaH30hCoUELwqvdTkPBnw
+!  Checksum: H1t0mmPbz1ErlLP5/buR8A
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 19 Oct 2011 08:54:02 +0800
+!  Last Modified:  Wed, 19 Oct 2011 17:08:33 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -823,8 +823,8 @@ cn.yahoo.com###r_expandable
 ||l.yimg.com/pq/
 ||l.yimg.com^*/a/tw/$~stylesheet
 ||l.yimg.com^*/tw/ysm/
-tw.news.yahoo.com##a[href^="http://tw.advertorial.news.yahoo.com/"]
-tw.news.yahoo.com###navigation a[href^="http://tw.rd.yahoo.com/referurl/"]
+tw.news.yahoo.com##a[href*="yahoonewsad"]
+tw.news.yahoo.com###navigation a[href*="/referurl/"]
 tw.yahoo.com##.admod
 tw.yahoo.com###eyebrow > a:not(#sethomepage)
 tw.yahoo.com##.newsad
@@ -850,7 +850,7 @@ ynet.com###ta01
 
 !---优酷
 ||html.atm.youku.com^
-||lstat.youku.com^$~third-party
+||lstat.youku.com^
 ||val*.atm.youku.com^
 ||static.atm.youku.com^*/popup.js
 ||stat.youku.com^
