@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: Tw8v+GYUzN8EXyiPj8iFRg
+!  Checksum: sG7nHpZBwJWdvdn07z/QbA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 19 Oct 2011 08:04:57 +0800
+!  Last Modified:  Wed, 19 Oct 2011 08:45:51 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -157,7 +157,7 @@ iknow.baidu.com,zidao.baidu.com,zhidao.baidu.com###qb-ad-cpro
 !--qiyi
 @@||afp.qiyi.com^*&local=xml|
 ^db=qiyiafp^
-||qiyi.com/*.gif?$object_subrequest
+||msg.video.qiyi.com^
 qiyi.com###ad-left-tl
 
 !---bilibili.tv
@@ -200,6 +200,7 @@ club.china.com##.headbanner
 ||chinatimes.com/analytics/
 ||act.chinatimes.com/aimg/
 ||news.chinatimes.com/2009Cti/*Ads-Right*.shtml
+||sortweb.chinatimes.com^
 chinatimes.com##.ad
 
 !---cnBeta
@@ -664,7 +665,9 @@ sohu.com##[class^="contAD"]
 news.sohu.com###adList
 news.sohu.com##div.left > h2 > span
 !--tv
-/dov.do?
+||sohu.*.gif?$object_subrequest
+||hd.sohu.com.cn/dov.do?$object_subrequest
+||tv.sohu.com/his/ping.do?$object_subrequest
 
 !---东菀阳光网
 /sungg/*
@@ -703,6 +706,7 @@ ttg.im##.wp.a_t
 ||tudou.com/service/outside.php?type=taobao_ad
 ||tudou.com/tdap/
 ||tudou.com/tdcm/
+||tudou.com/v?
 ||js.tudouui.com/js/fn/saleloader_*.js
 /pos?$object_subrequest
 tudou.com##.b.seed
@@ -850,6 +854,7 @@ ynet.com###ta01
 ||lstat.youku.com^$~third-party
 ||val*.atm.youku.com^
 ||static.atm.youku.com^*/popup.js
+||stat.youku.com^
 ||minisite2.youku.com/kingsoft/search.html$third-party
 
 !---人人影视
