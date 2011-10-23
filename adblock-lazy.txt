@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: XRyrZWFW3dKWKgt/CLRCDg
+!  Checksum: iPCrfoPRcqCIRtddYAzENg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 22 Oct 2011 09:40:24 +0800
+!  Last Modified:  Sun, 23 Oct 2011 19:03:14 +0800
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
@@ -256,7 +256,7 @@ dict.cn###top-gg
 ~discuz.net##.a_pt
 ###ad_headerbanner
 ~xdjz.net###ads_c_tpc
-~s.163.com,~qq.com,~yyets.com,~zol.com.cn###focus.focus
+~163.com,~qq.com,~yyets.com,~zol.com.cn###focus.focus
 ###sitefocus.focus
 ~top81.jschina.com.cn,~top81.cn##[id^="ad_thread"]
 
@@ -1943,10 +1943,11 @@ zaobao.com###myMovie
 -adhelper.
 -adimage-
 -adrotation.
--ads-management/
--ads-manager/
+-ads-
 -ads.
 -ads/
+-ads?
+-ads_
 -adserver-
 -adserver/
 -adv-v1/
@@ -1954,7 +1955,6 @@ zaobao.com###myMovie
 -advert.
 -advertisement.
 -banner-ad.
--banner-ads-
 -bannerads/
 -bin/ad_
 -content-ad.
@@ -1967,7 +1967,6 @@ zaobao.com###myMovie
 -panel_ad_
 -permads.
 -popup-ad.
--popup-ads-
 -third-ad.
 -webad1.
 .1d/ads/
@@ -1984,7 +1983,6 @@ zaobao.com###myMovie
 .adserver1.
 .aspx?ad=
 .aspx?zoneid=*&task=
-.au/_ads/
 .au/ads/
 .biz/ad.
 .biz/ad/
@@ -2016,7 +2014,6 @@ zaobao.com###myMovie
 .jp/ads/
 .ke/ads/
 .mv/ads/
-.net/_ads/
 .net/ad/$~object-subrequest
 .net/ads/
 .net/ads_
@@ -2054,7 +2051,6 @@ zaobao.com###myMovie
 /?advideo/*
 /_affiliatebanners/*
 /_global/ads/*
-/_img/_ads/*
 /_img/ad_
 /a2/ads/*
 /aamsz=
@@ -2841,7 +2837,6 @@ zaobao.com###myMovie
 /ajaxads.
 /ajrotator/*
 /ajs.php?
-/all_ads/*
 /alternet.ad?
 /api/ads/*
 /app/ads.js
@@ -2867,7 +2862,6 @@ zaobao.com###myMovie
 /banner_ad.
 /banner_ad_
 /banner_ads.
-/banner_ads/*
 /banner_ads_
 /banner_adv/*
 /banner_control.php?
@@ -2919,7 +2913,6 @@ zaobao.com###myMovie
 /betrad.js
 /bg/ads/*
 /bg_ads_
-/bi_ads/*
 /bi_affiliate.js
 /bigad.
 /bigads/*
@@ -2948,7 +2941,6 @@ zaobao.com###myMovie
 /bucketads.
 /bulk-ad-load/*
 /butler.php?type=
-/button_ads/*
 /buttonads.
 /buttonads/*
 /buyad.
@@ -2997,13 +2989,11 @@ zaobao.com###myMovie
 /controller/ads/*
 /convertjsontoad.
 /core/ads/*
-/corner_ads/*
 /country_ad.
 /cpxads.
 /ctamlive160x160.
 /cubead.
 /custads/*
-/custom_ads/*
 /customad.
 /customads/*
 /customadsense.
@@ -3012,7 +3002,6 @@ zaobao.com###myMovie
 /cwggoogleadshow.
 /daily/ads/*
 /dart-zones.js
-/dart_ads/*
 /dartadengine.
 /dartads.
 /data/ads/*
@@ -3037,7 +3026,6 @@ zaobao.com###myMovie
 /direct_ads.
 /directads.
 /display_ads.
-/display_ads/*
 /displayad.
 /displayad?
 /displayadbanner_
@@ -3049,7 +3037,6 @@ zaobao.com###myMovie
 /doubleclick.php
 /doubleclick/iframe.
 /doubleclick_ads.
-/doubleclick_ads/*
 /doubleclickads?
 /doubleclickcontainer.
 /doubleclicktag.
@@ -3072,7 +3059,6 @@ zaobao.com###myMovie
 /easyads.
 /easyads/*
 /easyadstrack.
-/ebay_ads/*
 /emailads/*
 /emediatead.
 /ems/ads.
@@ -3124,7 +3110,6 @@ zaobao.com###myMovie
 /general-ad-
 /generate_ad.
 /genericrichmediabannerad/*
-/geo-ads_
 /geo/ads.
 /geo_banner.htm?
 /geoad/*
@@ -3160,10 +3145,8 @@ zaobao.com###myMovie
 /google/adv.
 /google_ad_
 /google_ads.
-/google_ads/*
 /google_ads_
 /google_adsense.
-/google_adsense_
 /google_afc.
 /google_afc_
 /googlead-
@@ -3193,10 +3176,8 @@ zaobao.com###myMovie
 /headerads.
 /headvert.
 /hitbar_ad_
-/homepage_ads/*
 /house_ad-
 /house_ad_
-/house_ads/*
 /housead/*
 /houseads.
 /houseads/*
@@ -3212,7 +3193,6 @@ zaobao.com###myMovie
 /iframe/ad/*
 /iframe_ad.
 /iframe_ad?
-/iframe_ads/*
 /iframe_chitika_
 /iframe_sponsor_
 /iframead.
@@ -3225,9 +3205,7 @@ zaobao.com###myMovie
 /im-ad/im-rotator2.
 /imads.js
 /image/ads/*
-/image_ads/*
 /imageads/*
-/imagecache_ads/*
 /images/ad-
 /images/ad.
 /images/ad/*
@@ -3240,12 +3218,10 @@ zaobao.com###myMovie
 /images/gads_
 /images/sponsored/*
 /images1/ad_
-/images_ads/*
 /img/ad-
 /img/ad/*$domain=~picplz.com
 /img/ad_
 /img/ads/*
-/img/sponsor/*
 /img3/ads/*
 /imgads/*
 /imgaffl/*
@@ -3257,7 +3233,6 @@ zaobao.com###myMovie
 /include/ad/*
 /include/ad_
 /include/ads/*
-/included_ads/*
 /includes/ad_
 /includes/ads/*
 /incmpuad.
@@ -3301,8 +3276,6 @@ zaobao.com###myMovie
 /keyade.js
 /kredit-ad.
 /kskads.
-/large_ads/*
-/large_right_ads/*
 /layer-ad.
 /layer/ad.
 /layer/ads.
@@ -3342,7 +3315,6 @@ zaobao.com###myMovie
 /mbn_ad.
 /mcad.php
 /media/ads/*
-/media_ads/*
 /megaad.
 /metaadserver/*
 /microad.
@@ -3375,7 +3347,6 @@ zaobao.com###myMovie
 /netreachtextads/*
 /netspiderads2.
 /new/ad/*
-/new_ads/*
 /newads.
 /newads/*
 /newimages/ads/*
@@ -3398,7 +3369,6 @@ zaobao.com###myMovie
 /oiopub-direct/*
 /omb-ad-
 /online/ads/*
-/online_ads/*
 /openads-
 /openads.
 /openads/*
@@ -3552,7 +3522,6 @@ zaobao.com###myMovie
 /scripts/ads.js
 /scripts/ads/*
 /scripts/clickjs.php
-/search-ads?
 /search/ad/*
 /searchad.
 /searchads/*
@@ -3580,7 +3549,6 @@ zaobao.com###myMovie
 /showflashad.
 /showmarketingmaterial.
 /side-ad-
-/side-ads-
 /sidead.
 /sideads/*
 /sideads|
@@ -3610,7 +3578,6 @@ zaobao.com###myMovie
 /slideadverts/*
 /slideinad.
 /small_ad.
-/small_ads/*
 /smallad-
 /smartad.
 /smartads.
@@ -3619,10 +3586,8 @@ zaobao.com###myMovie
 /socialads/*$domain=~profiles.google.com
 /somaadscaleskyscraperscript.
 /someads.
-/sp_ads/*
 /spc.php?
 /spcjs.php
-/special_ads/*
 /specials/htads/*
 /spo_show.asp?
 /sponser.
@@ -3648,7 +3613,6 @@ zaobao.com###myMovie
 /srv/ad/*
 /static/ad_
 /static/ads/*
-/static_ads/*
 /stickyad.
 /stickyad2.
 /storage/ads/*
@@ -3665,12 +3629,10 @@ zaobao.com###myMovie
 /systemad.
 /systemad_
 /tableadnorth.
-/td_ads/*
 /tdlads/*
 /teaseimg/ads/*
 /template/ad.
 /templateadvimages/*
-/templates/_ads/*
 /templates/ads/*
 /testads/*
 /testingad.
@@ -3697,7 +3659,6 @@ zaobao.com###myMovie
 /top-ad-
 /top_ad.
 /top_ad_
-/top_ads/*
 /top_ads_
 /topad.
 /topad/*
@@ -3723,12 +3684,10 @@ zaobao.com###myMovie
 /ukc-ad.
 /unibluead.
 /unity/ad/*
-/update_ads/*
 /update_layer/layer_os_new.php
 /upload/ad/*
 /upload/ads/*
 /uploads/ads/*
-/uploads/sponsor/*
 /userad/*
 /userimages/ads/*
 /valueclick.
@@ -3891,10 +3850,10 @@ _adpartner.
 _adplugin.
 _adrotator.
 _adrow-
+_ads-
 _ads.html
 _ads.php?
-_ads/files/
-_ads/script.
+_ads/
 _ads1.
 _ads=
 _ads?
@@ -3946,12 +3905,10 @@ _bannerview.php?*&aid=
 _blogads.
 _bottom_ads_
 _box_ad_
-_box_ads/
 _btnad_
 _buttonad.
 _companionad.
 _contest_ad_
-_contest_ads/
 _custom_ad.
 _custom_ad_
 _displaytopads.
@@ -3967,7 +3924,6 @@ _headerad.
 _images/ads/
 _index_ad.
 _jtads/
-_link_ads-
 _live/ad/
 _mainad.
 _media/ads/
@@ -3989,10 +3945,8 @@ _right_ad.
 _skybannerview.
 _skyscraper160x600.
 _small_ad.
-_special_ads/
 _sponsoredlinks_
 _square_ad.
-_stack_ads/
 _temp/ad_
 _theme/ads/
 _top_ad.
@@ -5134,6 +5088,7 @@ _a468x60.
 ###advertbox4
 ###adverthome
 ~finn.no,~zlatestranky.cz###advertise
+###advertise-here
 ###advertise-here-sidebar
 ###advertise-now
 ###advertise1
@@ -5682,6 +5637,7 @@ _a468x60.
 ###header-advertisement
 ###header-advertising
 ###header-adverts
+###header-banner-ad
 ~newgrowbook.com###headerAd
 ###headerAdBackground
 ###headerAdContainer
@@ -6365,6 +6321,7 @@ _a468x60.
 ###txt_link_ads
 ###txtads
 ###undergameAd
+###upper-ads
 ###upperAdvertisementImg
 ###upperMpu
 ###upper_small_ad
@@ -8936,6 +8893,7 @@ _a468x60.
 ##a[href^="http://ad-apac.doubleclick.net/"]
 ~ebay.de##a[href^="http://ad-emea.doubleclick.net/"]
 ~zdnet.de##a[href^="http://ad.doubleclick.net/"]
+##a[href^="http://ads.pheedo.com/"]
 ##a[href^="http://adserving.liveuniversenetwork.com/"]
 ##a[href^="http://galleries.pinballpublishernetwork.com/"]
 ##a[href^="http://galleries.securewebsiteaccess.com/"]
@@ -9168,6 +9126,7 @@ _a468x60.
 ||adviva.net^$third-party
 ||advmd.com^$third-party
 ||advpoints.com^$third-party
+||adworkmedia.com^$third-party
 ||adworldmedia.com^$third-party
 ||adxpower.com^$third-party
 ||adyoz.com^$third-party
@@ -9368,6 +9327,7 @@ _a468x60.
 ||conduit-banners.com^$third-party
 ||connectedads.net^$third-party
 ||connextra.com^$third-party
+||content-cooperation.com^$third-party
 ||contenture.com^$third-party
 ||contexlink.se^$third-party
 ||contextuads.com^$third-party
@@ -10658,6 +10618,7 @@ _a468x60.
 ||redflagdeals.com/dealoftheday/widgets/$third-party
 ||redvase.bravenet.com^$third-party
 ||regnow.com/vendor/
+||rehost.to/?ref=
 ||relink.us/images/$third-party
 ||rewards1.com/images/referralbanners/$third-party
 ||roadcomponentsdb.com^$subdocument,third-party
@@ -11522,6 +11483,7 @@ _cedexis.php
 ||hentaicounter.com^$third-party
 ||heystaks.com^$third-party
 ||histats.com^$third-party
+||hit-counter.info^$third-party
 ||hit-counts.com^$third-party
 ||hitbox.com^$third-party
 ||hitcounterstats.com^$third-party
@@ -12081,7 +12043,6 @@ _cedexis.php
 ||d3l3lkinz3f56t.cloudfront.net^
 ||data.alexa.com^
 ||daylogs.com/counter/
-||dealnews.com/lw/log_syndication.php?
 ||devshed.com^*/pixeltrack.php?
 ||digimedia.com/pageviews.php?
 ||directnews.co.uk/feedtrack/
@@ -12216,7 +12177,6 @@ _cedexis.php
 ||phncdn.com/js/ssig_helper.js
 ||phoenix.untd.com^
 ||ping.hellobar.com^
-||pixel.parsely.com^
 ||pixel.tree.com^
 ||pixhosting.com/ct/jct.php?
 ||planet49.com/log/
@@ -12262,6 +12222,7 @@ _cedexis.php
 ||stats.clickability.com^
 ||stats.complex.com^
 ||stats.datahjaelp.net^
+||stats.directnic.com^
 ||stats.free-rein.net^
 ||stats.geegain.com^
 ||stats.itweb.co.za^
