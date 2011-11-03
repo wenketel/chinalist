@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: LIYeOrOnkdilBo9xABa0mA
+!  Checksum: E97IKoojlPFA+8paFbIUoA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 03 Nov 2011 15:57:40 +0800
+!  Last Modified:  Fri, 04 Nov 2011 01:23:10 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -1526,7 +1526,7 @@ xitek.com##[id^="mo"]
 ||ads001.com^$third-party
 ||ads80.com^$third-party
 ||ads126.com^$third-party
-||adsame.com^$third-party
+||adsame.com^$third-party,domain=~iphone4.tw
 ||adsbro.com^$third-party
 ||adsue.com^$third-party
 ||adunioncode.com^$third-party
@@ -2991,6 +2991,7 @@ zaobao.com###myMovie
 /components/ads/*
 /configspace/ads/*
 /contaxe_
+/content/ad/*
 /content/ad_
 /content_ad.
 /content_ad_
@@ -4805,7 +4806,7 @@ _a468x60.
 ###ad_widget
 ###ad_window
 ###ad_wrap
-~amnestyusa.org,~drownedinsound.com,~lirs.org###ad_wrapper
+~amnestyusa.org,~drownedinsound.com,~lirs.org,~wiesenthal.com###ad_wrapper
 ###adaptvcompanion
 ###adbForum
 ###adbanner
@@ -7697,6 +7698,7 @@ _a468x60.
 ##.bookseller-header-advt
 ##.bottom-ad
 ##.bottom-ad-fr
+##.bottom-ads
 ##.bottomAd
 ##.bottomAds
 ##.bottom_ad
@@ -7847,6 +7849,7 @@ _a468x60.
 ##.contentadleft
 ##.contentads
 ##.contentadstartpage
+##.contents-ads-bottom-left
 ##.contenttextad
 ##.contest_ad
 ##.cp_ad
@@ -8942,6 +8945,7 @@ _a468x60.
 ~zdnet.de##a[href^="http://ad.doubleclick.net/"]
 ##a[href^="http://ads.pheedo.com/"]
 ##a[href^="http://adserving.liveuniversenetwork.com/"]
+##a[href^="http://api.ringtonematcher.com/"]
 ##a[href^="http://galleries.pinballpublishernetwork.com/"]
 ##a[href^="http://galleries.securewebsiteaccess.com/"]
 ##a[href^="http://install.securewebsiteaccess.com/"]
@@ -9607,6 +9611,7 @@ _a468x60.
 ||investingchannel.com^$third-party
 ||ipromote.com^$third-party
 ||iwantmoar.net^$third-party
+||jango.com^$third-party
 ||jangonetwork.com^$third-party
 ||jdoqocy.com^$third-party
 ||jeetyetmedia.com^$third-party
