@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: E97IKoojlPFA+8paFbIUoA
+!  Checksum: EQIacE5mc2RR9DyAnjxTbw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 04 Nov 2011 01:23:10 +0800
+!  Last Modified:  Sat, 05 Nov 2011 07:43:51 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -1834,7 +1834,7 @@ xitek.com##[id^="mo"]
 |http://track.
 /ktrace/ktrace$script
 /pv?peerid=
-/stat.$~script,domain=~ameba.jp|~ameblo.jp|~zcool.com.cn
+/stat.$~script,~subdocument,domain=~zcool.com.cn
 /tongji.js
 /tracking.
 /usertrack.
@@ -2439,6 +2439,7 @@ zaobao.com###myMovie
 /adrotv2.
 /adruptive.
 /ads-banner.
+/ads-blogs-
 /ads-common.
 /ads-footer.
 /ads-leader|
@@ -4028,6 +4029,7 @@ _webad.
 /120x600.
 /120x600_
 /125x125_banner.
+/160-600-
 /160x600-
 /160x600.
 /160x600/*
@@ -4377,6 +4379,7 @@ _a468x60.
 ###ad-inner
 ###ad-label
 ###ad-leaderboard
+###ad-leaderboard-1-container
 ###ad-leaderboard-bottom
 ###ad-leaderboard-container
 ###ad-leaderboard-spot
@@ -7302,7 +7305,7 @@ _a468x60.
 ##.ads_singlepost
 ##.ads_spacer
 ##.ads_takeover
-##.ads_title
+~gwp-gronau.de##.ads_title
 ##.ads_top
 ##.ads_top_promo
 ##.ads_tr
@@ -7321,6 +7324,7 @@ _a468x60.
 ##.adsbyyahoo
 ##.adsc
 ##.adscaleAdvert
+##.adscaleP6_canvas
 ##.adsclick
 ##.adscontainer
 ##.adscreen
@@ -8232,7 +8236,9 @@ _a468x60.
 ##.main-advert
 ##.main-tabs-ad-block
 ##.mainAd
+##.mainLeftAd
 ##.mainLinkAd
+##.mainRightAd
 ##.main_ad
 ##.main_ad_bg_div
 ##.main_adbox
@@ -10007,6 +10013,7 @@ _a468x60.
 ||trker.com^$third-party
 ||tubemogul.com^$third-party
 ||tvprocessing.com^$third-party
+||twinpinenetwork.com^$third-party
 ||twinplan.com^$third-party
 ||twittad.com^$third-party
 ||tyroo.com^$third-party
@@ -10281,6 +10288,7 @@ _a468x60.
 ||affutdmedia.com^$third-party
 ||afimg.liveperson.com^$third-party
 ||agenda.complex.com^
+||all4naija.com/banners/
 ||allposters.com^*/banners/
 ||allsend.com/public/assets/images/
 ||allsolutionsnetwork.com/banners/
@@ -11864,6 +11872,7 @@ _cedexis.php
 ||statsbox.nl^$third-party
 ||statsit.com^$third-party
 ||statssheet.com^$third-party
+||statswave.com^$third-party
 ||stattooz.com^$third-party
 ||statun.com^$third-party
 ||statuncore.com^$third-party
@@ -12218,6 +12227,7 @@ _cedexis.php
 ||linkwithin.com/pixel.png
 ||livefyre.com/tracking/
 ||livepass.conviva.com^
+||lockerz.com/1x1.gif?
 ||log.adap.tv^$object-subrequest
 ||longtailvideo.com^*/googlytics-
 ||longtailvideo.com^*/yourlytics-
