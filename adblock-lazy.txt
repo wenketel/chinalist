@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: i1Y9XEhgcNqFeiTsxmGACw
+!  Checksum: VpkHbHrNpNgH4xMjyFM3dQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 05 Nov 2011 07:50:44 +0800
+!  Last Modified:  Sat, 05 Nov 2011 12:05:20 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -296,10 +296,10 @@ www.fengniao.com##.banner.mt2
 focus.cn##.ad_fp
 
 !---火狐主页
-/iframes/*$subdocument,domain=i.firefoxchina.cn|i.g-fox.cn
-i.firefoxchina.cn,g-fox.cn###taobao
-i.firefoxchina.cn,g-fox.cn##[id^="ad_links"]
-i.firefoxchina.cn,g-fox.cn##[id^="banner_show"]
+/iframes/*$subdocument,domain=firefoxchina.cn|i.g-fox.cn
+firefoxchina.cn,g-fox.cn###taobao
+firefoxchina.cn,g-fox.cn##[id^="ad_links"]
+firefoxchina.cn,g-fox.cn##[id^="banner_show"]
 
 !---游民星空
 ||gamersky.com/frame/
@@ -633,6 +633,7 @@ sina.com.cn##.adNone
 !--video
 video.sina.com.cn###bgad_div
 !--weibo
+weibo.com##[id^="ads"]
 weibo.com##.tips_player
 
 !---东方宽频
@@ -1725,6 +1726,7 @@ xitek.com##[id^="mo"]
 ||uu06.com^$third-party
 ||img.uu1001.cn^$third-party,domain=~alimama.com
 ||uucall.com^$third-party
+||uuzu.com^$third-party
 ||urlad.com.tw^$third-party
 ||vadcast.com^$third-party
 ||v-links.net^$third-party
