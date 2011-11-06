@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: YvEUYGIsOmASMZaYUT4vZA
+!  Checksum: wiFnWm9TweYcPS0D1yBS6g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 06 Nov 2011 10:38:04 +0800
+!  Last Modified:  Sun, 06 Nov 2011 16:40:00 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -301,6 +301,10 @@ focus.cn##.ad_fp
 firefoxchina.cn,g-fox.cn###taobao
 firefoxchina.cn,g-fox.cn##[id^="ad_links"]
 firefoxchina.cn,g-fox.cn##[id^="banner_show"]
+
+!---巴哈姆特
+/banner/*$domain=gamer.com.tw
+||pic.bahamut.com.tw/js/ad.js
 
 !---游民星空
 ||gamersky.com/frame/
@@ -980,7 +984,6 @@ ali213.net###banner
 ali213.net##.newright
 ||img.cngba.com/da/
 ||dashuye.com/data/cache/myad*.htm
-/banner/*$domain=gamer.com.tw
 ||verypsp.com^subdocument
 ||soft.verypsp.com/pic/tiaofuad.gif
 ||wowmovies.cn/img/17jnh/
@@ -1800,7 +1803,6 @@ xitek.com##[id^="mo"]
 .com/js/ad_
 .com.cn/js/ad.
 .com.tw/ad/
-.com.tw/js/ad.
 /dkgg/*
 /duilian.
 /events/ad/*
