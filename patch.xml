@@ -75,6 +75,7 @@
   	<string>youtube.com###search-pva</string>
   	<string>youtube.com###watch-branded-actions</string>
   	<string>youtube.com###watch-buy-urls</string>
+	<string>@@||clustrmaps.com/images/clustrmaps-back-soon.jpg$third-party</string>
   </NewItems>
   <ModifyItems>
     <ModifyItem>
@@ -92,10 +93,6 @@
 	<ModifyItem>
       <OldItem>/img/ad/*</OldItem>
       <NewItem>/img/ad/*$domain=~picplz.com</NewItem>
-    </ModifyItem>
-	<ModifyItem>
-      <OldItem>||clustrmaps.com^$third-party</OldItem>
-      <NewItem>||clustrmaps.com^$third-party,domain=~cnblogs.com</NewItem>
     </ModifyItem>
   </ModifyItems>
 </PatchConfigurations>
