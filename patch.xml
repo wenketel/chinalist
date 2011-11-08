@@ -93,5 +93,9 @@
       <OldItem>/img/ad/*</OldItem>
       <NewItem>/img/ad/*$domain=~picplz.com</NewItem>
     </ModifyItem>
+	<ModifyItem>
+      <OldItem>||clustrmaps.com^$third-party</OldItem>
+      <NewItem>||clustrmaps.com^$third-party,domain=~cnblogs.com</NewItem>
+    </ModifyItem>
   </ModifyItems>
 </PatchConfigurations>
