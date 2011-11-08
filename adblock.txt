@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: fJzECsiJRopyT/VQDebD6w
+!  Checksum: XOQR4ZnlIMrYRnh1zgW88A
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 08 Nov 2011 12:31:00 +0800
+!  Last Modified:  Tue, 08 Nov 2011 17:44:28 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -1112,7 +1112,8 @@ js.17kkmh.com/scriptAD/
 @@99comic.com/x/i.js
 ||99comic.com^$script
 ||9lala.com/js/
-@@||99manga.com/w/i.js
+@@||dm.99manga.com/jsc/book.js
+@@||dm.99manga.com/w/i.js
 ||dm.99manga.com^$script,subdocument
 ||baishuku.com/news/$script
 ||baiwandu.com/data/1.js
@@ -1390,6 +1391,8 @@ www.subpig.net##.a_mu
 ||u148.net/activity/$~object_subrequest
 ||ucar.cn/ucar/UploadPic/SecondHandCar/$object
 ||vista123.cn/notice.js
+||poster.weather.com.cn^
+weather.com.cn##[class^="adposter"]
 ||webacg.com/data/js/
 ||files.webcars.com.cn^$object
 ||webkaka.com/click/*$image
