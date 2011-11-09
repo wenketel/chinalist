@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: +0J7z2qNb1d90NDkEK6g6Q
+!  Checksum: rLIjN5O5Xvb8OBfuT+IZuA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 08 Nov 2011 21:07:41 +0800
+!  Last Modified:  Wed, 09 Nov 2011 12:00:45 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -985,7 +985,7 @@ ali213.net###banner
 ali213.net##.newright
 ||img.cngba.com/da/
 ||dashuye.com/data/cache/myad*.htm
-||verypsp.com^subdocument
+||bbs.verypsp.com^$script,subdocument
 ||soft.verypsp.com/pic/tiaofuad.gif
 ||wowmovies.cn/img/17jnh/
 ||yxdown.com/inc/dlad.js
@@ -1521,6 +1521,7 @@ xitek.com##[id^="mo"]
 ||js.91tiger.com^$third-party
 ||91wan.com^$third-party
 ||92cg.com^$third-party
+||9519.net^$third-party
 ||991go.com^$third-party
 ||999d.com^$third-party
 ||9cpm.com^$third-party
@@ -4941,6 +4942,7 @@ _a468x60.
 ###ads-vers7
 ###ads-wrapper
 ###ads120
+###ads125
 ###ads160left
 ###ads2
 ###ads300
@@ -4950,6 +4952,7 @@ _a468x60.
 ###ads315
 ###ads336x280
 ###ads7
+###ads728
 ###ads728bottom
 ###ads728top
 ###ads790
@@ -8222,6 +8225,7 @@ _a468x60.
 ##.largeUnitAd
 ##.large_ad
 ##.lastRowAd
+##.lazyload_ad
 ##.lcontentbox_ad
 ##.leadAd
 ##.leaderAdSlot
@@ -8872,7 +8876,7 @@ _a468x60.
 ##.topstoriesad
 ##.toptenAdBoxA
 ##.tourFeatureAd
-##.tower-ad
+~nfl.com##.tower-ad
 ##.towerAd
 ##.towerAdLeft
 ##.towerAds
@@ -10694,6 +10698,7 @@ _a468x60.
 ||nethive.com/promodisplay?
 ||nethive.com/promoloaddisplay?
 ||netload.in^*?refer_id=
+||network.business.com^
 ||newware.net/home/banner$third-party
 ||nitropdf.com/graphics/promo/$third-party
 ||nzpages.co.nz^*/banners/
@@ -12006,6 +12011,7 @@ _cedexis.php
 ||userreport.com^$third-party
 ||valuedopinions.co.uk^$third-party
 ||vbanalytics.com^$third-party
+||vdna-assets.com^$third-party
 ||velaro.com^$third-party
 ||vertical-leap.co.uk^$third-party
 ||vertical-leap.net^$third-party
