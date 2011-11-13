@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 1LdA5EZXSFFYsjg+Pd74TQ
+!  Checksum: uZqZu2N0AhWj9pgaHycOYg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 11 Nov 2011 11:40:36 +0800
+!  Last Modified:  Sun, 13 Nov 2011 19:09:24 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -273,6 +273,12 @@ discuss.com.hk##.ad
 discuss.com.hk,uwants.com##a[href^="http://ad"]
 discuss.com.hk,uwants.com##div[id^="thread_ads_"] + table
 uwants.com##div#foruminfo + div[align="center"]
+
+!---动漫屋
+||by.dm5.com/jsv2/
+dm5.com##.a8ad
+dm5.com##.cl760
+dm5.com##.cl970
 
 !---多玩游戏网
 ||duowan.com/duowan.js
@@ -1140,8 +1146,6 @@ baiwandu.com###ptcmsad1
 ||dddbbb.net^$script
 ||d3zw.com/js/list*.aspx
 ||d3zw.com/js/read*.aspx
-||by.dm5.com/jsv2/
-dm5.com##.a8ad
 ||dudu8.net/a_d/
 @@||duyidu.com/includehtml/newjs/fenye.js
 ||duyidu.com/includehtml/$script
@@ -1585,6 +1589,7 @@ xitek.com##[id^="mo"]
 ||chitika.com^$third-party
 ||click.com^$third-party
 ||cnxad.com^$third-party
+||adm.cnzz.net^$third-party
 ||cocoren.com^$third-party
 ||qa.colorful.cn^$third-party
 ||cpm360.com^$third-party
