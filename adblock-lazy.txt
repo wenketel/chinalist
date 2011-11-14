@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: fwi2JAHU+TqXwySa5ZUtlw
+!  Checksum: IzXmuiqXmTqqjPMQLZAPaA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 13 Nov 2011 19:09:24 +0800
+!  Last Modified:  Mon, 14 Nov 2011 21:39:49 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -552,8 +552,10 @@ www.qidian.com##[class^="gg"]
 ||mat1.gtimg.com/sports/2011ad/
 ||adslvfile.qq.com^
 /avd/*$domain=hb.qq.com
+||p.l.qq.com/p?
 ||pingfore.qq.com^
 ||tcss.qq.com/ping.js
+||btrace.qq.com^
 ||trace.qq.com^
 qq.com##[class*="Ad"][class$="-Article-QQ"]
 qq.com##.business-Article-QQ
@@ -1930,6 +1932,7 @@ zaobao.com###myMovie
 ||nanrenwa.com/_img/a/$third-party
 ||download.note.sdo.com/res/33aea74a-2095-4a10-bb8f-c802e7cdab75
 !---test pop-up blocking
+||img.ifeng.com/tres/html/pop_page.html$image,~image,popup
 |http://$image,~image,third-party,popup,domain=jjwxc.net|xun6.com
 ||jjwxc.net/jjad2.html$image,~image,popup
 !-----------------------EasyList----------------------------
@@ -3826,6 +3829,7 @@ zaobao.com###myMovie
 /webads_
 /webadverts/*
 /webmailad.
+/webmaster_ads/*
 /welcome_ad.
 /widget/ads.
 /wipeads/*
@@ -4208,7 +4212,6 @@ _480x60/
 _480x60_
 _720x90.
 _728-90.
-_728.gif
 _728.htm
 _728_90.
 _728_90_
@@ -4281,7 +4284,6 @@ _a468x60.
 ###AdSponsor_SF
 ###AdSubsectionShowcase_F1
 ###AdTargetControl1_iframe
-~mautofied.com###AdText
 ###AdTop
 ###AdTopLeader
 ###Ad_BelowContent
@@ -4522,6 +4524,8 @@ _a468x60.
 ###ad-sponsors
 ###ad-spot
 ###ad-squares
+###ad-story-bottom-out
+###ad-story-right
 ###ad-target
 ###ad-target-Leaderbord
 ###ad-teaser
@@ -5346,6 +5350,7 @@ _a468x60.
 ###banner_ad_module
 ###banner_admicro
 ###banner_ads
+###banner_advertisement
 ###banner_content_ad
 ###banner_topad
 ~alltimesgames.com,~comedycentral.de,~modernmedicine.com,~shareapic.net,~viva.tv###bannerad
@@ -5510,7 +5515,7 @@ _a468x60.
 ~filecheck.ru###contentAd
 ###contentBoxad
 ###contentTopAds2
-~filestage.to,~maximonline.ru###content_ad
+~maximonline.ru###content_ad
 ###content_ad_square
 ###content_ad_top
 ###content_ads_content
@@ -7118,7 +7123,7 @@ _a468x60.
 ##.ad_headline
 ##.ad_holder
 ##.ad_hpm
-##.ad_image
+~blocket.se##.ad_image
 ##.ad_info_block
 ##.ad_inline
 ##.ad_island
@@ -7758,6 +7763,7 @@ _a468x60.
 ##.block-adsense
 ##.block-adsense-managed
 ##.block-adspace-full
+##.block-bg-advertisement-region-1
 ##.block-deca_advertising
 ##.block-google-admanager
 ~pcper.com##.block-google_admanager
@@ -10198,6 +10204,7 @@ _a468x60.
 ||widgetlead.net^$third-party
 ||widgets.fccinteractive.com^$third-party
 ||widgetsurvey.biz^$third-party
+||widgetvalue.net^$third-party
 ||wigetmedia.com^$third-party
 ||wikia-beacon.com^$third-party
 ||wlmarketing.com^$third-party
@@ -10452,6 +10459,7 @@ _a468x60.
 ||bc.coupons.com^$third-party
 ||bergen.com^*/sponsoredby-
 ||bet-at-home.com/oddbanner.aspx?
+||bet365.com/home/?affiliate=$image,~image,popup
 ||beta.down2crazy.com^$third-party
 ||bidorbuy.co.za/jsp/system/referral.jsp?
 ||bigmoneyptc.com/banners/
@@ -10574,7 +10582,6 @@ _a468x60.
 ||flagship.asp-host.co.uk^$third-party
 ||flipchat.com/index.php?$third-party
 ||flower.com/img/lsh/
-||followfairy.com/followfairy300x250.jpg
 ||forcedcashgifts.com/banners/
 ||forms.aweber.com/form/styled_popovers_and_lightboxes.js$third-party
 ||fortune5minutes.com^*/banner_
@@ -10628,6 +10635,7 @@ _a468x60.
 ||googlesightseeing.com/banners/
 ||googlesyndication.com^*/click_to_buy/$object-subrequest,third-party
 ||googlesyndication.com^*/domainpark.cgi?
+||googlesyndication.com^*/googlevideoadslibraryas3.swf$object-subrequest,third-party
 ||gorgonprojectinvest.com/images/banners/
 ||graboid.com/affiliates/
 ||graduateinjapan.com/affiliates/
@@ -10655,6 +10663,7 @@ _a468x60.
 ||img.bluehost.com^$third-party
 ||img.mybet.com^$third-party
 ||img.promoddl.com^$third-party
+||img.servint.net^*/125x125.gif
 ||imgehost.com^*/banners/$third-party
 ||indieclick.3janecdn.com^
 ||inetinteractive.com/ads/
@@ -10769,6 +10778,7 @@ _a468x60.
 ||onlinekeystore.com/banner.php?
 ||oriongadgets.com^*/banners/
 ||oron.com/img/banners/
+||ox-d.mapmyfitness.com^$third-party
 ||ox-d.mediamark.co.za^
 ||pagead2.googlesyndication.com^$~object-subrequest
 ||partner.bargaindomains.com^
@@ -11458,7 +11468,6 @@ _cedexis.php
 ||ademails.com^$third-party
 ||adgreed.com^$third-party
 ||adku.co^$third-party
-||adnxs.com^$third-party
 ||adoftheyear.com^$third-party
 ||adsensedetective.com^$third-party
 ||adsummos.net^$third-party
@@ -11791,7 +11800,6 @@ _cedexis.php
 ||lfov.net^$third-party
 ||liadm.com^$third-party
 ||linezing.com^$third-party
-||linkconnector.com^$third-party
 ||linkpulse.com^$third-party
 ||listrakbi.com^$third-party
 ||livecount.fr^$third-party

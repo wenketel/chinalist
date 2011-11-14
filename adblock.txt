@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: uZqZu2N0AhWj9pgaHycOYg
+!  Checksum: qOODLWe5s9On9uykGD5MKA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 13 Nov 2011 19:09:24 +0800
+!  Last Modified:  Mon, 14 Nov 2011 21:39:49 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -552,8 +552,10 @@ www.qidian.com##[class^="gg"]
 ||mat1.gtimg.com/sports/2011ad/
 ||adslvfile.qq.com^
 /avd/*$domain=hb.qq.com
+||p.l.qq.com/p?
 ||pingfore.qq.com^
 ||tcss.qq.com/ping.js
+||btrace.qq.com^
 ||trace.qq.com^
 qq.com##[class*="Ad"][class$="-Article-QQ"]
 qq.com##.business-Article-QQ
@@ -1931,6 +1933,7 @@ zaobao.com###myMovie
 ||nanrenwa.com/_img/a/$third-party
 ||download.note.sdo.com/res/33aea74a-2095-4a10-bb8f-c802e7cdab75
 !---test pop-up blocking
+||img.ifeng.com/tres/html/pop_page.html$image,~image,popup
 |http://$image,~image,third-party,popup,domain=jjwxc.net|xun6.com
 ||jjwxc.net/jjad2.html$image,~image,popup
 !------------------------End of List-------------------------
