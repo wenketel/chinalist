@@ -2,7 +2,7 @@
 // @name pcbeta ads Remover
 // @namespace https://code.google.com/p/adblock-chinalist/
 // @author Gythialy
-// @version 1.0.0
+// @version 1.0.1
 // @description Remove bbs.pcbeta.com ads for ChinaList
 // @homepage https://code.google.com/p/adblock-chinalist/
 // @updateURL https://adblock-chinalist.googlecode.com/svn/trunk/scripts/remove_ads_for_pcbeta.user.js
@@ -35,11 +35,12 @@
 	}
 
 	var t = x('//div[@id="wp"]/div[@style]');
-	if (t.snapshotItem(0)) {
-		var node = t.snapshotItem(0);
+	for ( var i = 0; i < t.snapshotLength; i++) {
+		var node = t.snapshotItem(i);
 		log(node.style.height);
-		if (node.style.height === '447px') {
+		if (node.style.height === '437px') {
 			node.style.height = '267px';
+			break;
 		}
 	}
 
