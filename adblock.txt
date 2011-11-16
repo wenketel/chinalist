@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: qOODLWe5s9On9uykGD5MKA
+!  Checksum: sqydq/2h3ZtiDjDCyTSl9Q
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 14 Nov 2011 21:39:49 +0800
+!  Last Modified:  Wed, 16 Nov 2011 12:34:14 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -83,7 +83,7 @@ thinkpad.cn,51nb.com##div.secmenu:last-child
 ||6.cn/mdfor/index_new.js
 ||6.cn/mdfor/watch_new11.js
 ||shrek.6.cn^
-||hm.i8.com.cn/GetAdContent.aspx
+||pole.6rooms.com^$~object-subrequest
 6.cn###palyerAdText
 6.cn##[id^="adText"]
 v.6.cn###playerAd
@@ -233,6 +233,12 @@ csdn.com###tlbanner
 ||info-database.csdn.net^$domain=iteye.com,image
 iteye.com###forum_recommended_f4
 iteye.com###forum_recommended_f5
+
+!---当当
+||a.dangdang.com^$~third-party
+||click.dangdang.com^$~third-party
+||ddimg.cn^$object
+www.dangdang.com###message
 
 !---大洋网
 /adpub/*
@@ -537,7 +543,6 @@ down.qiannao.com##div[style="padding: 8px;"]
 
 !---起点中文网
 ||qidian.com/javascript/NewSNDAPop.js
-||cj.qidian.com^$object
 ||cj.qidian.com/svnad/
 qidian.com##a[href^="http://www.qidian.com/showavd.aspx?"]
 www.qidian.com##.DH17
@@ -1472,6 +1477,7 @@ xitek.com##[id^="mo"]
 ||25888.in^$third-party
 ||2bj.cc^$third-party
 ||2bj.cn^$third-party
+||334700.com^$third-party
 ||33878.com^$third-party
 ||33hy.com^$third-party
 ||333wan.com^$third-party
@@ -1714,6 +1720,7 @@ xitek.com##[id^="mo"]
 ||c.sfilm.com^$third-party
 ||sharele.cn^$third-party
 ||shendu.cc^$third-party
+||shenduchuanmei.com^$third-party
 ||shouyibao.com^$third-party
 ||sitemaji.com^$third-party
 ||skycn.org.cn^$third-party
@@ -1806,7 +1813,6 @@ xitek.com##[id^="mo"]
 /ads/*$~stylesheet
 /adphoto/*
 /adpics/*
-/adpolestar/*
 /adpshow.
 /adservice/*
 /adsimg/*
@@ -1934,6 +1940,6 @@ zaobao.com###myMovie
 ||download.note.sdo.com/res/33aea74a-2095-4a10-bb8f-c802e7cdab75
 !---test pop-up blocking
 ||img.ifeng.com/tres/html/pop_page.html$image,~image,popup
-|http://$image,~image,third-party,popup,domain=jjwxc.net|xun6.com
+|http://$image,~image,third-party,popup,domain=gd.ct10000.com|jjwxc.net|qidian.com|xun6.com
 ||jjwxc.net/jjad2.html$image,~image,popup
 !------------------------End of List-------------------------
