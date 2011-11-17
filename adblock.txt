@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: wA0MtTEIv//NmlICej3OLA
+!  Checksum: D/WoI8czoUWsAvFqrIGd6w
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 16 Nov 2011 16:13:48 +0800
+!  Last Modified:  Thu, 17 Nov 2011 13:23:32 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -156,7 +156,7 @@ iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com##.ad-fc-down
 zidao.baidu.com,zhidao.baidu.com##.r
 zidao.baidu.com,zhidao.baidu.com###ad-brand-down
 zidao.baidu.com,zhidao.baidu.com###center > div[style="width:85%"]
-iknow.baidu.com,zidao.baidu.com,zhidao.baidu.com###qb-ad-cpro
+iknow.baidu.com,zidao.baidu.com,z.baidu.com,zhidao.baidu.com###qb-ad-cpro
 !--qiyi
 @@||afp.qiyi.com^*&local=xml|
 ^db=qiyiafp^
@@ -171,6 +171,12 @@ qiyi.com###ad-left-tl
 ||g.bitauto.com^$script
 bitauto.com##.bt_ad
 bitauto.com##.con_ad
+
+!---中国新闻网
+||chinanews.com/adpolestar/
+/ad2008/*$domain=chinanews.com
+/fileftp/*$object,domain=chinanews.com.cn|chinanews.com
+chinanews.com##.syad
 
 !---圣城家园
 ||tuan.cnscg.com/img/3dtv.jpg
@@ -1028,10 +1034,6 @@ www.autohome.com.cn##div.mainContainer > div[style^="width: 960px;"]
 ||cankaoa.com/new/$script
 ||imgs.ccw.com.cn^*_260_80.
 ||imgs.ccw.com.cn/ccw/1.htm
-@@/fileftp/2007*/*$domain=fj.chinanews.com,object
-/ad2008/*$domain=chinanews.com
-/fileftp/*$object,domain=chinanews.com.cn|chinanews.com
-chinanews.com##.syad
 ||cnhubei.com/gg_10/
 ||cnhubei.com^*/g2
 www.cnhubei.com##.A
@@ -1851,9 +1853,9 @@ xitek.com##[id^="mo"]
 /uimg.
 /union.$third-party
 /upload/ad/*
-/webafp?
 /tanchuang.
 /tuiguang/*
+/webafp?
 
 !-----------------------------Privacy----------------------
 /counter.$domain=~cnbeta.com|~dl.pconline.com.cn|~shooter.cn
@@ -1861,7 +1863,7 @@ xitek.com##[id^="mo"]
 |http://pv.
 |http://pvstat.
 |http://*/pv.
-|http://*/pv/$domain=~proxyvote.com|~guba.stock.sohu.com|~yahoo.com
+|http://*/pv/
 |http://*/tj.js
 |http://track.
 /ktrace/ktrace$script

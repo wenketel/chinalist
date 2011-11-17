@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: Gu1irDbk6co5HySSeU1+og
+!  Checksum: DeqkIYYjRlcaPBa4vXmo1g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 16 Nov 2011 16:13:49 +0800
+!  Last Modified:  Thu, 17 Nov 2011 13:23:32 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -156,7 +156,7 @@ iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com##.ad-fc-down
 zidao.baidu.com,zhidao.baidu.com##.r
 zidao.baidu.com,zhidao.baidu.com###ad-brand-down
 zidao.baidu.com,zhidao.baidu.com###center > div[style="width:85%"]
-iknow.baidu.com,zidao.baidu.com,zhidao.baidu.com###qb-ad-cpro
+iknow.baidu.com,zidao.baidu.com,z.baidu.com,zhidao.baidu.com###qb-ad-cpro
 !--qiyi
 @@||afp.qiyi.com^*&local=xml|
 ^db=qiyiafp^
@@ -171,6 +171,12 @@ qiyi.com###ad-left-tl
 ||g.bitauto.com^$script
 bitauto.com##.bt_ad
 bitauto.com##.con_ad
+
+!---中国新闻网
+||chinanews.com/adpolestar/
+/ad2008/*$domain=chinanews.com
+/fileftp/*$object,domain=chinanews.com.cn|chinanews.com
+chinanews.com##.syad
 
 !---圣城家园
 ||tuan.cnscg.com/img/3dtv.jpg
@@ -1027,10 +1033,6 @@ www.autohome.com.cn##div.mainContainer > div[style^="width: 960px;"]
 ||cankaoa.com/new/$script
 ||imgs.ccw.com.cn^*_260_80.
 ||imgs.ccw.com.cn/ccw/1.htm
-@@/fileftp/2007*/*$domain=fj.chinanews.com,object
-/ad2008/*$domain=chinanews.com
-/fileftp/*$object,domain=chinanews.com.cn|chinanews.com
-chinanews.com##.syad
 ||cnhubei.com/gg_10/
 ||cnhubei.com^*/g2
 www.cnhubei.com##.A
@@ -1850,9 +1852,9 @@ xitek.com##[id^="mo"]
 /uimg.
 /union.$third-party
 /upload/ad/*
-/webafp?
 /tanchuang.
 /tuiguang/*
+/webafp?
 
 !-----------------------------Privacy----------------------
 /counter.$domain=~cnbeta.com|~dl.pconline.com.cn|~shooter.cn
@@ -1860,7 +1862,7 @@ xitek.com##[id^="mo"]
 |http://pv.
 |http://pvstat.
 |http://*/pv.
-|http://*/pv/$domain=~proxyvote.com|~guba.stock.sohu.com|~yahoo.com
+|http://*/pv/
 |http://*/tj.js
 |http://track.
 /ktrace/ktrace$script
@@ -3076,6 +3078,7 @@ zaobao.com###myMovie
 /deliverad/*
 /deliverads.
 /deliverjs.nmi?
+/delivery.ads.
 /delivery/*?advplaces=
 /delivery/ag.php
 /delivery/al.php
@@ -3220,6 +3223,7 @@ zaobao.com###myMovie
 /google_afc_
 /googlead-
 /googlead.
+/googlead160.
 /googlead_
 /googleadhp.
 /googleadhpbot.
@@ -4243,36 +4247,27 @@ _a468x60.
 ###AD_CONTROL_29
 ###AD_CONTROL_8
 ###AD_ROW
+###AD_Top
 ###AD_newsblock
 ###ADgoogle_newsblock
 ###ADsmallWrapper
-~digitalhome.ca###Ad1
 ###Ad160x600
-###Ad2
 ###Ad300x250
 ###Ad3Left
 ###Ad3Right
 ###Ad3TextAd
-###AdA
 ###AdArea
 ###AdBanner_F1
 ###AdBar
 ###AdBar1
 ###AdBox2
-###AdC
 ~lalovings.com###AdContainer
 ###AdContainerTop
 ###AdContentModule_F
 ###AdDetails_GoogleLinksBottom
 ###AdDetails_InsureWith
-###AdE
-###AdF
 ###AdFrame4
-###AdG
-###AdH
 ~ksl.com###AdHeader
-###AdI
-###AdJ
 ###AdLeaderboardBottom
 ###AdLeaderboardTop
 ###AdMiddle
@@ -4300,7 +4295,6 @@ _a468x60.
 ###Ad_Top
 ~cynamite.de###Adbanner
 ###Adrectangle
-###Ads
 ###AdsContent
 ###AdsRight
 ###AdsWrap
@@ -4564,9 +4558,7 @@ _a468x60.
 ###ad160x600
 ###ad160x600right
 ###ad1Sp
-~badger.ru###ad2
 ###ad2Sp
-~absoluteradio.co.uk###ad3
 ###ad300
 ###ad300-250
 ###ad300X250
@@ -4787,6 +4779,7 @@ _a468x60.
 ###ad_anchor
 ~karjalainen.fi###ad_area
 ###ad_banner
+###ad_bannerManage_1
 ###ad_banner_top
 ###ad_banners
 ###ad_bar
@@ -4806,6 +4799,7 @@ _a468x60.
 ###ad_cna2
 ###ad_cont
 ~academics.de###ad_container
+###ad_container_0
 ###ad_container_marginal
 ###ad_container_side
 ###ad_container_sidebar
@@ -5153,7 +5147,6 @@ _a468x60.
 ###adsquare
 ###adsright
 ###adstop
-~wideroe.no###adt
 ###adtab
 ###adtag_right_side
 ###adtagfooter
@@ -5685,7 +5678,6 @@ _a468x60.
 ###g_ad
 ###g_adsense
 ###ga_300x250
-###gad
 ###gad2
 ###gad3
 ###gad5
@@ -6014,7 +6006,6 @@ _a468x60.
 ###moreads
 ###most_popular_ad
 ###motionAd
-###mpu
 ###mpu-advert
 ###mpu-cont
 ###mpu300250
@@ -6570,12 +6561,10 @@ _a468x60.
 ##.Ad-Header
 ##.Ad-MPU
 ##.Ad-Wrapper-300x100
-##.Ad1
 ##.Ad120x600
 ##.Ad160x600
 ##.Ad160x600left
 ##.Ad160x600right
-##.Ad2
 ##.Ad247x90
 ##.Ad300x
 ##.Ad300x250
@@ -6607,7 +6596,6 @@ _a468x60.
 ##.Ad_D_Wrapper
 ##.Ad_E_Wrapper
 ##.Ad_Right
-~carkey.co.za,~muvtal.co.il,~thecoolhunter.net##.Ads
 ##.AdsBottom
 ##.AdsBoxBottom
 ##.AdsBoxSection
@@ -6667,7 +6655,6 @@ _a468x60.
 ##.M2Advertisement
 ##.MD_adZone
 ##.MOS-ad-hack
-##.MPU
 ##.MPUHolder
 ##.MPUTitleWrapperClass
 ##.MREC_ads
@@ -6675,7 +6662,6 @@ _a468x60.
 ##.MiddleAdContainer
 ##.MiddleAdvert
 ##.NewsAds
-##.OAS
 ##.OpaqueAdBanner
 ##.OpenXad
 ##.PU_DoubleClickAdsContent
@@ -7006,7 +6992,7 @@ _a468x60.
 ~advertiser.ie##.adPanel
 ##.adPod
 ##.adRect
-##.adResult
+~aggeliestanea.gr##.adResult
 ##.adRight
 ##.adSKY
 ##.adSelfServiceAdvertiseLink
@@ -8406,7 +8392,6 @@ _a468x60.
 ##.moduletable-googleads
 ##.moduletablesquaread
 ##.mos-ad
-~gamespot.com##.mpu
 ##.mpu-ad
 ##.mpu-ad-con
 ##.mpu-advert
@@ -9093,6 +9078,7 @@ _a468x60.
 ##.ra[align="left"][width="30%"]
 ##.ra[align="right"][width="30%"]
 ! *** easylist:easylist/easylist_adservers.txt ***
+||103092804.com^$third-party
 ||10pipsaffiliates.com^$third-party
 ||1100i.com^$third-party
 ||188server.com^$third-party
@@ -9341,6 +9327,7 @@ _a468x60.
 ||aim4media.com^$third-party
 ||aimatch.com^$third-party
 ||ajansreklam.net^$third-party
+||alchemysocial.com^$third-party
 ||alfynetwork.com^$third-party
 ||allabc.com^$third-party
 ||alleliteads.com^$third-party
@@ -9348,6 +9335,8 @@ _a468x60.
 ||alphabird.com^$third-party
 ||alphabirdnetwork.com^$third-party
 ||alphagodaddy.com^$third-party
+||alternads.info^$image,~image,popup
+||alternads.info^$third-party
 ||am10.ru^$third-party
 ||amazon-adsystem.com^$third-party
 ||amazon-cornerstone.com^$third-party
@@ -9553,6 +9542,7 @@ _a468x60.
 ||digipathmedia.com^$third-party
 ||digitrevenue.com^$third-party
 ||dinclinx.com^$third-party
+||directaclick.com^$third-party
 ||directleads.com^$third-party
 ||directorym.com^$third-party
 ||directtrack.com^$third-party
@@ -11199,7 +11189,6 @@ _a468x60.
 /cgi-sys/count.cgi?df=
 /ch/additional.php?res_width=
 /chartbeat.js
-/chat/server.php?request=track&output=
 /chcounter/*
 /clickheat.js
 /clickheat/*
@@ -11310,6 +11299,7 @@ _a468x60.
 /netupdate/live.php?
 /nielsen.js
 /nielsen/*
+/nielsenscv53.$script
 /nielson_stats.js
 /njs.gif?
 /nm_tr_combined-min.js
@@ -11352,6 +11342,7 @@ _a468x60.
 /s.gif?l=
 /sdctag.js?
 /sdxp1/dru4/meta?_hc=
+/server.php?request=track&output=
 /shinystat.cgi?
 /sitestat.js
 /sitestats.gif?
