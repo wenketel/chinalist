@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: xcSa0JdxlxxlBncwV4Qwmw
+!  Checksum: BiAx0UlYmg4kfgadTx1PvA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 18 Nov 2011 17:22:58 +0800
+!  Last Modified:  Sat, 19 Nov 2011 11:41:58 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -270,6 +270,7 @@ dict.cn###top-gg
 ##.ad_footerbanner
 ##.archiver_banner
 ##.a_pb
+##.wp.a_h
 ~discuz.net##.a_pt
 ###ad_headerbanner
 ~xdjz.net###ads_c_tpc
@@ -720,9 +721,9 @@ tgbus.com##[class^="adv_"]
 !---TianYa
 ||blog.tianya.cn/tuijian/tanchu.js
 ||8*.tianya.cn^
+||stat.tianya.cn^
+||click.tianyaui.com^
 ||global.tianyaui.com/global/wizard/js/wizard.js
-||tianyabook.com^$script
-www.tianya.cn##[id*="_AD_"]
 
 !---TTG
 @@||ttg.im/pic/ttg_logo.png
@@ -1297,6 +1298,7 @@ www.5dmail.net##td[width="145"]
 ||cnki.net/indexGuangGao.htm
 ||img.cjdby.com/client/
 lt.cjdby.net##td[colspan="5"]
+||2010.cqvip.com/act/*$script
 ||dabaoku.com^$script,object,subdocument
 ||djkk.com/ak/
 ||bbs.dospy.com/proxy.html
@@ -1418,6 +1420,8 @@ bbs.weiphone.com##[id^="ads_"]
 win7china.com,win8china.com##.hot_down
 win7china.com,win8china.com##.site_ad
 ||a.wm090.com/biz_icon/
+||marketing.xineurope.com^
+xineurope.com##[class*="a_"]
 /aggd/*$domain=xishuiw.com|xishuiw.net
 ||xitek.com/newsite/mojs.php?
 xitek.com##[id^="mo"]
@@ -1606,6 +1610,7 @@ xitek.com##[id^="mo"]
 ||csbew.com^$third-party
 ||d9ad.com^$third-party
 ||daoyoudao.com^$third-party
+||diankee.com^$third-party
 ||dingge.cc^$third-party
 ||dilingling.com^$third-party
 ||resmkt.dipan.com^$third-party
@@ -1779,6 +1784,7 @@ xitek.com##[id^="mo"]
 ||v.xi666.com^$third-party
 ||xiaoangel.com^$third-party
 ||xixianad.com^$third-party
+||xp3366.com^$third-party
 ||xt918.com^$third-party
 ||xw11.com^$third-party
 ||code.xwadv.com^$third-party
