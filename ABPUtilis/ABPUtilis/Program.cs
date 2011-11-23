@@ -72,12 +72,12 @@ namespace ABPUtils
 
                     Merge(args[1], proxy, argsList.Contains("patch"));
                     break;
-                //case "check":
-                //    if (args.Length == 2)
-                //        CheckUrls(args[1]);
-                //    else
-                //        CheckUrls(args[1], args[2]);
-                //    break;
+                case "check":
+                    if (args.Length == 2)
+                        CheckUrls(args[1]);
+                    else
+                        CheckUrls(args[1], args[2]);
+                    break;
                 default:
                     break;
             }
@@ -93,15 +93,12 @@ namespace ABPUtils
                 if (proxy != null)
                 {
                     webClient.Proxy = proxy;
-                    Console.ForegroundColor = ConsoleColor.Yellow;
                     Console.WriteLine("use proxy: {0}", proxy.Address.Authority.ToString());
-                    Console.ResetColor();
                 }
 
                 Dictionary<string, string> lists = new Dictionary<string, string>();
                 lists.Add(EASYLIST, EASYLIST_URL);
                 lists.Add(EASYPRIVACY, EASYPRIVACY_URL);
-                Console.ForegroundColor = ConsoleColor.Magenta;
                 foreach (var s in lists)
                 {
                     if (IsFileExist(s.Key))
@@ -121,7 +118,6 @@ namespace ABPUtils
                         }
                     }
                 }
-                Console.ResetColor();
             }
 
             //merge
@@ -146,27 +142,23 @@ namespace ABPUtils
             //apply patch settings
             if (File.Exists(PATCH_FILE) && patch)
             {
-                Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine("use {0} to patch {1}", PATCH_FILE, lazyList);
                 using (StreamReader sr = new StreamReader(PATCH_FILE, Encoding.UTF8))
                 {
                     string xml = sr.ReadToEnd();
                     PatchConfigurations patchconfig = SimpleSerializer.XmlDeserialize<PatchConfigurations>(xml);
-                    Console.ForegroundColor = ConsoleColor.Red;
                     foreach (var item in patchconfig.RemovedItems)
                     {
                         sBuilder.Replace(item + "\n", string.Empty);
                         Console.WriteLine("remove filter {0}", item);
                     }
 
-                    Console.ForegroundColor = ConsoleColor.Blue;
                     foreach (var item in patchconfig.ModifyItems)
                     {
                         sBuilder.Replace(item.OldItem, item.NewItem);
                         Console.WriteLine("replace filter {0} with {1}", item.OldItem, item.NewItem);
                     }
 
-                    Console.ForegroundColor = ConsoleColor.Green;
                     if (patchconfig.NewItems.Count > 0)
                         sBuilder.AppendLine("!-----------------additional for ChinaList Lazy-------------");
                     foreach (var item in patchconfig.NewItems)
@@ -175,9 +167,7 @@ namespace ABPUtils
                         Console.WriteLine("add filter {0}", item);
                     }
                 }
-                Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine("Patch file end.");
-                Console.ResetColor();
             }
 
             sBuilder.AppendLine("");
@@ -205,6 +195,7 @@ namespace ABPUtils
         {
             ChinaList cl = new ChinaList(fileName);
             List<string> urls = cl.GetUrls();
+            //List<string> urls = cl.ParseURLs();
             StringBuilder stringBuilder = new StringBuilder();
             List<string> urlList = new List<string>();
             IPAddress dnsServer = IPAddress.Parse("8.8.8.8");
@@ -222,9 +213,7 @@ namespace ABPUtils
                     }
                     else
                     {
-                        Console.ForegroundColor = ConsoleColor.Red;
                         Console.WriteLine("Ping {0} failed {1} time(s).", url, i);
-                        Console.ResetColor();
                         ret = PingUrl(url);
                         if (i == 3)
                         {
@@ -235,9 +224,7 @@ namespace ABPUtils
                             }
                             else
                             {
-                                Console.ForegroundColor = ConsoleColor.Red;
                                 Console.WriteLine("{0} is not exist.", url);
-                                Console.ResetColor();
                             }
                         }
                     }
@@ -372,7 +359,7 @@ namespace ABPUtils
 
             return sBuilder.Replace("\r", string.Empty).ToString();
         }
-       
+
         static string GetWhoisInformation(string whoisServer, string url)
         {
             StringBuilder stringBuilderResult = new StringBuilder();
