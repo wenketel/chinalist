@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: E287cZlbeYU0+Za31UR/lQ
+!  Checksum: ToTPhthBE8W7+WY/8Dw6cg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 23 Nov 2011 22:47:26 +0800
+!  Last Modified:  Thu, 24 Nov 2011 20:48:20 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -148,8 +148,7 @@ baidu.com##table[cellspacing="0"][cellpadding="0"][align="right"][width="30%"]
 tieba.baidu.com###frs_banner_ad
 tieba.baidu.com###sgp_top_frame
 !--video
-video.baidu.com##div[style="padding:0 10px"]
-video.baidu.com##div#user-bar + div[style^="display:block;"]
+video.baidu.com##div#results > div[style^="display:block;width:980px;"]
 !--zhidao
 ||baidu.com^*/egg*.swf
 ||cp.zhidao.baidu.com^$script

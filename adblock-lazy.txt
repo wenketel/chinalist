@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: e8BIHx7UEEUVjb/1yUhxrA
+!  Checksum: 2mWS1OqPaKN4oQyVAzMQ9A
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 23 Nov 2011 22:47:26 +0800
+!  Last Modified:  Thu, 24 Nov 2011 20:48:20 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -148,8 +148,7 @@ baidu.com##table[cellspacing="0"][cellpadding="0"][align="right"][width="30%"]
 tieba.baidu.com###frs_banner_ad
 tieba.baidu.com###sgp_top_frame
 !--video
-video.baidu.com##div[style="padding:0 10px"]
-video.baidu.com##div#user-bar + div[style^="display:block;"]
+video.baidu.com##div#results > div[style^="display:block;width:980px;"]
 !--zhidao
 ||baidu.com^*/egg*.swf
 ||cp.zhidao.baidu.com^$script
@@ -2562,6 +2561,7 @@ zaobao.com###myMovie
 /ads1/*
 /ads10/*
 /ads11/*
+/ads160.
 /ads18.
 /ads2.
 /ads2/*
@@ -4527,6 +4527,7 @@ _a468x60.
 ###ad-sidebar
 ###ad-sky
 ###ad-skyscraper
+###ad-slot-right
 ###ad-slug-wrapper
 ###ad-small-banner
 ###ad-space
@@ -6333,6 +6334,7 @@ _a468x60.
 ###sponsoredBox1
 ###sponsoredBox2
 ###sponsoredLinks
+###sponsoredLinks_Top
 ###sponsoredList
 ###sponsoredResults
 ###sponsoredResultsWide
@@ -9108,7 +9110,7 @@ _a468x60.
 ||188server.com^$third-party
 ||18clicks.com^$third-party
 ||247realmedia.com^$third-party
-||2mdn.net^$object-subrequest,third-party,domain=bbc.co.uk|euronews.net|nationalpost.com|reuters.com|rollingstone.com|rte.ie|telegraph.co.uk
+||2mdn.net^$object-subrequest,third-party,domain=bbc.co.uk|euronews.net|metacafe.com|nationalpost.com|reuters.com|rollingstone.com|rte.ie|telegraph.co.uk
 ||2mdn.net^$~object-subrequest,third-party
 ||360ads.com^$third-party
 ||360yield.com^$third-party
@@ -9165,6 +9167,7 @@ _a468x60.
 ||adfrontiers.com^$third-party
 ||adfunkyserver.com^$third-party
 ||adfusion.com^$third-party
+||adgalax.com^$third-party
 ||adgardener.com^$third-party
 ||adgatemedia.com^$third-party
 ||adgear.com^$third-party
@@ -9282,6 +9285,7 @@ _a468x60.
 ||adtology3.com^$third-party
 ||adtoma.com^$third-party
 ||adtomafusion.com^$third-party
+||adtoox.com^$third-party
 ||adtotal.pl^$third-party
 ||adtrgt.com^$third-party
 ||adtrix.com^$third-party
