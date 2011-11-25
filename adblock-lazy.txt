@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 2mWS1OqPaKN4oQyVAzMQ9A
+!  Checksum: jAnhxzdLmbDw3wDsOnzvPA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 24 Nov 2011 20:48:20 +0800
+!  Last Modified:  Fri, 25 Nov 2011 16:53:53 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -593,6 +593,7 @@ qingdaonews.com##.surround
 readersdigest.cn###fixeddiv
 
 !---人人
+||dj.renren.com^
 ||ebp.renren.com^
 ||shaft.jebe.renren.com^
 
@@ -905,6 +906,7 @@ zhulang.com###reader_top
 ||pic.zol-img.com.cn^$object
 zol.com.cn##[id^="Bar"]
 zol.com.cn##[id^="AD"]
+zol.com.cn##[id^="ad"]
 www.zol.com.cn##.banner960
 !--中关村在线武汉站
 ||pc3w.com/adpic/
@@ -1060,8 +1062,8 @@ www.junshier.com##a[href^="http://code.2bj.cc"]
 ||junshijia.com/new/$script
 ||junshijia.com/images/funcs.js
 junshijia.com##.newlist7_1
-||xinhuanet.com/classad/
 ||news.cn/js20100613/ad_01.js
+||ntdtv.com/xtr/ad/
 ||ashow.pcpop.com^
 www.pcpop.com##div.Content > div.l1:first-child
 www.pcpop.com##div.Content > div.r1:nth-child(2)
@@ -1076,6 +1078,7 @@ www.pcpop.com##div.Content > div.r1:nth-child(2)
 ||js.pub.tom.com^
 tom.com##.tomgame
 ||image.wenweipo.com/*/ad_
+||xinhuanet.com/classad/
 ||iads.xinmin.cn^
 xmnn.cn##[class^="ad"]
 ||media.yesky.com/
@@ -3110,6 +3113,7 @@ zaobao.com###myMovie
 /dne_ad.
 /dnsads.html?
 /doors/ads/*
+/doubleclick.js
 /doubleclick.php
 /doubleclick/iframe.
 /doubleclick_ads.
@@ -3929,6 +3933,7 @@ zaobao.com###myMovie
 ?advtile=
 ?advurl=
 ?adzone=
+?dfpadname=
 ?file=ads&
 ?getad=&$~object-subrequest
 ?goto=ad|
@@ -7898,6 +7903,7 @@ _a468x60.
 ##.cbzadvert_block
 ##.cdAdTitle
 ##.cdmainlineSearchAdParent
+##.cdo-ad-section
 ##.cdsidebarSearchAdParent
 ##.centerAd
 ##.center_ad
@@ -10035,6 +10041,7 @@ _a468x60.
 ||safelistextreme.com^$third-party
 ||salvador24.com^$third-party
 ||saple.net^$third-party
+||saveads.net^$third-party
 ||sbaffiliates.com^$third-party
 ||scanscout.com^$third-party
 ||scratchaffs.com^$third-party
@@ -10206,7 +10213,7 @@ _a468x60.
 ||vibrantmedia.com^$third-party
 ||video-loader.com^$third-party
 ||videoegg.com^$third-party
-||videoplaza.com^$object-subrequest,third-party,domain=mpora.com
+||videoplaza.com^$object-subrequest,third-party,domain=evo.co.uk|mpora.com
 ||videoplaza.com^$~object-subrequest,third-party
 ||videoplaza.tv/proxy/distributor?$object-subrequest,third-party
 ||videoplaza.tv^$~object-subrequest,third-party
@@ -10502,6 +10509,7 @@ _a468x60.
 ||bet-at-home.com/oddbanner.aspx?
 ||bet365.com/home/?affiliate=$image,~image,popup
 ||beta.down2crazy.com^$third-party
+||bidgo.ca^$subdocument,third-party
 ||bidorbuy.co.za/jsp/system/referral.jsp?
 ||bigmoneyptc.com/banners/
 ||bijk.com^*/banners/
@@ -10954,6 +10962,7 @@ _a468x60.
 ||sweeva.com/widget.php?w=$third-party
 ||swiftco.net/banner/
 ||swimg.net^*/banners/
+||syndication.visualthesaurus.com/std/vtad.js
 ||syndication1.viraladnetwork.net^
 ||take2.co.za/misc/bannerscript.php?
 ||takeover.bauermedia.co.uk^$image,script
@@ -11067,6 +11076,7 @@ _a468x60.
 ||br.realitykings.com^
 ||brazzers.com/ads/
 ||cams.com/p/cams/cpcs/streaminfo.cgi?$third-party
+||candidvoyeurism.com/ads/$image,~image,popup
 ||click.kink.com^$third-party
 ||cwgads.com/launch.js$third-party
 ||cwgads.com^$~script,third-party
@@ -12652,6 +12662,7 @@ _cedexis.php
 ||counter.sina.com.cn^
 ||cri.cn/a1.js
 ||cri.cn/wrating.js
+||dj.renren.com^
 ||ftchinese.com/log/new_log.php?
 ||nstat.tudou.com^
 ||s.renren.com^
