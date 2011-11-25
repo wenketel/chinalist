@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: jAnhxzdLmbDw3wDsOnzvPA
+!  Checksum: +Lk1K92P9fzAj9wb3xjnHA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 25 Nov 2011 16:53:53 +0800
+!  Last Modified:  Sat, 26 Nov 2011 02:43:10 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -324,7 +324,7 @@ firefoxchina.cn,g-fox.cn##[id^="ad_links"]
 firefoxchina.cn,g-fox.cn##[id^="banner_show"]
 
 !---巴哈姆特
-|http://$subdocument,third-party,domain=gamer.com.tw
+|http://*.htm$subdocument,third-party,domain=gamer.com.tw
 ||pic.bahamut.com.tw/js/ad.js
 
 !---游民星空
@@ -4146,6 +4146,7 @@ _webad.
 .728x90/
 .728x90_
 .com/160_
+.com/300_
 .com/728_
 /120x600-
 /120x600.
@@ -9189,6 +9190,7 @@ _a468x60.
 ||adicate.com^$third-party
 ||adimise.com^$third-party
 ||adimpact.com^$third-party
+||adimperia.com^$third-party
 ||adinterax.com^$third-party
 ||adireland.com^$third-party
 ||adisfy.com^$third-party
@@ -10354,6 +10356,7 @@ _a468x60.
 ||intrapromotion.com^$third-party
 ||jackao.net^$third-party
 ||juicyads.com^$third-party
+||k9x.net^$third-party
 ||lovercash.com^$third-party
 ||mediagra.com^$third-party
 ||meineserver.com^$third-party
@@ -10364,6 +10367,7 @@ _a468x60.
 ||partnercash.com^$third-party
 ||plugrush.com^$third-party
 ||porkolt.com^$third-party
+||portable-basketball.com^$third-party
 ||privateseiten.net^$third-party
 ||robotadserver.com^$third-party
 ||rukplaza.com^$third-party
@@ -11151,6 +11155,7 @@ _a468x60.
 ||scoreland.com/banner/
 ||secretbehindporn.com^$subdocument,third-party
 ||sextronix.com/b/
+||sextronix.com/images/$third-party
 ||sexy.fling.com^$third-party
 ||sexycams.com/exports/$third-party
 ||share-image.com/borky/
@@ -11162,12 +11167,14 @@ _a468x60.
 ||swurve.com/affiliates/
 ||thrixxx.com/scripts/show_banner.php?
 ||tubefck.com^*/adawe.swf
+||uploade.rs/img1/rcjfb.png
 ||videobox.com/?tid=$image,~image,popup
 ||videobox.com/tour/$image,~image,popup
 ||viorotica.com^*/banners/
 ||webcams.com^$image,~image,popup
 ||xlovecam.com/acwm/
 ||xnxx.com^$third-party
+||youfck.com^$script,third-party
 ||youfck.com^*/adawe.swf
 ||youpornmate.com/dif/?cid=$third-party
 ||yuvutu.com^$image,~image,popup
