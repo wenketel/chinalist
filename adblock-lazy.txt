@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: dw5dBN4FT7/h93CH5JyxRQ
+!  Checksum: j/oeDKFwCWhcUc/nUKxGCg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 26 Nov 2011 14:03:02 +0800
+!  Last Modified:  Sat, 26 Nov 2011 18:44:10 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -21,7 +21,7 @@
 @@||paipai.com^$image,domain=shop.qq.com
 @@||shangcuwang.com/ads/$image
 @@/advertise/*$domain=suning.com
-@@||ad.zasv.com^*/static/$image
+@@||ad.zasv.com^*/*/s
 @@||zerodm.cn/js/ads/zxdmxz.js
 
 !----------------------------Well-known Sites--------------
@@ -270,7 +270,9 @@ dict.cn###top-gg
 ##.ad_footerbanner
 ##.archiver_banner
 ##.a_pb
+##.wp.a_f
 ##.wp.a_h
+##.wp.a_t
 ~discuz.net##.a_pt
 ###ad_headerbanner
 ~xdjz.net###ads_c_tpc
@@ -730,7 +732,6 @@ tgbus.com##[class^="adv_"]
 @@||ttg.im/pic/ttg_logo.png
 ||ttg.im/pic/ttg-
 ||ttg.im/pic/ttg_
-ttg.im##.wp.a_t
 
 !---土豆
 ||tdimg.com/sales/
@@ -1369,7 +1370,6 @@ bbs.kafan.cn##table.header_gg
 ||img.maxpda.com/images/
 maxpda.com##.ad
 maxpda.com##[id^="dp-ads"]
-bbs.maxpda.com##.wp.a_t
 ||mfxk.com^$subdocument
 ||mojim.com/htm99t/iad.js
 ||mop.com/fxb/js/fxb$script
