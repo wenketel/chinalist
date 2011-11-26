@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: GAqNA84SFWnBcmFwk7oevA
+!  Checksum: 4ZmfPElzxMotIVy0VhQbLg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 26 Nov 2011 03:03:29 +0800
+!  Last Modified:  Sat, 26 Nov 2011 13:54:58 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -18,6 +18,7 @@
 @@/adbanner/*$image,domain=books.com.tw
 @@||afp.goyeah.com^$object_subrequest
 @@||iphone4.tw/forums/news_proxy.php
+@@||paipai.com^$image,domain=shop.qq.com
 @@||shangcuwang.com/ads/$image
 @@/advertise/*$domain=suning.com
 @@||ad.zasv.com^*/static/$image
@@ -215,6 +216,7 @@ chinatimes.com##.ad
 ||cnbeta.com/*125$image
 ||cnbeta.com/js/google.js
 @@||img.cnbeta.com/newsimg/
+@@||img.cnbeta.com/upimg/
 ||img.cnbeta.com^$object
 ||img.cnbeta.com/25080-1.gif
 ||img.cnbeta.com/*300$image
@@ -557,7 +559,6 @@ www.qidian.com##[class^="gg"]
 @@||adsrich.qq.com/web/crystal/$script,domain=news.qq.com
 @@||mb.qq.com^$elemhide
 @@||gtimg.com/img/ad/$image,domain=buy.qq.com
-||mat1.gtimg.com/cq/
 ||mat1.gtimg.com/news/fbgg/
 ||mat1.gtimg.com/sports/2011ad/
 ||adslvfile.qq.com^
@@ -571,6 +572,7 @@ qq.com##[class*="Ad"][class$="-Article-QQ"]
 qq.com##.business-Article-QQ
 qq.com##.l_qq_com
 qq.com##.qiye-Article-QQ
+cq.qq.com##[style^="width:960px;"]
 news.qq.com###news_ad
 www.qq.com##.adArea
 www.qq.com###proAd
@@ -696,6 +698,7 @@ news.sohu.com##div.left > h2 > span
 !--tv
 ||sohu.*.gif?$object_subrequest
 ||hd.sohu.com.cn/dov.do?$object_subrequest
+||aty*.tv.sohu.com^
 ||tv.sohu.com/his/ping.do?$object_subrequest
 
 !---东菀阳光网
@@ -1021,7 +1024,7 @@ ali213.net##.newright
 115.com##[class^="ban-"]
 115.com##div.col-sub > div[style]:last-child
 115.com##div.file-info + div[style="margin: 10px;"]
-||static.ctdisk.com/cpv/cpv.js
+||static.ctdisk.com/510.js
 ||d.namipan.com/inc_js/$script
 ||img.rayfile.com/scr/$script
 ||rayfile.com/_.gif?vid
@@ -1032,7 +1035,6 @@ ali213.net##.newright
 ||passport.67.com/ShowSubcribe.aspx
 ||33.autohome.com.cn^$script
 ||img.autohome.com.cn/pvpv$script
-www.autohome.com.cn##[style^="width: 960px;"]
 www.autohome.com.cn##div.mainContainer > div[style^="width: 960px;"]
 ||backchina.com/banners/
 ||cankaoa.com/new/$script
@@ -1091,6 +1093,7 @@ yesky.com##[class^="ad"]
 @@/configs/article/pagebottom.js
 /configs/article/*$script,subdocument
 /configs/article/gggg/*
+/wjj/*
 ||16kbook.com/all/
 16kbook.com###AdsT
 ||img.17k.com/channel/flash/
@@ -1106,6 +1109,7 @@ js.17kkmh.com/scriptAD/
 ||35xs.com/js/fmt.js
 ||35xs.com/js/ggp.js
 ||35xs.com/js/other.js
+||35zww.com/zzzjs/
 ||3yt.com/2009js/
 @@||3zcn.com^$elemhide
 ||3zcn.com/3z/
@@ -1191,7 +1195,6 @@ laishu.com###g_baidu
 ||js.myshulou.com/newgg/
 ||narutom.com/v2/js/198game_Lt.js
 ||niubb.net/niubbad/
-||ppshi.com/wjj/
 ||quanben.net/js/
 ||pfwx.com/ac*/$script
 ||readnovel.com/js/adposition/
@@ -1232,6 +1235,8 @@ sfw.com.cn##.cataBanner1
 @@||yankuai.com/ads/pagebottom.js
 ||ydnovel.com/js/topp.js
 ||yueshuba.com^$script
+@@||zzzcn.com^$elemhide
+||zzzcn.com/3z/
 
 !---RSS
 ||mrss.dokoda.jp/v/$image
@@ -1378,6 +1383,7 @@ www.mtime.com###notice_box
 needpop.com##div > div.spaceborder[style="width: 98%"]
 ||newsmth.net/nForum/ajax/left_ads
 ||offcn.com^$object
+||dl.opda.com.cn/attachments/portal/
 ||p5w.net/pfgg/
 ||pchome.com.tw/js/PChomeFS.js
 news.pchome.com.tw###ad_bg_div
@@ -1489,6 +1495,7 @@ xitek.com##[id^="mo"]
 ||2bj.cn^$third-party
 ||334700.com^$third-party
 ||33878.com^$third-party
+||3393.com^third-party
 ||33hy.com^$third-party
 ||333wan.com^$third-party
 ||union.360buy.com^
@@ -11191,6 +11198,7 @@ _a468x60.
 ! *** easylist:easyprivacy/easyprivacy_general.txt ***
 -xtcore.js
 /?livehit=
+/?record&key=
 /__utm.gif
 /a.logrequest.yolx?
 /aa.php?anuid=
@@ -11489,6 +11497,7 @@ _a468x60.
 ://wzeu.*/i/i.gif?
 ://wzus1.*/i/i.gif?
 ?_siteid=
+?record&*&serve_js
 ?stwc_cz=
 ?wpgb_public_action=*&referrer=
 ^name=atatracker^
