@@ -7,6 +7,7 @@
 // @homepage https://code.google.com/p/adblock-chinalist/
 // @updateURL https://adblock-chinalist.googlecode.com/svn/trunk/scripts/remove_ads_for_qiyi.user.js
 // @include http://*.qiyi.com/*
+// @include http://*.iqiyi.com/*
 // ==/UserScript==
 
 (function() {
