@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: G8NMC+Lo5WwLiLPKWGNKaQ
+!  Checksum: hbZ4e822G/0G0rOWRmWhRQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 27 Nov 2011 07:32:28 +0800
+!  Last Modified:  Mon, 28 Nov 2011 12:49:22 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -419,10 +419,12 @@ it168.com##table[width="668"]
 www.it168.com##div#header + div[style^="border"]
 
 !---日搜
+||jpfans.com/pr/
 ||jpseek.com/pr/
 ||jpunion.com^$third-party
 ||jpwave.net^$third-party
-jpseek.com##.i_table[cellpadding="6"]
+||riju.com^$domain=jpfans.com|jpseek.com
+jpseek.com,jpfans.com##div[align="center"] + table[align="center"][width="98%"]
 
 !---开心网
 ||img.kaixin001.com.cn/js/cpm*.js
@@ -2435,6 +2437,7 @@ zaobao.com###myMovie
 /admatch-
 /admatcher.
 /admaxads.
+/admeasure.
 /admedia.
 /admedia/*
 /admega.
@@ -3597,6 +3600,7 @@ zaobao.com###myMovie
 /qandaads/*
 /quadadvert.
 /questions/ads/*
+/r_ads/*
 /radopenx?
 /railad.
 /railads.
@@ -3917,6 +3921,7 @@ zaobao.com###myMovie
 =advert/
 =advertorial&
 =com_ads&
+=dartad_
 =dynamicads&
 =showsearchgoogleads&
 =webad2&
@@ -6464,7 +6469,7 @@ _a468x60.
 ###top_rectangle_ad
 ###top_right_ad
 ###top_wide_ad
-~bumpshack.com,~isource.com###topad
+~bumpshack.com,~isource.com,~montrealmirror.com###topad
 ###topad1
 ###topad2
 ###topad_left
@@ -7027,7 +7032,7 @@ _a468x60.
 ##.adPod
 ##.adRect
 ~aggeliestanea.gr##.adResult
-##.adRight
+~pogo.com##.adRight
 ##.adSKY
 ##.adSelfServiceAdvertiseLink
 ##.adServer
@@ -7149,7 +7154,7 @@ _a468x60.
 ##.ad_headline
 ##.ad_holder
 ##.ad_hpm
-~blocket.se##.ad_image
+~blocket.se,~willhaben.at##.ad_image
 ##.ad_info_block
 ##.ad_inline
 ##.ad_island
@@ -10925,6 +10930,7 @@ _a468x60.
 ||roia.hutchmedia.com^$third-party
 ||romepartners.com/affiliate/
 ||rotabanner.kulichki.net^
+||s1now.com^*/takeovers/
 ||safarinow.com/affiliate-zone/
 ||sailthru.com^*/horizon.js
 ||sayswap.com/banners/
@@ -11125,6 +11131,7 @@ _a468x60.
 ||girls-home-alone.com/dating/
 ||hentaikey.com/images/banners/
 ||hotcaracum.com/banner/
+||hotsocialz.com^$third-party
 ||icgirls.com^$image,~image,popup
 ||ifriends.net^$subdocument,third-party
 ||ihookup.com/configcreatives/
@@ -11186,6 +11193,7 @@ _a468x60.
 ||thrixxx.com/scripts/show_banner.php?
 ||tubefck.com^*/adawe.swf
 ||uploade.rs/img1/rcjfb.png
+||vectorpastel.com^$third-party
 ||videobox.com/?tid=$image,~image,popup
 ||videobox.com/tour/$image,~image,popup
 ||viorotica.com^*/banners/
@@ -11315,6 +11323,7 @@ _a468x60.
 /gatc.js
 /gcount.pl?
 /gemius.js
+/gemius/*
 /getsidpixeltag?sid=
 /globalpagetracking.js
 /google-analyticator/*

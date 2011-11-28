@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: jBQ8LtYi8EAG0+a6HZm1Zg
+!  Checksum: aM0aSlOYDHF2mj4mv+XUFQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 27 Nov 2011 07:32:28 +0800
+!  Last Modified:  Mon, 28 Nov 2011 12:49:22 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -419,10 +419,12 @@ it168.com##table[width="668"]
 www.it168.com##div#header + div[style^="border"]
 
 !---日搜
+||jpfans.com/pr/
 ||jpseek.com/pr/
 ||jpunion.com^$third-party
 ||jpwave.net^$third-party
-jpseek.com##.i_table[cellpadding="6"]
+||riju.com^$domain=jpfans.com|jpseek.com
+jpseek.com,jpfans.com##div[align="center"] + table[align="center"][width="98%"]
 
 !---开心网
 ||img.kaixin001.com.cn/js/cpm*.js
