@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 7wUWDF4vxhal+Rj2wM1uSg
+!  Checksum: SlUGUN8FtGG5JO0aRw+Iiw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 28 Nov 2011 18:24:00 +0800
+!  Last Modified:  Mon, 28 Nov 2011 20:36:05 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -210,7 +210,6 @@ club.china.com##.headbanner
 ||news.chinatimes.com/2009Cti/*Ads-Right*.shtml
 ||sortweb.chinatimes.com^
 ||wantbuy.chinatimes.com^$subdocument
-chinatimes.com##.ad
 
 !---cnBeta
 ||cnbeta.com/*125$image
@@ -543,6 +542,7 @@ pconline.com.cn##table[width="950"][cellspacing="0"][cellpadding="0"]
 ||error.pixplug.in^
 ||referer.pixplug.in^
 pixnet.net##.ad
+pixnet.net###pixblogad
 www.pixnet.net###extradiv2
 www.pixnet.net###extradiv5
 
@@ -863,8 +863,7 @@ cn.yahoo.com###r_expandable
 ||l.yimg.com/pq/
 ||l.yimg.com^*/a/tw/$~stylesheet
 ||l.yimg.com^*/tw/ysm/
-tw.news.yahoo.com##a[href*="yahoonewsad"]
-tw.news.yahoo.com###navigation a[href*="/referurl/"]
+tw.news.yahoo.com###navigation a[href^="http://us.lrd.yahoo.com/"]
 tw.yahoo.com##.admod
 tw.yahoo.com###eyebrow > a:not(#sethomepage)
 tw.yahoo.com##.newsad
@@ -913,7 +912,7 @@ zhulang.com###reader_top
 ||pic.zol-img.com.cn^$object
 zol.com.cn##[id^="Bar"]
 zol.com.cn##[id^="AD"]
-zol.com.cn##[id^="ad"]
+www.zol.com.cn##[id^="ad"]
 www.zol.com.cn##.banner960
 !--中关村在线武汉站
 ||pc3w.com/adpic/
@@ -9115,6 +9114,7 @@ _a468x60.
 ##a[href^="http://www.my-dirty-hobby.com/?sub="]
 ##a[href^="http://www.ringtonematcher.com/"]
 ! Google
+###center_col > div[style="background:#fbf0fa;margin:0 0 14px;min-height:0;padding-top:2px;padding-bottom:1px;padding-right:8px;padding-left:7px"]:first-child
 ###mbEnd[cellspacing="0"][cellpadding="0"]
 ###mclip_container:last-child
 ###ssmiwdiv[jsdisplay]
@@ -9124,7 +9124,6 @@ _a468x60.
 ##.ch[onclick="ga(this,event)"]
 ##.ra[align="left"][width="30%"]
 ##.ra[align="right"][width="30%"]
-##div[style="background:#fbf0fa;margin:0 0 14px;min-height:0;padding-top:2px;padding-bottom:1px;padding-right:8px;padding-left:7px"]
 ! *** easylist:easylist/easylist_adservers.txt ***
 ||103092804.com^$third-party
 ||10pipsaffiliates.com^$third-party
@@ -9221,6 +9220,7 @@ _a468x60.
 ||adknowledge.com^$third-party
 ||adkonekt.com^$third-party
 ||adlayer.net^$third-party
+||adlegend.com^$third-partyparty
 ||adlink.net^$third-party
 ||adlisher.com^$third-party
 ||adm.fwmrm.net/p/mtvn_live/$object-subrequest,third-party
