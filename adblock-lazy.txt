@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: spMBax4pyf0PI41pSGqSMQ
+!  Checksum: ob/MDGmFWBktLPDcZyV6bw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 30 Nov 2011 20:21:06 +0800
+!  Last Modified:  Wed, 30 Nov 2011 23:43:16 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -465,6 +465,7 @@ mobile01.com##a[href="promotionlist.php"]
 @@||11.mydrivers.com/news/define.js
 @@||11.mydrivers.com/www/index*.js
 ||11.mydrivers.com^$~third-party
+||images.mydrivers.com^$object
 ||yingyong.so^$third-party
 mydrivers.com##[id^="ad_"]
 drivers.mydrivers.com##div[align="center"]
@@ -2738,6 +2739,7 @@ zaobao.com###myMovie
 /adsrotate.
 /adsrule.
 /adsrv.
+/adsrv/*
 /adsserv.
 /adssrv.
 /adstacodaeu.
@@ -2785,6 +2787,7 @@ zaobao.com###myMovie
 /adtitle.
 /adtology.
 /adtonomy.
+/adtools2.
 /adtop.
 /adtrack.
 /adtrack/*
@@ -3182,6 +3185,8 @@ zaobao.com###myMovie
 /flashads/*
 /floater_ad.
 /floatingads.
+/flvad_
+/flvads/*
 /footad-
 /footad.
 /footer-ad-
@@ -8096,6 +8101,7 @@ _a468x60.
 ##.footer_ad
 ##.footer_ad336
 ##.footer_ads
+##.footer_banner_ad_container
 ##.footer_block_ad
 ##.footer_bottomad
 ##.footer_line_ad
@@ -10388,10 +10394,12 @@ _a468x60.
 ||lovercash.com^$third-party
 ||mediagra.com^$third-party
 ||meineserver.com^$third-party
+||methodcash.com^$third-party
 ||mtoor.com^$third-party
 ||naiadsystems.com^$third-party
 ||nastydollars.com^$third-party
 ||naughtyplayful.com^$image,~image,popup
+||newagerevenue.com^$third-party
 ||otherprofit.com^$third-party
 ||partnercash.com^$third-party
 ||plugrush.com^$third-party
@@ -10414,6 +10422,7 @@ _a468x60.
 ||tubedspots.com^$third-party
 ||twistyscash.com^$third-party
 ||webcambait.com^$third-party
+||wetpeachcash.com^$third-party
 ||whaleads.com^$third-party
 ||xfuckbook.com^$third-party
 ||xhamstercams.com^$third-party
@@ -10933,6 +10942,7 @@ _a468x60.
 ||regnow.com/vendor/
 ||rehost.to/?ref=
 ||relink.us/images/$third-party
+||rest.co.il/widgets/$third-party
 ||rewards1.com/images/referralbanners/$third-party
 ||roadcomponentsdb.com^$subdocument,third-party
 ||robofish.com/cgi-bin/banner.cgi?
@@ -11106,6 +11116,8 @@ _a468x60.
 ||adultdvd.com/plugins/*/store.html$third-party
 ||adultfriendfinder.com/go/$image,~image,popup
 ||affiliates.thrixxx.com^
+||ambya.com/potdc/
+||asianbutterflies.com/potd/
 ||bestholly.com/a1/$third-party
 ||bigmovies.com/images/banners/
 ||blossoms.com/images/banners/
@@ -11115,6 +11127,7 @@ _a468x60.
 ||cams.com/p/cams/cpcs/streaminfo.cgi?$third-party
 ||candidvoyeurism.com/ads/$image,~image,popup
 ||click.kink.com^$third-party
+||creamgoodies.com/potd/
 ||cwgads.com/launch.js$third-party
 ||cwgads.com^$~script,third-party
 ||dailyvideo.securejoin.com^
@@ -12680,6 +12693,7 @@ _cedexis.php
 ||widgetserver.com/t/
 ||widgetserver.com^*/quantcast.swf
 ||wikinvest.com^*/errorlogger.php?
+||wn.com/count.js
 ||wopweb.net/services/counters/
 ||wp.com^*/exittracker.js?
 ||wristdreams.com/cnstats/
