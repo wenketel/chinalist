@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: rk+7hGGnczZEatgVDwcXJw
+!  Checksum: tAuWmRzTTnR4hdb6iOoh5g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 02 Dec 2011 18:44:13 +0800
+!  Last Modified:  Sat, 03 Dec 2011 14:42:39 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -144,6 +144,7 @@ baidu.com###ecad
 baidu.com##.EC_mr15
 baidu.com##table[cellspacing="0"][cellpadding="0"][align="right"][width="30%"]
 !--tieba
+@@||cpro.baidu.com/cpro/ui/post.js$domain=tieba.baidu.com
 ||tieba.baidu.com/tb/poptipconfig.js
 ||static.tieba.baidu.com/tb/coloregg/
 tieba.baidu.com###frs_banner_ad
@@ -528,7 +529,6 @@ club.pchome.net###shop_promotion
 ||count5.pconline.com.cn^
 ||pcgames.com.cn/g/
 pconline.com.cn##.ivy950
-pconline.com.cn##table[width="950"][cellspacing="0"][cellpadding="0"]
 !--太平洋汽车网
 ||pcauto.com.cn/global/footer/index.html
 !--太平洋电脑网产品论坛
@@ -705,6 +705,7 @@ news.sohu.com###adList
 news.sohu.com##div.left > h2 > span
 !--tv
 ||sohu.*.gif?$object_subrequest
+||sohu.com/tv/csad/
 ||hd.sohu.com.cn/dov.do?$object_subrequest
 ||aty*.tv.sohu.com^
 ||tv.sohu.com/his/ping.do?$object_subrequest
@@ -746,6 +747,7 @@ tgbus.com##[class^="adv_"]
 ||tudou.com/tdap/
 ||tudou.com/tdcm/
 ||stat*.tudou.com^
+@@||js.tudouui.com/bin/player$object
 ||js.tudouui.com/js/fn/saleloader_*.js
 /pos?$object_subrequest
 tudou.com##.b.seed
@@ -1411,6 +1413,8 @@ ph66.com##[class^="ad_"]
 ||soso.com/pingd?
 ||dr.soso.com^
 soso.com##[ss_c^="ad_"]
+soso.com###rads
+wenwen.soso.com##.ad1
 ||subpig.net/add/
 www.subpig.net##.a_mu
 ||bbs.t56.net/ad*/
@@ -1637,6 +1641,7 @@ xitek.com##[id^="mo"]
 ||dmclick.cn^$third-party
 ||dotmore.com.tw^$third-party
 ||doubleadv.com^$third-party
+||doublemax.net^$third-party
 ||doublepimp.com^$third-party
 ||u.www.duba.net^$third-party
 ||dyunion.net^$third-party
@@ -1760,7 +1765,7 @@ xitek.com##[id^="mo"]
 ||tazhao.com^$third-party
 ||tenoad.com^$third-party
 ||adsame.tianjimedia.com^$third-party
-||s.tiaosa.cn^$third-party
+||tiaosa.cn^$third-party
 ||tjj.com^$third-party
 ||twcczhu.com^$third-party
 ||twm.com.tw^$third-party
@@ -1803,9 +1808,11 @@ xitek.com##[id^="mo"]
 ||xiaoangel.com^$third-party
 ||xixianad.com^$third-party
 ||xp3366.com^$third-party
+||xsu.cc^$third-party
 ||xt918.com^$third-party
 ||xw11.com^$third-party
 ||code.xwadv.com^$third-party
+||y2126.com^$third-party
 ||yczpw.com^$third-party
 ||js.ylunion.com^$third-party
 ||yigao.com^$third-party
@@ -1819,6 +1826,7 @@ xitek.com##[id^="mo"]
 ||yoyi.tv^$third-party
 ||yoyocm.com^$third-party
 ||yunyu120.com^$third-party
+||yxcpm.com^$third-party
 ||code.yy32.com^$third-party
 ||js.zdy.cc^$third-party
 ||js.zfjiu.com^$third-party
@@ -1883,7 +1891,6 @@ xitek.com##[id^="mo"]
 /webafp?
 
 !-----------------------------Privacy----------------------
-/counter.$domain=~cnbeta.com|~dl.pconline.com.cn|~shooter.cn
 /counts.
 |http://pv.
 |http://pvstat.
@@ -1956,7 +1963,7 @@ xfastest.com###main-bot > .cl
 zaobao.com###myMovie
 
 !-----------------------Temporary---------------------------
-!---2011.11
+!---2011.12
 ||mg.gamebean.com/665-090.gif
 ||blog.hi.mop.com/flash/830-310.swf
 ||nanrenwa.com/_img/a/$third-party
