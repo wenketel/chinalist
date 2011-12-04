@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 9VRxmlpsKnZHqlNW5eiimw
+!  Checksum: N3A56TMYuEgrTdUbpUVIWw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 03 Dec 2011 14:42:39 +0800
+!  Last Modified:  Sun, 04 Dec 2011 18:42:52 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -494,6 +494,7 @@ onlinedown.net,newhua.com##.scroll-flash
 ||nownews.com/yam/
 nownews.com##[id^="focus_"]
 nownews.com###nownews_pickup
+nownews.com##div#index_headline_box + div.page_title
 nownews.com##.site_collection
 ||yes123.com.tw/nownews/
 
@@ -535,11 +536,11 @@ pconline.com.cn##.ivy950
 ||www1.pconline.com.cn/itbbs09/js/itbbs09_wd.js
 
 !---PIXNET
-@@||counter.pixplug.in/getcounter.php^$script
 /blog/addvisit^
 ||pixanalytics.com^
 ||pixnet.net^*sticker$object
 ||api.pixnet.tv/count^
+||counter.pixplug.in/count.php
 ||error.pixplug.in^
 ||referer.pixplug.in^
 pixnet.net##.ad
@@ -3457,6 +3458,7 @@ zaobao.com###myMovie
 /mint/ads/*
 /misc/ad-
 /miva_ads.
+/mkadsrv.
 /ml9pagepeel.
 /mnetorfad.js
 /mobile_ad.
@@ -7562,7 +7564,7 @@ _a468x60.
 ~absolute.com##.adtile
 ##.adtips
 ##.adtips1
-~otelfingen.ch,~sulit.com.ph##.adtitle
+~katuha.com,~otelfingen.ch,~sulit.com.ph##.adtitle
 ##.adtop
 ##.adtravel
 ##.adtxt
@@ -9144,7 +9146,7 @@ _a468x60.
 ##a[href^="http://www.my-dirty-hobby.com/?sub="]
 ##a[href^="http://www.ringtonematcher.com/"]
 ! Google
-~ecwid.com###center_col > div[style="background:#fbf0fa;margin:0 0 14px;min-height:0;padding-top:2px;padding-bottom:1px;padding-right:8px;padding-left:7px"]
+~apollohq.com,~ecwid.com###center_col > div[style="background:#fbf0fa;margin:0 0 14px;min-height:0;padding-top:2px;padding-bottom:1px;padding-right:8px;padding-left:7px"]
 ###mbEnd[cellspacing="0"][cellpadding="0"]
 ###mclip_container:last-child
 ###ssmiwdiv[jsdisplay]
@@ -9685,6 +9687,7 @@ _a468x60.
 ||ero-advertising.com^$third-party
 ||erovinmo.com^$third-party
 ||escale.to^$third-party
+||etargetnet.com^$third-party
 ||etology.com^$third-party
 ||euroclick.com^$third-party
 ||euros4click.de^$third-party
@@ -10029,6 +10032,7 @@ _a468x60.
 ||popads.net^$third-party
 ||popadscdn.net^$third-party
 ||poponclick.com^$third-party
+||populis.com^$third-party
 ||postaffiliatepro.com^$third-party
 ||ppclinking.com^$third-party
 ||ppcwebspy.com^$third-party
@@ -10434,7 +10438,6 @@ _a468x60.
 ||sextracker.com^$third-party
 ||socialsexnetwork.net^$third-party
 ||startwebpromo.com^$third-party
-||streamray.com^$third-party
 ||sv2.biz^$third-party
 ||targetingnow.com^$third-party
 ||tinyweene.com^$third-party
@@ -10530,6 +10533,7 @@ _a468x60.
 ||amazonaws.com/bo-assets/production/banner_attachments/
 ||amazonaws.com/digitalcinemanec.swf$domain=boxoffice.com
 ||amazonaws.com/publishflow/
+||amazonaws.com/widgets.youcompare.com.au/
 ||aolcdn.com/os/music/img/*-skin.jpg
 ||api.groupon.com/v2/deals/$third-party
 ||appdevsecrets.com/images/nuts/
@@ -10846,12 +10850,14 @@ _a468x60.
 ||metaboli.fr^*/adgude_$third-party
 ||mfcreative.com/affiliate/
 ||mfeed.newzfind.com^$third-party
+||mgid.com^$subdocument,third-party
 ||microsoft.com^*/bannerrotator/$third-party
 ||missnowmrs.com/images/banners/
 ||mlgpro.com/javascript/data/addata.php
 ||mmdcash.com/mmdcash01.gif
 ||mmo4rpg.com^*.gif|$third-party
 ||mobyler.com/img/banner/
+||mozo-widgets.f2.com.au^
 ||mp3ix.com^$third-party
 ||mto.mediatakeout.com^$third-party
 ||musicmemorization.com/images/$third-party
@@ -10893,6 +10899,7 @@ _a468x60.
 ||oddcast.com/banners/
 ||onegameplace.com/iframe.php$third-party
 ||onlinekeystore.com/banner.php?
+||origin.getprice.com.au/widgetnewssmall.aspx
 ||oriongadgets.com^*/banners/
 ||oron.com/img/banners/
 ||ox-d.mapmyfitness.com^$third-party
@@ -10927,7 +10934,6 @@ _a468x60.
 ||pokerstars.com/euro_bnrs/
 ||pokerstrategy.com/media/tellafriend/$third-party
 ||pop6.com/banners/
-||populis.com/deliver/
 ||pornturbo.com/tmarket.php
 ||ppc-coach.com/jamaffiliates/
 ||premium-template.com/banner/$third-party
@@ -11095,6 +11101,7 @@ _a468x60.
 ||weberotic.net/banners/$third-party
 ||website.ws^*/banners/
 ||weeklyprizewinner.com-net.info^$image,~image,popup
+||whistleout.s3.amazonaws.com^
 ||widget.awsmer.com^
 ||widget.crowdignite.com^
 ||widget.imshopping.com^$third-party
@@ -11234,6 +11241,7 @@ _a468x60.
 ||snrcash.com/profilerotator/$third-party
 ||streamate.com/landing/$image,~image,popup
 ||streamen.com/exports/$third-party
+||streamray.com/images/cams/flash/cams_live.swf
 ||swurve.com/affiliates/
 ||thrixxx.com/scripts/show_banner.php?
 ||tubefck.com^*/adawe.swf
@@ -11972,7 +11980,6 @@ _cedexis.php
 ||mercent.com^$third-party
 ||meteorsolutions.com^$third-party
 ||midkotatraffic.net^$third-party
-||mixpanel.com^$third-party
 ||mlclick.com^$third-party
 ||mlstat.com^$third-party
 ||mm7.net^$third-party
@@ -12049,7 +12056,6 @@ _cedexis.php
 ||plecki.com^$third-party
 ||plugin.ws^$third-party
 ||pointomatic.com^$third-party
-||populis.com^$third-party
 ||ppctracking.net^$third-party
 ||prchecker.info^$third-party
 ||predicta.net^$third-party
@@ -12287,6 +12293,7 @@ _cedexis.php
 ||yieldoptimizer.com^$third-party
 ||yieldsoftware.com^$third-party
 ||your-counter.be^$third-party
+||zenlivestats.com^$third-party
 ||zesep.com^$third-party
 ||zoomflow.com^$third-party
 ! *** easylist:easyprivacy/easyprivacy_trackingservers_international.txt ***
@@ -12297,6 +12304,8 @@ _cedexis.php
 ||datamaster.com.cn^$third-party
 ||oadz.com^$third-party
 ||users.51.la^$third-party
+! Croatian
+||xclaimwords.net^$third-party
 ! *** easylist:easyprivacy/easyprivacy_thirdparty.txt ***
 ||107.20.91.54/partner.gif?$third-party,domain=~thedailybeast.com.ip
 ||123myip.co.uk/ip-address/
@@ -12322,6 +12331,7 @@ _cedexis.php
 ||addthis.com/live/
 ||addthis.com^*/p.json?*&ref=
 ||addthiscdn.com/live/
+||addthisedge.com/live/
 ||adlog.com.com^
 ||affiliate.godaddy.com^
 ||afrigator.com/track/
@@ -12492,6 +12502,7 @@ _cedexis.php
 ||icscotland.co.uk/webstats.js?
 ||images-amazon.com^*/1x1_trans.gif
 ||imageshack.us^*/thpix.gif
+||imgfarm.com/images/trk/myexcitetr.gif?
 ||impi.tv/trackvideo.aspx?
 ||inq.com/tagserver/tracking/
 ||insights.gravity.com^
@@ -12540,6 +12551,7 @@ _cedexis.php
 ||metrics.feedroom.com^
 ||metrics.loomia.com^
 ||metrics.scribblelive.com^
+||mixpanel.com/track/
 ||mkcms.com/stats.js
 ||mochiads.com/clk/
 ||modules.ooyala.com^*/analytics-

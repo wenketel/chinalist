@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: tAuWmRzTTnR4hdb6iOoh5g
+!  Checksum: qyM2HcIbV7KEHFWrJUQPdg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 03 Dec 2011 14:42:39 +0800
+!  Last Modified:  Sun, 04 Dec 2011 18:42:52 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -494,6 +494,7 @@ onlinedown.net,newhua.com##.scroll-flash
 ||nownews.com/yam/
 nownews.com##[id^="focus_"]
 nownews.com###nownews_pickup
+nownews.com##div#index_headline_box + div.page_title
 nownews.com##.site_collection
 ||yes123.com.tw/nownews/
 
@@ -535,11 +536,11 @@ pconline.com.cn##.ivy950
 ||www1.pconline.com.cn/itbbs09/js/itbbs09_wd.js
 
 !---PIXNET
-@@||counter.pixplug.in/getcounter.php^$script
 /blog/addvisit^
 ||pixanalytics.com^
 ||pixnet.net^*sticker$object
 ||api.pixnet.tv/count^
+||counter.pixplug.in/count.php
 ||error.pixplug.in^
 ||referer.pixplug.in^
 pixnet.net##.ad
