@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: N3A56TMYuEgrTdUbpUVIWw
+!  Checksum: +ANglwYquonSFHSXEzhZqQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 04 Dec 2011 18:42:52 +0800
+!  Last Modified:  Tue, 06 Dec 2011 11:10:44 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -943,7 +943,6 @@ jiaren.org###more-menu
 jiaren.org###text-276115465
 jiaren.org###text-276115468
 ||a.jojos.tw^
-||image.soft.idv.tw/ad/
 
 !---Download Sites
 ||05sun.com^$script
@@ -1872,12 +1871,13 @@ xitek.com##[id^="mo"]
 /guanggao.
 /guanggao/*
 |http://ad.
+|https://*/ad/
 |http://*/*_ad.js
-|http://*/js/ad/
 |http://gg.$~stylesheet
 |http://*/gg/$~stylesheet
 |http://*/i.js$third-party
-|https://*/ad/
+|http://*/js/ad/
+|http://*.tw/ad/
 /images/prom/*
 .info/ad/
 /paypic/*
@@ -1955,6 +1955,7 @@ bbs.siluhd.com##img[width="850"][height="85"]
 bbs.sjtu.cn,bbs.sjtu.edu.cn,bbs6.sjtu.edu.cn##a[href^="http://adclient.dentsu.com.cn/"]
 suopao.org##.t5[style^="margin-top:8px;"]
 t17.techbang.com.tw##.promote-event
+bbs.wuyou.com##[style="background: #BBE9FF"]
 xiachufang.com###google_ad_show
 xfastest.com##body[id^="backdrop"] > a
 xfastest.com##[id^="ad"]
@@ -2491,6 +2492,7 @@ zaobao.com###myMovie
 /adpool/*
 /adpopup.
 /adproducts/*
+/adprovider.
 /adproxy.
 /adproxy/*
 /adreactor/*
@@ -2798,6 +2800,8 @@ zaobao.com###myMovie
 /adtonomy.
 /adtools2.
 /adtop.
+/adtopleft.
+/adtopright.
 /adtrack.
 /adtrack/*
 /adtraff.
@@ -3164,6 +3168,10 @@ zaobao.com###myMovie
 /dynamicvideoad?
 /dynanews/ad-
 /dynbanner/flash/*
+/eas?*^easformat=
+/eas?cu=*;cre=
+/eas_fif.html^
+/eas_tag.1.0.js
 /easyads.
 /easyads/*
 /easyadstrack.
@@ -3602,6 +3610,8 @@ zaobao.com###myMovie
 /promo/ads/*
 /promoads/*
 /promobuttonad.
+/promoloaddisplay?
+/promoredirect?*&campaign=*&zone=
 /promotions/ads.
 /promotions/ads?
 /protection/ad/*
@@ -3924,6 +3934,7 @@ zaobao.com###myMovie
 ://adv-banner.
 ://banners.$third-party
 ://bwp.*/search
+://eas.*/eas^
 ://feeds.*/~a/
 ://findnsave.*.*/api/groupon.json?
 ://findnsave.*.*/td/portablerop.aspx?
@@ -4137,6 +4148,8 @@ _video_ads_
 _videoad.
 _vodaaffi_
 _webad.
+||cacheserve.*/promodisplay?
+||online.*/promoredirect?key=
 ! Dimensions
 -120x60-
 -120x60.
@@ -5390,6 +5403,7 @@ _a468x60.
 ###atlasAdDivGame
 ###awds-nt1-ad
 ###babAdTop
+###backad
 ###banner-300x250
 ###banner-ad
 ###banner-ad-container
@@ -5758,6 +5772,7 @@ _a468x60.
 ###gmi-ResourcePageLowerAd
 ###goad1
 ~go-windows.de###goads
+###gog_ad
 ###gooadtop
 ###google-ad
 ###google-ad-art
@@ -6940,6 +6955,7 @@ _a468x60.
 ##.ad120x240backgroundGray
 ##.ad120x600
 ##.ad125
+##.ad125x125
 ##.ad140
 ~pcper.com##.ad160
 ##.ad160600
@@ -7157,6 +7173,8 @@ _a468x60.
 ##.ad_box2
 ##.ad_box_ad
 ##.ad_box_div
+##.ad_buttons_300
+##.ad_buttons_320
 ##.ad_callout
 ##.ad_caption
 ##.ad_column
@@ -7264,7 +7282,7 @@ _a468x60.
 ##.ad_zone
 ##.adarea
 ##.adarea-long
-~cvvp.nva.gov.lv,~nownews.com##.adbanner
+~cvvp.nva.gov.lv##.adbanner
 ##.adbannerbox
 ##.adbannerright
 ~fifthinternational.org##.adbar
@@ -9257,6 +9275,7 @@ _a468x60.
 ||adlegend.com^$third-party
 ||adlink.net^$third-party
 ||adlisher.com^$third-party
+||adloaded.com^$third-party
 ||adm.fwmrm.net/p/mtvn_live/$object-subrequest,third-party
 ||admagnet.net^$third-party
 ||admamba.com^$third-party
@@ -9676,6 +9695,7 @@ _a468x60.
 ||edgeads.org^$third-party
 ||egamingonline.com^$third-party
 ||ekmas.com^$third-party
+||emediate.ch^$third-party
 ||emediate.eu^$third-party
 ||emediate.se^$third-party
 ||emjcd.com^$third-party
@@ -10209,6 +10229,7 @@ _a468x60.
 ||trackadvertising.net^$third-party
 ||trackcorner.com^$third-party
 ||tracking.to^$third-party
+||trackingoffer.info^$third-party
 ||trackingoffer.net^$third-party
 ||trackpath.biz^$third-party
 ||trackpromotion.net^$third-party
@@ -10390,6 +10411,7 @@ _a468x60.
 ||campromos.nl^$third-party
 ||cash-program.com^$third-party
 ||cdn.nsimg.net^$third-party
+||cennter.com^$third-party
 ||clickthruserver.com^$third-party
 ||clicktrace.info^$third-party
 ||coldhardcash.com^$third-party
@@ -10463,8 +10485,6 @@ _a468x60.
 ||20dollars2surf.com/ban_$third-party
 ||216.41.211.36/widget/$third-party,domain=~bpaww.com.ip
 ||217.115.147.241/media/$third-party,domain=~elb-kind.de.ip
-||21nova.com/promodisplay?
-||21nova.com/promoredirect?
 ||24.co.za^*/ads/
 ||2leep.com/ticker2/$third-party
 ||69.50.226.158^$third-party,domain=~worth1000.com.ip
@@ -10489,7 +10509,6 @@ _a468x60.
 ||adn.ebay.com^
 ||ads.mp.mydas.mobi^
 ||adserver-live.yoc.mobi^
-||adultfriendfinder.com^$third-party
 ||advanced-intelligence.com/banner
 ||aff.eteachergroup.com^
 ||aff.svjump.com^
@@ -10610,8 +10629,6 @@ _a468x60.
 ||cashmakingpowersites.com^*/banners/
 ||cashmyvideo.com/images/cashmyvideo_banner.gif
 ||casino.com^$image,~image,popup
-||casinotropez.com/promodisplay?
-||casinotropez.com/promoloaddisplay?
 ||catholicweb.com^*/banners/
 ||cazoz.com/banner.php
 ||cbanners.virtuagirlhd.com^$third-party
@@ -10667,10 +10684,7 @@ _a468x60.
 ||eplreplays.com/wl/
 ||esport-betting.com^*/betbanner/
 ||etrader.kalahari.net^$third-party
-||eurogrand.com/promodisplay/
-||eurogrand.com/promoredirect?
 ||eurogrand.com^$image,~image,popup
-||europacasino.com/promoloaddisplay?
 ||europolitique.info^*/pub/
 ||events.kalooga.com^
 ||everestpoker.com^*/?adv=
@@ -10795,13 +10809,11 @@ _a468x60.
 ||instantpaysites.com/banner/
 ||iol.co.za^*/sponsors/
 ||iselectmedia.com^*/banners/
-||jackpotscratch.com/promoloaddisplay?
 ||jeysearch.com^$subdocument,third-party
 ||jimdo.com/s/img/aff/
 ||jinx.com/content/banner/$third-party
 ||jlist.com/feed.php?affid=$third-party
 ||joblet.jp/javascripts/$third-party
-||joylandcasino.com/promoredirect?$third-party
 ||jpress.co.uk/web/sponsorstrips/
 ||jrcdev.net/promos/
 ||jsfeedget.com^$script,third-party
@@ -10887,8 +10899,6 @@ _a468x60.
 ||myusenet.net/promo.cgi?
 ||namecheap.com/graphics/linkus/$third-party
 ||netdigix.com/google_banners/
-||nethive.com/promodisplay?
-||nethive.com/promoloaddisplay?
 ||netload.in^*?refer_id=
 ||network.business.com^
 ||networkice.com^$subdocument,third-party
@@ -10937,9 +10947,6 @@ _a468x60.
 ||pornturbo.com/tmarket.php
 ||ppc-coach.com/jamaffiliates/
 ||premium-template.com/banner/$third-party
-||prestigecasino.com/promodisplay?
-||prestigecasino.com/promoloaddisplay?
-||prestigecasino.com/promoredirect?
 ||prestigecasino.com^$image,~image,popup
 ||pricegrabber.com/cb_table.php$third-party
 ||pricegrabber.com/mlink.php?$third-party
@@ -11003,7 +11010,6 @@ _a468x60.
 ||sis.amazon.com/iu?$third-party
 ||sitegrip.com^*/swagbucks-
 ||skydsl.eu/banner/$third-party
-||skykingscasino.com/promoloaddisplay?
 ||slickdeals.meritline.com^$third-party
 ||slysoft.com/img/banner/$third-party
 ||smartclip.net/delivery/tag?
@@ -11052,7 +11058,6 @@ _a468x60.
 ||ticketnetwork.com/images/affiliates/
 ||tickles.ie^$subdocument,third-party
 ||tigerdirect.com^*/affiliate_
-||titanpoker.com/promodisplay?
 ||tmbattle.com/images/promo_
 ||todaysfinder.com^$subdocument,third-party
 ||top5result.com/promo/
@@ -11080,8 +11085,6 @@ _a468x60.
 ||usenet.nl^$image,~image,popup
 ||valuate.com/banners/
 ||valuechecker.co.uk/banners/$third-party
-||vegasred.com/promodisplay?
-||vegasred.com/promoloaddisplay?
 ||veospot.com^*.html
 ||viagogo.co.uk/feeds/widget.ashx?
 ||videozr.com^$third-party
@@ -11108,13 +11111,7 @@ _a468x60.
 ||widget.kelkoo.com^
 ||widget.raaze.com^
 ||wildamaginations.com/mdm/banner/
-||williamhill.com/promodisplay?
-||williamhill.com/promoloaddisplay?
-||williamhill.com/promoredirect?
 ||williamhill.com^$image,~image,popup
-||williamhillcasino.com/promodisplay?
-||williamhillcasino.com/promoloaddisplay?
-||williamhillcasino.com/promoredirect?
 ||williamhillcasino.com^$image,~image,popup
 ||winpalace.com/?affid=
 ||wonderlabs.com/affiliate_pro/banners/
@@ -11980,6 +11977,7 @@ _cedexis.php
 ||mercent.com^$third-party
 ||meteorsolutions.com^$third-party
 ||midkotatraffic.net^$third-party
+||mixpanel.com^$third-party
 ||mlclick.com^$third-party
 ||mlstat.com^$third-party
 ||mm7.net^$third-party
@@ -12551,7 +12549,6 @@ _cedexis.php
 ||metrics.feedroom.com^
 ||metrics.loomia.com^
 ||metrics.scribblelive.com^
-||mixpanel.com/track/
 ||mkcms.com/stats.js
 ||mochiads.com/clk/
 ||modules.ooyala.com^*/analytics-
@@ -12573,6 +12570,8 @@ _cedexis.php
 ||onsugar.com^*/clicktracker.js
 ||ooyala.com/authorized?analytics
 ||outbrain.com^*/ping.html?
+||p.po.st^*&pub=
+||p.po.st^*&vguid=
 ||partner.cynapse.com^
 ||partners.thefilter.com^
 ||perfectmarket.com/pm/track?

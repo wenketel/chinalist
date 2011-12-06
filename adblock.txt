@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: qyM2HcIbV7KEHFWrJUQPdg
+!  Checksum: igvBfWdgf9DwDGi58xmr6Q
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 04 Dec 2011 18:42:52 +0800
+!  Last Modified:  Tue, 06 Dec 2011 11:10:44 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -944,7 +944,6 @@ jiaren.org###more-menu
 jiaren.org###text-276115465
 jiaren.org###text-276115468
 ||a.jojos.tw^
-||image.soft.idv.tw/ad/
 
 !---Download Sites
 ||05sun.com^$script
@@ -1873,12 +1872,13 @@ xitek.com##[id^="mo"]
 /guanggao.
 /guanggao/*
 |http://ad.
+|https://*/ad/
 |http://*/*_ad.js
-|http://*/js/ad/
 |http://gg.$~stylesheet
 |http://*/gg/$~stylesheet
 |http://*/i.js$third-party
-|https://*/ad/
+|http://*/js/ad/
+|http://*.tw/ad/
 /images/prom/*
 .info/ad/
 /paypic/*
@@ -1956,6 +1956,7 @@ bbs.siluhd.com##img[width="850"][height="85"]
 bbs.sjtu.cn,bbs.sjtu.edu.cn,bbs6.sjtu.edu.cn##a[href^="http://adclient.dentsu.com.cn/"]
 suopao.org##.t5[style^="margin-top:8px;"]
 t17.techbang.com.tw##.promote-event
+bbs.wuyou.com##[style="background: #BBE9FF"]
 xiachufang.com###google_ad_show
 xfastest.com##body[id^="backdrop"] > a
 xfastest.com##[id^="ad"]
