@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: WHwRq3l9Zviv6Ag8YNvPGQ
+!  Checksum: QKAXvHoEGwKATPhRagk/cg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 07 Dec 2011 22:34:30 +0800
+!  Last Modified:  Thu, 08 Dec 2011 15:40:17 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -738,7 +738,7 @@ tgbus.com##[class^="adv_"]
 
 !---TTG
 @@||ttg.im/pic/ttg_logo.png
-||ttg.im/pic/cnhd.gif
+||cnhd.com/adstar/ttg/01.gif
 ||ttg.im/pic/ttg-
 ||ttg.im/pic/ttg_
 
@@ -3219,6 +3219,7 @@ zaobao.com###myMovie
 /frequencyads.
 /frnads.
 /frontend/ads/*
+/fullad.
 /fuseads/*
 /fwadmanager.
 /gads.html
@@ -3261,6 +3262,7 @@ zaobao.com###myMovie
 /gfx/ads/*
 /glam_ads.
 /global/ads.
+/global/ads/*
 /google-ad-
 /google-ad?
 /google-ads.
@@ -4180,6 +4182,7 @@ _webad.
 -728x90.
 -728x90/
 -728x90_
+-ad_120x240.
 -banner468x60.
 .468x60-
 .468x60.
@@ -5136,7 +5139,7 @@ _a468x60.
 ###ads_space
 ###ads_text
 ###ads_top
-###ads_topbanner
+~computerbase.de###ads_topbanner
 ###ads_watch_top_square
 ###ads_zone27
 ###adsbottom
@@ -5842,6 +5845,7 @@ _a468x60.
 ###head-ad-1
 ###head-banner468
 ###headAd
+###headGoogleAffiliateLinkblock
 ###head_ad
 ###head_advert
 ###headad
@@ -6238,6 +6242,7 @@ _a468x60.
 ###right_column_internal_ad_container
 ###right_column_top_ad_unit
 ###rightad
+###rightad2
 ###rightadContainer
 ###rightads
 ###rightadvertbar-doubleclickads
@@ -6308,6 +6313,7 @@ _a468x60.
 ###side_sky_ad
 ###sidead
 ###sideads
+###sideads_container
 ###sideadtop-to
 ###sidebar-125x125-ads
 ###sidebar-125x125-ads-below-index
@@ -6850,7 +6856,7 @@ _a468x60.
 ##.ad-container-994x282
 ##.ad-context
 ##.ad-disclaimer
-~jobmail.co.za##.ad-display
+~jobmail.co.za,~odysseyware.com##.ad-display
 ##.ad-div
 ##.ad-enabled
 ##.ad-feedback
@@ -7086,7 +7092,7 @@ _a468x60.
 ##.adSkyscraperHolder
 ##.adSlot
 ##.adSpBelow
-~microsoft.com,~o2online.de##.adSpace
+~microsoft.com,~northjersey.com,~o2online.de##.adSpace
 ##.adSpacer
 ##.adSplash
 ##.adSponsor
@@ -8145,6 +8151,7 @@ _a468x60.
 ##.footer_line_ad
 ##.footer_text_ad
 ##.footerad
+##.footerads
 ##.forumtopad
 ##.freedownload_ads
 ##.frn_adbox
@@ -8292,6 +8299,7 @@ _a468x60.
 ##.horizontalAd
 ~radaronline.com##.horizontal_ad
 ##.horizontal_ads
+##.horizontalbtad
 ##.horizontaltextadbox
 ##.horizsponsoredlinks
 ##.hortad
@@ -8789,6 +8797,7 @@ _a468x60.
 ##.site_ad_120_600
 ##.site_ad_300x250
 ##.sitesponsor
+##.sitesprite_ads
 ##.skinAd
 ##.skin_ad_638
 ##.sky-ad
@@ -9165,7 +9174,7 @@ _a468x60.
 ##a[href^="http://www.my-dirty-hobby.com/?sub="]
 ##a[href^="http://www.ringtonematcher.com/"]
 ! Google
-~apollohq.com,~ecwid.com###center_col > div[style="background:#fbf0fa;margin:0 0 14px;min-height:0;padding-top:2px;padding-bottom:1px;padding-right:8px;padding-left:7px"]
+~apollohq.com,~ecwid.com,~ginzaworld.com###center_col > div[style="background:#fbf0fa;margin:0 0 14px;min-height:0;padding-top:2px;padding-bottom:1px;padding-right:8px;padding-left:7px"]
 ###mbEnd[cellspacing="0"][cellpadding="0"]
 ###mclip_container:last-child
 ###ssmiwdiv[jsdisplay]
@@ -9181,6 +9190,7 @@ _a468x60.
 ||1100i.com^$third-party
 ||188server.com^$third-party
 ||18clicks.com^$third-party
+||209.222.8.217^$third-party,domain=~p2p.adserver.ip
 ||247realmedia.com^$third-party
 ||2mdn.net^$object-subrequest,third-party,domain=bbc.co.uk|euronews.net|metacafe.com|nationalpost.com|reuters.com|rollingstone.com|rte.ie|telegraph.co.uk
 ||2mdn.net^$~object-subrequest,third-party
@@ -9192,7 +9202,7 @@ _a468x60.
 ||600z.com^$third-party
 ||777seo.com^$third-party
 ||7search.com^$third-party
-||87.230.102.24^$third-party,domain=~some.p2p.adserver.ip
+||87.230.102.24^$third-party,domain=~p2p.adserver.ip
 ||a433.com^$third-party
 ||aa.voice2page.com^$third-party
 ||abtracker.us^$third-party
@@ -9936,6 +9946,7 @@ _a468x60.
 ||medrx.sensis.com.au^$third-party
 ||meetic-partners.com^$third-party
 ||megaclick.com^$third-party
+||megacpm.com^$third-party
 ||mercuras.com^$third-party
 ||metaffiliation.com^$third-party
 ||metrics.io^$third-party
@@ -10358,6 +10369,7 @@ _a468x60.
 ||yesnexus.com^$third-party
 ||yieldads.com^$third-party
 ||yieldbuild.com^$third-party
+||yieldkit.com^$third-party
 ||yieldmanager.com^$image,~image,popup
 ||yieldmanager.com^$third-party
 ||yieldmanager.net^$third-party
@@ -10482,7 +10494,6 @@ _a468x60.
 ||1st-russian-bride.com/banners/
 ||1stag.com/main/img/banners/
 ||208.43.84.120/trueswordsa3.gif$third-party,domain=~trueswords.com.ip
-||209.222.8.217/delivery/$domain=~p2p.adserver.ip
 ||20dollars2surf.com/ban_$third-party
 ||216.41.211.36/widget/$third-party,domain=~bpaww.com.ip
 ||217.115.147.241/media/$third-party,domain=~elb-kind.de.ip
@@ -11066,6 +11077,7 @@ _a468x60.
 ||torrentfreebie.com/index.asp?pid=$third-party
 ||tosol.co.uk/international.php?$third-party
 ||toysrus.com/graphics/promo/
+||traceybell.co.uk^$subdocument,third-party
 ||tracking.hostgator.com^
 ||tradearabia.com/banners/
 ||tradeboss.com/1/banners/
@@ -11561,6 +11573,7 @@ _a468x60.
 /zag.gif?
 /~utm_gif?
 ://c.*/c.gif?
+://c1.*/c.gif?
 ://gdyn.*/1.gif?
 ://mint.*/?js
 ://sett.*/log.js
@@ -12245,6 +12258,7 @@ _cedexis.php
 ||visitorglobe.com^$third-party
 ||visitorinspector.com^$third-party
 ||visitorpath.com^$third-party
+||visitortracklog.com^$third-party
 ||visitorville.com^$third-party
 ||visualdna-stats.com^$third-party
 ||visualdna.com^$third-party
