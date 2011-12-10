@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: ZUspXGrXjYFWgneVEbMg7w
+!  Checksum: 2wKPqL60XhtNPuoXQu5qoA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 10 Dec 2011 20:25:27 +0800
+!  Last Modified:  Sun, 11 Dec 2011 05:48:49 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -750,7 +750,6 @@ tgbus.com##[class^="adv_"]
 ||tudou.com/tdap/
 ||tudou.com/tdcm/
 ||stat*.tudou.com^
-@@||js.tudouui.com/bin/player$object
 ||js.tudouui.com/js/fn/saleloader_*.js
 /pos?$object_subrequest
 tudou.com##.b.seed
@@ -946,7 +945,9 @@ itopdog.cn##[id^="itopdog_ad-"]
 jiaren.org###more-menu
 jiaren.org###text-276115465
 jiaren.org###text-276115468
-||a.jojos.tw^
+||soft4fun.net/images/$object
+||steachs.com^$object
+||images.steachs.com/gechic.gif
 
 !---Download Sites
 ||05sun.com^$script
