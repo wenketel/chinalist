@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: pXfVJWC7ar+0XCZSlA5W6Q
+!  Checksum: VD7cfgmke/Bk0OCqZxhndw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 09 Dec 2011 02:10:31 +0800
+!  Last Modified:  Sat, 10 Dec 2011 20:15:14 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -267,14 +267,14 @@ dict.cn###top-gg
 
 !---Discuz! & PHPWind etc.
 /common/cf/*$image,object
-##.ad_footerbanner
-##.archiver_banner
+||discuz.net/data/attachment/forum/$image,third-party
 ##.a_pb
+##.ad_footerbanner
+###ad_headerbanner
+##.archiver_banner
 ##.wp.a_f
 ##.wp.a_h
 ##.wp.a_t
-~discuz.net##.a_pt
-###ad_headerbanner
 ~xdjz.net###ads_c_tpc
 ~163.com,~qq.com,~yyets.com,~zol.com.cn###focus.focus
 ###sitefocus.focus
@@ -556,6 +556,7 @@ down.qiannao.com##div[style="padding: 8px;"]
 
 !---起点中文网
 ||qidian.com/javascript/NewSNDAPop.js
+||cj.qidian.com^$object
 ||cj.qidian.com/svnad/
 qidian.com##a[href^="http://www.qidian.com/showavd.aspx?"]
 www.qidian.com##.DH17
@@ -967,6 +968,7 @@ jiaren.org###text-276115468
 ||downxia.com/js/
 ||img.duote.com/duotehtml/
 ||img.duote.com/js/clickDownAjax3.js
+||dy2018.com/g/
 ||e666.cn/db/
 ||e666.cn/newbd/$script
 ||gpxz.com/js2/
@@ -1040,8 +1042,8 @@ ali213.net##.newright
 ||125.46.61.33/shangduadv/*
 ||67.com/img/$object
 ||passport.67.com/ShowSubcribe.aspx
-||33.autohome.com.cn^$script
-||img.autohome.com.cn/pvpv$script
+@@||33.autohome.com.cn/njs/1.js
+||33.autohome.com.cn^$script,object
 www.autohome.com.cn##div.mainContainer > div[style^="width: 960px;"]
 ||backchina.com/banners/
 ||cankaoa.com/new/$script
@@ -1063,6 +1065,7 @@ www.cnhubei.com##.A
 ||huanqiu.com/script/homepage$script
 huanqiu.com##[id^="banner"]
 ||ithome.com/block/*_google
+||ithome.com/block/headerline.htm
 ||itocp.com/html/$object
 ||jjxw.cn^$object
 ||jjxw.cn/jjxw/vote/flashnews/jsout/
@@ -1111,6 +1114,7 @@ yesky.com##[class^="ad"]
 ||17kanshu.net/17kanshuad/
 js.17kkmh.com/scriptAD/
 ||17zhongwen.cn/js/lzh/
+@@||24novel.com^$elemhide
 ||33xs.com/hot/
 ||t.33xs.com/js/g
 ||35xs.com/js/fmt.js
@@ -1162,6 +1166,7 @@ baiwandu.com###ptcmsad1
 ||booksky.org/*.js
 @@||caihongwenxue.com/js/BookText.js
 ||caihongwenxue.com/js/$script
+||cc222.com/cc222Ads/
 ||cc222.com/_javascript/popupWin.js
 @@||cococomic.com/v3/i3.js
 ||cococomic.com/g/
@@ -1213,6 +1218,7 @@ sfw.com.cn##.cataBanner1
 @@||shukeju.com/configs/article/indextop.js
 ||shukeju.com/contentjs/
 ||shuoshuo520.com/scripts/read/
+shushuw.cn##.bdad
 ||ttshu.com/js/
 ||tvbkt.cn/js/cnbeta/
 ||uczw.com/js/$~stylesheet
@@ -1359,7 +1365,7 @@ frdic.com,godic.net###sidebar1
 ||jd-bbs.com^$object
 ||jpwind.com/images/partner/
 jpwind.com##[id^="ShowAD"]
-/kafan_img/*
+/kafan_bd/*
 bbs.kafan.cn##table.header_gg
 ||panda*.kdnet.net^
 ||kuqin.com/da/
@@ -1370,8 +1376,6 @@ bbs.kafan.cn##table.header_gg
 ||lady8844.com/IMAGE/$~image
 ||lady8844.com/js/das/
 ||lady8844.com/DA_HTML/
-||linuxidc.com/linuxfile/
-||linuxidc.com/linuxren/linuxren*.js
 ||sp.luo.bo^$subdocument
 ||img.maxpda.com/images/
 maxpda.com##.ad
@@ -1820,6 +1824,7 @@ xitek.com##[id^="mo"]
 ||yigouw.com^$third-party
 ||yiqifa.com^$third-party
 ||yiqiwin.com^$third-party
+||yocc.net^$third-party
 ||youxitui.net^$third-party
 ||youxjia.com^$third-party
 ||youzhi.cc^$third-party
@@ -1828,8 +1833,9 @@ xitek.com##[id^="mo"]
 ||yoyocm.com^$third-party
 ||yunyu120.com^$third-party
 ||yxcpm.com^$third-party
-||code.yy32.com^$third-party
+||yy32.com^$third-party
 ||js.zdy.cc^$third-party
+||ze5.com^$third-party
 ||js.zfjiu.com^$third-party
 ||zhanzhangle.com^$third-party
 ||zhiad.com^$third-party
@@ -1858,7 +1864,6 @@ xitek.com##[id^="mo"]
 .com/js/ad.
 .com/js/ad_
 .com.cn/js/ad.
-.com.tw/ad/
 /dkgg/*
 /duilian.
 /events/ad/*
@@ -1873,13 +1878,13 @@ xitek.com##[id^="mo"]
 /guanggao.
 /guanggao/*
 |http://ad.
-|https://*/ad/
 |http://*/*_ad.js
 |http://gg.$~stylesheet
 |http://*/gg/$~stylesheet
 |http://*/i.js$third-party
 |http://*/js/ad/
 |http://*.tw/ad/
+|https://*/ad/
 /images/prom/*
 .info/ad/
 /paypic/*
@@ -1940,7 +1945,6 @@ crsky.com##[id$="_TL"]
 dapenti.com##td.oblog_t_2 > div[align="center"]
 dapenti.com##.oblog_t_4 > a > img
 downg.com##.content.ad-b950x50
-chinese.engadget.com##.post[style]
 hao123.com##.middle
 www.hoopchina.com##[class^="ad"]
 jandan.net##.eggs
@@ -7300,7 +7304,7 @@ _a468x60.
 ##.adbottom
 ##.adbottomright
 ##.adbox-outer
-##.adbox-wrapper
+~computerbase.de##.adbox-wrapper
 ##.adbox_300x600
 ##.adbox_366x280
 ##.adbox_468X60
