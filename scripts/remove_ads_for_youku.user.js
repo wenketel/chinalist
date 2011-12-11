@@ -2,11 +2,13 @@
 // @name YOUKU ads Remover
 // @namespace https://code.google.com/p/adblock-chinalist/
 // @author Gythialy
-// @version 1.0.0
-// @description Remove YOUKU ads for ChinaList(required Firefox 4+)
+// @version 1.0.1
+// @description Remove YOUKU ads for ChinaList (required Firefox 4+)
 // @homepage https://code.google.com/p/adblock-chinalist/
 // @updateURL https://adblock-chinalist.googlecode.com/svn/trunk/scripts/remove_ads_for_youku.user.js
-// @include http://v.youku.com/*
+// @include http*
+// @exclude *localhost*
+// @noframes
 // ==/UserScript==
 /*
  * modified from:http://userscripts.org/scripts/show/109099
@@ -17,6 +19,24 @@
 	function log(message) {
 		if (DEBUG && GM_log) {
 			GM_log(message);
+		}
+	}
+
+	function x(xpath, parent, type, result) {
+		return document.evaluate(xpath, parent || document, null, type || XPathResult.ORDERED_NODE_SNAPSHOT_TYPE, result);
+	}
+
+	function remove(elm) {
+		if (elm.snapshotItem) {
+			for ( var i = 0; i < elm.snapshotLength; i++) {
+				remove(elm.snapshotItem(i));
+			}
+		} else if (elm[0]) {
+			while (elm[0]) {
+				remove(elm[0]);
+			}
+		} else {
+			elm.parentNode.removeChild(elm);
 		}
 	}
 
@@ -50,7 +70,6 @@
 			var src_data = elem.getAttribute('data');
 			log('Process URL (OBJECT) :' + src_data);
 			if (/http:\/\/static\.youku\.com\//i.test(src_data)) {
-				// elem.setAttribute('data','http://haoblog.sinaapp.com/qplayer.swf');
 				elem.setAttribute('data', 'http://static.youku.com/v1.0.0098/v/swf/qplayer.swf');
 				needReload = true;
 			}
@@ -73,7 +92,7 @@
 	}
 
 	var done = [];
-	var embeds = document.evaluate('//embed|//object', document, null, 7, null);
+	var embeds = x('//embed|//object');
 	for ( var i = 0, ii = embeds.snapshotLength; i < ii; i++) {
 		init(embeds.snapshotItem(i));
 	}
@@ -87,7 +106,7 @@
 			log('DOMNodeInserted-plugin', target);
 			init(target);
 		}
-		var embeds = document.evaluate('.//embed|.//object', target, null, 7, null);
+		var embeds = x('.//embed|.//object');
 		for ( var i = 0, ii = embeds.snapshotLength; i < ii; i++) {
 			log('DOMNodeInserted-plugin', embeds.snapshotItem(i));
 			init(embeds.snapshotItem(i));

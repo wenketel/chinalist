@@ -2,7 +2,7 @@
 // @name pcbeta ads Remover
 // @namespace https://code.google.com/p/adblock-chinalist/
 // @author Gythialy
-// @version 1.0.1
+// @version 1.0.2
 // @description Remove bbs.pcbeta.com ads for ChinaList
 // @homepage https://code.google.com/p/adblock-chinalist/
 // @updateURL https://adblock-chinalist.googlecode.com/svn/trunk/scripts/remove_ads_for_pcbeta.user.js
@@ -39,7 +39,7 @@
 		var node = t.snapshotItem(i);
 		log(node.style.height);
 		if (node.style.height === '437px') {
-			node.style.height = '267px';
+			node.style.height = 'inherit';
 			break;
 		}
 	}

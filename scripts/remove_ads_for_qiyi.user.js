@@ -2,7 +2,7 @@
 // @name Qiyi ads Remover
 // @namespace https://code.google.com/p/adblock-chinalist/
 // @author Gythialy
-// @version 1.0.6
+// @version 1.0.7
 // @description Remove qiyi.com flash ads for ChinaList
 // @homepage https://code.google.com/p/adblock-chinalist/
 // @updateURL https://adblock-chinalist.googlecode.com/svn/trunk/scripts/remove_ads_for_qiyi.user.js
