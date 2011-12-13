@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: a8mjYDnDx1hYo2uQMu68pA
+!  Checksum: z3T4BwMnLC+bC9L1mgiU6w
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 14 Dec 2011 02:40:48 +0800
+!  Last Modified:  Wed, 14 Dec 2011 04:17:44 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -271,7 +271,7 @@ dict.cn###top-gg
 @@/common/cf/*.thumb$image
 /common/cf/*$image,object
 ##.a_pb
-discuz.ne##.a_pr
+discuz.net##.a_pr
 ##.ad_footerbanner
 ###ad_headerbanner
 ##.archiver_banner
@@ -574,10 +574,10 @@ www.qidian.com##[class^="gg"]
 ||adslvfile.qq.com^
 /avd/*$domain=hb.qq.com
 ||p.l.qq.com/p?
-||pingfore.qq.com^
-||tcss.qq.com/ping.js
 ||btrace.qq.com^
+||pingjs.qq.com^
 ||rh.qq.com^
+||tcss.qq.com^
 ||trace.qq.com^
 qq.com##[class*="Ad"][class$="-Article-QQ"]
 qq.com##.business-Article-QQ
@@ -1420,7 +1420,6 @@ ph66.com##[class^="ad_"]
 ||simplecd.org/static/adcp$script
 ||so100.cn/images/a*.js
 ||so100.cn/images/newshead.htm
-||soso.com/pingd?
 ||dr.soso.com^
 soso.com##[ss_c^="ad_"]
 soso.com###rads
@@ -1911,6 +1910,7 @@ xitek.com##[id^="mo"]
 |http://*/tj.js
 |http://track.
 /ktrace/ktrace$script
+/pingd?
 /pv?peerid=
 /tongji.js
 /tracking.
