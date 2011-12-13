@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: agHpS8zMGCklF77v3PwcOw
+!  Checksum: mw9p8jD/JaFEmabdcxCMsw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 13 Dec 2011 20:05:43 +0800
+!  Last Modified:  Wed, 14 Dec 2011 02:35:56 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -331,7 +331,7 @@ firefoxchina.cn,g-fox.cn##[id^="ad_links"]
 firefoxchina.cn,g-fox.cn##[id^="banner_show"]
 
 !---巴哈姆特
-|http://*ad$subdocument,third-party,domain=gamer.com.tw
+|http://*.html|$subdocument,third-party,domain=gamer.com.tw
 ||pic.bahamut.com.tw/js/ad.js
 
 !---游民星空
@@ -5262,7 +5262,6 @@ _a468x60.
 ###adv-x38
 ###adv-x39
 ###adv-x40
-~gamefront.com,~modellclub-schwedt.de,~orthotwin.de###adv1
 ###adv300bottom
 ###adv300top
 ###adv728
@@ -8197,6 +8196,7 @@ _a468x60.
 ##.gamesPage_ad_content
 ##.gbl_advertisement
 ##.gen_side_ad
+##.geoAd
 ##.gglAds
 ##.global_banner_ad
 ##.googad
@@ -8458,7 +8458,7 @@ _a468x60.
 ##.main_intro_ad
 ##.map_media_banner_ad
 ##.marginadsthin
-##.marketing-ad
+~eagleboys.com.au##.marketing-ad
 ##.masthead_topad
 ##.matador_sidebar_ad_600
 ##.mdl-ad
@@ -11169,7 +11169,6 @@ _a468x60.
 ||you-cubez.com/images/banners/
 ||you-only-you.com/banners/
 ||zapads.zapak.com^
-||zapunited.com/w/wjs?id=$third-party
 ||ziffdavisenterprise.com/contextclicks/
 ! Mobile
 ||iadc.qwapi.com^
@@ -11429,7 +11428,7 @@ _a468x60.
 /googleanalyticsmanagement.swf
 /headupstats.gif?
 /heatmap.js
-/heatmap/heatmap_log.js
+/heatmap_log.js
 /hg?hc=&hb=*&vjs=
 /hgct?hc=&hb=*&vjs=
 /hitcounter.dll
@@ -11789,6 +11788,7 @@ _cedexis.php
 ||cqcounter.com^$third-party
 ||craktraffic.com^$third-party
 ||crazyegg.com^$third-party
+||crmmetrixwris.com^$third-party
 ||crosspixel.net^$third-party
 ||crowdscience.com^$third-party
 ||crsspxl.com^$third-party

@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: uYJbqUVdv/gPhR3DX3th8w
+!  Checksum: mFiSk4gPhRVm8M8gPLDRSQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 13 Dec 2011 20:05:43 +0800
+!  Last Modified:  Wed, 14 Dec 2011 02:35:56 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -331,7 +331,7 @@ firefoxchina.cn,g-fox.cn##[id^="ad_links"]
 firefoxchina.cn,g-fox.cn##[id^="banner_show"]
 
 !---巴哈姆特
-|http://*ad$subdocument,third-party,domain=gamer.com.tw
+|http://*.html|$subdocument,third-party,domain=gamer.com.tw
 ||pic.bahamut.com.tw/js/ad.js
 
 !---游民星空
