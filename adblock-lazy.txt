@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: jWHCAxHIUZBNoFcYeFmiWQ
+!  Checksum: 99chU63qQRLURND4xfN9Hg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 19 Dec 2011 01:34:44 +0800
+!  Last Modified:  Tue, 20 Dec 2011 10:32:38 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -1867,6 +1867,7 @@ xitek.com##[id^="mo"]
 .com/js/ad.
 .com/js/ad_
 .com.cn/js/ad.
+/data/ad/*
 /dkgg/*
 /duilian.
 /events/ad/*
@@ -2005,6 +2006,7 @@ zaobao.com###myMovie
 &popunder=
 &program=revshare&
 &program=revshare&$image,~image,popup
+&prvtof=*&poru=
 &simple_ad_
 &smallad=
 &video_ads_
@@ -3160,6 +3162,7 @@ zaobao.com###myMovie
 /displayadiframe.
 /displayads/*
 /dne_ad.
+/dns_ad/*
 /dnsads.html?
 /doors/ads/*
 /doubleclick.js
@@ -3294,6 +3297,7 @@ zaobao.com###myMovie
 /google_adsense.
 /google_afc.
 /google_afc_
+/google_lander2.js
 /googlead-
 /googlead.
 /googlead160.
@@ -3434,6 +3438,7 @@ zaobao.com###myMovie
 /keyade.js
 /kredit-ad.
 /kskads.
+/landerbanners/*
 /large_ads/*
 /large_right_ads/*
 /layer-ad.
@@ -3566,6 +3571,9 @@ zaobao.com###myMovie
 /pagepeelads.
 /paidads/*
 /paidlisting/*
+/park_html_functions.box.js
+/park_html_functions.js
+/park_html_functions_general.js
 /partner_ads_
 /partnerads/*
 /partnerads_
@@ -3683,6 +3691,7 @@ zaobao.com###myMovie
 /right-ad-
 /right_ads?
 /rightad.
+/rightad/*
 /rightnavads.
 /rightnavadsanswer.
 /righttopads.
@@ -3693,6 +3702,10 @@ zaobao.com###myMovie
 /rsads/*
 /rsc_ad_
 /rss/ads/*
+/rss2/?*&hp=*&np=$script,third-party
+/rss2/?*&np=*&hp=$script,third-party
+/rss2/?hp=*&np=$script,third-party
+/rss2/?np=*&hp=$script,third-party
 /rswebsiteads/*
 /salesad/*
 /satnetads.
@@ -3708,6 +3721,7 @@ zaobao.com###myMovie
 /scripts/ads/*
 /scripts/clickjs.php
 /search-ads?
+/search.php?uid=*.*&src=
 /search/ad/*
 /search/ads?
 /searchad.
@@ -3848,6 +3862,7 @@ zaobao.com###myMovie
 /textads_
 /textadspromo_
 /tfs-ad.
+/tg.php?uid=*.*&src=
 /thirdparty/ad/*
 /thirdpartyads/*
 /tii_ads.
@@ -3870,6 +3885,7 @@ zaobao.com###myMovie
 /topads|
 /topleftads.
 /topperad.
+/track.php?uid=*.*&d=
 /tracked_ad.
 /trade_punder.
 /tradead_
@@ -3989,6 +4005,7 @@ zaobao.com###myMovie
 =dynamicads&
 =showsearchgoogleads&
 =webad2&
+?*=x55g%3add4vv4fy.
 ?ad_ids=
 ?ad_tag=
 ?ad_type=
@@ -4013,6 +4030,7 @@ zaobao.com###myMovie
 ?adzone=
 ?dfpadname=
 ?file=ads&
+?g1t2h=*&t1m2k3=
 ?getad=&$~object-subrequest
 ?goto=ad|
 ?idaffiliation=
@@ -4020,6 +4038,7 @@ zaobao.com###myMovie
 ?simple_ad_
 ?type=ad&
 ?view=ad&
+^fp=*&prvtof=
 _160_ad_
 _acorn_ad_
 _ad1.
@@ -4451,6 +4470,7 @@ _a468x60.
 ###HeaderTextAd
 ###HeroAd
 ###HomeAd1
+###Home_AdSpan
 ###HouseAd
 ###ID_Ad_Sky
 ###JobsearchResultsAds
@@ -4621,6 +4641,7 @@ _a468x60.
 ###ad-squares
 ###ad-story-bottom-out
 ###ad-story-right
+###ad-tail-placeholder
 ###ad-target
 ###ad-target-Leaderbord
 ###ad-teaser
@@ -5819,6 +5840,7 @@ _a468x60.
 ###google-adsense-mpusize
 ###googleAd
 ###googleAdArea
+###googleAdBottom
 ###googleAds
 ###googleAdsSml
 ###googleAdsense
@@ -6215,6 +6237,7 @@ _a468x60.
 ###promoAds
 ###ps-vertical-ads
 ###pub468x60
+###publicGoogleAd
 ###publicidad
 ###pushdown_ad
 ###qm-ad-big-box
@@ -6596,6 +6619,7 @@ _a468x60.
 ###urban_contentad_1
 ###urban_contentad_2
 ###urban_contentad_article
+###uzcrsite
 ###v_ad
 ###vap_adsense-top
 ###vert-ads
@@ -7269,6 +7293,7 @@ _a468x60.
 ##.ad_mrec_title_article
 ##.ad_mrect
 ##.ad_news
+##.ad_newsstream
 ##.ad_note
 ##.ad_notice
 ##.ad_one
@@ -7335,7 +7360,7 @@ _a468x60.
 ##.adbottom
 ##.adbottomright
 ##.adbox-outer
-~computerbase.de##.adbox-wrapper
+##.adbox-wrapper
 ##.adbox_300x600
 ##.adbox_366x280
 ##.adbox_468X60
@@ -7435,6 +7460,7 @@ _a468x60.
 ##.ads-mpu
 ##.ads-outer
 ##.ads-profile
+##.ads-rectangle
 ##.ads-right
 ~apple.com##.ads-section
 ##.ads-sidebar
@@ -7990,6 +8016,7 @@ _a468x60.
 ##.c_ligatus_nxn
 ##.calendarAd
 ##.calloutAd
+##.can_ad_slug
 ##.carbonad
 ##.carbonad-tag
 ##.care2_adspace
@@ -8554,6 +8581,7 @@ _a468x60.
 ##.mpu_container
 ##.mpu_gold
 ##.mpu_holder
+##.mpu_placeholder
 ##.mpu_platinum
 ##.mpu_side
 ##.mpu_text_ad
@@ -9198,6 +9226,7 @@ _a468x60.
 ##a[href^="http://api.ringtonematcher.com/"]
 ##a[href^="http://galleries.pinballpublishernetwork.com/"]
 ##a[href^="http://galleries.securewebsiteaccess.com/"]
+##a[href^="http://games.ucoz.ru/"][target="_blank"]
 ##a[href^="http://install.securewebsiteaccess.com/"]
 ##a[href^="http://latestdownloads.net/download.php?"]
 ##a[href^="http://secure.signup-page.com/"]
@@ -9212,10 +9241,11 @@ _a468x60.
 ##a[href^="http://www.my-dirty-hobby.com/?sub="]
 ##a[href^="http://www.ringtonematcher.com/"]
 ! Google
+###cnt #center_col > #res > #topstuff > .ts:only-child
 ###mbEnd[cellspacing="0"][cellpadding="0"]
 ###mclip_container:last-child
-###mn #center_col > div > H2.spon:first-child
-###mn #center_col > div > H2.spon:first-child + ol:last-child
+###mn #center_col > div > h2.spon:first-child
+###mn #center_col > div > h2.spon:first-child + ol:last-child
 ###ssmiwdiv[jsdisplay]
 ###tads.c
 ###tadsb.c
@@ -9619,6 +9649,7 @@ _a468x60.
 ||cbclickbank.com^$third-party
 ||cbclicks.com^$third-party
 ||cc-dt.com^$third-party
+||cdn-image.com^$third-party
 ||cdna.tremormedia.com^$third-party
 ||cgecwm.org^$third-party
 ||charltonmedia.com^$third-party
@@ -9700,6 +9731,8 @@ _a468x60.
 ||dedicatednetworks.com^$third-party
 ||deepmetrix.com^$third-party
 ||defaultimg.com^$third-party
+||deguiste.com^$third-party
+||demdex.net^$third-party
 ||deplayer.net^$third-party
 ||destinationurl.com^$third-party
 ||dexplatform.com^$third-party
@@ -9714,7 +9747,10 @@ _a468x60.
 ||directtrack.com^$third-party
 ||dl-rms.com^$third-party
 ||dollarade.com^$third-party
+||domainadvertising.com^$third-party
+||domainbuyingservices.com^$third-party
 ||domainsponsor.com^$third-party
+||domdex.com^$third-party
 ||dotomi.com^$third-party
 ||double.net^$third-party
 ||doubleclick.net/ad/$object-subrequest,third-party
@@ -9808,6 +9844,8 @@ _a468x60.
 ||futureus.com^$third-party
 ||fwmrm.net^$~object-subrequest,third-party
 ||g.doubleclick.net^$object-subrequest,third-party
+||gagenez.com^$third-party
+||galleyn.com^$third-party
 ||gambling-affiliation.com^$third-party
 ||game-advertising-online.com^$third-party
 ||gameads.com^$third-party
@@ -10041,6 +10079,7 @@ _a468x60.
 ||northmay.com^$third-party
 ||nowlooking.net^$third-party
 ||nuggad.net^$third-party
+||nuseek.com^$third-party
 ||nvero.net^$third-party
 ||nxtck.com^$third-party
 ||nyadmcncserve-05y06a.com^$third-party
@@ -10202,6 +10241,7 @@ _a468x60.
 ||simply.com^$third-party
 ||sitebrand.com^$third-party
 ||siteencore.com^$third-party
+||sitesense-oo.com^$third-party
 ||skimlinks.com^$third-party
 ||skimresources.com^$third-party
 ||skoovyads.com^$third-party
@@ -10263,6 +10303,7 @@ _a468x60.
 ||targetnet.com^$third-party
 ||targetpoint.com^$third-party
 ||targetspot.com^$third-party
+||teasernet.com^$third-party
 ||technoratimedia.com^$third-party
 ||telemetryverification.net^$third-party
 ||teracent.net^$third-party
@@ -10372,6 +10413,7 @@ _a468x60.
 ||wagershare.com^$third-party
 ||wahoha.com^$third-party
 ||warezlayer.to^$third-party
+||warfacco.com^$third-party
 ||watchfree.flv.in^$third-party
 ||wcmcs.net^$third-party
 ||webads.co.nz^$third-party
@@ -10606,6 +10648,7 @@ _a468x60.
 ||affutdmedia.com^$third-party
 ||afimg.liveperson.com^$third-party
 ||agenda.complex.com^
+||ak.imgaft.com^$third-party
 ||all4naija.com/banners/
 ||allposters.com^*/banners/
 ||allsend.com/public/assets/images/
@@ -10775,6 +10818,8 @@ _a468x60.
 ||filesonic.*/banners/
 ||filmlush.com/banners/
 ||firstload.com^$image,~image,popup
+||firstload.com^$third-party
+||firstload.de^$image,~image,popup
 ||firstload.de^$third-party
 ||flagship.asp-host.co.uk^$third-party
 ||flipchat.com/index.php?$third-party
@@ -10877,6 +10922,7 @@ _a468x60.
 ||jeysearch.com^$subdocument,third-party
 ||jimdo.com/s/img/aff/
 ||jinx.com/content/banner/$third-party
+||jivox.com/jivox/serverapis/getcampaignbyid.php?$object-subrequest
 ||jlist.com/feed.php?affid=$third-party
 ||joblet.jp/javascripts/$third-party
 ||jpress.co.uk/web/sponsorstrips/
@@ -11150,6 +11196,8 @@ _a468x60.
 ||u-loader.com/image/hotspot_
 ||ul.to/ref/
 ||ultimatewebtraffic.info/images/fbautocash
+||united-domains.de/parking/
+||united-domains.de^*/parking/
 ||unsereuni.at/resources/img/$third-party
 ||uploaded.to/img/public/$third-party
 ||uploaded.to/ref/$image,~image,popup
@@ -11271,12 +11319,14 @@ _a468x60.
 ||livejasmin.com^$image,~image,popup
 ||livesexasian.com^$subdocument,third-party
 ||loveme.com^$third-party
+||magazine-empire.com/images/pornstarad.jpg
 ||mallcom.com/simages/
 ||manhunt.net/?dm=$third-party
 ||media.eurolive.com^$third-party
 ||media.mykocam.com^$third-party
 ||media.mykodial.com^$third-party
 ||mofomedia.nl/pop-*.js
+||movies.spacash.com^*&th=180x135$script
 ||mrvids.com/network/$third-party
 ||my-dirty-hobby.com/?sub=$third-party
 ||myfreecams.com/?co_id=$image,~image,popup
@@ -11314,6 +11364,8 @@ _a468x60.
 ||sleepgalleries.com/recips/$third-party
 ||smutmodels.com/banners/
 ||snrcash.com/profilerotator/$third-party
+||spacash.com//v2bannerview.php?
+||spacash.com/tools/peel/
 ||streamate.com/landing/$image,~image,popup
 ||streamen.com/exports/$third-party
 ||streamray.com/images/cams/flash/cams_live.swf
@@ -11326,6 +11378,7 @@ _a468x60.
 ||videobox.com/tour/$image,~image,popup
 ||viorotica.com^*/banners/
 ||wantlive.com/landing/$image,~image,popup
+||webcams.com/misc/iframes_new/
 ||webcams.com^$image,~image,popup
 ||xlovecam.com/acwm/
 ||xnxx.com^$third-party
@@ -11434,6 +11487,7 @@ _a468x60.
 /elqnow/*
 /eluminate?
 /emos2.js
+/estatnativeflashtag.swf
 /event.ng/*
 /finalizestats.js
 /firestats/*.php?*site_id=
@@ -11839,7 +11893,6 @@ _cedexis.php
 ||decideinteractive.com^$third-party
 ||dejavu.mlapps.com^$third-party
 ||demandbase.com^$third-party
-||demdex.net^$third-party
 ||dhmtracking.co.za^$third-party
 ||didit.com^$third-party
 ||digits.com^$third-party
@@ -11848,7 +11901,6 @@ _cedexis.php
 ||displaymarketplace.com^$third-party
 ||dlrowehtfodne.com^$third-party
 ||dmtracker.com^$third-party
-||domdex.com^$third-party
 ||dominocounter.net^$third-party
 ||doubleclick.net/activity$third-party
 ||doubleclick.net/imp%$third-party
