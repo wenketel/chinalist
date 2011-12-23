@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: dQEP776Wf4iulZhQ6MFY6g
+!  Checksum: XyytC8SIKuNK+oiuxxMEUw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 23 Dec 2011 20:45:19 +0800
+!  Last Modified:  Fri, 23 Dec 2011 21:26:48 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -15,6 +15,7 @@
 @@||51job.com^$elemhide
 @@||union.bokecc.com^$object,object_subrequest,script
 @@/adbanner/*$image,domain=books.com.tw
+@@||q.funshion.com^$script
 @@||afp.goyeah.com^$object_subrequest
 @@||iphone4.tw/forums/news_proxy.php
 @@||paipai.com^$image,domain=shop.qq.com
@@ -1566,6 +1567,7 @@ xitek.com##[id^="mo"]
 ||8cnd.com^$third-party
 ||8le8le.com^$third-party
 ||www.8peng.com^$third-party
+||90hao.com^$third-party
 ||913h6.cn^$third-party
 ||9165.net^$third-party
 ||js.91tiger.com^$third-party
@@ -1973,8 +1975,12 @@ xfastest.com###main-bot > .cl
 ||blog.hi.mop.com/flash/830-310.swf
 ||nanrenwa.com/_img/a/$third-party
 ||download.note.sdo.com/res/33aea74a-2095-4a10-bb8f-c802e7cdab75
+!---广东电信
+||gd.ct10000.com/js/ecssstat.js
+/clicktotal/ClickTotal.js
+||gd.ct10000.com/*/cms/push/$image,~image,popup
 !---test pop-up blocking
 ||img.ifeng.com/tres/html/pop_page.html$image,~image,popup
-|http://$image,~image,third-party,popup,domain=gd.ct10000.com|jjwxc.net|qidian.com|xun6.com
+|http://$image,~image,third-party,popup,domain=jjwxc.net|qidian.com|xun6.com
 ||jjwxc.net/jjad2.html$image,~image,popup
 !------------------------End of List-------------------------
