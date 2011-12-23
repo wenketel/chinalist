@@ -2,7 +2,7 @@
 // @name Qiyi ads Remover
 // @namespace https://code.google.com/p/adblock-chinalist/
 // @author Gythialy
-// @version 1.0.7
+// @version 1.0.8
 // @description Remove qiyi.com flash ads for ChinaList
 // @homepage https://code.google.com/p/adblock-chinalist/
 // @updateURL https://adblock-chinalist.googlecode.com/svn/trunk/scripts/remove_ads_for_qiyi.user.js
@@ -48,6 +48,6 @@
 	if (document.getElementById('jdtflash'))
 		document.getElementById('jdtflash').style.display = '';
 
-	var ids = [ 'adflash', 'backgroundskin', 'clicka', 'floatLayerFavDiv' ];
+	var ids = [ 'adflash', 'backgroundskin', 'clicka', 'floatLayerFavDiv', 'activityForIE9Div' ];
 	hideAds(ids);
 })();
