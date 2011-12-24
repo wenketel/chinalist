@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: ku5thuYjS10gO/703mihEQ
+!  Checksum: 9AtS+Mm2xCN2Kj0Wc6owtw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 24 Dec 2011 13:39:11 +0800
+!  Last Modified:  Sat, 24 Dec 2011 17:14:35 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -458,10 +458,10 @@ tw.msn.com###admomoca2
 tw.msn.com###ectabs
 news.msn.com.tw###adv_images_l
 
-!---Mobile01.com
-mobile01.com##[class$="-ad"]
-mobile01.com##a[href^="adredir.php"]
-mobile01.com##a[href="promotionlist.php"]
+!---猫扑
+||mop.com/fxb/js/fxb$script
+||pub.mop.com/widget.jsp?
+||mopimg.cn/dc/
 
 !---驱动之家
 @@||11.mydrivers.com/news/commv2.js
@@ -567,6 +567,7 @@ www.qidian.com##[class^="gg"]
 !---QQ
 @@||adsrich.qq.com/web/crystal/$script,domain=news.qq.com
 @@||mb.qq.com^$elemhide
+@@||v.qq.com^$elemhide
 @@||gtimg.com/img/ad/$image,domain=buy.qq.com
 ||mat1.gtimg.com/news/fbgg/
 ||mat1.gtimg.com/sports/2011ad/
@@ -726,8 +727,7 @@ taihe.net###table1
 !---电玩巴士
 ||inc.tgbus.com/frame/
 ||vista.tgbusdata.cn/s.js
-tgbus.com###neck_970
-tgbus.com##[class^="adv_"]
+tgbus.com##[class^="ad_"]
 
 !---TianYa
 ||blog.tianya.cn/tuijian/tanchu.js
@@ -749,6 +749,7 @@ tgbus.com##[class^="adv_"]
 ||tudou.com/tdap/
 ||tudou.com/tdcm/
 ||stat*.tudou.com^
+@@||js.tudouui.com/bin/player$object
 ||js.tudouui.com/js/fn/saleloader_*.js
 /pos?$object_subrequest
 tudou.com##.b.seed
@@ -908,7 +909,7 @@ yyets.com##[id^="kads"]
 /yyets_94080.gif
 
 !---ZASV
-@@||ad.zasv.com^*/*/
+@@||ad.zasv.com^*/*/$image,object
 www.zasv.com##.a_pt
 www.zasv.com##.bm.a_c
 
@@ -1036,8 +1037,7 @@ ali213.net##.newright
 !---Net Disks
 ||static.115img.com/static/delivery/
 115.com##[class^="ban-"]
-115.com##div.col-sub > div[style]:last-child
-115.com##div.file-info + div[style="margin: 10px;"]
+115.com##.res-list
 ||static.ctdisk.com/510.js
 ||d.namipan.com/inc_js/$script
 ||img.rayfile.com/scr/$script
@@ -1063,6 +1063,7 @@ www.cnhubei.com##.A
 ||hebei.com.cn/eap/
 ||hebei.com.cn/swf/
 ||hebei.com.cn/sys/online_calc.js^
+||nextmedia.com/TvCommercial/
 ||hk.ndx.nextmedia.com/DFA/js_ndxtag_v409.cfm^$domain=~hk.dv.nextmedia.com
 tw.nextmedia.com##.adsq
 ||hinews.cn/out/img/$object
@@ -1196,6 +1197,7 @@ baiwandu.com###ptcmsad1
 ||pic.hongxiu.com/fox/hx/
 ||hotsk.com/js/asp.js
 ||hotsk.com/js/fy.js
+||hszw.com/inc/
 ||imanhua.com/v2/money/
 ||jjwxc.net/sp/
 ||jpnovel.com/myjs/
@@ -1374,8 +1376,9 @@ frdic.com,godic.net###sidebar1
 ||jd-bbs.com^$object
 ||jpwind.com/images/partner/
 jpwind.com##[id^="ShowAD"]
-/kafan_bd/*
-bbs.kafan.cn##table.header_gg
+||bbs.kafan.cn/static/kafan_bd/
+||bbs.kafan.cn/static/kafan_img/
+kafan.cn##table.header_gg
 ||panda*.kdnet.net^
 ||kuqin.com/da/
 ||links.kugoo.com^
@@ -1391,8 +1394,6 @@ maxpda.com##.ad
 maxpda.com##[id^="dp-ads"]
 ||mfxk.com^$subdocument
 ||mojim.com/htm99t/iad.js
-||mop.com/fxb/js/fxb$script
-||pub.mop.com/widget.jsp?
 ||mscbsc.com/gbook/search.gif
 mscbsc.com##.bao1
 ||static1.mtime.cn^$subdocument
@@ -1432,7 +1433,6 @@ wenwen.soso.com##.ad1
 www.subpig.net##.a_mu
 ||bbs.t56.net/ad*/
 ||img.taoguba.com.cn/gbimg/
-||img.taoguba.com.cn/js/tc.js
 ||topsage.com/service/$object
 ||tompda.com^$object
 ||txzqw.com/attachment321/
@@ -1705,6 +1705,7 @@ xitek.com##[id^="mo"]
 ||jugao.com^$third-party
 ||junnew.com^$third-party
 ||u.juyouxi.com^$third-party
+||jzunion.com^$third-party
 ||kankanews.com/iframe/$third-party
 ||kcld.net^$third-party
 ||kejet.com^$third-party
@@ -1806,6 +1807,7 @@ xitek.com##[id^="mo"]
 ||uucall.com^$third-party
 ||uuzu.com^$third-party
 ||urlad.com.tw^$third-party
+||v5ad.com^$third-party
 ||vadcast.com^$third-party
 ||v-links.net^$third-party
 ||vipads.cn^$third-party
@@ -1893,6 +1895,7 @@ xitek.com##[id^="mo"]
 |http://*/gg/$~stylesheet
 |http://*/i.js$third-party
 |http://*/js/ad/
+|http://*/js/tc.js
 |http://*.tw/ad/
 |https://*/ad/
 /images/prom/*
@@ -1960,6 +1963,9 @@ downg.com##.content.ad-b950x50
 www.hoopchina.com##[class^="ad"]
 jandan.net##.eggs
 jandan.net##.xy
+mobile01.com##[class^="ad-"]
+mobile01.com##.admicrobtnindex
+mobile01.com##.fast-ad
 normteam.com##.a_mu
 price.com.hk##.tb
 price.com.hk##[id^="ad"]
@@ -1983,9 +1989,12 @@ xfastest.com###main-bot > .cl
 /clicktotal/ClickTotal.js
 ||gd.ct10000.com/*/cms/push/$image,~image,popup
 !---test pop-up blocking
-||img.ifeng.com/tres/html/pop_page.html$image,~image,popup
+||img.ifeng.com/tres/$image,~image,popup
 |http://$image,~image,third-party,popup,domain=jjwxc.net|qidian.com|xun6.com
 ||jjwxc.net/jjad2.html$image,~image,popup
+!-fix qidian & qdmm links
+@@||qdmm.com^$image,~image,popup,domain=qidian.com
+@@||qidian.com^$image,~image,popup,domain=qdmm.com
 !-----------------------EasyList----------------------------
 ! *** easylist:easylist/easylist_general_block.txt ***
 &ad_keyword=
