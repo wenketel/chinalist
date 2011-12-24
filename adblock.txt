@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: KX689+bQKViSgVjq6QR/2Q
+!  Checksum: 5AgjGv/tYQ078Ftq1bicRg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 24 Dec 2011 17:14:35 +0800
+!  Last Modified:  Sat, 24 Dec 2011 22:23:41 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -452,6 +452,14 @@ www.ku6.com##[class^="a_d0608"]
 ||libertytimes.com.tw/IService2/AdLinkList.php
 ||libertytimes.com.tw/js/ajs/
 
+!---Mobile01
+mobile01.com##.ad-b
+mobile01.com##.ad-d
+mobile01.com##.admicrobtnindex
+mobile01.com##.fast-ad
+mobile01.com##.widget.article:nth-child(3)
+mobile01.com##div.ad-d + div.widget.article
+
 !---tw.msn.com
 ||promotion.msn.com.tw^
 tw.msn.com###admomoca2
@@ -861,7 +869,7 @@ cn.yahoo.com###r_expandable
 !--TW
 ||tw.rd.yahoo.com^$image
 ||tw.img.webmaster.yahoo.com^*/ystats.gif
-@@||l.yimg.com/f/a/tw/js/flash_general_20090213.js|$domain=tw.yahoo.com
+@@/flash_general_20090213.js|$domain=tw.yahoo.com
 @@||l.yimg.com/zz/combo?$script
 ||yimg.com/no/$domain=~yahoo.com
 ||l.yimg.com/d/lib/bc/bcr_2.0.5.js
@@ -1964,9 +1972,6 @@ downg.com##.content.ad-b950x50
 www.hoopchina.com##[class^="ad"]
 jandan.net##.eggs
 jandan.net##.xy
-mobile01.com##[class^="ad-"]
-mobile01.com##.admicrobtnindex
-mobile01.com##.fast-ad
 normteam.com##.a_mu
 price.com.hk##.tb
 price.com.hk##[id^="ad"]
