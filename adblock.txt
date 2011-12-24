@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: XyytC8SIKuNK+oiuxxMEUw
+!  Checksum: DwAfmIIO1LmR6+1cEOZfNA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 23 Dec 2011 21:26:48 +0800
+!  Last Modified:  Sat, 24 Dec 2011 13:39:11 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -21,7 +21,6 @@
 @@||paipai.com^$image,domain=shop.qq.com
 @@||shangcuwang.com/ads/$image
 @@/advertise/*$domain=suning.com
-@@||ad.zasv.com^*/static/
 @@||zerodm.cn/js/ads/zxdmxz.js
 
 !----------------------------Well-known Sites--------------
@@ -908,6 +907,11 @@ yyets.com##[id^="kads"]
 @@||www.yyets.com^$elemhide
 ||fujian.yyets.com/forumid_194/
 /yyets_94080.gif
+
+!---ZASV
+@@||ad.zasv.com^*/*/
+www.zasv.com##.a_pt
+www.zasv.com##.bm.a_c
 
 !---逐浪小说网
 ||images2.zhulang.com^$script,image,object
