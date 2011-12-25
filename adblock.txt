@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 5AgjGv/tYQ078Ftq1bicRg
+!  Checksum: 4IYuFP04G5gcC4iwlUZHsQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 24 Dec 2011 22:23:41 +0800
+!  Last Modified:  Sun, 25 Dec 2011 09:42:00 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -496,6 +496,13 @@ myfiles.com.cn##[id^="ad_"]
 /newhuagg/*
 ||zhidao.newhua.com/askgg/
 onlinedown.net,newhua.com##.scroll-flash
+
+!---NextMedia
+||hk.ndx.nextmedia.com/DFA/js_ndxtag_v409.cfm^$domain=~hk.dv.nextmedia.com
+!-tw
+@@||advideo.appledaily.com.tw/sites/default/files/CR_APPLE.swf
+||advideo.appledaily.com.tw^
+tw.nextmedia.com##.adsq
 
 !---Nownews
 ||nownews.com/ad2004/
@@ -1038,6 +1045,10 @@ ali213.net###banner
 ali213.net##.newright
 ||img.cngba.com/da/
 ||dashuye.com/data/cache/myad*.htm
+gamebase.com.tw##[id^="ad"]
+gamebase.com.tw###news_title_ad
+gamebase.com.tw##.text_ad_full
+gamebase.com.tw##.wait_gbno1
 ||bbs.verypsp.com^$script,subdocument
 ||soft.verypsp.com/pic/tiaofuad.gif
 ||wowmovies.cn/img/17jnh/
@@ -1072,9 +1083,6 @@ www.cnhubei.com##.A
 ||hebei.com.cn/eap/
 ||hebei.com.cn/swf/
 ||hebei.com.cn/sys/online_calc.js^
-||nextmedia.com/TvCommercial/
-||hk.ndx.nextmedia.com/DFA/js_ndxtag_v409.cfm^$domain=~hk.dv.nextmedia.com
-tw.nextmedia.com##.adsq
 ||hinews.cn/out/img/$object
 ||hinews.cn/out/img/*/*x
 ||huanqiu.com/script/content_js/*_ad

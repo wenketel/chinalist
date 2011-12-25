@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: D0SirbEh45ZiX+r3W5EUPQ
+!  Checksum: bZ/ERPjear9jNuW9PVBzrQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 24 Dec 2011 22:23:41 +0800
+!  Last Modified:  Sun, 25 Dec 2011 09:42:00 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -496,6 +496,13 @@ myfiles.com.cn##[id^="ad_"]
 /newhuagg/*
 ||zhidao.newhua.com/askgg/
 onlinedown.net,newhua.com##.scroll-flash
+
+!---NextMedia
+||hk.ndx.nextmedia.com/DFA/js_ndxtag_v409.cfm^$domain=~hk.dv.nextmedia.com
+!-tw
+@@||advideo.appledaily.com.tw/sites/default/files/CR_APPLE.swf
+||advideo.appledaily.com.tw^
+tw.nextmedia.com##.adsq
 
 !---Nownews
 ||nownews.com/ad2004/
@@ -1037,6 +1044,10 @@ ali213.net###banner
 ali213.net##.newright
 ||img.cngba.com/da/
 ||dashuye.com/data/cache/myad*.htm
+gamebase.com.tw##[id^="ad"]
+gamebase.com.tw###news_title_ad
+gamebase.com.tw##.text_ad_full
+gamebase.com.tw##.wait_gbno1
 ||bbs.verypsp.com^$script,subdocument
 ||soft.verypsp.com/pic/tiaofuad.gif
 ||wowmovies.cn/img/17jnh/
@@ -1071,9 +1082,6 @@ www.cnhubei.com##.A
 ||hebei.com.cn/eap/
 ||hebei.com.cn/swf/
 ||hebei.com.cn/sys/online_calc.js^
-||nextmedia.com/TvCommercial/
-||hk.ndx.nextmedia.com/DFA/js_ndxtag_v409.cfm^$domain=~hk.dv.nextmedia.com
-tw.nextmedia.com##.adsq
 ||hinews.cn/out/img/$object
 ||hinews.cn/out/img/*/*x
 ||huanqiu.com/script/content_js/*_ad
@@ -2027,6 +2035,7 @@ xfastest.com###main-bot > .cl
 &video_ads_
 &view=ad&
 +adverts/
+-ad-340x400-
 -ad-large.
 -ad-limits.
 -ad-loading.
@@ -2211,34 +2220,22 @@ xfastest.com###main-bot > .cl
 /ad/side_
 /ad/sponsored-
 /ad/takeover/*
-/ad0.
 /ad000/*
-/ad1.
 /ad125.
 /ad160.
 /ad160x600.
 /ad1place.
 /ad1x1home.
-/ad2.
-/ad2/*
 /ad2border.
-/ad3-
-/ad3.
 /ad300.
 /ad300x145.
 /ad300x250.
 /ad300x250_
 /ad350.
-/ad4.
 /ad468x60.
 /ad468x80.
-/ad5.
-/ad6.
-/ad7.
 /ad728.
 /ad728x15.
-/ad8.
-/ad9.
 /ad?count=
 /ad_agency/*
 /ad_area.
@@ -2966,6 +2963,7 @@ xfastest.com###main-bot > .cl
 /ajaxads.
 /ajrotator/*
 /ajs.php?
+/ajs?auid=
 /all_ads/*
 /alternet.ad?
 /api/ads/*
@@ -4872,7 +4870,7 @@ _a468x60.
 ###adTopboxright
 ###adTower
 ###adUnit
-~bankenverband.de,~hwk-muenchen.de,~thisisleicestershire.co.uk###adWrapper
+~bankenverband.de,~hwk-duesseldorf.de,~hwk-muenchen.de,~thisisleicestershire.co.uk###adWrapper
 ###adZoneTop
 ~sanmarcosrecord.com###ad_1
 ###ad_130x250_inhouse
@@ -11079,6 +11077,7 @@ _a468x60.
 ||oriongadgets.com^*/banners/
 ||oron.com/img/banners/
 ||osobnosti.cz/images/casharena_
+||ox-d.dixcom.com^
 ||ox-d.mapmyfitness.com^$third-party
 ||ox-d.mediamark.co.za^
 ||pagead2.googlesyndication.com^$~object-subrequest
