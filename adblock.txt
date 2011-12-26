@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: aNIbRAchMhk6q/Yqpsw7sw
+!  Checksum: 4pj0syfl4FOTlkkv41Ovyw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 25 Dec 2011 10:38:26 +0800
+!  Last Modified:  Mon, 26 Dec 2011 12:36:15 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -162,6 +162,7 @@ iknow.baidu.com,zidao.baidu.com,z.baidu.com,zhidao.baidu.com###qb-ad-cpro
 !--qiyi
 @@||afp.qiyi.com^*&local=xml|
 ^db=qiyiafp^
+||policy.cupid.qiyi.com^
 ||msg.video.qiyi.com^
 
 !---bilibili.tv
@@ -454,6 +455,7 @@ www.ku6.com##[class^="a_d0608"]
 ||libertytimes.com.tw/js/ajs/
 
 !---Mobile01
+mobile01.com##div.navbar > p > a[href^="adredir.php?"]
 mobile01.com##.ad-b
 mobile01.com##.ad-d
 mobile01.com##.admicrobtnindex
@@ -751,6 +753,9 @@ tgbus.com##[class^="ad_"]
 ||stat.tianya.cn^
 ||click.tianyaui.com^
 ||global.tianyaui.com/global/wizard/js/wizard.js
+tianya.cn##[class^="ad_"]
+tianya.cn##[id*="_AD_"]
+tianya.cn###adsp_content_top_banner
 
 !---TTG
 @@||ttg.im/pic/ttg_logo.png

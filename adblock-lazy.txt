@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: dBlXvakqWyY+DMq72qos9A
+!  Checksum: fbrpDmp+JvEAs75fPkdNWg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 25 Dec 2011 10:38:26 +0800
+!  Last Modified:  Mon, 26 Dec 2011 12:36:15 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -162,6 +162,7 @@ iknow.baidu.com,zidao.baidu.com,z.baidu.com,zhidao.baidu.com###qb-ad-cpro
 !--qiyi
 @@||afp.qiyi.com^*&local=xml|
 ^db=qiyiafp^
+||policy.cupid.qiyi.com^
 ||msg.video.qiyi.com^
 
 !---bilibili.tv
@@ -454,6 +455,7 @@ www.ku6.com##[class^="a_d0608"]
 ||libertytimes.com.tw/js/ajs/
 
 !---Mobile01
+mobile01.com##div.navbar > p > a[href^="adredir.php?"]
 mobile01.com##.ad-b
 mobile01.com##.ad-d
 mobile01.com##.admicrobtnindex
@@ -751,6 +753,9 @@ tgbus.com##[class^="ad_"]
 ||stat.tianya.cn^
 ||click.tianyaui.com^
 ||global.tianyaui.com/global/wizard/js/wizard.js
+tianya.cn##[class^="ad_"]
+tianya.cn##[id*="_AD_"]
+tianya.cn###adsp_content_top_banner
 
 !---TTG
 @@||ttg.im/pic/ttg_logo.png
@@ -3186,6 +3191,7 @@ xfastest.com###main-bot > .cl
 /doubleclick_ads/*
 /doubleclickads?
 /doubleclickcontainer.
+/doubleclickinstreamad.
 /doubleclicktag.
 /download/ad.
 /download/ad/*
@@ -3645,6 +3651,7 @@ xfastest.com###main-bot > .cl
 /popunderking.
 /post_ads_
 /ppd_ads.
+/ppd_ads_
 /predictad.
 /premierebtnad/*
 /premium_ad.
@@ -9299,7 +9306,7 @@ _a468x60.
 ||209.222.8.217^$third-party,domain=~p2p.adserver.ip
 ||247realmedia.com^$third-party
 ||2mdn.net/dot.gif$object-subrequest,third-party
-||2mdn.net^$object-subrequest,third-party,domain=bbc.co.uk|bet.com|calgaryherald.com|euronews.net|metacafe.com|nationalpost.com|reuters.com|rollingstone.com|rte.ie|telegraph.co.uk
+||2mdn.net^$object-subrequest,third-party,domain=bbc.co.uk|bet.com|calgaryherald.com|euronews.net|metacafe.com|nationalpost.com|newyorkjets.com|reuters.com|rollingstone.com|rte.ie|telegraph.co.uk
 ||2mdn.net^$~object-subrequest,third-party
 ||360ads.com^$third-party
 ||360yield.com^$third-party
@@ -10169,6 +10176,7 @@ _a468x60.
 ||performanceadvertising.mobi^$third-party
 ||performancetrack.info^$third-party
 ||performancingads.com^$third-party
+||pgmediaserve.com^$image,~image,popup
 ||pgmediaserve.com^$third-party
 ||pgpartner.com^$third-party
 ||pharmcash.com^$third-party
@@ -10215,6 +10223,7 @@ _a468x60.
 ||publisher.to^$third-party
 ||publisheradnetwork.com^$third-party
 ||pubmatic.com^$third-party
+||pulse360.com^$image,~image,popup
 ||pulse360.com^$third-party
 ||qdmil.com^$third-party
 ||qksrv.net^$third-party
@@ -11092,6 +11101,7 @@ _a468x60.
 ||partners.optiontide.com^
 ||partners.rochen.com^
 ||partners.sportingbet.com.au^
+||partycasino.com^$image,~image,popup,~third-party
 ||partycasino.com^*?wm=$third-party
 ||partypoker.com/hp_landingpages/$third-party
 ||partypoker.com^$image,~image,popup
@@ -11343,6 +11353,7 @@ _a468x60.
 ||delivery.yourfuckbook.com^
 ||easy-dating.org/promo/$third-party
 ||eliterotica.com/images/banners/
+||ext.affaire.com^$image,~image,popup
 ||f5porn.com/porn.gif
 ||facialabuse.com/banners/
 ||feeds.videosz.com^$subdocument,third-party
@@ -11580,6 +11591,7 @@ _a468x60.
 /googleanalytics.swf
 /googleanalytics/ga.php?$image
 /googleanalyticsmanagement.swf
+/googleanalyticsplugin.swf
 /headupstats.gif?
 /heatmap.js
 /heatmap_log.js
@@ -11651,6 +11663,7 @@ _a468x60.
 /onestat.js
 /opinionlab.js
 /pagelogger/connector.php?
+/pbstrackingplugin.swf
 /php-stats.js.php
 /php-stats.php?
 /php-stats.phpjs.php?
