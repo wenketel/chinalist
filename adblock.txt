@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 4pj0syfl4FOTlkkv41Ovyw
+!  Checksum: f8MAwHe+7P6PjgkXZeRrLQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 26 Dec 2011 12:36:15 +0800
+!  Last Modified:  Wed, 28 Dec 2011 00:58:03 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -472,6 +472,7 @@ news.msn.com.tw###adv_images_l
 !---猫扑
 ||mop.com/fxb/js/fxb$script
 ||pub.mop.com/widget.jsp?
+||task.mop.com/mop_treasure.jsp
 ||mopimg.cn/dc/
 
 !---驱动之家
@@ -1122,7 +1123,9 @@ qianlong.com##.aditemwrap
 ||js.pub.tom.com^
 tom.com##.tomgame
 ||image.wenweipo.com/*/ad_
+_iframe.htm|$domain=news.cn|xinhuanet.com
 ||xinhuanet.com/classad/
+||embed.xinhuanet.com^
 ||iads.xinmin.cn^
 xmnn.cn##[class^="ad"]
 ||media.yesky.com/
@@ -2005,8 +2008,8 @@ xfastest.com###main-bot > .cl
 ||nanrenwa.com/_img/a/$third-party
 ||download.note.sdo.com/res/33aea74a-2095-4a10-bb8f-c802e7cdab75
 !---广东电信
-||gd.ct10000.com/js/ecssstat.js
 /clicktotal/ClickTotal.js
+||gd.ct10000.com/js/ecssstat.js
 ||gd.ct10000.com/*/cms/push/$image,~image,popup
 !---test pop-up blocking
 ||img.ifeng.com/tres/$image,~image,popup

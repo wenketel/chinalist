@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: fbrpDmp+JvEAs75fPkdNWg
+!  Checksum: PTAvjfYwoVl8I/zdrXgslQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 26 Dec 2011 12:36:15 +0800
+!  Last Modified:  Wed, 28 Dec 2011 00:58:03 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -472,6 +472,7 @@ news.msn.com.tw###adv_images_l
 !---猫扑
 ||mop.com/fxb/js/fxb$script
 ||pub.mop.com/widget.jsp?
+||task.mop.com/mop_treasure.jsp
 ||mopimg.cn/dc/
 
 !---驱动之家
@@ -1121,7 +1122,9 @@ qianlong.com##.aditemwrap
 ||js.pub.tom.com^
 tom.com##.tomgame
 ||image.wenweipo.com/*/ad_
+_iframe.htm|$domain=news.cn|xinhuanet.com
 ||xinhuanet.com/classad/
+||embed.xinhuanet.com^
 ||iads.xinmin.cn^
 xmnn.cn##[class^="ad"]
 ||media.yesky.com/
@@ -2004,8 +2007,8 @@ xfastest.com###main-bot > .cl
 ||nanrenwa.com/_img/a/$third-party
 ||download.note.sdo.com/res/33aea74a-2095-4a10-bb8f-c802e7cdab75
 !---广东电信
-||gd.ct10000.com/js/ecssstat.js
 /clicktotal/ClickTotal.js
+||gd.ct10000.com/js/ecssstat.js
 ||gd.ct10000.com/*/cms/push/$image,~image,popup
 !---test pop-up blocking
 ||img.ifeng.com/tres/$image,~image,popup
@@ -4373,6 +4376,7 @@ _728x90-
 _728x90.
 _728x90/
 _728x90_
+_728x90px.
 _768x90_
 _a468x60.
 ! *** easylist:easylist/easylist_general_hide.txt ***
@@ -7813,7 +7817,9 @@ _a468x60.
 ~zlinked.com##.advertiser
 ##.advertiser-links
 ##.advertisespace_div
+##.advertising-aside-top
 ##.advertising-banner
+##.advertising-block
 ##.advertising-header
 ##.advertising-leaderboard
 ##.advertising-local-links
@@ -11039,6 +11045,7 @@ _a468x60.
 ||mlgpro.com/javascript/data/addata.php
 ||mmdcash.com/mmdcash01.gif
 ||mmo4rpg.com^*.gif|$third-party
+||mobinubi.com^$image,~image,popup,~third-party
 ||mobyler.com/img/banner/
 ||mozo-widgets.f2.com.au^
 ||mp3ix.com^$third-party
@@ -11160,6 +11167,7 @@ _a468x60.
 ||rewards1.com/images/referralbanners/$third-party
 ||roadcomponentsdb.com^$subdocument,third-party
 ||robofish.com/cgi-bin/banner.cgi?
+||rocketgames.com^$image,~image,popup,~third-party
 ||rogersradio.ca/flash/prerollplayer.swf
 ||roia.hutchmedia.com^$third-party
 ||rotabanner.kulichki.net^
@@ -11271,6 +11279,7 @@ _a468x60.
 ||usenet.nl^$image,~image,popup
 ||valuate.com/banners/
 ||valuechecker.co.uk/banners/$third-party
+||vendor1.fitschigogerl.com^
 ||veospot.com^*.html
 ||viagogo.co.uk/feeds/widget.ashx?
 ||videozr.com^$third-party
