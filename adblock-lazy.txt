@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: KSVlkeBHrecQSKfLAOWSYQ
+!  Checksum: pxqgEVF3SC0xx2C5/O8iSQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 28 Dec 2011 16:28:32 +0800
+!  Last Modified:  Wed, 28 Dec 2011 22:47:37 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -1329,6 +1329,7 @@ www.jstv.com##div[style^="width:540px;"]
 ||2500sz.com/site/
 2500sz.com##[id^="Layer"]
 ||pic.2u.com.cn^$object
+||2y2r.org/data/attachment/forum/
 ||360doc.com/js/albb3.js
 ||js.4738.com/newda/new/4738_art_da.js
 @@||4oa.com/skins/default/Js/easytabs.js
@@ -2015,11 +2016,10 @@ xfastest.com###main-bot > .cl
 ||gd.ct10000.com/*/cms/push/$image,~image,popup
 !---test pop-up blocking
 ||img.ifeng.com/tres/$image,~image,popup
-|http://$image,~image,third-party,popup,domain=jjwxc.net|qidian.com|xun6.com
+|http://$image,~image,third-party,popup,domain=jjwxc.net|qidian.com
 ||jjwxc.net/jjad2.html$image,~image,popup
 !-fix qidian & qdmm links
 @@||qdmm.com^$image,~image,popup,domain=qidian.com
-@@||qidian.com^$image,~image,popup,domain=qdmm.com
 !-----------------------EasyList----------------------------
 ! *** easylist:easylist/easylist_general_block.txt ***
 &ad_keyword=
