@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: fBbCoycdiVi85mNRwMdK1A
+!  Checksum: KSVlkeBHrecQSKfLAOWSYQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 28 Dec 2011 16:18:09 +0800
+!  Last Modified:  Wed, 28 Dec 2011 16:28:32 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -578,8 +578,9 @@ down.qiannao.com##div[style="padding: 8px;"]
 
 !---起点中文网
 ||qidian.com/javascript/NewSNDAPop.js
-||cj.qidian.com^
-qidian.com##a[href^="http://www.qidian.com/showavd.aspx?"]
+||cj.qidian.com^$object
+||cj.qidian.com/svnad/
+qdmm.com,qidian.com##a[href^="http://www.qidian.com/showavd.aspx?"]
 www.qidian.com##.DH17
 www.qidian.com##[class^="gg"]
 
@@ -1224,7 +1225,9 @@ baiwandu.com###ptcmsad1
 ||hotsk.com/js/fy.js
 ||hszw.com/inc/
 ||imanhua.com/v2/money/
-||jjwxc.net/sp/
+||jjwxc.net/sp/$subdocument
+jjwxc.net##[id^="adp_"]
+jjwxc.net##table[style^="width:984px;"]
 ||jpnovel.com/myjs/
 ||jumpcn.com/javascript/xshow.js
 ||jumpcn.com/s*/$script
