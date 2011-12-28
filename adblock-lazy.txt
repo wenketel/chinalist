@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: jyhYvZu/fufxFsj3FZqEzA
+!  Checksum: fBbCoycdiVi85mNRwMdK1A
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 28 Dec 2011 12:16:45 +0800
+!  Last Modified:  Wed, 28 Dec 2011 16:18:09 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -332,7 +332,7 @@ firefoxchina.cn,g-fox.cn##[id^="ad_links"]
 firefoxchina.cn,g-fox.cn##[id^="banner_show"]
 
 !---巴哈姆特
-@@||bahamut.com.tw/avataruserpic/
+@@||bahamut.com.tw/avataruserpic/$subdocument
 .html|$subdocument,third-party,domain=gamer.com.tw
 ||pic.bahamut.com.tw/js/ad.js
 
@@ -578,8 +578,7 @@ down.qiannao.com##div[style="padding: 8px;"]
 
 !---起点中文网
 ||qidian.com/javascript/NewSNDAPop.js
-||cj.qidian.com^$object
-||cj.qidian.com/svnad/
+||cj.qidian.com^
 qidian.com##a[href^="http://www.qidian.com/showavd.aspx?"]
 www.qidian.com##.DH17
 www.qidian.com##[class^="gg"]
@@ -2924,6 +2923,7 @@ xfastest.com###main-bot > .cl
 /adwords/*
 /adworks.
 /adworks/*
+/adworx.
 /adworx_
 /adwrapper/*
 /adwrapperiframe.
@@ -3653,6 +3653,7 @@ xfastest.com###main-bot > .cl
 /popunder2.
 /popunder_
 /popunderking.
+/popundr_
 /post_ads_
 /ppd_ads.
 /ppd_ads_
@@ -3867,6 +3868,7 @@ xfastest.com###main-bot > .cl
 /swf/ad-
 /swf/ads/*
 /swfbin/ad-
+/swfbin/ad3-
 /synad2.
 /system/ad/*
 /systemad.
@@ -8831,6 +8833,7 @@ _a468x60.
 ##.rt_ad1_300x90
 ##.rt_ad_300x250
 ##.rt_ad_call
+##.rtmm_right_ad
 ##.s2k_ad
 ##.savvyad_unit
 ##.sb-ad-sq-bg
@@ -9320,6 +9323,7 @@ _a468x60.
 ||365sbaffiliates.com^$third-party
 ||3rdads.com^$third-party
 ||43plc.com^$third-party
+||4affiliate.net^$third-party
 ||600z.com^$third-party
 ||777seo.com^$third-party
 ||7search.com^$third-party
@@ -9861,6 +9865,7 @@ _a468x60.
 ||exelator.com^$third-party
 ||exitexplosion.com^$third-party
 ||exitjunction.com^$third-party
+||exoclick.com^$image,~image,popup
 ||exoclick.com^$third-party
 ||exponential.com^$third-party
 ||eyereturn.com^$third-party
@@ -10572,6 +10577,7 @@ _a468x60.
 ||angelpastel.com^$third-party
 ||belamicash.com^$third-party
 ||belasninfetas.org^$third-party
+||bestssn.com^$third-party
 ||camads.net^$third-party
 ||campartner.com^$third-party
 ||campromos.nl^$third-party
@@ -10954,6 +10960,7 @@ _a468x60.
 ||grammar.coursekey.com/inter/$third-party
 ||gsniper.com/images/$third-party
 ||guim.co.uk/guardian/thirdparty/tv-site/side.html
+||hetu.in^$image,~image,popup,third-party
 ||hostingcatalog.com/banner.php?
 ||hyperfbtraffic.com/images/graphicsbanners/
 ||ibsrv.net/sponsor_images/
@@ -11046,7 +11053,7 @@ _a468x60.
 ||mlgpro.com/javascript/data/addata.php
 ||mmdcash.com/mmdcash01.gif
 ||mmo4rpg.com^*.gif|$third-party
-||mobinubi.com^$image,~image,popup,~third-party
+||mobinubi.com^$image,~image,popup,third-party
 ||mobyler.com/img/banner/
 ||mozo-widgets.f2.com.au^
 ||mp3ix.com^$third-party
@@ -11109,7 +11116,7 @@ _a468x60.
 ||partners.optiontide.com^
 ||partners.rochen.com^
 ||partners.sportingbet.com.au^
-||partycasino.com^$image,~image,popup,~third-party
+||partycasino.com^$image,~image,popup,third-party
 ||partycasino.com^*?wm=$third-party
 ||partypoker.com/hp_landingpages/$third-party
 ||partypoker.com^$image,~image,popup
@@ -11168,7 +11175,7 @@ _a468x60.
 ||rewards1.com/images/referralbanners/$third-party
 ||roadcomponentsdb.com^$subdocument,third-party
 ||robofish.com/cgi-bin/banner.cgi?
-||rocketgames.com^$image,~image,popup,~third-party
+||rocketgames.com^$image,~image,popup,third-party
 ||rogersradio.ca/flash/prerollplayer.swf
 ||roia.hutchmedia.com^$third-party
 ||rotabanner.kulichki.net^
@@ -12780,7 +12787,6 @@ _cedexis.php
 ||mkcms.com/stats.js
 ||mochiads.com/clk/
 ||modules.ooyala.com^*/analytics-
-||motionbox.com^*/googleanalyticsplugin.swf?
 ||mtv.com^*spacer.gif?
 ||mtvnservices.com/metrics/
 ||myblueday.com^*/count.asp?
