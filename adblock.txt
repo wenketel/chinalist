@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: LIHEE/kMQ9tuGzlP21sXMg
+!  Checksum: ppj8tlRJxCnUzdmQ2cqlxg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 28 Dec 2011 22:47:37 +0800
+!  Last Modified:  Thu, 29 Dec 2011 21:57:15 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -778,7 +778,7 @@ tianya.cn###adsp_content_top_banner
 tudou.com##.b.seed
 tudou.com###adex_board
 www.tudou.com###adKraft
-!--embeded
+!--embedded
 ||tdap.tudou.com^
 ||tdcm.tudou.com^
 
@@ -2007,6 +2007,8 @@ xfastest.com###main-bot > .cl
 
 !-----------------------Temporary---------------------------
 !---2011.12
+www.3dmgame.com##[id^="clickbg"]
+www.3dmgame.com##a[href^="tencent://"]
 ||mg.gamebean.com/665-090.gif
 ||blog.hi.mop.com/flash/830-310.swf
 ||nanrenwa.com/_img/a/$third-party
@@ -2016,6 +2018,7 @@ xfastest.com###main-bot > .cl
 ||gd.ct10000.com/js/ecssstat.js
 ||gd.ct10000.com/*/cms/push/$image,~image,popup
 !---test pop-up blocking
+||arpg2.com^$image,~image,popup
 ||img.ifeng.com/tres/$image,~image,popup
 |http://$image,~image,third-party,popup,domain=jjwxc.net|qidian.com
 ||jjwxc.net/jjad2.html$image,~image,popup
