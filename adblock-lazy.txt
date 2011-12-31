@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: NVA/TWZfByqOX7eOGLru+A
+!  Checksum: ZarJt+NjQZgcq3+PS9uifA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 29 Dec 2011 21:57:15 +0800
+!  Last Modified:  Sat, 31 Dec 2011 16:01:26 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -168,6 +168,7 @@ iknow.baidu.com,zidao.baidu.com,z.baidu.com,zhidao.baidu.com###qb-ad-cpro
 !---bilibili.tv
 ||bilibili.tv/html/arcads.js
 /ad-images/*$domain=bilibili.tv
+bilibili.tv###topgg
 
 !---易车网
 ||g.bitauto.com^$script
@@ -404,6 +405,7 @@ www.hsw.cn##table[width="980"][height="100"]
 ||sc.ifeng.com^
 ||sta.ifeng.com^
 ||stadig.ifeng.com^
+||ifengimg.com/mappa/
 ifeng.com##.adbox
 ifeng.com##[class$="Ad"]
 ifeng.com##[class^="adList"]
@@ -605,8 +607,11 @@ qq.com##.l_qq_com
 qq.com##.qiye-Article-QQ
 cq.qq.com##[style^="width:960px;"]
 news.qq.com###news_ad
+sports.qq.com###flashAd
 www.qq.com##.adArea
 www.qq.com###proAd
+!--qzone
+||os.qzs.qq.com/qzone/biz/gdt/
 
 !---巧巧读书
 @@||qqread.com/swf/qqread_rollpic.swf
@@ -772,7 +777,6 @@ tianya.cn###adsp_content_top_banner
 ||tudou.com/tdap/
 ||tudou.com/tdcm/
 ||stat*.tudou.com^
-@@||js.tudouui.com/bin/player$object
 ||js.tudouui.com/js/fn/saleloader_*.js
 /pos?$object_subrequest
 tudou.com##.b.seed
@@ -781,6 +785,8 @@ www.tudou.com###adKraft
 !--embedded
 ||tdap.tudou.com^
 ||tdcm.tudou.com^
+!--player may incorrectly blocked by some subscriptions
+@@||js.tudouui.com/bin/player$object
 
 !---U17
 ||u17.com^$third-party
@@ -1052,10 +1058,13 @@ ali213.net###banner
 ali213.net##.newright
 ||img.cngba.com/da/
 ||dashuye.com/data/cache/myad*.htm
-gamebase.com.tw##[id^="ad"]
+gamebase.com.tw###ad525
+gamebase.com.tw###ad725_txt
 gamebase.com.tw###news_title_ad
 gamebase.com.tw##.text_ad_full
 gamebase.com.tw##.wait_gbno1
+||plu.cn/d/js/acmsd/thea44.js
+||lib.plu.cn/images/bg/
 ||bbs.verypsp.com^$script,subdocument
 ||soft.verypsp.com/pic/tiaofuad.gif
 ||wowmovies.cn/img/17jnh/
@@ -1418,6 +1427,8 @@ kafan.cn##table.header_gg
 ||lady8844.com/js/das/
 ||lady8844.com/DA_HTML/
 ||sp.luo.bo^$subdocument
+||xc.macd.cn^
+bbs.macd.cn###advlist
 ||img.maxpda.com/images/
 maxpda.com##.ad
 maxpda.com##[id^="dp-ads"]
@@ -1496,6 +1507,10 @@ xitek.com##[id^="mo"]
 ||yanqiao.com/duote.js
 ||yanqiao.com/yanqiao/
 ||a4.yeshj.com^
+||youthwant.com.tw/buy/
+||rd.youthwant.com.tw/scripts/youthad.js
+||share.youthwant.com.tw/ad-bottomright.php
+||share.youthwant.com.tw/share_head_adwords.php
 ||ytbbs.com/images/index/
 ||yxlady.com/cdd/
 ||zbinfo.net^*/ggw/
@@ -1737,7 +1752,7 @@ xitek.com##[id^="mo"]
 ||jzunion.com^$third-party
 ||kankanews.com/iframe/$third-party
 ||kcld.net^$third-party
-||kejet.com^$third-party
+||kejet.$third-party
 ||keydot.net^$third-party
 ||keyrun.cn^$third-party
 ||keyyou.net^$third-party
@@ -2005,9 +2020,10 @@ xfastest.com##[class^="ad"]
 xfastest.com###main-bot > .cl
 
 !-----------------------Temporary---------------------------
-!---2011.12
+!---2012.1
 www.3dmgame.com##[id^="clickbg"]
 www.3dmgame.com##a[href^="tencent://"]
+||images.nciku.cn/spacer.gif
 ||mg.gamebean.com/665-090.gif
 ||blog.hi.mop.com/flash/830-310.swf
 ||nanrenwa.com/_img/a/$third-party
@@ -2017,9 +2033,9 @@ www.3dmgame.com##a[href^="tencent://"]
 ||gd.ct10000.com/js/ecssstat.js
 ||gd.ct10000.com/*/cms/push/$image,~image,popup
 !---test pop-up blocking
+|http://$image,~image,third-party,popup,domain=jjwxc.net|qidian.com
 ||arpg2.com^$image,~image,popup
 ||img.ifeng.com/tres/$image,~image,popup
-|http://$image,~image,third-party,popup,domain=jjwxc.net|qidian.com
 ||jjwxc.net/jjad2.html$image,~image,popup
 !-fix qidian & qdmm links
 @@||qdmm.com^$image,~image,popup,domain=qidian.com
@@ -2036,6 +2052,7 @@ www.3dmgame.com##a[href^="tencent://"]
 &adslots=
 &adspace=
 &adtype=
+&adunit=
 &adurl=
 &adv_keywords=
 &advertiserid=
@@ -3119,7 +3136,6 @@ www.3dmgame.com##a[href^="tencent://"]
 /comment-ad.
 /commercial_horizontal.
 /commercial_top.
-/commercials/*
 /common/ad.
 /common/ad/*
 /common/ads/*
@@ -5518,7 +5534,7 @@ _a468x60.
 ###banner300x250
 ###banner468x60
 ###banner728x90
-###bannerAd
+~asuragen.com###bannerAd
 ###bannerAdTop
 ~visitscotland.com###bannerAdWrapper
 ###bannerAd_ctr
@@ -10220,6 +10236,7 @@ _a468x60.
 ||popadscdn.net^$third-party
 ||poponclick.com^$third-party
 ||populis.com^$third-party
+||popuptraffic.com^$third-party
 ||postaffiliatepro.com^$third-party
 ||ppclinking.com^$third-party
 ||ppcwebspy.com^$third-party
@@ -10285,6 +10302,7 @@ _a468x60.
 ||ru4.com^$third-party
 ||rubiconproject.com^$third-party
 ||rwpads.com^$third-party
+||s2d6.com^$third-party
 ||sa.entireweb.com^$third-party
 ||safelistextreme.com^$third-party
 ||salvador24.com^$third-party
@@ -10373,6 +10391,7 @@ _a468x60.
 ||surveywidget.biz^$third-party
 ||symbiosting.com^$third-party
 ||tacoda.net^$third-party
+||taggify.net^$third-party
 ||tailsweep.com^$third-party
 ||targetnet.com^$third-party
 ||targetpoint.com^$third-party
@@ -10743,6 +10762,7 @@ _a468x60.
 ||amazonaws.com/digitalcinemanec.swf$domain=boxoffice.com
 ||amazonaws.com/publishflow/
 ||amazonaws.com/widgets.youcompare.com.au/
+||aolcdn.com/os/mapquest/marketing/promos/
 ||aolcdn.com/os/music/img/*-skin.jpg
 ||api.groupon.com/v2/deals/$third-party
 ||appdevsecrets.com/images/nuts/
@@ -10831,6 +10851,7 @@ _a468x60.
 ||cerebral.typn.com^
 ||chacsystems.com/gk_add.html$third-party
 ||challies.com^*/wtsbooks5.png$third-party
+||chatulfetelor.net/$image,~image,popup
 ||chriscasconi.com/nostalgia_ad.
 ||cimg.in/images/banners/
 ||cineble.com/banners/
@@ -10842,6 +10863,7 @@ _a468x60.
 ||connect.summit.co.uk^
 ||consolpub.com/weatherwindow/
 ||counter-strike.com/banners/
+||creative.ak.fbcdn.net/*/flyers/$image,domain=facebook.com
 ||creatives.inmotionhosting.com^
 ||creatives.summitconnect.co.uk^
 ||customcodebydan.com/images/banner.gif
@@ -10976,6 +10998,7 @@ _a468x60.
 ||guim.co.uk/guardian/thirdparty/tv-site/side.html
 ||hetu.in^$image,~image,popup,third-party
 ||hostingcatalog.com/banner.php?
+||hostmonster.com/src/js/izahariev/$third-party
 ||hyperfbtraffic.com/images/graphicsbanners/
 ||ibsrv.net/sponsor_images/
 ||icnetwork.co.uk^*-sponsorship-
@@ -11121,6 +11144,7 @@ _a468x60.
 ||ox-d.mediamark.co.za^
 ||pagead2.googlesyndication.com^$~object-subrequest
 ||pagerage.com^$subdocument,third-party
+||paid-to-promote.net/images/ptp.gif
 ||partner.bargaindomains.com^
 ||partner.catchy.com^
 ||partner.e-conomic.com^$third-party
@@ -12349,7 +12373,6 @@ _cedexis.php
 ||roispy.com^$third-party
 ||rsvpgenius.com^$third-party
 ||rtfn.net^$third-party
-||s2d6.com^$third-party
 ||sageanalyst.net^$third-party
 ||sapha.com^$third-party
 ||sayutracking.co.uk^$third-party
@@ -12730,6 +12753,7 @@ _cedexis.php
 ||geckofoot.com/gfvisitormap.aspx?
 ||getpos.de/ext/
 ||gigya.com^*/cimp.gif?
+||glam.com/ctagsimgcmd.act?
 ||go.toutapp.com^$third-party
 ||googlecode.com^*/tracker.js
 ||googlelabs.com/log/log?
