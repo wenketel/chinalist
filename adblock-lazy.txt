@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 38VWpe9eDuOsSpBPg7Zhcw
+!  Checksum: c8Snf4zlx9ytl/b+pt2WmQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 05 Jan 2012 14:25:01 +0800
+!  Last Modified:  Thu, 05 Jan 2012 17:41:25 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -51,13 +51,11 @@ mail.126.com,mail.163.com##.gWel-gg-2
 mail.126.com,mail.163.com##[id$="FakeLetterDiv"]
 
 !---17173
-||17173.com/if/
-||book.17173.com/17k/xct/
-||images.17173.com^$object
-||media.17173.com/09gonggao.js
-||17173.com/play/zqtop_960.html
-||media.17173.com/x/
-17173.com##[class^="banner"]
+||17173.com/new/
+||js.17173.com/ping.js
+|http://*/if/$domain=17173.com
+|http://*/x/$domain=17173.com
+/www/ggcommon$script,domain=17173.com
 
 !---21CN
 ||analytics.21cn.com^
@@ -470,7 +468,7 @@ www.ku6.com##[class^="a_d0608"]
 mobile01.com##div.navbar > p > a[href^="adredir.php?"]
 mobile01.com##.ad-b
 mobile01.com##.ad-d
-mobile01.com##.admicrobtnindex
+mobile01.com##[class^="admicrobtn"]
 mobile01.com##.fast-ad
 mobile01.com##.widget.article:nth-child(3)
 mobile01.com##div.ad-d + div.widget.article
