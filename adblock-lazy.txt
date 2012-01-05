@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: DktF33TWKP5swZ/XZqaC2w
+!  Checksum: T87M1a6Luw8nTkB4RCyt/g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 05 Jan 2012 14:04:37 +0800
+!  Last Modified:  Thu, 05 Jan 2012 14:10:46 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -165,6 +165,7 @@ iknow.baidu.com,zidao.baidu.com,z.baidu.com,zhidao.baidu.com###qb-ad-cpro
 ^db=qiyiafp^
 ||policy.cupid.qiyi.com^
 ||msg.video.qiyi.com^
+||irs01.net^$object
 
 !---bilibili.tv
 ||bilibili.tv/html/arcads.js
@@ -532,6 +533,7 @@ tv.on.cc###large
 
 !---远景
 ||bbs.pcbeta.com/static/image/ADDED/
+||pbcdn.com/ie9/$image
 bbs.pcbeta.com##[id^="forum_rules"] + div[style]
 bbs.pcbeta.com###diynavtop + .wp
 bbs.pcbeta.com##.forum_top + div[style]:nth-child(3)
@@ -1075,6 +1077,7 @@ gamebase.com.tw##.wait_gbno1
 ||static.115img.com/static/delivery/
 115.com##[class^="ban-"]
 115.com##.res-list
+||multiupload.com/popunder/$image,~image,popup
 ||static.ctdisk.com/510.js
 ||d.namipan.com/inc_js/$script
 ||img.rayfile.com/scr/$script
@@ -1597,6 +1600,7 @@ xitek.com##[id^="mo"]
 ||6721.com^$third-party
 ||6693.cc^$third-party
 ||6dad.com^$third-party
+||6788787.com^$third-party
 ||70e.com^$third-party
 ||70yx.com^$third-party
 ||74lm.com^$third-party
@@ -1678,6 +1682,7 @@ xitek.com##[id^="mo"]
 ||books.com.tw/exep/ap/$third-party
 ||boosj.com^$third-party
 ||btnibbler.com^$third-party
+||buzz-time.com.cn^$third-party
 ||channelray.com^$third-party
 ||chanet.com.cn^$third-party
 ||chinaih.com^$third-party
