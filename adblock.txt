@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 2BLEWxM4cEbGvVw2voqdFw
+!  Checksum: Biy8Q2ph2/88ttgoYJ5Ltg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 05 Jan 2012 14:15:40 +0800
+!  Last Modified:  Thu, 05 Jan 2012 14:25:01 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -344,6 +344,11 @@ firefoxchina.cn,g-fox.cn##[id^="banner_show"]
 ||image.gamersky.com/img/
 gamersky.com##.adc
 
+!---广东电信
+/clicktotal/ClickTotal.js
+||gd.ct10000.com/js/ecssstat.js
+||gd.ct10000.com/*/cms/push/$image,~image,popup
+
 !---机锋
 @@||gfan.lkpress.com^$script
 ||down.gfan.com/weite/
@@ -398,6 +403,7 @@ www.hsw.cn##table[width="980"][height="100"]
 /sc_ifeng/*
 ||bc.ifeng.com^
 ||comment.ifeng.com/count_
+||img.ifeng.com/tres/$image,~image,popup
 ||img.ifeng.com/tres/html/
 ||img.ifeng.com/tres/ifeng/
 ||img.ifeng.com/tres/market/
@@ -418,6 +424,7 @@ bbs.ifeng.com###box[style="height: 206px;"]
 finance.ifeng.com##.cultureService
 finance.ifeng.com###final_head_ad
 finance.ifeng.com##.maidunbox
+news.ifeng.com##.recommend
 
 !---IT168
 ||168.it168.com^$script
@@ -581,13 +588,23 @@ www.pixnet.net###extradiv5
 down.qiannao.com###PageRigntAds
 down.qiannao.com##div[style="padding: 8px;"]
 
-!---起点中文网
+!---盛大
+||download.note.sdo.com/res/33aea74a-2095-4a10-bb8f-c802e7cdab75
+!--起点中文网
 ||qidian.com/javascript/NewSNDAPop.js
 ||cj.qidian.com^$object
 ||cj.qidian.com/svnad/
 qdmm.com,qidian.com##a[href^="http://www.qidian.com/showavd.aspx?"]
 www.qidian.com##.DH17
 www.qidian.com##[class^="gg"]
+!--fix qidian & qdmm links
+@@||qdmm.com^$image,~image,popup,domain=qidian.com
+!--晋江文学城
+|http://$image,~image,third-party,popup,domain=jjwxc.net|qidian.com
+||jjwxc.net/jjad2.html$image,~image,popup
+||jjwxc.net/sp/$subdocument
+jjwxc.net##[id^="adp_"]
+jjwxc.net##table[style^="width:984px;"]
 
 !---QQ
 @@||adsrich.qq.com/web/crystal/$script,domain=news.qq.com
@@ -1242,9 +1259,6 @@ baiwandu.com###ptcmsad1
 ||hotsk.com/js/fy.js
 ||hszw.com/inc/
 ||imanhua.com/v2/money/
-||jjwxc.net/sp/$subdocument
-jjwxc.net##[id^="adp_"]
-jjwxc.net##table[style^="width:984px;"]
 ||jpnovel.com/myjs/
 ||jumpcn.com/javascript/xshow.js
 ||jumpcn.com/s*/$script
@@ -2038,16 +2052,6 @@ www.3dmgame.com##a[href^="tencent://"]
 ||mg.gamebean.com/665-090.gif
 ||blog.hi.mop.com/flash/830-310.swf
 ||nanrenwa.com/_img/a/$third-party
-||download.note.sdo.com/res/33aea74a-2095-4a10-bb8f-c802e7cdab75
-!---广东电信
-/clicktotal/ClickTotal.js
-||gd.ct10000.com/js/ecssstat.js
-||gd.ct10000.com/*/cms/push/$image,~image,popup
 !---test pop-up blocking
-|http://$image,~image,third-party,popup,domain=jjwxc.net|qidian.com
 ||arpg2.com^$image,~image,popup
-||img.ifeng.com/tres/$image,~image,popup
-||jjwxc.net/jjad2.html$image,~image,popup
-!-fix qidian & qdmm links
-@@||qdmm.com^$image,~image,popup,domain=qidian.com
 !------------------------End of List-------------------------
