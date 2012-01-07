@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: q51E6B98xB4fKBBHggTm5w
+!  Checksum: Osqkw/xc9AO0TGo74SA+/w
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 05 Jan 2012 17:41:25 +0800
+!  Last Modified:  Sat, 07 Jan 2012 13:03:12 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -986,8 +986,8 @@ zongheng.com###wlqz
 
 !----------------------------Generic(sort by domain name)--
 !---Blog Sites
-cwyuni.tw##a[href^="http://www.hug.com.tw/"]
-cwyuni.tw##a[href^="http://eco."]
+||rakuten-static.com^$domain=cwyuni.tw
+cwyuni.tw##div.article-content > table[cellspacing="0"][cellpadding="0"][border="0"]
 cwyuni.tw##div#banner > h2
 cwyuni.tw##div#links-row-1 > div[id^="box"]:not(#box32499):not(#box533632)
 ||pic.pimg.tw/cwyuni/*.gif?v=$image
