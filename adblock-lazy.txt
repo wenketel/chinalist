@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 31pCTk8Os8djR24+qxRJUw
+!  Checksum: iovfH6qR+52fDRMvEiE0IQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 08 Jan 2012 21:01:14 +0800
+!  Last Modified:  Tue, 10 Jan 2012 00:13:43 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -162,6 +162,7 @@ iknow.baidu.com,zidao.baidu.com,z.baidu.com,zhidao.baidu.com###qb-ad-cpro
 @@||afp.qiyi.com^*&local=xml|
 ^db=qiyiafp^
 ||policy.cupid.qiyi.com^
+||qiyipic.com/common/20110722/5f5d60101b71428991e57b5ba460acf1.jpg
 ||msg.video.qiyi.com^
 ||irs01.net^$object
 
@@ -272,6 +273,7 @@ dict.cn###top-gg
 !---Discuz! & PHPWind etc.
 @@/common/cf/*.thumb$image
 /common/cf/*$image,object
+/image/common/ad_close.gif
 ##.a_pb
 discuz.net##.a_pr
 ##.ad_footerbanner
@@ -1858,6 +1860,7 @@ xitek.com##[id^="mo"]
 ||tuike.cn^$third-party
 ||txjy2008.com^$third-party
 ||ubcpm.com^$third-party
+||notice.uchome.manyou.com^
 ||uctrac.com^$third-party
 ||ugooo.cc^$third-party
 ||ujoin.net^$third-party
@@ -2195,6 +2198,7 @@ www.3dmgame.com##a[href^="tencent://"]
 .swf?1&clicktag=
 .swf?ad=
 .swf?clicktag=
+.swf?popupiniframe=
 .to/ads/
 .tv/ads/
 .tz/ads/
@@ -3092,6 +3096,17 @@ www.3dmgame.com##a[href^="tencent://"]
 /bar-ad.
 /baselinead.
 /basic/ad/*
+/bbad.
+/bbad1.
+/bbad10.
+/bbad2.
+/bbad3.
+/bbad4.
+/bbad5.
+/bbad6.
+/bbad7.
+/bbad8.
+/bbad9.
 /behaviorads/*
 /beta-ad.
 /betrad.js
@@ -4197,9 +4212,7 @@ _adtech_
 _adtext_
 _adtitle.
 _adtop.
-_advertise.
 _advertise180.
-_advertise_
 _advertisehere.
 _advertisement.
 _advertisement_
@@ -5445,7 +5458,6 @@ _a468x60.
 ###advertbox3
 ###advertbox4
 ###adverthome
-~finn.no,~flexstrom.de,~zlatestranky.cz###advertise
 ###advertise-here
 ###advertise-here-sidebar
 ###advertise-now
@@ -6465,6 +6477,7 @@ _a468x60.
 ###sideBarAd
 ###side_ad
 ###side_ad_wrapper
+###side_ads
 ###side_ads_by_google
 ###side_sky_ad
 ###sidead
@@ -7331,6 +7344,7 @@ _a468x60.
 ##.ad_banner
 ##.ad_banner_border
 ##.ad_bar
+##.ad_belowmenu
 ##.ad_bg
 ##.ad_bigbox
 ##.ad_biz
@@ -7504,6 +7518,7 @@ _a468x60.
 ##.adhint
 ~northjersey.com,~rabota.by##.adholder
 ##.adhoriz
+##.adical_contentad
 ##.adiframe
 ~backpage.com##.adinfo
 ##.adinside
@@ -7760,6 +7775,7 @@ _a468x60.
 ##.adtips1
 ~katuha.com,~otelfingen.ch,~sulit.com.ph##.adtitle
 ##.adtop
+##.adtower
 ##.adtravel
 ##.adtxt
 ##.adtxtlinks
@@ -7807,6 +7823,7 @@ _a468x60.
 ##.advert300x250
 ##.advert300x300
 ##.advert300x440
+##.advert300x600
 ##.advert350ih
 ##.advert4
 ##.advert5
@@ -8605,6 +8622,7 @@ _a468x60.
 ##.longAdBox
 ##.lowerAds
 ##.lr-ad
+##.lr_skyad
 ##.m-ad-tvguide-box
 ##.m4-adsbygoogle
 ##.m_banner_ads
@@ -8646,6 +8664,7 @@ _a468x60.
 ##.mid_page_ad
 ##.midad
 ##.middle-ad
+##.middleAd
 ##.middleAds
 ##.middlead
 ~der-postillon.com##.middleads
@@ -8973,6 +8992,7 @@ _a468x60.
 ##.sideheadnarrowad
 ##.sideheadsponsorsad
 ##.simple_ads_manager_widget
+##.single-ad
 ##.single-google-ad
 ##.singleAd
 ##.singleAdsContainer
@@ -9818,6 +9838,7 @@ _a468x60.
 ||comscore.com^$third-party
 ||conduit-banners.com^$third-party
 ||connectedads.net^$third-party
+||connectionads.com^$third-party
 ||connextra.com^$third-party
 ||content-cooperation.com^$third-party
 ||contenture.com^$third-party
@@ -9891,7 +9912,7 @@ _a468x60.
 ||doubleclick.net/pfadx/*adcat=$object-subrequest,third-party
 ||doubleclick.net/pfadx/bet.com/$object-subrequest,third-party
 ||doubleclick.net/pfadx/nbcu.nbc/$object-subrequest,third-party
-||doubleclick.net^$object-subrequest,third-party,domain=abc-7.com|abc15.com|abc2news.com|abcactionnews.com|addictinggames.com|adelaidenow.com.au|atom.com|automotive.com|bicycling.com|break.com|cbs19.tv|cbs3springfield.com|cbs4denver.com|cbsatlanta.com|cbslocal.com|cbsnews.com|click2houston.com|clickorlando.com|cnbc.com|cnet.com|collegehumor.com|complex.com|couriermail.com.au|current.com|dailytelegraph.com.au|darkhorizons.com|doctoroz.com|dorkly.com|doubleviking.com|eonline.com|fandango.com|fox19.com|fox5vegas.com|fox6now.com|foxcarolina.com|g4tv.com|gamespot.com|gametrailers.com|globalnational.com|globalnews.ca|gorillanation.com|grooveshark.com|heraldsun.com.au|history.com|hollywoodlife.com|hulu.com|independent.ie|joblo.com|kcci.com|kcra.com|kctv5.com|ketv.com|kjrh.com|koat.com|koco.com|kolotv.com|kpho.com|kptv.com|ksat.com|ksbw.com|ksfy.com|kxan.com|listen.grooveshark.com|live5news.com|local10.com|mtv.co.uk|mtv.com|mtv.com.au|mtv.com.nz|mtvbase.com|mtvmusic.com|my9tv.com|mydamnchannel.com|myfoxorlando.com|myfoxphilly.com|myfoxphoenix.com|myfoxtampabay.com|nbcactionnews.com|nbcwashington.com|necn.com|neopets.com|news.com.au|news4jax.com|newsnet5.com|newsweek.com|nfl.com|nick.com|nintendoeverything.com|nuts.co.uk|nytimes.com|own3d.tv|pandora.com|perthnow.com.au|photoradar.com|play.it|ps3news.com|radio.com|rottentomatoes.com|sbs.com.au|sbsun.com|sevenload.com|shacknews.com|shockwave.com|sk-gaming.com|skynews.com.au|smh.com.au|southpark.nl|southparkstudios.com|southparkstudios.se|space.com|spike.com|syfy.com|ted.com|theage.com.au|theaustralian.com.au|thebostonchannel.com|thedailygreen.com|thedailyshow.com|thedenverchannel.com|theindychannel.com|theinquirer.net|thewire.com|timeslive.co.za|turnto23.com|tv3winchester.com|ufc.com|ultimatefighter.com|universalsports.com|ustream.tv|videojug.com|wapt.com|washingtonpost.com|wate.com|wbaltv.com|wcbstv.com|wcpo.com|wdbj7.com|wdsu.com|wetransfer.com|wfmz.com|wfsb.com|wgal.com|wired.com|wisn.com|wkbw.com|wlky.com|wlns.com|wlwt.com|wmur.com|wnem.com|wowt.com|wptv.com|wral.com|wsj.com|wsmv.com|wtae.com|wwe.com|wxii12.com|wxyz.com|wyff4.com|youtube.com|zappinternet.com|zoomin.tv
+||doubleclick.net^$object-subrequest,third-party,domain=abc-7.com|abc15.com|abc2news.com|abcactionnews.com|addictinggames.com|adelaidenow.com.au|atom.com|automotive.com|bicycling.com|break.com|cbs19.tv|cbs3springfield.com|cbs4denver.com|cbsatlanta.com|cbslocal.com|cbsnews.com|click2houston.com|clickorlando.com|cnbc.com|cnet.com|collegehumor.com|complex.com|couriermail.com.au|current.com|dailytelegraph.com.au|darkhorizons.com|doctoroz.com|dorkly.com|doubleviking.com|eonline.com|fandango.com|fox19.com|fox5vegas.com|fox6now.com|foxcarolina.com|g4tv.com|gamespot.com|gametrailers.com|globalnational.com|globalnews.ca|gorillanation.com|grooveshark.com|heraldsun.com.au|history.com|hollywoodlife.com|hulu.com|independent.ie|joblo.com|kcci.com|kcra.com|kctv5.com|ketv.com|kjrh.com|koat.com|koco.com|kolotv.com|kpho.com|kptv.com|ksat.com|ksbw.com|ksfy.com|kxan.com|listen.grooveshark.com|live5news.com|local10.com|msnbc.msn.com|mtv.co.uk|mtv.com|mtv.com.au|mtv.com.nz|mtvbase.com|mtvmusic.com|my9tv.com|mydamnchannel.com|myfoxorlando.com|myfoxphilly.com|myfoxphoenix.com|myfoxtampabay.com|nbcactionnews.com|nbcwashington.com|necn.com|neopets.com|news.com.au|news4jax.com|newsnet5.com|newsweek.com|nfl.com|nick.com|nintendoeverything.com|nuts.co.uk|nytimes.com|own3d.tv|pandora.com|perthnow.com.au|photoradar.com|play.it|ps3news.com|radio.com|rottentomatoes.com|sbs.com.au|sbsun.com|sevenload.com|shacknews.com|shockwave.com|sk-gaming.com|skynews.com.au|smh.com.au|southpark.nl|southparkstudios.com|southparkstudios.se|space.com|spike.com|syfy.com|ted.com|theage.com.au|theaustralian.com.au|thebostonchannel.com|thedailygreen.com|thedailyshow.com|thedenverchannel.com|theindychannel.com|theinquirer.net|thewire.com|timeslive.co.za|turnto23.com|tv3winchester.com|ufc.com|ultimatefighter.com|universalsports.com|ustream.tv|videojug.com|wapt.com|washingtonpost.com|wate.com|wbaltv.com|wcbstv.com|wcpo.com|wdbj7.com|wdsu.com|wetransfer.com|wfmz.com|wfsb.com|wgal.com|wired.com|wisn.com|wkbw.com|wlky.com|wlns.com|wlwt.com|wmur.com|wnem.com|wowt.com|wptv.com|wral.com|wsj.com|wsmv.com|wtae.com|wwe.com|wxii12.com|wxyz.com|wyff4.com|youtube.com|zappinternet.com|zoomin.tv
 ||doubleclick.net^$~object-subrequest,third-party
 ||doubleclick.net^*;afv_flvurl=http://cdn.c.ooyala.com/$object-subrequest,third-party
 ||doubleclick.net^*;sz=$object-subrequest,third-party,domain=10news.com|1up.com|39online.com|abc26.com|baltimoresun.com|bet.com|breitbart.tv|cbc.ca|cltv.com|courant.com|ct.com|dailystar.co.uk|digitaltrends.com|four.co.nz|fox17online.com|fox40.com|fox59.com|fox5sandiego.com|france24.com|gamesradar.com|heavy.com|huffingtonpost.com|indianas4.com|kdvr.com|ktla.com|kwgn.com|ky3.com|latimes.com|muzu.tv|myfoxatlanta.com|myfoxny.com|myspace.com|nationalgeographic.com|nbc.com|nbcsandiego.com|nhl.com|npr.org|nypost.com|player.amri.ca|rapbasement.com|sun-sentinel.com|the33tv.com|tv3.co.nz|wgnradio.com|wgntv.com|wpix.com|wtvr.com
@@ -10009,6 +10030,7 @@ _a468x60.
 ||gumgum.com^$third-party
 ||gururevenue.com^$third-party
 ||gwallet.com^$third-party
+||gx101.com^$third-party
 ||halogennetwork.com^$third-party
 ||harrenmedianetwork.com^$third-party
 ||havamedia.net^$third-party
@@ -11051,6 +11073,7 @@ _a468x60.
 ||gsniper.com/images/$third-party
 ||guim.co.uk/guardian/thirdparty/tv-site/side.html
 ||hetu.in^$image,~image,popup,third-party
+||hide-my-ip.com/promo/
 ||hostingcatalog.com/banner.php?
 ||hostmonster.com/src/js/izahariev/$third-party
 ||hyperfbtraffic.com/images/graphicsbanners/
@@ -11241,6 +11264,7 @@ _a468x60.
 ||promote.pair.com^
 ||promotions.iasbet.com^
 ||proxies2u.com/images/btn/$third-party
+||proxynoid.com/images/referrals/
 ||proxyroll.com/proxybanner.php
 ||pub.aujourdhui.com^$third-party
 ||pub.betclick.com^
@@ -11418,6 +11442,7 @@ _a468x60.
 ||xcams.com/livecams/pub_collante/script.php?$third-party
 ||xgaming.com/rotate*.php?$third-party
 ||xml.exactseek.com/cgi-bin/js-feed.cgi?$third-party
+||xproxyhost.com/images/banners/
 ||yachting.org^*/banner/
 ||yahoo.net^*/ads/
 ||yieldmanager.edgesuite.net^
@@ -11945,6 +11970,7 @@ _cedexis.php
 ||adultblogtoplist.com^$third-party
 ||affiliserve.com^$third-party
 ||agentinteractive.com^$third-party
+||akstat.com^$third-party
 ||alenty.com^$third-party
 ||alexametrics.com^$third-party
 ||altastat.com^$third-party
@@ -12279,6 +12305,7 @@ _cedexis.php
 ||livecount.fr^$third-party
 ||livehit.net^$third-party
 ||lloogg.com^$third-party
+||lockview.cn^$third-party
 ||logaholic.com^$third-party
 ||logdy.com^$third-party
 ||lookery.com^$third-party
