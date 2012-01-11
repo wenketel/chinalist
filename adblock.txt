@@ -1,28 +1,33 @@
 [Adblock Plus 1.2]
-!  Checksum: B9gQhRg4Fh7sMlkxtZICnw
-!  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 11 Jan 2012 12:01:14 +0800
-!  Homepage: http://adblock-chinalist.googlecode.com/
+!  Checksum: EDKaalwBIBDdLAMcytGO5Q
+!Adblock Plus List with Main Focus on Chinese Sites.
+!Last Modified:  Wed, 11 Jan 2012 20:01:42 +0800
+!Homepage: http://adblock-chinalist.googlecode.com/
 !
-!  As a supplement for EasyList,ChinaList won't provide the filters
-!  which in EasyList already.Please subscribe EasyList also.
+!As a supplement for EasyList,ChinaList won't provide the filters
+!which in EasyList already.Please subscribe EasyList also.
 !
-!  Need help?Please visit: http://adblock-chinalist.googlecode.com/
-!  coding: utf-8, expires: 5 days
+!If you need help or have any question,
+!please visit: http://adblock-chinalist.googlecode.com/
+!coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
 !----------------------------White List--------------------
-@@||book.360buy.com/book/BookShowService.aspx^$xmlhttprequest
-@@||51job.com^$elemhide
-@@||union.bokecc.com^$object,object_subrequest,script
+!---Shopping websites
+!We add those shopping websites as exception filters just
+!because they're incorrectly blocked. We don't profit from that.
+!此分类下站点皆为购物网站，目的仅在确保用户可正常浏览。
+!我们没有收取一分一毫。
+!http://code.google.com/p/adblock-chinalist/wiki/principle
+!
 @@/adbanner/*$image,domain=books.com.tw
-@@||q.funshion.com^$script
-@@||afp.goyeah.com^$object_subrequest
-@@||iphone4.tw/forums/news_proxy.php
-@@||ad.ourgame.com/cgi-bin/insertflasha.js
-@@||paipai.com^$image,domain=shop.qq.com
-@@||shangcuwang.com/ads/$image
+@@||paipai.com^$domain=shop.qq.com
+@@||shangcuwang.com^$image,~third-party
 @@/advertise/*$domain=suning.com
-@@||zerodm.cn/js/ads/zxdmxz.js
+!---Hiding filters shouldn't affect on this site.
+@@||51job.com^$elemhide
+!---Make sure video from those sites can be played correctly
+@@||afp.goyeah.com^$object_subrequest
+@@||union.bokecc.com^$object,object_subrequest,script
 
 !----------------------------Well-known Sites--------------
 !---网易
@@ -1315,6 +1320,7 @@ shushuw.cn##.bdad
 @@||yankuai.com/ads/pagebottom.js
 ||ydnovel.com/js/topp.js
 ||yueshuba.com^$script
+@@||zerodm.cn/js/ads/zxdmxz.js
 @@||zzzcn.com^$elemhide
 ||zzzcn.com/3z/
 
@@ -1423,6 +1429,7 @@ frdic.com,godic.net###sidebar1
 ||hxyl.net/hostpic/
 ||goto.www.iciba.com^$subdocument
 ||iciba.com/indexxml_real/pic/js/dulian.js
+@@||iphone4.tw/forums/news_proxy.php
 ||img.itbulo.com/js/11/$subdocument
 ||img.itbulo.com/js/11/gg.js
 ||img.itbulo.com/js/11/style.js
@@ -1983,7 +1990,7 @@ xitek.com##[id^="mo"]
 /counts.
 |http://pv.
 |http://pvstat.
-|http://*/pv.
+|http://*/pv.$domain=~funsion.com
 |http://*/pv/$domain=~search.yahoo.com
 |http://*/tj.js
 |http://track.
