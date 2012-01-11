@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: oSyvoU4wMyk71GDFT3z6tQ
+!  Checksum: B9gQhRg4Fh7sMlkxtZICnw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 10 Jan 2012 00:26:19 +0800
+!  Last Modified:  Wed, 11 Jan 2012 12:01:14 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -197,7 +197,6 @@ chinanews.com##.syad
 
 !---CHDBits&chdtv
 ||terra-master.com/cn/chd052611.swf
-chdtv.net##.a_mu
 
 !---中华网
 ||dvs.china.com^
@@ -274,10 +273,12 @@ dict.cn###top-gg
 @@/common/cf/*.thumb$image
 /common/cf/*$image,object
 /image/common/ad_close.gif
+##.a_mu
 ##.a_pb
 discuz.net##.a_pr
 ##.ad_footerbanner
 ###ad_headerbanner
+##[id^="ad_thread"]
 ##.archiver_banner
 ##.wp.a_f
 ##.wp.a_h
@@ -285,7 +286,6 @@ discuz.net##.a_pr
 ~xdjz.net###ads_c_tpc
 ~163.com,~qq.com,~yyets.com,~zol.com.cn###focus.focus
 ###sitefocus.focus
-~top81.jschina.com.cn,~top81.cn##[id^="ad_thread"]
 
 !---discuss.com.hk
 /aeiou/*$domain=discuss.com.hk|uwants.com
@@ -617,7 +617,7 @@ jjwxc.net##table[style^="width:984px;"]
 /avd/*$domain=hb.qq.com
 ||p.l.qq.com/p?
 ||btrace.qq.com^
-||pingjs.qq.com^
+||pingjs.qq.com/ping.js
 ||rh.qq.com^
 ||tcss.qq.com^
 ||trace.qq.com^
@@ -755,6 +755,7 @@ news.sohu.com##div.left > h2 > span
 ||tv.sohu.com/his/ping.do?$object_subrequest
 !--Sogou
 ||brand.sogou.com^
+sogou.com###bdfs0
 map.sogou.com###CboardDlg_1
 
 !---东菀阳光网
@@ -864,15 +865,11 @@ xici.net##a[href^="http://xiciafp.allyes.com/main/adfclick"]
 
 !---西陆网
 ||xilu.com/js/artjs/
-||xilu.com/js/bd.js
-||xilu.com/uploadfile/~image
-||content.xilu.com/uploadfile/$object
+||xilu.com/iframe/pagepic/
+||content.xilu.com^$object
 ||newspage.xilu.com/model/visitlog.js
-junshi.xilu.com##.xl_page_cs
-junshi.xilu.com##.xl_ad.mt_5
-junshi.xilu.com##.xlad
-xilu.com##.xladimg
-www.xilu.com##.page_adbox1
+junshi.xilu.com##div.pagecontai + table
+junshi.xilu.com##.advtable
 
 !---西子湖畔
 ||xizi.com/include/rotator.js
@@ -991,7 +988,6 @@ cwyuni.tw##div.article-content > table[cellspacing="0"][cellpadding="0"][border=
 cwyuni.tw##div#banner > h2
 cwyuni.tw##div#links-row-1 > div[id^="box"]:not(#box32499):not(#box533632)
 ||pic.pimg.tw/cwyuni/*.gif?v=$image
-itopdog.cn##[class^="ad"]
 itopdog.cn##[id^="itopdog_ad-"]
 ||images.ixiqi.com/images/valentine2011-banner.gif
 jiaren.org###more-menu
@@ -1082,6 +1078,7 @@ gamebase.com.tw###ad725_txt
 gamebase.com.tw###news_title_ad
 gamebase.com.tw##.text_ad_full
 gamebase.com.tw##.wait_gbno1
+||loltw.meetgee.com/static/img/sword_250x250.gif
 @@||plu.cn/d/js/acmsd/thea44.js
 ||lib.plu.cn/images/bg/
 ||bbs.verypsp.com^$script,subdocument
@@ -1173,6 +1170,7 @@ yesky.com##[class^="ad"]
 /wjj/*
 ||16kbook.com/all/
 16kbook.com###AdsT
+||17dm.com/s/common/js/*AD.js
 ||img.17k.com/channel/flash/
 ||img.17k.com/channel/qita/
 ||log.17k.com^
@@ -1202,6 +1200,7 @@ js.17kkmh.com/scriptAD/
 @@||book.58xs.com/hot/u.js
 ||58xs.com/hot/
 ||59to.com/myjs/$script
+||8comic.com/images/e7playgame.gif
 @@||jj.5ccc.net/scripts/new/pagebottom2.js
 @@||jj.5ccc.net/scripts/new/pagetop.js
 ||5ccc.net/scripts/articleinfo.js
@@ -1342,8 +1341,8 @@ www.jstv.com##div[style^="width:540px;"]
 ||pipi.cn/player/
 ||pomoho.com/adpop/
 ||a.pomoho.com^
-||stat.ppstream.com^
 ||pps.tv/pps_stat.js
+||stat.ppstream.com^
 ||iafp.pptv.com^
 ||synacast.com^
 ||istat.pptv.com^
@@ -1493,7 +1492,6 @@ soso.com##[ss_c^="ad_"]
 soso.com###rads
 wenwen.soso.com##.ad1
 ||subpig.net/add/
-www.subpig.net##.a_mu
 ||bbs.t56.net/ad*/
 ||img.taoguba.com.cn/gbimg/
 ||topsage.com/service/$object
@@ -1994,7 +1992,7 @@ xitek.com##[id^="mo"]
 /pv?peerid=
 /tongji.js
 /tracking.
-/usertrack.
+/usertrack.$domain=~hao123.com
 !--sort by domain
 ||51img.ajiang.net^
 ||blog104.com^$third-party
@@ -2034,7 +2032,6 @@ downg.com##.content.ad-b950x50
 www.hoopchina.com##[class^="ad"]
 jandan.net##.eggs
 jandan.net##.xy
-normteam.com##.a_mu
 price.com.hk##.tb
 price.com.hk##[id^="ad"]
 bbs.siluhd.com##img[width="850"][height="85"]
@@ -2056,4 +2053,5 @@ www.3dmgame.com##a[href^="tencent://"]
 ||nanrenwa.com/_img/a/$third-party
 !---test pop-up blocking
 ||arpg2.com^$image,~image,popup
+||gd.189.cn/ad/$image,~image,popup
 !------------------------End of List-------------------------
