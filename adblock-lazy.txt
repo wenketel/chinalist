@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: ie8puMScZV3/Cn9RtShSFg
+!  Checksum: oMq9sFvmD3ZfvtDN33OTww
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 12 Jan 2012 12:54:06 +0800
+!  Last Modified:  Fri, 13 Jan 2012 06:05:15 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -524,6 +524,7 @@ onlinedown.net,newhua.com##.scroll-flash
 !-tw
 @@||advideo.appledaily.com.tw/sites/default/files/CR_APPLE.swf
 ||advideo.appledaily.com.tw^
+tw.nextmedia.com##.ad_figure
 tw.nextmedia.com##.adsq
 
 !---Nownews
@@ -989,6 +990,7 @@ zongheng.com###wlqz
 !----------------------------Generic(sort by domain name)--
 !---Blog Sites
 ||rakuten-static.com^$domain=cwyuni.tw
+cwyuni.tw##a[href*="rakuten.tw"]
 cwyuni.tw##div.article-content > table[cellspacing="0"][cellpadding="0"][border="0"]
 cwyuni.tw##div#banner > h2
 cwyuni.tw##div#links-row-1 > div[id^="box"]:not(#box32499):not(#box533632)
@@ -1030,7 +1032,6 @@ jiaren.org###text-276115468
 ||gpxz.com/skins/gpxz_20110308/$script
 ||greenspe.com/other/js/$script
 ||happydown.com^$script,subdocument
-||happydown.com/soft/ads/
 ||huacolor.com/soft/js/$script
 ||lzbt.net/images/0507/0311-0910.gif
 ||lzbt.net/images/nc.jpg
@@ -2124,9 +2125,7 @@ www.3dmgame.com##a[href^="tencent://"]
 -contest-ad.
 -cpm-ad.
 -cpm-ads.
--games/ads/
 -images/ad-
--img/ads/
 -inspire-ad.
 -layer-ads/
 -leaderboard-ad-
@@ -2138,7 +2137,6 @@ www.3dmgame.com##a[href^="tencent://"]
 -text-ads.
 -third-ad.
 -webad1.
-.1d/ads/
 .a3s?n=*&zone_id=
 .ad.footer.
 .ad.page.
@@ -2152,11 +2150,8 @@ www.3dmgame.com##a[href^="tencent://"]
 .adserver1.
 .aspx?ad=
 .aspx?zoneid=*&task=
-.au/ads/
 .biz/ad.
 .biz/ad/
-.ca/ads/
-.cc/ads/
 .cfm?ad=
 .com/ad.
 .com/ad/
@@ -2164,6 +2159,7 @@ www.3dmgame.com##a[href^="tencent://"]
 .com/adlib/
 .com/ads-
 .com/ads.
+.com/ads/$image,object,subdocument
 .com/ads?
 .com/ads_
 .com/advt/
@@ -2174,40 +2170,32 @@ www.3dmgame.com##a[href^="tencent://"]
 .com/gads/
 .com/miads/
 .com/ss/ad/
-.eu/ads/
 .html?ad=
-.in/ads/
 .in/advt/
-.info/ads/
-.jp/ads/
-.ke/ads/
-.mv/ads/
 .net/ad/$~object-subrequest
-.net/ads/
 .net/ads_
-.nl/ads/
-.no/ads/
-.nz/ads/
 .org/ad/
 .org/ad_
 .org/ads-
-.org/ads/
 .org/gads/
-.ph/ads/
 .php?bannerid=
 .php?zoneid=
-.pk/ads/
 .popupvideoad.
 .rolloverad.
 .swf?1&clicktag=
 .swf?ad=
 .swf?clicktag=
 .swf?popupiniframe=
+.to/ads/
+.tv/ads/
+.tz/ads/
+.uk/ads/
+.us/ads/
 .za/ads.
+.za/ads/
+.zw/ads/
 /120ad.
 /120ads/*
-/2010/ads/*
-/2011/ads/*
 /300x250advert.
 /468ad.
 /468xads.
@@ -2215,9 +2203,7 @@ www.3dmgame.com##a[href^="tencent://"]
 /?advideo/*
 /_ads/*
 /_affiliatebanners/*
-/_global/ads/*
 /_img/ad_
-/a2/ads/*
 /aamsz=
 /abm.asp?z=
 /abm.aspx
@@ -2615,54 +2601,6 @@ www.3dmgame.com##a[href^="tencent://"]
 /ads.jsp
 /ads.php?
 /ads.pl?
-/ads/160.
-/ads/2010/*
-/ads/300.
-/ads/3002.
-/ads/728.
-/ads/ad_
-/ads/ads_
-/ads/banner.
-/ads/banner01.
-/ads/banner468.
-/ads/banners/*
-/ads/cnvideo/*
-/ads/common/*
-/ads/default_
-/ads/dhtml/*
-/ads/footer_
-/ads/freewheel/*
-/ads/google1.
-/ads/google2.
-/ads/home/*
-/ads/house/*
-/ads/images/*
-/ads/img/*
-/ads/indexsponsors/*
-/ads/interstitial.
-/ads/interstitial/*
-/ads/js_
-/ads/labels/*
-/ads/layer.
-/ads/leaderboard-
-/ads/leaderboard_
-/ads/load.
-/ads/post-
-/ads/preloader/*
-/ads/preroll_
-/ads/promo_
-/ads/rail-
-/ads/rectangle_
-/ads/ringtone_
-/ads/show.
-/ads/side-
-/ads/sponsor_
-/ads/square-
-/ads/third-
-/ads/top-
-/ads/video_
-/ads/view.
-/ads/zone/*
 /ads0.
 /ads09a/*
 /ads1.
@@ -2896,6 +2834,7 @@ www.3dmgame.com##a[href^="tencent://"]
 /adunit.
 /adunit/*
 /adunits/*
+/adv/ads/*
 /adv02.
 /adv03.
 /adv1.
@@ -2996,6 +2935,7 @@ www.3dmgame.com##a[href^="tencent://"]
 /affads/*
 /affclick/*
 /affilatebanner.
+/affiliate/ads/*
 /affiliate_banner/*
 /affiliate_banners/*
 /affiliate_resources/*
@@ -3017,19 +2957,16 @@ www.3dmgame.com##a[href^="tencent://"]
 /affpic/*
 /afimages.
 /afr.php?
-/ajax/ads/*
 /ajaxads.
 /ajrotator/*
 /ajs.php?
 /ajs?auid=
 /all_ads/*
 /alternet.ad?
-/api/ads/*
 /app/ads.js
 /article_ad.
 /aseadnshow.
 /aspbanner_inc.asp?
-/assets/ads/*
 /audioads/*
 /auditudeadunit.
 /austria_ad.
@@ -3109,7 +3046,6 @@ www.3dmgame.com##a[href^="tencent://"]
 /behaviorads/*
 /beta-ad.
 /betrad.js
-/bg/ads/*
 /bg_ads_
 /bi_affiliate.js
 /bigad.
@@ -3117,7 +3053,6 @@ www.3dmgame.com##a[href^="tencent://"]
 /bigboxad.
 /bkgrndads/*
 /blockad_
-/blocks/ads/*
 /blogad_
 /blogads.
 /blogads/*
@@ -3150,17 +3085,13 @@ www.3dmgame.com##a[href^="tencent://"]
 /call/pubif/*
 /callads5.
 /camfuzeads/*
-/campus/ads/*
 /carbonads/*
 /cashad.
 /cashad2.
-/central/ads/*
-/cgi-bin/ads/*
 /channelblockads.
 /chinaadclient.
 /chitika-ad?
 /circads.
-/cms/ads/*
 /cms/js/ad_
 /cnnslads.
 /cnxad-
@@ -3172,10 +3103,7 @@ www.3dmgame.com##a[href^="tencent://"]
 /commercial_top.
 /common/ad.
 /common/ad/*
-/common/ads/*
 /companion_ads.
-/components/ads/*
-/configspace/ads/*
 /contaxe_
 /content/ad/*
 /content/ad_
@@ -3186,9 +3114,7 @@ www.3dmgame.com##a[href^="tencent://"]
 /contentadxxl.
 /contentad|
 /contextad.
-/controller/ads/*
 /convertjsontoad.
-/core/ads/*
 /corner_ads/*
 /country_ad.
 /cpm_ad.
@@ -3201,20 +3127,16 @@ www.3dmgame.com##a[href^="tencent://"]
 /customads/*
 /customadsense.
 /customerad_
-/cvs/ads/*
 /cwggoogleadshow.
-/daily/ads/*
 /dart-zones.js
 /dart_ads/*
 /dartadengine.
 /dartads.
-/data/ads/*
 /dateads.
 /dclk_ads.
 /dclk_ads_
 /dcloadads/*
 /ddlads/*
-/de/ads/*
 /defer_ads.
 /deferads.
 /deliver.nmi?
@@ -3245,7 +3167,6 @@ www.3dmgame.com##a[href^="tencent://"]
 /dne_ad.
 /dns_ad/*
 /dnsads.html?
-/doors/ads/*
 /doubleclick.js
 /doubleclick.php
 /doubleclick/iframe.
@@ -3257,15 +3178,12 @@ www.3dmgame.com##a[href^="tencent://"]
 /doubleclicktag.
 /download/ad.
 /download/ad/*
-/download/ads/*
 /drawad.php?
 /drivingrevenue/*
 /dsg/bnn/*
 /dtiadvert125x125.
-/dxd/ads/*
 /dyn_banner.
 /dyn_banners_
-/dynamic/ads/*
 /dynamicad?
 /dynamiccsad?
 /dynamicvideoad?
@@ -3282,13 +3200,10 @@ www.3dmgame.com##a[href^="tencent://"]
 /emailads/*
 /emediatead.
 /ems/ads.
-/eng/ads/*
 /exitsplash.php
-/ext/ads/*
 /ext_ads.
 /external/ad.
 /external/ad/*
-/external/ads/*
 /external_ads.
 /externalhtmladrenderer.
 /eyewondermanagement.
@@ -3299,10 +3214,8 @@ www.3dmgame.com##a[href^="tencent://"]
 /featuredadshome.
 /file/ad.
 /files/ad/*
-/files/ads/*
 /fimserve.
 /flash/ad_
-/flash/ads/*
 /flashad.
 /flashads.
 /flashads/*
@@ -3322,7 +3235,6 @@ www.3dmgame.com##a[href^="tencent://"]
 /frameads.
 /frequencyads.
 /frnads.
-/frontend/ads/*
 /fullad.
 /fuseads/*
 /fwadmanager.
@@ -3365,10 +3277,8 @@ www.3dmgame.com##a[href^="tencent://"]
 /getvdopiaads.
 /getvideoad.
 /gexternalad.
-/gfx/ads/*
 /glam_ads.
 /global/ads.
-/global/ads/*
 /google-ad-
 /google-ad?
 /google-ads.
@@ -3402,7 +3312,6 @@ www.3dmgame.com##a[href^="tencent://"]
 /googleafs.
 /googleafvadrenderer.
 /graphics/ad_
-/graphics/ads/*
 /gt6skyadtop.
 /header-ad.
 /header_ads_
@@ -3423,13 +3332,11 @@ www.3dmgame.com##a[href^="tencent://"]
 /html.ng/*
 /htmlads/*
 /httpads/*
-/i/ads/*
 /icon_ad.
 /idevaffiliate/*
 /iframe-ads/*
 /iframe.ad/*
 /iframe/ad/*
-/iframe/ads/*
 /iframe_ad.
 /iframe_ad?
 /iframe_ads/*
@@ -3446,7 +3353,6 @@ www.3dmgame.com##a[href^="tencent://"]
 /im-ad/im-rotator2.
 /imads.js
 /image/ad/*
-/image/ads/*
 /image_ads/*
 /imageads/*
 /imagecache_ads/*
@@ -3455,7 +3361,6 @@ www.3dmgame.com##a[href^="tencent://"]
 /images/ad/*
 /images/ad_
 /images/ads-
-/images/ads/*
 /images/ads_
 /images/aff-
 /images/affs/*
@@ -3466,22 +3371,16 @@ www.3dmgame.com##a[href^="tencent://"]
 /img/ad-
 /img/ad/*$domain=~picplz.com
 /img/ad_
-/img/ads/*
-/img3/ads/*
 /imgads/*
 /imgaffl/*
-/imgs/ads/*
 /impop.php
 /inad.
-/inc/ads/*
 /inc_ad.
 /inc_v2/ad_
 /include/ad/*
 /include/ad_
-/include/ads/*
 /included_ads/*
 /includes/ad_
-/includes/ads/*
 /incmpuad.
 /index-ad.
 /index_ads.
@@ -3503,7 +3402,6 @@ www.3dmgame.com##a[href^="tencent://"]
 /irc_ad_
 /ireel/ad*.jpg
 /isgadvertisement/*
-/ispy/ads/*
 /iwadsense.
 /j/ads.js
 /jcorner.php?partner=
@@ -3516,7 +3414,6 @@ www.3dmgame.com##a[href^="tencent://"]
 /js/ads_
 /js2.ad/size=
 /jsadscripts/*
-/jsfiles/ads/*
 /jstextad.
 /kantarmedia.
 /kc_ad_run.
@@ -3535,7 +3432,6 @@ www.3dmgame.com##a[href^="tencent://"]
 /layerad-
 /layerads.
 /layerads_
-/layout/ads/*
 /lbl_ad.
 /leader_ad.
 /leaderboardads.
@@ -3569,7 +3465,6 @@ www.3dmgame.com##a[href^="tencent://"]
 /marketing/banners_
 /mbn_ad.
 /mcad.php
-/media/ads/*
 /media_ads/*
 /megaad.
 /meme_ad.
@@ -3578,7 +3473,6 @@ www.3dmgame.com##a[href^="tencent://"]
 /microads/*
 /mini-ads/*
 /mini_ads.
-/mint/ads/*
 /misc/ad-
 /miva_ads.
 /mkadsrv.
@@ -3590,7 +3484,6 @@ www.3dmgame.com##a[href^="tencent://"]
 /modalad.
 /modules/ad/*
 /modules/ad_
-/modules/ads/*
 /mpu-dm.html
 /mpumessage.
 /msnadimg.
@@ -3610,9 +3503,7 @@ www.3dmgame.com##a[href^="tencent://"]
 /new_ads/*
 /newads.
 /newads/*
-/newimages/ads/*
 /newrightcolad.
-/news/ads/*
 /news_ad.
 /newsletterads/*
 /newtopmsgad.
@@ -3630,7 +3521,6 @@ www.3dmgame.com##a[href^="tencent://"]
 /oasisi.php?
 /oiopub-direct/*
 /omb-ad-
-/online/ads/*
 /online_ads/*
 /openads-
 /openads.
@@ -3641,7 +3531,6 @@ www.3dmgame.com##a[href^="tencent://"]
 /openx/*
 /openx_
 /ot_adserved.
-/other/ads/*
 /overlay_ad_
 /ovt_show.asp?
 /ox/www/*
@@ -3668,7 +3557,6 @@ www.3dmgame.com##a[href^="tencent://"]
 /partnerads_
 /partnerbanner.
 /partnerbanner/*
-/partners/ads/*
 /partnersadbutler/*
 /pc/ads.
 /peel.js
@@ -3680,25 +3568,20 @@ www.3dmgame.com##a[href^="tencent://"]
 /peeljs.php
 /perfads.
 /performancingads/*
-/permanent/ads/*
 /photo728ad.
 /phpads.
 /phpads/*
 /phpads2/*
 /phpadserver/*
 /phpadsnew/*
-/pic/ads/*
 /picture/ad/*
 /pictureads/*
-/pictures/ads/*
 /pilot_ad.
 /pitattoad.
-/pix/ads/*
 /pixelads/*
 /play/ad/*
 /player/ad/*
 /player/ads.
-/player/ads/*
 /player_ads/*
 /plugins_ads_
 /plus/ad_
@@ -3730,7 +3613,6 @@ www.3dmgame.com##a[href^="tencent://"]
 /proads/*
 /processads.
 /promo/ad_
-/promo/ads/*
 /promo/affiframe.
 /promoads/*
 /promobuttonad.
@@ -3740,10 +3622,8 @@ www.3dmgame.com##a[href^="tencent://"]
 /promotions/ads?
 /protection/ad/*
 /pub/ad/*
-/pub/ads/*
 /public/ad/*
 /public/ad?
-/public/ads/*
 /publicidad.$~object-subrequest,~stylesheet
 /publicidad/*
 /pullads.
@@ -3752,7 +3632,6 @@ www.3dmgame.com##a[href^="tencent://"]
 /punder.php$image,~image,popup
 /qandaads/*
 /quadadvert.
-/questions/ads/*
 /r_ads/*
 /radopenx?
 /railad.
@@ -3765,7 +3644,6 @@ www.3dmgame.com##a[href^="tencent://"]
 /rcolads2.
 /rcom-ads.
 /rcom-video-ads.
-/realmedia/ads/*
 /reclame/*
 /recommendations/ad.
 /rect_ad.
@@ -3776,7 +3654,6 @@ www.3dmgame.com##a[href^="tencent://"]
 /relevance_ad.
 /requestadvertisement.
 /requestmyspacead.
-/resources/ads/*
 /resources/ads_
 /retrad.
 /richmedia.adv?
@@ -3793,7 +3670,6 @@ www.3dmgame.com##a[href^="tencent://"]
 /rsads.js
 /rsads/*
 /rsc_ad_
-/rss/ads/*
 /rss2/?*&hp=*&np=$script,third-party
 /rss2/?*&np=*&hp=$script,third-party
 /rss2/?hp=*&np=$script,third-party
@@ -3810,7 +3686,6 @@ www.3dmgame.com##a[href^="tencent://"]
 /scripts/ad.
 /scripts/ad/*
 /scripts/ads.js
-/scripts/ads/*
 /scripts/clickjs.php
 /scripts/jsads-
 /search-ads?
@@ -3825,10 +3700,7 @@ www.3dmgame.com##a[href^="tencent://"]
 /servead.
 /serveads.
 /servewebads/*
-/services/ads/*
 /sevenl_ad.
-/share/ads/*
-/shared/ads/*
 /show-ad.
 /show-ads.
 /show_ad.
@@ -3853,7 +3725,6 @@ www.3dmgame.com##a[href^="tencent://"]
 /sidebar_ad.
 /sidebarad/*
 /sidecol_ad.
-/silver/ads/*
 /simpleadvert.
 /simpleadvert/*
 /site=*/size=*/viewid=
@@ -3862,7 +3733,6 @@ www.3dmgame.com##a[href^="tencent://"]
 /siteads.
 /siteads/*
 /siteafs.txt?
-/sitemanagement/ads/*
 /sites/ad_
 /skyad.
 /skyad_
@@ -3882,7 +3752,6 @@ www.3dmgame.com##a[href^="tencent://"]
 /smallad-
 /smartad.
 /smartads.
-/smb/ads/*
 /socialads.
 /socialads/*$domain=~profiles.google.com
 /somaadscaleskyscraperscript.
@@ -3916,19 +3785,15 @@ www.3dmgame.com##a[href^="tencent://"]
 /src/ads_
 /srv/ad/*
 /static/ad_
-/static/ads/*
 /static_ads/*
 /stickyad.
 /stickyad2.
-/storage/ads/*
-/stories/ads/*
 /story_ad.
 /subad2_
 /subs-ads/*
 /superads_
 /supernorthroomad.
 /swf/ad-
-/swf/ads/*
 /swfbin/ad-
 /swfbin/ad3-
 /synad2.
@@ -3941,10 +3806,8 @@ www.3dmgame.com##a[href^="tencent://"]
 /taxonomy-ads.
 /td_ads/*
 /tdlads/*
-/teaseimg/ads/*
 /template/ad.
 /templateadvimages/*
-/templates/ads/*
 /testads/*
 /testingad.
 /textad.
@@ -3963,7 +3826,6 @@ www.3dmgame.com##a[href^="tencent://"]
 /tii_ads.
 /tikilink?
 /title_ad.
-/tmo/ads/*
 /tmobilead.
 /toigoogleads.
 /toolkitads.
@@ -3993,7 +3855,6 @@ www.3dmgame.com##a[href^="tencent://"]
 /twgetad3.
 /txt_ad.
 /txtads/*
-/u/ads/*
 /uberlayadrenderer.
 /ugoads_inner.
 /ukc-ad.
@@ -4002,17 +3863,13 @@ www.3dmgame.com##a[href^="tencent://"]
 /update_ads/*
 /update_layer/layer_os_new.php
 /upload/ad/*
-/upload/ads/*
-/uploads/ads/*
 /userad/*
-/userimages/ads/*
 /valueclick.
 /vclkads.
 /vericaladtitle.
 /vert728ad.
 /verticaladrotatorv2.
 /video.ads.php?
-/video/ads/*
 /video_ad.
 /video_ad_
 /videoad.
@@ -4029,7 +3886,6 @@ www.3dmgame.com##a[href^="tencent://"]
 /wallpaper_ads/*
 /wallpaperads/*
 /wbadvert/*
-/web/ads/*
 /webad?
 /webadimg/*
 /webads.
@@ -4040,10 +3896,8 @@ www.3dmgame.com##a[href^="tencent://"]
 /welcome_ad.
 /widget/ads.
 /wipeads/*
-/wire/ads/*
 /wmads.
 /work.php?n=*&size=*&c=
-/wp-content/ads/*
 /wp-content/mbp-banner/*
 /wp-content/plugins/banner-manager/*
 /wp-content/plugins/bhcb/lock.js
@@ -4054,10 +3908,8 @@ www.3dmgame.com##a[href^="tencent://"]
 /wp-srv/ad/*
 /wpads/iframe.
 /writelayerad.
-/www/ads/*
 /www/delivery/*
 /x5advcorner.
-/xfiles/ads/*
 /xml/ads_
 /xmladparser.
 /yahoo-ads/*
@@ -4088,7 +3940,6 @@ www.3dmgame.com##a[href^="tencent://"]
 ://rss.*/~a/
 ://synad.
 ://wrapper.*/a?
-:8080/ads/
 ;adsense_
 ;cue=pre;$object-subrequest
 ;iframeid=ad_
@@ -4224,9 +4075,7 @@ _advertorials/
 _advertphoto.
 _adwrap.
 _afs_ads.
-_alt/ads/
 _argus_ad_
-_assets/ads/
 _background_ad/
 _banner_ad.
 _banner_ad_
@@ -4253,13 +4102,11 @@ _gads_bottom.
 _gads_footer.
 _gads_top.
 _headerad.
-_images/ads/
 _index_ad.
 _jtads/
 _link_ads-
 _live/ad/
 _mainad.
-_media/ads/
 _mmsadbanner/
 _onlinead_
 _openx.
@@ -4284,7 +4131,6 @@ _sponsoredlinks_
 _square_ad.
 _static_ads.
 _temp/ad_
-_theme/ads/
 _top_ad.
 _top_ad_
 _topad.
@@ -5626,6 +5472,7 @@ _a468x60.
 ###blog_ad_opa
 ###blog_ad_right
 ###blog_ad_top
+###blogad-wrapper
 ###blox-big-ad
 ###blox-big-ad-bottom
 ###blox-big-ad-top
@@ -5674,6 +5521,7 @@ _a468x60.
 ###box-googleadsense-1
 ###box-googleadsense-r
 ###box1ad
+###boxAd
 ###boxAd300
 ###boxAdContainer
 ###boxAdvert
@@ -6272,7 +6120,7 @@ _a468x60.
 ###mrecAdContainer
 ###msAds
 ###ms_ad
-###msad
+~tei-c.org###msad
 ###multiLinkAdContainer
 ###multi_ad
 ~campusboard.at###my-ads
@@ -6786,6 +6634,7 @@ _a468x60.
 ###wrapAdTop
 ###wrapperAdsTopLeft
 ###wrapperAdsTopRight
+###wrapper_ad_Top
 ###xColAds
 ###y-ad-units
 ###y708-ad-expedia
@@ -7059,6 +6908,7 @@ _a468x60.
 ##.ad-in-post
 ##.ad-index-main
 ##.ad-inline
+##.ad-inner
 ##.ad-island
 ##.ad-item
 ##.ad-label
@@ -7227,7 +7077,7 @@ _a468x60.
 ##.adFtr
 ##.adFullWidthMiddle
 ##.adGoogle
-~ctv.ca,~ctvnews.ca##.adHeader
+~autotrader.co.za,~ctv.ca,~ctvnews.ca##.adHeader
 ##.adHeadline
 ~namesecure.com,~superhry.cz##.adHolder
 ##.adHome300x250
@@ -7290,10 +7140,10 @@ _a468x60.
 ##.adTD
 ##.adTab
 ##.adTag
-~bipbip.co.il,~winwin.co.il##.adText
+~autotrader.co.za,~bipbip.co.il,~winwin.co.il##.adText
 ##.adTileWrap
 ##.adTiler
-~ksl.com,~stadtlist.de,~superbikeplanet.com##.adTitle
+~autotrader.co.za,~ksl.com,~stadtlist.de,~superbikeplanet.com##.adTitle
 ##.adTopLink
 ##.adTopboxright
 ##.adTout
@@ -9405,7 +9255,7 @@ _a468x60.
 ||209.222.8.217^$third-party,domain=~p2p.adserver.ip
 ||247realmedia.com^$third-party
 ||2mdn.net/dot.gif$object-subrequest,third-party
-||2mdn.net^$object-subrequest,third-party,domain=bbc.co.uk|bet.com|bloomberg.com|businessweek.com|calgaryherald.com|edmontonjournal.com|eonline.com|euronews.net|heraldsun.com.au|leaderpost.com|metacafe.com|montrealgazette.com|nationalpost.com|ndtv.com|newyorkjets.com|ottawacitizen.com|reuters.com|rollingstone.com|rte.ie|telegraph.co.uk|theprovince.com|thestarphoenix.com|timescolonist.com|vancouversun.com|windsorstar.com
+||2mdn.net^$object-subrequest,third-party,domain=bbc.co.uk|bet.com|bloomberg.com|businessday.co.za|businessweek.com|calgaryherald.com|edmontonjournal.com|eonline.com|euronews.net|heraldsun.com.au|leaderpost.com|metacafe.com|montrealgazette.com|nationalpost.com|ndtv.com|newyorkjets.com|ottawacitizen.com|reuters.com|rollingstone.com|rte.ie|telegraph.co.uk|theprovince.com|thestarphoenix.com|timescolonist.com|vancouversun.com|windsorstar.com
 ||2mdn.net^$~object-subrequest,third-party
 ||360ads.com^$third-party
 ||360yield.com^$third-party
@@ -10665,6 +10515,7 @@ _a468x60.
 ||waptrick.com^$third-party
 ! *** easylist:easylist_adult/adult_adservers.txt ***
 ||173.245.86.115^$domain=~yobt.com.ip
+||21sexturycash.com^$third-party
 ||24x7adservice.com^$third-party
 ||33traffic.com^$third-party
 ||777-partner.com^$third-party
@@ -10772,7 +10623,6 @@ _a468x60.
 ||20dollars2surf.com/ban_$third-party
 ||216.41.211.36/widget/$third-party,domain=~bpaww.com.ip
 ||217.115.147.241/media/$third-party,domain=~elb-kind.de.ip
-||24.co.za^*/ads/
 ||2leep.com/ticker2/$third-party
 ||69.50.226.158^$third-party,domain=~worth1000.com.ip
 ||770.com/banniere.php?
@@ -10903,7 +10753,6 @@ _a468x60.
 ||bpath.com/affiliates/
 ||bplaced.net/pub/
 ||bravenet.com/cserv.php?
-||break.com/ads/preroll/
 ||break.com^*/partnerpublish/
 ||brettterpstra.com/wp-content/uploads/$third-party
 ||bruteforceseo.com/affiliates/
@@ -10936,7 +10785,6 @@ _a468x60.
 ||chriscasconi.com/nostalgia_ad.
 ||cimg.in/images/banners/
 ||cineble.com/banners/
-||citygridmedia.com/ads/
 ||clickstrip.6wav.es^
 ||clipdealer.com/?action=widget&*&partner=
 ||colmwynne.com^$image,third-party
@@ -10992,7 +10840,6 @@ _a468x60.
 ||extensoft.com/artisteer/banners/
 ||eyetopics.com/content_images/$third-party
 ||ezcashmailer.com/banners/
-||faadooengineers.com/ads/
 ||facebook.com/whitepages/wpminiprofile.php?partner_id=$third-party
 ||familytreedna.com/img/affiliates/
 ||fantasyplayers.com/templates/banner_code.
@@ -11107,9 +10954,7 @@ _a468x60.
 ||img.promoddl.com^$third-party
 ||img.servint.net^*/125x125.gif
 ||imgehost.com^*/banners/$third-party
-||indeed.com/ads/
 ||indieclick.3janecdn.com^
-||inetinteractive.com/ads/
 ||infomarine.gr/images/banerr.gif
 ||infomarine.gr^*/images/banners/
 ||inisrael-travel.com/jpost/
@@ -11441,6 +11286,7 @@ _a468x60.
 ||widget.imshopping.com^$third-party
 ||widget.kelkoo.com^
 ||widget.raaze.com^
+||widget.shopstyle.com/widget?pid=$subdocument,third-party
 ||widgets.mobilelocalnews.com^$third-party
 ||wildamaginations.com/mdm/banner/
 ||williamhill.com^$image,~image,popup
@@ -11455,7 +11301,6 @@ _a468x60.
 ||xml.exactseek.com/cgi-bin/js-feed.cgi?$third-party
 ||xproxyhost.com/images/banners/
 ||yachting.org^*/banner/
-||yahoo.net^*/ads/
 ||yieldmanager.edgesuite.net^
 ||yimg.com^*/quickplay_maxwellhouse.png
 ||yontoo.com^$subdocument,third-party
@@ -11466,7 +11311,6 @@ _a468x60.
 ! Mobile
 ||iadc.qwapi.com^
 ! *** easylist:easylist_adult/adult_thirdparty.txt ***
-||213.174.140.76^*/ads/
 ||213.174.140.76^*/js/msn-$script
 ||213.174.140.76^*/js/msn.js
 ||21sextury.com^$image,~image,popup
@@ -11484,7 +11328,6 @@ _a468x60.
 ||blossoms.com/images/banners/
 ||br.fling.com^
 ||br.realitykings.com^
-||brazzers.com/ads/
 ||cams.com/p/cams/cpcs/streaminfo.cgi?$third-party
 ||candidvoyeurism.com/ads/$image,~image,popup
 ||chaturbate.com/*/?join_overlay=$image,~image,popup
@@ -13123,7 +12966,6 @@ _cedexis.php
 ||zemanta.com/pixy.gif?
 ! *** easylist:easyprivacy/easyprivacy_thirdparty_international.txt ***
 ! Chinese
-||baidu.com/h.js?
 ||baidu.com/hm.gif?
 ||baidu.com/js/o.js
 ||cri.cn/js/a1.js
