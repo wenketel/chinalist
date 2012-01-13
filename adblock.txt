@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: v1R/PSXLLTbQTZbPTJaW/w
+!  Checksum: 5rO2n2OQAYdQ2wJ+p0AwDA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 13 Jan 2012 06:05:15 +0800
+!  Last Modified:  Fri, 13 Jan 2012 19:45:08 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -13,12 +13,6 @@
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
 !----------------------------White List--------------------
 !---Shopping websites
-!We add those shopping websites as exception filters just
-!because they're incorrectly blocked. We don't profit from that.
-!此分类下站点皆为购物网站，目的仅在确保用户可正常浏览。
-!我们没有收取一分一毫。
-!http://code.google.com/p/adblock-chinalist/wiki/principle
-!
 @@/adbanner/*$image,domain=books.com.tw
 @@||paipai.com^$domain=shop.qq.com
 @@||shangcuwang.com^$image,~third-party
@@ -1469,7 +1463,7 @@ maxpda.com##[id^="dp-ads"]
 ||mscbsc.com/gbook/search.gif
 mscbsc.com##.bao1
 ||static1.mtime.cn^$subdocument
-www.mtime.com###notice_box
+||static1.mtime.cn/feature/2012/mission/index_flash3.swf
 ||mycodes.net/js/$image
 ||needpop.com/jvc.gif
 needpop.com##div > div.spaceborder[style="width: 98%"]
@@ -2056,6 +2050,7 @@ xfastest.com###main-bot > .cl
 
 !-----------------------Temporary---------------------------
 !---2012.1
+||image.10010.com/index_js/flash-ad20120112.js
 www.3dmgame.com##[id^="clickbg"]
 www.3dmgame.com##a[href^="tencent://"]
 ||images.nciku.cn/unandu.swf
