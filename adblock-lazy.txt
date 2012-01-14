@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 0RD1s5e/6u8alw6kTWvj1w
+!  Checksum: RON8+Ai8LjSOfzp38Rj3JQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 13 Jan 2012 19:45:08 +0800
+!  Last Modified:  Sat, 14 Jan 2012 14:29:18 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -858,6 +858,14 @@ wretch.cc###wretchinfo
 ||d0.xcar.com.cn^
 ||xcar.com.cn/min/$script
 xcar.com.cn##[class^="adset"]
+
+!---厦门小鱼
+/client.xmfish.com/attachments/bar/*$image
+||adm.xmfish.com^
+||bbs.xmfish.com/images/atm/$image
+bbs.xmfish.com##.cmp_v
+bbs.xmfish.com##.t_ppo.clear
+bbs.xmfish.com##[id^="ads"]
 
 !---西祠胡同
 ||files.xici.net^$object
@@ -3993,7 +4001,9 @@ _ad6.
 _ad728x90.
 _ad_300.
 _ad_banner.
+_ad_banner_
 _ad_big.
+_ad_box.
 _ad_bsb.
 _ad_code.
 _ad_content.
@@ -4014,6 +4024,7 @@ _ad_library.
 _ad_placeholder-
 _ad_promo2.
 _ad_right.
+_ad_sky.
 _ad_skyscraper.
 _ad_square.
 _ad_view=
@@ -11313,6 +11324,7 @@ _a468x60.
 ||adultartnetwork.com/banners/
 ||adultdvd.com/plugins/*/store.html$third-party
 ||adultfriendfinder.com/go/$image,~image,popup
+||adultfriendfinder.com/images/banners/
 ||affiliates.thrixxx.com^
 ||ambya.com/potdc/
 ||asianbutterflies.com/potd/
@@ -11397,6 +11409,7 @@ _a468x60.
 ||partners.yobt.com^$third-party
 ||paydir.com/images/bnr
 ||pod.manplay.com^$third-party
+||pop6.adultfriendfinder.com^
 ||popit.mediumpimpin.com^
 ||premiumhdv.com/bn/
 ||premiumhdv.com^$subdocument,third-party

@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 5rO2n2OQAYdQ2wJ+p0AwDA
+!  Checksum: yHLB1kHFPlT+SGjUaGBgWQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 13 Jan 2012 19:45:08 +0800
+!  Last Modified:  Sat, 14 Jan 2012 14:29:18 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -858,6 +858,14 @@ wretch.cc###wretchinfo
 ||d0.xcar.com.cn^
 ||xcar.com.cn/min/$script
 xcar.com.cn##[class^="adset"]
+
+!---厦门小鱼
+/client.xmfish.com/attachments/bar/*$image
+||adm.xmfish.com^
+||bbs.xmfish.com/images/atm/$image
+bbs.xmfish.com##.cmp_v
+bbs.xmfish.com##.t_ppo.clear
+bbs.xmfish.com##[id^="ads"]
 
 !---西祠胡同
 ||files.xici.net^$object
