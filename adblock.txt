@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: yHLB1kHFPlT+SGjUaGBgWQ
+!  Checksum: maYTjh9EywWNDhfjtNeavA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 14 Jan 2012 14:29:18 +0800
+!  Last Modified:  Mon, 16 Jan 2012 15:03:36 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -19,6 +19,7 @@
 @@/advertise/*$domain=suning.com
 !---Hiding filters shouldn't affect on this site.
 @@||51job.com^$elemhide
+@@||dxy.cn^$elemhide
 !---Make sure video from those sites can be played correctly
 @@||afp.goyeah.com^$object_subrequest
 @@||union.bokecc.com^$object,object_subrequest,script
@@ -1116,6 +1117,7 @@ ys168.com###xtxx
 @@||33.autohome.com.cn/njs/1.js
 ||33.autohome.com.cn^$script,object
 autohome.com.cn##.advarticle
+||36krcnd.com/wp-content/uploads/krads-images/
 ||backchina.com/banners/
 ||cankaoa.com/new/$script
 ||imgs.ccw.com.cn^*_260_80.
