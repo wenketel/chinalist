@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: BfnsxxFriceMCrL5CNiqlw
+!  Checksum: eavpH9f8ad2k0ab9tGBEkA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 17 Jan 2012 18:26:58 +0800
+!  Last Modified:  Tue, 17 Jan 2012 22:15:55 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -69,6 +69,12 @@ search.21cn.com##td[width="184"][align="left"]
 ||3boys2girls.com^$subdocument
 ||3boys2girls.com/images/newdefault/banner$image
 ||ktzhk.com/plugins/cache_template/adv_3b2g.js
+
+!---3DM Game
+3dmgame.com##.banner_1
+3dmgame.com##.banner_2
+www.3dmgame.com##[id^="clickbg"]
+www.3dmgame.com##a[href^="tencent://"]
 
 !---51nb.com/thinkpad.cn
 @@/images/*/*$image,domain=51nb.com|thinkpad.cn
@@ -1069,11 +1075,6 @@ jiaren.org###text-276115468
 ||tuiguang.178.com^$script
 ||adm.265g.com^
 ||313g.com/xyx/
-3dmgame.com##.banner > a > img
-3dmgame.com##.banner_1
-3dmgame.com##div.game-xiazai + div.banner > center > a
-3dmgame.com##img[width="997"] + center
-bbs.3dmgame.com##body > table[style^="border: #CCC"]:nth-child(4)
 ||market.52pk.com^
 ||61mole.com/js/
 ||bbs.a9vg.com/shop/js.php
@@ -1712,6 +1713,7 @@ xitek.com##[id^="mo"]
 ||buzz-time.com.cn^$third-party
 ||channelray.com^$third-party
 ||chanet.com.cn^$third-party
+||chenjingli.com^$third-party
 ||chinaih.com^$third-party
 ||job.chinesenow.org^$third-party
 ||chitika.com^$third-party
@@ -2060,8 +2062,6 @@ xfastest.com###main-bot > .cl
 !-----------------------Temporary---------------------------
 !---2012.1
 ||image.10010.com/index_js/flash-ad20120112.js
-www.3dmgame.com##[id^="clickbg"]
-www.3dmgame.com##a[href^="tencent://"]
 ||images.nciku.cn/unandu.swf
 ||mg.gamebean.com/665-090.gif
 ||blog.hi.mop.com/flash/830-310.swf
