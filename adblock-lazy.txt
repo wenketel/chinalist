@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: Cy6aFjinFePUkD5/OWB9UQ
+!  Checksum: MCRecXuNmSan80Lce7srvQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 21 Jan 2012 00:13:51 +0800
+!  Last Modified:  Sun, 22 Jan 2012 11:31:22 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -26,6 +26,7 @@
 @@||afp.goyeah.com^$object_subrequest
 @@||union.bokecc.com^$object,object_subrequest,script
 @@||ad.ourgame.com/cgi-bin/insertflasha.js
+@@||52vfx.com^$elemhide
 
 !----------------------------Well-known Sites--------------
 !---网易
@@ -199,6 +200,7 @@ chinanews.com##.syad
 !---CCTV
 @@_Advertise.js|$domain=cntv.cn
 @@||js.player.cntv.cn/creator/*_bg_ad.js
+@@||baidu.cntv.cn/player/baidu_ad.js
 ||cctv.com/script/ad_s.js
 ||cntv.cn/Library/js/js_ad_gb.js
 ||a.cntv.cn^
@@ -608,6 +610,7 @@ down.qiannao.com##div[style="padding: 8px;"]
 qdmm.com,qidian.com##a[href^="http://www.qidian.com/showavd.aspx?"]
 www.qidian.com##.DH17
 www.qidian.com##[class^="gg"]
+bbs.qidian.com##.show_ggpic_990X60
 !--fix qidian & qdmm links
 @@||qdmm.com^$image,~image,popup,domain=qidian.com
 !--晋江文学城
@@ -1037,6 +1040,7 @@ jiaren.org###text-276115468
 ||downxia.com/js/
 ||img.duote.com/duotehtml/
 ||img.duote.com/js/clickDownAjax3.js
+||img.duote.com/images/00007700.jpg
 ||dy2018.com/g/
 ||e666.cn/db/
 ||e666.cn/newbd/$script
@@ -1557,6 +1561,10 @@ xitek.com##[id^="mo"]
 ||zxproxy.com/white.png
 ||zygod.net/js/
 ||zzsky.cn/images/a_d_
+!-tom365
+|http://ff.wanlicity.com^
+||tom365.com/newjs/
+tom365.com###t365
 
 !----------------------------ads-union---------------------
 !--9v
@@ -2072,10 +2080,6 @@ xfastest.com###main-bot > .cl
 ||arpg2.com^$image,~image,popup
 ||gd.189.cn/ad/$image,~image,popup
 
-!--2012.1.21 added by huang review need:
-!-tom365
-|http://ff.wanlicity.com/*.asp$script
-www.tom365.com###t365
 
 !-----------------------EasyList----------------------------
 ! *** easylist:easylist/easylist_general_block.txt ***
@@ -2952,6 +2956,7 @@ www.tom365.com###t365
 /affads/*
 /affclick/*
 /affilatebanner.
+/affiliate-content/*
 /affiliate_banner/*
 /affiliate_banners/*
 /affiliate_resources/*
@@ -3566,7 +3571,7 @@ www.tom365.com###t365
 /pagepeelads.
 /paidads/*
 /paidlisting/*
-/park_html_functions.box.js
+/park_html_functions.*.js
 /park_html_functions.js
 /park_html_functions_general.js
 /partner_ads_
@@ -4146,6 +4151,7 @@ _psu_ad.
 _request_ad.
 _right_ad.
 _show_ads.
+_show_ads=
 _skybannerview.
 _skyscraper160x600.
 _small_ad.
@@ -4988,6 +4994,7 @@ _a468x60.
 ###ad_slot_sky_top
 ~streetinsider.com###ad_space
 ~wretch.cc###ad_square
+###ad_squares
 ###ad_ss
 ~bestadsontv.com,~vivastreet.co.uk,~vivastreet.com,~vivastreet.fr###ad_table
 ###ad_term_bottom_place
@@ -5135,7 +5142,7 @@ _a468x60.
 ###adsDiv5
 ###adsDiv6
 ###adsDiv7
-###adsHeader
+~skelbiu.lt###adsHeader
 ###adsID
 ###adsTop
 ###ads_01
@@ -6898,7 +6905,7 @@ _a468x60.
 ##.ad-blog2biz
 ##.ad-body
 ~zeitleser.de##.ad-bottom
-~horsebase.at,~horsebase.com,~horsebase.de,~pferde-suchen.com,~pferde-verkaufen.com,~sc2mapster.com##.ad-box
+~go.com,~sc2mapster.com##.ad-box
 ##.ad-break
 ##.ad-btn
 ##.ad-btn-heading
@@ -9282,6 +9289,8 @@ _a468x60.
 ##.ch[onclick="ga(this,event)"]
 ##.ra[align="left"][width="30%"]
 ##.ra[align="right"][width="30%"]
+! Sedo
+###center > .dose > .dosesingle.float
 ! *** easylist:easylist/easylist_adservers.txt ***
 ||103092804.com^$third-party
 ||10pipsaffiliates.com^$third-party
@@ -9811,7 +9820,9 @@ _a468x60.
 ||doublerecall.com^$third-party
 ||dpbolvw.net^$third-party
 ||drowle.com^$third-party
+||dsnextgen.com^$third-party
 ||dsnr-affiliates.com^$third-party
+||dsultra.com^$third-party
 ||dt00.net^$third-party,domain=~marketgid.com|~marketgid.ru|~marketgid.ua|~mgid.com|~thechive.com
 ||dt07.net^$third-party,domain=~marketgid.com|~marketgid.ru|~marketgid.ua|~mgid.com|~thechive.com
 ||dualmarket.info^$third-party
@@ -10072,7 +10083,6 @@ _a468x60.
 ||medleyads.com^$third-party
 ||medrx.sensis.com.au^$third-party
 ||meetic-partners.com^$third-party
-||megaclick.com^$third-party
 ||megacpm.com^$third-party
 ||mercuras.com^$third-party
 ||metaffiliation.com^$third-party
@@ -11157,6 +11167,7 @@ _a468x60.
 ||prestigecasino.com^$image,~image,popup
 ||pricegrabber.com/cb_table.php$third-party
 ||pricegrabber.com/mlink.php?$third-party
+||priceinfo.comuv.com^$image,~image,popup
 ||promo.bauermedia.co.uk^
 ||promo.mydirtyhobby.com^$third-party
 ||promos.fling.com^

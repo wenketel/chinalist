@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: bPXWlktuCgs1c0DLq5haCA
+!  Checksum: 8wFz4jPS65tCGMAMvQStGg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 21 Jan 2012 00:13:51 +0800
+!  Last Modified:  Sun, 22 Jan 2012 11:31:27 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -26,6 +26,7 @@
 @@||afp.goyeah.com^$object_subrequest
 @@||union.bokecc.com^$object,object_subrequest,script
 @@||ad.ourgame.com/cgi-bin/insertflasha.js
+@@||52vfx.com^$elemhide
 
 !----------------------------Well-known Sites--------------
 !---网易
@@ -199,6 +200,7 @@ chinanews.com##.syad
 !---CCTV
 @@_Advertise.js|$domain=cntv.cn
 @@||js.player.cntv.cn/creator/*_bg_ad.js
+@@||baidu.cntv.cn/player/baidu_ad.js
 ||cctv.com/script/ad_s.js
 ||cntv.cn/Library/js/js_ad_gb.js
 ||a.cntv.cn^
@@ -608,6 +610,7 @@ down.qiannao.com##div[style="padding: 8px;"]
 qdmm.com,qidian.com##a[href^="http://www.qidian.com/showavd.aspx?"]
 www.qidian.com##.DH17
 www.qidian.com##[class^="gg"]
+bbs.qidian.com##.show_ggpic_990X60
 !--fix qidian & qdmm links
 @@||qdmm.com^$image,~image,popup,domain=qidian.com
 !--晋江文学城
@@ -1038,6 +1041,7 @@ jiaren.org###text-276115468
 ||downxia.com/js/
 ||img.duote.com/duotehtml/
 ||img.duote.com/js/clickDownAjax3.js
+||img.duote.com/images/00007700.jpg
 ||dy2018.com/g/
 ||e666.cn/db/
 ||e666.cn/newbd/$script
@@ -1559,6 +1563,10 @@ xitek.com##[id^="mo"]
 ||zxproxy.com/white.png
 ||zygod.net/js/
 ||zzsky.cn/images/a_d_
+!-tom365
+|http://ff.wanlicity.com^
+||tom365.com/newjs/
+tom365.com###t365
 
 !----------------------------ads-union---------------------
 !--9v
@@ -2074,9 +2082,5 @@ xfastest.com###main-bot > .cl
 ||arpg2.com^$image,~image,popup
 ||gd.189.cn/ad/$image,~image,popup
 
-!--2012.1.21 added by huang review need:
-!-tom365
-|http://ff.wanlicity.com/*.asp$script
-www.tom365.com###t365
 
 !------------------------End of List-------------------------
