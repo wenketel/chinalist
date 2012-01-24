@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 8wFz4jPS65tCGMAMvQStGg
+!  Checksum: W90ciQs2ag5IsosrD89HlQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 22 Jan 2012 11:31:27 +0800
+!  Last Modified:  Tue, 24 Jan 2012 16:03:32 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -799,6 +799,11 @@ tianya.cn##[class^="ad_"]
 tianya.cn##[id*="_AD_"]
 tianya.cn###adsp_content_top_banner
 
+!-tom365
+|http://ff.wanlicity.com^
+||tom365.com/newjs/
+tom365.com###t365
+
 !---TTG
 @@||ttg.im/pic/ttg_logo.png
 ||cnhd.com/adstar/ttg/01.gif
@@ -1002,6 +1007,12 @@ pc3w.com##table[width="925"][height="305"]
 ||static.zongheng.com/v2_0/pic/js/view_c_1.js
 zongheng.com###bookHotShowReadDiv
 zongheng.com###wlqz
+
+!---天府在线
+/1.gif?$domain=scol.com.cn
+/afp/*$~image,domain=scol.com.cn
+||scol.com.cn/js/def_
+||scol.com.cn/scol-3/js/08scol_text_
 
 !----------------------------Generic(sort by domain name)--
 !---Blog Sites
@@ -1563,10 +1574,7 @@ xitek.com##[id^="mo"]
 ||zxproxy.com/white.png
 ||zygod.net/js/
 ||zzsky.cn/images/a_d_
-!-tom365
-|http://ff.wanlicity.com^
-||tom365.com/newjs/
-tom365.com###t365
+
 
 !----------------------------ads-union---------------------
 !--9v
