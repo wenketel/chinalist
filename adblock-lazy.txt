@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: okYOtROC2o7dVms+5CZlKA
+!  Checksum: OODuB0DL3Q6BMtgks4tAtg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 24 Jan 2012 16:03:32 +0800
+!  Last Modified:  Thu, 26 Jan 2012 22:56:54 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -324,6 +324,9 @@ dm5.com##.cl970
 ||enet.com.cn/enetshow.shtml
 ||trace.enet.com.cn^
 enet.com.cn##[class^="ad"]
+
+!---耳机网
+||photo.erji.com^
 
 !---蜂鸟
 ||pic.fengniao.com^
@@ -915,6 +918,8 @@ xj163.cn##[class^="ad"]
 ||misc.web.xunlei.com/kkpv/kkpv.js
 gougou.com##.ggAD
 gougou.com##.ggSideBox
+||images.client.xunlei.com/gougou_recommend/
+||img.gougou.com/down/aishangwang2.jpg
 !--unions
 ||un.so.gougou.com^$third-party
 ||analytics-union.sandai.net^$third-party
@@ -2280,6 +2285,7 @@ xfastest.com###main-bot > .cl
 /ad/index/*
 /ad/rotate?
 /ad/script/*
+/ad/serve.
 /ad/side_
 /ad/sponsored-
 /ad/takeover/*
@@ -3048,6 +3054,10 @@ xfastest.com###main-bot > .cl
 /bannerrotation.
 /bannerrotation/*
 /banners.*&iframe=
+/banners/ad10.
+/banners/ad11.
+/banners/ad2.
+/banners/ad4.
 /banners/ad_
 /banners/ads-
 /banners/adv_
@@ -3350,6 +3360,7 @@ xfastest.com###main-bot > .cl
 /headvert.
 /hitbar_ad_
 /homepage_ads/*
+/hostedbannerads.
 /house-ads/*
 /house_ad-
 /house_ad_
@@ -3679,6 +3690,7 @@ xfastest.com###main-bot > .cl
 /recommendations/ad.
 /rect_ad.
 /rectangle_ad.
+/rectangle_advertorials_
 /refreshads-
 /related-ads.
 /relatedads.
@@ -4094,7 +4106,7 @@ _adsjs.
 _adskin.
 _adsrv?
 _adsys.
-_adtech/
+_adtech/$~stylesheet
 _adtech_
 _adtext_
 _adtitle.
@@ -4169,6 +4181,7 @@ _sponsoredlinks_
 _square_ad.
 _static_ads.
 _temp/ad_
+_tile_ad_
 _top_ad.
 _top_ad_
 _topad.
@@ -4320,6 +4333,7 @@ _480x60-
 _480x60.
 _480x60/
 _480x60_
+_486x60.
 _720x90.
 _728-90.
 _728.htm
@@ -4378,7 +4392,7 @@ _a468x60.
 ###AdRectangle
 ###AdSenseDiv
 ###AdSenseResults1_adSenseSponsorDiv
-###AdServer
+~ferienhaus-hagge.de###AdServer
 ###AdShowcase_F1
 ###AdSky23
 ###AdSkyscraper
@@ -4931,7 +4945,7 @@ _a468x60.
 ###ad_haha_4
 ###ad_halfpage
 ###ad_head
-###ad_header
+~michaels.com###ad_header
 ###ad_holder
 ###ad_horizontal
 ###ad_horseshoe_left
@@ -5441,6 +5455,7 @@ _a468x60.
 ###area1ads
 ###article-ad
 ###article-ad-container
+###article-advert
 ###article-box-ad
 ###article-promo
 ###articleAdReplacement
@@ -6103,6 +6118,7 @@ _a468x60.
 ###mainAdvert
 ###mainAdvertismentP
 ###mainHeaderAdvertisment
+###mainMenu_divTopAd
 ###main_ad
 ###main_rec_ad
 ###main_top_ad_container
@@ -6173,6 +6189,7 @@ _a468x60.
 ~campusboard.at###my-ads
 ###myads_HeaderButton
 ###n_sponsor_ads
+###naMediaAd_SUPERBANNER
 ###namecom_ad_hosting_main
 ###narrow-ad
 ###narrow_ad_unit
@@ -6373,7 +6390,7 @@ _a468x60.
 ###sideBarAd
 ###side_ad
 ###side_ad_wrapper
-###side_ads
+~japantoday.com###side_ads
 ###side_ads_by_google
 ###side_sky_ad
 ###sidead
@@ -6957,7 +6974,7 @@ _a468x60.
 ##.ad-in-post
 ##.ad-index-main
 ##.ad-inline
-~kijiji.ca##.ad-inner
+~gumtree.com.au,~kijiji.ca##.ad-inner
 ##.ad-island
 ##.ad-item
 ##.ad-label
@@ -7244,6 +7261,8 @@ _a468x60.
 ##.ad_amazon
 ##.ad_background
 ##.ad_banner
+##.ad_banner_234
+##.ad_banner_468
 ##.ad_banner_border
 ##.ad_bar
 ##.ad_belowmenu
@@ -7332,6 +7351,7 @@ _a468x60.
 ##.ad_promo
 ##.ad_rec
 ##.ad_rectangle
+##.ad_rectangle_300_250
 ~didaktik-der-mathematik.de,~whitepages.com##.ad_right
 ##.ad_right_col
 ##.ad_row
@@ -7367,6 +7387,8 @@ _a468x60.
 ##.ad_warning
 ##.ad_wid300
 ##.ad_wide
+##.ad_widget_200_100
+##.ad_widget_200_200
 ##.ad_wrap
 ~athensmagazine.gr,~newscrawler.it##.ad_wrapper
 ##.ad_wrapper_fixed
@@ -7500,6 +7522,7 @@ _a468x60.
 ##.ads-widget
 ##.ads-widget-partner-gallery
 ##.ads03
+##.ads120_80
 ##.ads160
 ##.ads1_250
 ##.ads24Block
@@ -7644,6 +7667,8 @@ _a468x60.
 ##.adsleftblock
 ##.adslink
 ##.adslogan
+##.adslot
+##.adslot-widget
 ##.adslotleft
 ##.adslotright
 ##.adsmalltext
@@ -7877,10 +7902,12 @@ _a468x60.
 ##.article_adbox
 ##.article_mpu_box
 ##.article_page_ads_bottom
+##.articlead
 ##.articleads
 ##.aseadn
 ##.aux-ad-widget-1
 ##.aux-ad-widget-2
+##.b-ads_iframe
 ##.b-astro-sponsored-links_horizontal
 ##.b-astro-sponsored-links_vertical
 ##.b_ads_cont
@@ -7932,6 +7959,7 @@ _a468x60.
 ##.bigbox_ad
 ##.bigboxad
 ##.billboard300x250
+##.billboardAd
 ##.billboard_ad
 ##.biz-ad
 ##.biz-ads
@@ -8078,6 +8106,8 @@ _a468x60.
 ##.cinemabotad
 ##.classifiedAdThree
 ##.clearerad
+##.cmAd
+##.cmAdCentered
 ##.cmAdContainer
 ##.cmAdFind
 ##.cmAdSponsoredLinksBox
@@ -8319,6 +8349,7 @@ _a468x60.
 ##.google_ad_wide
 ##.google_add_container
 ##.google_ads
+##.google_ads_468x60
 ##.google_ads_bom_title
 ##.google_ads_content
 ##.google_adsense_footer
@@ -8456,6 +8487,7 @@ _a468x60.
 ##.insert_advertisement
 ##.insertad
 ##.insideStoryAd
+##.inside_ad
 ##.inteliusAd_image
 ##.interest-based-ad
 ##.internalAdsContainer
@@ -9074,6 +9106,7 @@ _a468x60.
 ##.text-g-group-short-rec-ad
 ##.text-g-net-grp-google-ads-article-page
 ##.textAd
+##.textAdBG
 ##.textAdBox
 ##.textAds
 ##.text_ad
@@ -9317,7 +9350,7 @@ _a468x60.
 ||209.222.8.217^$third-party,domain=~p2p.adserver.ip
 ||247realmedia.com^$third-party
 ||2mdn.net/dot.gif$object-subrequest,third-party
-||2mdn.net^$object-subrequest,third-party,domain=bbc.co.uk|bet.com|bloomberg.com|businessday.co.za|businessweek.com|calgaryherald.com|drive.com.au|edmontonjournal.com|eonline.com|euronews.net|heraldsun.com.au|leaderpost.com|metacafe.com|montrealgazette.com|nationalpost.com|ndtv.com|newyorkjets.com|ottawacitizen.com|reuters.com|rollingstone.com|rte.ie|skynews.com.au|smh.com.au|telegraph.co.uk|theage.com.au|theaustralian.com.au|theprovince.com|thestarphoenix.com|timescolonist.com|vancouversun.com|vice.com|windsorstar.com
+||2mdn.net^$object-subrequest,third-party,domain=bbc.co.uk|bet.com|bloomberg.com|businessday.co.za|businessweek.com|calgaryherald.com|drive.com.au|edmontonjournal.com|eonline.com|euronews.net|globaltoronto.com|heraldsun.com.au|leaderpost.com|metacafe.com|montrealgazette.com|nationalpost.com|ndtv.com|newyorkjets.com|ottawacitizen.com|reuters.com|rollingstone.com|rte.ie|skynews.com.au|smh.com.au|telegraph.co.uk|theage.com.au|theaustralian.com.au|theprovince.com|thestarphoenix.com|timescolonist.com|vancouversun.com|vice.com|windsorstar.com
 ||2mdn.net^$~object-subrequest,third-party
 ||360ads.com^$third-party
 ||360yield.com^$third-party
@@ -10046,6 +10079,7 @@ _a468x60.
 ||leadad.mobi^$third-party
 ||leadadvert.info^$third-party
 ||leadbolt.net^$third-party
+||leadcola.com^$third-party
 ||leadintelligence.co.uk^$third-party
 ||leetmedia.com^$third-party
 ||letsgoshopping.tk^$third-party
@@ -10184,6 +10218,7 @@ _a468x60.
 ||othersonline.com^$third-party
 ||overture.com^$third-party
 ||oxado.com^$third-party
+||oxtracking.com^$third-party
 ||p-advg.com^$third-party
 ||pakbanners.com^$third-party
 ||panachetech.com^$third-party
@@ -10226,6 +10261,7 @@ _a468x60.
 ||popuptraffic.com^$third-party
 ||postaffiliatepro.com^$third-party
 ||ppclinking.com^$third-party
+||ppctrck.com^$third-party
 ||ppcwebspy.com^$third-party
 ||precisionclick.com^$third-party
 ||predictad.com^$third-party
@@ -10413,7 +10449,6 @@ _a468x60.
 ||trackingoffer.net^$third-party
 ||trackpath.biz^$third-party
 ||trackpromotion.net^$third-party
-||tradedoubler.com^$image,~image,popup
 ||tradedoubler.com^$third-party
 ||tradepub.com^$third-party
 ||tradetracker.net^$third-party
@@ -10668,6 +10703,7 @@ _a468x60.
 ||sv2.biz^$third-party
 ||targetingnow.com^$third-party
 ||tinyweene.com^$third-party
+||trafficpimps.com^$third-party
 ||tubedspots.com^$third-party
 ||twistyscash.com^$third-party
 ||webcambait.com^$third-party
@@ -10974,6 +11010,7 @@ _a468x60.
 ||get.box24casino.com^$third-party
 ||get.rubyroyal.com^$third-party
 ||get.slotocash.com^$third-party
+||gethopper.com/tp/$third-party
 ||gfaf-banners.s3.amazonaws.com^
 ||gfxa.sheetmusicplus.com^$third-party
 ||ggmania.com^*.jpg$third-party
@@ -11191,7 +11228,6 @@ _a468x60.
 ||promos.fling.com^
 ||promote.pair.com^
 ||promotions.iasbet.com^
-||promotions.newegg.com^$third-party
 ||proxies2u.com/images/btn/$third-party
 ||proxynoid.com/images/referrals/
 ||proxyroll.com/proxybanner.php
@@ -11296,6 +11332,7 @@ _a468x60.
 ||thebigchair.com.au^$subdocument,third-party
 ||themes420.com/bnrsbtns/
 ||themis-media.com^*/sponsorships/
+||theselfdefenseco.com/?affid=$third-party
 ||thetechnologyblog.net^*/bp_internet/
 ||ticketkai.com/banner/
 ||ticketmaster.com/promotionalcontent/
@@ -11304,6 +11341,7 @@ _a468x60.
 ||tigerdirect.com^*/affiliate_
 ||tmbattle.com/images/promo_
 ||todaysfinder.com^$subdocument,third-party
+||tonefuse.s3.amazonaws.com/clientjs/
 ||top5result.com/promo/
 ||toptenreviews.com/r/c/
 ||torrentfreebie.com/index.asp?pid=$third-party
@@ -11829,6 +11867,7 @@ _a468x60.
 /wysistat.js
 /xgemius.js
 /xiti.js
+/xmint/?js
 /xtclicks-$script
 /xtclicks.js
 /xtcore.js
@@ -12136,6 +12175,7 @@ _cedexis.php
 ||globel.co.uk^$third-party
 ||globetrackr.com^$third-party
 ||goingup.com^$third-party
+||google-analilycs.com^$third-party
 ||gopjn.com^$third-party
 ||gosquared.com^$third-party
 ||gostats.com^$third-party
@@ -12689,6 +12729,8 @@ _cedexis.php
 ||bzpics.com/jslib/st.js?
 ||c.compete.com^
 ||c.homestore.com^
+||capture.bi.movideo.com/dc?ct=
+||capture.camify.com/dc?
 ||cbsinteractive.com^*/akamaianalytics.swf
 ||centerix.ru^*/count.msl?
 ||cgicounter.oneandone.co.uk^
