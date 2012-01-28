@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: X1t4pBmqHBW0gdYEIU8eSA
+!  Checksum: k2oMCO3Ng70GXPToXWAvHg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 26 Jan 2012 22:56:54 +0800
+!  Last Modified:  Sat, 28 Jan 2012 23:09:15 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -1091,6 +1091,7 @@ jiaren.org###text-276115468
 ||youxi369.com/js/gong_gao.js
 ||youxi369.com/js/log.js
 ||ziyuan8.com^$script,subdocument
+||dl.everbox.com/www/images/coop/$image
 
 !---Game Sites
 ||a.07073.com^
@@ -1506,6 +1507,7 @@ needpop.com##div > div.spaceborder[style="width: 98%"]
 ||dl.opda.com.cn/attachments/portal/
 ||p5w.net/pfgg/
 ||pchome.com.tw/js/PChomeFS.js
+||club.pchome.net/*/localexchange.php$subdocument
 news.pchome.com.tw###ad_bg_div
 ||ph66.com^$object
 ph66.com##[class^="ad_"]
@@ -1513,6 +1515,7 @@ ph66.com##[class^="ad_"]
 ||sub.powerapple.com^
 ||pt80.com/down/ad/
 ||ptfish.com/08html/
+||ptfish.com/*/ad*$image,object
 ||qdcars.com/fla/
 ||qqjia.com^$script
 ||qqjia.com/images/ad
@@ -2076,6 +2079,7 @@ price.com.hk##.tb
 price.com.hk##[id^="ad"]
 bbs.saraba1st.com##.tac.mb5
 bbs.siluhd.com##img[width="850"][height="85"]
+bbs.siluhd.com###lodov_ads_window
 suopao.org##.t5[style^="margin-top:8px;"]
 t17.techbang.com.tw##.promote-event
 bbs.wuyou.com##[style="background: #BBE9FF"]

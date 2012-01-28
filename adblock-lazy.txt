@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: OODuB0DL3Q6BMtgks4tAtg
+!  Checksum: 31mF3EeMYgu4ao1T/qGvfw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 26 Jan 2012 22:56:54 +0800
+!  Last Modified:  Sat, 28 Jan 2012 23:09:15 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -1089,6 +1089,7 @@ jiaren.org###text-276115468
 ||youxi369.com/js/gong_gao.js
 ||youxi369.com/js/log.js
 ||ziyuan8.com^$script,subdocument
+||dl.everbox.com/www/images/coop/$image
 
 !---Game Sites
 ||a.07073.com^
@@ -1504,6 +1505,7 @@ needpop.com##div > div.spaceborder[style="width: 98%"]
 ||dl.opda.com.cn/attachments/portal/
 ||p5w.net/pfgg/
 ||pchome.com.tw/js/PChomeFS.js
+||club.pchome.net/*/localexchange.php$subdocument
 news.pchome.com.tw###ad_bg_div
 ||ph66.com^$object
 ph66.com##[class^="ad_"]
@@ -1511,6 +1513,7 @@ ph66.com##[class^="ad_"]
 ||sub.powerapple.com^
 ||pt80.com/down/ad/
 ||ptfish.com/08html/
+||ptfish.com/*/ad*$image,object
 ||qdcars.com/fla/
 ||qqjia.com^$script
 ||qqjia.com/images/ad
@@ -2074,6 +2077,7 @@ price.com.hk##.tb
 price.com.hk##[id^="ad"]
 bbs.saraba1st.com##.tac.mb5
 bbs.siluhd.com##img[width="850"][height="85"]
+bbs.siluhd.com###lodov_ads_window
 suopao.org##.t5[style^="margin-top:8px;"]
 t17.techbang.com.tw##.promote-event
 bbs.wuyou.com##[style="background: #BBE9FF"]
@@ -2173,12 +2177,14 @@ xfastest.com###main-bot > .cl
 .ad.page.
 .ad.premiere.
 .adplacement=
+.adresult.
 .adriver.$~object-subrequest
 .ads.darla.
 .adsbox.
 .adserv/
 .adserver.
 .adserver1.
+.adspace.
 .aspx?ad=
 .aspx?zoneid=*&task=
 .biz/ad.
@@ -2312,6 +2318,7 @@ xfastest.com###main-bot > .cl
 /ad_banner/*
 /ad_banner_
 /ad_bottom.
+/ad_box.
 /ad_bsb.
 /ad_cache/*
 /ad_campaigns/*
@@ -2341,6 +2348,7 @@ xfastest.com###main-bot > .cl
 /ad_icons/*
 /ad_iframe.
 /ad_iframe_
+/ad_img.
 /ad_img/*
 /ad_insert.
 /ad_jnaught/*
@@ -2376,6 +2384,7 @@ xfastest.com###main-bot > .cl
 /ad_skyscraper.
 /ad_slideout.
 /ad_space.
+/ad_spot.
 /ad_square.
 /ad_square_
 /ad_supertile/*
@@ -2435,6 +2444,8 @@ xfastest.com###main-bot > .cl
 /adcontent/*
 /adcontrol.
 /adcontroller.
+/adcore.
+/adcore_
 /adcounter.
 /adcreative.
 /adcycle.
@@ -2707,6 +2718,7 @@ xfastest.com###main-bot > .cl
 /adsdaqbanner_
 /adsdaqbox_
 /adsdaqsky_
+/adsdyn160x160.
 /adsearch.
 /adsegmentation.
 /adsense-
@@ -3493,6 +3505,7 @@ xfastest.com###main-bot > .cl
 /loadadwiz.
 /local_ads_
 /locker.php?pub=*&gateid=$script
+/log_ad?
 /lotto_ad_
 /lrec_ad.
 /mac-ad?
@@ -3542,6 +3555,8 @@ xfastest.com###main-bot > .cl
 /netspiderads2.
 /new/ad/*
 /new_ads/*
+/newad2?
+/newad?
 /newads.
 /newads/*
 /newrightcolad.
@@ -3724,6 +3739,7 @@ xfastest.com###main-bot > .cl
 /sb-relevance.js
 /scanscoutoverlayadrenderer.
 /scaradcontrol.
+/script/ads.
 /script/oas/*
 /scripts/ad-
 /scripts/ad.
@@ -4207,6 +4223,7 @@ _webad.
 -300x250.
 -300x250_
 -468-60.
+-468-60_
 -468_60.
 -468x60-
 -468x60.
@@ -4543,6 +4560,7 @@ _a468x60.
 ###ad-1000x90-1
 ###ad-120x600-sidebar
 ###ad-120x60Div
+###ad-160
 ###ad-160x600
 ###ad-160x600-sidebar
 ###ad-250
@@ -4904,7 +4922,7 @@ _a468x60.
 ###ad_after_navbar
 ###ad_anchor
 ~karjalainen.fi###ad_area
-###ad_banner
+~todaystmj4.com###ad_banner
 ###ad_bannerManage_1
 ###ad_banner_top
 ###ad_banners
@@ -5321,7 +5339,7 @@ _a468x60.
 ###adv_halfpage
 ###adv_halfpage_title
 ###adv_leaderboard
-~trouw.nl,~volkskrant.nl###adv_sky
+~demorgen.be,~trouw.nl,~volkskrant.nl###adv_sky
 ###adv_top_banner_wrapper
 ###adver1
 ###adver2
@@ -5501,6 +5519,7 @@ _a468x60.
 ###basket-adContainer
 ###bbccom_mpu
 ###bbo_ad1
+###below_content_ad_container
 ###bg-footer-ads
 ###bg-footer-ads2
 ###bg_YieldManager-160x600
@@ -7645,6 +7664,7 @@ _a468x60.
 ##.adsenseList
 ##.adsense_bdc_v2
 ##.adsense_mpu
+##.adsense_rectangle
 ##.adsensebig
 ##.adsenseblock
 ##.adsenseblock_bottom
@@ -7695,7 +7715,6 @@ _a468x60.
 ~monster.de,~rinkworks.com,~vtomske.ru##.adtable
 ##.adtag
 ##.adtech
-~anzwers.com.au,~bipbip.co.il,~ksl.com,~quoka.de,~u-file.net,~weltbild.de##.adtext
 ##.adtext_gray
 ##.adtext_horizontal
 ##.adtext_onwhite
@@ -9098,7 +9117,7 @@ _a468x60.
 ##.teaserAdContainer
 ##.teaser_adtiles
 ##.teaser_advert_content
-##.text-ad
+~amonis.be##.text-ad
 ##.text-ad-links
 ##.text-ads
 ##.text-advertisement
@@ -9245,6 +9264,7 @@ _a468x60.
 ##.widget-ad
 ##.widget-ad-codes
 ##.widget-ad300x250
+##.widget-ads
 ##.widget-entry-ads-160
 ##.widgetYahooAds
 ##.widget_ad
@@ -10670,6 +10690,7 @@ _a468x60.
 ||intrapromotion.com^$third-party
 ||jackao.net^$third-party
 ||juicyads.com^$third-party
+||juicycash.net^$third-party
 ||k9x.net^$third-party
 ||lovercash.com^$third-party
 ||mediagra.com^$third-party
@@ -11210,6 +11231,7 @@ _a468x60.
 ||pic.pbsrc.com/hpto/
 ||picoasis.net/3xlayer.htm
 ||pivotalinvestmentdirect.com/banners/$third-party
+||planet49.com/cgi-bin/wingame.pl?$image,~image,popup
 ||play-asia.com/paos-$third-party
 ||pokerjunkie.com/rss/
 ||pokersavvy.com^*/banners/
@@ -11233,6 +11255,7 @@ _a468x60.
 ||proxyroll.com/proxybanner.php
 ||pub.aujourdhui.com^$third-party
 ||pub.betclick.com^
+||pub.ezanga.com/rv2.php?$image,~image,popup
 ||pubs.hiddennetwork.com^
 ||puntersparadise.com.au/banners/
 ||qiksilver.net^*/banners/
@@ -11352,6 +11375,7 @@ _a468x60.
 ||tradearabia.com/banners/
 ||tradeboss.com/1/banners/
 ||travelmail.traveltek.net^$third-party
+||trialpay.com^*&dw-ptid=$third-party
 ||trivago.co.uk/uk/srv/$third-party
 ||ttnonline.com/banners/
 ||turbotrafficsystem.com^*/banners/
@@ -11427,10 +11451,12 @@ _a468x60.
 ||213.174.140.76^*/js/msn-$script
 ||213.174.140.76^*/js/msn.js
 ||21sextury.com^$image,~image,popup
+||ad.duga.jp^
 ||ad.iloveinterracial.com^
 ||adultartnetwork.com/banners/
 ||adultdvd.com/plugins/*/store.html$third-party
 ||adultfriendfinder.com/go/$image,~image,popup
+||adultfriendfinder.com/go/page/js_im_box?
 ||adultfriendfinder.com/images/banners/
 ||affiliates.thrixxx.com^
 ||ambya.com/potdc/
@@ -11518,6 +11544,7 @@ _a468x60.
 ||paydir.com/images/bnr
 ||pod.manplay.com^$third-party
 ||pop6.adultfriendfinder.com^
+||pop6.com/javascript/im_box-*.js
 ||popit.mediumpimpin.com^
 ||premiumhdv.com/bn/
 ||premiumhdv.com^$subdocument,third-party
