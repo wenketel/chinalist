@@ -2,7 +2,7 @@
 // @name YOUKU ads Remover
 // @namespace https://code.google.com/p/adblock-chinalist/
 // @author Gythialy
-// @version 1.0.1
+// @version 1.0.2
 // @description Remove YOUKU ads for ChinaList (required Firefox 4+)
 // @homepage https://code.google.com/p/adblock-chinalist/
 // @updateURL https://adblock-chinalist.googlecode.com/svn/trunk/scripts/remove_ads_for_youku.user.js
@@ -70,7 +70,7 @@
 			var src_data = elem.getAttribute('data');
 			log('Process URL (OBJECT) :' + src_data);
 			if (/http:\/\/static\.youku\.com\//i.test(src_data)) {
-				elem.setAttribute('data', 'http://static.youku.com/v1.0.0098/v/swf/qplayer.swf');
+				elem.setAttribute('data', 'http://static.youku.com/v1.0.0212/v/swf/qplayer.swf');
 				needReload = true;
 			}
 		} else if (nodeName === 'EMBED') {
@@ -79,7 +79,7 @@
 				var re = new RegExp(/\w{13}/g);
 				var vid = re.exec(src);
 				if (vid) {
-					elem.src = 'http://static.youku.com/v1.0.0098/v/swf/qplayer.swf?showAd=0&VideoIDS=' + vid;
+					elem.src = 'http://static.youku.com/v1.0.0212/v/swf/qplayer.swf?showAd=0&VideoIDS=' + vid;
 					log('Process VIDEO_ID (EMBED) ' + vid);
 					needReload = true;
 				}
