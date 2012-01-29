@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: k2oMCO3Ng70GXPToXWAvHg
+!  Checksum: 5EV6kR23zewvsFDPq5hb3A
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 28 Jan 2012 23:09:15 +0800
+!  Last Modified:  Sun, 29 Jan 2012 08:43:48 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -101,7 +101,7 @@ v.6.cn###playerAd
 !---留园网
 ||6park.com^$subdocument
 ||6park.com/news/$script
-||am.6park.com/img/
+||am.6park.com^
 ||image.6park.com^
 ||img.6park.com/img/$image
 ||6park.com/parks/$script
@@ -495,6 +495,12 @@ mobile01.com##div.ad-d + div.widget.article
 tw.msn.com###admomoca2
 tw.msn.com###ectabs
 news.msn.com.tw###adv_images_l
+
+!---未名空间
+||mitbbs.com/ad_
+||mitbbs.com/servicedata/static_ad.php
+mitbbs.com##table[width="951"] + table[width="950"]
+mitbbs.com##table[width="886"] > tbody > tr:first-child
 
 !---猫扑
 ||mop.com/fxb/js/fxb$script
