@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: XysNJL2RAgwlCvhRkjK5Zw
+!  Checksum: z661XuvOl4wM2jwStqXmfw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 31 Jan 2012 18:37:15 +0800
+!  Last Modified:  Fri, 03 Feb 2012 17:40:16 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -272,15 +272,6 @@ www.dayoo.com##body > div[style]
 !--gzdaily
 /pub/news/gzrb/*$script
 ||gzdaily.dayoo.com/tpl/banner$object
-
-!---Dict.CN
-@@||dict.cn/ef/video/$image,subdocument
-||dict.cn/ef/
-||dict.cn/images/360.gif
-||dict.cn/sync2/pic*_1.
-dict.cn##.text-gg-bar
-dict.cn###haici-tuijian
-dict.cn###top-gg
 
 !---Discuz! & PHPWind etc.
 @@/common/cf/*.thumb$image
@@ -2139,7 +2130,7 @@ xfastest.com###main-bot > .cl
 -ad-large.
 -ad-limits.
 -ad-loading.
--ad-manager/
+-ad-manager/$~stylesheet
 -ad-server/
 -ad-util-
 -ad-vertical-
@@ -2972,6 +2963,7 @@ xfastest.com###main-bot > .cl
 /adwrapperiframe.
 /adx.asp
 /adx.js
+/adxsite.
 /adxx.php?
 /adyard.
 /adyard300.
@@ -4322,6 +4314,7 @@ _webad.
 /top728.html
 /top728x90.
 _120_60.
+_120_600.
 _120_600_
 _120x60.
 _120x600.
@@ -4614,6 +4607,7 @@ _a468x60.
 ###ad-frame
 ###ad-front-footer
 ###ad-front-sponsoredlinks
+###ad-fullbanner-outer
 ###ad-fullbanner2
 ###ad-globalleaderboard
 ###ad-halfpage
@@ -5066,7 +5060,6 @@ _a468x60.
 ###ad_widget
 ###ad_window
 ~autoroden.nl,~henkheikamp.nl###ad_wrap
-~amnestyusa.org,~drownedinsound.com,~lirs.org,~wiesenthal.com###ad_wrapper
 ###adaptvcompanion
 ###adbForum
 ###adbanner
@@ -5715,6 +5708,7 @@ _a468x60.
 ###ctl00_Adspace_Top_Height
 ###ctl00_BottomAd
 ###ctl00_ContentMain_BanManAd468_BanManAd
+###ctl00_ContentPlaceHolder1_AdRotator3
 ###ctl00_ContentPlaceHolder1_blockAdd_divAdvert
 ###ctl00_ContentRightColumn_RightColumn_Ad1_BanManAd
 ###ctl00_ContentRightColumn_RightColumn_Ad2_BanManAd
@@ -6984,7 +6978,7 @@ _a468x60.
 ##.ad-disclaimer
 ~jobmail.co.za,~odysseyware.com##.ad-display
 ##.ad-div
-##.ad-enabled
+~yahoo.com##.ad-enabled
 ##.ad-feedback
 ##.ad-filler
 ##.ad-flex
@@ -7080,7 +7074,7 @@ _a468x60.
 ##.ad-vtu
 ##.ad-widget-list
 ##.ad-with-us
-##.ad-wrap
+~howtopriest.com##.ad-wrap
 ##.ad-wrapper
 ##.ad-zone
 ##.ad-zone-s-q-l
@@ -7835,7 +7829,7 @@ _a468x60.
 ##.advertise_here
 ##.advertise_link
 ##.advertise_link_sidebar
-~andkon.com,~creatormundi.com,~ping-timeout.de,~wired.com##.advertisement
+~andkon.com,~creatormundi.com,~idowa.de,~ping-timeout.de,~wired.com##.advertisement
 ##.advertisement-728x90
 ##.advertisement-block
 ##.advertisement-sidebar
@@ -8660,6 +8654,7 @@ _a468x60.
 ~corrierecomo.it,~corrieredicomo.it##.module-ad
 ##.module-ad-small
 ##.module-ads
+##.module-advert
 ##.module-advertisement
 ##.module-sponsored-ads
 ##.moduleAd
@@ -9084,6 +9079,7 @@ _a468x60.
 ##.sponsoredtabl
 ##.sponsoredtextlink_container_ovt
 ##.sponsoring_link
+##.sponsoringbanner
 ##.sponsorlink
 ##.sponsorlink2
 ##.sponsormsg
@@ -9387,7 +9383,7 @@ _a468x60.
 ||209.222.8.217^$third-party,domain=~p2p.adserver.ip
 ||247realmedia.com^$third-party
 ||2mdn.net/dot.gif$object-subrequest,third-party
-||2mdn.net^$object-subrequest,third-party,domain=bbc.co.uk|bet.com|bloomberg.com|businessday.co.za|businessweek.com|calgaryherald.com|drive.com.au|edmontonjournal.com|eonline.com|euronews.net|globaltoronto.com|heraldsun.com.au|leaderpost.com|metacafe.com|montrealgazette.com|nationalpost.com|ndtv.com|newyorkjets.com|ottawacitizen.com|reuters.com|rollingstone.com|rte.ie|skynews.com.au|smh.com.au|telegraph.co.uk|theage.com.au|theaustralian.com.au|theprovince.com|thestarphoenix.com|timescolonist.com|vancouversun.com|vice.com|windsorstar.com
+||2mdn.net^$object-subrequest,third-party,domain=bbc.co.uk|bet.com|bloomberg.com|businessday.co.za|businessweek.com|calgaryherald.com|drive.com.au|edmontonjournal.com|eonline.com|euronews.net|globaltoronto.com|heraldsun.com.au|leaderpost.com|metacafe.com|montrealgazette.com|nationalpost.com|ndtv.com|newyorkjets.com|ottawacitizen.com|reuters.com|rollingstone.com|rte.ie|skynews.com.au|smh.com.au|telegraph.co.uk|theage.com.au|theaustralian.com.au|thecomedynetwork.ca|theprovince.com|thestarphoenix.com|timescolonist.com|vancouversun.com|vice.com|windsorstar.com
 ||2mdn.net^$~object-subrequest,third-party
 ||360ads.com^$third-party
 ||360yield.com^$third-party
@@ -9914,6 +9910,7 @@ _a468x60.
 ||dualmarket.info^$third-party
 ||e-planning.net^$third-party
 ||e-viral.com^$third-party
+||eads-adserving.com^$third-party
 ||easy-adserver.com^$third-party
 ||easyad.com^$third-party
 ||easyhits4u.com^$third-party
@@ -10162,6 +10159,7 @@ _a468x60.
 ||media6degrees.com^$third-party
 ||mediaclick.com^$third-party
 ||mediacpm.com^$third-party
+||mediaforge.com^$third-party
 ||mediag4.com^$third-party
 ||mediagridwork.com^$third-party
 ||medialation.net^$third-party
@@ -10198,6 +10196,7 @@ _a468x60.
 ||moreplayerz.com^$third-party
 ||mpression.net^$third-party
 ||msads.net^$third-party
+||mybuys.com^$third-party
 ||myclickbankads.com^$third-party
 ||mylinkbox.com^$third-party
 ||mythings.com^$third-party
@@ -10287,6 +10286,7 @@ _a468x60.
 ||pixeltrack66.com^$third-party
 ||platinumadvertisement.com^$third-party
 ||playertraffic.com^$third-party
+||plenomedia.com^$third-party
 ||plugerr.com^$third-party
 ||pmsrvr.com^$third-party
 ||pntra.com^$third-party
@@ -10482,6 +10482,7 @@ _a468x60.
 ||totalprofitplan.com^$third-party
 ||totemcash.com^$third-party
 ||tqlkg.com^$third-party
+||traceadmanager.com^$third-party
 ||trackadvertising.net^$third-party
 ||trackcorner.com^$third-party
 ||tracking.to^$third-party
@@ -10842,6 +10843,7 @@ _a468x60.
 ||api.groupon.com/v2/deals/$third-party
 ||appdevsecrets.com/images/nuts/
 ||apple.com/itunesaffiliates/
+||appsgenius.com/images/$third-party
 ||ard.xxxblackbook.com^$third-party
 ||army-of-brides.com/banners/
 ||as.devbridge.com^$third-party
@@ -11448,8 +11450,8 @@ _a468x60.
 ||widgets.itunes.apple.com/appstore.html?*&affiliate_id=
 ||widgets.mobilelocalnews.com^$third-party
 ||wildamaginations.com/mdm/banner/
-||williamhill.com^$image,~image,popup
-||williamhillcasino.com^$image,~image,popup
+||williamhill.com^$image,~image,popup,third-party
+||williamhillcasino.com^$image,~image,popup,third-party
 ||winpalace.com/?affid=
 ||wonderlabs.com/affiliate_pro/banners/
 ||wptpoker.com^$image,~image,popup
@@ -11565,6 +11567,7 @@ _a468x60.
 ||partners.yobt.com^$third-party
 ||paydir.com/images/bnr
 ||pod.manplay.com^$third-party
+||pod.xxxmatch.com/images/footer_toolbar/
 ||pop6.adultfriendfinder.com^
 ||pop6.com/javascript/im_box-*.js
 ||popit.mediumpimpin.com^
@@ -12471,6 +12474,7 @@ _cedexis.php
 ||relmaxtop.com^$third-party
 ||res-x.com^$third-party
 ||researchnow.co.uk^$third-party
+||retags.us^$third-party
 ||revolvermaps.com^$third-party
 ||rfihub.com^$third-party
 ||riastats.com^$third-party
@@ -13008,6 +13012,7 @@ _cedexis.php
 ||searchmaestros.com/trackpoint/
 ||seg.sharethis.com^
 ||serifwebresources.com/control.php?
+||sftrack.searchforce.net/sfconversiontracking/
 ||sitereports.officelive.com^
 ||sourceforge.net/tracker/
 ||southafricahome.com/statsmodulev2/
