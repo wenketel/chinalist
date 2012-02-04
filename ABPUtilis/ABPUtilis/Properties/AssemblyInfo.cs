@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("ChinaList Project")]
 [assembly: AssemblyProduct("ABPUtils")]
-[assembly: AssemblyCopyright("Copyright (C)  2011")]
+[assembly: AssemblyCopyright("Copyright (C)  2012")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -29,4 +29,4 @@ using System.Runtime.InteropServices;
 //      内部版本号
 //      修订号
 //
-[assembly: AssemblyVersion("1.9.*")]
+[assembly: AssemblyVersion("2.0.1.*")]

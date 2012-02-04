@@ -14,9 +14,25 @@ namespace ABPUtils
     {
         const string PATCH_FILE = "patch.xml";
         const string EASYLIST = "easylist.txt";
+        const string CHINALIST_LAZY_HEADER = @"[Adblock Plus 1.2]
+!  Adblock Plus List with Main Focus on Chinese Sites.
+!  Last Modified:  
+!  Homepage: http://adblock-chinalist.googlecode.com/
+!
+!  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
+!  If you need to know the details,
+!  please visit: https://code.google.com/p/adblock-chinalist/wiki/something_about_ChinaList_Lazy
+!
+!  If you need help or have any question,
+!  please visit: http://adblock-chinalist.googlecode.com/
+!
+!  coding: utf-8, expires: 5 days
+!----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
+";
         const string EASYLIST_URL = "https://easylist-downloads.adblockplus.org/easylist.txt";
         const string EASYPRIVACY = "easyprivacy.txt";
         const string EASYPRIVACY_URL = "https://easylist-downloads.adblockplus.org/easyprivacy.txt";
+        const string CHINALIST_LAZY_HEADER_MARK = "!----------------------------White List--------------------";
         const string CHINALIST_END_MARK = "!------------------------End of List-------------------------";
         const int EASYLIST_EASYLIST_GENERAL_BLOCK = 1;
         const int EASYLIST_EASYLIST_GENERAL_HIDE = 2;
@@ -126,6 +142,9 @@ namespace ABPUtils
             using (StreamReader sr = new StreamReader(chinaList, Encoding.UTF8))
             {
                 chinaListContent = sr.ReadToEnd();
+                //TODO:replace header
+                var headerIndex = chinaListContent.IndexOf(CHINALIST_LAZY_HEADER_MARK);
+                chinaListContent = chinaListContent.Substring(headerIndex).Insert(0, CHINALIST_LAZY_HEADER);
                 var index = chinaListContent.IndexOf(CHINALIST_END_MARK);
                 chinaListContent = chinaListContent.Remove(index);
                 sBuilder.Append(chinaListContent);
