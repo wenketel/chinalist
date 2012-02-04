@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: titt2g3guiXxWB0my6wpoQ
+!  Checksum: /kBycYkKYqBfuewn/spUdA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 04 Feb 2012 22:09:26 +0800
+!  Last Modified:  Sat, 04 Feb 2012 22:36:23 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -96,10 +96,11 @@ thinkpad.cn,51nb.com##div.secmenu:last-child
 ||6.cn/mdfor/index_new.js
 ||6.cn/mdfor/watch_new11.js
 ||shrek.6.cn^
-||pole.6rooms.com^$~object-subrequest
 6.cn###palyerAdText
 6.cn##[id^="adText"]
 v.6.cn###playerAd
+@@||pole.6rooms.com/adpolestar/*_qtie.swf
+||r.6.cn/imges/watchad/
 
 !---留园网
 ||6park.com^$subdocument
@@ -888,9 +889,6 @@ bbs.xmfish.com##.cmp_v
 bbs.xmfish.com##.t_ppo.clear
 bbs.xmfish.com##[id^="ads"]
 
-!---小说570
-||www.xiaoshuo570.com/scripts/readindex/*.js
-
 !---西祠胡同
 ||files.xici.net^$object
 xici.net##[class*=" ad"]
@@ -1137,6 +1135,10 @@ gamebase.com.tw##.wait_gbno1
 /ys168/*$domain=ys168.com
 ys168.com###idzdy1
 ys168.com###xtxx
+!---dbank
+@@||dl.dbank.com^$elemhide
+||st2.dbank.com/images/downloadtopbanner01.jpg
+
 
 !---News Sites
 ||125.46.61.33/shangduadv/*
@@ -1392,6 +1394,8 @@ www.jstv.com##div[style^="width:540px;"]
 ||yiyi.cc/ad/
 ||youmaker.com/logoad2.jpg
 ||youmaker.com/edoors200708180-150.swf
+!---风行
+@@||q.funshion.com/js.php
 
 !---Miscellaneous
 ||111cn.net/gg_ad/
@@ -1451,6 +1455,7 @@ fj007.com##.ad_div
 frdic.com,godic.net##.headBar
 frdic.com,godic.net###sidebar1
 ||free9.cn^$script
+@@||v.ftimg.net/video/adv/ad.flv
 ||fzlol.com/images/$script
 ||hackvip.com/ai/
 ||hanzify.org/Main/Template/*/a-d-s/
@@ -1562,6 +1567,7 @@ win7china.com,win8china.com##.hot_down
 win7china.com,win8china.com##.site_ad
 ||a.wm090.com/biz_icon/
 ||marketing.xineurope.com^
+www.xiaoshuo570.com/scripts/readindex/$script
 xineurope.com##[class*="a_"]
 /aggd/*$domain=xishuiw.com|xishuiw.net
 ||xitek.com/newsite/mojs.php?
@@ -1984,7 +1990,7 @@ xitek.com##[id^="mo"]
 /adservice/*
 /adsimg/*
 /adv.
-/adv/*$~object-subrequest
+/adv/*
 /advpic/*
 /affiliate/*
 .allyes.
@@ -2031,7 +2037,7 @@ xitek.com##[id^="mo"]
 /counts.
 |http://pv.
 |http://pvstat.
-|http://*/pv.$domain=~funsion.com
+|http://*/pv.
 |http://*/pv/$domain=~search.yahoo.com
 |http://*/tj.js
 |http://track.
