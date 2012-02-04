@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: z661XuvOl4wM2jwStqXmfw
+!  Checksum: DtYBG4Ci40mYrDdfyylv7w
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 03 Feb 2012 17:40:16 +0800
+!  Last Modified:  Sat, 04 Feb 2012 15:50:18 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -22,6 +22,7 @@
 @@||51job.com^$elemhide
 @@||shop.ali213.com^$elemhide
 @@||xiazaiba.com^$elemhide
+@@||acg.178.com^$elemhide
 !---Make sure video from those sites can be played correctly
 @@||afp.goyeah.com^$object_subrequest
 @@||union.bokecc.com^$object,object_subrequest,script
@@ -886,6 +887,9 @@ bbs.xmfish.com##.cmp_v
 bbs.xmfish.com##.t_ppo.clear
 bbs.xmfish.com##[id^="ads"]
 
+!---小说570
+||www.xiaoshuo570.com/scripts/readindex/*.js
+
 !---西祠胡同
 ||files.xici.net^$object
 xici.net##[class*=" ad"]
@@ -1600,6 +1604,7 @@ xitek.com##[id^="mo"]
 ||11125.in^$third-party
 ||1133.cc^$third-party
 ||114.com.cn^$third-party
+||114la.com^$third-party
 ||114lm.com^$third-party
 ||115.238.103.82^$third-party
 ||155game.com^$third-party
@@ -1977,7 +1982,7 @@ xitek.com##[id^="mo"]
 /adservice/*
 /adsimg/*
 /adv.
-/adv/*
+/adv/*$~object-subrequest
 /advpic/*
 /affiliate/*
 .allyes.
@@ -4755,6 +4760,7 @@ _a468x60.
 ###adBox16
 ###adBox350
 ###adBox390
+###adBoxUpperRight
 ###adCirc300X200
 ###adCirc_620_100
 ###adClickMe
@@ -5107,7 +5113,7 @@ _a468x60.
 ###adition_content_ad
 ###adlabel
 ###adlabelFooter
-###adlayer
+~popcap.com###adlayer
 ###adlayerContainer
 ###adlayer_back
 ###adlayerad
@@ -6168,6 +6174,7 @@ _a468x60.
 ###mid_ad_div
 ###mid_ad_title
 ###mid_mpu
+###mid_roll_ad_holder
 ###midadd
 ###midadspace
 ###middle-ad
@@ -6846,6 +6853,7 @@ _a468x60.
 ##.GoogleAd
 ##.GoogleAdSenseBottomModule
 ##.GoogleAdSenseRightModule
+##.HGLoneAdTitleFrame
 ##.HPG_Ad_B
 ##.HPNewAdsBannerDiv
 ##.HPRoundedAd
@@ -9071,6 +9079,7 @@ _a468x60.
 ##.sponsored_results
 ##.sponsored_ss
 ##.sponsored_well
+##.sponsoredby
 ##.sponsoredibbox
 ##.sponsoredlink
 ##.sponsoredlinks
@@ -9500,6 +9509,7 @@ _a468x60.
 ||adnet.com^$third-party
 ||adnet.ru^$third-party
 ||adnetwork.com.br^$third-party
+||adnetwork.net^$third-party
 ||adnxs.com^$third-party
 ||adocean.pl^$third-party
 ||adoperator.com^$third-party
@@ -10156,6 +10166,8 @@ _a468x60.
 ||maxserving.com^$third-party
 ||mb01.com^$third-party
 ||mbn.com.ua^$third-party
+||media-servers.net^$image,~image,popup
+||media-servers.net^$third-party
 ||media6degrees.com^$third-party
 ||mediaclick.com^$third-party
 ||mediacpm.com^$third-party
@@ -10911,6 +10923,8 @@ _a468x60.
 ||businessnewswatch.ca/images/nnwbanner/
 ||buydig.com/assets/banners/
 ||buzznet.com^*/showpping-banner-$third-party
+||cal-one.net/ellington/deals_widget.php?
+||cal-one.net/ellington/search_form.php?
 ||cancomdigital.com/resourcecenter/$third-party
 ||cancomuk.com/campaigns/
 ||canonresourcecenter.com^$third-party
@@ -10988,6 +11002,8 @@ _a468x60.
 ||exoplanetwar.com/l/landing.php?
 ||expekt.com/affiliates/
 ||extensoft.com/artisteer/banners/
+||extras.mercurynews.com/tapin_directory/
+||extras.mnginteractive.com^*/todaysdeals.gif
 ||eyetopics.com/content_images/$third-party
 ||ezcashmailer.com/banners/
 ||facebook.com/whitepages/wpminiprofile.php?partner_id=$third-party
