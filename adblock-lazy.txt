@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: okARGN/sY3A4acwiqaChxg
+!  Checksum: rZnfM3ubtgXaThfzfuUIHw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 06 Feb 2012 20:13:21 +0800
+!  Last Modified:  Wed, 08 Feb 2012 20:31:01 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -14,6 +14,7 @@
 !  coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
 !----------------------------White List--------------------
+@@||msn.wrating.com/a1.js
 !---Shopping websites
 @@^type=ad$domain=360buy.com
 @@/adbanner/*$image,domain=books.com.tw
@@ -4320,6 +4321,7 @@ _webad.
 /728x90top.
 /768x90-
 /768x90.
+/ads728x90_
 /banner460x80.
 /banner468x60.
 /bottom728.html
@@ -4781,6 +4783,7 @@ _a468x60.
 ###adContainer_1
 ###adContainer_2
 ###adContainer_3
+###adContentHolder
 ~remixshare.com###adDiv
 ###adDiv300
 ###adDiv728
@@ -6662,7 +6665,6 @@ _a468x60.
 ###topadbar
 ###topadblock
 ###topaddwide
-~horsebase.at,~horsebase.com,~horsebase.de,~pferde-suchen.com,~pferde-verkaufen.com###topads
 ###topadsense
 ###topadspace
 ###topadwrap
@@ -7325,7 +7327,7 @@ _a468x60.
 ##.ad_body
 ##.ad_border
 ##.ad_botbanner
-##.ad_bottom
+~bakeca-incontri.net##.ad_bottom
 ##.ad_bottom_leaderboard
 ##.ad_bottom_left
 ##.ad_box
@@ -7336,7 +7338,7 @@ _a468x60.
 ##.ad_buttons_320
 ##.ad_callout
 ##.ad_caption
-##.ad_center
+~bakeca-incontri.net##.ad_center
 ##.ad_column
 ##.ad_column_box
 ##.ad_column_hl
@@ -7369,7 +7371,7 @@ _a468x60.
 ##.ad_launchpad
 ##.ad_leader
 ##.ad_leaderboard
-##.ad_left
+~bakeca-incontri.net##.ad_left
 ##.ad_line
 ##.ad_link
 ~leboncoin.fr,~subito.it##.ad_links
@@ -7403,7 +7405,7 @@ _a468x60.
 ##.ad_rec
 ##.ad_rectangle
 ##.ad_rectangle_300_250
-~didaktik-der-mathematik.de,~whitepages.com##.ad_right
+~bakeca-incontri.net,~didaktik-der-mathematik.de,~whitepages.com##.ad_right
 ##.ad_right_col
 ##.ad_row
 ##.ad_row_bottom_item
@@ -7754,7 +7756,7 @@ _a468x60.
 ~absolute.com##.adtile
 ##.adtips
 ##.adtips1
-~katuha.com,~mercedesclubs.de,~otelfingen.ch,~sulit.com.ph##.adtitle
+~bakeca-incontri.net,~katuha.com,~mercedesclubs.de,~otelfingen.ch,~sulit.com.ph##.adtitle
 ##.adtop
 ##.adtower
 ##.adtravel
@@ -8942,7 +8944,7 @@ _a468x60.
 ##.searchSponsoredResultsList
 ##.search_column_results_sponsored
 ##.search_results_sponsored_top
-##.searchads
+~bisexual.com##.searchads
 ##.section-ad2
 ##.section_mpu_wrapper
 ##.section_mpu_wrapper_wrapper
@@ -9114,6 +9116,7 @@ _a468x60.
 ##.squareAd
 ##.square_ad
 ##.square_banner_ad
+##.squareads
 ##.squared_ad
 ##.ss-ad-banner
 ##.ss-ad-mpu
@@ -10164,6 +10167,7 @@ _a468x60.
 ||loading-resource.com^$third-party
 ||localadbuy.com^$third-party
 ||logo-net.co.uk^$third-party
+||lookit-quick.com^$third-party
 ||looksmart.com^$third-party
 ||loseads.eu^$third-party
 ||love-banner.com^$third-party
@@ -10450,6 +10454,7 @@ _a468x60.
 ||softonicads.com^$third-party
 ||softpopads.com^$third-party
 ||sonnerie.net^$third-party
+||sparkstudios.com^$image,~image,popup
 ||sparkstudios.com^$third-party
 ||specificclick.net^$third-party
 ||specificmedia.com^$third-party
@@ -10541,6 +10546,8 @@ _a468x60.
 ||trkalot.com^$third-party
 ||trker.com^$third-party
 ||tubemogul.com^$third-party
+||tutvp.com^$image,~image,popup
+||tutvp.com^$third-party
 ||tvprocessing.com^$third-party
 ||twinpinenetwork.com^$third-party
 ||twinplan.com^$third-party
