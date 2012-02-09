@@ -27,7 +27,7 @@ namespace ABPUtils
 !  please visit: http://adblock-chinalist.googlecode.com/
 !
 !  coding: utf-8, expires: 5 days
-!----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
+!--CC-BY-SA 3.0 + Licensed, NO WARRANTY but Best Wishes----
 ";
         const string EASYLIST_URL = "https://easylist-downloads.adblockplus.org/easylist.txt";
         const string EASYPRIVACY = "easyprivacy.txt";
