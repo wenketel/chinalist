@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: YxDpjXyZqzYXLoQIBSo32A
+!  Checksum: kdOHnhadLn2p49Z5Rae0NA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 09 Feb 2012 21:16:25 +0800
+!  Last Modified:  Sat, 11 Feb 2012 00:26:16 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -14,7 +14,6 @@
 !  coding: utf-8, expires: 5 days
 !--CC-BY-SA 3.0 + Licensed, NO WARRANTY but Best Wishes----
 !----------------------------White List--------------------
-@@||msn.wrating.com/a1.js
 !---Shopping websites
 @@^type=ad$domain=360buy.com
 @@/adbanner/*$image,domain=books.com.tw
@@ -22,12 +21,13 @@
 @@||paipai.com^$domain=shop.qq.com
 @@||shangcuwang.com^$image,~third-party
 @@/advertise/*$domain=suning.com
-!---Hiding filters shouldn't affect on this site.
+!---Hiding filters shouldn't affect on these site.
 @@||51job.com^$elemhide
 @@||shop.ali213.com^$elemhide
 @@||xiazaiba.com^$elemhide
 @@||acg.178.com^$elemhide
 !---Make sure video from those sites can be played correctly
+@@||v.ftimg.net/video/adv/ad.flv
 @@||afp.goyeah.com^$object_subrequest
 @@||union.bokecc.com^$object,object_subrequest,script
 @@||ad.ourgame.com/cgi-bin/insertflasha.js
@@ -97,14 +97,14 @@ thinkpad.cn,51nb.com##div.menu + div.maintable > table.t_rown[width="98%"]
 thinkpad.cn,51nb.com##div.secmenu:last-child
 
 !---六间房
+@@||pole.6rooms.com/adpolestar/*_qtie.swf
 ||6.cn/mdfor/index_new.js
 ||6.cn/mdfor/watch_new11.js
+||r.6.cn/imges/watchad/
 ||shrek.6.cn^
 6.cn###palyerAdText
 6.cn##[id^="adText"]
 v.6.cn###playerAd
-@@||pole.6rooms.com/adpolestar/*_qtie.swf
-||r.6.cn/imges/watchad/
 
 !---留园网
 ||6park.com^$subdocument
@@ -214,6 +214,11 @@ chinanews.com##.syad
 ||a.cntv.cn^
 ||d.cntv.cn^
 ||log.player.cntv.cn^
+
+!---广东电信
+/clicktotal/ClickTotal.js
+||gd.ct10000.com/js/ecssstat.js
+||gd.ct10000.com/*/cms/push/$image,~image,popup
 
 !---CHDBits&chdtv
 ||terra-master.com/cn/chd052611.swf
@@ -342,6 +347,11 @@ www.fengniao.com##.banner.mt2
 ||focus.cn/common/js/adm2008.js
 focus.cn##.ad_fp
 
+!---风行网
+@@||q.funshion.com/js.php
+||vas.funshion.com^
+||ft.funshion.com^$subdocument
+
 !---火狐主页
 /iframes/*$subdocument,domain=firefoxchina.cn|i.g-fox.cn
 firefoxchina.cn,g-fox.cn###taobao
@@ -357,11 +367,6 @@ firefoxchina.cn,g-fox.cn##[id^="banner_show"]
 ||gamersky.com/frame/
 ||image.gamersky.com/img/
 gamersky.com##.adc
-
-!---广东电信
-/clicktotal/ClickTotal.js
-||gd.ct10000.com/js/ecssstat.js
-||gd.ct10000.com/*/cms/push/$image,~image,popup
 
 !---机锋
 @@||gfan.lkpress.com^$script
@@ -480,19 +485,16 @@ www.ku6.com##[class^="a_d0608"]
 ||libertytimes.com.tw/IService2/AdLinkList.php
 ||libertytimes.com.tw/js/ajs/
 
-!---Mobile01
-mobile01.com##div.navbar > p > a[href^="adredir.php?"]
-mobile01.com##.ad-b
-mobile01.com##.ad-d
-mobile01.com##[class^="admicrobtn"]
-mobile01.com##.fast-ad
-mobile01.com##.widget.article:nth-child(3)
-mobile01.com##div.ad-d + div.widget.article
-
-!---tw.msn.com
+!---MSN
+!-CN
+@@||msn.wrating.com/a1.js
+cn.msn.com##div.ads_5 + div.tab
+!-TW
 ||promotion.msn.com.tw^
 tw.msn.com###admomoca2
 tw.msn.com###ectabs
+tw.msn.com##div#area1 > div.ro:nth-child(5)
+tw.msn.com###textlink2
 news.msn.com.tw###adv_images_l
 
 !---未名空间
@@ -534,8 +536,9 @@ myfiles.com.cn##[id^="ad_"]
 onlinedown.net,newhua.com##.scroll-flash
 
 !---NextMedia
+!-HK
 ||hk.ndx.nextmedia.com/DFA/js_ndxtag_v409.cfm^$domain=~hk.dv.nextmedia.com
-!-tw
+!-TW
 @@||advideo.appledaily.com.tw/sites/default/files/CR_APPLE.swf
 ||advideo.appledaily.com.tw^
 tw.nextmedia.com##.ad_figure
@@ -695,7 +698,8 @@ dailynews.sina.com##.TopNav + table
 ||d5.sina.com.cn^
 ||news.sina.com.cn/pfpnews/js/libweb.js
 ||pfp.sina.com.cn^$script
-||pfp.sina.com.cn/iframe/
+||pfp.sina.com.cn/iframe/gn/
+||pfp.sina.com.cn/iframe/no/
 ||rm.sina.com.cn^$~stylesheet,domain=~sinatair.sinaapp.com
 ||v.sina.com.cn^$subdocument
 @@||sinaimg.cn^*/deco/*/commonvideo.js
@@ -808,7 +812,7 @@ tianya.cn##[id*="_AD_"]
 tianya.cn###adsp_content_top_banner
 
 !-tom365
-|http://ff.wanlicity.com^
+||ff.wanlicity.com^
 ||tom365.com/newjs/
 tom365.com###t365
 
@@ -1129,17 +1133,16 @@ gamebase.com.tw##.wait_gbno1
 ||static.115img.com/static/delivery/
 115.com##[class^="ban-"]
 115.com##.res-list
-||multiupload.com/popunder/$image,~image,popup
+ys168.com###xtxx
+@@||dl.dbank.com^$elemhide
+||st2.dbank.com/images/downloadtopbanner01.jpg
 ||static.ctdisk.com/510.js
+||multiupload.com/popunder/$image,~image,popup
 ||d.namipan.com/inc_js/$script
 ||img.rayfile.com/scr/$script
 ||rayfile.com/_.gif?vid
 /ys168/*$domain=ys168.com
 ys168.com###idzdy1
-ys168.com###xtxx
-!---dbank
-@@||dl.dbank.com^$elemhide
-||st2.dbank.com/images/downloadtopbanner01.jpg
 
 
 !---News Sites
@@ -1398,8 +1401,6 @@ www.jstv.com##div[style^="width:540px;"]
 ||yiyi.cc/ad/
 ||youmaker.com/logoad2.jpg
 ||youmaker.com/edoors200708180-150.swf
-!---风行
-@@||q.funshion.com/js.php
 
 !---Miscellaneous
 ||111cn.net/gg_ad/
@@ -1459,7 +1460,6 @@ fj007.com##.ad_div
 frdic.com,godic.net##.headBar
 frdic.com,godic.net###sidebar1
 ||free9.cn^$script
-@@||v.ftimg.net/video/adv/ad.flv
 ||fzlol.com/images/$script
 ||hackvip.com/ai/
 ||hanzify.org/Main/Template/*/a-d-s/
@@ -1548,6 +1548,7 @@ wenwen.soso.com##.ad1
 ||subpig.net/add/
 subpig.net##.a_p
 ||taobao.com/go/app/tbk_app/*$subdocument,domain=subpig.net
+||acookie.taobao.com/1.gif?
 ||bbs.t56.net/ad*/
 ||img.taoguba.com.cn/gbimg/
 ||topsage.com/service/$object
@@ -2090,6 +2091,9 @@ downg.com##.content.ad-b950x50
 www.hoopchina.com##[class^="ad"]
 jandan.net##.eggs
 jandan.net##.xy
+mobile01.com##[class^="ad-"]
+mobile01.com##.admicrobtn
+mobile01.com##a[href^="adredir.php"]
 price.com.hk##.tb
 price.com.hk##[id^="ad"]
 bbs.saraba1st.com##.tac.mb5
@@ -2108,6 +2112,8 @@ xfastest.com###main-bot > .cl
 ||image.10010.com/index_js/flash-ad$script
 ||blog.hi.mop.com/flash/830-310.swf
 ||nanrenwa.com/_img/a/$third-party
+@@||ad1.nownews.com/ads.php?ownerid=1294
+@@||nownews.com/ad2004/120125-202955-2004p.png
 !---test pop-up blocking
 ||arpg2.com^$image,~image,popup
 ||gd.189.cn/ad/$image,~image,popup
@@ -2173,6 +2179,7 @@ xfastest.com###main-bot > .cl
 -contest-ad.
 -cpm-ad.
 -cpm-ads.
+-iframe-ads/
 -images/ad-
 -inspire-ad.
 -layer-ads/
@@ -3386,6 +3393,7 @@ xfastest.com###main-bot > .cl
 /headvert.
 /hitbar_ad_
 /homepage_ads/*
+/hostedads.
 /hostedbannerads.
 /house-ads/*
 /house_ad-
@@ -4319,6 +4327,7 @@ _webad.
 /728x90top.
 /768x90-
 /768x90.
+/ads728x90_
 /banner460x80.
 /banner468x60.
 /bottom728.html
@@ -4768,6 +4777,7 @@ _a468x60.
 ###adBox16
 ###adBox350
 ###adBox390
+###adBoxUpperRight
 ###adCirc300X200
 ###adCirc_620_100
 ###adClickMe
@@ -4779,6 +4789,7 @@ _a468x60.
 ###adContainer_1
 ###adContainer_2
 ###adContainer_3
+###adContentHolder
 ~remixshare.com###adDiv
 ###adDiv300
 ###adDiv728
@@ -4976,6 +4987,7 @@ _a468x60.
 ###ad_fullbanner
 ###ad_gallery
 ###ad_global_header
+###ad_global_header2
 ###ad_h3
 ###ad_haha_1
 ###ad_haha_4
@@ -5120,7 +5132,7 @@ _a468x60.
 ###adition_content_ad
 ###adlabel
 ###adlabelFooter
-###adlayer
+~popcap.com###adlayer
 ###adlayerContainer
 ###adlayer_back
 ###adlayerad
@@ -5282,6 +5294,7 @@ _a468x60.
 ###adskinlink
 ###adsky
 ###adskyscraper
+###adsleft1
 ###adslider
 ###adslot
 ###adsmiddle
@@ -5373,6 +5386,7 @@ _a468x60.
 ###advert-header
 ###advert-leaderboard
 ###advert-links-bottom
+###advert-right
 ###advert-skyscraper
 ###advert-top
 ###advert1
@@ -5551,6 +5565,8 @@ _a468x60.
 ###bigadspot
 ###billboard_ad
 ###block-ad_cube-1
+###block-advert-content
+###block-advert-content2
 ###block-openads-0
 ###block-openads-1
 ###block-openads-2
@@ -6181,6 +6197,7 @@ _a468x60.
 ###mid_ad_div
 ###mid_ad_title
 ###mid_mpu
+###mid_roll_ad_holder
 ###midadd
 ###midadspace
 ###middle-ad
@@ -6259,6 +6276,7 @@ _a468x60.
 ###oanda_ads
 ###onespot-ads
 ###online_ad
+###outbrain-paid
 ###ovadsense
 ###p-googleadsense
 ###page-header-ad
@@ -6653,7 +6671,6 @@ _a468x60.
 ###topadbar
 ###topadblock
 ###topaddwide
-~horsebase.at,~horsebase.com,~horsebase.de,~pferde-suchen.com,~pferde-verkaufen.com###topads
 ###topadsense
 ###topadspace
 ###topadwrap
@@ -6859,6 +6876,7 @@ _a468x60.
 ##.GoogleAd
 ##.GoogleAdSenseBottomModule
 ##.GoogleAdSenseRightModule
+##.HGLoneAdTitleFrame
 ##.HPG_Ad_B
 ##.HPNewAdsBannerDiv
 ##.HPRoundedAd
@@ -7088,7 +7106,7 @@ _a468x60.
 ##.ad-widget-list
 ##.ad-with-us
 ~howtopriest.com##.ad-wrap
-##.ad-wrapper
+~happypancake.com##.ad-wrapper
 ##.ad-zone
 ##.ad-zone-s-q-l
 ##.ad.super
@@ -7315,7 +7333,7 @@ _a468x60.
 ##.ad_body
 ##.ad_border
 ##.ad_botbanner
-##.ad_bottom
+~bakeca-incontri.net##.ad_bottom
 ##.ad_bottom_leaderboard
 ##.ad_bottom_left
 ##.ad_box
@@ -7326,7 +7344,7 @@ _a468x60.
 ##.ad_buttons_320
 ##.ad_callout
 ##.ad_caption
-##.ad_center
+~bakeca-incontri.net##.ad_center
 ##.ad_column
 ##.ad_column_box
 ##.ad_column_hl
@@ -7359,7 +7377,7 @@ _a468x60.
 ##.ad_launchpad
 ##.ad_leader
 ##.ad_leaderboard
-##.ad_left
+~bakeca-incontri.net##.ad_left
 ##.ad_line
 ##.ad_link
 ~leboncoin.fr,~subito.it##.ad_links
@@ -7393,7 +7411,7 @@ _a468x60.
 ##.ad_rec
 ##.ad_rectangle
 ##.ad_rectangle_300_250
-~didaktik-der-mathematik.de,~whitepages.com##.ad_right
+~bakeca-incontri.net,~didaktik-der-mathematik.de,~whitepages.com##.ad_right
 ##.ad_right_col
 ##.ad_row
 ##.ad_row_bottom_item
@@ -7744,7 +7762,7 @@ _a468x60.
 ~absolute.com##.adtile
 ##.adtips
 ##.adtips1
-~katuha.com,~mercedesclubs.de,~otelfingen.ch,~sulit.com.ph##.adtitle
+~bakeca-incontri.net,~katuha.com,~mercedesclubs.de,~otelfingen.ch,~sulit.com.ph##.adtitle
 ##.adtop
 ##.adtower
 ##.adtravel
@@ -8644,6 +8662,7 @@ _a468x60.
 ##.micro_ad
 ~driverscollection.com##.mid_ad
 ##.mid_page_ad
+##.mid_page_ad_big
 ##.midad
 ##.middle-ad
 ##.middleAd
@@ -8765,6 +8784,7 @@ _a468x60.
 ##.openx_ad
 ##.osan-ads
 ##.other_adv2
+##.outbrain_ad_li
 ##.outermainadtd1
 ##.ovAdPromo
 ##.ovAdSky
@@ -8930,7 +8950,7 @@ _a468x60.
 ##.searchSponsoredResultsList
 ##.search_column_results_sponsored
 ##.search_results_sponsored_top
-##.searchads
+~bisexual.com##.searchads
 ##.section-ad2
 ##.section_mpu_wrapper
 ##.section_mpu_wrapper_wrapper
@@ -9084,6 +9104,7 @@ _a468x60.
 ##.sponsored_results
 ##.sponsored_ss
 ##.sponsored_well
+##.sponsoredby
 ##.sponsoredibbox
 ##.sponsoredlink
 ##.sponsoredlinks
@@ -9101,6 +9122,7 @@ _a468x60.
 ##.squareAd
 ##.square_ad
 ##.square_banner_ad
+##.squareads
 ##.squared_ad
 ##.ss-ad-banner
 ##.ss-ad-mpu
@@ -9513,6 +9535,7 @@ _a468x60.
 ||adnet.com^$third-party
 ||adnet.ru^$third-party
 ||adnetwork.com.br^$third-party
+||adnetwork.net^$third-party
 ||adnxs.com^$third-party
 ||adocean.pl^$third-party
 ||adoperator.com^$third-party
@@ -10150,6 +10173,7 @@ _a468x60.
 ||loading-resource.com^$third-party
 ||localadbuy.com^$third-party
 ||logo-net.co.uk^$third-party
+||lookit-quick.com^$third-party
 ||looksmart.com^$third-party
 ||loseads.eu^$third-party
 ||love-banner.com^$third-party
@@ -10169,6 +10193,8 @@ _a468x60.
 ||maxserving.com^$third-party
 ||mb01.com^$third-party
 ||mbn.com.ua^$third-party
+||media-servers.net^$image,~image,popup
+||media-servers.net^$third-party
 ||media6degrees.com^$third-party
 ||mediaclick.com^$third-party
 ||mediacpm.com^$third-party
@@ -10434,6 +10460,7 @@ _a468x60.
 ||softonicads.com^$third-party
 ||softpopads.com^$third-party
 ||sonnerie.net^$third-party
+||sparkstudios.com^$image,~image,popup
 ||sparkstudios.com^$third-party
 ||specificclick.net^$third-party
 ||specificmedia.com^$third-party
@@ -10525,6 +10552,8 @@ _a468x60.
 ||trkalot.com^$third-party
 ||trker.com^$third-party
 ||tubemogul.com^$third-party
+||tutvp.com^$image,~image,popup
+||tutvp.com^$third-party
 ||tvprocessing.com^$third-party
 ||twinpinenetwork.com^$third-party
 ||twinplan.com^$third-party
@@ -10770,6 +10799,7 @@ _a468x60.
 ||xxxlnk.com^$third-party
 ||yazcash.com^$third-party
 ||yfum.com^$third-party
+||your-big.com^$third-party
 ! *** easylist:easylist/easylist_thirdparty.txt ***
 ||000webhost.com/images/banners/
 ||1-in-a-million.com/banners/
@@ -10924,6 +10954,8 @@ _a468x60.
 ||businessnewswatch.ca/images/nnwbanner/
 ||buydig.com/assets/banners/
 ||buzznet.com^*/showpping-banner-$third-party
+||cal-one.net/ellington/deals_widget.php?
+||cal-one.net/ellington/search_form.php?
 ||cancomdigital.com/resourcecenter/$third-party
 ||cancomuk.com/campaigns/
 ||canonresourcecenter.com^$third-party
@@ -11001,6 +11033,8 @@ _a468x60.
 ||exoplanetwar.com/l/landing.php?
 ||expekt.com/affiliates/
 ||extensoft.com/artisteer/banners/
+||extras.mercurynews.com/tapin_directory/
+||extras.mnginteractive.com^*/todaysdeals.gif
 ||eyetopics.com/content_images/$third-party
 ||ezcashmailer.com/banners/
 ||facebook.com/whitepages/wpminiprofile.php?partner_id=$third-party
@@ -12236,6 +12270,7 @@ _cedexis.php
 ||freshcounter.com^$third-party
 ||fusestats.com^$third-party
 ||fyreball.com^$third-party
+||gaug.es^$third-party
 ||geobytes.com^$third-party
 ||geovisite.com^$third-party
 ||getclicky.com^$third-party
@@ -12655,6 +12690,7 @@ _cedexis.php
 ||web-stat.com^$third-party
 ||webcounter.co.za^$third-party
 ||webcounter.ws^$third-party
+||webflowmetrics.com^$third-party
 ||webforensics.co.uk^$third-party
 ||webiqonline.com^$third-party
 ||website-hit-counters.com^$third-party
@@ -13135,6 +13171,7 @@ _cedexis.php
 ||whosread.com/counter/
 ||widgeo.net/compteur.php?
 ||widgeo.net/geocompteur/
+||widget.perfectmarket.com/*/view/
 ||widgetbox.com/syndication/track/
 ||widgetserver.com/metrics/
 ||widgetserver.com/t/
