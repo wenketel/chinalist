@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: caQAUZYZnI3SRp/xkiz47A
+!  Checksum: IEHsyhbP4VoRlB/u1J71aA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 11 Feb 2012 00:26:16 +0800
+!  Last Modified:  Sat, 11 Feb 2012 15:01:06 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -13,7 +13,8 @@
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
 !----------------------------White List--------------------
 !---Shopping websites
-@@^type=ad$domain=360buy.com
+@@||adimg.adtpl.360buy.com/uploads/$image
+@@||book.360buy.com/book/BookShowService.aspx$xmlhttprequest
 @@/adbanner/*$image,domain=books.com.tw
 @@||banner.alimama.com^$domain=zx.taobao.com
 @@||paipai.com^$domain=shop.qq.com
@@ -268,7 +269,7 @@ iteye.com###forum_recommended_f4
 iteye.com###forum_recommended_f5
 
 !---当当
-||a.dangdang.com^$~third-party
+||a.dangdang.com/smart.js?
 ||click.dangdang.com^$~third-party
 ||ddimg.cn^$object
 www.dangdang.com###message
@@ -347,8 +348,8 @@ focus.cn##.ad_fp
 
 !---风行网
 @@||q.funshion.com/js.php
-||vas.funshion.com^
 ||ft.funshion.com^$subdocument
+||vas.funshion.com^
 
 !---火狐主页
 /iframes/*$subdocument,domain=firefoxchina.cn|i.g-fox.cn
@@ -537,7 +538,6 @@ onlinedown.net,newhua.com##.scroll-flash
 !-HK
 ||hk.ndx.nextmedia.com/DFA/js_ndxtag_v409.cfm^$domain=~hk.dv.nextmedia.com
 !-TW
-@@||advideo.appledaily.com.tw/sites/default/files/CR_APPLE.swf
 ||advideo.appledaily.com.tw^
 tw.nextmedia.com##.ad_figure
 tw.nextmedia.com##.adsq
@@ -797,7 +797,7 @@ taihe.net###table1
 !---电玩巴士
 ||inc.tgbus.com/frame/
 ||vista.tgbusdata.cn/s.js
-tgbus.com##[class^="ad_"]
+tgbus.com##[class^="ad_"]:not(.ad_hide_contents)
 
 !---TianYa
 ||blog.tianya.cn/tuijian/tanchu.js
@@ -945,7 +945,7 @@ cn.yahoo.com###r_expandable
 ||tw.rd.yahoo.com^$image
 ||tw.img.webmaster.yahoo.com^*/ystats.gif
 @@/flash_general_20090213.js|$domain=tw.yahoo.com
-@@||l.yimg.com/zz/combo?$script
+@@||l.yimg.com/zz/combo?*/ads/$script
 ||yimg.com/no/$domain=~yahoo.com
 ||l.yimg.com/d/lib/bc/bcr_2.0.5.js
 ||l.yimg.com/pq/
@@ -1039,9 +1039,6 @@ itopdog.cn##[id^="itopdog_ad-"]
 jiaren.org###more-menu
 jiaren.org###text-276115465
 jiaren.org###text-276115468
-||soft4fun.net/images/$object
-||steachs.com^$object
-||images.steachs.com/gechic.gif
 
 !---Download Sites
 ||05sun.com^$script
@@ -1133,7 +1130,6 @@ gamebase.com.tw##.wait_gbno1
 ||static.115img.com/static/delivery/
 115.com##[class^="ban-"]
 115.com##.res-list
-ys168.com###xtxx
 @@||dl.dbank.com^$elemhide
 ||st2.dbank.com/images/downloadtopbanner01.jpg
 ||static.ctdisk.com/510.js
@@ -1143,6 +1139,7 @@ ys168.com###xtxx
 ||rayfile.com/_.gif?vid
 /ys168/*$domain=ys168.com
 ys168.com###idzdy1
+ys168.com###xtxx
 
 
 !---News Sites
@@ -1179,9 +1176,6 @@ huanqiu.com##[id^="banner"]
 ||www.junshier.com/data/js/
 www.junshier.com##a[href^="http://code.2bj.cc"]
 ||junshijia.com/new/$script
-||junshijia.com/images/funcs.js
-junshijia.com##.newlist7_1
-||news.cn/js20100613/ad_01.js
 ||ntdtv.com/xtr/ad/
 ||ashow.pcpop.com^
 www.pcpop.com##div.Content > div.l1:first-child
@@ -1201,6 +1195,7 @@ tom.com##.tomgame
 ||image.wenweipo.com/*/ad_
 _iframe.htm|$domain=news.cn|xinhuanet.com
 ||xinhuanet.com/classad/
+||xinhuanet.com^*/ad_
 ||embed.xinhuanet.com^
 ||iads.xinmin.cn^
 xmnn.cn##[class^="ad"]
@@ -1243,6 +1238,8 @@ js.17kkmh.com/scriptAD/
 ||52tian.net/qq/
 ||52tian.net/js/function.js
 ||cnzz.52tian.net^
+||556677.net/images/t$script
+||556677.net/static/js/tt.js
 ||86zw.com/zz/
 @@||book.58xs.com/hot/u.js
 ||58xs.com/hot/
@@ -1259,8 +1256,7 @@ js.17kkmh.com/scriptAD/
 ||mh.99770.cc^$subdocument
 ||mh.99770.cc/x/p*.js
 ||mh.99770.cc/x/t.js
-@@99comic.com/x/i.js
-||99comic.com^$script
+||99comic.com/jsc/book_
 ||9lala.com/js/
 @@||dm.99manga.com/jsc/book.js
 @@||dm.99manga.com/w/i.js
@@ -1283,6 +1279,7 @@ baiwandu.com###ptcmsad1
 ||cc222.com/_javascript/popupWin.js
 @@||cococomic.com/v3/i3.js
 ||cococomic.com/g/
+||cococomic.com/v3/t.js
 ||cntingshu.net/js/cntingshu/
 @@||d9cn.org/js/read_6.js
 ||d9cn.org/js/
@@ -1347,6 +1344,8 @@ shushuw.cn##.bdad
 @@||xiaoxiucai.org/js/default.js
 ||xiaoxiucai.org/js/
 ||xiashu.net/js/*Ad.js
+||xiazailou.com^*/ad$script
+||xiazailou.com/js/new/read01.js
 ||xinniepo.com/themes/jieqi160/moni*.js
 ||xinniepo.com/themes/jieqi160/neirongxia*.js
 ||xizibook.com/js_ad/
@@ -1653,6 +1652,7 @@ xitek.com##[id^="mo"]
 ||p.37lai.com^$third-party
 ||cs.37see.com^$third-party
 ||3gpz.net^$third-party
+||3munion.net^$third-party
 ||51link.com^$third-party
 ||51wan.com^$third-party
 ||523688.com^$third-party
@@ -1676,6 +1676,7 @@ xitek.com##[id^="mo"]
 ||70e.com^$third-party
 ||70yx.com^$third-party
 ||74lm.com^$third-party
+||7555.net^$third-party
 ||778669.com^$third-party
 ||7794.com^$third-party
 ||77go.com^$third-party
@@ -1708,6 +1709,7 @@ xitek.com##[id^="mo"]
 ||9ead.com^$third-party
 ||9wad.com^$third-party
 ||9wee.com^$third-party
+||a3p4.com^$thirdp-party
 ||a1click.aiqun.com^$third-party
 ||acs86.com^$third-party
 ||link.ad966.com^$third-party
