@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: xxQz0q6UtfsdwPKBfHnaRQ
+!  Checksum: A7rW+FGHGy+QKWgVRUCm7Q
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 11 Feb 2012 15:58:07 +0800
+!  Last Modified:  Sat, 11 Feb 2012 17:08:10 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -14,6 +14,7 @@
 !  coding: utf-8, expires: 5 days
 !--CC-BY-SA 3.0 + Licensed, NO WARRANTY but Best Wishes----
 !----------------------------White List--------------------
+@@||acfun.tv/plus/ad_js.php?aid=8
 !---Shopping websites
 @@||adimg.adtpl.360buy.com/uploads/$image
 @@||book.360buy.com/book/BookShowService.aspx$xmlhttprequest
@@ -80,6 +81,10 @@ search.21cn.com##td[width="184"][align="left"]
 !---3boys2girls
 ||3boys2girls.com^$subdocument
 ||3boys2girls.com/images/newdefault/banner$image
+||3boys2girls.com/newfile/image2010/banner_housead_
+||3boys2girls.com/overture_
+||hk.go2tutor.com/lifebox.asp
+||key8.com/cache/www/banner_
 ||ktzhk.com/plugins/cache_template/adv_3b2g.js
 
 !---3DM Game
@@ -116,11 +121,6 @@ v.6.cn###playerAd
 ||6park.com/parks/$script
 ||6park.com/wap/
 6park.com##body > table[width="978"]:nth-child(5)
-
-!---acfun.cn
-@@||acfun.tv/plus/ad_js.php?aid=8
-||acfun.tv/upload/acfuntc.js
-/newflvplayer/xml/gg_a.xml
 
 !---admin5.com
 ||admin5.com/extras/zz/$script
@@ -187,6 +187,7 @@ iknow.baidu.com,zidao.baidu.com,z.baidu.com,zhidao.baidu.com###qb-ad-cpro
 ||pub.htwisdom.com^$third-party
 
 !---bilibili.tv
+||bilibili.tv/bdad.html
 ||bilibili.tv/html/arcads.js
 /ad-images/*$domain=bilibili.tv
 bilibili.tv###topgg
@@ -799,8 +800,14 @@ taihe.net###table1
 !---电玩巴士
 @@||games.tgbus.com/down.aspx?$elemhide
 ||inc.tgbus.com/frame/
+||tgbus.com/search/article_endcontent_google.htm
+||tgbus.com/sf/taobao/
 ||vista.tgbusdata.cn/s.js
+tgbus.com##[class^="ad"][class*="t8"]
 tgbus.com##[class^="ad_"]
+tgbus.com##.ad86
+tgbus.com##.ads1
+tgbus.com##div#navi + div.area
 
 !---TianYa
 ||blog.tianya.cn/tuijian/tanchu.js
@@ -1538,7 +1545,7 @@ ph66.com##[class^="ad_"]
 ||img.rmfans.cn/g/banner88.gif
 ||sellgreat.com/images/Bdvertisement/
 ||shanxiwch.com/backwh/webmore/ad_imshow.asp^
-||simplecd.org/static/adcp$script
+||simplecd.org/static/ad$script,subdocument
 ||so100.cn/images/a*.js
 ||so100.cn/images/newshead.htm
 ||dr.soso.com^
