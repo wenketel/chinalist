@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: Zc47YdaBKZ+5fXXgxhiumA
+!  Checksum: bzq/AWttzoegfVpVLOTmig
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 11 Feb 2012 21:11:13 +0800
+!  Last Modified:  Sun, 12 Feb 2012 11:46:20 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -986,6 +986,9 @@ hk.yahoo.com###ysm-ad
 ynet.com###ta01
 
 !---优酷
+@@||valf.atm.youku.com/crossdomain.xml
+@@||valf.atm.youku.com/valf?
+||f.youku.com/player/getFlvPath/fileid/
 ||html.atm.youku.com^
 ||lstat.youku.com^
 ||val*.atm.youku.com^
@@ -4997,6 +5000,7 @@ _a468x60.
 ###ad_front_three
 ###ad_fullbanner
 ###ad_gallery
+###ad_global_above_footer
 ###ad_global_header
 ###ad_global_header2
 ###ad_h3
@@ -5235,7 +5239,7 @@ _a468x60.
 ###ads_banner
 ###ads_belowforumlist
 ###ads_belownav
-###ads_bottom
+~mexx.ca###ads_bottom
 ###ads_bottom_inner
 ###ads_bottom_outer
 ###ads_box
@@ -7008,7 +7012,7 @@ _a468x60.
 ##.ad-break
 ##.ad-btn
 ##.ad-btn-heading
-~assetbar.com##.ad-button
+~assetbar.com,~o2.pl##.ad-button
 ##.ad-cell
 ##.ad-column
 ~arbetsformedlingen.se,~mobile.de##.ad-container
@@ -7044,7 +7048,7 @@ _a468x60.
 ##.ad-inline
 ~gumtree.com.au,~kijiji.ca##.ad-inner
 ##.ad-island
-##.ad-item
+~siemens-home.de##.ad-item
 ##.ad-label
 ##.ad-leaderboard
 ~jerseyinsight.com##.ad-left
@@ -7388,7 +7392,7 @@ _a468x60.
 ##.ad_launchpad
 ##.ad_leader
 ##.ad_leaderboard
-~bakeca-incontri.net##.ad_left
+~bakeca-incontri.net,~mexx.ca##.ad_left
 ##.ad_line
 ##.ad_link
 ~leboncoin.fr,~subito.it##.ad_links
@@ -7422,7 +7426,7 @@ _a468x60.
 ##.ad_rec
 ##.ad_rectangle
 ##.ad_rectangle_300_250
-~bakeca-incontri.net,~didaktik-der-mathematik.de,~whitepages.com##.ad_right
+~bakeca-incontri.net,~didaktik-der-mathematik.de,~mexx.ca,~whitepages.com##.ad_right
 ##.ad_right_col
 ##.ad_row
 ##.ad_row_bottom_item
@@ -7807,7 +7811,7 @@ _a468x60.
 ##.advert-bannerad
 ##.advert-bg-250
 ##.advert-bloggrey
-##.advert-box
+~eatsy.co.uk##.advert-box
 ##.advert-btm
 ##.advert-head
 ~mobifrance.com##.advert-horizontal
@@ -9036,6 +9040,7 @@ _a468x60.
 ##.skyscraper_bannerAdHome
 ##.sleekadbubble
 ##.slideshow-ad
+##.slot_728_ad
 ##.slpBigSlimAdUnit
 ##.slpSquareAdUnit
 ##.sm_ad
@@ -10225,6 +10230,7 @@ _a468x60.
 ||mercuras.com^$third-party
 ||metaffiliation.com^$third-party
 ||metrics.io^$third-party
+||meviodisplayads.com^$third-party
 ||mezimedia.com^$third-party
 ||mgcash.com^$third-party
 ||microsoftaffiliates.net^$third-party
@@ -11687,6 +11693,7 @@ _a468x60.
 ! *** easylist:easyprivacy/easyprivacy_dnt.txt ***
 *$donottrack,image,~image
 @@||easy.box^$donottrack,image,~image
+@@||nekto.me^$donottrack,image,~image
 @@||speedport.ip^$donottrack,image,~image
 ! *** easylist:easyprivacy/easyprivacy_general.txt ***
 -xtcore.js
@@ -11774,6 +11781,7 @@ _a468x60.
 /e107_plugins/log/log.php?
 /eae-logger/*
 /econa-site-search-ajax-log-referrer.php
+/econa-site-search/log.php?
 /edata.js
 /elqcfg-$script
 /elqcfg.js
