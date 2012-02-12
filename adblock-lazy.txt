@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: /Gtk41JA0/O0KCqMoJ4KZg
+!  Checksum: Hi3sFEunbjY26FufYI6+tA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 12 Feb 2012 14:46:03 +0800
+!  Last Modified:  Sun, 12 Feb 2012 17:09:19 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -463,6 +463,11 @@ www.it168.com##div#header + div[style^="border"]
 ||riju.com^$domain=jpfans.com|jpseek.com
 jpseek.com,jpfans.com##div[align="center"] + table[align="center"][width="98%"]
 
+!---卡饭论坛
+||bbs.kafan.cn/static/kafan_bd/
+||bbs.kafan.cn/static/kafan_img/$domain=www.kafan.cn
+kafan.cn##table.header_gg
+
 !---开心网
 ||img.kaixin001.com.cn/js/cpm*.js
 ||xnimg.cn/imgpro/app/ad$image
@@ -575,6 +580,7 @@ bbs.pcbeta.com##.forum_top + div[style]:nth-child(3)
 ||btm.pchome.net^
 ||js-1.pchome.net/js/ipub/ipub_homepage.js
 ||js-1.pchome.net/ol.js
+||club.pchome.net/*/localexchange.php$subdocument
 pchome.net##[id^="AD"]
 pchome.net##[class^="ad"]
 www.pchome.net###popWin
@@ -1004,6 +1010,12 @@ yyets.com##[id^="kads"]
 !--forum
 ||fujian.yyets.com/forumid_194/
 /yyets_94080.gif
+
+!---搜搜网
+||dr.soso.com^
+soso.com##[ss_c^="ad_"]
+soso.com###rads
+wenwen.soso.com##.ad1
 
 !---ZASV
 @@||ad.zasv.com^*/*/$image,object
@@ -1478,6 +1490,7 @@ frdic.com,godic.net###sidebar1
 ||hk-pub.com/forum/ads_html/
 ||hk-pub.com/forum/images/banner/
 ||hdad.hudong.com/hdad/
+||img.hdbird.com/langzi/20100212/Wiredtiger_950X90X4x1220.gif
 ||huodong.hudong.com^$subdocument
 ||huidabbs.com/janet/
 ||hxsxw.com/gg$image
@@ -1499,9 +1512,6 @@ frdic.com,godic.net###sidebar1
 ||jd-bbs.com^$object
 ||jpwind.com/images/partner/
 jpwind.com##[id^="ShowAD"]
-||bbs.kafan.cn/static/kafan_bd/
-||bbs.kafan.cn/static/kafan_img/$domain=www.kafan.cn
-kafan.cn##table.header_gg
 ||panda*.kdnet.net^
 ||kuqin.com/da/
 ||links.kugoo.com^
@@ -1531,7 +1541,6 @@ needpop.com##div > div.spaceborder[style="width: 98%"]
 ||dl.opda.com.cn/attachments/portal/
 ||p5w.net/pfgg/
 ||pchome.com.tw/js/PChomeFS.js
-||club.pchome.net/*/localexchange.php$subdocument
 news.pchome.com.tw###ad_bg_div
 ||ph66.com^$object
 ph66.com##[class^="ad_"]
@@ -1552,10 +1561,6 @@ ph66.com##[class^="ad_"]
 ||simplecd.org/static/ad$script,subdocument
 ||so100.cn/images/a*.js
 ||so100.cn/images/newshead.htm
-||dr.soso.com^
-soso.com##[ss_c^="ad_"]
-soso.com###rads
-wenwen.soso.com##.ad1
 ||subpig.net/add/
 subpig.net##.a_p
 ||taobao.com/go/app/tbk_app/*$subdocument,domain=subpig.net
@@ -2093,7 +2098,7 @@ xitek.com##[id^="mo"]
 ||wumii.com/images/pixel.png
 
 !-----------------------Element Hiding---------------------
-www.1000fr.net##center
+1000fr.net##center
 sbsrunningman.5d6d.com###header
 www.alibuybuy.com##[class^="ad_"]
 av199.com,hd199.com##table[height="30"]
