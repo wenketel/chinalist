@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: JYUy4dqBpsKc+eLdJaCErg
+!  Checksum: 2An2gsUS6kjtLVlaQo8ang
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 13 Feb 2012 04:43:40 +0800
+!  Last Modified:  Mon, 13 Feb 2012 04:50:21 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -640,7 +640,7 @@ jjwxc.net##table[style^="width:984px;"]
 ||aa.sdo.com^
 ||dwtracking.sdo.com^
 ||aagw.sdo.com^
-||ipic.staticsdo.com^$third-party
+||ipic.staticsdo.com^
 
 !---QQ
 @@||adsrich.qq.com/web/crystal/$script,domain=news.qq.com
@@ -998,7 +998,9 @@ ynet.com###ta01
 !---优酷
 @@||valf.atm.youku.com/crossdomain.xml
 @@||valf.atm.youku.com/valf?
-||atm.youku.com^
+||html.atm.youku.com^
+||val*.atm.youku.com^
+||static.atm.youku.com^$object
 ||f.youku.com/player/getFlvPath/fileid/
 ||lstat.youku.com^
 ||stat.youku.com^
