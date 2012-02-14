@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: HimgD1Kt+7hr4LQ6kpFrNQ
+!  Checksum: z2KmIOUOhBVgvjk5yWVTkg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 13 Feb 2012 19:34:45 +0800
+!  Last Modified:  Tue, 14 Feb 2012 12:59:09 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -173,10 +173,11 @@ video.baidu.com##div#results > div[style^="display:block;width:980px;"]
 !--zhidao
 ||baidu.com^*/egg*.swf
 ||cp.zhidao.baidu.com^$script
-iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com##.ad-fc-down
-zidao.baidu.com,zhidao.baidu.com##.r
-zidao.baidu.com,zhidao.baidu.com###ad-brand-down
+iknow.baidu.com,zhidao.baidu.com###advertise
 zidao.baidu.com,zhidao.baidu.com###center > div[style="width:85%"]
+iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com##.ad-fc-down
+zidao.baidu.com,zhidao.baidu.com###ad-brand-down
+zidao.baidu.com,zhidao.baidu.com##.r
 iknow.baidu.com,zidao.baidu.com,z.baidu.com,zhidao.baidu.com###qb-ad-cpro
 !--qiyi
 @@||afp.qiyi.com^*&local=xml|
@@ -4840,6 +4841,7 @@ _a468x60.
 ~dipeo.de###adRight
 ###adRight2
 ###adSPLITCOLUMNTOPRIGHT
+###adSense
 ###adSenseModule
 ###adSenseWrapper
 ###adServer_marginal
@@ -6071,6 +6073,7 @@ _a468x60.
 ###hpV2_300x250Ad
 ###hpV2_googAds
 ###hp_ad300x250
+###i_ads_table
 ###ibt_local_ad728
 ###icePage_SearchLinks_AdRightDiv
 ###icePage_SearchLinks_DownloadToolbarAdRightDiv
@@ -6221,6 +6224,7 @@ _a468x60.
 ###midadd
 ###midadspace
 ###middle-ad
+###middleRightColumnAdvert
 ###middle_ad
 ###middle_body_advertising
 ###middlead
@@ -7309,6 +7313,7 @@ _a468x60.
 ##.ad_125
 ##.ad_130x90
 ##.ad_160
+##.ad_160_600
 ##.ad_160x600
 ~sanmarcosrecord.com##.ad_2
 ##.ad_200
@@ -7330,6 +7335,7 @@ _a468x60.
 ##.ad_600
 ##.ad_680x15
 ##.ad_728
+##.ad_728_90
 ##.ad_728_90b
 ~bestplaces.nydailynews.com,~elledecor.com##.ad_728x90
 ##.ad_88x31
@@ -7376,6 +7382,7 @@ _a468x60.
 ##.ad_descriptor
 ##.ad_disclaimer
 ##.ad_eyebrow
+##.ad_filler
 ##.ad_footer
 ##.ad_frame
 ##.ad_framed
@@ -8236,6 +8243,7 @@ _a468x60.
 ##.contentAdContainer
 ##.contentAdFoot
 ##.contentAdsWrapper
+##.contentAdvertisement
 ##.content_ad
 ##.content_ad_728
 ##.content_adsense
@@ -8971,7 +8979,7 @@ _a468x60.
 ##.searchSponsoredResultsList
 ##.search_column_results_sponsored
 ##.search_results_sponsored_top
-~bisexual.com##.searchads
+~avizo.cz,~bisexual.com##.searchads
 ##.section-ad2
 ##.section_mpu_wrapper
 ##.section_mpu_wrapper_wrapper
@@ -9421,6 +9429,7 @@ _a468x60.
 ###mclip_container:last-child
 ###mn #center_col > div > h2.spon:first-child
 ###mn #center_col > div > h2.spon:first-child + ol:last-child
+###resultspanel > #topads
 ###ssmiwdiv[jsdisplay]
 ###tads.c
 ###tadsb.c
@@ -9440,7 +9449,7 @@ _a468x60.
 ||209.222.8.217^$third-party,domain=~p2p.adserver.ip
 ||247realmedia.com^$third-party
 ||2mdn.net/dot.gif$object-subrequest,third-party
-||2mdn.net^$object-subrequest,third-party,domain=bbc.co.uk|bet.com|bloomberg.com|businessday.co.za|businessweek.com|calgaryherald.com|drive.com.au|edmontonjournal.com|eonline.com|euronews.net|globaltoronto.com|heraldsun.com.au|leaderpost.com|metacafe.com|montrealgazette.com|nationalpost.com|ndtv.com|newyorkjets.com|ottawacitizen.com|reuters.com|rollingstone.com|rte.ie|skynews.com.au|smh.com.au|telegraph.co.uk|theage.com.au|theaustralian.com.au|thecomedynetwork.ca|theprovince.com|thestarphoenix.com|timescolonist.com|vancouversun.com|vice.com|windsorstar.com
+||2mdn.net^$object-subrequest,third-party,domain=bbc.co.uk|bet.com|bloomberg.com|businessday.co.za|businessweek.com|calgaryherald.com|drive.com.au|edmontonjournal.com|eonline.com|euronews.net|globaltoronto.com|heraldsun.com.au|leaderpost.com|metacafe.com|montrealgazette.com|nationalpost.com|ndtv.com|newyorkjets.com|ottawacitizen.com|reuters.com|rollingstone.com|rte.ie|sherdog.com|skynews.com.au|smh.com.au|telegraph.co.uk|theage.com.au|theaustralian.com.au|thecomedynetwork.ca|theprovince.com|thestarphoenix.com|timescolonist.com|vancouversun.com|vice.com|windsorstar.com
 ||2mdn.net^$~object-subrequest,third-party
 ||360ads.com^$third-party
 ||360yield.com^$third-party
@@ -10781,6 +10790,7 @@ _a468x60.
 ||juicycash.net^$third-party
 ||k9x.net^$third-party
 ||lovercash.com^$third-party
+||magical-sky.com^$third-party
 ||mediagra.com^$third-party
 ||meineserver.com^$third-party
 ||methodcash.com^$third-party
@@ -12824,6 +12834,7 @@ _cedexis.php
 ||analytics.performable.com^
 ||analytics.rogersmedia.com^
 ||analytics.sitewit.com^
+||analytics.springboardvideo.com^
 ||analytics.tribeca.vidavee.com^
 ||analytics.wildtangent.com^
 ||analytics.yola.net^
