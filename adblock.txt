@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: IG0jy4p9wzimEbgljl/JEg
+!  Checksum: YYbiiPjg/F+L/AAJ5NJcLQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 14 Feb 2012 14:51:11 +0800
+!  Last Modified:  Wed, 15 Feb 2012 21:54:33 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -23,11 +23,11 @@
 @@||shangcuwang.com^$image,~third-party
 @@/advertise/*$domain=suning.com
 !---Hiding filters shouldn't affect on these site.
+@@||acg.178.com^$elemhide
 @@||51job.com^$elemhide
 @@||52vfx.com^$elemhide
 @@||shop.ali213.com^$elemhide
 @@||xiazaiba.com^$elemhide
-@@||acg.178.com^$elemhide
 !---Make sure video from those sites can be played correctly
 @@||v.ftimg.net/video/adv/ad.flv
 @@||afp.goyeah.com^$object_subrequest
@@ -1166,6 +1166,9 @@ gamebase.com.tw##.wait_gbno1
 ||d.namipan.com/inc_js/$script
 ||img.rayfile.com/scr/$script
 ||rayfile.com/_.gif?vid
+/offline_banner/*$domain=ref.so
+/shortcounter.jsp$domain=ref.so
+ref.so##table[width="300"]
 /ys168/*$domain=ys168.com
 ys168.com###idzdy1
 ys168.com###xtxx
@@ -1894,8 +1897,8 @@ xitek.com##[id^="mo"]
 ||pixelinteractivemedia.com^$third-party
 ||ppunion.com^$third-party
 ||prohost.com.tw^$third-party
+||image.qndown.com^$third-party
 ||ttmsg.qianqian.com^
-||qd.code.^$third-party
 ||qi-yue.com^$third-party
 ||qiyou.com^$third-party
 ||qizhao.com^$third-party

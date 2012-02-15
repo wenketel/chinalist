@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: Ytdj0WbzXQ1ahWvvkDRG2g
+!  Checksum: wTTXLpWsAHmPiAUhoTjU/A
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 14 Feb 2012 14:51:11 +0800
+!  Last Modified:  Wed, 15 Feb 2012 21:54:33 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -25,11 +25,11 @@
 @@||shangcuwang.com^$image,~third-party
 @@/advertise/*$domain=suning.com
 !---Hiding filters shouldn't affect on these site.
+@@||acg.178.com^$elemhide
 @@||51job.com^$elemhide
 @@||52vfx.com^$elemhide
 @@||shop.ali213.com^$elemhide
 @@||xiazaiba.com^$elemhide
-@@||acg.178.com^$elemhide
 !---Make sure video from those sites can be played correctly
 @@||v.ftimg.net/video/adv/ad.flv
 @@||afp.goyeah.com^$object_subrequest
@@ -1166,6 +1166,9 @@ gamebase.com.tw##.wait_gbno1
 ||d.namipan.com/inc_js/$script
 ||img.rayfile.com/scr/$script
 ||rayfile.com/_.gif?vid
+/offline_banner/*$domain=ref.so
+/shortcounter.jsp$domain=ref.so
+ref.so##table[width="300"]
 /ys168/*$domain=ys168.com
 ys168.com###idzdy1
 ys168.com###xtxx
@@ -1894,8 +1897,8 @@ xitek.com##[id^="mo"]
 ||pixelinteractivemedia.com^$third-party
 ||ppunion.com^$third-party
 ||prohost.com.tw^$third-party
+||image.qndown.com^$third-party
 ||ttmsg.qianqian.com^
-||qd.code.^$third-party
 ||qi-yue.com^$third-party
 ||qiyou.com^$third-party
 ||qizhao.com^$third-party
@@ -2331,6 +2334,7 @@ xfastest.com###main-bot > .cl
 /ad/img/*
 /ad/index.
 /ad/index/*
+/ad/load_
 /ad/rotate?
 /ad/script/*
 /ad/serve.
@@ -3148,6 +3152,7 @@ xfastest.com###main-bot > .cl
 /bigboxad.
 /bkgrndads/*
 /blockad_
+/blog_ads/*
 /blogad_
 /blogads.
 /blogads/*
@@ -3636,6 +3641,7 @@ xfastest.com###main-bot > .cl
 /ox_ultimate/www/*
 /page-ads.
 /pagead/ads?
+/pagead/imgad?
 /pageadimg/*
 /pageads/*
 /pageear.
@@ -3682,6 +3688,7 @@ xfastest.com###main-bot > .cl
 /player/ad/*
 /player/ads.
 /player_ads/*
+/plugin/ad/*
 /plugins_ads_
 /plus/ad_
 /pool.ads.
@@ -4569,6 +4576,8 @@ _a468x60.
 ###RightBottom300x250AD
 ###RightNavTopAdSpot
 ###RightSponsoredAd
+###RollOutAd970x66
+###RollOutAd970x66iframe
 ###SectionAd300-250
 ###SectionSponsorAd
 ###SideAdMpu
@@ -5148,6 +5157,7 @@ _a468x60.
 ###adhead_g
 ###adheader
 ###adhome
+###adhomepage
 ###adiframe1_iframe
 ###adiframe2_iframe
 ###adiframe3_iframe
@@ -5313,6 +5323,7 @@ _a468x60.
 ###adsensewidget-3
 ###adserv
 ###adshometop
+###adshowtop
 ###adsimage
 ###adskinlink
 ###adsky
@@ -5761,6 +5772,7 @@ _a468x60.
 ###ctl00_BottomAd
 ###ctl00_ContentMain_BanManAd468_BanManAd
 ###ctl00_ContentPlaceHolder1_AdRotator3
+###ctl00_ContentPlaceHolder1_ad12_adRotator_divAd
 ###ctl00_ContentPlaceHolder1_blockAdd_divAdvert
 ###ctl00_ContentRightColumn_RightColumn_Ad1_BanManAd
 ###ctl00_ContentRightColumn_RightColumn_Ad2_BanManAd
@@ -8877,6 +8889,7 @@ _a468x60.
 ##.publication-ad
 ~frogueros.com##.publicidad
 ##.puff-advertorials
+##.pushdownAd
 ##.qa_ad_left
 ##.qm-ad-content
 ##.qm-ad-content-news
@@ -9631,6 +9644,7 @@ _a468x60.
 ||adtech.de^$third-party
 ||adtechus.com^$third-party
 ||adtegrity.net^$third-party
+||adtgs.com^$third-party
 ||adtoll.com^$third-party
 ||adtology1.com^$third-party
 ||adtology2.com^$third-party
@@ -10505,6 +10519,7 @@ _a468x60.
 ||sponsoredtweets.com^$third-party
 ||sponsormob.com^$third-party
 ||sponsorpalace.com^$third-party
+||sponsorpay.com^$third-party
 ||sportsyndicator.com^$third-party
 ||spotrails.com^$third-party
 ||spottt.com^$third-party
@@ -11248,6 +11263,7 @@ _a468x60.
 ||media.onlineteachers.co.in^$third-party
 ||mediaon.com/moneymoney/
 ||meta4-group.com^*/promotioncorner.js?
+||meta4-group.com^*/spods.js?
 ||metaboli.fr^*/adgude_$third-party
 ||mfeed.newzfind.com^$third-party
 ||mgid.com^$subdocument,third-party
@@ -11302,6 +11318,7 @@ _a468x60.
 ||oddcast.com/banners/
 ||onegameplace.com/iframe.php$third-party
 ||onlinekeystore.com/banner.php?
+||oovoo.com^*/banners/
 ||origin.getprice.com.au/widgetnewssmall.aspx
 ||oriongadgets.com^*/banners/
 ||oron.com/img/banners/
@@ -11373,9 +11390,11 @@ _a468x60.
 ||rapidjazz.com/banner_rotation/
 ||rapidmasstraffic.com/banners/
 ||rcm*.amazon.$third-party
+||readme.ru/informer/$third-party
 ||realwritingjobs.com^*/banners/
 ||redbeacon.com/widget/$third-party
 ||redflagdeals.com/dealoftheday/widgets/$third-party
+||redtram.com^$script,third-party
 ||redvase.bravenet.com^$third-party
 ||regnow.com/vendor/
 ||rehost.to/?ref=
@@ -11530,7 +11549,7 @@ _a468x60.
 ||widget.kelkoo.com^
 ||widget.raaze.com^
 ||widget.shopstyle.com/widget?pid=$subdocument,third-party
-||widgets.itunes.apple.com/appstore.html?*&affiliate_id=
+||widgets.itunes.apple.com^*&affiliate_id=
 ||widgets.mobilelocalnews.com^$third-party
 ||wildamaginations.com/mdm/banner/
 ||williamhill.com^$image,~image,popup,third-party
@@ -11588,6 +11607,7 @@ _a468x60.
 ||datefree.com^$third-party
 ||ddstatic.com^*/banners/
 ||delivery.yourfuckbook.com^
+||desk.cmix.org^
 ||easy-dating.org/promo/$third-party
 ||eliterotica.com/images/banners/
 ||exposedemos.com/track/$third-party
@@ -13101,6 +13121,7 @@ _cedexis.php
 ||seg.sharethis.com^
 ||serifwebresources.com/control.php?
 ||sftrack.searchforce.net/sfconversiontracking/
+||sightmaxondemand.com/wreal/sightmaxagentinterface/monitor.smjs
 ||sitereports.officelive.com^
 ||sourceforge.net/tracker/
 ||southafricahome.com/statsmodulev2/
