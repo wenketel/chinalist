@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: lyNbhAzTxMeOTN8JWegqnA
+!  Checksum: dZX4QlhB5Z5Q/mRq5V44jQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 17 Feb 2012 20:04:03 +0800
+!  Last Modified:  Fri, 17 Feb 2012 20:06:41 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -84,15 +84,17 @@ www.3dmgame.com##.banner_2
 www.3dmgame.com##[id^="clickbg"]
 www.3dmgame.com##a[href^="tencent://"]
 
-!---51nb.com/thinkpad.cn
-/article_r1b.gif$domain=51nb.com|thinkpad.cn
-/thinkplus.gif$domain=51nb.com|thinkpad.cn
-/A-2-31.gif|$domain=51nb.com|thinkpad.cn
+!---51nb.com
+||51nb.com/forum/images/article_r1b.gif
+||51nb.com/forum/images/thinkplus.gif
+||51nb.com/images/A-2-31.gif
 !--forum
-@@||forum.*/images/*/$domain=51nb.com|thinkpad.cn
-||forum.*/images/$domain=51nb.com|thinkpad.cn
-thinkpad.cn,51nb.com##div.menu + div.maintable > table.t_rown:first-child
-thinkpad.cn,51nb.com##div.menu + div.maintable > table.t_rown[width="98%"]
+@@||forum.51nb.com/images/*/
+||51nb.com/mall/images/shop1.gif
+||forum.51nb.com/images/
+||szbooks.com/hope/ad/
+forum51nb.com##div.menu + div.maintable > table.t_rown:first-child
+forum51nb.com##div.menu + div.maintable > table.t_rown[width="98%"]
 
 !---六间房
 @@||pole.6rooms.com/adpolestar/*_qtie.swf
