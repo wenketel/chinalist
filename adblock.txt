@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: taSsRNeDf8IH7X0QWH1kTA
+!  Checksum: pj4F0cFdHTgTbyRp6jEqpA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 17 Feb 2012 02:58:59 +0800
+!  Last Modified:  Fri, 17 Feb 2012 12:15:36 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -441,7 +441,7 @@ tw.msn.com###textlink2
 news.msn.com.tw###adv_images_l
 
 !---未名空间
-||jiaoyou8.com/^$domain=mitbbs.com
+||jiaoyou8.com^$domain=mitbbs.com
 ||mitbbs.com/ad_
 ||mitbbs.com/servicedata/static_ad.php
 mitbbs.com##table[width="951"] + table[width="950"]
@@ -1844,6 +1844,7 @@ win7china.com,win8china.com##.site_ad
 /guangg/*
 /guanggao.
 /guanggao/*
+|http://acs.
 |http://ad.
 |http://*/*_ad.js
 |http://*.cn/ad/
@@ -1868,7 +1869,6 @@ win7china.com,win8china.com##.site_ad
 
 !-----------------------------Privacy----------------------
 /counts.
-|http://acs.
 |http://pv.
 |http://pvstat.
 |http://*/pv.
