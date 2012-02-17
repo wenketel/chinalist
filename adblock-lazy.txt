@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: L15x6KXYwk6ZsXlh7exbtg
+!  Checksum: 8RDWqctLggXA1k/e4druMw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 17 Feb 2012 17:58:52 +0800
+!  Last Modified:  Fri, 17 Feb 2012 19:57:41 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -341,9 +341,6 @@ www.gfan.com##.h200
 ||skads.gxsky.com^$script
 gxsky.com##[class^="topadsbanner"]
 
-!---hdchina
-||cnhd.com/adstar/$third-party
-
 !---和讯
 /att_count.js
 ||hxjs.tool.hexun.com^
@@ -415,13 +412,6 @@ jpseek.com,jpfans.com##div[align="center"] + table[align="center"][width="98%"]
 ||bbs.kafan.cn/static/kafan_bd/
 ||bbs.kafan.cn/static/kafan_img/$domain=www.kafan.cn
 kafan.cn##table.header_gg
-
-!---开心网
-||img.kaixin001.com.cn/js/cpm*.js
-||xnimg.cn/imgpro/app/ad$image
-||cache.fminutes.com/images/v3_3//images/$image
-kaixin001.com###kxcpmdiv
-apps.kaixin.com##.blank-bar
 
 !---Ku6
 ||st.vq.ku6.cn^
@@ -738,13 +728,6 @@ tianya.cn###adsp_content_top_banner
 ||ff.wanlicity.com^
 ||tom365.com/newjs/
 tom365.com###t365
-
-!---TTG
-@@||ttg.im/pic/ttg_logo.png
-||cnhd.com/adstar/ttg/01.gif
-||ttg.im/pic/cnhd.gif
-||ttg.im/pic/ttg-
-||ttg.im/pic/ttg_
 
 !---土豆
 ||tdimg.com/sales/
@@ -1242,6 +1225,15 @@ shushuw.cn##.bdad
 ||feedsky.com/r/i/feedsky/*/art01.gif
 ||image.j-a-net.jp/
 ||xiankankan.com/widgets/focus/
+
+!---Private Sites
+!--TTG
+@@||ttg.im/pic/ttg_logo.png
+||cnhd.com/adstar/ttg/01.gif
+||ttg.im/pic/cnhd.gif
+||ttg.im/pic/ttg-
+||ttg.im/pic/ttg_
+||cnhd.com/adstar/$third-party
 
 !---Video Sites
 ||5156ys.net/g/
@@ -10080,7 +10072,6 @@ _a468x60.
 ||moreplayerz.com^$third-party
 ||mpression.net^$third-party
 ||msads.net^$third-party
-||mybuys.com^$third-party
 ||myclickbankads.com^$third-party
 ||mylinkbox.com^$third-party
 ||mythings.com^$third-party
