@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: HWtVXlKSgCjKrt83OLTTxg
+!  Checksum: odGIBgwrMC6mN5h4WJLYuw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 18 Feb 2012 22:32:28 +0800
+!  Last Modified:  Sat, 18 Feb 2012 22:47:47 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -19,10 +19,10 @@
 !---Shopping websites
 @@||adimg.adtpl.360buy.com/uploads/$image
 @@||book.360buy.com/book/BookShowService.aspx$xmlhttprequest
+@@||banggo.com^$elemhide,script
 @@/adbanner/*$image,domain=books.com.tw
 @@||paipai.com^$domain=shop.qq.com
 @@/advertise/*$domain=suning.com
-@@||www.banggo.com^$elemhide,script
 !---Hiding filters shouldn't affect on these site.
 @@||51job.com^$elemhide
 @@||52vfx.com^$elemhide
@@ -1258,7 +1258,8 @@ shushuw.cn##.bdad
 
 !---Video Sites
 ||5156ys.net/g/
-||apas.aipai.com/www/images/$object-subrequest
+||aipai.com^*/ADPlayer_new.swf
+||apas.aipai.com^
 ||ballive.com/jsgg/
 ||image.jstv.com/jstv/photo.js
 www.jstv.com##.delayadv
@@ -1536,7 +1537,7 @@ win7china.com,win8china.com##.site_ad
 ||885ad.com^$third-party
 ||8cnd.com^$third-party
 ||8le8le.com^$third-party
-||www.8peng.com^$third-party
+||8peng.com^$third-party
 ||90hao.com^$third-party
 ||913h6.cn^$third-party
 ||9165.net^$third-party
@@ -3117,7 +3118,6 @@ xfastest.com##[class^="ad"]
 /emediatead.
 /ems/ads.
 /exitsplash.php
-/expandable_ad.php
 /ext_ads.
 /external/ad.
 /external/ad/*
@@ -8886,7 +8886,6 @@ _a468x60.
 ##.skyscraper_bannerAdHome
 ##.sleekadbubble
 ##.slideshow-ad
-##.slideshow_ad_note
 ##.slot_728_ad
 ##.slpBigSlimAdUnit
 ##.slpSquareAdUnit
@@ -12348,7 +12347,6 @@ _cedexis.php
 ||owneriq.net^$third-party
 ||p.l1v.ly^$third-party
 ||pa-oa.com^$third-party
-||paidstats.com^$third-party
 ||pardot.com^$third-party
 ||parklogic.com^$third-party
 ||parsely.com^$third-party
