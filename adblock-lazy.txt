@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: odGIBgwrMC6mN5h4WJLYuw
+!  Checksum: vb10wA0N+qKPswdvP6lgIQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 18 Feb 2012 22:47:47 +0800
+!  Last Modified:  Sat, 18 Feb 2012 23:18:58 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -19,13 +19,14 @@
 !---Shopping websites
 @@||adimg.adtpl.360buy.com/uploads/$image
 @@||book.360buy.com/book/BookShowService.aspx$xmlhttprequest
-@@||banggo.com^$elemhide,script
+@@||www.banggo.com^$elemhide,script
 @@/adbanner/*$image,domain=books.com.tw
 @@||paipai.com^$domain=shop.qq.com
 @@/advertise/*$domain=suning.com
 !---Hiding filters shouldn't affect on these site.
 @@||51job.com^$elemhide
 @@||52vfx.com^$elemhide
+@@||bbs.9gal.com^$elemhide
 @@||xiazaiba.com^$elemhide
 !---Make sure video from those sites can be played correctly
 @@||v.ftimg.net/video/adv/ad.flv
@@ -1260,6 +1261,7 @@ shushuw.cn##.bdad
 ||5156ys.net/g/
 ||aipai.com^*/ADPlayer_new.swf
 ||apas.aipai.com^
+www.aipai.com###indexRight.gg_200
 ||ballive.com/jsgg/
 ||image.jstv.com/jstv/photo.js
 www.jstv.com##.delayadv
