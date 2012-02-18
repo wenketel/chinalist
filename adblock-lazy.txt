@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: RgSYYY0bMnrpH+LQitFcew
+!  Checksum: CihvnpIfXGqwBWmT3V+jog
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 17 Feb 2012 21:36:03 +0800
+!  Last Modified:  Sat, 18 Feb 2012 22:12:08 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -19,6 +19,8 @@
 !---Shopping websites
 @@||adimg.adtpl.360buy.com/uploads/$image
 @@||book.360buy.com/book/BookShowService.aspx$xmlhttprequest
+@@||banggo.com^$elemhide
+@@||banggo.com/Ad/getAdPosListJs.shtml
 @@/adbanner/*$image,domain=books.com.tw
 @@||paipai.com^$domain=shop.qq.com
 @@/advertise/*$domain=suning.com
@@ -59,6 +61,14 @@ www.youdao.com###ext
 |http://*/x/$domain=17173.com
 /www/ggcommon$script,domain=17173.com
 
+!---178
+@@||acg.178.com^$elemhide
+||178.com/glr.js
+/atcount.php?$domain=178.com
+||market.178.com^
+||tuiguang.178.com^
+178.com##.adb
+
 !---21CN
 ||analytics.21cn.com^
 ||shows.21cn.com^
@@ -78,7 +88,7 @@ search.21cn.com##td[width="184"][align="left"]
 ||ktzhk.com/plugins/cache_template/adv_3b2g.js
 
 !---3DM Game
-||pic1.3dm.178.com/att/forum/$domain=www.3dmgame.com
+/att/forum/*$domain=www.3dmgame.com
 www.3dmgame.com##.banner_1
 www.3dmgame.com##.banner_2
 www.3dmgame.com##[id^="clickbg"]
@@ -101,6 +111,7 @@ forum.51nb.com##div.menu + div.maintable > table.t_rown[width="98%"]
 ||6.cn/mdfor/index_new.js
 ||6.cn/mdfor/watch_new11.js
 ||r.6.cn/imges/watchad/
+|r.6.cn/sell/
 ||shrek.6.cn^
 6.cn###palyerAdText
 6.cn##[id^="adText"]
@@ -262,6 +273,10 @@ www.dayoo.com##body > div[style]
 !--gzdaily
 /pub/news/gzrb/*$script
 ||gzdaily.dayoo.com/tpl/banner$object
+
+!---点评网
+@@||dianping.com/adwords/$xmlhttprequest
+@@||union.mapbar.com/apis/maps/$script
 
 !---Discuz! & PHPWind etc.
 @@/common/cf/*.thumb$image
@@ -445,6 +460,7 @@ mitbbs.com##table[width="886"] > tbody > tr:first-child
 ||pub.mop.com/widget.jsp?
 ||task.mop.com/mop_treasure.jsp
 ||mopimg.cn/dc/
+dzh.mop.com##.adarea_top
 
 !---驱动之家
 @@||11.mydrivers.com/news/commv2.js
@@ -473,6 +489,7 @@ onlinedown.net,newhua.com##.scroll-flash
 
 !---NextMedia
 !-HK
+@@||video.appledaily.com.hk/admedia/
 ||hk.ndx.nextmedia.com/DFA/js_ndxtag_v409.cfm^$domain=~hk.dv.nextmedia.com
 !-TW
 ||advideo.appledaily.com.tw^
@@ -576,7 +593,6 @@ jjwxc.net##table[style^="width:984px;"]
 /avd/*$domain=hb.qq.com
 ||p.l.qq.com/p?
 ||btrace.qq.com^
-||pingjs.qq.com/ping.js
 ||rh.qq.com^
 ||tcss.qq.com^
 ||trace.qq.com^
@@ -753,7 +769,7 @@ u17.com##.pd_b_13 > a > img
 u17.com##.w_728.pos_r.mylife
 u17.com##.www_hd_middle_ct
 
-!---精锐
+!---bbs.vc52.cn
 @@||gg.a.5d6d.$image,object_subrequest
 
 !---udn
@@ -991,8 +1007,6 @@ itopdog.cn##[id^="itopdog_ad-"]
 !---Game Sites
 ||131.com/home/resouces/js/
 ||131.com/js/131InsideAD*$script
-@@||acg.178.com^$elemhide
-||market.178.com^
 ||313g.com/xyx/
 ||bbs.a9vg.com/showit/img_show.php
 @@||shop.ali213.com^$elemhide
@@ -1018,6 +1032,7 @@ verypsp.com##table[width="960"]
 @@||dl.dbank.com^$elemhide
 ||st2.dbank.com/images/downloadtopbanner01.jpg
 ||static.ctdisk.com/510.js
+||static.ctdisk.com/tuigoo.js
 ||multiupload.com/popunder/$image,~image,popup
 ||d.namipan.com/inc_js/$script
 ||img.rayfile.com/scr/$script
@@ -1143,8 +1158,7 @@ yesky.com##[class^="ad"]
 ||bookgew.com/ml85/
 ||bookgew.com/rar/
 ||bookgew.com/zj85/
-||booksky.org/*.htm
-||booksky.org/*.js
+||booksky.org/popa.js
 ||cc222.com/cc222Ads/
 ||cc222.com/_javascript/popupWin.js
 ||cococomic.com/g/
@@ -1240,6 +1254,7 @@ shushuw.cn##.bdad
 
 !---Video Sites
 ||5156ys.net/g/
+||ballive.com/jsgg/
 ||image.jstv.com/jstv/photo.js
 www.jstv.com##.delayadv
 www.jstv.com##.jadv
@@ -1472,6 +1487,7 @@ win7china.com,win8china.com##.site_ad
 ||37dz.com^$third-party
 ||p.37lai.com^$third-party
 ||cs.37see.com^$third-party
+||3975.com^third-party
 ||3gpz.net^$third-party
 ||3munion.net^$third-party
 ||51link.com^$third-party
@@ -1602,7 +1618,7 @@ win7china.com,win8china.com##.site_ad
 ||resmkt.dipan.com^$third-party
 ||diyiunion.com^$third-party
 ||dmclick.cn^$third-party
-||dotmore.com.tw^$third-party
+||dotmore.com.tw^$third-party,domain=~savebar.com.tw
 ||doubleadv.com^$third-party
 ||doublemax.net^$third-party
 ||u.www.duba.net^$third-party
@@ -1781,6 +1797,7 @@ win7china.com,win8china.com##.site_ad
 ||code.xwadv.com^$third-party
 ||y2126.com^$third-party
 ||yczpw.com^$third-party
+||yimeiads.com^$third-party
 ||js.ylunion.com^$third-party
 ||yigao.com^$third-party
 ||yigouw.com^$third-party
@@ -1848,7 +1865,7 @@ win7china.com,win8china.com##.site_ad
 |http://*/gg/$~stylesheet
 |http://*/i.js$third-party
 |http://*/js/ad/
-|http://*/js/tc.js
+|http://*/tc.js
 |http://*.tw/ad/
 |https://*/ad/
 /images/prom/*
@@ -1858,7 +1875,6 @@ win7china.com,win8china.com##.site_ad
 /tan.js
 /u/_sponsor/*
 /uimg.
-@@||union.mapbar.com/apis/maps/*$script
 /union.$third-party
 /tanchuang.
 /tuiguang/*
@@ -1933,6 +1949,7 @@ xfastest.com##[class^="ad"]
 ||nanrenwa.com/_img/a/$third-party
 @@||ad1.nownews.com/ads.php?ownerid=1294
 @@||nownews.com/ad2004/120125-202955-2004p.png
+@@||drmcmm.baidu.com/media/$image,domain=zhibo8.com
 !---test pop-up blocking
 ||arpg2.com^$image,~image,popup
 ||gd.189.cn/ad/$image,~image,popup
@@ -9462,6 +9479,7 @@ _a468x60.
 ||adverticum.net^$third-party
 ||advertise.com^$third-party
 ||advertiseforfree.co.za^$third-party
+||advertisegame.com^$third-party
 ||advertiseyourgame.com^$third-party
 ||advertising-department.com^$third-party
 ||advertising.com^$third-party
