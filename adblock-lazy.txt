@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: kcOjyLWMFHlJokid9i0KBQ
+!  Checksum: HWtVXlKSgCjKrt83OLTTxg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 18 Feb 2012 22:22:17 +0800
+!  Last Modified:  Sat, 18 Feb 2012 22:32:28 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -19,11 +19,10 @@
 !---Shopping websites
 @@||adimg.adtpl.360buy.com/uploads/$image
 @@||book.360buy.com/book/BookShowService.aspx$xmlhttprequest
-@@||banggo.com^$elemhide
-@@||banggo.com/Ad/getAdPosListJs.shtml
 @@/adbanner/*$image,domain=books.com.tw
 @@||paipai.com^$domain=shop.qq.com
 @@/advertise/*$domain=suning.com
+@@||www.banggo.com^$elemhide,script
 !---Hiding filters shouldn't affect on these site.
 @@||51job.com^$elemhide
 @@||52vfx.com^$elemhide
@@ -304,6 +303,11 @@ discuss.com.hk##.ad
 discuss.com.hk,uwants.com##a[href^="http://ad"]
 discuss.com.hk,uwants.com##div[id^="thread_ads_"] + table
 uwants.com##div#foruminfo + div[align="center"]
+
+!---多特
+||img.duote.com/duotehtml/
+||img.duote.com/js/clickDownAjax3.js
+||img.duote.com/images/00007701.jpg
 
 !---多玩游戏网
 ||duowan.com/duowan.js
@@ -983,8 +987,6 @@ itopdog.cn##[id^="itopdog_ad-"]
 ||cr173.com/show/
 ||ddooo.com/js/
 ||downxia.com/js/
-||img.duote.com/duotehtml/
-||img.duote.com/js/clickDownAjax3.js
 ||flvcd.com/image/partner/
 ||gpxz.com/js2/
 ||gpxz.com/skins/gpxz_20110308/$script
@@ -1025,6 +1027,7 @@ gamebase.com.tw##.wait_gbno1
 ||bbs.verypsp.com^$script,subdocument
 verypsp.com##table[width="960"]
 ||wowmovies.cn/img/vda/
+||i02.youxigu.com/skin/youxigu/img/bg-new.jpg
 
 !---Net Disks
 ||static.115img.com/static/delivery/
@@ -1255,6 +1258,7 @@ shushuw.cn##.bdad
 
 !---Video Sites
 ||5156ys.net/g/
+||apas.aipai.com/www/images/$object-subrequest
 ||ballive.com/jsgg/
 ||image.jstv.com/jstv/photo.js
 www.jstv.com##.delayadv
@@ -3113,6 +3117,7 @@ xfastest.com##[class^="ad"]
 /emediatead.
 /ems/ads.
 /exitsplash.php
+/expandable_ad.php
 /ext_ads.
 /external/ad.
 /external/ad/*
@@ -8881,6 +8886,7 @@ _a468x60.
 ##.skyscraper_bannerAdHome
 ##.sleekadbubble
 ##.slideshow-ad
+##.slideshow_ad_note
 ##.slot_728_ad
 ##.slpBigSlimAdUnit
 ##.slpSquareAdUnit
@@ -12342,6 +12348,7 @@ _cedexis.php
 ||owneriq.net^$third-party
 ||p.l1v.ly^$third-party
 ||pa-oa.com^$third-party
+||paidstats.com^$third-party
 ||pardot.com^$third-party
 ||parklogic.com^$third-party
 ||parsely.com^$third-party
