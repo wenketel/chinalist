@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: vb10wA0N+qKPswdvP6lgIQ
+!  Checksum: VI2UkKu9vRJfUBGQbQkodQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 18 Feb 2012 23:18:58 +0800
+!  Last Modified:  Sun, 19 Feb 2012 15:39:38 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -640,15 +640,17 @@ readersdigest.cn###fixeddiv
 dailynews.sina.com##.TopNav + table
 !--sina.com.cn
 ||bj.house.sina.com.cn/iframe/$domain=~leju.com
-||d1.sina.com.cn^$domain=~weibo.com
-||d2.sina.com.cn^
-||d3.sina.com.cn^
-||d4.sina.com.cn^
-||d5.sina.com.cn^
+||d1.sina.com.cn^$image,object,script,domain=~weibo.com
+||d2.sina.com.cn^$image,object,script
+||d3.sina.com.cn^$image,object,script
+||d4.sina.com.cn^image,object,script
+||d5.sina.com.cn^image,object,script
 ||news.sina.com.cn/pfpnews/js/libweb.js
 ||pfp.sina.com.cn^$script
-||pfp.sina.com.cn/iframe/gn/
-||pfp.sina.com.cn/iframe/no/
+/iframe/gj/*$domain=sina.com.cn
+/iframe/gn/*$domain=sina.com.cn
+/iframe/no/*$domain=sina.com.cn
+/jianyu1/TaoBao/*$domain=sina.com.cn
 ||rm.sina.com.cn^$~stylesheet,domain=~sinatair.sinaapp.com
 ||v.sina.com.cn^$subdocument
 @@||sinaimg.cn^*/deco/*/commonvideo.js
@@ -690,6 +692,7 @@ sina.com.cn##.adNone
 !--sina.com.tw
 ||sina.com.tw^$subdocument
 !--video
+||dcads.sina.com.cn^
 video.sina.com.cn###bgad_div
 !--weibo
 weibo.com##[id^="ads"]
@@ -3120,6 +3123,7 @@ xfastest.com##[class^="ad"]
 /emediatead.
 /ems/ads.
 /exitsplash.php
+/expandable_ad.php
 /ext_ads.
 /external/ad.
 /external/ad/*
@@ -6828,6 +6832,7 @@ _a468x60.
 ##.ad-300x600
 ##.ad-350
 ##.ad-355x75
+##.ad-560
 ##.ad-600
 ##.ad-635x40
 ##.ad-728
@@ -8366,6 +8371,7 @@ _a468x60.
 ##.hoverad
 ##.hp-col4-ads
 ##.hp2-adtag
+##.hp_320-250-ad
 ##.hp_ad_cont
 ##.hp_ad_text
 ##.hp_t_ad
@@ -8888,6 +8894,7 @@ _a468x60.
 ##.skyscraper_bannerAdHome
 ##.sleekadbubble
 ##.slideshow-ad
+##.slideshow_ad_note
 ##.slot_728_ad
 ##.slpBigSlimAdUnit
 ##.slpSquareAdUnit
@@ -10686,6 +10693,8 @@ _a468x60.
 ||2leep.com/ticker2/$third-party
 ||69.50.226.158^$third-party,domain=~worth1000.com.ip
 ||770.com/banniere.php?
+||888.com^*^utm_source=$image,~image,popup
+||888casino.com^*^utm_source=$image,~image,popup
 ||a-bride-from-russia.com/banners/
 ||a-bride-from-ukraine.com/banners/
 ||a-pretty.com/banners/
@@ -11630,6 +11639,7 @@ _a468x60.
 /com_joomlawatch/*
 /comscore.js
 /comscore_beacon.js
+/criteo.js
 /csi?v=*&action=
 /dcs.gif?
 /demandbase.js
@@ -11796,6 +11806,7 @@ _a468x60.
 /stats/tracker.gif?
 /statsadvance.js
 /statscript.js
+/store-uniq-client-id?bomuuid=
 /stwc-counter/*
 /stwc/code.js
 /swfaddress.js?tracker=
@@ -11862,6 +11873,7 @@ _a468x60.
 ://mint.*/?js
 ://sett.*/log.js
 ://timeslog.
+://tracking.*/beacon/
 ://wzeu.*/i/i.gif?
 ://wzus1.*/i/i.gif?
 ?_siteid=
@@ -12349,6 +12361,7 @@ _cedexis.php
 ||owneriq.net^$third-party
 ||p.l1v.ly^$third-party
 ||pa-oa.com^$third-party
+||paidstats.com^$third-party
 ||pardot.com^$third-party
 ||parklogic.com^$third-party
 ||parsely.com^$third-party

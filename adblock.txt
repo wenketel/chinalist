@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: mvgNnS/SJPcB7KMfkkjzxg
+!  Checksum: bWRAGGMPMokJSGsRxcCV+A
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 18 Feb 2012 23:18:58 +0800
+!  Last Modified:  Sun, 19 Feb 2012 15:39:38 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -638,15 +638,17 @@ readersdigest.cn###fixeddiv
 dailynews.sina.com##.TopNav + table
 !--sina.com.cn
 ||bj.house.sina.com.cn/iframe/$domain=~leju.com
-||d1.sina.com.cn^$domain=~weibo.com
-||d2.sina.com.cn^
-||d3.sina.com.cn^
-||d4.sina.com.cn^
-||d5.sina.com.cn^
+||d1.sina.com.cn^$image,object,script,domain=~weibo.com
+||d2.sina.com.cn^$image,object,script
+||d3.sina.com.cn^$image,object,script
+||d4.sina.com.cn^image,object,script
+||d5.sina.com.cn^image,object,script
 ||news.sina.com.cn/pfpnews/js/libweb.js
 ||pfp.sina.com.cn^$script
-||pfp.sina.com.cn/iframe/gn/
-||pfp.sina.com.cn/iframe/no/
+/iframe/gj/*$domain=sina.com.cn
+/iframe/gn/*$domain=sina.com.cn
+/iframe/no/*$domain=sina.com.cn
+/jianyu1/TaoBao/*$domain=sina.com.cn
 ||rm.sina.com.cn^$~stylesheet,domain=~sinatair.sinaapp.com
 ||v.sina.com.cn^$subdocument
 @@||sinaimg.cn^*/deco/*/commonvideo.js
@@ -688,6 +690,7 @@ sina.com.cn##.adNone
 !--sina.com.tw
 ||sina.com.tw^$subdocument
 !--video
+||dcads.sina.com.cn^
 video.sina.com.cn###bgad_div
 !--weibo
 weibo.com##[id^="ads"]
