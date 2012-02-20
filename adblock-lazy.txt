@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: wT+Azt5nzZvFzFaKTvMYjQ
+!  Checksum: I3SpfFg7wzLRD09ZHyeMVw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 20 Feb 2012 15:31:20 +0800
+!  Last Modified:  Tue, 21 Feb 2012 01:55:36 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -284,6 +284,7 @@ www.dayoo.com##body > div[style]
 /image/common/ad_close.gif
 ##.a_mu
 ##.a_pb
+##.a_pt
 discuz.net##.a_pr
 ##.ad_footerbanner
 ###ad_headerbanner
@@ -929,7 +930,6 @@ wenwen.soso.com##.ad1
 
 !---ZASV
 @@||ad.zasv.com^*/*/$image,object
-www.zasv.com##.a_pt
 www.zasv.com##.bm.a_c
 
 !---逐浪小说网
@@ -1209,6 +1209,10 @@ kkkmh.com##[class^="mm-"]
 ||laiwx.com/js/
 ||narutom.com/v2/js/198game_Lt.js
 ||niubb.net/niubbad/
+||paoshu8.com/js/gg$script
+||paoshu8.com/js/piaofu.js
+paoshu8.com###Adsgg2
+paoshu8.com##div#Content > table:nth-child(3)
 ||quanben.net/js/
 ||quanben.com/themes/quanben/qj.js
 ||readnovel.com/js/$subdocument
@@ -4029,6 +4033,7 @@ _banner_ad_
 _banner_adv_
 _bannerad.
 _bannerview.php?*&aid=
+_bg_ad_left.
 _blogads.
 _bottom_ads_
 _box_ad_
@@ -9221,6 +9226,7 @@ _a468x60.
 ##.wnMultiAd
 ##.wp125_write_ads_widget
 ##.wp125ad
+##.wp125ad_1
 ##.wp125ad_2
 ##.wpn_ad_content
 ##.wrap-ads
