@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 6opJ7nIu4GvwKaKoOEPm1g
+!  Checksum: wg1sXsPB9XexlUfqdMGonA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 21 Feb 2012 21:16:24 +0800
+!  Last Modified:  Wed, 22 Feb 2012 20:40:09 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1352,6 +1352,8 @@ frdic.com,godic.net###sidebar1
 ||hk-pub.com/forum/images/banner/
 /exy/*$object,domain=hk-pub.com
 ||hdad.hudong.com/hdad/
+||hxsxw.com/gg*.gif
+||hxsxw.com/hxsxw111.gif
 ||hxyl.net/hostpic/
 ||goto.www.iciba.com^$subdocument
 ||ihome99.com/gpic/
@@ -3005,7 +3007,6 @@ xfastest.com##[class^="ad"]
 /btmadsx.
 /btn_ad_
 /bucketads.
-/bulk-ad-load/*
 /butler.php?type=
 /button_ads/*
 /buttonads.
@@ -4087,6 +4088,7 @@ _temp/ad_
 _tile_ad_
 _top_ad.
 _top_ad_
+_top_advert.
 _topad.
 _tribalfusion.
 _video_ads_
@@ -4103,6 +4105,7 @@ _webad.
 -120x60.
 -120x600-
 -120x600.
+-160x600-
 -160x600.
 -160x600_
 -300-250.
@@ -4330,7 +4333,6 @@ _a468x60.
 ###AdvertMPU23b
 ###AdvertPanel
 ~designspotter.com###AdvertiseFrame
-~acmilan.com,~desertsandsoftware.com,~kopavogur.is,~winload.de###Advertisement
 ~ping-timeout.de###Advertisements
 ###Advertorial
 ###Advertorials
@@ -4959,6 +4961,11 @@ _a468x60.
 ###adaptvcompanion
 ###adbForum
 ###adbanner
+###adbanner-home-left
+###adbanner-home-right
+###adbanner-middle
+###adbanner-top-left
+###adbanner-top-right
 ~16vor.de,~bplaced.net,~explosm.net###adbar
 ###adbig
 ###adbladeSp
@@ -6941,6 +6948,8 @@ _a468x60.
 ~jerseyinsight.com##.ad-right
 ##.ad-right-header
 ##.ad-right-txt
+##.ad-right1
+##.ad-right2
 ##.ad-row
 ##.ad-section
 ##.ad-show-label
@@ -7226,6 +7235,7 @@ _a468x60.
 ##.ad_callout
 ##.ad_caption
 ~bakeca-incontri.net##.ad_center
+##.ad_click
 ##.ad_column
 ##.ad_column_box
 ##.ad_column_hl
@@ -7242,6 +7252,7 @@ _a468x60.
 ##.ad_frame
 ##.ad_framed
 ##.ad_front_promo
+##.ad_full_click
 ~linuxforums.org##.ad_global_header
 ##.ad_gutter_top
 ##.ad_head
@@ -7555,6 +7566,7 @@ _a468x60.
 ##.adsborder
 ##.adsbottom
 ##.adsbox
+##.adsbox_300x250
 ##.adsboxitem
 ##.adsbttmpg
 ##.adsbyyahoo
@@ -7726,7 +7738,6 @@ _a468x60.
 ##.advert_surr
 ##.advert_top
 ##.advertheader-red
-~bootshandel-magazin.de,~flexstrom.de,~raumobil.de,~tonprenom.com##.advertise
 ##.advertise-box
 ##.advertise-here
 ##.advertise-homestrip
@@ -8909,6 +8920,7 @@ _a468x60.
 ##.skyad
 ##.skyjobsadtext
 ##.skyscraper-ad
+##.skyscraperAd
 ##.skyscraper_ad
 ##.skyscraper_bannerAdHome
 ##.sleekadbubble
@@ -9284,6 +9296,8 @@ _a468x60.
 ##a[href^="http://www.liutilities.com/products/campaigns/adv/"]
 ##a[href^="http://www.my-dirty-hobby.com/?sub="]
 ##a[href^="http://www.ringtonematcher.com/"]
+##input[onclick^="window.open('http://www.FriendlyDuck.com/AF_"]
+##input[onclick^="window.open('http://www.friendlyduck.com/AF_"]
 ! Google
 ###cnt #center_col > #res > #topstuff > .ts:only-child
 ###mbEnd[cellspacing="0"][cellpadding="0"]
@@ -9427,6 +9441,7 @@ _a468x60.
 ||adnet.biz^$third-party
 ||adnet.com^$third-party
 ||adnet.ru^$third-party
+||adnet.vn^$third-party
 ||adnetwork.com.br^$third-party
 ||adnetwork.net^$third-party
 ||adnxs.com^$third-party
@@ -9822,6 +9837,7 @@ _a468x60.
 ||doubleclick.net/adx/*.ted/$object-subrequest,third-party
 ||doubleclick.net/adx/ibs.$object-subrequest,third-party
 ||doubleclick.net/adx/tsg.$object-subrequest,third-party
+||doubleclick.net/adx/wn.loc.$object-subrequest,third-party
 ||doubleclick.net/pfadx/*.mtvi$object-subrequest,third-party
 ||doubleclick.net/pfadx/*.reuters/$object-subrequest,third-party
 ||doubleclick.net/pfadx/*.sevenload.com_$object-subrequest,third-party
@@ -9971,6 +9987,7 @@ _a468x60.
 ||ibatom.com^$third-party
 ||icdirect.com^$third-party
 ||identads.com^$third-party
+||igameunion.com^$third-party
 ||imedia.co.il^$third-party
 ||imglt.com^$third-party
 ||imgwebfeed.com^$third-party
@@ -10042,6 +10059,7 @@ _a468x60.
 ||kontera.com^$third-party
 ||kqzyfj.com^$third-party
 ||krxd.net^$third-party
+||kumpulblogger.com^$third-party
 ||lakequincy.com^$third-party
 ||lbm1.com^$third-party
 ||ldgateway.com^$third-party
@@ -10099,6 +10117,7 @@ _a468x60.
 ||media6degrees.com^$third-party
 ||mediaclick.com^$third-party
 ||mediacpm.com^$third-party
+||mediaflire.com^$third-party
 ||mediaforge.com^$third-party
 ||mediag4.com^$third-party
 ||mediagridwork.com^$third-party
@@ -10242,6 +10261,7 @@ _a468x60.
 ||populis.com^$third-party
 ||popuptraffic.com^$third-party
 ||postaffiliatepro.com^$third-party
+||powerlinks.com^$third-party
 ||ppclinking.com^$third-party
 ||ppctrck.com^$third-party
 ||ppcwebspy.com^$third-party
@@ -10279,6 +10299,7 @@ _a468x60.
 ||rapt.com^$third-party
 ||rbcdn.com^$third-party
 ||rcads.net^$third-party
+||reachlocal.com^$third-party
 ||reachmode.com^$third-party
 ||realclick.co.kr^$third-party
 ||realmedia.com^$third-party
@@ -10722,6 +10743,7 @@ _a468x60.
 ||20dollars2surf.com/ban_$third-party
 ||216.41.211.36/widget/$third-party,domain=~bpaww.com.ip
 ||217.115.147.241/media/$third-party,domain=~elb-kind.de.ip
+||247hd.net/ad|
 ||2leep.com/ticker2/$third-party
 ||69.50.226.158^$third-party,domain=~worth1000.com.ip
 ||770.com/banniere.php?
@@ -10783,6 +10805,7 @@ _a468x60.
 ||affutdmedia.com^$third-party
 ||afimg.liveperson.com^$third-party
 ||agenda.complex.com^
+||ais.abacast.com^
 ||ak.imgaft.com^$third-party
 ||all4naija.com/banners/
 ||allposters.com^*/banners/
@@ -11209,6 +11232,7 @@ _a468x60.
 ||paytel.co.za/code/ref
 ||pcash.imlive.com^$third-party
 ||pcmall.co.za/affiliates/
+||pdl.viaplay.com^
 ||pearlriverusa.com/images/banner/
 ||perfectmarket.com/pm/ad-
 ||ph.hillcountrytexas.com/imp.php?$third-party
@@ -11323,6 +11347,7 @@ _a468x60.
 ||stylefind.com^*?campaign=$subdocument,third-party
 ||subliminalmp3s.com^*/banners/
 ||sunspotweb.com/banners/
+||superherostuff.com/pages/cbmpage.aspx?*&cbmid=$subdocument,third-party
 ||supersport.co.za^*180x254
 ||supply.upjers.com^$third-party
 ||surf100sites.com/images/banner_
@@ -11422,6 +11447,7 @@ _a468x60.
 ||wptpoker.com^$image,~image,popup
 ||ws.amazon.*/widgets/q?$third-party
 ||wupload.com/images/banners/
+||x3cms.com/ads/
 ||xcams.com/livecams/pub_collante/script.php?$third-party
 ||xgaming.com/rotate*.php?$third-party
 ||xml.exactseek.com/cgi-bin/js-feed.cgi?$third-party
@@ -11436,6 +11462,8 @@ _a468x60.
 ||ziffdavisenterprise.com/contextclicks/
 ! Mobile
 ||iadc.qwapi.com^
+! Adware
+||ver-pelis.net/player/servers/otros.js
 ! *** easylist:easylist_adult/adult_thirdparty.txt ***
 ||213.174.140.76^*/js/msn-$script
 ||213.174.140.76^*/js/msn.js
@@ -11861,6 +11889,7 @@ _a468x60.
 /traffic/status.gif?
 /traffic4u.js
 /tsc.php?*&ses=
+/uim.html/*
 /userfly.js
 /view_stats.js.php
 /viperbar/stats.php?
@@ -12887,6 +12916,7 @@ _cedexis.php
 ||kaltura.com^*/index.php?service=stats&action=collect&
 ||kdpgroupe.com/ea.js
 ||kraken.giantrealm.com^
+||l.ooyala.com^
 ||l.player.ooyala.com^
 ||l.sharethis.com^
 ||laurel.macrovision.com^
@@ -13067,6 +13097,7 @@ _cedexis.php
 ||tsk5.com/17*?*=ex-
 ||twitter.com^*/t.gif?
 ||typekit.com/s.gif?
+||uim.tifbs.net^
 ||uknetguide.co.uk/user.js?
 ||ultimatebootcd.com/tracker/
 ||unicornapp.com/external/application/metrics/
