@@ -247,6 +247,7 @@
 	<string>||yahoo.net^*/ads/</string>
 	<string>||213.174.140.76^*/ads/</string>
 	<string>||brazzers.com/ads/</string>
+	<string>||da.feedsportal.com^$~subdocument</string>
   </RemovedItems>
   <NewItems>
   	<string>||espn.vad.go.com^$domain=youtube.com</string>
@@ -265,21 +266,21 @@
 	<string>@@||clustrmaps.com/images/clustrmaps-back-soon.jpg$third-party</string>
   </NewItems>
   <ModifyItems>
-    <ModifyItem>
-      <OldItem>/socialads/*</OldItem>
-      <NewItem>/socialads/*$domain=~profiles.google.com</NewItem>
-    </ModifyItem>
-     <ModifyItem>
-      <OldItem>~leboncoin.fr##.ad_text</OldItem>
-      <NewItem>~www.yyets.com,~leboncoin.fr##.ad_text</NewItem>
-	 </ModifyItem>
-     <ModifyItem>
-      <OldItem>###ad_text:not(textarea)</OldItem>
-      <NewItem>~www.yyets.com###ad_text:not(textarea)</NewItem>
-     </ModifyItem>
-	 <ModifyItem>
-      <OldItem>/img/ad/*</OldItem>
-      <NewItem>/img/ad/*$domain=~picplz.com</NewItem>
-     </ModifyItem>
+	<ModifyItem>
+		<OldItem>/socialads/*</OldItem>
+		<NewItem>/socialads/*$domain=~profiles.google.com</NewItem>
+	</ModifyItem>
+	<ModifyItem>
+		<OldItem>~leboncoin.fr##.ad_text</OldItem>
+		<NewItem>~www.yyets.com,~leboncoin.fr##.ad_text</NewItem>
+	</ModifyItem>
+	<ModifyItem>
+		<OldItem>###ad_text:not(textarea)</OldItem>
+		<NewItem>~www.yyets.com###ad_text:not(textarea)</NewItem>
+	</ModifyItem>
+	<ModifyItem>
+		<OldItem>/img/ad/*</OldItem>
+		<NewItem>/img/ad/*$domain=~picplz.com</NewItem>
+	</ModifyItem>
   </ModifyItems>
 </PatchConfigurations>

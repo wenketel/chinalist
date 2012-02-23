@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: SkLCCnJq5w8Rm2xu1XQIZw
+!  Checksum: bf+6nSgE/+fu5LyTCd9sXg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 22 Feb 2012 20:44:07 +0800
+!  Last Modified:  Thu, 23 Feb 2012 12:40:57 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -313,6 +313,13 @@ uwants.com##div#foruminfo + div[align="center"]
 ||duowan.com/duowan.js
 ||duowan.com/public/s/market_count.js
 ||market.duowan.com^
+
+!---矽谷动力
+||enet.com.cn/UserTrack
+||enet.com.cn/UserEschool
+||count.enet.com.cn^
+||frame.enet.com.cn/a.php
+enet.com.cn##[class^="ad"]
 
 !---蜂鸟
 ||bbs.fengniao.com/forum/clientscript/vbb_scroll.js
@@ -1263,7 +1270,6 @@ shushuw.cn##.bdad
 ||mrss.dokoda.jp/v/$image
 ||feedsky.com/r/i/feedsky/*/art01.gif
 ||image.j-a-net.jp/
-||da.feedsportal.com^
 ||xiankankan.com/widgets/focus/
 
 !---Video Sites
@@ -1303,6 +1309,8 @@ www.jstv.com##.jadv
 ||pic.2u.com.cn^$object
 ||stat.2u.com.cn/ol_2u.js
 ||2y2r.org/data/attachment/forum/
+||500wancache.com/public/js/stats.js
+||tongji.500wan.com^
 ||v3.apic.51.com/vda09.js
 ||510379.com/510379ad/
 ||blog.51cto.com/js/poptop.js
@@ -1331,8 +1339,6 @@ cnmo.com##[id^="AD"]
 ||dospy.com/hezuo/
 ||bbs.dospy.com/proxy.html
 ||static.doyouhike.net/partner/
-||trace.enet.com.cn^
-enet.com.cn##[class^="ad"]
 ||photo.erji.com^$domain=erji.net
 ||eap.enorth.com.cn^
 ||expreview.com/batch.jasd.php
@@ -1451,6 +1457,7 @@ win7china.com,win8china.com##.site_ad
 ||ytbbs.com/images/index/
 ||yxlady.com/cdd/
 ||zbinfo.net^*/ggw/
+||cdnlog.zhenai.com^
 ||zhongguo.ca/upload_files/label/
 ||zhulong.com/publicimg/
 ||zygod.net/js/

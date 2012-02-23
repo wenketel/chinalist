@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 22q3l8LziYtQSvIglKMXSA
+!  Checksum: HDe4RBg/Ma454tBEsGMyuA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 22 Feb 2012 20:44:07 +0800
+!  Last Modified:  Thu, 23 Feb 2012 12:40:57 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -315,6 +315,13 @@ uwants.com##div#foruminfo + div[align="center"]
 ||duowan.com/duowan.js
 ||duowan.com/public/s/market_count.js
 ||market.duowan.com^
+
+!---矽谷动力
+||enet.com.cn/UserTrack
+||enet.com.cn/UserEschool
+||count.enet.com.cn^
+||frame.enet.com.cn/a.php
+enet.com.cn##[class^="ad"]
 
 !---蜂鸟
 ||bbs.fengniao.com/forum/clientscript/vbb_scroll.js
@@ -1263,7 +1270,6 @@ shushuw.cn##.bdad
 ||mrss.dokoda.jp/v/$image
 ||feedsky.com/r/i/feedsky/*/art01.gif
 ||image.j-a-net.jp/
-||da.feedsportal.com^
 ||xiankankan.com/widgets/focus/
 
 !---Video Sites
@@ -1303,6 +1309,8 @@ www.jstv.com##.jadv
 ||pic.2u.com.cn^$object
 ||stat.2u.com.cn/ol_2u.js
 ||2y2r.org/data/attachment/forum/
+||500wancache.com/public/js/stats.js
+||tongji.500wan.com^
 ||v3.apic.51.com/vda09.js
 ||510379.com/510379ad/
 ||blog.51cto.com/js/poptop.js
@@ -1331,8 +1339,6 @@ cnmo.com##[id^="AD"]
 ||dospy.com/hezuo/
 ||bbs.dospy.com/proxy.html
 ||static.doyouhike.net/partner/
-||trace.enet.com.cn^
-enet.com.cn##[class^="ad"]
 ||photo.erji.com^$domain=erji.net
 ||eap.enorth.com.cn^
 ||expreview.com/batch.jasd.php
@@ -1451,6 +1457,7 @@ win7china.com,win8china.com##.site_ad
 ||ytbbs.com/images/index/
 ||yxlady.com/cdd/
 ||zbinfo.net^*/ggw/
+||cdnlog.zhenai.com^
 ||zhongguo.ca/upload_files/label/
 ||zhulong.com/publicimg/
 ||zygod.net/js/
@@ -2093,6 +2100,7 @@ xfastest.com##[class^="ad"]
 .org/ad_
 .org/ads-
 .org/gads/
+.php?ad=
 .php?bannerid=
 .php?zoneid=
 .popupvideoad.
@@ -4372,7 +4380,7 @@ _a468x60.
 ###GoogleAdsPlaceHolder
 ###GoogleAdsPresentationControl
 ~playtv.fr###GoogleAdsense
-###Google_Adsense_Main
+~playtv.fr###Google_Adsense_Main
 ###HEADERAD
 ###HOME_TOP_RIGHT_BOXAD
 ###HeaderAD
@@ -7434,7 +7442,6 @@ _a468x60.
 ##.adpadding
 ##.adpane
 ~bipbip.co.il,~quoka.de##.adpic
-##.adprice
 ##.adproxy
 ##.adrec
 ~tomwans.com##.adright
@@ -9054,6 +9061,7 @@ _a468x60.
 ##.t10ad
 ##.tab_ad
 ##.tab_ad_area
+##.table-ad
 ##.tablebordersponsor
 ##.tadsanzeige
 ##.tadsbanner
@@ -9300,7 +9308,7 @@ _a468x60.
 ##input[onclick^="window.open('http://www.FriendlyDuck.com/AF_"]
 ##input[onclick^="window.open('http://www.friendlyduck.com/AF_"]
 ! Google
-###cnt #center_col > #res > #topstuff > .ts:only-child
+###cnt #center_col > #res > #topstuff > .ts
 ###mbEnd[cellspacing="0"][cellpadding="0"]
 ###mclip_container:last-child
 ###mn #center_col > div > h2.spon:first-child
@@ -9326,7 +9334,7 @@ _a468x60.
 ||209.222.8.217^$third-party,domain=~p2p.adserver.ip
 ||247realmedia.com^$third-party
 ||2mdn.net/dot.gif$object-subrequest,third-party
-||2mdn.net^$object-subrequest,third-party,domain=bbc.co.uk|bet.com|bloomberg.com|businessday.co.za|businessweek.com|calgaryherald.com|drive.com.au|edmontonjournal.com|eonline.com|euronews.net|globaltoronto.com|heraldsun.com.au|leaderpost.com|metacafe.com|montrealgazette.com|nationalpost.com|ndtv.com|newyorkjets.com|ottawacitizen.com|reuters.com|rollingstone.com|rte.ie|sherdog.com|skynews.com.au|smh.com.au|telegraph.co.uk|theage.com.au|theaustralian.com.au|thecomedynetwork.ca|theprovince.com|thestarphoenix.com|timescolonist.com|vancouversun.com|vice.com|windsorstar.com
+||2mdn.net^$object-subrequest,third-party,domain=3news.co.nz|bbc.co.uk|bet.com|bloomberg.com|businessday.co.za|businessweek.com|calgaryherald.com|drive.com.au|edmontonjournal.com|eonline.com|euronews.net|globaltoronto.com|heraldsun.com.au|leaderpost.com|metacafe.com|montrealgazette.com|nationalpost.com|ndtv.com|newyorkjets.com|ottawacitizen.com|reuters.com|rollingstone.com|rte.ie|sherdog.com|skynews.com.au|smh.com.au|telegraph.co.uk|theage.com.au|theaustralian.com.au|thecomedynetwork.ca|theprovince.com|thestarphoenix.com|timescolonist.com|vancouversun.com|vice.com|windsorstar.com
 ||2mdn.net^$~object-subrequest,third-party
 ||360ads.com^$third-party
 ||360yield.com^$third-party
@@ -9959,6 +9967,7 @@ _a468x60.
 ||go2media.org^$third-party
 ||go2speed.org^$third-party
 ||goodadvert.ru^$third-party
+||googleadservicepixel.com^$third-party
 ||googleadservices.com^$third-party
 ||googletagservices.com^$third-party
 ||goviral.hs.llnwd.net^$third-party
@@ -10158,6 +10167,8 @@ _a468x60.
 ||moreplayerz.com^$third-party
 ||mpression.net^$third-party
 ||msads.net^$third-party
+||my-layer.net^$image,~image,popup
+||my-layer.net^$third-party
 ||myclickbankads.com^$third-party
 ||mylinkbox.com^$third-party
 ||mythings.com^$third-party
@@ -11042,6 +11053,7 @@ _a468x60.
 ||gfaf-banners.s3.amazonaws.com^
 ||gfxa.sheetmusicplus.com^$third-party
 ||ggmania.com^*.jpg$third-party
+||gigaflat.com/affiliate/$third-party
 ||giganews.com/banners/$third-party
 ||glam.com/gad/
 ||glam.com/glamigm.act?
@@ -11133,6 +11145,7 @@ _a468x60.
 ||longtailvideo.com^*/adawe-$object-subrequest,third-party
 ||longtailvideo.com^*/yume.swf
 ||lowbird.com/random/$third-party
+||ltfm.ca/stats.php?
 ||lucky-ace-casino.net/banners/
 ||lucky-dating.net/banners/
 ||luckygunner.com^*/banners/
