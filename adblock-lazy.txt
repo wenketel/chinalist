@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: KSqvFdQ4gELl0F6t6mq2kA
+!  Checksum: HFRaM2H9rJb44Xw9I/DpQw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 23 Feb 2012 21:44:46 +0800
+!  Last Modified:  Fri, 24 Feb 2012 00:21:20 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1168,8 +1168,10 @@ yesky.com##[class^="ad"]
 @@||dm.99manga.com/jsc/book.js
 @@||dm.99manga.com/w/i.js
 ||dm.99manga.com^$script,subdocument
-||baishuzhai.com/bookaction.aspx
-||baishuzhai.com/wlxsjs/c_gg2.js
+||baishuzhai.com/wlxsjs/bd0$script
+||baishuzhai.com/wlxsjs/bdSearch_mid.js
+||baishuzhai.com/wlxsjs/chapter.js
+||baishuzhai.com/wlxsjs/*gg$script
 ||baishuku.com/news/$script
 ||static.bengou.com/js2/guga_
 @@||bookcu.com/js/bar.js
@@ -9008,6 +9010,7 @@ _a468x60.
 ##.sponsored_box
 ##.sponsored_box_search
 ##.sponsored_by
+##.sponsored_content
 ##.sponsored_link
 ##.sponsored_links
 ##.sponsored_links_title_container
@@ -11323,6 +11326,7 @@ _a468x60.
 ||selectperformers.com/images/a/
 ||selectperformers.com/images/elements/bannercolours/
 ||serve.prestigecasino.com^$image,~image,popup
+||serve.williamhillcasino.com^$image,~image,popup
 ||servedby.keygamesnetwork.com^
 ||sfimg.com/images/banners/
 ||shaadi.com^*/get-banner.php?
