@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: MY5AWeQ2KB85cw/ouh6SjQ
+!  Checksum: mwQwdo8J3prgSlRGD/lZmA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 24 Feb 2012 13:10:49 +0800
+!  Last Modified:  Fri, 24 Feb 2012 19:31:49 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -918,7 +918,6 @@ ynet.com###ta01
 ||html.atm.youku.com^
 ||static.atm.youku.com^$object
 ||val*.atm.youku.com^
-||f.youku.com/player/getFlvPath/fileid/
 ||lstat.youku.com^
 ||stat.youku.com^
 soku.com###ab_282
@@ -5313,6 +5312,7 @@ _a468x60.
 ###advertiseHere
 ###advertisement1
 ###advertisement160x600
+###advertisement2
 ###advertisement3
 ###advertisement728x90
 ###advertisementHorizontal
@@ -5340,6 +5340,7 @@ _a468x60.
 ###advertising_contentad
 ###advertising_horiz_cont
 ###advertisment
+###advertisment1
 ###advertismentElementInUniversalbox
 ###advertorial
 ###advertorial-wrap
@@ -9353,9 +9354,15 @@ _a468x60.
 ||777seo.com^$third-party
 ||7search.com^$third-party
 ||87.230.102.24^$third-party,domain=~p2p.adserver.ip
+||888.com^$image,~image,popup
+||888casino.com^$image,~image,popup
+||888games.com^$image,~image,popup
 ||888media.net^$image,~image,popup
 ||888media.net^$third-party
 ||888medianetwork.com^$third-party
+||888poker.com^$image,~image,popup
+||888promos.com^$image,~image,popup
+||888promos.com^$third-party
 ||a433.com^$third-party
 ||aa.voice2page.com^$third-party
 ||abtracker.us^$third-party
@@ -9737,6 +9744,7 @@ _a468x60.
 ||cash4members.com^$third-party
 ||cashtrafic.com^$third-party
 ||cb-content.com^$third-party
+||cbaazars.com^$third-party
 ||cbclickbank.com^$third-party
 ||cbclicks.com^$third-party
 ||cc-dt.com^$third-party
@@ -9755,6 +9763,7 @@ _a468x60.
 ||clash-media.com^$third-party
 ||claxonmedia.com^$third-party
 ||clayaim.com^$third-party
+||cleafs.com^$third-party
 ||click2jump.com^$third-party
 ||click4free.info^$third-party
 ||clickad.pl^$third-party
@@ -10766,8 +10775,6 @@ _a468x60.
 ||2leep.com/ticker2/$third-party
 ||69.50.226.158^$third-party,domain=~worth1000.com.ip
 ||770.com/banniere.php?
-||888.com^*^utm_source=$image,~image,popup
-||888casino.com^*^utm_source=$image,~image,popup
 ||a-bride-from-russia.com/banners/
 ||a-bride-from-ukraine.com/banners/
 ||a-pretty.com/banners/
@@ -11461,7 +11468,7 @@ _a468x60.
 ||widget.kelkoo.com^
 ||widget.raaze.com^
 ||widget.shopstyle.com/widget?pid=$subdocument,third-party
-||widgets.itunes.apple.com^*&affiliate_id=
+||widgets.itunes.apple.com^*&affiliate_id=$third-party
 ||widgets.mobilelocalnews.com^$third-party
 ||wildamaginations.com/mdm/banner/
 ||winpalace.com/?affid=
