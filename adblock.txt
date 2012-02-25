@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: aZ1dI7VcN2UCWveVyHWw3w
+!  Checksum: LSUtmhuVsKm/7QR8I0dh+Q
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 25 Feb 2012 07:16:04 +0800
+!  Last Modified:  Sat, 25 Feb 2012 14:33:01 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -166,7 +166,6 @@ tieba.baidu.com###sgp_top_frame
 video.baidu.com##div#results > div[style^="display:block;width:980px;"]
 !--zhidao
 ||baidu.com^*/egg*.swf
-||cp.zhidao.baidu.com^$script
 iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com###center > div[style="width:85%"]
 iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com###advertise
 iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com##.ad-fc-down
@@ -741,7 +740,9 @@ map.sogou.com###CboardDlg_1
 ||tgbus.com/search/article_endcontent_google.htm
 ||tgbus.com/sf/taobao/
 ||vista.tgbusdata.cn/s.js
-tgbus.com##[class^="ad"][class*="t8"]
+||tgbus.com/left.jpg
+||tgbus.com/right.jpg
+tgbus.com###all>div[class^='ad']
 tgbus.com##[class^="ad_"]
 tgbus.com##.ad86
 tgbus.com##.ads1
@@ -803,6 +804,7 @@ udn.com###ads
 
 !---VeryCD
 ||sp.vcimg.com^
+verycd.com##div.rightDiv > div:first-child[style]
 
 !---华声在线
 ||voc.com.cn/adsClick/
@@ -942,6 +944,7 @@ zhulang.com##[class^="ad"]
 zhulang.com###reader_top
 
 !---ZOL
+@@zol.com.cn$elemhide
 ||pic.zol-img.com.cn^$object
 zol.com.cn##[id^="AD"]
 www.zol.com.cn##[id^="ad"]
@@ -1302,6 +1305,8 @@ www.jstv.com##.jadv
 !---Miscellaneous
 ||111cn.net/gg_ad/
 ||141hongkong.com/images/
+19lou.com##.ad
+19lou.com##.head-ad
 ||1m1m.cn/bar/
 ||233.com/examdagg/
 ||2500sz.com/site/
