@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: AiRw9Pg3I4FS7aDc5etvUg
+!  Checksum: r9OzPQ1rLiypekrj3bKkQg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 25 Feb 2012 17:40:28 +0800
+!  Last Modified:  Sat, 25 Feb 2012 18:05:26 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -12,7 +12,6 @@
 !  coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
 !----------------------------White List--------------------
-@@||acfun.tv/plus/ad_js.php?aid=8
 @@||iphone4.tw/forums/news_proxy.php$xmlhttprequest
 !---Shopping websites
 @@||adimg.adtpl.360buy.com/uploads/$image
@@ -125,6 +124,10 @@ v.6.cn###playerAd
 ||6park.com/parks/$script
 ||6park.com/wap/
 6park.com##body > table[width="978"]:nth-child(5)
+
+!---acfun.tv
+@@||acfun.tv/plus/ad_js.php?aid=8
+||acfun.tv/json/newad.xml
 
 !---Baidu
 !--unions
@@ -1218,6 +1221,8 @@ kkkmh.com##[class^="mm-"]
 ||laishu.com/lsgg/
 ||laishu.com/mb/
 ||laiwx.com/js/
+||mywenxue.com/Skin/Default/js/fdad.js
+||mywenxue.com/Skin/Default/Css/fdad.Css
 ||narutom.com/v2/js/198game_Lt.js
 ||niubb.net/niubbad/
 ||paoshu8.com/js/gg$script
@@ -1358,6 +1363,7 @@ fj007.com##.ad_div
 frdic.com,godic.net##.headBar
 frdic.com,godic.net###sidebar1
 ||fzlol.com/images/$script
+||hackvip.com/ai/
 ||hanzify.org/Main/Template/*/a-d-s/
 ||img.hdbird.com/langzi/
 ||hefei.cc/templates/default/index_ad62.js
@@ -1743,6 +1749,7 @@ win7china.com,win8china.com##.site_ad
 ||e.phpwind.com^$third-party
 ||lianjie.phpwind.com^$third-party
 ||pixelinteractivemedia.com^$third-party
+||zt.pptv.com^$third-party
 ||ppunion.com^$third-party
 ||prohost.com.tw^$third-party
 ||image.qndown.com^$third-party
