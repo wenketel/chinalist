@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: r9OzPQ1rLiypekrj3bKkQg
+!  Checksum: DKwkF+Iayzayckh8KWUX3Q
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 25 Feb 2012 18:05:26 +0800
+!  Last Modified:  Sat, 25 Feb 2012 18:52:34 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -350,7 +350,7 @@ firefoxchina.cn,g-fox.cn##[id^="banner_show"]
 ||pic.bahamut.com.tw/js/ad.js
 
 !---游民星空
-||gamersky.com/bg_ol.jpg
+||gamersky.com/bg_ol$image
 ||gamersky.com/frame/
 ||image.gamersky.com/img/
 gamersky.com##.adc
@@ -527,7 +527,7 @@ tv.on.cc###superbanner
 tv.on.cc###large
 
 !---远景
-bbs.pcbeta.com##div#pt + div[style] > div[style]:nth-child(2)
+bbs.pcbeta.com##div#pt + div[style] > div[style^="clear:both;"]
 bbs.pcbeta.com###diynavtop + .wp
 bbs.pcbeta.com##.forum_top + div[style]:nth-child(3)
 
@@ -742,11 +742,9 @@ map.sogou.com###CboardDlg_1
 ||vista.tgbusdata.cn/s.js
 ||tgbus.com/left.jpg
 ||tgbus.com/right.jpg
-tgbus.com###all>div[class^='ad']
-tgbus.com##[class^="ad_"]
-tgbus.com##.ad86
-tgbus.com##.ads1
+tgbus.com##[class^="ad"][class*="t8"]
 tgbus.com##div#navi + div.area
+
 
 !---TianYa
 ||blog.tianya.cn/tuijian/tanchu.js
@@ -1141,6 +1139,7 @@ yesky.com##[class^="ad"]
 ||33xs.com/hot/
 ||33xs.com/js/mg
 ||t.33xs.com/js/g
+@@||35xs.com/js/xingxi.js
 ||35xs.com/js/
 ||35zww.com/zzzjs/
 ||3yt.com/2009js/
@@ -1224,6 +1223,7 @@ kkkmh.com##[class^="mm-"]
 ||mywenxue.com/Skin/Default/js/fdad.js
 ||mywenxue.com/Skin/Default/Css/fdad.Css
 ||narutom.com/v2/js/198game_Lt.js
+||niaoyan.net/wlxsjs/gg$script
 ||niubb.net/niubbad/
 ||paoshu8.com/js/gg$script
 ||paoshu8.com/js/piaofu.js
@@ -1300,6 +1300,7 @@ www.jstv.com##.jadv
 ||a.pomoho.com^
 ||stat.ppstream.com^
 ||iafp.pptv.com^
+||zt.pptv.com^$third-party
 ||synacast.com^
 ||luckstatic.v1.cn/st/10000/
 ||yiyi.cc/ad/
@@ -1363,7 +1364,6 @@ fj007.com##.ad_div
 frdic.com,godic.net##.headBar
 frdic.com,godic.net###sidebar1
 ||fzlol.com/images/$script
-||hackvip.com/ai/
 ||hanzify.org/Main/Template/*/a-d-s/
 ||img.hdbird.com/langzi/
 ||hefei.cc/templates/default/index_ad62.js
@@ -1375,9 +1375,9 @@ frdic.com,godic.net###sidebar1
 ||hxsxw.com/hxsxw111.gif
 ||hxyl.net/hostpic/
 ||goto.www.iciba.com^$subdocument
-||ihome99.com/gpic/
-ihome99.com##.ad-cycle
-ihome99.com##.float-ad
+/gpic/*$domain=ihome99.com|19lou.com
+19lou.com,ihome99.com##.ad-cycle
+19lou.com,ihome99.com##.float-ad
 ||img.itbulo.com/js/11/$subdocument
 ||img.itbulo.com/js/11/gg.js
 ||img.itbulo.com/js/11/style.js
@@ -1528,7 +1528,7 @@ win7china.com,win8china.com##.site_ad
 ||37dz.com^$third-party
 ||p.37lai.com^$third-party
 ||cs.37see.com^$third-party
-||3975.com^third-party
+||3975.com^$third-party
 ||3gpz.net^$third-party
 ||3munion.net^$third-party
 ||51link.com^$third-party
@@ -1749,7 +1749,6 @@ win7china.com,win8china.com##.site_ad
 ||e.phpwind.com^$third-party
 ||lianjie.phpwind.com^$third-party
 ||pixelinteractivemedia.com^$third-party
-||zt.pptv.com^$third-party
 ||ppunion.com^$third-party
 ||prohost.com.tw^$third-party
 ||image.qndown.com^$third-party
@@ -1784,7 +1783,7 @@ win7china.com,win8china.com##.site_ad
 ||svem.cc^$third-party
 ||sxtengchuang.cn^$third-party
 ||szvr.com^$third-party
-||tanx.com^$third-party,domain=~taobao.com
+||tanx.com^$third-party,domain=~taobao.com|~tmall.com
 ||tazhao.com^$third-party
 ||tenoad.com^$third-party
 ||adsame.tianjimedia.com^$third-party
