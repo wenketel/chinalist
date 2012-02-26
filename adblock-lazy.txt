@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: qpSY7x+CcctLPPMXoi7jtQ
+!  Checksum: w84Gr/0tJQUaV3F7duqZxg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 26 Feb 2012 12:59:50 +0800
+!  Last Modified:  Sun, 26 Feb 2012 19:10:14 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -15,6 +15,7 @@
 !--CC-BY-SA 3.0 + Licensed, NO WARRANTY but Best Wishes----
 !----------------------------White List--------------------
 @@||iphone4.tw/forums/news_proxy.php$xmlhttprequest
+@@||ad.ourgame.com/cgi-bin/insertflasha.js
 !---Shopping websites
 @@||adimg.adtpl.360buy.com/uploads/$image
 @@||book.360buy.com/book/BookShowService.aspx$xmlhttprequest
@@ -3081,6 +3082,7 @@ xfastest.com##[class^="ad"]
 /customad.
 /customads/*
 /customadsense.
+/customcontrols/ads/*
 /customerad_
 /cwggoogleadshow.
 /dart-zones.js
@@ -3235,6 +3237,7 @@ xfastest.com##[class^="ad"]
 /gexternalad.
 /glam_ads.
 /global/ads.
+/globalbannerad.
 /google-ad-
 /google-ad?
 /google-ads.
@@ -3923,6 +3926,7 @@ xfastest.com##[class^="ad"]
 =com_ads&
 =dartad_
 =dynamicads&
+=global-banner-ad&
 =showsearchgoogleads&
 =webad2&
 ?*=x55g%3add4vv4fy.
@@ -5809,6 +5813,7 @@ _a468x60.
 ###gameads
 ###gasense
 ###gglads
+###global-banner-ad
 ###global_header_ad_area
 ###gm-ad-lrec
 ###gmi-ResourcePageAd
