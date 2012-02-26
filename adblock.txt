@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: DKwkF+Iayzayckh8KWUX3Q
+!  Checksum: qj+sfQ+P8GsxcKxiQAybUw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 25 Feb 2012 18:52:34 +0800
+!  Last Modified:  Sun, 26 Feb 2012 12:59:49 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -584,7 +584,7 @@ bbs.qidian.com##.show_ggpic_990X60
 !--fix qidian & qdmm links
 @@||qdmm.com^$image,~image,popup,domain=qidian.com
 !--晋江文学城
-|http://$image,~image,third-party,popup,domain=jjwxc.net|qidian.com
+|http://$image,~image,third-party,popup,domain=jjwxc.net|~bbs.jjwxc.net|qidian.com
 ||jjwxc.net/jjad2.html$image,~image,popup
 ||jjwxc.net/sp/$subdocument
 jjwxc.net##[id^="adp_"]
@@ -744,7 +744,6 @@ map.sogou.com###CboardDlg_1
 ||tgbus.com/right.jpg
 tgbus.com##[class^="ad"][class*="t8"]
 tgbus.com##div#navi + div.area
-
 
 !---TianYa
 ||blog.tianya.cn/tuijian/tanchu.js

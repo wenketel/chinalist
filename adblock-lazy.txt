@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: FtUwl0pp0u8Uc3ol9HUwiQ
+!  Checksum: qpSY7x+CcctLPPMXoi7jtQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 25 Feb 2012 18:52:34 +0800
+!  Last Modified:  Sun, 26 Feb 2012 12:59:50 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -586,7 +586,7 @@ bbs.qidian.com##.show_ggpic_990X60
 !--fix qidian & qdmm links
 @@||qdmm.com^$image,~image,popup,domain=qidian.com
 !--晋江文学城
-|http://$image,~image,third-party,popup,domain=jjwxc.net|qidian.com
+|http://$image,~image,third-party,popup,domain=jjwxc.net|~bbs.jjwxc.net|qidian.com
 ||jjwxc.net/jjad2.html$image,~image,popup
 ||jjwxc.net/sp/$subdocument
 jjwxc.net##[id^="adp_"]
@@ -746,7 +746,6 @@ map.sogou.com###CboardDlg_1
 ||tgbus.com/right.jpg
 tgbus.com##[class^="ad"][class*="t8"]
 tgbus.com##div#navi + div.area
-
 
 !---TianYa
 ||blog.tianya.cn/tuijian/tanchu.js
@@ -3343,6 +3342,7 @@ xfastest.com##[class^="ad"]
 /incmpuad.
 /index-ad.
 /index_ads.
+/injectad.
 /inline_ad.
 /inline_ad_
 /inline_ads.
@@ -5327,6 +5327,8 @@ _a468x60.
 ###advertisement2
 ###advertisement3
 ###advertisement728x90
+###advertisementFooterTop
+###advertisementHeaderBottom
 ###advertisementHorizontal
 ###advertisementLigatus
 ###advertisementPrio2
@@ -6279,6 +6281,8 @@ _a468x60.
 ###rightAdColumn
 ###rightAd_rdr
 ###rightAdsDiv
+###rightBoxAdvertisement
+###rightBoxAdvertisementLast
 ###rightColAd
 ###rightColumnMpuAd
 ###rightColumnSkyAd
@@ -6328,7 +6332,7 @@ _a468x60.
 ###searchAdSenseBox
 ###searchAdSenseBoxAd
 ###searchAdSkyscraperBox
-###search_ads
+~logic-immo.be###search_ads
 ###search_result_ad
 ###sec_adspace
 ###second-adlayer
@@ -8121,6 +8125,7 @@ _a468x60.
 ##.comment_ad_box
 ##.common_advertisement_title
 ##.communityAd
+##.companion_ad
 ##.conTSponsored
 ##.conductor_ad
 ##.confirm_ad_left
@@ -8687,6 +8692,7 @@ _a468x60.
 ##.newsvinemsn_adtype
 ##.nexusad
 ##.nf-adbox
+##.ninth-box-ad
 ##.nn-mpu
 ##.no1postadvert
 ##.noAdForLead
@@ -9129,6 +9135,7 @@ _a468x60.
 ##.textlink-ads
 ##.textlinkads
 ##.tf_page_ad_search
+##.third-box-ad
 ##.thirdage_ads_300x250
 ##.thirdage_ads_728x90
 ##.thisIsAd
@@ -9259,6 +9266,7 @@ _a468x60.
 ##.widget_island_ad
 ##.widget_maxbannerads
 ##.widget_sdac_bottom_ad_widget
+##.widget_sdac_companion_video_ad_widget
 ##.widget_sdac_footer_ads_widget
 ##.widget_sdac_skyscraper_ad_widget
 ##.widget_sdac_top_ad_widget
@@ -9898,6 +9906,7 @@ _a468x60.
 ||dt00.net^$third-party,domain=~marketgid.com|~marketgid.ru|~marketgid.ua|~mgid.com|~thechive.com
 ||dt07.net^$third-party,domain=~marketgid.com|~marketgid.ru|~marketgid.ua|~mgid.com|~thechive.com
 ||dualmarket.info^$third-party
+||dynamicoxygen.com^$third-party
 ||e-planning.net^$third-party
 ||e-viral.com^$third-party
 ||eads-adserving.com^$third-party
@@ -10568,6 +10577,7 @@ _a468x60.
 ||videoplaza.com^$object-subrequest,third-party,domain=evo.co.uk|mpora.com
 ||videoplaza.com^$~object-subrequest,third-party
 ||videoplaza.tv/proxy/distributor?$object-subrequest,third-party
+||videoplaza.tv^$object-subrequest,third-party,domain=tv4play.se
 ||videoplaza.tv^$~object-subrequest,third-party
 ||videostrip.com^*/admatcherclient.$object-subrequest,third-party
 ||vidpay.com^$third-party
@@ -10796,6 +10806,7 @@ _a468x60.
 ||a.ucoz.net^
 ||a.watershed-publishing.com^
 ||ablacrack.com/popup-pvd.js$third-party
+||ad.flux.com^
 ||ad.sensismediasmart.com.au^
 ||adap.tv/redir/client/static/as3adplayer.swf
 ||adap.tv/redir/plugins/$object-subrequest
@@ -11359,6 +11370,7 @@ _a468x60.
 ||shipito.com/banners/
 ||shop-top1000.com/images/
 ||shop4tech.com^*/banner/
+||shows-tv.net/codepopup.js
 ||shragle.com^*?ref=
 ||sidekickunlock.net/banner/
 ||singlemuslim.com/affiliates/
