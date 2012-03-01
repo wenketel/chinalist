@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: NPDnW8ynTIW6lX9oAL7EgA
+!  Checksum: MC1Tw0nx8mkSL7SyYp+GcQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 29 Feb 2012 22:02:52 +0800
+!  Last Modified:  Thu, 01 Mar 2012 20:11:45 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -2006,6 +2006,7 @@ xfastest.com##[class^="ad"]
 !-----------------------Temporary---------------------------
 !---2012.2
 ||image.10010.com/index_js/flash-ad$script
+||i.imgur.com/BN5eO.gif$domain=hexieshe.com
 ||blog.hi.mop.com/flash/830-310.swf
 ||nanrenwa.com/_img/a/$third-party
 @@||ad1.nownews.com/ads.php?ownerid=1294
@@ -4059,6 +4060,7 @@ _adsjs.
 _adskin.
 _adsrv?
 _adsys.
+_adtags.php
 _adtech/$~stylesheet
 _adtech_
 _adtext_
@@ -4211,6 +4213,7 @@ _webad.
 /300_250_
 /300x250-
 /300x250.
+/300x250/*
 /300x250_
 /320x250.
 /336x280-
@@ -5235,7 +5238,7 @@ _a468x60.
 ###adslot
 ###adsmiddle
 ###adsonar
-~cooperhewitt.org,~metblogs.com,~oreilly.com,~thisisthehive.net###adspace
+~cooperhewitt.org,~core77.com,~metblogs.com,~oreilly.com,~thisisthehive.net###adspace
 ###adspace-1
 ###adspace-300x250
 ###adspace-leaderboard-top
@@ -6914,6 +6917,7 @@ _a468x60.
 ##.ad-160x600x3
 ##.ad-250
 ##.ad-300
+##.ad-300-250
 ##.ad-300-block
 ##.ad-300-blog
 ##.ad-300x100
@@ -7780,6 +7784,7 @@ _a468x60.
 ##.advert5
 ##.advert728x90
 ##.advert8
+##.advertBlock
 ~pdc.tv##.advertColumn
 ##.advertCont
 ~basingstokehomebid.org.uk,~homefindersomerset.co.uk##.advertContainer
@@ -7792,6 +7797,8 @@ _a468x60.
 ##.advertTitleSky
 ##.advert_336
 ##.advert_468x60
+##.advert_back_160x600
+##.advert_back_300x250
 ##.advert_box
 ##.advert_cont
 ##.advert_container
@@ -8253,6 +8260,7 @@ _a468x60.
 ##.e-ad
 ##.ec-ads
 ##.ec-ads-remove-if-empty
+##.ec_ad_banner
 ##.em-ad
 ##.em_ads_box_dynamic_remove
 ##.embed-ad
@@ -9401,7 +9409,7 @@ _a468x60.
 ||209.222.8.217^$third-party,domain=~p2p.adserver.ip
 ||247realmedia.com^$third-party
 ||2mdn.net/dot.gif$object-subrequest,third-party
-||2mdn.net^$object-subrequest,third-party,domain=3news.co.nz|bbc.co.uk|bet.com|bloomberg.com|businessday.co.za|businessweek.com|calgaryherald.com|couriermail.com.au|drive.com.au|edmontonjournal.com|eonline.com|euronews.net|globaltoronto.com|globaltvbc.com|heraldsun.com.au|independent.ie|leaderpost.com|metacafe.com|montrealgazette.com|nationalpost.com|ndtv.com|newyorkjets.com|ottawacitizen.com|reuters.com|rollingstone.com|rte.ie|sherdog.com|skynews.com.au|smh.com.au|telegraph.co.uk|theage.com.au|theaustralian.com.au|thecomedynetwork.ca|theprovince.com|thestarphoenix.com|timescolonist.com|vancouversun.com|vice.com|windsorstar.com
+||2mdn.net^$object-subrequest,third-party,domain=3news.co.nz|bbc.co.uk|bet.com|bloomberg.com|businessday.co.za|businessweek.com|calgaryherald.com|couriermail.com.au|drive.com.au|edmontonjournal.com|eonline.com|euronews.net|globaltoronto.com|globaltvbc.com|heraldsun.com.au|independent.ie|kfiam640.com|leaderpost.com|metacafe.com|montrealgazette.com|nationalpost.com|ndtv.com|newyorkjets.com|ottawacitizen.com|reuters.com|rollingstone.com|rte.ie|sherdog.com|skynews.com.au|smh.com.au|telegraph.co.uk|theage.com.au|theaustralian.com.au|thecomedynetwork.ca|theprovince.com|thestarphoenix.com|timescolonist.com|vancouversun.com|vice.com|windsorstar.com
 ||2mdn.net^$~object-subrequest,third-party
 ||360ads.com^$third-party
 ||360yield.com^$third-party
@@ -11506,6 +11514,7 @@ _a468x60.
 ||ttnonline.com/banners/
 ||turbotrafficsystem.com^*/banners/
 ||turner.com^*/336x280_ad.gif
+||turner.com^*/ad_policy.xml$domain=cnn.com
 ||turner.com^*/promos/
 ||twivert.com/external/banner234x60.
 ||u-loader.com/image/hotspot_
@@ -11575,6 +11584,7 @@ _a468x60.
 ! Adware
 ||ver-pelis.net/player/servers/otros.js
 ! *** easylist:easylist_adult/adult_thirdparty.txt ***
+||1800freecams.com^$image,~image,popup,third-party
 ||213.174.140.76^*/js/msn-$script
 ||213.174.140.76^*/js/msn.js
 ||21sextury.com^$image,~image,popup
@@ -11677,6 +11687,7 @@ _a468x60.
 ||pop6.com/javascript/im_box-*.js
 ||popit.mediumpimpin.com^
 ||pornprosnetwork.com/affiliates/
+||pornturbo.com^*.php?*&cmp=$subdocument,third-party
 ||premiumhdv.com/bn/
 ||premiumhdv.com^$subdocument,third-party
 ||privatamateure.com/promotion/
@@ -12924,6 +12935,7 @@ _cedexis.php
 ||clicktracks.aristotle.net^
 ||cloudfront.net/atrk.js
 ||cloudfront.net/tracker.js
+||cnn-f.akamaihd.net/control/
 ||cnt.mastorage.net^
 ||collection.acromas.com^
 ||comet.ibsrv.net^
@@ -13043,6 +13055,7 @@ _cedexis.php
 ||linkwithin.com/pixel.png
 ||livefyre.com/tracking/
 ||livepass.conviva.com^
+||livepassdl.conviva.com^
 ||lockerz.com/1x1.gif?
 ||log.adap.tv^$object-subrequest
 ||longtailvideo.com^*/googlytics-
