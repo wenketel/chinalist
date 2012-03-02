@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: qeSus0DBm3MLnQxjwwd6Cw
+!  Checksum: NHTHeJaH/ROQFJsv8CfjeQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 02 Mar 2012 02:31:27 +0800
+!  Last Modified:  Fri, 02 Mar 2012 12:39:41 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -403,9 +403,10 @@ www.hsw.cn##table[width="980"][height="90"]
 www.hsw.cn##table[width="980"][height="100"]
 
 !---凤凰网
+@@||bc.ifeng.com/crossdomain.xml
 /ifengRotatorAd.js
 /sc_ifeng/*
-||bc.ifeng.com^$~object_subrequest
+||bc.ifeng.com^
 ||comment.ifeng.com/count_
 ||img.ifeng.com/tres/$image,~image,popup
 ||img.ifeng.com/tres/html/
@@ -1907,8 +1908,8 @@ win7china.com,win8china.com##.site_ad
 /dkgg/*
 /duilian.
 /events/ad/*
-/floatadv.
 /floatad.
+/floatadv.
 /gaog/*
 /ggao.
 /ggao/*
