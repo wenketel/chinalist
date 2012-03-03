@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: bYSrZ6NCQlkNrlPQjUq2Ig
+!  Checksum: T6n72zve3EHRvfa6UVsi7g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 03 Mar 2012 13:41:00 +0800
+!  Last Modified:  Sat, 03 Mar 2012 15:35:11 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -689,35 +689,37 @@ www.sina.com.cn##div#PartA > div.left > div:not(#sina_house_link9)
 www.sina.com.cn##div#PartG > div.rightbox
 www.sina.com.cn##[class^="txtads"]
 www.sina.com.cn##.yleft2blk
-!--auto
+!-auto
 @@||auto.sina.com.cn^$elemhide
-!--finance
+!-finance
 @@||counter.sina.com.cn/time?fm=JS$domain=finance.sina.com.cn
 @@||sinaimg.cn^*/headcj.js$domain=finance.sina.com.cn
 finance.sina.com.cn###adSinaHouseHeadLink
-!--house
+!-house
 ||d1.leju.com^$object
 ||bj.house.sina.com.cn/pdps/290/2010/1201/965.js
 ||sinaimg.cn/hs/zjwei/base/swf/picshow_160x90.swf
-!--sh.sina.com.cn
+!-mail
+||mail.sina.com.cn/admail/
+!-sh.sina.com.cn
 ||sh.sinaimg.cn/*/ad/
 sh.sina.com.cn##[class^="jsad"]
 sh.sina.com.cn###jesse12
 sh.house.sina.com.cn##[id^="coupletAd"]
-!--sports
+!-sports
 ||lining.sina.com.cn^$subdocument
 ||p4p.sina.com.cn^
 sina.com.cn##.adNone
+!-video
+||dcads.sina.com.cn^
+video.sina.com.cn###bgad_div
+!-weibo
+weibo.com##[id^="ads"]
+weibo.com##.tips_player
 !--sina.com.hk
 ||as.sinahk.net^
 !--sina.com.tw
 ||sina.com.tw^$subdocument
-!--video
-||dcads.sina.com.cn^
-video.sina.com.cn###bgad_div
-!--weibo
-weibo.com##[id^="ads"]
-weibo.com##.tips_player
 
 !---东方宽频
 @@||acs86.com/crossdomain.xml
