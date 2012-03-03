@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 4Ti4LCQi6gjyq+B8TwIdPg
+!  Checksum: bYSrZ6NCQlkNrlPQjUq2Ig
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 03 Mar 2012 13:23:17 +0800
+!  Last Modified:  Sat, 03 Mar 2012 13:41:00 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -31,6 +31,7 @@
 !---Make sure video from those sites can be played correctly
 @@||v.ftimg.net/video/adv/ad.flv
 @@||afp.goyeah.com^$object_subrequest
+@@||static.m1905.com/profile/ads/*.xml$object_subrequest
 @@||union.bokecc.com^$object,object_subrequest,script
 
 !----------------------------Well-known Sites--------------
@@ -1383,6 +1384,7 @@ frdic.com,godic.net###sidebar1
 ||fsllq.com/res/inc/liangbian.js
 ||fsllq.com/temp/images/*_980$image
 ||fzlol.com/images/$script
+||hackvip.com/ai/
 ||hanzify.org/Main/Template/*/a-d-s/
 ||img.hdbird.com/langzi/
 ||hefei.cc/templates/default/index_ad62.js
@@ -1425,6 +1427,7 @@ jpwind.com##[id^="ShowAD"]
 ||linuxidc.com/linuxfile/linux2.js
 ||linuxidc.com/linuxfile/linuxa1.js
 ||sp.luo.bo^$subdocument
+@@||static.m1905.com/profile/ads/*.xml$object_subrequest
 ||xc.macd.cn^
 bbs.macd.cn###advlist
 ||img.maxpda.com/images/
@@ -1467,6 +1470,7 @@ subpig.net##.a_p
 ||acookie.taobao.com/1.gif?
 ||bbs.t56.net/ad*/
 ||img.taoguba.com.cn/gbimg/
+tiyuba.tv##.gg_info
 ||topsage.com/service/$object
 ||tompda.com^$object
 ||txzqw.com/attachment321/
