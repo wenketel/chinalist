@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: yQlx46i09wdRehzHYms6Ww
+!  Checksum: OB6/TDnmMixmECyF5HtUJA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 03 Mar 2012 00:23:23 +0800
+!  Last Modified:  Sat, 03 Mar 2012 10:44:34 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -355,6 +355,7 @@ firefoxchina.cn,g-fox.cn##[id^="banner_show"]
 ||gamersky.com/bg_ol$image
 ||gamersky.com/frame/
 ||image.gamersky.com/img/
+||imgf.gamersky.com/300/fight950.swf
 |http://gamefiles.$object,domain=gamersky.com
 gamersky.com##.adc
 gamersky.com###clickbg
@@ -1018,6 +1019,8 @@ itopdog.cn##[id^="itopdog_ad-"]
 ||orsoon.com/orsoon/$script
 ||ouyaoxiazai.com^$script,subdocument
 ||oyksoft.com/oyksoft_js/
+||pc6.com/js/html/
+||pc6.com/js/un/
 ||piaodown.com/other/js/$script
 ||piaohua.com/js/yzz/
 ||quick8.cn/softimg/*AD.gif
@@ -1057,8 +1060,7 @@ verypsp.com##table[width="960"]
 115.com##.res-list
 @@||dl.dbank.com^$elemhide
 ||st2.dbank.com/images/downloadtopbanner01.jpg
-||static.ctdisk.com/510.js
-||static.ctdisk.com/tuigoo.js
+||static.ctdisk.com/*.js?version=
 ||multiupload.com/popunder/$image,~image,popup
 ||d.namipan.com/inc_js/$script
 ||img.rayfile.com/scr/$script
@@ -1727,6 +1729,7 @@ win7china.com,win8china.com##.site_ad
 ||is686.com^$third-party
 ||ishare.tw^$subdocument,third-party
 ||jdunion.com^$third-party
+||down.jialichuang.com^$third-party
 ||jidian5.com^$third-party
 ||jingpi.net^$third-party
 ||jingwei.net^$third-party
