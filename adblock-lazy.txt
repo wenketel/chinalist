@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: GcvdUZv3AaUwWWg+cA98Kg
+!  Checksum: V7Uzo61qUVS+sgzkHfhRdw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 04 Mar 2012 16:21:38 +0800
+!  Last Modified:  Sun, 04 Mar 2012 19:34:21 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -669,8 +669,10 @@ dailynews.sina.com##.TopNav + table
 ||bj.house.sina.com.cn/iframe/$domain=~leju.com
 ||d1.sina.com.cn^$image,object,script,domain=~weibo.com
 ||d2.sina.com.cn^$image,object,script
+||d2.sina.com.cn^$subdocument,domain=www.sina.com.cn
 ||d3.sina.com.cn^$image,object,script
 ||d4.sina.com.cn^$image,object,script
+||d4.sina.com.cn^$subdocument,domain=www.sina.com.cn
 ||d5.sina.com.cn^$image,object,script
 ||news.sina.com.cn/pfpnews/js/libweb.js
 ||pfp.sina.com.cn^$script
@@ -717,6 +719,7 @@ sh.house.sina.com.cn##[id^="coupletAd"]
 ||p4p.sina.com.cn^
 sina.com.cn##.adNone
 !-video
+||log.v.iask.com^
 ||dcads.sina.com.cn^
 video.sina.com.cn###bgad_div
 !-weibo
