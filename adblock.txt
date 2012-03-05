@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: L/GQuvzgz7Ynuu35t4qqww
+!  Checksum: fzIIEaz6EPL1ioNHrjFmZw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 04 Mar 2012 19:34:21 +0800
+!  Last Modified:  Mon, 05 Mar 2012 18:15:08 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -613,15 +613,17 @@ jjwxc.net##table[style^="width:984px;"]
 ||ipic.staticsdo.com^
 
 !---QQ
-@@||adsrich.qq.com/web/crystal/$script,domain=news.qq.com
-@@||mb.qq.com^$elemhide
-@@||gtimg.com/img/ad/$image,domain=buy.qq.com
 ||mat1.gtimg.com^$object
 ||mat1.gtimg.com/sports/2011ad/
 ||adslvfile.qq.com^
-/avd/*$domain=hb.qq.com
-||p.l.qq.com/p?
 ||btrace.qq.com^
+@@||gtimg.com/img/ad/$image,domain=buy.qq.com
+@@||cq.qq.com/js/cody/gdad/all_scroll_ad.js
+||cq.qq.com^*/ad_
+/avd/*$domain=hb.qq.com
+||l.qq.com/p?
+@@||mb.qq.com^$elemhide
+@@||adsrich.qq.com/web/crystal/$script,domain=news.qq.com
 ||pingjs.qq.com/ping.js
 ||rh.qq.com^
 ||tcss.qq.com^

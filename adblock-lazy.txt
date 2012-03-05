@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: V7Uzo61qUVS+sgzkHfhRdw
+!  Checksum: kcDB1bIjpaNOWnvV/jjozw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 04 Mar 2012 19:34:21 +0800
+!  Last Modified:  Mon, 05 Mar 2012 18:15:08 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -615,15 +615,17 @@ jjwxc.net##table[style^="width:984px;"]
 ||ipic.staticsdo.com^
 
 !---QQ
-@@||adsrich.qq.com/web/crystal/$script,domain=news.qq.com
-@@||mb.qq.com^$elemhide
-@@||gtimg.com/img/ad/$image,domain=buy.qq.com
 ||mat1.gtimg.com^$object
 ||mat1.gtimg.com/sports/2011ad/
 ||adslvfile.qq.com^
-/avd/*$domain=hb.qq.com
-||p.l.qq.com/p?
 ||btrace.qq.com^
+@@||gtimg.com/img/ad/$image,domain=buy.qq.com
+@@||cq.qq.com/js/cody/gdad/all_scroll_ad.js
+||cq.qq.com^*/ad_
+/avd/*$domain=hb.qq.com
+||l.qq.com/p?
+@@||mb.qq.com^$elemhide
+@@||adsrich.qq.com/web/crystal/$script,domain=news.qq.com
 ||pingjs.qq.com/ping.js
 ||rh.qq.com^
 ||tcss.qq.com^
@@ -3772,7 +3774,6 @@ xfastest.com##[class^="ad"]
 /skyscraper-ad.
 /skyscraperad.
 /slafc.js
-/slice.php?ad=
 /slideadverts/*
 /slideinad.
 /small_ad.
@@ -9262,7 +9263,6 @@ _a468x60.
 ##.top_advertising_lb
 ##.top_bar_ad
 ##.top_container_ad
-~horsebase.at,~horsebase.com,~horsebase.de,~pchome.com.tw,~pferde-suchen.com,~pferde-verkaufen.com##.topad
 ##.topad-bar
 ##.topadbox
 ~earlyamerica.com##.topads
@@ -9880,6 +9880,7 @@ _a468x60.
 ||click2jump.com^$third-party
 ||click4free.info^$third-party
 ||clickad.pl^$third-party
+||clickbank.net^$image,~image,popup,third-party
 ||clickbooth.com^$third-party
 ||clickbubbles.net^$third-party
 ||clickcash.com^$third-party
@@ -11289,6 +11290,7 @@ _a468x60.
 ||longtailvideo.com/ltas.swf$third-party
 ||longtailvideo.com^*/adawe-$object-subrequest,third-party
 ||longtailvideo.com^*/yume.swf
+||looneynetwork.com^*/ww-adv-
 ||lowbird.com/random/$third-party
 ||ltfm.ca/stats.php?
 ||lucky-ace-casino.net/banners/
@@ -12179,6 +12181,7 @@ _cedexis.php
 ||athenainstitute.biz^$third-party
 ||audience.visiblemeasures.com^$object-subrequest,third-party
 ||audienceiq.com^$third-party
+||avastats.com^$third-party
 ||avazudsp.net^$third-party
 ||axf8.net^$third-party
 ||baptisttop1000.com^$third-party
@@ -12695,7 +12698,6 @@ _cedexis.php
 ||snoobi.com^$third-party
 ||snowsignal.com^$third-party
 ||socialtrack.net^$third-party
-||sociomantic.com^$third-party
 ||sodoit.com^$third-party
 ||sophus3.com^$third-party
 ||speed-trap.com^$third-party
