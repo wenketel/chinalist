@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: fzIIEaz6EPL1ioNHrjFmZw
+!  Checksum: 68GVA+ZOz7twSCzpWeCxmA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 05 Mar 2012 18:15:08 +0800
+!  Last Modified:  Tue, 06 Mar 2012 17:44:48 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -309,7 +309,7 @@ discuss.com.hk,uwants.com##div[id^="thread_ads_"] + table
 uwants.com##div#foruminfo + div[align="center"]
 
 !---多特
-||img.duote.com/duotehtml/
+||img.duote.com/duotehtml/gong_gao.js
 ||img.duote.com/js/clickDownAjax3.js
 ||img.duote.com/images/00007701.jpg
 
@@ -344,9 +344,10 @@ focus.cn##.ad_fp
 ||vas.funshion.com^
 
 !---火狐主页
-/iframes/*$subdocument,domain=firefoxchina.cn|i.g-fox.cn
-firefoxchina.cn,g-fox.cn##[id^="ad_links"]
-firefoxchina.cn,g-fox.cn##[id^="banner_show"]
+||firefoxchina.cn/cooperation/
+/iframes/*$subdocument,domain=i.firefoxchina.cn|i.g-fox.cn
+i.firefoxchina.cn,i.g-fox.cn##[id^="ad_links"]
+i.firefoxchina.cn,i.g-fox.cn##[id^="banner_show"]
 
 !---巴哈姆特
 @@||bahamut.com.tw/avataruserpic/$subdocument
@@ -592,8 +593,10 @@ down.qiannao.com##div[style="padding: 8px;"]
 !---盛大
 ||dl.everbox.com/www/images/coop/$image
 !--起点中文网
+||uedas.qdmm.com^
 ||cj.qidian.com^$object
 ||cj.qidian.com/svnad/
+||uedas.qidian.com^
 qdmm.com,qidian.com##a[href^="http://www.qidian.com/showavd.aspx?"]
 www.qidian.com##.DH17
 www.qidian.com##[class^="gg"]
@@ -608,9 +611,10 @@ jjwxc.net##[id^="adp_"]
 jjwxc.net##table[style^="width:984px;"]
 !--Tracking
 ||aa.sdo.com^
-||dwtracking.sdo.com^
 ||aagw.sdo.com^
+||dwtracking.sdo.com^
 ||ipic.staticsdo.com^
+||loginlog.sdo.com^
 
 !---QQ
 ||mat1.gtimg.com^$object
@@ -1988,6 +1992,7 @@ win7china.com,win8china.com##.site_ad
 /tracking.
 /usertrack.$domain=~hao123.com
 !--sort by domain
+||50bang.org^$third-party
 ||51img.ajiang.net^
 ||blog104.com^$third-party
 ||blogtw.net^$third-party
@@ -2033,7 +2038,6 @@ needpop.com##div > div.spaceborder[style="width: 98%"]
 vod.oabt.org##.each_ad
 price.com.hk##.tb
 suopao.org##.t5[style^="margin-top:8px;"]
-t17.techbang.com.tw##.promote-event
 bbs.wuyou.com##[style="background: #BBE9FF"]
 xiachufang.com##.g-ga.g-bg-white
 xfastest.com##[id^="ad"]
