@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 68GVA+ZOz7twSCzpWeCxmA
+!  Checksum: 95FJ2Zl55XpJm6pGhvZXlA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 06 Mar 2012 17:44:48 +0800
+!  Last Modified:  Wed, 07 Mar 2012 17:45:44 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -149,6 +149,7 @@ v.6.cn###playerAd
 ||utk.baidu.com^
 ||a.baidu.com/ecom$script
 ||hi.baidu.com/ui/scripts/refer/refer.js
+||wenku.baidu.com/tongji/
 baike.baidu.com###mabox
 !--image
 image.baidu.com###ecomContainer
@@ -284,6 +285,7 @@ www.dayoo.com##body > div[style]
 @@/common/cf/*.thumb$image
 /common/cf/*$image,object,domain=~discuz.net
 /image/common/ad_close.gif
+##.a_h
 ##.a_mu
 ##.a_pb
 ~bbs.imuyang.com##.a_pt
@@ -293,7 +295,6 @@ discuz.net##.a_pr
 ##[id^="ad_thread"]
 ##.archiver_banner
 ##.wp.a_f
-##.wp.a_h
 ##.wp.a_t
 ~xdjz.net###ads_c_tpc
 ~163.com,~qq.com,~yyets.com,~zol.com.cn###focus.focus
@@ -617,17 +618,17 @@ jjwxc.net##table[style^="width:984px;"]
 ||loginlog.sdo.com^
 
 !---QQ
+@@||gtimg.com/img/ad/$image,domain=buy.qq.com
+@@||adsrich.qq.com/web/crystal/$script,domain=news.qq.com
+@@||cq.qq.com/js/cody/gdad/all_scroll_ad.js
+@@||mb.qq.com^$elemhide
 ||mat1.gtimg.com^$object
 ||mat1.gtimg.com/sports/2011ad/
 ||adslvfile.qq.com^
 ||btrace.qq.com^
-@@||gtimg.com/img/ad/$image,domain=buy.qq.com
-@@||cq.qq.com/js/cody/gdad/all_scroll_ad.js
 ||cq.qq.com^*/ad_
 /avd/*$domain=hb.qq.com
 ||l.qq.com/p?
-@@||mb.qq.com^$elemhide
-@@||adsrich.qq.com/web/crystal/$script,domain=news.qq.com
 ||pingjs.qq.com/ping.js
 ||rh.qq.com^
 ||tcss.qq.com^
@@ -1262,6 +1263,10 @@ kkkmh.com##[class^="mm-"]
 ||mywenxue.com/Skin/Default/js/fdad.js
 ||mywenxue.com/Skin/Default/Css/fdad.Css
 ||narutom.com/v2/js/198game_Lt.js
+||narutom.com/js/comicjs.js
+||narutom.com/js/jsg2.js
+naruto.com###naruto_desk
+naruto.com##[id^="itaTop"]
 ||niaoyan.net/wlxsjs/gg$script
 ||niubb.net/niubbad/
 ||paoshu8.com/js/gg$script

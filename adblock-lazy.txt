@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: Sxtz5yqcimHdiFy4T8WY/Q
+!  Checksum: +IZudIVAa+3P5v+ECO/ojA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 06 Mar 2012 17:44:48 +0800
+!  Last Modified:  Wed, 07 Mar 2012 17:45:44 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -151,6 +151,7 @@ v.6.cn###playerAd
 ||utk.baidu.com^
 ||a.baidu.com/ecom$script
 ||hi.baidu.com/ui/scripts/refer/refer.js
+||wenku.baidu.com/tongji/
 baike.baidu.com###mabox
 !--image
 image.baidu.com###ecomContainer
@@ -286,6 +287,7 @@ www.dayoo.com##body > div[style]
 @@/common/cf/*.thumb$image
 /common/cf/*$image,object,domain=~discuz.net
 /image/common/ad_close.gif
+##.a_h
 ##.a_mu
 ##.a_pb
 ~bbs.imuyang.com##.a_pt
@@ -295,7 +297,6 @@ discuz.net##.a_pr
 ##[id^="ad_thread"]
 ##.archiver_banner
 ##.wp.a_f
-##.wp.a_h
 ##.wp.a_t
 ~xdjz.net###ads_c_tpc
 ~163.com,~qq.com,~yyets.com,~zol.com.cn###focus.focus
@@ -619,17 +620,17 @@ jjwxc.net##table[style^="width:984px;"]
 ||loginlog.sdo.com^
 
 !---QQ
+@@||gtimg.com/img/ad/$image,domain=buy.qq.com
+@@||adsrich.qq.com/web/crystal/$script,domain=news.qq.com
+@@||cq.qq.com/js/cody/gdad/all_scroll_ad.js
+@@||mb.qq.com^$elemhide
 ||mat1.gtimg.com^$object
 ||mat1.gtimg.com/sports/2011ad/
 ||adslvfile.qq.com^
 ||btrace.qq.com^
-@@||gtimg.com/img/ad/$image,domain=buy.qq.com
-@@||cq.qq.com/js/cody/gdad/all_scroll_ad.js
 ||cq.qq.com^*/ad_
 /avd/*$domain=hb.qq.com
 ||l.qq.com/p?
-@@||mb.qq.com^$elemhide
-@@||adsrich.qq.com/web/crystal/$script,domain=news.qq.com
 ||pingjs.qq.com/ping.js
 ||rh.qq.com^
 ||tcss.qq.com^
@@ -1262,6 +1263,10 @@ kkkmh.com##[class^="mm-"]
 ||mywenxue.com/Skin/Default/js/fdad.js
 ||mywenxue.com/Skin/Default/Css/fdad.Css
 ||narutom.com/v2/js/198game_Lt.js
+||narutom.com/js/comicjs.js
+||narutom.com/js/jsg2.js
+naruto.com###naruto_desk
+naruto.com##[id^="itaTop"]
 ||niaoyan.net/wlxsjs/gg$script
 ||niubb.net/niubbad/
 ||paoshu8.com/js/gg$script
@@ -2188,6 +2193,7 @@ xfastest.com##[class^="ad"]
 .zw/ads/
 /120ad.
 /120ads/*
+/126_ad.
 /300x250advert.
 /468ad.
 /468xads.
@@ -3022,6 +3028,7 @@ xfastest.com##[class^="ad"]
 /bannercode.php
 /bannerconduit.swf?
 /bannerexchange/*
+/bannerfarm.
 /bannerfarm/*
 /bannerframe.*?
 /bannerframeopenads.
@@ -4143,6 +4150,8 @@ _feast_ad.
 _gads_bottom.
 _gads_footer.
 _gads_top.
+_google_ads/
+_google_ads_
 _headerad.
 _index_ad.
 _jtads/
@@ -5844,6 +5853,7 @@ _a468x60.
 ~headlinestoday.intoday.in###footer_ad
 ###footer_ad_01
 ###footer_ad_block
+###footer_ad_cloud
 ###footer_ad_container
 ###footer_ad_modules
 ~investopedia.com###footer_ads
@@ -9092,6 +9102,7 @@ _a468x60.
 ##.sponsorPost
 ##.sponsorPostWrap
 ##.sponsorStrip
+##.sponsor_ad
 ##.sponsor_ad_area
 ##.sponsor_area
 ##.sponsor_bar
@@ -10208,6 +10219,7 @@ _a468x60.
 ||klipmart.com^$third-party
 ||komoona.com^$third-party
 ||kontera.com^$third-party
+||kontextua.com^$third-party
 ||kqzyfj.com^$third-party
 ||krxd.net^$third-party
 ||kumpulblogger.com^$third-party
@@ -10238,6 +10250,7 @@ _a468x60.
 ||linkwash.de^$third-party
 ||linkworth.com^$third-party
 ||linkz.net^$third-party
+||livepromotools.com^$image,~image,popup
 ||liverail.com^$third-party
 ||liveuniversenetwork.com^$third-party
 ||loading-resource.com^$third-party
@@ -10256,6 +10269,7 @@ _a468x60.
 ||lzjl.com^$third-party
 ||madisonlogic.com^$third-party
 ||makecashtakingsurveys.biz^$third-party
+||marbil24.co.za^$third-party
 ||markethealth.com^$third-party
 ||marketingsolutions.yahoo.com^$third-party
 ||marketleverage.com^$third-party
@@ -10722,6 +10736,7 @@ _a468x60.
 ||widgetsurvey.biz^$third-party
 ||widgetvalue.net^$third-party
 ||widgetwidget.mobi^$third-party
+||wigetmedia.com^$image,~image,popup
 ||wigetmedia.com^$third-party
 ||wikia-beacon.com^$third-party
 ||wlmarketing.com^$third-party
