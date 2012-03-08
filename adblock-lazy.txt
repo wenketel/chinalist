@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: dvHg2W6P2dEUoNcKHE/LOQ
+!  Checksum: CT+AGcRDkdtRJePd4fAu4Q
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 08 Mar 2012 18:03:56 +0800
+!  Last Modified:  Fri, 09 Mar 2012 03:54:37 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -208,12 +208,13 @@ bitauto.com##.con_ad
 chinanews.com###ngg
 
 !---CCTV
-@@_Advertise.js|$domain=cntv.cn
 @@||baidu.cntv.cn/player/baidu_ad.js
 @@||js.player.cntv.cn/creator/*_bg_ad.js
+||cctv.com/Library/a2.js
 ||cctv.com/script/ad_s.js
-||cntv.cn/Library/js/js_ad_gb.js
+||cntv.cn^*/js_ad$script
 ||a.cntv.cn^
+||cntv.cn/library/script/flash_guanggaodiaoyong.js
 ||d.cntv.cn^
 ||log.player.cntv.cn^
 
@@ -390,6 +391,7 @@ www.hexun.com##.advp
 
 !---HiNet
 @@||hichannel.hinet.net^$object_subrequest
+@@||p4u.hinet.net/bien12/$image,domain=webhd.xuite.net
 ||hiad.myweb.hinet.net^
 ||hichannel.hinet.net/player/radio/hinetAd.js
 ||hichannel.hinet.net/videoad2/
@@ -1053,6 +1055,8 @@ itopdog.cn##[id^="itopdog_ad-"]
 ||sz1001.net/Down_Style/$script
 ||tntdown.com/News/js/C_
 ||vipcn.com/hezuo/
+||xp911.com/img/xitong.gif
+||xp911.com/upload/
 ||free.xue5.com/qq/qq.js
 
 !---Game Sites
@@ -1869,6 +1873,7 @@ win7china.com,win8china.com##.site_ad
 ||unionbig.com^$third-party
 ||unioncpm.com^$third-party
 ||unionsky.cn^$third-party
+||unionsky2.cn^$third-party
 ||unionli.com^$third-party
 ||unionwk.com^$third-party
 ||unlitui.com^$third-party
@@ -10196,6 +10201,7 @@ _a468x60.
 ||intellibanners.com^$third-party
 ||intellitxt.com^$third-party
 ||interclick.com^$third-party
+||intermarkets.net^$third-party
 ||internetadbrokers.com^$third-party
 ||interpolls.com^$third-party
 ||inuvo.com^$third-party
@@ -12847,6 +12853,7 @@ _cedexis.php
 ||visualwebsiteoptimizer.com^$third-party
 ||vizisense.net^$third-party
 ||vizu.com^$third-party
+||vmm-satellite1.com^$third-party
 ||voicefive.com^$third-party
 ||w3counter.com^$third-party
 ||w55c.net^$third-party
