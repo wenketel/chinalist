@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: ymGQ+L0ldWAeL3rkwKBjMg
+!  Checksum: tIB+lKcny8JfFbiT2QHUkw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 10 Mar 2012 17:21:15 +0800
+!  Last Modified:  Sat, 10 Mar 2012 20:08:40 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -129,7 +129,7 @@ v.6.cn###playerAd
 ||img.6park.com/img/$image
 ||6park.com/parks/$script
 ||6park.com/wap/
-6park.com##body > table[width="978"]:nth-child(5)
+6park.com##body > table[width="978"][bgcolor="#ffffff"]:nth-child(5)
 
 !---acfun.tv
 @@||acfun.tv/plus/ad_js.php?aid=8
@@ -1091,7 +1091,7 @@ verypsp.com##table[width="960"]
 @@||dl.dbank.com^$elemhide
 ||st2.dbank.com/images/downloadtopbanner01.jpg
 ||ctdisk.com/getbbs.php?id=6
-||static.ctdisk.com/*.js?version=
+js?version=$domain=ctdisk.com|pipipan.com
 ctdisk.com##.kk_xshow
 ||multiupload.com/popunder/$image,~image,popup
 ||d.namipan.com/inc_js/$script
