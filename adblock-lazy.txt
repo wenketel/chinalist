@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: L0hM9eRw491xKi6Uh+8grw
+!  Checksum: UMwyuCdVBlHtxJGyzGW5lg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 09 Mar 2012 18:25:36 +0800
+!  Last Modified:  Sat, 10 Mar 2012 14:55:46 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -226,6 +226,7 @@ chinanews.com###ngg
 !---中华网
 ||dvs.china.com^
 ||china.com/zh_cn/etc/$subdocument
+||blog.china.com/u/dvpush/$subdocument
 china.com##.gg
 club.china.com##.headbanner
 
@@ -1075,6 +1076,7 @@ gamebase.com.tw###ad725_txt
 gamebase.com.tw###news_title_ad
 gamebase.com.tw##.text_ad_full
 gamebase.com.tw##.wait_gbno1
+||houdao.com/bans/hd.html$subdocument
 @@||plu.cn/d/js/acmsd/thea44.js
 ||lib.plu.cn/images/bg/
 ||bbs.verypsp.com^$script,subdocument
@@ -1089,6 +1091,7 @@ verypsp.com##table[width="960"]
 @@||dl.dbank.com^$elemhide
 ||st2.dbank.com/images/downloadtopbanner01.jpg
 ||static.ctdisk.com/*.js?version=
+ctdisk.com##div[class^="float"]
 ||multiupload.com/popunder/$image,~image,popup
 ||d.namipan.com/inc_js/$script
 ||img.rayfile.com/scr/$script
@@ -3373,7 +3376,6 @@ xfastest.com##[class^="ad"]
 /htmlads/*
 /httpads/*
 /icon_ad.
-/idevaffiliate/*
 /iframe-ads/*
 /iframe.ad/*
 /iframe/ad/*
@@ -5561,7 +5563,7 @@ _a468x60.
 ###bg_YieldManager-160x600
 ###bg_YieldManager-300x250
 ###bg_YieldManager-728x90
-###bigAd
+~redcanoecu.com###bigAd
 ###bigBoxAd
 ###bigad300outer
 ###bigadbox
@@ -7945,7 +7947,7 @@ _a468x60.
 ##.advertisment_two
 ##.advertize
 ##.advertize_here
-~1und1.de,~deejay.it,~gmx.at,~gmx.de,~gmx.net,~web.de##.advertorial
+~1und1.de,~deejay.it,~gmx.at,~gmx.de,~gmx.net,~muropaketti.com,~web.de##.advertorial
 ##.advertorial-2
 ##.advertorial-promo-box
 ##.advertorial_red
@@ -9487,7 +9489,7 @@ _a468x60.
 ||209.222.8.217^$third-party,domain=~p2p.adserver.ip
 ||247realmedia.com^$third-party
 ||2mdn.net/dot.gif$object-subrequest,third-party
-||2mdn.net^$object-subrequest,third-party,domain=3news.co.nz|bbc.co.uk|bet.com|bloomberg.com|businessday.co.za|businessweek.com|calgaryherald.com|couriermail.com.au|drive.com.au|edmontonjournal.com|eonline.com|euronews.net|globaltoronto.com|globaltvbc.com|heraldsun.com.au|independent.ie|kfiam640.com|leaderpost.com|metacafe.com|montrealgazette.com|nationalpost.com|ndtv.com|newyorkjets.com|ottawacitizen.com|reuters.com|rollingstone.com|rte.ie|sherdog.com|skynews.com.au|smh.com.au|telegraph.co.uk|theage.com.au|theaustralian.com.au|thecomedynetwork.ca|theprovince.com|thestarphoenix.com|timescolonist.com|vancouversun.com|vice.com|windsorstar.com
+||2mdn.net^$object-subrequest,third-party,domain=3news.co.nz|bbc.co.uk|bet.com|bloomberg.com|businessday.co.za|businessweek.com|calgaryherald.com|couriermail.com.au|drive.com.au|edmontonjournal.com|eonline.com|euronews.com|globaltoronto.com|globaltvbc.com|heraldsun.com.au|independent.ie|kfiam640.com|leaderpost.com|metacafe.com|montrealgazette.com|nationalpost.com|ndtv.com|newyorkjets.com|ottawacitizen.com|reuters.com|rollingstone.com|rte.ie|sherdog.com|skynews.com.au|smh.com.au|telegraph.co.uk|theage.com.au|theaustralian.com.au|thecomedynetwork.ca|theprovince.com|thestarphoenix.com|timescolonist.com|vancouversun.com|vice.com|windsorstar.com
 ||2mdn.net^$~object-subrequest,third-party
 ||360ads.com^$third-party
 ||360yield.com^$third-party
