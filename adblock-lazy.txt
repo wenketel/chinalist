@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 4XPQWvCijkbAP7AXjJUfbQ
+!  Checksum: VGr/1YVJjeFEUmNSPAegWw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 12 Mar 2012 16:49:54 +0800
+!  Last Modified:  Tue, 13 Mar 2012 19:25:32 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1928,6 +1928,7 @@ win7china.com,win8china.com##.site_ad
 ||js.zdy.cc^$third-party
 ||ze5.com^$third-party
 ||js.zfjiu.com^$third-party
+||zhanzhang.net^$third-party
 ||zhanzhangle.com^$third-party
 ||zhiad.com^$third-party
 
@@ -2342,6 +2343,7 @@ xfastest.com##[class^="ad"]
 /ad_notice.
 /ad_oas/*
 /ad_page_
+/ad_policy.
 /ad_print.
 /ad_rectangle_
 /ad_refresher.
@@ -2840,6 +2842,7 @@ xfastest.com##[class^="ad"]
 /adtech/*
 /adtech;
 /adtech_
+/adtechglobalsettings.js
 /adtext.
 /adtext4.
 /adtext_
@@ -3309,6 +3312,7 @@ xfastest.com##[class^="ad"]
 /getbanner.cfm?
 /getdigitalad/*
 /gethalfpagead.
+/getinlineads/*
 /getmarketplaceads.
 /getmdhlayer.
 /getrcmd.js?
@@ -3318,6 +3322,7 @@ xfastest.com##[class^="ad"]
 /getvideoad.
 /gexternalad.
 /glam_ads.
+/global/ad/*
 /global/ads.
 /globalbannerad.
 /google-ad-
@@ -3488,6 +3493,7 @@ xfastest.com##[class^="ad"]
 /liveads.
 /livejasmin.js
 /livejasmin2.js
+/load-ads|
 /loadad.aspx?
 /loadads.
 /loadadsmain.
@@ -4264,6 +4270,7 @@ _webad.
 /120x600_
 /125x125_banner.
 /160-600-
+/160_600_
 /160x600-
 /160x600.
 /160x600/*
@@ -4956,6 +4963,7 @@ _a468x60.
 ###ad_branding
 ###ad_bs_area
 ###ad_buttons
+###ad_category_middle
 ###ad_center_monster
 ###ad_circ300x250
 ###ad_cna2
@@ -5038,6 +5046,8 @@ _a468x60.
 ###ad_right
 ###ad_right_box
 ###ad_right_main
+###ad_right_second
+###ad_right_top
 ###ad_ros_tower
 ###ad_rr_1
 ###ad_script_head
@@ -8137,6 +8147,7 @@ _a468x60.
 ##.boxAd
 ##.boxAds
 ##.boxAdsInclude
+##.boxOuterAD
 ##.box_ad
 ##.box_ad_container
 ##.box_ad_content
@@ -8430,6 +8441,7 @@ _a468x60.
 ##.google-ads
 ##.google-ads-boxout
 ##.google-ads-slim
+##.google-ads2
 ##.google-adsense
 ##.google-right-ad
 ##.google-sponsored-ads
@@ -10242,6 +10254,7 @@ _a468x60.
 ||krxd.net^$third-party
 ||kumpulblogger.com^$third-party
 ||lakequincy.com^$third-party
+||lanistaconcepts.com^$third-party
 ||lbm1.com^$third-party
 ||ldgateway.com^$third-party
 ||lduhtrp.net^$third-party
@@ -11104,6 +11117,7 @@ _a468x60.
 ||cbanners.virtuagirlhd.com^$third-party
 ||cbpirate.com/getimg.php?
 ||cdn.sweeva.com/images/$third-party
+||cdnpark.com/scripts/js3.js
 ||centralmediaserver.com^*_side_bars.jpg
 ||centralscotlandjoinery.co.uk/images/csj-125.gif$third-party
 ||cerebral.typn.com^
@@ -11508,6 +11522,7 @@ _a468x60.
 ||sayswap.com/banners/
 ||scribol.com/txwidget$third-party
 ||search.yahoo.com/if?$subdocument,domain=local.com
+||searchpeack.com/run.php
 ||searchportal.information.com/?$third-party
 ||secondspin.com/twcontent/
 ||seednet.eu/banners/
@@ -11606,7 +11621,6 @@ _a468x60.
 ||ttnonline.com/banners/
 ||turbotrafficsystem.com^*/banners/
 ||turner.com^*/336x280_ad.gif
-||turner.com^*/ad_policy.xml$domain=cnn.com
 ||turner.com^*/promos/
 ||twivert.com/external/banner234x60.
 ||u-loader.com/image/hotspot_
@@ -12934,6 +12948,7 @@ _cedexis.php
 ||4theclueless.com/adlogger/
 ||99widgets.com/counters/
 ||9msn.com.au^*/tracking/
+||acs86.com/t.js
 ||activities.niagara.comedycentral.com^
 ||addthis.com/at/
 ||addthis.com/live/
