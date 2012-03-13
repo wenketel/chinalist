@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 1d5WFeG/M+cfAH2YuCicoQ
+!  Checksum: OvYFG4G+6i9U+d8JYrqMAw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 13 Mar 2012 23:24:02 +0800
+!  Last Modified:  Wed, 14 Mar 2012 06:15:17 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -285,7 +285,6 @@ www.dayoo.com##body > div[style]
 /common/cf/*$image,object,domain=~discuz.net
 /image/common/ad_close.gif
 ##.a_h
-##.a_mu
 ##.a_pb
 ~bbs.imuyang.com##.a_pt
 discuz.net##.a_pr
@@ -2041,6 +2040,7 @@ win7china.com,win8china.com##.site_ad
 sbsrunningman.5d6d.com###header
 www.alibuybuy.com##[class^="ad_"]
 av199.com,hd199.com##table[height="30"]
+hd.cnscg.com##.a_mu
 news.cnyes.com##[class^="ad"]
 crsky.com##[id$="_TL"]
 dapenti.com##td.oblog_t_2 > div[align="center"]
@@ -2264,7 +2264,6 @@ xfastest.com##[class^="ad"]
 /ad/generate?
 /ad/google/*
 /ad/iframe/*
-/ad/img/*
 /ad/index.
 /ad/index/*
 /ad/load_
@@ -3925,6 +3924,7 @@ xfastest.com##[class^="ad"]
 /update_ads/*
 /update_layer/layer_os_new.php
 /upload/ad/*
+/upsellingads/*
 /userad/*
 /valueclick.
 /vclkads.
@@ -5182,6 +5182,7 @@ _a468x60.
 ###adrig
 ###adright
 ###adright2
+###adrightbottom
 ###adrighthome
 ###ads-250
 ###ads-468
@@ -10910,6 +10911,7 @@ _a468x60.
 ||mediagra.com^$third-party
 ||meineserver.com^$third-party
 ||methodcash.com^$third-party
+||mmaaxx.com^$third-party
 ||mtoor.com^$third-party
 ||mywebclick.net^$third-party
 ||naiadsystems.com^$third-party
@@ -11448,6 +11450,7 @@ _a468x60.
 ||partner.bargaindomains.com^
 ||partner.catchy.com^
 ||partner.e-conomic.com^$third-party
+||partner.popmog.com^$third-party
 ||partner.premiumdomains.com^
 ||partners.agoda.com^
 ||partners.dogtime.com/network/
@@ -11665,6 +11668,7 @@ _a468x60.
 ||washingtonpost.com/wp-srv/wapolabs/dw/readomniturecookie.html
 ||watch-naruto.tv/images/$third-party
 ||watchme.com/track/$subdocument,third-party
+||web2feel.com/images/$third-party
 ||weberotic.net/banners/$third-party
 ||website.ws^*/banners/
 ||weeklyprizewinner.com-net.info^$image,~image,popup
@@ -11821,6 +11825,7 @@ _a468x60.
 ||realitykings.com/vbanners/
 ||red-tube.com/dynbanner.php?
 ||redtube.com/bid/$image,~image,popup
+||sakuralive.com/dynamicbanner/
 ||scoreland.com/banner/
 ||secretbehindporn.com^$subdocument,third-party
 ||seeme.com^*?aid=*&art=$image,~image,popup
