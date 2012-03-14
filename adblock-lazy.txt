@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: /eq6FnAGB5zJfeWIs6h5jg
+!  Checksum: hveOZggVKW/SrIsiZUo95w
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 14 Mar 2012 22:57:07 +0800
+!  Last Modified:  Thu, 15 Mar 2012 07:18:32 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -700,7 +700,11 @@ dailynews.sina.com##.TopNav + table
 ||sinaimg.cn/unipro/
 ||rs.sinajs.cn^
 sina.com.cn##.topAD
+sina.com.cn##.topADs
+mobile.sina.com.cn##.zcads
 news.sina.com.cn###divResNewsBottom
+sports.sina.com.cn##[id^="ads_right"]
+tech.sina.com.cn##.PartARB01-2
 www.sina.com.cn##[class$="780x90Div"]
 www.sina.com.cn##[class^="AD"]
 www.sina.com.cn##.cleft
@@ -2348,6 +2352,7 @@ xfastest.com##[class^="ad"]
 /ad_oas/*
 /ad_page_
 /ad_policy.
+/ad_pop1.
 /ad_print.
 /ad_rectangle_
 /ad_refresher.
@@ -4096,6 +4101,7 @@ _ad_view=
 _ad_widesky.
 _adagency/
 _adbanner.
+_adbanner/
 _adbanner_
 _adbg1a.
 _adbg2.
@@ -7788,6 +7794,7 @@ _a468x60.
 ##.adsingle
 ##.adsleft
 ##.adsleftblock
+##.adslider
 ##.adslink
 ##.adslogan
 ##.adslot
@@ -8282,6 +8289,7 @@ _a468x60.
 ~spottingworld.com##.content-ads
 ##.content-advert
 ##.content-header-ad
+##.content-item-ad-top
 ~theology.edu##.contentAd
 ##.contentAdContainer
 ##.contentAdFoot
@@ -8848,6 +8856,7 @@ _a468x60.
 ##.normalAds
 ##.nrAds
 ##.nsAdRow
+##.ntnlad
 ##.nu2ad
 ##.oas-ad
 ##.oas-bottom-ads
@@ -9011,6 +9020,7 @@ _a468x60.
 ##.rt_ad_call
 ##.rtmm_right_ad
 ##.s2k_ad
+##.s_ads
 ##.savvyad_unit
 ##.sb-ad-sq-bg
 ##.sbAd
@@ -9650,6 +9660,7 @@ _a468x60.
 ||adotube.com^$third-party
 ||adparlor.com^$third-party
 ||adpath.mobi^$third-party
+||adpay.com^$third-party
 ||adperium.com^$third-party
 ||adpinion.com^$third-party
 ||adpionier.de^$third-party
@@ -10927,11 +10938,13 @@ _a468x60.
 ||partnercash.com^$third-party
 ||plugrush.com^$third-party
 ||porkolt.com^$third-party
+||pornconversions.com^$third-party
 ||portable-basketball.com^$third-party
 ||privateseiten.net^$third-party
 ||privatewebseiten.com^$third-party
 ||promo4partners.com^$third-party
 ||promowebstar.com^$third-party
+||redcash.net^$third-party
 ||robotadserver.com^$third-party
 ||rukplaza.com^$third-party
 ||sascentral.com^$third-party
@@ -11051,6 +11064,7 @@ _a468x60.
 ||appdevsecrets.com/images/nuts/
 ||apple.com/itunesaffiliates/
 ||appsgenius.com/images/$third-party
+||ard.ihookup.com^
 ||ard.xxxblackbook.com^$third-party
 ||army-of-brides.com/banners/
 ||as.devbridge.com^$third-party
@@ -11742,6 +11756,7 @@ _a468x60.
 ||dailyvideo.securejoin.com^
 ||daredorm.com^$subdocument,third-party
 ||datefree.com^$third-party
+||datingfactory.com^$subdocument,third-party
 ||ddstatic.com^*/banners/
 ||delivery.yourfuckbook.com^
 ||desk.cmix.org^
