@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: YNbrQiIYZtAQGn9Z+iISRg
+!  Checksum: jXd+5V/UnACTVNpHN8KYPg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 18 Mar 2012 22:19:55 +0800
+!  Last Modified:  Mon, 19 Mar 2012 20:05:08 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1151,6 +1151,7 @@ jjxw.cn##[class*="_ad"]
 ||junshijia.com/new/$script
 ||libertytimes.com.tw/IService2/AdLinkList.php
 ||libertytimes.com.tw/js/ajs/
+||libertytimes.com.tw/Js/adopen.js
 ||ashow.pcpop.com^
 www.pcpop.com##.Content > .l1:first-child
 ||sinovision.net/ui/js/adm.js
@@ -2651,6 +2652,10 @@ xfastest.com##[class^="ad"]
 /ads.jsp
 /ads.php?
 /ads.pl?
+/ads/125l.
+/ads/125r.
+/ads/468a.
+/ads/728b.
 /ads/leaderboard.
 /ads/square.
 /ads0.
@@ -4217,6 +4222,7 @@ _platform_ads.
 _player_ads_
 _popunder.
 _popunder_
+_post_ads.
 _preorderad.
 _psu_ad.
 _request_ad.
@@ -4245,6 +4251,7 @@ _webad.
 ||cacheserve.*/promodisplay?
 ||online.*/promoredirect?key=
 ||serve.*/promoload?
+||tinyurl.com/4x848hd$subdocument
 ! Dimensions
 -120x60-
 -120x60.
@@ -5015,6 +5022,7 @@ _a468x60.
 ###ad_feature
 ###ad_firstpost
 ###ad_footer
+###ad_footer_s
 ###ad_footer_small
 ###ad_frame
 ###ad_front_three
@@ -8554,6 +8562,8 @@ _a468x60.
 ##.header-advert
 ##.header-google-ads
 ##.header-taxonomy-image-sponsor
+##.header15-ad
+##.header728-ad
 ~photobucket.com##.headerAd
 ##.headerAdCode
 ##.headerAds
@@ -10265,6 +10275,7 @@ _a468x60.
 ||intermarkets.net^$third-party
 ||internetadbrokers.com^$third-party
 ||interpolls.com^$third-party
+||intextscript.com^$third-party
 ||inuvo.com^$third-party
 ||investingchannel.com^$third-party
 ||ipromote.com^$third-party
@@ -11346,6 +11357,7 @@ _a468x60.
 ||images-pw.secureserver.net^*_*.$image,third-party
 ||images.mylot.com^$third-party
 ||images.youbuy.it/images/$third-party
+||imagetwist.com/banner/
 ||img.bluehost.com^$third-party
 ||img.mybet.com^$third-party
 ||img.promoddl.com^$third-party
@@ -12136,6 +12148,7 @@ _a468x60.
 /sdxp1/dru4/meta?_hc=
 /server.php?request=track&output=
 /shinystat.cgi?
+/shopify_stats.js
 /sitestat.js
 /sitestats.gif?
 /sitetrek.js
@@ -13060,6 +13073,7 @@ _chartbeat.js
 ||asterpix.com/tagcloudview/
 ||atgsvcs.com/js/atgsvcs.js
 ||attributiontrackingga.googlecode.com^
+||audit.median.hu^
 ||aufeminin.com^*/tracking_pix.js
 ||backupinfo.auctiva.com/default.aspx?query=
 ||bangbrosonline.com/ct/imgcount.php?
@@ -13353,6 +13367,7 @@ _chartbeat.js
 ||tealium.hs.llnwd.net^*/utag.js
 ||technorati.com/technoratimedia-pixel.js
 ||the-group.net/aether/
+||thefilter.com^*/capturerest.ashx?cmd=$third-party
 ||thefilter.com^*?extanonid=
 ||theplatform.com^*/tracker.log?
 ||thespringbox.com/analytics/
