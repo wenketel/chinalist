@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: E9EDBwyRkPmbdM5FZJvRcA
+!  Checksum: vSH+UkuagY2nlpipZQQMJQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 21 Mar 2012 23:51:42 +0800
+!  Last Modified:  Thu, 22 Mar 2012 07:32:17 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -742,13 +742,12 @@ sh.house.sina.com.cn##[id^="coupletAd"]
 sina.com.cn##.adNone
 !-video
 ||log.v.iask.com^
+||count.kandian.com^$object_subrequest
 ||dcads.sina.com.cn^
-video.sina.com.cn###bgad_div
-!--video stats
+||int.dpool.sina.com.cn^$object_subrequest
 ||l.you.video.sina.com.cn^
-||count.kandian.com^
-||int.dpool.sina.com.cn^
 ||inner.kandian.com^
+video.sina.com.cn###bgad_div
 !-weibo
 weibo.com##[id^="ads"]
 weibo.com##.tips_player
