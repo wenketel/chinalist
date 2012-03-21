@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: jXd+5V/UnACTVNpHN8KYPg
+!  Checksum: ep7q1Xozh99aHLs26sKwsQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 19 Mar 2012 20:05:08 +0800
+!  Last Modified:  Wed, 21 Mar 2012 08:18:09 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -248,6 +248,7 @@ club.china.com##.headbanner
 ||img.cnbeta.com/*468$image
 ||img.cnbeta.com/*576$image
 ||img.cnbeta.com/*950$image
+||img.cnbeta.com/t7.gif
 cnbeta.com###fm_r
 cnbeta.com###userInfo
 cnbeta.com##.detail > em
@@ -3010,6 +3011,7 @@ xfastest.com##[class^="ad"]
 /affiliatelinks.
 /affiliates.*.aspx?
 /affiliates/banners/*
+/affiliatetags/*
 /affiliatewiz/*
 /affiliation/*
 /affiliationcash.
@@ -6080,6 +6082,7 @@ _a468x60.
 ###headeradbox
 ###headerads
 ###headeradsbox
+###headeradsense
 ###headeradvertholder
 ###headeradwrap
 ###headline_ad
@@ -6522,6 +6525,7 @@ _a468x60.
 ###sideAd
 ###sideAd1
 ###sideAd2
+###sideAdArea
 ###sideAdSub
 ###sideAds
 ###sideBarAd
@@ -6711,6 +6715,7 @@ _a468x60.
 ###top-search-ad-wrapper
 ~isource.com###topAd
 ###topAd728x90
+###topAdArea
 ###topAdBanner
 ###topAdBox
 ###topAdContainer
@@ -7554,6 +7559,7 @@ _a468x60.
 ##.adbannerbox
 ##.adbannerright
 ~fifthinternational.org##.adbar
+##.adbase
 ##.adboard
 ##.adborder
 ##.adbot
@@ -8072,6 +8078,7 @@ _a468x60.
 ##.b_ads_cont
 ##.b_ads_top
 ##.banmanad
+##.banner-300x250
 ##.banner-468-60
 ##.banner-468x60
 ##.banner-ad
@@ -8080,6 +8087,7 @@ _a468x60.
 ##.banner-advert
 ##.banner-adverts
 ##.banner-buysellads
+##.banner-top-banner-728x90
 ##.banner160x600
 ##.banner300by250
 ##.banner300x100
@@ -9727,6 +9735,7 @@ _a468x60.
 ||adsignals.com^$third-party
 ||adsimilis.com^$third-party
 ||adsmarket.com^$third-party
+||adsmarket.es^$third-party
 ||adsmedia.cc^$third-party
 ||adsnext.net^$third-party
 ||adsonar.com^$third-party
@@ -11032,6 +11041,7 @@ _a468x60.
 ||adblockdetector.com/script.php
 ||adclick.cz.cc/ac/
 ||addirector.vindicosuite.com^
+||addme.com/images/addme_$third-party
 ||adf.ly/images/banners/
 ||adf.ly/js/$third-party
 ||adf.ly^*/link-converter.js$third-party
@@ -12246,6 +12256,7 @@ _a468x60.
 ^name=atatracker^
 _cedexis.php
 _chartbeat.js
+_comscore.js
 ! Russian rating sites
 /img.php?id=*&page=
 ://ivw.*/get?referrer=
@@ -12307,6 +12318,7 @@ _chartbeat.js
 ||apicit.net^$third-party
 ||apollofind.com^$third-party
 ||arpuonline.com^$third-party
+||arturtrack.com^$third-party
 ||athenainstitute.biz^$third-party
 ||audience.visiblemeasures.com^$object-subrequest,third-party
 ||audienceiq.com^$third-party
@@ -13045,6 +13057,7 @@ _chartbeat.js
 ||analytics.clickpathmedia.com^
 ||analytics.cmg.net^
 ||analytics.cynapse.com^
+||analytics.datahc.com^
 ||analytics.dev.springboardvideo.com^
 ||analytics.edgesuite.net^
 ||analytics.episodic.com^
@@ -13056,6 +13069,7 @@ _chartbeat.js
 ||analytics.rogersmedia.com^
 ||analytics.sitewit.com^
 ||analytics.springboardvideo.com^
+||analytics.stg.springboardvideo.com^
 ||analytics.tribeca.vidavee.com^
 ||analytics.wildtangent.com^
 ||analytics.yola.net^
