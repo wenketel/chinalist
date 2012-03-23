@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: C6Z58svok5ICt+SoMB8xtw
+!  Checksum: rT8odQikS5Yl07wNqJJSSw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 22 Mar 2012 19:21:34 +0800
+!  Last Modified:  Fri, 23 Mar 2012 19:40:25 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -333,6 +333,12 @@ uwants.com###foruminfo + div[align="center"]
 ||count.enet.com.cn^
 ||frame.enet.com.cn/a.php
 enet.com.cn##[class^="ad"]
+
+!---ETtoday
+||85house.com/index_ettoday.php
+||u-mall.com.tw/userfiles/
+ettoday.net###my_note_1
+ettoday.net###ticker_3 > .run1:nth-child(2)
 
 !---蜂鸟
 ||bbs.fengniao.com/forum/clientscript/vbb_scroll.js
@@ -4426,6 +4432,7 @@ _728-90.
 _728.htm
 _728_90.
 _728_90_
+_728_x_90_
 _728x90-
 _728x90.
 _728x90/
@@ -5139,6 +5146,7 @@ _a468x60.
 ###ad_term_bottom_place
 ~www.yyets.com###ad_text:not(textarea)
 ###ad_thread_first_post_content
+###ad_thread_last_post_content
 ###ad_top
 ###ad_top_holder
 ###ad_tp_banner_1
@@ -5807,6 +5815,7 @@ _a468x60.
 ###content_ad_square
 ###content_ad_top
 ###content_ads_content
+###content_adv
 ###content_box_300body_sponsoredoffers
 ###content_box_adright300_google
 ###content_lower_center_right_ad
@@ -9389,6 +9398,7 @@ _a468x60.
 ##.top_ad_post
 ##.top_ad_wrapper
 ~trailvoy.com##.top_ads
+##.top_adv_content
 ##.top_advert
 ##.top_advertisement
 ##.top_advertising_lb
@@ -11146,6 +11156,7 @@ _a468x60.
 ||babylon.com/systems/af/landing/$third-party
 ||babylon.com/trans_box/*&affiliate=
 ||babylon.com^*?affid=
+||badoo.com/informer/$third-party
 ||bamstudent.com/files/banners/
 ||banner.1and1.co.uk^
 ||banner.1and1.com^
@@ -11335,6 +11346,7 @@ _a468x60.
 ||gateways.s3.amazonaws.com^
 ||gawkerassets.com/assets/marquee/$object,third-party
 ||generic4all.com/landing_page_feed.php
+||generic4all.com^*?refid=$third-party
 ||geobanner.friendfinder.com^
 ||geobanner.passion.com^
 ||geostring.com/banners/
