@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: rT8odQikS5Yl07wNqJJSSw
+!  Checksum: vkQ5hKoMJrZopyJm1lpxDg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 23 Mar 2012 19:40:25 +0800
+!  Last Modified:  Fri, 23 Mar 2012 20:23:28 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -232,6 +232,13 @@ chinanews.com###ngg
 ||blog.china.com/u/dvpush/$subdocument
 china.com##.gg
 club.china.com##.headbanner
+
+!---中国战略网
+||chinaiiss.com/include/js/function.ad.js
+||images.chinaiiss.com/attachment/$object
+||sc.chinaiiss.com^
+chinaiiss.com###content_text > span[style]
+chinaiiss.com##.nav_r:nth-child(6)
 
 !---中时
 ||chinatimes.com/2007Cti/
