@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: SyHSSX6bW5H6VTA0LQ0dOA
+!  Checksum: AuDlwLAK5yJbsQRpSDR6hA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 24 Mar 2012 14:35:51 +0800
+!  Last Modified:  Sat, 24 Mar 2012 19:25:46 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -139,6 +139,20 @@ v.6.cn###playerAd
 !---acfun.tv
 @@||acfun.tv/plus/ad_js.php?aid=8
 ||acfun.tv/json/newad.xml
+
+!---游侠网
+@@||shop.ali213.com^$elemhide
+||bmp.ali213.net^
+||click.ali213.net^
+ali213.net###banner
+ali213.net##.newright
+
+!---汽车之家
+@@||33.autohome.com.cn/njs/1.js
+||33.autohome.com.cn^$script,object
+autohome.com.cn##.advarticle
+autohome.com.cn##.banner750_90
+autohome.com.cn##.recommend
 
 !---Baidu
 !--unions
@@ -526,12 +540,12 @@ www.mydrivers.com##.top + .hang1
 myfiles.com.cn##[id^="ad_"]
 
 !---NewHua
-@@/newhuagg/*3030$image
-@@/newhuagg/*hot$script
-@@/newhuagg/softdown_ggg.js
-/newhuagg/*
-||zhidao.newhua.com/askgg/
-onlinedown.net,newhua.com##.scroll-flash
+||count.newhua.com^
+/newhuagg/article_$domain=newhua.com|onlinedown.net
+/newhuagg/daohang.js
+/newhuagg/js_
+/newhuagg/*_index_
+newhua.com##.ad_ritht_1
 
 !---NextMedia
 !-HK
@@ -634,15 +648,14 @@ qdmm.com,qidian.com##a[href^="http://www.qidian.com/showavd.aspx?"]
 www.qidian.com##.DH17
 www.qidian.com##[class^="gg"]
 www.qidian.com##.game_tj
+www.qidian.com##.RightAD
 bbs.qidian.com##.show_ggpic_990X60
-!--fix qidian & qdmm links
-@@||qdmm.com^$image,~image,popup,domain=qidian.com
 !--晋江文学城
-|http://$image,~image,third-party,popup,domain=jjwxc.net|~bbs.jjwxc.net|qidian.com
 ||jjwxc.net/jjad2.html$image,~image,popup
 ||jjwxc.net/sp/$subdocument
 jjwxc.net##[id^="adp_"]
 jjwxc.net##table[style^="width:984px;"]
+jjwxc.net##.h8px + div[align="center"]
 !--Tracking
 ||aa.sdo.com^
 ||aagw.sdo.com^
@@ -1106,10 +1119,6 @@ itopdog.cn##[id^="itopdog_ad-"]
 ||313g.com/xyx/
 ||get.766.com^$script
 ||bbs.a9vg.com/showit/img_show.php
-@@||shop.ali213.com^$elemhide
-||bmp.ali213.net^
-ali213.net###banner
-ali213.net##.newright
 ||img.cngba.com/da/
 ||dashuye.com/data/cache/myad*.htm
 gamebase.com.tw###ad525
@@ -1131,8 +1140,8 @@ verypsp.com##table[width="960"]
 ||static.115img.com/static/delivery/
 115.com##[class^="ban-"]
 115.com##.res-list
-||st1.dbank.com/css/default/DBanklogo-blue.gif
-||st2.dbank.com/images/downloadtopbanner01.jpg
+||st2.dbank.com/css/default/h-x.png
+||st2.dbank.com/images/downloadtopbanner.jpg?v=2.4.8b
 dbank.com###filelist_marker
 ||ctdisk.com/getbbs.php?id=6
 js?version=$domain=ctdisk.com|pipipan.com
@@ -1154,9 +1163,6 @@ ys168.com###xtxx
 67.com##.ad275-250
 67.com##.ad710-120a
 67.com##.adcon
-@@||33.autohome.com.cn/njs/1.js
-||33.autohome.com.cn^$script,object
-autohome.com.cn##.advarticle
 ||backchina.com/banners/
 ||cankaoa.com/new/$script
 ||imgs.ccw.com.cn^*_260_80.
@@ -1247,7 +1253,7 @@ yesky.com##[class^="ad"]
 @@||book.58xs.com/hot/u.js
 ||58xs.com/hot/
 ||59to.com/myjs/$script
-||8comic.com/images/e7playgame.gif
+||8comic.com/images/mobile-
 @@||jj.5ccc.net/scripts/new/pagebottom2.js
 @@||jj.5ccc.net/scripts/new/pagetop.js
 ||5ccc.net/scripts/articleinfo.js
@@ -1305,7 +1311,7 @@ dm5.com##.cl970
 ||hotsk.com/js/asp.js
 ||hotsk.com/js/fy.js
 ||hszw.com/inc/
-||imanhua.com/v2/money/
+||imanhua.com^*/nmoneys/
 ||jpnovel.com/myjs/
 ||jumpcn.com/ah/001.html
 ||jumpcn.com/javascript/xshow.js
@@ -1601,6 +1607,10 @@ win7china.com,win8china.com##.site_ad
 ||zzsky.cn/images/a_d_
 
 !----------------------------ads-union---------------------
+!--popup
+||116b.com^$image,~image,popup
+||arpg2.com^$image,~image,popup
+||gd.189.cn/ad/$image,~image,popup
 !--9v
 ||9vcpc.cn^$third-party
 ||f.9vcpm.cn^$third-party
@@ -1748,7 +1758,6 @@ win7china.com,win8china.com##.site_ad
 ||all-winner.com^$third-party
 .all4ad.$third-party
 ||allyesky.cn^$third-party
-||arpg2.com^$third-party
 ||artxun.com^$third-party
 ||at918.com^$third-party
 ||advooe.com^$third-party
@@ -1881,6 +1890,7 @@ win7china.com,win8china.com##.site_ad
 ||pixelinteractivemedia.com^$third-party
 ||ppunion.com^$third-party
 ||prohost.com.tw^$third-party
+||q150.com^$third-party
 ||image.qndown.com^$third-party
 ||ttmsg.qianqian.com^
 ||qi-yue.com^$third-party
@@ -2129,7 +2139,4 @@ xfastest.com##[class^="ad"]
 ||blog.hi.mop.com/flash/830-310.swf
 ||nanrenwa.com/_img/a/$third-party
 @@||drmcmm.baidu.com/media/$image,domain=zhibo8.com
-!---test pop-up blocking
-||arpg2.com^$image,~image,popup
-||gd.189.cn/ad/$image,~image,popup
 !------------------------End of List-------------------------
