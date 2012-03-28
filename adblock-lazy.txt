@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: fiRBT5v406DaQCf+wEff5w
+!  Checksum: kchJ5CO1NF3gjREJ0ZujwA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 28 Mar 2012 21:39:04 +0800
+!  Last Modified:  Thu, 29 Mar 2012 02:25:58 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -760,7 +760,8 @@ www.sina.com.cn##.yleft2blk
 @@||auto.sina.com.cn^$elemhide
 !-finance
 @@||counter.sina.com.cn/time?fm=JS$domain=finance.sina.com.cn
-@@||sinaimg.cn^*/headcj.js$domain=finance.sina.com.cn
+@@||sinaimg.cn/cj/deco/*/all.js$domain=finance.sina.com.cn
+@@||sinaimg.cn/dy/deco/*/headcj.js$domain=finance.sina.com.cn
 finance.sina.com.cn###adSinaHouseHeadLink
 !-house
 ||d1.leju.com^$object
@@ -4012,7 +4013,6 @@ xfastest.com##[class^="ad"]
 /unity/ad/*
 /update_ads/*
 /update_layer/layer_os_new.php
-/upload/ad/*
 /upsellingads/*
 /userad/*
 /valueclick.
@@ -7374,6 +7374,7 @@ _a468x60.
 ##.adLeaderboard
 ##.adLeft
 ##.adLoaded
+##.adLoader
 ##.adLocal
 ##.adMPU
 ##.adMarker
@@ -9375,6 +9376,7 @@ _a468x60.
 ##.tblTopAds
 ##.tbl_ad
 ##.tbox_ad
+##.tckr_adbrace
 ##.td-Adholder
 ##.td-TrafficWeatherWidgetAdGreyBrd
 ##.teaser-sponsor
@@ -9430,7 +9432,6 @@ _a468x60.
 ##.top-banner-ad
 ##.top-left-nav-ad
 ##.top-menu-ads
-~foxtoledo.com,~myfoxdetroit.com,~wivb.com,~wtnh.com##.topAd
 ##.topAdWrap
 ~timescall.com##.topAds
 ##.topAdvertisement
@@ -10747,7 +10748,6 @@ _a468x60.
 ||sponsoredtweets.com^$third-party
 ||sponsormob.com^$third-party
 ||sponsorpalace.com^$third-party
-||sponsorpay.com^$third-party
 ||sportsyndicator.com^$third-party
 ||spotrails.com^$third-party
 ||spottt.com^$third-party
@@ -11190,6 +11190,7 @@ _a468x60.
 ||aolcdn.com/os/mapquest/marketing/promos/
 ||aolcdn.com/os/music/img/*-skin.jpg
 ||api.groupon.com/v2/deals/$third-party
+||apnonline.com.au/img/marketplace/*_ct50x50.gif
 ||appdevsecrets.com/images/nuts/
 ||apple.com/itunesaffiliates/
 ||appsgenius.com/images/$third-party
@@ -11676,6 +11677,7 @@ _a468x60.
 ||rest.co.il/widgets/$third-party
 ||rewards1.com/images/referralbanners/$third-party
 ||roadcomponentsdb.com^$subdocument,third-party
+||roadrecord.co.uk/widget.js?
 ||robofish.com/cgi-bin/banner.cgi?
 ||rocketgames.com^$image,~image,popup,third-party
 ||rogersradio.ca/flash/prerollplayer.swf
@@ -11723,6 +11725,7 @@ _a468x60.
 ||snapdeal.com^*.php$third-party
 ||socialmonkee.com/images/$third-party
 ||socialorganicleads.com/interstitial/
+||softneo.com/popup.js
 ||speedppc.com^*/banners/
 ||splashpagemaker.com/images/$third-party
 ||sponsorandwin.com/images/banner-
