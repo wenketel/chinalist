@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: LTPrfLMBHXeE+J5ILTRpWw
+!  Checksum: y2BIbFCmUIFBe7uOYC5pEA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 28 Mar 2012 19:05:17 +0800
+!  Last Modified:  Wed, 28 Mar 2012 19:45:36 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -145,7 +145,6 @@ v.6.cn###playerAd
 !---游侠网
 @@||shop.ali213.com^$elemhide
 ||bmp.ali213.net^
-||click.ali213.net^
 ali213.net###banner
 ali213.net##.newright
 
@@ -297,7 +296,6 @@ iteye.com###forum_recommended_f5
 
 !---当当
 ||a.dangdang.com/smart.js?
-||click.dangdang.com^$~third-party
 ||ddimg.cn^$object
 
 !---大洋网
@@ -665,6 +663,11 @@ jjwxc.net##.h8px + div[align="center"]
 ||ipic.staticsdo.com^
 ||loginlog.sdo.com^
 
+!---奇虎
+||hao.360.cn/css/monitorscript.js
+||s.360.cn^
+||clkstat.qihoo.com^
+
 !---QQ
 @@||gtimg.com/img/ad/$image,domain=buy.qq.com
 @@||cq.qq.com/js/cody/gdad/all_scroll_ad.js
@@ -835,10 +838,12 @@ tgbus.com##[class^="ad"][class*="t8"]
 tgbus.com###navi + .area
 
 !---TianYa
-||blog.tianya.cn/tuijian/tanchu.js
 ||8*.tianya.cn^
+||blog.tianya.cn/tuijian/tanchu.js
 ||stat.tianya.cn^
-||click.tianyaui.com^
+||static.tianyaui.com/js/2011/bbsclk.js
+||static.tianyaui.com/js/2010/ContClick.js
+||static.tianyaui.com/js/global/stat_20080313.js
 ||global.tianyaui.com/global/wizard/js/wizard.js
 tianya.cn##[class^="ad_"]
 tianya.cn##[id*="_AD_"]
@@ -2067,6 +2072,7 @@ win7china.com,win8china.com##.site_ad
 
 !-----------------------------Privacy----------------------
 /counts.
+|http://click.$image,script
 |http://pv.
 |http://pvstat.
 |http://*/pv.
@@ -9421,6 +9427,7 @@ _a468x60.
 ##.top-banner-ad
 ##.top-left-nav-ad
 ##.top-menu-ads
+~foxtoledo.com,~myfoxdetroit.com,~wivb.com,~wtnh.com##.topAd
 ##.topAdWrap
 ~timescall.com##.topAds
 ##.topAdvertisement
@@ -11713,7 +11720,6 @@ _a468x60.
 ||snapdeal.com^*.php$third-party
 ||socialmonkee.com/images/$third-party
 ||socialorganicleads.com/interstitial/
-||softneo.com/popup.js
 ||speedppc.com^*/banners/
 ||splashpagemaker.com/images/$third-party
 ||sponsorandwin.com/images/banner-
