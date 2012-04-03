@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: Ch3vzZf3mlKRJ8ztepOWAQ
+!  Checksum: d0/fN2EDC9Daq+jjSWO/iA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 02 Apr 2012 21:40:34 +0800
+!  Last Modified:  Tue, 03 Apr 2012 21:17:03 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1326,6 +1326,7 @@ dm5.com##.cl970
 ||hotsk.com/js/fy.js
 ||hszw.com/inc/
 ||imanhua.com^*/nmoneys/
+||imanhua.com/v2/money/top.js
 ||jpnovel.com/myjs/
 ||jumpcn.com/ah/001.html
 ||jumpcn.com/javascript/xshow.js
@@ -3345,6 +3346,7 @@ xfastest.com##[class^="ad"]
 /external/ad.
 /external/ad/*
 /external_ads.
+/externalads/*
 /externalhtmladrenderer.
 /eyewondermanagement.
 /eyewondermanagement28.
@@ -3409,6 +3411,7 @@ xfastest.com##[class^="ad"]
 /getarticleadvertimageservlet?
 /getbanner.cfm?
 /getdigitalad/*
+/getfeaturedadsforshow.
 /gethalfpagead.
 /getinlineads/*
 /getmarketplaceads.
@@ -4425,6 +4428,8 @@ _webad.
 /banner468x60.
 /bottom728.html
 /bottom728x90.
+/new160x600/*
+/new300x250/*
 /top468.html
 /top728.html
 /top728x90.
@@ -5522,6 +5527,7 @@ _a468x60.
 ###advert-top
 ###advert1
 ###advertBanner
+###advertBoxSquare
 ###advertContainer
 ###advertDB
 ###advertRight
@@ -5788,6 +5794,7 @@ _a468x60.
 ###boxads
 ###bpAd
 ###bps-header-ad-container
+###browsead
 ###btnAds
 ###btnads
 ###btr_horiz_ad
@@ -7265,6 +7272,7 @@ _a468x60.
 ##.ad-tile
 ~gumtree.com##.ad-title
 ~liveside.net,~zeitleser.de##.ad-top
+##.ad-top-lboard
 ##.ad-top-left
 ##.ad-topright
 ~interscope.com##.ad-unit
@@ -8584,6 +8592,7 @@ _a468x60.
 ##.googads
 ~oldversion.com##.google-ad
 ##.google-ad-container
+##.google-ad-image
 ##.google-ads
 ##.google-ads-boxout
 ##.google-ads-slim
@@ -8669,6 +8678,7 @@ _a468x60.
 ~associatedcontent.com##.header_ad_center
 ##.header_ad_div
 ##.header_ads
+##.header_ads_promotional
 ##.header_advertisement
 ##.header_advertisment
 ##.headerad
@@ -9448,6 +9458,7 @@ _a468x60.
 ##.top-banner-ad
 ##.top-left-nav-ad
 ##.top-menu-ads
+##.topAdCenter
 ##.topAdWrap
 ~timescall.com##.topAds
 ##.topAdvertisement
@@ -10168,6 +10179,7 @@ _a468x60.
 ||destinationurl.com^$third-party
 ||dexplatform.com^$third-party
 ||dgmaustralia.com^$third-party
+||dianomioffers.co.uk^$third-party
 ||digipathmedia.com^$third-party
 ||digitrevenue.com^$third-party
 ||dinclinx.com^$third-party
@@ -11426,7 +11438,6 @@ _a468x60.
 ||gateway.fortunelounge.com^
 ||gateways.s3.amazonaws.com^
 ||gawkerassets.com/assets/marquee/$object,third-party
-||generic4all.com/landing_page_feed.php
 ||generic4all.com^*?refid=$third-party
 ||geobanner.friendfinder.com^
 ||geobanner.passion.com^
@@ -11615,6 +11626,7 @@ _a468x60.
 ||oriongadgets.com^*/banners/
 ||oron.com/img/banners/
 ||osobnosti.cz/images/casharena_
+||overseasradio.com/affbanner.php?
 ||overturs.com/run.php?
 ||ox-d.dixcom.com^
 ||ox-d.mapmyfitness.com^$third-party
@@ -13293,6 +13305,7 @@ _comscore.js
 ||disqus.com/stats.html
 ||distillery.wistia.com^
 ||dnn506yrbagrg.cloudfront.net^
+||documentcloud.org/pixel.gif?
 ||domodomain.com^*/ddsense.aspx?
 ||doug1izaerwt3.cloudfront.net^
 ||dt.sellpoint.net^
@@ -13402,6 +13415,7 @@ _comscore.js
 ||metrics.feedroom.com^
 ||metrics.loomia.com^
 ||metrics.scribblelive.com^
+||metrics.wikinvest.com^
 ||mkcms.com/stats.js
 ||mochiads.com/clk/
 ||modules.ooyala.com^*/analytics-
