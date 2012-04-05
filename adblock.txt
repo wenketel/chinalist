@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: KO9kuNSXtxyxd30Si0RQSQ
+!  Checksum: fC1I9bBaHqAXAkJovisn4Q
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 05 Apr 2012 13:06:15 +0800
+!  Last Modified:  Thu, 05 Apr 2012 18:55:05 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -542,10 +542,11 @@ myfiles.com.cn##[id^="ad_"]
 !---NewHua
 ||count.newhua.com^
 /newhuagg/article_$domain=newhua.com|onlinedown.net
-/newhuagg/daohang.js
-/newhuagg/js_
-/newhuagg/*_index_
-newhua.com##.ad_ritht_1
+/newhuagg/daohang.js$domain=newhua.com|onlinedown.net
+/newhuagg/js_$domain=newhua.com|onlinedown.net
+/newhuagg/*_index_$domain=newhua.com|onlinedown.net
+/newhuagg/news_$domain=news.hewhua.com
+newhua.com##[class^="ad_ritht_"]
 
 !---NextMedia
 !-HK
@@ -1161,6 +1162,9 @@ dbank.com###filelist_marker
 ||ctdisk.com/getbbs.php?id=6
 js?version=$domain=ctdisk.com|pipipan.com
 ctdisk.com##.kk_xshow
+/3721upApiAd.png$domain=good.gd
+||good.gd/js/count.js
+||good.gd/js/loadpopads.aspx
 ||multiupload.com/popunder/$image,~image,popup
 ||d.namipan.com/inc_js/$script
 ||img.rayfile.com/scr/$script
@@ -2128,6 +2132,8 @@ win7china.com,win8china.com##.site_ad
 !-----------------------Element Hiding---------------------
 1000fr.net##center
 360doc.com###divadleft
+51caiju.com##.AdTop-Article-QQ
+51caiju.com##.l_qq_com
 sbsrunningman.5d6d.com###header
 www.alibuybuy.com##[class^="ad_"]
 av199.com,hd199.com##table[height="30"]

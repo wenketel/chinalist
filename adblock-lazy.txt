@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: ti1NPMFmZkKl0alHRNTIDg
+!  Checksum: 9MBG6gN+Wxe/Sw/UjZAayg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 05 Apr 2012 13:06:15 +0800
+!  Last Modified:  Thu, 05 Apr 2012 18:55:05 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -544,10 +544,11 @@ myfiles.com.cn##[id^="ad_"]
 !---NewHua
 ||count.newhua.com^
 /newhuagg/article_$domain=newhua.com|onlinedown.net
-/newhuagg/daohang.js
-/newhuagg/js_
-/newhuagg/*_index_
-newhua.com##.ad_ritht_1
+/newhuagg/daohang.js$domain=newhua.com|onlinedown.net
+/newhuagg/js_$domain=newhua.com|onlinedown.net
+/newhuagg/*_index_$domain=newhua.com|onlinedown.net
+/newhuagg/news_$domain=news.hewhua.com
+newhua.com##[class^="ad_ritht_"]
 
 !---NextMedia
 !-HK
@@ -1161,6 +1162,9 @@ dbank.com###filelist_marker
 ||ctdisk.com/getbbs.php?id=6
 js?version=$domain=ctdisk.com|pipipan.com
 ctdisk.com##.kk_xshow
+/3721upApiAd.png$domain=good.gd
+||good.gd/js/count.js
+||good.gd/js/loadpopads.aspx
 ||multiupload.com/popunder/$image,~image,popup
 ||d.namipan.com/inc_js/$script
 ||img.rayfile.com/scr/$script
@@ -2128,6 +2132,8 @@ win7china.com,win8china.com##.site_ad
 !-----------------------Element Hiding---------------------
 1000fr.net##center
 360doc.com###divadleft
+51caiju.com##.AdTop-Article-QQ
+51caiju.com##.l_qq_com
 sbsrunningman.5d6d.com###header
 www.alibuybuy.com##[class^="ad_"]
 av199.com,hd199.com##table[height="30"]
@@ -3330,6 +3336,7 @@ xfastest.com##[class^="ad"]
 /dtiadvert125x125.
 /dyn_banner.
 /dyn_banners_
+/dynamic_ads/*
 /dynamicad?
 /dynamiccsad?
 /dynamicvideoad?
@@ -4034,6 +4041,7 @@ xfastest.com##[class^="ad"]
 /upsellingads/*
 /userad/*
 /valueclick.
+/vboard/ads/*
 /vclkads.
 /vericaladtitle.
 /vert728ad.
@@ -11099,6 +11107,7 @@ _a468x60.
 ||newagerevenue.com^$third-party
 ||otherprofit.com^$third-party
 ||partnercash.com^$third-party
+||pecash.com^$third-party
 ||plugrush.com^$third-party
 ||porkolt.com^$third-party
 ||pornconversions.com^$third-party
@@ -11968,6 +11977,7 @@ _a468x60.
 ||hentaikey.com/images/banners/
 ||hornybirds.com^$subdocument,third-party
 ||hotcaracum.com/banner/
+||hotmovies.com/custom_videos.php?
 ||hotsocialz.com^$third-party
 ||icgirls.com^$image,~image,popup
 ||iframe.adultfriendfinder.com^
