@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: nW/NgIJ3cIyD8tBL++nnZg
+!  Checksum: 09chPtB0nuW+UiB7XvjS1g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 05 Apr 2012 22:52:21 +0800
+!  Last Modified:  Thu, 05 Apr 2012 23:01:03 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -402,6 +402,12 @@ bbs.gfan.com##.ad_headerbanner
 bbs.gfan.com###section2
 www.gfan.com##.banner_468_60
 www.gfan.com##.h200
+
+!---即得
+/3721upApiAd.png$domain=good.gd
+||good.gd/good.gd/js/downloadPrograss.js
+||good.gd/js/count.js
+||good.gd/js/loadpopads.aspx
 
 !---时空网
 ||images.nnsky.com^
@@ -1162,10 +1168,6 @@ dbank.com###filelist_marker
 ||ctdisk.com/getbbs.php?id=6
 js?version=$domain=ctdisk.com|pipipan.com
 ctdisk.com##.kk_xshow
-/3721upApiAd.png$domain=good.gd
-||good.gd/js/count.js
-||good.gd/js/loadpopads.aspx
-||multiupload.com/popunder/$image,~image,popup
 ||d.namipan.com/inc_js/$script
 ||img.rayfile.com/scr/$script
 ||rayfile.com/_.gif?vid
