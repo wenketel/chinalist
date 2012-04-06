@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 8kugRpD09oT+lIzhhxwWPQ
+!  Checksum: j6SgcAyovScvePVTn3UJaA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 06 Apr 2012 12:29:03 +0800
+!  Last Modified:  Fri, 06 Apr 2012 12:42:43 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -492,12 +492,14 @@ jpseek.com,jpfans.com##div[align="center"] + table[align="center"][width="98%"]
 kafan.cn##table.header_gg
 
 !---Ku6
-@@||ku6afp.allyes.com/crossdomain.xml
 ||st.vq.ku6.cn^
-||stat.ku6.com^
+||log*.ku6.com^
+||stat.ku6.com^$object_subrequest
 ||gug.ku6cdn.com^
 v.ku6.com##[id^="gg"]
 www.ku6.com##[class^="a_d0608"]
+!--for embedded videos
+@@||ku6afp.allyes.com/crossdomain.xml
 
 !---MSN
 !-CN
@@ -873,7 +875,7 @@ tom365.com###t365
 /pos?$object_subrequest
 tudou.com##.b.seed
 tudou.com###adex_board
-!--embedded
+!--for embedded videos
 ||tdap.tudou.com^
 ||tdcm.tudou.com^
 !--player may incorrectly blocked by some subscriptions
