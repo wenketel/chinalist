@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: UMuCfg1u76MHkGayOWcDFA
+!  Checksum: GAjKT/vGoQ9iiFyYyNqj6g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 06 Apr 2012 19:48:43 +0800
+!  Last Modified:  Sat, 07 Apr 2012 22:51:29 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -567,6 +567,8 @@ appledaily.com.tw##.ads
 
 !---Nownews
 @@||ad1.nownews.com/ads.php?ownerid=1294
+@@||nownews.com/ad2004/120330-185838-2423f.swf
+||nownews.com/ad2004/
 ||nownews.com/common/anypost/
 ||nownews.com/include_house/
 ||nownews.com/include_v11/$subdocument
@@ -634,6 +636,7 @@ www.pixnet.net###extradiv5
 ||synacast.com^
 news.pptv.com##.mod_300x90
 news.pptv.com##.mod_660x90
+v.pptv.com##.ads
 
 !---千脑
 ||down.qiannao.com/tomos/ui/*$subdocument
@@ -1015,6 +1018,7 @@ ynet.com###ta01
 @@||valf.atm.youku.com/crossdomain.xml
 @@||valf.atm.youku.com/valf?
 ||html.atm.youku.com^
+||hz.youku.com/red/ggnotice.php
 ||static.atm.youku.com^$object
 ||val*.atm.youku.com^
 ||f.youku.com/player/getFlvPath/fileid/*&yad=
@@ -1483,6 +1487,9 @@ admin5.com##.notice
 ||chiphell.com/activity/
 ||coolnovo.com/res/inc/liangbian.js
 ||coolnovo.com/temp/images/*_980x$image
+||docin.com/app/a_d/
+||docin.com/app/playerLoadLog/
+||hao123.com/images/track.gif
 ||hiuto.com/lib/aablock.js
 ||img.cjdby.com/client/
 ||cnki.net/indexGuangGao.htm
@@ -2107,7 +2114,7 @@ win7china.com,win8china.com##.site_ad
 /pv?peerid=
 /tongji.js
 /tracking.
-/usertrack.$domain=~hao123.com
+/usertrack.
 !--sort by domain
 ||50bang.org^$third-party
 ||51img.ajiang.net^
@@ -2171,5 +2178,5 @@ xfastest.com##[class^="ad"]
 ||i.imgur.com/BN5eO.gif$domain=hexieshe.com
 ||blog.hi.mop.com/flash/830-310.swf
 ||nanrenwa.com/_img/a/$third-party
-@@||drmcmm.baidu.com/media/$image,domain=zhibo8.com
+@@||drmcmm.baidu.com/media/$image,domain=zhibo8.cc|zhibo8.com
 !------------------------End of List-------------------------
