@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: wVOOttgkTYXXSlhXNQFk8Q
+!  Checksum: 16Ud1Ux6VqIg40WKGuuKOg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 09 Apr 2012 21:22:29 +0800
+!  Last Modified:  Mon, 09 Apr 2012 22:17:07 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -315,8 +315,9 @@ www.dayoo.com##body > div[style]
 /common/cf/*$image,object,domain=~discuz.net
 /image/common/ad_close.gif
 ##.a_h
+##.a_mu
 ~costcobbs.com##.a_pb
-~costcobbs.com|~bbs.imuyang.com##.a_pt
+~costcobbs.com,~bbs.imuyang.com##.a_pt
 discuz.net##.a_pr
 ##.ad_footerbanner
 ###ad_headerbanner
@@ -653,8 +654,7 @@ down.qiannao.com##div[style="padding: 8px;"]
 ||uedas.qdmm.com^
 ||qidian.com/Javascript/DoublePop.js
 ||qidian.com/javascript/SNDAADAltern.js
-||cj.qidian.com^$object
-||cj.qidian.com/svnad/
+||cj.qidian.com^
 ||uedas.qidian.com^
 qdmm.com,qidian.com##a[href^="http://www.qidian.com/showavd.aspx?"]
 www.qidian.com##.DH17
@@ -702,6 +702,7 @@ qq.com##.qiye-Article-QQ
 cq.qq.com##[style^="width:960px;"]
 news.qq.com##[id^="dlAds"]
 www.qq.com##.adArea
+www.qq.com##.admiddle
 www.qq.com###charge_content
 www.qq.com###proAd
 !--qzone
@@ -839,6 +840,12 @@ sogou.com###bdfs0
 sogou.com##.sponsored
 sogou.com###zhuanqu
 map.sogou.com###CboardDlg_1
+
+!---淘宝
+||acookie.*.gif?
+||atpanel.com^$image
+||a.tbcdn.cn/s/atp.js
+||a.tbcdn.cn/s/ac.js
 
 !---电玩巴士
 @@||games.tgbus.com/down.aspx?$elemhide
@@ -1414,7 +1421,6 @@ shushuw.cn##.bdad
 !--hdchina
 !---CHDBits&chdtv
 ||10moons.com/taobao/flash/720x80a6.swf
-www.chdtv.net##.a_mu
 www.chdtv.net##.bm.a_c
 
 !---RSS
@@ -1599,8 +1605,6 @@ qzwb.com##.area[style^="height:70px;"]
 ||so100.cn/images/newshead.htm
 ||subpig.net/add/
 subpig.net##.a_p
-||taobao.com/go/app/tbk_app/*$subdocument,domain=subpig.net
-||acookie.taobao.com/*.gif?
 ||bbs.t56.net/ad*/
 ||img.taoguba.com.cn/gbimg/
 tiyuba.tv##.gg_info
@@ -1725,6 +1729,7 @@ win7china.com,win8china.com##.site_ad
 ||7555.net^$third-party
 ||778669.com^$third-party
 ||7794.com^$third-party
+||7794lm.com^$third-party
 ||77go.com^$third-party
 ||77union.cn^$third-party
 ||789un.com^$third-party
@@ -1964,6 +1969,7 @@ win7china.com,win8china.com##.site_ad
 ||twcczhu.com^$third-party
 ||twm.com.tw^$third-party
 ||js.tjq.com^$third-party
+||tttccc.net^$third-party
 ||tuigoo.com^$third-party
 ||tuike.cn^$third-party
 ||txjy2008.com^$third-party
@@ -2147,7 +2153,6 @@ win7china.com,win8china.com##.site_ad
 sbsrunningman.5d6d.com###header
 www.alibuybuy.com##[class^="ad_"]
 av199.com,hd199.com##table[height="30"]
-hd.cnscg.com##.a_mu
 news.cnyes.com##[class^="ad"]
 crsky.com##[id$="_TL"]
 dapenti.com##td.oblog_t_2 > div[align="center"]
