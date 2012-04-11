@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: h+RkiR9neMGmoQMNUvhctA
+!  Checksum: j/GCEsD49uAGC8/5opY8lA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 10 Apr 2012 01:07:40 +0800
+!  Last Modified:  Wed, 11 Apr 2012 08:47:45 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -494,6 +494,13 @@ jpseek.com,jpfans.com##div[align="center"] + table[align="center"][width="98%"]
 ||bbs.kafan.cn/static/kafan_img/$domain=www.kafan.cn
 kafan.cn##table.header_gg
 
+!---极影动漫
+||kkkmh.com/iframe/
+||ktxp.com/javascripts/nmjui/
+/javascripts/abcde/*$domain=kkkmh.com|ktxp.com
+/javascripts/stats.js$domain=kkkmh.com|ktxp.com
+kkkmh.com##[class^="mm-"]
+
 !---Ku6
 ||st.vq.ku6.cn^
 ||log*.ku6.com^
@@ -655,12 +662,13 @@ down.qiannao.com##div[style="padding: 8px;"]
 ||uedas.qdmm.com^
 ||qidian.com/Javascript/DoublePop.js
 ||qidian.com/javascript/SNDAADAltern.js
-||cj.qidian.com^
+||cj.qidian.com^$object,subdocument
+||cj.qidian.com/Picture/$domain=forum.qidian.com
+||cj.qidian.com/svnad/
 ||uedas.qidian.com^
 qdmm.com,qidian.com##a[href^="http://www.qidian.com/showavd.aspx?"]
 www.qidian.com##.DH17
 www.qidian.com##[class^="gg"]
-www.qidian.com##.game_tj
 www.qidian.com##.RightAD
 bbs.qidian.com##.show_ggpic_990X60
 !--晋江文学城
@@ -1357,8 +1365,6 @@ dm5.com##.cl970
 ||jumpcn.com/javascript/xshow.js
 ||jumpcn.com/s*/$script
 ||i.kanshu.la/js/001.js
-||kkkmh.com/iframe/
-kkkmh.com##[class^="mm-"]
 @@||kukudm.com/js2/$script
 ||kukudm.com^$script
 ||laishu.com/lsgg/
@@ -1700,6 +1706,7 @@ win7china.com,win8china.com##.site_ad
 ||365tc.com^$third-party
 ||u1346.37117.com^$third-party
 ||37cs.com^$third-party
+||37cpm.com^$third-party
 ||37dz.com^$third-party
 ||p.37lai.com^$third-party
 ||cs.37see.com^$third-party
@@ -1969,6 +1976,7 @@ win7china.com,win8china.com##.site_ad
 ||adsame.tianjimedia.com^$third-party
 ||tiaosa.cn^$third-party
 ||tjj.com^$third-party
+||tksense.com^$third-party
 ||twcczhu.com^$third-party
 ||twm.com.tw^$third-party
 ||js.tjq.com^$third-party
@@ -4106,6 +4114,7 @@ xfastest.com##[class^="ad"]
 /writelayerad.
 /www/delivery/*
 /x5advcorner.
+/xlayer/layer.php?uid=$script
 /xml/ads_
 /xmladparser.
 /yahoo-ads/*
@@ -11157,6 +11166,7 @@ _a468x60.
 ||targetingnow.com^$third-party
 ||tinyweene.com^$third-party
 ||trafficholder.com^$image,~image,popup
+||trafficlearn.com^$third-party
 ||trafficpimps.com^$third-party
 ||tubedspots.com^$third-party
 ||twistyscash.com^$third-party
@@ -11724,6 +11734,7 @@ _a468x60.
 ||proxies2u.com/images/btn/$third-party
 ||proxynoid.com/images/referrals/
 ||proxyroll.com/proxybanner.php
+||proxysolutions.net/affiliates/
 ||pub.aujourdhui.com^$third-party
 ||pub.betclick.com^
 ||pub.ezanga.com/rv2.php?$image,~image,popup
@@ -12092,6 +12103,7 @@ _a468x60.
 ||videobox.com/?tid=$image,~image,popup
 ||videobox.com/tour/$image,~image,popup
 ||viorotica.com^*/banners/
+||visit-x.net/cams/*.html?*&s=*&ws=$image,~image,popup,third-party
 ||wantlive.com/landing/$image,~image,popup
 ||webcams.com/misc/iframes_new/
 ||webcams.com^$image,~image,popup
