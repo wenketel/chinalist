@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: zoKoONz6m/6mLkQcpeyi8g
+!  Checksum: 2GVST86mi76qj66j+koCdA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 11 Apr 2012 09:37:10 +0800
+!  Last Modified:  Wed, 11 Apr 2012 17:29:20 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1053,6 +1053,7 @@ v.youku.com##.ad_area
 ||copy.ousns.com^$image
 yyets.com##[id^="kads"]
 !--forum
+@@||www.yyets.com/index.php$elemhide
 
 !---搜搜
 ||dr.soso.com^
@@ -5236,7 +5237,7 @@ _a468x60.
 ###ad_ss
 ~bestadsontv.com,~vivastreet.co.uk,~vivastreet.com,~vivastreet.fr###ad_table
 ###ad_term_bottom_place
-~www.yyets.com###ad_text:not(textarea)
+###ad_text:not(textarea)
 ###ad_thread_first_post_content
 ###ad_thread_last_post_content
 ###ad_top
@@ -7668,7 +7669,7 @@ _a468x60.
 ##.ad_sub
 ##.ad_supersize
 ##.ad_tag_middle
-~www.yyets.com,~leboncoin.fr##.ad_text
+~leboncoin.fr##.ad_text
 ##.ad_text_w
 ##.ad_title
 ##.ad_top

@@ -56,7 +56,6 @@
 	<string>||agendize.com^*/counts.jsp?</string>
 	<string>||weather.ca/counter.gif?</string>
 	<string>||widgethost.com/pax/counter.js?</string>
-	<string>@@||www.yyets.com^$elemhide</string>
 	<string>||sitebro.com^$third-party</string>
 	<string>||sitebro.net^$third-party</string>
 	<string>||aiya.com.cn/stat.js</string>
@@ -270,14 +269,6 @@
 	<ModifyItem>
 		<OldItem>/socialads/*</OldItem>
 		<NewItem>/socialads/*$domain=~profiles.google.com</NewItem>
-	</ModifyItem>
-	<ModifyItem>
-		<OldItem>~leboncoin.fr##.ad_text</OldItem>
-		<NewItem>~www.yyets.com,~leboncoin.fr##.ad_text</NewItem>
-	</ModifyItem>
-	<ModifyItem>
-		<OldItem>###ad_text:not(textarea)</OldItem>
-		<NewItem>~www.yyets.com###ad_text:not(textarea)</NewItem>
 	</ModifyItem>
 	<ModifyItem>
 		<OldItem>/img/ad/*</OldItem>
