@@ -44,7 +44,7 @@
     </DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <PlatformTarget>x64</PlatformTarget>
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -55,7 +55,7 @@
     </DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <PlatformTarget>x64</PlatformTarget>
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
@@ -128,9 +128,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ChinaList.cs" />
+    <Compile Include="mydns\enum.cs" />
+    <Compile Include="mydns\MyDns.cs" />
+    <Compile Include="mydns\MyDnsHeader.cs" />
+    <Compile Include="mydns\MyDnsQuestion.cs" />
+    <Compile Include="mydns\MyDnsRecord.cs" />
+    <Compile Include="mydns\ResourceRecord\A_RR.cs" />
+    <Compile Include="mydns\ResourceRecord\CNAME_RR.cs" />
+    <Compile Include="mydns\ResourceRecord\MX_RR.cs" />
+    <Compile Include="mydns\ResourceRecord\NS_RR.cs" />
+    <Compile Include="mydns\ResourceRecord\SOA_RR.cs" />
+    <Compile Include="mydns\ResourceRecord\TXT_RR.cs" />
     <Compile Include="PatchConfigurations.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueryResult.cs" />
     <Compile Include="SimpleSerializer.cs" />
   </ItemGroup>
   <ItemGroup>

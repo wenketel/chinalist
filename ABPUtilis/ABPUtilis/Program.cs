@@ -1,12 +1,12 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Net;
-using System.Net.NetworkInformation;
+using System.Net.Sockets;
 using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
-using System.Net.Sockets;
+using MyDnsPackage;
 
 namespace ABPUtils
 {
@@ -94,12 +94,38 @@ namespace ABPUtils
                     else
                         CheckUrls(args[1], args[2]);
                     break;
+                case "ns":
+                    MyDns mydns = new MyDns();
+                    try
+                    {
+                        string dns = string.Empty;
+                        if (args.Length == 2)
+                            dns = null;
+                        else
+                            dns = args[2];
+                        bool ret = mydns.Search(args[1], QueryType.NS, dns, null);
+                        if (!ret)
+                        {
+                            Console.WriteLine("No result for ({0})", args[1]);
+                        }
+
+                        Console.WriteLine("nslookup result for {0}", args[1]);
+                        foreach (var item in mydns.record.Records)
+                        {
+                            Console.WriteLine(item.QType.ToString() + " => " + item.RDDate.ToString());
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine(ex.Message);
+                    }
+                    break;
                 default:
                     break;
             }
 
-            //Console.WriteLine("Press any key to continue...");
-            //Console.ReadKey();
+            Console.WriteLine("Press any key to continue...");
+            Console.ReadKey();
         }
 
         static void Merge(string chinaList, WebProxy proxy, bool patch, string lazyList = "adblock-lazy.txt")
@@ -216,94 +242,27 @@ namespace ABPUtils
             List<string> urls = cl.GetUrls();
             //List<string> urls = cl.ParseURLs();
             StringBuilder stringBuilder = new StringBuilder();
-            List<string> urlList = new List<string>();
-            IPAddress dnsServer = IPAddress.Parse("8.8.8.8");
+            MyDns mydns = new MyDns();
 
-            Parallel.ForEach(urls, url =>
+            foreach (var url in urls)
             {
-                bool ret = false;
-                for (int i = 1; i < 4; i++)
+                Console.WriteLine("TEST -> " + url);
+                Debug.WriteLine("TEST -> " + url);
+
+                bool ret = mydns.Search(url, QueryType.NS, null, null);
+                if (!ret)
                 {
-                    if (PingUrl(url))
-                    {
-                        Console.WriteLine("Ping {0} successed.", url);
-                        ret = true;
-                        break;
-                    }
-                    else
-                    {
-                        Console.WriteLine("Ping {0} failed {1} time(s).", url, i);
-                        ret = PingUrl(url);
-                        if (i == 3)
-                        {
-                            if (IsUrlExists(url))
-                            {
-                                ret = true;
-                                Console.WriteLine("{0} is validated by HttpWebRequest.", url);
-                            }
-                            else
-                            {
-                                Console.WriteLine("{0} is not exist.", url);
-                            }
-                        }
-                    }
+                    stringBuilder.AppendLine(url);
                 }
-
-                if (!ret && !urlList.Contains(url))
-                    urlList.Add(url);
-
-            });
-
-            foreach (var u in urlList)
-                stringBuilder.AppendLine(u);
+#if DEBUG
+                foreach (var item in mydns.record.Records)
+                {
+                    Console.WriteLine(item.QType.ToString() + " => " + item.RDDate.ToString());
+                }
+#endif
+            }
 
             ChinaList.Save(missurl, stringBuilder.ToString());
-        }
-
-        /// <summary>
-        /// Ping URL
-        /// </summary>
-        /// <param name="url"></param>
-        /// <returns></returns>
-        static bool PingUrl(string url)
-        {
-            Ping pingSender = new Ping();
-            PingOptions options = new PingOptions();
-            options.DontFragment = true;
-
-            string data = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
-            byte[] buffer = Encoding.ASCII.GetBytes(data);
-            int timeout = 120;
-
-            try
-            {
-                PingReply reply = pingSender.Send(url, timeout, buffer, options);
-                return (reply != null && reply.Status == IPStatus.Success);
-            }
-            catch
-            {
-                return false;
-            }
-        }
-
-        /// <summary>
-        /// Check url is valid
-        /// </summary>
-        /// <param name="url"></param>
-        /// <returns></returns>
-        static bool IsUrlExists(string url)
-        {
-            try
-            {
-                HttpWebRequest request = WebRequest.Create(string.Format("http://www.{0}", url)) as HttpWebRequest;
-                request.Method = "HEAD";
-                HttpWebResponse response = request.GetResponse() as HttpWebResponse;
-                return (response.StatusCode == HttpStatusCode.OK);
-            }
-            catch
-            {
-                return false;
-            }
         }
 
         static bool IsFileExist(string fileName)
