@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: U7Hsow1O7zrEHNqD4nVpiQ
+!  Checksum: GVUyM0FtaVbWyDRn0LUk9A
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 14 Apr 2012 15:35:46 +0800
+!  Last Modified:  Sat, 14 Apr 2012 17:12:04 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -156,21 +156,8 @@ autohome.com.cn##.banner750_90
 autohome.com.cn##.recommend
 
 !---Baidu
-!--unions
-||cb.baidu.com^
-||cbjs.baidu.com^
-||cpro.baidu.com^
-||drmcmm.baidu.com^
-||duiwai.baidu.com^
-||eiv.baidu.com^
-||hm.baidu.com^
-||nsclick.baidu.com^
-||sclick.baidu.com^
-||spcode.baidu.com^
 ||unstat.baidu.com^$~subdocument
-||utk.baidu.com^
 ||a.baidu.com/ecom$script
-||hi.baidu.com/ui/scripts/refer/refer.js
 ||wenku.baidu.com/tongji/
 baike.baidu.com###mabox
 maps.baidu.com##.cityTip_top
@@ -202,6 +189,17 @@ iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com##.ad-fc-down
 iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com###ad-brand-down
 iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com###qb-ad-cpro
 iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com###right
+!--unions
+||cb.baidu.com^
+||cbjs.baidu.com^
+||cpro.baidu.com^
+||drmcmm.baidu.com^
+||duiwai.baidu.com^
+||eiv.baidu.com^
+||hm.baidu.com^
+||nsclick.baidu.com^
+||sclick.baidu.com^
+||spcode.baidu.com^
 !--qiyi
 ||policy.cupid.qiyi.com^
 ||qiyipic.com/common/20110722/5f5d60101b71428991e57b5ba460acf1.jpg
@@ -712,10 +710,7 @@ jjwxc.net##.h8px + div[align="center"]
 ||l.qq.com/p?
 ||view.news.qq.com/PL_ad
 ||rh.qq.com^
-||tajs.qq.com^
-||tcss.qq.com^
 ||trace.qq.com^
-||wit.qq.com/sc/crystal2.js
 qq.com##[class*="Ad"][class$="-Article-QQ"]
 qq.com##.business-Article-QQ
 qq.com##.l_qq_com
@@ -726,6 +721,10 @@ www.qq.com##.adArea > div:not(#adAreaD):not(#adAreaS):not(#gongyi)
 www.qq.com##.admiddle
 www.qq.com###charge_content
 www.qq.com###proAd
+!---unions
+||tajs.qq.com^
+||tcss.qq.com^
+||wit.qq.com^$third-party
 !--qzone
 ||os.qzs.qq.com/qzone/biz/gdt/
 
@@ -13764,5 +13763,6 @@ youtube.com###watch-branded-actions
 youtube.com###watch-buy-urls
 @@||clustrmaps.com/images/clustrmaps-back-soon.jpg$third-party
 @@||s.clicktale.net/WRb.js$script,domain=microsoft.com
+@@||doubleclick.net/adj/imdb2.consumer.video/*;sz=320x240,$script
 
 !------------------------End of List-------------------------
