@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 52YCn64doDuUs+pdtVEb4w
+!  Checksum: 4ohtz1hfnxO70Bdjawn5bA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 14 Apr 2012 08:57:53 +0800
+!  Last Modified:  Sat, 14 Apr 2012 12:27:24 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -186,7 +186,7 @@ baidu.com###ecad
 baidu.com##.EC_mr15
 baidu.com##table[cellspacing="0"][cellpadding="0"][align="right"][width="30%"]
 baidu.com##.ec_pp_f
-baidu.com##.ec_pp_f+br
+baidu.com##.ec_pp_f + br
 !--tieba
 @@||cpro.baidu.com/cpro/ui/post.js$domain=tieba.baidu.com
 ||tieba.baidu.com/tb/poptipconfig.js
@@ -209,10 +209,10 @@ iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com###right
 iqiyi.com###ad-left-tl
 
 !---bilibili.tv
-||bilibili.tv/bdad.html
 ||bilibili.tv/html/arcads.js
-/ad-images/*$domain=bilibili.tv
-bilibili.tv###topgg
+||static.loli.my/ad-images/$object_subrequest
+||static.loli.my/ad-images/b1-
+||static.loli.my/ad-images/c1-
 
 !---易车网
 ||g.bitauto.com^$script
@@ -502,6 +502,7 @@ kafan.cn##table.header_gg
 /javascripts/abcde/*$domain=kkkmh.com|ktxp.com
 /javascripts/stats.js$domain=kkkmh.com|ktxp.com
 kkkmh.com##[class^="mm-"]
+bt.ktxp.com##.downloadbox + div[style]
 
 !---Ku6
 ||st.vq.ku6.cn^
@@ -707,7 +708,9 @@ jjwxc.net##.h8px + div[align="center"]
 ||cq.qq.com^*/ad_
 /avd/*$domain=hb.qq.com
 ||l.qq.com/p?
+||view.news.qq.com/PL_ad
 ||rh.qq.com^
+||tajs.qq.com^
 ||tcss.qq.com^
 ||trace.qq.com^
 qq.com##[class*="Ad"][class$="-Article-QQ"]
@@ -716,7 +719,7 @@ qq.com##.l_qq_com
 qq.com##.qiye-Article-QQ
 cq.qq.com##[style^="width:960px;"]
 news.qq.com##[id^="dlAds"]
-www.qq.com##.adArea
+www.qq.com##.adArea > div:not(#adAreaD):not(#adAreaS):not(#gongyi)
 www.qq.com##.admiddle
 www.qq.com###charge_content
 www.qq.com###proAd
@@ -1978,6 +1981,7 @@ win7china.com,win8china.com##.site_ad
 ||sxtengchuang.cn^$third-party
 ||szvr.com^$third-party
 ||tanx.com^$third-party,domain=~taobao.com|~tmall.com
+||taotaosou.com^$third-party
 ||tazhao.com^$third-party
 ||tenoad.com^$third-party
 ||adsame.tianjimedia.com^$third-party
