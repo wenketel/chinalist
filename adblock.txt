@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 5wifcIyJJ30Zb325OOYPnw
+!  Checksum: VqQjnWalSjL4L81FNLabPQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 14 Apr 2012 18:21:19 +0800
+!  Last Modified:  Sun, 15 Apr 2012 06:05:59 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -154,11 +154,16 @@ autohome.com.cn##.banner750_90
 autohome.com.cn##.recommend
 
 !---Baidu
-||unstat.baidu.com^$~subdocument
 ||a.baidu.com/ecom$script
 ||wenku.baidu.com/tongji/
+baidu.com###ecad
+baidu.com##.EC_mr15
+baidu.com##.ec_pp_f
+baidu.com##.ec_pp_f + br
+baidu.com##table[cellspacing="0"][cellpadding="0"][align="right"][width="30%"]
 baike.baidu.com###mabox
 maps.baidu.com##.cityTip_top
+video.baidu.com##.brand-ad
 !--image
 image.baidu.com###ecomContainer
 image.baidu.com###relEcom
@@ -168,20 +173,9 @@ image.baidu.com###relecom54
 mp3.baidu.com###ecom
 mp3.baidu.com##.area-top-ads
 box.zhangmen.baidu.com###girl
-!--search
-baidu.com###ecad
-baidu.com##.EC_mr15
-baidu.com##table[cellspacing="0"][cellpadding="0"][align="right"][width="30%"]
-baidu.com##.ec_pp_f
-baidu.com##.ec_pp_f + br
 !--tieba
 @@||cpro.baidu.com/cpro/ui/post.js$domain=tieba.baidu.com
-||tieba.baidu.com/tb/poptipconfig.js
-||static.tieba.baidu.com/tb/coloregg/
 tieba.baidu.com###frs_banner_ad
-tieba.baidu.com##.l_banner
-!--video
-video.baidu.com##.brand-ad
 !--zhidao
 ||baidu.com^*/egg*.swf
 iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com###advertise
@@ -189,7 +183,7 @@ iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com##.ad-fc-down
 iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com###ad-brand-down
 iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com###qb-ad-cpro
 iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com###right
-iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com###center>div:first-child[style="width:85%"]
+iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com###center > div:first-child[style="width:85%"]
 !--unions
 ||cb.baidu.com^
 ||cbjs.baidu.com^
@@ -201,6 +195,7 @@ iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com###center>div:first-
 ||nsclick.baidu.com^
 ||sclick.baidu.com^
 ||spcode.baidu.com^
+||unstat.baidu.com^$~subdocument
 !--qiyi
 ||policy.cupid.qiyi.com^
 ||qiyipic.com/common/20110722/5f5d60101b71428991e57b5ba460acf1.jpg
@@ -2177,6 +2172,9 @@ win7china.com,win8china.com##.site_ad
 360doc.com###divadleft
 51caiju.com###hint + .AdTop-Article-QQ
 51caiju.com##.l_qq_com
+55188.com##[class^="a1_gg jiange"]
+55188.com##.a3_gg
+55188.com##[class^="nei"]
 sbsrunningman.5d6d.com###header
 www.alibuybuy.com##[class^="ad_"]
 av199.com,hd199.com##table[height="30"]
