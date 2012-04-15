@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: sRtCZ0Mt0bN9O2lbk2xNRg
+!  Checksum: 6rWmKDaNt5CTXqMtUqaZEw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 15 Apr 2012 06:05:59 +0800
+!  Last Modified:  Sun, 15 Apr 2012 08:49:45 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -40,10 +40,8 @@
 ||img2.126.net^
 ||swf.ws.126.net^*.flv$object_subrequest
 ||analytics.163.com^
-||g.163.com^$~object_subrequest
-||v.163.com/special/*gg*.xml
-||netease.com/channel4/$object
-||netease.com/channel5/$object
+||g.163.com^
+||v.163.com^$object_subrequest
 163.com##[class^="gg"]
 blog.163.com##.m-postadlayer
 reg.163.com###adhref
@@ -209,8 +207,9 @@ iqiyi.com###ad-left-tl
 !---bilibili.tv
 ||bilibili.tv/html/arcads.js
 ||static.loli.my/ad-images/$object_subrequest
-||static.loli.my/ad-images/b1-
-||static.loli.my/ad-images/c1-
+||static.loli.my/ad-images/*b1
+||static.loli.my/ad-images/*b2
+||static.loli.my/ad-images/*c1
 
 !---易车网
 ||g.bitauto.com^$script
@@ -654,7 +653,7 @@ news.pptv.com##.mod_660x90
 v.pptv.com##.ads
 
 !---千脑
-||down.qiannao.com/tomos/ui/*$subdocument
+||down.qiannao.com/tomos/ui/$subdocument
 ||count.qiannao.com^
 down.qiannao.com###PageRigntAds
 down.qiannao.com##div[style="padding: 8px;"]
@@ -1164,7 +1163,7 @@ itopdog.cn##[id^="itopdog_ad-"]
 
 !---Game Sites
 ||131.com/home/resouces/js/
-||131.com/js/131InsideAD*$script
+||131.com/js/131InsideAD$script
 ||313g.com/xyx/
 ||get.766.com^$script
 ||bbs.a9vg.com/showit/img_show.php
@@ -1402,7 +1401,7 @@ readnovel.com##.zzq_yd_ad
 @@||shanwen.com/configs/article/pagetop3.js
 ||shanwen.com^$script
 ||shukeju.com/contentjs/
-||shuoshuo520.com/scripts/readindex/*
+||shuoshuo520.com/scripts/readindex/
 shushuw.cn##.bdad
 ||ttshu.com/js/
 ||tvbkt.cn/js/cnbeta/
@@ -1610,7 +1609,7 @@ ph66.com##[class^="ad_"]
 ||a-m-s.poco.cn^
 ||sub.powerapple.com^
 ||ptfish.com/08html/
-||ptfish.com/*/ad*$image,object
+||ptfish.com/*/ad$image,object
 ||qqjia.com^$script
 ||qqjia.com/images/ad
 ||qqkj.cn^$script
