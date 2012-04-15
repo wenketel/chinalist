@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 6rWmKDaNt5CTXqMtUqaZEw
+!  Checksum: sj19BKMx4Dvo1xPmTJMi/Q
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 15 Apr 2012 08:49:45 +0800
+!  Last Modified:  Sun, 15 Apr 2012 11:09:08 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -154,7 +154,7 @@ autohome.com.cn##.banner750_90
 autohome.com.cn##.recommend
 
 !---Baidu
-||a.baidu.com/ecom$script
+||baidu.com/ecom$image,script
 ||wenku.baidu.com/tongji/
 baidu.com###ecad
 baidu.com##.EC_mr15
@@ -163,16 +163,15 @@ baidu.com##.ec_pp_f + br
 baidu.com##table[cellspacing="0"][cellpadding="0"][align="right"][width="30%"]
 baike.baidu.com###mabox
 maps.baidu.com##.cityTip_top
+news.baidu.com###ecomadv2
 video.baidu.com##.brand-ad
 !--image
 image.baidu.com###ecomContainer
 image.baidu.com###relEcom
 image.baidu.com###relecom54
 !--MP3
-||static.mp3.baidu.com^$~stylesheet
-mp3.baidu.com###ecom
-mp3.baidu.com##.area-top-ads
-box.zhangmen.baidu.com###girl
+||static.mp3.baidu.com/wd/
+mp3.baidu.com##.ad
 !--tieba
 @@||cpro.baidu.com/cpro/ui/post.js$domain=tieba.baidu.com
 tieba.baidu.com###frs_banner_ad
