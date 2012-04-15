@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: atuCidrzzUX5XQ+LqtaUNw
+!  Checksum: z9ZCpdBOCCdbJ2Q2Uz4KSQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 16 Apr 2012 07:13:20 +0800
+!  Last Modified:  Mon, 16 Apr 2012 07:17:03 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -35,6 +35,12 @@
 @@||drag.synacast.com^$object_subrequest,domain=x2dsj.com
 
 !----------------------------Well-known Sites--------------
+!---115网盘
+||static.115img.com/static/delivery/
+||static.115img.com/static/115tj.js
+115.com##.banner-top
+115.com##.resource-list > ul
+
 !---网易
 ||img1.126.net^
 ||img2.126.net^
@@ -1190,10 +1196,6 @@ verypsp.com##table[width="960"]
 ||i02.youxigu.com/skin/youxigu/img/bg-new.jpg
 
 !---Net Disks
-||static.115img.com/static/delivery/
-115.com##.banner-box
-115.com##[class^="ban-"]
-115.com##.res-list
 ||st2.dbank.com/css/default/h-x.png
 ||st2.dbank.com/images/downloadtopbanner$image
 dbank.com###filelist_marker
