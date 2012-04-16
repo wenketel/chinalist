@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: z9ZCpdBOCCdbJ2Q2Uz4KSQ
+!  Checksum: XCcVdWeg6RKLnudmfP/fOA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 16 Apr 2012 07:17:03 +0800
+!  Last Modified:  Mon, 16 Apr 2012 10:08:42 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -36,8 +36,8 @@
 
 !----------------------------Well-known Sites--------------
 !---115网盘
-||static.115img.com/static/delivery/
 ||static.115img.com/static/115tj.js
+||static.115img.com/static/delivery/
 115.com##.banner-top
 115.com##.resource-list > ul
 
@@ -388,9 +388,12 @@ funshion.com##div[style^="position: fixed;"]
 !---火狐主页
 ||firefoxchina.cn/cooperation/
 ||firefoxchina.cn/fragments/cms/read_head_link.js
+||firefoxchina.cn/js/money/
+||firefoxchina.cn/js/trac.js
 /iframes/*$subdocument,domain=i.firefoxchina.cn|i.g-fox.cn
 i.firefoxchina.cn,i.g-fox.cn##[id^="ad_links"]
 i.firefoxchina.cn,i.g-fox.cn##[id^="banner_show"]
+i.firefoxchina.cn,i.g-fox.cn###taobao_frame2
 
 !---巴哈姆特
 @@||bahamut.com.tw/avataruserpic/$subdocument
@@ -1233,6 +1236,7 @@ ys168.com###xtxx
 ||hinews.cn/out/img/$object
 ||hinews.cn/out/img/*/*x
 ||huanqiu.com/script/content_js/*_ad
+||huanqiu.com/script/content_js/*_banner
 ||huanqiu.com/script/homepage$script
 huanqiu.com##[id^="banner"]
 ||ithome.com/block/*_google
