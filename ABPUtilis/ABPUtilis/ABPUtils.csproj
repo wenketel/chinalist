@@ -19,7 +19,7 @@
     <AssemblyOriginatorKeyFile>abputils.snk</AssemblyOriginatorKeyFile>
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-    <TargetFrameworkProfile />
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -128,17 +128,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ChinaList.cs" />
-    <Compile Include="mydns\enum.cs" />
-    <Compile Include="mydns\MyDns.cs" />
-    <Compile Include="mydns\MyDnsHeader.cs" />
-    <Compile Include="mydns\MyDnsQuestion.cs" />
-    <Compile Include="mydns\MyDnsRecord.cs" />
-    <Compile Include="mydns\ResourceRecord\A_RR.cs" />
-    <Compile Include="mydns\ResourceRecord\CNAME_RR.cs" />
-    <Compile Include="mydns\ResourceRecord\MX_RR.cs" />
-    <Compile Include="mydns\ResourceRecord\NS_RR.cs" />
-    <Compile Include="mydns\ResourceRecord\SOA_RR.cs" />
-    <Compile Include="mydns\ResourceRecord\TXT_RR.cs" />
+    <Compile Include="dns\ANameRecord.cs" />
+    <Compile Include="dns\Enums.cs" />
+    <Compile Include="dns\InvalidResponseException.cs" />
+    <Compile Include="dns\MXRecord.cs" />
+    <Compile Include="dns\NoResponseException.cs" />
+    <Compile Include="dns\NSRecord.cs" />
+    <Compile Include="dns\Pointer.cs" />
+    <Compile Include="dns\Question.cs" />
+    <Compile Include="dns\RecordBase.cs" />
+    <Compile Include="dns\Request.cs" />
+    <Compile Include="dns\Resolver.cs" />
+    <Compile Include="dns\ResourceRecord.cs" />
+    <Compile Include="dns\Response.cs" />
+    <Compile Include="dns\SoaRecord.cs" />
     <Compile Include="PatchConfigurations.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

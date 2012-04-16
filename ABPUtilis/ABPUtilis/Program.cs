@@ -1,12 +1,12 @@
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.IO;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using System.Text.RegularExpressions;
-using MyDnsPackage;
+using System.Threading.Tasks;
+using Bdev.Net.Dns;
 
 namespace ABPUtils
 {
@@ -90,30 +90,21 @@ namespace ABPUtils
                     break;
                 case "check":
                     if (args.Length == 2)
-                        CheckUrls(args[1]);
+                        ValidateDomains(args[1]);
                     else
-                        CheckUrls(args[1], args[2]);
+                        ValidateDomains(args[1], args[2]);
                     break;
                 case "ns":
-                    MyDns mydns = new MyDns();
                     try
                     {
-                        string dns = string.Empty;
+                        IPAddress dns = null;
                         if (args.Length == 2)
-                            dns = null;
+                            dns = IPAddress.Parse("8.8.8.8");
                         else
-                            dns = args[2];
-                        bool ret = mydns.Search(args[1], QueryType.NS, dns, null);
-                        if (!ret)
-                        {
-                            Console.WriteLine("No result for ({0})", args[1]);
-                        }
+                            dns = IPAddress.Parse(args[2]);
 
-                        Console.WriteLine("nslookup result for {0}", args[1]);
-                        foreach (var item in mydns.record.Records)
-                        {
-                            Console.WriteLine(item.QType.ToString() + " => " + item.RDDate.ToString());
-                        }
+                        QueryResult queryResult = DNSQuery(dns, args[1]);
+                        Console.Write(queryResult.ToString());
                     }
                     catch (Exception ex)
                     {
@@ -124,8 +115,8 @@ namespace ABPUtils
                     break;
             }
 
-            Console.WriteLine("Press any key to continue...");
-            Console.ReadKey();
+            //Console.WriteLine("Press any key to continue...");
+            //Console.ReadKey();
         }
 
         static void Merge(string chinaList, WebProxy proxy, bool patch, string lazyList = "adblock-lazy.txt")
@@ -236,33 +227,79 @@ namespace ABPUtils
         /// </summary>
         /// <param name="fileName"></param>
         /// <param name="missurl"></param>
-        static void CheckUrls(string fileName, string missurl = "invalidurls.txt")
+        static void ValidateDomains(string fileName, string missurl = "invalid_domains.txt")
         {
             ChinaList cl = new ChinaList(fileName);
-            List<string> urls = cl.GetUrls();
+            List<string> domains = cl.GetDomains();
             //List<string> urls = cl.ParseURLs();
-            StringBuilder stringBuilder = new StringBuilder();
-            MyDns mydns = new MyDns();
+            StringBuilder results = new StringBuilder();
+            //StringBuilder fullResult = new StringBuilder();
 
-            foreach (var url in urls)
+            IPAddress dns = IPAddress.Parse("8.8.8.8");
+
+            Parallel.ForEach(domains, domain =>
             {
-                Console.WriteLine("TEST -> " + url);
-                Debug.WriteLine("TEST -> " + url);
+                Console.WriteLine("Querying DNS records for domain: {0}", domain);
+                QueryResult queryResult = DNSQuery(dns, domain);
+                Console.Write(queryResult.ToString());
+                //fullResult.Append(queryResult.ToString());
 
-                bool ret = mydns.Search(url, QueryType.NS, null, null);
-                if (!ret)
+                if (queryResult.NSCount == 0)
                 {
-                    stringBuilder.AppendLine(url);
+                    results.Append(queryResult.ToString());
                 }
-#if DEBUG
-                foreach (var item in mydns.record.Records)
+            });
+
+            ChinaList.Save(missurl, results.ToString());
+            // ChinaList.Save("full_domains.txt", fullResult.ToString());
+        }
+
+        static QueryResult DNSQuery(IPAddress dnsServer, string domain)
+        {
+            QueryResult queryResult = new QueryResult()
+            {
+                Domain = domain,
+                DNS = dnsServer.ToString()
+            };
+
+            try
+            {
+                // create a DNS request
+                Request request = new Request();
+                request.AddQuestion(new Question(domain, DnsType.NS, DnsClass.IN));
+                Response response = Resolver.Lookup(request, dnsServer);
+
+                if (response == null)
                 {
-                    Console.WriteLine(item.QType.ToString() + " => " + item.RDDate.ToString());
+                    queryResult.Info = "No answer";
+                    return queryResult;
                 }
-#endif
+
+                queryResult.Info = response.AuthoritativeAnswer ? "authoritative answer" : "Non-authoritative answer";
+
+                queryResult.NSCount = response.Answers.Length + response.AdditionalRecords.Length + response.NameServers.Length;
+
+                foreach (Answer answer in response.Answers)
+                {
+                    queryResult.NSList.Add(answer.Record.ToString());
+                }
+
+                foreach (AdditionalRecord additionalRecord in response.AdditionalRecords)
+                {
+                    queryResult.NSList.Add(additionalRecord.Record.ToString());
+                }
+
+                foreach (NameServer nameServer in response.NameServers)
+                {
+                    queryResult.NSList.Add(nameServer.Record.ToString());
+                }
+            }
+            catch (Exception ex)
+            {
+                queryResult.Error = ex.Message;
             }
 
-            ChinaList.Save(missurl, stringBuilder.ToString());
+            return queryResult;
         }
 
         static bool IsFileExist(string fileName)

@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
 using System.Text;
 
 namespace ABPUtils
 {
     class QueryResult
     {
-        public string Url
+        public string Domain
         {
             get;
             set;
@@ -19,7 +17,13 @@ namespace ABPUtils
             set;
         }
 
-        public int NS
+        public int NSCount
+        {
+            get;
+            set;
+        }
+
+        public List<string> NSList
         {
             get;
             set;
@@ -37,12 +41,27 @@ namespace ABPUtils
             set;
         }
 
+        public QueryResult()
+        {
+            NSList = new List<string>();
+        }
+
         public override string ToString()
         {
+            StringBuilder sb = new StringBuilder();
 
-            return string.Format("Url:{0}\nDNS:{1}\nNS:{2}\nInfo:{3}\nError:{4}",
-                    Url, DNS, NS, Info, string.IsNullOrEmpty(Error) ? "None." : Error
-                );
+            sb.AppendFormat("Domain:\t{0}\n", Domain);
+            sb.AppendFormat("DNS:\t{0}\n", DNS);
+            sb.AppendFormat("Info:\t{0}\n", Info);
+            sb.AppendFormat("Count:\t{0}\n", NSCount);
+            foreach (var ns in NSList)
+            {
+                sb.AppendFormat("NS => {0}\n", ns);
+            }
+            sb.AppendFormat("Error:\t{0}\n", string.IsNullOrEmpty(Error) ? "None" : Error);
+            sb.AppendLine("--------------------------------------------------------------");
+
+            return sb.ToString();
         }
     }
 }

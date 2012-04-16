@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.IO;
-using System.Text.RegularExpressions;
 using System.Security.Cryptography;
+using System.Text;
+using System.Text.RegularExpressions;
 using Microsoft.VisualBasic;
 
 namespace ABPUtils
@@ -68,10 +67,10 @@ namespace ABPUtils
         }
 
         /// <summary>
-        /// get urls from list
+        /// get domains from list
         /// </summary>
         /// <returns></returns>
-        public List<string> GetUrls()
+        public List<string> GetDomains()
         {
             List<string> urls = new List<string>();
 

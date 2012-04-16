@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // 有关程序集的常规信息通过下列属性集
 // 控制。更改这些属性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("Adblock Plus Utils")]
+[assembly: AssemblyTitle("ChinaList Utils")]
 [assembly: AssemblyDescription("ABPUtils for ChinaList")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("ChinaList Project")]
+[assembly: AssemblyCompany("ChinaList for Adblock Plus Project")]
 [assembly: AssemblyProduct("ABPUtils")]
-[assembly: AssemblyCopyright("Copyright (C)  2012")]
+[assembly: AssemblyCopyright("Copyright (C)  2012 ChinaList")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
