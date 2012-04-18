@@ -243,10 +243,35 @@ namespace ABPUtils
                 QueryResult queryResult = DNSQuery(dns, domain);
                 Console.Write(queryResult.ToString());
                 //fullResult.Append(queryResult.ToString());
+                bool ret = false;
 
                 if (queryResult.NSCount == 0)
                 {
                     results.Append(queryResult.ToString());
+                }
+                else
+                {
+                    foreach (var ns in queryResult.NSList)
+                    {
+                        try
+                        {
+                            IPHostEntry ip = Dns.GetHostEntry(ns);
+                            QueryResult temp = DNSQuery(ip.AddressList[0], domain);
+                            if (temp.NSCount > 0)
+                            {
+                                ret = true;
+                                break;
+                            }
+                        }
+                        catch (Exception ex)
+                        {
+                            queryResult.Error += ex.Message + "\n";
+                            Console.WriteLine("Validate domain: {0}, ns: {1} Error: {2}", domain, ns, ex.Message);
+                        }
+                    }
+
+                    if (!ret)
+                        results.Append(queryResult.ToString());
                 }
             });
 
@@ -259,44 +284,46 @@ namespace ABPUtils
             QueryResult queryResult = new QueryResult()
             {
                 Domain = domain,
-                DNS = dnsServer.ToString()
+                DNS = dnsServer.ToString(),
+                NSCount = -1
             };
-
+            Response response = null;
             try
             {
                 // create a DNS request
                 Request request = new Request();
                 request.AddQuestion(new Question(domain, DnsType.NS, DnsClass.IN));
-                Response response = Resolver.Lookup(request, dnsServer);
 
-                if (response == null)
-                {
-                    queryResult.Info = "No answer";
-                    return queryResult;
-                }
-
-                queryResult.Info = response.AuthoritativeAnswer ? "authoritative answer" : "Non-authoritative answer";
-
-                queryResult.NSCount = response.Answers.Length + response.AdditionalRecords.Length + response.NameServers.Length;
-
-                foreach (Answer answer in response.Answers)
-                {
-                    queryResult.NSList.Add(answer.Record.ToString());
-                }
-
-                foreach (AdditionalRecord additionalRecord in response.AdditionalRecords)
-                {
-                    queryResult.NSList.Add(additionalRecord.Record.ToString());
-                }
-
-                foreach (NameServer nameServer in response.NameServers)
-                {
-                    queryResult.NSList.Add(nameServer.Record.ToString());
-                }
+                response = Resolver.Lookup(request, dnsServer);
             }
             catch (Exception ex)
             {
                 queryResult.Error = ex.Message;
+            }
+
+            if (response == null)
+            {
+                queryResult.Info = "No answer";
+                return queryResult;
+            }
+
+            queryResult.Info = response.AuthoritativeAnswer ? "authoritative answer" : "Non-authoritative answer";
+
+            queryResult.NSCount = response.Answers.Length + response.AdditionalRecords.Length + response.NameServers.Length;
+
+            foreach (Answer answer in response.Answers)
+            {
+                queryResult.NSList.Add(ParseNameServer(answer.Record.ToString()));
+            }
+
+            foreach (AdditionalRecord additionalRecord in response.AdditionalRecords)
+            {
+                queryResult.NSList.Add(ParseNameServer(additionalRecord.Record.ToString()));
+            }
+
+            foreach (NameServer nameServer in response.NameServers)
+            {
+                queryResult.NSList.Add(ParseNameServer(nameServer.Record.ToString()));
             }
 
             return queryResult;
@@ -392,6 +419,19 @@ namespace ABPUtils
                 stringBuilderResult.AppendLine(streamReaderReceive.ReadLine());
 
             return stringBuilderResult.ToString();
+        }
+
+        static string ParseNameServer(string ns)
+        {
+            string temp = ns;
+
+            if (ns.Contains("="))
+            {
+                temp = ns.Split('=')[1].Trim();
+                temp = temp.Split('\n')[0].Trim();
+            }
+
+            return temp;
         }
     }
 }

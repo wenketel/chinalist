@@ -42,7 +42,7 @@ namespace Bdev.Net.Dns
             if (domain == null) throw new ArgumentNullException("domain");
 
             // do a sanity check on the domain name to make sure its legal
-            if (domain.Length == 0 || domain.Length > 255 || !Regex.IsMatch(domain, @"^[a-z|A-Z|0-9|-|_]{1,63}(\.[a-z|A-Z|0-9|-|_]{1,63})+$"))
+            if (domain.Length == 0 || domain.Length > 255)
             {
                 // domain names can't be bigger tan 255 chars, and individal labels can't be bigger than 63 chars
                 throw new ArgumentException("The supplied domain name was not in the correct form", "domain");
