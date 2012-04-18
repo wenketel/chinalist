@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: DQ17ZGqeZwO+BLWHvg8tIQ
+!  Checksum: sxPaRmOrQMt1lfyugDa2Ug
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 18 Apr 2012 02:14:37 +0800
+!  Last Modified:  Wed, 18 Apr 2012 16:19:18 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -825,6 +825,7 @@ sina.com.cn##.adNone
 ||count.kandian.com^$object_subrequest
 ||dcads.sina.com.cn^
 ||int.dpool.sina.com.cn^$object_subrequest
+||va.sina.com.cn^
 ||l.you.video.sina.com.cn^$object_subrequest
 video.sina.com.cn###bgad_div
 !-weibo
@@ -861,7 +862,9 @@ ting.m.sohu.com##.topPic
 ||aty*.tv.sohu.com^
 ||tv.sohu.com/his/ping.do?$object_subrequest
 !--Sogou
+||sogou.com/js/pb_*.js
 ||brand.sogou.com^
+||pb.sogou.com^
 sogou.com###bdfs0
 sogou.com##.sponsored
 sogou.com###zhuanqu
@@ -1054,12 +1057,11 @@ hk.yahoo.com###ysm-ad
 ynet.com###ta01
 
 !---优酷
+@@||static.atm.youku.com^*/logo.swf
 @@||valf.atm.youku.com/crossdomain.xml
 @@||valf.atm.youku.com/valf?
-||html.atm.youku.com^
+||atm.youku.com^
 ||hz.youku.com/red/ggnotice.php
-||static.atm.youku.com^$object
-||val*.atm.youku.com^
 ||f.youku.com/player/getFlvPath/fileid/*&yad=
 ||e.stat.youku.com^
 soku.com###ab_282
@@ -1556,6 +1558,9 @@ frdic.com,godic.net###sidebar1
 ||hk-pub.com/forum/ads_html/
 ||hk-pub.com/forum/images/banner/
 /exy/*$object,domain=hk-pub.com
+||hupu.com/d/file/$object
+hupu.com##[class^="ad"]
+hupu.com###HCFull
 ||hdad.hudong.com/hdad/
 ||hxsxw.com/gg*.gif
 ||hxsxw.com/hxsxw111.gif
@@ -1930,6 +1935,7 @@ win7china.com,win8china.com##.site_ad
 ||kuqi.com^$third-party
 ||cluclick.leshu.com^$third-party
 ||love12.tw^$third-party
+||notice.uchome.manyou.com^
 ||maxreturn.cn^$third-party
 ||mediav.com^$third-party
 ||miaozhen.com^$third-party
@@ -1939,6 +1945,7 @@ win7china.com,win8china.com##.site_ad
 ||mylovewebs.com^$third-party
 ||i.na7.cc^$third-party
 ||naqigs.com^$third-party
+||u-link.nbb.tw^$third-party
 ||netgy.com^$third-party
 ||newwang.com^$third-party
 ||niwota.com^$third-party
@@ -2004,14 +2011,13 @@ win7china.com,win8china.com##.site_ad
 ||tuike.cn^$third-party
 ||txjy2008.com^$third-party
 ||ubcpm.com^$third-party
-||notice.uchome.manyou.com^
 ||uctrac.com^$third-party
 ||ugooo.cc^$third-party
 ||ujoin.net^$third-party
-||u-link.nbb.tw^$third-party
 ||ulink.cc^$third-party
 ||union001.$third-party
 ||union009.com^$third-party
+||union178.com^$third-party
 ||unionbig.com^$third-party
 ||unioncpm.com^$third-party
 ||unionsky.cn^$third-party
@@ -2191,7 +2197,6 @@ crsky.com##[id$="_TL"]
 dapenti.com##td.oblog_t_2 > div[align="center"]
 dapenti.com##.oblog_t_4 > a > img
 downg.com##.content.ad-b950x50
-www.hoopchina.com##[class^="ad"]
 bbs.imuyang.com##.a_pt > .cl
 bbs.imuyang.com###diy1
 ithome.com.tw##table[height="110"]
