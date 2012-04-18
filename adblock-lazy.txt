@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: tFqlFoP8MnB22x6T2h7AnA
+!  Checksum: VQme7iHQKFqQ6yu1Run40A
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 18 Apr 2012 17:44:16 +0800
+!  Last Modified:  Wed, 18 Apr 2012 18:06:27 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -680,11 +680,11 @@ down.qiannao.com##div[style="padding: 8px;"]
 ||o.if.qidian.com/js/o.js
 ||c.pingba.qidian.com/increase.htm
 ||uedas.qidian.com^
-qdmm.com,qidian.com##a[href*="qidian.com/showavd.aspx?"]
+qdmm.com,qidian.com##a[href^="http://www.qidian.com/showavd.aspx?"]
 www.qidian.com##.DH17
 www.qidian.com##[class^="gg"]
 www.qidian.com##.RightAD
-bbs.qidian.com##.show_ggpic_990X60
+bbs.qidian.com##[class^="show_ggpic_"]
 !--晋江文学城
 ||jjwxc.net/jjad2.html$image,~image,popup
 ||jjwxc.net/sp/$subdocument
@@ -1909,6 +1909,7 @@ win7china.com,win8china.com##.site_ad
 ||ipinyou.com^$third-party
 ||is686.com^$third-party
 ||ishare.tw^$subdocument,third-party
+||izptech.com^$third-party
 ||jdunion.com^$third-party
 ||down.jialichuang.com^$third-party
 ||jidian5.com^$third-party
