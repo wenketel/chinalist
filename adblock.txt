@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: tzmhiGJVZ68EBZr+LOFUcA
+!  Checksum: FwXZX0BubICI7DBQ7XWo8Q
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 19 Apr 2012 17:09:28 +0800
+!  Last Modified:  Fri, 20 Apr 2012 00:19:54 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -827,6 +827,7 @@ sina.com.cn##.adNone
 video.sina.com.cn###bgad_div
 !-weibo
 weibo.com##[id^="ads"]
+weibo.com##.spread_adv
 weibo.com##.tips_player
 !--sina.com.hk
 ||as.sinahk.net^
@@ -1521,7 +1522,6 @@ admin5.com##.notice
 ||coolnovo.com/temp/images/*_980x$image
 ||docin.com/app/a_d/
 ||docin.com/app/playerLoadLog/
-||hao123.com/images/track.gif
 ||hiuto.com/lib/aablock.js
 ||img.cjdby.com/client/
 ||cnki.net/indexGuangGao.htm
@@ -1678,6 +1678,7 @@ win7china.com,win8china.com##.site_ad
 ||116b.com^$image,~image,popup
 ||arpg2.com^$image,~image,popup
 ||gd.189.cn/ad/$image,~image,popup
+||resmkt.dipan.com^$image,~image,popup
 !--9v
 ||9vcpc.cn^$third-party
 ||f.9vcpm.cn^$third-party
@@ -1863,7 +1864,6 @@ win7china.com,win8china.com##.site_ad
 ||diankee.com^$third-party
 ||dingge.cc^$third-party
 ||dilingling.com^$third-party
-||resmkt.dipan.com^$third-party
 ||diyiunion.com^$third-party
 ||dmclick.cn^$third-party
 ||dotmore.com.tw^$third-party,domain=~savebar.com.tw
@@ -2147,6 +2147,7 @@ win7china.com,win8china.com##.site_ad
 |http://*/pv.
 |http://*/pv/$domain=~search.yahoo.com
 |http://*/tj.js
+|http://*/track.$image
 |http://track.
 /ktrace/ktrace$script
 /pingd?
