@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: TDuJ5Otqi9LRYhFpJTJ1Gg
+!  Checksum: rTgUztd1J9Dg0291DmMcQg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 20 Apr 2012 12:48:40 +0800
+!  Last Modified:  Sat, 21 Apr 2012 00:30:54 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1129,9 +1129,9 @@ cwyuni.tw##.article-content > table[cellspacing="0"][cellpadding="0"][border="0"
 cwyuni.tw###banner > h2
 cwyuni.tw###links-row-1 > div[id^="box"]:not(#box32499):not(#box533632)
 ||pic.pimg.tw/cwyuni/*.gif?v=$image
-itopdog.cn##.ad336
+itopdog.cn##[class^="ad"]
 itopdog.cn##[id^="itopdog_ad-"]
-itopdog.cn###text-19
+itopdog.cn##.xoxo > [id^="text-"]
 
 !---Download Sites
 ||05sun.com^$script
@@ -10714,6 +10714,7 @@ _a468x60.
 ||paygear.com^$third-party
 ||payperpost.com^$third-party
 ||pc-ads.com^$third-party
+||peemee.com^$third-party
 ||peer39.net^$third-party
 ||pepperjamnetwork.com^$third-party
 ||perfb.com^$third-party
