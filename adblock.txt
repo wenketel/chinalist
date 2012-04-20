@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: slMnjX3sMExvVqLSY8ynpA
+!  Checksum: T4PVdSS7O08n5fpw3AyXhg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 20 Apr 2012 05:45:58 +0800
+!  Last Modified:  Fri, 20 Apr 2012 12:48:40 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -173,8 +173,11 @@ image.baidu.com###ecomContainer
 image.baidu.com###relEcom
 image.baidu.com###relecom54
 !--MP3
+@@||cb.baidu.com/ecom?$domain=mp3.baidu.com
+@@||cbjs.baidu.com/js/m.js$domain=mp3.baidu.com
 ||static.mp3.baidu.com/wd/
 mp3.baidu.com##.ad
+mp3.baidu.com##.ecom-ad
 !--tieba
 @@||cpro.baidu.com/cpro/ui/post.js$domain=tieba.baidu.com
 tieba.baidu.com###frs_banner_ad
@@ -683,6 +686,7 @@ www.qidian.com##.DH17
 www.qidian.com##[class^="gg"]
 www.qidian.com##.RightAD
 !--晋江文学城
+||210.51.33.225^
 ||jjwxc.net/jjad2.html$image,~image,popup
 ||jjwxc.net/sp/$subdocument
 jjwxc.net##[id^="adp_"]

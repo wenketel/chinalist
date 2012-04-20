@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: A8Sear4UtZMtDtK2oAkgdA
+!  Checksum: TDuJ5Otqi9LRYhFpJTJ1Gg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 20 Apr 2012 05:45:58 +0800
+!  Last Modified:  Fri, 20 Apr 2012 12:48:40 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -175,8 +175,11 @@ image.baidu.com###ecomContainer
 image.baidu.com###relEcom
 image.baidu.com###relecom54
 !--MP3
+@@||cb.baidu.com/ecom?$domain=mp3.baidu.com
+@@||cbjs.baidu.com/js/m.js$domain=mp3.baidu.com
 ||static.mp3.baidu.com/wd/
 mp3.baidu.com##.ad
+mp3.baidu.com##.ecom-ad
 !--tieba
 @@||cpro.baidu.com/cpro/ui/post.js$domain=tieba.baidu.com
 tieba.baidu.com###frs_banner_ad
@@ -685,6 +688,7 @@ www.qidian.com##.DH17
 www.qidian.com##[class^="gg"]
 www.qidian.com##.RightAD
 !--晋江文学城
+||210.51.33.225^
 ||jjwxc.net/jjad2.html$image,~image,popup
 ||jjwxc.net/sp/$subdocument
 jjwxc.net##[id^="adp_"]
@@ -3322,6 +3326,7 @@ xfastest.com##[class^="ad"]
 /corner_ads/*
 /country_ad.
 /cpm_ad.
+/cpmcampaigns/*
 /cpxads.
 /ctamlive160x160.
 /cubead.
@@ -3623,6 +3628,7 @@ xfastest.com##[class^="ad"]
 /jcorner.php?partner=
 /jivoxadplayer.
 /jlist-affiliates/*
+/jquery.newsmediaads.
 /jqueryadvertising.
 /js.ad/size=
 /js/ads-
@@ -13009,6 +13015,7 @@ _comscore.js
 ||optimizely.com^$third-party
 ||optimost.com^$third-party
 ||oranges88.com^$third-party
+||orcapia.com^$third-party
 ||otracking.com^$third-party
 ||outboundlink.me^$third-party
 ||overstat.com^$third-party
