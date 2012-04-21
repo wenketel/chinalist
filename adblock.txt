@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 1m26zum+dJPdrRrZmpgZIw
+!  Checksum: Z050dpEWf8Lnm7uxobTw2Q
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 21 Apr 2012 16:00:45 +0800
+!  Last Modified:  Sat, 21 Apr 2012 17:10:56 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -304,7 +304,10 @@ iteye.com###forum_recommended_f5
 !---大洋网
 ||dayoo.com/sta/da.js
 ||images.dayoo.com/dywimg/
-www.dayoo.com##body > div[style]
+||yunyu120.com/dayang/
+dayoo.com##[id^="ad"]
+dayoo.com##.advertising
+dayoo.com##.cn
 !--gzdaily
 /pub/news/gzrb/*$script
 ||gzdaily.dayoo.com/tpl/banner$object
