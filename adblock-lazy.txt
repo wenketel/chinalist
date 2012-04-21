@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: iK6FMQWq1kJb2Aml+lr8Xg
+!  Checksum: SNXttuNZajpgo3Ke1VN+7A
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 21 Apr 2012 11:53:23 +0800
+!  Last Modified:  Sat, 21 Apr 2012 15:53:11 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -860,11 +860,11 @@ sohu.com###ad_TOP
 sohu.com##[class^="contAD"]
 ting.m.sohu.com##.topPic
 !--tv
-||sohu.*.gif?$object_subrequest
 ||sohu.com/tv/csad/
-||hd.sohu.com.cn/dov.do?$object_subrequest
+||sohu.com.cn/hdpb.gif?$object_subrequest
+||sohu.com.cn/*.do?
 ||aty*.tv.sohu.com^
-||tv.sohu.com/his/ping.do?$object_subrequest
+||count.vrs.sohu.com^
 !--Sogou
 ||sogou.com/js/pb_*.js
 ||brand.sogou.com^
