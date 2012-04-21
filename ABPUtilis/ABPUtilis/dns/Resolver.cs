@@ -98,19 +98,14 @@ namespace Bdev.Net.Dns
             if (dnsServer == null) throw new ArgumentNullException("dnsServer");
 
             // We will not catch exceptions here, rather just refer them to the caller
-            object o = new object();
-            byte[] responseMessage = null;
-            lock (o)
-            {
-                // create an end point to communicate with
-                IPEndPoint server = new IPEndPoint(dnsServer, _dnsPort);
+            // create an end point to communicate with
+            IPEndPoint server = new IPEndPoint(dnsServer, _dnsPort);
 
-                // get the message
-                byte[] requestMessage = request.GetMessage();
+            // get the message
+            byte[] requestMessage = request.GetMessage();
 
-                // send the request and get the response
-                responseMessage = UdpTransfer(server, requestMessage);
-            }
+            // send the request and get the response
+            byte[] responseMessage = UdpTransfer(server, requestMessage);
             // and populate a response object from that and return it
             return new Response(responseMessage);
         }

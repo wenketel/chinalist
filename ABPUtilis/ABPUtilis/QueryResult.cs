@@ -44,6 +44,7 @@ namespace ABPUtils
         public QueryResult()
         {
             NSList = new List<string>();
+            Error = "NONE.";
         }
 
         public override string ToString()
@@ -58,7 +59,7 @@ namespace ABPUtils
             {
                 sb.AppendFormat("NS => {0}\n", ns);
             }
-            sb.AppendFormat("Error:\t{0}\n", string.IsNullOrEmpty(Error) ? "None" : Error);
+            sb.AppendFormat("Error:\t{0}\n", Error);
             sb.AppendLine("--------------------------------------------------------------");
 
             return sb.ToString();

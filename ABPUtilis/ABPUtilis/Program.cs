@@ -245,33 +245,39 @@ namespace ABPUtils
                 //fullResult.Append(queryResult.ToString());
                 bool ret = false;
 
-                if (queryResult.NSCount == 0)
+                if (queryResult.NSCount < 1)
                 {
                     results.Append(queryResult.ToString());
+                    return;
                 }
-                else
+
+                foreach (var ns in queryResult.NSList)
                 {
-                    foreach (var ns in queryResult.NSList)
+                    var t = ns;
+                    if (ns.Contains("="))
+                        t = ParseNameServer(ns);
+
+                    try
                     {
-                        try
+                        IPHostEntry ip = Dns.GetHostEntry(t);
+                        QueryResult temp = DNSQuery(ip.AddressList[0], domain);
+                        if (temp.NSCount > 0)
                         {
-                            IPHostEntry ip = Dns.GetHostEntry(ns);
-                            QueryResult temp = DNSQuery(ip.AddressList[0], domain);
-                            if (temp.NSCount > 0)
-                            {
-                                ret = true;
-                                break;
-                            }
-                        }
-                        catch (Exception ex)
-                        {
-                            queryResult.Error += ex.Message + "\n";
-                            Console.WriteLine("Validate domain: {0}, ns: {1} Error: {2}", domain, ns, ex.Message);
+                            ret = true;
+                            break;
                         }
                     }
+                    catch (Exception ex)
+                    {
+                        queryResult.Error += string.Format("\n[V]: ns->{0}, Error->{1}", t, ex.Message);
+                        Console.WriteLine("Validate domain: {0}, ns: {1} Error: {2}", domain, t, ex.Message);
+                    }
+                }
 
-                    if (!ret)
-                        results.Append(queryResult.ToString());
+                if (!ret)
+                {
+                    queryResult.Error += "\n[V]: validate domian fail.";
+                    results.Append(queryResult.ToString());
                 }
             });
 
@@ -287,6 +293,7 @@ namespace ABPUtils
                 DNS = dnsServer.ToString(),
                 NSCount = -1
             };
+
             Response response = null;
             try
             {
@@ -309,22 +316,27 @@ namespace ABPUtils
 
             queryResult.Info = response.AuthoritativeAnswer ? "authoritative answer" : "Non-authoritative answer";
 
-            queryResult.NSCount = response.Answers.Length + response.AdditionalRecords.Length + response.NameServers.Length;
+            // queryResult.NSCount = response.Answers.Length + response.AdditionalRecords.Length + response.NameServers.Length;
 
             foreach (Answer answer in response.Answers)
             {
-                queryResult.NSList.Add(ParseNameServer(answer.Record.ToString()));
+                if (answer.Record != null)
+                    queryResult.NSList.Add(answer.Record.ToString());
             }
 
             foreach (AdditionalRecord additionalRecord in response.AdditionalRecords)
             {
-                queryResult.NSList.Add(ParseNameServer(additionalRecord.Record.ToString()));
+                if (additionalRecord.Record != null)
+                    queryResult.NSList.Add(additionalRecord.Record.ToString());
             }
 
             foreach (NameServer nameServer in response.NameServers)
             {
-                queryResult.NSList.Add(ParseNameServer(nameServer.Record.ToString()));
+                if (nameServer.Record != null)
+                    queryResult.NSList.Add(nameServer.Record.ToString());
             }
+
+            queryResult.NSCount = queryResult.NSList.Count;
 
             return queryResult;
         }
@@ -423,13 +435,9 @@ namespace ABPUtils
 
         static string ParseNameServer(string ns)
         {
-            string temp = ns;
-
-            if (ns.Contains("="))
-            {
-                temp = ns.Split('=')[1].Trim();
-                temp = temp.Split('\n')[0].Trim();
-            }
+            string temp = string.Empty;
+            temp = ns.Split('=')[1].Trim();
+            temp = temp.Split('\n')[0].Trim();
 
             return temp;
         }
