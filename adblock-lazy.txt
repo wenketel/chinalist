@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: K8qJepk3688Rew1NKkdMzw
+!  Checksum: fQAcsPc52A2g9ckC9oif3A
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 21 Apr 2012 19:35:45 +0800
+!  Last Modified:  Sun, 22 Apr 2012 08:36:44 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -864,9 +864,11 @@ sohu.com##[class^="contAD"]
 ting.m.sohu.com##.topPic
 !--tv
 /get.gif?$domain=sohu.com
+||sohu.com/*.do?
+||sohu.com/*.gif?
 ||sohu.com/tv/csad/
-||sohu.com.cn/*.gif?$object_subrequest
 ||sohu.com.cn/*.do?
+||sohu.com.cn/*.gif?
 ||aty*.tv.sohu.com^
 ||count.vrs.sohu.com^
 !--Sogou
@@ -2986,6 +2988,7 @@ xfastest.com##[class^="ad"]
 /adstrm/*
 /adstub.
 /adstubs/*
+/adsup.
 /adsvr.
 /adswap.
 /adswap/*
@@ -9204,6 +9207,7 @@ _a468x60.
 ##.remads
 ##.resourceImagetAd
 ##.result_ad
+##.review-ad
 ##.reviewMidAdvertAlign
 ##.rght300x250
 ##.rhads
@@ -11455,6 +11459,7 @@ _a468x60.
 ||creatives.summitconnect.co.uk^
 ||customcodebydan.com/images/banner.gif
 ||cuteonly.com/banners.php$third-party
+||d15gt9gwxw5wu0.cloudfront.net^
 ||d3lvr7yuk4uaui.cloudfront.net^
 ||dailydealstwincities.com/widgets/$subdocument,third-party
 ||dapatwang.com/images/banner/
@@ -12770,6 +12775,7 @@ _comscore.js
 ||esm1.net^$third-party
 ||esomniture.com^$third-party
 ||estara.com^$third-party
+||etahub.com^$third-party
 ||ethnio.com^$third-party
 ||etracker.com^$third-party
 ||etracker.zadi.de^$third-party
