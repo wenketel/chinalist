@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 21LXDLSvTm1qh5Zh7d7giQ
+!  Checksum: xi/7T70OFb7QazY1+8P34A
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 22 Apr 2012 18:29:12 +0800
+!  Last Modified:  Sun, 22 Apr 2012 19:38:39 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -464,6 +464,12 @@ www.hexun.com##.advp
 www.hsw.cn##table[width="980"][height="90"]
 www.hsw.cn##table[width="980"][height="100"]
 
+!---虎扑
+||hupu.com/d/file/$object
+hupu.com##[class*="ad"][class*="-"]
+hupu.com##[class^="ad_"]
+hupu.com###HCFull
+
 !---凤凰网
 @@||bc.ifeng.com/crossdomain.xml
 /ifengRotatorAd.js
@@ -501,6 +507,12 @@ it168.com##.gg
 ||jpunion.com^$third-party
 ||riju.com^$domain=jpfans.com|jpseek.com
 jpseek.com,jpfans.com##div[align="center"] + table[align="center"][width="98%"]
+
+!---猪猪字幕组
+||jumpcn.com/ah/
+||jumpcn.com/javascript/xshow.js
+||jumpcn.com/s/
+||jumpcn.com/show/
 
 !---卡饭论坛
 ||bbs.kafan.cn/static/kafan_bd/
@@ -1396,9 +1408,6 @@ dm5.com##.cl970
 ||imanhua.com^*/nmoneys/
 ||imanhua.com^*/money/
 ||jpnovel.com/myjs/
-||jumpcn.com/ah/001.html
-||jumpcn.com/javascript/xshow.js
-||jumpcn.com/s*/$script
 ||i.kanshu.la/js/001.js
 @@||kukudm.com/js2/$script
 ||kukudm.com^$script
@@ -1570,9 +1579,6 @@ frdic.com,godic.net###sidebar1
 ||hefei.cc/templates/default/index_ad62.js
 ||hk-pub.com/forum/images/banner/
 ||hk-pub.com/forum/include/overture_ads.js
-||hupu.com/d/file/$object
-hupu.com##[class^="ad"]
-hupu.com###HCFull
 ||hdad.hudong.com/hdad/
 ||hxsxw.com/gg*.gif
 ||hxsxw.com/hxsxw111.gif
@@ -1692,8 +1698,9 @@ win7china.com,win8china.com##.site_ad
 !----------------------------ads-union---------------------
 !--popup
 ||116b.com^$image,~image,popup
-||arpg2.com^$image,~image,popup
 ||gd.189.cn/ad/$image,~image,popup
+||web.7k7k.com^$image,~image,popup
+||arpg2.com^$image,~image,popup
 ||resmkt.dipan.com^$image,~image,popup
 !--9v
 ||9vcpc.cn^$third-party
@@ -3643,7 +3650,6 @@ xfastest.com##[class^="ad"]
 /jcorner.php?partner=
 /jivoxadplayer.
 /jlist-affiliates/*
-/jquery.newsmediaads.
 /jqueryadvertising.
 /js.ad/size=
 /js/ads-
