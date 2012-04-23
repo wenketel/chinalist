@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: R5mE4Ww5HdSu9mKk/5Wldg
+!  Checksum: QMCw5VDKCNBGnBk72LDhiw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 23 Apr 2012 13:18:27 +0800
+!  Last Modified:  Mon, 23 Apr 2012 18:43:37 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -595,6 +595,7 @@ newhua.com##[class^="ad_ritht_"]
 @@||video.appledaily.com.hk/admedia/
 ||hk.image1.nextmedia.com^$object
 ||hk.ndx.nextmedia.com/DFA/js_ndxtag_v409.cfm^$domain=~hk.dv.nextmedia.com
+hk.dv.nextmedia.com##[id^="ndx_"]
 !-TW
 @@||secure-us.imrworldwide.com/novms/js/$script,domain=nexttv.com.tw
 ||advideoadmin.appledaily.com.tw/ov_player/
@@ -619,11 +620,10 @@ nownews.com##.site_collection
 ||yes123.com.tw/nownews/
 
 !---东方电视
-@@||home.on.cc/adv/
-@@|http://tv.on.cc/ad/$subdocument
-@@||orientaldaily.on.cc^$object
-tv.on.cc###superbanner
-tv.on.cc###large
+@@||home.on.cc/adv/web/corp/$~image
+@@||money18.on.cc/info/liveinfo_quote.html$elemhide
+|http://ad*.on.cc^
+|http://tv.on.cc/ad/$~subdocument
 
 !---远景
 ||bbs.pcbeta.com/static/image/biz/

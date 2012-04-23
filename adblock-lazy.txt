@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 2PdLto8djjkDN+AxHZUsBw
+!  Checksum: 0pOrPIrmPiudoaIY8G9Hfw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 23 Apr 2012 13:18:27 +0800
+!  Last Modified:  Mon, 23 Apr 2012 18:43:37 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -597,6 +597,7 @@ newhua.com##[class^="ad_ritht_"]
 @@||video.appledaily.com.hk/admedia/
 ||hk.image1.nextmedia.com^$object
 ||hk.ndx.nextmedia.com/DFA/js_ndxtag_v409.cfm^$domain=~hk.dv.nextmedia.com
+hk.dv.nextmedia.com##[id^="ndx_"]
 !-TW
 @@||secure-us.imrworldwide.com/novms/js/$script,domain=nexttv.com.tw
 ||advideoadmin.appledaily.com.tw/ov_player/
@@ -621,11 +622,10 @@ nownews.com##.site_collection
 ||yes123.com.tw/nownews/
 
 !---东方电视
-@@||home.on.cc/adv/
-@@|http://tv.on.cc/ad/$subdocument
-@@||orientaldaily.on.cc^$object
-tv.on.cc###superbanner
-tv.on.cc###large
+@@||home.on.cc/adv/web/corp/$~image
+@@||money18.on.cc/info/liveinfo_quote.html$elemhide
+|http://ad*.on.cc^
+|http://tv.on.cc/ad/$~subdocument
 
 !---远景
 ||bbs.pcbeta.com/static/image/biz/
@@ -3150,6 +3150,7 @@ xfastest.com##[class^="ad"]
 /adzone_
 /adzonebottom.
 /adzoneleft.
+/adzoneplayerright.
 /adzoneright.
 /adzones/*
 /adzonetop.
@@ -3618,7 +3619,6 @@ xfastest.com##[class^="ad"]
 /images1/ad_
 /images_ads/*
 /img/ad-
-/img/ad/*$domain=~picplz.com
 /img/ad_
 /imgads/*
 /imgaffl/*
@@ -4381,10 +4381,12 @@ _gads_top.
 _google_ads/
 _google_ads_
 _headerad.
+_house_ad_
 _index_ad.
 _jtads/
 _link_ads-
 _live/ad/
+_logadslot&
 _mainad.
 _mmsadbanner/
 _onlinead_
@@ -11694,6 +11696,7 @@ _a468x60.
 ||liveshows.com^*/live.js$third-party
 ||longtailvideo.com/ltas.swf$third-party
 ||longtailvideo.com^*/adawe-$object-subrequest,third-party
+||longtailvideo.com^*/adttext-$object-subrequest,third-party
 ||longtailvideo.com^*/yume.swf
 ||looneynetwork.com^*/ww-adv-
 ||lowbird.com/random/$third-party
@@ -12453,6 +12456,7 @@ _a468x60.
 /prnx_track.js
 /quant.js
 /quantcast.js
+/rbi_us.js
 /rbipt.gif?
 /rbipt.js
 /rcdntpagetag.js
