@@ -90,9 +90,9 @@ namespace ABPUtils
                     break;
                 case "check":
                     if (args.Length == 2)
-                        ValidateDomains(args[1]);
-                    else
-                        ValidateDomains(args[1], args[2]);
+                        ValidateDomains(IPAddress.Parse("8.8.8.8"), args[1]);
+                    else if (args.Length == 3)
+                        ValidateDomains(IPAddress.Parse(args[2]), args[1]);
                     break;
                 case "ns":
                     try
@@ -227,15 +227,15 @@ namespace ABPUtils
         /// </summary>
         /// <param name="fileName"></param>
         /// <param name="missurl"></param>
-        static void ValidateDomains(string fileName, string missurl = "invalid_domains.txt")
+        static void ValidateDomains(IPAddress dns, string fileName, string missurl = "invalid_domains.txt")
         {
             ChinaList cl = new ChinaList(fileName);
             List<string> domains = cl.GetDomains();
             //List<string> urls = cl.ParseURLs();
             StringBuilder results = new StringBuilder();
             //StringBuilder fullResult = new StringBuilder();
-
-            IPAddress dns = IPAddress.Parse("8.8.8.8");
+            List<string> whiteList = new List<string>();
+            whiteList.Add("ns1.dnsv2.com");
 
             Parallel.ForEach(domains, domain =>
             {
@@ -261,10 +261,14 @@ namespace ABPUtils
                     {
                         IPHostEntry ip = Dns.GetHostEntry(t);
                         QueryResult temp = DNSQuery(ip.AddressList[0], domain);
-                        if (temp.NSCount > 0)
+                        if (temp.NSCount > 0 || whiteList.Contains(t))
                         {
                             ret = true;
                             break;
+                        }
+                        else
+                        {
+                            queryResult.Error += string.Format("\n[V]: ns->{0}, Count->{1}", t, temp.NSCount);
                         }
                     }
                     catch (Exception ex)
