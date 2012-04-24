@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: yb/T1JySg2fOjlTBy4oApg
+!  Checksum: 2ev+MP8m40ssbULrxMKpmw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 24 Apr 2012 19:12:16 +0800
+!  Last Modified:  Tue, 24 Apr 2012 21:26:56 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1181,6 +1181,7 @@ itopdog.cn##.xoxo > [id^="text-"]
 ||gpxz.com/skin/gpxz/tc.js
 ||greenspe.com/other/js/$script
 ||happydown.com^$script,subdocument
+||happydown.com/soft/ads/
 ||huacolor.com/soft/js/$script
 ||orsoon.com/orsoon/$script
 ||ouyaoxiazai.com^$script,subdocument
@@ -1197,6 +1198,7 @@ itopdog.cn##.xoxo > [id^="text-"]
 ||sz1001.net/Down_Style/$script
 ||tntdown.com/News/js/C_
 ||vipcn.com/hezuo/
+||xdowns.com^$subdocument
 ||xiaoxiong12.com/do/a_d_s.php
 ||xiaoxiong12.com/do/count.php
 ||xp911.com/img/xitong.gif
@@ -2311,8 +2313,10 @@ xfastest.com##[class^="ad"]
 -contest-ad.
 -cpm-ad.
 -cpm-ads.
+-games/ads/
 -iframe-ads/
 -images/ad-
+-img/ads/
 -inspire-ad.
 -layer-ads/
 -leaderboard-ad-
@@ -2324,6 +2328,7 @@ xfastest.com##[class^="ad"]
 -text-ads.
 -third-ad.
 -webad1.
+.1d/ads/
 .a3s?n=*&zone_id=
 .ad.final.
 .ad.footer.
@@ -2340,9 +2345,12 @@ xfastest.com##[class^="ad"]
 .adspace.
 .aspx?ad=
 .aspx?zoneid=*&task=
+.au/ads/
 .banner%20ad.
 .biz/ad.
 .biz/ad/
+.ca/ads/
+.cc/ads/
 .cfm?ad=
 .com/ad.
 .com/ad/
@@ -2350,6 +2358,7 @@ xfastest.com##[class^="ad"]
 .com/adlib/
 .com/ads-
 .com/ads.
+.com/ads/$image,object,subdocument
 .com/ads?
 .com/ads_
 .com/advt/
@@ -2360,18 +2369,31 @@ xfastest.com##[class^="ad"]
 .com/gads/
 .com/miads/
 .com/ss/ad/
+.eu/ads/
 .html?ad=
+.in/ads/
 .in/advt/
+.info/ads/
+.jp/ads/
+.ke/ads/
 .lazyload-ad-
+.mv/ads/
 .net/ad/$~object-subrequest
+.net/ads/
 .net/ads_
+.nl/ads/
+.no/ads/
+.nz/ads/
 .org/ad/
 .org/ad_
 .org/ads-
+.org/ads/
 .org/gads/
+.ph/ads/
 .php?ad=
 .php?bannerid=
 .php?zoneid=
+.pk/ads/
 .popupvideoad.
 .rolloverad.
 .swf?1&clicktag=
@@ -2389,6 +2411,8 @@ xfastest.com##[class^="ad"]
 /120ad.
 /120ads/*
 /126_ad.
+/2010/ads/*
+/2011/ads/*
 /300x250advert.
 /468ad.
 /468xads.
@@ -2396,9 +2420,11 @@ xfastest.com##[class^="ad"]
 /?advideo/*
 /_ads/*
 /_affiliatebanners/*
+/_global/ads/*
 /_img/ad_
 /a1/?sub=*&t=$script,third-party
 /a1/cb.php?sub=*&t=$script,third-party
+/a2/ads/*
 /aamsz=
 /abm.asp?z=
 /abm.aspx
@@ -2815,13 +2841,61 @@ xfastest.com##[class^="ad"]
 /ads.pl?
 /ads/125l.
 /ads/125r.
+/ads/160.
+/ads/2010/*
+/ads/300.
+/ads/3002.
 /ads/468a.
+/ads/728.
 /ads/728b.
+/ads/ad_
+/ads/ads_
+/ads/banner.
+/ads/banner01.
+/ads/banner468.
+/ads/banners/*
+/ads/cnvideo/*
+/ads/common/*
+/ads/default_
+/ads/dhtml/*
+/ads/footer_
+/ads/freewheel/*
+/ads/google1.
+/ads/google2.
+/ads/home/*
+/ads/house/*
+/ads/images/*
+/ads/img/*
+/ads/indexsponsors/*
+/ads/interstitial.
+/ads/interstitial/*
 /ads/js/*
+/ads/js_
+/ads/labels/*
+/ads/layer.
+/ads/leaderboard-
 /ads/leaderboard.
+/ads/leaderboard_
+/ads/load.
+/ads/post-
+/ads/preloader/*
+/ads/preroll_
+/ads/promo_
+/ads/rail-
+/ads/rectangle_
+/ads/ringtone_
+/ads/show.
+/ads/side-
+/ads/sponsor_
+/ads/square-
 /ads/square.
 /ads/square2.
 /ads/square3.
+/ads/third-
+/ads/top-
+/ads/video_
+/ads/view.
+/ads/zone/*
 /ads0.
 /ads09a/*
 /ads1.
@@ -3057,6 +3131,10 @@ xfastest.com##[class^="ad"]
 /adunit.
 /adunit/*
 /adunits/*
+/adv.asp
+/adv.jsp
+/adv/ads/*
+/adv/managers/*
 /adv02.
 /adv03.
 /adv1.
@@ -3163,6 +3241,11 @@ xfastest.com##[class^="ad"]
 /affclick/*
 /affilatebanner.
 /affiliate-content/*
+/affiliate/ads/*
+/affiliate/banner.php?
+/affiliate/banners/*
+/affiliate/script.php?
+/affiliate/scripts/*
 /affiliate_banner/*
 /affiliate_banners/*
 /affiliate_resources/*
@@ -3186,16 +3269,19 @@ xfastest.com##[class^="ad"]
 /afimages.
 /afr.php?
 /afr?auid=
+/ajax/ads/*
 /ajaxads.
 /ajrotator/*
 /ajs.php?
 /ajs?auid=
 /all_ads/*
 /alternet.ad?
+/api/ads/*
 /app/ads.js
 /article_ad.
 /aseadnshow.
 /aspbanner_inc.asp?
+/assets/ads/*
 /audioads/*
 /auditudeadunit.
 /austria_ad.
@@ -3209,6 +3295,7 @@ xfastest.com##[class^="ad"]
 /banner-ad-
 /banner-ad/*
 /banner/ad_
+/banner/affiliate/*
 /banner468_
 /banner_468.
 /banner_ad.
@@ -3256,6 +3343,7 @@ xfastest.com##[class^="ad"]
 /banners/ad_
 /banners/ads-
 /banners/adv_
+/banners/affiliate/*
 /banners/promo/*
 /banners_rotation.
 /bannerscript/*
@@ -3281,6 +3369,7 @@ xfastest.com##[class^="ad"]
 /behaviorads/*
 /beta-ad.
 /betrad.js
+/bg/ads/*
 /bg_ads_
 /bi_affiliate.js
 /bigad.
@@ -3288,6 +3377,7 @@ xfastest.com##[class^="ad"]
 /bigboxad.
 /bkgrndads/*
 /blockad_
+/blocks/ads/*
 /blog_ads/*
 /blogad_
 /blogads.
@@ -3320,14 +3410,18 @@ xfastest.com##[class^="ad"]
 /call/pubif/*
 /callads5.
 /camfuzeads/*
+/campus/ads/*
 /carbonads/*
 /cashad.
 /cashad2.
+/central/ads/*
+/cgi-bin/ads/*
 /channelblockads.
 /chinaadclient.
 /chitika-ad?
 /circads.
 /clickboothad.
+/cms/ads/*
 /cms/js/ad_
 /cnnslads.
 /cnxad-
@@ -3339,7 +3433,10 @@ xfastest.com##[class^="ad"]
 /commercial_top.
 /common/ad.
 /common/ad/*
+/common/ads/*
 /companion_ads.
+/components/ads/*
+/configspace/ads/*
 /contaxe_
 /content/ad/*
 /content/ad_
@@ -3350,7 +3447,9 @@ xfastest.com##[class^="ad"]
 /contentadxxl.
 /contentad|
 /contextad.
+/controller/ads/*
 /convertjsontoad.
+/core/ads/*
 /corner_ads/*
 /country_ad.
 /cpm_ad.
@@ -3366,16 +3465,20 @@ xfastest.com##[class^="ad"]
 /customcontrols/ads/*
 /customerad_
 /cutead.
+/cvs/ads/*
 /cwggoogleadshow.
+/daily/ads/*
 /dart-zones.js
 /dart_ads/*
 /dartadengine.
 /dartads.
+/data/ads/*
 /dateads.
 /dclk_ads.
 /dclk_ads_
 /dcloadads/*
 /ddlads/*
+/de/ads/*
 /defer_ads.
 /deferads.
 /deliver.nmi?
@@ -3406,6 +3509,7 @@ xfastest.com##[class^="ad"]
 /dne_ad.
 /dns_ad/*
 /dnsads.html?
+/doors/ads/*
 /doubleclick.js
 /doubleclick.php
 /doubleclick/iframe.
@@ -3417,12 +3521,15 @@ xfastest.com##[class^="ad"]
 /doubleclicktag.
 /download/ad.
 /download/ad/*
+/download/ads/*
 /drawad.php?
 /drivingrevenue/*
 /dsg/bnn/*
 /dtiadvert125x125.
+/dxd/ads/*
 /dyn_banner.
 /dyn_banners_
+/dynamic/ads/*
 /dynamic_ads/*
 /dynamicad?
 /dynamiccsad?
@@ -3440,11 +3547,14 @@ xfastest.com##[class^="ad"]
 /emailads/*
 /emediatead.
 /ems/ads.
+/eng/ads/*
 /exitsplash.php
 /expandable_ad.php
+/ext/ads/*
 /ext_ads.
 /external/ad.
 /external/ad/*
+/external/ads/*
 /external_ads.
 /externalads/*
 /externalhtmladrenderer.
@@ -3456,9 +3566,11 @@ xfastest.com##[class^="ad"]
 /featuredadshome.
 /file/ad.
 /files/ad/*
+/files/ads/*
 /fimserve.
 /flag_ads.
 /flash/ad_
+/flash/ads/*
 /flashad.
 /flashads.
 /flashads/*
@@ -3478,6 +3590,7 @@ xfastest.com##[class^="ad"]
 /frameads.
 /frequencyads.
 /frnads.
+/frontend/ads/*
 /fullad.
 /fuseads/*
 /fwadmanager.
@@ -3522,15 +3635,18 @@ xfastest.com##[class^="ad"]
 /getvdopiaads.
 /getvideoad.
 /gexternalad.
+/gfx/ads/*
 /glam_ads.
 /global/ad/*
 /global/ads.
+/global/ads/*
 /globalbannerad.
 /google-ad-
 /google-ad?
 /google-ads.
 /google-adsense-
 /google-adsense.
+/google/adv.
 /google_ad_
 /google_ads.
 /google_ads/*
@@ -3559,6 +3675,7 @@ xfastest.com##[class^="ad"]
 /googleafs.
 /googleafvadrenderer.
 /graphics/ad_
+/graphics/ads/*
 /gt6skyadtop.
 /header-ad.
 /header_ads_
@@ -3581,10 +3698,12 @@ xfastest.com##[class^="ad"]
 /html.ng/*
 /htmlads/*
 /httpads/*
+/i/ads/*
 /icon_ad.
 /iframe-ads/*
 /iframe.ad/*
 /iframe/ad/*
+/iframe/ads/*
 /iframe_ad.
 /iframe_ad?
 /iframe_ads/*
@@ -3601,6 +3720,8 @@ xfastest.com##[class^="ad"]
 /im-ad/im-rotator2.
 /imads.js
 /image/ad/*
+/image/ads/*
+/image/affiliate/*
 /image_ads/*
 /imageads/*
 /imagecache_ads/*
@@ -3609,8 +3730,10 @@ xfastest.com##[class^="ad"]
 /images/ad/*
 /images/ad_
 /images/ads-
+/images/ads/*
 /images/ads_
 /images/aff-
+/images/affiliate/*
 /images/affs/*
 /images/gads_
 /images/sponsored/*
@@ -3618,16 +3741,22 @@ xfastest.com##[class^="ad"]
 /images_ads/*
 /img/ad-
 /img/ad_
+/img/ads/*
+/img3/ads/*
 /imgads/*
 /imgaffl/*
+/imgs/ads/*
 /impop.php
 /inad.
+/inc/ads/*
 /inc_ad.
 /inc_v2/ad_
 /include/ad/*
 /include/ad_
+/include/ads/*
 /included_ads/*
 /includes/ad_
+/includes/ads/*
 /incmpuad.
 /index-ad.
 /index_ads.
@@ -3650,6 +3779,7 @@ xfastest.com##[class^="ad"]
 /irc_ad_
 /ireel/ad*.jpg
 /isgadvertisement/*
+/ispy/ads/*
 /iwadsense.
 /j/ads.js
 /jcorner.php?partner=
@@ -3660,8 +3790,10 @@ xfastest.com##[class^="ad"]
 /js/ads-
 /js/ads.
 /js/ads_
+/js/adv/*
 /js2.ad/size=
 /jsadscripts/*
+/jsfiles/ads/*
 /jstextad.
 /kantarmedia.
 /kc_ad_run.
@@ -3680,6 +3812,7 @@ xfastest.com##[class^="ad"]
 /layerad-
 /layerads.
 /layerads_
+/layout/ads/*
 /lbl_ad.
 /leader_ad.
 /leaderboardads.
@@ -3714,6 +3847,7 @@ xfastest.com##[class^="ad"]
 /marketing/banners_
 /mbn_ad.
 /mcad.php
+/media/ads/*
 /media_ads/*
 /megaad.
 /meme_ad.
@@ -3722,6 +3856,7 @@ xfastest.com##[class^="ad"]
 /microads/*
 /mini-ads/*
 /mini_ads.
+/mint/ads/*
 /misc/ad-
 /miva_ads.
 /mkadsrv.
@@ -3733,6 +3868,7 @@ xfastest.com##[class^="ad"]
 /modalad.
 /modules/ad/*
 /modules/ad_
+/modules/ads/*
 /mpu-dm.html
 /mpumessage.
 /msnadimg.
@@ -3754,7 +3890,9 @@ xfastest.com##[class^="ad"]
 /newad?
 /newads.
 /newads/*
+/newimages/ads/*
 /newrightcolad.
+/news/ads/*
 /news_ad.
 /newsletterads/*
 /newtopmsgad.
@@ -3773,6 +3911,7 @@ xfastest.com##[class^="ad"]
 /oasisi.php?
 /oiopub-direct/*$~stylesheet
 /omb-ad-
+/online/ads/*
 /online_ads/*
 /openads-
 /openads.
@@ -3783,6 +3922,7 @@ xfastest.com##[class^="ad"]
 /openx/*
 /openx_
 /ot_adserved.
+/other/ads/*
 /overlay_ad_
 /ovt_show.asp?
 /ox/www/*
@@ -3810,6 +3950,7 @@ xfastest.com##[class^="ad"]
 /partnerads_
 /partnerbanner.
 /partnerbanner/*
+/partners/ads/*
 /partnersadbutler/*
 /pc/ads.
 /peel.js
@@ -3821,20 +3962,25 @@ xfastest.com##[class^="ad"]
 /peeljs.php
 /perfads.
 /performancingads/*
+/permanent/ads/*
 /photo728ad.
 /phpads.
 /phpads/*
 /phpads2/*
 /phpadserver/*
 /phpadsnew/*
+/pic/ads/*
 /picture/ad/*
 /pictureads/*
+/pictures/ads/*
 /pilot_ad.
 /pitattoad.
+/pix/ads/*
 /pixelads/*
 /play/ad/*
 /player/ad/*
 /player/ads.
+/player/ads/*
 /player_ads/*
 /plugin/ad/*
 /plugins_ads_
@@ -3868,6 +4014,7 @@ xfastest.com##[class^="ad"]
 /proads/*
 /processads.
 /promo/ad_
+/promo/ads/*
 /promo/affiframe.
 /promoads/*
 /promobuttonad.
@@ -3879,8 +4026,10 @@ xfastest.com##[class^="ad"]
 /promotions/ads?
 /protection/ad/*
 /pub/ad/*
+/pub/ads/*
 /public/ad/*
 /public/ad?
+/public/ads/*
 /publicidad.$~object-subrequest,~stylesheet
 /publicidad/*
 /pullads.
@@ -3889,6 +4038,7 @@ xfastest.com##[class^="ad"]
 /punder.php$image,~image,popup
 /qandaads/*
 /quadadvert.
+/questions/ads/*
 /r_ads/*
 /radopenx?
 /railad.
@@ -3901,6 +4051,7 @@ xfastest.com##[class^="ad"]
 /rcolads2.
 /rcom-ads.
 /rcom-video-ads.
+/realmedia/ads/*
 /reclame/*
 /recommendations/ad.
 /rect_ad.
@@ -3912,6 +4063,7 @@ xfastest.com##[class^="ad"]
 /relevance_ad.
 /requestadvertisement.
 /requestmyspacead.
+/resources/ads/*
 /resources/ads_
 /retrad.
 /rg-rlog.php$xmlhttprequest
@@ -3930,6 +4082,7 @@ xfastest.com##[class^="ad"]
 /rsads.js
 /rsads/*
 /rsc_ad_
+/rss/ads/*
 /rss2/?*&hp=*&np=$script,third-party
 /rss2/?*&np=*&hp=$script,third-party
 /rss2/?hp=*&np=$script,third-party
@@ -3947,6 +4100,7 @@ xfastest.com##[class^="ad"]
 /scripts/ad.
 /scripts/ad/*
 /scripts/ads.js
+/scripts/ads/*
 /scripts/clickjs.php
 /scripts/jsads-
 /search-ads?
@@ -3961,7 +4115,10 @@ xfastest.com##[class^="ad"]
 /servead.
 /serveads.
 /servewebads/*
+/services/ads/*
 /sevenl_ad.
+/share/ads/*
+/shared/ads/*
 /show-ad.
 /show-ads.
 /show_ad.
@@ -3986,6 +4143,7 @@ xfastest.com##[class^="ad"]
 /sidebar_ad.
 /sidebarad/*
 /sidecol_ad.
+/silver/ads/*
 /simpleadvert.
 /simpleadvert/*
 /site=*/size=*/viewid=
@@ -3994,6 +4152,7 @@ xfastest.com##[class^="ad"]
 /siteads.
 /siteads/*
 /siteafs.txt?
+/sitemanagement/ads/*
 /sites/ad_
 /skyad.
 /skyad_
@@ -4012,8 +4171,9 @@ xfastest.com##[class^="ad"]
 /smallad-
 /smartad.
 /smartads.
+/smb/ads/*
 /socialads.
-/socialads/*$domain=~profiles.google.com
+/socialads/*
 /somaadscaleskyscraperscript.
 /someads.
 /spc.php?
@@ -4044,9 +4204,12 @@ xfastest.com##[class^="ad"]
 /src/ads_
 /srv/ad/*
 /static/ad_
+/static/ads/*
 /static_ads/*
 /stickyad.
 /stickyad2.
+/storage/ads/*
+/stories/ads/*
 /story_ad.
 /subad2_
 /subnavads/*
@@ -4054,6 +4217,7 @@ xfastest.com##[class^="ad"]
 /superads_
 /supernorthroomad.
 /swf/ad-
+/swf/ads/*
 /swfbin/ad-
 /swfbin/ad3-
 /synad2.
@@ -4066,8 +4230,10 @@ xfastest.com##[class^="ad"]
 /taxonomy-ads.
 /td_ads/*
 /tdlads/*
+/teaseimg/ads/*
 /template/ad.
 /templateadvimages/*
+/templates/ads/*
 /testads/*
 /testingad.
 /textad.
@@ -4086,6 +4252,7 @@ xfastest.com##[class^="ad"]
 /tii_ads.
 /tikilink?
 /title_ad.
+/tmo/ads/*
 /tmobilead.
 /toigoogleads.
 /toolkitads.
@@ -4117,6 +4284,7 @@ xfastest.com##[class^="ad"]
 /txt_ad.
 /txt_ad_
 /txtads/*
+/u/ads/*
 /uberlayadrenderer.
 /ugoads_inner.
 /ukc-ad.
@@ -4124,8 +4292,12 @@ xfastest.com##[class^="ad"]
 /unity/ad/*
 /update_ads/*
 /update_layer/layer_os_new.php
+/upload/ads/*
+/uploads/ads/*
+/uploads/adv/*
 /upsellingads/*
 /userad/*
+/userimages/ads/*
 /valueclick.
 /vboard/ads/*
 /vclkads.
@@ -4133,6 +4305,7 @@ xfastest.com##[class^="ad"]
 /vert728ad.
 /verticaladrotatorv2.
 /video.ads.php?
+/video/ads/*
 /video_ad.
 /video_ad_
 /videoad.
@@ -4149,6 +4322,7 @@ xfastest.com##[class^="ad"]
 /wallpaper_ads/*
 /wallpaperads/*
 /wbadvert/*
+/web/ads/*
 /webad?
 /webadimg/*
 /webads.
@@ -4159,8 +4333,10 @@ xfastest.com##[class^="ad"]
 /welcome_ad.
 /widget/ads.
 /wipeads/*
+/wire/ads/*
 /wmads.
 /work.php?n=*&size=*&c=
+/wp-content/ads/*
 /wp-content/mbp-banner/*
 /wp-content/plugins/banner-manager/*
 /wp-content/plugins/bhcb/lock.js
@@ -4171,8 +4347,10 @@ xfastest.com##[class^="ad"]
 /wp-srv/ad/*
 /wpads/iframe.
 /writelayerad.
+/www/ads/*
 /www/delivery/*
 /x5advcorner.
+/xfiles/ads/*
 /xlayer/layer.php?uid=$script
 /xml/ads_
 /xmladparser.
@@ -4190,6 +4368,7 @@ xfastest.com##[class^="ad"]
 ://adcl.
 ://ads.
 ://adv-banner.
+://adv.
 ://affiliate.$third-party
 ://affiliates.$third-party
 ://banner.$third-party
@@ -4204,6 +4383,7 @@ xfastest.com##[class^="ad"]
 ://rss.*/~a/
 ://synad.
 ://wrapper.*/a?
+:8080/ads/
 ;adsense_
 ;cue=pre;$object-subrequest
 ;iframeid=ad_
@@ -4349,7 +4529,9 @@ _advertorials/
 _advertphoto.
 _adwrap.
 _afs_ads.
+_alt/ads/
 _argus_ad_
+_assets/ads/
 _background_ad/
 _banner_ad.
 _banner_ad_
@@ -4380,12 +4562,14 @@ _google_ads/
 _google_ads_
 _headerad.
 _house_ad_
+_images/ads/
 _index_ad.
 _jtads/
 _link_ads-
 _live/ad/
 _logadslot&
 _mainad.
+_media/ads/
 _mmsadbanner/
 _onlinead_
 _openx.
@@ -4413,6 +4597,7 @@ _square_ad.
 _static_ads.
 _tagadvertising.
 _temp/ad_
+_theme/ads/
 _tile_ad_
 _top_ad.
 _top_ad_
@@ -5185,7 +5370,7 @@ _a468x60.
 ###ad_block_1
 ###ad_block_2
 ###ad_bottom
-###ad_box
+~quiubi.it###ad_box
 ###ad_box_colspan
 ###ad_box_top
 ###ad_branding
@@ -11279,12 +11464,14 @@ _a468x60.
 ||108.59.5.132/files/$third-party,domain=~1channel.ch.ip
 ||110mb.com/images/banners/
 ||173.199.120.7/delivery/$domain=~p2p.adserver.ip
+||1page.co.za/affiliate/
 ||1st-russian-bride.com/banners/
 ||1stag.com/main/img/banners/
 ||208.43.84.120/trueswordsa3.gif$third-party,domain=~trueswords.com.ip
 ||20dollars2surf.com/ban_$third-party
 ||216.41.211.36/widget/$third-party,domain=~bpaww.com.ip
 ||217.115.147.241/media/$third-party,domain=~elb-kind.de.ip
+||24.co.za^*/ads/
 ||247hd.net/ad|
 ||2leep.com/ticker2/$third-party
 ||69.50.226.158^$third-party,domain=~worth1000.com.ip
@@ -11429,6 +11616,7 @@ _a468x60.
 ||bpath.com/affiliates/
 ||bplaced.net/pub/
 ||bravenet.com/cserv.php?
+||break.com/ads/preroll/
 ||break.com^*/partnerpublish/
 ||brettterpstra.com/wp-content/uploads/$third-party
 ||bruteforceseo.com/affiliates/
@@ -11438,6 +11626,7 @@ _a468x60.
 ||bullguard.com^*/banners/
 ||burst.net/aff/
 ||businessnewswatch.ca/images/nnwbanner/
+||buy.com^*/affiliate/
 ||buydig.com/assets/banners/
 ||buzznet.com^*/showpping-banner-$third-party
 ||cal-one.net/ellington/deals_widget.php?
@@ -11446,6 +11635,7 @@ _a468x60.
 ||cancomuk.com/campaigns/
 ||canonresourcecenter.com^$third-party
 ||carbiz.in/affiliates-and-partners/
+||carefuldoctor.com/adv/search.php
 ||cas.clickability.com^
 ||cash.neweramediaworks.com^
 ||cashmakingpowersites.com^*/banners/
@@ -11466,6 +11656,7 @@ _a468x60.
 ||chriscasconi.com/nostalgia_ad.
 ||cimg.in/images/banners/
 ||cineble.com/banners/
+||citygridmedia.com/ads/
 ||click.eyk.net^
 ||clickstrip.6wav.es^
 ||clipdealer.com/?action=widget&*&partner=
@@ -11530,6 +11721,7 @@ _a468x60.
 ||extras.mnginteractive.com^*/todaysdeals.gif
 ||eyetopics.com/content_images/$third-party
 ||ezcashmailer.com/banners/
+||faadooengineers.com/ads/
 ||facebook.com/whitepages/wpminiprofile.php?partner_id=$third-party
 ||familytreedna.com/img/affiliates/
 ||fantasyplayers.com/templates/banner_code.
@@ -11581,6 +11773,7 @@ _a468x60.
 ||fyygame.com/images/*.swf$third-party
 ||gadgetresearch.net^$subdocument,third-party
 ||gamblingwages.com/images/$third-party
+||gameduell.com/res/affiliate/
 ||gamegecko.com/banners/
 ||gameorc.net/a.html
 ||gamersaloon.com/images/banners/
@@ -11623,6 +11816,7 @@ _a468x60.
 ||grammar.coursekey.com/inter/$third-party
 ||gsniper.com/images/$third-party
 ||guim.co.uk/guardian/thirdparty/tv-site/side.html
+||handango.com/marketing/affiliate/
 ||hetu.in^$image,~image,popup,third-party
 ||hide-my-ip.com/promo/
 ||hostgator.com/~affiliat/cgi-bin/affiliates/$third-party
@@ -11651,7 +11845,9 @@ _a468x60.
 ||img.promoddl.com^$third-party
 ||img.servint.net^*/125x125.gif
 ||imgehost.com^*/banners/$third-party
+||indeed.com/ads/
 ||indieclick.3janecdn.com^
+||inetinteractive.com/ads/
 ||infomarine.gr/images/banerr.gif
 ||infomarine.gr^*/images/banners/
 ||inisrael-travel.com/jpost/
@@ -11685,6 +11881,7 @@ _a468x60.
 ||leadsleap.com/widget/
 ||legaljobscentre.com/feed/jobad.aspx
 ||legitonlinejobs.com/images/$third-party
+||lego.com^*/affiliate/
 ||letters.coursekey.com/lettertemplates_$third-party
 ||lifestyle24h.com/reward/$third-party
 ||linkbucks.com/tmpl/mint/img/$third-party
@@ -11709,6 +11906,7 @@ _a468x60.
 ||mahndi.com/images/banner/
 ||marinejobs.gr/images/marine_adv.gif
 ||marketing.888.com^
+||marketsamurai.com/affiliate/
 ||mastiway.com/webimages/$third-party
 ||match.com^*/prm/$third-party
 ||matrixmails.com/images/$third-party
@@ -11721,6 +11919,7 @@ _a468x60.
 ||meta4-group.com^*/promotioncorner.js?
 ||meta4-group.com^*/spods.js?
 ||metaboli.fr^*/adgude_$third-party
+||mfcreative.com/affiliate/
 ||mfeed.newzfind.com^$third-party
 ||mgid.com^$subdocument,third-party
 ||microsoft.com^*/bannerrotator/$third-party
@@ -11730,6 +11929,7 @@ _a468x60.
 ||mmdcash.com/mmdcash01.gif
 ||mmo4rpg.com^*.gif|$third-party
 ||mobyler.com/img/banner/
+||moneywise.co.uk/affiliate/
 ||mozo-widgets.f2.com.au^
 ||mp3ix.com^$third-party
 ||mto.mediatakeout.com^$third-party
@@ -11745,6 +11945,7 @@ _a468x60.
 ||mydirtyhobby.com/getmdhlinkn.$third-party
 ||mydirtyhobby.com/gpromo/$third-party
 ||mydirtyhobby.com/tpc.php?$subdocument,third-party
+||mydirtyhobby.com/track.php?$third-party
 ||mydirtyhobby.com/track/$image,~image,popup
 ||mydirtyhobby.com/track/$subdocument,third-party
 ||mydirtyhobby.com/u/$third-party,domain=~my-dirty-hobby.com|~mydirtyhobby.de
@@ -11867,6 +12068,7 @@ _a468x60.
 ||rocketgames.com^$image,~image,popup,third-party
 ||rogersradio.ca/flash/prerollplayer.swf
 ||roia.hutchmedia.com^$third-party
+||romepartners.com/affiliate/
 ||rotabanner.kulichki.net^
 ||s-yoolk-banner-assets.yoolk.com^
 ||s-yoolk-billboard-assets.yoolk.com^
@@ -11901,6 +12103,7 @@ _a468x60.
 ||shows-tv.net/codepopup.js
 ||shragle.com^*?ref=
 ||sidekickunlock.net/banner/
+||simplycast.com/affiliate/
 ||singlemuslim.com/affiliates/
 ||sis.amazon.com/iu?$third-party
 ||sitegrip.com^*/swagbucks-
@@ -11920,6 +12123,7 @@ _a468x60.
 ||sportingbet.com.au/sbacontent/puntersparadise.html
 ||sportsdigitalcontent.com/betting/
 ||squarespace.evyy.net^
+||srwww1.com^*/affiliate/
 ||ssshoesss.ro/banners/
 ||stacksocial.com/bundles/$third-party
 ||stargames.com/bridge.asp?idr=$image,~image,popup
@@ -11929,6 +12133,7 @@ _a468x60.
 ||staticworld.net/images/*_skin_
 ||stats.sitesuite.org^
 ||stockroom.com/banners/
+||storage.to/affiliate/
 ||store.lavasoft.com^$third-party
 ||stylefind.com^*?campaign=$subdocument,third-party
 ||subliminalmp3s.com^*/banners/
@@ -12037,11 +12242,13 @@ _a468x60.
 ||ws.amazon.*/widgets/q?$third-party
 ||wupload.com/images/banners/
 ||x3cms.com/ads/
+||xara.com/affiliate/
 ||xcams.com/livecams/pub_collante/script.php?$third-party
 ||xgaming.com/rotate*.php?$third-party
 ||xml.exactseek.com/cgi-bin/js-feed.cgi?$third-party
 ||xproxyhost.com/images/banners/
 ||yachting.org^*/banner/
+||yahoo.net^*/ads/
 ||yieldmanager.edgesuite.net^
 ||yimg.com^*/quickplay_maxwellhouse.png
 ||yontoo.com^$subdocument,third-party
@@ -12058,6 +12265,7 @@ _a468x60.
 ||213.174.130.10/banners/$domain=dickbig.net
 ||213.174.130.8/banners/$domain=dickbig.net
 ||213.174.130.9/banners/$domain=dickbig.net
+||213.174.140.76^*/ads/
 ||213.174.140.76^*/js/msn-$script
 ||213.174.140.76^*/js/msn.js
 ||21sextury.com^$image,~image,popup
@@ -12078,6 +12286,7 @@ _a468x60.
 ||blossoms.com/images/banners/
 ||br.fling.com^
 ||br.realitykings.com^
+||brazzers.com/ads/
 ||byfortune.co.cc^$image,third-party
 ||cams.com/p/cams/cpcs/streaminfo.cgi?$third-party
 ||camsrule.com/exports/$third-party
@@ -12314,6 +12523,7 @@ _a468x60.
 /com_joomlawatch/*
 /comscore.js
 /comscore_beacon.js
+/counter.php?chcounter_mode=
 /counter/hit.php?referrer=
 /criteo.js
 /csi?v=*&action=
@@ -12420,6 +12630,7 @@ _a468x60.
 /mwtag_flash.js
 /myasg/stats_js.asp
 /mycounter/counter_in.php?
+/mystats/track.js
 /netmind-$script
 /netupdate/live.php?
 /nielsen.js
@@ -12484,11 +12695,13 @@ _a468x60.
 /sophus3_logging.js
 /staffcp/save_stats.php?
 /stat/track.php?mode=js
+/stat36/stat/track.php
 /stataffs/track.php?
 /statcounter.js
 /statcountex/count.asp?
 /stateye/*
 /stats/et_track.asp?
+/stats/track.asp?
 /stats/tracker.gif?
 /statsadvance.js
 /statscript.js
@@ -12517,10 +12730,13 @@ _a468x60.
 /view_stats.js.php
 /viperbar/stats.php?
 /visualsciences.js
+/visualstat/stat.php
+/vstats/counter.php
 /vtrack.php?
 /webabacus-$script
 /webforensics/*
 /webiq.js
+/webstatistik/track.asp
 /webtraxs.js
 /webtrekk.js
 /webtrekk_
@@ -13149,6 +13365,8 @@ _comscore.js
 ||simplehitcounter.com^$third-party
 ||simpli.fi^$third-party
 ||singlefeed.com^$third-party
+||sitebro.com^$third-party
+||sitebro.net^$third-party
 ||sitecompass.com^$third-party
 ||siteimprove.com^$third-party
 ||sitemeter.com^$third-party
@@ -13354,6 +13572,7 @@ _comscore.js
 ||9msn.com.au^*/tracking/
 ||acs86.com/t.js
 ||activities.niagara.comedycentral.com^
+||adchemy-content.com^*/tracking.js
 ||addthis.com/at/
 ||addthis.com/live/
 ||addthis.com^*/p.json?*&ref=
@@ -13363,6 +13582,8 @@ _comscore.js
 ||affiliate.godaddy.com^
 ||afrigator.com/track/
 ||agencytradingdesk.net/watsontracker/
+||agendize.com^*/counts.jsp?
+||aiya.com.cn/stat.js
 ||akamai.com/crs/lgsitewise.js
 ||akamai.net^*/hints.netflame.cc/
 ||akamai.net^*/tracking/clicktracking.js
@@ -13416,8 +13637,11 @@ _comscore.js
 ||aufeminin.com^*/tracking_pix.js
 ||backupinfo.auctiva.com/default.aspx?query=
 ||bangbrosonline.com/ct/imgcount.php?
+||beacon.indieclick.com^
 ||beacon.securestudies.com^
+||beacon2.indieclick.com^
 ||bestweb.net/cgi-bin/count.cgi?
+||bfnsoftware.com^*/counter.cgi?
 ||bfnsoftware.com^*/environment.cgi?
 ||bibzopl.com/in.php
 ||bidsystem.com/ppc/sendtracker.aspx?
@@ -13431,6 +13655,7 @@ _comscore.js
 ||bravenet.com/counter/
 ||brcdn.com^*/br-trk.js
 ||break.com/apextracker/
+||breakmedia.com/track.jpg?
 ||bumpin.com^*/analytics.html
 ||buzzbox.buzzfeed.com^
 ||bzpics.com/jslib/st.js?
@@ -13511,6 +13736,7 @@ _comscore.js
 ||events.eyeviewdigital.com^*.gif?r=
 ||evri.com/analytics/
 ||facebook.com/campaign/impression.php?
+||facebook.com/js/conversions/tracking.js
 ||facilitatedigital.com/hit.aspx?
 ||fastcounter.onlinehoster.net^
 ||feedcat.net/button/
@@ -13529,6 +13755,7 @@ _comscore.js
 ||gigya.com^*/cimp.gif?
 ||glam.com/ctagsimgcmd.act?
 ||go.toutapp.com^$third-party
+||goadv.com^*/track.js
 ||googlecode.com^*/tracker.js
 ||googlelabs.com/log/log?
 ||googlesyndication.com/pagead/gen_204?
@@ -13550,6 +13777,7 @@ _comscore.js
 ||images-amazon.com^*/1x1_trans.gif
 ||imageshack.us^*/thpix.gif
 ||imgfarm.com/images/trk/myexcitetr.gif?
+||imghostsrc.com/counter.php?
 ||impi.tv/trackvideo.aspx?
 ||inq.com/tagserver/tracking/
 ||insights.gravity.com^
@@ -13616,6 +13844,7 @@ _comscore.js
 ||neocounter.neoworx-blog-tools.net^
 ||neoworx.net/neocounter/
 ||netscape.com/c.cgi?
+||neulion.com^*/track.gif?
 ||newsinc.com/analytics_ping.htm?
 ||nsdsvc.com/scripts/action-tracker.js
 ||oddcast.com/event.php?$object-subrequest
@@ -13778,6 +14007,7 @@ _comscore.js
 ||visit.webhosting.yahoo.com^
 ||viximo.com/1px.gif?
 ||vizvid.com/track.gif?
+||weather.ca/counter.gif?
 ||webeffective.keynote.com^
 ||webresint.com/writrak.php?
 ||webservices.websitepros.com^
@@ -13792,8 +14022,10 @@ _comscore.js
 ||whosread.com/counter/
 ||widgeo.net/compteur.php?
 ||widgeo.net/geocompteur/
+||widgeo.net/tracking.php?
 ||widget.perfectmarket.com/*/view/
 ||widgetbox.com/syndication/track/
+||widgethost.com/pax/counter.js?
 ||widgetserver.com/metrics/
 ||widgetserver.com/t/
 ||widgetserver.com^*/quantcast.swf
@@ -13816,17 +14048,23 @@ _comscore.js
 ||zemanta.com/pixy.gif?
 ! *** easylist:easyprivacy/easyprivacy_thirdparty_international.txt ***
 ! Chinese
+||baidu.com/h.js?
 ||baidu.com/hm.gif?
 ||baidu.com/js/m.js
 ||baidu.com/js/o.js
 ||cbsi.com.cn/js/dw.js
+||cnzz.com/c.php?
 ||cri.cn/js/a1.js
 ||etwun.com:8080/counter.php?
 ||webterren.com/webdig.js?
+||wrating.com/*.gif?
+||wrating.com/*.swf?
+||wrating.com/a1.js
 ! *** easylist:easyprivacy/easyprivacy_specific_international.txt ***
 ! Chinese
 ||analytics.nextmedia.com^
 ||beacon.sina.com.cn^
+||cnzz.com/stat.
 ||counter.sina.com.cn^
 ||cri.cn/a1.js
 ||cri.cn/wrating.js
@@ -13838,27 +14076,10 @@ _comscore.js
 ||soufun.com/click/
 ||soufun.com/stats/
 ||stat.caijing.com.cn^
+||stat.tudou.com^
+||stats.tudou.com^
 ||titan24.com/scripts/stats.js
 ||webd.home.news.cn/1.gif?
 ||xnimg.cn^*/beacon.js
-!-----------------additional for ChinaList Lazy-------------
-||espn.vad.go.com^$domain=youtube.com
-||google.com/jsapi?autoload=*%22ads%22$script,domain=youtube.com
-||linkbucksmedia.com/director/
-||ytimg.com^*_banner$domain=youtube.com
-youtube.com##.promoted-videos
-youtube.com##.watch-extra-info-column
-youtube.com##.watch-extra-info-right
-youtube.com##a[href^="http://www.youtube.com/cthru?"]
-youtube.com###feedmodule-PRO
-youtube.com###homepage-chrome-side-promo
-youtube.com###search-pva
-youtube.com###watch-branded-actions
-youtube.com###watch-buy-urls
-@@||clustrmaps.com/images/clustrmaps-back-soon.jpg$third-party
-@@||s.clicktale.net/WRb.js$script,domain=microsoft.com
-@@||doubleclick.net/adi/amzn.*;ri=digital-music-track;$subdocument
-@@||doubleclick.net/adi/ebay.*/video;$subdocument,domain=ebay.com
-@@||doubleclick.net/adj/imdb2.consumer.video/*;sz=320x240,$script
 
 !------------------------End of List-------------------------

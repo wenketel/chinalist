@@ -1,2 +1,2 @@
-ABPUtils.exe update adblock.txt
+ABPUtils.exe -u -i=adblock.txt
 @pause

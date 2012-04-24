@@ -1,8 +1,9 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Net;
-using System.Net.Sockets;
+using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -12,41 +13,6 @@ namespace ABPUtils
 {
     class Program
     {
-        const string PATCH_FILE = "patch.xml";
-        const string EASYLIST = "easylist.txt";
-        const string CHINALIST_LAZY_HEADER = @"[Adblock Plus 1.2]
-!  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  
-!  Homepage: http://adblock-chinalist.googlecode.com/
-!
-!  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
-!  If you need to know the details,
-!  please visit: https://code.google.com/p/adblock-chinalist/wiki/something_about_ChinaList_Lazy
-!
-!  If you need help or have any question,
-!  please visit: http://adblock-chinalist.googlecode.com/
-!
-!  coding: utf-8, expires: 5 days
-!--CC-BY-SA 3.0 + Licensed, NO WARRANTY but Best Wishes----
-";
-        const string EASYLIST_URL = "https://easylist-downloads.adblockplus.org/easylist.txt";
-        const string EASYPRIVACY = "easyprivacy.txt";
-        const string EASYPRIVACY_URL = "https://easylist-downloads.adblockplus.org/easyprivacy.txt";
-        const string CHINALIST_LAZY_HEADER_MARK = "!----------------------------White List--------------------";
-        const string CHINALIST_END_MARK = "!------------------------End of List-------------------------";
-        const int EASYLIST_EASYLIST_GENERAL_BLOCK = 1;
-        const int EASYLIST_EASYLIST_GENERAL_HIDE = 2;
-        const int EASYLIST_EASYLIST_ADSERVERS = 3;
-        const int EASYLIST_ADULT_ADULT_ADSERVERS = 4;
-        const int EASYLIST_EASYLIST_THIRDPARTY = 5;
-        const int EASYLIST_ADULT_ADULT_THIRDPARTY = 6;
-        const int EASYLIST_EASYLIST_SPECIFIC_BLOCK = 7;//ignore
-        const int EASYLIST_ADULT_ADULT_SPECIFIC_BLOCK = 8;//ignore
-        const int EASYLIST_EASYLIST_SPECIFIC_HIDE = 9;//ignore
-        const int EASYLIST_ADULT_ADULT_SPECIFIC_HIDE = 10;//ignore
-        const int EASYLIST_EASYLIST_WHITELIST = 11;//ignore
-        const int EASYLIST_ADULT_ADULT_WHITELIST = 12;//ignore
-
         static void Main(string[] args)
         {
             if (null == args || args.Length == 0)
@@ -55,70 +21,161 @@ namespace ABPUtils
                 return;
             }
 
-            switch (args[0].ToLower())
-            {
-                case "update":
-                    ChinaList chinaList = new ChinaList(args[1]);
-                    chinaList.Update();
-                    chinaList.Validate();
-                    break;
-                case "validate":
-                    chinaList = new ChinaList(args[1]);
-                    chinaList.Validate();
-                    break;
-                case "merge":
-                    List<string> argsList = new List<string>();
-                    argsList.AddRange(args);
-                    WebProxy proxy = null;
-                    string p = "proxy";
-                    if (argsList.Contains(p))
-                    {
-                        try
-                        {
-                            int index = argsList.IndexOf(p);
-                            string[] temp = argsList[index + 1].Split(':');
-                            proxy = new WebProxy(temp[0], int.Parse(temp[1]));
-                            proxy.BypassProxyOnLocal = true;
-                        }
-                        catch (Exception ex)
-                        {
-                            Console.WriteLine(ex.Message);
-                        }
-                    }
-
-                    Merge(args[1], proxy, argsList.Contains("patch"));
-                    break;
-                case "check":
-                    if (args.Length == 2)
-                        ValidateDomains(IPAddress.Parse("8.8.8.8"), args[1]);
-                    else if (args.Length == 3)
-                        ValidateDomains(IPAddress.Parse(args[2]), args[1]);
-                    break;
-                case "ns":
-                    try
-                    {
-                        IPAddress dns = null;
-                        if (args.Length == 2)
-                            dns = IPAddress.Parse("8.8.8.8");
-                        else
-                            dns = IPAddress.Parse(args[2]);
-
-                        QueryResult queryResult = DNSQuery(dns, args[1]);
-                        Console.Write(queryResult.ToString());
-                    }
-                    catch (Exception ex)
-                    {
-                        Console.WriteLine(ex.Message);
-                    }
-                    break;
-                default:
-                    break;
-            }
+            var arguments = new Arguments(args);
+            DispatcherTask(arguments);
 
             //Console.WriteLine("Press any key to continue...");
             //Console.ReadKey();
         }
 
+        static void DispatcherTask(Arguments args)
+        {
+            if (args.IsTrue("help") || args.IsTrue("h"))
+            {
+                Console.WriteLine(ConstString.HELP_INFO);
+            }
+            else if (args.IsTrue("version"))
+            {
+                Console.WriteLine("ABPUtils version: {0}", GetVersion());
+            }
+            else if (args.IsTrue("ns") || args.IsTrue("nslookup"))
+            {
+                var domain = args.Single("d");
+
+                if (string.IsNullOrEmpty(domain))
+                    domain = args.Single("domain");
+
+                if (string.IsNullOrEmpty(domain))
+                {
+                    Console.WriteLine("wrong input domain.");
+                    return;
+                }
+
+                QueryResult result = null;
+                if (string.IsNullOrEmpty(args.Single("dns")))
+                    result = DNSQuery(null, domain);
+                else
+                    result = DNSQuery(IPAddress.Parse(args.Single("dns")), domain);
+
+                if (result == null)
+                {
+                    Console.WriteLine("Query result is null.");
+                }
+                else
+                {
+                    Console.Write(result.ToString());
+                }
+            }
+            else if (args.IsTrue("v") || args.IsTrue("validate"))
+            {
+                var input = args.Single("i");
+                if (string.IsNullOrEmpty(input))
+                    input = args.Single("input");
+
+                if (string.IsNullOrEmpty(input))
+                {
+                    Console.WriteLine("wrong input file.");
+                    return;
+                }
+
+                var chinaList = new ChinaList(input);
+                chinaList.Validate();
+            }
+            else if (args.IsTrue("u") || args.IsTrue("update"))
+            {
+                var input = args.Single("i");
+                if (string.IsNullOrEmpty(input))
+                    input = args.Single("input");
+
+                if (string.IsNullOrEmpty(input))
+                {
+                    Console.WriteLine("wrong input file.");
+                    return;
+                }
+
+                var chinaList = new ChinaList(input);
+                chinaList.Update();
+                chinaList.Validate();
+            }
+            else if (args.IsTrue("c") || args.IsTrue("check"))
+            {
+                var input = args.Single("i");
+                if (string.IsNullOrEmpty(input))
+                    input = args.Single("input");
+
+                if (string.IsNullOrEmpty(input))
+                {
+                    Console.WriteLine("wrong input file.");
+                    return;
+                }
+
+                var output = args.Single("o");
+
+                if (string.IsNullOrEmpty(output))
+                    output = args.Single("output");
+
+                var dns = args.Single("dns");
+                if (string.IsNullOrEmpty(dns))
+                {
+                    ValidateDomains(null, input, output);
+                }
+                else
+                {
+                    ValidateDomains(IPAddress.Parse(args.Single("dns")), input, output);
+                }
+            }
+            else if (args.IsTrue("m") || args.IsTrue("merge"))
+            {
+                var input = string.Empty;
+                input = args.Single("i");
+
+                if (string.IsNullOrEmpty(input))
+                    input = args.Single("input");
+
+                if (string.IsNullOrEmpty(input))
+                {
+                    Console.WriteLine("wrong input file.");
+                    return;
+                }
+
+                WebProxy proxy = null;
+                var p = args.Single("p");
+                if (string.IsNullOrEmpty(p))
+                    p = args.Single("proxy");
+
+                if (!string.IsNullOrEmpty(p))
+                {
+                    var temp = p.Split(':');
+                    proxy = new WebProxy(temp[0], int.Parse(temp[1]));
+                    proxy.BypassProxyOnLocal = true;
+                }
+
+                var output = args.Single("o");
+                if (string.IsNullOrEmpty(output))
+                    output = args.Single("output");
+
+                Merge(input, proxy, args.IsTrue("patch"), output);
+            }
+        }
+
+        /// <summary>
+        /// Get assembly version
+        /// </summary>
+        /// <returns></returns>
+        static string GetVersion()
+        {
+            Assembly assembly = Assembly.GetExecutingAssembly();
+            FileVersionInfo fvi = FileVersionInfo.GetVersionInfo(assembly.Location);
+            return fvi.ProductVersion;
+        }
+
+        /// <summary>
+        /// Merge input list with part of EasyList and EasyPrivacy
+        /// </summary>
+        /// <param name="chinaList"></param>
+        /// <param name="proxy"></param>
+        /// <param name="patch"></param>
+        /// <param name="lazyList"></param>
         static void Merge(string chinaList, WebProxy proxy, bool patch, string lazyList = "adblock-lazy.txt")
         {
             using (WebClient webClient = new WebClient())
@@ -130,8 +187,8 @@ namespace ABPUtils
                 }
 
                 Dictionary<string, string> lists = new Dictionary<string, string>();
-                lists.Add(EASYLIST, EASYLIST_URL);
-                lists.Add(EASYPRIVACY, EASYPRIVACY_URL);
+                lists.Add(ConstString.EASYLIST, ConstString.EASYLIST_URL);
+                lists.Add(ConstString.EASYPRIVACY, ConstString.EASYPRIVACY_URL);
                 foreach (var s in lists)
                 {
                     if (IsFileExist(s.Key))
@@ -153,6 +210,9 @@ namespace ABPUtils
                 }
             }
 
+            if (string.IsNullOrEmpty(lazyList))
+                lazyList = "adblock-lazy.txt";
+
             //merge
             string chinaListContent = string.Empty;
             StringBuilder sBuilder = new StringBuilder();
@@ -160,9 +220,9 @@ namespace ABPUtils
             {
                 chinaListContent = sr.ReadToEnd();
                 //TODO:replace header
-                var headerIndex = chinaListContent.IndexOf(CHINALIST_LAZY_HEADER_MARK);
-                chinaListContent = chinaListContent.Substring(headerIndex).Insert(0, CHINALIST_LAZY_HEADER);
-                var index = chinaListContent.IndexOf(CHINALIST_END_MARK);
+                var headerIndex = chinaListContent.IndexOf(ConstString.CHINALIST_LAZY_HEADER_MARK);
+                chinaListContent = chinaListContent.Substring(headerIndex).Insert(0, ConstString.CHINALIST_LAZY_HEADER);
+                var index = chinaListContent.IndexOf(ConstString.CHINALIST_END_MARK);
                 chinaListContent = chinaListContent.Remove(index);
                 sBuilder.Append(chinaListContent);
             }
@@ -176,10 +236,10 @@ namespace ABPUtils
             sBuilder.Append(easyPrivacyContent);
 
             //apply patch settings
-            if (File.Exists(PATCH_FILE) && patch)
+            if (File.Exists(ConstString.PATCH_FILE) && patch)
             {
-                Console.WriteLine("use {0} to patch {1}", PATCH_FILE, lazyList);
-                using (StreamReader sr = new StreamReader(PATCH_FILE, Encoding.UTF8))
+                Console.WriteLine("use {0} to patch {1}", ConstString.PATCH_FILE, lazyList);
+                using (StreamReader sr = new StreamReader(ConstString.PATCH_FILE, Encoding.UTF8))
                 {
                     string xml = sr.ReadToEnd();
                     PatchConfigurations patchconfig = SimpleSerializer.XmlDeserialize<PatchConfigurations>(xml);
@@ -207,9 +267,9 @@ namespace ABPUtils
             }
 
             sBuilder.AppendLine("");
-            sBuilder.AppendLine(CHINALIST_END_MARK);
+            sBuilder.AppendLine(ConstString.CHINALIST_END_MARK);
 
-            Console.WriteLine(string.Format("Merge {0}, {1} and {2}.", chinaList, EASYLIST, EASYPRIVACY));
+            Console.WriteLine(string.Format("Merge {0}, {1} and {2}.", chinaList, ConstString.EASYLIST, ConstString.EASYPRIVACY));
             ChinaList.Save(lazyList, sBuilder.ToString());
 
             ChinaList cl = new ChinaList(chinaList);
@@ -223,12 +283,19 @@ namespace ABPUtils
         }
 
         /// <summary>
-        /// Check urls
+        /// validate domain by nslookup
         /// </summary>
+        /// <param name="dns"></param>
         /// <param name="fileName"></param>
-        /// <param name="missurl"></param>
-        static void ValidateDomains(IPAddress dns, string fileName, string missurl = "invalid_domains.txt")
+        /// <param name="invalidDomains"></param>
+        static void ValidateDomains(IPAddress dns, string fileName, string invalidDomains = "invalid_domains.txt")
         {
+            if (dns == null)
+                dns = IPAddress.Parse("8.8.8.8");
+
+            if (string.IsNullOrEmpty(invalidDomains))
+                invalidDomains = "invalid_domains.txt";
+
             ChinaList cl = new ChinaList(fileName);
             List<string> domains = cl.GetDomains();
             //List<string> urls = cl.ParseURLs();
@@ -285,12 +352,15 @@ namespace ABPUtils
                 }
             });
 
-            ChinaList.Save(missurl, results.ToString());
+            ChinaList.Save(invalidDomains, results.ToString());
             // ChinaList.Save("full_domains.txt", fullResult.ToString());
         }
 
         static QueryResult DNSQuery(IPAddress dnsServer, string domain)
         {
+            if (dnsServer == null)
+                dnsServer = IPAddress.Parse("8.8.8.8");
+
             QueryResult queryResult = new QueryResult()
             {
                 Domain = domain,
@@ -356,16 +426,16 @@ namespace ABPUtils
         static string TrimEasyList()
         {
             StringBuilder sBuilder = new StringBuilder();
-            using (StreamReader sr = new StreamReader(EASYLIST, Encoding.UTF8))
+            using (StreamReader sr = new StreamReader(ConstString.EASYLIST, Encoding.UTF8))
             {
                 string easyListContent = sr.ReadToEnd();
                 string[] t = Regex.Split(easyListContent, @"! \*\*\* ");
 
                 for (int i = 1; i < t.Length; i++)
                 {
-                    if (i == EASYLIST_EASYLIST_SPECIFIC_BLOCK || i == EASYLIST_ADULT_ADULT_SPECIFIC_BLOCK
-                            || i == EASYLIST_EASYLIST_SPECIFIC_HIDE || i == EASYLIST_ADULT_ADULT_SPECIFIC_HIDE
-                            || i == EASYLIST_EASYLIST_WHITELIST || i == EASYLIST_ADULT_ADULT_WHITELIST)
+                    if (i == ConstString.EASYLIST_EASYLIST_SPECIFIC_BLOCK || i == ConstString.EASYLIST_ADULT_ADULT_SPECIFIC_BLOCK
+                            || i == ConstString.EASYLIST_EASYLIST_SPECIFIC_HIDE || i == ConstString.EASYLIST_ADULT_ADULT_SPECIFIC_HIDE
+                            || i == ConstString.EASYLIST_EASYLIST_WHITELIST || i == ConstString.EASYLIST_ADULT_ADULT_WHITELIST)
                         continue;
                     var s = t[i];
                     var index = s.IndexOf("!-----------------");
@@ -383,7 +453,7 @@ namespace ABPUtils
         static string TrimEasyPrivacy()
         {
             StringBuilder sBuilder = new StringBuilder();
-            using (StreamReader sr = new StreamReader(EASYPRIVACY, Encoding.UTF8))
+            using (StreamReader sr = new StreamReader(ConstString.EASYPRIVACY, Encoding.UTF8))
             {
                 string easyPrivacyContent = sr.ReadToEnd();
 
@@ -416,25 +486,6 @@ namespace ABPUtils
             }
 
             return sBuilder.Replace("\r", string.Empty).ToString();
-        }
-
-        static string GetWhoisInformation(string whoisServer, string url)
-        {
-            StringBuilder stringBuilderResult = new StringBuilder();
-            TcpClient tcpClinetWhois = new TcpClient(whoisServer, 43);
-            NetworkStream networkStreamWhois = tcpClinetWhois.GetStream();
-            BufferedStream bufferedStreamWhois = new BufferedStream(networkStreamWhois);
-            StreamWriter streamWriter = new StreamWriter(bufferedStreamWhois);
-
-            streamWriter.WriteLine(url);
-            streamWriter.Flush();
-
-            StreamReader streamReaderReceive = new StreamReader(bufferedStreamWhois);
-
-            while (!streamReaderReceive.EndOfStream)
-                stringBuilderResult.AppendLine(streamReaderReceive.ReadLine());
-
-            return stringBuilderResult.ToString();
         }
 
         static string ParseNameServer(string ns)

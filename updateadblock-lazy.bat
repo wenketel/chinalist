@@ -1,2 +1,2 @@
-ABPUtils.exe merge adblock.txt patch
+ABPUtils.exe -m -i=adblock.txt -o=adblock-lazy.txt
 @pause
