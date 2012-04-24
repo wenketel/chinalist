@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: XGIVVFsS+XWbjzDsGnhepA
+!  Checksum: XzQuJEVas78Jq9x1zahJvA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 23 Apr 2012 20:40:59 +0800
+!  Last Modified:  Tue, 24 Apr 2012 09:00:00 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -14,6 +14,7 @@
 !  coding: utf-8, expires: 5 days
 !--CC-BY-SA 3.0 + Licensed, NO WARRANTY but Best Wishes----
 !----------------------------White List--------------------
+@@||img1.guokr.com/gkimage/$image
 @@||iphone4.tw/forums/news_proxy.php$xmlhttprequest
 @@||ad.ourgame.com/cgi-bin/insertflasha.js
 !---Shopping websites
@@ -1214,8 +1215,6 @@ gamebase.com.tw##.text_ad_full
 gamebase.com.tw##.wait_gbno1
 ||houdao.com/bans/hd.html$subdocument
 ||haiyou5.com/taobao.gif
-||loltw.net/static/img/adblock-
-loltw.net##[class^="adsense-"]
 ||ngacn.cc/common_res/js_adscommon.js
 ||ngacn.cc/common_res/js_bbs_adslist.js?120322
 @@||plu.cn/d/js/acmsd/thea44.js
@@ -1704,11 +1703,11 @@ win7china.com,win8china.com##.site_ad
 
 !----------------------------ads-union---------------------
 !--popup
-||116b.com^$image,~image,popup
-||gd.189.cn/ad/$image,~image,popup
-||web.7k7k.com^$image,~image,popup
-||arpg2.com^$image,~image,popup
-||resmkt.dipan.com^$image,~image,popup
+||116b.com^$image,~image,third-party,popup
+||gd.189.cn^*_ad$image,~image,third-party,popup
+||web.7k7k.com^$image,~image,third-party,popup
+||arpg2.com^$image,~image,third-party,popup
+||resmkt.dipan.com^$image,~image,third-party,popup
 !--9v
 ||9vcpc.cn^$third-party
 ||f.9vcpm.cn^$third-party
@@ -1905,6 +1904,7 @@ win7china.com,win8china.com##.site_ad
 ||flashads.cn^$third-party
 ||flashwing.net^$third-party
 ||flunion.cn^$third-party
+||game3896.com^$third-party
 ||gamecps.com^$third-party
 ||gameone.com^$third-party
 ||resource.gamediad.com^$third-party
@@ -1925,6 +1925,7 @@ win7china.com,win8china.com##.site_ad
 ||hoyiad.com^$third-party
 ||huoli.com^$third-party
 ||i-power.hk^$third-party
+||i-qianming.cn^$third-party
 ||icast.cn^$third-party
 ||ifocus.cn^$third-party
 ||u.*.iciba.com^$third-party
@@ -2225,6 +2226,7 @@ bbs.imuyang.com###diy1
 ithome.com.tw##table[height="110"]
 jandan.net##.eggs
 jandan.net##.xy
+loltw.net##[class^="adsense-"]
 mobile01.com##[class^="ad-"]
 mobile01.com##.admicrobtn
 mobile01.com##a[href^="adredir.php"]
@@ -6397,6 +6399,7 @@ _a468x60.
 ###leftAdvert
 ###leftSectionAd300-100
 ###left_ad
+###left_ads
 ###left_adspace
 ###left_advertisement
 ~briefing.com###leftad
@@ -10261,6 +10264,7 @@ _a468x60.
 ||connectionads.com^$third-party
 ||connextra.com^$third-party
 ||content-cooperation.com^$third-party
+||contentdigital.info^$third-party
 ||contenture.com^$third-party
 ||contexlink.se^$third-party
 ||contextuads.com^$third-party
@@ -12047,6 +12051,9 @@ _a468x60.
 ||ver-pelis.net/player/servers/otros.js
 ! *** easylist:easylist_adult/adult_thirdparty.txt ***
 ||1800freecams.com^$image,~image,popup,third-party
+||213.174.130.10/banners/$domain=dickbig.net
+||213.174.130.8/banners/$domain=dickbig.net
+||213.174.130.9/banners/$domain=dickbig.net
 ||213.174.140.76^*/js/msn-$script
 ||213.174.140.76^*/js/msn.js
 ||21sextury.com^$image,~image,popup
@@ -13060,6 +13067,7 @@ _comscore.js
 ||phonalytics.com^$third-party
 ||pickzor.com^$third-party
 ||pikzor.com^$third-party
+||pixelsnippet.com^$third-party
 ||pjtra.com^$third-party
 ||plecki.com^$third-party
 ||plugin.ws^$third-party
@@ -13528,6 +13536,7 @@ _comscore.js
 ||gstatic.com/gadf/ga_dyn.js
 ||harvester.ext.square-enix-europe.com^
 ||haymarket.com/injector/deliver/
+||herokuapp.com/track?
 ||hits.dealer.com^
 ||hits.informer.com^
 ||hits.top.lv^
