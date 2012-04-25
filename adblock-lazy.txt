@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: d3KOjA3595M9OGSbD3iXcw
+!  Checksum: t7NIQKx/aWOq+DI2MbwLGQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 25 Apr 2012 21:30:25 +0800
+!  Last Modified:  Wed, 25 Apr 2012 23:21:30 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1094,7 +1094,6 @@ ynet.com###ta01
 ||e.stat.youku.com^
 soku.com###ab_282
 youku.com##.sideCol > div[class^="AB"]
-www.youku.com###indexad_intel
 
 !---人人影视
 ||copy.ousns.com^$image
@@ -1326,22 +1325,24 @@ yesky.com##[class^="ad"]
 
 !---Online Novel/Comic Sites
 @@/configs/article/bottom.js
-@@/configs/article/pagetop.js
 @@/configs/article/pagebottom.js
+@@/configs/article/pagetop.js
+/aitw/*$script,subdocument
 /configs/article/*$script,subdocument
 /configs/article/gggg/*
 /wjj/*
 ||17dm.com/s/common/js/*AD.js
-||img.17k.com/channel/qita/
+||img.17k.com/channel/
 ||log.17k.com^
 17k.com##[id^="ad0"]
 @@||17kanshu.net/17kanshuad/zhangjiezuo$script
 ||17kanshu.net/17kanshuad/
 ||js.17kkmh.com/scriptAD/
-@@||24novel.com^$elemhide
+@@||24novel.com/files/article/html/$elemhide
 ||site.24novel.com/js/readbottom.js
-||resource.3gsc.com.cn/js/guanghui/guanghui.js
-||resource.3gsc.com.cn/js/bookad/
+||imghw.3gsc.com.cn^
+3gsc.com.cn##.header-banner
+3gsc.com.cn##.area > a[href^="http://wan.3gsc.com.cn"]
 ||33xs.com/hot/
 ||33xs.com/js/mg
 ||t.33xs.com/js/g
@@ -1359,60 +1360,47 @@ yesky.com##[class^="ad"]
 ||58xs.com/hot/
 ||59to.com/myjs/$script
 ||8comic.com/images/mobile-
-@@||jj.5ccc.net/scripts/new/pagebottom2.js
+||8comic.com/js/top.js
 @@||jj.5ccc.net/scripts/new/pagetop.js
-||5ccc.net/scripts/articleinfo.js
 ||jj.5ccc.net^
 ||87ks.com/93xw/$script
-@@||89890.com/js/bd2.js
-@@||89890.com/Js/Vol*.js
-||89890.com/js/
-||mh.99770.cc^$subdocument
-||mh.99770.cc/x/p*.js
-||mh.99770.cc/x/t.js
 ||99comic.com/jsc/book_
 ||9lala.com/js/
-@@||dm.99manga.com/jsc/book.js
-@@||dm.99manga.com/w/i.js
-||dm.99manga.com^$script,subdocument
 ||aixiaoshuo.com.cn/counts/count.js
 ||baishuzhai.com/wlxsjs/bd0$script
 ||baishuzhai.com/wlxsjs/bdSearch_mid.js
 ||baishuzhai.com/wlxsjs/chapter.js
 ||baishuzhai.com/wlxsjs/*gg$script
 ||baishuku.com/news/$script
-||static.bengou.com/js2/guga_
 @@||bookcu.com/js/bar.js
 ||bookcu.com^$script,subdocument
+||bookgew.com/hz1/
 ||bookgew.com/ml85/
 ||bookgew.com/rar/
 ||bookgew.com/zj85/
-bookgew.com###msg_win
 ||booksky.org/popa.js
 ||cc222.com/cc222Ads/
 ||cc222.com/_javascript/popupWin.js
 ||cococomic.com/g/
 ||cococomic.com/v3/t.js
-@@||d9cn.org/js/read_6.js
-||d9cn.org/js/
-||d3zw.com/js/list*.aspx
-||d3zw.com/js/read*.aspx
-||dddbbb.net^$script
-||dm5.com^*/qu.html
+||d3zw.com/js/*.aspx
+||dddbbb.net^$script,subdocument
+||dm5.com/qu.html
 ||js.tel.dm5.com/default/js/yb_tc.js
 dm5.com##.a8ad
 dm5.com##.cl760
 dm5.com##.cl970
 ||dudu8.net/a_d/
-@@||duyidu.com/includehtml/newjs/fenye.js
-||duyidu.com/includehtml/$script
+||img.duyidu.com/includehtml/newjs/2.js
+||img.duyidu.com/includehtml/newjs/5.js
+||img.duyidu.com/includehtml/newjs/m4.js
+||img.duyidu.com/includehtml/newjs/tj.js
 ||duzheju.com/files/friend/
 ||s.faloo.com/novel/ad.js
-||js.fengwu.net/baidu.js
+||js.fengwu.net/baidu/index.js
 ||fygxs.com/Skin/duodu/$script
 ||geiliwx.com/read/ad*.js
 ||ggyy8.cc/js/v/
-||pic.hongxiu.com/fox/hx/
 ||hotsk.com/js/asp.js
 ||hotsk.com/js/fy.js
 ||hszw.com/inc/
@@ -1421,11 +1409,12 @@ dm5.com##.cl970
 ||imanhua.com^*/money/
 ||jpnovel.com/myjs/
 ||i.kanshu.la/js/001.js
-@@||kukudm.com/js2/$script
+||ktkkt.com/js/cnbeta/
+@@||comic.kukudm.com/js2/js4.js
 ||kukudm.com^$script
 ||laishu.com/lsgg/
-||laishu.com/mb/
 ||laiwx.com/js/
+||laiwx.com/neixiong/js/read.js
 ||mywenxue.com/Skin/Default/js/fdad.js
 ||mywenxue.com/Skin/Default/Css/fdad.Css
 ||narutom.com/v2/js/198game_Lt.js
@@ -1438,41 +1427,35 @@ narutom.com##[id^="itaTop"]
 ||paoshu8.com/js/gg$script
 paoshu8.com##[id^="ad_"]
 paoshu8.com###TextTitle ~ table[border="0"]
-||quanben.net/js/
 ||quanben.com/themes/quanben/qj.js
 ||ranwen.cc/js/m/
 ||readnovel.com/js/$subdocument
-readnovel.com##.zzq_yd_ad
 ||ruyu.org/js/
 ||bbs.sfw.com.cn/attachments/
 @@||shanwen.com/configs/article/pagetop3.js
 ||shanwen.com^$script
 ||shukeju.com/contentjs/
-||shuoshuo520.com/scripts/readindex/
+||shuoshuo520.com/js/960.js
+||shuoshuo520.com/scripts/read$script
+||shushuw.cn/js/eteadx2011.js
 shushuw.cn##.bdad
 ||ttshu.com/js/
-||tvbkt.cn/js/cnbeta/
-||uczw.com/js/$~stylesheet
 ||wanshulou.com/skin/js/
 ||wenchangshuyuan.com/contentjs/
 @@||xiaoshuo570.com/scripts/read/page.js
-||xiaoshuo570.com/scripts/read*/$script
+||xiaoshuo570.com/scripts/read$script
 ||xiaoyanwenxue.com/contentjs/
-@@||xiaoxiucai.org/js/default.js
-||xiaoxiucai.org/js/
+||xiaoxiucai.org/js/*ad$script
 ||xiashu.net/js/*Ad.js
 ||xiazailou.com^*/ad$script
 ||xiazailou.com/js/new/read01.js
 ||xizibook.com/js_ad/
 ||xkzw.org/wlxsjs/
 ||xntk.net^$script
-||xs8.cn/data/apic/$image
 ||xs8.cn/data/iframe/$script
-||images.xxsy.net/sygg/
 ||images.xxsy.net/js/xxsypop.js
-@@||yankuai.com/ads/pagebottom.js
 ||ydnovel.com/js/topp.js
-||yueshuba.com^$script
+||yueshuba.com/js/
 @@||zzzcn.com^$elemhide
 ||zzzcn.com/3z/
 
@@ -2153,7 +2136,7 @@ win7china.com,win8china.com##.site_ad
 |http://*/gg/$~stylesheet
 |http://*/i.js$third-party
 |http://*/js/ad/
-|http://*/tc.js
+|http://*/js/tc.js
 |http://*.tw/ad/
 |https://*/ad/
 /images/prom/*
@@ -2257,6 +2240,7 @@ xfastest.com##[class^="ad"]
 tudou.com###icast_banner
 ||res.mfs.ykimg.com/051000004F967C999792737B8D0896BB.jpg
 ||res.mfs.ykimg.com/051000004F977A8F9792733E9304BF86.jpg
+www.youku.com###indexad_intel
 @@||drmcmm.baidu.com/media/$image,domain=zhibo8.cc|zhibo8.com
 !-----------------------EasyList----------------------------
 ! *** easylist:easylist/easylist_general_block.txt ***
