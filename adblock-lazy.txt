@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: pSJSiBVZK4hswawVq+6k4w
+!  Checksum: vfnSuxGAYT2GeLjIjBgDQw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 24 Apr 2012 21:43:22 +0800
+!  Last Modified:  Wed, 25 Apr 2012 12:45:47 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -231,7 +231,9 @@ bitauto.com##.con_ad
 !---中国新闻网
 /ad2008/*$domain=chinanews.com
 /fileftp/*$object,domain=chinanews.com
+chinanews.com###adhzh
 chinanews.com###ngg
+chinanews.com###qizhi_div980
 
 !---CCTV
 @@||baidu.cntv.cn/player/baidu_ad.js
@@ -2586,6 +2588,7 @@ xfastest.com##[class^="ad"]
 /adboxes/*
 /adbrite.
 /adbureau.
+/adbytes.
 /adcampaigns/*
 /adcde.js
 /adcell/*
@@ -3775,6 +3778,7 @@ xfastest.com##[class^="ad"]
 /oiopub-direct/*$~stylesheet
 /omb-ad-
 /online_ads/*
+/onlineads/*
 /openads-
 /openads.
 /openads/*
@@ -4150,6 +4154,7 @@ xfastest.com##[class^="ad"]
 /wallpaper_ads/*
 /wallpaperads/*
 /wbadvert/*
+/weather/ads/*
 /webad?
 /webadimg/*
 /webads.
@@ -7019,6 +7024,7 @@ _a468x60.
 ###wallpaperAd_left
 ###wallpaperAd_right
 ###walltopad
+###weatherad
 ###weblink_ads_container
 ###welcomeAdsContainer
 ###welcome_ad_mrec
@@ -11844,6 +11850,7 @@ _a468x60.
 ||qiksilver.net^*/banners/
 ||qualoo.net/now/interstitial/
 ||quirk.biz/webtracking/
+||rack.bauermedia.co.uk^
 ||rackcorp.com^$image,~image,popup
 ||radiocentre.ca/randomimages/$third-party
 ||radioshack.com^*/promo/
@@ -11987,6 +11994,10 @@ _a468x60.
 ||twivert.com/external/banner234x60.
 ||u-loader.com/image/hotspot_
 ||ubuntudeal.co.za^$subdocument,third-party
+||ukrd.com/image/*-160x133.jpg
+||ukrd.com/image/*-160x160.png
+||ukrd.com/images/icons/amazon.png
+||ukrd.com/images/icons/itunes.png
 ||ul.to/ref/
 ||ultimatewebtraffic.info/images/fbautocash
 ||uniblue.com^*/affiliates/
@@ -12171,6 +12182,8 @@ _a468x60.
 ||pop6.adultfriendfinder.com^
 ||pop6.com/javascript/im_box-*.js
 ||popit.mediumpimpin.com^
+||pornoh.info^$image,third-party
+||pornoh.info^$image,~image,popup
 ||pornprosnetwork.com/affiliates/
 ||pornturbo.com^*.php?*&cmp=$subdocument,third-party
 ||premiumhdv.com/bn/
@@ -13582,6 +13595,7 @@ _comscore.js
 ||livepassdl.conviva.com^
 ||lockerz.com/1x1.gif?
 ||log.adap.tv^$object-subrequest
+||logs.vmixcore.com^
 ||longtailvideo.com^*/googlytics-
 ||longtailvideo.com^*/yourlytics-
 ||loomia.com^*/setcookie.html
