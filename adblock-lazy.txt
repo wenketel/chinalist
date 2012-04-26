@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: t7NIQKx/aWOq+DI2MbwLGQ
+!  Checksum: ViahP3+sDl1zFW4g9dwsIg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 25 Apr 2012 23:21:30 +0800
+!  Last Modified:  Thu, 26 Apr 2012 22:20:29 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -410,10 +410,10 @@ i.firefoxchina.cn,i.g-fox.cn###taobao_frame2
 ||pic.bahamut.com.tw/js/ad.js
 
 !---游民星空
-||gamersky.com^*bg_ol$image
 ||gamersky.com/frame/
 ||image.gamersky.com/img/
-||imgf.gamersky.com/300/fight950.swf
+||imgf.gamersky.com/*/$object
+||imgf.gamersky.com^*bg_ol$image
 |http://gamefiles.$object,domain=gamersky.com
 gamersky.com##.adc
 gamersky.com###clickbg
@@ -482,6 +482,7 @@ hupu.com###HCFull
 ||ifeng.com/tres/recommend/
 ||bc.ifeng.com^
 ||comment.ifeng.com/count_
+||games.ifeng.com/webgame/
 ||img.ifeng.com/tres/$image,~image,popup
 ||img.ifeng.com/tres/html/
 ||img.ifeng.com/tres/ifeng/
@@ -1723,6 +1724,7 @@ win7china.com,win8china.com##.site_ad
 ||js.17ol.org^$third-party
 ||118114.cn^$third-party
 ||122.com.tw^$third-party
+||129game.com^$third-party
 ||160ads.com^$third-party
 ||17leyi.com^$third-party
 ||178gg.com^$third-party
@@ -1831,6 +1833,7 @@ win7china.com,win8china.com##.site_ad
 ||advprotraffic.com^$third-party
 ||adwww.cn^$third-party
 ||adyeye.com^$third-party
+||adyun.com^$third-party
 ||adzhu.com^$third-party
 ||aiweb.tw^$third-party
 ||aldm88.com^$third-party
@@ -2494,6 +2497,7 @@ www.youku.com###indexad_intel
 /ad_function.
 /ad_gif/*
 /ad_google.
+/ad_head0.
 /ad_header_
 /ad_holder/*
 /ad_homepage_
@@ -5105,6 +5109,7 @@ _a468x60.
 ###adTextLink
 ###adText_container
 ###adTile
+###adTop
 ~ran.de###adTop
 ###adTop1
 ###adTopContent
@@ -8307,6 +8312,8 @@ _a468x60.
 ##.banner728x90
 ##.bannerADV
 ##.bannerAd
+##.bannerAdLeaderboard
+##.bannerAdRectangle
 ##.bannerAdWrapper300x250
 ##.bannerAdWrapper730x86
 ##.bannerAds
@@ -8842,6 +8849,7 @@ _a468x60.
 ##.hover_ads
 ##.hoverad
 ##.hp-col4-ads
+##.hp-inline-ss-service-ad
 ##.hp2-adtag
 ##.hp_320-250-ad
 ##.hp_ad_cont
@@ -9445,6 +9453,7 @@ _a468x60.
 ##.sponsored-links-right
 ##.sponsored-post
 ##.sponsored-post_ad
+##.sponsored-result
 ##.sponsored-results
 ##.sponsored-right-border
 ##.sponsored-text
@@ -9724,6 +9733,7 @@ _a468x60.
 ##.x04-adunit
 ##.x81_ad_detail
 ##.xads-blk-top-hld
+##.xads-blk-top2-hld
 ##.xads-blk2
 ##.xads-ojedn
 ##.y-ads
@@ -10841,6 +10851,7 @@ _a468x60.
 ||romance-net.com^$third-party
 ||rotaban.ru^$third-party
 ||rotatingad.com^$third-party
+||rotorads.com^$third-party
 ||rovion.com^$third-party
 ||roxyaffiliates.com^$third-party
 ||ru4.com^$third-party
@@ -11014,7 +11025,6 @@ _a468x60.
 ||unanimis.co.uk^$third-party
 ||undertone.com^$third-party
 ||unicast.com^$third-party
-||unicornmedia.com^$third-party
 ||unlockr.com^$third-party
 ||unrulymedia.com^$third-party
 ||upliftsearch.com^$third-party
@@ -11755,6 +11765,7 @@ _a468x60.
 ||mypromocenter.com^$image,~image,popup
 ||mytrafficstrategy.com/images/$third-party
 ||myusenet.net/promo.cgi?
+||mzstatic.com^$image,object-subrequest,domain=dailymotion.com
 ||namecheap.com/graphics/linkus/$third-party
 ||netdigix.com/google_banners/
 ||netload.in^*?refer_id=
@@ -12116,6 +12127,7 @@ _a468x60.
 ||fuckhub.net^*?pid=$third-party
 ||fuckshow.org^*&adr=$image,~image,popup
 ||gagthebitch.com/track/$third-party
+||galleries.videosz.com^$object,third-party
 ||geobanner.adultfriendfinder.com^
 ||geobanner.getiton.com^
 ||geobanner.socialflirt.com^
@@ -12199,6 +12211,7 @@ _a468x60.
 ||sexy.fling.com^$third-party
 ||sexycams.com/exports/$third-party
 ||share-image.com/borky/
+||simplyporndvd.com/banner.php?
 ||sleepgalleries.com/recips/$third-party
 ||smutmodels.com/banners/
 ||snrcash.com/profilerotator/$third-party
@@ -12969,6 +12982,7 @@ _comscore.js
 ||listrakbi.com^$third-party
 ||livecount.fr^$third-party
 ||livehit.net^$third-party
+||livestat.com^$third-party
 ||lloogg.com^$third-party
 ||lockview.cn^$third-party
 ||logaholic.com^$third-party
@@ -13008,6 +13022,7 @@ _comscore.js
 ||mmismm.com^$third-party
 ||mochibot.com^$third-party
 ||monetate.net^$third-party
+||mongoosemetrics.com^$third-party
 ||monitus.net^$third-party
 ||mouseflow.com^$third-party
 ||mousetrace.com^$third-party
@@ -13621,6 +13636,7 @@ _comscore.js
 ||neoworx.net/neocounter/
 ||netscape.com/c.cgi?
 ||newsinc.com/analytics_ping.htm?
+||nova.dice.net^
 ||nsdsvc.com/scripts/action-tracker.js
 ||oddcast.com/event.php?$object-subrequest
 ||offermatica.intuit.com^
@@ -13759,6 +13775,7 @@ _comscore.js
 ||trulia.com/trackingpixel.gif?
 ||trustsquare.net/trafficmonitor/
 ||tsk5.com/17*?*=ex-
+||turner.com^*/1pixel.gif?
 ||twitter.com/t.gif?
 ||twitter.com^*/t.gif?
 ||typekit.com/s.gif?
