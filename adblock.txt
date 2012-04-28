@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: MDLPh3e7jfVn+aEOUiJdDQ
+!  Checksum: mWL9Oq8eSPMHsJaMOXCPNg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 28 Apr 2012 10:13:31 +0800
+!  Last Modified:  Sat, 28 Apr 2012 13:03:59 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -972,8 +972,7 @@ udn.com###ads
 
 !---VeryCD
 ||sp.vcimg.com^
-verycd.com##.mainDiv > div[style]
-verycd.com##.rightDiv > div:first-child[style]
+verycd.com##.rightDiv > div[style^="width:250px;"]
 
 !---华声在线
 ||voc.com.cn/adsClick/
@@ -1624,7 +1623,8 @@ maxpda.com##[id^="dp-ads"]
 ||mojim.com/htm99t/iad.js
 ||mscbsc.com/gbook/search.gif
 mscbsc.com##.bao1
-||static1.mtime.cn^$subdocument
+||log.mtime.cn^
+||static1.mtime.cn^$subdocument,object_subrequest
 ||mycodes.net/js/$image
 ||newsmth.net/nForum/ajax/left_ads
 ||offcn.com/qzzn/
