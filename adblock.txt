@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: ZkiVi1Ee2KhQN1w5VP4G3A
+!  Checksum: xcWom8WCi68iTWQwjQ0Lvg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 28 Apr 2012 23:52:38 +0800
+!  Last Modified:  Sun, 29 Apr 2012 01:03:35 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -919,14 +919,16 @@ tgbus.com###navi + .area
 !---TianYa
 ||8*.tianya.cn^
 ||blog.tianya.cn/tuijian/tanchu.js
+||global.tianyaui.com/global/wizard/js/wizard.js
+||pinpai.tianya.cn^$subdocument
 ||stat.tianya.cn^
 ||static.tianyaui.com/js/2011/bbsclk.js
 ||static.tianyaui.com/js/2010/ContClick.js
 ||static.tianyaui.com/js/global/stat_20080313.js
-||global.tianyaui.com/global/wizard/js/wizard.js
 tianya.cn##[class^="ad_"]
 tianya.cn##[id*="_AD_"]
 tianya.cn###adsp_content_top_banner
+tianya.cn###adsp_list_top_banner
 
 !-tom365
 ||ff.wanlicity.com^
