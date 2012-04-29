@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 9H9Hz0A0H8f5i1kXl9Kggg
+!  Checksum: Aud7bmYsdFbptH8BNRYPqg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 29 Apr 2012 01:03:35 +0800
+!  Last Modified:  Sun, 29 Apr 2012 15:51:57 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -754,11 +754,14 @@ www.qq.com##.adArea > div:not(#adAreaD):not(#adAreaS):not(#gongyi)
 www.qq.com##.admiddle
 www.qq.com###charge_content
 www.qq.com###proAd
-!---unions
+!--unions
 ||tajs.qq.com^
 ||tcss.qq.com^
 ||wit.qq.com^$third-party
 !--qzone
+||analy.qq.com^
+||isdspeed.qq.com^
+||statistic.qzone.qq.com^
 ||os.qzs.qq.com/qzone/biz/gdt/
 
 !---巧巧读书
@@ -1140,7 +1143,6 @@ zongheng.com##.bodycon > .wrap:nth-child(3)
 
 !---天府在线
 /1.gif?$domain=scol.com.cn
-/afp/*$~image,domain=scol.com.cn
 ||scol.com.cn/js/def_
 ||scol.com.cn/scol-3/js/08scol_text_
 
@@ -2118,6 +2120,7 @@ win7china.com,win8china.com##.site_ad
 /adv/*
 /advpic/*
 /affiliate/*
+/afp/*
 .allyes.
 /allyes.
 .com/js/ad.
@@ -5686,6 +5689,7 @@ _a468x60.
 ###advertisementRight
 ###advertisementRightcolumn0
 ###advertisementRightcolumn1
+###advertisement_block
 ###advertisementsarticle
 ###advertiser-container
 ###advertiserLinks
@@ -8211,6 +8215,7 @@ _a468x60.
 ##.advertisementPanel
 ##.advertisementText
 ##.advertisement_300x250
+##.advertisement_block_468_60
 ##.advertisement_btm
 ##.advertisement_caption
 ##.advertisement_g
@@ -12053,6 +12058,7 @@ _a468x60.
 ||website.ws^*/banners/
 ||weeklyprizewinner.com-net.info^$image,~image,popup
 ||whistleout.s3.amazonaws.com^
+||widgeo.net/popup.js
 ||widget.awsmer.com^
 ||widget.crowdignite.com^
 ||widget.imshopping.com^$third-party
