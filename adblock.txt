@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: sSg3sMpR1hWkW+T2Om8l9Q
+!  Checksum: 6Pg8/PW+BUfUKksantC7Nw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 30 Apr 2012 19:06:42 +0800
+!  Last Modified:  Tue, 01 May 2012 12:44:22 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -1054,10 +1054,11 @@ gougou.com##.ggSideBox
 cn.yahoo.com##[class^="ad"]
 cn.yahoo.com###r_expandable
 !--TW
-||tw.rd.yahoo.com^$image
-||tw.img.webmaster.yahoo.com^*/ystats.gif
 @@/flash_general_20090213.js|$domain=tw.yahoo.com
 @@||l.yimg.com/zz/combo?*/ads/$script
+@@||l.yimg.com/f/a/tw/elephant/*_*_*_*.swf
+||tw.rd.yahoo.com^$image
+||tw.img.webmaster.yahoo.com^*/ystats.gif
 ||yimg.com/no/$domain=~yahoo.com
 ||l.yimg.com/d/lib/bc/bcr_2.0.5.js
 ||l.yimg.com/pq/
