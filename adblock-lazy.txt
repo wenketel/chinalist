@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: PuWyYYOfELj3Ebf9y8S1HA
+!  Checksum: gfEP3CaOz6q5a6lI1O6DLw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 02 May 2012 16:52:10 +0800
+!  Last Modified:  Wed, 02 May 2012 19:43:29 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -328,10 +328,9 @@ dayoo.com##.cn
 @@/common/cf/*.thumb$image
 /common/cf/*$image,object,domain=~discuz.net
 /image/common/ad_close.gif
+~xdjz.net###ads_c_tpc
 ##.a_h
 ##.a_mu
-~costcobbs.com##.a_pb
-~costcobbs.com,~bbs.imuyang.com##.a_pt
 discuz.net##.a_pr
 ~hk-pub.com##.ad_footerbanner
 ###ad_headerbanner
@@ -339,9 +338,6 @@ discuz.net##.a_pr
 ##.archiver_banner
 ##.wp.a_f
 ##.wp.a_t
-~xdjz.net###ads_c_tpc
-~163.com,~v.360.cn,~qq.com,~yyets.com,~zol.com.cn###focus.focus
-###sitefocus.focus
 
 !---discuss.com.hk
 /aeiou/*$domain=discuss.com.hk|uwants.com
@@ -638,6 +634,8 @@ nownews.com##.site_collection
 
 !---远景
 ||bbs.pcbeta.com/static/image/biz/
+bbs.pcbeta.com##.a_pt
+bbs.pcbeta.com##.a_pb
 bbs.pcbeta.com###pt + div[style] > div[style^="clear:both;"]
 bbs.pcbeta.com###diynavtop + .wp
 bbs.pcbeta.com##.forum_top + div[style]:nth-child(3)
@@ -1124,7 +1122,6 @@ zhulang.com##[class^="ad"]
 zhulang.com###reader_top
 
 !---ZOL
-@@||memory.zol.com.cn^$elemhide
 ||icon.zol-img.com.cn/cms/js/align.js$domain=memory.zol.com.cn
 ||pic.zol-img.com.cn^$object
 zol.com.cn##[id^="AD"]
