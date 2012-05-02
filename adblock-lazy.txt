@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: FBMvDOMM06z/zhPSr9BvMQ
+!  Checksum: PuWyYYOfELj3Ebf9y8S1HA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 02 May 2012 16:34:59 +0800
+!  Last Modified:  Wed, 02 May 2012 16:52:10 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -420,10 +420,11 @@ gamersky.com##.adc
 gamersky.com###clickbg
 
 !---机锋
-bbs.gfan.com##.ad_headerbanner
-bbs.gfan.com###section2
-www.gfan.com##.banner_468_60
-www.gfan.com##.h200
+||gfan.com/press/
+/staticts.html$domain=bbs.gfan.com
+bbs.gfan.com##.ad
+bbs.gfan.com###WPbbs_gl
+www.gfan.com##.banner
 
 !---即得
 /3721upApiAd.png$domain=good.gd
@@ -1298,6 +1299,7 @@ jjxw.cn##[class*="_ad"]
 www.pcpop.com##.Content > .l1:first-child
 ||sinovision.net/ui/js/adm.js
 ||singtao.com/*_ad*.js
+||solidot.org/admanage/
 ||stnn.cc/images/*ad*.js
 ||strtv.cn/publicimg/sitelink/
 ||strtv.cn/video/ad_
