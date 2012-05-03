@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: SThI477t4K5mopaMaKY+jA
+!  Checksum: iFZKY0EJs4nQGcapWQQKbQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 03 May 2012 15:15:32 +0800
+!  Last Modified:  Thu, 03 May 2012 16:52:47 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -141,6 +141,17 @@ v.6.cn###playerAd
 ||6park.com/parks/$script
 ||6park.com/wap/
 6park.com##table[width="978"][bgcolor="#ffffff"]:nth-child(5)
+
+!---99漫画
+/jsc/book_$domain=99comic.com|99manga.com
+/jsc/stat.js$domain=99comic.com|99manga.com
+||99comic.com/script/pub-js.js
+||99comic.com/x/p
+||99comic.com/x/t.js
+||99manga.com/w/p
+||99manga.com/w/t.js
+99comic.com,99manga.com##.sic
+99comic.com,99manga.com##.sid
 
 !---acfun.tv
 @@||static.acfun.tv/ads/port/ACFun-0424-2.jpg
@@ -902,6 +913,18 @@ sogou.com##.sponsored
 sogou.com###zhuanqu
 map.sogou.com###CboardDlg_1
 
+!---搜房
+||imgn.jiatx.com/jiatx/mall/outer/
+||soufun.com/html/homepage/ad/
+||show.soufun.com/adsunion/
+||js.soufunimg.com/count/
+||js.soufunimg.com/ggcp/uv/
+soufun.com##[class^="ad_"]
+soufun.com##.adtextlink
+soufun.com##.photo02
+soufun.com##.photo03
+soufun.com##.topbanner
+
 !---淘宝
 @@||tmatch.simba.taobao.com^$script
 ||acookie.*.gif?
@@ -1376,7 +1399,6 @@ yesky.com##[class^="ad"]
 @@||jj.5ccc.net/scripts/new/pagetop.js
 ||jj.5ccc.net^
 ||87ks.com/93xw/$script
-||99comic.com/jsc/book_
 ||9lala.com/js/
 ||aixiaoshuo.com.cn/counts/count.js
 ||baishuzhai.com/wlxsjs/bd0$script
