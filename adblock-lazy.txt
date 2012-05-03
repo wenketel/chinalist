@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: yzcLgEDIyGcNQWsjrJWuyQ
+!  Checksum: k9plIyciflzVq7vPKJH4MQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 02 May 2012 21:47:37 +0800
+!  Last Modified:  Thu, 03 May 2012 15:07:12 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1668,6 +1668,10 @@ tiyuba.tv##.gg_info
 ||tompda.com^$object
 ||txzqw.com/attachment321/
 /gif/*$domain=txzqw.com
+||u-car.com.tw/js/crazyad.js
+||newad.u-car.com.tw^
+u-car.com.tw##[class^="top"][class$="ad"]
+u-car.com.tw###ucar_ad_crazy
 ||u148.net/activity/$~object_subrequest
 ||bbs.uueasy.com/js/tao123.js
 bbs.uueasy.com###banner
@@ -2263,6 +2267,7 @@ xfastest.com##[class^="ad"]
 &ad_channel=
 &ad_keyword=
 &ad_type_
+&adbannerid=
 &adcount=
 &adname=
 &adserver=
@@ -2663,6 +2668,7 @@ xfastest.com##[class^="ad"]
 /adframecommon.
 /adframemiddle.
 /adframetop.
+/adfrequencycapping.
 /adfshow?
 /adfunction.
 /adfunctions.
@@ -4367,6 +4373,7 @@ _advertorial.
 _advertorial_
 _advertorials/
 _advertphoto.
+_adview?
 _adwrap.
 _afs_ads.
 _argus_ad_
@@ -11529,6 +11536,7 @@ _a468x60.
 ||datakl.com/banner/
 ||deals4thecure.com/widgets/*?affiliateurl=
 ||dealswarm.com^$subdocument,third-party
+||dealzone.co.za^$script,third-party
 ||delivery.tacticalrepublic.com^
 ||dennis.co.uk^*/siteskins/
 ||depositfiles.com^*.php?ref=

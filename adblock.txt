@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 4UqxmaGGsDhoNYVbBDx2PQ
+!  Checksum: ZCKwmJGaEjSbmkZXpAhllg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 02 May 2012 21:47:37 +0800
+!  Last Modified:  Thu, 03 May 2012 15:07:12 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -1667,6 +1667,10 @@ tiyuba.tv##.gg_info
 ||tompda.com^$object
 ||txzqw.com/attachment321/
 /gif/*$domain=txzqw.com
+||u-car.com.tw/js/crazyad.js
+||newad.u-car.com.tw^
+u-car.com.tw##[class^="top"][class$="ad"]
+u-car.com.tw###ucar_ad_crazy
 ||u148.net/activity/$~object_subrequest
 ||bbs.uueasy.com/js/tao123.js
 bbs.uueasy.com###banner
