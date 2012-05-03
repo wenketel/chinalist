@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: rskASXd4aOHvdV7EaIOKIw
+!  Checksum: txLONTvCSsFCyxpwvmEIRw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 03 May 2012 23:00:37 +0800
+!  Last Modified:  Thu, 03 May 2012 23:49:50 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -224,6 +224,7 @@ iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com###center > div:firs
 ||jsmsg.video.qiyi.com^
 ||msg.video.qiyi.com^
 iqiyi.com###adflash
+iqiyi.com##.first_adv
 iqiyi.com##.seed
 
 !---bilibili.tv
@@ -690,7 +691,10 @@ www.pixnet.net###extradiv5
 
 !---PPTV
 ||player.pplive.cn^*/PPLivePlugin.swf
+||stat.pptv.com^
 ||synacast.com^
+pptv.com##[id^="afp_"]
+pptv.com##.mini_player
 news.pptv.com##.mod_300x90
 news.pptv.com##.mod_660x90
 v.pptv.com##.ads
