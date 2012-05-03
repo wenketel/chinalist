@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: ZCKwmJGaEjSbmkZXpAhllg
+!  Checksum: Ou+reuxbQocD23SESg/p3g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 03 May 2012 15:07:12 +0800
+!  Last Modified:  Thu, 03 May 2012 15:15:32 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -953,6 +953,14 @@ tudou.com###adex_board
 !--player may incorrectly blocked by some subscriptions
 @@||js.tudouui.com/bin/player$object
 
+!---U-CAR
+||u-car.com.tw/js/crazyad.js
+||u-car.com.tw/images/navigator/home_title_middle_
+||u-car.com.tw/images/navigator/home_title_right.jpg
+||newad.u-car.com.tw^
+u-car.com.tw##[class^="top"][class$="ad"]
+u-car.com.tw###ucar_ad_crazy
+
 !---U17
 ||u17.com^$third-party
 u17.com##.ad_728_90
@@ -1667,10 +1675,6 @@ tiyuba.tv##.gg_info
 ||tompda.com^$object
 ||txzqw.com/attachment321/
 /gif/*$domain=txzqw.com
-||u-car.com.tw/js/crazyad.js
-||newad.u-car.com.tw^
-u-car.com.tw##[class^="top"][class$="ad"]
-u-car.com.tw###ucar_ad_crazy
 ||u148.net/activity/$~object_subrequest
 ||bbs.uueasy.com/js/tao123.js
 bbs.uueasy.com###banner
