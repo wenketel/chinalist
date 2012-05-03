@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: THXHodtMe5/EFxhueAmnKA
+!  Checksum: gxEjj83Q179wqoE/UP7WFg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 03 May 2012 23:49:50 +0800
+!  Last Modified:  Fri, 04 May 2012 04:03:13 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -432,6 +432,7 @@ gamersky.com###clickbg
 ||gfan.com/press/
 /staticts.html$domain=bbs.gfan.com
 bbs.gfan.com##.ad
+bbs.gfan.com###bbs_jxtj
 bbs.gfan.com###WPbbs_gl
 www.gfan.com##.banner
 
@@ -873,8 +874,8 @@ sina.com.cn##.adNone
 ||l.you.video.sina.com.cn^$object_subrequest
 video.sina.com.cn###bgad_div
 !-weibo
-weibo.com##[id^="ads"]
-weibo.com##.spread_adv
+weibo.com##[id^="ads_"]
+weibo.com##.footer_adv
 weibo.com##.tips_player
 !--sina.com.hk
 ||as.sinahk.net^
@@ -1265,8 +1266,8 @@ gamebase.com.tw##.wait_gbno1
 @@||plu.cn/d/js/acmsd/thea44.js
 ||lib.plu.cn/images/bg/
 @@||club.tgfcer.com/forum$elemhide
+||club.tgfcer.com/images/*960$image
 ||club.tgfcer.com/images/travelad.jpg
-||club.tgfcer.com/images/cj960_60.jpg
 ||bbs.verypsp.com^$script,subdocument
 verypsp.com##table[width="960"]
 ||wowmovies.cn/img/vda/
@@ -3909,6 +3910,7 @@ xfastest.com##[class^="ad"]
 /popunder_$image,~image,popup
 /popunderking.
 /popundr_
+/popupads.
 /post_ads_
 /ppd_ads.
 /ppd_ads_
@@ -4556,6 +4558,7 @@ _webad.
 /320x250.
 /336x280-
 /468-60.
+/468-banner.
 /468_60.
 /468x60-
 /468x60.
@@ -8174,6 +8177,7 @@ _a468x60.
 ##.advert-300-side
 ##.advert-300x100-side
 ##.advert-728x90
+##.advert-760
 ##.advert-article-bottom
 ##.advert-banner
 ##.advert-bannerad
@@ -10449,6 +10453,7 @@ _a468x60.
 ||eblastengine.com^$third-party
 ||ebuzzing.com^$third-party
 ||edgeads.org^$third-party
+||edomz.net^$third-party
 ||egamingonline.com^$third-party
 ||ekmas.com^$third-party
 ||emediate.ch^$third-party
@@ -11857,6 +11862,7 @@ _a468x60.
 ||noowmedia.com^$image,~image,popup
 ||nzpages.co.nz^*/banners/
 ||nzphoenix.com/nzgamer/$third-party
+||obox-design.com/affiliate-banners/
 ||oddcast.com/banners/
 ||onegameplace.com/iframe.php$third-party
 ||onlinekeystore.com/banner.php?

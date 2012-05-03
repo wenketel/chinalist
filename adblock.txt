@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: txLONTvCSsFCyxpwvmEIRw
+!  Checksum: MfCyFelLFFsqQMln902dPg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 03 May 2012 23:49:50 +0800
+!  Last Modified:  Fri, 04 May 2012 04:03:13 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -430,6 +430,7 @@ gamersky.com###clickbg
 ||gfan.com/press/
 /staticts.html$domain=bbs.gfan.com
 bbs.gfan.com##.ad
+bbs.gfan.com###bbs_jxtj
 bbs.gfan.com###WPbbs_gl
 www.gfan.com##.banner
 
@@ -871,8 +872,8 @@ sina.com.cn##.adNone
 ||l.you.video.sina.com.cn^$object_subrequest
 video.sina.com.cn###bgad_div
 !-weibo
-weibo.com##[id^="ads"]
-weibo.com##.spread_adv
+weibo.com##[id^="ads_"]
+weibo.com##.footer_adv
 weibo.com##.tips_player
 !--sina.com.hk
 ||as.sinahk.net^
@@ -1264,8 +1265,8 @@ gamebase.com.tw##.wait_gbno1
 @@||plu.cn/d/js/acmsd/thea44.js
 ||lib.plu.cn/images/bg/
 @@||club.tgfcer.com/forum$elemhide
+||club.tgfcer.com/images/*960$image
 ||club.tgfcer.com/images/travelad.jpg
-||club.tgfcer.com/images/cj960_60.jpg
 ||bbs.verypsp.com^$script,subdocument
 verypsp.com##table[width="960"]
 ||wowmovies.cn/img/vda/
