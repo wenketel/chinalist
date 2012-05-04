@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: nH5MnVNF1AmI4Rh2Nef+DA
+!  Checksum: 46e1a0iC0FTg+cHK7qQsBQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 04 May 2012 04:24:38 +0800
+!  Last Modified:  Fri, 04 May 2012 17:25:33 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -259,11 +259,6 @@ chinanews.com###qizhi_div980
 ||cntv.cn/library/script/flash_guanggaodiaoyong.js
 ||d.cntv.cn^
 ||log.player.cntv.cn^
-
-!---广东电信
-/clicktotal/ClickTotal.js
-||gd.ct10000.com/js/ecssstat.js
-||gd.ct10000.com/*/cms/push/$image,~image,popup
 
 !---中华网
 ||dvs.china.com^
@@ -709,7 +704,12 @@ down.qiannao.com###PageRigntAds
 down.qiannao.com##div[style="padding: 8px;"]
 
 !---盛大
-||dl.everbox.com/www/images/coop/$image
+||aa.sdo.com^
+||aagw.sdo.com^
+||adrs.sdo.com^
+||dwtracking.sdo.com^
+||ipic.staticsdo.com^
+||loginlog.sdo.com^
 !--起点中文网
 ||script.cmfu.com/ADScript/
 ||uedas.qdmm.com^
@@ -733,12 +733,6 @@ www.qidian.com##.RightAD
 jjwxc.net##[id^="adp_"]
 jjwxc.net##table[style^="width:984px;"]
 jjwxc.net##.h8px + div[align="center"]
-!--Tracking
-||aa.sdo.com^
-||aagw.sdo.com^
-||dwtracking.sdo.com^
-||ipic.staticsdo.com^
-||loginlog.sdo.com^
 
 !---奇虎
 ||hao.360.cn/css/monitorscript.js
@@ -1185,9 +1179,9 @@ zongheng.com##.bodycon > .wrap:nth-child(3)
 !----------------------------Generic(sort by domain name)--
 !---Blog Sites
 /krads-images/*$domain=36kr.com
-||appinn.com/wp-content/dolphin1.png
 ||appinn.com/wp-content/nanrenwa.jpg
 ||appinn.com/wp-content/uploads/$image
+appinn.com##.ads
 appinn.com##.gad
 ||img.chromi.org/2011/12/where-is-chromi.png
 ||rakuten-static.com^$domain=cwyuni.tw
@@ -1205,6 +1199,7 @@ cwyuni.tw###links-row-1 > div[id^="box"]:not(#box32499):not(#box533632)
 ||66ys.*/d/
 ||7edown.com/db/
 ||7edown.com/newbd/
+||7xdown.com/adgg/
 ||9553.com^$script,subdocument
 ||99d.com/js/web_5253_tanchuang.js
 ||abcdown.net/hezuo/
@@ -1738,6 +1733,12 @@ win7china.com,win8china.com##.site_ad
 ||zzsky.cn/images/a_d_
 
 !----------------------------ads-union---------------------
+!---广东电信
+/clicktotal/ClickTotal.js
+||gd.ct10000.com/js/ecssstat.js
+||gd.ct10000.com/*/cms/push/$image,~image,popup
+!---中国电信
+||189.cn/dns/
 !--popup
 ||100tjs.com^$image,~image,popup,third-party
 ||114zhaofang.com^$image,~image,popup,third-party
