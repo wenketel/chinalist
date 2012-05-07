@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: P/nVJ0x7V4bpHtaVy1Xj2w
+!  Checksum: u71AFXhzmTFOKG+THSwWNQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 06 May 2012 22:24:48 +0800
+!  Last Modified:  Mon, 07 May 2012 12:46:45 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -25,7 +25,6 @@
 !---Hiding filters shouldn't affect on these site.
 @@||51job.com^$elemhide
 @@||52vfx.com^$elemhide
-@@||bbs.9gal.com^$elemhide
 @@||xiazaiba.com^$elemhide
 !---Make sure video from those sites can be played correctly
 @@||union.bokecc.com^$object,object_subrequest,script
@@ -150,6 +149,10 @@ v.6.cn###playerAd
 ||99manga.com/w/t.js
 99comic.com,99manga.com##.sic
 99comic.com,99manga.com##.sid
+
+!---苍雪的世界
+@@||bbs.9baka.com^$elemhide
+@@||bbs.9gal.com^$elemhide
 
 !---acfun.tv
 @@||static.acfun.tv/ads/port/ACFun-0424-2.jpg
