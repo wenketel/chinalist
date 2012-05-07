@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: r6IzHZQOjdXd8snI5SWRyg
+!  Checksum: spG7zDySsgTdplkQuHXAfQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 07 May 2012 12:46:45 +0800
+!  Last Modified:  Mon, 07 May 2012 17:52:32 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1265,7 +1265,7 @@ gamebase.com.tw###ad725_txt
 gamebase.com.tw###news_title_ad
 gamebase.com.tw##.text_ad_full
 gamebase.com.tw##.wait_gbno1
-||houdao.com/bans/hd.html$subdocument
+||houdao.com/bans/
 ||haiyou5.com/taobao.gif
 ||ngacn.cc/common_res/js_adscommon.js
 ||ngacn.cc/common_res/js_bbs_adslist.js?120322
@@ -1278,6 +1278,9 @@ gamebase.com.tw##.wait_gbno1
 verypsp.com##table[width="960"]
 ||wowmovies.cn/img/vda/
 ||i02.youxigu.com/skin/youxigu/img/bg-new.jpg
+||yzz.cn/home/common/bbs_gg/
+||yzz.cn/home/theme/popwin/
+||yktj.yzz.cn^
 
 !---Net Disks
 ||st2.dbank.com/css/default/h-x.png
@@ -1561,6 +1564,7 @@ www.jstv.com##.jadv
 ||pic.2u.com.cn^$object
 ||stat.2u.com.cn/ol_2u.js
 ||2y2r.org/data/attachment/forum/
+2y2r.org###drk_ledtd
 ||500wancache.com/public/js/stats.js
 ||tongji.500wan.com^
 ||v3.apic.51.com/vda09.js
@@ -1580,6 +1584,8 @@ admin5.com##.notice
 ||bitscn.com/pic2009/a*.js
 ||c168c.com/*adv/
 ||cbifamily.com/corporation/
+||bbs.cfanclub.net/lmimages/001.gif
+||bbs.cfanclub.net/lmimages/960-602.gif
 ||chinacaipu.com^$subdocument
 ||images.chinaz.com/$subdocument
 @@||chiphell.com/activity/*/*/$image,script,stylesheet
@@ -1708,8 +1714,8 @@ subpig.net##.a_p
 tiyuba.tv##.gg_info
 ||topsage.com/service/$object
 ||tompda.com^$object
-||txzqw.com/attachment321/
-/gif/*$domain=txzqw.com
+/gif/*$image,domain=txzqw.com
+/img/*$image,domain=txzqw.com
 ||u148.net/activity/$~object_subrequest
 ||bbs.uueasy.com/js/tao123.js
 bbs.uueasy.com###banner
@@ -1737,6 +1743,7 @@ win7china.com,win8china.com##.site_ad
 ||zbinfo.net^*/ggw/
 ||cdnlog.zhenai.com^
 ||zhibowu.com/js/ad
+||zhibowu.com/js/dingbu.js
 ||zhongguo.ca/upload_files/label/
 ||zhulong.com/publicimg/
 ||zygod.net/js/
@@ -2159,8 +2166,8 @@ win7china.com,win8china.com##.site_ad
 ||zhiad.com^$third-party
 
 !----------------------------Other (sort by letter)--------
-/attachments/ad/*
 /acmsd/*$domain=~narutom.com
+/ad1.
 /adfiles/*
 /adflash/*
 /adimage/*
@@ -2179,6 +2186,7 @@ win7china.com,win8china.com##.site_ad
 /affiliate/*
 .allyes.
 /allyes.
+/attachments/ad/*
 .com/js/ad.
 .com/js/ad_
 .com.cn/js/ad.
