@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: PT3b43kuf1gKBnpit4HPjg
+!  Checksum: 9bPKMEwfaS1RsfCJQkAuLg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 07 May 2012 18:19:37 +0800
+!  Last Modified:  Mon, 07 May 2012 19:49:56 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -374,6 +374,14 @@ uwants.com###foruminfo + div[align="center"]
 ||duowan.com/duowan.js
 ||duowan.com/public/s/market_count.js
 ||market.duowan.com^
+
+!---东方财富网
+||eastmoney.com/count
+||eastmoney.com/images/uma.html
+||eastmoney.com/js/fs2012.js
+||same.eastmoney.com^
+eastmoney.com##.bannerE
+eastmoney.com##.banner
 
 !---矽谷动力
 ||enet.com.cn/UserTrack
@@ -1058,6 +1066,13 @@ xici.net##a[href^="http://xiciafp.allyes.com/main/adfclick"]
 ||content.xilu.com^$object
 ||newspage.xilu.com/model/visitlog.js
 
+!---新华网
+_iframe.htm|$domain=news.cn|xinhuanet.com
+||xinhuanet.com^*_tl_$script
+||xinhuanet.com/classad/
+||xinhuanet.com^*/ad_
+||embed.xinhuanet.com^
+
 !---西子湖畔
 ||a.xizi.com^
 ||app2.xizi.com/uploadfile/
@@ -1321,7 +1336,6 @@ ys168.com###xtxx
 ||cnhubei.com^*/g2
 ||daqi.com/clicklog.js
 ||log.daqi.com^
-||same.eastmoney.com^
 ||go.hangzhou.com.cn^
 ||hebei.com.cn/eap/
 ||hebei.com.cn/swf/
@@ -1369,10 +1383,6 @@ uusee.com##a[href*="alibaba.com"] ~ .v_jie
 @@||workercn.cn/c/$elemhide
 @@||news.workercn.cn/rollnews/c2/$elemhide
 ||workercn.cn/ufile/$object
-_iframe.htm|$domain=news.cn|xinhuanet.com
-||xinhuanet.com/classad/
-||xinhuanet.com^*/ad_
-||embed.xinhuanet.com^
 ||iads.xinmin.cn^
 ||media.yesky.com/
 yesky.com##[class^="ad"]
@@ -1791,15 +1801,16 @@ win7china.com,win8china.com##.site_ad
 ||114la.com^$third-party
 ||114lm.com^$third-party
 ||115.238.103.82^$third-party
+||118114.cn^$third-party
 ||155game.com^$third-party
+||160ads.com^$third-party
 ||17kuxun.com^$third-party
 ||js.17ol.org^$third-party
-||118114.cn^$third-party
 ||122.com.tw^$third-party
 ||129game.com^$third-party
-||160ads.com^$third-party
-||17leyi.com^$third-party
 ||178gg.com^$third-party
+||17leyi.com^$third-party
+||17pps.com^$third-party
 ||code.u.18dx.com^$third-party
 ||198game.$third-party
 ||1gou.com^$third-party
@@ -2241,7 +2252,7 @@ win7china.com,win8china.com##.site_ad
 |http://click.$image
 |http://pv.
 |http://pvstat.
-|http://*/pv.
+|http://*/pv.$image,script,object_subrequest
 |http://*/pv/$domain=~search.yahoo.com
 |http://*/tj.js
 |http://*/track.$image
