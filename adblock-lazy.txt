@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 41pohAe9BH6s21vy79OfXw
+!  Checksum: BoOONbZ1kE+ehUNA1d295Q
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 08 May 2012 06:17:56 +0800
+!  Last Modified:  Tue, 08 May 2012 13:45:39 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -441,6 +441,7 @@ gamersky.com##.adc
 gamersky.com###clickbg
 
 !---机锋
+/staticts.html$domain=bbs.gfan.com
 ||gfan.com/press/
 bbs.gfan.com###bbs_jxtj
 bbs.gfan.com###WPbbs_gl
@@ -754,6 +755,7 @@ jjwxc.net##.h8px + div[align="center"]
 ||hao.360.cn/css/monitorscript.js
 ||s.360.cn^
 ||clkstat.qihoo.com^
+bbs.360.cn##.aXd
 
 !---QQ
 @@||gtimg.com/img/ad/$image,domain=buy.qq.com
@@ -1007,6 +1009,17 @@ u-car.com.tw###ucar_ad_crazy
 u17.com##.ad_728_90
 u17.com##.w_728.pos_r.mylife
 u17.com##.www_hd_middle_ct
+
+!---游久网
+||uuu9.com/photolog.html
+||uuu9.com/code/tool_netgame/$image
+||stat.uuu9.com^
+uuu9.com##[class^="ad_"]
+uuu9.com##.h_50
+uuu9.com###top1
+news.uuu9.com##.adfocusbox
+www.uuu9.com##.ads_new
+www.uuu9.com###ban1
 
 !---bbs.vc52.cn
 @@||gg.a.5d6d.$image,object_subrequest
@@ -1766,11 +1779,10 @@ win7china.com,win8china.com##.site_ad
 ||zzsky.cn/images/a_d_
 
 !----------------------------ads-union---------------------
-!---广东电信
+!---中国电信
 /clicktotal/ClickTotal.js
 ||gd.ct10000.com/js/ecssstat.js
 ||gd.ct10000.com/*/cms/push/$image,~image,popup
-!---中国电信
 ||189.cn/dns/
 ||gd.189.cn/ad/$image,~image,popup,third-party
 !--popup
@@ -2263,7 +2275,7 @@ win7china.com,win8china.com##.site_ad
 /pingd?
 /pv?peerid=
 /tongji.js
-/tracking.$image
+/tracking.$image,object_subrequest
 /usertrack.
 !--sort by domain
 ||50bang.org^$third-party
