@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 9RgwTtjEYglZy1Jw2IBZoA
+!  Checksum: Hdnu7ajBKaSta2HM1Cp66w
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 08 May 2012 22:32:49 +0800
+!  Last Modified:  Wed, 09 May 2012 05:10:54 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -597,11 +597,14 @@ mitbbs.com##.newskuang2
 mitbbs.com##table[width="950"]
 
 !---猫扑
-||mop.com/fxb/js/fxb$script
-||pub.mop.com/widget.jsp?
-||task.mop.com/mop_treasure.jsp
+||imgpub.mop.com^
 ||mopimg.cn/dc/
+||mopimg.cn/tj/
+||pub.mop.com^
+||task.mop.com/mop_treasure.jsp
+mop.com##[class^="adP"]
 dzh.mop.com##.adarea_top
+tt.mop.com###js-sub-body + div[style]
 
 !---驱动之家
 ||11.mydrivers.com/news/03.js
