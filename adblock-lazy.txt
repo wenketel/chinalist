@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: pyksJ+G4A7TqlQ9pREOh0A
+!  Checksum: hXFVb7MiRlyJv5lHdfzuPA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 08 May 2012 17:06:49 +0800
+!  Last Modified:  Tue, 08 May 2012 21:00:22 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -912,20 +912,25 @@ shm.com.cn##.surround2
 ||images.sohu.com/bill/
 ||images.sohu.com/cs/
 ||images.sohu.com/sms/$~object_subrequest
+||img.mms.sohu.com/12530/js/pop12530_init.js
 ||js.sohu.com/track/
-||js.sohu.com/wrating0820.js
 sohu.com,chinaren.com##sohuadcode
-sohu.com###ad_TOP
-sohu.com##[class^="contAD"]
+www.sohu.com###ad_TOP
+www.sohu.com###contentC > .columnC
 ting.m.sohu.com##.topPic
 !--tv
 /get.gif?$domain=sohu.com
-||sohu.com/*.do?$image,object_subrequest
-||sohu.com/*.gif?$image,object_subrequest
+||sohu.com/*.do?$object_subrequest
+||sohu.com/*.gif?$object_subrequest
 ||sohu.com/tv/csad/
-||sohu.com.cn/*.do?$image,object_subrequest
-||sohu.com.cn/*.gif?$image,object_subrequest
+||sohu.com.cn/*.do?$object_subrequest
+||sohu.com.cn/*.gif?$object_subrequest
 ||aty*.tv.sohu.com^
+||tv.sohu.com/upload/ad_fr/
+||tv.sohu.com/upload/csad/
+||tv.sohu.com/upload/trace/
+||js2.my.tv.sohu.com.cn/ppp/*/control.js
+||js2.my.tv.sohu.com.cn/ppp/*/play.js
 ||count.vrs.sohu.com^
 !--Sogou
 ||sogou.com/js/pb_*.js
@@ -1083,6 +1088,7 @@ xici.net##a[href^="http://xiciafp.allyes.com/main/adfclick"]
 ||newspage.xilu.com/model/visitlog.js
 
 !---新华网
+@@||xinhuanet.com/static/rmedia/pv.swf
 _iframe.htm|$domain=news.cn|xinhuanet.com
 ||xinhuanet.com^*_tl_$script
 ||xinhuanet.com/classad/
@@ -2273,7 +2279,7 @@ win7china.com,win8china.com##.site_ad
 |http://click.$image
 |http://pv.
 |http://pvstat.
-|http://*/pv.$image,script,object_subrequest
+|http://*/pv.
 |http://*/pv/$domain=~search.yahoo.com
 |http://*/tj.js
 |http://*/track.$image
@@ -2295,7 +2301,7 @@ win7china.com,win8china.com##.site_ad
 ||cms.grandcloud.cn^$third-party
 ||cdn.hiido.cn^$third-party
 ||hotrank.com.tw^$third-party
-||irs01.net^$third-party
+||irs01.$third-party
 ||irs09.com^$third-party
 ||jiankongbao.com^$third-party
 ||phpstat.com^$third-party
