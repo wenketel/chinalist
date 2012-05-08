@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 3JPbrCMoyYVZe850SzXlbA
+!  Checksum: UR6VqFnR40rOTw92OtLYiQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 08 May 2012 21:11:10 +0800
+!  Last Modified:  Tue, 08 May 2012 21:45:50 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -44,7 +44,7 @@
 ||img2.126.net^
 ||analytics.163.com^
 ||g.163.com^
-||v.163.com/special/
+||v.163.com/special/$domain=~open.163.com
 163.com##[class^="gg"]
 blog.163.com##.m-postadlayer
 reg.163.com###adhref
@@ -2360,5 +2360,6 @@ xfastest.com##[class^="ad"]
 ||image.10010.com/index_js/flash-ad$script
 @@||ad.mokoid.com^$domain=android-day.com|mokoid.com
 ||nanrenwa.com/_img/a/$third-party
+||pfp.sina.com.cn/iframe/2012nonghangguanggaotest1.html
 @@||drmcmm.baidu.com/media/$image,domain=zhibo8.cc|zhibo8.com
 !------------------------End of List-------------------------
