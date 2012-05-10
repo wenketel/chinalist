@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: ZnjhIXj+8m0DhjL/63/8Uw
+!  Checksum: pqsTTl0xJfdTvzLWCIrI4g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 10 May 2012 22:22:12 +0800
+!  Last Modified:  Fri, 11 May 2012 00:43:35 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -569,14 +569,17 @@ kkkmh.com##[class^="mm-"]
 bt.ktxp.com##.downloadbox + div[style]
 
 !---Ku6
+@@||css.ku6cdn.com/comm/gg/$image
 ||st.vq.ku6.cn^
 ||log*.ku6.com^
 ||stat.ku6.com^$object_subrequest
 ||gug.ku6cdn.com^
 v.ku6.com##[id^="gg"]
 www.ku6.com##[class^="a_d0608"]
-!--for embedded videos
-@@||ku6afp.allyes.com/crossdomain.xml
+!--embedded
+@@||g.aa.sdo.com/crossdomain.xml$domain=~ku6.com
+@@||g.aa.sdo.com/?method=getversion$object_subrequest,domain=~ku6.com
+@@||pic.snyu.com/sdk*/Main.swf$domain=~ku6.com
 
 !---MSN
 !-CN
@@ -1119,14 +1122,15 @@ xj163.cn##[class^="ad"]
 ||biz*.sandai.net^
 ||cpm.cm.sandai.net^
 ||float.sandai.net^
-||xunlei.com/?u=
+||kkpgv2.xunlei.com^
 ||images.client.xunlei.com/gougou_recommend/
-||misc.web.xunlei.com/kkpv/kkpv.js
+||misc.web.xunlei.com/kkpv/
 ||misc.web.xunlei.com^*/kankan_click$script
 ||dynamic.vod.lixian.xunlei.com^$image
 ||i.vod.xunlei.com^$image,object_subrequest
-gougou.com##.ggAD
-gougou.com##.ggSideBox
+!--狗狗搜索
+||img.gougou.com/down/aishangwang2.jpg
+||s.gougou.com^
 !--unions
 ||un.so.gougou.com^$third-party
 ||analytics-union.sandai.net^$third-party
@@ -2050,10 +2054,10 @@ win7china.com,win8china.com##.site_ad
 ||is686.com^$third-party
 ||ishare.tw^$subdocument,third-party
 ||izptech.com^$third-party
-||jiling0432.info^$third-party
 ||jdunion.com^$third-party
 ||down.jialichuang.com^$third-party
 ||jidian5.com^$third-party
+||jiling0432.info^$third-party
 ||jingpi.net^$third-party
 ||jingwei.net^$third-party
 ||jinniu168.com^$third-party
@@ -6854,6 +6858,7 @@ _a468x60.
 ###searchAdSkyscraperBox
 ~logic-immo.be###search_ads
 ###search_result_ad
+###searchsponsor
 ###sec_adspace
 ###second-adlayer
 ###secondBoxAdContainer
@@ -11242,6 +11247,7 @@ _a468x60.
 ||videostrip.com^*/admatcherclient.$object-subrequest,third-party
 ||vidpay.com^$third-party
 ||viedeo2k.tv^$third-party
+||viglink.com^$third-party
 ||vipquesting.com^$third-party
 ||visiblegains.com^$third-party
 ||visitdetails.com^$third-party
@@ -13488,7 +13494,6 @@ _comscore.js
 ||vertical-leap.co.uk^$third-party
 ||vertical-leap.net^$third-party
 ||vertster.com^$third-party
-||viglink.com^$third-party
 ||virtualnet.co.uk^$third-party
 ||visiblemeasures.com/log?$object-subrequest,third-party
 ||visiblemeasures.com/swf/as3/as3sohandler.swf$object-subrequest,third-party
