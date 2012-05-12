@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: KfC5YSi7heXx0Bute48xOg
+!  Checksum: 2h+Pua1ICYEWE1WFLUWbjQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 12 May 2012 21:17:24 +0800
+!  Last Modified:  Sun, 13 May 2012 01:11:43 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -274,11 +274,18 @@ chinanews.com###qizhi_div980
 ||qiye.cctv.com/js/
 
 !---中华网
-||dvs.china.com^
-||china.com/zh_cn/etc/$subdocument
+/googleAds3Wide.js
 ||blog.china.com/u/dvpush/$subdocument
+||dvs.china.com^
 china.com##.gg
-club.china.com##.headbanner
+china.com##.gg950
+china.com##.headbanner
+finance.caicai98.com##.hzhcon
+news.china.com###clm01
+!--finance
+||finance.caicai98.com/js/jhq/
+||finance.caicai98.com/jsfiles/caicaigg/
+caicai98.com,finance.china.com##[class^="gg"]
 
 !---中国战略网
 ||chinaiiss.com/include/js/function.ad.js
@@ -1820,7 +1827,8 @@ win7china.com,win8china.com##.site_ad
 !---中国电信
 /clicktotal/ClickTotal.js
 ||gd.ct10000.com/js/ecssstat.js
-||gd.ct10000.com/*/cms/push/$image,~image,popup
+||gd.ct10000.com^*/push/$image,~image,popup
+||gd.189.cn^*/push/$image,~image,popup
 ||189.cn/dns/
 ||gd.189.cn/ad/$image,~image,popup,third-party
 !--popup
@@ -2312,7 +2320,7 @@ win7china.com,win8china.com##.site_ad
 |http://*/pv.
 |http://*/pv/$domain=~search.yahoo.com
 |http://*/tj.js
-|http://*/track.$image
+|http://*/track.$~objectd
 |http://track.
 /ktrace/ktrace$script
 /pingd?

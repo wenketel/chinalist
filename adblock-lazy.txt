@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: bmjqpgseseTTTXLyOssnRA
+!  Checksum: 3j/Rw1MjDHOCM//DyzqEcA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 12 May 2012 21:17:24 +0800
+!  Last Modified:  Sun, 13 May 2012 01:11:44 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -276,11 +276,18 @@ chinanews.com###qizhi_div980
 ||qiye.cctv.com/js/
 
 !---中华网
-||dvs.china.com^
-||china.com/zh_cn/etc/$subdocument
+/googleAds3Wide.js
 ||blog.china.com/u/dvpush/$subdocument
+||dvs.china.com^
 china.com##.gg
-club.china.com##.headbanner
+china.com##.gg950
+china.com##.headbanner
+finance.caicai98.com##.hzhcon
+news.china.com###clm01
+!--finance
+||finance.caicai98.com/js/jhq/
+||finance.caicai98.com/jsfiles/caicaigg/
+caicai98.com,finance.china.com##[class^="gg"]
 
 !---中国战略网
 ||chinaiiss.com/include/js/function.ad.js
@@ -1821,7 +1828,8 @@ win7china.com,win8china.com##.site_ad
 !---中国电信
 /clicktotal/ClickTotal.js
 ||gd.ct10000.com/js/ecssstat.js
-||gd.ct10000.com/*/cms/push/$image,~image,popup
+||gd.ct10000.com^*/push/$image,~image,popup
+||gd.189.cn^*/push/$image,~image,popup
 ||189.cn/dns/
 ||gd.189.cn/ad/$image,~image,popup,third-party
 !--popup
@@ -2313,7 +2321,7 @@ win7china.com,win8china.com##.site_ad
 |http://*/pv.
 |http://*/pv/$domain=~search.yahoo.com
 |http://*/tj.js
-|http://*/track.$image
+|http://*/track.$~objectd
 |http://track.
 /ktrace/ktrace$script
 /pingd?
@@ -4012,6 +4020,7 @@ xfastest.com##[class^="ad"]
 /popunder_
 /popunder_$image,~image,popup
 /popunderking.
+/popundr.
 /popundr_
 /popup-domination/*
 /popupads.
@@ -5432,6 +5441,7 @@ _a468x60.
 ~seeon.tv###ad_overlay
 ###ad_place
 ###ad_play_300
+###ad_post_300
 ###ad_rect
 ###ad_rect_body
 ###ad_rect_bottom
@@ -7806,6 +7816,7 @@ _a468x60.
 ##.ad_925x90
 ##.ad_Left
 ~nirmaltv.com##.ad_Right
+##.ad_ad_160
 ##.ad_ad_300
 ##.ad_amazon
 ##.ad_background
@@ -11464,6 +11475,7 @@ _a468x60.
 ||startwebpromo.com^$third-party
 ||sv2.biz^$third-party
 ||targetingnow.com^$third-party
+||the-adult-company.com^$third-party
 ||tinyweene.com^$third-party
 ||trafficholder.com^$image,~image,popup
 ||trafficlearn.com^$third-party
