@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: uaJrgQ+oX0KjoP7dz+lYaQ
+!  Checksum: +lIFaS5eGiCAzyzhVhGjnQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 11 May 2012 21:19:59 +0800
+!  Last Modified:  Sat, 12 May 2012 11:10:49 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -581,6 +581,14 @@ www.ku6.com##[class^="a_d0608"]
 @@||g.aa.sdo.com/?method=getversion$object_subrequest,domain=~ku6.com
 @@||pic.snyu.com/sdk*/Main.swf$domain=~ku6.com
 
+!---乐视网
+^ptv_player^$object_subrequest
+||letv.com/ptv/player/pageAd/
+||dc.letv.com^
+||pro.letv.com^
+||js.letvcdn.com/js/*/stats/
+letv.com##.ad
+
 !---MSN
 !-CN
 @@||msn.wrating.com/a1.js
@@ -1014,6 +1022,7 @@ tom365.com###t365
 ||tudou.com^*/outside.php
 ||tudou.com/tdap/
 ||tudou.com/tdcm/
+||erreport.tudou.com^
 ||stat*.tudou.com^
 ||js.tudouui.com/js/fn/saleloader_*.js
 /pos?$object_subrequest
@@ -1599,8 +1608,6 @@ www.aipai.com###indexRight.gg_200
 www.jstv.com##.delayadv
 www.jstv.com##.jadv
 ||img.1ting.com/v5/js/*text.js
-||dc.letv.com^
-||pro.letv.com^
 ||s.mediashare.cn/rmi/mswlog.jsp?
 ||86file.megajoy.com^
 ||pcs1.app.joy.cn^
@@ -2437,6 +2444,7 @@ xfastest.com##[class^="ad"]
 -adspot-
 -adv-v1/
 -advertisement.
+-banner-ad&
 -banner-ad.
 -banner-ads-
 -banner-ads/
@@ -4366,7 +4374,6 @@ xfastest.com##[class^="ad"]
 =com_ads&
 =dartad_
 =dynamicads&
-=global-banner-ad&
 =showsearchgoogleads&
 =webad2&
 ?*=x55g%3add4vv4fy.
@@ -4849,7 +4856,7 @@ _a468x60.
 ###ClickPop_LayerPop_Container
 ###CompanyDetailsNarrowGoogleAdsPresentationControl
 ###CompanyDetailsWideGoogleAdsPresentationControl
-###ContentAd
+~orientaldaily.on.cc###ContentAd
 ###ContentAd1
 ###ContentAd2
 ###ContentAdPlaceHolder1
@@ -6137,7 +6144,7 @@ _a468x60.
 ###content-header-ad
 ###content-left-ad
 ###content-right-ad
-~filecheck.ru###contentAd
+~filecheck.ru,~orientaldaily.on.cc###contentAd
 ###contentBoxad
 ###contentTopAds2
 ~maximonline.ru###content_ad
@@ -6149,7 +6156,7 @@ _a468x60.
 ###content_box_adright300_google
 ###content_lower_center_right_ad
 ###content_mpu
-###contentad
+~orientaldaily.on.cc###contentad
 ###contentad_imtext
 ###contentad_right
 ###contentads
