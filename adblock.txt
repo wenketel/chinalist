@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: hd5Zu/lSB/DOu3duRWyRNg
+!  Checksum: jxS92Y9a5G6sLJSUL1WRvw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 12 May 2012 11:10:49 +0800
+!  Last Modified:  Sat, 12 May 2012 13:07:19 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -1546,6 +1546,8 @@ narutom.com##[id^="itaTop"]
 ||paoshu8.com/js/gg$script
 paoshu8.com##[id^="ad_"]
 paoshu8.com###TextTitle ~ table[border="0"]
+||ppshi.com/aa.js
+||ppshi.com/zz/
 ||quanben.com/themes/quanben/qj.js
 ||ranwen.cc/js/m/
 ||readnovel.com/js/$subdocument
@@ -1614,6 +1616,7 @@ www.jstv.com##.jadv
 ||a.pomoho.com^
 ||stat.ppstream.com^
 ||luckstatic.v1.cn/st/10000/
+||edsystem.wasu.cn^
 ||yiyi.cc/ad/
 ||youmaker.com/logoad2.jpg
 ||youmaker.com/edoors200708180-150.swf
@@ -1887,6 +1890,7 @@ win7china.com,win8china.com##.site_ad
 ||460.com.cn^$third-party
 ||51link.com^$third-party
 ||51wan.com^$third-party
+||5228167.com^$third-party
 ||523688.com^$third-party
 ||52cpm.com^$third-party
 ||union.52xiyou.com^$third-party
@@ -2224,6 +2228,7 @@ win7china.com,win8china.com##.site_ad
 ||yoyi.tv^$third-party
 ||yoyocm.com^$third-party
 ||ysm-advertising.tw^$third-party
+||ytunion.com^$third-party
 ||yuunion.com^$third-party
 ||yxcpm.com^$third-party
 ||yy32.com^$third-party
@@ -2275,7 +2280,7 @@ win7china.com,win8china.com##.site_ad
 /guanggao.
 /guanggao/*
 |http://acs.
-|http://ad.
+|http://ad.$domain=~wsj.com
 |http://*/*_ad.js
 |http://*.cn/ad/
 |http://gg.$~stylesheet,domain=~gg.ma
