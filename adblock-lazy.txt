@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: F9QAEBGYHwTTRBjdFncRYA
+!  Checksum: 1rbfPKHB44rY1NT6yuMZAA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 13 May 2012 22:43:09 +0800
+!  Last Modified:  Mon, 14 May 2012 07:15:02 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -14,7 +14,6 @@
 !  coding: utf-8, expires: 5 days
 !--CC-BY-SA 3.0 + Licensed, NO WARRANTY but Best Wishes----
 !----------------------------White List--------------------
-@@||img1.guokr.com/gkimage/$image
 @@||iphone4.tw/forums/news_proxy.php$xmlhttprequest
 @@||ad.ourgame.com/cgi-bin/insertflasha.js
 !---Shopping websites
@@ -2296,7 +2295,7 @@ win7china.com,win8china.com##.site_ad
 |http://*/*_ad.js
 |http://*.cn/ad/
 |http://gg.$~stylesheet,domain=~gg.ma
-|http://*/gg/$~stylesheet
+|http://*/gg/$~stylesheet,domain=~guokr.com
 |http://*/i.js$third-party
 |http://*/js/ad/
 |http://*/js/tc.js
@@ -2322,7 +2321,7 @@ win7china.com,win8china.com##.site_ad
 |http://pv.
 |http://pvstat.
 |http://*/pv.
-|http://*/pv/$domain=~search.yahoo.com
+|http://*/pv/$domain=~guokr.com|~search.yahoo.com
 |http://*/tj.js
 |http://*/track.
 |http://track.
@@ -9886,6 +9885,7 @@ _a468x60.
 ##.wa_adsbottom
 ##.wantads
 ##.weather_ad
+##.web-result-sponsored
 ##.webads336x280
 ##.wide-ad
 ##.wide-advert
@@ -10366,6 +10366,7 @@ _a468x60.
 ||bannersnack.net^$third-party
 ||bannersurvey.biz^$third-party
 ||bannertgt.com^$third-party
+||bannerweb.com^$third-party
 ||baronsoffers.com^$third-party
 ||bbelements.com^$third-party
 ||beaconads.com^$third-party
@@ -10410,6 +10411,7 @@ _a468x60.
 ||brightshare.com^$third-party
 ||btrll.com^$third-party
 ||bu520.com^$third-party
+||bubblesmedia.ru^$third-party
 ||buildtrafficx.com^$third-party
 ||bunny-net.com^$third-party
 ||burstnet.com^$third-party
@@ -10559,7 +10561,7 @@ _a468x60.
 ||doubleclick.net/pfadx/*adcat=$object-subrequest,third-party
 ||doubleclick.net/pfadx/bet.com/$object-subrequest,third-party
 ||doubleclick.net/pfadx/nbcu.nbc/$object-subrequest,third-party
-||doubleclick.net^$image,~image,popup,domain=thepiratebay.se
+||doubleclick.net^$image,~image,popup
 ||doubleclick.net^$object-subrequest,third-party,domain=971talk.com|abc-7.com|abc15.com|abc2news.com|abcactionnews.com|addictinggames.com|adelaidenow.com.au|atom.com|automotive.com|bicycling.com|bloomberg.com|break.com|cbs19.tv|cbs3springfield.com|cbs4denver.com|cbsatlanta.com|cbslocal.com|cbsnews.com|click2houston.com|clickorlando.com|cnbc.com|cnet.com|collegehumor.com|complex.com|current.com|dailytelegraph.com.au|darkhorizons.com|doctoroz.com|dorkly.com|doubleviking.com|espn.co.uk|fandango.com|fox19.com|fox5vegas.com|fox6now.com|foxcarolina.com|g4tv.com|gamespot.com|gametrailers.com|globalnational.com|globalnews.ca|gorillanation.com|grooveshark.com|history.com|hollywoodlife.com|hot97.com|hulu.com|joblo.com|kcci.com|kcra.com|kctv5.com|ketv.com|kjrh.com|koat.com|koco.com|kolotv.com|kpho.com|kptv.com|ksat.com|ksbw.com|ksfy.com|kxan.com|live5news.com|local10.com|miamiherald.com|miniclip.com|msnbc.com|msnbc.msn.com|mtv.co.uk|mtv.com|mtv.com.au|mtv.com.nz|mtvbase.com|mtvmusic.com|my9tv.com|mydamnchannel.com|myfoxorlando.com|myfoxphilly.com|myfoxphoenix.com|myfoxtampabay.com|nbcactionnews.com|nbcnewyork.com|nbcsports.com|nbcwashington.com|necn.com|neopets.com|news.com.au|news4jax.com|newsnet5.com|newsweek.com|nfl.com|nick.com|nintendoeverything.com|nuts.co.uk|nytimes.com|own3d.tv|pandora.com|perthnow.com.au|photoradar.com|play.it|ps3news.com|radio.com|rottentomatoes.com|sbs.com.au|sbsun.com|sevenload.com|shacknews.com|shockwave.com|sk-gaming.com|southpark.nl|southparkstudios.com|southparkstudios.se|space.com|spike.com|stuff.co.nz|syfy.com|ted.com|thebostonchannel.com|thedailygreen.com|thedailyshow.com|thedenverchannel.com|theindychannel.com|theinquirer.net|thewire.com|timeslive.co.za|turnto23.com|tv2.no|tv3winchester.com|ufc.com|ultimatefighter.com|universalsports.com|ustream.tv|videojug.com|wapt.com|washingtonpost.com|wate.com|wbaltv.com|wcbstv.com|wcpo.com|wdbj7.com|wdsu.com|wetransfer.com|wfmz.com|wfsb.com|wgal.com|wired.com|wisn.com|wkbw.com|wlky.com|wlns.com|wlwt.com|wmur.com|wnem.com|wowt.com|wptv.com|wral.com|wsmv.com|wtae.com|wwe.com|wxii12.com|wxyz.com|wyff4.com|youtube.com|zap2it.com|zappinternet.com|zoomin.tv
 ||doubleclick.net^$~object-subrequest,third-party
 ||doubleclick.net^*;afv_flvurl=http://cdn.c.ooyala.com/$object-subrequest,third-party
@@ -11511,6 +11513,7 @@ _a468x60.
 ||217.115.147.241/media/$third-party,domain=~elb-kind.de.ip
 ||247hd.net/ad|
 ||2leep.com/ticker2/$third-party
+||4loot.com/banners/
 ||69.50.226.158^$third-party,domain=~worth1000.com.ip
 ||770.com/banniere.php?
 ||a-bride-from-russia.com/banners/
@@ -13800,6 +13803,7 @@ _comscore.js
 ||gigya.com^*/cimp.gif?
 ||glam.com/ctagsimgcmd.act?
 ||go.toutapp.com^$third-party
+||googleapis.com^*/gen_204?
 ||googlecode.com^*/tracker.js
 ||googlelabs.com/log/log?
 ||googlesyndication.com/pagead/gen_204?

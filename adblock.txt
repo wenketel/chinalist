@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: CBUsja9ljDESFbZo5n4L2Q
+!  Checksum: 3CMnSiwSlBfG8ePm7lBawg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 13 May 2012 22:43:09 +0800
+!  Last Modified:  Mon, 14 May 2012 07:15:02 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -12,7 +12,6 @@
 !  coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
 !----------------------------White List--------------------
-@@||img1.guokr.com/gkimage/$image
 @@||iphone4.tw/forums/news_proxy.php$xmlhttprequest
 @@||ad.ourgame.com/cgi-bin/insertflasha.js
 !---Shopping websites
@@ -2295,7 +2294,7 @@ win7china.com,win8china.com##.site_ad
 |http://*/*_ad.js
 |http://*.cn/ad/
 |http://gg.$~stylesheet,domain=~gg.ma
-|http://*/gg/$~stylesheet
+|http://*/gg/$~stylesheet,domain=~guokr.com
 |http://*/i.js$third-party
 |http://*/js/ad/
 |http://*/js/tc.js
@@ -2321,7 +2320,7 @@ win7china.com,win8china.com##.site_ad
 |http://pv.
 |http://pvstat.
 |http://*/pv.
-|http://*/pv/$domain=~search.yahoo.com
+|http://*/pv/$domain=~guokr.com|~search.yahoo.com
 |http://*/tj.js
 |http://*/track.
 |http://track.
