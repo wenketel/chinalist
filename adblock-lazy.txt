@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 1rbfPKHB44rY1NT6yuMZAA
+!  Checksum: cpVSDYqLzxxuyIum7S8+Sw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 14 May 2012 07:15:02 +0800
+!  Last Modified:  Mon, 14 May 2012 16:43:07 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -857,7 +857,19 @@ readersdigest.cn###fixeddiv
 ||sina.com/assets/js/dart/
 dailynews.sina.com##.TopNav + table
 !--sina.com.cn
-||bj.house.sina.com.cn/iframe/$domain=~leju.com
+/iframe/auto/*$domain=sina.com.cn
+/iframe/book/*$domain=sina.com.cn
+/iframe/ent/*$domain=sina.com.cn
+/iframe/finance/*$domain=sina.com.cn
+/iframe/gj/*$domain=sina.com.cn
+/iframe/gn/*$domain=sina.com.cn
+/iframe/jczs/*$domain=sina.com.cn
+/iframe/no/*$domain=sina.com.cn
+/iframe/sh/*$domain=sina.com.cn
+/iframe/sports/*$domain=sina.com.cn
+/iframe/tech/*$domain=sina.com.cn
+/jianyu1/TaoBao/*$domain=sina.com.cn
+/pfpnew/*$domain=sina.com.cn
 ||d1.sina.com.cn^$image,object,script,domain=~weibo.com
 ||d2.sina.com.cn^$image,object,script
 ||d2.sina.com.cn^$subdocument,domain=www.sina.com.cn
@@ -865,13 +877,10 @@ dailynews.sina.com##.TopNav + table
 ||d4.sina.com.cn^$image,object,script
 ||d4.sina.com.cn^$subdocument,domain=www.sina.com.cn
 ||d5.sina.com.cn^$image,object,script
+||auto.sina.com.cn/iframe/*_*_*.htm
 ||news.sina.com.cn/pfpnews/js/libweb.js
 ||pfp.sina.com.cn^$script
-||pfp.sina.com.cn/iframe/finance/
-/iframe/gj/*$domain=sina.com.cn
-/iframe/gn/*$domain=sina.com.cn
-/iframe/no/*$domain=sina.com.cn
-/jianyu1/TaoBao/*$domain=sina.com.cn
+||pfp.sina.com.cn/jczs.html
 ||rm.sina.com.cn^$~stylesheet,domain=~sinatair.sinaapp.com
 ||v.sina.com.cn^$subdocument
 @@||sinaimg.cn^*/deco/*/common$script
@@ -879,8 +888,11 @@ dailynews.sina.com##.TopNav + table
 ||sinaimg.cn^*/deco/$script
 ||sinaimg.cn/unipro/
 ||rs.sinajs.cn^
+sina.com.cn##.topad
 sina.com.cn##.topAD
 sina.com.cn##.topADs
+auto.sina.com.cn##.txtAdArea01
+book.sina.com.cn##.module_80
 mobile.sina.com.cn##.zcads
 news.sina.com.cn###divResNewsBottom
 sports.sina.com.cn##[id^="ads_right"]
@@ -892,17 +904,19 @@ www.sina.com.cn###PartA > .left > div:not(#sina_house_link9)
 www.sina.com.cn###PartG > .rightbox
 www.sina.com.cn##[class^="txtads"]
 www.sina.com.cn##.yleft2blk
-!-auto
-@@||auto.sina.com.cn^$elemhide
 !-finance
 @@||counter.sina.com.cn/time?fm=JS$domain=finance.sina.com.cn
 @@||sinaimg.cn/cj/deco/*/all.js$domain=finance.sina.com.cn
 @@||sinaimg.cn/dy/deco/*/headcj.js$domain=finance.sina.com.cn
 finance.sina.com.cn###adSinaHouseHeadLink
 !-house
-||d1.leju.com^$object
-||bj.house.sina.com.cn/pdps/290/2010/1201/965.js
-||sinaimg.cn/hs/zjwei/base/swf/picshow_160x90.swf
+||sinaimg.cn/hs/$object,domain=house.sina.com.cn
+||img.house.sina.com.cn/a/swf/
+||bj.house.sina.com.cn^$script
+||d1.leju.com^
+house.sina.com.cn###ads_in_custom01_left
+house.sina.com.cn##.brand_bg
+house.sina.com.cn###topBg
 !-mail
 ||mail.sina.com.cn/admail/
 ||mail.sina.com.cn/freemail/news/oneline-notice.html
@@ -2143,6 +2157,7 @@ win7china.com,win8china.com##.site_ad
 ||qq61.com^$third-party
 ||quantui.com^$third-party
 ||qutaotao.com^$third-party
+||rayli.com.cn^$third-party
 ||360.rbc.cn^$third-party
 ||redu-click.com^$third-party
 ||author.richi.cc^$third-party
@@ -12063,6 +12078,7 @@ _a468x60.
 ||planet49.com/cgi-bin/wingame.pl?$image,~image,popup
 ||play-asia.com/paos-$third-party
 ||pokerjunkie.com/rss/
+||pokerroomkings.com^*/banner/$third-party
 ||pokersavvy.com^*/banners/
 ||pokerstars.com/euro_bnrs/
 ||pokerstrategy.com/media/tellafriend/$third-party
