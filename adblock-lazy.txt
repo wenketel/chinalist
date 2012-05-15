@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: nNkc9+CM9YxDztI99c/0iQ
+!  Checksum: dRbQ72psJzVpNvUelwbAiQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 15 May 2012 07:25:01 +0800
+!  Last Modified:  Tue, 15 May 2012 17:14:32 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -445,8 +445,7 @@ i.firefoxchina.cn,i.g-fox.cn###taobao_frame2
 
 !---游民星空
 ||gamersky.com/frame/
-||image.gamersky.com/img/
-||imgf.gamersky.com/*/$object
+/img/*$domain=gamersky.com
 ||imgf.gamersky.com^*bg_ol$image
 |http://gamefiles.$object,domain=gamersky.com
 gamersky.com##.adc
@@ -513,6 +512,7 @@ www.hsw.cn##table[width="980"][height="100"]
 ||hupu.com/d/file/$object
 hupu.com##[class*="ad"][class*="-"]
 hupu.com##[class^="ad_"]
+hupu.com##.ad980
 hupu.com###HCFull
 
 !---凤凰网
@@ -624,20 +624,17 @@ mitbbs.com##table[width="950"]
 ||task.mop.com/mop_treasure.jsp
 mop.com##[class^="adP"]
 dzh.mop.com##.adarea_top
+game.mop.com##.area_right > .textcen
 tt.mop.com###js-sub-body + div[style]
 
 !---驱动之家
 ||11.mydrivers.com/news/03.js
 ||11.mydrivers.com/news/google$script
 ||11.mydrivers.com/news/news$script
-||11.mydrivers.com/www/head_drivergenius.js
 ||images.mydrivers.com^$object
-||yingyong.so^$third-party
 mydrivers.com##[id^="ad_"]
 drivers.mydrivers.com##div[align="center"]
 news.mydrivers.com##table[border="0"][width="980"][height="90"]
-www.mydrivers.com##.hang1[style]:nth-child(11)
-www.mydrivers.com##.right2
 !--myfiles
 ||11.mydrivers.com/myfiles/04.js
 ||11.mydrivers.com/myfiles/myfiles100*.js
