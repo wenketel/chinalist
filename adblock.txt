@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: jXtjvJlOFj6nI8ZBnmr9xg
+!  Checksum: Zojs5nM12me+u0UXa7yepA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 16 May 2012 05:16:47 +0800
+!  Last Modified:  Wed, 16 May 2012 17:21:00 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -626,12 +626,11 @@ game.mop.com##.area_right > .textcen
 tt.mop.com###js-sub-body + div[style]
 
 !---驱动之家
-||11.mydrivers.com/news/03.js
-||11.mydrivers.com/news/google$script
-||11.mydrivers.com/news/news$script
+||11.mydrivers.com/*/*0$script
 ||images.mydrivers.com^$object
 mydrivers.com##[id^="ad_"]
 drivers.mydrivers.com##div[align="center"]
+hardware.mydrivers.com##table[height="210"]
 news.mydrivers.com##table[border="0"][width="980"][height="90"]
 !--myfiles
 ||11.mydrivers.com/myfiles/04.js
@@ -654,7 +653,6 @@ newhua.com##[class^="ad_ritht_"]
 ||hk.ndx.nextmedia.com/DFA/js_ndxtag_v409.cfm^$domain=~hk.dv.nextmedia.com
 hk.dv.nextmedia.com##[id^="ndx_"]
 !-TW
-@@||secure-us.imrworldwide.com/novms/js/$script,domain=nexttv.com.tw
 ||advideoadmin.appledaily.com.tw/ov_player/
 ||lccnet.com.tw/commercial/
 appledaily.com.tw##.ads
@@ -2003,7 +2001,6 @@ win7china.com,win8china.com##.site_ad
 ||aiweb.tw^$third-party
 ||aldm88.com^$third-party
 ||algj-27dy.cn^$third-party
-||china.alibaba.com^$third-party
 ||alimama.cn^$third-party,domain=~alimama.com|~taobao.com|~taobao.com.cn
 ||alimama.com^$third-party,domain=~taobao.com|~taobao.com.cn
 ||all-winner.com^$third-party
