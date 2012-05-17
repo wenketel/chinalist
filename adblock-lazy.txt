@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: ME2h0IVOywb8mkPaJfaXPQ
+!  Checksum: cEUv2+tLMQk0zwLQeQmMVA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 17 May 2012 12:21:11 +0800
+!  Last Modified:  Thu, 17 May 2012 12:57:09 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -158,7 +158,9 @@ v.6.cn###playerAd
 
 !---acfun.tv
 @@||static.acfun.tv/ads/port/ACFun-0424-2.jpg
+||acfun.tv/api/count.aspx
 ||acfun.tv/json/newad.xml
+acfun.tv##.ad
 acfun.tv###list-topic-third
 
 !---游侠网
@@ -626,6 +628,7 @@ mop.com##[class^="adP"]
 dzh.mop.com##.adarea_top
 game.mop.com##.area_right > .textcen
 tt.mop.com###js-sub-body + div[style]
+www.mop.com##.dot > li:nth-child(n+10)
 
 !---驱动之家
 @@||11.mydrivers.com/www/2012/js/$script
@@ -883,6 +886,7 @@ dailynews.sina.com##.TopNav + table
 @@||sinaimg.cn^*/deco/*/common$script
 @@||sinaimg.cn^*/deco/*/sinaObj.js
 ||sinaimg.cn^*/deco/$script
+||sinaimg.cn/large/
 ||sinaimg.cn/unipro/
 ||rs.sinajs.cn^
 sina.com.cn##.topad
@@ -1158,8 +1162,10 @@ xj163.cn##[class^="ad"]
 ||images.client.xunlei.com/gougou_recommend/
 ||misc.web.xunlei.com/kkpv/
 ||misc.web.xunlei.com^*/kankan_click$script
+||misc.web.xunlei.com/www_5_8/img/lt_
 ||dynamic.vod.lixian.xunlei.com^$image
 ||i.vod.xunlei.com^$image,object_subrequest
+xunlei.com##.topic_center
 !--狗狗搜索
 ||img.gougou.com/down/aishangwang2.jpg
 ||s.gougou.com^
@@ -1568,6 +1574,8 @@ dukankan.com##tr[height="300"]
 narutom.com###naruto_desk
 narutom.com##[id^="itaTop"]
 ||niaoyan.net/wlxsjs/gg$script
+||niepo.net/top/
+niepo.net##.m_ads
 ||niubb.net/niubbad/
 ||paoshu8.com/js/gg$script
 paoshu8.com##[id^="ad_"]
@@ -1796,8 +1804,6 @@ ph66.com##[class^="ad_"]
 ||qqkj.cn^$script
 ||qzwb.com^$object
 qzwb.com##.area[style^="height:70px;"]
-/large/*$domain=rmfans.cn
-||img.rmfans.cn/g/banner88.gif
 ||sellgreat.com/images/Bdvertisement/
 ||simplecd.org/static/ad$script,subdocument
 ||so100.cn/images/a*.js
@@ -1806,7 +1812,8 @@ qzwb.com##.area[style^="height:70px;"]
 subpig.net##.a_p
 ||bbs.t56.net/ad*/
 ||img.taoguba.com.cn/gbimg/
-tiyuba.tv##.gg_info
+||tianyayidu.com/js/
+tianyayidu.com##div[style^="width:728px;"]
 ||topsage.com/service/$object
 ||tompda.com^$object
 /gif/*$image,domain=txzqw.com
@@ -2234,8 +2241,9 @@ zxtjd.com###it_an
 ||wanliuliang.com^$third-party
 ||wauee.com^$third-party
 ||web933.com^$third-party
-||stat.wiseie.com^$third-party
+||wiseie.com^$third-party
 ||woniu666.com^$third-party
+||wqzyt.net^$third-party
 ||wy31.com^$third-party
 ||wyunion.com^$third-party
 ||v.xi666.com^$third-party
