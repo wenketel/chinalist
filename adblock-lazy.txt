@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: xJ1ouUY+Hce6bQ6vsdXgDg
+!  Checksum: 9dbONeXKK8qnTIGe+6/5xw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 17 May 2012 22:20:22 +0800
+!  Last Modified:  Thu, 17 May 2012 22:45:14 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -884,7 +884,6 @@ dailynews.sina.com##.TopNav + table
 @@||sinaimg.cn^*/deco/*/common$script
 @@||sinaimg.cn^*/deco/*/sinaObj.js
 ||sinaimg.cn^*/deco/$script
-||sinaimg.cn/large/
 ||sinaimg.cn/unipro/
 ||rs.sinajs.cn^
 sina.com.cn##.topad
@@ -1802,6 +1801,7 @@ ph66.com##[class^="ad_"]
 ||qqkj.cn^$script
 ||qzwb.com^$object
 qzwb.com##.area[style^="height:70px;"]
+||img.rmfans.cn/g/
 ||sellgreat.com/images/Bdvertisement/
 ||simplecd.org/static/ad$script,subdocument
 ||so100.cn/images/a*.js
@@ -1812,6 +1812,7 @@ subpig.net##.a_p
 ||img.taoguba.com.cn/gbimg/
 ||tianyayidu.com/js/
 tianyayidu.com##div[style^="width:728px;"]
+/large/*$domain=tiyuba.tv
 ||topsage.com/service/$object
 ||tompda.com^$object
 /gif/*$image,domain=txzqw.com
