@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: cEUv2+tLMQk0zwLQeQmMVA
+!  Checksum: /x7Tfl2nhGci6s77PcZ3aw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 17 May 2012 12:57:09 +0800
+!  Last Modified:  Thu, 17 May 2012 20:45:53 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -230,12 +230,10 @@ iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com###center > div:firs
 ||spcode.baidu.com^
 ||unstat.baidu.com^$~subdocument
 !--iQIYI
-@@||iqiyi.com/player/*/LocalPlayer.swf
-@@||iqiyi.com/player/*/qiyi_n_player.swf
-||pub.htwisdom.com^$third-party
 /ts.swf|$domain=iqiyi.com
+||pub.htwisdom.com^$third-party
+||iqiyi.com/player/*/theatre$object
 ||afp.qiyi.com^
-||iqiyi.com/player/*.swf|$object
 ||policy.cupid.qiyi.com^
 ||static.qiyi.com/js/pingback/
 ||jsmsg.video.qiyi.com^
@@ -1861,6 +1859,7 @@ zxtjd.com###it_an
 ||gd.189.cn^*/push/$image,~image,popup
 ||189.cn/dns/
 ||gd.189.cn/ad/$image,~image,popup,third-party
+||gd.189.cn/push/$image,~image,popup,third-party
 !--popup
 ||100tjs.com^$image,~image,popup,third-party
 ||114zhaofang.com^$image,~image,popup,third-party
