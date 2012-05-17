@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: sMHda84TnlvegpsnewZbOA
+!  Checksum: xJ1ouUY+Hce6bQ6vsdXgDg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 17 May 2012 21:12:10 +0800
+!  Last Modified:  Thu, 17 May 2012 22:20:22 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1218,7 +1218,7 @@ hk.yahoo.com###ysm-ad
 ynet.com###ta01
 
 !---优酷
-@@||static.atm.youku.com^$object,domain=www.youku.com
+@@||static.atm.youku.com^*.swf|$domain=www.youku.com
 @@||valf.atm.youku.com/crossdomain.xml
 @@||valf.atm.youku.com/valf?
 ||atm.youku.com^
@@ -5192,6 +5192,7 @@ _a468x60.
 ###adBanner728
 ###adBanner728_bot
 ###adBanner9
+###adBannerSpacer
 ###adBannerTable
 ###adBannerTop
 ###adBar
@@ -5225,7 +5226,7 @@ _a468x60.
 ###adFiller
 ###adFps
 ###adFtofrs
-###adGallery
+~ginatricot.com###adGallery
 ###adGoogleText
 ###adGroup1
 ~ksl.com###adHeader
@@ -5532,7 +5533,7 @@ _a468x60.
 ###ad_wide_box
 ###ad_widget
 ###ad_window
-~autoroden.nl,~henkheikamp.nl###ad_wrap
+~afro-ninja.com,~autoroden.nl,~henkheikamp.nl###ad_wrap
 ###ad_zone
 ###ad_zone3
 ###adaptvcompanion
@@ -8642,7 +8643,7 @@ _a468x60.
 ##.bottom-ad-fr
 ##.bottom-ads
 ##.bottomAd
-##.bottomAds
+~123poi.com##.bottomAds
 ##.bottom_ad
 ~ixbtlabs.com##.bottom_ad_block
 ##.bottom_ads
@@ -11311,7 +11312,7 @@ _a468x60.
 ||vibrantmedia.com^$third-party
 ||video-loader.com^$third-party
 ||videoegg.com^$third-party
-||videoplaza.com^$object-subrequest,third-party,domain=evo.co.uk|mensfitness.co.uk|mpora.com
+||videoplaza.com^$object-subrequest,third-party,domain=autoexpress.co.uk|evo.co.uk|mensfitness.co.uk|mpora.com
 ||videoplaza.com^$~object-subrequest,third-party
 ||videoplaza.tv/proxy/distributor?$object-subrequest,third-party
 ||videoplaza.tv^$object-subrequest,third-party,domain=tv4play.se
@@ -11432,6 +11433,7 @@ _a468x60.
 ||33traffic.com^$third-party
 ||777-partner.com^$third-party
 ||777partner.com^$third-party
+||777partner.net^$third-party
 ||aaovn.info^$third-party
 ||adjunky.com^$third-party
 ||adult-profit-files.com^$third-party
@@ -12419,8 +12421,10 @@ _a468x60.
 ||fuckbookhookups.com/go/$image,~image,popup
 ||fuckhub.net^*?pid=$third-party
 ||fuckshow.org^*&adr=$image,~image,popup
+||funnyadultgamesplay.com/affiliate/$third-party
 ||gagthebitch.com/track/$third-party
 ||galleries.videosz.com^$object,third-party
+||gallery.deskbabes.com^*.php?dir=*&ids=$third-party
 ||geobanner.adultfriendfinder.com^
 ||geobanner.getiton.com^
 ||geobanner.socialflirt.com^
@@ -12487,6 +12491,7 @@ _a468x60.
 ||promo.adult-empire.com^
 ||promo.averotica.com^
 ||promo.badoink.com^
+||promo.blackcrush.com^
 ||promo.lonelywifehookup.com^
 ||promo.ulust.com^$third-party
 ||promos.meetlocals.com^
@@ -12835,6 +12840,7 @@ _a468x60.
 /view_stats.js.php
 /viperbar/stats.php?
 /visualsciences.js
+/vs_track.gif?
 /vtrack.php?
 /webabacus-$script
 /webforensics/*
@@ -13202,6 +13208,7 @@ _comscore.js
 ||hellosherpa.com^$third-party
 ||hentaicounter.com^$third-party
 ||heystaks.com^$third-party
+||hiconversion.com^$third-party
 ||histats.com^$third-party
 ||hit-counter-download.com^$third-party
 ||hit-counter.info^$third-party
@@ -13801,6 +13808,7 @@ _comscore.js
 ||csi.gstatic.com^
 ||cts.vresp.com^
 ||curate.nestedmedia.com^
+||curbednetwork.com/plugins/analyticsondemand/
 ||d.shareaholic.com^
 ||d1nu2rn22elx8m.cloudfront.net^
 ||d1qpxk1wfeh8v1.cloudfront.net^
@@ -14030,6 +14038,7 @@ _comscore.js
 ||stats.ozwebsites.biz^
 ||stats.polldaddy.com^
 ||stats.ref2000.com^
+||stats.smartclip.net^
 ||stats.snacktools.net^
 ||stats.surfaid.ihost.com^
 ||stats.twistage.com^
