@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: Ov+XmJd+w5F3sPCnX5R60A
+!  Checksum: jkmthBDlIvZpYtbnGavvag
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 21 May 2012 10:53:17 +0800
+!  Last Modified:  Mon, 21 May 2012 11:53:48 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1010,11 +1010,15 @@ soufun.com##.topbanner
 ||inc.tgbus.com/frame/
 ||tgbus.com/search/article_endcontent_google.htm
 ||tgbus.com/sf/taobao/
-||vista.tgbusdata.cn/s.js
 ||tgbus.com/left.jpg
 ||tgbus.com/right.jpg
 tgbus.com##[class^="ad"][class*="t8"]
+tgbus.com##.ads1
+tgbus.com##.ad86
 tgbus.com###navi + .area
+tgbus.com###ead
+iphone.tgbus.com##[class^="guan_"]
+iphone.tgbus.com###place
 
 !---TianYa
 ||8*.tianya.cn^
@@ -1226,7 +1230,7 @@ ynet.com###ta01
 ||hz.youku.com/red/ggnotice.php
 ||f.youku.com/player/getFlvPath/fileid/*&yad=
 ||e.stat.youku.com^
-soku.com###ab_282
+youku.com######ab_26
 youku.com##.sideCol > div[class^="AB"]
 
 !---人人影视
@@ -2020,8 +2024,8 @@ zxtjd.com###it_an
 ||aiweb.tw^$third-party
 ||aldm88.com^$third-party
 ||algj-27dy.cn^$third-party
-||alimama.cn^$third-party,domain=~alimama.com|~taobao.com|~taobao.com.cn
-||alimama.com^$third-party,domain=~taobao.com|~taobao.com.cn
+||alimama.cn^$third-party,domain=~alimama.com
+||alimama.com^$third-party
 ||all-winner.com^$third-party
 .all4ad.$third-party
 ||allyesky.cn^$third-party
