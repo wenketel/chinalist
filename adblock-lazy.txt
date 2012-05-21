@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: udJql+rW7ZuEmj/JK8a6HA
+!  Checksum: aAttdi5u2/0+uM8c6hmNZQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 20 May 2012 22:37:58 +0800
+!  Last Modified:  Mon, 21 May 2012 10:26:58 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -879,11 +879,12 @@ dailynews.sina.com##.TopNav + table
 ||pfp.sina.com.cn^$script
 ||pfp.sina.com.cn/iframe/2012nonghangguanggaotest1.html
 ||pfp.sina.com.cn/jczs.html
-||rm.sina.com.cn^$~stylesheet,domain=~sinatair.sinaapp.com
+||rm.sina.com.cn^$~stylesheet
 ||v.sina.com.cn^$subdocument
 @@||sinaimg.cn^*/deco/*/common$script
 @@||sinaimg.cn^*/deco/*/sinaObj.js
 ||sinaimg.cn^*/deco/$script
+||sinaimg.cn/dy/deco/2009/1216/950-90.gif
 ||sinaimg.cn/unipro/
 ||rs.sinajs.cn^
 sina.com.cn##.topad
@@ -1330,6 +1331,9 @@ steachs.com###banner
 ||gpxz.com/skins/gpxz_20110308/$script
 ||gpxz.com/skin/gpxz/tc.js
 ||greenspe.com/other/js/$script
+||greenxf.com/count$script
+||greenxf.com/GreenxfAD/
+||greenxf.com/greenxf_com/greenad$script
 ||happydown.com^$script,subdocument
 ||huacolor.com/soft/js/$script
 ||orsoon.com/orsoon/$script
@@ -7745,7 +7749,7 @@ sat1.de###ad-fullbanner-outer
 ##.adFullWidthMiddle
 ##.adGoogle
 ~autotrader.co.za,~ctv.ca,~ctvnews.ca##.adHeader
-##.adHeadline
+~thebulletinboard.com##.adHeadline
 ~namesecure.com,~superhry.cz##.adHolder
 ##.adHome300x250
 ##.adHorisontal
@@ -7810,7 +7814,7 @@ sat1.de###ad-fullbanner-outer
 ##.adTD
 ##.adTab
 ##.adTag
-~autotrader.co.za,~bipbip.co.il,~winwin.co.il##.adText
+~autotrader.co.za,~bipbip.co.il,~thebulletinboard.com,~winwin.co.il##.adText
 ##.adTileWrap
 ##.adTiler
 ~autotrader.co.za,~ksl.com,~stadtlist.de,~superbikeplanet.com##.adTitle
@@ -8781,6 +8785,7 @@ sat1.de###ad-fullbanner-outer
 ##.communityAd
 ##.companion_ad
 ##.conTSponsored
+##.con_widget_advertising
 ##.conductor_ad
 ##.confirm_ad_left
 ##.confirm_ad_right
@@ -9341,6 +9346,7 @@ sat1.de###ad-fullbanner-outer
 ##.mt-header-ads
 ##.mvw_onPageAd1
 ##.mwaads
+##.mxl_ad_inText_250
 ##.my-ad250x300
 ##.nSponsoredLcContent
 ##.nSponsoredLcTopic
@@ -10565,6 +10571,7 @@ sat1.de###ad-fullbanner-outer
 ||ctm-media.com^$third-party
 ||ctrhub.com^$third-party
 ||cubics.com^$third-party
+||cygnus.com^$third-party
 ||d.m3.net^$third-party
 ||d03x2011.com^$third-party
 ||dapper.net^$third-party
