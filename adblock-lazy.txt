@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: I4YicoOGLWCJD+8KlCQYJQ
+!  Checksum: iM4Ai1pTtoyC/GpuzAd9Kw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 22 May 2012 15:09:57 +0800
+!  Last Modified:  Tue, 22 May 2012 15:42:48 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -71,12 +71,12 @@ www.youdao.com###ext
 /www/ggcommon$script,domain=17173.com
 
 !---178
-@@||acg.178.com^$elemhide
-||178.com/glr.js
+@@||178.com/*/*.html$elemhide
 /atcount.php?$domain=178.com
+||178.com/glr.js
 ||market.178.com^
 ||tuiguang.178.com^
-178.com##.adb
+178.com##[class^="ad-2"]
 
 !---21CN
 ||analytics.21cn.com^
@@ -1810,6 +1810,7 @@ ph66.com##[class^="ad_"]
 ||qzwb.com^$object
 qzwb.com##.area[style^="height:70px;"]
 ||img.rmfans.cn/g/
+/images/a/*$domain=bbs.saraba1st.com
 ||sellgreat.com/images/Bdvertisement/
 ||simplecd.org/static/ad$script,subdocument
 ||so100.cn/images/a*.js
