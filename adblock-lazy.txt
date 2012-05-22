@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: PXoBN4tpBpxsRPsCUDrTNg
+!  Checksum: KjFBzcbjhgjX4kFjHTMgrg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 21 May 2012 22:46:51 +0800
+!  Last Modified:  Tue, 22 May 2012 11:13:43 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1230,6 +1230,7 @@ ynet.com###ta01
 ||hz.youku.com/red/ggnotice.php
 ||f.youku.com/player/getFlvPath/fileid/*&yad=
 ||e.stat.youku.com^
+||t.stat.youku.com^
 youku.com######ab_26
 youku.com##.sideCol > div[class^="AB"]
 
@@ -1263,7 +1264,9 @@ zhulang.com##[class^="ad"]
 zhulang.com###reader_top
 
 !---ZOL
+@@||xiazai.zol.com.cn/detail/$elemhide
 ||icon.zol-img.com.cn/public/js/web_foot.js
+||p.zol-img.com.cn/download_ad/
 ||pic.zol-img.com.cn^$object
 ||pic.zol-img.com.cn^*_bgad_
 zol.com.cn##[id^="AD"]
@@ -1375,7 +1378,7 @@ steachs.com###banner
 ||houdao.com/bans/
 ||haiyou5.com/taobao.gif
 ||ngacn.cc/common_res/js_adscommon.js
-||ngacn.cc/common_res/js_bbs_adslist.js?120322
+||ngacn.cc/common_res/js_bbs_adslist.js
 @@||plu.cn/d/js/acmsd/thea44.js
 ||lib.plu.cn/images/bg/
 @@||club.tgfcer.com/forum$elemhide
@@ -4283,6 +4286,7 @@ xfastest.com##[class^="ad"]
 /systemad_
 /t.php?uid=*.*&src=
 /tableadnorth.
+/tagadv_
 /tapatalkdetect.js
 /taxonomy-ads.
 /td_ads/*
@@ -5843,7 +5847,9 @@ sat1.de###ad-fullbanner-outer
 ###adv-x40
 ###adv300bottom
 ###adv300top
+###adv468x90
 ###adv728
+###adv768x90
 ###adv_300
 ###adv_728
 ###adv_Skin
@@ -8350,6 +8356,7 @@ sat1.de###ad-fullbanner-outer
 ##.adv-sidebar
 ##.adv300
 ##.adv300x250
+##.adv468x90
 ##.advBox
 ##.advSquare
 ##.advVideobox
@@ -12437,6 +12444,7 @@ sat1.de###ad-fullbanner-outer
 ||ff.nsg.org.ua^
 ||fleshlight.com/images/banners/
 ||fleshlight.com/images/peel/
+||fling.com/enter.php?$image,~image,popup
 ||free-xxx-pictures.com/banners/
 ||freeonescams.com^$subdocument,third-party
 ||freeporn.hu/banners/
@@ -13797,6 +13805,7 @@ _comscore.js
 ||cgicounter.oneandone.co.uk^
 ||cgicounter.puretec.de^
 ||chanalytics.merchantadvantage.com^
+||choicestream.com/instr/csconnect.js
 ||citygridmedia.com/tracker/
 ||clearspring.com/at/
 ||clearspring.com/t/
@@ -14201,7 +14210,7 @@ _comscore.js
 ! Chinese
 ||analytics.nextmedia.com^
 ||beacon.sina.com.cn^
-||counter.sina.com.cn^
+||counter.sina.com.cn/moodq?
 ||cri.cn/a1.js
 ||cri.cn/wrating.js
 ||dj.renren.com^

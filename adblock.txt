@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: C6KV60AJpsBgYq1RjC90tg
+!  Checksum: QJodHkf/Lr/zOum6GHBC4A
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 21 May 2012 22:46:51 +0800
+!  Last Modified:  Tue, 22 May 2012 11:13:43 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -1228,6 +1228,7 @@ ynet.com###ta01
 ||hz.youku.com/red/ggnotice.php
 ||f.youku.com/player/getFlvPath/fileid/*&yad=
 ||e.stat.youku.com^
+||t.stat.youku.com^
 youku.com######ab_26
 youku.com##.sideCol > div[class^="AB"]
 
@@ -1261,7 +1262,9 @@ zhulang.com##[class^="ad"]
 zhulang.com###reader_top
 
 !---ZOL
+@@||xiazai.zol.com.cn/detail/$elemhide
 ||icon.zol-img.com.cn/public/js/web_foot.js
+||p.zol-img.com.cn/download_ad/
 ||pic.zol-img.com.cn^$object
 ||pic.zol-img.com.cn^*_bgad_
 zol.com.cn##[id^="AD"]
@@ -1374,7 +1377,7 @@ steachs.com###banner
 ||houdao.com/bans/
 ||haiyou5.com/taobao.gif
 ||ngacn.cc/common_res/js_adscommon.js
-||ngacn.cc/common_res/js_bbs_adslist.js?120322
+||ngacn.cc/common_res/js_bbs_adslist.js
 @@||plu.cn/d/js/acmsd/thea44.js
 ||lib.plu.cn/images/bg/
 @@||club.tgfcer.com/forum$elemhide
