@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 0/h4WWNKVgj4oPym+KmEtQ
+!  Checksum: DgroNE450J2a5jz3yP7SFg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 22 May 2012 15:42:48 +0800
+!  Last Modified:  Tue, 22 May 2012 19:02:53 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -248,6 +248,12 @@ iqiyi.com##.seed
 ||static.loli.my/ad-images/*b2
 ||static.loli.my/ad-images/*bangumi
 ||static.loli.my/ad-images/*c1
+
+!---爆米花网
+@@||cb.baidu.com/crossdomain.xml$domain=baomihua.com|pomoho.com
+@@||cb.baidu.com/ecom?$object_subrequest,domain=baomihua.com|pomoho.com
+||a.pomoho.com^
+||systemlog.pxtadmin.com^
 
 !---易车网
 ||g.bitauto.com^$script
@@ -1651,7 +1657,6 @@ www.jstv.com##.jadv
 ||86file.megajoy.com^
 ||pcs1.app.joy.cn^
 ||pipi.cn/player/
-||a.pomoho.com^
 ||stat.ppstream.com^
 ||luckstatic.v1.cn/st/10000/
 ||edsystem.wasu.cn^
