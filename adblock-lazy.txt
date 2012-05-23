@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: l5fDZjXbNhSU6OMx6/t5Nw
+!  Checksum: VcqWEqNFDhRihE8cUFqhBQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 23 May 2012 13:11:01 +0800
+!  Last Modified:  Wed, 23 May 2012 18:56:57 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -180,6 +180,7 @@ autohome.com.cn##.recommend
 ||baidu.com/ecom$image,script
 ||pan.baidu.com/netdisk/analytics?
 ||wenku.baidu.com/tongji/
+||top.baidu.com/js/nsclick.js
 baidu.com###ecad
 baidu.com##.EC_mr15
 baidu.com##.ec_pp_f
@@ -386,6 +387,14 @@ discuss.com.hk,uwants.com##a[href^="http://ad"]
 discuss.com.hk,uwants.com##a[href^="http://b.optimix.asia/"]
 uwants.com###foruminfo + div[align="center"]
 
+!---对路
+||dui.lu/index.php/ad/
+||dui.lu/index.php/stat/
+||dui.lu/partner/
+||dui.lu/staticts.html
+||luobo.tv/staticts.html
+dui.lu##[id^="j_duilu"]
+
 !---多特
 ||img.duote.com/duotehtml/gong_gao.js
 ||img.duote.com/js/clickDownAjax3.js
@@ -522,9 +531,11 @@ hupu.com###HCFull
 @@||bc.ifeng.com/crossdomain.xml
 /ifengRotatorAd.js
 /sc_ifeng/*$domain=ifeng.com
-||ifeng.com/tres/recommend/
+/ssi-incs/*$subdocument,domain=ifeng.com
+/tres/recommend/*$domain=ifeng.com
 ||bc.ifeng.com^
 ||comment.ifeng.com/count_
+||de.deliver.ifeng.com^
 ||games.ifeng.com/webgame/
 ||img.ifeng.com/tres/$image,~image,popup
 ||img.ifeng.com/tres/html/
@@ -532,9 +543,10 @@ hupu.com###HCFull
 ||img.ifeng.com/tres/market/
 ||sta.ifeng.com^
 ||stadig.ifeng.com^
+||survey.news.ifeng.com^$object_subrequest
 ||ifengimg.com^$object
+||ifengimg.com/ifeng/sources/
 ||ifengimg.com/mappa/
-||ifengimg.com/tres/recommend/
 ifeng.com##.adbox
 ifeng.com##[class$="Ad"]
 ifeng.com##[class^="adList"]
@@ -635,6 +647,7 @@ dzh.mop.com##.adarea_top
 game.mop.com##.area_right > .textcen
 tt.mop.com###js-sub-body + div[style]
 www.mop.com##.dot > li:nth-child(n+10)
+www.mop.com##.gg03
 
 !---驱动之家
 @@||11.mydrivers.com/www/2012/js/$script
@@ -1010,6 +1023,7 @@ soufun.com##.topbanner
 @@||tmatch.simba.taobao.com^$script
 ||acookie.*.gif?
 ||atpanel.com^$image
+||taobao.com/go/act/sale/$third-party
 ||a.tbcdn.cn/s/atp.js
 ||a.tbcdn.cn/s/ac.js
 
@@ -1242,7 +1256,7 @@ ynet.com###ta01
 ||f.youku.com/player/getFlvPath/fileid/*&yad=
 ||e.stat.youku.com^
 ||t.stat.youku.com^
-youku.com######ab_26
+youku.com###ab_26
 youku.com##.sideCol > div[class^="AB"]
 
 !---人人影视
@@ -2394,6 +2408,7 @@ zxtjd.com###it_an
 ||dw.cbsi.com.cn^$third-party
 ||cnzz.com^$third-party
 ||cms.grandcloud.cn^$third-party
+||gridsum.com^$third-party
 ||cdn.hiido.cn^$third-party
 ||hotrank.com.tw^$third-party
 ||irs01.$third-party
