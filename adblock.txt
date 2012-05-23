@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: PuMw32itGYCqG37mhfBLzQ
+!  Checksum: IsblNkBd3KKZrFuu8xyRSw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 22 May 2012 20:52:00 +0800
+!  Last Modified:  Wed, 23 May 2012 13:11:01 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -547,6 +547,11 @@ v.ifeng.com##.tit_ad
 ||download.it168.com/jscript/bubble.js
 it168.com##[id^="ADV"]
 it168.com##.gg
+
+!---煎蛋
+||jdstatic.tankr.net/side/
+jandan.net##.eggs
+jandan.net##.xy
 
 !---日搜
 ||jpfans.com/pr/
@@ -1118,7 +1123,10 @@ wretch.cc###wretchinfo
 !---爱卡
 ||d0.xcar.com.cn^
 ||dw.xcar.com.cn^
+||d1.xcarimg.com^
 xcar.com.cn##[class^="adset"]
+xcar.com.cn##.txright_boxb
+xcar.com.cn##[id^="xcarWindow_"]
 
 !---厦门小鱼
 /client.xmfish.com/attachments/bar/*$image
@@ -1380,7 +1388,6 @@ steachs.com###banner
 ||houdao.com/bans/
 ||haiyou5.com/taobao.gif
 ||ngacn.cc/common_res/js_adscommon.js
-||ngacn.cc/common_res/js_bbs_adslist.js
 @@||plu.cn/d/js/acmsd/thea44.js
 ||lib.plu.cn/images/bg/
 @@||club.tgfcer.com/forum$elemhide
@@ -2430,8 +2437,6 @@ itopdog.cn##[class^="ad"]
 itopdog.cn##[id^="itopdog_ad-"]
 itopdog.cn##.xoxo > [id^="text-"]
 ithome.com.tw##table[height="110"]
-jandan.net##.eggs
-jandan.net##.xy
 lkong.net##.a_pt
 loltw.net##[class^="adsense-"]
 mobile01.com##[class^="ad-"]
