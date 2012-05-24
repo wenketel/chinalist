@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: zvLcDreP/n3qXMd0H50okw
+!  Checksum: mtmFneQE5/uZTi936FKBoA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 25 May 2012 00:22:00 +0800
+!  Last Modified:  Fri, 25 May 2012 01:29:56 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -465,7 +465,6 @@ gamersky.com##.adc
 gamersky.com###clickbg
 
 !---机锋
-/staticts.html$domain=bbs.gfan.com
 ||gfan.com/press/
 bbs.gfan.com###bbs_jxtj
 bbs.gfan.com###WPbbs_gl
@@ -607,7 +606,7 @@ www.ku6.com##[class^="a_d0608"]
 @@||pic.snyu.com/sdk*/Main.swf$domain=~ku6.com
 
 !---乐视网
-^ptv_player^$object_subrequest$domain=tudou.letv.com
+^ptv_player^$object_subrequest,domain=tudou.letv.com
 ||v.163.com/special/*_*.xml$domain=163.letv.com
 ||letv.com/ptv/player/pageAd/
 ||dc.letv.com^
@@ -785,17 +784,16 @@ down.qiannao.com##div[style="padding: 8px;"]
 ||ipic.staticsdo.com^
 ||loginlog.sdo.com^
 !--起点中文网
+.com/js/o.js$domain=qdmm.com|qdwenxue.com|qidian.com
 ||script.cmfu.com/ADScript/
 ||ku6.com^*/index.shtml$subdocument,domain=qidian.com
-||uedas.qdmm.com^
 ||qidian.com/Javascript/DoublePop.js
 ||qidian.com/javascript/SNDAADAltern.js
 ||cj.qidian.com^$object,subdocument
-||cj.qidian.com/Picture/$domain=forum.qdwenxue.com
+||cj.qidian.com/Picture/$domain=forum.qdwenxue.com|forum.qidian.com
 ||cj.qidian.com/svnad/
-||o.if.qidian.com/js/o.js
 ||c.pingba.qidian.com/increase.htm
-||uedas.qidian.com^
+||uedas.$domain=qdmm.com|qdwenxue.com|qidian.com
 qdmm.com,qidian.com##a[href^="http://www.qidian.com/showavd.aspx?"]
 qidian.com##[class^="show_ggpic_"]
 www.qidian.com##.DH17
@@ -990,6 +988,7 @@ sohu.com,chinaren.com##sohuadcode
 www.sohu.com###ad_TOP
 www.sohu.com###contentC > .columnC
 ting.m.sohu.com##.topPic
+pinglun.sohu.com##.sogouAd1
 !--tv
 /get.gif?$domain=sohu.com
 ||sohu.com/*.do?$object_subrequest
