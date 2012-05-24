@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: NLFjgCO2i/wty3SLEIB3Xg
+!  Checksum: sqXc3e1xify/PXyVt+Y+kw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 24 May 2012 17:42:55 +0800
+!  Last Modified:  Thu, 24 May 2012 18:17:01 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -41,6 +41,7 @@
 !---网易
 ||img1.126.net^
 ||img2.126.net^
+||stat.ws.126.net^
 ||swf.ws.126.net^*/AdvManager.swf
 ||analytics.163.com^
 ||g.163.com^
@@ -606,7 +607,8 @@ www.ku6.com##[class^="a_d0608"]
 @@||pic.snyu.com/sdk*/Main.swf$domain=~ku6.com
 
 !---乐视网
-^ptv_player^$object_subrequest
+^ptv_player^$object_subrequest$domain=tudou.letv.com
+||v.163.com/special/*_*.xml$domain=163.letv.com
 ||letv.com/ptv/player/pageAd/
 ||dc.letv.com^
 ||pro.letv.com^
