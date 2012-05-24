@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: XlPCvTdL7oecvs0nhWcMWA
+!  Checksum: 02ADJLFbBUzGngphxlpNnQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 24 May 2012 21:37:49 +0800
+!  Last Modified:  Thu, 24 May 2012 22:25:37 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -977,12 +977,15 @@ weibo.com##.tips_player
 ||biz.shm.com.cn^$object
 shm.com.cn##.surround2
 
-!---Sohu
+!---搜狐
+/ping.png?$domain=sohu.com
+||go.sohu.com^
 ||images.sohu.com/bill/
 ||images.sohu.com/cs/
 ||images.sohu.com/sms/$~object_subrequest
 ||img.mms.sohu.com/12530/js/pop12530_init.js
 ||js.sohu.com/track/
+||js.sohu.com/wrating0820.js
 sohu.com,chinaren.com##sohuadcode
 www.sohu.com###ad_TOP
 www.sohu.com###contentC > .columnC
@@ -993,6 +996,7 @@ ting.m.sohu.com##.topPic
 ||sohu.com/*.gif?$object_subrequest
 ||sohu.com.cn/*.do?$object_subrequest
 ||sohu.com.cn/*.gif?$object_subrequest
+||mfiles.sohu.com/tv/mengniu/
 ||aty*.tv.sohu.com^
 ||tv.sohu.com/upload/ad_fr/
 ||tv.sohu.com/upload/csad/
@@ -1000,10 +1004,12 @@ ting.m.sohu.com##.topPic
 ||js2.my.tv.sohu.com.cn/ppp/*/control.js
 ||js2.my.tv.sohu.com.cn/ppp/*/play.js
 ||count.vrs.sohu.com^
+mn.store.tv.sohu.com###pwd
 !--Sogou
 ||sogou.com/js/pb_*.js
 ||brand.sogou.com^
 ||pb.sogou.com^
+||pingback.sogou.com^
 sogou.com###bdfs0
 sogou.com##.sponsored
 sogou.com###zhuanqu
@@ -2022,9 +2028,9 @@ zxtjd.com###it_an
 ||9wad.com^$third-party
 ||9wee.com^$third-party
 ||a3p4.com^$third-party
-||a1click.aiqun.com^$third-party
 ||aaalian.com^$third-party
 ||acs86.com^$third-party
+||ad-plus.cn^$third-party
 ||link.ad966.com^$third-party
 ||adcenter.conn.tw^$third-party
 ||adhai.com^$third-party
@@ -2048,6 +2054,7 @@ zxtjd.com###it_an
 ||adyeye.com^$third-party
 ||adyun.com^$third-party
 ||adzhu.com^$third-party
+||a1click.aiqun.com^$third-party
 ||aiweb.tw^$third-party
 ||aldm88.com^$third-party
 ||algj-27dy.cn^$third-party
