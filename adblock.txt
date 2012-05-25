@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: vpjqQoVGQI9h5oG/LWX5DQ
+!  Checksum: JRMZZs+w80ISzPJZkaf5xw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 25 May 2012 22:52:04 +0800
+!  Last Modified:  Sat, 26 May 2012 01:37:01 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -1275,10 +1275,10 @@ soku.com,youku.com##[id^="ab_"]
 youku.com##.sideCol > div[class^="AB"]
 
 !---人人影视
-@@||www.yyets.com/index.php$elemhide
-/imgextra/*$domain=yyets.com
 ||copy.ousns.com^$image
-yyets.com##[id^="kads"]
+vod.oabt.org##.each_ad
+yyets.com##.msgShow > .f_r
+yyets.com###upad
 
 !---叶子猪游戏网
 @@||yktj.yzz.cn/htmldata/mds/yzz_single_gg.js$domain=bbs.yzz.cn
@@ -2466,7 +2466,6 @@ mobile01.com##[class^="ad-"]
 mobile01.com##.admicrobtn
 mobile01.com##a[href^="adredir.php"]
 needpop.com##.spaceborder > table[style="background: #BBE9FF"]
-vod.oabt.org##.each_ad
 price.com.hk###ad0
 price.com.hk##.tb
 suopao.org##.t5[style^="margin-top:8px;"]

@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: qGfKM8rpH1VsUO+HwTT3Bw
+!  Checksum: TQRThCsX9+MFRxnESKVVjA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 25 May 2012 22:52:04 +0800
+!  Last Modified:  Sat, 26 May 2012 01:37:01 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1277,10 +1277,10 @@ soku.com,youku.com##[id^="ab_"]
 youku.com##.sideCol > div[class^="AB"]
 
 !---人人影视
-@@||www.yyets.com/index.php$elemhide
-/imgextra/*$domain=yyets.com
 ||copy.ousns.com^$image
-yyets.com##[id^="kads"]
+vod.oabt.org##.each_ad
+yyets.com##.msgShow > .f_r
+yyets.com###upad
 
 !---叶子猪游戏网
 @@||yktj.yzz.cn/htmldata/mds/yzz_single_gg.js$domain=bbs.yzz.cn
@@ -2467,7 +2467,6 @@ mobile01.com##[class^="ad-"]
 mobile01.com##.admicrobtn
 mobile01.com##a[href^="adredir.php"]
 needpop.com##.spaceborder > table[style="background: #BBE9FF"]
-vod.oabt.org##.each_ad
 price.com.hk###ad0
 price.com.hk##.tb
 suopao.org##.t5[style^="margin-top:8px;"]
@@ -7727,6 +7726,7 @@ sat1.de###ad-fullbanner-outer
 ##.ad300x250Module
 ##.ad300x250Top
 ##.ad300x250_container
+##.ad300x250b
 ##.ad300x250box
 ##.ad300x50-right
 ##.ad300x600
@@ -11412,7 +11412,6 @@ sat1.de###ad-fullbanner-outer
 ||webads.co.nz^$third-party
 ||webads.nl^$third-party
 ||webgains.com^$third-party
-||webmasterplan.com^$third-party
 ||weborama.fr^$third-party
 ||webtrackerplus.com^$image,~image,popup
 ||webtraffic.ttinet.com^$third-party
@@ -12331,6 +12330,7 @@ sat1.de###ad-fullbanner-outer
 ||tickles.ie^$subdocument,third-party
 ||tigerdirect.com^*/affiliate_
 ||tmbattle.com/images/promo_
+||tmz.vo.llnwd.net^*_rightrail_200x987.swf
 ||todaysfinder.com^$subdocument,third-party
 ||tonefuse.s3.amazonaws.com/clientjs/
 ||top5result.com/promo/
@@ -13685,6 +13685,7 @@ _comscore.js
 ||webflowmetrics.com^$third-party
 ||webforensics.co.uk^$third-party
 ||webiqonline.com^$third-party
+||webmasterplan.com^$third-party
 ||website-hit-counters.com^$third-party
 ||websiteceo.com^$third-party
 ||websitetestlink.com^$third-party
@@ -14139,6 +14140,7 @@ _comscore.js
 ||topix.net/t6track/
 ||tr-metrics.loomia.com^
 ||tr.interlake.net^
+||track.cafemomstatic.com^
 ||track.did-it.com^
 ||track.digitalriver.com^
 ||track.monitis.com^
