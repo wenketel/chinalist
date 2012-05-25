@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: hMvh2pklaX9qIngj7313rA
+!  Checksum: qGfKM8rpH1VsUO+HwTT3Bw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 25 May 2012 17:52:44 +0800
+!  Last Modified:  Fri, 25 May 2012 22:52:04 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -69,7 +69,7 @@ www.youdao.com###ext
 ||17173.com/new/
 ||js.17173.com/ping.js
 |http://*/if/$domain=17173.com
-|http://*/x/$domain=17173.com
+|http://*/x/$domain=17173.com|17173.tv.sohu.com
 /www/ggcommon$script,domain=17173.com
 
 !---178
@@ -390,6 +390,14 @@ discuss.com.hk,uwants.com##a[href^="http://ad"]
 discuss.com.hk,uwants.com##a[href^="http://b.optimix.asia/"]
 uwants.com###foruminfo + div[align="center"]
 
+!---动漫屋
+||dm5.com/default/js/newtc.js
+||dm5.com/qu.html
+||by.tel.dm5.com^
+dm5.com##.a8ad
+dm5.com##.cl760
+dm5.com##.cl970
+
 !---对路
 ||dui.lu/index.php/ad/
 ||dui.lu/index.php/stat/
@@ -548,6 +556,7 @@ hupu.com###HCFull
 ||ifengimg.com^$object
 ||ifengimg.com/ifeng/sources/
 ||ifengimg.com/mappa/
+||y1.ifengimg.com^*/rdn_*.js
 ifeng.com##.adbox
 ifeng.com##[class$="Ad"]
 ifeng.com##[class^="adList"]
@@ -1096,9 +1105,7 @@ u-car.com.tw###ucar_ad_crazy
 
 !---U17
 ||u17.com^$third-party
-u17.com##.ad_728_90
-u17.com##.w_728.pos_r.mylife
-u17.com##.www_hd_middle_ct
+u17.com##.mylife
 
 !---游久网
 ||uuu9.com/photolog.html
@@ -1369,6 +1376,7 @@ steachs.com###banner
 ||cr173.com/show/
 ||ddooo.com/js/
 ||downxia.com/js/
+||dy2018.com/g/
 ||flvcd.com/image/partner/
 ||gpxz.com/js2/
 ||gpxz.com/skins/gpxz_20110308/$script
@@ -1426,12 +1434,11 @@ steachs.com###banner
 ||i02.youxigu.com/skin/youxigu/img/bg-new.jpg
 
 !---Net Disks
-||st2.dbank.com/css/default/h-x.png
-||st2.dbank.com/images/downloadtopbanner$image
-dbank.com###filelist_marker
 ||ctdisk.com/getbbs.php?id=6
 js?version=$domain=ctdisk.com|pipipan.com
 ctdisk.com##.kk_xshow
+||st1.dbank.com/netdisk/download/js/adsLoad.js
+dbank.com###filelist_marker
 ||jianguoyun.com/static/bdshare/v.gif
 ||d.namipan.com/inc_js/$script
 ||u.qjwm.com^
@@ -1577,11 +1584,6 @@ yesky.com##[class^="ad"]
 ||cococomic.com/v3/t.js
 ||d3zw.com/js/*.aspx
 ||dddbbb.net^$script,subdocument
-||dm5.com/qu.html
-||js.tel.dm5.com/default/js/yb_tc.js
-dm5.com##.a8ad
-dm5.com##.cl760
-dm5.com##.cl970
 ||dukankan.com/js/$subdocument
 ||dukankan.com/js/ggp.js
 dukankan.com##tr[height="300"]
