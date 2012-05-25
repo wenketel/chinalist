@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 7SIwo3Pj5t7qItvjh6PhNw
+!  Checksum: NFgQyW+9v4W7Z9gUVjVVlw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 25 May 2012 02:46:48 +0800
+!  Last Modified:  Fri, 25 May 2012 17:11:15 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1118,14 +1118,15 @@ www.uuu9.com###ban1
 !---udn
 @@||video.udn.com/player/Adv.swf$object_subrequest
 @@||video.udn.com/udnad/videoad.php^$object_subrequest
+/PROJ_AD/*$domain=udn.com
 ||udn.com/1024/NEWS/INCLUDE/
 ||udn.com^*/ad/
 ||udn.com^*/bd/
 ||udn.com/adpinline/
 ||udn.com/images/forumimg/digad.html
 ||udn.com/NEWS/watermark_omo_2010.js
-/PROJ_AD/*$domain=udn.com
 ||event.udn.com^
+||member.udn.com/NEWS/MISC/
 udn.com###ads
 
 !---VeryCD
