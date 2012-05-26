@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: C5XUzf9ASdW68tuUXkXFUw
+!  Checksum: eFlpGoAiok0TmBYgkuh3rQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 26 May 2012 19:49:44 +0800
+!  Last Modified:  Sat, 26 May 2012 21:26:54 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -1466,6 +1466,7 @@ ys168.com###xtxx
 ||daqi.com/clicklog.js
 ||log.daqi.com^
 ||msg.ettoday.net^
+ettoday.net##a[href^="http://ad.ettoday.net/adclick.php?"]
 ettoday.net###ticker_3
 ||go.hangzhou.com.cn^
 ||hebei.com.cn/eap/
@@ -1873,7 +1874,7 @@ weather.com.cn##.post_st
 ||webacg.com/data/js/
 ||webkaka.com/click/$image
 webkaka.com###Table1
-||weiphone.com/baidu.html?id=
+||weiphone.com/baidu.html
 bbs.weiphone.com##[id^="ads_"]
 /script/*$subdocument,domain=win7china.com|win8china.com
 win7china.com,win8china.com##.site_ad
@@ -2375,7 +2376,7 @@ zxtjd.com###it_an
 |http://*/i.js$third-party
 |http://*/js/ad/
 |http://*/js/tc.js
-|http://*.tw/ad/
+|http://*.tw/ad/$domain=~atmovies.com.tw
 |https://*/ad/
 /images/prom/*
 .info/ad/
