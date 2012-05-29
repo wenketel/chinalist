@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 33T4azNz7xcqQnkbeXmKlA
+!  Checksum: 7bH51393NEtAzsa7nz7YaA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 28 May 2012 21:55:13 +0800
+!  Last Modified:  Tue, 29 May 2012 19:00:42 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -446,10 +446,9 @@ focus.cn##.ad_fp
 
 !---风行网
 @@||q.funshion.com/js.php
-||ft.funshion.com^$subdocument
 ||vas.funshion.com^
 ||stat.funshion.net^
-funshion.com##div[style^="position: fixed;"]
+funshion.com##[class^="fs2012-"]
 
 !---火狐主页
 ||firefoxchina.cn/cooperation/$script
@@ -4689,6 +4688,7 @@ _preorderad.
 _psu_ad.
 _request_ad.
 _right_ad.
+_rightad_
 _show_ads.
 _show_ads=
 _skybannerview.
