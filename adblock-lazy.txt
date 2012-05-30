@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: jL2IQl/V3+wvTq1SivMSGg
+!  Checksum: okBa36F5xPyortKFYTg8cg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 30 May 2012 12:00:15 +0800
+!  Last Modified:  Wed, 30 May 2012 19:53:05 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -182,6 +182,7 @@ autohome.com.cn##.recommend
 ||pan.baidu.com/netdisk/analytics?
 ||wenku.baidu.com/tongji/
 ||top.baidu.com/js/nsclick.js
+||hao123.com/images/ua2.gif
 baidu.com###ecad
 baidu.com##.EC_mr15
 baidu.com##.ec_pp_f
@@ -359,11 +360,6 @@ dayoo.com##.cn
 !--gzdaily
 /pub/news/gzrb/*$script
 ||gzdaily.dayoo.com/tpl/banner$object
-
-!---海词词典
-||dict.cn/static/img/opera_dict3.jpg
-||dict.cn/static/img/s_f.gif
-||dict.cn/static/img/s_f.png
 
 !---点评网
 @@||dianping.com/adwords/$xmlhttprequest
@@ -547,6 +543,7 @@ hupu.com###HCFull
 /sc_ifeng/*$domain=ifeng.com
 /ssi-incs/*$subdocument,domain=ifeng.com
 /tres/recommend/*$domain=ifeng.com
+||ifeng.com/statics/comment_baidu.html
 ||bc.ifeng.com^
 ||de.deliver.ifeng.com^
 ||games.ifeng.com/webgame/
@@ -608,6 +605,8 @@ kkkmh.com##[class^="mm-"]
 bt.ktxp.com##.downloadbox + div[style]
 
 !---Ku6
+@@||g.aa.sdo.com/crossdomain.xml
+@@||g.aa.sdo.com/?method=getversion$object_subrequest
 @@||css.ku6cdn.com/comm/gg/$image
 ||st.vq.ku6.cn^
 ||log*.ku6.com^
@@ -616,8 +615,6 @@ bt.ktxp.com##.downloadbox + div[style]
 v.ku6.com##[id^="gg"]
 www.ku6.com##[class^="a_d0608"]
 !--embedded
-@@||g.aa.sdo.com/crossdomain.xml$domain=~ku6.com
-@@||g.aa.sdo.com/?method=getversion$object_subrequest,domain=~ku6.com
 @@||pic.snyu.com/sdk*/Main.swf$domain=~ku6.com
 
 !---乐视网
@@ -626,7 +623,7 @@ www.ku6.com##[class^="a_d0608"]
 ||dc.letv.com^
 ||pro.letv.com^
 ||js.letvcdn.com/js/*/stats/
-letv.com##.ad
+letv.com##.theatre
 
 !---MSN
 !-CN
@@ -906,7 +903,7 @@ dailynews.sina.com##.TopNav + table
 ||d2.sina.com.cn^$image,object,script
 ||d2.sina.com.cn^$subdocument,domain=www.sina.com.cn
 ||d3.sina.com.cn^$image,object,script
-||d4.sina.com.cn^$image,object,script
+||d4.sina.com.cn^$object,script
 ||d4.sina.com.cn^$subdocument,domain=www.sina.com.cn
 ||d5.sina.com.cn^$image,object,script
 ||auto.sina.com.cn/iframe/*_*_*.htm
@@ -1040,8 +1037,13 @@ soufun.com##.photo02
 soufun.com##.photo03
 soufun.com##.topbanner
 
-!---淘宝
+!---阿里巴巴
+||alimama.cn^$third-party,domain=~alimama.com
+||alimama.com^$third-party
+||kcart.alipay.com/web/bi.do?
+!--淘宝
 @@||tmatch.simba.taobao.com^$script
+||log.mmstat.com^
 ||acookie.*.gif?
 ||atpanel.com^$image
 ||taobao.com/go/act/sale/$third-party
@@ -1069,9 +1071,9 @@ iphone.tgbus.com###place
 ||global.tianyaui.com/global/wizard/js/wizard.js
 ||pinpai.tianya.cn^$subdocument
 ||stat.tianya.cn^
+||static.tianyaui.com/global/ty/stat/
 ||static.tianyaui.com/js/2011/bbsclk.js
 ||static.tianyaui.com/js/2010/ContClick.js
-||static.tianyaui.com/js/global/stat_20080313.js
 tianya.cn##[class^="ad_"]
 tianya.cn##[id*="_AD_"]
 tianya.cn###adsp_content_top_banner
@@ -1223,7 +1225,7 @@ xj163.cn##[class^="ad"]
 ||misc.web.xunlei.com/www_5_8/img/lt_
 ||dynamic.vod.lixian.xunlei.com^$image
 ||i.vod.xunlei.com^$image,object_subrequest
-xunlei.com##.topic_center
+xunlei.com##.banner
 !--狗狗搜索
 ||img.gougou.com/down/aishangwang$image
 ||s.gougou.com^
@@ -1756,7 +1758,7 @@ admin5.com##.notice
 ||bbs.cfanclub.net/lmimages/001.gif
 ||bbs.cfanclub.net/lmimages/960-602.gif
 ||chinacaipu.com^$subdocument
-||images.chinaz.com/$subdocument
+||images.chinaz.com^
 @@||chiphell.com/activity/*/*/$image,script,stylesheet
 ||chiphell.com/activity/
 ||coolnovo.com/res/inc/liangbian.js
@@ -1767,12 +1769,15 @@ admin5.com##.notice
 ||life.e0575.com^
 e0575.cn##.textMes
 ||hiuto.com/lib/aablock.js
+||disk.cjdby.com/filestores/$image
 ||img.cjdby.com/client/
+lt.cjdby.net##.bm.a_c
 ||cnki.net/indexGuangGao.htm
 ||pic.cnmo-img.com.cn^$object,domain=cnmo.com
 cnmo.com##[id^="AD"]
 ||codepub.com/wuse/pic/
 ||dabaoku.com^$script,object,subdocument
+||dict.cn/static/img/opera_dict3.jpg
 ||djkk.com/ak/
 ||dospy.com/hezuo/
 ||dospy.com/proxy.html
@@ -2082,8 +2087,6 @@ zxtjd.com###it_an
 ||aiweb.tw^$third-party
 ||aldm88.com^$third-party
 ||algj-27dy.cn^$third-party
-||alimama.cn^$third-party,domain=~alimama.com
-||alimama.com^$third-party
 ||all-winner.com^$third-party
 .all4ad.$third-party
 ||allyesky.cn^$third-party
