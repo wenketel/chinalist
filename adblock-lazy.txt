@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 7bH51393NEtAzsa7nz7YaA
+!  Checksum: p3Hzux+rk/a/4cF8Hh6VPw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 29 May 2012 19:00:42 +0800
+!  Last Modified:  Wed, 30 May 2012 08:35:56 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -73,7 +73,6 @@ www.youdao.com###ext
 /www/ggcommon$script,domain=17173.com
 
 !---178
-@@||178.com/*/*.html$elemhide
 /atcount.php?$domain=178.com
 ||178.com/glr.js
 ||market.178.com^
@@ -2550,6 +2549,7 @@ yyets.com##[id^="kads"]
 -adrotation.
 -ads-management/
 -ads-manager/
+-ads/oas/
 -adserver-
 -adserver/
 -adspot-
@@ -4106,6 +4106,7 @@ yyets.com##[id^="kads"]
 /pilot_ad.
 /pitattoad.
 /pixelads/*
+/place-ads/*
 /play/ad/*
 /player/ad/*
 /player/ads.
@@ -4792,6 +4793,7 @@ _webad.
 /468x60.
 /468x60/*
 /468x60_
+/468x60v1_
 /468x80-
 /468x80.
 /468x80/*
@@ -5834,7 +5836,10 @@ sat1.de###ad-fullbanner-outer
 ###adshometop
 ###adshowtop
 ###adsimage
+###adskinleft
 ###adskinlink
+###adskinright
+###adskintop
 ###adsky
 ###adskyscraper
 ###adsleft1
@@ -6015,7 +6020,6 @@ sat1.de###ad-fullbanner-outer
 ###advertspace
 ###advheader
 ###advsingle
-###advt
 ###advtext
 ~tirebusiness.com###advtop
 ###adwhitepaperwidget
@@ -6198,6 +6202,7 @@ sat1.de###ad-fullbanner-outer
 ###boxAdContainer
 ###boxAdvert
 ###box_ad
+###box_advertisement
 ###box_advertisment
 ###box_mod_googleadsense
 ###boxad1
@@ -6285,6 +6290,7 @@ sat1.de###ad-fullbanner-outer
 ###content_ad_top
 ###content_ads_content
 ~club.tgfcer.com###content_adv
+###content_bottom_ad
 ###content_box_300body_sponsoredoffers
 ###content_box_adright300_google
 ###content_lower_center_right_ad
@@ -8428,6 +8434,8 @@ sat1.de###ad-fullbanner-outer
 ##.adv_728x90
 ##.adv_banner_hor
 ##.adv_medium_rectangle
+##.adv_x_1
+##.adv_x_2
 ##.adver
 ##.adverTag
 ##.adverTxt
@@ -9162,6 +9170,7 @@ sat1.de###ad-fullbanner-outer
 ##.home_mrec_ad
 ~worldsnooker.com##.homead
 ##.homepage-ad
+##.homepage-footer-ads
 ##.homepage300ad
 ##.homepageFlexAdOuter
 ##.homepageMPU
@@ -10619,6 +10628,7 @@ sat1.de###ad-fullbanner-outer
 ||connectedads.net^$third-party
 ||connectionads.com^$third-party
 ||connextra.com^$third-party
+||contaxe.com^$third-party
 ||content-cooperation.com^$third-party
 ||contentdigital.info^$third-party
 ||contenture.com^$third-party
@@ -11822,6 +11832,7 @@ sat1.de###ad-fullbanner-outer
 ||cashmakingpowersites.com^*/banners/
 ||cashmyvideo.com/images/cashmyvideo_banner.gif
 ||casino.com^$image,~image,popup
+||castasap.com/publi2.html
 ||catholicweb.com^*/banners/
 ||cazoz.com/banner.php
 ||cbanners.virtuagirlhd.com^$third-party
@@ -12083,6 +12094,7 @@ sat1.de###ad-fullbanner-outer
 ||longtailvideo.com^*/yume.swf
 ||looneynetwork.com^*/ww-adv-
 ||lowbird.com/random/$third-party
+||lowcountrymarketplace.com/widgets/$third-party
 ||ltfm.ca/stats.php?
 ||lucky-ace-casino.net/banners/
 ||lucky-dating.net/banners/
@@ -12098,6 +12110,7 @@ sat1.de###ad-fullbanner-outer
 ||maximainvest.net^$image,third-party
 ||mazda.com.au/banners/
 ||mb-hostservice.de/banner_
+||mb.marathonbet.com^$third-party
 ||mcclatchyinteractive.com/creative/
 ||media-toolbar.com^$third-party
 ||media.onlineteachers.co.in^$third-party
@@ -12154,6 +12167,7 @@ sat1.de###ad-fullbanner-outer
 ||network.business.com^
 ||networkice.com^$subdocument,third-party
 ||newware.net/home/banner$third-party
+||nimblecommerce.com/widget.action?
 ||nitropdf.com/graphics/promo/$third-party
 ||noowmedia.com^$image,~image,popup
 ||nzpages.co.nz^*/banners/
@@ -12169,6 +12183,7 @@ sat1.de###ad-fullbanner-outer
 ||osobnosti.cz/images/casharena_
 ||overseasradio.com/affbanner.php?
 ||overturs.com/run.php?
+||ox-d.cordillera.tv^
 ||ox-d.dixcom.com^
 ||ox-d.mapmyfitness.com^$third-party
 ||ox-d.mediamark.co.za^
@@ -12568,6 +12583,7 @@ sat1.de###ad-fullbanner-outer
 ||naked.com/promos/$third-party
 ||nakedshygirls.com/bannerimg/
 ||nastydollars.com/vbanners/
+||naughtycdn.com/public/iframes/$subdocument,third-party
 ||nude.hu/html/$third-party
 ||nudemix.com/widget/
 ||online.mydirtyhobby.com^$third-party
@@ -13814,6 +13830,7 @@ _comscore.js
 ||analytics.cynapse.com^
 ||analytics.datahc.com^
 ||analytics.dev.springboardvideo.com^
+||analytics.edgekey.net^
 ||analytics.edgesuite.net^
 ||analytics.episodic.com^
 ||analytics.gvim.mobi^
@@ -14319,5 +14336,6 @@ youtube.com###watch-buy-urls
 @@||doubleclick.net/adi/ebay.*/video;$subdocument,domain=ebay.com
 @@||doubleclick.net/adj/imdb2.consumer.video/*;sz=320x240,$script
 @@||imrworldwide.com/novms/js/2/ggcmb353.js$domain=nexttv.com.tw
+~178.com###advt
 
 !------------------------End of List-------------------------
