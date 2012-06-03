@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: uAvtQKdOmwei6eTRwVuBOQ
+!  Checksum: tAP7jp0SfxY3+e3hDQwFJg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 03 Jun 2012 00:09:30 +0800
+!  Last Modified:  Mon, 04 Jun 2012 00:41:33 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -906,7 +906,6 @@ dailynews.sina.com##.TopNav + table
 ||d4.sina.com.cn^$object,script
 ||d4.sina.com.cn^$subdocument,domain=www.sina.com.cn
 ||d5.sina.com.cn^$image,object,script
-||auto.sina.com.cn/iframe/*_*_*.htm
 ||news.sina.com.cn/pfpnews/js/libweb.js
 ||pfp.sina.com.cn^$script
 ||pfp.sina.com.cn/iframe/2012nonghangguanggaotest1.html
@@ -922,7 +921,6 @@ dailynews.sina.com##.TopNav + table
 sina.com.cn##.topad
 sina.com.cn##.topAD
 sina.com.cn##.topADs
-auto.sina.com.cn##.txtAdArea01
 book.sina.com.cn##.module_80
 mobile.sina.com.cn##.zcads
 news.sina.com.cn###divResNewsBottom
@@ -935,6 +933,10 @@ www.sina.com.cn###PartA > .left > div:not(#sina_house_link9)
 www.sina.com.cn###PartG > .rightbox
 www.sina.com.cn##[class^="txtads"]
 www.sina.com.cn##.yleft2blk
+!-auto
+@@||sina.wrating.com/a1.js$domain=bbs.auto.sina.com.cn
+||auto.sina.com.cn/iframe/*_*_*.htm
+auto.sina.com.cn##.txtAdArea01
 !-finance
 @@||counter.sina.com.cn/time?fm=JS$domain=finance.sina.com.cn
 @@||sinaimg.cn/cj/deco/*/all.js$domain=finance.sina.com.cn
@@ -1036,6 +1038,16 @@ soufun.com##.adtextlink
 soufun.com##.photo02
 soufun.com##.photo03
 soufun.com##.topbanner
+
+!---山西新闻网
+||images.daynews.com.cn/flash/
+||images.daynews.com.cn/zzbframe/2008daynews/ad/
+www.sxrb.com##.ad2
+www.sxrb.com##img[width="650"][height="90"]
+www.sxrb.com##img[height="70"]
+www.sxrb.com##.itemFloat
+www.sxrb.com###f_div
+www.sxrb.com##.area1_2_ad2
 
 !---阿里巴巴
 ||alimama.cn^$third-party,domain=~alimama.com
@@ -2553,6 +2565,7 @@ yyets.com##[id^="kads"]
 -ad-manager/$~stylesheet
 -ad-server/
 -ad-util-
+-ad-util.
 -ad-vertical-
 -ad1.
 -ad2.
@@ -3426,6 +3439,7 @@ yyets.com##[id^="kads"]
 /adx.asp
 /adx.js
 /adx/ads?
+/adx_flash.
 /adxsite.
 /adxx.php?
 /adyard.
@@ -4111,6 +4125,7 @@ yyets.com##[id^="kads"]
 /peelad/*
 /peelads/*
 /peeljs.php
+/pencilad.
 /perfads.
 /performancingads/*
 /photo728ad.
@@ -4129,6 +4144,7 @@ yyets.com##[id^="kads"]
 /player/ad/*
 /player/ads.
 /player_ads/*
+/player_right_ads_
 /plugin/ad/*
 /plugins_ads_
 /plus/ad_
@@ -4197,7 +4213,6 @@ yyets.com##[id^="kads"]
 /rcolads2.
 /rcom-ads.
 /rcom-video-ads.
-/rdm-ad-
 /reclame/*
 /recommendations/ad.
 /rect_ad.
@@ -4324,6 +4339,7 @@ yyets.com##[id^="kads"]
 /sponsimages/*
 /sponslink_
 /sponsor-ad|
+/sponsor_ads/*
 /sponsorad.
 /sponsoradds/*
 /sponsorads/*
@@ -4561,6 +4577,7 @@ _ad234x90-
 _ad300x250.
 _ad6.
 _ad728x90.
+_ad_2012.
 _ad_300.
 _ad_banner.
 _ad_banner_
@@ -8820,6 +8837,8 @@ sat1.de###ad-fullbanner-outer
 ##.bullet-sponsored-links-gray
 ##.burstContentAdIndex
 ##.busrep_poll_and_ad_container
+##.button-ad
+##.button-ads
 ##.buttonAd
 ##.buttonAds
 ##.button_ads
@@ -11363,6 +11382,7 @@ sat1.de###ad-fullbanner-outer
 ||text-link-ads.com^$third-party
 ||textonlyads.com^$third-party
 ||textsrv.com^$third-party
+||tfag.de^$third-party
 ||theloungenet.com^$third-party
 ||thewebgemnetwork.com^$third-party
 ||thewheelof.com^$third-party
@@ -11617,6 +11637,7 @@ sat1.de###ad-fullbanner-outer
 ||fpctraffic2.com^$image,~image,popup
 ||funcel.mobi^$third-party
 ||gayadpros.com^$third-party
+||genialradio.com^$third-party
 ||gridlockparadise.com^$third-party
 ||gtsads.com^$third-party
 ||hentaibiz.com^$third-party
@@ -12036,6 +12057,7 @@ sat1.de###ad-fullbanner-outer
 ||glam.com/js/$third-party
 ||glam.com^*?affiliateid=
 ||globalprocash.com/banner125.gif
+||go2cloud.org/aff_i?
 ||goadv.com^*/ads.js
 ||gogousenet.com^*/promo.cgi
 ||gogousenet.com^*/promo2.cgi
@@ -12209,6 +12231,7 @@ sat1.de###ad-fullbanner-outer
 ||nimblecommerce.com/widget.action?
 ||nitropdf.com/graphics/promo/$third-party
 ||noowmedia.com^$image,~image,popup
+||nwadealpiggy.com/widgets/
 ||nzpages.co.nz^*/banners/
 ||nzphoenix.com/nzgamer/$third-party
 ||obox-design.com/affiliate-banners/
@@ -12418,6 +12441,7 @@ sat1.de###ad-fullbanner-outer
 ||tonefuse.s3.amazonaws.com/clientjs/
 ||top5result.com/promo/
 ||topmedia.com/external/
+||topspin.net/secure/media/$image,domain=youtube.com
 ||toptenreviews.com/r/c/
 ||torrentfreebie.com/index.asp?pid=$third-party
 ||tosol.co.uk/international.php?$third-party
@@ -12564,6 +12588,7 @@ sat1.de###ad-fullbanner-outer
 ||ext.affaire.com^$image,~image,popup
 ||f5porn.com/porn.gif
 ||facialabuse.com/banners/
+||fckya.com/lj.js
 ||feeds.videosz.com^$subdocument,third-party
 ||ff.nsg.org.ua^
 ||fleshlight.com/images/banners/
@@ -12664,6 +12689,7 @@ sat1.de###ad-fullbanner-outer
 ||sexier.com^*_popunder&$image,~image,popup
 ||sextronix.com/b/
 ||sextronix.com/images/$third-party
+||sextronix.nyk-b2.c.pnj1.cdnaccess.com^
 ||sexy.fling.com^$third-party
 ||sexycams.com/exports/$third-party
 ||share-image.com/borky/
@@ -13930,6 +13956,7 @@ _comscore.js
 ||capture.bi.movideo.com/dc?ct=
 ||capture.camify.com/dc?
 ||cbsinteractive.com^*/akamaianalytics.swf
+||cbsistatic.com^*/clicktale/
 ||centerix.ru^*/count.msl?
 ||cgicounter.oneandone.co.uk^
 ||cgicounter.puretec.de^

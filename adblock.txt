@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 8qP7PHYSnL3fG07QveZX4A
+!  Checksum: jwzWPYEl8I+HIVlvzO38/g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 03 Jun 2012 00:09:30 +0800
+!  Last Modified:  Mon, 04 Jun 2012 00:41:33 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -905,7 +905,6 @@ dailynews.sina.com##.TopNav + table
 ||d4.sina.com.cn^$object,script
 ||d4.sina.com.cn^$subdocument,domain=www.sina.com.cn
 ||d5.sina.com.cn^$image,object,script
-||auto.sina.com.cn/iframe/*_*_*.htm
 ||news.sina.com.cn/pfpnews/js/libweb.js
 ||pfp.sina.com.cn^$script
 ||pfp.sina.com.cn/iframe/2012nonghangguanggaotest1.html
@@ -921,7 +920,6 @@ dailynews.sina.com##.TopNav + table
 sina.com.cn##.topad
 sina.com.cn##.topAD
 sina.com.cn##.topADs
-auto.sina.com.cn##.txtAdArea01
 book.sina.com.cn##.module_80
 mobile.sina.com.cn##.zcads
 news.sina.com.cn###divResNewsBottom
@@ -934,6 +932,10 @@ www.sina.com.cn###PartA > .left > div:not(#sina_house_link9)
 www.sina.com.cn###PartG > .rightbox
 www.sina.com.cn##[class^="txtads"]
 www.sina.com.cn##.yleft2blk
+!-auto
+@@||sina.wrating.com/a1.js$domain=bbs.auto.sina.com.cn
+||auto.sina.com.cn/iframe/*_*_*.htm
+auto.sina.com.cn##.txtAdArea01
 !-finance
 @@||counter.sina.com.cn/time?fm=JS$domain=finance.sina.com.cn
 @@||sinaimg.cn/cj/deco/*/all.js$domain=finance.sina.com.cn
@@ -1035,6 +1037,16 @@ soufun.com##.adtextlink
 soufun.com##.photo02
 soufun.com##.photo03
 soufun.com##.topbanner
+
+!---山西新闻网
+||images.daynews.com.cn/flash/
+||images.daynews.com.cn/zzbframe/2008daynews/ad/
+www.sxrb.com##.ad2
+www.sxrb.com##img[width="650"][height="90"]
+www.sxrb.com##img[height="70"]
+www.sxrb.com##.itemFloat
+www.sxrb.com###f_div
+www.sxrb.com##.area1_2_ad2
 
 !---阿里巴巴
 ||alimama.cn^$third-party,domain=~alimama.com
