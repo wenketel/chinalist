@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: f1qgqpJrPrxW5CJXP/9GxQ
+!  Checksum: gPJfbzDxgTHAdKN5mh7WHw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 04 Jun 2012 01:17:02 +0800
+!  Last Modified:  Tue, 05 Jun 2012 08:35:13 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1944,11 +1944,12 @@ zxtjd.com###it_an
 !----------------------------ads-union---------------------
 !---中国电信
 /clicktotal/ClickTotal.js
-||gd.ct10000.com/js/ecssstat.js
-||gd.ct10000.com^*/push/$image,~image,popup
-||gd.189.cn^*/push/$image,~image,popup
 ||189.cn/dns/
+||gd.ct10000.com/js/ecssstat.js
+||gd.ct10000.com^*/push/$image,~image,popup,third-party
 ||gd.189.cn/ad/$image,~image,popup,third-party
+||gd.189.cn/gz/promotion/$image,~image,popup,third-party
+||gd.189.cn^*/push/$image,~image,popup,third-party
 ||gd.189.cn/push/$image,~image,popup,third-party
 !--popup
 ||100tjs.com^$image,~image,popup,third-party
@@ -2486,7 +2487,7 @@ zxtjd.com###it_an
 55188.com##[class^="a1_gg jiange"]
 55188.com##.a3_gg
 55188.com##[class^="nei"]
-hornydragon.blogspot.tw###HTML13
+hornydragon.blogspot.com,hornydragon.blogspot.tw###HTML13
 sbsrunningman.5d6d.com###header
 www.alibuybuy.com##[class^="ad_"]
 av199.com,hd199.com##table[height="30"]
