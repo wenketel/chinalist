@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: oUSurNJeYVgU5lQUHUAMYw
+!  Checksum: cPdRIxpnykf3TLq3m5Xbeg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 05 Jun 2012 16:53:34 +0800
+!  Last Modified:  Wed, 06 Jun 2012 12:38:03 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -459,11 +459,6 @@ funshion.com##[class^="fs2012-"]
 i.firefoxchina.cn,i.g-fox.cn##[id^="ad_links"]
 i.firefoxchina.cn,i.g-fox.cn##[id^="banner_show"]
 i.firefoxchina.cn,i.g-fox.cn###taobao_frame2
-
-!---巴哈姆特
-@@||bahamut.com.tw/avataruserpic/$subdocument
-.html|$subdocument,third-party,domain=gamer.com.tw
-||pic.bahamut.com.tw/js/ad.js
 
 !---游民星空
 ||gamersky.com/frame/
@@ -1452,6 +1447,8 @@ steachs.com###banner
 ||gamefy.cn/images/dota.jpg
 gamefy.cn##.ad68060
 gamefy.cn##.float_bottom_right
+.html|$subdocument,third-party,domain=www.gamer.com.tw
+||pic.bahamut.com.tw/js/ad.js
 ||houdao.com/bans/
 ||haiyou5.com/taobao.gif
 ||ngacn.cc/common_res/js_adscommon.js
@@ -1955,10 +1952,10 @@ zxtjd.com###it_an
 !--popup
 ||100tjs.com^$image,~image,popup,third-party
 ||114zhaofang.com^$image,~image,popup,third-party
-||116b.com^$image,~image,popup,script,third-party
+||116b.com^$image,~image,popup,third-party
 ||web.7k7k.com^$image,~image,popup,third-party
-||arpg2.com^$image,~image,popup,script,third-party
-||resmkt.dipan.com^$image,~image,popup,script,third-party
+||arpg2.com^$image,~image,popup,third-party
+||resmkt.dipan.com^$image,~image,popup,third-party
 ||game3896.com^$image,~image,popup,third-party
 ||xp9365.com^$image,~image,popup,third-party
 !--9v
@@ -1981,6 +1978,7 @@ zxtjd.com###it_an
 ||114la.com^$third-party
 ||114lm.com^$third-party
 ||115.238.103.82^$third-party
+||116b.com^$third-party
 ||118114.cn^$third-party
 ||155game.com^$third-party
 ||17kuxun.com^$third-party
@@ -2108,6 +2106,7 @@ zxtjd.com###it_an
 ||all-winner.com^$third-party
 .all4ad.$third-party
 ||allyesky.cn^$third-party
+||arpg2.com^$third-party
 ||artxun.com^$third-party
 ||at918.com^$third-party
 ||advooe.com^$third-party
@@ -2144,8 +2143,9 @@ zxtjd.com###it_an
 ||daoyoudao.com^$third-party
 ||diangao.com^$third-party
 ||diankee.com^$third-party
-||dingge.cc^$third-party
 ||dilingling.com^$third-party
+||dingge.cc^$third-party
+||resmkt.dipan.com^$third-party
 ||diyiunion.com^$third-party
 ||dmclick.cn^$third-party
 ||dotmore.com.tw^$third-party,domain=~savebar.com.tw
@@ -5172,7 +5172,7 @@ _a468x60.
 ###ad-frame
 ###ad-front-footer
 ###ad-front-sponsoredlinks
-sat1.de###ad-fullbanner-outer
+~sat1.de###ad-fullbanner-outer
 ###ad-fullbanner2
 ###ad-globalleaderboard
 ###ad-halfpage
@@ -6146,7 +6146,7 @@ sat1.de###ad-fullbanner-outer
 ###banner_advertisement
 ###banner_content_ad
 ###banner_topad
-~alltimesgames.com,~comedycentral.de,~comedycentral.nl,~modernmedicine.com,~shareapic.net,~viva.tv###bannerad
+~alltimesgames.com,~comedycentral.de,~comedycentral.nl,~go.com,~modernmedicine.com,~shareapic.net,~viva.tv###bannerad
 ###bannerad2
 ###baseAdvertising
 ###basket-adContainer
@@ -6651,7 +6651,7 @@ sat1.de###ad-fullbanner-outer
 ###home_lower_center_right_ad
 ###home_mpu
 ###home_spensoredlinks
-###homead
+~go.com###homead
 ###homepage-ad
 ###homepage-sidebar-ads
 ###homepageAdsTop
@@ -8030,7 +8030,7 @@ sat1.de###ad-fullbanner-outer
 ##.ad_column_box
 ##.ad_column_hl
 ##.ad_contain
-##.ad_container
+~go.com##.ad_container
 ~dewezet.de##.ad_content
 ##.ad_content_wide
 ##.ad_contents
@@ -10008,7 +10008,7 @@ sat1.de###ad-fullbanner-outer
 ##.top_ad_div
 ##.top_ad_post
 ##.top_ad_wrapper
-~trailvoy.com##.top_ads
+~sun.mv,~trailvoy.com##.top_ads
 ##.top_adv_content
 ##.top_advert
 ##.top_advertisement
@@ -10375,6 +10375,7 @@ sat1.de###ad-fullbanner-outer
 ||adscendmedia.com^$third-party
 ||adsdk.com^$third-party
 ||adsensecamp.com^$third-party
+||adserv8.com^$third-party
 ||adserve.com^$third-party
 ||adservinginternational.com^$third-party
 ||adservpi.com^$third-party
@@ -11727,6 +11728,7 @@ sat1.de###ad-fullbanner-outer
 ||2leep.com/ticker2/$third-party
 ||4loot.com/banners/
 ||69.50.226.158^$third-party,domain=~worth1000.com.ip
+||6theory.com/pub/
 ||770.com/banniere.php?
 ||a-bride-from-russia.com/banners/
 ||a-bride-from-ukraine.com/banners/
@@ -13747,6 +13749,7 @@ _comscore.js
 ||trafficregenerator.com^$third-party
 ||trafficzap.com^$third-party
 ||trailheadapp.com^$third-party
+||trakken.de^$third-party
 ||trakzor.com^$third-party
 ||trendcounter.com^$third-party
 ||triggertag.gorillanation.com^$third-party
