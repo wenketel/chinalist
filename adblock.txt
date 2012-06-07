@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: qKcSaI+eOycyDPESjZd2sw
+!  Checksum: 6sF/qwrGREDx3Tkcr7PQqQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 06 Jun 2012 12:38:03 +0800
+!  Last Modified:  Thu, 07 Jun 2012 19:57:39 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -97,6 +97,7 @@ search.21cn.com##td[width="184"][align="left"]
 ||ktzhk.com/plugins/cache_template/adv_3b2g.js
 
 !---3DM Game
+||bbs.3dmgame.com/data/attachment/forum/$image,domain=www.3dmgame.com
 ||pic1.3dm.178.com^$image,domain=www.3dmgame.com
 www.3dmgame.com##.banner_1
 www.3dmgame.com##.banner_2
@@ -177,6 +178,7 @@ autohome.com.cn##.banner750_90
 autohome.com.cn##.recommend
 
 !---Baidu
+@@||drmcmm.baidu.com/media/$image
 ||baidu.com/ecom$image,script
 ||pan.baidu.com/netdisk/analytics?
 ||wenku.baidu.com/tongji/
@@ -567,6 +569,14 @@ v.ifeng.com##.tit_ad
 ||download.it168.com/jscript/bubble.js
 it168.com##[id^="ADV"]
 it168.com##.gg
+
+!---IT之家
+||ithome.com/block/*_google
+||ithome.com/block/headerline.htm
+||img.vista123.com/images/saayaa468.gif
+||win7china.com/images/win72tc.png
+ithome.com##.side_products
+ithome.com##.hl_wrap
 
 !---煎蛋
 ||jdstatic.tankr.net/side/
@@ -1275,6 +1285,8 @@ tw.yahoo.com###ticker
 @@||buy.yahoo.com.tw^$elemhide
 !--HK
 ||l.yimg.com/*/a/hk/$~stylesheet
+||l.yimg.com/mq/hk/promotions/
+hk.yahoo.com###eu
 hk.yahoo.com###mntl1
 hk.yahoo.com###ysm-ad
 
@@ -1450,6 +1462,7 @@ gamefy.cn##.float_bottom_right
 .html|$subdocument,third-party,domain=www.gamer.com.tw
 ||pic.bahamut.com.tw/js/ad.js
 ||houdao.com/bans/
+||bbs.houdao.com/adslider.php
 ||haiyou5.com/taobao.gif
 ||ngacn.cc/common_res/js_adscommon.js
 @@||plu.cn/d/js/acmsd/thea44.js
@@ -1510,9 +1523,6 @@ ettoday.net###ticker_3
 ||huanqiu.com/script/content_js/*_banner
 ||huanqiu.com/script/homepage$script
 huanqiu.com##[id^="banner"]
-||ithome.com/block/*_google
-||ithome.com/block/headerline.htm
-ithome.com##.side_products
 ||itocp.com/html/$object
 ||jjxw.cn^$object
 jjxw.cn##[class*="_ad"]
@@ -2193,7 +2203,7 @@ zxtjd.com###it_an
 ||t.iloveyouxi.com^$third-party
 ||u.imop.com^$third-party
 ||insenz.com^$third-party
-||ipinyou.com^$third-party
+||ipinyou.$third-party
 ||is686.com^$third-party
 ||ishare.tw^$subdocument,third-party
 ||izptech.com^$third-party
@@ -2223,6 +2233,7 @@ zxtjd.com###it_an
 ||kucent.com^$third-party
 ||kuqi.com^$third-party
 ||cluclick.leshu.com^$third-party
+||linekong.com^$third-party
 ||love12.tw^$third-party
 ||notice.uchome.manyou.com^
 ||maxreturn.cn^$third-party
@@ -2524,7 +2535,6 @@ xfastest.com##[class^="ad"]
 !---2012.4
 ||image.10010.com/index_js/flash-ad$script
 ||nanrenwa.com/_img/a/$third-party
-@@||drmcmm.baidu.com/media/$image,domain=zhibo8.cc
 @@||www.yyets.com/index.php$elemhide
 /imgextra/*$domain=yyets.com
 yyets.com##[id^="kads"]
