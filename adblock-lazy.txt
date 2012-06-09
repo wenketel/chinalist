@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: wUwjFalap4oC3rQFiysryw
+!  Checksum: 8fYYk1NI2+ydSoZbDw162w
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 09 Jun 2012 14:19:52 +0800
+!  Last Modified:  Sat, 09 Jun 2012 14:20:47 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -171,6 +171,19 @@ acfun.tv###list-topic-third
 ||bmp.ali213.net^
 ali213.net###banner
 ali213.net##.newright
+
+!---阿里巴巴
+||alimama.cn^$third-party,domain=~alimama.com|~taobao.com
+||alimama.com^$third-party
+||kcart.alipay.com/web/bi.do?
+!--淘宝
+@@||tmatch.simba.taobao.com^$script
+||log.mmstat.com^
+||acookie.*.gif?
+||atpanel.com^$image
+||taobao.com/go/act/sale/$third-party
+||a.tbcdn.cn/s/atp.js
+||a.tbcdn.cn/s/ac.js
 
 !---汽车之家
 @@||33.autohome.com.cn/njs/1.js
@@ -1055,19 +1068,6 @@ www.sxrb.com##img[height="70"]
 www.sxrb.com##.itemFloat
 www.sxrb.com###f_div
 www.sxrb.com##.area1_2_ad2
-
-!---阿里巴巴
-||alimama.cn^$third-party,domain=~alimama.com|~taobao.com
-||alimama.com^$third-party
-||kcart.alipay.com/web/bi.do?
-!--淘宝
-@@||tmatch.simba.taobao.com^$script
-||log.mmstat.com^
-||acookie.*.gif?
-||atpanel.com^$image
-||taobao.com/go/act/sale/$third-party
-||a.tbcdn.cn/s/atp.js
-||a.tbcdn.cn/s/ac.js
 
 !---电玩巴士
 @@||games.tgbus.com/down.aspx?$elemhide
