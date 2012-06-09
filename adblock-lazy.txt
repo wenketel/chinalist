@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: J7Pwr2R4wsKp2js+OAFplQ
+!  Checksum: sr07Ju4W3MW2bSv4GJwuTw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 08 Jun 2012 23:00:12 +0800
+!  Last Modified:  Sat, 09 Jun 2012 13:11:43 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -100,6 +100,7 @@ search.21cn.com##td[width="184"][align="left"]
 !---3DM Game
 ||bbs.3dmgame.com/data/attachment/forum/$image,domain=www.3dmgame.com
 ||pic1.3dm.178.com^$image,domain=www.3dmgame.com
+dl.3dmgame.com##.banner_2
 www.3dmgame.com##.banner_1
 www.3dmgame.com##.banner_2
 www.3dmgame.com##[id^="clickbg"]
@@ -178,7 +179,6 @@ autohome.com.cn##.banner750_90
 autohome.com.cn##.recommend
 
 !---Baidu
-@@||drmcmm.baidu.com/media/$image
 ||baidu.com/ecom$image,script
 ||pan.baidu.com/netdisk/analytics?
 ||wenku.baidu.com/tongji/
@@ -188,6 +188,7 @@ baidu.com###ecad
 baidu.com##.EC_mr15
 baidu.com##.ec_pp_f
 baidu.com##.ec_pp_f + br
+baidu.com###container > table:nth-child(3)
 baidu.com##table[cellspacing="0"][cellpadding="0"][align="right"][width="30%"]
 baike.baidu.com###mabox
 maps.baidu.com##.cityTip_top
@@ -249,7 +250,7 @@ iqiyi.com##.first_adv
 iqiyi.com##.seed
 
 !---bilibili.tv
-||bilibili.tv/html/arcads.js
+||bilibili.tv/html/ads-
 ||static.loli.my/ad-images/$object_subrequest
 ||static.loli.my/ad-images/*b1
 ||static.loli.my/ad-images/*b2
@@ -1055,7 +1056,7 @@ www.sxrb.com###f_div
 www.sxrb.com##.area1_2_ad2
 
 !---阿里巴巴
-||alimama.cn^$third-party,domain=~alimama.com
+||alimama.cn^$third-party,domain=~alimama.com|~taobao.com
 ||alimama.com^$third-party
 ||kcart.alipay.com/web/bi.do?
 !--淘宝
@@ -1940,6 +1941,8 @@ win7china.com,win8china.com##.site_ad
 ||yxlady.com/cdd/
 ||zbinfo.net^*/ggw/
 ||cdnlog.zhenai.com^
+@@||drmcmm.baidu.com/media/$domain=zhibo8.cc
+||zhibo8.cc/js/float.js
 ||zhibowu.com/js/ad
 ||zhibowu.com/js/dingbu.js
 ||zhongguo.ca/upload_files/label/
@@ -9072,6 +9075,7 @@ _a468x60.
 ##.footad
 ##.footer-ad
 ##.footer-advert
+##.footer-text-ads
 ##.footerAd
 ##.footerAdModule
 ##.footerAds
