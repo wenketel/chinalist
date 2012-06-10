@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: k5aNzm/NGSal9P7BjLmtOQ
+!  Checksum: N/ylJ9ILiCFA/Mm47wt1fA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 09 Jun 2012 22:09:37 +0800
+!  Last Modified:  Sun, 10 Jun 2012 09:50:46 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -956,6 +956,9 @@ www.sina.com.cn##.yleft2blk
 @@||sina.wrating.com/a1.js$domain=bbs.auto.sina.com.cn
 ||auto.sina.com.cn/iframe/*_*_*.htm
 auto.sina.com.cn##.txtAdArea01
+!-blog feed
+||simg.sinajs.cn/blog7style/images/special/
+##a[href^="http://sina.allyes.com/main/adfclick?"]
 !-finance
 @@||counter.sina.com.cn/time?fm=JS$domain=finance.sina.com.cn
 @@||sinaimg.cn/cj/deco/*/all.js$domain=finance.sina.com.cn

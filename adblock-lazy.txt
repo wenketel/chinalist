@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 7LXTZ7i6bP/NiEN3rWJk2Q
+!  Checksum: 4VN9VULBJ6+4CRow0iyhmQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 09 Jun 2012 22:09:37 +0800
+!  Last Modified:  Sun, 10 Jun 2012 09:50:46 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -957,6 +957,9 @@ www.sina.com.cn##.yleft2blk
 @@||sina.wrating.com/a1.js$domain=bbs.auto.sina.com.cn
 ||auto.sina.com.cn/iframe/*_*_*.htm
 auto.sina.com.cn##.txtAdArea01
+!-blog feed
+||simg.sinajs.cn/blog7style/images/special/
+##a[href^="http://sina.allyes.com/main/adfclick?"]
 !-finance
 @@||counter.sina.com.cn/time?fm=JS$domain=finance.sina.com.cn
 @@||sinaimg.cn/cj/deco/*/all.js$domain=finance.sina.com.cn
@@ -3137,6 +3140,7 @@ yyets.com##[id^="kads"]
 /ads/468a.
 /ads/728b.
 /ads/js/*
+/ads/jsbannertext.
 /ads/leaderboard.
 /ads/panel.
 /ads/skins/*
@@ -4261,6 +4265,7 @@ yyets.com##[id^="kads"]
 /rightnavadsanswer.
 /righttopads.
 /rolloverads/*
+/rolloverbannerad.
 /rotads/*
 /rotateads.
 /rotatedads2.
@@ -4836,11 +4841,14 @@ _webad.
 /120x600_
 /125x125_banner.
 /160-600-
+/160-600.
 /160_600_
 /160x600-
 /160x600.
 /160x600/*
 /160x600_
+/300-250-
+/300-250.
 /300250_ad-
 /300_250_
 /300x250-
@@ -9893,6 +9901,7 @@ _a468x60.
 ##.sponsoredLink
 ##.sponsoredLinks
 ##.sponsoredLinks2
+##.sponsoredLinksBox
 ##.sponsoredLinksHeader
 ##.sponsoredProduct
 ##.sponsoredResults
@@ -12054,6 +12063,7 @@ _a468x60.
 ||free-rewards.com-s.tv^$image,~image,popup
 ||freecycle.org^*/sponsors/
 ||freetrafficsystem.com/fts/ban/
+||friedrice.la/widget/$third-party
 ||frogatto.com/images/$third-party
 ||frontsight.com^*/banners/
 ||ft.pnop.com^
@@ -12587,6 +12597,7 @@ _a468x60.
 ||adultfriendfinder.com/go/$image,~image,popup
 ||adultfriendfinder.com/go/page/js_im_box?
 ||adultfriendfinder.com/images/banners/
+||aebn.net/banners/
 ||affiliates.thrixxx.com^
 ||amarotic.com^*?wmid=$image,~image,popup,third-party
 ||ambya.com/potdc/
@@ -12634,6 +12645,7 @@ _a468x60.
 ||free-xxx-pictures.com/banners/
 ||freeonescams.com^$subdocument,third-party
 ||freeporn.hu/banners/
+||freexxxvideoclip.aebn.net^
 ||ftvcash.com/banners/
 ||fuckbookhookups.com/go/$image,~image,popup
 ||fuckhub.net^*?pid=$third-party
@@ -12711,6 +12723,7 @@ _a468x60.
 ||promo.badoink.com^
 ||promo.blackcrush.com^
 ||promo.lonelywifehookup.com^
+||promo.pimproll.com^
 ||promo.ulust.com^$third-party
 ||promos.meetlocals.com^
 ||rawtubelive.com/exports/$third-party
