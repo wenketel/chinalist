@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: t7aRzHBrdqGsDMNzsNAeHA
+!  Checksum: 3v/mM4YsP3KgiRJWFWbMGQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 11 Jun 2012 12:35:16 +0800
+!  Last Modified:  Mon, 11 Jun 2012 19:20:09 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -173,7 +173,7 @@ ali213.net##.newright
 
 !---阿里巴巴
 ||alimama.cn^$third-party,domain=~alimama.com|~taobao.com
-||alimama.com^$third-party
+||alimama.com^$third-party,domain=~taobao.com
 ||kcart.alipay.com/web/bi.do?
 !--淘宝
 @@||tmatch.simba.taobao.com^$script
@@ -1930,11 +1930,15 @@ tianyayidu.com##div[style^="width:728px;"]
 /large/*$domain=tiyuba.tv
 ||topsage.com/service/$object
 ||tompda.com^$object
+||tvt.so/ad1.php
+||tvt.so/images/banner2.png
 /gif/*$image,domain=txzqw.com
 /img/*$image,domain=txzqw.com
 ||u148.net/activity/$~object_subrequest
 ||bbs.uueasy.com/js/tao123.js
 bbs.uueasy.com###banner
+||vamt.vancl.com/mt/$image
+||vamr.vancl.com/trace.ashx
 ||poster.weather.com.cn^
 weather.com.cn##[class^="adpos"]
 weather.com.cn##.post_st
