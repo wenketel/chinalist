@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: Y/1twaBjS+dB5ld19GgIlA
+!  Checksum: sq21oZQh/hVwUqcfYEncSw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 12 Jun 2012 18:17:44 +0800
+!  Last Modified:  Tue, 12 Jun 2012 19:58:33 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -160,6 +160,16 @@ v.6.cn###playerAd
 @@||bbs.9baka.com^$elemhide
 @@||bbs.9gal.com^$elemhide
 
+!---admin5
+@@||admin5.com/extras/zz/inner.head.logo.js
+||admin5.com/daohang/
+||admin5.com/extras/
+||bbs.admin5.com/topa.htm
+||bbs.admin5.com/static/gao/
+||down.admin5.com/z/
+admin5.com##.notice
+down.admin5.com###a2
+
 !---acfun.tv
 ||818.17173.com/js/818ad01.js
 ||acfun.tv/api/count.aspx
@@ -273,8 +283,9 @@ iqiyi.com##.seed
 ||static.loli.my/ad-images/*c1
 
 !---爆米花网
-@@||cb.baidu.com/crossdomain.xml$domain=baomihua.com|pomoho.com
+@@||cb.baidu.com/crossdomain.xml
 @@||cb.baidu.com/ecom?$object_subrequest,domain=baomihua.com|pomoho.com
+@@||pvstat.pomoho.com/crossdomain.xml
 ||a.pomoho.com^
 ||systemlog.pxtadmin.com^
 
@@ -909,6 +920,8 @@ readersdigest.cn###fixeddiv
 ||sina.com/assets/js/dart/
 dailynews.sina.com##.TopNav + table
 !--sina.com.cn
+@@||sinaimg.cn^*/deco/*/common$script
+@@||sinaimg.cn^*/deco/*/sinaObj.js
 /iframe/auto/*$domain=sina.com.cn
 /iframe/book/*$domain=sina.com.cn
 /iframe/ent/*$domain=sina.com.cn
@@ -922,6 +935,7 @@ dailynews.sina.com##.TopNav + table
 /iframe/tech/*$domain=sina.com.cn
 /jianyu1/TaoBao/*$domain=sina.com.cn
 /pfpnew/*$domain=sina.com.cn
+||bj.house.sina.com.cn/iframe/
 ||d1.sina.com.cn^$image,object,script,domain=~weibo.com
 ||d2.sina.com.cn^$image,object,script
 ||d2.sina.com.cn^$subdocument,domain=www.sina.com.cn
@@ -935,8 +949,6 @@ dailynews.sina.com##.TopNav + table
 ||pfp.sina.com.cn/jczs.html
 ||rm.sina.com.cn^$~stylesheet
 ||v.sina.com.cn^$subdocument
-@@||sinaimg.cn^*/deco/*/common$script
-@@||sinaimg.cn^*/deco/*/sinaObj.js
 ||sinaimg.cn^*/deco/$script
 ||sinaimg.cn/dy/deco/2009/1216/950-90.gif
 ||sinaimg.cn/unipro/
@@ -946,9 +958,10 @@ sina.com.cn##.topAD
 sina.com.cn##.topADs
 book.sina.com.cn##.module_80
 mobile.sina.com.cn##.zcads
-news.sina.com.cn###divResNewsBottom
+news.sina.com.cn##div[style="padding:9px 0 0;height:130px;text-align:center;background:#f3f3f3;"]
+news.sina.com.cn##.sinazt_1231
 sports.sina.com.cn##[id^="ads_right"]
-tech.sina.com.cn##.PartARB01-2
+tech.sina.com.cn##div[style="height:230px;"]
 www.sina.com.cn##[class$="780x90Div"]
 www.sina.com.cn##[class^="AD"]
 www.sina.com.cn##.cleft
@@ -1703,6 +1716,7 @@ shushuw.cn##.bdad
 ||ttshu.com/js/
 ||wanshulou.com/skin/js/
 ||wenchangshuyuan.com/contentjs/
+||xiaolushu.com/js/chapter_banner.js
 @@||xiaoshuo570.com/scripts/read/page.js
 ||xiaoshuo570.com/scripts/read$script
 ||xiaoyanwenxue.com/contentjs/
@@ -1788,9 +1802,6 @@ www.jstv.com##.jadv
 ||js.5ilog.com/qq/js/jsgg.js
 ||9ist.com/others/ad/
 9ist.com##.tab_mb[width="100%"]
-||admin5.com/extras/zz/$script
-||down.admin5.com/z/$script
-admin5.com##.notice
 ||arting365.com/advs/
 ||badmintoncn.com/cbo_gg/
 ||bitscn.com/pic2009/a*.js
@@ -2542,8 +2553,7 @@ gamebase.com.tw##.wait_gbno1
 loltw.gamebase.com.tw##[class^="adsense-"]
 bbs.imuyang.com##.a_pt > .cl
 bbs.imuyang.com###diy1
-infzm.com###article_right_adv
-infzm.com###article_left_adv
+infzm.com##[class$="adv"]
 itopdog.cn##[class^="ad"]
 itopdog.cn##[id^="itopdog_ad-"]
 itopdog.cn##.xoxo > [id^="text-"]
@@ -5994,7 +6004,7 @@ _a468x60.
 ###adv-ext-ext-2
 ###adv-leaderboard
 ###adv-left
-~mlive.com###adv-masthead
+###adv-masthead
 ###adv-middle
 ###adv-mpux
 ###adv-x36
@@ -8175,7 +8185,7 @@ _a468x60.
 ##.ad_tag_middle
 ~leboncoin.fr##.ad_text
 ##.ad_text_w
-~njuskalo.hr##.ad_title
+##.ad_title
 ##.ad_top
 ##.ad_top_leaderboard
 ##.ad_top_left
