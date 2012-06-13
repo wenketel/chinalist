@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: q5tkq+nvtLADhvzro/m3Zg
+!  Checksum: 1cAZoM8Wa2UG3X3lSsQr7g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 13 Jun 2012 21:39:20 +0800
+!  Last Modified:  Thu, 14 Jun 2012 01:43:23 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -936,7 +936,7 @@ dailynews.sina.com##.TopNav + table
 /jianyu1/TaoBao/*$domain=sina.com.cn
 /pfpnew/*$domain=sina.com.cn
 ||bj.house.sina.com.cn/iframe/
-||d1.sina.com.cn^$image,object,script,domain=~weibo.com
+||d1.sina.com.cn^$image,object,script,domain=~www.sina.com.cn|~weibo.com
 ||d2.sina.com.cn^$image,object,script
 ||d2.sina.com.cn^$subdocument,domain=www.sina.com.cn
 ||d3.sina.com.cn^$image,object,script
@@ -975,7 +975,7 @@ www.sina.com.cn##.yleft2blk
 auto.sina.com.cn##.txtAdArea01
 !-blog feed
 ||simg.sinajs.cn/blog7style/images/special/
-##a[href^="http://sina.allyes.com/main/adfclick?"]
+~www.sina.com.cn##a[href^="http://sina.allyes.com/main/adfclick?"]
 !-finance
 @@||counter.sina.com.cn/time?fm=JS$domain=finance.sina.com.cn
 @@||sinaimg.cn/cj/deco/*/all.js$domain=finance.sina.com.cn
@@ -1103,6 +1103,7 @@ www.sxrb.com##.area1_2_ad2
 ||vista.tgbusdata.cn/s.js
 tgbus.com##[class^="ad"][class*="t8"]
 tgbus.com##.ads1
+tgbus.com##.ad79
 tgbus.com##.ad86
 tgbus.com###navi + .area
 tgbus.com###ead
@@ -2196,6 +2197,7 @@ zxtjd.com###it_an
 ||dilingling.com^$third-party
 ||dingge.cc^$third-party
 ||resmkt.dipan.com^$third-party
+||displink.com^$third-party
 ||diyiunion.com^$third-party
 ||dmclick.cn^$third-party
 ||dotmore.com.tw^$third-party,domain=~savebar.com.tw

@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 9kbHxwGn2Ef6ddLOqMC/iw
+!  Checksum: pSFzYhE66MYBSYv1kkjp2Q
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 13 Jun 2012 21:39:20 +0800
+!  Last Modified:  Thu, 14 Jun 2012 01:43:23 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -937,7 +937,7 @@ dailynews.sina.com##.TopNav + table
 /jianyu1/TaoBao/*$domain=sina.com.cn
 /pfpnew/*$domain=sina.com.cn
 ||bj.house.sina.com.cn/iframe/
-||d1.sina.com.cn^$image,object,script,domain=~weibo.com
+||d1.sina.com.cn^$image,object,script,domain=~www.sina.com.cn|~weibo.com
 ||d2.sina.com.cn^$image,object,script
 ||d2.sina.com.cn^$subdocument,domain=www.sina.com.cn
 ||d3.sina.com.cn^$image,object,script
@@ -976,7 +976,7 @@ www.sina.com.cn##.yleft2blk
 auto.sina.com.cn##.txtAdArea01
 !-blog feed
 ||simg.sinajs.cn/blog7style/images/special/
-##a[href^="http://sina.allyes.com/main/adfclick?"]
+~www.sina.com.cn##a[href^="http://sina.allyes.com/main/adfclick?"]
 !-finance
 @@||counter.sina.com.cn/time?fm=JS$domain=finance.sina.com.cn
 @@||sinaimg.cn/cj/deco/*/all.js$domain=finance.sina.com.cn
@@ -1104,6 +1104,7 @@ www.sxrb.com##.area1_2_ad2
 ||vista.tgbusdata.cn/s.js
 tgbus.com##[class^="ad"][class*="t8"]
 tgbus.com##.ads1
+tgbus.com##.ad79
 tgbus.com##.ad86
 tgbus.com###navi + .area
 tgbus.com###ead
@@ -2196,6 +2197,7 @@ zxtjd.com###it_an
 ||dilingling.com^$third-party
 ||dingge.cc^$third-party
 ||resmkt.dipan.com^$third-party
+||displink.com^$third-party
 ||diyiunion.com^$third-party
 ||dmclick.cn^$third-party
 ||dotmore.com.tw^$third-party,domain=~savebar.com.tw
@@ -13892,7 +13894,6 @@ _comscore.js
 ||webmasterplan.com^$third-party
 ||website-hit-counters.com^$third-party
 ||websiteceo.com^$third-party
-||websitetestlink.com^$third-party
 ||websitewelcome.com^$third-party
 ||webstat.com^$third-party
 ||webstat.net^$third-party
@@ -14364,6 +14365,7 @@ _comscore.js
 ||tracker.roitesting.com^
 ||tracker.timesgroup.com^
 ||tracking.allposters.com^
+||tracking.ehavior.net^
 ||tracking.i-click.com.hk^
 ||tracking.livingsocial.com^
 ||tracking.quisma.com^
