@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: pSFzYhE66MYBSYv1kkjp2Q
+!  Checksum: FexasaOrLSG2sR2lPknSug
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 14 Jun 2012 01:43:23 +0800
+!  Last Modified:  Thu, 14 Jun 2012 17:49:50 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -848,10 +848,13 @@ www.qidian.com##.RightAD
 !--晋江文学城
 ||210.51.33.225^
 ||jjwxc.net/jjad2.html$image,~image,popup
-||jjwxc.net/sp/$subdocument
+||static.jjwxc.net/sp/$subdocument
+||static.jjwxc.net/scripts/richMedia.js
 jjwxc.net##[id^="adp_"]
-jjwxc.net##table[style^="width:984px;"]
 jjwxc.net##.h8px + div[align="center"]
+jjwxc.net###containermmtypea
+jjwxc.net##[id^="div-gpt-ad"]
+jjwxc.net##table[style^="width:984px;"]
 
 !---奇虎
 ||hao.360.cn/css/monitorscript.js
@@ -963,7 +966,6 @@ news.sina.com.cn##div[style="padding:9px 0 0;height:130px;text-align:center;back
 news.sina.com.cn##.sinazt_1231
 sports.sina.com.cn##[id^="ads_right"]
 tech.sina.com.cn##div[style="height:230px;"]
-www.sina.com.cn##[class$="780x90Div"]
 www.sina.com.cn##[class^="AD"]
 www.sina.com.cn##.cleft
 www.sina.com.cn###PartA > .left > div:not(#sina_house_link9)
