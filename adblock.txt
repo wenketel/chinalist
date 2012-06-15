@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: i7g0sCJNg6PvpS3f1vX9dA
+!  Checksum: zFXOMt7QTFyM4Gg7xH8NlA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 15 Jun 2012 23:22:04 +0800
+!  Last Modified:  Fri, 15 Jun 2012 23:47:57 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -42,11 +42,11 @@
 ||img1.126.net^
 ||img2.126.net^
 ||stat.ws.126.net^
+||163.com/special/*_*.xml
 ||adgeo.163.com^
 ||analytics.163.com^
 ||g.163.com^
 ||popme.163.com^
-||v.163.com/special/*_*.xml
 ||v.163.com/special/open_adv/
 163.com##[class^="gg"]
 163.com##[id^="asian163_"]
@@ -310,7 +310,7 @@ chinanews.com###qizhi_div980
 ||a.cntv.cn^
 ||cntv.cn/library/script/flash_guanggaodiaoyong.js
 ||d.cntv.cn^
-||log.player.cntv.cn^
+||log.vdn.apps.cntv.cn^
 ||qiye.cctv.com/js/
 
 !---中华网
@@ -397,7 +397,7 @@ dayoo.com##.cn
 !---Discuz! & PHPWind etc.
 @@/common/cf/*.thumb$image
 /common/ad_close.gif
-/common/cf/*$image,object,domain=~discuz.net
+/common/cf/*$image,object
 ||discuz.gtimg.cn/cloud/scripts/discuz_tips.js
 ~xdjz.net###ads_c_tpc
 ##.a_h
