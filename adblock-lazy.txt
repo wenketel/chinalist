@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: uTukdHralh/YwOH/gdsslg
+!  Checksum: qXNqJgeOI04aMQ1uko119A
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 14 Jun 2012 20:41:14 +0800
+!  Last Modified:  Fri, 15 Jun 2012 18:21:12 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1579,9 +1579,10 @@ www.pcpop.com##.Content > .l1:first-child
 strtv.cn##body > .container:first-child
 /sungg/*$domain=sun0769.com
 sun0769.com###topgg
-||sznews.com/2008gg/
-||sznews.com/ad
-||sznews.com^$object
+||sznews.com/13160.files/$object
+||sznews.com/13160.files/a
+||sznews.com/AdPreview/
+||sznews.com/css/js
 ||taihe.net/js/ad
 taihe.net##script[src="/js/ad.js"] + #table1
 ||forum.techweb.com.cn/advtcnt.php
@@ -1932,7 +1933,7 @@ ph66.com##[class^="ad_"]
 ||qqjia.com^$script
 ||qqjia.com/images/ad
 ||qqkj.cn^$script
-||source.qunar.com/site/images/wns/*
+||source.qunar.com/site/images/wns/
 ||qzwb.com^$object
 qzwb.com##.area[style^="height:70px;"]
 ||img.rmfans.cn/g/
@@ -1994,7 +1995,7 @@ zxtjd.com###it_an
 ||zzsky.cn/images/a_d_
 
 !----------------------------ads-union---------------------
-!---中国电信
+!--中国电信
 /clicktotal/ClickTotal.js
 ||189.cn/dns/
 ||gd.ct10000.com/js/ecssstat.js
@@ -2003,6 +2004,8 @@ zxtjd.com###it_an
 ||gd.189.cn/gz/promotion/$image,~image,popup,third-party
 ||gd.189.cn^*/push/$image,~image,popup,third-party
 ||gd.189.cn/push/$image,~image,popup,third-party
+!--联通
+||kdly.net^$third-party
 !--popup
 ||100tjs.com^$image,~image,popup,third-party
 ||114zhaofang.com^$image,~image,popup,third-party
@@ -4900,6 +4903,7 @@ _webad.
 /468-60.
 /468-banner.
 /468_60.
+/468_80/*
 /468x60-
 /468x60.
 /468x60/*
@@ -9708,6 +9712,7 @@ _a468x60.
 ##.relatesearchad
 ##.remads
 ##.resourceImagetAd
+##.result-sponsored
 ##.result_ad
 ##.review-ad
 ##.reviewMidAdvertAlign
@@ -11400,7 +11405,6 @@ _a468x60.
 ||skimlinks.com^$third-party
 ||skimresources.com^$third-party
 ||skoovyads.com^$third-party
-||slimtrade.com/out.php?$image,~image,popup
 ||slimtrade.com^$third-party
 ||smart.allocine.fr^$third-party
 ||smart2.allocine.fr^$third-party
@@ -11693,6 +11697,7 @@ _a468x60.
 ||adultpopunders.com^$third-party
 ||advmania.com^$third-party
 ||adxpansion.com^$third-party
+||adxregie.com^$third-party
 ||aeesy.com^$third-party
 ||affiligay.net^$third-party
 ||aipbannerx.com^$third-party
@@ -12770,6 +12775,7 @@ _a468x60.
 ||promo.lonelywifehookup.com^
 ||promo.pimproll.com^
 ||promo.ulust.com^$third-party
+||promo1.webcams.nl^$third-party
 ||promos.meetlocals.com^
 ||rawtubelive.com/exports/$third-party
 ||realitykings.com/vbanners/
@@ -13706,6 +13712,7 @@ _comscore.js
 ||quintelligence.com^$third-party
 ||radarstats.com^$third-party
 ||radarurl.com^$third-party
+||rank-hits.com^$third-party
 ||rapidcounter.com^$third-party
 ||rapidstats.net^$third-party
 ||rating.in^$third-party
@@ -13962,6 +13969,7 @@ _comscore.js
 ||4theclueless.com/adlogger/
 ||99widgets.com/counters/
 ||9msn.com.au^*/tracking/
+||acces-charme.com/fakebar/track.php?
 ||acs86.com/t.js
 ||activities.niagara.comedycentral.com^
 ||addthis.com/at/

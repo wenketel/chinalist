@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: LSdQ4cA2reqzOCBHRXcHoA
+!  Checksum: IwY+9yKpvb+ccEn+cv4E3Q
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 14 Jun 2012 20:41:14 +0800
+!  Last Modified:  Fri, 15 Jun 2012 18:21:12 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -1579,9 +1579,10 @@ www.pcpop.com##.Content > .l1:first-child
 strtv.cn##body > .container:first-child
 /sungg/*$domain=sun0769.com
 sun0769.com###topgg
-||sznews.com/2008gg/
-||sznews.com/ad
-||sznews.com^$object
+||sznews.com/13160.files/$object
+||sznews.com/13160.files/a
+||sznews.com/AdPreview/
+||sznews.com/css/js
 ||taihe.net/js/ad
 taihe.net##script[src="/js/ad.js"] + #table1
 ||forum.techweb.com.cn/advtcnt.php
@@ -1932,7 +1933,7 @@ ph66.com##[class^="ad_"]
 ||qqjia.com^$script
 ||qqjia.com/images/ad
 ||qqkj.cn^$script
-||source.qunar.com/site/images/wns/*
+||source.qunar.com/site/images/wns/
 ||qzwb.com^$object
 qzwb.com##.area[style^="height:70px;"]
 ||img.rmfans.cn/g/
@@ -1994,7 +1995,7 @@ zxtjd.com###it_an
 ||zzsky.cn/images/a_d_
 
 !----------------------------ads-union---------------------
-!---中国电信
+!--中国电信
 /clicktotal/ClickTotal.js
 ||189.cn/dns/
 ||gd.ct10000.com/js/ecssstat.js
@@ -2003,6 +2004,8 @@ zxtjd.com###it_an
 ||gd.189.cn/gz/promotion/$image,~image,popup,third-party
 ||gd.189.cn^*/push/$image,~image,popup,third-party
 ||gd.189.cn/push/$image,~image,popup,third-party
+!--联通
+||kdly.net^$third-party
 !--popup
 ||100tjs.com^$image,~image,popup,third-party
 ||114zhaofang.com^$image,~image,popup,third-party
