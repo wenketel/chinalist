@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: PkmpP3ezAXfwZ618qZ6mBA
+!  Checksum: feW8hv8XcG0fwkyEzhyp2w
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 16 Jun 2012 19:33:54 +0800
+!  Last Modified:  Sat, 16 Jun 2012 20:19:26 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -867,8 +867,8 @@ bbs.360.cn##.aXd
 @@||cq.qq.com/js/cody/gdad/all_scroll_ad.js
 @@||exp.qq.com/img/ad/$image
 @@||mb.qq.com^$elemhide
-||mat1.gtimg.com/sports/2010ad/
-||mat1.gtimg.com/sports/2011ad/
+||mat1.gtimg.com/ent/flash/
+||mat1.gtimg.com/sports/$object
 ||adslvfile.qq.com^
 ||btrace.qq.com^
 ||cq.qq.com^*/ad_
@@ -883,6 +883,7 @@ qq.com##.business-Article-QQ
 qq.com##.l_qq_com
 qq.com##.qiye-Article-QQ
 cq.qq.com##[style^="width:960px;"]
+ent.qq.com###ent_ad
 news.qq.com##[id^="dlAds"]
 news.qq.com###photo_ad
 www.qq.com##.adArea > div:not(#adAreaD):not(#adAreaS):not(#gongyi)
@@ -998,10 +999,16 @@ house.sina.com.cn###topBg
 ||mail.sina.com.cn/admail/
 ||mail.sina.com.cn/freemail/news/oneline-notice.html
 !-sh.sina.com.cn
+||sh.sinaimg.cn//228/
 ||sh.sinaimg.cn/*/ad/
-sh.sina.com.cn##[class^="jsad"]
-sh.sina.com.cn###jesse12
-sh.house.sina.com.cn##[id^="coupletAd"]
+||sh.sinaimg.cn/adpackage/
+||sh.sina.com.cn/iframe/249/*/5.html
+||sh.sina.com.cn/iframe/328/
+||sh.sina.com.cn/iframe/391/
+||sh.sina.com.cn/iframe/408/
+||yodak.net^$subdocument
+sh.sina.com.cn###ads
+sh.sina.com.cn##.iframepart1
 !-sports
 ||lining.sina.com.cn^$subdocument
 ||p4p.sina.com.cn^
@@ -2332,6 +2339,7 @@ zxtjd.com###it_an
 ||qutaotao.com^$third-party
 ||rayli.com.cn^$third-party
 ||360.rbc.cn^$third-party
+||redu.com^$third-party
 ||redu-click.com^$third-party
 ||author.richi.cc^$third-party
 ||bg.richmouse.com^$third-party
@@ -13020,6 +13028,7 @@ _a468x60.
 /metriweb.js
 /mint/?js
 /mintstats/?js
+/mixpanel_beacon.
 /mmcore.js
 /mngi/tracking/*
 /modules/contrib/google_analytics/*
@@ -13837,6 +13846,7 @@ _comscore.js
 ||toplist.eu^$third-party
 ||topmalaysia.com^$third-party
 ||topofblogs.com^$third-party
+||torbit.com^$third-party
 ||touchclarity.com^$third-party
 ||tracemyip.org^$third-party
 ||tracer.jp^$third-party
