@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: k5OqM5WlztRhIGfvCCoCBw
+!  Checksum: cx/S30dAKGTVUfmB8oa7IQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 16 Jun 2012 20:24:16 +0800
+!  Last Modified:  Sun, 17 Jun 2012 02:15:29 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -27,11 +27,6 @@
 @@||51job.com^$elemhide
 @@||52vfx.com^$elemhide
 @@||xiazaiba.com^$elemhide
-!---Make sure video from those sites can be played correctly
-@@||union.bokecc.com^$object,object_subrequest,script
-@@||v.ftimg.net/video/adv/ad.flv
-@@||go.goyeah.com/adpolestar/$object_subrequest
-@@||drag.synacast.com^$object_subrequest,domain=x2dsj.com
 
 !----------------------------Well-known Sites--------------
 !---115网盘
@@ -294,6 +289,16 @@ iqiyi.com##.seed
 ||g.bitauto.com^$script
 bitauto.com##.bt_ad
 bitauto.com##.con_ad
+
+!---CC视频
+@@||union.bokecc.com/flash/$object
+@@||union.bokecc.com/js/player/
+@@||union.bokecc.com/player?
+@@||union.bokecc.com/servlet/playinfo?
+@@||union.bokecc.com/servlet/getvideofile?
+||bokecc.com^*/playlog?
+||click.bokecc.com^
+||imedia.bokecc.com^
 
 !---中国新闻网
 /ad2008/*$domain=chinanews.com
@@ -1375,15 +1380,6 @@ soso.com##[ss_c^="ad_"]
 soso.com###rads
 wenwen.soso.com##.ad1
 
-!---ZASV
-@@||ad.zasv.com^*/*/$image,object
-www.zasv.com##.bm.a_c
-
-!---逐浪小说网
-||images2.zhulang.com^$script,image,object
-zhulang.com##[class^="ad"]
-zhulang.com###reader_top
-
 !---ZOL
 @@||xiazai.zol.com.cn/detail/$elemhide
 ||icon.zol-img.com.cn/public/js/web_foot.js
@@ -1747,6 +1743,10 @@ shushuw.cn##.bdad
 ||images.xxsy.net/js/xxsypop.js
 ||ydnovel.com/js/topp.js
 ||yueshuba.com/js/
+||zhulang.com/images/$object
+||images.zhulang.com/game/upload/$domain=book.zhulang.com|www.zhulang.com
+zhulang.com##[id^="adv"]
+zhulang.com##[class*="adv"]
 @@||zzzcn.com^$elemhide
 ||zzzcn.com/3z/
 
@@ -1775,6 +1775,8 @@ www.chdtv.net###sitefocus.focus
 ||apas.aipai.com^
 www.aipai.com###indexRight.gg_200
 ||ballive.com/jsgg/
+@@||go.goyeah.com/adpolestar/$object_subrequest
+||goyeah.com/homepage.html
 ||image.jstv.com/jstv/photo.js
 www.jstv.com##.delayadv
 www.jstv.com##.jadv
@@ -1991,6 +1993,8 @@ win7china.com,win8china.com##.site_ad
 ||yanqiao.com/yanqiao/
 ||ytbbs.com/images/index/
 ||yxlady.com/cdd/
+@@||ad.zasv.com^*/*/$image,object
+www.zasv.com##.bm.a_c
 ||zbinfo.net^*/ggw/
 ||cdnlog.zhenai.com^
 @@||drmcmm.baidu.com/media/$domain=zhibo8.cc
@@ -2461,7 +2465,7 @@ zxtjd.com###it_an
 /adservice/*
 /adsimg/*
 /adv.
-/adv/*
+/adv/*$domain=~ftchinese.com
 /advpic/*
 /affiliate/*
 .allyes.
@@ -3025,7 +3029,9 @@ yyets.com##[id^="kads"]
 /adfunction.
 /adfunctions.
 /adgallery1.
+/adgallery1|
 /adgallery2.
+/adgallery2|
 /adgalleryheader.
 /adgearsegmentation.
 /adgeo/*
@@ -3134,6 +3140,8 @@ yyets.com##[id^="kads"]
 /adpartner.
 /adpeeps.
 /adpeeps/*
+/adpicture1|
+/adpicture2|
 /adplayer.
 /adplayer/*
 /adplugin.
@@ -12277,6 +12285,7 @@ _a468x60.
 ||mastiway.com/webimages/$third-party
 ||match.com^*/prm/$third-party
 ||matrixmails.com/images/$third-party
+||maxedtube.com/video_play?*&utm_campaign=$image,~image,popup,third-party
 ||maximainvest.net^$image,third-party
 ||mazda.com.au/banners/
 ||mb-hostservice.de/banner_
@@ -12296,6 +12305,7 @@ _a468x60.
 ||mlgpro.com/javascript/data/addata.php
 ||mmdcash.com/mmdcash01.gif
 ||mmo4rpg.com^*.gif|$third-party
+||mmosale.com/baner_images/$third-party
 ||mobyler.com/img/banner/
 ||mozo-widgets.f2.com.au^
 ||mp3ix.com^$third-party
@@ -12647,6 +12657,7 @@ _a468x60.
 ||ver-pelis.net/player/servers/otros.js
 ! *** easylist:easylist_adult/adult_thirdparty.txt ***
 ||1800freecams.com^$image,~image,popup,third-party
+||193.34.134.18^*/banners/
 ||213.174.130.10/banners/
 ||213.174.130.8/banners/
 ||213.174.130.9/banners/
