@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: MKr64zh7uwEhIbkOMDFXMA
+!  Checksum: /H9pP/HoGwLZTpRj+S6ZZw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 17 Jun 2012 02:15:29 +0800
+!  Last Modified:  Sun, 17 Jun 2012 17:45:18 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -183,7 +183,7 @@ ali213.net##.newright
 ||alimama.com^$third-party,domain=~taobao.com
 ||kcart.alipay.com/web/bi.do?
 !--淘宝
-@@||tmatch.simba.taobao.com^$script
+@@||tmatch.simba.taobao.com/?name=mcad$script
 ||log.mmstat.com^
 ||acookie.*.gif?
 ||atpanel.com^$image
@@ -272,10 +272,6 @@ iqiyi.com##.seed
 !---bilibili.tv
 ||bilibili.tv/html/ads-
 ||static.loli.my/ad-images/$object_subrequest
-||static.loli.my/ad-images/*b1
-||static.loli.my/ad-images/*b2
-||static.loli.my/ad-images/*bangumi
-||static.loli.my/ad-images/*c1
 
 !---爆米花网
 @@||cb.baidu.com/crossdomain.xml
@@ -298,6 +294,7 @@ bitauto.com##.con_ad
 ||bokecc.com^*/playlog?
 ||click.bokecc.com^
 ||imedia.bokecc.com^
+||play.bokecc.com/servlet/PlayVideo?
 
 !---中国新闻网
 /ad2008/*$domain=chinanews.com
@@ -558,13 +555,6 @@ www.hsw.cn##table[width="980"][height="100"]
 ||hjfile.cn/analytics/google/ga.js
 ||a4.yeshj.com^
 ||webclick.yeshj.com^
-
-!---虎扑
-||hupu.com/d/file/$object
-hupu.com##[class*="ad"][class*="-"]
-hupu.com##[class^="ad_"]
-hupu.com##.ad980
-hupu.com###HCFull
 
 !---凤凰网
 @@||bc.ifeng.com/crossdomain.xml
@@ -881,14 +871,16 @@ bbs.360.cn##.aXd
 ||view.news.qq.com/PL_ad
 ||rh.qq.com^
 ||trace.qq.com^
-qq.com##[class*="Ad"][class$="-Article-QQ"]
+qq.com##.AdBox-Article-QQ
+qq.com##.AdTop-Article-QQ
 qq.com##.business-Article-QQ
 qq.com##.l_qq_com
 qq.com##.qiye-Article-QQ
 cq.qq.com##[style^="width:960px;"]
 ent.qq.com###ent_ad
-news.qq.com##[id^="dlAds"]
-news.qq.com###photo_ad
+news.qq.com##.bzad
+news.qq.com###f2y
+news.qq.com###f2z
 www.qq.com##.adArea > div:not(#adAreaD):not(#adAreaS):not(#gongyi)
 www.qq.com##.admiddle
 www.qq.com###charge_content
@@ -1116,10 +1108,10 @@ www.sxrb.com##.area1_2_ad2
 ||tgbus.com/left.jpg
 ||tgbus.com/right.jpg
 ||vista.tgbusdata.cn/s.js
-tgbus.com##[class^="ad"][class*="t8"]
-tgbus.com##.ads1
 tgbus.com##.ad79
 tgbus.com##.ad86
+tgbus.com##.ad131
+tgbus.com##.ads1
 tgbus.com###navi + .area
 tgbus.com###ead
 iphone.tgbus.com##[class^="guan_"]
@@ -1243,11 +1235,6 @@ xcar.com.cn##[id^="xcarWindow_"]
 ||bbs.xmfish.com/images/atm/$image
 bbs.xmfish.com##.cmp_v
 bbs.xmfish.com##[id^="ads"]
-
-!---西祠胡同
-||files.xici.net^$object
-xici.net##[class*=" ad"]
-xici.net##a[href^="http://xiciafp.allyes.com/main/adfclick"]
 
 !---西陆网
 ||xilu.com/js/bd.js
@@ -1417,11 +1404,10 @@ appinn.com##.ads
 appinn.com##.gad
 ||img.chromi.org/2011/12/where-is-chromi.png
 ||rakuten-static.com^$domain=cwyuni.tw
+||pic.pimg.tw/cwyuni/*.gif?v=$domain=cwyuni.tw
 cwyuni.tw##a[href*="rakuten.tw"]
-cwyuni.tw##.article-content > table[cellspacing="0"][cellpadding="0"][border="0"]
 cwyuni.tw###banner > h2
 cwyuni.tw###links-row-1 > div[id^="box"]:not(#box32499):not(#box533632)
-||pic.pimg.tw/cwyuni/*.gif?v=$domain=cwyuni.tw
 ||iapp.com.tw/iapp_ad.php
 ||mifengtd.cn/images/timetang-1.jpg
 ||mifengtd.cn/images/youdao_ads_160600.gif
@@ -1562,7 +1548,8 @@ ettoday.net###ticker_3
 huanqiu.com##[id^="banner"]
 ||itocp.com/html/$object
 ||jjxw.cn^$object
-jjxw.cn##[class*="_ad"]
+jjxw.cn##[class$="_ad"]
+jjxw.cn##[class^="head_ad"]
 ||junshier.com/adspic/
 ||junshijia.com/new/$script
 ||libertytimes.com.tw/IService2/AdLinkList.php
@@ -1592,8 +1579,6 @@ taihe.net##script[src="/js/ad.js"] + #table1
 ||forum.techweb.com.cn/advtcnt.php
 ||js.pub.tom.com^
 ||sa.uusee.com^
-uusee.com##a[href*="alibaba.com"]
-uusee.com##a[href*="alibaba.com"] ~ .v_jie
 ||image.wenweipo.com/*/ad_
 @@||workercn.cn/c/$elemhide
 @@||news.workercn.cn/rollnews/c2/$elemhide
@@ -1746,7 +1731,7 @@ shushuw.cn##.bdad
 ||zhulang.com/images/$object
 ||images.zhulang.com/game/upload/$domain=book.zhulang.com|www.zhulang.com
 zhulang.com##[id^="adv"]
-zhulang.com##[class*="adv"]
+zhulang.com##.coverpageadv01
 @@||zzzcn.com^$elemhide
 ||zzzcn.com/3z/
 
@@ -1878,6 +1863,9 @@ frdic.com,godic.net###sidebar1
 ||hk-pub.com/forum/images/banner/
 ||hk-pub.com/forum/include/overture_ads.js
 ||hdad.hudong.com/hdad/
+||hupu.com/d/file/$object
+hupu.com,~my.hupu.com##[class^="ad"]
+hupu.com###HCFull
 ||hxsxw.com/gg*.gif
 ||hxsxw.com/hxsxw111.gif
 ||hxyl.net/hostpic/
@@ -1984,6 +1972,9 @@ bbs.weiphone.com##[id^="ads_"]
 /script/*$subdocument,domain=win7china.com|win8china.com
 win7china.com,win8china.com##.site_ad
 ||a.wm090.com/biz_icon/
+||xici.net/service/$xmlhttprequest
+||data.xici.net^
+xici.net##.doc_tl.p9
 ||xitek.com/newsite/mojs.php?
 ||xuanxuan.com^$subdocument
 ||xuanxuan.com/js/addfavio.js
@@ -2176,7 +2167,7 @@ zxtjd.com###it_an
 ||aiweb.tw^$third-party
 ||aldm88.com^$third-party
 ||algj-27dy.cn^$third-party
-||all-winner.com^$third-party
+||allyes.$third-party
 .all4ad.$third-party
 ||allyesky.cn^$third-party
 ||arpg2.com^$third-party
@@ -2396,7 +2387,7 @@ zxtjd.com###it_an
 ||unionwk.com^$third-party
 ||unlitui.com^$third-party
 ||uu06.com^$third-party
-||img.uu1001.cn^$third-party,domain=~alimama.com
+||img.uu1001.cn^$third-party,domain=~alimama.com|~taobao.com
 ||uucall.com^$third-party
 ||uuzu.com^$third-party
 ||urlad.com.tw^$third-party
@@ -2468,8 +2459,6 @@ zxtjd.com###it_an
 /adv/*$domain=~ftchinese.com
 /advpic/*
 /affiliate/*
-.allyes.
-/allyes.
 /attachments/ad/*
 .com/js/ad.
 .com/js/ad_
