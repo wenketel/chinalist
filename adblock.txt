@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 7C615q5yLRvjZrcRqHNuwA
+!  Checksum: 5HiKPzSYikSt+7rkUWympQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 17 Jun 2012 21:44:44 +0800
+!  Last Modified:  Mon, 18 Jun 2012 00:06:40 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -24,7 +24,6 @@
 !---Hiding filters shouldn't affect on these site.
 @@||51job.com^$elemhide
 @@||52vfx.com^$elemhide
-@@||xiazaiba.com^$elemhide
 
 !----------------------------Well-known Sites--------------
 !---115网盘
@@ -890,7 +889,7 @@ ent.qq.com###ent_ad
 news.qq.com##.bzad
 news.qq.com###f2y
 news.qq.com###f2z
-www.qq.com##.adArea > div:not(#adAreaD):not(#adAreaS):not(#gongyi)
+www.qq.com##.adArea > div:not(#adAreaD):not(#adAreaS):not(#gongyi):not(#meishi)
 www.qq.com##.admiddle
 www.qq.com###charge_content
 www.qq.com###proAd
@@ -1477,6 +1476,9 @@ steachs.com###banner
 ||xdowns.com/c.js
 ||xiaoxiong12.com/do/a_d_s.php
 ||xiaoxiong12.com/do/count.php
+@@||xiazaiba.com/|$elemhide
+xiazaiba.com##.ads_34
+xiazaiba.com##.adArea2
 ||xp911.com/img/xitong.gif
 ||xp911.com/upload/
 ||free.xue5.com/qq/qq.js
@@ -1505,8 +1507,8 @@ gamefy.cn##.float_bottom_right
 ||club.tgfcer.com/images/travelad.jpg
 ||verypsp.com/bd.html
 ||bbs.verypsp.com^$script
-||ftp3.verypsp.com/ben.gif
 ||soft.verypsp.com/pic/jbk.gif
+verypsp.com##table[width="960"]
 ||wowmovies.cn/img/vda/
 ||i02.youxigu.com/skin/youxigu/img/bg-new.jpg
 
@@ -2079,6 +2081,7 @@ zxtjd.com###it_an
 ||37cs.com^$third-party
 ||37cpm.com^$third-party
 ||37dz.com^$third-party
+||37ha.com^$third-party
 ||p.37lai.com^$third-party
 ||cs.37see.com^$third-party
 ||3975.com^$third-party
