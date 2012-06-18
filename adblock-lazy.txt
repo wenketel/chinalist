@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: ErjtKctm59D8Q6F0krybjw
+!  Checksum: RyQL0lAfqFRYQBPfMEhN2g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 18 Jun 2012 00:06:40 +0800
+!  Last Modified:  Mon, 18 Jun 2012 17:44:55 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1651,8 +1651,8 @@ yesky.com##[class^="ad"]
 ||baishuzhai.com/wlxsjs/chapter.js
 ||baishuzhai.com/wlxsjs/*gg$script
 ||baishuku.com/news/$script
-@@||bookcu.com/js/bar.js
-||bookcu.com^$script,subdocument
+||bookcu.com/pop.js
+||view.bookcu.com/gg1.htm
 ||bookgew.com/hz1/
 ||bookgew.com/ml85/
 ||bookgew.com/rar/
@@ -1771,6 +1771,7 @@ www.chdtv.net###sitefocus.focus
 ||apas.aipai.com^
 www.aipai.com###indexRight.gg_200
 ||ballive.com/jsgg/
+||e2mv.com/da/
 @@||go.goyeah.com/adpolestar/$object_subrequest
 ||goyeah.com/homepage.html
 ||image.jstv.com/jstv/photo.js
@@ -1993,6 +1994,8 @@ xici.net##.doc_tl.p9
 ||admd.yam.com^
 ||yanqiao.com/duote.js
 ||yanqiao.com/yanqiao/
+@@||yihaodian.com/advertise/$xmlhttprequest
+||yihaodian.com/statics/global/js/tracker/
 ||ytbbs.com/images/index/
 ||yxlady.com/cdd/
 @@||ad.zasv.com^*/*/$image,object
@@ -2108,6 +2111,7 @@ zxtjd.com###it_an
 ||6693.cc^$third-party
 ||6dad.com^$third-party
 ||6788787.com^$third-party
+||70e.com^$third-party
 ||70yx.com^$third-party
 ||74lm.com^$third-party
 ||7555.net^$third-party
@@ -9555,6 +9559,7 @@ _a468x60.
 ##.modulegad
 ##.moduletable-advert
 ##.moduletable-googleads
+##.moduletable-rectangleads
 ##.moduletablesquaread
 ##.mos-ad
 ##.mpu-ad
