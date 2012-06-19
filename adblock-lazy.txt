@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: DirA4b2MhzGgRtaAf0gNcg
+!  Checksum: LUcn0A/KyQr2GZngd0wNGA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 18 Jun 2012 22:41:25 +0800
+!  Last Modified:  Tue, 19 Jun 2012 18:12:18 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -17,8 +17,6 @@
 @@||iphone4.tw/forums/news_proxy.php$xmlhttprequest
 @@||ad.ourgame.com/cgi-bin/insertflasha.js
 !---Shopping websites
-@@||adimg.adtpl.360buy.com/uploads/$image
-@@||book.360buy.com/book/BookShowService.aspx$xmlhttprequest
 @@||www.banggo.com^$elemhide,script
 @@/adbanner/*$image,domain=books.com.tw
 @@||paipai.com^$domain=shop.qq.com
@@ -83,6 +81,12 @@ www.youdao.com###ext
 news.21cn.com##.banner.area
 search.21cn.com##td[height="35"]
 search.21cn.com##td[width="184"][align="left"]
+
+!---京东
+@@||adimg.adtpl.360buy.com/uploads/$image
+@@||book.360buy.com/book/BookShowService.aspx$xmlhttprequest
+||csc.360buy.com/log.ashx?
+||wl.360buy.com/wl.js
 
 !---3boys2girls
 ||3boys2girls.com^$subdocument
@@ -190,6 +194,7 @@ ali213.net##.newright
 ||taobao.com/go/act/sale/$third-party
 ||a.tbcdn.cn/s/atp.js
 ||a.tbcdn.cn/s/ac.js
+||a.tbcdn.cn/s/tb-tracer-min.js
 
 !---汽车之家
 @@||33.autohome.com.cn/njs/1.js
@@ -208,7 +213,7 @@ baidu.com###ecad
 baidu.com##.EC_mr15
 baidu.com##.ec_pp_f
 baidu.com##.ec_pp_f + br
-baidu.com###container > table:nth-child(3)
+baidu.com##style + table:nth-child(3)
 baidu.com##table[cellspacing="0"][cellpadding="0"][align="right"][width="30%"]
 baike.baidu.com###mabox
 maps.baidu.com##.cityTip_top
@@ -373,9 +378,9 @@ cnbeta.com##.detail > em
 ||message.csdn.net/msg.popup.js
 csdn.net##[class^="banner"]
 !--iteye
-||info-database.csdn.net^$domain=iteye.com,image
-iteye.com###forum_recommended_f4
-iteye.com###forum_recommended_f5
+||info-database.csdn.net/Upload/*-728
+||iteye.com/iframe_ggbd/
+||stat.iteye.com^
 
 !---当当
 ||a.dangdang.com/smart.js?
@@ -7879,6 +7884,7 @@ _a468x60.
 ##.ad-unit-300-wrapper
 ##.ad-unit-anchor
 ##.ad-unit-top
+##.ad-update
 ##.ad-vert
 ~speedtest.net##.ad-vertical-container
 ##.ad-vtu
@@ -7927,6 +7933,7 @@ _a468x60.
 ~itavisen.no##.ad468
 ##.ad468_60
 ##.ad468x60
+##.ad530
 ##.ad540x90
 ##.ad600
 ##.ad620x70
@@ -8879,6 +8886,7 @@ _a468x60.
 ##.block_ad_sponsored_links_localized
 ##.blockad
 ##.blocked-ads
+##.blockrightsmallads
 ##.blog-ad-leader-inner
 ##.blog-ads-container
 ##.blogAd
@@ -9784,6 +9792,7 @@ _a468x60.
 ##.rightadunit
 ##.rightbigcolumn_ads
 ##.rightbigcolumn_ads_nobackground
+##.rightbox_content_ads
 ##.rightcol_boxad
 ##.rightcoladvert
 ##.rightcoltowerad
@@ -10576,6 +10585,7 @@ _a468x60.
 ||adviva.net^$third-party
 ||advmd.com^$third-party
 ||advpoints.com^$third-party
+||advrtice.com^$third-party
 ||adworkmedia.com^$third-party
 ||adworldmedia.com^$third-party
 ||adxpose.com^$third-party
@@ -12447,7 +12457,7 @@ _a468x60.
 ||rcm*.amazon.$third-party
 ||readme.ru/informer/$third-party
 ||realwritingjobs.com^*/banners/
-||red-tube.com/popunder/image,~image,popup
+||red-tube.com/popunder/$image,~image,popup
 ||redbeacon.com/widget/$third-party
 ||redflagdeals.com/dealoftheday/widgets/$third-party
 ||redtram.com^$script,third-party
@@ -12818,6 +12828,7 @@ _a468x60.
 ||scoreland.com/banner/
 ||secretbehindporn.com^$subdocument,third-party
 ||seeme.com^*?aid=*&art=$image,~image,popup
+||sex.com/?utm_source=$image,~image,popup
 ||sexier.com^*_popunder&$image,~image,popup
 ||sextronix.com/b/
 ||sextronix.com/images/$third-party
@@ -12952,6 +12963,7 @@ _a468x60.
 /counter/hit.php?referrer=
 /criteo.js
 /csi?v=*&action=
+/cxense/cx.js
 /cyberestat/*
 /dcs.gif?
 /demandbase.js
@@ -13512,6 +13524,7 @@ _comscore.js
 ||globel.co.uk^$third-party
 ||globetrackr.com^$third-party
 ||goingup.com^$third-party
+||goodcounter.org^$third-party
 ||google-analilycs.com^$third-party
 ||gopjn.com^$third-party
 ||gosquared.com^$third-party
@@ -13788,6 +13801,7 @@ _comscore.js
 ||seewhy.com^$third-party
 ||selaris.com^$third-party
 ||sendtraffic.com^$third-party
+||servestats.com^$third-party
 ||serving-sys.com^$third-party
 ||servustats.com^$third-party
 ||sexcounter.com^$third-party
@@ -14012,6 +14026,7 @@ _comscore.js
 ||addthiscdn.com/live/
 ||addthisedge.com/live/
 ||adlog.com.com^
+||adsimg.com/js/analytics.js?
 ||affiliate.godaddy.com^
 ||afrigator.com/track/
 ||agencytradingdesk.net/watsontracker/
@@ -14497,6 +14512,7 @@ _comscore.js
 ||zdbb.net/l/$third-party
 ||zdbb.net/log/$third-party
 ||zemanta.com/pixy.gif?
+||zoover.co.uk/tracking/
 ! *** easylist:easyprivacy/easyprivacy_thirdparty_international.txt ***
 ! Chinese
 ||baidu.com/cpro/ui/c.js
@@ -14519,6 +14535,7 @@ _comscore.js
 ||dj.renren.com^
 ||ftchinese.com/log/new_log.php?
 ||nstat.tudou.com^
+||rgd.com.cn/counter/
 ||s.renren.com^
 ||sinajs.cn/open/analytics/
 ||soufun.com/click/

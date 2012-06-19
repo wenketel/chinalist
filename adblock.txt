@@ -1,8 +1,8 @@
 [Adblock Plus 1.2]
-!  Checksum: 7wEKwvzGVUsgcCvaAoEk0w
+!  Checksum: 1UHCJpTUvIYmlNZpEHyb0Q
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 18 Jun 2012 23:12:05 +0800
+!  Last Modified:  Tue, 19 Jun 2012 18:12:18 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -16,8 +16,6 @@
 @@||iphone4.tw/forums/news_proxy.php$xmlhttprequest
 @@||ad.ourgame.com/cgi-bin/insertflasha.js
 !---Shopping websites
-@@||adimg.adtpl.360buy.com/uploads/$image
-@@||book.360buy.com/book/BookShowService.aspx$xmlhttprequest
 @@||www.banggo.com^$elemhide,script
 @@/adbanner/*$image,domain=books.com.tw
 @@||paipai.com^$domain=shop.qq.com
@@ -83,6 +81,12 @@ www.youdao.com###ext
 news.21cn.com##.banner.area
 search.21cn.com##td[height="35"]
 search.21cn.com##td[width="184"][align="left"]
+
+!---京东
+@@||adimg.adtpl.360buy.com/uploads/$image
+@@||book.360buy.com/book/BookShowService.aspx$xmlhttprequest
+||csc.360buy.com/log.ashx?
+||wl.360buy.com/wl.js
 
 !---3boys2girls
 ||3boys2girls.com^$subdocument
@@ -190,6 +194,7 @@ ali213.net##.newright
 ||taobao.com/go/act/sale/$third-party
 ||a.tbcdn.cn/s/atp.js
 ||a.tbcdn.cn/s/ac.js
+||a.tbcdn.cn/s/tb-tracer-min.js
 
 !---汽车之家
 @@||33.autohome.com.cn/njs/1.js
@@ -208,7 +213,7 @@ baidu.com###ecad
 baidu.com##.EC_mr15
 baidu.com##.ec_pp_f
 baidu.com##.ec_pp_f + br
-baidu.com###container > table:nth-child(3)
+baidu.com##style + table:nth-child(3)
 baidu.com##table[cellspacing="0"][cellpadding="0"][align="right"][width="30%"]
 baike.baidu.com###mabox
 maps.baidu.com##.cityTip_top
@@ -373,9 +378,9 @@ cnbeta.com##.detail > em
 ||message.csdn.net/msg.popup.js
 csdn.net##[class^="banner"]
 !--iteye
-||info-database.csdn.net^$domain=iteye.com,image
-iteye.com###forum_recommended_f4
-iteye.com###forum_recommended_f5
+||info-database.csdn.net/Upload/*-728
+||iteye.com/iframe_ggbd/
+||stat.iteye.com^
 
 !---当当
 ||a.dangdang.com/smart.js?
