@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: sI74mRZHQz2P3RFt94b+Bg
+!  Checksum: Rt5HPH76FQ2DT4bB3x18jg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 19 Jun 2012 18:37:58 +0800
+!  Last Modified:  Fri, 22 Jun 2012 00:53:22 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -174,7 +174,6 @@ down.admin5.com###a2
 ||acfun.tv/api/count.aspx
 ||acfun.tv/json/newad.xml
 acfun.tv###ad-comment
-acfun.tv###list-topic-third
 
 !---游侠网
 @@||shop.ali213.com^$elemhide
@@ -1904,10 +1903,15 @@ ihome99.com##.pop-ad
 ||jpwind.com/images/partner/
 jpwind.com##[id^="ShowAD"]
 ||panda.kdnet.net^
+||super.kdnet.net^
+||tracking.kdnet.net^
 ||img.kekenet.com^*/ggad_
 ||img.kekenet.com/images/kekepic/tom468X60.gif
 ||img.kekenet.com/statics/images/en/51talk.gif
 ||old.kekenet.com/html/images/tom640X40.gif
+||js.kuwo.cn/stat/
+||wa.kuwo.cn/lyrics/img/kwgg/
+||webstat.kuwo.cn^
 ||links.kugoo.com^
 ||kyer8.com/images/log.jpg
 ||kyer8.com/img/right*.gif
@@ -3211,6 +3215,7 @@ yyets.com##[id^="kads"]
 /ads/jsbannertext.
 /ads/leaderboard.
 /ads/panel.
+/ads/proxy-
 /ads/skins/*
 /ads/square.
 /ads/square2.
@@ -3504,6 +3509,7 @@ yyets.com##[id^="kads"]
 /advertisingwidgets/*
 /advertisment-
 /advertisment.
+/advertisment/*
 /advertisments/*
 /advertize_
 /advertmedia/*
@@ -5152,8 +5158,8 @@ _a468x60.
 ###GoogleAd3
 ###GoogleAdsPlaceHolder
 ###GoogleAdsPresentationControl
-~playtv.fr###GoogleAdsense
-~playtv.fr###Google_Adsense_Main
+###GoogleAdsense
+###Google_Adsense_Main
 ###HEADERAD
 ###HOME_TOP_RIGHT_BOXAD
 ###HeaderAD
@@ -5685,6 +5691,7 @@ _a468x60.
 ###ad_leaderBoard
 ###ad_leaderboard
 ###ad_leaderboard728x90
+###ad_leaderboard_middle
 ###ad_leaderboard_top
 ###ad_left
 ###ad_lnk
@@ -5738,6 +5745,7 @@ _a468x60.
 ###ad_sky
 ###ad_skyscraper
 ###ad_skyscraper160x600
+###ad_skyscraper_right
 ###ad_skyscraper_text
 ###ad_slot_leaderboard
 ###ad_slot_livesky
@@ -6054,7 +6062,9 @@ _a468x60.
 ###adv-left
 ~mlive.com###adv-masthead
 ###adv-middle
+###adv-midroll
 ###adv-mpux
+###adv-preroll
 ###adv-x36
 ###adv-x37
 ###adv-x38
@@ -6648,6 +6658,7 @@ _a468x60.
 ###googleAd
 ###googleAdArea
 ###googleAdBottom
+###googleAdBox
 ###googleAds
 ###googleAdsSml
 ###googleAdsense
@@ -7041,6 +7052,7 @@ _a468x60.
 ###pcworldAdBottom
 ###pcworldAdTop
 ###pinball_ad
+###pixAd
 ###player-below-advert
 ###player_ad
 ###player_ads
@@ -8328,7 +8340,7 @@ _a468x60.
 ##.adline
 ~superbikeplanet.com##.adlink
 ##.adlinks
-~bipbip.co.il##.adlist
+~bipbip.co.il,~scooter-infos.com##.adlist
 ##.adlnklst
 ##.admarker
 ##.admediumred
@@ -8598,6 +8610,7 @@ _a468x60.
 ##.advVideobox
 ##.adv_120
 ##.adv_120x600
+##.adv_300
 ##.adv_300x250
 ##.adv_728x90
 ##.adv_banner_hor
@@ -12689,11 +12702,13 @@ _a468x60.
 ||adultfriendfinder.com/go/$image,~image,popup
 ||adultfriendfinder.com/go/page/js_im_box?
 ||adultfriendfinder.com/images/banners/
+||adultporntubemovies.com/images/banners/
 ||aebn.net/banners/
 ||affiliates.thrixxx.com^
 ||amarotic.com^*?wmid=$image,~image,popup,third-party
 ||ambya.com/potdc/
 ||asianbutterflies.com/potd/
+||avalon.topbucks.com^
 ||banners.adultfriendfinder.com^
 ||bannersflash.spacash.com^
 ||bestholly.com/a1/$third-party
@@ -12746,6 +12761,7 @@ _a468x60.
 ||gagthebitch.com/track/$third-party
 ||galleries.videosz.com^$object,third-party
 ||gallery.deskbabes.com^*.php?dir=*&ids=$third-party
+||gammasites.com/pornication/pc_browsable.php?
 ||geobanner.adultfriendfinder.com^
 ||geobanner.getiton.com^
 ||geobanner.socialflirt.com^
@@ -13024,6 +13040,7 @@ _a468x60.
 /hg?hc=&hb=*&vjs=
 /hgct?hc=&hb=*&vjs=
 /hitcounter.dll
+/hs_track.js
 /i?siteid=
 /images/spacer.gif?q=l3mkwgak
 /imawebcookie.js
@@ -13713,6 +13730,7 @@ _comscore.js
 ||optify.net^$third-party
 ||optimizely.com^$third-party
 ||optimost.com^$third-party
+||optin-machine.com^$third-party
 ||oranges88.com^$third-party
 ||orcapia.com^$third-party
 ||otracking.com^$third-party
@@ -13853,6 +13871,7 @@ _comscore.js
 ||stcllctrs.com^$third-party
 ||stormiq.com^$third-party
 ||submitnet.net^$third-party
+||supercounters.com^$third-party
 ||superstats.com^$third-party
 ||surfcounters.com^$third-party
 ||surfertracker.com^$third-party
@@ -14237,6 +14256,7 @@ _comscore.js
 ||intelligencefocus.com^*/websensor.aspx?
 ||intensedebate.com/remotevisit.php?
 ||intensedebate.com/widgets/blogstats/
+||intuitwebsites.com/tracking/
 ||ipro.com^*/pixel.gif?
 ||iyisayfa.net/inc.php?
 ||jambocast.com/jc/hit.php?
@@ -14342,6 +14362,7 @@ _comscore.js
 ||radiocompanion.com/count.php?
 ||realplayer.com^*/pixel?
 ||reevoo.com/track/
+||reports.pagesuite-professional.co.uk^
 ||reverbnation.com/widgets/trk/
 ||rhapsody.com^*/pixel?
 ||roitrack.addlvr.com^
