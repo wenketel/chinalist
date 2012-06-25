@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: KeqtJoNoHK7y9T+VVCVxdA
+!  Checksum: PrsCG/S4g7q4r60knx3CJQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 22 Jun 2012 00:56:45 +0800
+!  Last Modified:  Mon, 25 Jun 2012 19:54:09 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1993,6 +1993,7 @@ bbs.weiphone.com##[id^="ads_"]
 /script/*$subdocument,domain=win7china.com|win8china.com
 win7china.com,win8china.com##.site_ad
 ||a.wm090.com/biz_icon/
+||wpxap.com/a_img/
 ||xici.net/service/$xmlhttprequest
 ||data.xici.net^
 xici.net##.doc_tl.p9
@@ -3465,6 +3466,7 @@ yyets.com##[id^="kads"]
 /adv4.
 /adv5.
 /adv_2.
+/adv_background/*
 /adv_flash.
 /adv_frame/*
 /advaluewriter.
@@ -3792,6 +3794,7 @@ yyets.com##[id^="kads"]
 /deliverjs.nmi?
 /delivery.ads.
 /delivery.php?banner_id=
+/delivery.php?rnd=
 /delivery/*?advplaces=
 /delivery/ag.php
 /delivery/al.php
@@ -5816,7 +5819,7 @@ _a468x60.
 ###addiv-top
 ###adfooter
 ###adfooter_728x90
-~kinderspelletjes.nl,~luebeck.de###adframe:not(frameset)
+~kinderspelletjes.nl,~luebeck.de,~stadtpost.de###adframe:not(frameset)
 ###adhead
 ###adhead_g
 ###adheader
@@ -6520,10 +6523,6 @@ _a468x60.
 ###dcol-sponsored
 ###defer-adright
 ###detail_page_vid_topads
-###div-gpt-ad-1
-###div-gpt-ad-2
-###div-gpt-ad-3
-###div-gpt-ad-4
 ~mtanyct.info###divAd
 ###divAdBox
 ###divAdWrapper
@@ -7693,6 +7692,7 @@ _a468x60.
 ##.Post5ad
 ##.Post8ad
 ##.Post9ad
+##.PushdownAd
 ##.RBboxAd
 ##.RW_ad300
 ##.RectangleAd
@@ -7797,7 +7797,7 @@ _a468x60.
 ##.ad-container-300x250
 ~sidereel.com##.ad-container-728x90
 ##.ad-container-994x282
-##.ad-content
+~frankenlist.de##.ad-content
 ##.ad-context
 ##.ad-disclaimer
 ~jobmail.co.za,~odysseyware.com##.ad-display
@@ -8813,6 +8813,7 @@ _a468x60.
 ##.b-astro-sponsored-links_vertical
 ##.b_ads_cont
 ##.b_ads_top
+##.backgroundAd
 ##.banmanad
 ##.banner-300x250
 ##.banner-468-60
@@ -10327,6 +10328,7 @@ _a468x60.
 ##a[href^="http://www.liutilities.com/products/campaigns/adv/"]
 ##a[href^="http://www.my-dirty-hobby.com/?sub="]
 ##a[href^="http://www.ringtonematcher.com/"]
+~ensonhaber.com##div[id^="div-gpt-ad-"]
 ##input[onclick^="window.open('http://www.FriendlyDuck.com/AF_"]
 ##input[onclick^="window.open('http://www.friendlyduck.com/AF_"]
 ! Google
@@ -10630,6 +10632,7 @@ _a468x60.
 ||affiliatesensor.com^$third-party
 ||affiliationzone.com^$third-party
 ||affiliproducts.com^$third-party
+||affilorama.com^$third-party
 ||affimo.de^$third-party
 ||affinity.com^$third-party
 ||affiz.net^$third-party
@@ -10912,6 +10915,7 @@ _a468x60.
 ||doubleclick.net/pfadx/*.sevenload.com_$object-subrequest,third-party
 ||doubleclick.net/pfadx/*adcat=$object-subrequest,third-party
 ||doubleclick.net/pfadx/bet.com/$object-subrequest,third-party
+||doubleclick.net/pfadx/muzuoffsite/$object-subrequest,third-party
 ||doubleclick.net/pfadx/nbcu.nbc/$object-subrequest,third-party
 ||doubleclick.net^$image,~image,popup
 ||doubleclick.net^$object-subrequest,third-party,domain=971talk.com|abc-7.com|abc15.com|abc2news.com|abcactionnews.com|addictinggames.com|adelaidenow.com.au|atom.com|automotive.com|bbc.com|bicycling.com|bloomberg.com|break.com|cbs19.tv|cbs3springfield.com|cbs4denver.com|cbsatlanta.com|cbslocal.com|cbsnews.com|click2houston.com|clickorlando.com|cnbc.com|cnet.com|collegehumor.com|complex.com|csnchicago.com|current.com|dailymail.co.uk|dailytelegraph.com.au|darkhorizons.com|doctoroz.com|dorkly.com|doubleviking.com|espn.co.uk|fandango.com|fox19.com|fox5vegas.com|fox6now.com|foxcarolina.com|g4tv.com|gamespot.com|gametrailers.com|globalnational.com|globalnews.ca|gorillanation.com|grooveshark.com|history.com|hollywoodlife.com|hot97.com|hulu.com|joblo.com|kcci.com|kcra.com|kctv5.com|ketv.com|kjrh.com|koat.com|koco.com|kolotv.com|kpho.com|kptv.com|ksat.com|ksbw.com|ksfy.com|kxan.com|live5news.com|local10.com|miamiherald.com|miniclip.com|msnbc.com|msnbc.msn.com|mtv.co.uk|mtv.com|mtv.com.au|mtv.com.nz|mtvbase.com|mtvmusic.com|my9tv.com|mydamnchannel.com|myfoxorlando.com|myfoxphilly.com|myfoxphoenix.com|myfoxtampabay.com|nbcactionnews.com|nbcnewyork.com|nbcsports.com|nbcwashington.com|necn.com|neopets.com|news.com.au|news24.com|news4jax.com|newsnet5.com|newsweek.com|nfl.com|nick.com|nintendoeverything.com|nuts.co.uk|nytimes.com|own3d.tv|pandora.com|perthnow.com.au|photoradar.com|play.it|ps3news.com|radio.com|rottentomatoes.com|sbs.com.au|sbsun.com|sevenload.com|shacknews.com|shockwave.com|sk-gaming.com|southpark.nl|southparkstudios.com|southparkstudios.se|space.com|spike.com|stuff.co.nz|syfy.com|ted.com|thebostonchannel.com|thedailygreen.com|thedailyshow.com|thedenverchannel.com|theindychannel.com|theinquirer.net|thewire.com|timeslive.co.za|tmz.com|turnto23.com|tv2.no|tv3winchester.com|ufc.com|ultimatefighter.com|universalsports.com|ustream.tv|videojug.com|wapt.com|washingtonpost.com|wate.com|wbaltv.com|wcbstv.com|wcpo.com|wdbj7.com|wdsu.com|wetransfer.com|wfmz.com|wfsb.com|wgal.com|wired.com|wisn.com|wkbw.com|wlky.com|wlns.com|wlwt.com|wmur.com|wnem.com|wowt.com|wptv.com|wral.com|wsmv.com|wtae.com|wwe.com|wxii12.com|wxyz.com|wyff4.com|youtube.com|zap2it.com|zappinternet.com|zoomin.tv
@@ -11200,6 +11204,7 @@ _a468x60.
 ||mbn.com.ua^$third-party
 ||media-servers.net^$image,~image,popup
 ||media-servers.net^$third-party
+||media.net^$third-party
 ||media6degrees.com^$third-party
 ||mediaclick.com^$third-party
 ||mediacpm.com^$third-party
@@ -11840,6 +11845,7 @@ _a468x60.
 ||targetingnow.com^$third-party
 ||the-adult-company.com^$third-party
 ||tinyweene.com^$third-party
+||topbucks.com^$third-party
 ||trafficholder.com^$image,~image,popup
 ||trafficlearn.com^$third-party
 ||trafficpimps.com^$third-party
@@ -12092,6 +12098,7 @@ _a468x60.
 ||detroitmedia.com/jfry/
 ||digitalmediacommunications.com/belleville/employment/
 ||display.digitalriver.com^
+||dm0acvguygm9h.cloudfront.net^
 ||dot.tk/urlfwd/searchbar/bar.html
 ||dotz123.com/run.php?
 ||download.bitdefender.com/resources/media/$third-party
@@ -12707,9 +12714,9 @@ _a468x60.
 ||aebn.net/banners/
 ||affiliates.thrixxx.com^
 ||amarotic.com^*?wmid=$image,~image,popup,third-party
+||amarotic.com^*?wmid=*&kamid=*&wsid=$third-party
 ||ambya.com/potdc/
 ||asianbutterflies.com/potd/
-||avalon.topbucks.com^
 ||banners.adultfriendfinder.com^
 ||bannersflash.spacash.com^
 ||bestholly.com/a1/$third-party
@@ -12740,6 +12747,7 @@ _a468x60.
 ||dvdbox.com/promo/$third-party
 ||easy-dating.org/promo/$third-party
 ||eliterotica.com/images/banners/
+||escortso.com^$object,third-party
 ||exposedemos.com/track/$third-party
 ||ext.affaire.com^$image,~image,popup
 ||f5porn.com/porn.gif
@@ -12781,6 +12789,8 @@ _a468x60.
 ||ilovecheating.com^$script,third-party
 ||imageshack.us^$domain=fapscreens.com
 ||imglb.yobihost.com^
+||interracialbangblog.info/banner.jpg
+||interracialbangblog.info^*-ban.png
 ||join.whitegfs.com^$image,~image,popup
 ||jsexnetwork.com/banners/
 ||juicyjav.com/banners/
@@ -12869,6 +12879,7 @@ _a468x60.
 ||textad.sexsearch.com^$image,~image,popup
 ||thepayporn.com/include/$subdocument,third-party
 ||thrixxx.com/scripts/show_banner.php?
+||topbucks.com/popunder/$image,~image,popup
 ||tubefck.com^*/adawe.swf
 ||uploade.rs/img1/rcjfb.png
 ||vdtranny.co.cc^$image,third-party
@@ -14282,6 +14293,7 @@ _comscore.js
 ||lockerz.com/1x1.gif?
 ||log-*.previewnetworks.com^
 ||log.adap.tv^$object-subrequest
+||log.olark.com^
 ||logs.vmixcore.com^
 ||longtailvideo.com^*/googlytics-
 ||longtailvideo.com^*/yourlytics-
@@ -14325,7 +14337,7 @@ _comscore.js
 ||offermatica.intuit.com^
 ||ogt.jp/plog?
 ||ohnorobot.com/verify.pl?
-||olark.com/nrpc/c?j=
+||olark.com/nrpc/
 ||onescreen.net^*/log.gif?
 ||onsugar.com/static/ck.php?
 ||onsugar.com^*/clicktracker.js
