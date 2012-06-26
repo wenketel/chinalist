@@ -1,8 +1,8 @@
 [Adblock Plus 1.2]
-!  Checksum: PITpzwulMOR0S0Jtx9eFyA
+!  Checksum: cvgio6coegQiAcxfiAjRHg
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 26 Jun 2012 17:16:10 +0800
+!  Last Modified:  Wed, 27 Jun 2012 06:09:58 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -514,7 +514,6 @@ www.gfan.com##.banner
 !---即得
 /3721upApiAd.png$domain=good.gd
 ||good.gd/good.gd/js/downloadPrograss.js
-||good.gd/js/count.js
 ||good.gd/js/loadpopads.aspx
 
 !---时空网
@@ -834,9 +833,11 @@ down.qiannao.com##div[style="padding: 8px;"]
 ||aa.sdo.com^
 ||aagw.sdo.com^
 ||adrs.sdo.com^
+||ck.sdo.com^
 ||dwtracking.sdo.com^
-||ipic.staticsdo.com^
 ||loginlog.sdo.com^
+||sy.sdo.com^
+||ipic.staticsdo.com^
 !--起点中文网
 .com/js/o.js$domain=qdmm.com|qdwenxue.com|qidian.com
 ||script.cmfu.com/ADScript/
@@ -1610,16 +1611,14 @@ yesky.com##[class^="ad"]
 @@/configs/article/bottom.js
 @@/configs/article/pagebottom.js
 @@/configs/article/pagetop.js
-/aitw/*$script,subdocument
 /configs/article/*$script,subdocument
 /configs/article/gggg/*
-/wjj/*
+/contentjs/*$script
 ||17dm.com/s/common/js/*AD.js
+||img.17k.com/channel/qita/
 ||log.17k.com^
 17k.com##[id^="ad0"]
-@@||17kanshu.net/17kanshuad/zhangjiezuo$script
-||17kanshu.net/17kanshuad/
-||js.17kkmh.com/scriptAD/
+||17kk.cc/scriptAD/
 @@||24novel.com/files/article/html/$elemhide
 ||site.24novel.com/js/readbottom.js
 ||imghw.3gsc.com.cn^
@@ -1632,73 +1631,66 @@ yesky.com##[class^="ad"]
 ||35xs.com/js/
 ||35zww.com/zzzjs/
 ||3yt.com/2009js/
-||52kdm.com/ah/001.html
 ||52kdm.com/javascript/show.js
 ||52kdm.com/s/
 ||53sj.com/js/$subdocument
-||556677.net/images/t$script
+||556677.net/images/tong.js
+||556677.net/js/
 ||556677.net/static/js/tt.js
 ||86zw.com/zz/
-@@||book.58xs.com/hot/u.js
-||58xs.com/hot/
+||t.58xs.com/hot/
 ||59to.com/myjs/$script
 @@||77119.com/soft/html/$elemhide
+||77119.com/js/bd/
 ||77119.com/js/mm/
 ||77119.com/js/qt/
-||8comic.com/images/mobile-
-||8comic.com/js/top.js
 @@||jj.5ccc.net/scripts/new/pagetop.js
-||jj.5ccc.net^
+||jj.5ccc.net/scripts/new/counter.js
+||jj.5ccc.net/scripts/new/index$script
 ||87ks.com/93xw/$script
 ||9lala.com/js/
-||aixiaoshuo.com.cn/counts/count.js
-||baishuzhai.com/wlxsjs/bd0$script
-||baishuzhai.com/wlxsjs/bdSearch_mid.js
-||baishuzhai.com/wlxsjs/chapter.js
-||baishuzhai.com/wlxsjs/*gg$script
+||baishuzhai.com/bookaction.aspx?action=popad
+||baishuzhai.com/wlxsjs/bd$script
+||baishuzhai.com/wlxsjs/c_gg2.js
 ||baishuku.com/news/$script
 ||bookcu.com/pop.js
-||view.bookcu.com/gg1.htm
 ||bookgew.com/hz1/
 ||bookgew.com/ml85/
 ||bookgew.com/rar/
 ||bookgew.com/zj85/
 ||booksky.org/popa.js
+||boxiw.com/js/
 ||cc222.com/cc222Ads/
 ||cc222.com/_javascript/popupWin.js
 ||cococomic.com/g/
-||cococomic.com/v3/t.js
 ||d3zw.com/js/*.aspx
 ||dddbbb.net^$script,subdocument
 ||dukankan.com/js/$subdocument
 ||dukankan.com/js/ggp.js
 dukankan.com##tr[height="300"]
 ||dudu8.net/a_d/
-||img.duyidu.com/includehtml/newjs/2.js
-||img.duyidu.com/includehtml/newjs/5.js
-||img.duyidu.com/includehtml/newjs/m4.js
-||img.duyidu.com/includehtml/newjs/tj.js
+||img.duyidu.com/includehtml/gg/
+||img.duyidu.com/includehtml/newjs/tanc.js
+||img.duyidu.com/includehtml/newjs/m3.js
 ||duzheju.com/files/friend/
 ||s.faloo.com/novel/ad.js
 ||js.fengwu.net/baidu/index.js
 ||fygxs.com/Skin/duodu/$script
-||geiliwx.com/read/ad*.js
+||geiliwx.com/read/ad$script
 ||ggyy8.cc/js/v/
 ||hotsk.com/js/asp.js
 ||hotsk.com/js/fy.js
 ||hszw.com/inc/
-||imanhua.com^*/count.js
 ||imanhua.com^*/nmoneys/
 ||imanhua.com^*/money/
 ||jpnovel.com/myjs/
 ||i.kanshu.la/js/001.js
+||i.kanshu.la/js/ycs.js
 ||ktkkt.com/js/cnbeta/
 ||kukudm.com/js/
 ||laishu.com/lsgg/
 ||laishuwu.com/baidu/
 ||laishuwu.com/files/friend/
-||laiwx.com/js/
-||laiwx.com/neixiong/js/read.js
 ||mywenxue.com/Skin/Default/js/fdad.js
 ||mywenxue.com/Skin/Default/Css/fdad.Css
 ||narutom.com/v2/js/198game_Lt.js
@@ -1706,36 +1698,35 @@ dukankan.com##tr[height="300"]
 ||narutom.com/js/jsg2.js
 narutom.com###naruto_desk
 narutom.com##[id^="itaTop"]
-||niaoyan.net/wlxsjs/gg$script
+||niaoyan.net/wlxsjs/c_gg2.js
 ||niepo.net/top/
 niepo.net##.m_ads
 ||niubb.net/niubbad/
-||paoshu8.com/js/gg$script
-paoshu8.com##[id^="ad_"]
-paoshu8.com###TextTitle ~ table[border="0"]
 ||ppshi.com/aa.js
 ||ppshi.com/zz/
 ||quanben.com/themes/quanben/qj.js
+||ranhen.com/js/
+ranhen.com###box_con > div[align="center"]
 ||ranwen.cc/js/m/
 ||readnovel.com/js/$subdocument
 ||ruyu.org/js/
 ||bbs.sfw.com.cn/attachments/
 @@||shanwen.com/configs/article/pagetop3.js
+@@||shanwen.com/scripts/checkuser.js
 ||shanwen.com^$script
-||shukeju.com/contentjs/
 ||shuoshuo520.com/js/960.js
 ||shuoshuo520.com/scripts/read$script
 ||shushuw.cn/js/eteadx2011.js
 shushuw.cn##.bdad
 ||ttshu.com/js/
 ||wanshulou.com/skin/js/
-||wenchangshuyuan.com/contentjs/
+wanshulou.com###ad2
+wanshulou.com##.wrap:nth-child(3)
 ||xiaolushu.com/js/chapter_banner.js
 @@||xiaoshuo570.com/scripts/read/page.js
 ||xiaoshuo570.com/scripts/read$script
-||xiaoyanwenxue.com/contentjs/
+||xiaoxiucai.org/configs/mu-2.js
 ||xiaoxiucai.org/js/*ad$script
-||xiashu.net/js/*Ad.js
 ||xiazailou.com^*/ad$script
 ||xiazailou.com/js/new/read01.js
 ||xizibook.com/js_ad/
@@ -1743,8 +1734,9 @@ shushuw.cn##.bdad
 ||xntk.net^$script
 ||xs8.cn/data/iframe/$script
 ||images.xxsy.net/js/xxsypop.js
-||ydnovel.com/js/topp.js
+||images.xxsy.net/sygg/
 ||yueshuba.com/js/
+||yueshuba.com/themes/jieqidiv1/images/yueshuba_banner.gif
 ||zhulang.com/images/$object
 ||images.zhulang.com/game/upload/$domain=book.zhulang.com|www.zhulang.com
 zhulang.com##[id^="adv"]
@@ -2501,6 +2493,8 @@ zxtjd.com###it_an
 /floatad.
 /floatadv.
 /gaog/*
+/gg1.
+/gg2.
 /ggao.
 /ggao/*
 /ggjs/*
@@ -2527,13 +2521,14 @@ zxtjd.com###it_an
 /picad/*
 /pic/ad/*
 /tan.js
+/tan1.js
 /u/_sponsor/*
-/uimg.
 /tanchuang.
 /tuiguang/*
 /webafp?
 
 !-----------------------------Privacy----------------------
+/count.js|
 /counts.
 |http://click.$image
 |http://pv.
@@ -2545,7 +2540,6 @@ zxtjd.com###it_an
 |http://track.
 /ktrace/ktrace$script
 /pingd?
-/pv?peerid=
 /tongji.js
 /tracking.$image,object_subrequest
 /usertrack.
@@ -2610,6 +2604,8 @@ mobile01.com##[class^="ad-"]
 mobile01.com##.admicrobtn
 mobile01.com##a[href^="adredir.php"]
 needpop.com##.spaceborder > table[style="background: #BBE9FF"]
+paoshu8.com##[id^="ad_"]
+paoshu8.com###TextTitle ~ table[border="0"]
 portal.opera.com##.ads
 portal.opera.com##.alt-ads
 price.com.hk###ad0
