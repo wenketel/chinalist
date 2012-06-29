@@ -1,8 +1,8 @@
 [Adblock Plus 1.2]
-!  Checksum: dlx+83V9eqrWNI3qI2C9GA
+!  Checksum: xR1Lmn2/XFqm4HOlveLIdA
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 28 Jun 2012 03:43:27 +0800
+!  Last Modified:  Fri, 29 Jun 2012 08:33:47 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -13,16 +13,17 @@
 !  coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
 !----------------------------White List--------------------
+51job.com#@##ad_left
+51job.com#@##ad_right
+52vfx.com#@##head_ad
+bbs.9baka.com,bbs.9gal.com#@##top_ad
 @@||iphone4.tw/forums/news_proxy.php$xmlhttprequest
 @@||ad.ourgame.com/cgi-bin/insertflasha.js
 !---Shopping websites
-@@||www.banggo.com^$elemhide,script
+@@||a.banggo.com/Ad/getAdPosList.shtml
 @@/adbanner/*$image,domain=books.com.tw
 @@||paipai.com^$domain=shop.qq.com
 @@/advertise/*$domain=suning.com
-!---Hiding filters shouldn't affect on these site.
-@@||51job.com^$elemhide
-@@||52vfx.com^$elemhide
 
 !----------------------------Well-known Sites--------------
 !---115网盘
@@ -66,11 +67,11 @@ www.youdao.com###ext
 /www/ggcommon$script,domain=17173.com
 
 !---178
-@@||178.com/*/*.html$elemhide
 /atcount.php?$domain=178.com
 ||178.com/glr.js
 ||market.178.com^
 ||tuiguang.178.com^
+178.com#@##advt
 178.com##[class^="ad-2"]
 
 !---21CN
@@ -151,10 +152,6 @@ v.6.cn###playerAd
 99comic.com,99manga.com##.sic
 99comic.com,99manga.com##.sid
 
-!---苍雪的世界
-@@||bbs.9baka.com^$elemhide
-@@||bbs.9gal.com^$elemhide
-
 !---admin5
 @@||admin5.com/extras/zz/inner.head.logo.js
 ||admin5.com/daohang/
@@ -172,8 +169,8 @@ down.admin5.com###a2
 acfun.tv###ad-comment
 
 !---游侠网
-@@||shop.ali213.com^$elemhide
 ||bmp.ali213.net^
+shop.ali213.com#@##adlayer
 ali213.net###banner
 ali213.net##.newright
 
@@ -752,9 +749,9 @@ nownews.com##.site_collection
 
 !---东方电视
 @@||home.on.cc/adv/web/corp/$~image
-@@||money18.on.cc/info/liveinfo_quote.html$elemhide
 |http://ad*.on.cc^
 |http://tv.on.cc/ad/$~subdocument
+money18.on.cc#@#.ads-bg
 
 !---远景
 ||bbs.pcbeta.com/static/image/biz/
@@ -871,7 +868,6 @@ bbs.360.cn##.aXd
 @@||gtimg.com/img/ad/$image,domain=buy.qq.com
 @@||cq.qq.com/js/cody/gdad/all_scroll_ad.js
 @@||exp.qq.com/img/ad/$image
-@@||mb.qq.com^$elemhide
 ||mat1.gtimg.com/ent/flash/
 ||mat1.gtimg.com/sports/$object
 ||adslvfile.qq.com^
@@ -882,6 +878,7 @@ bbs.360.cn##.aXd
 ||view.news.qq.com/PL_ad
 ||rh.qq.com^
 ||trace.qq.com^
+mb.qq.com#@##ad-container
 qq.com##.AdBox-Article-QQ
 qq.com##.AdTop-Article-QQ
 qq.com##.business-Article-QQ
@@ -1292,7 +1289,6 @@ xunlei.com##[id^="cm"].banner
 ||s.gougou.com^
 !--unions
 ||un.so.gougou.com^$third-party
-||analytics-union.sandai.net^$third-party
 ||cop.my.sandai.net^$third-party
 ||jsunion.kankan.xunlei.com^$third-party
 ||gouwu.vip.xunlei.com^$third-party
@@ -1305,6 +1301,7 @@ xunlei.com##[id^="cm"].banner
 cn.yahoo.com##[class^="ad"]
 cn.yahoo.com###r_expandable
 !--TW
+@@/ads/*$image,domain=buy.yahoo.com.tw
 @@/flash_general_20090213.js|$domain=tw.yahoo.com
 @@||l.yimg.com/f/a/tw/*/790840_*.swf
 @@||l.yimg.com/f/a/tw/elephant/*240x94*.swf
@@ -1324,9 +1321,6 @@ tw.yahoo.com##.newsad
 tw.yahoo.com##.pa-banner
 tw.yahoo.com##.colpadding > .tabmd
 tw.yahoo.com###ticker
-!-buy.yahoo.com.tw
-@@/ads/*$image,domain=buy.yahoo.com.tw
-@@||buy.yahoo.com.tw^$elemhide
 !--HK
 ||l.yimg.com/*/a/hk/$~stylesheet
 ||l.yimg.com/mq/hk/promotions/
@@ -1360,9 +1354,12 @@ youku.com##.sideCol > div[class^="AB"]
 
 !---人人影视
 ||copy.ousns.com^$image
+/imgextra/*$domain=yyets.com
+www.yyets.com#@##ad_text:not(textarea)
 vod.oabt.org##.each_ad
 yyets.com##.msgShow > .f_r
 yyets.com###upad
+yyets.com##[id^="kads"]
 
 !---叶子猪游戏网
 @@||yktj.yzz.cn/htmldata/mds/yzz_single_gg.js$domain=bbs.yzz.cn
@@ -1379,7 +1376,6 @@ soso.com###rads
 wenwen.soso.com##.ad1
 
 !---ZOL
-@@||xiazai.zol.com.cn/detail/$elemhide
 ||icon.zol-img.com.cn/public/js/web_foot.js
 ||p.zol-img.com.cn/download_ad/
 ||pic.zol-img.com.cn^$object
@@ -1479,8 +1475,8 @@ steachs.com###banner
 ||xdowns.com/c.js
 ||xiaoxiong12.com/do/a_d_s.php
 ||xiaoxiong12.com/do/count.php
-@@||xiazaiba.com/|$elemhide
 ||xiazaiba.com/static/ads_1.swf
+xiazaiba.com#@#.banner-ads
 xiazaiba.com##.ads_34
 xiazaiba.com##.adArea2
 ||xp911.com/img/xitong.gif
@@ -1506,9 +1502,9 @@ gamefy.cn##.float_bottom_right
 ||ngacn.cc/common_res/js_adscommon.js
 @@||plu.cn/d/js/acmsd/thea44.js
 ||lib.plu.cn/images/bg/
-@@||club.tgfcer.com/forum$elemhide
 ||club.tgfcer.com/images/*960$image
 ||club.tgfcer.com/images/travelad.jpg
+club.tgfcer.com#@##content_adv
 ||verypsp.com/bd.html
 ||bbs.verypsp.com^$script
 ||soft.verypsp.com/pic/jbk.gif
@@ -1596,9 +1592,9 @@ taihe.net##script[src="/js/ad.js"] + #table1
 ||js.pub.tom.com^
 ||sa.uusee.com^
 ||image.wenweipo.com/*/ad_
-@@||workercn.cn/c/$elemhide
-@@||news.workercn.cn/rollnews/c2/$elemhide
 ||workercn.cn/ufile/$object
+workercn.cn#@#.ad_content
+workercn.cn#@#.ad_main
 ||iads.xinmin.cn^
 ||media.yesky.com/
 yesky.com##[class^="ad"]
@@ -1616,8 +1612,8 @@ yesky.com##[class^="ad"]
 ||log.17k.com^
 17k.com##[id^="ad0"]
 ||17kk.cc/scriptAD/
-@@||24novel.com/files/article/html/$elemhide
 ||site.24novel.com/js/readbottom.js
+24novel.com#@##adtop
 ||imghw.3gsc.com.cn^
 3gsc.com.cn##.header-banner
 3gsc.com.cn##.area > a[href^="http://wan.3gsc.com.cn"]
@@ -1637,10 +1633,10 @@ yesky.com##[class^="ad"]
 ||86zw.com/zz/
 ||t.58xs.com/hot/
 ||59to.com/myjs/$script
-@@||77119.com/soft/html/$elemhide
 ||77119.com/js/bd/
 ||77119.com/js/mm/
 ||77119.com/js/qt/
+77119.com#@#.topadbox
 @@||jj.5ccc.net/scripts/new/pagetop.js
 ||jj.5ccc.net/scripts/new/counter.js
 ||jj.5ccc.net/scripts/new/index$script
@@ -1739,8 +1735,8 @@ xxsy.net##.rightbanner
 ||images.zhulang.com/game/upload/$domain=book.zhulang.com|www.zhulang.com
 zhulang.com##[id^="adv"]
 zhulang.com##.coverpageadv01
-@@||zzzcn.com^$elemhide
 ||zzzcn.com/3z/
+zzzcn.com#@##adtop
 
 !---Private Sites
 !--TTG
@@ -1793,10 +1789,10 @@ www.jstv.com##.jadv
 ||233.com/examdagg/
 ||2500sz.com/site/
 2500sz.com##[id^="Layer"]
-@@||2u.com.cn^$elemhide
 ||2u.com.cn/js/2012_movie.js
-||pic.2u.com.cn^$object
+||pic.2u.com.cn^
 ||stat.2u.com.cn/ol_2u.js
+2u.com.cn#@#.adSpace
 ||2y2r.org/data/attachment/forum/$image
 2y2r.org###hd + .wp.cl
 ||500wancache.com/public/js/stats.js
@@ -2538,6 +2534,7 @@ zxtjd.com###it_an
 |http://track.
 /ktrace/ktrace$script
 /pingd?
+/PV?peerid=
 /tongji.js
 /tracking.$image,object_subrequest
 /usertrack.
@@ -2618,7 +2615,4 @@ xfastest.com##[class^="ad"]
 !---2012.6
 ||image.10010.com/index_js/flash-ad$script
 ||nanrenwa.com/_img/a/$third-party
-@@||www.yyets.com/index.php$elemhide
-/imgextra/*$domain=yyets.com
-yyets.com##[id^="kads"]
 !------------------------End of List-------------------------
