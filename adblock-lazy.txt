@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: +hDy1aY1H3+wHtnCKKDPqw
+!  Checksum: UspwVA1l8v+ny9DskJxtOA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 29 Jun 2012 23:17:51 +0800
+!  Last Modified:  Sat, 30 Jun 2012 15:28:30 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -100,11 +100,9 @@ search.21cn.com##td[width="184"][align="left"]
 ||ktzhk.com/plugins/cache_template/adv_3b2g.js
 
 !---3DM Game
-||bbs.3dmgame.com/data/attachment/forum/$image,domain=www.3dmgame.com
-||pic1.3dm.178.com^$image,domain=www.3dmgame.com
+/forum/*$image,domain=www.3dmgame.com
 dl.3dmgame.com##.banner_2
 www.3dmgame.com##.banner_1
-www.3dmgame.com##.banner_2
 www.3dmgame.com##[id^="clickbg"]
 
 !---51nb.com
@@ -364,12 +362,14 @@ cnbeta.com###userInfo
 cnbeta.com##.detail > em
 
 !---CSDN
-/coop/*$domain=csdn.net
+||images.china-pub.com/coop/
 ||csdn.net/1341df/csdn_ggmm.js
-||csdn.net/common/counter.js
+||csdn.net^*/counter.js
 ||csdn.net/ggmm/
+||bbs.csdn.net/ascx/
+||bbs.csdn.net/event/bbsad.aspx?type=7
 ||counter.csdn.net^$script
-||message.csdn.net/msg.popup.js
+||topic.csdn.net/u/t5/include/ad
 csdn.net##[class^="banner"]
 !--iteye
 ||info-database.csdn.net/Upload/*-728
@@ -495,7 +495,6 @@ i.firefoxchina.cn,i.g-fox.cn###taobao_frame2
 /img/*$domain=gamersky.com
 ||imgf.gamersky.com/*/
 ||imgf.gamersky.com^*bg_ol$image
-|http://gamefiles.$object,domain=gamersky.com
 gamersky.com##.adc
 gamersky.com###clickbg
 
@@ -2258,6 +2257,7 @@ zxtjd.com###it_an
 ||gocsgo.com^$third-party
 ||gohappy.com.tw^$third-party
 ||googleadsl.com^$third-party
+||gsdwj.com^$third-party
 ||guobie.com^$third-party
 ||guoshipartners.com^$third-party
 ||hauchi.com.tw^$third-party
@@ -2348,6 +2348,7 @@ zxtjd.com###it_an
 ||qizhao.com^$third-party
 ||qling.com^$third-party
 ||qq61.com^$third-party
+||qq937.com^$third-party
 ||quantui.com^$third-party
 ||qutaotao.com^$third-party
 ||rayli.com.cn^$third-party
@@ -2827,6 +2828,7 @@ xfastest.com##[class^="ad"]
 /ad/audsci.
 /ad/banner.
 /ad/banner/*
+/ad/bannerdetails/*
 /ad/files/*
 /ad/generate?
 /ad/google/*
@@ -3217,6 +3219,7 @@ xfastest.com##[class^="ad"]
 /ads/js/*
 /ads/jsbannertext.
 /ads/leaderboard.
+/ads/newad.
 /ads/panel.
 /ads/proxy-
 /ads/skins/*
@@ -3880,6 +3883,7 @@ xfastest.com##[class^="ad"]
 /floatingads.
 /flvad_
 /flvads/*
+/flyers/ads/*
 /footad-
 /footad.
 /footer-ad-
@@ -11064,6 +11068,7 @@ _a468x60.
 ||harrenmedianetwork.com^$third-party
 ||havamedia.net^$third-party
 ||hb-247.com^$third-party
+||himediads.com^$third-party
 ||hit-now.com^$third-party
 ||hits.sys.lv^$third-party
 ||hopfeed.com^$third-party
@@ -12749,6 +12754,7 @@ _a468x60.
 ||cmix.org/teasers/
 ||cockfortwo.com/track/$third-party
 ||cokstrip.co.cc^$object-subrequest,third-party
+||crakrevenue.com/banners/
 ||creamgoodies.com/potd/
 ||cwgads.com/launch.js$third-party
 ||cwgads.com^$~script,third-party
@@ -12928,6 +12934,7 @@ _a468x60.
 @@||speedport.ip^$donottrack,image,~image
 ! *** easylist:easyprivacy/easyprivacy_general.txt ***
 -xtcore.js
+.sitecatalyst.js
 /?livehit=
 /?record&key=
 /__utm.gif
@@ -13565,6 +13572,7 @@ _comscore.js
 ||fyreball.com^$third-party
 ||gaug.es^$third-party
 ||geobytes.com^$third-party
+||getbackstory.com^$third-party
 ||getclicky.com^$third-party
 ||getstatistics.se^$third-party
 ||gigcount.com^$third-party
@@ -14398,6 +14406,7 @@ _comscore.js
 ||radiocompanion.com/count.php?
 ||realplayer.com^*/pixel?
 ||reevoo.com/track/
+||replyat.com/gadgetpagecounter*.asp?
 ||reports.pagesuite-professional.co.uk^
 ||reverbnation.com/widgets/trk/
 ||rhapsody.com^*/pixel?
@@ -14587,6 +14596,7 @@ _comscore.js
 ||yigouw.com/c.js
 ! *** easylist:easyprivacy/easyprivacy_specific_international.txt ***
 ! Chinese
+||analytics.163.com^
 ||analytics.nextmedia.com^
 ||beacon.sina.com.cn^
 ||counter.sina.com.cn/moodq?
@@ -14595,6 +14605,7 @@ _comscore.js
 ||dj.renren.com^
 ||ftchinese.com/log/new_log.php?
 ||nstat.tudou.com^
+||pingjs.qq.com^
 ||rgd.com.cn/counter/
 ||s.renren.com^
 ||sinajs.cn/open/analytics/

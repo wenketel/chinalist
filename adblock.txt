@@ -1,8 +1,8 @@
 [Adblock Plus 1.2]
-!  Checksum: PKNU4m9QAkGFT7Bs3tan3g
+!  Checksum: JK0hxS+FZPCre8fIRRufXw
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 29 Jun 2012 23:17:51 +0800
+!  Last Modified:  Sat, 30 Jun 2012 15:28:30 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -99,11 +99,9 @@ search.21cn.com##td[width="184"][align="left"]
 ||ktzhk.com/plugins/cache_template/adv_3b2g.js
 
 !---3DM Game
-||bbs.3dmgame.com/data/attachment/forum/$image,domain=www.3dmgame.com
-||pic1.3dm.178.com^$image,domain=www.3dmgame.com
+/forum/*$image,domain=www.3dmgame.com
 dl.3dmgame.com##.banner_2
 www.3dmgame.com##.banner_1
-www.3dmgame.com##.banner_2
 www.3dmgame.com##[id^="clickbg"]
 
 !---51nb.com
@@ -363,12 +361,14 @@ cnbeta.com###userInfo
 cnbeta.com##.detail > em
 
 !---CSDN
-/coop/*$domain=csdn.net
+||images.china-pub.com/coop/
 ||csdn.net/1341df/csdn_ggmm.js
-||csdn.net/common/counter.js
+||csdn.net^*/counter.js
 ||csdn.net/ggmm/
+||bbs.csdn.net/ascx/
+||bbs.csdn.net/event/bbsad.aspx?type=7
 ||counter.csdn.net^$script
-||message.csdn.net/msg.popup.js
+||topic.csdn.net/u/t5/include/ad
 csdn.net##[class^="banner"]
 !--iteye
 ||info-database.csdn.net/Upload/*-728
@@ -494,7 +494,6 @@ i.firefoxchina.cn,i.g-fox.cn###taobao_frame2
 /img/*$domain=gamersky.com
 ||imgf.gamersky.com/*/
 ||imgf.gamersky.com^*bg_ol$image
-|http://gamefiles.$object,domain=gamersky.com
 gamersky.com##.adc
 gamersky.com###clickbg
 
@@ -2258,6 +2257,7 @@ zxtjd.com###it_an
 ||gocsgo.com^$third-party
 ||gohappy.com.tw^$third-party
 ||googleadsl.com^$third-party
+||gsdwj.com^$third-party
 ||guobie.com^$third-party
 ||guoshipartners.com^$third-party
 ||hauchi.com.tw^$third-party
@@ -2348,6 +2348,7 @@ zxtjd.com###it_an
 ||qizhao.com^$third-party
 ||qling.com^$third-party
 ||qq61.com^$third-party
+||qq937.com^$third-party
 ||quantui.com^$third-party
 ||qutaotao.com^$third-party
 ||rayli.com.cn^$third-party
