@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: WnGeTOhnYORGtzeXKnCA7g
+!  Checksum: +ty/sm758DTpLDrYH47z6A
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 01 Jul 2012 12:57:10 +0800
+!  Last Modified:  Mon, 02 Jul 2012 22:16:27 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1467,6 +1467,7 @@ steachs.com###banner
 ||piaohua.com/js/yzz/piaohua$script
 ||quick8.cn/softimg/*AD.gif
 ||shooter.cn/a/*adv$script
+||skycn.com/js/soft_*.js
 ||soxia.cc^$subdocument
 ||sz1001.net/Down_Style/$script
 ||tntdown.com/News/js/C_
@@ -3465,6 +3466,7 @@ xfastest.com##[class^="ad"]
 /adunit/*
 /adunits/*
 /adv-div-
+/adv.htm
 /adv02.
 /adv03.
 /adv1.
@@ -4274,6 +4276,7 @@ xfastest.com##[class^="ad"]
 /popads/*
 /popads_
 /popunder.
+/popunder/*
 /popunder1_
 /popunder2.
 /popunder_
@@ -5644,6 +5647,7 @@ _a468x60.
 ###ad_banner_top
 ###ad_banners
 ###ad_bar
+###ad_bar_rect
 ###ad_bellow_post
 ###ad_bigsize_wrapper
 ###ad_billboard_ifm
@@ -6580,6 +6584,7 @@ _a468x60.
 ###featuredAds
 ###featured_ad_links
 ###feed_links_ad_container
+###feedjiti-footerTR
 ###file_sponsored_link
 ###fin_ad_728x90_bottom
 ###first-300-ad
@@ -7809,6 +7814,7 @@ _a468x60.
 ##.ad-btn
 ##.ad-btn-heading
 ~assetbar.com,~o2.pl##.ad-button
+##.ad-cat
 ##.ad-cell
 ##.ad-column
 ~arbetsformedlingen.se,~lekkerflesjewijn.nl,~lektuinmaterialen.nl,~mobile.de##.ad-container
@@ -12334,6 +12340,7 @@ _a468x60.
 ||longtailvideo.com/ltas.swf$third-party
 ||longtailvideo.com^*/adawe-$object-subrequest,third-party
 ||longtailvideo.com^*/adttext-$object-subrequest,third-party
+||longtailvideo.com^*/yume-h.swf
 ||longtailvideo.com^*/yume.swf
 ||looneynetwork.com^*/ww-adv-
 ||lowbird.com/random/$third-party
@@ -12927,7 +12934,7 @@ _a468x60.
 ||youfck.com^*/adawe.swf
 ||youpornmate.com/dif/?cid=$third-party
 ||yplf.com/ram/files/sponsors/
-||yuvutu.com^$image,~image,popup
+||yuvutu.com^$image,~image,popup,third-party
 ||ztod.com/flash/wall*.swf
 ||ztod.com/iframe/third/$subdocument
 
@@ -14527,6 +14534,7 @@ _comscore.js
 ||twitter.com^*/t.gif?
 ||typekit.com/s.gif?
 ||typekit.net/p.gif?
+||ui-portal.com^*;ns_referrer=
 ||uim.tifbs.net^
 ||uknetguide.co.uk/user.js?
 ||ultimatebootcd.com/tracker/
