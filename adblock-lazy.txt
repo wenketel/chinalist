@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: +ty/sm758DTpLDrYH47z6A
+!  Checksum: Chys22Dyk1U4Mh5LYUFBnA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 02 Jul 2012 22:16:27 +0800
+!  Last Modified:  Tue, 03 Jul 2012 23:23:59 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -267,8 +267,9 @@ iqiyi.com##.first_adv
 iqiyi.com##.seed
 
 !---bilibili.tv
+||bilibili.tv/html/$subdocument
 ||bilibili.tv/html/ads-
-||static.loli.my/ad-images/$object_subrequest
+||static.hdslb.com/ad-images/
 
 !---爆米花网
 @@||cb.baidu.com/crossdomain.xml
@@ -2621,7 +2622,7 @@ xfastest.com##[id^="ad"]
 xfastest.com##[class^="ad"]
 
 !-----------------------Temporary---------------------------
-!---2012.6
+!---2012.7
 ||image.10010.com/index_js/flash-ad$script
 ||nanrenwa.com/_img/a/$third-party
 !-----------------------EasyList----------------------------
@@ -3262,6 +3263,7 @@ xfastest.com##[class^="ad"]
 /ads_code.
 /ads_config.
 /ads_display.
+/ads_files/*
 /ads_gallery/*
 /ads_global.
 /ads_google.
@@ -3570,6 +3572,7 @@ xfastest.com##[class^="ad"]
 /afc-match?q=
 /afcads.
 /afcsearchads.
+/aff/ads_
 /aff/images/*
 /aff_ad?
 /aff_frame.
@@ -4873,7 +4876,6 @@ _video_ads_
 _videoad.
 _vodaaffi_
 _webad.
-|http://ox-d.*/afr?auid=
 |http://ox-d.*/jstag|
 |http://u-ads.
 ||cacheserve.*/promodisplay/
@@ -8867,6 +8869,7 @@ _a468x60.
 ##.bannerRightAd
 ##.banner_160x600
 ##.banner_300x250
+##.banner_300x250_2
 ##.banner_468x60
 ##.banner_728_90
 ~milenio.com##.banner_728x90
@@ -10384,7 +10387,7 @@ _a468x60.
 ||209.222.8.217^$third-party,domain=~p2p.adserver.ip
 ||247realmedia.com^$third-party
 ||2mdn.net/dot.gif$object-subrequest,third-party
-||2mdn.net^$object-subrequest,third-party,domain=101cargames.com|3news.co.nz|bbc.co.uk|bet.com|bloomberg.com|businessday.co.za|businessweek.com|calgaryherald.com|couriermail.com.au|drive.com.au|edmontonjournal.com|eonline.com|euronews.com|foodnetwork.ca|globaltoronto.com|globaltvbc.com|heraldsun.com.au|independent.ie|kfiam640.com|leaderpost.com|metacafe.com|montrealgazette.com|nationalpost.com|nba.tv|ndtv.com|newyorkjets.com|ottawacitizen.com|patriots.com|reuters.com|rollingstone.com|rte.ie|sherdog.com|skynews.com.au|smh.com.au|telegraph.co.uk|theage.com.au|theaustralian.com.au|thecomedynetwork.ca|theprovince.com|thestarphoenix.com|timescolonist.com|vancouversun.com|vice.com|windsorstar.com|youtube.com
+||2mdn.net^$object-subrequest,third-party,domain=101cargames.com|3news.co.nz|bbc.co.uk|bet.com|bloomberg.com|businessday.co.za|businessweek.com|calgaryherald.com|couriermail.com.au|drive.com.au|edmontonjournal.com|eonline.com|euronews.com|foodnetwork.ca|globaltoronto.com|globaltvbc.com|heraldsun.com.au|independent.ie|kfiam640.com|leaderpost.com|livestream.com|metacafe.com|montrealgazette.com|nationalpost.com|nba.tv|ndtv.com|newyorkjets.com|ottawacitizen.com|patriots.com|reuters.com|rollingstone.com|rte.ie|sherdog.com|skynews.com.au|smh.com.au|telegraph.co.uk|theage.com.au|theaustralian.com.au|thecomedynetwork.ca|theprovince.com|thestarphoenix.com|timescolonist.com|vancouversun.com|vice.com|windsorstar.com|youtube.com
 ||2mdn.net^$~object-subrequest,third-party
 ||360ads.com^$third-party
 ||360yield.com^$third-party
@@ -10573,6 +10576,7 @@ _a468x60.
 ||adsrevenue.net^$third-party
 ||adsrvr.org^$third-party
 ||adsupermarket.com^$third-party
+||adsupply.com^$third-party
 ||adsurve.com^$image,~image,popup
 ||adsurve.com^$third-party
 ||adsvert.com^$third-party
@@ -11790,6 +11794,7 @@ _a468x60.
 ||aipbannerx.com^$third-party
 ||aipmedia.com^$third-party
 ||alfatraffic.com^$third-party
+||amtracking01.com^$third-party
 ||angelpastel.com^$third-party
 ||apromoweb.com^$third-party
 ||belamicash.com^$third-party
@@ -12683,6 +12688,7 @@ _a468x60.
 ||vitabase.com/images/relationships/$third-party
 ||vittgam.net/images/b/
 ||vpntunnel.se/aff/$third-party
+||vuvuplaza.com^$subdocument,third-party
 ||vxite.com/banner/
 ||warezhaven.org/warezhavenbann.jpg
 ||washingtonpost.com/wp-srv/wapolabs/dw/readomniturecookie.html
@@ -12740,6 +12746,7 @@ _a468x60.
 ||adultartnetwork.com/banners/
 ||adultdvd.com/plugins/*/store.html$third-party
 ||adultfriendfinder.com/go/$image,~image,popup
+||adultfriendfinder.com/go/$subdocument,third-party
 ||adultfriendfinder.com/go/page/js_im_box?
 ||adultfriendfinder.com/images/banners/
 ||adultporntubemovies.com/images/banners/
@@ -12757,6 +12764,7 @@ _a468x60.
 ||br.fling.com^
 ||br.realitykings.com^
 ||byfortune.co.cc^$image,third-party
+||camcity.com/rtr.php?aid=$image,~image,popup
 ||cams.com/p/cams/cpcs/streaminfo.cgi?$third-party
 ||camsrule.com/exports/$third-party
 ||candidvoyeurism.com/ads/$image,~image,popup
@@ -14278,6 +14286,7 @@ _comscore.js
 ||gigya.com^*/cimp.gif?
 ||glam.com/ctagsimgcmd.act?
 ||go.toutapp.com^$third-party
+||googleapis.com/generate_204
 ||googleapis.com^*/gen_204?
 ||googlecode.com^*/tracker.js
 ||googlelabs.com/log/log?
@@ -14455,6 +14464,7 @@ _comscore.js
 ||stats.directnic.com^
 ||stats.free-rein.net^
 ||stats.geegain.com^
+||stats.hosting24.com^
 ||stats.inergizedigitalmedia.com^
 ||stats.itweb.co.za^
 ||stats.magnify.net^
