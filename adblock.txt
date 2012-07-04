@@ -1,8 +1,8 @@
 [Adblock Plus 1.2]
-!  Checksum: NCGgEE77YNuxaAKHrBOx5Q
+!  Checksum: yS9VbSeVysWDpId2R8f5Vg
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 03 Jul 2012 23:23:59 +0800
+!  Last Modified:  Wed, 04 Jul 2012 14:49:22 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -597,8 +597,11 @@ it168.com##.gg
 ||ithome.com/block/headerline.htm
 ||img.vista123.com/images/saayaa468.gif
 ||win7china.com/images/win72tc.png
-ithome.com##.side_products
+/script/*$subdocument,domain=win7china.com|win8china.com
 ithome.com##.hl_wrap
+ithome.com,win7china.com###pop_notice
+ithome.com##.side_products
+win7china.com,win8china.com##.site_ad
 
 !---煎蛋
 ||jdstatic.tankr.net/side/
@@ -1988,8 +1991,6 @@ weather.com.cn##.post_st
 webkaka.com###Table1
 ||weiphone.com/baidu.html
 bbs.weiphone.com##[id^="ads_"]
-/script/*$subdocument,domain=win7china.com|win8china.com
-win7china.com,win8china.com##.site_ad
 ||a.wm090.com/biz_icon/
 ||wpxap.com/a_img/
 ||xici.net/service/$xmlhttprequest
