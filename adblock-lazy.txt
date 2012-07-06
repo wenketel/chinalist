@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: L7B6JIPA0g/LBXEtQuMIvA
+!  Checksum: RBz+9jutZDgU0Yp2g8t4OQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 06 Jul 2012 21:23:54 +0800
+!  Last Modified:  Sat, 07 Jul 2012 01:07:54 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -815,8 +815,8 @@ plurk.com###plurk_ads
 plurk.com###sliderAds
 
 !---PPS.TV
-||stat.ppstream.com^
 ||ugcad.pps.tv^
+||stat.ppstream.com^
 
 !---PPTV
 ||player.pplive.cn^*/PPLivePlugin.swf
@@ -1367,12 +1367,9 @@ youku.com##.sideCol > div[class^="AB"]
 
 !---人人影视
 ||copy.ousns.com^$image
-/imgextra/*$domain=yyets.com
-www.yyets.com#@##ad_text:not(textarea)
 vod.oabt.org##.each_ad
 yyets.com##.msgShow > .f_r
 yyets.com###upad
-yyets.com##[id^="kads"]
 
 !---叶子猪游戏网
 @@||yktj.yzz.cn/htmldata/mds/yzz_single_gg.js$domain=bbs.yzz.cn
@@ -2635,6 +2632,7 @@ xfastest.com##[class^="ad"]
 !---2012.7
 ||image.10010.com/index_js/flash-ad$script
 ||nanrenwa.com/_img/a/$third-party
+@@||copy.ousns.com/new/$image
 !-----------------------EasyList----------------------------
 ! *** easylist:easylist/easylist_general_block.txt ***
 &ad_channel=
@@ -2862,6 +2860,7 @@ xfastest.com##[class^="ad"]
 /ad160x600.
 /ad1place.
 /ad1x1home.
+/ad2.php|
 /ad2border.
 /ad300.
 /ad300x145.
@@ -12387,6 +12386,7 @@ _a468x60.
 ||media-toolbar.com^$third-party
 ||media.onlineteachers.co.in^$third-party
 ||mediaon.com/moneymoney/
+||memepix.com/spark.php?
 ||meta4-group.com^*/promotioncorner.js?
 ||meta4-group.com^*/spods.js?
 ||metaboli.fr^*/adgude_$third-party

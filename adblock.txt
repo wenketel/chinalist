@@ -1,8 +1,8 @@
 [Adblock Plus 1.2]
-!  Checksum: WiY66/TpMBho6OEEJxkR1Q
+!  Checksum: sWRDbE3wrpAGBMgyL1R9vQ
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 06 Jul 2012 21:23:54 +0800
+!  Last Modified:  Sat, 07 Jul 2012 01:07:54 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -814,8 +814,8 @@ plurk.com###plurk_ads
 plurk.com###sliderAds
 
 !---PPS.TV
-||stat.ppstream.com^
 ||ugcad.pps.tv^
+||stat.ppstream.com^
 
 !---PPTV
 ||player.pplive.cn^*/PPLivePlugin.swf
@@ -1366,12 +1366,9 @@ youku.com##.sideCol > div[class^="AB"]
 
 !---人人影视
 ||copy.ousns.com^$image
-/imgextra/*$domain=yyets.com
-www.yyets.com#@##ad_text:not(textarea)
 vod.oabt.org##.each_ad
 yyets.com##.msgShow > .f_r
 yyets.com###upad
-yyets.com##[id^="kads"]
 
 !---叶子猪游戏网
 @@||yktj.yzz.cn/htmldata/mds/yzz_single_gg.js$domain=bbs.yzz.cn
@@ -2635,4 +2632,5 @@ xfastest.com##[class^="ad"]
 !---2012.7
 ||image.10010.com/index_js/flash-ad$script
 ||nanrenwa.com/_img/a/$third-party
+@@||copy.ousns.com/new/$image
 !------------------------End of List-------------------------
