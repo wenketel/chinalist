@@ -1,8 +1,8 @@
 [Adblock Plus 1.2]
-!  Checksum: YSd3IsdT1zQqzJIo50z0Xg
+!  Checksum: 6vhelFNMQYv8Nvd6Lgb/wA
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 06 Jul 2012 21:01:02 +0800
+!  Last Modified:  Fri, 06 Jul 2012 21:22:53 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -582,6 +582,7 @@ ifeng.com##[class^="adList"]
 ifeng.com##[id^="couplet3_"]
 ifeng.com##[id$="CoupletId"]
 ifeng.com##[id^="flash_outer_"]
+ifeng.com##.label_3
 ifeng.com###StreamMediaWrap
 bbs.ifeng.com###box[style="height: 206px;"]
 v.ifeng.com###adbest
@@ -645,7 +646,7 @@ kafan.cn##.header_gg
 /javascripts/stats.js$domain=kkkmh.com|ktxp.com
 kkkmh.com##[class^="mm-"]
 bt.ktxp.com##.downloadbox + div[style]
-
+7
 !---Ku6
 @@||g.aa.sdo.com/crossdomain.xml
 @@||g.aa.sdo.com/?method=getversion$object_subrequest
@@ -811,6 +812,10 @@ www.pixnet.net###extradiv5
 plurk.com##.adsense
 plurk.com###plurk_ads
 plurk.com###sliderAds
+
+!---PPS.TV
+||stat.ppstream.com^
+||ugcad.pps.tv^
 
 !---PPTV
 ||player.pplive.cn^*/PPLivePlugin.swf
@@ -1786,7 +1791,6 @@ www.jstv.com##.jadv
 ||86file.megajoy.com^
 ||pcs1.app.joy.cn^
 ||pipi.cn/player/
-||stat.ppstream.com^
 @@||sopnba.com/js/gb.js
 ||sopnba.com/js/
 ||luckstatic.v1.cn/st/10000/
