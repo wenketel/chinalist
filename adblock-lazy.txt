@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: yKSfT3QxvZt47ZBR3Hjnog
+!  Checksum: twdVATPGJPAopNL7ivYFvQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 07 Jul 2012 13:51:06 +0800
+!  Last Modified:  Sat, 07 Jul 2012 14:34:37 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -882,7 +882,7 @@ bbs.360.cn##.aXd
 @@||cq.qq.com/js/cody/gdad/all_scroll_ad.js
 @@||exp.qq.com/img/ad/$image
 ||mat1.gtimg.com/ent/flash/
-||mat1.gtimg.com/sports/$object
+||mat1.gtimg.com/sports/*ad/$object
 ||adslvfile.qq.com^
 ||btrace.qq.com^
 ||cq.qq.com^*/ad_
@@ -958,15 +958,14 @@ dailynews.sina.com##.TopNav + table
 /iframe/tech/*$domain=sina.com.cn
 /jianyu1/TaoBao/*$domain=sina.com.cn
 /pfpnew/*$domain=sina.com.cn
+||sina.com.cn/litong/
 ||bj.house.sina.com.cn/iframe/
 ||d1.sina.com.cn^$image,object,script,domain=~www.sina.com.cn|~weibo.com
 ||d2.sina.com.cn^$image,object,script
-||d2.sina.com.cn^$subdocument,domain=www.sina.com.cn
 ||d3.sina.com.cn^$image,object,script
 ||d4.sina.com.cn^$object,script
-||d4.sina.com.cn^$subdocument,domain=www.sina.com.cn
-||d5.sina.com.cn^$image,object,script
-||news.sina.com.cn/pfpnews/js/libweb.js
+||d5.sina.com.cn^$object,script
+||d5.sina.com.cn^$image,domain=~www.sina.com.cn
 ||pfp.sina.com.cn^$script
 ||pfp.sina.com.cn/iframe/2012nonghangguanggaotest1.html
 ||pfp.sina.com.cn/jczs.html
