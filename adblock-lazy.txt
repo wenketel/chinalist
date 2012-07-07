@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: a3bSEGihbFfJrob3HV/PAQ
+!  Checksum: pzTic40taKTHtcn77MBQQQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 07 Jul 2012 21:35:08 +0800
+!  Last Modified:  Sun, 08 Jul 2012 00:51:33 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1366,6 +1366,11 @@ soku.com,youku.com##[id^="ab_"]
 youku.com##.sideCol > div[class^="AB"]
 
 !---人人影视
+@@||copy.ousns.com/new/1.PNG
+@@||copy.ousns.com/new/2.PNG
+@@||copy.ousns.com/new/3.PNG
+@@||copy.ousns.com/new/4.PNG
+@@||copy.ousns.com/new/5.PNG
 ||copy.ousns.com^$image
 vod.oabt.org##.each_ad
 yyets.com##.msgShow > .f_r
@@ -2639,7 +2644,6 @@ xfastest.com##[class^="ad"]
 !---2012.7
 ||image.10010.com/index_js/flash-ad$script
 ||nanrenwa.com/_img/a/$third-party
-@@||copy.ousns.com/new/$image
 !-----------------------EasyList----------------------------
 ! *** easylist:easylist/easylist_general_block.txt ***
 &ad_channel=
@@ -11957,7 +11961,7 @@ _a468x60.
 ||addirector.vindicosuite.com^
 ||addme.com/images/addme_$third-party
 ||adf.ly/images/banners/
-||adf.ly/js/$third-party
+||adf.ly/js/$third-party,domain=~q.gs
 ||adf.ly^*/link-converter.js$third-party
 ||adlandpro.com^$third-party
 ||admeta.vo.llnwd.net^
