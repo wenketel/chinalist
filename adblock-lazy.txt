@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: twdVATPGJPAopNL7ivYFvQ
+!  Checksum: g8LQ7mn28L+y/IJuya0e/A
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 07 Jul 2012 14:34:37 +0800
+!  Last Modified:  Sat, 07 Jul 2012 15:15:51 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -980,17 +980,19 @@ sina.com.cn##.topAD
 sina.com.cn##.topADs
 book.sina.com.cn##.module_80
 mobile.sina.com.cn##.zcads
-news.sina.com.cn##div[style="padding:9px 0 0;height:130px;text-align:center;background:#f3f3f3;"]
-news.sina.com.cn###divResNewsBottom
-news.sina.com.cn##.sinazt_1231
+news.sina.com.cn##[class^="ATopTxt"]
+news.sina.com.cn###top_bar
 sports.sina.com.cn##[id^="ads_right"]
 tech.sina.com.cn##div[style="height:230px;"]
+www.sina.com.cn###feibiao140280
 www.sina.com.cn##[class^="AD"]
+www.sina.com.cn##.att_div
 www.sina.com.cn##.cleft
 www.sina.com.cn###PartA > .left > div:not(#sina_house_link9)
 www.sina.com.cn###PartG > .rightbox
-www.sina.com.cn##[class^="txtads"]
-www.sina.com.cn##.yleft2blk
+www.sina.com.cn##.societybtmlist
+www.sina.com.cn##.techbtmads
+www.sina.com.cn##[class="yleft2blk"]
 !-auto
 @@||sina.wrating.com/a1.js$domain=bbs.auto.sina.com.cn
 ||auto.sina.com.cn/iframe/*_*_*.htm
