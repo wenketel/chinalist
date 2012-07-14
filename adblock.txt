@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: xLvI2zExvnfljVh7DU6FnA
+!  Checksum: yfwfXuyHqzzgxBhocLUHBA
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 14 Jul 2012 18:46:53 +0800
+!  Last Modified:  Sat, 14 Jul 2012 19:27:26 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -704,10 +704,10 @@ mitbbs.com##table[width="950"]
 ||pub.mop.com^
 ||task.mop.com/mop_treasure.jsp
 mop.com##[class^="adP"]
+mop.com##a[href^="http://trackx.mop.com/"]
 dzh.mop.com##.adarea_top
 game.mop.com##.area_right > .textcen
 tt.mop.com###js-sub-body + div[style]
-www.mop.com##.dot > li:nth-child(n+10)
 www.mop.com##.gg03
 
 !---驱动之家
@@ -868,14 +868,13 @@ www.qidian.com##.DH17
 www.qidian.com##[class^="gg"]
 www.qidian.com##.RightAD
 !--晋江文学城
-||210.51.33.225^
+|http://*/*.ca|$domain=jjwxc.net
 ||jjwxc.net/jjad2.html$image,~image,popup
 ||static.jjwxc.net/sp/$subdocument
 ||static.jjwxc.net/scripts/richMedia.js
 jjwxc.net##[id^="adp_"]
 jjwxc.net##.h8px + div[align="center"]
 jjwxc.net###containermmtypea
-jjwxc.net##[id^="div-gpt-ad"]
 jjwxc.net##table[style^="width:984px;"]
 
 !---奇虎
@@ -1380,7 +1379,7 @@ youku.com##.sideCol > div[class^="AB"]
 @@||copy.ousns.com/new/3.PNG
 @@||copy.ousns.com/new/4.PNG
 @@||copy.ousns.com/new/5.PNG
-||copy.ousns.com^$image
+||copy.ousns.com^
 vod.oabt.org##.each_ad
 yyets.com##.msgShow > .f_r
 yyets.com###upad
@@ -1541,7 +1540,7 @@ verypsp.com##table[width="960"]
 ||ctdisk.com/getbbs.php?id=6
 js?version=$domain=ctdisk.com|pipipan.com
 ctdisk.com##.kk_xshow
-||st1.dbank.com/netdisk/download/js/adsLoad.js
+||st1.dbank.com/netdisk/download/js/adsLoad.advance.js
 dbank.com###filelist_marker
 ||jianguoyun.com/static/bdshare/v.gif
 ||d.namipan.com/inc_js/$script
@@ -2031,6 +2030,7 @@ xici.net##.doc_tl.p9
 ||yanqiao.com/duote.js
 ||yanqiao.com/yanqiao/
 @@||yihaodian.com/advertise/$xmlhttprequest
+@@||yihaodian.com/product/ajaxAds.do?$xmlhttprequest
 ||yihaodian.com/statics/global/js/tracker/
 ||ytbbs.com/images/index/
 ||yxlady.com/cdd/
