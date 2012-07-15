@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: MEQZQTEhLGTsUHaIdZ88Kg
+!  Checksum: kBvo7AszZ4fPUrwu2EFWBQ
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 16 Jul 2012 02:04:26 +0800
+!  Last Modified:  Mon, 16 Jul 2012 05:12:14 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -1068,15 +1068,13 @@ weibo.com##.tips_player
 shm.com.cn##.surround2
 
 !---搜狐
-/ping.png?$domain=sohu.com
 ||txt.go.sohu.com/ip/soip
 ||xls.go.sohu.com^
 ||images.sohu.com/bill/
 ||images.sohu.com/cs/
-||img.mms.sohu.com/12530/js/pop12530_init.js
 ||js.sohu.com/track/
 ||js.sohu.com/wrating0820.js
-||news.sohu.com/upload/article/2012/images/swf/300x92.swf
+||news.sohu.com/upload/article/2012/images/swf/
 sohu.com##.adB
 sohu.com,chinaren.com##sohuadcode
 sohu.com###turn-ad
@@ -1088,19 +1086,15 @@ www.sohu.com###ad_TOP
 www.sohu.com###contentC > .columnC
 !--tv
 /get.gif?$domain=sohu.com
-||sohu.com/*.do?$object_subrequest
-||sohu.com/*.gif?$object_subrequest
-||sohu.com.cn/*.do?$object_subrequest
-||sohu.com.cn/*.gif?$object_subrequest
-||mfiles.sohu.com/tv/mengniu/
-||aty*.tv.sohu.com^
+||images.sohu.com/ytv/
+||aty.tv.sohu.com^
+||his.tv.sohu.com/his/ping.do?
 ||tv.sohu.com/upload/ad_fr/
 ||tv.sohu.com/upload/csad/
 ||tv.sohu.com/upload/trace/
-||js2.my.tv.sohu.com.cn/ppp/*/control.js
-||js2.my.tv.sohu.com.cn/ppp/*/play.js
 ||count.vrs.sohu.com^$object_subrequest
-mn.store.tv.sohu.com###pwd
+||hd.sohu.com.cn/dov.do?
+||hd.sohu.com.cn/hdpb.gif?
 !--Sogou
 ||sogou.com/js/pb_*.js
 ||brand.sogou.com^
