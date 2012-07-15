@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: B4khHi0Io999w5QFDQyHtQ
+!  Checksum: 5Nn16vg+9owTWUdPdiJTkg
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 15 Jul 2012 21:02:52 +0800
+!  Last Modified:  Sun, 15 Jul 2012 22:04:56 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -274,7 +274,7 @@ iqiyi.com##.seed
 !---bilibili.tv
 ||bilibili.tv/html/$subdocument
 ||bilibili.tv/html/ads-
-||static.hdslb.com/ad-images/
+||static.hdslb.com/ad-images/$object_subrequest
 
 !---爆米花网
 @@||cb.baidu.com/crossdomain.xml
@@ -788,7 +788,7 @@ pchome.net,~club.pchome.net##[class^="ad"]
 club.pchome.net###shop_promotion
 
 !---太平洋电脑网
-/adpuba/*
+||imgad0.3conline.com^
 ||pconline.com.cn/images/lmt/area_lmt.js
 ||pconline.com.cn/js/ivy.js
 ||acount.pconline.com.cn^
@@ -1850,6 +1850,7 @@ amznz.com##div[style="float:left;width:250px;height:250px;"]
 ||bitscn.com/pic2009/a*.js
 ||bkill.com/css/ajs/
 ||bkill.com/css/js/bkill.js
+||bkill.com/images/di.js
 bkill.com##.ad960
 ||c168c.com/*adv/
 ||cbifamily.com/corporation/
@@ -2119,6 +2120,7 @@ zxtjd.com###it_an
 ||21union.com^$third-party
 ||25888.in^$third-party
 ||2bj.cc^$third-party
+||3234.com^$third-party
 ||334700.com^$third-party
 ||3393.com^$third-party
 ||33hy.com^$third-party
@@ -2267,6 +2269,7 @@ zxtjd.com###it_an
 ||csbew.com^$third-party
 ||d9ad.com^$third-party
 ||daoyoudao.com^$third-party
+||dayi55.com^$third-party
 ||diangao.com^$third-party
 ||diankee.com^$third-party
 ||dilingling.com^$third-party
@@ -2519,6 +2522,7 @@ zxtjd.com###it_an
 /adpics/*
 /adpolestar/*
 /adpshow.
+/adpuba/*
 /adservice/*
 /adsimg/*
 /adv.
