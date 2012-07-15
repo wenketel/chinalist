@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: Gp54bbeJDldQZb6P6AFRCQ
+!  Checksum: OwcQj/YNcZrGWmJL3diGow
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 15 Jul 2012 22:04:56 +0800
+!  Last Modified:  Mon, 16 Jul 2012 02:04:26 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -233,7 +233,6 @@ mp3.baidu.com###adv_daoliu
 mp3.baidu.com##.area-top-ads
 mp3.baidu.com##.ecom-ad
 !--tieba
-tieba.baidu.com#@##rightAd
 tieba.baidu.com##[id^="guanggao"]
 tieba.baidu.com##.l_banner
 !--zhidao
@@ -1230,6 +1229,8 @@ udn.com###ads
 
 !---VeryCD
 ||sp.vcimg.com^
+||v4.vcimg.com/sq/$object
+verycd.com##div[style="border:1px solid #ccc;padding:2px 14px;"]
 verycd.com##.rightDiv > div[style^="width:250px;"]
 
 !---华声在线
@@ -1383,6 +1384,7 @@ youku.com##.sideCol > div[class^="AB"]
 @@||copy.ousns.com/new/5.PNG
 ||copy.ousns.com^
 vod.oabt.org##.each_ad
+yyets.com##.couplet
 yyets.com##.msgShow > .f_r
 yyets.com###upad
 
@@ -13365,6 +13367,7 @@ _a468x60.
 /yalst/pixel*.php?
 /zag.gif?
 /~utm_gif?
+://b.*/click?
 ://b.*/vanity/?
 ://c.*/c.gif?
 ://c1.*/c.gif?
