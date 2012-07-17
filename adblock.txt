@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: jau3mrcn/4uTY8C7I2W9+A
+!  Checksum: 1zCX3E7b7oVD5HlyiP6EgA
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 16 Jul 2012 17:11:44 +0800
+!  Last Modified:  Tue, 17 Jul 2012 16:44:03 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -205,16 +205,16 @@ autohome.com.cn##.recommend
 ||wenku.baidu.com/tongji/
 ||top.baidu.com/js/nsclick.js
 ||hao123.com/images/ua2.gif
-baidu.com###ecad
-baidu.com##.EC_mr15
-baidu.com##.ec_pp_f
-baidu.com##.ec_pp_f + br
-baidu.com##style + table:nth-child(3)
-baidu.com##table[cellspacing="0"][cellpadding="0"][align="right"][width="30%"]
 baike.baidu.com###mabox
 maps.baidu.com##.cityTip_top
 news.baidu.com###ecomadv2
 video.baidu.com##.brand-ad
+www.baidu.com,www1.baidu.com###ecad
+www.baidu.com,www1.baidu.com##.EC_mr15
+www.baidu.com,www1.baidu.com##.ec_pp_f
+www.baidu.com,www1.baidu.com##.ec_pp_f + br
+www.baidu.com,www1.baidu.com##style + table:nth-child(3)
+www.baidu.com,www1.baidu.com##table[cellspacing="0"][cellpadding="0"][align="right"][width="30%"]
 !--image
 image.baidu.com###ecomContainer
 image.baidu.com###relEcom
@@ -951,6 +951,7 @@ readersdigest.cn###fixeddiv
 ||sina.com/assets/js/dart/
 dailynews.sina.com##.TopNav + table
 !--sina.com.cn
+@@||pfp.sina.com.cn/iframe/2012nonghangguanggaotest1.html
 @@||sinaimg.cn^*/deco/*/common$script
 @@||sinaimg.cn^*/deco/*/sinaObj.js
 /iframe/auto/*$domain=sina.com.cn
@@ -977,7 +978,6 @@ dailynews.sina.com##.TopNav + table
 ||d5.sina.com.cn^$object,script
 ||d5.sina.com.cn^$image,domain=~www.sina.com.cn
 ||pfp.sina.com.cn^$script
-||pfp.sina.com.cn/iframe/2012nonghangguanggaotest1.html
 ||pfp.sina.com.cn/jczs.html
 ||rm.sina.com.cn/icast/
 ||rm.sina.com.cn/uv/
@@ -1300,10 +1300,12 @@ xj163.cn##[class^="ad"]
 ||stat.xunlei.com^
 ||misc.web.xunlei.com/kkpv/
 ||misc.web.xunlei.com^*/kankan_click$script
-||misc.web.xunlei.com/www_5_8/img/lt_
+||misc.web.xunlei.com/www_5_8/img/*/*_*$image
 ||dynamic.vod.lixian.xunlei.com^$image
 ||i.vod.xunlei.com/stat/
 xunlei.com##[id^="cm"].banner
+xunlei.com##.topic_center
+
 !--狗狗搜索
 ||img.gougou.com/down/aishangwang$image
 ||s.gougou.com^
@@ -1378,8 +1380,6 @@ youku.com##.sideCol > div[class^="AB"]
 ||copy.ousns.com^
 vod.oabt.org##.each_ad
 yyets.com##.couplet
-yyets.com##.msgShow > .f_r
-yyets.com###upad
 
 !---叶子猪游戏网
 @@||yktj.yzz.cn/htmldata/mds/yzz_single_gg.js$domain=bbs.yzz.cn
