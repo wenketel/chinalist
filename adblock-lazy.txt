@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: Gu4pbHe//asruge6BrDTNg
+!  Checksum: 44WxEhbw493f7W5c1LxVsA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 18 Jul 2012 19:15:05 +0800
+!  Last Modified:  Wed, 18 Jul 2012 20:48:09 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -436,6 +436,11 @@ dm5.com##.a8ad
 dm5.com##.cl760
 dm5.com##.cl970
 
+!---豆丁
+||docin.com/app/a_d/
+||docin.com/app/playerLoadLog/
+||pics.wanlibo.com/js/pagemodulestat.js
+
 !---对路
 ||dui.lu/index.php/ad/
 ||dui.lu/index.php/stat/
@@ -500,8 +505,8 @@ i.firefoxchina.cn,i.g-fox.cn###taobao_frame2
 
 !---游民星空
 ||gamersky.com/frame/
-/img/*$domain=gamersky.com
-||imgf.gamersky.com/*/
+||gamersky.com/img/
+||imgf.gamersky.com/300/
 ||imgf.gamersky.com^*bg_ol$image
 gamersky.com##.adc
 gamersky.com###clickbg
@@ -562,13 +567,12 @@ www.hsw.cn##table[width="980"][height="100"]
 ||webclick.yeshj.com^
 
 !---凤凰网
-@@||bc.ifeng.com/crossdomain.xml
 /ifengRotatorAd.js
 /sc_ifeng/*$domain=ifeng.com
 /ssi-incs/*$subdocument,domain=ifeng.com
 /tres/recommend/*$domain=ifeng.com
 ||ifeng.com/statics/comment_baidu.html
-||bc.ifeng.com^
+||bc.ifeng.com/main/s?
 ||de.deliver.ifeng.com^
 ||games.ifeng.com/webgame/
 ||img.ifeng.com/tres/$image,~image,popup
@@ -781,12 +785,15 @@ bbs.pcbeta.com###diynavtop + .wp
 bbs.pcbeta.com##.forum_top + div[style]:nth-child(3)
 
 !---PCHome.net
+||jscss.kdslife.com/club/html/count/PChome_Count.js
+||jscss.kdslife.com/club/html/img/aoyou.jpg
 ||btm.pchome.net^
 ||btn.pchome.net^
 ||club.pchome.net/*/localexchange.php$subdocument
-||js-1.pchome.net/ol.js
-pchome.net##[id^="AD"]
-pchome.net,~club.pchome.net##[class^="ad"]
+||js-1.pchome.net^
+||stat.pchome.net^
+kdslife.com,pchome.net##[id^="AD"]
+pchome.net##[class^="ad"]
 club.pchome.net###shop_promotion
 
 !---太平洋电脑网
@@ -1227,7 +1234,8 @@ udn.com###ads
 ||sp.vcimg.com^
 ||v4.vcimg.com/sq/$object
 verycd.com##div[style="border:1px solid #ccc;padding:2px 14px;"]
-verycd.com##.rightDiv > div[style^="width:250px;"]
+verycd.com##div[style="width:250px;height:200px;padding:4px;border:1px solid #ccc;"]
+verycd.com##div[style="width:960px;height:90px;border:1px solid #ccc;padding:10px 14px;"]
 
 !---华声在线
 ||voc.com.cn/adsClick/
@@ -1383,6 +1391,7 @@ youku.com##.sideCol > div[class^="AB"]
 ||copy.ousns.com^
 vod.oabt.org##.each_ad
 yyets.com##.couplet
+yyets.com###upad
 
 !---叶子猪游戏网
 @@||yktj.yzz.cn/htmldata/mds/yzz_single_gg.js$domain=bbs.yzz.cn
@@ -1860,8 +1869,6 @@ bkill.com##.ad960
 ||chiphell.com/activity/
 ||coolnovo.com/res/inc/liangbian.js
 ||coolnovo.com/temp/images/*_980x$image
-||docin.com/app/a_d/
-||docin.com/app/playerLoadLog/
 ||img3.douban.com/js/boomerang.js
 ||img3.douban.com/js/packed_ad
 ||e0575.cn/js/float.js
