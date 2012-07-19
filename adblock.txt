@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: U+bvIGUDZRBGlvXidbLheA
+!  Checksum: u7obRHWZNeV9bwAUBU81SA
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 18 Jul 2012 20:49:29 +0800
+!  Last Modified:  Fri, 20 Jul 2012 02:57:48 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -1173,14 +1173,16 @@ tianya.cn###adsp_list_top_banner
 tom365.com###t365
 
 !---土豆
+/pos?$object_subrequest
 ||tdimg.com/sales/
 ||tudou.com^*/outside.php
 ||tudou.com/tdap/
 ||tudou.com/tdcm/
 ||erreport.tudou.com^
+||istat.tudou.com/play.srv?
+||player.pb.ops.tudou.com/info.php?
 ||stat*.tudou.com^
 ||js.tudouui.com/js/fn/saleloader_*.js
-/pos?$object_subrequest
 tudou.com##.b.seed
 tudou.com###adex_board
 !--for embedded videos

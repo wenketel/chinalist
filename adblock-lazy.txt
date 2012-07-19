@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: N9puEUDNXUjZoYGqZj/lvw
+!  Checksum: 5E4Im7aDgmBIS21tC9+OqA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 18 Jul 2012 20:49:29 +0800
+!  Last Modified:  Fri, 20 Jul 2012 02:57:48 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1174,14 +1174,16 @@ tianya.cn###adsp_list_top_banner
 tom365.com###t365
 
 !---土豆
+/pos?$object_subrequest
 ||tdimg.com/sales/
 ||tudou.com^*/outside.php
 ||tudou.com/tdap/
 ||tudou.com/tdcm/
 ||erreport.tudou.com^
+||istat.tudou.com/play.srv?
+||player.pb.ops.tudou.com/info.php?
 ||stat*.tudou.com^
 ||js.tudouui.com/js/fn/saleloader_*.js
-/pos?$object_subrequest
 tudou.com##.b.seed
 tudou.com###adex_board
 !--for embedded videos
@@ -3216,6 +3218,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /adpeeps/*
 /adpicture1|
 /adpicture2|
+/adplacement.
 /adplayer.
 /adplayer/*
 /adplugin.
@@ -3752,6 +3755,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /bbad7.
 /bbad8.
 /bbad9.
+/bckgrnd_ad.
 /behaviorads/*
 /beta-ad.
 /betrad.js
@@ -8325,6 +8329,7 @@ _a468x60.
 ##.ad_right_col
 ##.ad_row
 ##.ad_row_bottom_item
+##.ad_segment
 ##.ad_side
 ##.ad_sidebar
 ##.ad_skyscraper
@@ -10012,6 +10017,7 @@ _a468x60.
 ##.singleAd
 ##.singleAdsContainer
 ##.single_ad
+##.single_fm_ad_bottom
 ##.singlead
 ##.singleadstopcstm2
 ##.site_ad_120_600
@@ -13895,6 +13901,7 @@ _comscore.js
 ||nextstat.com^$third-party
 ||niftymaps.com^$third-party
 ||nordicresearch.com^$third-party
+||npario-inc.net^$third-party
 ||nuconomy.com^$third-party
 ||numerino.cz^$third-party
 ||observerapp.com^$third-party
@@ -14506,6 +14513,7 @@ _comscore.js
 ||neocounter.neoworx-blog-tools.net^
 ||neoworx.net/neocounter/
 ||netscape.com/c.cgi?
+||neulion.vo.llnwd.net^*/track.js
 ||newsinc.com/analytics_ping.htm?
 ||nova.dice.net^
 ||nsdsvc.com/scripts/action-tracker.js
