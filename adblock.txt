@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: BiVlevDNAgJV57eRbIyTOQ
+!  Checksum: 8u1yKshevnd7Mo3cWtswWA
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 20 Jul 2012 02:59:58 +0800
+!  Last Modified:  Fri, 20 Jul 2012 12:37:31 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -960,7 +960,6 @@ readersdigest.cn###fixeddiv
 ||sina.com/assets/js/dart/
 dailynews.sina.com##.TopNav + table
 !--sina.com.cn
-@@||pfp.sina.com.cn/iframe/2012nonghangguanggaotest1.html
 @@||sinaimg.cn^*/deco/*/common$script
 @@||sinaimg.cn^*/deco/*/sinaObj.js
 /iframe/auto/*$domain=sina.com.cn
@@ -987,6 +986,7 @@ dailynews.sina.com##.TopNav + table
 ||d5.sina.com.cn^$object,script
 ||d5.sina.com.cn^$image,domain=~www.sina.com.cn
 ||pfp.sina.com.cn^$script
+||pfp.sina.com.cn/iframe/2012nonghangguanggaotest1.html
 ||pfp.sina.com.cn/jczs.html
 ||rm.sina.com.cn/icast/
 ||rm.sina.com.cn/uv/
@@ -1158,8 +1158,10 @@ iphone.tgbus.com###place
 ||blog.tianya.cn/tuijian/tanchu.js
 ||global.tianyaui.com/global/wizard/js/wizard.js
 ||pinpai.tianya.cn^$subdocument
+||ebook.tianya.cn/js/stat.js
 ||stat.tianya.cn^
 ||static.tianyaui.com/global/ty/stat/
+||static.tianyaui.com^*/stat_20080313.js
 ||static.tianyaui.com/js/2011/bbsclk.js
 ||static.tianyaui.com/js/2010/ContClick.js
 tianya.cn##[class^="ad_"]
@@ -1506,8 +1508,8 @@ steachs.com###banner
 ||sz1001.net/Down_Style/$script
 ||tntdown.com/News/js/C_
 ||vipcn.com/hezuo/
-||xdowns.com^$subdocument
 ||xdowns.com/c.js
+||xdowns.com/new/ggdown.html
 ||xiaoxiong12.com/do/a_d_s.php
 ||xiaoxiong12.com/do/count.php
 ||xiazaiba.com/static/ads_1.swf
