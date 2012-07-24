@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: 6g5nw52R5y47nORRGXLp5Q
+!  Checksum: zv/zYUbvNvJrwH8ztahqpA
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 23 Jul 2012 23:19:33 +0800
+!  Last Modified:  Tue, 24 Jul 2012 22:43:11 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -893,8 +893,11 @@ jjwxc.net###containermmtypea
 jjwxc.net##table[style^="width:984px;"]
 
 !---奇虎
+||tf.360.cn^
 ||hao.360.cn/css/monitorscript.js
 ||s.360.cn^
+||h.qhimg.com/js/iwt-hao360.js
+||h1.qhimg.com/js/monitor-v1.1.1.min.js
 ||clkstat.qihoo.com^
 bbs.360.cn##.aXd
 
@@ -1103,14 +1106,14 @@ www.sohu.com###contentC > .columnC
 !--tv
 /get.gif?$domain=sohu.com
 ||images.sohu.com/ytv/
-||aty.tv.sohu.com^
-||his.tv.sohu.com/his/ping.do?
 ||tv.sohu.com/upload/ad_fr/
 ||tv.sohu.com/upload/csad/
 ||tv.sohu.com/upload/trace/
+||aty.tv.sohu.com^
+||his.tv.sohu.com/his/ping.do?
 ||count.vrs.sohu.com^$object_subrequest
-||hd.sohu.com.cn/dov.do?
-||hd.sohu.com.cn/hdpb.gif?
+||data.vrs.sohu.com/player.gif?
+||hd.sohu.com.cn^$object_subrequest
 !--Sogou
 ||sogou.com/js/pb_*.js
 ||brand.sogou.com^
