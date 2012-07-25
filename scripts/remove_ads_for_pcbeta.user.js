@@ -2,7 +2,7 @@
 // @name pcbeta ads Remover
 // @namespace https://code.google.com/p/adblock-chinalist/
 // @author Gythialy
-// @version 1.0.2
+// @version 1.0.3
 // @description Remove bbs.pcbeta.com ads for ChinaList
 // @homepage https://code.google.com/p/adblock-chinalist/
 // @updateURL https://adblock-chinalist.googlecode.com/svn/trunk/scripts/remove_ads_for_pcbeta.user.js
@@ -46,4 +46,5 @@
 
 	remove(x('//div[@style="padding:0 10px 10px;background:#d0dae4;"]/div[contains(@style,"height:90px")]'));
 	remove(x('//div[contains(@style,"height:170px")]'));
+	remove(x('.//div[@id="sitefocus"][@class="focus"]'));
 })();
