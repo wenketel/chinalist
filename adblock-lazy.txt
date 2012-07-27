@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: fdZvYpumCESTFcej899T0g
+!  Checksum: fhE3SpyoA70WFuaUNJtkLA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 27 Jul 2012 17:16:05 +0800
+!  Last Modified:  Fri, 27 Jul 2012 17:56:30 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -42,7 +42,7 @@ bbs.9baka.com,bbs.9gal.com#@##top_ad
 ||163.com/special/*_*.xml
 ||adgeo.163.com^
 ||analytics.163.com^
-||g.163.com^$~object-subrequest
+||g.163.com^
 ||popme.163.com^
 ||v.163.com/special/open_adv/
 163.com##[class^="gg"]
@@ -912,7 +912,6 @@ bbs.360.cn##.aXd
 ||adslvfile.qq.com^
 ||btrace.qq.com^
 ||cq.qq.com^*/ad_
-/avd/*$domain=hb.qq.com
 ||l.qq.com/p?
 ||view.news.qq.com/PL_ad
 ||rh.qq.com^
@@ -933,6 +932,19 @@ www.qq.com##.adArea > div:not(#adAreaD):not(#adAreaS):not(#gongyi):not(#meishi)
 www.qq.com##.admiddle
 www.qq.com###charge_content
 www.qq.com###proAd
+!--hb
+||mat1.gtimg.com/hb/$object
+||hb.qq.com/article_qq/
+hb.qq.com##.ads220_60
+hb.qq.com##.ads3
+hb.qq.com##[class^="ads360_50"]
+hb.qq.com##.ads4
+hb.qq.com##.ads5
+hb.qq.com##.tongtext
+hb.qq.com###wrapper
+hb.qq.com##div[style=" width:298px; height:48px; border:1px solid #ccc;margin-bottom:10px"]
+hb.qq.com##div[style=" width:300px; height:250px; overflow:hidden"]
+hb.qq.com##div[style="margin:10px auto;width:960px;height:60px; overflow:hidden;"]
 !--unions
 ||tajs.qq.com^
 ||tcss.qq.com^
@@ -988,11 +1000,12 @@ dailynews.sina.com##.TopNav + table
 ||sina.com.cn/litong/
 ||2012.sina.com.cn/iframe/55/
 ||bj.house.sina.com.cn/iframe/
-||d1.sina.com.cn^$image,object,script,domain=~www.sina.com.cn|~weibo.com
 ||d1.sina.com.cn^$object,script
+||d1.sina.com.cn/20*/*/$image,domain=www.sina.com.cn
 ||d2.sina.com.cn^$object,script
 ||d2.sina.com.cn/20*/*/$image,domain=www.sina.com.cn
-||d3.sina.com.cn^$image,object,script
+||d3.sina.com.cn^$object,script
+||d3.sina.com.cn/20*/*/$image,domain=www.sina.com.cn
 ||d4.sina.com.cn^$object,script
 ||d5.sina.com.cn^$object,script
 ||d5.sina.com.cn^$image,domain=~www.sina.com.cn
@@ -1424,6 +1437,7 @@ soso.com###rads
 wenwen.soso.com##.ad1
 
 !---ZOL
+||icon.zol-img.com.cn/mainpage/js/click.js
 ||icon.zol-img.com.cn/public/js/web_foot.js
 ||p.zol-img.com.cn/download_ad/
 ||pic.zol-img.com.cn^$object
