@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: iqhPr1mFUtg3JJEe5ZCfmA
+!  Checksum: fdZvYpumCESTFcej899T0g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 25 Jul 2012 22:26:24 +0800
+!  Last Modified:  Fri, 27 Jul 2012 17:16:05 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -42,7 +42,7 @@ bbs.9baka.com,bbs.9gal.com#@##top_ad
 ||163.com/special/*_*.xml
 ||adgeo.163.com^
 ||analytics.163.com^
-||g.163.com^
+||g.163.com^$~object-subrequest
 ||popme.163.com^
 ||v.163.com/special/open_adv/
 163.com##[class^="gg"]
@@ -2865,6 +2865,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /ad-box-
 /ad-cdn.
 /ad-frame.
+/ad-frame/*
 /ad-gallery.
 /ad-header.
 /ad-hug.
@@ -3972,6 +3973,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /footer-ad-
 /footer_ad_
 /footerads.
+/footerads/*
 /framead-
 /framead.
 /framead/*
@@ -11906,6 +11908,7 @@ _a468x60.
 ||adultlinkexchange.com^$third-party
 ||adultpopunders.com^$third-party
 ||advmania.com^$third-party
+||adxmarket.com^$third-party
 ||adxpansion.com^$third-party
 ||adxregie.com^$third-party
 ||aeesy.com^$third-party
@@ -11921,7 +11924,6 @@ _a468x60.
 ||bestssn.com^$third-party
 ||board-books.com^$third-party
 ||cache.imagehost123.com^$third-party
-||cam-content.com^$third-party
 ||camads.net^$third-party
 ||campartner.com^$third-party
 ||campromos.nl^$third-party
@@ -11957,12 +11959,14 @@ _a468x60.
 ||juicyads.com^$third-party
 ||juicycash.net^$third-party
 ||k9x.net^$third-party
+||loa-traffic.com^$third-party
 ||lovercash.com^$third-party
 ||magical-sky.com^$third-party
 ||mediagra.com^$third-party
 ||meineserver.com^$third-party
 ||methodcash.com^$third-party
 ||mmaaxx.com^$third-party
+||morehitserver.com^$third-party
 ||mtoor.com^$third-party
 ||mtree.com^$third-party
 ||mywebclick.net^$third-party
@@ -12964,6 +12968,8 @@ _a468x60.
 ||gfrevenge.com^$subdocument,third-party
 ||girls-home-alone.com/dating/
 ||golderotica.com/chat/$third-party
+||hdpornphotos.com/images/728x180_
+||hdpornphotos.com/images/banner_
 ||hentaikey.com/images/banners/
 ||hornybirds.com^$subdocument,third-party
 ||hotcaracum.com/banner/
@@ -13088,6 +13094,8 @@ _a468x60.
 ||wantlive.com/landing/$image,~image,popup
 ||webcams.com/misc/iframes_new/
 ||webcams.com^$image,~image,popup
+||wetandpuffy.com/galleries/banners/
+||widgetssec.cam-content.com^
 ||xlovecam.com/acwm/
 ||xnxx.com^$third-party
 ||xxxoh.com/number/$third-party
