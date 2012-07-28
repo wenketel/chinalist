@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: aWyVg4OOZFmz1D9NIua8/g
+!  Checksum: Hwyq7o2+7dcZsRZV/eSytg
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 27 Jul 2012 18:53:02 +0800
+!  Last Modified:  Sat, 28 Jul 2012 20:36:12 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -1000,7 +1000,7 @@ dailynews.sina.com##.TopNav + table
 ||2012.sina.com.cn/iframe/55/
 ||bj.house.sina.com.cn/iframe/
 ||d1.sina.com.cn^$object,script
-||d1.sina.com.cn/20*/*/$image,domain=www.sina.com.cn
+||d1.sina.com.cn/20*/*/$image,domain=sina.com.cn
 ||d2.sina.com.cn^$object,script
 ||d2.sina.com.cn/20*/*/$image,domain=www.sina.com.cn
 ||d3.sina.com.cn^$object,script
@@ -1042,7 +1042,7 @@ www.sina.com.cn##[class="yleft2blk"]
 auto.sina.com.cn##.txtAdArea01
 !-blog feed
 ||simg.sinajs.cn/blog7style/images/special/
-~www.sina.com.cn##a[href^="http://sina.allyes.com/main/adfclick?"]
+~sina.com.cn##a[href^="http://sina.allyes.com/main/adfclick?"]
 !-finance
 @@||counter.sina.com.cn/time?fm=JS$domain=finance.sina.com.cn
 @@||sinaimg.cn/cj/deco/*/all.js$domain=finance.sina.com.cn
@@ -1335,6 +1335,7 @@ xj163.cn##[class^="ad"]
 ||float.sandai.net^
 ||kkpgv2.xunlei.com^
 ||images.client.xunlei.com/gougou_recommend/
+||img.kuai.xunlei.com/img/v2/fen/
 ||stat.xunlei.com^
 ||misc.web.xunlei.com/kkpv/
 ||misc.web.xunlei.com^*/kankan_click$script

@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: iN8qlw9SN0R6s/RqAKN8FA
+!  Checksum: SbGHcuz1/qIi0tMIxUrc5Q
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 27 Jul 2012 18:53:02 +0800
+!  Last Modified:  Sat, 28 Jul 2012 20:36:12 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1001,7 +1001,7 @@ dailynews.sina.com##.TopNav + table
 ||2012.sina.com.cn/iframe/55/
 ||bj.house.sina.com.cn/iframe/
 ||d1.sina.com.cn^$object,script
-||d1.sina.com.cn/20*/*/$image,domain=www.sina.com.cn
+||d1.sina.com.cn/20*/*/$image,domain=sina.com.cn
 ||d2.sina.com.cn^$object,script
 ||d2.sina.com.cn/20*/*/$image,domain=www.sina.com.cn
 ||d3.sina.com.cn^$object,script
@@ -1043,7 +1043,7 @@ www.sina.com.cn##[class="yleft2blk"]
 auto.sina.com.cn##.txtAdArea01
 !-blog feed
 ||simg.sinajs.cn/blog7style/images/special/
-~www.sina.com.cn##a[href^="http://sina.allyes.com/main/adfclick?"]
+~sina.com.cn##a[href^="http://sina.allyes.com/main/adfclick?"]
 !-finance
 @@||counter.sina.com.cn/time?fm=JS$domain=finance.sina.com.cn
 @@||sinaimg.cn/cj/deco/*/all.js$domain=finance.sina.com.cn
@@ -1336,6 +1336,7 @@ xj163.cn##[class^="ad"]
 ||float.sandai.net^
 ||kkpgv2.xunlei.com^
 ||images.client.xunlei.com/gougou_recommend/
+||img.kuai.xunlei.com/img/v2/fen/
 ||stat.xunlei.com^
 ||misc.web.xunlei.com/kkpv/
 ||misc.web.xunlei.com^*/kankan_click$script
@@ -4083,6 +4084,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /headerads.
 /headvert.
 /hitbar_ad_
+/home30/ad.
 /homepage_ads/*
 /hostedads.
 /hostedbannerads.
@@ -4174,6 +4176,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /jlist-affiliates/*
 /jqueryadvertising.
 /js.ad/size=
+/js/ad.js
 /js/ads-
 /js/ads.
 /js/ads_
@@ -5180,6 +5183,7 @@ _a468x60.
 ###Ad3Left
 ###Ad3Right
 ###Ad3TextAd
+###Ad728x90
 ###AdArea
 ###AdBanner_F1
 ###AdBar
@@ -6100,6 +6104,7 @@ _a468x60.
 ###adsense_article_left
 ~remixshare.com###adsense_block
 ###adsense_box
+###adsense_box2
 ###adsense_box_video
 ~jeeppatriot.com###adsense_inline
 ###adsense_leaderboard
@@ -11286,6 +11291,7 @@ _a468x60.
 ||jsfeedadsget.com^$third-party
 ||juiceadv.com^$third-party
 ||jumboaffiliates.com^$third-party
+||jumpelead.com^$third-party
 ||justrelevant.com^$third-party
 ||kanoodle.com^$third-party
 ||kantarmedia.com^$third-party
@@ -14437,6 +14443,7 @@ _comscore.js
 ||ecustomeropinions.com/survey/nojs.php?
 ||ecustomeropinions.com^*/i.php?
 ||edgesuite.net^*/googleanalyt
+||elb.amazonaws.com/g.aspx?surl=
 ||elb.amazonaws.com/small.gif?
 ||elogicwebsolutions.com/cgi-bin/statcount.pl?
 ||emihosting.com^*/tracking/
@@ -14667,6 +14674,7 @@ _comscore.js
 ||streamads.com/view?
 ||survey.io/log?
 ||synergizeonline.net/trackpoint/
+||systemmonitoring.badgeville.com^
 ||t.flux.com^
 ||t.pswec.com^
 ||taboolasyndication.com/log/
