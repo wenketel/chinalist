@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: UsOMf/TiIXspNi/kHuDddg
+!  Checksum: mSIvkjqaGkWUL3ROEGdZrg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 28 Jul 2012 20:41:23 +0800
+!  Last Modified:  Sun, 29 Jul 2012 14:03:51 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -147,6 +147,18 @@ v.6.cn###playerAd
 ||6park.com/parks/$script
 ||6park.com/wap/
 6park.com##table[width="978"][bgcolor="#ffffff"]:nth-child(5)
+
+!---8684
+@@||js.973.com/ad/sys_ad_complete.js$domain=8684.cn
+||8684.cn/js/*_hid.js
+||js.973.com/gjs/139.js
+||js.973.com/gjs/178.js
+||js.973.com/gjs/230.js
+||js.973.com/gjs/257.js
+||js.973.com/gjs/268.js
+||js.973.com/gjs/294.js
+||js.973.com/gjs/334.js
+||js.973.com/gjs/383.js
 
 !---99漫画
 /jsc/book_$domain=99comic.com|99manga.com
@@ -1339,6 +1351,7 @@ xj163.cn##[class^="ad"]
 ||kkpgv2.xunlei.com^
 ||images.client.xunlei.com/gougou_recommend/
 ||img.kuai.xunlei.com/img/v2/fen/
+||img.kuai.xunlei.com/js/statistics.js
 ||stat.xunlei.com^
 ||misc.web.xunlei.com/kkpv/
 ||misc.web.xunlei.com^*/kankan_click$script
@@ -4740,7 +4753,6 @@ google.com,google.com.hk###topstuff > #wmxmsg
 ://banner.$third-party
 ://banners.$third-party
 ://bwp.*/search
-://eas.*/eas^
 ://feeds.*/~a/
 ://findnsave.*.*/api/groupon.json?
 ://findnsave.*.*/td/portablerop.aspx?
@@ -7172,6 +7184,7 @@ _a468x60.
 ###outbrain-paid
 ###ovadsense
 ###p-googleadsense
+###page-advert-3rdrail
 ###page-header-ad
 ###page-top-ad
 ###pageAds
@@ -13384,6 +13397,7 @@ _a468x60.
 /server.php?request=track&output=
 /shinystat.cgi?
 /shopify_stats.js
+/simple-google-analytics/*
 /sitestat.js
 /sitestats.gif?
 /sitetrek.js
