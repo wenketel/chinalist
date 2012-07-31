@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: yhVqDGWyfWUBHsIuz2FEOw
+!  Checksum: szSB9G+Tno4EiOaJE2/GpQ
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 30 Jul 2012 16:56:41 +0800
+!  Last Modified:  Tue, 31 Jul 2012 20:34:25 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -35,6 +35,7 @@ bbs.9baka.com,bbs.9gal.com#@##top_ad
 115.com##.resource-list > ul
 
 !---网易
+@@||analytics.163.com/ntes.js$domain=cbg.163.com
 ||img1.126.net^
 ||img2.126.net^
 ||stat.ws.126.net^
@@ -1063,7 +1064,7 @@ auto.sina.com.cn##.txtAdArea01
 ~sina.com.cn##a[href^="http://sina.allyes.com/main/adfclick?"]
 !-finance
 @@||counter.sina.com.cn/time?fm=JS$domain=finance.sina.com.cn
-@@||sinaimg.cn/cj/deco/*/all.js$domain=finance.sina.com.cn
+@@||sinaimg.cn/cj/deco/$script,domain=finance.sina.com.cn
 @@||sinaimg.cn/dy/deco/*/headcj.js$domain=finance.sina.com.cn
 finance.sina.com.cn###adSinaHouseHeadLink
 !-house
@@ -1196,6 +1197,7 @@ iphone.tgbus.com##[class^="guan_"]
 iphone.tgbus.com###place
 
 !---TianYa
+||wres.mangocity.com/js/w/hezuo/
 ||8*.tianya.cn^
 ||blog.tianya.cn/tuijian/tanchu.js
 ||global.tianyaui.com/global/wizard/js/wizard.js
@@ -1379,9 +1381,9 @@ kuai.xunlei.com##.l_img
 !---Yahoo
 !--CN
 ||buy.cn.yahoo.com/bd/$third-party
+||bj.data.cn.yahoo.com^
 ||ks.cn.yahoo.com/ks_q1_tg.html
-||cn.yimg.com/i/ks/img/23450524.jpg
-cn.yahoo.com##[class^="ad"]
+cn.yahoo.com##.p_sider
 cn.yahoo.com###r_expandable
 !--TW
 @@/ads/*$image,domain=buy.yahoo.com.tw
@@ -2183,6 +2185,7 @@ zxtjd.com###it_an
 ||3393.com^$third-party
 ||33hy.com^$third-party
 ||333wan.com^$third-party
+||lm.35.com^$third-party
 ||360kaixin.com^$third-party
 ||365tc.com^$third-party
 ||u1346.37117.com^$third-party
@@ -2259,12 +2262,14 @@ zxtjd.com###it_an
 ||9wad.com^$third-party
 ||9wee.com^$third-party
 ||a3p4.com^$third-party
+||a7shun.com^$third-party
 ||aaalian.com^$third-party
 ||acs86.com^$third-party
 ||ad-plus.cn^$third-party
 ||link.ad966.com^$third-party
 ||adcenter.conn.tw^$third-party
 ||adhai.com^$third-party
+||adjwl.com^$third-party
 ||adkongjian.com^$third-party
 ||admaster.com.cn^$third-party
 ||admin6.com^$third-party
@@ -2285,6 +2290,7 @@ zxtjd.com###it_an
 ||adyeye.com^$third-party
 ||adyun.com^$third-party
 ||adzhu.com^$third-party
+||aidaicn.com^$third-party
 ||a1click.aiqun.com^$third-party
 ||aiweb.tw^$third-party
 ||aldm88.com^$third-party
@@ -2587,6 +2593,7 @@ zxtjd.com###it_an
 /adv/*$domain=~ftchinese.com
 /advpic/*
 /affiliate/*
+/affiliates/*
 /attachments/ad/*
 .com/js/ad.
 .com/js/ad_
@@ -2639,7 +2646,7 @@ zxtjd.com###it_an
 |http://pv.
 |http://pvstat.
 |http://*/pv.
-|http://*/pv/$domain=~guokr.com|~yahoo.com
+|http://*/pv/$domain=~163.com|~guokr.com|~yahoo.com
 |http://*/tj.js
 |http://*/track.
 |http://track.
@@ -2724,7 +2731,7 @@ xfastest.com##[id^="ad"]
 xfastest.com##[class^="ad"]
 
 !-----------------------Temporary---------------------------
-!---2012.7
+!---2012.8
 ||image.10010.com/index_js/flash-ad$script
 google.com,google.com.hk###topstuff > #wmxmsg
 ||nanrenwa.com/_img/a/$third-party
