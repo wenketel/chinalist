@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: bA5LekmVBcslM8/nbt7FMQ
+!  Checksum: AfpGYmyooeLIPUbARkXAfw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 31 Jul 2012 20:34:25 +0800
+!  Last Modified:  Wed, 01 Aug 2012 23:03:34 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -115,10 +115,8 @@ www.3dmgame.com##.banner_1
 www.3dmgame.com##[id^="clickbg"]
 
 !---51nb.com
-@@||51nb.com/forum/images/*/
-||51nb.com/forum/images/
-||51nb.com/images/A-2-31.gif
-||51nb.com/mall/images/shop1.gif
+@@||forum.51nb.com/images/*/
+||forum.51nb.com/images/
 51nb.com##.t_rown[width="875"]
 51nb.com##.t_rown[width="98%"]
 
@@ -3246,6 +3244,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /admedia/*
 /admega.
 /admeld.
+/admeld_
 /admentor/*
 /admentorserve.
 /admeta.
@@ -4441,6 +4440,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /public/ad?
 /publicidad.$~object-subrequest,~stylesheet
 /publicidad/*
+/pubmatic_
 /pullads.
 /punder.js
 /punder.php
@@ -4654,6 +4654,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /tii_ads.
 /tikilink?
 /title_ad.
+/tmnadsense-
 /tmobilead.
 /toigoogleads.
 /toolkitads.
@@ -11025,6 +11026,7 @@ _a468x60.
 ||connextra.com^$third-party
 ||contaxe.com^$third-party
 ||content-cooperation.com^$third-party
+||content.ad^$third-party
 ||contentdigital.info^$third-party
 ||contenture.com^$third-party
 ||contexlink.se^$third-party
@@ -11419,7 +11421,8 @@ _a468x60.
 ||meetic-partners.com^$third-party
 ||megacpm.com^$third-party
 ||mercuras.com^$third-party
-||metaffiliation.com^$third-party
+||metaffiliation.com^$~image,third-party
+||metaffiliation.com^*^maff=$third-party
 ||metrics.io^$third-party
 ||meviodisplayads.com^$third-party
 ||mezimedia.com^$third-party
@@ -12640,7 +12643,6 @@ _a468x60.
 ||partner.bargaindomains.com^
 ||partner.catchy.com^
 ||partner.e-conomic.com^$third-party
-||partner.popmog.com^$third-party
 ||partner.premiumdomains.com^
 ||partners.agoda.com^
 ||partners.dogtime.com/network/
@@ -14584,6 +14586,8 @@ _comscore.js
 ||mediapartner.bigpoint.net^$third-party
 ||meebo.com/cim/sandbox.php?
 ||merchenta.com/track/
+||metaffiliation.com^*^mclic=
+||metaffiliation.com^*^taff=s
 ||metrics.ctvdigital.net^
 ||metrics.feedroom.com^
 ||metrics.loomia.com^
