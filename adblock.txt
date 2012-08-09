@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: 0lYo1bcpBjiQ+2RGMZCTuw
+!  Checksum: EqQqS1ACeNq7ONw0IX8fhg
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 05 Aug 2012 23:52:39 +0800
+!  Last Modified:  Thu, 09 Aug 2012 16:46:23 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -1696,6 +1696,10 @@ yesky.com##[class^="ad"]
 /configs/article/*$script,subdocument
 /configs/article/gggg/*
 /contentjs/*$script
+||16k.net.cn/js/readadtop$script
+||16k.net.cn/js/yuedu2.js
+16k.net.cn###sidelist
+16k.net.cn##tr[height="80"]
 ||17dm.com/s/common/js/*AD.js
 ||img.17k.com/channel/qita/
 ||log.17k.com^
@@ -1757,7 +1761,9 @@ dukankan.com##tr[height="300"]
 ||img.duyidu.com/includehtml/newjs/tanc.js
 ||img.duyidu.com/includehtml/newjs/m3.js
 ||duzheju.com/files/friend/
+||flux.faloo.com/pvdata.aspx
 ||s.faloo.com/novel/ad.js
+faloo.com##[class^="ad_"]
 ||js.fengwu.net/baidu/
 ||fygxs.com/Skin/duodu/$script
 ||geiliwx.com/read/ad$script

@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: IJ62J5ENhzMPfj46oHnmrw
+!  Checksum: yF8PnoVz17cyzI9UfgKNTA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 05 Aug 2012 23:52:39 +0800
+!  Last Modified:  Thu, 09 Aug 2012 16:46:23 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1696,6 +1696,10 @@ yesky.com##[class^="ad"]
 /configs/article/*$script,subdocument
 /configs/article/gggg/*
 /contentjs/*$script
+||16k.net.cn/js/readadtop$script
+||16k.net.cn/js/yuedu2.js
+16k.net.cn###sidelist
+16k.net.cn##tr[height="80"]
 ||17dm.com/s/common/js/*AD.js
 ||img.17k.com/channel/qita/
 ||log.17k.com^
@@ -1757,7 +1761,9 @@ dukankan.com##tr[height="300"]
 ||img.duyidu.com/includehtml/newjs/tanc.js
 ||img.duyidu.com/includehtml/newjs/m3.js
 ||duzheju.com/files/friend/
+||flux.faloo.com/pvdata.aspx
 ||s.faloo.com/novel/ad.js
+faloo.com##[class^="ad_"]
 ||js.fengwu.net/baidu/
 ||fygxs.com/Skin/duodu/$script
 ||geiliwx.com/read/ad$script
@@ -2868,7 +2874,6 @@ google.com,google.com.hk###topstuff > #wmxmsg
 .org/gads/
 .php?ad=
 .php?bannerid=
-.php?zoneid=
 .popupvideoad.
 .rolloverad.
 .swf?1&clicktag=
@@ -4180,6 +4185,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /incmpuad.
 /index-ad.
 /index_ads.
+/initdefineads.
 /injectad.
 /inline_ad.
 /inline_ad_
@@ -4206,7 +4212,6 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /jlist-affiliates/*
 /jqueryadvertising.
 /js.ad/size=
-/js/ad.js
 /js/ads-
 /js/ads.
 /js/ads_
@@ -4247,6 +4252,8 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /loadad.aspx?
 /loadads.
 /loadadsmain.
+/loadadsmainparam.
+/loadadsparam.
 /loadadwiz.
 /local_ads_
 /locker.php?pub=*&gateid=$script
@@ -4719,6 +4726,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /viewid=*/site=*/size=
 /vnads.
 /vpaidadrenderer.
+/vplayerad.
 /vtextads.
 /wallpaper_ads/*
 /wallpaperads/*
@@ -5958,7 +5966,7 @@ _a468x60.
 ###adcode3
 ###adcode4
 ###adcolumnwrapper
-~gifmagic.com,~lalovings.com###adcontainer
+~gifmagic.com,~iqads.ro,~lalovings.com###adcontainer
 ###adcontainer1
 ###adcontainerRight
 ###adcontainsm
@@ -6251,7 +6259,7 @@ _a468x60.
 ###adver5
 ###adver6
 ###adver7
-###advert-1
+~ph4.ru###advert-1
 ###advert-120
 ###advert-boomer
 ###advert-display
@@ -6353,6 +6361,7 @@ _a468x60.
 ###adxMiddle5
 ###adxSponLink
 ###adxSponLinkA
+###adx_ad
 ###adx_ad_bottom
 ###adxtop
 ###adxtop2
@@ -7796,8 +7805,9 @@ _a468x60.
 ##.AdsLinks1
 ##.AdsLinks2
 ##.AdsRec
+##.AdsenseBoxCenter
 ##.AdvBoxSidebar
-~basingstokehomebid.org.uk,~homefindersomerset.co.uk,~swanseacity.net,~wrexhamafc.co.uk##.Advert
+~basingstokehomebid.org.uk,~homefindersomerset.co.uk,~ph4.ru,~swanseacity.net,~wrexhamafc.co.uk##.Advert
 ##.Advert300x250
 ##.AdvertMidPage
 ##.AdvertiseWithUs
@@ -7990,7 +8000,7 @@ _a468x60.
 ##.ad-header
 ##.ad-heading
 ##.ad-here
-~dublinairport.com##.ad-holder
+~dublinairport.com,~yahoo.com##.ad-holder
 ##.ad-homeleaderboard
 ##.ad-img
 ##.ad-in-post
@@ -9024,6 +9034,7 @@ _a468x60.
 ##.banner_728_90
 ~milenio.com##.banner_728x90
 ##.banner_ad
+##.banner_ad_728x90
 ##.banner_ad_footer
 ##.banner_ad_leaderboard
 ##.bannerad
@@ -10550,7 +10561,7 @@ _a468x60.
 ||209.222.8.217^$third-party,domain=~p2p.adserver.ip
 ||247realmedia.com^$third-party
 ||2mdn.net/dot.gif$object-subrequest,third-party
-||2mdn.net^$object-subrequest,third-party,domain=101cargames.com|3news.co.nz|bbc.co.uk|bbc.com|bet.com|bloomberg.com|businessday.co.za|businessweek.com|calgaryherald.com|couriermail.com.au|drive.com.au|edmontonjournal.com|eonline.com|euronews.com|foodnetwork.ca|globaltoronto.com|globaltvbc.com|heraldsun.com.au|independent.ie|kfiam640.com|leaderpost.com|livestream.com|metacafe.com|montrealgazette.com|nationalpost.com|nba.tv|ndtv.com|newyorkjets.com|ottawacitizen.com|patriots.com|reuters.com|rollingstone.com|rte.ie|sherdog.com|skynews.com.au|smh.com.au|telegraph.co.uk|theage.com.au|theaustralian.com.au|thecomedynetwork.ca|theprovince.com|thestarphoenix.com|timescolonist.com|vancouversun.com|vice.com|windsorstar.com|youtube.com
+||2mdn.net^$object-subrequest,third-party,domain=101cargames.com|3news.co.nz|bbc.co.uk|bbc.com|bet.com|bloomberg.com|box10.com|businessday.co.za|businessweek.com|calgaryherald.com|couriermail.com.au|drive.com.au|edmontonjournal.com|eonline.com|euronews.com|foodnetwork.ca|globaltoronto.com|globaltvbc.com|heraldsun.com.au|independent.ie|kfiam640.com|leaderpost.com|livestream.com|metacafe.com|montrealgazette.com|nationalpost.com|nba.tv|ndtv.com|newyorkjets.com|ottawacitizen.com|patriots.com|reuters.com|rollingstone.com|rte.ie|sherdog.com|skynews.com.au|smh.com.au|telegraph.co.uk|theage.com.au|theaustralian.com.au|thecomedynetwork.ca|theprovince.com|thestarphoenix.com|timescolonist.com|vancouversun.com|vice.com|windsorstar.com|youtube.com
 ||2mdn.net^$~object-subrequest,third-party
 ||360ads.com^$third-party
 ||360yield.com^$third-party
@@ -11469,7 +11480,7 @@ _a468x60.
 ||neoffic.com^$third-party
 ||net-ad-vantage.com^$third-party
 ||net3media.com^$third-party
-||netaffiliation.com^$third-party
+||netaffiliation.com^$~script,third-party
 ||netavenir.com^$third-party
 ||netseer.com^$third-party
 ||netshelter.net^$third-party
@@ -11886,6 +11897,7 @@ _a468x60.
 ||widgetwidget.mobi^$third-party
 ||wigetmedia.com^$image,~image,popup
 ||wigetmedia.com^$third-party
+||wigetstudios.com^$third-party
 ||wlmarketing.com^$third-party
 ||wmmediacorp.com^$third-party
 ||wootmedia.net^$third-party
@@ -12035,6 +12047,7 @@ _a468x60.
 ||nature-friend.com^$third-party
 ||naughtyplayful.com^$image,~image,popup
 ||newagerevenue.com^$third-party
+||niceratios.com^$third-party
 ||otherprofit.com^$third-party
 ||partnercash.com^$third-party
 ||pecash.com^$third-party
@@ -12114,7 +12127,9 @@ _a468x60.
 ||a.ucoz.net^
 ||a.watershed-publishing.com^
 ||ablacrack.com/popup-pvd.js$third-party
+||abletomeet.com^*&ad=
 ||ad.flux.com^
+||ad.netcommunities.com^$third-party
 ||ad.pickple.net^
 ||ad.sensismediasmart.com.au^
 ||ad.turn.com^
@@ -12173,6 +12188,7 @@ _a468x60.
 ||agenda.complex.com^
 ||ais.abacast.com^
 ||ak.imgaft.com^$third-party
+||akamaihd.net/ssa/*?zoneid=$subdocument
 ||all4naija.com/banners/
 ||allposters.com^*/banners/
 ||allsend.com/public/assets/images/
@@ -12234,6 +12250,7 @@ _a468x60.
 ||bidorbuy.co.za/jsp/system/referral.jsp?
 ||bigmoneyptc.com/banners/
 ||bijk.com^*/banners/
+||binaryoptions24h.com^$image,~image,popup,third-party
 ||bitshare.com^*/banner/
 ||bittorrent.am/serws.php?$third-party
 ||bl.wavecdn.de^
@@ -12502,6 +12519,7 @@ _a468x60.
 ||inskin.vo.llnwd.net^
 ||instantpaysites.com/banner/
 ||invideous.com/apps/hs_ads/
+||inviziads.com/lookup.html?
 ||iol.co.za^*/sponsors/
 ||iselectmedia.com^*/banners/
 ||jeysearch.com^$subdocument,third-party
@@ -13045,6 +13063,7 @@ _a468x60.
 ||ilovecheating.com^$script,third-party
 ||imageshack.us^$domain=fapscreens.com
 ||imglb.yobihost.com^
+||imlive.com/wmaster.ashx?$image,~image,popup,third-party
 ||interracialbangblog.info/banner.jpg
 ||interracialbangblog.info^*-ban.png
 ||join.whitegfs.com^$image,~image,popup
@@ -13118,6 +13137,7 @@ _a468x60.
 ||secretbehindporn.com^$subdocument,third-party
 ||seeme.com^*?aid=*&art=$image,~image,popup
 ||sex.com/?utm_source=$image,~image,popup
+||sexier.com/services/adsredirect.ashx?$image,~image,popup,third-party
 ||sexier.com^*_popunder&$image,~image,popup
 ||sextronix.com/b/
 ||sextronix.com/images/$third-party
@@ -13293,17 +13313,48 @@ _a468x60.
 /fpc.pl?a=
 /fpcount.exe
 /fsrscripts/*
+/ga-custom-tracking.
+/ga-event-tracking.
+/ga-links.js
+/ga-multidomain.
+/ga-socialtracker.
+/ga-track.
+/ga-tracker.
+/ga-tracking/*
 /ga.aspx?utmac=$image
 /ga.php?name=$image
 /ga.php?utmac=$image
+/ga/trackevent.
+/ga_dualcode_tracking.
+/ga_event_tracking.
+/ga_header.
+/ga_keyword2.
+/ga_link_tracker_
+/ga_loader.
 /ga_social_tracking.js
+/ga_social_tracking_
 /ga_track.php?adurl=
+/ga_tracker.
+/ga_tracklinks.
+/gaaddons-
 /gaaddons.js
+/gaclicktracking.
+/gadsfuncs.
+/gallerystats.
+/ganalytics.
+/gapagetracker.
 /gapro-1.swf
 /gapro-1h.swf
 /gapro.swf
+/gascript.
+/gasocialtracking.
 /gatag.js
 /gatc.js
+/gatrack.
+/gatracking.
+/gatrackingcampaigns/*
+/gatrackthis.
+/gatrackwww.
 /gcount.pl?
 /gemius.js
 /gemius/*
@@ -13688,6 +13739,7 @@ _comscore.js
 ||collarity.com^$third-party
 ||compteur.cc^$third-party
 ||confirmational.com^$third-party
+||connexity.net^$third-party
 ||convergetrack.com^$third-party
 ||conversionruler.com^$third-party
 ||convertro.com^$third-party
@@ -13992,6 +14044,7 @@ _comscore.js
 ||nedstat.net^$third-party
 ||nedstatbasic.net^$third-party
 ||net-filter.com^$third-party
+||netaffiliation.com^$script,third-party
 ||netflame.cc^$third-party
 ||netgraviton.net^$third-party
 ||netmining.com^$third-party
@@ -14805,6 +14858,7 @@ _comscore.js
 ||viximo.com/1px.gif?
 ||vizvid.com/track.gif?
 ||webeffective.keynote.com^
+||weblogger-dynamic-lb.playdom.com^
 ||webresint.com/writrak.php?
 ||webservices.websitepros.com^
 ||webstats.motigo.com^$third-party
