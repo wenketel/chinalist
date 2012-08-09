@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: EqQqS1ACeNq7ONw0IX8fhg
+!  Checksum: f7JEz36U+IdD0PrO6sho6g
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 09 Aug 2012 16:46:23 +0800
+!  Last Modified:  Thu, 09 Aug 2012 18:19:05 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -159,11 +159,10 @@ v.6.cn###playerAd
 ||js.973.com/gjs/383.js
 
 !---99漫画
+/aitw/*$domain=99comic.com|99manga.com
 /jsc/book_$domain=99comic.com|99manga.com
 /jsc/stat.js$domain=99comic.com|99manga.com
 ||99comic.com/script/pub-js.js
-||99comic.com/x/p
-||99comic.com/x/t.js
 ||99manga.com/w/p
 ||99manga.com/w/t.js
 99comic.com,99manga.com##.sic
@@ -250,9 +249,10 @@ mp3.baidu.com###adv_daoliu
 mp3.baidu.com##.area-top-ads
 mp3.baidu.com##.ecom-ad
 !--tieba
-tieba.baidu.com##[id^="guanggao"]
-tieba.baidu.com##.l_banner
 tieba.baidu.com###frs_banner_ad
+tieba.baidu.com##[id^="guanggao"]
+tieba.baidu.com###h123_mod
+tieba.baidu.com##.l_banner
 !--zhidao
 ||baidu.com^*/egg*.swf
 iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com###advertise
@@ -1569,8 +1569,10 @@ xiazaiba.com##.adArea2
 ||free.xue5.com/qq/qq.js
 
 !---Game Sites
+@@||131js.131.com/home/resouces/js/index_20120420.js
 ||131.com/home/resouces/js/
 ||131.com/js/131InsideAD$script
+comic.131.com##.mh_frbk > dl
 ||313g.com/xyx/
 ||get.766.com^$script
 ||bbs.a9vg.com/showit/img_show.php
@@ -2105,8 +2107,7 @@ xici.net##.doc_tl.p9
 ||yihaodian.com/statics/global/js/tracker/
 ||ytbbs.com/images/index/
 ||yxlady.com/cdd/
-@@||ad.zasv.com^*/*/$image,object
-www.zasv.com##.bm.a_c
+||zasv.net/data/attachment/forum/
 ||zbinfo.net^*/ggw/
 ||cdnlog.zhenai.com^
 @@||drmcmm.baidu.com/media/$domain=zhibo8.cc
@@ -2215,6 +2216,7 @@ zxtjd.com###it_an
 ||55620.com^$third-party
 ||5566ad.com^$third-party
 ||565882.com^$third-party
+||58ad.org^$third-party
 ||58ar.com^$third-party
 ||www.59.cn^$third-party
 ||un.5d6d.com^
