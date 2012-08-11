@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: EhOgmUz455RrAoND6r+1Ow
+!  Checksum: H5frjztyl+j+iHsk7h7CEA
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 11 Aug 2012 13:29:52 +0800
+!  Last Modified:  Sat, 11 Aug 2012 14:01:14 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -79,7 +79,7 @@ www.youdao.com###ext
 
 !---世纪文学
 ||2100book.com/scripts/open/$script
-||2100book.com/you/*$script
+||2100book.com/you/$script
 ||2100book.com/themes/v2/images/frxz_tonglan.gif
 ||2100book.com/themes/v2/images/top_*.jpg
 
@@ -1108,10 +1108,6 @@ weibo.com##.tips_player
 !--sina.com.tw
 ||sina.com.tw^$subdocument
 
-!---东方宽频
-@@||acs86.com/crossdomain.xml
-@@||static.acs86.com/player/
-
 !---水母网
 ||a.shm.com.cn/up/content.js
 ||biz.shm.com.cn^$object
@@ -1366,7 +1362,7 @@ xj163.cn##[class^="ad"]
 ||stat.xunlei.com^
 ||misc.web.xunlei.com/kkpv/
 ||misc.web.xunlei.com^*/kankan_click$script
-||misc.web.xunlei.com/www_5_8/img/*/*_*$image
+||misc.web.xunlei.com/www_5_8/img/*/*_$image
 ||dynamic.vod.lixian.xunlei.com^$image
 ||i.vod.xunlei.com/stat/
 xunlei.com##[id^="cm"].banner
@@ -1657,6 +1653,10 @@ jjxw.cn##[class$="_ad"]
 jjxw.cn##[class^="head_ad"]
 ||junshier.com/adspic/
 ||junshijia.com/new/$script
+||kankanews.com/kankancms/js/gs.js
+||vd.kankanews.com^
+www.kankanews.com###J-zsb
+www.kankanews.com##.bann_ind
 ||libertytimes.com.tw/IService2/AdLinkList.php
 ||libertytimes.com.tw/js/ajs/
 ||libertytimes.com.tw/Js/adopen.js
@@ -1665,7 +1665,6 @@ newtalk.tw###ad_top_banner
 newtalk.tw##.ind_news_station
 ||ashow.pcpop.com^
 www.pcpop.com##.Content > .l1:first-child
-||pmm.people.com.cn^
 /c.gif?$domain=people.com.cn
 people.com.cn##.top_ad_list
 people.com.cn##.topad
@@ -2640,6 +2639,7 @@ zxtjd.com###it_an
 |https://*/ad/
 /images/prom/*
 .info/ad/
+/main/s?$script,subdocument
 /paypic/*
 /piaofu.js
 /picad/*
