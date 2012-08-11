@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: gVKYvhxFIKVvG49D0C+vkw
+!  Checksum: 7qj9oSlr0E894E36QLQH6g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 10 Aug 2012 17:35:38 +0800
+!  Last Modified:  Sat, 11 Aug 2012 13:29:52 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -292,9 +292,9 @@ iqiyi.com##.first_adv
 iqiyi.com##.seed
 
 !---bilibili.tv
-/ad-images/*$object_subrequest,domain=bilibili.tv
-||bilibili.tv/html/$subdocument
-||bilibili.tv/html/ads-
+/ad-images/*$object_subrequest,domain=bilibili.tv|bilibili.kankanews.com
+/html/*$subdocument,domain=bilibili.tv|bilibili.kankanews.com
+/html/ads-$domain=bilibili.tv|bilibili.kankanews.com
 
 !---爆米花网
 @@||cb.baidu.com/crossdomain.xml
@@ -7969,7 +7969,7 @@ _a468x60.
 ##.ad-banner-label
 ##.ad-banner-smaller
 ##.ad-bigsize
-~bash.fm##.ad-block
+~bash.fm,~ratus13.com##.ad-block
 ##.ad-block-square
 ##.ad-blog2biz
 ##.ad-body
@@ -8470,6 +8470,7 @@ _a468x60.
 ##.adbannerright
 ~fifthinternational.org##.adbar
 ##.adbase
+##.adblock728x90
 ##.adboard
 ##.adborder
 ##.adbot
@@ -11815,6 +11816,7 @@ _a468x60.
 ||trigami.com^$third-party
 ||trkalot.com^$third-party
 ||trker.com^$third-party
+||trkjmp.com^$third-party
 ||tubemogul.com^$third-party
 ||tutvp.com^$image,~image,popup
 ||tutvp.com^$third-party
@@ -12965,6 +12967,8 @@ _a468x60.
 ! Mobile
 ||iadc.qwapi.com^
 ! Adware
+||akamaihd.net/items/e6a00/storage.swf
+||akamaihd.net/items/it/swf/f.swf
 ||ver-pelis.net/player/servers/otros.js
 ! *** easylist:easylist_adult/adult_thirdparty.txt ***
 ||1800freecams.com^$image,~image,popup,third-party
@@ -14134,6 +14138,7 @@ _comscore.js
 ||rating.in^$third-party
 ||reachforce.com^$third-party
 ||readertracking.com^$third-party
+||readnotify.com^$third-party
 ||realcounter.eu^$third-party
 ||realcounters.com^$third-party
 ||realtimeplease.com^$third-party
