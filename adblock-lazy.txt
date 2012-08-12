@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: +zWjmAxLI0vWjhkyEpJ10Q
+!  Checksum: jfGS0kd9OyOQkNl+vVbHOQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 11 Aug 2012 14:34:10 +0800
+!  Last Modified:  Sun, 12 Aug 2012 11:56:13 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1427,7 +1427,7 @@ ynet.com###ta01
 !---优酷
 @@||static.atm.youku.com^*.swf|$domain=www.youku.com
 @@||valf.atm.youku.com/crossdomain.xml
-!@@||valf.atm.youku.com/valf?
+@@||valf.atm.youku.com/valf?
 ||atm.youku.com^
 ||f.youku.com/player/getFlvPath/fileid/*&yad=1
 ||hz.youku.com/red/ggnotice.php
@@ -1655,7 +1655,7 @@ jjxw.cn##[class$="_ad"]
 jjxw.cn##[class^="head_ad"]
 ||junshier.com/adspic/
 ||junshijia.com/new/$script
-||kankanews.com/kankancms/js/gs.js
+||kankanews.com^*/gs.js
 ||vd.kankanews.com^
 www.kankanews.com###J-zsb
 www.kankanews.com##.bann_ind
@@ -2418,7 +2418,6 @@ zxtjd.com###it_an
 ||junnew.com^$third-party
 ||u.juyouxi.com^$third-party
 ||jzunion.com^$third-party
-||kankanews.com/iframe/$third-party
 ||kairing.com^$third-party
 ||kcld.net^$third-party
 ||kejet.$third-party
@@ -10509,6 +10508,8 @@ _a468x60.
 ##.yahooads
 ##.yan-sponsored
 ##.ygrp-ad
+##.yieldads-160x600
+##.yieldads-728x90
 ##.yom-ad
 ##.youradhere
 ##.yrail_ad_wrap
@@ -13150,6 +13151,7 @@ _a468x60.
 ||sakuralive.com/dynamicbanner/
 ||scoreland.com/banner/
 ||secretbehindporn.com^$subdocument,third-party
+||seekbang.com/cs/rotator/$image,~image,popup
 ||seeme.com^*?aid=*&art=$image,~image,popup
 ||sex.com/?utm_source=$image,~image,popup
 ||sexier.com/services/adsredirect.ashx?$image,~image,popup,third-party
