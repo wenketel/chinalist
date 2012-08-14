@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: FrmkR1W4b/a2k69ODDmlwg
+!  Checksum: CKYHGQ1phnsFbpJwEyQ8Tg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 13 Aug 2012 21:50:03 +0800
+!  Last Modified:  Tue, 14 Aug 2012 22:06:17 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -428,7 +428,7 @@ dayoo.com##.cn
 ||discuz.gtimg.cn/cloud/scripts/discuz_tips.js
 ~xdjz.net###ads_c_tpc
 ##.a_h
-##.a_mu
+~wxkds.com##.a_mu
 discuz.net##.a_pr
 ~hk-pub.com##.ad_footerbanner
 ###ad_headerbanner
@@ -512,14 +512,15 @@ focus.cn##.ad_fp
 funshion.com##[class^="fs2012-"]
 
 !---火狐主页
-||firefoxchina.cn/cooperation/$script
+||firefoxchina.cn/*/trac.js
 ||firefoxchina.cn/fragments/cms/read_head_link.js
+||firefoxchina.cn/iframe/
 ||firefoxchina.cn/js/money/
-||firefoxchina.cn/js/trac.js
-/iframes/*$subdocument,domain=i.firefoxchina.cn|i.g-fox.cn
-i.firefoxchina.cn,i.g-fox.cn##[id^="ad_links"]
-i.firefoxchina.cn,i.g-fox.cn##[id^="banner_show"]
-i.firefoxchina.cn,i.g-fox.cn###taobao_frame2
+||i.firefoxchina.cn/iframes/
+||i.firefoxchina.cn/js/dujia.js
+i.firefoxchina.cn###ad_links1
+i.firefoxchina.cn###banner_show1
+i.firefoxchina.cn###taobao_frame2
 
 !---游民星空
 ||gamersky.com/frame/
@@ -583,6 +584,13 @@ www.hsw.cn##table[width="980"][height="100"]
 ||hjfile.cn/analytics/google/ga.js
 ||a4.yeshj.com^
 ||webclick.yeshj.com^
+
+!---环球网
+/cooperation/*$script,subdocument,domain=firefox.huanqiu.com
+||huanqiu.com/script/HuanQiuAllBottom.Js
+||huanqiu.com/statics/js/adCode.js
+||huanqiu.com/statics/js/adcontrol1.js
+huanqiu.com###adDt
 
 !---凤凰网
 /ifengRotatorAd.js
@@ -754,6 +762,16 @@ news.mydrivers.com##table[border="0"][width="980"][height="90"]
 ||11.mydrivers.com/myfiles/04.js
 ||11.mydrivers.com/myfiles/myfiles100*.js
 myfiles.com.cn##[id^="ad_"]
+
+!---NARUTOM
+||narutom.com/v2/js/198game_Lt.js
+||narutom.com/js/comicjs.js
+||narutom.com/js/jsg2.js
+||narutom.com/d/js/acmsd/thea2.js
+||narutom.com/js/myl.js
+narutom.com##[class^="wrap2 vtg"]
+narutom.com###itaTop2
+narutom.com###naruto_desk
 
 !---NewHua
 ||count.newhua.com^
@@ -1027,6 +1045,7 @@ dailynews.sina.com##.TopNav + table
 ||d4.sina.com.cn^$object,script
 ||d5.sina.com.cn^$object,script
 ||d5.sina.com.cn^$image,domain=~www.sina.com.cn
+||news.sina.com.cn/js/*/headnews.js
 ||pfp.sina.com.cn^$script
 ||pfp.sina.com.cn/iframe/2012nonghangguanggaotest1.html
 ||pfp.sina.com.cn/jczs.html
@@ -1645,10 +1664,6 @@ ettoday.net###ticker_3
 ||hebei.com.cn/sys/online_calc.js^
 ||hinews.cn/out/img/$object
 ||hinews.cn/out/img/*/*x
-||huanqiu.com/script/content_js/*_ad
-||huanqiu.com/script/content_js/*_banner
-||huanqiu.com/script/homepage$script
-huanqiu.com##[id^="banner"]
 ||itocp.com/html/$object
 ||jjxw.cn^$object
 jjxw.cn##[class$="_ad"]
@@ -1762,7 +1777,7 @@ binhuo.com##table[width="950PX"]
 ||cococomic.com/g/
 ||d3zw.com/js/*.aspx
 ||dddbbb.net^$script,subdocument
-||dukankan.com/xiaoyi/js/gg*$script
+||dukankan.com/xiaoyi/js/gg$script
 ||dudu8.net/a_d/
 ||img.duyidu.com/includehtml/gg/
 ||img.duyidu.com/includehtml/newjs/tanc.js
@@ -1790,11 +1805,6 @@ faloo.com##[class^="ad_"]
 ||laishuwu.com/files/friend/
 ||mywenxue.com/Skin/Default/js/fdad.js
 ||mywenxue.com/Skin/Default/Css/fdad.Css
-||narutom.com/v2/js/198game_Lt.js
-||narutom.com/js/comicjs.js
-||narutom.com/js/jsg2.js
-narutom.com###naruto_desk
-narutom.com##[id^="itaTop"]
 ||niaoyan.net/wlxsjs/c_gg2.js
 ||niepo.net/top/
 niepo.net##.m_ads
@@ -2585,7 +2595,7 @@ zxtjd.com###it_an
 ||zhiad.com^$third-party
 
 !----------------------------Other (sort by letter)--------
-/acmsd/*$domain=~narutom.com
+/acmsd/*
 /adfiles/*
 /adflash/*
 /adimage/*
@@ -3527,6 +3537,8 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /adsreporting/*
 /adsrich.
 /adsright.
+/adsrot.
+/adsrot2.
 /adsrotate.
 /adsrotate1left.
 /adsrotate1right.
@@ -3750,6 +3762,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /auditudeadunit.
 /austria_ad.
 /auto_ad_
+/avw.php?zoneid=*&cb=
 /back-ad.
 /ban_ad.
 /ban_m.php?
@@ -5217,6 +5230,7 @@ _a468x60.
 ###ADSLOT_SKYSCRAPER
 ###ADSpro
 ###ADVERTISE_HERE_ROW
+###AD_468x60
 ###AD_CONTROL_22
 ###AD_CONTROL_28
 ###AD_CONTROL_29
@@ -5351,6 +5365,7 @@ _a468x60.
 ###LowerContentAd
 ###MPUAdSpace
 ###MainSponsoredLinks
+###MediumRectangleAD
 ###Meebo\:AdElement\.Root
 ###Nightly_adContainer
 ###NormalAdModule
@@ -6029,7 +6044,7 @@ _a468x60.
 ###adrectangleb
 ###adrectangleb_flex
 ###adrig
-###adright
+~gamecopyworld.com###adright
 ###adright2
 ###adrightbottom
 ###adrighthome
@@ -7415,6 +7430,7 @@ _a468x60.
 ###sidebar-adv
 ###sidebar-sponsor-link
 ###sidebar2ads
+###sidebarAd
 ###sidebarAds
 ###sidebarAdvert
 ###sidebar_ad
@@ -10572,6 +10588,7 @@ _a468x60.
 ||199.102.225.178^$third-party,domain=~adsimilate.ip
 ||209.222.8.217^$third-party,domain=~p2p.adserver.ip
 ||247realmedia.com^$third-party
+||254a.com^$third-party
 ||2mdn.net/dot.gif$object-subrequest,third-party
 ||2mdn.net^$object-subrequest,third-party,domain=101cargames.com|3news.co.nz|bbc.co.uk|bbc.com|bet.com|bloomberg.com|box10.com|businessday.co.za|businessweek.com|calgaryherald.com|couriermail.com.au|drive.com.au|edmontonjournal.com|eonline.com|euronews.com|foodnetwork.ca|globaltoronto.com|globaltvbc.com|heraldsun.com.au|independent.ie|kfiam640.com|leaderpost.com|livestream.com|metacafe.com|montrealgazette.com|nationalpost.com|nba.tv|ndtv.com|newyorkjets.com|ottawacitizen.com|patriots.com|reuters.com|rollingstone.com|rte.ie|sherdog.com|skynews.com.au|smh.com.au|telegraph.co.uk|theage.com.au|theaustralian.com.au|thecomedynetwork.ca|theprovince.com|thestarphoenix.com|timescolonist.com|vancouversun.com|vice.com|windsorstar.com|youtube.com
 ||2mdn.net^$~object-subrequest,third-party
@@ -12202,6 +12219,7 @@ _a468x60.
 ||agenda.complex.com^
 ||ais.abacast.com^
 ||ak.imgaft.com^$third-party
+||ak1.imgaft.com^$third-party
 ||akamaihd.net/ssa/*?zoneid=$subdocument
 ||all4naija.com/banners/
 ||allposters.com^*/banners/
@@ -12339,6 +12357,7 @@ _a468x60.
 ||cuteonly.com/banners.php$third-party
 ||d15gt9gwxw5wu0.cloudfront.net^
 ||d3lvr7yuk4uaui.cloudfront.net^
+||d3pkae9owd2lcf.cloudfront.net/mb102.js
 ||dailydealstwincities.com/widgets/$subdocument,third-party
 ||dapatwang.com/images/banner/
 ||dart.clearchannel.com^
@@ -13418,6 +13437,7 @@ _a468x60.
 /logaholictracker.php?
 /logger/p.gif?
 /logger?*ctxid=
+/logging/pixel?
 /logreferrer.php?*&referrer=
 /md.js?country=
 /mdwtc/click_thru/*
