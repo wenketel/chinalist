@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: kXMKciR3bJn4/nOvTtYtKA
+!  Checksum: vfuJoJBEhnBPSDPCGzwPQQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 16 Aug 2012 16:53:10 +0800
+!  Last Modified:  Fri, 17 Aug 2012 22:37:31 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1449,7 +1449,7 @@ ynet.com###ta01
 !---优酷
 @@||static.atm.youku.com^*.swf|$domain=www.youku.com
 @@||valf.atm.youku.com/crossdomain.xml
-!@@||valf.atm.youku.com/valf?
+@@||valf.atm.youku.com/valf?
 ||atm.youku.com^
 ||f.youku.com/player/getFlvPath/fileid/*&yad=1
 ||hz.youku.com/red/ggnotice.php
@@ -4077,6 +4077,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /geo_banner.htm?
 /geoad/*
 /get-ad.
+/get/ad.
 /get_ad.php?
 /getad.
 /getad?
@@ -4105,6 +4106,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /glam_ads.
 /global/ad/*
 /global/ads.
+/globaladprostyles.
 /globalbannerad.
 /google-ad-
 /google-ad?
@@ -4148,6 +4150,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /hitbar_ad_
 /home30/ad.
 /homepage_ads/*
+/homeslideadtop/*
 /hostedads.
 /hostedbannerads.
 /house-ads/*
@@ -4339,6 +4342,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /newad?
 /newads.
 /newads/*
+/newdesign/ad/*
 /newrightcolad.
 /news_ad.
 /newsletterads/*
@@ -4590,6 +4594,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /site=*/size=*/viewid=
 /site=*/viewid=*/size=
 /site_ads.
+/site_under.
 /siteads.
 /siteads/*
 /siteafs.txt?
@@ -4608,6 +4613,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /slafc.js
 /slideadverts/*
 /slideinad.
+/slidetopad.
 /small_ad.
 /small_ads/*
 /smallad-
@@ -5450,6 +5456,7 @@ _a468x60.
 ###ad-728x90-1
 ###ad-728x90-leaderboard-top
 ###ad-728x90-top0
+###ad-absolute-160
 ###ad-ads
 ###ad-article
 ###ad-banner
@@ -6053,10 +6060,11 @@ _a468x60.
 ###adrectangleb
 ###adrectangleb_flex
 ###adrig
-~gamecopyworld.com###adright
+~gamecopyworld.com,~morningstar.com###adright
 ###adright2
 ###adrightbottom
 ###adrighthome
+###ads-125
 ###ads-250
 ###ads-468
 ###ads-5
@@ -6282,6 +6290,8 @@ _a468x60.
 ###adv_halfpage
 ###adv_halfpage_title
 ###adv_leaderboard
+###adv_mpu1
+###adv_mpu2
 ~demorgen.be,~trouw.nl,~volkskrant.nl###adv_sky
 ###adv_top_banner_wrapper
 ###adver1
@@ -6648,7 +6658,7 @@ _a468x60.
 ###containerMrecAd
 ###containerSqAd
 ###content-ad-header
-###content-header-ad
+~lava360.com###content-header-ad
 ###content-left-ad
 ###content-right-ad
 ~fichier.net,~filecheck.ru,~orientaldaily.on.cc###contentAd
@@ -8439,6 +8449,7 @@ _a468x60.
 ##.ad_primary
 ##.ad_promo
 ##.ad_rec
+##.ad_rect_contr
 ##.ad_rectangle
 ##.ad_rectangle_300_250
 ##.ad_rectangle_medium
@@ -9149,6 +9160,7 @@ _a468x60.
 ##.bottom-ads
 ##.bottomAd
 ~123poi.com##.bottomAds
+##.bottomAdvTxt
 ##.bottom_ad
 ~ixbtlabs.com##.bottom_ad_block
 ##.bottom_ads
@@ -9413,7 +9425,7 @@ _a468x60.
 ##.fns_td_wrap
 ##.fold-ads
 ##.footad
-##.footer-ad
+~songlyrics.com##.footer-ad
 ##.footer-advert
 ##.footer-text-ads
 ##.footerAd
@@ -10647,6 +10659,7 @@ _a468x60.
 ||adbasket.net^$third-party
 ||adblade.com^$third-party
 ||adboost.com^$third-party
+||adbooth.net^$third-party
 ||adbrite.com^$third-party
 ||adbroo.com^$third-party
 ||adbull.com^$third-party
@@ -10665,6 +10678,7 @@ _a468x60.
 ||addaim.com^$third-party
 ||adecn.com^$third-party
 ||adengage.com^$third-party
+||adexcite.com^$third-party
 ||adf01.net^$third-party
 ||adfactory88.com^$third-party
 ||adform.net^$third-party
@@ -10929,6 +10943,7 @@ _a468x60.
 ||audienceprofiler.com^$third-party
 ||auditude.com^$third-party
 ||auspipe.com^$third-party
+||auto-im.com^$third-party
 ||auto-insurance-quotes-compare.com^$third-party
 ||automateyourlist.com^$third-party
 ||avads.co.uk^$third-party
@@ -11067,6 +11082,7 @@ _a468x60.
 ||clickwinks.com^$third-party
 ||clixgalore.com^$third-party
 ||clixtrac.com^$third-party
+||clkads.com^$image,~image,popup,third-party
 ||clkads.com^$third-party
 ||coadvertise.com^$third-party
 ||cogsdigital.com^$third-party
@@ -11635,6 +11651,7 @@ _a468x60.
 ||promotionoffer.mobi^$third-party
 ||promotiontrack.mobi^$third-party
 ||propellerads.com^$image,~image,popup
+||propellerads.com^$third-party
 ||proximic.com^$third-party
 ||psclicks.com^$third-party
 ||ptmzr.com^$third-party
@@ -11766,6 +11783,7 @@ _a468x60.
 ||sproose.com^$third-party
 ||srtk.net^$third-party
 ||sta-ads.com^$third-party
+||stargamesaffiliate.com^$third-party
 ||starlayer.com^$third-party
 ||statcamp.net^$third-party
 ||stealthlockers.com^$third-party
@@ -12014,6 +12032,7 @@ _a468x60.
 ||777partner.com^$third-party
 ||777partner.net^$third-party
 ||aaovn.info^$third-party
+||actionlocker.com^$third-party
 ||ad4partners.com^$third-party
 ||adjunky.com^$third-party
 ||adult-profit-files.com^$third-party
@@ -12088,6 +12107,7 @@ _a468x60.
 ||naughtyplayful.com^$image,~image,popup
 ||newagerevenue.com^$third-party
 ||niceratios.com^$third-party
+||oddads.net^$third-party
 ||otherprofit.com^$third-party
 ||partnercash.com^$third-party
 ||pecash.com^$third-party
@@ -12136,6 +12156,7 @@ _a468x60.
 ||wood-pen.com^$third-party
 ||xfuckbook.com^$third-party
 ||xhamstercams.com^$third-party
+||xpop.co^$third-party
 ||xxxex.com^$third-party
 ||xxxlnk.com^$third-party
 ||yazcash.com^$third-party
@@ -12816,8 +12837,8 @@ _a468x60.
 ||seednet.eu/banners/
 ||selectperformers.com/images/a/
 ||selectperformers.com/images/elements/bannercolours/
-||serve.prestigecasino.com^$image,~image,popup
-||serve.williamhillcasino.com^$image,~image,popup
+||serve.prestigecasino.com^$image,~image,popup,third-party
+||serve.williamhillcasino.com^$image,~image,popup,third-party
 ||servedby.keygamesnetwork.com^
 ||service.smscoin.com/js/sendpic.js
 ||sfimg.com/images/banners/
@@ -12978,6 +12999,7 @@ _a468x60.
 ||widgets.mobilelocalnews.com^$third-party
 ||wildamaginations.com/mdm/banner/
 ||winpalace.com/?affid=
+||withbinaryoptions.com^$image,~image,popup,third-party
 ||wonderlabs.com/affiliate_pro/banners/
 ||wptpoker.com^$image,~image,popup
 ||ws.amazon.*/widgets/q?$third-party
@@ -13258,6 +13280,7 @@ _a468x60.
 /afrpt.gif?
 /aggbug.aspx?
 /ajaxservice.svc/registersession?session_id=
+/alllinksclicktracker.js
 /analysis-logger/logger?
 /analyzer/aa.php?
 /aspstats/index.asp?
@@ -13276,6 +13299,7 @@ _a468x60.
 /b/ss/*?[aqb]&ndh=
 /b/ss/*?aqb=1&ndh=
 /b/ss/*?aqb=1&pccr=
+/b/ss/*?gn=mobile:
 /b/ss/*?pagename=
 /b/ss/ueglobaldev/*
 /b/ss/wdgdolad,
@@ -13547,7 +13571,9 @@ _a468x60.
 /store-uniq-client-id?bomuuid=
 /stwc-counter/*
 /stwc/code.js
+/supertracking.
 /swfaddress.js?tracker=
+/szm_mclient.js
 /tacoda_ams_ddc_header.js
 /tagomnitureengine.js
 /tc_logging.js
@@ -13558,6 +13584,7 @@ _a468x60.
 /tpix.gif?
 /track/*?rnd=0.$image
 /tracker/event?
+/tracking/tag_commander.php?
 /tracking/tynt_
 /trackingpixels/get?referrer=
 /traffic/status.gif?
@@ -13674,6 +13701,7 @@ _comscore.js
 ||adsensedetective.com^$third-party
 ||adsummos.net^$third-party
 ||adultblogtoplist.com^$third-party
+||affiliatetrackingsetup.com^$third-party
 ||affiliserve.com^$third-party
 ||agentinteractive.com^$third-party
 ||akstat.com^$third-party
@@ -13758,6 +13786,7 @@ _comscore.js
 ||christiantop1000.com^$third-party
 ||christmalicious.com^$third-party
 ||circular-counters.com^$third-party
+||click2meter.com^$third-party
 ||click4assistance.co.uk^$third-party
 ||clickable.net^$third-party
 ||clickaider.com^$third-party
@@ -13919,6 +13948,7 @@ _comscore.js
 ||fusestats.com^$third-party
 ||fyreball.com^$third-party
 ||gaug.es^$third-party
+||gemtrackers.com^$third-party
 ||geobytes.com^$third-party
 ||getbackstory.com^$third-party
 ||getclicky.com^$third-party
@@ -14188,6 +14218,7 @@ _comscore.js
 ||rfihub.com^$third-party
 ||riastats.com^$third-party
 ||richard-group.com^$third-party
+||richmetrics.com^$third-party
 ||richrelevance.com^$third-party
 ||ritecounter.com^$third-party
 ||rkdms.com^$third-party
@@ -14770,6 +14801,7 @@ _comscore.js
 ||returnpath.net/pixel.gif?
 ||reverbnation.com/widgets/trk/
 ||rhapsody.com^*/pixel?
+||rich-agent.s3.amazonaws.com^
 ||roitrack.addlvr.com^
 ||royalecms.com/statistics.php?
 ||s.clickability.com^
