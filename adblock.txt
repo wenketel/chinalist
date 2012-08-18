@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: 11Ccq3oJPLjaanAX62Yc0g
+!  Checksum: RkXn2RwqDu7WaOiBJegN3A
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 17 Aug 2012 22:37:31 +0800
+!  Last Modified:  Sat, 18 Aug 2012 15:33:41 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -214,6 +214,7 @@ autohome.com.cn##.banner750_90
 autohome.com.cn##.recommend
 
 !---Baidu
+||baidu.com/cpro.php
 ||baidu.com/ecom$image,script
 ||news.baidu.com/nocache/mp/b.jpg
 ||pan.baidu.com/netdisk/analytics?
@@ -1284,6 +1285,11 @@ www.uuu9.com###ban1
 
 !---bbs.vc52.cn
 @@||gg.a.5d6d.$image,object_subrequest
+
+!---威盘
+@@||cpro.baidu.com^$image,script,subdocument,domain=vdisk.cn
+@@||cpro.baidu.com/extra/text_flash/AC_RunActiveContent.js
+@@||drmcmm.baidu.com/media/$domain=cpro.baidu.com
 
 !---udn
 @@||video.udn.com/player/Adv.swf$object_subrequest

@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: vfuJoJBEhnBPSDPCGzwPQQ
+!  Checksum: ynAHcIZ8TsRgZtrHtfuwnQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 17 Aug 2012 22:37:31 +0800
+!  Last Modified:  Sat, 18 Aug 2012 15:33:41 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -215,6 +215,7 @@ autohome.com.cn##.banner750_90
 autohome.com.cn##.recommend
 
 !---Baidu
+||baidu.com/cpro.php
 ||baidu.com/ecom$image,script
 ||news.baidu.com/nocache/mp/b.jpg
 ||pan.baidu.com/netdisk/analytics?
@@ -1285,6 +1286,11 @@ www.uuu9.com###ban1
 
 !---bbs.vc52.cn
 @@||gg.a.5d6d.$image,object_subrequest
+
+!---威盘
+@@||cpro.baidu.com^$image,script,subdocument,domain=vdisk.cn
+@@||cpro.baidu.com/extra/text_flash/AC_RunActiveContent.js
+@@||drmcmm.baidu.com/media/$domain=cpro.baidu.com
 
 !---udn
 @@||video.udn.com/player/Adv.swf$object_subrequest
@@ -3016,6 +3022,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /ad_campaigns/*
 /ad_code.
 /ad_configuration.
+/ad_configurations_
 /ad_container_
 /ad_content.
 /ad_contents/*
@@ -3595,6 +3602,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /adtech;
 /adtech_
 /adtechglobalsettings.js
+/adtest.
 /adtext.
 /adtext4.
 /adtext_
@@ -4224,6 +4232,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /innerads.
 /insertads.
 /instreamad/*
+/intelliad.
 /intellitext.js
 /interad.
 /intextads.
@@ -4777,6 +4786,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /wipeads/*
 /wmads.
 /work.php?n=*&size=*&c=
+/wp-adv/*
 /wp-content/mbp-banner/*
 /wp-content/plugins/banner-manager/*
 /wp-content/plugins/bhcb/lock.js
@@ -5045,6 +5055,7 @@ _video_ads_
 _videoad.
 _vodaaffi_
 _webad.
+|http://ox-d.*/jstag?
 |http://ox-d.*/jstag|
 |http://u-ads.
 ||cacheserve.*/promodisplay/
@@ -11709,6 +11720,7 @@ _a468x60.
 ||rwpads.com^$third-party
 ||s2d6.com^$third-party
 ||sa.entireweb.com^$third-party
+||safeadnetworkdata.net^$third-party
 ||safelistextreme.com^$third-party
 ||salvador24.com^$third-party
 ||saple.net^$third-party
@@ -11743,6 +11755,7 @@ _a468x60.
 ||skimlinks.com^$third-party
 ||skimresources.com^$third-party
 ||skoovyads.com^$third-party
+||slimtrade.com^$image,~image,popup
 ||slimtrade.com^$third-party
 ||smart.allocine.fr^$third-party
 ||smart2.allocine.fr^$third-party
@@ -12138,6 +12151,7 @@ _a468x60.
 ||targetingnow.com^$third-party
 ||tech-board.com^$third-party
 ||the-adult-company.com^$third-party
+||timteen.com^$third-party
 ||tinyweene.com^$third-party
 ||topbucks.com^$third-party
 ||trafficholder.com^$image,~image,popup
@@ -12688,6 +12702,7 @@ _a468x60.
 ||mydirtyhobby.com/track/$image,~image,popup
 ||mydirtyhobby.com/track/$subdocument,third-party
 ||mydirtyhobby.com/u/$third-party,domain=~my-dirty-hobby.com|~mydirtyhobby.de
+||mydirtyhobby.com^*&sub=$third-party
 ||mydirtyhobby.com^*.php?*&goto=join$third-party
 ||mydirtyhobby.com^*/gpromo/$third-party
 ||mydirtyhobby.com^*?sub=$third-party
@@ -14598,6 +14613,7 @@ _comscore.js
 ||d1nu2rn22elx8m.cloudfront.net^
 ||d1qpxk1wfeh8v1.cloudfront.net^
 ||d1ros97qkrwjf5.cloudfront.net^
+||d2pe20ur0h0p8p.cloudfront.net/identity/
 ||d3c3cq33003psk.cloudfront.net^
 ||d3l3lkinz3f56t.cloudfront.net^
 ||data.alexa.com^
