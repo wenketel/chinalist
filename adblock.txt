@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: RkXn2RwqDu7WaOiBJegN3A
+!  Checksum: AzzCzS+LxUSKuM4fbmKVVA
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 18 Aug 2012 15:33:41 +0800
+!  Last Modified:  Mon, 20 Aug 2012 02:31:44 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -1489,19 +1489,24 @@ soso.com###rads
 wenwen.soso.com##.ad1
 
 !---ZOL
+||ca.cbsi.com.cn/rpv?
 ||icon.zol-img.com.cn/mainpage/js/click.js
 ||icon.zol-img.com.cn/public/js/web_foot.js
-||p.zol-img.com.cn/download_ad/
+||imp.zol.com.cn^
+||p.zol-img.com.cn^
 ||pic.zol-img.com.cn^$object
-||pic.zol-img.com.cn^*_bgad_
-zol.com.cn##[id^="AD"]
-www.zol.com.cn##div[style^="width:960px;height:90px;"]
-www.zol.com.cn##[id^="ad"]
+||pic.zol-img.com.cn/*430_$image
+zol.com.cn##.ad
+zol.com.cn##.hot_tj
+zol.com.cn###rightAdDiv1
+vga.zol.com.cn##.banner250
 www.zol.com.cn##.adwindow
-www.zol.com.cn##[id^="Bar"]
 !--中关村在线武汉站
 ||pc3w.com/adpic/
+||pc3w.com/js/
+pc3w.com###ad_down_title
 pc3w.com##table[width="925"][height="305"]
+pc3w.com###title_ad
 
 !---纵横中文网
 ||log.zongheng.com^
@@ -2116,6 +2121,10 @@ webkaka.com###Table1
 bbs.weiphone.com##[id^="ads_"]
 ||a.wm090.com/biz_icon/
 ||wpxap.com/a_img/
+||xfastest.com/AD2/
+xfastest.com###ad270
+xfastest.com##.articles-left-olny
+xfastest.com###showRightOverFlow
 ||xici.net/service/$xmlhttprequest
 ||data.xici.net^
 xici.net##.doc_tl.p9
@@ -2415,6 +2424,7 @@ zxtjd.com###it_an
 ||icast.cn^$third-party
 ||ifocus.cn^$third-party
 ||u.*.iciba.com^$third-party
+||ilepai.com^$third-party
 ||t.iloveyouxi.com^$third-party
 ||u.imop.com^$third-party
 ||insenz.com^$third-party
@@ -2760,8 +2770,6 @@ price.com.hk##.tb
 suopao.org##.t5[style^="margin-top:8px;"]
 bbs.wuyou.com##[style="background: #BBE9FF"]
 xiachufang.com##.g-ga.g-bg-white
-xfastest.com##[id^="ad"]
-xfastest.com##[class^="ad"]
 
 !-----------------------Temporary---------------------------
 !---2012.8

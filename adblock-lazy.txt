@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: ynAHcIZ8TsRgZtrHtfuwnQ
+!  Checksum: Pxv17i8yzjzJbt6rzEKLeA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 18 Aug 2012 15:33:41 +0800
+!  Last Modified:  Mon, 20 Aug 2012 02:31:44 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1490,19 +1490,24 @@ soso.com###rads
 wenwen.soso.com##.ad1
 
 !---ZOL
+||ca.cbsi.com.cn/rpv?
 ||icon.zol-img.com.cn/mainpage/js/click.js
 ||icon.zol-img.com.cn/public/js/web_foot.js
-||p.zol-img.com.cn/download_ad/
+||imp.zol.com.cn^
+||p.zol-img.com.cn^
 ||pic.zol-img.com.cn^$object
-||pic.zol-img.com.cn^*_bgad_
-zol.com.cn##[id^="AD"]
-www.zol.com.cn##div[style^="width:960px;height:90px;"]
-www.zol.com.cn##[id^="ad"]
+||pic.zol-img.com.cn/*430_$image
+zol.com.cn##.ad
+zol.com.cn##.hot_tj
+zol.com.cn###rightAdDiv1
+vga.zol.com.cn##.banner250
 www.zol.com.cn##.adwindow
-www.zol.com.cn##[id^="Bar"]
 !--中关村在线武汉站
 ||pc3w.com/adpic/
+||pc3w.com/js/
+pc3w.com###ad_down_title
 pc3w.com##table[width="925"][height="305"]
+pc3w.com###title_ad
 
 !---纵横中文网
 ||log.zongheng.com^
@@ -2116,6 +2121,10 @@ webkaka.com###Table1
 bbs.weiphone.com##[id^="ads_"]
 ||a.wm090.com/biz_icon/
 ||wpxap.com/a_img/
+||xfastest.com/AD2/
+xfastest.com###ad270
+xfastest.com##.articles-left-olny
+xfastest.com###showRightOverFlow
 ||xici.net/service/$xmlhttprequest
 ||data.xici.net^
 xici.net##.doc_tl.p9
@@ -2415,6 +2424,7 @@ zxtjd.com###it_an
 ||icast.cn^$third-party
 ||ifocus.cn^$third-party
 ||u.*.iciba.com^$third-party
+||ilepai.com^$third-party
 ||t.iloveyouxi.com^$third-party
 ||u.imop.com^$third-party
 ||insenz.com^$third-party
@@ -2760,8 +2770,6 @@ price.com.hk##.tb
 suopao.org##.t5[style^="margin-top:8px;"]
 bbs.wuyou.com##[style="background: #BBE9FF"]
 xiachufang.com##.g-ga.g-bg-white
-xfastest.com##[id^="ad"]
-xfastest.com##[class^="ad"]
 
 !-----------------------Temporary---------------------------
 !---2012.8
@@ -2956,6 +2964,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /ad-logger/*
 /ad-managment/*
 /ad-methods.
+/ad-openx.
 /ad-pub.
 /ad-right2.
 /ad-server.
@@ -3117,6 +3126,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /adbanner_
 /adbanners/*
 /adbar.aspx
+/adbeacon.
 /adbg.jpg
 /adbot_
 /adbottom.
@@ -3376,6 +3386,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /ads/js/*
 /ads/jsbannertext.
 /ads/leaderboard.
+/ads/mpu/*
 /ads/newad.
 /ads/panel.
 /ads/proxy-
@@ -4071,6 +4082,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /fwadmanager.
 /gads.html
 /gads.js
+/gafc.js
 /gafsads?
 /galleryad.
 /gam_ad.
@@ -5117,6 +5129,7 @@ _webad.
 /120_600_
 /120x600-
 /120x600.
+/120x600/*
 /120x600_
 /125x125_banner.
 /160-600-
@@ -7475,6 +7488,7 @@ _a468x60.
 ###sidebaradver_advertistxt
 ###sideline-ad
 ###single-mpu
+###singleAd
 ###singlead
 ###site-ad-container
 ###site-leaderboard-ads
@@ -9607,7 +9621,9 @@ _a468x60.
 ##.homeAdBoxInBignews
 ##.homeAdSection
 ##.homeMediumAdGroup
+##.home_ad_300x100
 ##.home_ad_bottom
+##.home_ad_large
 ##.home_advertisement
 ##.home_advertorial
 ##.home_mrec_ad
@@ -9628,6 +9644,7 @@ _a468x60.
 ##.horizontaltextadbox
 ##.horizsponsoredlinks
 ##.hortad
+##.houseAd
 ##.houseAd1
 ##.houseAdsStyle
 ##.housead
@@ -9715,6 +9732,7 @@ _a468x60.
 ##.lcontentbox_ad
 ##.leadAd
 ##.leader-ad
+##.leaderAd
 ##.leaderAdSlot
 ##.leaderAdTop
 ##.leaderAdvert
@@ -12053,6 +12071,7 @@ _a468x60.
 ||adultpopunders.com^$third-party
 ||advmania.com^$third-party
 ||adxmarket.com^$third-party
+||adxpansion.com^$image,~image,popup
 ||adxpansion.com^$third-party
 ||adxregie.com^$third-party
 ||aeesy.com^$third-party
@@ -12229,6 +12248,7 @@ _a468x60.
 ||advanced-intelligence.com/banner
 ||aff.eteachergroup.com^
 ||aff.svjump.com^
+||affddl.automotive.com^
 ||affeurope.com/banners/
 ||affil.mupromo.com^
 ||affiliate.astraweb.com^
@@ -12567,6 +12587,7 @@ _a468x60.
 ||hyipregulate.com/images/hyipregulatebanner.gif
 ||hyperfbtraffic.com/images/graphicsbanners/
 ||ibsrv.net/sponsor_images/
+||icbdr.com^$script,third-party
 ||icnetwork.co.uk^*-sponsorship-
 ||icnetwork.co.uk^*/sponsorship-
 ||ictv-ic-ec.indieclicktv.com^
@@ -12677,6 +12698,7 @@ _a468x60.
 ||microsoft.com^*/community/images/windowsintune/$third-party
 ||missnowmrs.com/images/banners/
 ||mlgpro.com/javascript/data/addata.php
+||mlive.com/js/oas/
 ||mmdcash.com/mmdcash01.gif
 ||mmo4rpg.com^*.gif|$third-party
 ||mmosale.com/baner_images/$third-party
@@ -12840,6 +12862,7 @@ _a468x60.
 ||safarinow.com/affiliate-zone/
 ||safelinks.eu/open.js
 ||sail-horizon.com/horizon/
+||sail-horizon.com/scout/
 ||sailthru.com/horizon/
 ||sailthru.com^*/horizon.js
 ||sat-shop.co.uk/images/$third-party
@@ -12998,6 +13021,7 @@ _a468x60.
 ||washingtonpost.com/wp-srv/wapolabs/dw/readomniturecookie.html
 ||watch-naruto.tv/images/$third-party
 ||watchme.com/track/$subdocument,third-party
+||wealth-at-home-millions.com^$image,~image,popup,third-party
 ||web2feel.com/images/$third-party
 ||weberotic.net/banners/$third-party
 ||website.ws^*/banners/
@@ -13861,6 +13885,7 @@ _comscore.js
 ||csi-tracking.com^$third-party
 ||customerconversio.com^$third-party
 ||cxense.com^$third-party
+||daylife-analytics.com^$third-party
 ||dc-storm.com^$third-party
 ||dc.tremormedia.com^$third-party
 ||decdna.net^$third-party
@@ -14086,6 +14111,7 @@ _comscore.js
 ||luckyorange.com^$third-party
 ||lypn.com^$third-party
 ||lytiks.com^$third-party
+||magiq.com^$third-party
 ||magnetmail1.net^$third-party
 ||magnify360.com^$third-party
 ||maploco.com^$third-party
@@ -14622,6 +14648,7 @@ _comscore.js
 ||devshed.com^*/pixeltrack.php?
 ||digimedia.com/pageviews.php?
 ||directnews.co.uk/feedtrack/
+||dirt.dennis.co.uk^
 ||disqus.com/stats.html
 ||distillery.wistia.com^
 ||dnn506yrbagrg.cloudfront.net^
@@ -14645,6 +14672,7 @@ _comscore.js
 ||etoro.com/tradesmonitor/
 ||eulerian.sarenza.com/collector/
 ||events.eyeviewdigital.com^*.gif?r=
+||events.realgravity.com^
 ||evri.com/analytics/
 ||facebook.com/campaign/impression.php?
 ||facebook.com/email_open_log_pic.php
@@ -14720,6 +14748,7 @@ _comscore.js
 ||link.informer.com^
 ||linkwithin.com/pixel.png
 ||list-manage.com/track/
+||livechatinc.com^*/control.cgi?
 ||livefyre.com/tracking/
 ||livepass.conviva.com^
 ||livepassdl.conviva.com^
@@ -14756,6 +14785,7 @@ _comscore.js
 ||mkcms.com/stats.js
 ||mochiads.com/clk/
 ||modules.ooyala.com^*/analytics-
+||mosso.com^*/banners/
 ||mtv.com^*spacer.gif?
 ||mtvnservices.com/metrics/
 ||muffia.com/ct/imgcount.php?
@@ -14811,6 +14841,7 @@ _comscore.js
 ||r.msn.com^
 ||radiocompanion.com/count.php?
 ||realplayer.com^*/pixel?
+||realtidbits.com^*/analytics.js
 ||reevoo.com/track/
 ||replyat.com/gadgetpagecounter*.asp?
 ||reports.pagesuite-professional.co.uk^
@@ -14842,6 +14873,7 @@ _comscore.js
 ||stat.segitek.hu^
 ||statistics.infowap.info^
 ||statistics.wibiya.com^
+||stats-newyork1.bloxcms.com^
 ||stats.big-boards.com^
 ||stats.bluebillywig.com^
 ||stats.cdn.playfair.co.za^
