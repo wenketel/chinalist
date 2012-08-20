@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: qXI6YsOmBWtE03FfAgiojw
+!  Checksum: H53lOYrjKBqURuAfjVem1A
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 20 Aug 2012 02:35:23 +0800
+!  Last Modified:  Mon, 20 Aug 2012 21:39:35 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -520,7 +520,9 @@ funshion.com##[class^="fs2012-"]
 ||firefoxchina.cn/js/money/
 ||i.firefoxchina.cn/iframes/
 ||i.firefoxchina.cn/js/dujia.js
+||i.firefoxchina.cn/next/iframe/
 i.firefoxchina.cn###ad_links1
+i.firefoxchina.cn###advBlock
 i.firefoxchina.cn###banner_show1
 i.firefoxchina.cn###taobao_frame2
 
@@ -680,6 +682,14 @@ jpseek.com,jpfans.com##div[align="center"] + table[align="center"][width="98%"]
 ||a.ikafan.com/3/
 ||a.ikafan.com/4/tengyou.gif
 kafan.cn##.header_gg
+
+!---看看新闻网
+@@||interface.kankanews.com/kkapi/adxmlconverter3.php$object_subrequest
+||kankanews.com^*/gs.js
+||kankanews.com/flash/PreAdLoader.swf
+||vd.kankanews.com^
+www.kankanews.com###J-zsb
+www.kankanews.com##.bann_ind
 
 !---极影动漫
 ||kkkmh.com/iframe/
@@ -1347,8 +1357,7 @@ xcar.com.cn##[id^="xcarWindow_"]
 
 !---XFastest
 ||xfastest.com/AD2/
-xfastest.com###ad1000
-xfastest.com###ad270
+xfastest.com##[id^="ad"].block
 xfastest.com##.articles-left-olny
 xfastest.com###showRightOverFlow
 
@@ -1468,8 +1477,9 @@ ynet.com###ta01
 ||hz.youku.com/red/ggnotice.php
 ||e.stat.youku.com^
 ||t.stat.youku.com^
-soku.com,youku.com##[id^="ab_"]
-youku.com##.sideCol > div[class^="AB"]
+soku.com###ab_282
+youku.com###ab_26
+youku.com##.AB240
 
 !---人人影视
 @@||copy.ousns.com/new/1.PNG
@@ -1691,10 +1701,6 @@ jjxw.cn##[class$="_ad"]
 jjxw.cn##[class^="head_ad"]
 ||junshier.com/adspic/
 ||junshijia.com/new/$script
-||kankanews.com^*/gs.js
-||vd.kankanews.com^
-www.kankanews.com###J-zsb
-www.kankanews.com##.bann_ind
 ||libertytimes.com.tw/IService2/AdLinkList.php
 ||libertytimes.com.tw/js/ajs/
 ||libertytimes.com.tw/Js/adopen.js
@@ -4338,6 +4344,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /miva_ads.
 /mkadsrv.
 /ml9pagepeel.
+/mmt_ad.
 /mnetorfad.js
 /mobile_ad.
 /mobilephonesad/*
@@ -4583,6 +4590,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /secondads.
 /secondads_
 /seo-ads.
+/serv.ads.
 /servead.
 /serveads.
 /servewebads/*
@@ -8050,7 +8058,7 @@ _a468x60.
 ##.ad-container-300x250
 ##.ad-container-728x90
 ##.ad-container-994x282
-~frankenlist.de##.ad-content
+~auctionstealer.com,~frankenlist.de##.ad-content
 ##.ad-context
 ##.ad-disclaimer
 ~jobmail.co.za,~odysseyware.com##.ad-display
@@ -8700,6 +8708,9 @@ _a468x60.
 ##.ads_320
 ##.ads_337x280
 ##.ads_728x90
+##.ads_amazon
+##.ads_amazon_outer
+##.ads_area
 ##.ads_big
 ##.ads_big-half
 ##.ads_box
