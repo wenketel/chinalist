@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: H53lOYrjKBqURuAfjVem1A
+!  Checksum: BYAvHvPxn959METiNocX2g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 20 Aug 2012 21:39:35 +0800
+!  Last Modified:  Tue, 21 Aug 2012 13:33:19 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -398,6 +398,7 @@ cnbeta.com##.detail > em
 ||bbs.csdn.net/event/bbsad.aspx?type=7
 ||counter.csdn.net^$script
 ||topic.csdn.net/u/t5/include/ad
+csdn.net##.ad_960
 csdn.net##[class^="banner"]
 !--iteye
 ||info-database.csdn.net/Upload/*-728
@@ -602,7 +603,6 @@ huanqiu.com###adDt
 /ssi-incs/*$subdocument,domain=ifeng.com
 /tres/recommend/*$domain=ifeng.com
 ||ifeng.com/statics/comment_baidu.html
-||bc.ifeng.com/main/s?
 ||de.deliver.ifeng.com^
 ||games.ifeng.com/webgame/
 ||img.ifeng.com/tres/$image,~image,popup
@@ -2678,7 +2678,7 @@ zxtjd.com###it_an
 |https://*/ad/
 /images/prom/*
 .info/ad/
-/main/s?$script,subdocument
+/main/s?
 /paypic/*
 /piaofu.js
 /picad/*
@@ -9101,6 +9101,7 @@ _a468x60.
 ##.banner300x250
 ##.banner468
 ##.banner468by60
+##.banner728
 ##.banner728x90
 ##.bannerADV
 ##.bannerAd
@@ -11787,7 +11788,6 @@ _a468x60.
 ||skimlinks.com^$third-party
 ||skimresources.com^$third-party
 ||skoovyads.com^$third-party
-||slimtrade.com^$image,~image,popup
 ||slimtrade.com^$third-party
 ||smart.allocine.fr^$third-party
 ||smart2.allocine.fr^$third-party
@@ -12433,6 +12433,7 @@ _a468x60.
 ||creatives.summitconnect.co.uk^
 ||csstatic.com/banners/
 ||customcodebydan.com/images/banner.gif
+||customer.heartinternet.co.uk^$third-party
 ||cuteonly.com/banners.php$third-party
 ||d15gt9gwxw5wu0.cloudfront.net^
 ||d3lvr7yuk4uaui.cloudfront.net^
@@ -12972,6 +12973,7 @@ _a468x60.
 ||tickles.co.uk^$subdocument,third-party
 ||tickles.ie^$subdocument,third-party
 ||tigerdirect.com^*/affiliate_
+||tipico.com^*?affiliateid=$image,~image,popup,third-party
 ||tmbattle.com/images/promo_
 ||tmz.vo.llnwd.net^*_rightrail_200x987.swf
 ||todaysfinder.com^$subdocument,third-party

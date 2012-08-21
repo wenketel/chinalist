@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: xESVni9P+1pPJp5vvSTlKQ
+!  Checksum: HccBF3rY0ggUAD3FTRgY3w
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 20 Aug 2012 21:39:35 +0800
+!  Last Modified:  Tue, 21 Aug 2012 13:33:19 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -397,6 +397,7 @@ cnbeta.com##.detail > em
 ||bbs.csdn.net/event/bbsad.aspx?type=7
 ||counter.csdn.net^$script
 ||topic.csdn.net/u/t5/include/ad
+csdn.net##.ad_960
 csdn.net##[class^="banner"]
 !--iteye
 ||info-database.csdn.net/Upload/*-728
@@ -601,7 +602,6 @@ huanqiu.com###adDt
 /ssi-incs/*$subdocument,domain=ifeng.com
 /tres/recommend/*$domain=ifeng.com
 ||ifeng.com/statics/comment_baidu.html
-||bc.ifeng.com/main/s?
 ||de.deliver.ifeng.com^
 ||games.ifeng.com/webgame/
 ||img.ifeng.com/tres/$image,~image,popup
@@ -2678,7 +2678,7 @@ zxtjd.com###it_an
 |https://*/ad/
 /images/prom/*
 .info/ad/
-/main/s?$script,subdocument
+/main/s?
 /paypic/*
 /piaofu.js
 /picad/*
