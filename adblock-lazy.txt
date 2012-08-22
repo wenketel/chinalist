@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: BYAvHvPxn959METiNocX2g
+!  Checksum: w2BK+kjv//HDSjDdfieEDA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 21 Aug 2012 13:33:19 +0800
+!  Last Modified:  Wed, 22 Aug 2012 15:12:08 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -297,6 +297,7 @@ iqiyi.com##.seed
 /ad-images/*$object_subrequest,domain=bilibili.tv|bilibili.kankanews.com
 /html/*$subdocument,domain=bilibili.tv|bilibili.kankanews.com
 /html/ads-$domain=bilibili.tv|bilibili.kankanews.com
+bilibili.tv,bilibili.kankanews.com##.ad-f
 
 !---爆米花网
 @@||cb.baidu.com/crossdomain.xml
@@ -399,7 +400,9 @@ cnbeta.com##.detail > em
 ||counter.csdn.net^$script
 ||topic.csdn.net/u/t5/include/ad
 csdn.net##.ad_960
-csdn.net##[class^="banner"]
+csdn.net##.banner_top2
+csdn.net##.banner_top3
+download.csdn.net##.ad_area_1
 !--iteye
 ||info-database.csdn.net/Upload/*-728
 ||iteye.com/iframe_ggbd/
@@ -3135,6 +3138,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /adbanner_
 /adbanners/*
 /adbar.aspx
+/adbars.
 /adbeacon.
 /adbg.jpg
 /adbot_
@@ -3390,7 +3394,6 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /ads/125r.
 /ads/468a.
 /ads/728b.
-/ads/ads.
 /ads/header_
 /ads/js/*
 /ads/jsbannertext.
@@ -3901,6 +3904,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /bottomad.
 /bottomad/*
 /bottomads.
+/boxad.
 /boxad1.
 /boxad2.
 /boxad3.
@@ -4043,6 +4047,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /easyadstrack.
 /ebay_ads/*
 /emailads/*
+/embed_ad.
 /emediatead.
 /ems/ads.
 /exitsplash.php
@@ -4060,7 +4065,6 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /fatads.
 /featuredadshome.
 /file/ad.
-/files/ad/*
 /fimserve.
 /flag_ads.
 /flash/ad_
@@ -4468,6 +4472,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /pop_ad.
 /pop_under/*
 /popad-
+/popad.
 /popads.
 /popads/*
 /popads_
@@ -4645,6 +4650,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /slafc.js
 /slideadverts/*
 /slideinad.
+/slider_ad.
 /slidetopad.
 /small_ad.
 /small_ads/*
@@ -7667,7 +7673,6 @@ _a468x60.
 ###topAdContainer
 ###topAdSenseDiv
 ###topAdcontainer
-###topAds
 ###topAdsContainer
 ###topAdvBox
 ###topAdvert
@@ -11844,6 +11849,8 @@ _a468x60.
 ||surveyvalue.mobi^$third-party
 ||surveyvalue.net^$third-party
 ||surveywidget.biz^$third-party
+||swadvertising^$image,~image,popup,third-party
+||swadvertising^$third-party
 ||symbiosting.com^$third-party
 ||tacoda.net^$third-party
 ||taggify.net^$third-party
@@ -12237,6 +12244,7 @@ _a468x60.
 ||ablacrack.com/popup-pvd.js$third-party
 ||abletomeet.com^*&ad=
 ||ad.flux.com^
+||ad.icasthq.com^
 ||ad.netcommunities.com^$third-party
 ||ad.pickple.net^
 ||ad.sensismediasmart.com.au^
@@ -13019,6 +13027,7 @@ _a468x60.
 ||valuate.com/banners/
 ||valuechecker.co.uk/banners/$third-party
 ||vcnewsdaily.com/images/vcnews_right_banner.gif
+||vdownloader.com/pages/$subdocument,third-party
 ||vendor1.fitschigogerl.com^
 ||veospot.com^*.html
 ||viagogo.co.uk/feeds/widget.ashx?
