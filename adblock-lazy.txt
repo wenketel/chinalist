@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: HBaJIzn+/xudMb7CPH7V7A
+!  Checksum: 0e754rZ69DlBw/b731d9Qw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 22 Aug 2012 22:38:33 +0800
+!  Last Modified:  Fri, 24 Aug 2012 05:41:55 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -435,7 +435,7 @@ dayoo.com##.cn
 ~xdjz.net###ads_c_tpc
 ##.a_h
 ~wxkds.com##.a_mu
-discuz.net##.a_pr
+discuz.net,ooomm.com##.a_pr
 ~hk-pub.com##.ad_footerbanner
 ###ad_headerbanner
 ##[id^="ad_thread"]
@@ -3307,6 +3307,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /admeld.
 /admeld_
 /admentor/*
+/admentorasp/*
 /admentorserve.
 /admeta.
 /admez.
@@ -4542,6 +4543,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /rect_ad.
 /rectangle_ad.
 /rectangle_advertorials_
+/referrer_adverts/*
 /refreshads-
 /related-ads.
 /relatedads.
@@ -5431,6 +5433,7 @@ _a468x60.
 ###PREFOOTER_LEFT_BOXAD
 ###PREFOOTER_RIGHT_BOXAD
 ###PageLeaderAd
+###PostSponsorshipContainer
 ~kizi.com,~playedonline.com###PreRollAd
 ###RelevantAds
 ###RgtAd1
@@ -7203,6 +7206,7 @@ _a468x60.
 ###mediumAdvertisement
 ###mediumrectangle_300x250
 ###medrectad
+###menu-ads
 ###menuAds
 ###menubanner-ad-content
 ###mi_story_assets_ad
@@ -9776,7 +9780,7 @@ _a468x60.
 ##.left_adlink
 ##.left_ads
 ##.left_adsense
-##.leftad
+~lolhit.com##.leftad
 ##.leftadtag
 ##.leftbar_ad_160_600
 ##.leftbarads
@@ -12363,6 +12367,9 @@ _a468x60.
 ||beachcamera.com/assets/banners/
 ||bee4.biz/banners/
 ||bergen.com^*/sponsoredby-
+||berush.com/images/*_semrush_$third-party
+||berush.com/images/semrush_banner_
+||berush.com/images/whorush_120x120_
 ||bet-at-home.com/oddbanner.aspx?
 ||bet365.com/home/?affiliate=$image,~image,popup
 ||beta.down2crazy.com^$third-party
@@ -12402,6 +12409,7 @@ _a468x60.
 ||buzznet.com^*/showpping-banner-$third-party
 ||cal-one.net/ellington/deals_widget.php?
 ||cal-one.net/ellington/search_form.php?
+||camelmedia.net^*/banners/
 ||cancomdigital.com/resourcecenter/$third-party
 ||cancomuk.com/campaigns/
 ||canonresourcecenter.com^$third-party
@@ -12440,6 +12448,7 @@ _a468x60.
 ||creative.ak.fbcdn.net/*/flyers/$image,domain=facebook.com
 ||creatives.inmotionhosting.com^
 ||creatives.summitconnect.co.uk^
+||creattor.net/flashxmlbanners/
 ||csstatic.com/banners/
 ||customcodebydan.com/images/banner.gif
 ||customer.heartinternet.co.uk^$third-party
@@ -12684,6 +12693,8 @@ _a468x60.
 ||longtailvideo.com/ltas.swf$third-party
 ||longtailvideo.com^*/adawe-$object-subrequest,third-party
 ||longtailvideo.com^*/adttext-$object-subrequest,third-party
+||longtailvideo.com^*/ltas-$object-subrequest,third-party
+||longtailvideo.com^*/ltas.swf$third-party
 ||longtailvideo.com^*/ova-$object-subrequest
 ||longtailvideo.com^*/yume-h.swf
 ||longtailvideo.com^*/yume.swf
@@ -12697,6 +12708,8 @@ _a468x60.
 ||luckyshare.net/images/banners/
 ||lycos.com/catman/init.js
 ||lygo.com/d/toolbar/sponsors/
+||magicaffiliateplugin.com/img/mga-125x125.gif
+||magicmembers.com/img/mgm-125x125
 ||mahndi.com/images/banner/
 ||marinejobs.gr/images/marine_adv.gif
 ||marketing.888.com^
@@ -12918,6 +12931,7 @@ _a468x60.
 ||sidekickunlock.net/banner/
 ||singlemuslim.com/affiliates/
 ||sis.amazon.com/iu?$third-party
+||site5.com/creative/*/234x60.gif
 ||sitegrip.com^*/swagbucks-
 ||skydsl.eu/banner/$third-party
 ||slickdeals.meritline.com^$third-party
@@ -13064,8 +13078,10 @@ _a468x60.
 ||widgets.mobilelocalnews.com^$third-party
 ||wildamaginations.com/mdm/banner/
 ||winpalace.com/?affid=
+||wishlistproducts.com/affiliatetools/$third-party
 ||withbinaryoptions.com^$image,~image,popup,third-party
 ||wonderlabs.com/affiliate_pro/banners/
+||wp-answers.com/banners/
 ||wptpoker.com^$image,~image,popup
 ||ws.amazon.*/widgets/q?$third-party
 ||wupload.com/images/banners/
@@ -13649,6 +13665,7 @@ _a468x60.
 /tpix.gif?
 /track/*?rnd=0.$image
 /tracker/event?
+/tracking/beacon/?
 /tracking/tag_commander.php?
 /tracking/tynt_
 /trackingpixels/get?referrer=
@@ -13763,6 +13780,7 @@ _comscore.js
 ||adgreed.com^$third-party
 ||adku.co^$third-party
 ||adoftheyear.com^$third-party
+||adsafeprotected.com^$third-party
 ||adsensedetective.com^$third-party
 ||adsummos.net^$third-party
 ||adultblogtoplist.com^$third-party
@@ -14132,6 +14150,7 @@ _comscore.js
 ||lookery.com^$third-party
 ||loopfuse.net^$third-party
 ||lopley.com^$third-party
+||lp4.io^$third-party
 ||lpbeta.com^$third-party
 ||lsfinteractive.com^$third-party
 ||luckyorange.com^$third-party
@@ -14586,6 +14605,7 @@ _comscore.js
 ||appliedsemantics.com/images/x.gif
 ||appspot.com/tracking_iframe.jsp?
 ||apture.com/v3/?5=%7b%22stats%22$xmlhttprequest
+||ask.com^*/i.gif?
 ||assoc-amazon.*^e/ir?t=$image
 ||asterpix.com/tagcloudview/
 ||atgsvcs.com/js/atgsvcs.js
