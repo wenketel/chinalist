@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: yDO4sdeYYKZcWnN2igmECw
+!  Checksum: afTe4lqCcfhbY7zhCuE9Zg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 25 Aug 2012 20:05:45 +0800
+!  Last Modified:  Sat, 25 Aug 2012 20:12:18 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -33,6 +33,9 @@ bbs.9baka.com,bbs.9gal.com#@##top_ad
 @@||cpro.baidu.com^$image,script,subdocument,domain=vdisk.cn
 @@||cpro.baidu.com/extra/text_flash/AC_RunActiveContent.js
 @@||drmcmm.baidu.com/media/$domain=cpro.baidu.com
+!--大众点评
+@@||dianping.com/adwords/$xmlhttprequest
+@@||union.mapbar.com/apis/maps/$script
 
 !----------------------------Well-known Sites--------------
 !---115网盘
@@ -379,7 +382,6 @@ chinaiiss.com##.nav_r:nth-child(6)
 @@||img.cnbeta.com/newsimg/
 @@||img.cnbeta.com/upimg/
 ||cnbeta.com/js/google.js
-||img.cnbeta.com^$object
 ||img.cnbeta.com/*125$image
 ||img.cnbeta.com/25080-1.gif
 ||img.cnbeta.com/*300$image
@@ -388,7 +390,6 @@ chinaiiss.com##.nav_r:nth-child(6)
 ||img.cnbeta.com/*468$image
 ||img.cnbeta.com/*576$image
 ||img.cnbeta.com/*950$image
-||img.cnbeta.com/t7.gif
 cnbeta.com###fm_r
 cnbeta.com###userInfo
 cnbeta.com##.detail > em
@@ -425,10 +426,6 @@ dayoo.com##.cn
 !--gzdaily
 /pub/news/gzrb/*$script
 ||gzdaily.dayoo.com/tpl/banner$object
-
-!---点评网
-@@||dianping.com/adwords/$xmlhttprequest
-@@||union.mapbar.com/apis/maps/$script
 
 !---Discuz! & PHPWind etc.
 @@/common/cf/*.thumb$image
