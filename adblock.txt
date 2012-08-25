@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: fDfMs/rxy+BfquwAr3ht6w
+!  Checksum: yeGwpiPY2xw7aXQ5tMWIYw
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 25 Aug 2012 19:41:24 +0800
+!  Last Modified:  Sat, 25 Aug 2012 20:05:45 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -26,6 +26,12 @@ bbs.9baka.com,bbs.9gal.com#@##top_ad
 @@/adbanner/*$image,domain=books.com.tw
 @@||paipai.com^$domain=shop.qq.com
 @@/advertise/*$domain=suning.com
+!--bbs.vc52.cn
+@@||gg.a.5d6d.$image,object_subrequest
+!--威盘
+@@||cpro.baidu.com^$image,script,subdocument,domain=vdisk.cn
+@@||cpro.baidu.com/extra/text_flash/AC_RunActiveContent.js
+@@||drmcmm.baidu.com/media/$domain=cpro.baidu.com
 
 !----------------------------Well-known Sites--------------
 !---115网盘
@@ -149,15 +155,12 @@ v.6.cn###playerAd
 
 !---8684
 @@||js.973.com/ad/sys_ad_complete.js$domain=8684.cn
-||8684.cn/js/*_hid.js
-||js.973.com/gjs/139.js
-||js.973.com/gjs/178.js
-||js.973.com/gjs/230.js
-||js.973.com/gjs/257.js
-||js.973.com/gjs/268.js
-||js.973.com/gjs/294.js
-||js.973.com/gjs/334.js
-||js.973.com/gjs/383.js
+@@||js.973.com/gjs/169.js
+@@||js.973.com/gjs/174.js
+@@||js.973.com/gjs/176.js
+@@||js.973.com/gjs/175.js
+@@||js.973.com/gjs/378.js
+||js.973.com/gjs/$script
 
 !---99漫画
 /aitw/*$domain=99comic.com|99manga.com
@@ -1294,14 +1297,6 @@ news.uuu9.com##.adfocusbox
 www.uuu9.com##.ads_new
 www.uuu9.com###ban1
 
-!---bbs.vc52.cn
-@@||gg.a.5d6d.$image,object_subrequest
-
-!---威盘
-@@||cpro.baidu.com^$image,script,subdocument,domain=vdisk.cn
-@@||cpro.baidu.com/extra/text_flash/AC_RunActiveContent.js
-@@||drmcmm.baidu.com/media/$domain=cpro.baidu.com
-
 !---udn
 @@||video.udn.com/player/Adv.swf$object_subrequest
 @@||video.udn.com/udnad/videoad.php^$object_subrequest
@@ -1824,8 +1819,6 @@ faloo.com##[class^="ad_"]
 ||imanhua.com^*/nmoneys/
 ||imanhua.com^*/money/
 ||jpnovel.com/myjs/
-||i.kanshu.la/js/001.js
-||i.kanshu.la/js/ycs.js
 ||kenwen.com/scripts/ctc.js
 ||ktkkt.com/js/cnbeta/
 ||kukudm.com/js/
