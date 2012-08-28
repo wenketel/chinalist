@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: ZzmwxK63GrCA7b8Pkz6Fdw
+!  Checksum: aVHlZNLQT9tMqmbP5FNT9Q
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 28 Aug 2012 19:21:06 +0800
+!  Last Modified:  Tue, 28 Aug 2012 19:33:24 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -15121,19 +15121,22 @@ _comscore.js
 ||webd.home.news.cn/1.gif?
 ||xnimg.cn^*/beacon.js
 !-----------------additional for ChinaList Lazy-------------
+||2mdn.net^$object-subrequest,third-party,domain=youtube.com
+||phobos.apple.com^$image,domain=dailymotion.com|youtube.com
+||topspin.net/secure/media/$image,domain=youtube.com
 ||espn.vad.go.com^$domain=youtube.com
 ||google.com/jsapi?autoload=*%22ads%22$script,domain=youtube.com
-||linkbucksmedia.com/director/
 ||ytimg.com^*_banner$domain=youtube.com
-youtube.com##.promoted-videos
-youtube.com##.watch-extra-info-column
-youtube.com##.watch-extra-info-right
-youtube.com##a[href^="http://www.youtube.com/cthru?"]
 youtube.com###feedmodule-PRO
 youtube.com###homepage-chrome-side-promo
 youtube.com###search-pva
 youtube.com###watch-branded-actions
 youtube.com###watch-buy-urls
+youtube.com##.carousel-offer-url-container
+youtube.com##.promoted-videos
+youtube.com##.watch-extra-info-column
+youtube.com##.watch-extra-info-right
+youtube.com##a[href^="http://www.youtube.com/cthru?"]
 @@||clustrmaps.com/images/clustrmaps-back-soon.jpg$third-party
 @@||s.clicktale.net/WRb.js$script,domain=microsoft.com
 @@||doubleclick.net/adi/amzn.*;ri=digital-music-track;$subdocument
