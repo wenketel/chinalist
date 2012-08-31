@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: aVHlZNLQT9tMqmbP5FNT9Q
+!  Checksum: uozgAloY0ipeu4an+WSk4A
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 28 Aug 2012 19:33:24 +0800
+!  Last Modified:  Fri, 31 Aug 2012 19:02:10 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -282,6 +282,7 @@ iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com###center > div[styl
 ||sclick.baidu.com^
 ||spcode.baidu.com^
 ||unstat.baidu.com^$~subdocument
+||cpro.baidustatic.com^
 !--iQIYI
 /tracker?$domain=iqiyi.com
 /ts.swf|$domain=iqiyi.com
@@ -458,7 +459,6 @@ uwants.com###foruminfo + div[align="center"]
 dm5.com##.a8ad
 dm5.com##.cl760
 dm5.com##.cl970
-dm5.com###ShowDIV
 
 !---豆丁
 ||docin.com/app/a_d/
@@ -1251,25 +1251,6 @@ tianya.cn###adsp_list_top_banner
 ||tom365.com/newjs/
 tom365.com###t365
 
-!---土豆
-/pos?$object_subrequest
-||tdimg.com/sales/
-||tudou.com^*/outside.php
-||tudou.com/tdap/
-||tudou.com/tdcm/
-||erreport.tudou.com^
-||istat.tudou.com/play.srv?
-||player.pb.ops.tudou.com/info.php?
-||stat*.tudou.com^
-||js.tudouui.com/js/fn/saleloader_*.js
-tudou.com##.b.seed
-tudou.com###adex_board
-!--for embedded videos
-||tdap.tudou.com^
-||tdcm.tudou.com^
-!--player may incorrectly blocked by some subscriptions
-@@||js.tudouui.com/bin/player$object
-
 !---U-CAR
 ||u-car.com.tw/js/crazyad.js
 ||u-car.com.tw/images/navigator/home_title_middle_
@@ -1472,6 +1453,18 @@ ynet.com###ta01
 soku.com###ab_282
 youku.com###ab_26
 youku.com##.AB240
+!--土豆
+@@||js.tudouui.com/bin/player$object
+@@||td.atm.youku.com/tdcm/adcontrol
+@@||td.atm.youku.com/crossdomain.xml
+/pos?$object_subrequest
+||tudou.com/service/outside.php
+||erreport.tudou.com^
+||istat.tudou.com/play.srv?
+||player.pb.ops.tudou.com/info.php?
+||stat*.tudou.com^
+||player.lstat.youku.com/log.gif
+tudou.com###adex_board
 
 !---人人影视
 @@||copy.ousns.com/new/1.PNG
@@ -1479,9 +1472,11 @@ youku.com##.AB240
 @@||copy.ousns.com/new/3.PNG
 @@||copy.ousns.com/new/4.PNG
 @@||copy.ousns.com/new/5.PNG
+yyets.com#@#.adBox
 ||copy.ousns.com^
 vod.oabt.org##.each_ad
 yyets.com##.couplet
+yyets.com##.ad954
 yyets.com###upad
 
 !---叶子猪游戏网
@@ -4809,6 +4804,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /welcome_ad.
 /widget/ads.
 /wipeads/*
+/wix-ad.
 /wmads.
 /work.php?n=*&size=*&c=
 /wp-adv/*
@@ -5101,6 +5097,7 @@ _webad.
 -300x250-
 -300x250.
 -300x250_
+-468-60-
 -468-60.
 -468-60_
 -468_60.
@@ -5224,6 +5221,7 @@ _120x600_
 _120x600px.
 _120x60_
 _140x600_
+_160_600.
 _160_600_
 _160x600-
 _160x600.
@@ -5717,6 +5715,7 @@ _a468x60.
 ###adLeaderTop
 ###adLeaderboard
 ###adMPU
+###adMedRect
 ###adMediumRectangle
 ###adMeld
 ###adMiddle0Frontpage
@@ -7372,6 +7371,7 @@ _a468x60.
 ###rhs_ads
 ###rhs_adverts
 ###rhsadvert
+###richad
 ###right-ad
 ###right-ad-col
 ###right-ad-skin
@@ -10529,6 +10529,7 @@ _a468x60.
 ##.videoAd
 ##.videoBoxAd
 ##.video_ad
+##.video_ads
 ##.view-promo-mpu-right
 ##.view_ads_advertisements
 ##.view_ads_bottom_bg
@@ -10628,6 +10629,7 @@ _a468x60.
 ##a[href^="http://ads.pheedo.com/"]
 ##a[href^="http://adserving.liveuniversenetwork.com/"]
 ##a[href^="http://api.ringtonematcher.com/"]
+##a[href^="http://codec.codecm.com/"]
 ##a[href^="http://galleries.pinballpublishernetwork.com/"]
 ##a[href^="http://galleries.securewebsiteaccess.com/"]
 ##a[href^="http://games.ucoz.ru/"][target="_blank"]
@@ -11068,6 +11070,7 @@ _a468x60.
 ||bingo4affiliates.com^$third-party
 ||binlayer.com^$third-party
 ||binlayer.de^$third-party
+||bitcoinadvertisers.com^$third-party
 ||bittads.com^$third-party
 ||blamads.com^$third-party
 ||blamcity.com^$third-party
@@ -11361,7 +11364,6 @@ _a468x60.
 ||getgamers.eu^$third-party
 ||gettipsz.info^$third-party
 ||ggncpm.com^$third-party
-||ghfusion.com^$third-party
 ||giantaffiliates.com^$third-party
 ||gimiclub.com^$third-party
 ||gklmedia.com^$third-party
@@ -11496,7 +11498,6 @@ _a468x60.
 ||leadadvert.info^$third-party
 ||leadbolt.net^$third-party
 ||leadcola.com^$third-party
-||leadintelligence.co.uk^$third-party
 ||leetmedia.com^$third-party
 ||letsgoshopping.tk^$third-party
 ||liftdna.com^$third-party
@@ -12113,6 +12114,7 @@ _a468x60.
 ||actionlocker.com^$third-party
 ||ad4partners.com^$third-party
 ||adjunky.com^$third-party
+||adsgangsta.com^$third-party
 ||adult-profit-files.com^$third-party
 ||adultlinkexchange.com^$third-party
 ||adultpopunders.com^$third-party
@@ -12471,6 +12473,7 @@ _a468x60.
 ||customer.heartinternet.co.uk^$third-party
 ||cuteonly.com/banners.php$third-party
 ||d15gt9gwxw5wu0.cloudfront.net^
+||d31807xkria1x4.cloudfront.net^
 ||d3lvr7yuk4uaui.cloudfront.net^
 ||d3pkae9owd2lcf.cloudfront.net/mb102.js
 ||dailydealstwincities.com/widgets/$subdocument,third-party
@@ -12632,7 +12635,6 @@ _a468x60.
 ||hyipregulate.com/images/hyipregulatebanner.gif
 ||hyperfbtraffic.com/images/graphicsbanners/
 ||ibsrv.net/sponsor_images/
-||icbdr.com^$script,third-party
 ||icnetwork.co.uk^*-sponsorship-
 ||icnetwork.co.uk^*/sponsorship-
 ||ictv-ic-ec.indieclicktv.com^
@@ -12688,11 +12690,13 @@ _a468x60.
 ||ladbrokes.com^*&aff_id=
 ||lapi.ebay.com^$third-party
 ||lastlocation.com/images/banner
+||leadintelligence.co.uk/in-text.js$third-party
 ||leadsleap.com/images/banner_
 ||leadsleap.com/widget/
 ||legaljobscentre.com/feed/jobad.aspx
 ||legitonlinejobs.com/images/$third-party
 ||letters.coursekey.com/lettertemplates_$third-party
+||lickbylick.com/angifbanner_
 ||lifestyle24h.com/reward/$third-party
 ||linkbucks.com/tmpl/mint/img/$third-party
 ||linkbucks.com/webservices/jsparselinks.aspx?
@@ -13102,6 +13106,7 @@ _a468x60.
 ||you-cubez.com/images/banners/
 ||you-only-you.com/banners/
 ||zapads.zapak.com^
+||zeusfiles.com/promo/
 ||ziffdavisenterprise.com/contextclicks/
 ||zip2save.com/widget.php?
 ! Mobile
@@ -13239,6 +13244,7 @@ _a468x60.
 ||media.mykodial.com^$third-party
 ||metartmoney.com^$third-party
 ||metartmoney.met-art.com^$third-party
+||mjtlive.com/exports/golive/?lp=*&afno=$image,~image,popup,third-party
 ||mofomedia.nl/pop-*.js
 ||movies.spacash.com^*&th=180x135$script
 ||mrvids.com/network/$third-party
@@ -13341,6 +13347,7 @@ _a468x60.
 ||youfck.com^$script,third-party
 ||youfck.com^*/adawe.swf
 ||youpornmate.com/dif/?cid=$third-party
+||yourvoyeurvideos.com^$image,~image,popup,third-party
 ||yplf.com/ram/files/sponsors/
 ||yuvutu.com^$image,~image,popup,third-party
 ||ztod.com/flash/wall*.swf
@@ -13655,6 +13662,7 @@ _a468x60.
 /stats/tracker.gif?
 /statsadvance.js
 /statscript.js
+/statspixel.php?
 /store-uniq-client-id?bomuuid=
 /stwc-counter/*
 /stwc/code.js

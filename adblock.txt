@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: IHJg5YadE8VGwZSjn/+coA
+!  Checksum: ce+RbmpERa7gJYLEXS7MeQ
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 28 Aug 2012 19:21:06 +0800
+!  Last Modified:  Fri, 31 Aug 2012 19:02:10 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -281,6 +281,7 @@ iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com###center > div[styl
 ||sclick.baidu.com^
 ||spcode.baidu.com^
 ||unstat.baidu.com^$~subdocument
+||cpro.baidustatic.com^
 !--iQIYI
 /tracker?$domain=iqiyi.com
 /ts.swf|$domain=iqiyi.com
@@ -457,7 +458,6 @@ uwants.com###foruminfo + div[align="center"]
 dm5.com##.a8ad
 dm5.com##.cl760
 dm5.com##.cl970
-dm5.com###ShowDIV
 
 !---豆丁
 ||docin.com/app/a_d/
@@ -1250,25 +1250,6 @@ tianya.cn###adsp_list_top_banner
 ||tom365.com/newjs/
 tom365.com###t365
 
-!---土豆
-/pos?$object_subrequest
-||tdimg.com/sales/
-||tudou.com^*/outside.php
-||tudou.com/tdap/
-||tudou.com/tdcm/
-||erreport.tudou.com^
-||istat.tudou.com/play.srv?
-||player.pb.ops.tudou.com/info.php?
-||stat*.tudou.com^
-||js.tudouui.com/js/fn/saleloader_*.js
-tudou.com##.b.seed
-tudou.com###adex_board
-!--for embedded videos
-||tdap.tudou.com^
-||tdcm.tudou.com^
-!--player may incorrectly blocked by some subscriptions
-@@||js.tudouui.com/bin/player$object
-
 !---U-CAR
 ||u-car.com.tw/js/crazyad.js
 ||u-car.com.tw/images/navigator/home_title_middle_
@@ -1471,6 +1452,18 @@ ynet.com###ta01
 soku.com###ab_282
 youku.com###ab_26
 youku.com##.AB240
+!--土豆
+@@||js.tudouui.com/bin/player$object
+@@||td.atm.youku.com/tdcm/adcontrol
+@@||td.atm.youku.com/crossdomain.xml
+/pos?$object_subrequest
+||tudou.com/service/outside.php
+||erreport.tudou.com^
+||istat.tudou.com/play.srv?
+||player.pb.ops.tudou.com/info.php?
+||stat*.tudou.com^
+||player.lstat.youku.com/log.gif
+tudou.com###adex_board
 
 !---人人影视
 @@||copy.ousns.com/new/1.PNG
@@ -1478,9 +1471,11 @@ youku.com##.AB240
 @@||copy.ousns.com/new/3.PNG
 @@||copy.ousns.com/new/4.PNG
 @@||copy.ousns.com/new/5.PNG
+yyets.com#@#.adBox
 ||copy.ousns.com^
 vod.oabt.org##.each_ad
 yyets.com##.couplet
+yyets.com##.ad954
 yyets.com###upad
 
 !---叶子猪游戏网
