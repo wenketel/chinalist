@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: V9YX1TJSObdmCPjnoA3N6A
+!  Checksum: temIaXusECUeekq1SPiqaQ
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 01 Sep 2012 14:59:30 +0800
+!  Last Modified:  Sun, 02 Sep 2012 08:16:59 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -53,10 +53,11 @@ bbs.9baka.com,bbs.9gal.com#@##top_ad
 ||g.163.com/*&affiliate=
 ||popme.163.com^
 ||v.163.com/special/open_adv/
+||top.baidu.com/none/163.html
 ||cache.netease.com/2012/ieupdate/update_funcs.js
 163.com##[class^="gg"]
 163.com##[id^="asian163_"]
-163.com###news_h123_content>.news_h123:first-child
+163.com##.news_h123.clearfix
 blog.163.com##.m-postadlayer
 reg.163.com###adhref
 www.163.com###g5n1
@@ -1837,7 +1838,7 @@ ranhen.com###box_con > div[align="center"]
 ||readnovel.com/js/$subdocument
 ||ruyu.org/js/
 ||bbs.sfw.com.cn/attachments/
-||saesky.net/js/*$script
+||saesky.net/js/$script
 @@||shanwen.com/configs/article/pagetop3.js
 @@||shanwen.com/scripts/checkuser.js
 ||shanwen.com^$script
@@ -2546,6 +2547,7 @@ zxtjd.com###it_an
 ||ubcpm.com^$third-party
 ||uctrac.com^$third-party
 ||ugooo.cc^$third-party
+||ugoooo.com^$third-party
 ||ujoin.net^$third-party
 ||ulink.cc^$third-party
 ||union.$third-party
@@ -2728,8 +2730,8 @@ zxtjd.com###it_an
 ||wumii.com/images/pixel.png
 
 !-----------------------Element Hiding---------------------
-1000fr.net##center
 10086.cn###popMaskAct
+1000fr.net##center
 360doc.com###divadleft
 51caiju.com###hint + .AdTop-Article-QQ
 51caiju.com##.l_qq_com
@@ -2776,7 +2778,7 @@ bbs.wuyou.com##[style="background: #BBE9FF"]
 xiachufang.com##.g-ga.g-bg-white
 
 !-----------------------Temporary---------------------------
-!---2012.8
+!---2012.9
 ||image.10010.com/index_js/flash-ad$script
 google.com,google.com.hk###topstuff > #wmxmsg
 ||nanrenwa.com/_img/a/$third-party
