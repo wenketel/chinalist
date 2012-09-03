@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: buuriViCTsLfNwsBzr+0MQ
+!  Checksum: RvtcRc8yUkwrupa8NDnF3w
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 03 Sep 2012 16:55:01 +0800
+!  Last Modified:  Mon, 03 Sep 2012 20:01:00 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -697,10 +697,10 @@ www.kankanews.com###J-zsb
 www.kankanews.com##.bann_ind
 
 !---凯迪网络
+||tracking.cat898.com^
 ||panda.kdnet.net^
 ||super.kdnet.net^
 ||tracking.kdnet.net^
-||tracking.cat898.com^
 
 !---极影动漫
 ||kkkmh.com/iframe/
@@ -1225,17 +1225,16 @@ www.sxrb.com###f_div
 www.sxrb.com##.area1_2_ad2
 
 !---电玩巴士
-||inc.tgbus.com/frame/
-||tgbus.com/search/article_endcontent_google.htm
+@@||gg.tgbus.com^$image,domain=android.tgbus.com|ipad.tgbus.com|iphone.tgbus.com
+||17446.com/a/
 ||tgbus.com/sf/taobao/
-||vista.tgbusdata.cn/s.js
+||inc.tgbus.com/frame/article_*_google.htm
+||inc.tgbus.com/frame/youxi.html
+||vista.tgbusdata.cn/s.js$domain=~android.tgbus.com|~ipad.tgbus.com|~iphone.tgbus.com
 tgbus.com##.ad79
-tgbus.com##.ad86
-tgbus.com##.ad131
-tgbus.com##.ads1
-tgbus.com###navi + .area
-iphone.tgbus.com##[class^="guan_"]
-iphone.tgbus.com###place
+tgbus.com##.t8
+tgbus.com###linshi
+tgbus.com##[id^="TGBUS_VISTA_CONTAINER_"]
 
 !---TianYa
 ||wres.mangocity.com/js/w/hezuo/
