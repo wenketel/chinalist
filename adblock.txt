@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: 0HrE6+ZmNHSMUSU9q44NIw
+!  Checksum: uX8P10y/DbulxSoO3/C2bQ
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 03 Sep 2012 20:01:00 +0800
+!  Last Modified:  Tue, 04 Sep 2012 19:33:57 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -817,22 +817,19 @@ appledaily.com.tw##.ads
 appledaily.com.tw###mask_wrapper
 
 !---Nownews
-@@||nownews.com/ad2004/*-*-*p.png
 @@||ad1.nownews.com/ads.php?ownerid=1294
-||nownews.com/ad2004/
+@@||ad1.nownews.com/*.php?ownerid=1355
 ||nownews.com/common/anypost/
 ||nownews.com/include_house/
-||nownews.com/include_v11/$subdocument
 ||nownews.com/include_v11/js/ad_tab.js
-||nownews.com/yam/
-||ad1.nownews.com^
-nownews.com##[id^="focus_"]
+||nownews.com/include_v11/js/googlad_top.js
+||nownews.com/include_v11/js/more.js
+||yes123.com.tw/nownews/
+nownews.com###focus_area
 nownews.com###hotchannel > .block_content:nth-child(3)
+nownews.com###focus_board
 nownews.com###index_headline_box + .page_title
 nownews.com###nownews_pickup
-nownews.com##.site_collection
-||news.tagtoo.co/site_media/
-||yes123.com.tw/nownews/
 
 !---东方电视
 @@||home.on.cc/adv/web/corp/$~image
@@ -936,7 +933,7 @@ down.qiannao.com###PageRigntAds
 ||cj.qidian.com/Picture/$domain=forum.qdwenxue.com|forum.qidian.com
 ||cj.qidian.com/svnad/
 ||c.pingba.qidian.com/increase.htm
-||sdo.com/sdk/$domain=qidian.com
+||sdo.com^*/main.js$domain=qidian.com
 ||uedas.$domain=qdmm.com|qdwenxue.com|qidian.com
 qdmm.com,qidian.com##a[href^="http://www.qidian.com/showavd.aspx?"]
 qidian.com##[class^="show_ggpic_"]
@@ -2532,6 +2529,7 @@ zxtjd.com###it_an
 ||svem.cc^$third-party
 ||sxtengchuang.cn^$third-party
 ||szvr.com^$third-party
+||news.tagtoo.co^$third-party
 ||tanx.com^$third-party,domain=~taobao.com|~tmall.com
 ||taotaosou.com^$third-party
 ||tazhao.com^$third-party

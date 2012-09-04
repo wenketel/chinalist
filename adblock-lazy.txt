@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: RvtcRc8yUkwrupa8NDnF3w
+!  Checksum: 8zt2jSpdu/VYPe5LWryPlw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 03 Sep 2012 20:01:00 +0800
+!  Last Modified:  Tue, 04 Sep 2012 19:33:57 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -818,22 +818,19 @@ appledaily.com.tw##.ads
 appledaily.com.tw###mask_wrapper
 
 !---Nownews
-@@||nownews.com/ad2004/*-*-*p.png
 @@||ad1.nownews.com/ads.php?ownerid=1294
-||nownews.com/ad2004/
+@@||ad1.nownews.com/*.php?ownerid=1355
 ||nownews.com/common/anypost/
 ||nownews.com/include_house/
-||nownews.com/include_v11/$subdocument
 ||nownews.com/include_v11/js/ad_tab.js
-||nownews.com/yam/
-||ad1.nownews.com^
-nownews.com##[id^="focus_"]
+||nownews.com/include_v11/js/googlad_top.js
+||nownews.com/include_v11/js/more.js
+||yes123.com.tw/nownews/
+nownews.com###focus_area
 nownews.com###hotchannel > .block_content:nth-child(3)
+nownews.com###focus_board
 nownews.com###index_headline_box + .page_title
 nownews.com###nownews_pickup
-nownews.com##.site_collection
-||news.tagtoo.co/site_media/
-||yes123.com.tw/nownews/
 
 !---东方电视
 @@||home.on.cc/adv/web/corp/$~image
@@ -937,7 +934,7 @@ down.qiannao.com###PageRigntAds
 ||cj.qidian.com/Picture/$domain=forum.qdwenxue.com|forum.qidian.com
 ||cj.qidian.com/svnad/
 ||c.pingba.qidian.com/increase.htm
-||sdo.com/sdk/$domain=qidian.com
+||sdo.com^*/main.js$domain=qidian.com
 ||uedas.$domain=qdmm.com|qdwenxue.com|qidian.com
 qdmm.com,qidian.com##a[href^="http://www.qidian.com/showavd.aspx?"]
 qidian.com##[class^="show_ggpic_"]
@@ -2532,6 +2529,7 @@ zxtjd.com###it_an
 ||svem.cc^$third-party
 ||sxtengchuang.cn^$third-party
 ||szvr.com^$third-party
+||news.tagtoo.co^$third-party
 ||tanx.com^$third-party,domain=~taobao.com|~tmall.com
 ||taotaosou.com^$third-party
 ||tazhao.com^$third-party
@@ -2915,6 +2913,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 .lazyload-ad-
 .net/ad/$~object-subrequest
 .net/ads_
+.nu/ads/
 .openxtag.js
 .org/ad.
 .org/ad/
@@ -3405,6 +3404,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /ads/panel.
 /ads/proxy-
 /ads/skins/*
+/ads/sponsors_
 /ads/square.
 /ads/square2.
 /ads/square3.
@@ -3700,6 +3700,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /advertising2.
 /advertising_
 /advertisingbanner.
+/advertisingbanner/*
 /advertisingcontent/*
 /advertisingmanual.
 /advertisingmodule.
@@ -5028,6 +5029,7 @@ _box_ad_
 _btnad_
 _buttonad.
 _companionad.
+_content_ad.
 _contest_ad_
 _custom_ad.
 _custom_ad_
@@ -6723,6 +6725,7 @@ _a468x60.
 ###content-left-ad
 ###content-right-ad
 ~fichier.net,~filecheck.ru,~orientaldaily.on.cc###contentAd
+###contentAdSense
 ###contentBoxad
 ###contentTopAds2
 ~maximonline.ru###content_ad
@@ -7520,6 +7523,7 @@ _a468x60.
 ###sidebar-sponsor-link
 ###sidebar2ads
 ###sidebarAd
+###sidebarAdSense
 ###sidebarAds
 ###sidebarAdvert
 ###sidebarTextAds
@@ -8088,6 +8092,7 @@ _a468x60.
 ##.ad-body
 ##.ad-bordered
 ~zeitleser.de##.ad-bottom
+##.ad-bottomleader
 ~go.com,~horsebase.de,~sc2mapster.com##.ad-box
 ##.ad-box2
 ##.ad-break
@@ -8133,6 +8138,7 @@ _a468x60.
 ##.ad-label
 ##.ad-leaderboard
 ~jerseyinsight.com,~jeuxjeuxjeux.fr##.ad-left
+##.ad-leftrail
 ##.ad-link
 ~guloggratis.dk##.ad-links
 ##.ad-lrec
@@ -8762,6 +8768,7 @@ _a468x60.
 ##.ads_box_headline
 ##.ads_brace
 ##.ads_catDiv
+##.ads_column
 ##.ads_container
 ##.ads_disc_anchor
 ##.ads_disc_leader
@@ -9130,6 +9137,8 @@ _a468x60.
 ##.b-ads_iframe
 ##.b-astro-sponsored-links_horizontal
 ##.b-astro-sponsored-links_vertical
+##.b5-ad-pushdown
+##.b5ad_skyscraper
 ##.b_ads_cont
 ##.b_ads_top
 ##.backgroundAd
@@ -10386,6 +10395,7 @@ _a468x60.
 ~golfmanagerlive.com##.sponsorlink
 ##.sponsorlink2
 ##.sponsormsg
+##.sponsors_box_container
 ##.sport-mpu-box
 ##.spotlightAd
 ##.squareAd
@@ -10513,6 +10523,7 @@ _a468x60.
 ##.top_advertising_lb
 ##.top_bar_ad
 ##.top_container_ad
+##.top_rightad
 ##.topad-bar
 ##.topadbox
 ~earlyamerica.com##.topads
@@ -11734,6 +11745,7 @@ _a468x60.
 ||platinumadvertisement.com^$third-party
 ||playertraffic.com^$third-party
 ||plenomedia.com^$third-party
+||plocap.com^$third-party
 ||plugerr.com^$third-party
 ||pmsrvr.com^$third-party
 ||pntra.com^$third-party
@@ -12292,6 +12304,7 @@ _a468x60.
 ||1-million-usd.com/images/banners/
 ||108.59.5.132/files/$third-party,domain=~1channel.ch.ip
 ||110mb.com/images/banners/
+||118d654612df63bc8395-aecfeaabe29a34ea9a877711ec6d8aed.r37.cf2.rackcdn.com^
 ||173.199.120.7/delivery/$domain=~p2p.adserver.ip
 ||1st-russian-bride.com/banners/
 ||1stag.com/main/img/banners/
@@ -13771,7 +13784,9 @@ _a468x60.
 /xmint/?js
 /xtclicks-$script
 /xtclicks.js
+/xtclicks_
 /xtcore.js
+/xtcore_
 /xtrack.php?
 /xtroi.js
 /yalst/pixel*.php?
@@ -14733,6 +14748,7 @@ _comscore.js
 ||control.adap.tv^$object-subrequest
 ||count.me.uk^
 ||count.paycounter.com^
+||counter.bloke.com^
 ||counter.cam-content.com^
 ||counter.htmlvalidator.com^
 ||counter.hyipexplorer.com^
