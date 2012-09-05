@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: uX8P10y/DbulxSoO3/C2bQ
+!  Checksum: /Om7LYgDzXPvoLWws/sF/w
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 04 Sep 2012 19:33:57 +0800
+!  Last Modified:  Wed, 05 Sep 2012 22:15:09 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -55,6 +55,7 @@ bbs.9baka.com,bbs.9gal.com#@##top_ad
 ||v.163.com/special/open_adv/
 ||top.baidu.com/none/163.html
 ||cache.netease.com/2012/ieupdate/update_funcs.js
+||upaiyun.com/js/tts-media.js
 163.com##[class^="gg"]
 163.com##[id^="asian163_"]
 163.com##.news_h123.clearfix
@@ -820,10 +821,12 @@ appledaily.com.tw###mask_wrapper
 @@||ad1.nownews.com/ads.php?ownerid=1294
 @@||ad1.nownews.com/*.php?ownerid=1355
 ||nownews.com/common/anypost/
+||nownews.com/events/extad
 ||nownews.com/include_house/
 ||nownews.com/include_v11/js/ad_tab.js
 ||nownews.com/include_v11/js/googlad_top.js
 ||nownews.com/include_v11/js/more.js
+||rd.nownews.com^
 ||yes123.com.tw/nownews/
 nownews.com###focus_area
 nownews.com###hotchannel > .block_content:nth-child(3)
@@ -933,6 +936,7 @@ down.qiannao.com###PageRigntAds
 ||cj.qidian.com/Picture/$domain=forum.qdwenxue.com|forum.qidian.com
 ||cj.qidian.com/svnad/
 ||c.pingba.qidian.com/increase.htm
+||sdo.com^*/block.js$domain=qidian.com
 ||sdo.com^*/main.js$domain=qidian.com
 ||uedas.$domain=qdmm.com|qdwenxue.com|qidian.com
 qdmm.com,qidian.com##a[href^="http://www.qidian.com/showavd.aspx?"]
@@ -1140,7 +1144,6 @@ sina.com.cn##.adNone
 ||l.you.video.sina.com.cn^$object_subrequest
 video.sina.com.cn###bgad_div
 !-weibo
-@@||api.t.sina.com.cn/statuses/counts.
 weibo.com##[id^="ads_"]
 weibo.com##.footer_adv
 weibo.com##.tips_player
@@ -1737,14 +1740,16 @@ yesky.com##[class^="ad"]
 /configs/article/*$script,subdocument
 /configs/article/gggg/*
 /contentjs/*$script
-||16k.net.cn/js/readadtop$script
-||16k.net.cn/js/yuedu2.js
+16k.net.cn/js/readadtop$script
+||16k.net.cn/js/you$script
+||16k.net.cn/js/yuedu$script
 16k.net.cn###sidelist
 16k.net.cn##tr[height="80"]
 ||17dm.com/s/common/js/*AD.js
 ||img.17k.com/channel/qita/
 ||log.17k.com^
 17k.com##[id^="ad0"]
+17k.com##.b950
 ||17kk.cc/scriptAD/
 ||site.24novel.com/js/readbottom.js
 24novel.com#@##adtop
@@ -1754,8 +1759,6 @@ yesky.com##[class^="ad"]
 ||33xs.com/hot/
 ||33xs.com/js/mg
 ||t.33xs.com/js/g
-@@||35xs.com/js/xingxi.js
-||35xs.com/js/
 ||35zww.com/zzzjs/
 ||3yt.com/2009js/
 ||52kdm.com/javascript/show.js
@@ -1767,26 +1770,20 @@ yesky.com##[class^="ad"]
 ||86zw.com/zz/
 ||t.58xs.com/hot/
 ||59to.com/myjs/$script
-||77119.com/js/bd/
-||77119.com/js/mm/
-||77119.com/js/qt/
-77119.com#@#.topadbox
+@@||77119.com/js/fenxiang.js
+||77119.com/js/
 @@||jj.5ccc.net/scripts/new/pagetop.js
-||jj.5ccc.net/scripts/new/counter.js
-||jj.5ccc.net/scripts/new/index$script
+||jj.5ccc.net/scripts/new/
 ||87ks.com/93xw/$script
 ||9lala.com/js/
-||baishuzhai.com/bookaction.aspx?action=popad
-||baishuzhai.com/wlxsjs/bd$script
-||baishuzhai.com/wlxsjs/c_gg2.js
+||baishuzhai.com/css/*_$script
+||baishuzhai.com/css/inend.js
 ||baishuku.com/news/$script
 ||binhuo.com/bhjs/
 binhuo.com##table[width="950PX"]
 ||bookcu.com/pop.js
-||bookgew.com/hz1/
-||bookgew.com/ml85/
-||bookgew.com/rar/
-||bookgew.com/zj85/
+@@||bookgew.com/js/$script
+||bookgew.com/*/$script,subdocument
 ||booksky.org/popa.js
 ||boxiw.com/js/
 ||bxs.cc/888/
@@ -1795,17 +1792,22 @@ bxs.cc##[id="728ad"]
 bxs.cc##.dingyue
 ||cc222.com/cc222Ads/
 ||cc222.com/_javascript/popupWin.js
+||cococomic.com/aitw/
 ||cococomic.com/g/
+||cococomic.com/script/tjs.js
 ||d3zw.com/js/*.aspx
 ||dddbbb.net^$script,subdocument
-@@||dukankan.com/xiaoyi/js/header.js
+||dm8.cc/javascript/xshow.js
+||dm8.cc/s/
+||dm8.cc/show/
 @@||dukankan.com/xiaoyi/js/Footer.js
+@@||dukankan.com/xiaoyi/js/header.js
+@@||dukankan.com/xiaoyi/js/loginTop.js
 ||dukankan.com/xiaoyi/js/
 ||dudu8.net/a_d/
-||img.duyidu.com/includehtml/gg/
-||img.duyidu.com/includehtml/newjs/tanc.js
-||img.duyidu.com/includehtml/newjs/m3.js
-||duzheju.com/files/friend/
+||img.duyidu.com/includehtml/newjs/5.js
+||img.duyidu.com/includehtml/newjs/m$script
+||duzheju.com/file/script/
 ||flux.faloo.com/pvdata.aspx
 ||s.faloo.com/novel/ad.js
 faloo.com##[class^="ad_"]
@@ -1814,25 +1816,19 @@ faloo.com##[class^="ad_"]
 ||geiliwx.com/read/ad$script
 ||ggyy8.cc/js/v/
 ||hotsk.com/js/asp.js
-||hotsk.com/js/fy.js
 ||hszw.com/inc/
 ||imanhua.com^*/nmoneys/
 ||imanhua.com^*/money/
+imanhua.com###topmon
 ||jpnovel.com/myjs/
+||kenwen.com/scripts/cfmt.js
 ||kenwen.com/scripts/ctc.js
+||kenwen.com/scripts/tc.js
 ||ktkkt.com/js/cnbeta/
-||kukudm.com/js/
+||kukudm.com/kukuad/
 ||laishu.com/lsgg/
-||laishuwu.com/baidu/
-||laishuwu.com/files/friend/
-||mywenxue.com/Skin/Default/js/fdad.js
-||mywenxue.com/Skin/Default/Css/fdad.Css
 ||niaoyan.net/wlxsjs/c_gg2.js
-||niepo.net/top/
-niepo.net##.m_ads
 ||niubb.net/niubbad/
-||ppshi.com/aa.js
-||ppshi.com/zz/
 ||qianpo.com/Skin/Default/htm/index_350_50.html
 ||quanben.com/themes/quanben/qj.js
 ||ranhen.com/js/
@@ -1841,10 +1837,8 @@ ranhen.com###box_con > div[align="center"]
 ||ranwen.net/ssi/
 ||readnovel.com/js/$subdocument
 ||ruyu.org/js/
-||bbs.sfw.com.cn/attachments/
 ||saesky.net/js/$script
 @@||shanwen.com/configs/article/pagetop3.js
-@@||shanwen.com/scripts/checkuser.js
 ||shanwen.com^$script
 ||shuoshuo520.com/js/960.js
 ||shuoshuo520.com/scripts/read$script
@@ -1853,8 +1847,8 @@ shushuw.cn##.bdad
 ||ttshu.com/js/
 ||wanshulou.com/skin/js/
 wanshulou.com###ad2
-wanshulou.com##.wrap:nth-child(3)
-||xiaolushu.com/js/chapter_banner.js
+wanshulou.com##body > .wrap:nth-child(4)
+||xiaolushu.com/js/
 @@||xiaoshuo570.com/scripts/read/page.js
 ||xiaoshuo570.com/scripts/read$script
 ||xiaoxiucai.org/configs/mu-2.js
@@ -1862,12 +1856,17 @@ wanshulou.com##.wrap:nth-child(3)
 ||xiazailou.com^*/ad$script
 ||xiazailou.com/js/new/read01.js
 ||xizibook.com/js_ad/
+||xskz.com/js/kz.js
 ||xkzw.org/wlxsjs/
 ||xntk.net^$script
-||xs8.cn/data/iframe/$script
+||xs8.cn/data/iframe/xs8_text_title.js
+||xs8.cn/xs8_stat.js
+||images.xxsy.net/js/xxsypop.js
 ||images.xxsy.net/sygg/
 xxsy.net###infoleftad_2
 xxsy.net##.rightbanner
+||xzcl.com/top/
+xzcl.com##.m_ads
 ||yueshuba.com/js/
 ||yueshuba.com/themes/jieqidiv1/images/yueshuba_banner.gif
 ||zhulang.com/images/$object
@@ -2477,6 +2476,7 @@ zxtjd.com###it_an
 ||u1th.com^$third-party
 ||netgy.com^$third-party
 ||newwang.com^$third-party
+||niurenw.com^$third-party
 ||niux88.com^$third-party
 ||niwota.com^$third-party
 ||now.cn^$third-party
@@ -2690,7 +2690,6 @@ zxtjd.com###it_an
 
 !-----------------------------Privacy----------------------
 /count.js|
-/counts.
 |http://click.$image
 |http://pv.
 |http://pvstat.
