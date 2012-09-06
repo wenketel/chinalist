@@ -43,7 +43,7 @@ namespace ABPUtils
         /// <returns></returns>
         public int Validate()
         {
-            string content = ReadList();
+            string content = ReadListToEnd();
             string checkSum = FindCheckSum(content);
             if (string.IsNullOrEmpty(checkSum))
             {
@@ -114,11 +114,46 @@ namespace ABPUtils
         /// <returns></returns>
         private string ReadList()
         {
-            string content;
+            var line = string.Empty;
+            var content = string.Empty;
+            var sBuilder = new StringBuilder();
+            var list = new List<string>();
+
+            using (StreamReader sr = new StreamReader(FileName, Encoding.UTF8))
+            {
+                // filter duplicate line
+                while ((line = sr.ReadLine()) != null)
+                {
+                    if (!string.IsNullOrEmpty(line))
+                    {
+                        if (list.Contains(line) && !line.StartsWith("!"))
+                            continue;
+
+                        list.Add(line);
+                    }
+
+                    sBuilder.AppendLine(line);
+                }
+            }
+
+            content = sBuilder.ToString();
+            content = ToSimplified(content);
+            content = content.Replace("\r", string.Empty);
+
+            return content;
+        }
+
+        /// <summary>
+        /// Read list content one time
+        /// </summary>
+        /// <returns></returns>
+        private string ReadListToEnd()
+        {
+            var content = string.Empty;
+
             using (StreamReader sr = new StreamReader(FileName, Encoding.UTF8))
             {
                 content = sr.ReadToEnd();
-                content = ToSimplified(content);
                 content = content.Replace("\r", string.Empty);
             }
 

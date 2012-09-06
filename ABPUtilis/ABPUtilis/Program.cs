@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
+using System.Linq;
 using System.Net;
 using System.Reflection;
 using System.Text;
@@ -213,13 +214,19 @@ namespace ABPUtils
             if (string.IsNullOrEmpty(lazyList))
                 lazyList = "adblock-lazy.txt";
 
-            //merge
+            // validate ChinaList to merge
+            ChinaList cl = new ChinaList(chinaList);
+            cl.Update();
+
+            if (cl.Validate() != 1)
+                return;
+
+            // load ChinaList content
             string chinaListContent = string.Empty;
             StringBuilder sBuilder = new StringBuilder();
             using (StreamReader sr = new StreamReader(chinaList, Encoding.UTF8))
             {
                 chinaListContent = sr.ReadToEnd();
-                //TODO:replace header
                 var headerIndex = chinaListContent.IndexOf(ConstString.CHINALIST_LAZY_HEADER_MARK);
                 chinaListContent = chinaListContent.Substring(headerIndex).Insert(0, ConstString.CHINALIST_LAZY_HEADER);
                 var index = chinaListContent.IndexOf(ConstString.CHINALIST_END_MARK);
@@ -257,12 +264,14 @@ namespace ABPUtils
 
                     if (patchconfig.NewItems.Count > 0)
                         sBuilder.AppendLine("!-----------------additional for ChinaList Lazy-------------");
+
                     foreach (var item in patchconfig.NewItems)
                     {
                         sBuilder.AppendLine(item);
                         Console.WriteLine("add filter {0}", item);
                     }
                 }
+
                 Console.WriteLine("Patch file end.");
             }
 
@@ -272,9 +281,6 @@ namespace ABPUtils
             Console.WriteLine(string.Format("Merge {0}, {1} and {2}.", chinaList, ConstString.EASYLIST, ConstString.EASYPRIVACY));
             ChinaList.Save(lazyList, sBuilder.ToString());
 
-            ChinaList cl = new ChinaList(chinaList);
-            cl.Update();
-            cl.Validate();
             cl = new ChinaList(lazyList);
             cl.Update();
             cl.Validate();
@@ -495,6 +501,25 @@ namespace ABPUtils
             temp = temp.Split('\n')[0].Trim();
 
             return temp;
+        }
+
+        static StringBuilder RemoveDuplicateFilter(StringBuilder sBuilder)
+        {
+            var list = new List<string>(sBuilder.ToString().Split('\n')).Distinct<string>();
+            var t = new List<string>();
+
+            sBuilder.Clear();
+
+            foreach (var f in list)
+            {
+                if (t.Contains(f))
+                    continue;
+
+                t.Add(f);
+                sBuilder.AppendLine(f);
+            }
+
+            return sBuilder;
         }
     }
 }

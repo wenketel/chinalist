@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: Xo8zn5FelfLnfP8tIGNovA
+!  Checksum: sy+Pb+RohbRNBADDefaCXA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 06 Sep 2012 09:28:59 +0800
+!  Last Modified:  Thu, 06 Sep 2012 20:13:25 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -599,7 +599,6 @@ www.hsw.cn##table[width="980"][height="100"]
 !---环球网
 /cooperation/*$script,subdocument,domain=firefox.huanqiu.com
 ||huanqiu.com/script/HuanQiuAllBottom.Js
-||huanqiu.com/statics/js/adCode.js
 ||huanqiu.com/statics/js/adcontrol1.js
 huanqiu.com###adDt
 
@@ -2282,6 +2281,7 @@ zxtjd.com###it_an
 ||8601098.com^$third-party
 ||88210212.com^$third-party
 ||885ad.com^$third-party
+||8888mmm.com^$third-party
 ||8le8le.com^$third-party
 ||8peng.com^$third-party
 ||90hao.com^$third-party
@@ -2504,6 +2504,7 @@ zxtjd.com###it_an
 ||qling.com^$third-party
 ||qq61.com^$third-party
 ||qq937.com^$third-party
+||qqle.info^$third-party
 ||quantui.com^$third-party
 ||qutaotao.com^$third-party
 ||rayli.com.cn^$third-party
@@ -2915,6 +2916,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 .net/ad/$~object-subrequest
 .net/ads-
 .net/ads_
+.net/d.php?id=226_$subdocument,third-party
 .nu/ads/
 .openxtag.js
 .org/ad-
@@ -11362,7 +11364,6 @@ _a468x60.
 ||etology.com^$third-party
 ||euroclick.com^$third-party
 ||euros4click.de^$third-party
-||exelator.com^$third-party
 ||exitexplosion.com^$third-party
 ||exitjunction.com^$third-party
 ||exoclick.com^$image,~image,popup
@@ -14087,6 +14088,7 @@ _comscore.js
 ||evolvemediametrics.com^$third-party
 ||ewebanalytics.com^$third-party
 ||ewebcounter.com^$third-party
+||exelator.com^$third-party
 ||extreme-dm.com^$third-party
 ||ezytrack.com^$third-party
 ||fastanalytic.com^$third-party
@@ -14275,7 +14277,6 @@ _comscore.js
 ||mm7.net^$third-party
 ||mmetrix.mobi^$third-party
 ||mmi-agency.com^$third-party
-||mmismm.com^$third-party
 ||mochibot.com^$third-party
 ||monetate.net^$third-party
 ||mongoosemetrics.com^$third-party
@@ -15212,9 +15213,6 @@ _comscore.js
 ||webd.home.news.cn/1.gif?
 ||xnimg.cn^*/beacon.js
 !-----------------additional for ChinaList Lazy-------------
-||2mdn.net^$object-subrequest,third-party,domain=youtube.com
-||phobos.apple.com^$image,domain=dailymotion.com|youtube.com
-||topspin.net/secure/media/$image,domain=youtube.com
 ||espn.vad.go.com^$domain=youtube.com
 ||google.com/jsapi?autoload=*%22ads%22$script,domain=youtube.com
 ||ytimg.com^*_banner$domain=youtube.com
