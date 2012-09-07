@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: sy+Pb+RohbRNBADDefaCXA
+!  Checksum: 4Ss61PVfeEWaIRyzD7SvVA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 06 Sep 2012 20:13:25 +0800
+!  Last Modified:  Fri, 07 Sep 2012 17:24:13 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1505,8 +1505,9 @@ wenwen.soso.com##.ad1
 ||p.zol-img.com.cn^
 ||pic.zol-img.com.cn^$object
 ||pic.zol-img.com.cn/*430_$image
+bbs.zol.com.cn#@#.adside
 zol.com.cn##.ad
-zol.com.cn###ad_161
+zol.com.cn[id^="ad_"]
 zol.com.cn##.hot_tj
 zol.com.cn###rightAdDiv1
 vga.zol.com.cn##.banner250
@@ -3037,6 +3038,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /ad728.
 /ad728x15.
 /ad?count=
+/ad_300.html
 /ad_agency/*
 /ad_area.
 /ad_banner.
@@ -3067,6 +3069,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /ad_function.
 /ad_gif/*
 /ad_google.
+/ad_google_
 /ad_head0.
 /ad_header_
 /ad_holder/*
@@ -3082,6 +3085,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /ad_jnaught/*
 /ad_label_
 /ad_leader.
+/ad_leaderboard.
 /ad_left.
 /ad_legend_
 /ad_link.
@@ -4114,6 +4118,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /gamersad.
 /general-ad-
 /generate_ad.
+/generateadtag.
 /generateplayerads.
 /genericrichmediabannerad/*
 /geo-ads_
@@ -4822,6 +4827,8 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /webadimg/*
 /webads.
 /webads_
+/webadvert.
+/webadvert/*
 /webadverts/*
 /webmailad.
 /webmaster_ads/*
@@ -5862,6 +5869,7 @@ _a468x60.
 ###ad_468_60
 ###ad_468x60
 ~sanmarcosrecord.com###ad_5
+###ad_500
 ###ad_728_foot
 ###ad_728x90
 ###ad_728x90_container
@@ -9448,6 +9456,8 @@ _a468x60.
 ##.cscTextAd
 ##.cse_ads
 ##.cspAd
+##.ct-ad-article-wrapper
+##.ct-bottom-ads
 ##.ct_ad
 ##.ctnAdSkyscraper
 ##.ctnAdSquare300
@@ -9489,6 +9499,8 @@ _a468x60.
 ##.divads
 ##.divider_ad
 ##.dlSponsoredLinks
+##.dm-ads-125
+##.dm-ads-350
 ##.dmco_advert_iabrighttitle
 ##.downloadAds
 ##.download_ad
@@ -9753,6 +9765,7 @@ _a468x60.
 ##.ib-figure-ad
 ##.ic-ads
 ##.ico-adv
+##.idGoogleAdsense
 ##.idMultiAd
 ##.iframe-ad
 ##.image-advertisement
@@ -10808,6 +10821,7 @@ _a468x60.
 ||adcount.in^$third-party
 ||adcru.com^$third-party
 ||addaim.com^$third-party
+||addoer.com^$third-party
 ||adecn.com^$third-party
 ||adengage.com^$third-party
 ||adexcite.com^$third-party
@@ -11331,6 +11345,7 @@ _a468x60.
 ||dt07.net^$third-party,domain=~marketgid.com|~marketgid.ru|~marketgid.ua|~mgid.com|~thechive.com
 ||dualmarket.info^$third-party
 ||dynamicoxygen.com^$third-party
+||dynamicyield.com^$third-party
 ||e-planning.net^$third-party
 ||e-viral.com^$third-party
 ||eads-adserving.com^$third-party
@@ -12172,6 +12187,7 @@ _a468x60.
 ||24x7adservice.com^$third-party
 ||33traffic.com^$third-party
 ||777-partner.com^$third-party
+||777-partner.net^$third-party
 ||777partner.com^$third-party
 ||777partner.net^$third-party
 ||aaovn.info^$third-party
@@ -12206,6 +12222,7 @@ _a468x60.
 ||cash-program.com^$third-party
 ||cdn.nsimg.net^$third-party
 ||cennter.com^$third-party
+||clicksvenue.com^$third-party
 ||clickthruserver.com^$third-party
 ||clicktrace.info^$third-party
 ||coldhardcash.com^$third-party
@@ -12528,6 +12545,7 @@ _a468x60.
 ||colorlabsproject.com^*/banner_
 ||complexmedianetwork.com/cdn/agenda.complex.com/$domain=~complex.com
 ||comx-computers.co.za/banners/$third-party
+||conduit.com//banners/$third-party
 ||connect.summit.co.uk^
 ||consolpub.com/weatherwindow/
 ||counter-strike.com/banners/
@@ -12827,6 +12845,7 @@ _a468x60.
 ||mmo4rpg.com^*.gif|$third-party
 ||mmosale.com/baner_images/$third-party
 ||mobyler.com/img/banner/
+||moevideo.net/get_func.php
 ||moevideo.net/get_rec.php
 ||mozo-widgets.f2.com.au^
 ||mp3ix.com^$third-party
@@ -13693,7 +13712,8 @@ _a468x60.
 /php-stats.phpjs.php?
 /php-stats.recjs.php?
 /phpmyvisites.js
-/piwik.
+/piwik.js
+/piwik.php
 /pixelstats/*
 /planetstat.php?
 /plugins/google-analytics/*
@@ -13816,6 +13836,7 @@ _a468x60.
 ://gdyn.*/1.gif?
 ://ivwextern.
 ://mint.*/?js
+://piwik.$third-party
 ://sett.*/log.js
 ://timeslog.
 ://tracking.*/beacon/
@@ -14344,7 +14365,6 @@ _comscore.js
 ||paidstats.com^$third-party
 ||pardot.com^$third-party
 ||parklogic.com^$third-party
-||parsely.com^$third-party
 ||percentmobile.com^$third-party
 ||personyze.com^$third-party
 ||phonalytics.com^$third-party
@@ -14483,6 +14503,7 @@ _comscore.js
 ||svlu.net^$third-party
 ||swfstats.com^$third-party
 ||swiss-counter.com^$third-party
+||synergy-e.com^$third-party
 ||sysomos.com^$third-party
 ||tcimg.com^$third-party
 ||tdstats.com^$third-party
@@ -15022,6 +15043,7 @@ _comscore.js
 ||stat.easydate.biz^
 ||stat.ed.cupidplc.com^
 ||stat.segitek.hu^
+||static.parsely.com^$third-party
 ||statistics.infowap.info^
 ||statistics.wibiya.com^
 ||stats-newyork1.bloxcms.com^
