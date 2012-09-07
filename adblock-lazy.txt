@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 4kuLo4eiHMnVxJbmR8QNWw
+!  Checksum: XVDcWDFhAZuF4/h8OWcP7Q
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 08 Sep 2012 00:18:28 +0800
+!  Last Modified:  Sat, 08 Sep 2012 01:34:59 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -774,6 +774,11 @@ tt.mop.com###js-sub-body + div[style]
 www.mop.com##.gg03
 
 !---驱动之家
+||11.mydrivers.com/drivers/
+||11.mydrivers.com/news/03.js
+||11.mydrivers.com/news/google468x60.js
+||images.mydrivers.com/*/*600x60$image
+drivers.mydrivers.com##div[align="center"]
 news.mydrivers.com##table[border="0"][width="980"][height="90"]
 !--myfiles
 ||11.mydrivers.com/myfiles/04.js
@@ -930,9 +935,8 @@ down.qiannao.com###PageRigntAds
 ||cj.qidian.com/Picture/$domain=forum.qdwenxue.com|forum.qidian.com
 ||cj.qidian.com/svnad/
 ||c.pingba.qidian.com/increase.htm
-||sdo.com^*/block.js$domain=qidian.com
 ||sdo.com^*/main.js$domain=qidian.com
-||sdo.com/sdk/js/hsp/ablock.js
+||sdo.com/sdk/js/hsp/$domain=qidian.com
 ||uedas.$domain=qdmm.com|qdwenxue.com|qidian.com
 qdmm.com,qidian.com##a[href^="http://www.qidian.com/showavd.aspx?"]
 qidian.com##[class^="show_ggpic_"]
@@ -5061,6 +5065,7 @@ _headerad.
 _house_ad_
 _index_ad.
 _jtads/
+_layerad.
 _link_ads-
 _live/ad/
 _logadslot&
@@ -10751,7 +10756,7 @@ _a468x60.
 ||247realmedia.com^$third-party
 ||254a.com^$third-party
 ||2mdn.net/dot.gif$object-subrequest,third-party
-||2mdn.net^$object-subrequest,third-party,domain=101cargames.com|3news.co.nz|bbc.co.uk|bbc.com|bet.com|bloomberg.com|box10.com|businessday.co.za|businessweek.com|calgaryherald.com|cbslocal.com|couriermail.com.au|drive.com.au|edmontonjournal.com|eonline.com|euronews.com|foodnetwork.ca|globaltoronto.com|globaltvbc.com|heraldsun.com.au|independent.ie|kfiam640.com|leaderpost.com|livestream.com|metacafe.com|montrealgazette.com|my9tv.com|myfoxny.com|nationalpost.com|nba.tv|ndtv.com|newyorkjets.com|nfl.com|ottawacitizen.com|patriots.com|reuters.com|rollingstone.com|rte.ie|sherdog.com|skynews.com.au|smh.com.au|telegraph.co.uk|theage.com.au|theaustralian.com.au|thecomedynetwork.ca|theprovince.com|thestarphoenix.com|timescolonist.com|vancouversun.com|vice.com|weather.com|windsorstar.com|youtube.com
+||2mdn.net^$object-subrequest,third-party,domain=101cargames.com|3news.co.nz|abcnews.go.com|bbc.co.uk|bbc.com|bet.com|bloomberg.com|box10.com|businessday.co.za|businessweek.com|calgaryherald.com|cbslocal.com|couriermail.com.au|drive.com.au|edmontonjournal.com|eonline.com|euronews.com|foodnetwork.ca|globaltoronto.com|globaltvbc.com|heraldsun.com.au|independent.ie|kfiam640.com|leaderpost.com|livestream.com|metacafe.com|montrealgazette.com|my9tv.com|myfoxny.com|nationalpost.com|nba.tv|ndtv.com|newyorkjets.com|nfl.com|ottawacitizen.com|patriots.com|reuters.com|rollingstone.com|rte.ie|sherdog.com|skynews.com.au|smh.com.au|telegraph.co.uk|theage.com.au|theaustralian.com.au|thecomedynetwork.ca|theprovince.com|thestarphoenix.com|timescolonist.com|vancouversun.com|vice.com|weather.com|windsorstar.com|youtube.com
 ||2mdn.net^$~object-subrequest,third-party
 ||360ads.com^$third-party
 ||360yield.com^$third-party

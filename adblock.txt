@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: NvPwy6F3STrx98nrYopaoA
+!  Checksum: eNzskD2Kxwk/fK/7HejAjw
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 08 Sep 2012 00:18:26 +0800
+!  Last Modified:  Sat, 08 Sep 2012 01:34:57 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -773,6 +773,11 @@ tt.mop.com###js-sub-body + div[style]
 www.mop.com##.gg03
 
 !---驱动之家
+||11.mydrivers.com/drivers/
+||11.mydrivers.com/news/03.js
+||11.mydrivers.com/news/google468x60.js
+||images.mydrivers.com/*/*600x60$image
+drivers.mydrivers.com##div[align="center"]
 news.mydrivers.com##table[border="0"][width="980"][height="90"]
 !--myfiles
 ||11.mydrivers.com/myfiles/04.js
@@ -929,9 +934,8 @@ down.qiannao.com###PageRigntAds
 ||cj.qidian.com/Picture/$domain=forum.qdwenxue.com|forum.qidian.com
 ||cj.qidian.com/svnad/
 ||c.pingba.qidian.com/increase.htm
-||sdo.com^*/block.js$domain=qidian.com
 ||sdo.com^*/main.js$domain=qidian.com
-||sdo.com/sdk/js/hsp/ablock.js
+||sdo.com/sdk/js/hsp/$domain=qidian.com
 ||uedas.$domain=qdmm.com|qdwenxue.com|qidian.com
 qdmm.com,qidian.com##a[href^="http://www.qidian.com/showavd.aspx?"]
 qidian.com##[class^="show_ggpic_"]
