@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: JHKdmswstOrAk3fELmBYGA
+!  Checksum: 951cm9KGMiYU6V131Q0Slw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 09 Sep 2012 10:58:31 +0800
+!  Last Modified:  Sun, 09 Sep 2012 13:30:10 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -456,12 +456,11 @@ discuss.com.hk,uwants.com##a[href^="http://b.optimix.asia/"]
 uwants.com###foruminfo + div[align="center"]
 
 !---动漫屋
-||dm5.com/qu.html
+/qu.html^$domain=dm5.cn|dm5.hk
 ||dm5.cn/96000.htm
 ||dm5.cn/default/js/newtc.js
-dm5.com##.a8ad
-dm5.com##.cl760
-dm5.com##.cl970
+dm5.com,dm5.hk##.cl760
+dm5.com,dm5.hk##.cl970
 
 !---豆丁
 ||docin.com/app/a_d/
@@ -650,8 +649,8 @@ it168.com##.gg
 ||win7china.com/images/win72tc.png
 /headline.htm$domain=win7china.com|win8china.com
 /script/*$subdocument,domain=win7china.com|win8china.com
-ithome.com##.hl_wrap
 ithome.com###bbs_hl
+ithome.com##.hl_wrap
 ithome.com,win7china.com###pop_notice
 ithome.com##.side_products
 win7china.com,win8china.com##.site_ad
