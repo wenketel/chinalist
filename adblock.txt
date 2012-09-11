@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: U/yQ2rhoxS3nnGz59+xNCw
+!  Checksum: aXSpfB7oXdi+d+kT4FAfTQ
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 09 Sep 2012 13:30:08 +0800
+!  Last Modified:  Tue, 11 Sep 2012 12:37:36 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -934,7 +934,7 @@ down.qiannao.com###PageRigntAds
 ||cj.qidian.com/Picture/$domain=forum.qdwenxue.com|forum.qidian.com
 ||cj.qidian.com/svnad/
 ||c.pingba.qidian.com/increase.htm
-||sdo.com^*/main.js$domain=qidian.com
+||sdo.com/redo001/$domain=qidian.com
 ||sdo.com/sdk/js/hsp/$domain=qidian.com
 ||uedas.$domain=qdmm.com|qdwenxue.com|qidian.com
 qdmm.com,qidian.com##a[href^="http://www.qidian.com/showavd.aspx?"]
@@ -1451,9 +1451,12 @@ ynet.com###ta01
 !@@||valf.atm.youku.com/valf?
 ||atm.youku.com^
 ||f.youku.com/player/getFlvPath/fileid/*&yad=1
-||hz.youku.com/red/ggnotice.php
+||hz.youku.com/red/
 ||e.stat.youku.com^
 ||t.stat.youku.com^
+||static.youku.com/*/index/js/cps.js
+||static.youku.com/*/index/js/hzClick.js
+||static.youku.com/*/index/js/iresearch.js
 soku.com###ab_282
 youku.com###ab_26
 youku.com##.AB240
@@ -1461,13 +1464,14 @@ youku.com##.AB240
 @@||js.tudouui.com/bin/player$object
 @@||td.atm.youku.com/tdcm/adcontrol
 @@||td.atm.youku.com/crossdomain.xml
+/cv/pl?iid=$object_subrequest
 /pos?$object_subrequest
 ||tudou.com/service/outside.php
 ||erreport.tudou.com^
 ||istat.tudou.com/play.srv?
 ||player.pb.ops.tudou.com/info.php?
 ||stat*.tudou.com^
-||player.lstat.youku.com/log.gif
+||lstat.youku.com^$third-party
 tudou.com###adex_board
 
 !---人人影视

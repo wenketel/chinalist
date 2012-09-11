@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 951cm9KGMiYU6V131Q0Slw
+!  Checksum: qdxMS9XPUT9qI2fR944MMQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 09 Sep 2012 13:30:10 +0800
+!  Last Modified:  Tue, 11 Sep 2012 12:37:38 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -935,7 +935,7 @@ down.qiannao.com###PageRigntAds
 ||cj.qidian.com/Picture/$domain=forum.qdwenxue.com|forum.qidian.com
 ||cj.qidian.com/svnad/
 ||c.pingba.qidian.com/increase.htm
-||sdo.com^*/main.js$domain=qidian.com
+||sdo.com/redo001/$domain=qidian.com
 ||sdo.com/sdk/js/hsp/$domain=qidian.com
 ||uedas.$domain=qdmm.com|qdwenxue.com|qidian.com
 qdmm.com,qidian.com##a[href^="http://www.qidian.com/showavd.aspx?"]
@@ -1452,9 +1452,12 @@ ynet.com###ta01
 !@@||valf.atm.youku.com/valf?
 ||atm.youku.com^
 ||f.youku.com/player/getFlvPath/fileid/*&yad=1
-||hz.youku.com/red/ggnotice.php
+||hz.youku.com/red/
 ||e.stat.youku.com^
 ||t.stat.youku.com^
+||static.youku.com/*/index/js/cps.js
+||static.youku.com/*/index/js/hzClick.js
+||static.youku.com/*/index/js/iresearch.js
 soku.com###ab_282
 youku.com###ab_26
 youku.com##.AB240
@@ -1462,13 +1465,14 @@ youku.com##.AB240
 @@||js.tudouui.com/bin/player$object
 @@||td.atm.youku.com/tdcm/adcontrol
 @@||td.atm.youku.com/crossdomain.xml
+/cv/pl?iid=$object_subrequest
 /pos?$object_subrequest
 ||tudou.com/service/outside.php
 ||erreport.tudou.com^
 ||istat.tudou.com/play.srv?
 ||player.pb.ops.tudou.com/info.php?
 ||stat*.tudou.com^
-||player.lstat.youku.com/log.gif
+||lstat.youku.com^$third-party
 tudou.com###adex_board
 
 !---人人影视
@@ -2849,6 +2853,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 -advertisement.
 -article-ads-
 -banner-ad&
+-banner-ad-
 -banner-ad.
 -banner-ads-
 -banner-ads/
@@ -3054,6 +3059,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /ad_content.
 /ad_contents/*
 /ad_count.
+/ad_counter_
 /ad_creatives.
 /ad_editorials_
 /ad_engine?
@@ -3079,6 +3085,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /ad_iframe_
 /ad_img.
 /ad_img/*
+/ad_include.
 /ad_insert.
 /ad_jnaught/*
 /ad_label_
@@ -4065,6 +4072,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /embed_ad.
 /emediatead.
 /ems/ads.
+/exchange_banner_
 /exitsplash.php
 /expandable_ad.php
 /ext_ads.
@@ -4082,6 +4090,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /file/ad.
 /fimserve.
 /flag_ads.
+/flash-ads/*
 /flash/ad_
 /flashad.
 /flashads.
@@ -4590,6 +4599,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /rss2/?hp=*&np=$script,third-party
 /rss2/?np=*&hp=$script,third-party
 /rswebsiteads/*
+/sailthru.js
 /salesad/*
 /satnetads.
 /satnetgoogleads.
@@ -4931,6 +4941,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 ^fp=*&prvtof=
 _160_ad_
 _acorn_ad_
+_ad-125x125.
 _ad1.
 _ad120x120_
 _ad234x90-
@@ -5000,6 +5011,7 @@ _ads_iframe_
 _ads_index_
 _ads_reporting.
 _ads_single_
+_adsense.
 _adsense_
 _adserve/
 _adserver/
@@ -6157,6 +6169,7 @@ _a468x60.
 ###ads-header
 ###ads-horizontal
 ###ads-indextext
+###ads-king
 ###ads-leaderboard1
 ###ads-lrec
 ###ads-main
@@ -6691,6 +6704,7 @@ _a468x60.
 ###c_ad_sb
 ###c_ad_sky
 ###caAdLarger
+###carbonads-container
 ###catad
 ###category-ad
 ###cellAd
@@ -7012,6 +7026,7 @@ _a468x60.
 ###halfe-page-ad-box
 ###hd-ads
 ###hd-banner-ad
+###hd_ad
 ###hdtv_ad_ss
 ~uwcu.org###head-ad
 ###head-ad-1
@@ -7158,6 +7173,7 @@ _a468x60.
 ###layer_ad_content
 ###layer_ad_main
 ###layerad
+###lblAds
 ###leader-board-ad
 ###leaderAd
 ###leaderAdContainer
@@ -7415,6 +7431,7 @@ _a468x60.
 ###rh-ad-container
 ###rh_tower_ad
 ###rhapsodyAd
+###rhc_ads
 ###rhs_ads
 ###rhs_adverts
 ###rhsadvert
@@ -8986,6 +9003,7 @@ _a468x60.
 ~mobifrance.com##.advert-horizontal
 ##.advert-iab-300-250
 ##.advert-iab-468-60
+##.advert-leaderboard
 ##.advert-mpu
 ##.advert-skyscraper
 ##.advert-text
@@ -9655,6 +9673,7 @@ _a468x60.
 ##.google_ads_v3
 ##.google_adsense_footer
 ##.googlead
+##.googleadArea
 ##.googlead_outside
 ##.googleaddiv
 ##.googleaddiv2
@@ -10072,6 +10091,7 @@ _a468x60.
 ##.ovAdartikel
 ##.ov_spns
 ##.ovadsenselabel
+##.ox-holder
 ##.pageAds
 ##.pageBottomGoogleAd
 ##.pageGoogleAd
@@ -10140,6 +10160,7 @@ _a468x60.
 ##.r_ad_box
 ##.r_ads
 ##.rad_container
+##.realtor-ad
 ##.rect_ad_module
 ##.rectad
 ##.rectangle-ad
@@ -10330,7 +10351,7 @@ _a468x60.
 ##.sm_ad
 ##.smallSkyAd1
 ##.smallSkyAd2
-##.small_ad
+~boylesports.com##.small_ad
 ##.small_ads
 ##.smallad-left
 ##.smallads
@@ -10400,6 +10421,7 @@ _a468x60.
 ##.sponsoredProduct
 ##.sponsoredResults
 ##.sponsoredSideInner
+##.sponsored_ad
 ##.sponsored_ads
 ##.sponsored_box
 ##.sponsored_box_search
@@ -10763,7 +10785,7 @@ _a468x60.
 ||247realmedia.com^$third-party
 ||254a.com^$third-party
 ||2mdn.net/dot.gif$object-subrequest,third-party
-||2mdn.net^$object-subrequest,third-party,domain=101cargames.com|3news.co.nz|abcnews.go.com|bbc.co.uk|bbc.com|bet.com|bloomberg.com|box10.com|businessday.co.za|businessweek.com|calgaryherald.com|cbslocal.com|couriermail.com.au|drive.com.au|edmontonjournal.com|eonline.com|euronews.com|foodnetwork.ca|globaltoronto.com|globaltvbc.com|heraldsun.com.au|independent.ie|kfiam640.com|leaderpost.com|livestream.com|metacafe.com|montrealgazette.com|my9tv.com|myfoxny.com|nationalpost.com|nba.tv|ndtv.com|newyorkjets.com|nfl.com|ottawacitizen.com|patriots.com|reuters.com|rollingstone.com|rte.ie|sherdog.com|skynews.com.au|smh.com.au|telegraph.co.uk|theage.com.au|theaustralian.com.au|thecomedynetwork.ca|theprovince.com|thestarphoenix.com|timescolonist.com|vancouversun.com|vice.com|weather.com|windsorstar.com|youtube.com
+||2mdn.net^$object-subrequest,third-party,domain=101cargames.com|3news.co.nz|abcnews.go.com|bbc.co.uk|bbc.com|bet.com|bloomberg.com|box10.com|brisbanetimes.com.au|businessday.co.za|businessweek.com|calgaryherald.com|cbslocal.com|couriermail.com.au|drive.com.au|edmontonjournal.com|eonline.com|euronews.com|foodnetwork.ca|globaltoronto.com|globaltvbc.com|heraldsun.com.au|independent.ie|kfiam640.com|leaderpost.com|livestream.com|metacafe.com|montrealgazette.com|my9tv.com|myfoxny.com|nationalpost.com|nba.tv|ndtv.com|newyorkjets.com|nfl.com|ottawacitizen.com|patriots.com|reuters.com|rollingstone.com|rte.ie|sherdog.com|skynews.com.au|smh.com.au|telegraph.co.uk|theage.com.au|theaustralian.com.au|thecomedynetwork.ca|theprovince.com|thestarphoenix.com|timescolonist.com|vancouversun.com|vice.com|weather.com|windsorstar.com|youtube.com
 ||2mdn.net^$~object-subrequest,third-party
 ||360ads.com^$third-party
 ||360yield.com^$third-party
@@ -11570,6 +11592,7 @@ _a468x60.
 ||komoona.com^$third-party
 ||kontera.com^$third-party
 ||kontextua.com^$third-party
+||korrelate.net^$third-party
 ||kqzyfj.com^$third-party
 ||krxd.net^$third-party
 ||kumpulblogger.com^$third-party
@@ -11626,6 +11649,7 @@ _a468x60.
 ||marketleverage.com^$third-party
 ||marketnetwork.com^$third-party
 ||matiro.com^$third-party
+||maudau.com^$third-party
 ||maxserving.com^$third-party
 ||mb01.com^$third-party
 ||mbn.com.ua^$third-party
@@ -12522,6 +12546,7 @@ _a468x60.
 ||cancomuk.com/campaigns/
 ||canonresourcecenter.com^$third-party
 ||carbiz.in/affiliates-and-partners/
+||cars.fyidriving.com^$subdocument,third-party
 ||cas.clickability.com^
 ||cash.neweramediaworks.com^
 ||cashmakingpowersites.com^*/banners/
@@ -12845,6 +12870,7 @@ _a468x60.
 ||microsoft.com^*/bannerrotator/$third-party
 ||microsoft.com^*/community/images/windowsintune/$third-party
 ||missnowmrs.com/images/banners/
+||mkini.net/banners/
 ||mlgpro.com/javascript/data/addata.php
 ||mlive.com/js/oas/
 ||mmdcash.com/mmdcash01.gif
@@ -13473,6 +13499,7 @@ _a468x60.
 /adlogger_tracker.js?
 /adlogger_tracker.php
 /adtracker.
+/aegis_tracking.js
 /afrpt.gif?
 /aggbug.aspx?
 /ajaxservice.svc/registersession?session_id=
@@ -13545,6 +13572,7 @@ _a468x60.
 /comscore.js
 /comscore_beacon.js
 /counter/hit.php?referrer=
+/countpixel.
 /criteo.js
 /csi?v=*&action=
 /cxense/cx.js
@@ -14325,6 +14353,7 @@ _comscore.js
 ||mywebstats.com.au^$third-party
 ||naj.sk^$third-party
 ||nalook.com^$third-party
+||navdmp.com^$third-party
 ||navegg.com^$third-party
 ||nedstat.com^$third-party
 ||nedstat.net^$third-party
@@ -14396,6 +14425,7 @@ _comscore.js
 ||pureairhits.com^$third-party
 ||q-counter.com^$third-party
 ||q-stats.nl^$third-party
+||qualtrics.com^$third-party
 ||quantserve.com/pixel/$object-subrequest,third-party
 ||quantserve.com^$~object-subrequest,third-party
 ||quantserve.com^*.swf?$object-subrequest,third-party
@@ -14780,6 +14810,7 @@ _comscore.js
 ||clicktale.pantherssl.com^
 ||clicktracker.iscan.nl^
 ||clicktracks.aristotle.net^
+||clipsyndicate.com/cs_api/cliplog?
 ||cloudfront.net/atrk.gif?
 ||cloudfront.net/atrk.js
 ||cloudfront.net/tracker.js
@@ -14925,6 +14956,7 @@ _comscore.js
 ||list-manage.com/track/
 ||livechatinc.com^*/control.cgi?
 ||livefyre.com/tracking/
+||livefyre.com^*/tracking/
 ||livepass.conviva.com^
 ||livepassdl.conviva.com^
 ||lockerz.com/1x1.gif?
@@ -15101,6 +15133,7 @@ _comscore.js
 ||timeinc.net^*/peopleas2artracker_v1.swf
 ||topix.net/t6track/
 ||tr-metrics.loomia.com^
+||tr.advance.net^
 ||tr.interlake.net^
 ||track.cafemomstatic.com^
 ||track.did-it.com^
@@ -15158,6 +15191,7 @@ _comscore.js
 ||vanillaforums.com/settings/analyticstick.json
 ||vapedia.com^*/largebanner.
 ||veeseo.com/tracking/
+||ventunotech.com/beacon/
 ||vertical-stats.huffpost.com^
 ||verticalacuity.com/vat/
 ||videodetective.net/flash/players/plugins/iva_quantcast.swf
