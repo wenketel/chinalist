@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: QXtvsAg+LgmUXQMlSOVkrw
+!  Checksum: vMLo2j8nx+8Ms6Uvv76oTw
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 11 Sep 2012 17:54:29 +0800
+!  Last Modified:  Tue, 11 Sep 2012 20:41:36 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -248,7 +248,7 @@ image.baidu.com###relEcom
 image.baidu.com###relecom54
 !--MP3
 @@||cb.baidu.com/ecom?$domain=mp3.baidu.com
-@@||cbjs.baidu.com/js/m.js$domain=mp3.baidu.com
+@@||cbjs.baidu.com/js/m.js$domain=mp3.baidu.com|kuaidi100.com
 ||baidu.com/wd/
 ||imgs.zhangmen.baidu.com/list/
 ||imgs.zhangmen.baidu.com/mp3fiesta/
@@ -2770,6 +2770,8 @@ itopdog.cn##[class^="ad"]
 itopdog.cn##[id^="itopdog_ad-"]
 itopdog.cn##.xoxo > [id^="text-"]
 ithome.com.tw##table[height="110"]
+www.kuaidi100.com###adDivs
+www.kuaidi100.com###BaiduAD
 lkong.net##.myadvs
 lkong.net##.a_pt
 mobile01.com##[class^="ad-"]
