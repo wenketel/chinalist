@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: K7YQU6QlEJfOb5nFUSh7gQ
+!  Checksum: CH9OgpPK67jYznlOfjB6cg
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 13 Sep 2012 00:04:05 +0800
+!  Last Modified:  Thu, 13 Sep 2012 11:44:03 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -401,8 +401,8 @@ cnbeta.com##.detail > em
 ||res.cngoldres.com/web/index/img/*_ad$image
 ||res.cngoldres.com/web/index/img/*x70.gif
 ||res.cngoldres.com/web/js/*_advs.js
-cngold.org##.soft_goldtd
 cngold.org##.list_banner
+cngold.org##.soft_goldtd
 
 !---CSDN
 ||images.china-pub.com/coop/
@@ -942,8 +942,7 @@ down.qiannao.com###PageRigntAds
 ||cj.qidian.com/Picture/$domain=forum.qdwenxue.com|forum.qidian.com
 ||cj.qidian.com/svnad/
 ||c.pingba.qidian.com/increase.htm
-||sdo.com/redo001/$domain=qidian.com
-||sdo.com/sdk/js/hsp/$domain=qidian.com
+||sdo.com/*/*.js$domain=qidian.com
 ||uedas.$domain=qdmm.com|qdwenxue.com|qidian.com
 qdmm.com,qidian.com##a[href^="http://www.qidian.com/showavd.aspx?"]
 qidian.com##[class^="show_ggpic_"]
@@ -2566,7 +2565,6 @@ zxtjd.com###it_an
 ||uctrac.com^$third-party
 ||ugooo.cc^$third-party
 ||ugoooo.com^$third-party
-||ujian.cc^$third-party
 ||ujoin.net^$third-party
 ||ulink.cc^$third-party
 ||union.$third-party
@@ -2748,6 +2746,7 @@ zxtjd.com###it_an
 ||wumii.com/images/pixel.png
 
 !-----------------------Element Hiding---------------------
+##a[target="_blank"][onmousedown^="this.href='http://p.ujian.cc/?url="]
 10086.cn###popMaskAct
 1000fr.net##center
 360doc.com###divadleft
