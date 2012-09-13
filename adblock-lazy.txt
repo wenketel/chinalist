@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: qwhKe7fa8orwsFuJOrOtlA
+!  Checksum: puVjIHaGQi5hemZ4WTcMFQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 13 Sep 2012 12:33:12 +0800
+!  Last Modified:  Thu, 13 Sep 2012 22:11:25 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1509,6 +1509,7 @@ soso.com###rads
 wenwen.soso.com##.ad1
 
 !---ZOL
+@@||pic.zol-img.com.cn/2009/pix_index.swf
 ||ca.cbsi.com.cn/rpv?
 ||icon.zol-img.com.cn/mainpage/js/click.js
 ||icon.zol-img.com.cn/public/js/web_foot.js
@@ -1518,7 +1519,8 @@ wenwen.soso.com##.ad1
 ||pic.zol-img.com.cn/*430_$image
 bbs.zol.com.cn#@#.adside
 zol.com.cn##.ad
-zol.com.cn[id^="ad_"]
+zol.com.cn##[id^="ad_"]
+zol.com.cn##[id^="Bar"]
 zol.com.cn##.hot_tj
 zol.com.cn###rightAdDiv1
 vga.zol.com.cn##.banner250
@@ -2661,7 +2663,7 @@ zxtjd.com###it_an
 /affiliates/*
 /attachments/ad/*
 .com/js/ad.
-.com/js/ad_
+.com/js/ad_$domain=~eslite.com
 .com.cn/js/ad.
 /data/ad/*
 /dkgg/*
@@ -2935,7 +2937,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 .net/ad/$~object-subrequest
 .net/ads-
 .net/ads_
-.net/d.php?id=226_$subdocument,third-party
+.net/d.php?id=*_$subdocument,third-party
 .nu/ads/
 .openxtag.js
 .org/ad-
@@ -2984,6 +2986,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /ad-banner-
 /ad-box-
 /ad-cdn.
+/ad-emea.js
 /ad-frame.
 /ad-frame/*
 /ad-gallery.
@@ -3088,7 +3091,6 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /ad_function.
 /ad_gif/*
 /ad_google.
-/ad_google_
 /ad_head0.
 /ad_header_
 /ad_holder/*
@@ -4565,6 +4567,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /punder.php
 /punder.php$image,~image,popup
 /qandaads/*
+/qd_ads/*
 /quadadvert.
 /r_ads/*
 /radopenx?
@@ -5419,6 +5422,7 @@ _a468x60.
 ###AdvertPanel
 ~designspotter.com###AdvertiseFrame
 ~ping-timeout.de###Advertisements
+###AdvertisingLeaderboard
 ###Advertorial
 ###Advertorials
 ###AdvertsBottom
@@ -5450,6 +5454,7 @@ _a468x60.
 ###FooterAd
 ###FooterAdContainer
 ###GOOGLE_ADS_47
+###GamePageAdDiv
 ###GoogleAd1
 ###GoogleAd2
 ###GoogleAd3
@@ -8837,6 +8842,7 @@ _a468x60.
 ##.ads_disc_skyscraper
 ##.ads_disc_square
 ##.ads_div
+##.ads_foot
 ##.ads_footer
 ##.ads_header
 ##.ads_holder
@@ -9956,6 +9962,7 @@ _a468x60.
 ##.map_media_banner_ad
 ##.marginadsthin
 ~eagleboys.com.au##.marketing-ad
+##.masthead-ad-control
 ##.masthead_topad
 ##.matador_sidebar_ad_600
 ##.mdl-ad
@@ -11288,6 +11295,7 @@ _a468x60.
 ||clixtrac.com^$third-party
 ||clkads.com^$image,~image,popup,third-party
 ||clkads.com^$third-party
+||cmllk1.info^$third-party
 ||coadvertise.com^$third-party
 ||cogsdigital.com^$third-party
 ||collection-day.com^$third-party
@@ -11401,7 +11409,6 @@ _a468x60.
 ||dt07.net^$third-party,domain=~marketgid.com|~marketgid.ru|~marketgid.ua|~mgid.com|~thechive.com
 ||dualmarket.info^$third-party
 ||dynamicoxygen.com^$third-party
-||dynamicyield.com^$third-party
 ||e-planning.net^$third-party
 ||e-viral.com^$third-party
 ||eads-adserving.com^$third-party
@@ -12432,6 +12439,7 @@ _a468x60.
 ||adlandpro.com^$third-party
 ||admeta.vo.llnwd.net^
 ||adn.ebay.com^
+||ads.dynamicyield.com^$third-party
 ||ads.futurenet.com^
 ||ads.mp.mydas.mobi^
 ||ads.ookla.com^
@@ -12616,6 +12624,7 @@ _a468x60.
 ||customer.heartinternet.co.uk^$third-party
 ||cuteonly.com/banners.php$third-party
 ||d15gt9gwxw5wu0.cloudfront.net^
+||d2ipklohrie3lo.cloudfront.net^
 ||d31807xkria1x4.cloudfront.net^
 ||d3lvr7yuk4uaui.cloudfront.net^
 ||d3pkae9owd2lcf.cloudfront.net/mb102.js
@@ -13049,6 +13058,7 @@ _a468x60.
 ||regnow.com/vendor/
 ||rehost.to/?ref=
 ||relink.us/images/$third-party
+||res3.feedsportal.com^
 ||rest.co.il/widgets/$third-party
 ||rewards1.com/images/referralbanners/$third-party
 ||roadcomponentsdb.com^$subdocument,third-party
@@ -13483,6 +13493,7 @@ _a468x60.
 ||thumbnail-galleries.net^$subdocument,third-party
 ||topbucks.com/popunder/$image,~image,popup
 ||tubefck.com^*/adawe.swf
+||twiant.com/img/banners/
 ||uploade.rs/img1/rcjfb.png
 ||vdtranny.co.cc^$image,third-party
 ||vectorpastel.com^$third-party
@@ -14695,6 +14706,7 @@ _comscore.js
 ||xiti.com^$third-party
 ||xtremline.com^$third-party
 ||xxxcounter.com^$third-party
+||xyztraffic.com^$third-party
 ||yieldoptimizer.com^$third-party
 ||yieldsoftware.com^$third-party
 ||your-counter.be^$third-party
@@ -14917,6 +14929,7 @@ _comscore.js
 ||facilitatedigital.com/hit.aspx?
 ||fastcounter.onlinehoster.net^
 ||feedcat.net/button/
+||feedsportal.com^*/1x1.gif?
 ||flixster.com^*/analytics.
 ||footballmedia.com/tracking/
 ||forms.aweber.com^*/displays.htm?id=
@@ -15079,6 +15092,7 @@ _comscore.js
 ||prstats.postrelease.com^
 ||pt.crossmediaservices.com^
 ||purevideo.com^*/pvshim.gif?
+||px.dynamicyield.com^$third-party
 ||px.steelhousemedia.com^
 ||qlog.adap.tv^$object-subrequest
 ||quisma.com/tracking/
