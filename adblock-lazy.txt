@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: puVjIHaGQi5hemZ4WTcMFQ
+!  Checksum: cQWB1c9kfnD7vd/AHSc/vg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 13 Sep 2012 22:11:25 +0800
+!  Last Modified:  Fri, 14 Sep 2012 10:33:04 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -447,6 +447,7 @@ dayoo.com##.cn
 ##.a_h
 ~3600gz.cn,~wxkds.com##.a_mu
 discuz.net,ooomm.com##.a_pr
+##.ad_headerbanner
 ~hk-pub.com##.ad_footerbanner
 ###ad_headerbanner
 ##[id^="ad_thread"]
@@ -2937,6 +2938,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 .net/ad/$~object-subrequest
 .net/ads-
 .net/ads_
+.net/d.php?g=*_$subdocument,third-party
 .net/d.php?id=*_$subdocument,third-party
 .nu/ads/
 .openxtag.js
@@ -4375,6 +4377,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /main_ad.
 /main_ad/*
 /mainad.
+/marginaleadservlet?
 /marketing-banners/*
 /marketing/banners/*
 /marketing/banners_
@@ -6383,7 +6386,6 @@ _a468x60.
 ###adv-ext-ext-2
 ###adv-leaderboard
 ###adv-left
-~mlive.com###adv-masthead
 ###adv-middle
 ###adv-midroll
 ###adv-mpux
@@ -7758,6 +7760,7 @@ _a468x60.
 ###top-ad
 ###top-ad-container
 ###top-ad-menu
+###top-ad-position-inner
 ###top-ads
 ###top-ads-tabs
 ###top-adspot
@@ -10199,6 +10202,7 @@ _a468x60.
 ##.rectanglead
 ##.redads_cont
 ##.referrerDetailAd
+##.region-top-ad-position
 ##.regular_728_ad
 ##.regularad
 ##.relatedAds
@@ -12644,6 +12648,7 @@ _a468x60.
 ||detroitmedia.com/jfry/
 ||digitalmediacommunications.com/belleville/employment/
 ||display.digitalriver.com^
+||dizixdllzznrf.cloudfront.net^
 ||dm0acvguygm9h.cloudfront.net^
 ||dot.tk/urlfwd/searchbar/bar.html
 ||dotz123.com/run.php?
@@ -12662,6 +12667,7 @@ _a468x60.
 ||ebladestore.com^*/banners/
 ||economedia.bg/getban.php?
 ||ectaco-store.com^*/promo.jsp?
+||edge.viagogo.co.uk^*/widget.ashx?$third-party
 ||elitsearch.com^$subdocument,third-party
 ||eltexonline.com/contentrotator/$third-party
 ||emailcashpro.com/images/$third-party
@@ -13228,6 +13234,8 @@ _a468x60.
 ||vpntunnel.se/aff/$third-party
 ||vuvuplaza.com^$subdocument,third-party
 ||vxite.com/banner/
+||wahanda.com^$third-party
+||wahanda.net^$third-party
 ||warezhaven.org/warezhavenbann.jpg
 ||washingtonpost.com/wp-srv/wapolabs/dw/readomniturecookie.html
 ||watch-naruto.tv/images/$third-party
@@ -13559,6 +13567,7 @@ _a468x60.
 /b/ss/*&ce=utf-8&
 /b/ss/*&events=
 /b/ss/*&pagename=
+/b/ss/*/h.17--wap?c20=
 /b/ss/*=event36&
 /b/ss/*=referrers&
 /b/ss/*?[aqb]&ndh=
@@ -14431,6 +14440,7 @@ _comscore.js
 ||opentracker.net^$third-party
 ||ophan.co.uk^$third-party
 ||optify.net^$third-party
+||optimix.asia^$third-party
 ||optimizely.com^$third-party
 ||optimost.com^$third-party
 ||optin-machine.com^$third-party
@@ -15314,10 +15324,12 @@ _comscore.js
 ||cri.cn/wrating.js
 ||dj.renren.com^
 ||ftchinese.com/log/new_log.php?
+||hk.ndx.nextmedia.com^
 ||nstat.tudou.com^
 ||pingjs.qq.com^
 ||rgd.com.cn/counter/
 ||s.renren.com^
+||sharpdaily.hk/ajax/addlog/?
 ||sinajs.cn/open/analytics/
 ||soufun.com/click/
 ||soufun.com/stats/
