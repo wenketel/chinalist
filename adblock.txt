@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: gUcYKK6QNK6YcRxmfnbFyA
+!  Checksum: 3ZlXm7bvQ5D9b2KkD/Rchw
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 14 Sep 2012 10:53:32 +0800
+!  Last Modified:  Fri, 14 Sep 2012 23:15:10 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -446,9 +446,9 @@ dayoo.com##.cn
 ##.a_h
 ~3600gz.cn,~wxkds.com##.a_mu
 discuz.net,ooomm.com##.a_pr
-##.ad_headerbanner
 ~hk-pub.com##.ad_footerbanner
 ###ad_headerbanner
+##.ad_headerbanner
 ##[id^="ad_thread"]
 ##.archiver_banner
 ##.wp.a_f
@@ -643,6 +643,13 @@ bbs.ifeng.com###box[style="height: 206px;"]
 phtv.ifeng.com##.pic1000
 v.ifeng.com###adbest
 v.ifeng.com##.tit_ad
+
+!---iPc.me
+||ipc.me/plus/static_files/nuffnang.html
+ipc.me##li[style="_display:block;height:252px;width:301px;overflow:hidden;margin-bottom:7px"]
+ipc.me##.post-top-gg
+ipc.me##.widget_ad_slot_wrapper
+ipc.me##.widget_ad_slot_wrapper + .widget
 
 !---IT168
 ||168.it168.com^$script
