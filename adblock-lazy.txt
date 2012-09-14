@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: ayysJ3lGH8/VJvr9nYaffg
+!  Checksum: ZM+yzo0UGQ0uXtcPFmPm/g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 14 Sep 2012 23:19:04 +0800
+!  Last Modified:  Sat, 15 Sep 2012 01:54:59 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -29,10 +29,6 @@ bbs.9baka.com,bbs.9gal.com#@##top_ad
 @@/advertise/*$domain=suning.com
 !--bbs.vc52.cn
 @@||gg.a.5d6d.$image,object_subrequest
-!--威盘
-@@||cpro.baidu.com^$image,script,subdocument,domain=vdisk.cn
-@@||cpro.baidu.com/extra/text_flash/AC_RunActiveContent.js
-@@||drmcmm.baidu.com/media/$domain=cpro.baidu.com
 !--大众点评
 @@||dianping.com/adwords/$xmlhttprequest
 @@||union.mapbar.com/apis/maps/$script
@@ -273,6 +269,11 @@ iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com###qb-ad-cpro
 iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com###right
 iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com###center > div[style="width:85%"]
 !--unions
+@@||cpro.baidu.com/cpro/ui/uijs.php$third-party
+@@||cpro.baidu.com/cpro/ui/y.js$third-party
+@@||cpro.baidu.com/extra/text_flash/AC_RunActiveContent.js
+@@||cpro.baidu.com/img/bg_captchaF.png
+@@||drmcmm.baidu.com/media/$image,object,domain=cpro.baidu.com
 ||cb.baidu.com^
 ||cbjs.baidu.com^
 ||cpro.baidu.com^
@@ -422,6 +423,13 @@ download.csdn.net##.ad_area_1
 ||info-database.csdn.net/Upload/*-728
 ||iteye.com/iframe_ggbd/
 ||stat.iteye.com^
+
+!---CTdisk
+/advview.php$domain=400gb.com|ctdisk.com
+.com/userclick$script,domain=400gb.com|ctdisk.com
+||doubleclick.ctdisk.com^
+||clientclick.tv002.com^
+400gb.com,ctdisk.com##.kk_xshow
 
 !---当当
 ||a.dangdang.com/smart.js?
@@ -1669,11 +1677,6 @@ verypsp.com##table[width="960"]
 ||i02.youxigu.com/skin/youxigu/img/bg-new.jpg
 
 !---Net Disks
-||ctdisk.com/getbbs.php?id=6
-js?version=$domain=ctdisk.com|pipipan.com
-ctdisk.com##.kk_xshow
-||st1.dbank.com/netdisk/download/js/adsLoad.advance.js
-dbank.com###filelist_marker
 ||jianguoyun.com/static/bdshare/v.gif
 ||d.namipan.com/inc_js/$script
 ||u.qjwm.com^
@@ -1683,6 +1686,7 @@ qjwm.com##td[height="90"]
 ||rayfile.com/_.gif?vid
 /shortcounter.jsp$domain=ref.so
 ref.so##table[width="300"]
+||log.vdisk.cn^
 /ys168/*$domain=ys168.com
 ys168.com###idzdy1
 ys168.com###xtxx
@@ -2809,6 +2813,7 @@ portal.opera.com##.alt-ads
 price.com.hk###ad0
 price.com.hk##.tb
 suopao.org##.t5[style^="margin-top:8px;"]
+dl.vmall.com###filelist_marker
 bbs.wuyou.com##[style="background: #BBE9FF"]
 xiachufang.com##.g-ga.g-bg-white
 
@@ -6082,6 +6087,7 @@ _a468x60.
 ###ad_squares
 ###ad_ss
 ~bestadsontv.com,~vivastreet.co.uk,~vivastreet.com,~vivastreet.fr###ad_table
+###ad_tbl
 ###ad_term_bottom_place
 ###ad_text:not(textarea)
 ###ad_thread_first_post_content
@@ -6799,7 +6805,7 @@ _a468x60.
 ###content_ad_square
 ###content_ad_top
 ###content_ads_content
-~club.tgfcer.com###content_adv
+~tgfcer.com~club.tgfcer.com###content_adv
 ###content_bottom_ad
 ###content_box_300body_sponsoredoffers
 ###content_box_adright300_google
@@ -11406,7 +11412,7 @@ _a468x60.
 ||doubleclick.net/pfadx/bet.com/$object-subrequest,third-party
 ||doubleclick.net/pfadx/muzuoffsite/$object-subrequest,third-party
 ||doubleclick.net/pfadx/nbcu.nbc/$object-subrequest,third-party
-||doubleclick.net^$object-subrequest,third-party,domain=971talk.com|abc-7.com|abc15.com|abc2news.com|abcactionnews.com|addictinggames.com|adelaidenow.com.au|atom.com|automotive.com|bbc.com|bicycling.com|break.com|cbc.ca|cbs19.tv|cbs3springfield.com|cbs4denver.com|cbsatlanta.com|cbslocal.com|cbsnews.com|cbssports.com|click2houston.com|clickorlando.com|cnbc.com|cnet.com|complex.com|csnchicago.com|current.com|dailymail.co.uk|dailytelegraph.com.au|darkhorizons.com|doctoroz.com|dorkly.com|doubleviking.com|espn.co.uk|extratv.com|fandango.com|fox19.com|fox5vegas.com|fox6now.com|foxcarolina.com|g4tv.com|gamespot.com|gametrailers.com|globalnational.com|globalnews.ca|gorillanation.com|grooveshark.com|history.com|hollywoodlife.com|hot97.com|hulu.com|imdb.com|joblo.com|kcci.com|kcra.com|kctv5.com|ketv.com|kjrh.com|koat.com|koco.com|kolotv.com|kpho.com|kptv.com|ksat.com|ksbw.com|ksfy.com|kxan.com|kypost.com|live5news.com|local10.com|miamiherald.com|miniclip.com|msnbc.com|mtv.co.uk|mtv.com|mtv.com.au|mtv.com.nz|mtvbase.com|mtvmusic.com|my9tv.com|mydamnchannel.com|myfoxorlando.com|myfoxphilly.com|myfoxphoenix.com|myfoxtampabay.com|nbcactionnews.com|nbcmiami.com|nbcnewyork.com|nbcsports.com|nbcwashington.com|neatorama.com|necn.com|neopets.com|news.com.au|news24.com|news4jax.com|newsnet5.com|newsweek.com|nfl.com|nick.com|nintendoeverything.com|nuts.co.uk|nytimes.com|own3d.tv|pandora.com|perthnow.com.au|photoradar.com|play.it|ps3news.com|radio.com|rottentomatoes.com|sbs.com.au|sbsun.com|sevenload.com|shacknews.com|shockwave.com|sk-gaming.com|southpark.nl|southparkstudios.com|southparkstudios.se|space.com|spike.com|stuff.co.nz|syfy.com|ted.com|thebostonchannel.com|thedailygreen.com|thedailyshow.com|thedenverchannel.com|theindychannel.com|theinquirer.net|thewire.com|timeslive.co.za|tmz.com|turnto23.com|tv2.no|tv3winchester.com|ufc.com|ultimatefighter.com|universalsports.com|ustream.tv|videojug.com|wapt.com|washingtonpost.com|wate.com|wbaltv.com|wcbstv.com|wcpo.com|wdbj7.com|wdsu.com|wetransfer.com|wfmz.com|wfsb.com|wgal.com|wired.com|wisn.com|wkbw.com|wlky.com|wlns.com|wlwt.com|wmur.com|wnem.com|wowt.com|wptv.com|wral.com|wsmv.com|wtae.com|wwe.com|wxii12.com|wxyz.com|wyff4.com|youtube.com|zap2it.com|zappinternet.com|zoomin.tv
+||doubleclick.net^$object-subrequest,third-party,domain=971talk.com|abc-7.com|abc15.com|abc2news.com|abcactionnews.com|abcnews.go.com|addictinggames.com|adelaidenow.com.au|atom.com|automotive.com|bbc.com|bicycling.com|break.com|cbc.ca|cbs19.tv|cbs3springfield.com|cbs4denver.com|cbsatlanta.com|cbslocal.com|cbsnews.com|cbssports.com|click2houston.com|clickorlando.com|cnbc.com|cnet.com|complex.com|csnchicago.com|current.com|dailymail.co.uk|dailytelegraph.com.au|darkhorizons.com|doctoroz.com|dorkly.com|doubleviking.com|espn.co.uk|extratv.com|fandango.com|fox19.com|fox5vegas.com|fox6now.com|foxcarolina.com|g4tv.com|gamespot.com|gametrailers.com|globalnational.com|globalnews.ca|gorillanation.com|grooveshark.com|history.com|hollywoodlife.com|hot97.com|hulu.com|imdb.com|joblo.com|kcci.com|kcra.com|kctv5.com|ketv.com|kjrh.com|koat.com|koco.com|kolotv.com|kpho.com|kptv.com|ksat.com|ksbw.com|ksfy.com|kxan.com|kypost.com|live5news.com|local10.com|miamiherald.com|miniclip.com|msnbc.com|mtv.co.uk|mtv.com|mtv.com.au|mtv.com.nz|mtvbase.com|mtvmusic.com|my9tv.com|mydamnchannel.com|myfoxorlando.com|myfoxphilly.com|myfoxphoenix.com|myfoxtampabay.com|nbcactionnews.com|nbcmiami.com|nbcnewyork.com|nbcsports.com|nbcwashington.com|neatorama.com|necn.com|neopets.com|news.com.au|news24.com|news4jax.com|newsnet5.com|newsweek.com|nfl.com|nick.com|nintendoeverything.com|nuts.co.uk|nytimes.com|own3d.tv|pandora.com|perthnow.com.au|photoradar.com|play.it|ps3news.com|radio.com|rottentomatoes.com|sbs.com.au|sbsun.com|sevenload.com|shacknews.com|shockwave.com|sk-gaming.com|southpark.nl|southparkstudios.com|southparkstudios.se|space.com|spike.com|stuff.co.nz|syfy.com|ted.com|thebostonchannel.com|thedailygreen.com|thedailyshow.com|thedenverchannel.com|theindychannel.com|theinquirer.net|thewire.com|timeslive.co.za|tmz.com|turnto23.com|tv2.no|tv3winchester.com|ufc.com|ultimatefighter.com|universalsports.com|ustream.tv|videojug.com|wapt.com|washingtonpost.com|wate.com|wbaltv.com|wcbstv.com|wcpo.com|wdbj7.com|wdsu.com|wetransfer.com|wfmz.com|wfsb.com|wgal.com|wired.com|wisn.com|wkbw.com|wlky.com|wlns.com|wlwt.com|wmur.com|wnem.com|wowt.com|wptv.com|wral.com|wsmv.com|wtae.com|wwe.com|wxii12.com|wxyz.com|wyff4.com|youtube.com|zap2it.com|zappinternet.com|zoomin.tv
 ||doubleclick.net^$~object-subrequest,third-party
 ||doubleclick.net^*;afv_flvurl=http://cdn.c.ooyala.com/$object-subrequest,third-party
 ||doubleclick.net^*;sz=$object-subrequest,third-party,domain=10news.com|1up.com|39online.com|abc26.com|baltimoresun.com|bet.com|breitbart.tv|cltv.com|courant.com|ct.com|dailystar.co.uk|digitaltrends.com|four.co.nz|fox17online.com|fox40.com|fox59.com|fox5sandiego.com|france24.com|gamesradar.com|heavy.com|huffingtonpost.com|indianas4.com|kdvr.com|ktla.com|kwgn.com|ky3.com|latimes.com|marketwatch.com|muzu.tv|myfoxatlanta.com|myfoxny.com|myspace.com|nationalgeographic.com|nbc.com|nbcsandiego.com|newsday.com|nhl.com|npr.org|nypost.com|player.amri.ca|rapbasement.com|sun-sentinel.com|the33tv.com|tv3.co.nz|wgnradio.com|wgntv.com|wpix.com|wsj.com|wtvr.com
@@ -12636,10 +12642,12 @@ _a468x60.
 ||customer.heartinternet.co.uk^$third-party
 ||cuteonly.com/banners.php$third-party
 ||d15gt9gwxw5wu0.cloudfront.net^
+||d2anfhdgjxf8s1.cloudfront.net^
 ||d2ipklohrie3lo.cloudfront.net^
 ||d31807xkria1x4.cloudfront.net^
 ||d3lvr7yuk4uaui.cloudfront.net^
 ||d3pkae9owd2lcf.cloudfront.net/mb102.js
+||d3t2wca0ou3lqz.cloudfront.net^
 ||dailydealstwincities.com/widgets/$subdocument,third-party
 ||dapatwang.com/images/banner/
 ||dart.clearchannel.com^

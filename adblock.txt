@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: oso3Hj9WVA0cBvBBkRG/+g
+!  Checksum: FU7MQGuRN/sf3jXFyvqzVQ
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 14 Sep 2012 23:19:02 +0800
+!  Last Modified:  Sat, 15 Sep 2012 01:54:57 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -28,10 +28,6 @@ bbs.9baka.com,bbs.9gal.com#@##top_ad
 @@/advertise/*$domain=suning.com
 !--bbs.vc52.cn
 @@||gg.a.5d6d.$image,object_subrequest
-!--威盘
-@@||cpro.baidu.com^$image,script,subdocument,domain=vdisk.cn
-@@||cpro.baidu.com/extra/text_flash/AC_RunActiveContent.js
-@@||drmcmm.baidu.com/media/$domain=cpro.baidu.com
 !--大众点评
 @@||dianping.com/adwords/$xmlhttprequest
 @@||union.mapbar.com/apis/maps/$script
@@ -272,6 +268,11 @@ iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com###qb-ad-cpro
 iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com###right
 iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com###center > div[style="width:85%"]
 !--unions
+@@||cpro.baidu.com/cpro/ui/uijs.php$third-party
+@@||cpro.baidu.com/cpro/ui/y.js$third-party
+@@||cpro.baidu.com/extra/text_flash/AC_RunActiveContent.js
+@@||cpro.baidu.com/img/bg_captchaF.png
+@@||drmcmm.baidu.com/media/$image,object,domain=cpro.baidu.com
 ||cb.baidu.com^
 ||cbjs.baidu.com^
 ||cpro.baidu.com^
@@ -421,6 +422,13 @@ download.csdn.net##.ad_area_1
 ||info-database.csdn.net/Upload/*-728
 ||iteye.com/iframe_ggbd/
 ||stat.iteye.com^
+
+!---CTdisk
+/advview.php$domain=400gb.com|ctdisk.com
+.com/userclick$script,domain=400gb.com|ctdisk.com
+||doubleclick.ctdisk.com^
+||clientclick.tv002.com^
+400gb.com,ctdisk.com##.kk_xshow
 
 !---当当
 ||a.dangdang.com/smart.js?
@@ -1669,11 +1677,6 @@ verypsp.com##table[width="960"]
 ||i02.youxigu.com/skin/youxigu/img/bg-new.jpg
 
 !---Net Disks
-||ctdisk.com/getbbs.php?id=6
-js?version=$domain=ctdisk.com|pipipan.com
-ctdisk.com##.kk_xshow
-||st1.dbank.com/netdisk/download/js/adsLoad.advance.js
-dbank.com###filelist_marker
 ||jianguoyun.com/static/bdshare/v.gif
 ||d.namipan.com/inc_js/$script
 ||u.qjwm.com^
@@ -1683,6 +1686,7 @@ qjwm.com##td[height="90"]
 ||rayfile.com/_.gif?vid
 /shortcounter.jsp$domain=ref.so
 ref.so##table[width="300"]
+||log.vdisk.cn^
 /ys168/*$domain=ys168.com
 ys168.com###idzdy1
 ys168.com###xtxx
@@ -2809,6 +2813,7 @@ portal.opera.com##.alt-ads
 price.com.hk###ad0
 price.com.hk##.tb
 suopao.org##.t5[style^="margin-top:8px;"]
+dl.vmall.com###filelist_marker
 bbs.wuyou.com##[style="background: #BBE9FF"]
 xiachufang.com##.g-ga.g-bg-white
 
