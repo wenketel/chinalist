@@ -299,16 +299,8 @@
   </NewItems>
 	<ModifyItems>
 		<ModifyItem>
-			<OldItem>###content_adv</OldItem>
-			<NewItem>~club.tgfcer.com###content_adv</NewItem>
-		</ModifyItem>
-		<ModifyItem>
 			<OldItem>/socialads/*</OldItem>
 			<NewItem>/socialads/*$domain=~profiles.google.com</NewItem>
-		</ModifyItem>
-		<ModifyItem>
-			<OldItem>/img/ad/*</OldItem>
-			<NewItem>/img/ad/*$domain=~picplz.com</NewItem>
 		</ModifyItem>
 	</ModifyItems>
 </PatchConfigurations>

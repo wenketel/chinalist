@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: mPOqo2ZH2uPuFixM/stqsQ
+!  Checksum: C85MFcLV4F8EVXre3HIKxw
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 15 Sep 2012 14:04:33 +0800
+!  Last Modified:  Sat, 15 Sep 2012 14:38:03 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -17,6 +17,7 @@
 51job.com#@##ad_right
 52vfx.com#@##head_ad
 bbs.9baka.com,bbs.9gal.com#@##top_ad
+yocoy.com#@##AdArea
 @@||iphone4.tw/forums/news_proxy.php$xmlhttprequest
 @@||ad.ourgame.com/cgi-bin/insertflasha.js
 @@||cpro.baidu.com/cpro/ui/c.js$domain=bbs.9es.cn
@@ -1719,6 +1720,8 @@ ettoday.net###ticker_3
 ||jjxw.cn^$object
 jjxw.cn##[class$="_ad"]
 jjxw.cn##[class^="head_ad"]
+||same.jrj.com.cn^$script,subdocument
+www.jrj.com.cn##[class^="mw a"]
 ||junshier.com/adspic/
 ||junshijia.com/new/$script
 ||libertytimes.com.tw/IService2/AdLinkList.php
@@ -1749,6 +1752,8 @@ sun0769.com###topgg
 ||taihe.net/js/ad
 taihe.net##script[src="/js/ad.js"] + #table1
 ||forum.techweb.com.cn/advtcnt.php
+||js.tlt.cn/js/
+||tlt.cn/floater/float.php
 ||js.pub.tom.com^
 ||sa.uusee.com^
 ||image.wenweipo.com/*/ad_
@@ -2230,6 +2235,7 @@ zxtjd.com###it_an
 ||115.238.103.82^$third-party
 ||116b.com^$third-party
 ||118114.cn^$third-party
+||11l11.net^$third-party
 ||155game.com^$third-party
 ||17kuxun.com^$third-party
 ||js.17ol.org^$third-party
