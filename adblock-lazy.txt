@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: WhqNjq0DELRjj3jPKhS3BQ
+!  Checksum: jTreGFPH2bL0qbrwvJkV3g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 15 Sep 2012 21:29:18 +0800
+!  Last Modified:  Sun, 16 Sep 2012 11:44:52 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -270,9 +270,9 @@ iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com###qb-ad-cpro
 iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com###right
 iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com###center > div[style="width:85%"]
 !--unions
-@@||cpro.baidu.com/cpro/ui/uijs.php$third-party
-@@||cpro.baidu.com/cpro/ui/y.js$third-party
-@@||cpro.baidu.com/extra/text_flash/AC_RunActiveContent.js
+@@||cpro.baidu.com/cpro/ui/uijs.php$domain=vdisk.cn|dl.vmall.com
+@@||cpro.baidu.com/cpro/ui/y.js$domain=vdisk.cn|dl.vmall.com
+@@||cpro.baidu.com/extra/text_flash/AC_RunActiveContent.js$domain=vdisk.cn|dl.vmall.com
 @@||cpro.baidu.com/img/bg_captchaF.png
 @@||drmcmm.baidu.com/media/$image,object,domain=cpro.baidu.com
 ||cb.baidu.com^
@@ -898,6 +898,15 @@ pconline.com.cn##.ivyBaidu
 ||pcauto.com.cn/global/footer/index.html
 !--太平洋电脑网产品论坛
 ||www1.pconline.com.cn/itbbs09/js/itbbs09_wd.js
+
+!---人民网
+.gif?id=$domain=people.com.cn
+||hi.people.com.cn/NMediaFile/$object
+||hi.people.com.cn/NMediaFile/*.gif
+people.com.cn##.top_ad_list
+people.com.cn##.topad
+hi.people.com.cn##img[width="690"][height="80"]
+hi.people.com.cn##table[width="290"]
 
 !---PIXNET
 /blog/addvisit^
@@ -1732,9 +1741,6 @@ newtalk.tw###ad_top_banner
 newtalk.tw##.ind_news_station
 ||ashow.pcpop.com^
 www.pcpop.com##.Content > .l1:first-child
-/c.gif?$domain=people.com.cn
-people.com.cn##.top_ad_list
-people.com.cn##.topad
 ||sinovision.net/ui/js/adm.js
 ||singtao.com/*_ad*.js
 ||solidot.org/admanage/
@@ -2278,6 +2284,7 @@ zxtjd.com###it_an
 ||400or800.com^$third-party
 ||460.com.cn^$third-party
 ||4779.com^$third-party
+||49ko.com^$third-party
 ||5151ad.com^$third-party
 ||51link.com^$third-party
 ||51wan.com^$third-party
@@ -2958,6 +2965,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 .net/ad/$~object-subrequest
 .net/ads-
 .net/ads_
+.net/d.php?*=*_$subdocument,third-party
 .net/d.php?g=*_$subdocument,third-party
 .net/d.php?id=*_$subdocument,third-party
 .nu/ads/
@@ -3391,6 +3399,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /adpeeps/*
 /adpicture1|
 /adpicture2|
+/adpictures/*
 /adplacement.
 /adplayer.
 /adplayer/*
@@ -6051,6 +6060,7 @@ _a468x60.
 ~seeon.tv###ad_overlay
 ###ad_place
 ###ad_play_300
+###ad_post
 ###ad_post_300
 ###ad_pushupbar-closed
 ###ad_rect
@@ -8175,7 +8185,7 @@ _a468x60.
 ##.ad-banner-label
 ##.ad-banner-smaller
 ##.ad-bigsize
-~bash.fm,~ratus13.com##.ad-block
+~bash.fm,~gamexpo.fr,~ratus13.com##.ad-block
 ##.ad-block-square
 ##.ad-blog2biz
 ##.ad-body
@@ -8226,7 +8236,7 @@ _a468x60.
 ~siemens-home.de##.ad-item
 ##.ad-label
 ##.ad-leaderboard
-~jerseyinsight.com,~jeuxjeuxjeux.fr##.ad-left
+~jerseyinsight.com,~jeuxjeuxjeux.fr,~vente-a-domicile.fr##.ad-left
 ##.ad-leftrail
 ##.ad-line
 ##.ad-link
@@ -8253,7 +8263,7 @@ _a468x60.
 ##.ad-related
 ##.ad-rh
 ##.ad-ri
-~jerseyinsight.com##.ad-right
+~jerseyinsight.com,~vente-a-domicile.fr##.ad-right
 ##.ad-right-header
 ##.ad-right-txt
 ##.ad-right1
@@ -8593,7 +8603,7 @@ _a468x60.
 ##.ad_leader
 ##.ad_leaderboard
 ~bakeca-incontri.net,~mexx.ca##.ad_left
-##.ad_line
+~pointvente.fr##.ad_line
 ##.ad_link
 ~leboncoin.fr,~subito.it##.ad_links
 ##.ad_linkunit
@@ -8851,7 +8861,7 @@ _a468x60.
 ##.ads_728x90
 ##.ads_amazon
 ##.ads_amazon_outer
-##.ads_area
+~flysurf.com##.ads_area
 ##.ads_big
 ##.ads_big-half
 ##.ads_box
@@ -9281,6 +9291,7 @@ _a468x60.
 ##.base-ad-mpu
 ##.base_ad
 ##.base_printer_widgets_AdBreak
+##.bbsTopAd
 ##.bg-ad-link
 ##.bgnavad
 ##.big-ad
@@ -9401,7 +9412,7 @@ _a468x60.
 ##.bsa_ads
 ##.btm_ad
 ##.btm_ad_container
-##.btn-ad
+~vente-a-domicile.fr##.btn-ad
 ##.bullet-sponsored-links
 ##.bullet-sponsored-links-gray
 ##.burstContentAdIndex
@@ -10370,7 +10381,7 @@ _a468x60.
 ##.sideheadnarrowad
 ##.sideheadsponsorsad
 ##.simple_ads_manager_widget
-##.single-ad
+~letouriste.fr##.single-ad
 ##.single-google-ad
 ##.singleAd
 ##.singleAdsContainer
@@ -12649,12 +12660,14 @@ _a468x60.
 ||customer.heartinternet.co.uk^$third-party
 ||cuteonly.com/banners.php$third-party
 ||d15gt9gwxw5wu0.cloudfront.net^
+||d1spb7fplenrp4.cloudfront.net^
 ||d2anfhdgjxf8s1.cloudfront.net^
 ||d2ipklohrie3lo.cloudfront.net^
 ||d31807xkria1x4.cloudfront.net^
 ||d3lvr7yuk4uaui.cloudfront.net^
 ||d3pkae9owd2lcf.cloudfront.net/mb102.js
 ||d3t2wca0ou3lqz.cloudfront.net^
+||d3t9ip55bsuxrf.cloudfront.net^
 ||dailydealstwincities.com/widgets/$subdocument,third-party
 ||dapatwang.com/images/banner/
 ||dart.clearchannel.com^
@@ -13299,6 +13312,7 @@ _a468x60.
 ||yontoo.com^$subdocument,third-party
 ||you-cubez.com/images/banners/
 ||you-only-you.com/banners/
+||zamimg.com/images/skins/gw2-
 ||zapads.zapak.com^
 ||zeusfiles.com/promo/
 ||ziffdavisenterprise.com/contextclicks/
@@ -13369,6 +13383,7 @@ _a468x60.
 ||eliterotica.com/images/banners/
 ||erotikdeal.com/?ref=$third-party
 ||escortso.com^$object,third-party
+||eurolive.com/?module=public_eurolive_onlinehostess&
 ||exposedemos.com/track/$third-party
 ||ext.affaire.com^$image,~image,popup
 ||extremeladyboys.com/elb/banners/
@@ -13478,6 +13493,7 @@ _a468x60.
 ||promo.lonelywifehookup.com^
 ||promo.pimproll.com^
 ||promo.ulust.com^$third-party
+||promo.vador.com^$third-party
 ||promo1.webcams.nl^$third-party
 ||promos.meetlocals.com^
 ||rawtubelive.com/exports/$third-party

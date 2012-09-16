@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: K7TGVuIJemx4aecMl09W3g
+!  Checksum: jbCjF/pyaRq7JgnsY6m89g
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 15 Sep 2012 21:29:16 +0800
+!  Last Modified:  Sun, 16 Sep 2012 11:44:50 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -269,9 +269,9 @@ iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com###qb-ad-cpro
 iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com###right
 iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com###center > div[style="width:85%"]
 !--unions
-@@||cpro.baidu.com/cpro/ui/uijs.php$third-party
-@@||cpro.baidu.com/cpro/ui/y.js$third-party
-@@||cpro.baidu.com/extra/text_flash/AC_RunActiveContent.js
+@@||cpro.baidu.com/cpro/ui/uijs.php$domain=vdisk.cn|dl.vmall.com
+@@||cpro.baidu.com/cpro/ui/y.js$domain=vdisk.cn|dl.vmall.com
+@@||cpro.baidu.com/extra/text_flash/AC_RunActiveContent.js$domain=vdisk.cn|dl.vmall.com
 @@||cpro.baidu.com/img/bg_captchaF.png
 @@||drmcmm.baidu.com/media/$image,object,domain=cpro.baidu.com
 ||cb.baidu.com^
@@ -897,6 +897,15 @@ pconline.com.cn##.ivyBaidu
 ||pcauto.com.cn/global/footer/index.html
 !--太平洋电脑网产品论坛
 ||www1.pconline.com.cn/itbbs09/js/itbbs09_wd.js
+
+!---人民网
+.gif?id=$domain=people.com.cn
+||hi.people.com.cn/NMediaFile/$object
+||hi.people.com.cn/NMediaFile/*.gif
+people.com.cn##.top_ad_list
+people.com.cn##.topad
+hi.people.com.cn##img[width="690"][height="80"]
+hi.people.com.cn##table[width="290"]
 
 !---PIXNET
 /blog/addvisit^
@@ -1732,9 +1741,6 @@ newtalk.tw###ad_top_banner
 newtalk.tw##.ind_news_station
 ||ashow.pcpop.com^
 www.pcpop.com##.Content > .l1:first-child
-/c.gif?$domain=people.com.cn
-people.com.cn##.top_ad_list
-people.com.cn##.topad
 ||sinovision.net/ui/js/adm.js
 ||singtao.com/*_ad*.js
 ||solidot.org/admanage/
@@ -2278,6 +2284,7 @@ zxtjd.com###it_an
 ||400or800.com^$third-party
 ||460.com.cn^$third-party
 ||4779.com^$third-party
+||49ko.com^$third-party
 ||5151ad.com^$third-party
 ||51link.com^$third-party
 ||51wan.com^$third-party
