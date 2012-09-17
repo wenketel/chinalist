@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: uhGFpoWaYccSVdFdezxr2A
+!  Checksum: oaFg24ldtzPxK02g9P14hQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 17 Sep 2012 00:48:20 +0800
+!  Last Modified:  Tue, 18 Sep 2012 02:15:20 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -232,14 +232,15 @@ maps.baidu.com##.cityTip_top
 news.baidu.com###ecad
 news.baidu.com###ecomadv
 video.baidu.com##.brand-ad
+www.baidu.com,www1.baidu.com##.ec_bdtg
+www.baidu.com,www1.baidu.com###ec_im_container
 www.baidu.com,www1.baidu.com###ecad
 www.baidu.com,www1.baidu.com##.EC_mr15
-www.baidu.com,www1.baidu.com##.EC_ppim
-www.baidu.com,www1.baidu.com##.EC_ppim2
 www.baidu.com,www1.baidu.com##.ec_pp_f
 www.baidu.com,www1.baidu.com##.ec_pp_f + br
+www.baidu.com,www1.baidu.com##.EC_ppim
+www.baidu.com,www1.baidu.com##.EC_ppim2
 www.baidu.com,www1.baidu.com##style + table:nth-child(3)
-www.baidu.com,www1.baidu.com##table[cellspacing="0"][cellpadding="0"][align="right"][width="30%"]
 !--image
 image.baidu.com###ecomContainer
 image.baidu.com###relEcom
@@ -4224,7 +4225,6 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /google_ads.
 /google_ads/*
 /google_ads_
-/google_adsense.
 /google_afc.
 /google_afc_
 /google_lander2.js
@@ -4679,6 +4679,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /servead.
 /serveads.
 /servewebads/*
+/sevenads.
 /sevenl_ad.
 /show-ad.
 /show-ads.
@@ -11841,9 +11842,11 @@ _a468x60.
 ||oxado.com^$third-party
 ||oxtracking.com^$third-party
 ||p-advg.com^$third-party
+||paads.dk^$third-party
 ||pakbanners.com^$third-party
 ||panachetech.com^$third-party
 ||paperg.com^$third-party
+||partner-ads.com^$third-party
 ||partner.video.syndication.msn.com^$~object-subrequest,third-party
 ||partypartners.com^$third-party
 ||paygear.com^$third-party
@@ -11987,6 +11990,7 @@ _a468x60.
 ||servali.net^$third-party
 ||serving-sys.com^$third-party
 ||sev4ifmxa.com^$third-party
+||sevenads.net^$third-party
 ||sexmoney.com^$third-party
 ||shareasale.com^$third-party
 ||sharegods.com^$third-party
@@ -12626,6 +12630,7 @@ _a468x60.
 ||cashmyvideo.com/images/cashmyvideo_banner.gif
 ||casino.com^$image,~image,popup
 ||castasap.com/publi2.html
+||casti.tv/adds/
 ||catholicweb.com^*/banners/
 ||cazoz.com/banner.php
 ||cbanners.virtuagirlhd.com^$third-party
@@ -12951,6 +12956,7 @@ _a468x60.
 ||mgid.com^$script,subdocument,third-party
 ||microsoft.com^*/bannerrotator/$third-party
 ||microsoft.com^*/community/images/windowsintune/$third-party
+||mightydeals.com/widgets/$third-party
 ||missnowmrs.com/images/banners/
 ||mkini.net/banners/
 ||mlgpro.com/javascript/data/addata.php
@@ -13231,6 +13237,7 @@ _a468x60.
 ||travelmail.traveltek.net^$third-party
 ||trialpay.com^*&dw-ptid=$third-party
 ||trivago.co.uk/uk/srv/$third-party
+||truckingunlimited.com^$image,~image,popup,domain=sharpfile.com
 ||ttnonline.com/banners/
 ||turbotrafficsystem.com^*/banners/
 ||turner.com^*/336x280_ad.gif
@@ -14980,6 +14987,7 @@ _comscore.js
 ||fastcounter.onlinehoster.net^
 ||feedcat.net/button/
 ||feedsportal.com^*/1x1.gif?
+||flashi.tv/histats.php?
 ||flixster.com^*/analytics.
 ||footballmedia.com/tracking/
 ||forms.aweber.com^*/displays.htm?id=
