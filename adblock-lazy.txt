@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: U2Z9YiRnufEbXwC7lSYnSw
+!  Checksum: JCUGm4R0mk99FimPLhfznA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 19 Sep 2012 00:53:49 +0800
+!  Last Modified:  Wed, 19 Sep 2012 01:05:32 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -640,6 +640,7 @@ huanqiu.com###adDt
 ||ifengimg.com/ifeng/sources/
 ||ifengimg.com/mappa/
 ||y1.ifengimg.com^*/rdn_*.js
+||y3.ifengimg.com^*/200x250.htm
 ||script2.pingan.com/app_js/pingan/
 ifeng.com##.adbox
 ifeng.com##[class$="Ad"]
@@ -980,7 +981,7 @@ www.qidian.com##[class^="gg"]
 www.qidian.com##.RightAD
 !--晋江文学城
 |http://*/*.ca|$domain=jjwxc.net
-||jjwxc.net/jjad2.html$image,~image,popup
+||jjwxc.net/jjad*.html$image,~image,popup
 ||static.jjwxc.net/sp/$subdocument
 ||static.jjwxc.net/scripts/richMedia.js
 jjwxc.net##[id^="adp_"]
