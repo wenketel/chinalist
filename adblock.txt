@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: T+LgQ4HS0DIfJkTe4XHvig
+!  Checksum: gBPt3vVBB6Pz1qb4RqQZXA
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 18 Sep 2012 02:15:18 +0800
+!  Last Modified:  Tue, 18 Sep 2012 13:04:34 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -370,7 +370,7 @@ caicai98.com,finance.china.com##[class^="gg"]
 !---中国战略网
 ||chinaiiss.com/include/js/function.ad.js
 ||images.chinaiiss.com/attachment/$object
-||sc.chinaiiss.com^
+||sc.chinaiiss.com/do.php?do=ad&
 chinaiiss.com###content_text > span[style]
 chinaiiss.com##.nav_r:nth-child(6)
 
@@ -1286,6 +1286,13 @@ tianya.cn##[id*="_AD_"]
 tianya.cn###adsp_content_top_banner
 tianya.cn###adsp_list_top_banner
 
+!---TOM.COM
+||js.pub.tom.com^
+||news.tom.com/v2008.js
+||sc.tom.com^
+||post.weiqi.tom.com/pfprt.php
+tom.com##.conttopad
+
 !-tom365
 ||ff.wanlicity.com^
 ||tom365.com/newjs/
@@ -1762,7 +1769,6 @@ taihe.net##script[src="/js/ad.js"] + #table1
 ||forum.techweb.com.cn/advtcnt.php
 ||js.tlt.cn/js/
 ||tlt.cn/floater/float.php
-||js.pub.tom.com^
 ||sa.uusee.com^
 ||image.wenweipo.com/*/ad_
 ||workercn.cn/ufile/$object

@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: oaFg24ldtzPxK02g9P14hQ
+!  Checksum: WYTwjk94xizUyoMRGVI48Q
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 18 Sep 2012 02:15:20 +0800
+!  Last Modified:  Tue, 18 Sep 2012 13:04:35 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -371,7 +371,7 @@ caicai98.com,finance.china.com##[class^="gg"]
 !---中国战略网
 ||chinaiiss.com/include/js/function.ad.js
 ||images.chinaiiss.com/attachment/$object
-||sc.chinaiiss.com^
+||sc.chinaiiss.com/do.php?do=ad&
 chinaiiss.com###content_text > span[style]
 chinaiiss.com##.nav_r:nth-child(6)
 
@@ -1287,6 +1287,13 @@ tianya.cn##[id*="_AD_"]
 tianya.cn###adsp_content_top_banner
 tianya.cn###adsp_list_top_banner
 
+!---TOM.COM
+||js.pub.tom.com^
+||news.tom.com/v2008.js
+||sc.tom.com^
+||post.weiqi.tom.com/pfprt.php
+tom.com##.conttopad
+
 !-tom365
 ||ff.wanlicity.com^
 ||tom365.com/newjs/
@@ -1762,7 +1769,6 @@ taihe.net##script[src="/js/ad.js"] + #table1
 ||forum.techweb.com.cn/advtcnt.php
 ||js.tlt.cn/js/
 ||tlt.cn/floater/float.php
-||js.pub.tom.com^
 ||sa.uusee.com^
 ||image.wenweipo.com/*/ad_
 ||workercn.cn/ufile/$object
@@ -4417,6 +4423,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /megaad.
 /meme_ad.
 /metaadserver/*
+/mgid-ad-
 /microad.
 /microads/*
 /mini-ads/*
@@ -12300,10 +12307,12 @@ _a468x60.
 ||ad4partners.com^$third-party
 ||adjunky.com^$third-party
 ||adsgangsta.com^$third-party
+||adskape.ru^$third-party
 ||adult-profit-files.com^$third-party
 ||adultlinkexchange.com^$third-party
 ||adultpopunders.com^$third-party
 ||advmania.com^$third-party
+||advsense.info^$third-party
 ||adxmarket.com^$third-party
 ||adxpansion.com^$image,~image,popup
 ||adxpansion.com^$third-party
@@ -12408,7 +12417,10 @@ _a468x60.
 ||the-adult-company.com^$third-party
 ||timteen.com^$third-party
 ||tinyweene.com^$third-party
+||tm-core.net^$third-party
+||tmserver-2.net^$third-party
 ||topbucks.com^$third-party
+||traffic.ru^$third-party
 ||trafficholder.com^$image,~image,popup
 ||trafficlearn.com^$third-party
 ||trafficpimps.com^$third-party
@@ -12424,6 +12436,7 @@ _a468x60.
 ||wetpeachcash.com^$third-party
 ||whaleads.com^$third-party
 ||wood-pen.com^$third-party
+||wwwmobiroll.com^$third-party
 ||xfuckbook.com^$third-party
 ||xhamstercams.com^$third-party
 ||xpop.co^$third-party
@@ -12650,6 +12663,8 @@ _a468x60.
 ||click.eyk.net^
 ||clickstrip.6wav.es^
 ||clipdealer.com/?action=widget&*&partner=
+||cloudfront.net^*&size=300x250
+||cloudfront.net^*=ad&
 ||colmwynne.com^$image,third-party
 ||colorlabsproject.com^*/banner_
 ||complexmedianetwork.com/cdn/agenda.complex.com/$domain=~complex.com
@@ -12665,11 +12680,13 @@ _a468x60.
 ||customcodebydan.com/images/banner.gif
 ||customer.heartinternet.co.uk^$third-party
 ||cuteonly.com/banners.php$third-party
+||d15565yqt7pv7r.cloudfront.net^
 ||d15gt9gwxw5wu0.cloudfront.net^
 ||d1spb7fplenrp4.cloudfront.net^
 ||d2anfhdgjxf8s1.cloudfront.net^
 ||d2ipklohrie3lo.cloudfront.net^
 ||d31807xkria1x4.cloudfront.net^
+||d3irruagotonpp.cloudfront.net^
 ||d3lvr7yuk4uaui.cloudfront.net^
 ||d3pkae9owd2lcf.cloudfront.net/mb102.js
 ||d3t2wca0ou3lqz.cloudfront.net^
@@ -13321,6 +13338,7 @@ _a468x60.
 ||you-cubez.com/images/banners/
 ||you-only-you.com/banners/
 ||zamimg.com/images/skins/gw2-
+||zamimg.com/images/skins/mob-
 ||zapads.zapak.com^
 ||zeusfiles.com/promo/
 ||ziffdavisenterprise.com/contextclicks/
@@ -13407,6 +13425,7 @@ _a468x60.
 ||freeonescams.com^$subdocument,third-party
 ||freeporn.hu/banners/
 ||freexxxvideoclip.aebn.net^
+||freshnews.su/get_tizers.php?
 ||ftvcash.com/banners/
 ||fuckbookhookups.com/go/$image,~image,popup
 ||fuckhub.net^*?pid=$third-party
@@ -13425,6 +13444,7 @@ _a468x60.
 ||hdpornphotos.com/images/728x180_
 ||hdpornphotos.com/images/banner_
 ||hentaikey.com/images/banners/
+||hodun.ru/files/promo/
 ||hornybirds.com^$subdocument,third-party
 ||hotcaracum.com/banner/
 ||hotmovies.com/custom_videos.php?
