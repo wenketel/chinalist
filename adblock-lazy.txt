@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: JzMtoBIgUXSIjkRt3zU1qA
+!  Checksum: RS6hKJGkzcrvHB1lBeuixA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 20 Sep 2012 22:09:05 +0800
+!  Last Modified:  Thu, 20 Sep 2012 22:41:04 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -2228,6 +2228,7 @@ zxtjd.com###it_an
 ||arpg2.com^$image,~image,popup,third-party
 ||resmkt.dipan.com^$image,~image,popup,third-party
 ||game3896.com^$image,~image,popup,third-party
+||gm99.com^$image,~image,popup,third-party
 ||xp3366.com^$image,~image,popup,third-party
 ||xp9365.com^$image,~image,popup,third-party
 !--9v
@@ -2847,9 +2848,11 @@ xiachufang.com##.g-ga.g-bg-white
 ||image.10010.com/index_js/flash-ad$script
 google.com,google.com.hk###topstuff > #wmxmsg
 ||nanrenwa.com/_img/a/$third-party
-||sdo.com^*block.$script,domain=qidian.com
-||sdo.com^*/main.$script,domain=qidian.com
-||sdo.com/*/fb.php$script
+||*.*.sdo.com/*/$script,domain=qidian.com
+||sdo.com/?appendix=$image,~image,popup
+||sdo.com/?method=GetAd&
+||sdo.com/redo*/$script,domain=qidian.com
+||sdo.com/sdk/js/hsp/$script,domain=qidian.com
 !-----------------------EasyList----------------------------
 ! *** easylist:easylist/easylist_general_block.txt ***
 &ad_channel=
@@ -3036,7 +3039,6 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /ad-hug.
 /ad-iframe-
 /ad-iframe.
-/ad-images/*
 /ad-inject/*
 /ad-leaderboard.
 /ad-letter.
@@ -3176,7 +3178,6 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /ad_script.
 /ad_serv.
 /ad_serve.
-/ad_serve_
 /ad_server.
 /ad_server/*
 /ad_sizes=
@@ -3220,7 +3221,6 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /adbottom.
 /adbox.
 /adbox/*
-/adboxbk.
 /adboxes/*
 /adbrite.
 /adbureau.
@@ -3443,7 +3443,6 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /adroot/*
 /adrot.
 /adrot_leader.
-/adrotate.
 /adrotate/*
 /adrotator.
 /adrotator/*
@@ -3474,7 +3473,6 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /ads/125r.
 /ads/468a.
 /ads/728b.
-/ads/center-
 /ads/header_
 /ads/js/*
 /ads/jsbannertext.
@@ -3482,14 +3480,12 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /ads/mpu/*
 /ads/newad.
 /ads/panel.
-/ads/pencil/*
 /ads/proxy-
 /ads/skins/*
 /ads/sponsors_
 /ads/square.
 /ads/square2.
 /ads/square3.
-/ads/tile-
 /ads0.
 /ads09a/*
 /ads1.
@@ -3988,7 +3984,6 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /bnrsrv.*?
 /bodyads/*
 /boomad.
-/bottom-advert-
 /bottom_ad.
 /bottomad.
 /bottomad/*
@@ -4034,7 +4029,6 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /commercial_top.
 /common/ad.
 /common/ad/*
-/commspace_ad.
 /companion_ads.
 /contaxe_
 /content/ad/*
@@ -4161,7 +4155,6 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /flash-ads/*
 /flash/ad_
 /flashad.
-/flashad3.
 /flashads.
 /flashads/*
 /flatad.
@@ -4430,7 +4423,6 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /marketing-banners/*
 /marketing/banners/*
 /marketing/banners_
-/masterad.
 /mbn_ad.
 /mcad.php
 /media_ads/*
@@ -4838,7 +4830,6 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /title_ad.
 /tmnadsense-
 /tmobilead.
-/tncms/ads/*
 /toigoogleads.
 /toolkitads.
 /tools/ad.
@@ -5101,7 +5092,6 @@ _adtech_
 _adtext_
 _adtitle.
 _adtop.
-_adunit.
 _advertise180.
 _advertisehere.
 _advertisement.
@@ -5972,8 +5962,6 @@ _a468x60.
 ~sanmarcosrecord.com###ad_5
 ###ad_500
 ###ad_728_foot
-###ad_728a
-###ad_728b
 ###ad_728x90
 ###ad_728x90_container
 ###ad_940
@@ -7492,7 +7480,6 @@ _a468x60.
 ###post-promo-ad
 ###post5_adbox
 ###post_ad
-###pre_advertising_wrapper
 ###premium_ad
 ###priceGrabberAd
 ###prime-ad-space
@@ -11359,7 +11346,6 @@ _a468x60.
 ||clickthrucash.com^$third-party
 ||clickupto.com^$third-party
 ||clickwinks.com^$third-party
-||clickxchange.com^$third-party
 ||clixgalore.com^$third-party
 ||clixtrac.com^$third-party
 ||clkads.com^$third-party
@@ -11586,7 +11572,6 @@ _a468x60.
 ||goviral.hs.llnwd.net^$third-party
 ||grabmyads.com^$third-party
 ||gratisnetwork.com^$third-party
-||groceryserver.com^$third-party
 ||groovinads.com^$third-party
 ||guardiandigitalcomparison.co.uk^$third-party
 ||gumgum.com^$third-party
@@ -11945,7 +11930,6 @@ _a468x60.
 ||qksrv.net^$third-party
 ||qksz.net^$third-party
 ||qnsr.com^$third-party
-||qservz.com^$third-party
 ||questionmarket.com^$third-party
 ||questus.com^$third-party
 ||raasnet.com^$third-party
@@ -12082,7 +12066,6 @@ _a468x60.
 ||symbiosting.com^$third-party
 ||tacoda.net^$third-party
 ||taggify.net^$third-party
-||tagshost.com^$third-party
 ||tailsweep.com^$third-party
 ||tapad.com^$third-party
 ||targetnet.com^$third-party
@@ -12250,7 +12233,6 @@ _a468x60.
 ||xtendmedia.com^$third-party
 ||xx00.info^$third-party
 ||yadomedia.com^$third-party
-||yb0t.com^$third-party
 ||ycasmd.info^$third-party
 ||yceml.net^$third-party
 ||yesnexus.com^$third-party
@@ -12261,7 +12243,6 @@ _a468x60.
 ||yieldlab.net^$third-party
 ||yieldmanager.com^$third-party
 ||yieldmanager.net^$third-party
-||yldbt.com^$third-party
 ||yldmgrimg.net^$third-party
 ||ymads.com^$third-party
 ||yottacash.com^$third-party
@@ -12336,6 +12317,7 @@ _a468x60.
 ||swadvertising.org^$image,~image,popup,third-party
 ||traffichaus.com^$image,~image,popup,third-party
 ||tutvp.com^$image,~image,popup,third-party
+||urlcash.net^$image,~image,popup,third-party
 ||webtrackerplus.com^$image,~image,popup,third-party
 ||wigetmedia.com^$image,~image,popup,third-party
 ||xclicks.net^$image,~image,popup,third-party
@@ -12376,7 +12358,6 @@ _a468x60.
 ||belasninfetas.org^$third-party
 ||bestssn.com^$third-party
 ||board-books.com^$third-party
-||boinkcash.com^$third-party
 ||cache.imagehost123.com^$third-party
 ||camads.net^$third-party
 ||campartner.com^$third-party
@@ -12898,8 +12879,6 @@ _a468x60.
 ||pornstream.cc/popt/$image,~image,popup
 ||ymages.org/prepop.php$image,~image,popup
 ! *** easylist:easylist/easylist_specific_hide.txt ***
-1049.fm##.add-box
-1049.fm##.content-footer-promo
 10minutemail.com###shoutouts
 1150kknw.com##.advertising
 123people.co.uk###l_banner
@@ -13041,8 +13020,6 @@ allfacebook.com###leaderboard
 allfacebook.com##.sponsors
 allkpop.com##.ad
 allkpop.com##.sponsors
-allmovie.com##.dart-leaderboard
-allmovie.com##.dart-medsquare
 allmovieportal.com##table[width="100%"][height="90"]
 allmusicals.com##img[width="140"]
 allmusicals.com##img[width="190"]
@@ -13072,8 +13049,6 @@ amazon.com##div[style="width:301px;height:270px;margin-top:0px;margin-bottom:16p
 amazon.com##iframe[title="Ad"]
 ameinfo.com##.banner
 america.fm###banbo
-americanidol.com###medrec
-americanidol.com###sponsorLogos
 americanscientist.org###topBanner
 ames247.com##.banner-300
 amherstburgecho.com###banZone
@@ -13643,9 +13618,6 @@ computing.co.uk##.leaderboard
 computing.net###top_banner
 computingondemand.com###sub-nav
 concordmonitor.com##.sponsor
-connectionstrings.com###slot_bottom
-connectionstrings.com###slot_leftmenu
-connectionstrings.com###slot_subrect
 cookingforengineers.com##.nothing
 cookingforengineers.com##div[style="border:0px solid #FFFFA0;width:728px;height:90px;margin:0 auto"]
 cool-sport.net##div[id^="ltas_overlay_"]
@@ -13821,7 +13793,6 @@ devarticles.com###ad
 devarticles.com###mixedspons
 devarticles.com##table[width="1003"][cellspacing="0"][cellpadding="0"][border="0"][align="center"]
 develop-online.net##.newsinsert
-developerscrappad.com##.post_text > div[style="text-align: center;"]
 deviantart.com###overhead-you-know-what
 deviantart.com##.ad-blocking-makes-fella-confused
 deviantart.com##.subbyCloseX
@@ -14210,7 +14181,6 @@ facebook.com##.fbEmuLink
 facebook.com##.fbPhotoAdsCol
 facebook.com##.fbPhotoSnowboxAds
 facebook.com##.fbTimelineSideAds
-facebook.com##.uiStreamHomepage > .uiUnifiedStory[data-ft*="\",\"ei\":\""]
 facebook.com##a[ajaxify^="/ajax/emu/end.php?"]
 facebook.com##a[href^="/ads/adboard/"]
 facebook.com##a[href^="/ajax/emu/end.php?"]
@@ -16567,7 +16537,6 @@ shropshirestar.com##.MPU
 shropshirestar.com##.advert
 sicilyintheworld.com###footer
 sicilyintheworld.com##div[align="right"][bold][font\:][padding\:]
-sidereel.com##.featured-episode-link
 sigalert.com##.map-med-rect
 signal1.co.uk###lb
 signal1.co.uk##.MPU
@@ -16876,10 +16845,6 @@ techweb.com###h_banner
 techworld.com.au###marketplace
 techxav.com##img[alt="Commercial WordPress themes"]
 tectonic.co.za##.tdad125
-teen.com###alloy-300x250-tile2
-teen.com###alloy-300x250-tile3
-teen.com###alloy-728x90-tile1
-teen.com###alloy-728x90-tile4
 teenhut.net##td[align="left"][width="160"][valign="top"]
 teesoft.info###footer-800
 teesoft.info###uniblue
@@ -17076,7 +17041,6 @@ time.com##.sep
 timeanddate.com###ad1
 timeout.com##.MD_textLinks01
 timeoutdubai.com###tleaderb
-times247.com###full-banner
 timesdispatch.com###dealoftheday
 timesnewsline.com##table[width="300"][height="250"][align="left"]
 timesnow.tv##[style="width: 300px; height: 250px; overflow:hidden"]
@@ -17323,9 +17287,6 @@ urbandictionary.com###rollup
 urbandictionary.com##.zazzle_links
 url.org###resspons1
 url.org###resspons2
-urlcash.net###bannerbox
-urlcash.net###leftbox
-urlcash.net###rightbox
 urlcash.org###bannerbox
 urlcash.org##.bannertop > center > #leftbox
 urlesque.com##.sidebarBanner
@@ -18815,9 +18776,6 @@ yumymilf.com##.bottom-banner
 @@||vtstage.cbsinteractive.com/plugins/*_adplugin.swf
 @@||wallpapersmania.com/ad/$image,~third-party
 @@||washingtonpost.com/wp-adv/advertisers/russianow/
-@@||washingtonpost.com/wp-srv/ad/generic_ad.js
-@@||washingtonpost.com/wp-srv/ad/textlink_driver.js
-@@||washingtonpost.com/wp-srv/ad/wp.js
 @@||washingtonpost.com/wp-srv/ad/wp_ad.js
 @@||washingtonpost.com/wp-srv/ad/wpni_generic_ad.js
 @@||we7.com/api/streaming/advert-info?$object-subrequest
@@ -18926,12 +18884,10 @@ yumymilf.com##.bottom-banner
 @@||adocean.pl^*?aocodetype=$object-subrequest,domain=tvn24.pl|tvnplayer.pl
 @@||ads.cvut.cz^$~third-party
 @@||ads.e-planning.net^*/preroll?$object-subrequest,domain=ole.com.ar
-@@||ads.hosting.vcmedia.vn/crossdomain.xml$object-subrequest,domain=dantri.com.vn|gamek.vn|genk.vn
-@@||ads.hosting.vcmedia.vn/jinfo.ashx?$object-subrequest,domain=dantri.com.vn|gamek.vn|genk.vn
+@@||ads.hosting.vcmedia.vn/crossdomain.xml$object-subrequest,domain=dantri.com.vn|genk.vn
+@@||ads.hosting.vcmedia.vn/jinfo.ashx?$object-subrequest,domain=dantri.com.vn|genk.vn
 @@||ads.peteava.ro/crossdomain.xml$object-subrequest
 @@||ads.peteava.ro/www/serve_ads/serve2.php?campaign=$object-subrequest
-@@||ads.telecinco.es/crossdomain.xml$object-subrequest
-@@||ads.telecinco.es/realmedia/ads/adstream_sx.ads/www.telecinco.es/$object-subrequest
 @@||ads.us.e-planning.net/crossdomain.xml$object-subrequest,domain=elcomercio.pe
 @@||ads.us.e-planning.net/crossdomain.xml$object-subrequest,domain=streamtheworld.com
 @@||ads.us.e-planning.net^*&ma=*&vv=$object-subrequest,domain=elcomercio.pe
@@ -19004,7 +18960,6 @@ yumymilf.com##.bottom-banner
 @@||viamichelin.pt/static/advert/afsquery/afsquery.js
 @@||viamichelin.pt/static/advert/sponsoring/itinerarypage/itinerarypage.js
 @@||viamichelin.pt^*/rentacar.js
-@@||video.appledaily.com.hk/admedia/$object-subrequest,domain=nextmedia.com
 @@||videonuz.ensonhaber.com/player/hdflvplayer/xml/ads.xml?$object-subrequest
 @@||videoplaza.tv/proxy/distributor?$object-subrequest,domain=aftenposten.no|bt.no|ekstrabladet.dk|kuriren.nu|qbrick.com|svd.se
 @@||videos.lanacion.com.ar^*/xml/publicidad/$object
@@ -19116,7 +19071,7 @@ yumymilf.com##.bottom-banner
 /chartbeat.js
 /chcounter/*
 /clickheat.js
-/clickheat^
+/clickheat/*
 /clickstream.js
 /cm?ci=*&tid=
 /cm?tid=
@@ -20133,7 +20088,6 @@ _comscore.js
 ||traceworks.com^$third-party
 ||trackalyzer.com^$third-party
 ||trackedlink.net^$third-party
-||tracking100.com^$third-party
 ||tracking202.com^$third-party
 ||trackinglabs.com^$third-party
 ||trackset.com^$third-party
@@ -20514,7 +20468,6 @@ _comscore.js
 ||kdpgroupe.com/ea.js
 ||knorex.asia/static-tracking/
 ||kraken.giantrealm.com^
-||l.coincident.tv^
 ||l.ooyala.com^
 ||l.player.ooyala.com^
 ||l.sharethis.com^
@@ -20583,6 +20536,7 @@ _comscore.js
 ||oddcast.com/event.php?$object-subrequest
 ||offermatica.intuit.com^
 ||ohnorobot.com/verify.pl?
+||olark.com/nrpc/
 ||onescreen.net^*/log.gif?
 ||onsugar.com/static/ck.php?
 ||onsugar.com^*/clicktracker.js
