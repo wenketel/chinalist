@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 1cswHShuRmAYgrVPCsfheg
+!  Checksum: 01/hQWLzRrbpU480KJZG6w
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 21 Sep 2012 14:56:51 +0800
+!  Last Modified:  Sat, 22 Sep 2012 01:56:38 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -170,7 +170,7 @@ v.6.cn###playerAd
 /aitw/*$domain=99comic.com|99manga.com
 /jsc/book_$domain=99comic.com|99manga.com
 /jsc/stat.js$domain=99comic.com|99manga.com
-||99comic.com/script/pub-js.js
+/pub-js.js$domain=99comic.com|99manga.com
 ||99manga.com/w/p
 ||99manga.com/w/t.js
 99comic.com,99manga.com##.sic
@@ -2232,6 +2232,7 @@ zxtjd.com###it_an
 ||arpg2.com^$image,~image,popup,third-party
 ||resmkt.dipan.com^$image,~image,popup,third-party
 ||game3896.com^$image,~image,popup,third-party
+||gelo.tw^$image,~image,popup,third-party
 ||gm99.com^$image,~image,popup,third-party
 ||xp3366.com^$image,~image,popup,third-party
 ||xp9365.com^$image,~image,popup,third-party
@@ -5208,8 +5209,7 @@ _video_ads_
 _videoad.
 _vodaaffi_
 _webad.
-|http://ox-d.*/jstag?
-|http://ox-d.*/jstag|
+|http://ox-d.*/jstag^
 |http://u-ads.
 ||cacheserve.*/promodisplay/
 ||cacheserve.*/promodisplay?
@@ -5979,6 +5979,7 @@ _a468x60.
 ###ad_468x60
 ~sanmarcosrecord.com###ad_5
 ###ad_500
+###ad_728
 ###ad_728_foot
 ###ad_728a
 ###ad_728b
@@ -7349,6 +7350,7 @@ _a468x60.
 ~theloop.com.au###main_ad
 ###main_rec_ad
 ###main_top_ad_container
+###marcoad
 ###marketing-promo
 ###mastAd
 ###mastAdvert
@@ -8912,6 +8914,8 @@ _a468x60.
 ~flysurf.com##.ads_area
 ##.ads_big
 ##.ads_big-half
+##.ads_big_right
+##.ads_big_right_code
 ##.ads_box
 ##.ads_box_headline
 ##.ads_brace
@@ -8957,6 +8961,7 @@ _a468x60.
 ##.ads_top_promo
 ##.ads_tr
 ##.ads_under_fileinfo
+##.ads_up_big2
 ##.ads_verticalSpace
 ##.ads_vtlLink
 ##.ads_widesky
@@ -9217,6 +9222,7 @@ _a468x60.
 ##.advertising2
 ##.advertisingTable
 ##.advertising_300x250
+##.advertising_banner
 ~zauberlanka.de##.advertising_block
 ##.advertising_images
 ~macwelt.de##.advertisment
@@ -10635,6 +10641,7 @@ _a468x60.
 ##.textAdBG
 ##.textAdBox
 ##.textAds
+##.textLinkAd
 ##.text_ad
 ##.text_ads
 ~kingsofchaos.com##.textad
@@ -10894,7 +10901,7 @@ _a468x60.
 ##.ra[align="right"][width="30%"]
 ! Sedo
 ###center > .dose > .dosesingle.float
-###right > .dose > .dosesingle.float
+###content > #right > .dose > .dosesingle
 ! *** easylist:easylist/easylist_adservers.txt ***
 ||101m3.com^$third-party
 ||103092804.com^$third-party
@@ -11020,6 +11027,7 @@ _a468x60.
 ||admarketplace.net^$third-party
 ||admaya.in^$third-party
 ||admedia.com^$third-party
+||admedias.net^$third-party
 ||admeld.com^$third-party
 ||admeta.com^$third-party
 ||admitad.com^$third-party
@@ -12153,6 +12161,7 @@ _a468x60.
 ||trigami.com^$third-party
 ||trkalot.com^$third-party
 ||trker.com^$third-party
+||trklnks.com^$third-party
 ||tubemogul.com^$third-party
 ||tutvp.com^$third-party
 ||tvprocessing.com^$third-party
@@ -12205,9 +12214,11 @@ _a468x60.
 ||videostrip.com^*/admatcherclient.$object-subrequest,third-party
 ||vidpay.com^$third-party
 ||viedeo2k.tv^$third-party
+||viewablemedia.net^$third-party
 ||viglink.com^$third-party
 ||vipquesting.com^$third-party
 ||visiblegains.com^$third-party
+||visiblemeasures.com^$~object-subrequest,third-party
 ||visitdetails.com^$third-party
 ||vitalads.net^$third-party
 ||vpico.com^$third-party
@@ -13055,6 +13066,7 @@ allmovie.com##.dart-medsquare
 allmovieportal.com##table[width="100%"][height="90"]
 allmusicals.com##img[width="140"]
 allmusicals.com##img[width="190"]
+allmyvideos.net###OnPlayerBanner
 allmyvideos.net###cblocker
 alloy.com###screen_scene_module
 allrecipes.com###ctl00_CenterColumnPlaceHolder_recipe_advertiseWithUs
@@ -14606,6 +14618,7 @@ goodhopefm.co.za##.mrec
 goodhousekeeping.com###hpV2_728x90
 googletutor.com##div[style="width:125px;text-align:center;"]
 googlewatch.eweek.com###topBanner
+gorillaleak.com###ad101
 gorillavid.com##a[href^="http://ads.gorillavid.com/"]
 gorillavid.in##a[href^="http://ads.gorillavid.com/"]
 gorillavid.in##a[href^="http://ads.gorillavid.in/"]
@@ -15232,6 +15245,9 @@ legendarypokemon.net##.advert
 lemondrop.com##.sidebarBanner
 lemondrop.com##.topBanner
 lens101.com##a[href^="http://www.eyetopics.com/"]
+leo.org###main > .sidebar:first-child
+leo.org###main > .sidebar:last-child
+leo.org##.standard_banner
 letmesingthis.com##a[href="http://www.singorama.me"]
 letmewatchthis.ch##.download_link
 letmewatchthis.ch##.movie_version_alt
@@ -16087,6 +16103,8 @@ pcworld.com###todaysSpecialOffers
 pcworld.com##.dellInfluencer_aBanner
 pcworld.com##.msReminderBadgeBanner
 pcworld.com##.skyscraper
+pda.leo.org##table[border="0"][bgcolor="#fff8cc"][align="center"][width="100%"][style="spacing:0px;margin:0px;"]
+pda.leo.org##tr:first-child:last-child > td[style="text-align:center;"]:first-child:last-child
 pdf-archive.com##div[style$="width: 300px; height: 250px; float: left;"]
 pdfmyurl.com##.banner
 pdfzone.com##.Skyscraper_BG
@@ -16257,6 +16275,7 @@ q93country.com###rightBanner
 qj.net###shoppingapi
 qt.com.au###salesCarouselContainer
 quackit.com###rightColumn
+quackit.com##.ad
 quackit.com##div[style="margin:auto;width:180px;height:250px;text-align:center;background:#fff url('/pix/ads/ad_zappyhost_search_box_180x250.gif') no-repeat top left;"]
 querverweis.net##.iframe_box
 querverweis.net##a[href^="http://de.pokerstrategy.com/"]
@@ -17224,6 +17243,7 @@ treehugger.com##.google-indiv-box2
 treehugger.com##.leaderboard
 tressugar.com###shopstyle-sidebar-container
 tribalfootball.com###ldrboard
+tricksme.in##img[width="300"][height="250"]
 tripadvisor.ca##.commerce
 tripadvisor.co.uk##.commerce
 tripadvisor.com##.commerce
@@ -17472,6 +17492,7 @@ w2c.in##a[href^="http://c.admob.com/"]
 w3schools.com###w3schools_spot1 + hr + table
 w3schools.com##a[rel="nofollow"]
 w3schools.com##div[style="width:960px;height:94px;position:relative;margin-left:auto;margin-right:auto;margin:0px;padding:0px;overflow:hidden"]
+w3schools.com##div[style="width:960px;height:94px;position:relative;margin:0px;margin-left:auto;margin-right:auto;margin-top:5px;margin-bottom:5px;padding:0px;overflow:hidden"]
 walesonline.co.uk##.mpu
 walesonline.co.uk##.promobottom
 walesonline.co.uk##.promotop
@@ -17630,6 +17651,7 @@ wlfi.com###leaderboard
 wnd.com##.widget_wnd_ad_widget
 wnd.com##div[style="width:100%; padding:0px; margin:0px;"]:first-child
 womanandhome.com##.ads
+worddictionary.co.uk###header_inpage
 wordreference.com###ad1
 wordreference.com##.bannertop
 workawesome.com###banner_wrap
@@ -17845,8 +17867,8 @@ zuula.com##.sponsor
 zxxo.net##a[href^="http://www.linkbucks.com/referral/"]
 ! Anti-Adblock
 exrapidleech.info##body > :nth-child(n) + style + div[id]:last-child
-ilix.in##div[style*="filter:"]
-ilix.in##div[style*="filter:"] + *
+ilix.in##script + div[style]
+ilix.in##script + div[style] + div[id]
 linkcrypt.ws###kbf1
 minecrack.fr.nf###ad3 + noscript + div[id][style]
 miniradioplayer.net##div[id^="incmess"][style]
@@ -17856,6 +17878,8 @@ mmusicz.com##div[id^="overlay_div_"]
 multiup.org##div[id] + style[id] + div[id]
 okcupid.com###guilty_ads_box + script + script + div[style]
 pixlover.net##body > :nth-child(21) + style + div[id]:last-child
+priva.us###blcokMsg
+priva.us##.back
 rapid8.com###blcokMsg
 rapid8.com###blockMsg
 rapid8.com##.confent > script + * + div[id]
@@ -18518,6 +18542,7 @@ yumymilf.com##.bottom-banner
 @@||images.frys.com/art/ads/images/$image,~third-party
 @@||images.frys.com/art/ads/js/$script,stylesheet
 @@||imagesbn.com/resources?*/googlead.$stylesheet,domain=barnesandnoble.com
+@@||img.espngp.com/ads/$image,domain=espnf1.com
 @@||img.thedailywtf.com/images/ads/
 @@||img.weather.weatherbug.com^*/stickers/$image,stylesheet
 @@||imgag.com^*/adaptvadplayer.swf$domain=egreetings.com
@@ -18619,6 +18644,7 @@ yumymilf.com##.bottom-banner
 @@||oascentral.discovery.com/realmedia/ads/adstream_mjx.ads/$script,domain=discovery.com
 @@||oascentral.feedroom.com/realmedia/ads/adstream_sx.ads/$script,domain=businessweek.com|economist.com|feedroom.com|stanford.edu
 @@||oascentral.post-gazette.com/realmedia/ads/$object-subrequest
+@@||oascentral.sumworld.com/realmedia/ads/adstream_sx.ads/mlssoccer.com/$object-subrequest,domain=mlssoccer.com
 @@||oascentral.surfline.com/realmedia/ads/adstream_sx.ads/www.surfline.com/articles$object-subrequest
 @@||objects.tremormedia.com/embed/js/$domain=bostonherald.com|deluxemusic.tv|deluxetelevision.com|tetrisfriends.com|theunlockr.com|videopoker.com
 @@||objects.tremormedia.com/embed/sjs/$domain=nfl.com
@@ -18900,7 +18926,7 @@ yumymilf.com##.bottom-banner
 @@||myfineforum.org/advertisement.js
 @@||myfreeforum.org/advertisement.js
 @@||nwanime.com^$script
-@@||oneclickmoviez.com/ads/myads.gif
+@@||oneclickmoviez.com/ads*/myads.gif
 @@||onlinevideoconverter.com^*ad*.js
 @@||overclock3d.net/js/advert.js
 @@||pagead2.googlesyndication.com/pagead/expansion_embed.js$domain=upfordown.com
@@ -18947,7 +18973,7 @@ yumymilf.com##.bottom-banner
 @@||adtech.de/?adrawdata/3.0/*;sub1=$domain=hs.fi|iltasanomat.fi
 @@||adtech.de/?adrawdata/3.0/*;|$object-subrequest,domain=jimtv.fi|kinotv.fi|livtv.fi|nelonen.fi|nelonenpro.fi|radioaalto.fi|radiorock.fi|ruutu.fi|tv2.dk
 @@||adtech.panthercustomer.com^*.flv$domain=tv3.ie
-@@||adv.adview.pl/ads/*.mp4$object-subrequest,domain=spryciarze.pl|tvp.info
+@@||adv.adview.pl/ads/*.mp4$object-subrequest,domain=radiozet.pl|spryciarze.pl|tvp.info
 @@||aka-cdn-ns.adtech.de^*.flv$domain=tv3.ie
 @@||alimama.cn/taobaocdn/css/s8.css$domain=taobao.com
 @@||alio.lt/public/advertisement/texttoimage.html?$image
@@ -20182,7 +20208,6 @@ _comscore.js
 ||virtualnet.co.uk^$third-party
 ||visiblemeasures.com/log?$object-subrequest,third-party
 ||visiblemeasures.com/swf/as3/as3sohandler.swf$object-subrequest,third-party
-||visiblemeasures.com^$~object-subrequest,third-party
 ||visistat.com^$third-party
 ||visitor-track.com^$third-party
 ||visitorglobe.com^$third-party
