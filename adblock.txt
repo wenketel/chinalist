@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: QyQOFEOgM90RVjhZnfnggQ
+!  Checksum: VHJ6X2aiEpG1MgG4lTPtmQ
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 22 Sep 2012 02:38:21 +0800
+!  Last Modified:  Sun, 23 Sep 2012 03:47:27 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -84,7 +84,9 @@ www.youdao.com###ext
 ||market.178.com^
 ||tuiguang.178.com^
 178.com#@##advt
-178.com##[class^="ad-2"]
+178.com##.ad-2-1
+178.com##.ad2
+178.com##.ad4
 
 !---世纪文学
 ||2100book.com/scripts/open/$script
@@ -372,6 +374,7 @@ caicai98.com,finance.china.com##[class^="gg"]
 ||chinaiiss.com/include/js/function.ad.js
 ||images.chinaiiss.com/attachment/$object
 ||sc.chinaiiss.com/do.php?do=ad&
+||sc.chinaiiss.com/tj_hdpic.html
 chinaiiss.com###content_text > span[style]
 chinaiiss.com##.nav_r:nth-child(6)
 
@@ -552,6 +555,7 @@ i.firefoxchina.cn###banner_show1
 i.firefoxchina.cn###taobao_frame2
 
 !---游民星空
+||gamersky.com/bg_$image
 ||gamersky.com/frame/
 ||gamersky.com/img/
 ||imgf.gamersky.com/300/
@@ -619,6 +623,8 @@ www.hsw.cn##table[width="980"][height="100"]
 ||huanqiu.com/script/HuanQiuAllBottom.Js
 ||huanqiu.com/statics/js/adcontrol1.js
 huanqiu.com###adDt
+msn.huanqiu.com##.adMsn
+msn.huanqiu.com##.adMsn_1
 
 !---凤凰网
 /ifengRotatorAd.js
@@ -771,7 +777,10 @@ lzstw.org##.top960
 !---MSN
 !-CN
 @@||msn.wrating.com/a1.js
-cn.msn.com##.ads_5 + .tab
+||css.cn.msn.com/right_ad.htm
+||stjscn.s-msn.com/portal/hp/2012/o_code.js
+cn.msn.com##.advLf
+cn.msn.com##.topNav
 !-TW
 ||promotion.msn.com.tw^
 tw.msn.com###adgrouponca2
@@ -1317,15 +1326,17 @@ u17.com##.mylife
 u17.com##.sidepic_40
 
 !---游久网
-||uuu9.com/photolog.html
 ||uuu9.com/code/tool_netgame/$image
+||uuu9.com/photolog.html
+||uuu9.com/news/css/news_content_in.js
 ||stat.uuu9.com^
-uuu9.com##[class^="ad_"]
+uuu9.com##[class^="ad_140"]
+uuu9.com##.adbox
+uuu9.com##.adfocusbox
+uuu9.com###cm1337
 uuu9.com##.h_50
-uuu9.com###top1
-news.uuu9.com##.adfocusbox
-www.uuu9.com##.ads_new
-www.uuu9.com###ban1
+news.uuu9.com##.ng_banner
+www.uuu9.com##.T_banner
 
 !---udn
 @@||video.udn.com/player/Adv.swf$object_subrequest
@@ -1492,15 +1503,20 @@ hk.dictionary.yahoo.com###fr-adv
 ||s1.josho.yamedia.tw/f/plugin.swf^
 
 !---北青网
-||ynet.com/10171$script
-||fun.ynet.com/z2?
+||fun.ynet.com^
 ||ranking.ynet.com^
-ynet.com###ta01
+||msn.ynet.com/c/stat/uv.js
+||msn.ynet.com/c/tj_comm.js
+ynet.com##[id^="ads_"]
+ynet.com##div.fr
+ynet.com##[style$="width:300px;height:100px;"]
+ynet.com##[style="width:300px;height:250px;"]
+news.ynet.com##.RC
 
 !---优酷
 @@||static.atm.youku.com^*.swf|$domain=www.youku.com
 @@||valf.atm.youku.com/crossdomain.xml
-!@@||valf.atm.youku.com/valf?
+@@||valf.atm.youku.com/valf?
 ||atm.youku.com^
 ||f.youku.com/player/getFlvPath/fileid/*&yad=1
 ||hz.youku.com/red/
