@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: MM30dFjXrx+ZOmSZL3T2Jg
+!  Checksum: sDxxBBV7njr+leqYdI5vvg
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 23 Sep 2012 13:10:25 +0800
+!  Last Modified:  Sun, 23 Sep 2012 16:01:14 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -204,12 +204,12 @@ ali213.net##.newright
 ||alimama.cn^$third-party,domain=~alimama.com|~taobao.com|~taobao.com.cn
 ||alimama.com^$third-party,domain=~taobao.com
 ||kcart.alipay.com/web/bi.do?
+||mmstat.com^$third-party
 !--淘宝
 @@||tmatch.simba.taobao.com/?name=mcad$script
-||log.mmstat.com^
 ||acookie.*.gif?
 ||atpanel.com^$image
-||taobao.com/go/$third-party
+||taobao.com/go/$third-party,domain=~tmall.com
 ||a.tbcdn.cn/s/atp.js
 ||a.tbcdn.cn/s/ac.js
 ||a.tbcdn.cn/s/tb-tracer-min.js
@@ -572,6 +572,7 @@ i.firefoxchina.cn###taobao_frame2
 ||imgf.gamersky.com^*bg_ol$image
 gamersky.com##.adc
 gamersky.com###clickbg
+gamersky.com##.topadbod
 
 !---机锋
 ||gfan.com/press/
@@ -1332,13 +1333,14 @@ u-car.com.tw###ucar_ad_crazy
 
 !---U17
 ||u17.com^$third-party
+||static.u17i.com/*/js/ad_api/
 u17.com##.mylife
 u17.com##.sidepic_40
 
 !---游久网
 ||uuu9.com/code/tool_netgame/$image
-||uuu9.com/photolog.html
 ||uuu9.com/news/css/news_content_in.js
+||uuu9.com/photolog.html
 ||stat.uuu9.com^
 uuu9.com##[class^="ad_140"]
 uuu9.com##.adbox
@@ -2803,7 +2805,6 @@ zxtjd.com###it_an
 ||irs09.com^$third-party
 ||jiankongbao.com^$third-party
 ||lc.jiathis.com^
-||mmstat.com^$third-party
 ||phpstat.com^$third-party
 ||sitebot.cn^$third-party
 ||sitebro.$third-party

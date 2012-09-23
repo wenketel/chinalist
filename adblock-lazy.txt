@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: D72Q1x6AUe6voe5CLMGYHQ
+!  Checksum: BZhIsOC7ywV7IGHXAv+oUA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 23 Sep 2012 13:10:29 +0800
+!  Last Modified:  Sun, 23 Sep 2012 16:01:17 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -205,12 +205,12 @@ ali213.net##.newright
 ||alimama.cn^$third-party,domain=~alimama.com|~taobao.com|~taobao.com.cn
 ||alimama.com^$third-party,domain=~taobao.com
 ||kcart.alipay.com/web/bi.do?
+||mmstat.com^$third-party
 !--淘宝
 @@||tmatch.simba.taobao.com/?name=mcad$script
-||log.mmstat.com^
 ||acookie.*.gif?
 ||atpanel.com^$image
-||taobao.com/go/$third-party
+||taobao.com/go/$third-party,domain=~tmall.com
 ||a.tbcdn.cn/s/atp.js
 ||a.tbcdn.cn/s/ac.js
 ||a.tbcdn.cn/s/tb-tracer-min.js
@@ -573,6 +573,7 @@ i.firefoxchina.cn###taobao_frame2
 ||imgf.gamersky.com^*bg_ol$image
 gamersky.com##.adc
 gamersky.com###clickbg
+gamersky.com##.topadbod
 
 !---机锋
 ||gfan.com/press/
@@ -1333,13 +1334,14 @@ u-car.com.tw###ucar_ad_crazy
 
 !---U17
 ||u17.com^$third-party
+||static.u17i.com/*/js/ad_api/
 u17.com##.mylife
 u17.com##.sidepic_40
 
 !---游久网
 ||uuu9.com/code/tool_netgame/$image
-||uuu9.com/photolog.html
 ||uuu9.com/news/css/news_content_in.js
+||uuu9.com/photolog.html
 ||stat.uuu9.com^
 uuu9.com##[class^="ad_140"]
 uuu9.com##.adbox
@@ -2803,7 +2805,6 @@ zxtjd.com###it_an
 ||irs09.com^$third-party
 ||jiankongbao.com^$third-party
 ||lc.jiathis.com^
-||mmstat.com^$third-party
 ||phpstat.com^$third-party
 ||sitebot.cn^$third-party
 ||sitebro.$third-party
@@ -5231,7 +5232,6 @@ _top_advert.
 _topad.
 _tribalfusion.
 _video_ads_
-_video_advert.
 _videoad.
 _vodaaffi_
 _webad.
@@ -12726,8 +12726,6 @@ _a468x60.
 ||itsallgay.com/banners/
 ||ixtractor.com/banners/
 ||jailbaitgallery.com/banners300/
-||jav-porn.net/js/popout.js
-||jav-porn.net/js/popup.js
 ||jizzhut.com/950_250.php
 ||kuntfutube.com/poplivejasmine.js
 ||lasporn.com/adv_manager_
@@ -12763,6 +12761,10 @@ _a468x60.
 ||nudevista.com/_/ero_line_300.html
 ||nudography.com/photos/banners/
 ||nuvid.com/videos_banner.html
+||nuvidp.com/nuvid/buttons.php?
+||nuvidp.com/nuvid/livecams.php
+||nuvidp.com/nuvid/videos_banner.php
+||nuvidp.com^*/nuvid-ban-
 ||ohteddy.com/banners/
 ||olderhill.com/adw.shtml
 ||olderhill.com/ubr.js
@@ -19521,7 +19523,6 @@ _comscore.js
 ||1freecounter.com^$third-party
 ||208.88.226.75^$third-party,domain=~informer.com.ip
 ||216.18.184.18^$third-party,domain=~etahub.com.ip
-||21sme.com^$third-party
 ||24counter.com^$third-party
 ||24log.com^$third-party
 ||2cnt.net^$third-party
@@ -19580,7 +19581,6 @@ _comscore.js
 ||athenainstitute.biz^$third-party
 ||audience.visiblemeasures.com^$object-subrequest,third-party
 ||audienceiq.com^$third-party
-||auto-ping.com^$third-party
 ||avastats.com^$third-party
 ||avazudsp.net^$third-party
 ||axf8.net^$third-party
@@ -19810,12 +19810,10 @@ _comscore.js
 ||fusestats.com^$third-party
 ||fyreball.com^$third-party
 ||gaug.es^$third-party
-||gbotvisit.com^$third-party
 ||gemtrackers.com^$third-party
 ||geobytes.com^$third-party
 ||getbackstory.com^$third-party
 ||getclicky.com^$third-party
-||getfreebl.com^$third-party
 ||getstatistics.se^$third-party
 ||gigcount.com^$third-party
 ||glanceguide.com^$third-party
@@ -19967,7 +19965,6 @@ _comscore.js
 ||monetate.net^$third-party
 ||mongoosemetrics.com^$third-party
 ||monitus.net^$third-party
-||moreusers.info^$third-party
 ||mouseflow.com^$third-party
 ||mousetrace.com^$third-party
 ||msgtag.com^$third-party
@@ -20298,7 +20295,6 @@ _comscore.js
 ||xtremline.com^$third-party
 ||xxxcounter.com^$third-party
 ||xyztraffic.com^$third-party
-||ybotvisit.com^$third-party
 ||yieldoptimizer.com^$third-party
 ||yieldsoftware.com^$third-party
 ||your-counter.be^$third-party
@@ -20440,7 +20436,6 @@ _comscore.js
 ||cgicounter.puretec.de^
 ||chanalytics.merchantadvantage.com^
 ||citygridmedia.com/tracker/
-||citysearch.com/tracker/
 ||clearspring.com/at/
 ||clearspring.com/t/
 ||click.geopaysys.com^
@@ -20636,6 +20631,7 @@ _comscore.js
 ||mkcms.com/stats.js
 ||mochiads.com/clk/
 ||modules.ooyala.com^*/analytics-
+||mosso.com^*/banners/
 ||mtv.com^*spacer.gif?
 ||mtvnservices.com/metrics/
 ||muffia.com/ct/imgcount.php?
