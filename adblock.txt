@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: VHJ6X2aiEpG1MgG4lTPtmQ
+!  Checksum: MM30dFjXrx+ZOmSZL3T2Jg
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 23 Sep 2012 03:47:27 +0800
+!  Last Modified:  Sun, 23 Sep 2012 13:10:25 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -320,6 +320,12 @@ bilibili.tv,bilibili.kankanews.com##.ad-f
 ||a.pomoho.com^
 ||systemlog.pxtadmin.com^
 
+!---必杀客
+||bkill.com/css/ajs/
+||bkill.com/css/js/bkill.js
+||bkill.com/images/di.js
+bkill.com##.ad960
+
 !---易车网
 ||g.bitauto.com^$script
 bitauto.com##.bt_ad
@@ -335,6 +341,10 @@ bitauto.com##.con_ad
 ||click.bokecc.com^
 ||imedia.bokecc.com^
 ||play.bokecc.com/servlet/PlayVideo?
+
+!---圣城家园
+||btscg.com/cdn-cgi/nexp/*/cloudflare/rocket.js
+||tjzjbbs.com/data/attachment/album/$domain=btscg.com
 
 !---中国新闻网
 /ad2008/*$domain=chinanews.com
@@ -2021,11 +2031,6 @@ amznz.com##div[style="float:left;width:250px;height:250px;"]
 ||arting365.com/advs/
 ||badmintoncn.com/cbo_gg/
 ||bitscn.com/pic2009/a*.js
-||bkill.com/css/ajs/
-||bkill.com/css/js/bkill.js
-||bkill.com/images/di.js
-bkill.com##.ad960
-||tjzjbbs.com/data/attachment/album/$domain=btscg.com
 ||c168c.com/*adv/
 ||cbifamily.com/corporation/
 ||bbs.cfanclub.net/lmimages/001.gif
@@ -2355,7 +2360,6 @@ zxtjd.com###it_an
 ||7pk.com^$third-party
 ||81813.com^$third-party
 ||84232.com^$third-party
-||84422.com^$third-party
 ||8601098.com^$third-party
 ||88210212.com^$third-party
 ||885ad.com^$third-party
@@ -2442,7 +2446,7 @@ zxtjd.com###it_an
 ||cnxad.com^$third-party
 ||adm.cnzz.net^$third-party
 ||cocoren.com^$third-party
-||qa.colorful.cn^$third-party
+!||qa.colorful.cn^$third-party
 ||cpa56.com^$third-party
 ||cpm360.com^$third-party
 ||cpmadworld.com^$third-party
@@ -2484,6 +2488,7 @@ zxtjd.com###it_an
 ||games32.cn^$third-party
 ||game3737.com^$third-party
 ||banner.gametower.com.tw^$third-party
+||gglmcp.com^$third-party
 ||gocsgo.com^$third-party
 ||gohappy.com.tw^$third-party
 ||googleadsl.com^$third-party
@@ -2496,6 +2501,7 @@ zxtjd.com###it_an
 ||heima8.com^$third-party
 ||heroclick.cn^$third-party
 ||heziyou.com^$third-party
+||hot99.info^$third-party
 ||log.hiiir.com^
 ||housefun.com.tw^$third-party
 ||hoyiad.com^$third-party
@@ -2566,7 +2572,6 @@ zxtjd.com###it_an
 ||onetad.com^$third-party
 ||oounion.com^$third-party
 ||pagechoice.net^$third-party
-||pee.cn^$third-party
 ||e.phpwind.com^$third-party
 ||lianjie.phpwind.com^$third-party
 ||pixelinteractivemedia.com^$third-party
@@ -2679,7 +2684,6 @@ zxtjd.com###it_an
 ||yimeiads.com^$third-party
 ||ylunion.com^$third-party
 ||yigao.com^$third-party
-||yigouw.com^$third-party
 ||yinoo.cn^$third-party
 ||yiqifa.com^$third-party
 ||yiqiwin.com^$third-party
@@ -2799,6 +2803,7 @@ zxtjd.com###it_an
 ||irs09.com^$third-party
 ||jiankongbao.com^$third-party
 ||lc.jiathis.com^
+||mmstat.com^$third-party
 ||phpstat.com^$third-party
 ||sitebot.cn^$third-party
 ||sitebro.$third-party
