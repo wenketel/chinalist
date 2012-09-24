@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: LS5szVGF6Si/ExczS+FLXg
+!  Checksum: XjX+G/MiXBv/LrvITLgX3w
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 23 Sep 2012 19:49:28 +0800
+!  Last Modified:  Mon, 24 Sep 2012 18:14:37 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -188,9 +188,7 @@ admin5.com##.notice
 down.admin5.com###a2
 
 !---acfun.tv
-||818.17173.com/js/818ad01.js
 ||acfun.tv/api/count.aspx
-||acfun.tv/json/newad.xml
 acfun.tv###ad-comment
 
 !---游侠网
@@ -308,7 +306,6 @@ iqiyi.com##.first_adv
 iqiyi.com##.seed
 
 !---bilibili.tv
-/ad-images/*$object_subrequest,domain=bilibili.tv|bilibili.kankanews.com
 /html/*$subdocument,domain=bilibili.tv|bilibili.kankanews.com
 /html/ads-$domain=bilibili.tv|bilibili.kankanews.com
 bilibili.tv,bilibili.kankanews.com##.ad-f
@@ -467,9 +464,11 @@ dayoo.com##.cn
 /common/cf/*$image,object
 ||discuz.gtimg.cn/cloud/scripts/discuz_tips.js
 ~xdjz.net###ads_c_tpc
+##.a_fl
+##.a_fr
 ##.a_h
 ~3600gz.cn,~wxkds.com##.a_mu
-discuz.net,ooomm.com##.a_pr
+##.a_pr
 ~hk-pub.com##.ad_footerbanner
 ###ad_headerbanner
 ##.ad_headerbanner
@@ -573,6 +572,7 @@ i.firefoxchina.cn###taobao_frame2
 ||imgf.gamersky.com^*bg_ol$image
 gamersky.com##.adc
 gamersky.com###clickbg
+gamersky.com##img[width="960"][height="90"]
 gamersky.com##.topadbod
 
 !---机锋
@@ -1209,8 +1209,14 @@ weibo.com##.footer_adv
 weibo.com##.tips_player
 !--sina.com.hk
 ||as.sinahk.net^
+sina.com.hk##.sidebarItem:nth-child(10)
 !--sina.com.tw
+||ezprice.com.tw/partner/sina/ez2sina.js
 ||sina.com.tw^$subdocument
+||buy.sina.com.tw/js/sina_popup.php
+||news.sina.com.tw/_data/adsbro_hotspot.js
+||news.sina.com.tw/js/ti.js
+find.sina.com.tw###show_ysm + div[style]
 
 !---水母网
 ||a.shm.com.cn/up/content.js
@@ -2199,6 +2205,7 @@ tianyayidu.com##div[style^="width:728px;"]
 bbs.uueasy.com###banner
 ||vamt.vancl.com/mt/$image
 ||vamr.vancl.com/trace.ashx
+@@||poster.weather.com.cn/p_files/base/$image
 ||poster.weather.com.cn^
 weather.com.cn##[class^="adpos"]
 weather.com.cn##.post_st
