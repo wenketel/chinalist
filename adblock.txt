@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: Yiz7hhRyiflBk7BzW8ns9A
+!  Checksum: wuciniBhv7PEHrncCopUUQ
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 24 Sep 2012 18:16:22 +0800
+!  Last Modified:  Mon, 24 Sep 2012 22:51:24 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -987,6 +987,8 @@ down.qiannao.com###PageRigntAds
 .com/js/o.js$domain=qdmm.com|qdwenxue.com|qidian.com
 ||script.cmfu.com/ADScript/
 ||ku6.com^*/index.shtml$subdocument,domain=qidian.com
+||qdmm.com/javascript/NewSNDAPop.js
+||qidian.com/javascript/abc.htm
 ||qidian.com/Javascript/DoublePop.js
 ||qidian.com/Javascript/NewSNDAPop.js
 ||qidian.com/javascript/SNDAADAltern.js
@@ -994,6 +996,7 @@ down.qiannao.com###PageRigntAds
 ||cj.qidian.com/Picture/$domain=forum.qdwenxue.com|forum.qidian.com
 ||cj.qidian.com/svnad/
 ||c.pingba.qidian.com/increase.htm
+||login.sdo.com/sdo/PRes/js/sdo_beacon.js
 ||uedas.$domain=qdmm.com|qdwenxue.com|qidian.com
 qdmm.com,qidian.com##a[href^="http://www.qidian.com/showavd.aspx?"]
 qidian.com##[class^="show_ggpic_"]
@@ -2887,7 +2890,7 @@ xiachufang.com##.g-ga.g-bg-white
 ||image.10010.com/index_js/flash-ad$script
 google.com,google.com.hk###topstuff > #wmxmsg
 ||nanrenwa.com/_img/a/$third-party
-||*.*.sdo.com/*/$script,domain=qidian.com
+||*.*.sdo.com/*/$script,domain=qdmm.com|qidian.com
 ||sdo.com/?appendix=$image,~image,popup
 ||sdo.com/?method=GetAd&
 ||sdo.com/redo*/$script,domain=qidian.com
