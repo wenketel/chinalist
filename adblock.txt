@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: P/NTHAWD2l+SsMWLzk91Og
+!  Checksum: cYKWL6OsFQop3zPv8LAeuw
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 25 Sep 2012 11:46:46 +0800
+!  Last Modified:  Tue, 25 Sep 2012 15:27:44 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -1334,12 +1334,10 @@ tom.com##.conttopad
 tom365.com###t365
 
 !---U-CAR
-||u-car.com.tw/js/crazyad.js
-||u-car.com.tw/images/navigator/home_title_middle_
-||u-car.com.tw/images/navigator/home_title_right.jpg
 ||newad.u-car.com.tw^
-u-car.com.tw##[class^="top"][class$="ad"]
-u-car.com.tw###ucar_ad_crazy
+u-car.com.tw##.contad
+u-car.com.tw##.sidead_text
+u-car.com.tw##.top
 
 !---U17
 ||u17.com^$third-party
@@ -1386,6 +1384,13 @@ verycd.com##div[style="width:960px;height:90px;border:1px solid #ccc;padding:10p
 ||hunan.voc.com.cn/Script/ArticleContentAD.js
 ||voc.com.cn/Frame/qqms_cs.html
 ||bbs.voc.com.cn/s.js
+
+!---中国天气
+@@||poster.weather.com.cn/p_files/base/$image
+||poster.weather.com.cn^
+||m.weather.com.cn/a1.js
+weather.com.cn##[class^="adpos"]
+weather.com.cn##.post_st
 
 !---万卷书库
 ||wjskw.com/flad300209.gif
@@ -1650,6 +1655,7 @@ steachs.com###banner
 !---Download Sites
 ||05sun.com^$script
 ||52zy.com/other/js/
+||maizituan.com/yanzi/$domain=54new.com
 ||66ys.*/d/
 ||7edown.com/db/
 ||7edown.com/newbd/
@@ -2209,10 +2215,6 @@ tianyayidu.com##div[style^="width:728px;"]
 bbs.uueasy.com###banner
 ||vamt.vancl.com/mt/$image
 ||vamr.vancl.com/trace.ashx
-@@||poster.weather.com.cn/p_files/base/$image
-||poster.weather.com.cn^
-weather.com.cn##[class^="adpos"]
-weather.com.cn##.post_st
 ||webacg.com/data/js/
 ||webkaka.com/click/$image
 webkaka.com###Table1
