@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: AhQCZp2cQfpMf/NWpaVfaA
+!  Checksum: 9SU0W+lwg7gWqU7ECvphrA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 25 Sep 2012 15:27:48 +0800
+!  Last Modified:  Wed, 26 Sep 2012 16:07:50 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1500,10 +1500,11 @@ cn.yahoo.com##.p_sider
 cn.yahoo.com###r_expandable
 !--TW
 @@/ads/*$image,domain=buy.yahoo.com.tw
-@@/flash_general_20090213.js|$domain=tw.yahoo.com
+@@||l.yimg.com/f/a/tw/js/flash_general_20090213.js$domain=tw.yahoo.com
 @@||l.yimg.com/f/a/tw/*/790840_*.swf
 @@||l.yimg.com/f/a/tw/elephant/*240x94*.swf
 @@||l.yimg.com/zz/combo?*/ads/$script
+@@||query.vap.yahoo.net/nicobarMan/ads/$xmlhttprequest,domain=tw.news.yahoo.com
 ||tw.rd.yahoo.com^$image
 ||tw.img.webmaster.yahoo.com^*/ystats.gif
 ||yimg.com/no/$domain=~yahoo.com
@@ -2893,7 +2894,7 @@ xiachufang.com##.g-ga.g-bg-white
 ||image.10010.com/index_js/flash-ad$script
 google.com,google.com.hk###topstuff > #wmxmsg
 ||nanrenwa.com/_img/a/$third-party
-||*.*.sdo.com/*/$script,domain=qdmm.com|qidian.com
+||*.*.sdo.com^$script,domain=qdmm.com|qidian.com
 ||sdo.com/?appendix=$image,~image,popup
 ||sdo.com/?method=GetAd&
 ||sdo.com/redo*/$script,domain=qidian.com
@@ -3792,6 +3793,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /adunit.
 /adunit/*
 /adunits/*
+/adv-banner.
 /adv-div-
 /adv02.
 /adv03.
@@ -3807,6 +3809,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /adv_link.
 /advaluewriter.
 /advbanner/*
+/advcontents.
 /adver.
 /adver_hor.
 /adverserve.
@@ -5017,7 +5020,6 @@ google.com,google.com.hk###topstuff > #wmxmsg
 ://a.ads.
 ://adcl.
 ://ads.
-://adv-banner.
 ://affiliate.$third-party
 ://affiliates.$third-party
 ://banner.$third-party
@@ -6312,7 +6314,7 @@ _a468x60.
 ###adrectangleb
 ###adrectangleb_flex
 ###adrig
-~gamecopyworld.com,~morningstar.com###adright
+~gamecopyworld.com,~gamecopyworld.eu,~morningstar.com###adright
 ###adright2
 ###adrightbottom
 ###adrighthome
@@ -6564,7 +6566,7 @@ _a468x60.
 ###advert-right
 ###advert-skyscraper
 ###advert-top
-###advert1
+~inverterbolsa.com###advert1
 ###advertBanner
 ###advertBox
 ###advertBoxSquare
@@ -6787,6 +6789,7 @@ _a468x60.
 ###blox-tile-ad
 ###blox-tower-ad
 ###body_728_ad
+###bonus-offers-advertisement
 ###book-ad
 ###botad
 ###bott_ad2
@@ -7920,7 +7923,7 @@ _a468x60.
 ###topAdcontainer
 ###topAdsContainer
 ###topAdvBox
-###topAdvert
+~inverterbolsa.com###topAdvert
 ###topAdvert-09
 ~neowin.net###topBannerAd
 ###topBannerAdContainer
@@ -12732,6 +12735,7 @@ _a468x60.
 ||castanet.net/clients/
 ||casualgaming.biz/banners/
 ||catholicculture.org/images/banners/
+||cbc.ca/deals/
 ||cbc.ca/video/bigbox.html
 ||cbfsms.com^*-banner.gif
 ||cbs.com/thunder/ad.doubleclick.net/adx/request.php?$object-subrequest
@@ -13054,6 +13058,7 @@ _a468x60.
 ||gamecopyworld.com*/!
 ||gamecopyworld.com/games/i/if6.gif
 ||gamecopyworld.com^*/vg_160x120_
+||gamecopyworld.eu*/!
 ||gamemakerblog.com/gma/gatob.php
 ||gameplanet.co.nz^*-takeover.jpg
 ||games.bigfishgames.com^$image,domain=jayisgames.com
@@ -14261,6 +14266,7 @@ _a468x60.
 ||yfrog.com/images/weezer-bloggie-bg.png
 ||yfrog.com/ym.php?
 ||yimg.com/a/1-$~stylesheet
+||yimg.com/cv/ae/us/audience/$image,domain=yahoo.com
 ||yimg.com/dh/ap/default/*/skins_$image,domain=yahoo.com
 ||yimg.com/i/i/de/cat/yahoo.html$domain=yahoo.com
 ||yimg.com/la/i/wan/widgets/wjobs/$subdocument,domain=yahoo.com
@@ -14461,6 +14467,7 @@ _a468x60.
 ||hdporn.in/js/focus.*.js
 ||hdporn.in/rec/$subdocument
 ||hdporn.net/images/hd-porn-banner.gif
+||hellporno.com/banners/
 ||hentairules.net/pop_functions2.js
 ||hollywoodoops.com/img/*banner
 ||hornygamer.com/images/promo/
@@ -17362,7 +17369,9 @@ mindspark.com##.desc
 miniclip.com###promo-mast
 miniclip.com###promo-unit
 miniclip.com##.block_300x250
+miniclip.com##.container-300x250
 miniclip.com##.letterbox
+miniclip.com##.promo-text
 miningmx.com###c_leaderBoard
 minivannews.com##.m_banner_show
 minnpost.com##.topleader
@@ -19165,6 +19174,7 @@ uploadc.com##input[onclick^="document.location='http://tour.affbuzzads.com/"]
 uploadc.com##input[onclick^="document.location='http://www.firstload.de/affiliate/"]
 uploadc.com##td[style="text-align:center; vertical-align:middle; background:black"]
 uploaded.to###advertMN
+uploading.com##.adv_banner
 uproxx.com###block-728
 urbandictionary.com###dfp_define_rectangle
 urbandictionary.com###dfp_define_rectangle_btf
@@ -19703,14 +19713,9 @@ okcupid.com###guilty_ads_box + script + script + div[style]
 pixlover.net##body > :nth-child(21) + style + div[id]:last-child
 priva.us###blcokMsg
 priva.us##.back
-rapid8.com###blcokMsg
-rapid8.com###blockMsg
-rapid8.com##.confent > script + * + div[id]
-rapid8.com##.content > [type="text/javascript"] + div > div[id]
-rapid8.com##.content script + * + div[id]
 rapid8.com##.main > .content > div > div[id]
 rapid8.com##.main > .content div[class]
-rapid8.com##.main > script + * + div[id]
+rapid8.com##.main div[id^="block"]
 ! *** easylist:easylist_adult/adult_specific_hide.txt ***
 1-toons.com##table[style="width:840px; border 1px solid #C0C0C0; background-color:#0F0F0F; margin:0 auto;"]
 264porn.blogspot.com##[width="728"][height="90"]
@@ -19804,6 +19809,7 @@ harrymuff.com##.enter
 hdpornleech.com##a[href^="http://filepost.com/premium/"]
 hdpornleech.com##a[href^="http://oron.com/premium"]
 heavy-r.com###overlayVid
+hellporno.com##.dvb-advertisements
 hentairules.net##a[href^="http://secure.bondanime.com/track/"]
 hentairules.net##a[href^="http://secure.futafan.com/track/"]
 hentairules.net##a[href^="http://secure.lestai.com/track/"]
@@ -20052,6 +20058,8 @@ yumymilf.com##.bottom-banner
 @@||ads.id-t.com/ep/custom/sensation/flashbanner.php?zone=$domain=sensation.com
 @@||ads.id-t.com/images/$domain=sensation.com
 @@||ads.indeed.com^$~third-party
+@@||ads.intergi.com/adrawdata/*/ADTECH;$object-subrequest,domain=melting-mindz.com
+@@||ads.intergi.com/crossdomain.xml$object-subrequest,domain=melting-mindz.com
 @@||ads.jetpackdigital.com.s3.amazonaws.com^$image,domain=vibe.com
 @@||ads.jetpackdigital.com/jquery.tools.min.js?$domain=vibe.com
 @@||ads.jetpackdigital.com^*/_uploads/$image,domain=vibe.com
@@ -20294,7 +20302,6 @@ yumymilf.com##.bottom-banner
 @@||freeonlinegames.com/advertising/google-loader.swf?$object
 @@||fs-freeware.net/images/jdownloads/downloadimages/banner_ads.png
 @@||g.doubleclick.net/gampad/ads?$script,domain=boatshop24.com|instructables.com|motorcycle.com|mysoju.com|nedbank.co.za|nedbankgreen.co.za
-@@||g.doubleclick.net/gampad/ads?*&page_slots=ad_skin_yf_home$script,domain=yfrog.com
 @@||g.doubleclick.net/gampad/ads?*&page_slots=escapegames_com_all_728x90_top%2cpreroll-eg&$script,domain=escapegames.com
 @@||g.doubleclick.net/gampad/ads?*&slotname=160x600-siteskin-$script,domain=pcper.com
 @@||g.doubleclick.net/gampad/ads?*&slotname=autoguide_com_pre-roll$script,domain=autoguide.com
@@ -20370,6 +20377,7 @@ yumymilf.com##.bottom-banner
 @@||itv.com^*/tvshows_adcall_08.js
 @@||itweb.co.za/banners/en-cdt*.gif
 @@||jdoqocy.com/click-*?url=$subdocument,domain=smartvark.com
+@@||jivox.com/jivox/serverAPIs/getCampaignById.php?$object-subrequest,domain=ibnlive.in.com
 @@||jobs.wa.gov.au/images/advertimages/
 @@||js.revsci.net/gateway/gw.js?$domain=app.com|argusleader.com|aviationweek.com|battlecreekenquirer.com|baxterbulletin.com|bucyrustelegraphforum.com|burlingtonfreepress.com|centralohio.com|chillicothegazette.com|cincinnati.com|citizen-times.com|clarionledger.com|coloradoan.com|coshoctontribune.com|courier-journal.com|courierpostonline.com|dailyrecord.com|dailyworld.com|delawareonline.com|delmarvanow.com|democratandchronicle.com|desmoinesregister.com|dnj.com|fdlreporter.com|foxbusiness.com|foxnews.com|foxsmallbusinesscenter.com|freep.com|greatfallstribune.com|greenbaypressgazette.com|greenvilleonline.com|guampdn.com|hattiesburgamerican.com|hometownlife.com|honoluluadvertiser.com|htrnews.com|indystar.com|jacksonsun.com|jconline.com|lancastereaglegazette.com|lansingstatejournal.com|livingstondaily.com|lohud.com|mansfieldnewsjournal.com|marionstar.com|marshfieldnewsherald.com|montgomeryadvertiser.com|mycentraljersey.com|mydesert.com|newarkadvocate.com|news-leader.com|news-press.com|newsleader.com|pal-item.com|pnj.com|portclintonnewsherald.com|postcrescent.com|poughkeepsiejournal.com|press-citizen.com|pressconnects.com|rgj.com|sctimes.com|sheboyganpress.com|shreveporttimes.com|stargazette.com|statesmanjournal.com|stevenspointjournal.com|tallahassee.com|tennessean.com|theadvertiser.com|thecalifornian.com|thedailyjournal.com|theithacajournal.com|theleafchronicle.com|thenews-messenger.com|thenewsstar.com|thenorthwestern.com|thespectrum.com|thestarpress.com|thetimesherald.com|thetowntalk.com|visaliatimesdelta.com|wausaudailyherald.com|weather.com|wisconsinrapidstribune.com|zanesvilletimesrecorder.com
 @@||kaufen-ist-toll.de/images/logos/
@@ -20485,10 +20493,10 @@ yumymilf.com##.bottom-banner
 @@||pagead2.googlesyndication.com/pagead/scache/show_invideo_ads.js$domain=sciencedaily.com
 @@||pagead2.googlesyndication.com/pagead/static?format=in_video_ads&$elemhide,subdocument
 @@||pagead2.googlesyndication.com/simgad/$image,domain=nedbank.co.za
-@@||partner.googleadservices.com/gampad/google_ads.js$domain=autoguide.com|avclub.com|boatshop24.com|demotywatory.pl|ensonhaber.com|escapegames.com|instructables.com|juegosdiarios.com|memegenerator.net|mysoju.com|nedbank.co.za|nedbankgreen.co.za|nitrome.com|pcper.com|playedonline.com|volokh.com|yfrog.com
-@@||partner.googleadservices.com/gampad/google_ads2.js$domain=motorcycle.com|mysoju.com|nedbank.co.za|yfrog.com
+@@||partner.googleadservices.com/gampad/google_ads.js$domain=autoguide.com|avclub.com|boatshop24.com|demotywatory.pl|ensonhaber.com|escapegames.com|instructables.com|juegosdiarios.com|memegenerator.net|mysoju.com|nedbank.co.za|nedbankgreen.co.za|nitrome.com|pcper.com|playedonline.com|volokh.com
+@@||partner.googleadservices.com/gampad/google_ads2.js$domain=motorcycle.com|mysoju.com|nedbank.co.za
 @@||partner.googleadservices.com/gampad/google_ads_gpt.js$domain=pitchfork.com
-@@||partner.googleadservices.com/gampad/google_service.js$domain=autoguide.com|avclub.com|boatshop24.com|demotywatory.pl|ensonhaber.com|escapegames.com|instructables.com|juegosdiarios.com|memegenerator.net|motorcycle.com|mysoju.com|nedbank.co.za|nedbankgreen.co.za|pcper.com|playedonline.com|volokh.com|yfrog.com
+@@||partner.googleadservices.com/gampad/google_service.js$domain=autoguide.com|avclub.com|boatshop24.com|demotywatory.pl|ensonhaber.com|escapegames.com|instructables.com|juegosdiarios.com|memegenerator.net|motorcycle.com|mysoju.com|nedbank.co.za|nedbankgreen.co.za|pcper.com|playedonline.com|volokh.com
 @@||partners.thefilter.com/crossdomain.xml$object-subrequest,domain=dailymotion.com
 @@||partners.thefilter.com/dailymotionservice/$image,object-subrequest,script,domain=dailymotion.com
 @@||perbang.dk/_pub/ads.php?u=$xmlhttprequest
@@ -20688,6 +20696,7 @@ yumymilf.com##.bottom-banner
 @@||zedo.com/*.swf$domain=rajshri.com
 @@||zedo.com/*.xml$object-subrequest,domain=rajshri.com
 @@||zedo.com//$object-subrequest,domain=rajshri.com
+@@||zedo.com/bar/*/fnsr.vast?$object-subrequest,domain=ibnlive.in.com
 @@||zedo.com/crossdomain.xml$object-subrequest,domain=ibnlive.in.com
 @@||zedo.com/jsc/c1/fns.vast?n=$object-subrequest,domain=ibnlive.in.com
 @@||zpag.es/css/top_ad.css?
@@ -20888,6 +20897,7 @@ yumymilf.com##.bottom-banner
 ! Anti-Adblock
 @@||adultadworld.com/adhandler/$subdocument
 @@||cluster.adultadworld.com/intv2/interstitial.js$domain=swfchan.com
+@@||mygirlfriendvids.net^*/adhandler/$subdocument
 @@||pornstream.cc^*/adframe.js
 @@||swfchan.com/ad.js?
 @@||swfchan.org/ad.js?
@@ -21384,6 +21394,7 @@ _comscore.js
 ||avazudsp.net^$third-party
 ||axf8.net^$third-party
 ||baptisttop1000.com^$third-party
+||barilliance.net^$third-party
 ||basicstat.com^$third-party
 ||baynote.net^$third-party
 ||bebj.com^$third-party
@@ -22160,6 +22171,7 @@ _comscore.js
 ||amatomu.com/log.php?
 ||amazonaws.com/*.kissinsights.com/
 ||amazonaws.com/*.kissmetrics.com/
+||amazonaws.com/cdn.barilliance.com/
 ||amazonaws.com/ki.js/
 ||amazonaws.com/new.cetrk.com/
 ||analytics-beacon-*.amazonaws.com^
