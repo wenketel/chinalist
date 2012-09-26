@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: c4dPb2GJEes6SWzdJaTHlQ
+!  Checksum: dOdRwauirydymnamNupCZQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 26 Sep 2012 22:25:36 +0800
+!  Last Modified:  Wed, 26 Sep 2012 23:26:31 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -650,8 +650,8 @@ msn.huanqiu.com##.adMsn_1
 !---凤凰网
 /ifengRotatorAd.js
 /sc_ifeng/*$domain=ifeng.com
-/ssi-incs/*$subdocument,domain=ifeng.com
 /tres/recommend/*$domain=ifeng.com
+||ifeng.com/ssi-incs/
 ||ifeng.com/statics/comment_baidu.html
 ||de.deliver.ifeng.com^
 ||games.ifeng.com/webgame/
@@ -1258,6 +1258,7 @@ www.sohu.com###contentC > .columnC
 ||images.sohu.com/ytv/
 ||tv.sohu.com/upload/ad_fr/
 ||tv.sohu.com/upload/csad/
+||tv.sohu.com/upload/static/global/hdpv.js
 ||tv.sohu.com/upload/trace/
 ||aty.tv.sohu.com^
 ||his.tv.sohu.com/his/ping.do?
@@ -2119,6 +2120,7 @@ frdic.com,godic.net###sidebar1
 ||hk-pub.com/forum/images/banner/
 ||hk-pub.com/forum/include/overture_ads.js
 ||hdad.hudong.com/hdad/
+||stat.hudong.com^
 ||hupu.com/d/file/$object
 hupu.com,~my.hupu.com##[class^="ad"]
 hupu.com###HCFull
@@ -6443,6 +6445,8 @@ _a468x60.
 ###adsense04
 ###adsense05
 ###adsense1
+###adsense300x250
+###adsense468
 ###adsenseLeft
 ###adsenseOne
 ###adsenseWrap
@@ -13729,6 +13733,7 @@ _a468x60.
 ||proxy-list.org/img/isellsite.gif
 ||proxy.org/af.html
 ||proxy.org/ah.html
+||proxycape.com/blah.js
 ||ps3crunch.net/forum/images/gamers/
 ||ps3news.com/banner/
 ||ps3news.com/forums/images/misc/global_background_ps3_break.jpg
@@ -14279,6 +14284,7 @@ _a468x60.
 ||yimg.com/i/i/de/cat/yahoo.html$domain=yahoo.com
 ||yimg.com/la/i/wan/widgets/wjobs/$subdocument,domain=yahoo.com
 ||yimg.com^*/ad2.js$domain=yahoo.com
+||yimg.com^*/billboardv2r5min.js$domain=yahoo.com
 ||yimg.com^*/darla-secure-pre-min.js$domain=yahoo.com
 ||yimg.com^*/fairfax/$image
 ||yimg.com^*/flash/promotions/
@@ -14704,6 +14710,8 @@ _a468x60.
 ||yobt.tv/rec/$subdocument
 ||youaresogay.com/*.html
 ||youjizz.com/190_900.php
+||youjizz.com/950_250.php
+||youjizz.com/banners/
 ||youjizz.com/vivid/
 ||youngpornvideos.com/images/bangbros/
 ||youngpornvideos.com/images/glamglam/
@@ -18205,6 +18213,7 @@ reference.com###dcomad_728x90_0
 reference.com###dcomad_top_300x250_1
 reference.com###dcomad_top_300x251_2
 reference.com###rc
+reference.com##.dic_bk
 reference.com##.spl_adblk
 reference.com##.spl_unshd
 reference.com##.spl_unshd_NC
@@ -20115,6 +20124,7 @@ yumymilf.com##.bottom-banner
 @@||adtech.de/crossdomain.xml$object-subrequest
 @@||adtechus.com/crossdomain.xml$object-subrequest,domain=thestar.com
 @@||adv.li^$image,script,stylesheet,~third-party,xmlhttprequest
+@@||advertise.fairfaxmedia.com.au^$domain=fairfaxmedia.com.au|myfairfax.com.au
 @@||advertiser.seek.com.au^$~document,~third-party
 @@||advertising.racingpost.com^$image,script,stylesheet,~third-party,xmlhttprequest
 @@||adverts.brighthouse.com/advertpro/servlet/view/banner/javascript/zone?$script,domain=cfnews13.com
@@ -20713,7 +20723,7 @@ yumymilf.com##.bottom-banner
 ! Anti-Adblock
 @@/afr.php?$script,domain=sankakucomplex.com
 @@/wp-content/plugins/wordpress-adblock-blocker/adframe.js
-@@||188.143.233.13^$script,domain=ilix.in
+@@||188.143.233.13^$script,domain=ilix.in|priva.us
 @@||4fuckr.com^*/adframe.js
 @@||4sysops.com^*/adframe.js
 @@||ad.leadbolt.net/show_cu.js
@@ -20753,8 +20763,8 @@ yumymilf.com##.bottom-banner
 @@||onlinevideoconverter.com^*ad*.js
 @@||overclock3d.net/js/advert.js
 @@||pagead2.googlesyndication.com/pagead/expansion_embed.js$domain=upfordown.com
-@@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=ftlauderdalewebcam.com|nyharborwebcam.com|portcanaveralwebcam.com|portevergladeswebcam.com|rotoinfo.com|upfordown.com
-@@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=articlewagon.com|ftlauderdalewebcam.com|gifmagic.com|myspace.com|nyharborwebcam.com|oneclickmoviez.com|portcanaveralwebcam.com|portevergladeswebcam.com|rotoinfo.com|upfordown.com
+@@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=ftlauderdalewebcam.com|ilix.in|nyharborwebcam.com|portcanaveralwebcam.com|portevergladeswebcam.com|priva.us|rotoinfo.com|upfordown.com
+@@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=articlewagon.com|ftlauderdalewebcam.com|gifmagic.com|ilix.in|myspace.com|nyharborwebcam.com|oneclickmoviez.com|portcanaveralwebcam.com|portevergladeswebcam.com|priva.us|rotoinfo.com|upfordown.com
 @@||premiumleecher.com/inc/adsense.js
 @@||radioio.com^*/adframe.js
 @@||rapid8.com^$script

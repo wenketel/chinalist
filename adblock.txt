@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: lY0T3ciZ9m+bJb9MtLm7rQ
+!  Checksum: wQ7jqV8VIDUadlrOrt6w+g
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 26 Sep 2012 22:25:32 +0800
+!  Last Modified:  Wed, 26 Sep 2012 23:26:27 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -649,8 +649,8 @@ msn.huanqiu.com##.adMsn_1
 !---凤凰网
 /ifengRotatorAd.js
 /sc_ifeng/*$domain=ifeng.com
-/ssi-incs/*$subdocument,domain=ifeng.com
 /tres/recommend/*$domain=ifeng.com
+||ifeng.com/ssi-incs/
 ||ifeng.com/statics/comment_baidu.html
 ||de.deliver.ifeng.com^
 ||games.ifeng.com/webgame/
@@ -1257,6 +1257,7 @@ www.sohu.com###contentC > .columnC
 ||images.sohu.com/ytv/
 ||tv.sohu.com/upload/ad_fr/
 ||tv.sohu.com/upload/csad/
+||tv.sohu.com/upload/static/global/hdpv.js
 ||tv.sohu.com/upload/trace/
 ||aty.tv.sohu.com^
 ||his.tv.sohu.com/his/ping.do?
@@ -2119,6 +2120,7 @@ frdic.com,godic.net###sidebar1
 ||hk-pub.com/forum/images/banner/
 ||hk-pub.com/forum/include/overture_ads.js
 ||hdad.hudong.com/hdad/
+||stat.hudong.com^
 ||hupu.com/d/file/$object
 hupu.com,~my.hupu.com##[class^="ad"]
 hupu.com###HCFull
