@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: dOdRwauirydymnamNupCZQ
+!  Checksum: nfSj59ZPyF8E8edp74rZuA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 26 Sep 2012 23:26:31 +0800
+!  Last Modified:  Fri, 28 Sep 2012 12:30:43 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -646,6 +646,13 @@ www.hsw.cn##table[width="980"][height="100"]
 huanqiu.com###adDt
 msn.huanqiu.com##.adMsn
 msn.huanqiu.com##.adMsn_1
+
+!---爱词霸
+||iciba.com/web/co/ci/
+||goto.www.iciba.com^
+iciba.com##div[class="ad_list"]
+iciba.com###dict_right5
+iciba.com##.vAd_head
 
 !---凤凰网
 /ifengRotatorAd.js
@@ -2128,7 +2135,6 @@ bbs.hupu.com##.hp-ad250-250
 ||hxsxw.com/gg*.gif
 ||hxsxw.com/hxsxw111.gif
 ||hxyl.net/hostpic/
-||goto.www.iciba.com^$subdocument
 /gpic/*$domain=ihome99.com|19lou.com
 19lou.com,ihome99.com##.ad-cycle
 19lou.com,ihome99.com##.float-ad
@@ -3690,7 +3696,6 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /adshare/*
 /adshare3.
 /adsheader.
-/adshop/*
 /adshow.
 /adshow?
 /adshow_
@@ -5742,7 +5747,7 @@ _a468x60.
 ###ad-fullbanner2
 ###ad-globalleaderboard
 ###ad-halfpage
-~ifokus.se###ad-header
+~ifokus.se,~miradiorumba.com###ad-header
 ###ad-header-728x90
 ###ad-horizontal-header
 ###ad-img
@@ -7091,6 +7096,7 @@ _a468x60.
 ###footer_ad_modules
 ~investopedia.com###footer_ads
 ###footer_adspace
+###footer_advertising
 ###footer_text_ad
 ###footerad
 ###footerads
@@ -7425,7 +7431,7 @@ _a468x60.
 ###mainAdvertismentP
 ###mainHeaderAdvertisment
 ###mainMenu_divTopAd
-~theloop.com.au###main_ad
+~straighttalk.com,~theloop.com.au###main_ad
 ###main_rec_ad
 ###main_top_ad_container
 ###marcoad
@@ -8039,7 +8045,9 @@ _a468x60.
 ###wall_advert
 ###wallpaper-ad-link
 ###wallpaperAd_left
+###wallpaperAd_left3
 ###wallpaperAd_right
+###wallpaperAd_right2
 ###walltopad
 ###weatherad
 ###weblink_ads_container
@@ -9496,6 +9504,7 @@ _a468x60.
 ##.blog_ad
 ##.blogads
 ##.blox3featuredAd
+##.blue-ad
 ##.bn_textads
 ##.body_ad
 ##.body_sponsoredresults_bottom
@@ -9949,6 +9958,7 @@ _a468x60.
 ##.hm_advertisment
 ##.hn-ads
 ##.home-ad-links
+##.home-features-ad
 ##.homeAd
 ##.homeAd1
 ##.homeAd2
@@ -10195,6 +10205,7 @@ _a468x60.
 ##.module-ads
 ##.module-advert
 ##.module-advertisement
+##.module-image-ad
 ##.module-sponsored-ads
 ##.moduleAd
 ##.moduleAdSpot
@@ -10384,7 +10395,7 @@ _a468x60.
 ##.rectanglead
 ##.redads_cont
 ##.referrerDetailAd
-##.region-top-ad-position
+~foreignaffairs.com##.region-top-ad-position
 ##.regular_728_ad
 ##.regularad
 ##.relatedAds
@@ -11856,6 +11867,7 @@ _a468x60.
 ||marketingsolutions.yahoo.com^$third-party
 ||marketleverage.com^$third-party
 ||marketnetwork.com^$third-party
+||marketoring.com^$third-party
 ||matiro.com^$third-party
 ||maudau.com^$third-party
 ||maxserving.com^$third-party
@@ -14728,6 +14740,7 @@ _a468x60.
 ! *** easylist:easylist_adult/adult_specific_block_popup.txt ***
 ||ad.userporn.com^$image,~image,popup
 ||eporner.com/pop.php$image,~image,popup
+||fantasti.cc^*?ad=$image,~image,popup
 ||hegansex.com/exo.php$image,~image,popup
 ||heganteens.com/exo.php$image,~image,popup
 ||imagebam.com/redirect_awe.php$image,~image,popup
@@ -15319,6 +15332,7 @@ cardomain.com##.ad
 cardomain.com##.resultsTableCol
 cargurus.com##.bannerDiv
 cargurus.com##div[style="background-color:#eee; background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#eee)); background-image: -webkit-linear-gradient(top, #fff, #eee); background-image:-moz-linear-gradient(top, #fff, #eee); background-image:-ms-linear-gradient(top, #fff, #eee); background-image: -o-linear-gradient(top, #fff, #eee); border-bottom:1px solid #e0e0e0; padding-bottom:4px;"]
+carnewschina.com##.bnr728
 carrentals.co.uk##div[style="float:right;width:220px;height:220px"]
 carsguide.com.au##.CG_loancalculator
 cartoonbrew.com##.ads
@@ -15416,6 +15430,7 @@ clgaming.net##a[href="http://www.bigfootnetworks.com/killer-2100/"]
 clip.dj###ad1
 clip.dj##.btnDownloadRingtone
 clip.dj##.ringtonemakerblock
+clonezilla.org##a[href^="http://www.uniblue.com/cm/"]
 clubwebsite.co.uk##td[width="158"] > start_lspl_exclude > end_lspl_exclude > .boxpadbot[width="100%"][cellspacing="0"][cellpadding="6"][border="0"][style="background-color:#003300;"]:last-child
 cnbc.com###cnbc300x250
 cnbc.com##.fL[style="width:185px;height:40px;margin: 10px 0 0 25px; float:none;"]
@@ -15570,6 +15585,7 @@ csnchicago.com###landing_insider_mullin_loud3r_33
 csnchicago.com###main_144
 csnchicago.com###main_150
 csnews.com##.topBanner
+css-tricks.com##.top-treehouse-ad
 csschat.com##.tborder[width="100%"] + center
 ctv.ca##.leaderboard-wrapper
 cubeecraft.com###leaderboard
@@ -16767,6 +16783,7 @@ infoworld.com##.recRes_head
 inquirer.net###bottom_container
 inquirer.net###btmskyscraper
 inquirer.net###googleFooter
+inquirer.net###leaderboard2
 inquirer.net###leaderboard_frame
 inquirer.net###marketplace_vertical_container
 inquirer.net###marketplacebtns
@@ -17084,6 +17101,8 @@ lens101.com##a[href^="http://www.eyetopics.com/"]
 leo.org###main > .sidebar:first-child
 leo.org###main > .sidebar:last-child
 leo.org##.standard_banner
+leo.org##td[width="15%"][valign="top"][style="font-size:100%;padding-top:2px;"]
+leo.org##td[width="55%"][valign="middle"][style="background-color:#ffffee;text-align:center;"]
 letmesingthis.com##a[href="http://www.singorama.me"]
 letmewatchthis.ch##.download_link
 letmewatchthis.ch##.movie_version_alt
@@ -17564,6 +17583,7 @@ mywebsearch.com###sponsoredTop
 mywebsearch.com##.desc
 mywebsearch.com##.prontoBox
 mywebsearch.com##.spLinkCon
+mywot.com##.sponsored
 napavalleyregister.com##.blox-leaderboard-container
 naplesnews.com###content_match_wrapper
 naplesnews.com##.bigbox_wrapper

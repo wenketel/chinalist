@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: wQ7jqV8VIDUadlrOrt6w+g
+!  Checksum: gouRpQChkhhY3Ojws+jHCQ
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 26 Sep 2012 23:26:27 +0800
+!  Last Modified:  Fri, 28 Sep 2012 12:30:40 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -645,6 +645,13 @@ www.hsw.cn##table[width="980"][height="100"]
 huanqiu.com###adDt
 msn.huanqiu.com##.adMsn
 msn.huanqiu.com##.adMsn_1
+
+!---爱词霸
+||iciba.com/web/co/ci/
+||goto.www.iciba.com^
+iciba.com##div[class="ad_list"]
+iciba.com###dict_right5
+iciba.com##.vAd_head
 
 !---凤凰网
 /ifengRotatorAd.js
@@ -2128,7 +2135,6 @@ bbs.hupu.com##.hp-ad250-250
 ||hxsxw.com/gg*.gif
 ||hxsxw.com/hxsxw111.gif
 ||hxyl.net/hostpic/
-||goto.www.iciba.com^$subdocument
 /gpic/*$domain=ihome99.com|19lou.com
 19lou.com,ihome99.com##.ad-cycle
 19lou.com,ihome99.com##.float-ad
