@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: /QrBbAMHpSFAew0AXV4fvg
+!  Checksum: zDgei26ojzV2Sj+UKlwIQQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 28 Sep 2012 18:19:18 +0800
+!  Last Modified:  Sat, 29 Sep 2012 04:18:34 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -643,6 +643,7 @@ www.hsw.cn##table[width="980"][height="100"]
 /cooperation/*$script,subdocument,domain=firefox.huanqiu.com
 ||huanqiu.com/script/HuanQiuAllBottom.Js
 ||huanqiu.com/statics/js/adcontrol1.js
+huanqiu.com##.ad250x250
 huanqiu.com###adDt
 msn.huanqiu.com##.adMsn
 msn.huanqiu.com##.adMsn_1
@@ -866,13 +867,24 @@ narutom.com###itaTop2
 narutom.com###naruto_desk
 
 !---NewHua
+@@||newhua.com/adimg/newhua0$image
+/newhuagg/*3030.$image
+/newhuagg/index_
+/newhuagg/js_
+/newhuagg/newhua_
+/newhuagg/newsbox.js
+||newhua.com/newhuagg/*ad*.js
+||newhua.com/newhuagg/article_
 ||count.newhua.com^
-/newhuagg/article_$domain=newhua.com|onlinedown.net
-/newhuagg/daohang.js$domain=newhua.com|onlinedown.net
-/newhuagg/js_$domain=newhua.com|onlinedown.net
-/newhuagg/*_index_$domain=newhua.com|onlinedown.net
-/newhuagg/news_$domain=news.newhua.com
-newhua.com##[class^="ad_ritht_"]
+||onlinedown.net/newhuagg/hotthread.js
+||onlinedown.net/newhuagg/*_article_leftad.js
+newhua.com##.ad_ritht_1
+newhua.com##.ad_ritht_2
+newhua.com##.adr
+newhua.com##.adt
+newhua.com,onlinedown.net##.r1
+newhua.com,onlinedown.net##.r2
+newhua.com,onlinedown.net##.softad
 
 !---NextMedia
 !-HK
@@ -1822,6 +1834,7 @@ www.jrj.com.cn##[class^="mw a"]
 ||newtalk.tw/media/ad/
 newtalk.tw###ad_top_banner
 newtalk.tw##.ind_news_station
+||cn.nytimes.com/o.php?
 ||ashow.pcpop.com^
 www.pcpop.com##.Content > .l1:first-child
 ||sinovision.net/ui/js/adm.js
@@ -4251,6 +4264,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /floatingads.
 /flvad_
 /flvads/*
+/flyads/*
 /flyers/ads/*
 /footad-
 /footad.
@@ -4965,6 +4979,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /unity/ad/*
 /update_ads/*
 /update_layer/layer_os_new.php
+/uploaded/ads/*
 /upsellingads/*
 /userad/*
 /valueclick.
@@ -5512,6 +5527,7 @@ _a468x60.
 ###AD_Top
 ###AD_newsblock
 ###ADgoogle_newsblock
+###ADoverThePlayer
 ###ADsmallWrapper
 ###Ad160x600
 ###Ad300x250
@@ -9145,6 +9161,7 @@ _a468x60.
 ##.adspace_rotate
 ##.adspace_skyscraper
 ##.adspacer
+##.adspecial390
 ##.adspot
 ##.adspot728x90
 ##.adstext
@@ -12451,6 +12468,7 @@ _a468x60.
 ||brandreachsys.com^$image,~image,popup,third-party
 ||clickbank.net^$image,~image,popup,third-party
 ||clkads.com^$image,~image,popup,third-party
+||contentabc.com^$image,~image,popup,third-party
 ||cpmstar.com^$image,~image,popup,third-party
 ||exoclick.com^$image,~image,popup,third-party
 ||fidel.to^$image,~image,popup,third-party
@@ -13808,6 +13826,10 @@ _a468x60.
 ||rapidgator.net/images/banners/
 ||rapidsafe.de/eislogo.gif
 ||rapidshare.com/promo/$image
+||rapidvideo.com/images/banner*.jpg
+||rapidvideo.com/layer.js
+||rapidvideo.com/layer.php
+||rapidvideo.com/layer2.php
 ||ratio-magazine.com/images/banners/
 ||rawstory.com/givememyrawgfp.php?
 ||rawstory.com/givememyrawgfpdirect.php?
@@ -13965,6 +13987,7 @@ _a468x60.
 ||strategypage.com^*_banner
 ||streamcloud.eu/deliver.php
 ||streamfinder.com/promo_logos/
+||stuff.co.nz/1348723321/664/6659664.jpg
 ||stuff.tv/client/skinning/
 ||subs4free.com^*/wh4_s4f_$script
 ||succeed.co.za^*/banner_
@@ -14737,6 +14760,10 @@ _a468x60.
 ||youngpornvideos.com/images/wmasterthecoolporn/
 ||youporn-hub.com/lcdscript.js
 ||youporn-hub.com/newlcd.js
+||yourdarkdesires.com/1.html
+||yourdarkdesires.com/2.html
+||yourdarkdesires.com/3.html
+||yourdarkdesires.com/ero.html
 ||yourlust.com/im/onpause.html
 ||yourlust.com/im/postroll.html
 ||yumymilf.com^*/banners/
@@ -16071,6 +16098,7 @@ facebook.com###pagelet_side_ads
 facebook.com##.-cx-PRIVATE-fbAdUnit__root
 facebook.com##.-cx-PRIVATE-snowliftAds__root
 facebook.com##._24o
+facebook.com##._4u8
 facebook.com##.adsCategoryIcon
 facebook.com##.adsCategoryTitleLink
 facebook.com##.ego_spo
@@ -16396,6 +16424,7 @@ geekinterview.com##div[style="width:728px; height:100px; float:right; text-align
 geekologie.com###footer-leaderboard
 geekologie.com###head-leaderboard
 geekologie.com###leaderboard
+geekosystem.com###skin
 geeksaresexy.net###special-offers
 geeksaresexy.net##.neatoshop-widget
 geekwire.com##.geekwire_sponsor_posts_widget
@@ -17196,6 +17225,7 @@ local.yahoo.com##.yls-rs-paid
 lockergnome.com##div[style="float:left;width:160px;height:600px; margin: 0px 5px 10px 0px;"]
 lockerz.com##.adbox
 lockerz.com##.advert
+lolzparade.com###mylikes_bar_all_items
 london2012.com##.promo
 londonlovesbusiness.com##.footerPartnerships
 londonstockexchange.com##.banner
@@ -17571,6 +17601,7 @@ myhomeremedies.com##.ad
 mylifeisaverage.com##.ad
 myoutsourcedbrain.com###HTML2
 mype.co.za##td[style="vertical-align: top; background-color: rgb(207, 207, 207);"]
+mypremium.tv###banner
 myretrotv.com##img[width="875"][height="110"]
 mysanantonio.com###advertisement
 mysanantonio.com##.row1
@@ -18187,6 +18218,9 @@ rapidlibrary.com##.sponsored
 rapidlibrary.com##table[cellspacing="1"][cellpadding="3"][border="0"][width="98%"]
 rapidog.com##a[href^="/adclick.php"]
 rapidshare-downloads.com###ad
+rapidvideo.com###banners3
+rapidvideo.com###player:first-child + center:last-child > a[target="_blank"]:first-child:last-child > img:first-child:last-child
+rapidvideo.com##a[href^="http://network.adsmarket.com"]
 rarbg.com##a[href^="http://rarbg.com/click_adv.php?"]
 rarlab.com##a[target="_blank"][href^="http://www.utililab.com/lp/"]
 rasset.ie###rte-header-leaderboard
@@ -20025,6 +20059,7 @@ youngpornvideos.com##a[href^="http://join.18onlygirls.com/track/"]
 youngpornvideos.com##a[href^="http://join.younglegalporn.com/track/"]
 youngpornvideos.com##a[href^="http://teencoreclub.com/ref/"]
 youngpornvideos.com##a[href^="http://teensexmania.com/jump.php?"]
+yourdarkdesires.com###ubr
 yumymilf.com##.bottom-banner
 ! *** easylist:easylist/easylist_whitelist.txt ***
 @@||101cargames.com/ads/adsnewvars_no_bar.swf$object
@@ -20196,6 +20231,7 @@ yumymilf.com##.bottom-banner
 @@||autotrader.co.nz/data/adverts/$image
 @@||autotrader.co.uk^*/advert/$~third-party,xmlhttprequest
 @@||avclub.com/ads/av-video-ad/$xmlhttprequest
+@@||aviationdocumentstorage.com/Av_Docs/CSS/ADS-1.css
 @@||banners.andomedia.com/openx_gm/www/delivery/ajs.php?$domain=detroitmagic.com
 @@||banners.wunderground.com^$image
 @@||bd0dc.v.fwmrm.net/ad/p/1?$object-subrequest,domain=~espn.go.com.etc
@@ -20745,6 +20781,7 @@ yumymilf.com##.bottom-banner
 @@||zpag.es/images/top_ad_
 @@||zylom.com^*/realgames_loader.*.swf?*&adurl=$object
 ! Anti-Adblock
+@@/adsense2.js$domain=ilix.in|priva.us
 @@/afr.php?$script,domain=sankakucomplex.com
 @@/wp-content/plugins/wordpress-adblock-blocker/adframe.js
 @@||188.143.233.13^$script,domain=ilix.in|priva.us
@@ -20818,8 +20855,8 @@ yumymilf.com##.bottom-banner
 @@||adocean.pl^*?aocodetype=$object-subrequest,domain=tvn24.pl|tvnplayer.pl
 @@||ads.cvut.cz^$~third-party
 @@||ads.e-planning.net^*/preroll?$object-subrequest,domain=ole.com.ar
-@@||ads.hosting.vcmedia.vn/crossdomain.xml$object-subrequest,domain=dantri.com.vn|gamek.vn|genk.vn
-@@||ads.hosting.vcmedia.vn/jinfo.ashx?$object-subrequest,domain=dantri.com.vn|gamek.vn|genk.vn
+@@||ads.hosting.vcmedia.vn/crossdomain.xml$object-subrequest
+@@||ads.hosting.vcmedia.vn/jinfo.ashx?$object-subrequest
 @@||ads.peteava.ro/crossdomain.xml$object-subrequest
 @@||ads.peteava.ro/www/serve_ads/serve2.php?campaign=$object-subrequest
 @@||ads.telecinco.es/crossdomain.xml$object-subrequest
@@ -20870,6 +20907,7 @@ yumymilf.com##.bottom-banner
 @@||openx.zomoto.nl/live/www/delivery/fl.js
 @@||openx.zomoto.nl/live/www/delivery/spcjs.php?id=
 @@||pagead2.googlesyndication.com/pagead/abglogo/abg-da-100c-000000.png$domain=janno.dk|nielco.dk
+@@||publicidad.eluniversal.com.mx/RealMedia/ads/adstream_nx.ads/$object-subrequest
 @@||rentalsystems.com/advert_price_imbed.asp?$subdocument
 @@||ring.bg/adserver/adall.php?*&video_on_page=1
 @@||run.admost.com/adx/get.ashx?z=*&accptck=true&nojs=1
@@ -20939,6 +20977,7 @@ yumymilf.com##.bottom-banner
 ! Anti-Adblock
 @@||adultadworld.com/adhandler/$subdocument
 @@||cluster.adultadworld.com/intv2/interstitial.js$domain=swfchan.com
+@@||lezlezlez.com^*/adhandler/$subdocument
 @@||mygirlfriendvids.net^*/adhandler/$subdocument
 @@||pornstream.cc^*/adframe.js
 @@||swfchan.com/ad.js?
@@ -21888,6 +21927,7 @@ _comscore.js
 ||paidstats.com^$third-party
 ||pardot.com^$third-party
 ||parklogic.com^$third-party
+||peerius.com^$third-party
 ||percentmobile.com^$third-party
 ||personyze.com^$third-party
 ||phonalytics.com^$third-party
@@ -22305,6 +22345,7 @@ _comscore.js
 ||clicktracker.iscan.nl^
 ||clicktracks.aristotle.net^
 ||clipsyndicate.com/cs_api/cliplog?
+||clnk.me/_t.gif?
 ||cloudfront.net/atrk.gif?
 ||cloudfront.net/atrk.js
 ||cloudfront.net/beacon.js
@@ -22692,6 +22733,7 @@ _comscore.js
 ||ventunotech.com/beacon/
 ||vertical-stats.huffpost.com^
 ||verticalacuity.com/vat/
+||videodetective.net/flash/players/analytics.aspx?
 ||videodetective.net/flash/players/plugins/iva_quantcast.swf
 ||videoplaza.tv/proxy/tracker?$object-subrequest
 ||virgingames.com/tracker/

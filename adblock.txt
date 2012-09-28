@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: SFR2p6DAww88zpMfBTkQWQ
+!  Checksum: SP0k2+Ctdg9tuCh7kGhPKw
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 28 Sep 2012 18:19:14 +0800
+!  Last Modified:  Sat, 29 Sep 2012 04:18:30 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -642,6 +642,7 @@ www.hsw.cn##table[width="980"][height="100"]
 /cooperation/*$script,subdocument,domain=firefox.huanqiu.com
 ||huanqiu.com/script/HuanQiuAllBottom.Js
 ||huanqiu.com/statics/js/adcontrol1.js
+huanqiu.com##.ad250x250
 huanqiu.com###adDt
 msn.huanqiu.com##.adMsn
 msn.huanqiu.com##.adMsn_1
@@ -865,13 +866,24 @@ narutom.com###itaTop2
 narutom.com###naruto_desk
 
 !---NewHua
+@@||newhua.com/adimg/newhua0$image
+/newhuagg/*3030.$image
+/newhuagg/index_
+/newhuagg/js_
+/newhuagg/newhua_
+/newhuagg/newsbox.js
+||newhua.com/newhuagg/*ad*.js
+||newhua.com/newhuagg/article_
 ||count.newhua.com^
-/newhuagg/article_$domain=newhua.com|onlinedown.net
-/newhuagg/daohang.js$domain=newhua.com|onlinedown.net
-/newhuagg/js_$domain=newhua.com|onlinedown.net
-/newhuagg/*_index_$domain=newhua.com|onlinedown.net
-/newhuagg/news_$domain=news.newhua.com
-newhua.com##[class^="ad_ritht_"]
+||onlinedown.net/newhuagg/hotthread.js
+||onlinedown.net/newhuagg/*_article_leftad.js
+newhua.com##.ad_ritht_1
+newhua.com##.ad_ritht_2
+newhua.com##.adr
+newhua.com##.adt
+newhua.com,onlinedown.net##.r1
+newhua.com,onlinedown.net##.r2
+newhua.com,onlinedown.net##.softad
 
 !---NextMedia
 !-HK
@@ -1822,6 +1834,7 @@ www.jrj.com.cn##[class^="mw a"]
 ||newtalk.tw/media/ad/
 newtalk.tw###ad_top_banner
 newtalk.tw##.ind_news_station
+||cn.nytimes.com/o.php?
 ||ashow.pcpop.com^
 www.pcpop.com##.Content > .l1:first-child
 ||sinovision.net/ui/js/adm.js
