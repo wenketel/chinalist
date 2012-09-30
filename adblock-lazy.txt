@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: Olv5HGmrj6hwBWAN5DNG6Q
+!  Checksum: Ue1S9ZEvM/kiGcxRmjfsZg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 01 Oct 2012 00:21:39 +0800
+!  Last Modified:  Mon, 01 Oct 2012 00:36:16 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -2935,6 +2935,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 ||sdo.com/?method=GetAd&
 ||sdo.com/redo*/$script,domain=qidian.com
 ||sdo.com/sdk/js/hsp/$script,domain=qidian.com
+@@||tbcdn.cn^$domain=taobao.com
 !-----------------------EasyList----------------------------
 ! *** easylist:easylist/easylist_general_block.txt ***
 &ad_channel=
@@ -22850,6 +22851,7 @@ _comscore.js
 ||zoover.co.uk/tracking/
 ! *** easylist:easyprivacy/easyprivacy_thirdparty_international.txt ***
 ! Chinese
+||a.tbcdn.cn^
 ||baidu.com/cpro/ui/c.js
 ||baidu.com/cpro/ui/f.js
 ||baidu.com/hm.gif?
