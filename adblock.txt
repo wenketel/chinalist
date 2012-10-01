@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: FAX3YJgs8L+fOhgPG8K5+Q
+!  Checksum: iaftIjGl+aJoov9kyP833w
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 01 Oct 2012 19:14:12 +0800
+!  Last Modified:  Mon, 01 Oct 2012 19:34:52 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -230,10 +230,12 @@ autohome.com.cn##.recommend
 !---Baidu
 ||baidu.com/cpro.php
 ||baidu.com/ecom$image,script
+||music.baidu.com/static/html/cbjs.html
 ||news.baidu.com/nocache/mp/b.jpg
 ||pan.baidu.com/netdisk/analytics?
-||wenku.baidu.com/tongji/
+||tinglog.baidu.com^
 ||top.baidu.com/js/nsclick.js
+||wenku.baidu.com/tongji/
 ||hao123.com/images/ua2.gif
 baike.baidu.com###mabox
 maps.baidu.com##.cityTip_top
@@ -1329,11 +1331,11 @@ www.sxrb.com###f_div
 www.sxrb.com##.area1_2_ad2
 
 !---深圳
-||sznews.com/top/page_stat.js
+||sznews.com/*.files/$~script
 ||sznews.com/2008gg/
 ||sznews.com/css/$script
+||sznews.com/top/page_stat.js
 ||countpage.sznews.com^
-||sznews.com/*.files/$~script
 sznews.com###MyMoveAd
 
 !---电玩巴士
@@ -2298,6 +2300,7 @@ zxtjd.com###it_an
 ||gd.189.cn/gz/promotion/$image,~image,popup,third-party
 ||gd.189.cn^*/push/$image,~image,popup,third-party
 ||gd.189.cn/push/$image,~image,popup,third-party
+||jxad.jx163.com^
 !--联通
 ||kdly.net^$third-party
 !--popup
