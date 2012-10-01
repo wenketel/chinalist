@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: bwb3ZNx9KWGUz3A4OV/uBQ
+!  Checksum: FAX3YJgs8L+fOhgPG8K5+Q
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 01 Oct 2012 03:47:13 +0800
+!  Last Modified:  Mon, 01 Oct 2012 19:14:12 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -1328,6 +1328,14 @@ www.sxrb.com##.itemFloat
 www.sxrb.com###f_div
 www.sxrb.com##.area1_2_ad2
 
+!---深圳
+||sznews.com/top/page_stat.js
+||sznews.com/2008gg/
+||sznews.com/css/$script
+||countpage.sznews.com^
+||sznews.com/*.files/$~script
+sznews.com###MyMoveAd
+
 !---电玩巴士
 @@||gg.tgbus.com^$image,domain=android.tgbus.com|ipad.tgbus.com|iphone.tgbus.com
 ||17446.com/a/
@@ -1848,10 +1856,6 @@ www.pcpop.com##.Content > .l1:first-child
 strtv.cn##body > .container:first-child
 /sungg/*$domain=sun0769.com
 sun0769.com###topgg
-||sznews.com/13160.files/$object
-||sznews.com/13160.files/a
-||sznews.com/AdPreview/
-||sznews.com/css/js
 ||taihe.net/js/ad
 taihe.net##script[src="/js/ad.js"] + #table1
 ||forum.techweb.com.cn/advtcnt.php
