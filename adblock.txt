@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: ECd6S4vJvqzdsAkHPx8lMg
+!  Checksum: Hb+XWYNPgDrSIOEelQdJNg
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 05 Oct 2012 17:12:54 +0800
+!  Last Modified:  Sat, 06 Oct 2012 02:44:11 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -181,8 +181,9 @@ v.6.cn###playerAd
 /jsc/book_$domain=99comic.com|99manga.com
 /jsc/stat.js$domain=99comic.com|99manga.com
 /pub-js.js$domain=99comic.com|99manga.com
-||99manga.com/w/p
-||99manga.com/w/t.js
+.com/*/p$script,domain=99comic.com|99manga.com
+.com/*/t.js$domain=99comic.com|99manga.com
+||99manga.com/jsc/Copy.js
 99comic.com,99manga.com##.sic
 99comic.com,99manga.com##.sid
 

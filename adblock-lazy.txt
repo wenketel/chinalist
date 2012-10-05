@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 9XE7mqGR9mfNWook2R4L1g
+!  Checksum: n+kEkTU3pAMWhBTYnn1Riw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 05 Oct 2012 17:13:02 +0800
+!  Last Modified:  Sat, 06 Oct 2012 02:44:15 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -182,8 +182,9 @@ v.6.cn###playerAd
 /jsc/book_$domain=99comic.com|99manga.com
 /jsc/stat.js$domain=99comic.com|99manga.com
 /pub-js.js$domain=99comic.com|99manga.com
-||99manga.com/w/p
-||99manga.com/w/t.js
+.com/*/p$script,domain=99comic.com|99manga.com
+.com/*/t.js$domain=99comic.com|99manga.com
+||99manga.com/jsc/Copy.js
 99comic.com,99manga.com##.sic
 99comic.com,99manga.com##.sid
 
@@ -4752,6 +4753,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /quadadvert.
 /quick_ads/*
 /r_ads/*
+/radioAdEmbed.
 /radopenx?
 /railad.
 /railads.
@@ -7494,6 +7496,7 @@ _a468x60.
 ###main-ad160x600
 ###main-ad160x600-img
 ###main-ad728x90
+###main-advert
 ###main-advert1
 ###main-advert2
 ###main-advert3
@@ -8431,6 +8434,7 @@ _a468x60.
 ##.ad-disclaimer
 ~jobmail.co.za,~odysseyware.com##.ad-display
 ##.ad-div
+##.ad-diver
 ~yahoo.com##.ad-enabled
 ##.ad-feedback
 ##.ad-filler
@@ -9995,6 +9999,8 @@ _a468x60.
 ##.googleads_title
 ##.googleadsense
 ##.googleafc
+##.googleimagead1
+##.googleimagead2
 ##.googlepostads
 ##.googley_ads
 ##.gpAdBox
@@ -11089,7 +11095,7 @@ _a468x60.
 ##a[href^="http://www.liutilities.com/products/campaigns/adv/"]
 ##a[href^="http://www.my-dirty-hobby.com/?sub="]
 ##a[href^="http://www.ringtonematcher.com/"]
-~ensonhaber.com,~opposingviews.com##div[id^="div-gpt-ad-"]
+~ensonhaber.com##div[id^="div-gpt-ad-"]
 ##input[onclick^="window.open('http://www.FriendlyDuck.com/AF_"]
 ##input[onclick^="window.open('http://www.friendlyduck.com/AF_"]
 ! Google
@@ -11160,6 +11166,7 @@ _a468x60.
 ||adaos-ads.net^$third-party
 ||adap.tv^$object-subrequest,third-party,domain=justin.tv|twitch.tv
 ||adap.tv^$~object-subrequest,third-party
+||adapd.com^$third-party
 ||adbard.net^$third-party
 ||adbasket.net^$third-party
 ||adblade.com^$third-party
@@ -11300,6 +11307,7 @@ _a468x60.
 ||adshuffle.com^$third-party
 ||adsignals.com^$third-party
 ||adsimilis.com^$third-party
+||adskeeper.co.uk^$third-party
 ||adsmarket.com^$third-party
 ||adsmarket.es^$third-party
 ||adsmedia.cc^$third-party
@@ -11709,6 +11717,7 @@ _a468x60.
 ||doubleclick.net^*;afv_flvurl=http://cdn.c.ooyala.com/$third-party
 ||doublepimp.com^$third-party
 ||doublerecall.com^$third-party
+||downsonglyrics.com^$third-party
 ||dpbolvw.net^$third-party
 ||drowle.com^$third-party
 ||dsnextgen.com^$third-party
@@ -13685,6 +13694,7 @@ _a468x60.
 ||mp3musicengine.com/bearshare_logo.jpg
 ||mp3raid.com/imesh.gif
 ||mp3s.su/uploads/___/djz_to.png
+||mpgh.net/forum/clientscript/rcc.js
 ||msn.com/?adunitid
 ||mtbr.com/ajax/hotdeals/
 ||muchmusic.com^*/bigbox_frame_resizer.html
@@ -13802,6 +13812,7 @@ _a468x60.
 ||paisalive.com/include/popup.js
 ||paktribune.com^*/banner/
 ||pan2.ephotozine.com^$image
+||pandora.com/radio/util/mediaserverPublicRedirect.jsp
 ||parade.com/images/skins/
 ||parlemagazine.com/images/banners/
 ||payplay.fm^*/mastercs.js
@@ -14417,6 +14428,7 @@ _a468x60.
 ||yamgo.mobi/images/banner/
 ||yamivideo.com^*/download_video.jpg
 ||yardbarker.com/asset/asset_source/*?ord=$subdocument
+||yarisworld.com^*/banners/
 ||yellow.co.ke/img/left_side/
 ||yellow.co.ke/img/right_side/
 ||yellow.co.ke/img/top_banner/
@@ -14483,7 +14495,7 @@ _a468x60.
 ! *** easylist:easylist/easylist_specific_block_popup.txt ***
 /sendspace-pop.$image,~image,popup,domain=sendspace.com
 ^utm_source=$image,~image,popup,domain=thepiratebay.org|thepiratebay.se
-|http:$image,~image,popup,third-party,domain=extreme-board.com|filepost.com|load.to|mofunzone.com|putlocker.com|sockshare.com|xtshare.com
+|http:$image,~image,popup,third-party,domain=extreme-board.com|filepost.com|load.to|mofunzone.com|xtshare.com
 ||adf.ly^$image,~image,popup,domain=urgrove.com
 ||adfoc.us^$image,~image,popup,domain=urgrove.com
 ||advstat.letitbit.net^$image,~image,popup
@@ -16802,6 +16814,7 @@ hotklix.com##.sponsored
 hotlinkfiles.com###leaderboard
 hotscripts.com##.leader
 hotshare.net##.publi_videos1
+howmanyleft.co.uk##.adsense
 howstuffworks.com###MedRectHome
 howstuffworks.com###SponLogo
 howstuffworks.com##.ad
@@ -17886,6 +17899,7 @@ newsweek.com##.advertising
 newsweek.com##.sponsor
 newsweek.com##.sponsorship
 newswhip.ie##div[style="width: 300px; height: 250px; overflow: hidden;"]
+newtimes.co.rw##.ad
 newzglobe.com###bannertop
 newzimsituation.com##div[style="float:left;width:254px;height:250px;margin-right:8px;margin-bottom:8px"]
 nexadviser.com##a[href^="http://budurl.com/"]
@@ -19249,6 +19263,9 @@ torrentfunk.com##a[href^="/tor2/"]
 torrentfunk.com##a[href^="/tor3/"]
 torrentreactor.net##.tp_reccomend_banner
 torrentreactor.net##a[href^="http://links.torrentreactor.net/go.php"]
+torrentroom.com###earn_dir
+torrentroom.com###earn_top
+torrentroom.com##a[href^="/afbc/"]
 torrents.net##.external
 torrents.to##.da-top
 torrentz.eu##.dontblockmebro
@@ -20929,6 +20946,7 @@ yumymilf.com##.bottom-banner
 @@||yimg.com^*/java/promotions/js/ad_eo_1.1.js
 @@||ykhandler.com/adframe.js
 @@||yokosonews.com/files/cache/
+@@||youtube.com^*_adsense_$xmlhttprequest
 @@||zedo.com/*.swf$domain=rajshri.com
 @@||zedo.com/*.xml$object-subrequest,domain=rajshri.com
 @@||zedo.com//$object-subrequest,domain=rajshri.com
