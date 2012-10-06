@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: /9cryitU/l8fqN8fn1yM+g
+!  Checksum: aL+IJ/RLucOQ1gkqi6z3aQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 06 Oct 2012 03:40:45 +0800
+!  Last Modified:  Sun, 07 Oct 2012 03:09:44 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1523,8 +1523,7 @@ xj163.cn##[class^="ad"]
 ||misc.web.xunlei.com/www_5_8/img/*/*_$image
 ||dynamic.vod.lixian.xunlei.com^$image
 ||i.vod.xunlei.com/stat/
-xunlei.com##[id^="cm"].banner
-xunlei.com##.topic_center
+kankan.com##[id^="cm"].banner
 kuai.xunlei.com##.l_img
 kuai.xunlei.com##.bot_tips
 kuai.xunlei.com##.lahuan
@@ -1591,7 +1590,7 @@ news.ynet.com##.RC
 !---优酷
 @@||static.atm.youku.com^*.swf|$domain=www.youku.com
 @@||valf.atm.youku.com/crossdomain.xml
-@@||valf.atm.youku.com/valf?
+!@@||valf.atm.youku.com/valf?
 ||atm.youku.com^
 ||f.youku.com/player/getFlvPath/fileid/*&yad=1
 ||hz.youku.com/red/
@@ -2932,6 +2931,7 @@ price.com.hk##.tb
 qiushibaike.com###topBanner
 cn.reuters.com##.ad
 suopao.org##.t5[style^="margin-top:8px;"]
+ttmeiju.com##a[href^="http://www.ttmeiju.com/adclick.php?"]
 dl.vmall.com###filelist_marker
 bbs.wuyou.com##[style="background: #BBE9FF"]
 xiachufang.com##.g-ga.g-bg-white
@@ -5847,6 +5847,7 @@ _a468x60.
 ###ad-one
 ###ad-placard
 ###ad-placeholder
+###ad-rec-btf-top
 ###ad-rectangle
 ###ad-right
 ###ad-right-sidebar-ad-1
@@ -10961,6 +10962,7 @@ _a468x60.
 ##.type_adscontainer
 ##.type_miniad
 ##.type_promoads
+##.uds-ads
 ##.ukAds
 ##.ukn-banner-ads
 ##.under_ads
@@ -14902,6 +14904,7 @@ _a468x60.
 ||yumymilf.com^*/banners/
 ||zazzybabes.com/misc/virtuagirl-skin.js
 ! *** easylist:easylist_adult/adult_specific_block_popup.txt ***
+^utm_medium=popunder^$image,~image,popup,domain=ratedporntube.com
 ||ad.userporn.com^$image,~image,popup
 ||eporner.com/pop.php$image,~image,popup
 ||fantasti.cc^*?ad=$image,~image,popup
@@ -16197,6 +16200,7 @@ examiner.co.uk##.promotop
 examiner.com##.headerbg
 excelforum.com##.contentLeft
 excelforum.com##div[style^="width:300px; height:250px;"]
+exchangeandmart.co.uk###resultSponLinks
 exchangerates.org.uk###phd4
 exchangerates.org.uk##.fpsideblock
 exchangerates.org.uk##.imtinner
@@ -20165,6 +20169,7 @@ teentube18.com##.ads
 titsintops.com##tr > td[valign="top"]:first-child + .gensmall[width="305"][valign="top"]:last-child
 tjoob.com##.bg_banner_l
 tjoob.com##.bg_banner_r
+tnaflix.com##.liveJasminHotModels
 tube8.com##.banner-container
 tube8.com##.skin
 tube8.com##.skin1
@@ -21165,6 +21170,7 @@ yumymilf.com##.bottom-banner
 @@||pornstream.cc^*/adframe.js
 @@||swfchan.com/ad.js?
 @@||swfchan.org/ad.js?
+@@||thisispayback.com^*/adhandler/$subdocument
 @@||urlgalleries.net^*/adhandler/$subdocument
 ! Non-English
 @@||ads.b10f.jp/flv/$~third-party
@@ -21398,6 +21404,7 @@ yumymilf.com##.bottom-banner
 /md.js?country=
 /mdwtc/click_thru/*
 /metriweb.js
+/metriweb/spring.js
 /mint/?js
 /mintstats/?js
 /mixpanel_beacon.
@@ -22696,6 +22703,7 @@ _comscore.js
 ||livechatinc.com^*/control.cgi?
 ||livefyre.com/tracking/
 ||livefyre.com^*/tracking/
+||livehelpnow.net/lhn/jsutil/getinvitationmessage.aspx?
 ||livepass.conviva.com^
 ||livepassdl.conviva.com^
 ||lockerz.com/1x1.gif?

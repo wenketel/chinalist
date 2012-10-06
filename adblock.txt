@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: XGecbq3AgFptv2WQDYuGPg
+!  Checksum: /W0SOw5BhjDLkf2gmgoJ6Q
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 06 Oct 2012 03:40:41 +0800
+!  Last Modified:  Sun, 07 Oct 2012 03:09:39 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -1522,8 +1522,7 @@ xj163.cn##[class^="ad"]
 ||misc.web.xunlei.com/www_5_8/img/*/*_$image
 ||dynamic.vod.lixian.xunlei.com^$image
 ||i.vod.xunlei.com/stat/
-xunlei.com##[id^="cm"].banner
-xunlei.com##.topic_center
+kankan.com##[id^="cm"].banner
 kuai.xunlei.com##.l_img
 kuai.xunlei.com##.bot_tips
 kuai.xunlei.com##.lahuan
@@ -1590,7 +1589,7 @@ news.ynet.com##.RC
 !---优酷
 @@||static.atm.youku.com^*.swf|$domain=www.youku.com
 @@||valf.atm.youku.com/crossdomain.xml
-@@||valf.atm.youku.com/valf?
+!@@||valf.atm.youku.com/valf?
 ||atm.youku.com^
 ||f.youku.com/player/getFlvPath/fileid/*&yad=1
 ||hz.youku.com/red/
@@ -2932,6 +2931,7 @@ price.com.hk##.tb
 qiushibaike.com###topBanner
 cn.reuters.com##.ad
 suopao.org##.t5[style^="margin-top:8px;"]
+ttmeiju.com##a[href^="http://www.ttmeiju.com/adclick.php?"]
 dl.vmall.com###filelist_marker
 bbs.wuyou.com##[style="background: #BBE9FF"]
 xiachufang.com##.g-ga.g-bg-white
