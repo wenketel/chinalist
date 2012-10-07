@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: aL+IJ/RLucOQ1gkqi6z3aQ
+!  Checksum: 8xXxTcHC8TMGHh2plD5pUg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 07 Oct 2012 03:09:44 +0800
+!  Last Modified:  Sun, 07 Oct 2012 16:47:01 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -776,10 +776,11 @@ www.kankanews.com##.bann_ind
 !---极影动漫
 ||kkkmh.com/iframe/
 ||ktxp.com/javascripts/nmjui/
+||bt.ktxp.com/iframe/statistics.js
 /javascripts/abcde/*$domain=kkkmh.com|ktxp.com
 /javascripts/stats.js$domain=kkkmh.com|ktxp.com
 kkkmh.com##[class^="mm-"]
-bt.ktxp.com##.downloadbox + div[style]
+bt.ktxp.com##.ad
 
 !---Ku6
 @@||g.aa.sdo.com/crossdomain.xml
@@ -995,6 +996,7 @@ plurk.com###sliderAds
 
 !---PPTV
 ||player.pplive.cn^*/PPLivePlugin.swf
+||web.data.pplive.com^
 ||s1.pplive.cn/sta.js
 ||stat.pptv.com^
 ||synacast.com^
