@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 8xXxTcHC8TMGHh2plD5pUg
+!  Checksum: KGbQ9NrtjfEpYDifvBjQDA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 07 Oct 2012 16:47:01 +0800
+!  Last Modified:  Mon, 08 Oct 2012 21:17:55 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1284,17 +1284,15 @@ www.sohu.com###contentC > .columnC
 !--tv
 /get.gif?$domain=sohu.com
 ||sohu.com/dostat.do?
-||images.sohu.com/ytv/
-||tv.sohu.com/upload/ad_fr/
-||tv.sohu.com/upload/csad/
 ||tv.sohu.com/upload/static/global/hdpv.js
+||tv.sohu.com/upload/static/plugin/push_win/
 ||tv.sohu.com/upload/trace/
 ||aty.tv.sohu.com^
 ||his.tv.sohu.com/his/ping.do?
 ||count.vrs.sohu.com^$object_subrequest
-||data.vrs.sohu.com/player.gif?
 ||hd.sohu.com.cn^$object_subrequest
 tv.sohu.com##.adbox
+tv.sohu.com##.nwBox
 tv.sohu.com###miaozhenad
 !--Sogou
 ||sogou.com/js/pb_*.js
@@ -2986,6 +2984,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 +adverts/
 -ad-001-
 -ad-340x400-
+-ad-exo-
 -ad-large.
 -ad-limits.
 -ad-loading.
@@ -3191,6 +3190,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /ad/takeover/*
 /ad000/*
 /ad125.
+/ad125x125.
 /ad160.
 /ad160x600.
 /ad1place.
@@ -3420,7 +3420,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /adguru.
 /adhalfbanner.
 /adhandler.
-/adhandler/*
+/adhandler/*$~subdocument
 /adheader.
 /adheadertxt.
 /adhomepage.
@@ -3591,6 +3591,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /ads/center-
 /ads/generatedHTML/*
 /ads/header_
+/ads/homepage/*
 /ads/js/*
 /ads/jsbannertext.
 /ads/leaderboard.
@@ -3955,6 +3956,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /adzone.
 /adzone4.
 /adzone_
+/AdZoneAdXp.
 /adzonebottom.
 /adzoneleft.
 /adzoneplayerright.
@@ -4093,6 +4095,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /behaviorads/*
 /beta-ad.
 /betrad.js
+/bftv/ads/*
 /bg_ads_
 /bi_affiliate.js
 /bigad.
@@ -4110,6 +4113,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /bnrsrv.*?
 /bodyads/*
 /boomad.
+/bottom-ad-
 /bottom-advert-
 /bottom_ad.
 /bottomad.
@@ -4323,6 +4327,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /gamead/*
 /gamersad.
 /GAN_Ads/*
+/gannett/ads/*
 /general-ad-
 /generate_ad.
 /generateadtag.
@@ -4505,6 +4510,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /js/ads.
 /js/ads_
 /js2.ad/size=
+/js_ad_utf8.
 /jsadscripts/*
 /jstextad.
 /jumpstartunpaidad.
@@ -5025,6 +5031,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /vericaladtitle.
 /vert728ad.
 /verticaladrotatorv2.
+/VHDpoppingModels/*
 /video.ads.php?
 /video_ad.
 /video_ad_
@@ -5291,6 +5298,7 @@ _google_ads.
 _google_ads/
 _google_ads_
 _header_ad.
+_header_ad_
 _headerad.
 _house_ad_
 _index_ad.
@@ -5767,6 +5775,7 @@ _a468x60.
 ###ad-250
 ###ad-250x300
 ###ad-300
+###ad-300-250
 ###ad-300x250
 ###ad-300x250-01
 ###ad-300x250-02
@@ -5995,6 +6004,7 @@ _a468x60.
 ###adGroup1
 ~ksl.com###adHeader
 ###adHeaderTop
+###adInstoryOneWrap
 ###adInteractive1
 ###adInteractive4
 ###adInteractiveInline
@@ -7199,6 +7209,7 @@ _a468x60.
 ###ft-ad-container
 ###ft-ads
 ###ft_mpu
+###full_banner_ad
 ###fullsizebanner_468x60
 ###fusionad
 ###fw-advertisement
@@ -8915,6 +8926,7 @@ _a468x60.
 ##.ad_widget_200_200
 ##.ad_wrap
 ~athensmagazine.gr,~newscrawler.it##.ad_wrapper
+##.ad_wrapper_false
 ##.ad_wrapper_fixed
 ##.ad_wrapper_top
 ##.ad_wrp
@@ -9692,7 +9704,7 @@ _a468x60.
 ##.carbonad-tag
 ##.care2_adspace
 ##.catalog_ads
-##.category-ad
+~dmitrysotnikov.wordpress.com##.category-ad
 ##.categorySponsorAd
 ##.category__big_game_container_body_games_advertising
 ##.cb-ad-banner
@@ -11134,7 +11146,7 @@ _a468x60.
 ||247realmedia.com^$third-party
 ||254a.com^$third-party
 ||2mdn.net/dot.gif$object-subrequest,third-party
-||2mdn.net^$object-subrequest,third-party,domain=101cargames.com|3news.co.nz|abcnews.go.com|bbc.co.uk|bbc.com|bet.com|bloomberg.com|box10.com|brisbanetimes.com.au|businessweek.com|calgaryherald.com|cbslocal.com|drive.com.au|edmontonjournal.com|eonline.com|euronews.com|foodnetwork.ca|four.co.nz|globaltoronto.com|globaltvbc.com|heraldsun.com.au|independent.ie|kdvr.com|kfiam640.com|kwgn.com|leaderpost.com|livestream.com|metacafe.com|mojointhemorning.com|montrealgazette.com|my9tv.com|nationalpost.com|nba.tv|ndtv.com|newsmax.com|newyorkjets.com|nfl.com|ottawacitizen.com|patriots.com|rapbasement.com|reuters.com|rollingstone.com|rte.ie|sherdog.com|skynews.com.au|smh.com.au|streetfire.net|telegraph.co.uk|theage.com.au|theaustralian.com.au|thecomedynetwork.ca|theprovince.com|thestarphoenix.com|timescolonist.com|tv3.co.nz|vancouversun.com|vice.com|videojug.com|weather.com|windsorstar.com|youtube.com
+||2mdn.net^$object-subrequest,third-party,domain=101cargames.com|3news.co.nz|abcnews.go.com|bbc.co.uk|bbc.com|bet.com|bloomberg.com|box10.com|brisbanetimes.com.au|businessweek.com|calgaryherald.com|cbslocal.com|drive.com.au|edmontonjournal.com|eonline.com|euronews.com|foodnetwork.ca|four.co.nz|globaltoronto.com|globaltvbc.com|heraldsun.com.au|independent.ie|kdvr.com|kfiam640.com|kwgn.com|leaderpost.com|livestream.com|metacafe.com|mojointhemorning.com|montrealgazette.com|my9tv.com|nationalpost.com|nba.tv|ndtv.com|newsmax.com|newyorkjets.com|nfl.com|ottawacitizen.com|patriots.com|rapbasement.com|reuters.com|rollingstone.com|rottentomatoes.com|rte.ie|sherdog.com|skynews.com.au|smh.com.au|streetfire.net|telegraph.co.uk|theage.com.au|theaustralian.com.au|thecomedynetwork.ca|theprovince.com|thestarphoenix.com|timescolonist.com|tv3.co.nz|vancouversun.com|vice.com|videojug.com|weather.com|windsorstar.com|youtube.com
 ||2mdn.net^$~object-subrequest,third-party
 ||360ads.com^$third-party
 ||360yield.com^$third-party
@@ -14200,6 +14212,7 @@ _a468x60.
 ||thesun.co.uk/multimedia/archive/*/gutters_$image
 ||thesun.co.uk/multimedia/archive/*_adv_$image
 ||thesun.co.uk/multimedia/archive/*_gutters_$image
+||thesun.co.uk/multimedia/archive/*_mpu_$image
 ||thesundaily.my/sites/default/files/twinskyscrapers
 ||thesurvivalistblog.net^*-ad.bmp
 ||thesurvivalistblog.net^*-banner-
@@ -15522,6 +15535,7 @@ caymannewsservice.com##div[style="width:550px; height:100px; margin:0px auto;"]
 cbc.ca###ad
 cboe.com###simplemodal-overlay
 cbslocal.com##.sm-ad
+cbsnews.com###mantle_skin
 cbsnews.com##div[style="width: 300px; height: 250px;"]
 cbssports.com###leaderboardRow
 cbssports.com##table[cellpadding="0"][width="310"]
@@ -17744,6 +17758,7 @@ mweb.co.za##div[style="text-align: center; float: left; margin-bottom: 10px; pad
 myabc50.com##.LinksWeLike
 mybroadband.co.za##.ad
 mybrute.com##.cellulePub
+mydaily.co.uk##div[style="width: 921px; opacity: 1; top: -110px;"]
 mydailynews.com.au###salesCarouselContainer
 myfax.com###ctl00_MainSection_BannerCoffee
 myfinances.co.uk###leaderboard
@@ -18550,6 +18565,7 @@ scoop.co.nz##a[href^="/adsfac.net/link.asp?"]
 scotsman.com###banner01
 screenwallpapers.org###banner
 scriptcopy.com##.linkroll
+scvnews.com##table[width="978"][height="76"]
 search.aol.ca##.SLL
 search.aol.ca##.WOL
 search.aol.co.uk##.PMB
@@ -19872,6 +19888,7 @@ yorkshireeveningpost.co.uk###banner01
 yorkshirepost.co.uk###banner01
 yourfiles.to##a[href^="http://www.pc-bodyguard.com/?p="]
 yourhome.ca###verticalsBigBox
+yourjewishnews.com###ctl00_IWS_WH_CPH_Content_PayPalControl8[style="display:inline-block;height:250px;width:300px;float:left;margin-left:0px;margin-top:12px;margin-right:12px;margin-bottom:12px;text-align:left;display:inline-block;"]
 yourmindblown.com##div[style="width:160px; height:600px; padding:10px 0px;"]
 yourmindblown.com##div[style="width:300px; min-height:250px; padding:10px 0px;"]
 yourtango.com###header-top
@@ -20338,7 +20355,7 @@ yumymilf.com##.bottom-banner
 @@||ads1.msn.com/library/dap.js$domain=wowarmory.com
 @@||adserver.adtech.de/?adrawdata%2f3.0%2f*%3dplay_auto%3b$script,domain=we7.com
 @@||adserver.adtech.de/?adrawdata/3.0/$object-subrequest,domain=talksport.co.uk
-@@||adserver.adtech.de/?advideo/*;vidas=pre_roll;$object-subrequest,domain=eurovisionsports.tv
+@@||adserver.adtech.de/?advideo/*;vidas=pre_roll;$object-subrequest,domain=eurovisionsports.tv|talksport.co.uk
 @@||adserver.adtech.de/addyn/3.0/755/2852613/$script,domain=cartoonnetworkasia.com
 @@||adserver.bigwigmedia.com/adfetch2.php?$object-subrequest,domain=y8.com
 @@||adserver.bigwigmedia.com/ingamead3.swf
@@ -21164,16 +21181,10 @@ yumymilf.com##.bottom-banner
 @@||skimtube.com/advertisements.php?
 @@||tjoob.com/go.php?ad=$script,~third-party
 ! Anti-Adblock
-@@||adultadworld.com/adhandler/$subdocument
-@@||camelstyle.net^*/adhandler/$subdocument
 @@||cluster.adultadworld.com/intv2/interstitial.js$domain=swfchan.com
-@@||lezlezlez.com^*/adhandler/$subdocument
-@@||mygirlfriendvids.net^*/adhandler/$subdocument
 @@||pornstream.cc^*/adframe.js
 @@||swfchan.com/ad.js?
 @@||swfchan.org/ad.js?
-@@||thisispayback.com^*/adhandler/$subdocument
-@@||urlgalleries.net^*/adhandler/$subdocument
 ! Non-English
 @@||ads.b10f.jp/flv/$~third-party
 @@||ads.b10f.jp/images/$~third-party
@@ -22803,6 +22814,7 @@ _comscore.js
 ||realtidbits.com^*/analytics.js
 ||reevoo.com/track/
 ||replyat.com/gadgetpagecounter*.asp?
+||reports.maxperview.com^
 ||reports.pagesuite-professional.co.uk^
 ||returnpath.net/pixel.gif?
 ||reverbnation.com/widgets/trk/
@@ -22944,8 +22956,9 @@ _comscore.js
 ||vertical-stats.huffpost.com^
 ||verticalacuity.com/vat/
 ||video.msn.com/report.aspx?
-||videodetective.net/flash/players/analytics.aspx?
-||videodetective.net/flash/players/plugins/iva_quantcast.swf
+||videodetective.net^*/analytics.aspx?
+||videodetective.net^*/iva_analytics.swf
+||videodetective.net^*/iva_quantcast.swf
 ||videoplaza.tv/proxy/tracker?$object-subrequest
 ||virgingames.com/tracker/
 ||virginmedia.com^*/analytics/
