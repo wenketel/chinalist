@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: i3DUzPqtdaLhKKlWIE4PWg
+!  Checksum: n6cr0CG/w4AqEIaUQ0dLng
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 10 Oct 2012 10:34:01 +0800
+!  Last Modified:  Wed, 10 Oct 2012 12:16:48 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -38,8 +38,8 @@ suning.com#@##topAd
 !---115网盘
 ||static.115img.com/static/115tj.js
 ||static.115img.com/static/delivery/
+115.com##.banner-box
 115.com##.banner-top
-115.com##.resource-list > ul
 
 !---网易
 @@||analytics.163.com/ntes.js$domain=cbg.163.com
@@ -785,8 +785,6 @@ bt.ktxp.com##.ad
 !---Ku6
 @@||g.aa.sdo.com/crossdomain.xml
 @@||g.aa.sdo.com/?method=getversion$object_subrequest
-@@||my.ku6.com/resource/images/feed_ad1.jpg
-@@||css.ku6cdn.com/comm/gg/$image
 ||st.vq.ku6.cn^
 ||log*.ku6.com^
 ||stat.ku6.com^$object_subrequest
@@ -794,6 +792,7 @@ bt.ktxp.com##.ad
 v.ku6.com##[class^="aa_"]
 my.ku6.com##.gg
 www.ku6.com##[class^="a_d0608"]
+www.ku6.com##.ku6_ad
 !--embedded
 @@||pic.snyu.com/sdk*/Main.swf$domain=~ku6.com
 
@@ -1493,7 +1492,6 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||xinhuanet.com^*_tl_$script
 ||xinhuanet.com/classad/
 ||xinhuanet.com^*/ad_
-||embed.xinhuanet.com^
 
 !---西子湖畔
 ||a.xizi.com^
@@ -1514,9 +1512,9 @@ xj163.cn##[class^="ad"]
 ||analytics-union.xunlei.com^
 ||kkpgv2.xunlei.com^
 ||images.client.xunlei.com/gougou_recommend/
+||js.kankan.xunlei.com/5.2/mp4/js/kankan_commercial_mp4_563.js
 ||img.kuai.xunlei.com/img/v2/fen/
 ||img.kuai.xunlei.com/js/statistics.js
-||js.kankan.xunlei.com/5.2/mp4/js/kankan_commercial_mp4_563.js
 ||record.kuai.xunlei.com^
 ||stat.xunlei.com^
 ||misc.web.xunlei.com/kkpv/
