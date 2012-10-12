@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: jAv3JKb/FeHkajDVTyFRUQ
+!  Checksum: FYyyt+OHNaD2vedXrAhEiw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 12 Oct 2012 12:32:44 +0800
+!  Last Modified:  Fri, 12 Oct 2012 12:38:46 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -180,7 +180,6 @@ v.6.cn###playerAd
 !---99漫画
 /aitw/*$domain=99comic.com|99manga.com
 /jsc/book_$domain=99comic.com|99manga.com
-/jsc/stat.js$domain=99comic.com|99manga.com
 /pub-js.js$domain=99comic.com|99manga.com
 .com/*/p$script,domain=99comic.com|99manga.com
 .com/*/t.js$domain=99comic.com|99manga.com
@@ -599,6 +598,14 @@ www.gfan.com##.banner
 ||good.gd/good.gd/js/downloadPrograss.js
 ||good.gd/js/loadpopads.aspx
 
+!---GTV
+||gtv.com.cn/js/cache_data_tjw.js
+gtv.com.cn###duilian
+gtv.com.cn##.rightext1
+gtv.com.cn##.t6r2
+gtv.com.cn##.t8r2
+gtv.com.cn##.zs_banner
+
 !---时空网
 ||images.nnsky.com^
 ||images.gxsky.com^
@@ -779,7 +786,6 @@ www.kankanews.com##.bann_ind
 ||ktxp.com/javascripts/nmjui/
 ||bt.ktxp.com/iframe/statistics.js
 /javascripts/abcde/*$domain=kkkmh.com|ktxp.com
-/javascripts/stats.js$domain=kkkmh.com|ktxp.com
 kkkmh.com##[class^="mm-"]
 bt.ktxp.com##.ad
 
@@ -861,7 +867,6 @@ news.mydrivers.com##table[border="0"][width="980"][height="90"]
 myfiles.com.cn##[id^="ad_"]
 
 !---NARUTOM
-||narutom.com/stat.js
 ||narutom.com/js/comicjs.js
 ||narutom.com/js/jsg2.js
 ||narutom.com/js/myl.js
@@ -1358,7 +1363,6 @@ tgbus.com##[id^="TGBUS_VISTA_CONTAINER_"]
 ||blog.tianya.cn/tuijian/tanchu.js
 ||global.tianyaui.com/global/wizard/js/wizard.js
 ||pinpai.tianya.cn^$subdocument
-||ebook.tianya.cn/js/stat.js
 ||stat.tianya.cn^
 ||static.tianyaui.com/global/ty/stat/
 ||static.tianyaui.com^*/stat_20080313.js
@@ -2074,7 +2078,6 @@ www.jstv.com##.jadv
 2u.com.cn#@#.adSpace
 ||2y2r.org/data/attachment/forum/$image
 2y2r.org###hd + .wp.cl
-||500wancache.com/public/js/stats.js
 ||tongji.500wan.com^
 ||v3.apic.51.com/vda09.js
 ||510379.com/510379ad/
@@ -2116,6 +2119,9 @@ lt.cjdby.net##.bm.a_c
 cnmo.com##[id^="AD"]
 ||codepub.com/wuse/pic/
 ||dabaoku.com^$script,object,subdocument
+/YahooAds_250.jpg$domain=blog.dausos.com
+blog.dausos.com##.ad_h
+blog.dausos.com##.adr
 ||dict.cn/static/img/opera_dict3.jpg
 ||disp.cc/ads_data/
 disp.cc###ads_page_b
@@ -2848,6 +2854,8 @@ zxtjd.com###it_an
 |http://track.
 /ktrace/ktrace$script
 /pingd?
+/stat.js
+/stats.js
 /tongji.js
 /tracking.$image,object_subrequest
 /usertrack.
