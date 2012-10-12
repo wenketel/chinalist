@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: quXyO4pfNsjfb822ACmC6Q
+!  Checksum: jAv3JKb/FeHkajDVTyFRUQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 11 Oct 2012 21:21:17 +0800
+!  Last Modified:  Fri, 12 Oct 2012 12:32:44 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1911,6 +1911,7 @@ yesky.com##[class^="ad"]
 ||59to.com/myjs/$script
 @@||77119.com/js/fenxiang.js
 ||77119.com/js/
+77119.com#@#.topadbox
 @@||jj.5ccc.net/scripts/new/pagetop.js
 ||jj.5ccc.net/scripts/new/
 ||87ks.com/93xw/$script
@@ -4054,6 +4055,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /bannerad1-
 /bannerad2-
 /bannerad3.
+/bannerad6.
 /bannerad_
 /bannerads-
 /bannerads.
@@ -5215,6 +5217,7 @@ _ad_leaderboard.
 _ad_minileaderboard.
 _ad_placeholder-
 _ad_promo2.
+_ad_render_
 _ad_right.
 _ad_sky.
 _ad_skyscraper.
@@ -9067,6 +9070,7 @@ _a468x60.
 ##.ads-ads-top
 ##.ads-banner
 ##.ads-below-content
+##.ads-below-home
 ##.ads-bg
 ##.ads-categories-bsa
 ##.ads-custom
@@ -9346,6 +9350,7 @@ _a468x60.
 ##.advert-bloggrey
 ~eatsy.co.uk##.advert-box
 ##.advert-btm
+##.advert-content
 ##.advert-head
 ~mobifrance.com##.advert-horizontal
 ##.advert-iab-300-250
@@ -9814,6 +9819,7 @@ _a468x60.
 ##.content_ad_head
 ##.content_adsense
 ##.content_adsq
+##.content_middle_adv
 ##.content_tagsAdTech
 ~lustiges-taschenbuch.de##.contentad
 ##.contentad-home
@@ -10238,6 +10244,7 @@ _a468x60.
 ##.leaderBoardAdHolder
 ##.leaderOverallAdArea
 ##.leader_ad
+##.leaderboard-ad
 ##.leaderboardAd
 ##.leaderboardAdContainer
 ##.leaderboardAdContainerInner
@@ -11099,6 +11106,8 @@ _a468x60.
 ##.y-ads
 ##.y-ads-wide
 ##.y7-advertisement
+##.y7adHEAD
+##.y7adS
 ##.yahoo-sponsored
 ##.yahoo-sponsored-links
 ##.yahooAd
@@ -12500,8 +12509,7 @@ _a468x60.
 ||videoegg.com^$third-party
 ||videoplaza.com^$object-subrequest,third-party,domain=autoexpress.co.uk|evo.co.uk|mensfitness.co.uk|mpora.com
 ||videoplaza.com^$~object-subrequest,third-party
-||videoplaza.tv/proxy/distributor?$object-subrequest,third-party
-||videoplaza.tv/resources/boot/as3_videoplaza_bootloader.swf$object-subrequest,third-party
+||videoplaza.tv/proxy/distributor^$object-subrequest,third-party
 ||videoplaza.tv^$object-subrequest,third-party,domain=tv4play.se
 ||videoplaza.tv^$~object-subrequest,third-party
 ||videostrip.com^*/admatcherclient.$object-subrequest,third-party
@@ -13870,6 +13878,9 @@ _a468x60.
 ||pan2.ephotozine.com^$image
 ||pandora.com/radio/util/mediaserverPublicRedirect.jsp
 ||parade.com/images/skins/
+||parklabreanewsbeverlypress.com^*/echohorizonschool.jpeg
+||parklabreanewsbeverlypress.com^*/mmdental.jpg
+||parklabreanewsbeverlypress.com^*/tashman1.png
 ||parlemagazine.com/images/banners/
 ||payplay.fm^*/mastercs.js
 ||pbs.org^*/sponsors/
@@ -14803,6 +14814,17 @@ _a468x60.
 ||phncdn.com/images/*_skin.jpg
 ||phncdn.com/images/*_skin_
 ||phncdn.com/images/skin/
+||phoenixmarieonline.com/wp-content/images/bangbros_*.jpg
+||phoenixmarieonline.com/wp-content/images/big_tits_boss-*.jpg
+||phoenixmarieonline.com/wp-content/images/brazzers_*.jpg
+||phoenixmarieonline.com/wp-content/images/hundies_*.gif
+||phoenixmarieonline.com/wp-content/images/manojob-*.gif
+||phoenixmarieonline.com/wp-content/images/mr_biggz-*.jpg
+||phoenixmarieonline.com/wp-content/images/myxxxpass-*.jpg
+||phoenixmarieonline.com/wp-content/images/pf*.jpg
+||phoenixmarieonline.com/wp-content/images/phoenix_marie-*.jpg
+||phoenixmarieonline.com/wp-content/images/pornpros-*.jpg
+||phoenixmarieonline.com/wp-content/images/twistys-*.jpg
 ||phun.org/phun/gfx/banner/
 ||phun.org/test/phun.js
 ||pichunter.com/creatives/
@@ -16242,6 +16264,10 @@ europolitics.info##.publicite1
 euroweek.com##.bnr-top
 eurowerks.org##.adblock
 eveningtimes.co.uk###leaderboard
+eventfinda.com###footerBanner
+eventfinda.sg###footerBanner
+eventfinder.co.nz###footerBanner
+eventfinder.com.au###footerBanner
 everyjoe.com##.ad
 evilchili.com###overlayVid
 eweek.com###Table_01
@@ -18171,6 +18197,7 @@ panarmenian.net##.panner_2
 panarmenian.net##.side_panner
 pantagraph.com##.blox-leaderboard-container
 parentcentral.ca###verticalsBigBox
+parklabreanewsbeverlypress.com##img[width="460px"][height="300px"]
 passedoutphotos.com###top-leaderboard
 passedoutphotos.com##.leaderboard
 passiveaggressivenotes.com##div[style="width: 728px; height: 90px; margin: 0 auto 5px; border: 1px solid #666;"]
@@ -20178,6 +20205,7 @@ nuvid.com##.puFloatLine
 overthumbs.com##.psscreen
 overthumbs.com##.psvisit
 overthumbs.com##div[style="width: 160px; height: 634px; float: right; text-align: center; margin: 0 0 20px 0; padding: 0 13px 0 0; overflow: hidden;"]
+phoenixmarieonline.com##.trailer
 picfoco.com##.inner_right
 picfoco.com##a[href^="http://www.adultfriendfinder.com/search/"]
 pichunter.com##div[style="height: 250px; width: 800px; overflow: hidden;"]
@@ -20850,6 +20878,8 @@ yumymilf.com##.bottom-banner
 @@||popcap.com/sites/all/modules/popcap/js/popcap_openx.js?
 @@||popularmechanics.com/ams/page-ads.js?*&article_type_prefix=flipbook$script,domain=popularmechanics.com
 @@||pressdisplay.com/advertising/showimage.aspx?
+@@||productioncars.com/pics/menu/ads.gif
+@@||productioncars.com/pics/menu/ads2.gif
 @@||promo2.tubemogul.com/adtags/slim_no_iframe.js$domain=comedy.com
 @@||promo2.tubemogul.com/flash/youtube.swf$domain=comedy.com
 @@||promo2.tubemogul.com/lib/tubemoguldisplaylib.js$domain=comedy.com
@@ -22821,6 +22851,7 @@ _comscore.js
 ||metrics.feedroom.com^
 ||metrics.loomia.com^
 ||metrics.scribblelive.com^
+||metrics.sonymusicd2c.com^
 ||metrics.wikinvest.com^
 ||mkcms.com/stats.js
 ||mochiads.com/clk/
@@ -22913,6 +22944,7 @@ _comscore.js
 ||southafricahome.com/statsmodulev2/
 ||spaceprogram.com/webstats/
 ||sparklit.com/counter/
+||spoods.rce.veeseo.com^
 ||stat.easydate.biz^
 ||stat.ed.cupidplc.com^
 ||stat.segitek.hu^
@@ -22954,6 +22986,8 @@ _comscore.js
 ||t.flux.com^
 ||t.pswec.com^
 ||taboolasyndication.com/log/
+||tag.myplay.com^
+||tag.sonymusic.com^
 ||tealium.hs.llnwd.net^*/utag.js
 ||technorati.com/technoratimedia-pixel.js
 ||the-group.net/aether/
