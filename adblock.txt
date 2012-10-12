@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: oBhHcIFkWHyiSotNBeu7Ew
+!  Checksum: zrzGzR1BAEQI6Gu2XLltKQ
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 12 Oct 2012 12:38:42 +0800
+!  Last Modified:  Fri, 12 Oct 2012 13:19:53 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -116,7 +116,6 @@ search.21cn.com##td[width="184"][align="left"]
 @@||adimg.adtpl.360buy.com/uploads/$image
 @@||book.360buy.com/book/BookShowService.aspx$xmlhttprequest
 @@||my.360buy.com/global/track.action^$script
-||csc.360buy.com/log.ashx?
 ||wl.360buy.com/wl.js
 
 !---3boys2girls
@@ -666,6 +665,7 @@ iciba.com###dict_right5
 iciba.com##.vAd_head
 
 !---凤凰网
+@@||bc.ifeng.com/main/s?user=ifeng||vad&*;adSec|2&$object_subrequest
 /ifengRotatorAd.js
 /sc_ifeng/*$domain=ifeng.com
 /tres/recommend/*$domain=ifeng.com
