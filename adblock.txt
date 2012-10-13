@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: G/0U8W8c9a659HexutCJ1A
+!  Checksum: 3O/yUr42hDbPR6qkhizKOg
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 12 Oct 2012 17:47:42 +0800
+!  Last Modified:  Sat, 13 Oct 2012 23:55:14 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -367,7 +367,6 @@ chinanews.com###qizhi_div980
 ||cctv.com/Library/a2.js
 ||cctv.com/script/ad_s.js
 ||cntv.cn^*/js_ad$script
-||a.cntv.cn^
 ||cntv.cn/library/script/flash_guanggaodiaoyong.js
 ||d.cntv.cn^
 ||log.vdn.apps.cntv.cn^
@@ -1280,7 +1279,6 @@ shm.com.cn##.surround2
 ||news.sohu.com/upload/article/2012/images/swf/
 ||z.t.sohu.com^
 sohu.com##.adB
-sohu.com,chinaren.com##sohuadcode
 sohu.com###turn-ad
 it.sohu.com##.adA
 news.sohu.com###adList
@@ -2129,6 +2127,7 @@ cnmo.com##[id^="AD"]
 /YahooAds_250.jpg$domain=blog.dausos.com
 blog.dausos.com##.ad_h
 blog.dausos.com##.adr
+blog.dausos.com##.adt
 ||dict.cn/static/img/opera_dict3.jpg
 ||disp.cc/ads_data/
 disp.cc###ads_page_b
@@ -2861,7 +2860,7 @@ zxtjd.com###it_an
 |http://track.
 /ktrace/ktrace$script
 /pingd?
-/stat.js
+/stat.js|
 /stats.js
 /tongji.js
 /tracking.$image,object_subrequest

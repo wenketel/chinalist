@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: CUpG7mzjiqVL9egEVQ8sGw
+!  Checksum: w9YSpRpabfxDFtWGAtdQ+g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 12 Oct 2012 17:47:47 +0800
+!  Last Modified:  Sat, 13 Oct 2012 23:55:18 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -368,7 +368,6 @@ chinanews.com###qizhi_div980
 ||cctv.com/Library/a2.js
 ||cctv.com/script/ad_s.js
 ||cntv.cn^*/js_ad$script
-||a.cntv.cn^
 ||cntv.cn/library/script/flash_guanggaodiaoyong.js
 ||d.cntv.cn^
 ||log.vdn.apps.cntv.cn^
@@ -1281,7 +1280,6 @@ shm.com.cn##.surround2
 ||news.sohu.com/upload/article/2012/images/swf/
 ||z.t.sohu.com^
 sohu.com##.adB
-sohu.com,chinaren.com##sohuadcode
 sohu.com###turn-ad
 it.sohu.com##.adA
 news.sohu.com###adList
@@ -2129,6 +2127,7 @@ cnmo.com##[id^="AD"]
 /YahooAds_250.jpg$domain=blog.dausos.com
 blog.dausos.com##.ad_h
 blog.dausos.com##.adr
+blog.dausos.com##.adt
 ||dict.cn/static/img/opera_dict3.jpg
 ||disp.cc/ads_data/
 disp.cc###ads_page_b
@@ -2861,7 +2860,7 @@ zxtjd.com###it_an
 |http://track.
 /ktrace/ktrace$script
 /pingd?
-/stat.js
+/stat.js|
 /stats.js
 /tongji.js
 /tracking.$image,object_subrequest
@@ -5023,6 +5022,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /toolkitads.
 /tools/ad.
 /top-ad-
+/top-ads.
 /top_ad.
 /top_ad_
 /top_ads/*
@@ -7028,7 +7028,7 @@ _a468x60.
 ###circ_ad
 ###closeable-ad
 ###cmn_ad_box
-###cmn_ad_tag_head
+~shoryuken.com###cmn_ad_tag_head
 ###cmn_toolbar_ad
 ###cnnAboveFoldBelowAd
 ###cnnRR336ad
@@ -11377,6 +11377,7 @@ _a468x60.
 ||adshack.com^$third-party
 ||adshopping.com^$third-party
 ||adshost1.com^$third-party
+||adshot.de^$third-party
 ||adshuffle.com^$third-party
 ||adsignals.com^$third-party
 ||adsimilis.com^$third-party
@@ -11567,6 +11568,7 @@ _a468x60.
 ||bbelements.com^$third-party
 ||beaconads.com^$third-party
 ||beead.co.uk^$third-party
+||beead.net^$third-party
 ||begun.ru^$third-party
 ||belointeractive.com^$third-party
 ||belvertising.be^$third-party
@@ -11751,6 +11753,7 @@ _a468x60.
 ||directtrack.com^$third-party
 ||dl-rms.com^$third-party
 ||dollarade.com^$third-party
+||dollarsponsor.com^$third-party
 ||domainadvertising.com^$third-party
 ||domainbuyingservices.com^$third-party
 ||domainsponsor.com^$third-party
@@ -14363,6 +14366,7 @@ _a468x60.
 ||ultimate-guitar.com/bgd/main_$image
 ||ultimate-guitar.com^*/takeover/
 ||ultimatehandyman.co.uk/ban.txt
+||ultimatehandyman.org/bh1.gif
 ||uncoached.com/smallpics/ashley
 ||unicast.ign.com^
 ||unicast.msn.com^
@@ -14529,6 +14533,7 @@ _a468x60.
 ||yfrog.com/images/weezer-bloggie-bg.png
 ||yfrog.com/ym.php?
 ||yimg.com/a/1-$~stylesheet
+||yimg.com/cv/ae/ca/audience/$image,domain=yahoo.com
 ||yimg.com/cv/ae/us/audience/$image,domain=yahoo.com
 ||yimg.com/dh/ap/default/*/skins_$image,domain=yahoo.com
 ||yimg.com/i/i/de/cat/yahoo.html$domain=yahoo.com
@@ -20118,6 +20123,7 @@ chaturbate.com##.banner
 cocoimage.com##.inner_right
 comicstale.com##table[style="width:840px; border 1px solid #C0C0C0; background-color:#0F0F0F; margin:0 auto;"]
 definebabe.com##.banner1
+deliciousmovies.com###fadeinbox
 dickbig.net##.t_14
 djs-teens.net##.ads
 dominationtube.com###download-bar
@@ -20386,9 +20392,9 @@ yumymilf.com##.bottom-banner
 @@||ad4.liverail.com/|$object-subrequest,domain=itn.co.uk|pbs.org|wikihow.com
 @@||adap.tv/control?$object-subrequest
 @@||adap.tv/redir/client/adplayer.swf$object-subrequest
-@@||adap.tv/redir/client/static/as3adplayer.swf$object-subrequest,domain=stickam.com|talkingpointsmemo.com|thesource.com|wildearth.tv|wunderground.com
-@@||adap.tv/redir/client/swfloader.swf?id=swfloader$object,domain=kizi.com|merriam-webster.com
-@@||adap.tv/redir/javascript/vpaid.js$domain=hallpass.com|kizi.com|merriam-webster.com
+@@||adap.tv/redir/client/static/as3adplayer.swf$object-subrequest,domain=freeonlinegames.com|stickam.com|talkingpointsmemo.com|thesource.com|wildearth.tv|wunderground.com
+@@||adap.tv/redir/client/swfloader.swf?id=swfloader$object,domain=freeonlinegames.com|kizi.com|merriam-webster.com
+@@||adap.tv/redir/javascript/vpaid.js$domain=freeonlinegames.com|hallpass.com|kizi.com|merriam-webster.com
 @@||adap.tv/redir/plugins/*/adotubeplugin.swf?$domain=stickam.com
 @@||addictinggames.com^*/mtvi_ads_reporting.js
 @@||adgear.com^*/adgear.js$domain=lifemadedelicious.ca|tac.tv
@@ -21188,6 +21194,7 @@ yumymilf.com##.bottom-banner
 @@||autoscout24.*/all.js.aspx?m=css&*=/stylesheets/adbanner.css
 @@||autotube.cz/ui/player/ad.php?id=$object-subrequest
 @@||avidown.net/avid/images/ad-vote_$image
+@@||bancodevenezuela.com/imagenes/publicidad/$~third-party
 @@||bnrs.ilm.ee/www/delivery/fl.js
 @@||catmusica.cat/paudio/getads.jsp?$xmlhttprequest
 @@||checkm8.com/adam/inline?$script,domain=mako.co.il
@@ -21255,6 +21262,7 @@ yumymilf.com##.bottom-banner
 @@||videoplaza.tv/proxy/distributor?$object-subrequest,domain=aftenposten.no|bt.no|ekstrabladet.dk|kuriren.nu|qbrick.com|svd.se
 @@||videos.lanacion.com.ar^*/xml/publicidad/$object
 ! *** easylist:easylist/easylist_whitelist_dimensions.txt ***
+@@||270towin.com/cdn-cgi/pe/bag?*_160x600_$xmlhttprequest
 @@||assets.vice.com/content-images/*_120x60.jpg
 @@||bit-tech.net/content_images/*-300x250.$image
 @@||bizquest.com^*_img/_franchise/*_120x60.$image
@@ -21290,6 +21298,7 @@ yumymilf.com##.bottom-banner
 @@||skimtube.com/advertisements.php?
 @@||tjoob.com/go.php?ad=$script,~third-party
 ! Anti-Adblock
+@@||adultadworld.com/adhandler/$subdocument
 @@||cluster.adultadworld.com/intv2/interstitial.js$domain=swfchan.com
 @@||pornstream.cc^*/adframe.js
 @@||swfchan.com/ad.js?
