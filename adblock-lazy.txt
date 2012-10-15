@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: w9YSpRpabfxDFtWGAtdQ+g
+!  Checksum: 4/LWr/TdKfGxa8fm6ztJCw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 13 Oct 2012 23:55:18 +0800
+!  Last Modified:  Mon, 15 Oct 2012 18:02:47 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -564,11 +564,8 @@ funshion.com##[class^="fs2012-"]
 !---火狐主页
 ||firefoxchina.cn/*/trac.js
 ||firefoxchina.cn/fragments/cms/read_head_link.js
-||firefoxchina.cn/iframe/
 ||firefoxchina.cn/js/money/
 ||i.firefoxchina.cn/iframes/
-||i.firefoxchina.cn/js/dujia.js
-||i.firefoxchina.cn/next/iframe/
 i.firefoxchina.cn###ad_links1
 i.firefoxchina.cn###advBlock
 i.firefoxchina.cn###banner_show1
@@ -948,6 +945,7 @@ bbs.pcbeta.com##.forum_top + div[style]:nth-child(3)
 ||stat.pchome.net^
 kdslife.com,pchome.net##[id^="AD"]
 kdslife.com,pchome.net##[class^="ad"]
+pchome.net##[id^="Bar"]
 club.pchome.net###shop_promotion
 
 !---太平洋电脑网
@@ -3082,7 +3080,6 @@ google.com,google.com.hk###topstuff > #wmxmsg
 .com/ad2.
 .com/ad5.
 .com/ad?
-.com/ad_
 .com/adlib/
 .com/ads-
 .com/ads.
@@ -4231,6 +4228,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /dcloadads/*
 /ddlads/*
 /default-adv/*
+/default_ads/*
 /defer_ads.
 /deferads.
 /deliver.nmi?
@@ -4520,6 +4518,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /intelliad.
 /intellitext.js
 /interad.
+/internet_ad_
 /intextads.
 /introduction_ad.
 /invideoad.
@@ -5545,6 +5544,7 @@ _160x600-
 _160x600.
 _160x600_
 _300-250-
+_300_250.
 _300_250_
 _300x250-
 _300x250.
@@ -8682,6 +8682,8 @@ _a468x60.
 ##.adBoxBorder
 ##.adBoxContainer
 ##.adBoxContent
+##.adBoxFooter
+##.adBoxHeader
 ##.adBoxInBignews
 ##.adBoxSidebar
 ##.adBoxSingle
@@ -9825,6 +9827,7 @@ _a468x60.
 ##.content-header-ad
 ##.content-item-ad-top
 ~theology.edu##.contentAd
+##.contentAd510
 ##.contentAdContainer
 ##.contentAdFoot
 ##.contentAdsWrapper
@@ -10653,7 +10656,7 @@ _a468x60.
 ##.sb_ad
 ##.sb_ad_holder
 ##.sb_adsN
-##.sb_adsNv2
+~webtoolhub.com##.sb_adsNv2
 ##.sb_adsW
 ##.sb_adsWv2
 ##.scanAd
@@ -11111,6 +11114,7 @@ _a468x60.
 ##.ws-ad
 ##.wsSponsoredLinksRight
 ##.wsTopSposoredLinks
+##.wx-gptADS
 ##.x03-adunit
 ##.x04-adunit
 ##.x81_ad_detail
@@ -14114,6 +14118,7 @@ _a468x60.
 ||serial.sw.cracks.me.uk/img/logo.gif
 ||serials.ws^*/logo.gif
 ||serialzz.us/ad.js
+||seventorrents.com/Includes/GetPops.aspx
 ||sfbaytimes.com/img-cont/banners
 ||shanghaidaily.com/include/bettertraffic.asp
 ||share-links.biz/get/cmm/
@@ -14254,6 +14259,14 @@ _a468x60.
 ||theindependent.co.zw^*/banners/
 ||theispguide.com/premiumisp.html
 ||theispguide.com/topbanner.asp?
+||thelakewoodscoop.com^*/images/ban
+||thelakewoodscoop.com^*/images/estelle_
+||thelakewoodscoop.com^*/images/once-upon-a-smile
+||thelakewoodscoop.com^*/images/powerlutions_
+||thelakewoodscoop.com^*/images/toma_
+||thelakewoodscoop.com^*/images/wtl_
+||thelakewoodscoop.com^*_tower.swf
+||thelakewoodscoop.com^*banner
 ||theleader.info/banner
 ||thelocal.com/scripts/fancybox/
 ||thelyricarchive.com/new/view/
@@ -15268,6 +15281,7 @@ arabianbusiness.com###banner-container
 arabianbusiness.com##.top-banner
 arabiclookup.com##td[valign="top"][rowspan="6"][bordercolor="#003399"]
 arabnews.com##div[style="width:336px;height:280px;margin:10px auto 10px auto;"]
+arcadeprehacks.com##.ads
 armorgames.com###click_left_skin
 armorgames.com###click_right_skin
 armorgames.com###leaderboard
@@ -17931,6 +17945,7 @@ necn.com###main_175
 necn.com###right_generic_117
 necn.com###right_generic_121
 necn.com###right_generic_175
+neogamr.net##.banner-square
 neopets.com###ban_bottom
 neowin.net###special-steve
 neowin.net##.__xXadvertisement
@@ -18039,6 +18054,7 @@ nitrome.com###skyscraper_shadow
 nmap.org##img[height="90"][width="120"]
 nme.com###editorial_sky
 nme.com###leaderboard
+nme.com###mpu
 nme.com###skyscraper
 nme.com###takeover_head
 nme.com###takeover_left
@@ -18660,6 +18676,7 @@ scoop.co.nz##a[href^="/adsfac.net/link.asp?"]
 scotsman.com###banner01
 screenwallpapers.org###banner
 scriptcopy.com##.linkroll
+scriptcopy.com##div[style="width: 468px; height: 60px; text-align: center; display: block; margin: 0pt auto; background-color:#eee;"]
 scvnews.com##table[width="978"][height="76"]
 search.aol.ca##.SLL
 search.aol.ca##.WOL
@@ -19181,6 +19198,10 @@ thehindu.com###ad1
 thehollywoodgossip.com###leaderboard
 thejakartaglobe.com###topbanner
 thejournal.ie##.advert
+thelakewoodscoop.com##.ads
+thelakewoodscoop.com##.banner1
+thelakewoodscoop.com##.banner2
+thelakewoodscoop.com##div[align="center"][style="margin-bottom:10px;"]
 thelocalweb.net##.verdana9green
 themaineedge.com##td[height="80"][align="center"][style="background-color:#000000;"]
 themaineedge.com##td[width="180"][style="background-color:#335F9B; text-align: center;"]
@@ -19772,6 +19793,8 @@ website-unavailable.com###norecords
 website-unavailable.com###servfail-records
 website-unavailable.com##.response
 webstatschecker.com##.topcenterbanner
+webtoolhub.com##.adbx
+webtoolhub.com##.wth_zad_text
 webworldindex.com##table[bgcolor="#ceddf0"]
 weddingbells.ca###leaderboard
 weddingmuseum.com##a[href^="http://click.linksynergy.com/"]
@@ -20423,8 +20446,8 @@ yumymilf.com##.bottom-banner
 @@||ads.foxnews.com/js/adv2.js
 @@||ads.foxnews.com/js/omtr_code.js
 @@||ads.golfweek.com^$~third-party
-@@||ads.hulu.com/published/*.flv
-@@||ads.hulu.com/published/*.mp4
+@@||ads.hulu.com/published/*.flv$third-party
+@@||ads.hulu.com/published/*.mp4$third-party
 @@||ads.id-t.com/crossdomain.xml$domain=sensation.com
 @@||ads.id-t.com/ep/custom/sensation/flashbanner.php?zone=$domain=sensation.com
 @@||ads.id-t.com/images/$domain=sensation.com
