@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: BSWQHt9LH30jafKfTHDXlg
+!  Checksum: e0QmLhFTgUpes7qFVAW7cQ
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 16 Oct 2012 17:30:16 +0800
+!  Last Modified:  Wed, 17 Oct 2012 00:45:39 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -1288,12 +1288,15 @@ www.sohu.com###contentC > .columnC
 !--tv
 /get.gif?$domain=sohu.com
 ||sohu.com/dostat.do?
+||images.sohu.com/ytv/
+||tv.sohu.com/upload/csad/
 ||tv.sohu.com/upload/static/global/hdpv.js
 ||tv.sohu.com/upload/static/plugin/push_win/
 ||tv.sohu.com/upload/trace/
 ||aty.tv.sohu.com^
 ||his.tv.sohu.com/his/ping.do?
 ||count.vrs.sohu.com^$object_subrequest
+||data.vrs.sohu.com/player.gif?
 ||hd.sohu.com.cn^$object_subrequest
 tv.sohu.com##.adbox
 tv.sohu.com##.nwBox
@@ -2065,6 +2068,7 @@ www.jstv.com##.jadv
 ||pipi.cn/player/
 @@||sopnba.com/js/gb.js
 ||sopnba.com/js/
+||analytics.tv189.cn^
 ||luckstatic.v1.cn/st/10000/
 ||edsystem.wasu.cn^
 ||yiyi.cc/ad/
