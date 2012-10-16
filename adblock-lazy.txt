@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: Nzh8iZyRPRzEDC3js2/b2Q
+!  Checksum: LUdF6XYUVEXbdaSPERkyuw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 17 Oct 2012 00:47:46 +0800
+!  Last Modified:  Wed, 17 Oct 2012 01:18:46 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1289,6 +1289,7 @@ www.sohu.com###contentC > .columnC
 !--tv
 /get.gif?$domain=sohu.com
 ||images.sohu.com/ytv/
+||tv.sohu.com/dostat.do?method=setCardPlayCount&
 ||tv.sohu.com/upload/csad/
 ||tv.sohu.com/upload/static/global/hdpv.js
 ||tv.sohu.com/upload/static/plugin/push_win/
@@ -1366,7 +1367,6 @@ tgbus.com##[id^="TGBUS_VISTA_CONTAINER_"]
 ||global.tianyaui.com/global/wizard/js/wizard.js
 ||pinpai.tianya.cn^$subdocument
 ||stat.tianya.cn^
-||static.tianyaui.com/global/ty/stat/
 ||static.tianyaui.com^*/stat_20080313.js
 ||static.tianyaui.com/js/2011/bbsclk.js
 ||static.tianyaui.com/js/2010/ContClick.js
@@ -1639,8 +1639,6 @@ youku.com##.AB240
 ||copy.ousns.com^
 vod.oabt.org##.each_ad
 yyets.com##.couplet
-yyets.com###left_back
-yyets.com###right_back
 yyets.com###upad
 
 !---叶子猪游戏网
@@ -1756,7 +1754,6 @@ steachs.com###banner
 ||piaohua.com/js/yzz/39040.js
 ||piaohua.com/js/yzz/index.js
 ||piaohua.com/js/yzz/piaohua$script
-||cdn.portableappc.com/*/adblock.png
 portableappc.com###text-7
 portableappc.com###text-14
 ||quick8.cn/softimg/*AD.gif
