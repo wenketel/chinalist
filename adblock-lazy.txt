@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 4/LWr/TdKfGxa8fm6ztJCw
+!  Checksum: 3+DIg3VUIKQTKTaVQZYztg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 15 Oct 2012 18:02:47 +0800
+!  Last Modified:  Tue, 16 Oct 2012 17:30:20 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -238,6 +238,7 @@ autohome.com.cn##.recommend
 ||tinglog.baidu.com^
 ||top.baidu.com/js/nsclick.js
 ||wenku.baidu.com/tongji/
+||mu6.bdstatic.com/static/j/4HDIIHzf.js
 ||hao123.com/images/ua2.gif
 baike.baidu.com###mabox
 maps.baidu.com##.cityTip_top
@@ -702,7 +703,7 @@ v.ifeng.com##.tit_ad
 
 !---金山
 @@||hd.duba.net/vip.ijinshan.com/repository/ad-images/$image,domain=vip.ijinshan.com
-||tongji2.vip.duba.net^
+||tongji2.vip.duba.net/__infoc.gif?
 
 !---iPc.me
 ||ipc.me/plus/static_files/nuffnang.html
@@ -1636,6 +1637,8 @@ youku.com##.AB240
 ||copy.ousns.com^
 vod.oabt.org##.each_ad
 yyets.com##.couplet
+yyets.com###left_back
+yyets.com###right_back
 yyets.com###upad
 
 !---叶子猪游戏网
@@ -3620,6 +3623,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /ads/newad.
 /ads/panel.
 /ads/pencil/*
+/ads/player-
 /ads/proxy-
 /ads/skins/*
 /ads/sponsors_
@@ -6220,6 +6224,7 @@ _a468x60.
 ###ad_bar_rect
 ###ad_bellow_post
 ###ad_bigsize_wrapper
+###ad_billboard
 ###ad_billboard2
 ###ad_billboard_ifm
 ###ad_block_1
@@ -7727,6 +7732,7 @@ _a468x60.
 ###post_ad
 ###pre_advertising_wrapper
 ###premium_ad
+###prerollAd
 ###priceGrabberAd
 ###prime-ad-space
 ###print-header-ad
@@ -9156,6 +9162,7 @@ _a468x60.
 ##.ads_300x250
 ##.ads_320
 ##.ads_337x280
+##.ads_3col
 ##.ads_728x90
 ##.ads_amazon
 ##.ads_amazon_outer
@@ -11881,6 +11888,7 @@ _a468x60.
 ||fusionads.net^$third-party
 ||futureus.com^$third-party
 ||fwmrm.net^$~object-subrequest,third-party
+||fxdepo.com^$third-party
 ||g.doubleclick.net^$third-party
 ||gagenez.com^$third-party
 ||galleyn.com^$third-party
@@ -12309,6 +12317,7 @@ _a468x60.
 ||revsci.net^$third-party
 ||rewardsaffiliates.com^$third-party
 ||ricead.com^$third-party
+||richmedia247.com^$third-party
 ||ringtonematcher.com^$third-party
 ||ringtonepartner.com^$third-party
 ||rmxads.com^$third-party
@@ -13683,6 +13692,8 @@ _a468x60.
 ||majorgeeks.com/images/mb-hb-2.jpg
 ||majorgeeks.com/images/mg120.jpg
 ||majorgeeks.com^*/banners/
+||malaysiabay.org^*/creative.js
+||malaysiabay.org^*creatives.php?
 ||mangafox.com/media/game321/
 ||mangarush.com/xtend.php
 ||mangaupdates.com/affiliates/
@@ -14174,6 +14185,8 @@ _a468x60.
 ||solomontimes.com/adv/
 ||solvater.com/images/hd.jpg
 ||songs.pk/textlinks/
+||songspk.pk/ie/ietext.html
+||songspk.pk/textlinks/
 ||sorcerers.net/images/aff/
 ||soundspheremag.com/images/banners/
 ||soundtracklyrics.net^*_az.js
@@ -14460,6 +14473,8 @@ _a468x60.
 ||websitehome.co.uk/seoheap/cheap-web-hosting.gif
 ||webstatschecker.com/links/
 ||wegoted.com/includes/biogreen.swf
+||wegoted.com/uploads/memsponsor/
+||wegoted.com/uploads/sponsors/
 ||weknowmemes.com/sidesky.
 ||werlv.com^*banner
 ||weselectmodels.com^*/new_banner.jpg
@@ -16786,6 +16801,9 @@ gq.co.za##.advertising
 grab.by##.ad
 grapevine.is###Side
 grapevine.is##.ad
+greatandhra.com##.great_andhra_main_add_rotator
+greatandhra.com##.sortable-item_top_add
+greatandhra.com##div[class^="add"]
 greenoptimistic.com##.visiblebox[style^="position: fixed; z-index: 999999;"]
 greenprophet.com###text-16
 grindtv.com###LREC
@@ -16873,6 +16891,7 @@ helpwithwindows.com###desc
 hemmings.com###top_dc_tbl
 heraldonline.com##.ad
 heraldonline.com##.leaderboard
+heraldscotland.com###header
 heraldscotland.com###leaderboard
 heritage.com###header_banner
 heritage.com###mthotdeal
@@ -17330,6 +17349,7 @@ kitsapsun.com##.bigbox_wrapper
 kitsapsun.com##.leaderboard
 kizna-blog.com##a[href$=".clickbank.net"]
 kjrh.com##.ad
+knowd.com##.marketing
 knowfree.net###mta_bar
 knowfree.net##.web_link
 knowfree.net##a[href^="http://kvors.com/click/"]
@@ -17393,6 +17413,7 @@ laptopmag.com##.marketPlace
 last.fm##.nr_partners
 lastminute.com###sponsoredFeature
 latimes.com###targetWeeklyAd
+latimes.com##.ARK_OverlayFixed
 latina.com###block-block-37
 latina.com###block-block-39
 latina.com###block-block-40
@@ -17813,6 +17834,7 @@ moviesmobile.net##a[href*=".mojiva.com"]
 moviesplanet.com##.Banner468X60
 moviesplanet.com##.gb
 moviezer.com###rootDiv[style^="width:300px;"]
+movpod.in###downloadbar
 movshare.net##.ad
 mp3-shared.net##a[href^="http://click.yottacash.com?PID="]
 mp3lyrics.org###bota
@@ -17915,6 +17937,7 @@ nationalmirroronline.net##div[style="margin-left: 10px; margin-bottom: 10px; wid
 nationalpost.com###npLeaderboard
 nationalpost.com##.ad
 nationmultimedia.com##.banner-top
+nationtalk.ca##.partner-slides
 nature.com##.ad
 naukri.com##.collMTp
 nbc.com###nbc-300
@@ -20093,6 +20116,7 @@ mmusicz.com##div[id^="cpa_div_"]
 mmusicz.com##div[id^="overlay_div_"]
 multiup.org##div[id] + style[id] + div[id]
 okcupid.com###guilty_ads_box + script + script + div[style]
+oneclickmoviez.com##table[width="100%"][border="1"][style="border-collapse: collapse"]
 pixlover.net##body > :nth-child(21) + style + div[id]:last-child
 priva.us###blcokMsg
 priva.us##.back
@@ -20111,6 +20135,7 @@ rapid8.com##.main div[id^="block"]
 4tube.com##.siteBannerHoriz
 4tube.com##.videoSponsor
 abc-celebs.com##.spons
+ah-me.com##.allIM
 alotporn.com###banner_video
 alotporn.com###left > .title + center
 alphaporno.com##.advertising
@@ -21124,6 +21149,7 @@ yumymilf.com##.bottom-banner
 @@||4sysops.com^*/adframe.js
 @@||ad.leadbolt.net/show_cu.js
 @@||adm.fwmrm.net/p/*/admanager.js$domain=revision3.com
+@@||ads.avazu.net/st?ad_type=iframe&ad_size=728x90&$subdocument,domain=xuuby.com
 @@||adscendmedia.com/gwjs.php?$script,domain=vipfile.us
 @@||afterburnerleech.com/js/show_ads.js
 @@||amazonaws.com/atzuma/ajs.php?adserver=$script
@@ -21183,6 +21209,8 @@ yumymilf.com##.bottom-banner
 @@||video2mp3.net/adframe.js
 @@||vidup.me^*/adlayer.js
 @@||yellowbridge.com/ad/show_ads.js
+@@||zedo.com/bar/v17-004/d3/jsc/fm.js?$domain=oneclickmoviez.com
+@@||zedo.com/jsc/d3/fo.js$domain=oneclickmoviez.com
 @@||zoomin.tv/adhandler/amalia.adm?$object-subrequest
 @@||zshare.net/ads.js?*&ad_url=/adbanner
 ! Non-English
@@ -21686,6 +21714,7 @@ yumymilf.com##.bottom-banner
 /vanillastats/js/track.
 /view_stats.js.php
 /viperbar/stats.php?
+/visitortracker.pl?
 /visualsciences.js
 /vs_track.gif?
 /vstat.php
@@ -21856,6 +21885,7 @@ _comscore.js
 ||blogscounter.com^$third-party
 ||blogsontop.com^$third-party
 ||blogtoplist.com^$third-party
+||bluecava.com^$third-party
 ||bluekai.com^$third-party
 ||blvdstatus.com^$third-party
 ||bm23.com^$third-party
