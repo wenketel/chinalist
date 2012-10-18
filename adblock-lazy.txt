@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: PTAhvObk8BeG7MyKWSv3cA
+!  Checksum: NV7d1dCYIv2jFApcBsGrsA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 18 Oct 2012 15:22:41 +0800
+!  Last Modified:  Thu, 18 Oct 2012 15:36:03 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -542,6 +542,13 @@ eastmoney.com##.banner
 ||count.enet.com.cn^
 ||frame.enet.com.cn/a.php
 enet.com.cn##[class^="ad"]
+
+!---ETtoday
+||ettoday.net/ticker.htm
+||msg.ettoday.net^
+||ettoday.travelrich.com^
+ettoday.net##a[href^="http://ad.ettoday.net/adclick.php?"]
+ettoday.net###ticker_3
 
 !---蜂鸟
 ||bbs.fengniao.com/forum/clientscript/vbb_scroll.js
@@ -1844,10 +1851,6 @@ ys168.com###xtxx
 ||cnhubei.com^*/g2
 ||daqi.com/clicklog.js
 ||log.daqi.com^
-||ettoday.net/ticker.htm
-||msg.ettoday.net^
-ettoday.net##a[href^="http://ad.ettoday.net/adclick.php?"]
-ettoday.net###ticker_3
 ||gamme.com.tw/ga/
 gamme.com.tw###bd
 ||go.hangzhou.com.cn^
@@ -2631,6 +2634,7 @@ zxtjd.com###it_an
 ||keyyou.net^$third-party
 ||kfwan.com^$third-party
 ||koowo.com^$third-party
+||kuaiwan.com^$third-party
 ||kucent.com^$third-party
 ||kuqi.com^$third-party
 ||cluclick.leshu.com^$third-party
