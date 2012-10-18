@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: 40TO3A8VFgICxKj7Ipa4ig
+!  Checksum: JLez5YWRHTaTAa4jN4kVHQ
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 18 Oct 2012 15:37:43 +0800
+!  Last Modified:  Thu, 18 Oct 2012 16:02:23 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -546,6 +546,7 @@ enet.com.cn##[class^="ad"]
 ||msg.ettoday.net^
 ||ettoday.travelrich.com^
 ettoday.net##a[href^="http://ad.ettoday.net/adclick.php?"]
+ettoday.net###customizeline
 ettoday.net###ticker_3
 
 !---蜂鸟
@@ -2877,7 +2878,7 @@ zxtjd.com###it_an
 |http://track.
 /ktrace/ktrace$script
 /pingd?
-/stat.js|
+/stat.js$domain=~dig.chouti.com|~qq.com
 /stats.js
 /tongji.js
 /tracking.$image,object_subrequest
