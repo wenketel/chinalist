@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: JLez5YWRHTaTAa4jN4kVHQ
+!  Checksum: f1aJtOiy+Kk+V/XsSiHNDg
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 18 Oct 2012 16:02:23 +0800
+!  Last Modified:  Fri, 19 Oct 2012 08:47:19 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -546,7 +546,7 @@ enet.com.cn##[class^="ad"]
 ||msg.ettoday.net^
 ||ettoday.travelrich.com^
 ettoday.net##a[href^="http://ad.ettoday.net/adclick.php?"]
-ettoday.net###customizeline
+ettoday.net##.customizeline
 ettoday.net###ticker_3
 
 !---蜂鸟
@@ -1267,9 +1267,8 @@ sina.com.cn##.adNone
 ||l.you.video.sina.com.cn^$object_subrequest
 video.sina.com.cn###bgad_div
 !-weibo
-weibo.com##[id^="ads_"]
+||biz.weibo.com^
 weibo.com##.footer_adv
-weibo.com##.tips_player
 !--sina.com.hk
 ||as.sinahk.net^
 sina.com.hk##.sidebarItem:nth-child(10)
@@ -1692,11 +1691,13 @@ wenwen.soso.com##.ad1
 bbs.zol.com.cn#@#.adside
 zol.com.cn##.ad
 zol.com.cn##[id^="ad_"]
-zol.com.cn##[id^="Bar"]
 zol.com.cn##.hot_tj
 zol.com.cn###rightAdDiv1
 vga.zol.com.cn##.banner250
 www.zol.com.cn##.adwindow
+www.zol.com.cn##[id^="Bar"]
+www.zol.com.cn##div[style="width:960px;height:90px;text-align:center;float:none"]
+www.zol.com.cn###zolFloat
 !--中关村在线武汉站
 ||pc3w.com/adpic/
 ||pc3w.com/js/
