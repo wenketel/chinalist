@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: AQF385b/f2AM+ssWRZ1oCg
+!  Checksum: bvm0DhLCvxFOWD4gp73ckw
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 19 Oct 2012 15:15:12 +0800
+!  Last Modified:  Sat, 20 Oct 2012 21:16:13 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -224,6 +224,7 @@ ali213.net##.newright
 !---汽车之家
 @@||33.autohome.com.cn/njs/1.js
 ||33.autohome.com.cn^$script,object
+||stats.autohome.com.cn^
 autohome.com.cn##.advarticle
 autohome.com.cn##.banner750_90
 autohome.com.cn##.recommend
@@ -739,9 +740,9 @@ ithome.com##.side_products
 win7china.com,win8china.com##.site_ad
 
 !---煎蛋
-||jdstatic.tankr.net/side/
-jandan.net##.eggs
-jandan.net##.xy
+||jdstatic.tankr.net/ajax/125.js
+||jdstatic.tankr.net/ajax/banner.js
+||jdstatic.tankr.net/s/$image
 
 !---江门网
 ||jmnews.com.cn/js/ff.js
@@ -1855,6 +1856,7 @@ ys168.com###xtxx
 ||log.daqi.com^
 ||gamme.com.tw/ga/
 gamme.com.tw###bd
+gamme.com.tw##[class^="sidead_"]
 ||go.hangzhou.com.cn^
 ||hebei.com.cn/eap/
 ||hebei.com.cn/swf/
@@ -2881,7 +2883,7 @@ zxtjd.com###it_an
 |http://track.
 /ktrace/ktrace$script
 /pingd?
-/stat.js$domain=~dig.chouti.com|~qq.com
+/stat.js|$domain=~qq.com
 /stats.js
 /tongji.js
 /tracking.$image,object_subrequest

@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: CGcLwrtLTKS062y4KSYPIg
+!  Checksum: 63dBWUNJqRcVhVjyQhq4Kw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 19 Oct 2012 15:15:16 +0800
+!  Last Modified:  Sat, 20 Oct 2012 21:16:18 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -225,6 +225,7 @@ ali213.net##.newright
 !---汽车之家
 @@||33.autohome.com.cn/njs/1.js
 ||33.autohome.com.cn^$script,object
+||stats.autohome.com.cn^
 autohome.com.cn##.advarticle
 autohome.com.cn##.banner750_90
 autohome.com.cn##.recommend
@@ -740,9 +741,9 @@ ithome.com##.side_products
 win7china.com,win8china.com##.site_ad
 
 !---煎蛋
-||jdstatic.tankr.net/side/
-jandan.net##.eggs
-jandan.net##.xy
+||jdstatic.tankr.net/ajax/125.js
+||jdstatic.tankr.net/ajax/banner.js
+||jdstatic.tankr.net/s/$image
 
 !---江门网
 ||jmnews.com.cn/js/ff.js
@@ -1855,6 +1856,7 @@ ys168.com###xtxx
 ||log.daqi.com^
 ||gamme.com.tw/ga/
 gamme.com.tw###bd
+gamme.com.tw##[class^="sidead_"]
 ||go.hangzhou.com.cn^
 ||hebei.com.cn/eap/
 ||hebei.com.cn/swf/
@@ -2881,7 +2883,7 @@ zxtjd.com###it_an
 |http://track.
 /ktrace/ktrace$script
 /pingd?
-/stat.js$domain=~dig.chouti.com|~qq.com
+/stat.js|$domain=~qq.com
 /stats.js
 /tongji.js
 /tracking.$image,object_subrequest
@@ -3019,6 +3021,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 -ad-001-
 -ad-340x400-
 -ad-exo-
+-ad-iframe/
 -ad-large.
 -ad-limits.
 -ad-loading.
@@ -3159,7 +3162,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /_affiliatebanners/*
 /_img/ad_
 /a1/?sub=*&t=$script,third-party
-/a1/cb.php?sub=*&t=$script,third-party
+/a1/cb.php?sub=$script,third-party
 /aamsz=
 /ABAdsv1.
 /abm.asp?z=
@@ -3575,6 +3578,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /adplugin_
 /adpoint.
 /adpool/*
+/adpop.
 /adpopup.
 /adproducts/*
 /adprovider.
@@ -4300,9 +4304,11 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /drawad.php?
 /drivingrevenue/*
 /dsg/bnn/*
+/dspads.
 /dtiadvert125x125.
 /dyn_banner.
 /dyn_banners_
+/dynamic-ad-
 /dynamic_ads/*
 /dynamicad?
 /dynamiccsad?
@@ -5296,6 +5302,7 @@ _ads.php?
 _ads1.
 _ads_iframe_
 _ads_index_
+_ads_only&
 _ads_reporting.
 _ads_single_
 _adsense.
@@ -5419,6 +5426,7 @@ _vodaaffi_
 _webad.
 takeover_background.
 takeover_banner_
+|http://ax-d.*/jstag^
 |http://ox-d.*/jstag^
 ||cacheserve.*/promodisplay/
 ||cacheserve.*/promodisplay?
@@ -5887,7 +5895,7 @@ _a468x60.
 ###ad-front-footer
 ###ad-front-sponsoredlinks
 ~sat1.de###ad-fullbanner-outer
-###ad-fullbanner2
+~gamestar.de###ad-fullbanner2
 ###ad-globalleaderboard
 ###ad-halfpage
 ~ifokus.se,~miradiorumba.com###ad-header
@@ -11237,6 +11245,7 @@ _a468x60.
 ###content > #center > .dose > .dosesingle
 ###content > #right > .dose > .dosesingle
 ! *** easylist:easylist/easylist_adservers.txt ***
+||007-gateway.com^$third-party
 ||101m3.com^$third-party
 ||103092804.com^$third-party
 ||10pipsaffiliates.com^$third-party
@@ -11310,6 +11319,7 @@ _a468x60.
 ||addaim.com^$third-party
 ||addoer.com^$third-party
 ||adecn.com^$third-party
+||adedy.com^$third-party
 ||adengage.com^$third-party
 ||adexcite.com^$third-party
 ||adf01.net^$third-party
@@ -12787,6 +12797,7 @@ _a468x60.
 ||980wcap.com/sponsorlogos/
 ||9news.com/promo/
 ||a.giantrealm.com^
+||a.kat.ph^
 ||a.thefreedictionary.com^
 ||a7.org/info/
 ||aaugh.com/images/dreamhostad.gif
@@ -14697,6 +14708,7 @@ _a468x60.
 ||3xupdate.com^*/ryushare.gif
 ||3xupdate.com^*/ryushare2.gif
 ||3xupdate.com^*/ryusharepremium.gif
+||5ilthy.com/porn.php
 ||a.killergram-girls.com^
 ||abc-celebs.com/spons/
 ||absoluporn.com/code/pub/
@@ -17618,6 +17630,7 @@ lyricwiki.org###p-navigation + .portlet
 lyrster.com##.el_results
 m-w.com###google_creative_3
 m-w.com###skyscraper_creative_2
+m.facebook.com##.pyml
 mac-forums.com##td[width="320"][valign="top"][align="center"][style="padding: 10px 12px 12px 12px;"]
 macdailynews.com###right
 macdrifter.com###marked-widget
@@ -19483,6 +19496,9 @@ torontolife.com###text-links
 torontolife.com##.ad.big-box
 torontosun.com###buttonRow
 torontosun.com###skyscraper
+torrent-finder.eu###slashpage
+torrent-finder.eu##.casino
+torrent-finder.eu##.post > a[rel="nofollow"]
 torrent-finder.info##.cont_lb
 torrent-invites.com##a[href^="http://anonym.to?http://www.seedmonster.net/clientarea/link.php?id="]
 torrent.cd##.banner
@@ -19597,6 +19613,7 @@ twitter.com##.promoted-account
 twitter.com##.promoted-trend
 twitter.com##.promoted-tweet
 twitter.com##.stream-item[data-item-type="tweet"][data-item-id*=":"]
+twitter.com##.stream-tweet[impression_id][label="promoted"]
 twowheelsblog.com##div[style="height:280px;width:350px"]
 u-file.net##.spottt_tb
 u.bb###bottom
@@ -20186,6 +20203,7 @@ oneclickmoviez.com##table[width="100%"][border="1"][style="border-collapse: coll
 pixlover.net##body > :nth-child(21) + style + div[id]:last-child
 priva.us###blcokMsg
 priva.us##.back
+rapid8.com##.content + script + * + div[id]
 rapid8.com##.main > .content > div > div[id]
 rapid8.com##.main > .content div[class]
 rapid8.com##.main div[id^="block"]
@@ -20200,6 +20218,9 @@ rapid8.com##.main div[id^="block"]
 4tube.com##.btnDownload
 4tube.com##.siteBannerHoriz
 4tube.com##.videoSponsor
+5ilthy.com###ltas_overlay_unvalid
+5ilthy.com##.bannerside
+5ilthy.com##a[href^="http://join.collegefuckparties.com/track/"]
 abc-celebs.com##.spons
 ah-me.com##.allIM
 alotporn.com###banner_video
@@ -20814,7 +20835,7 @@ yumymilf.com##.bottom-banner
 @@||google.*/search?sclient=*&q=$xmlhttprequest
 @@||google.*/webpagethumbnail?*&query=$script
 @@||google.com/_/apps-static/*/socialads/$script,stylesheet
-@@||google.com/ads/search/module/ads/*/search.js$domain=windstream.net
+@@||google.com/ads/search/module/ads/*/search.js$domain=forbes.com|windstream.net
 @@||google.com/adsense/search/ads.js$domain=forbes.com|homedepot.com|query.nytimes.com|trustedreviews.com|windstream.net|www.google.com
 @@||google.com/search?q=$xmlhttprequest
 @@||google.com/uds/$script,domain=optimum.net
@@ -21243,6 +21264,7 @@ yumymilf.com##.bottom-banner
 @@||i-stream.pl^*/advertisement.js
 @@||ilix.in^$script,domain=ilix.in|priva.us
 @@||images.tvdez.com/ads/ads_$subdocument
+@@||liquidcompass.net/js/advertisement.js
 @@||macobserver.com/js/adlink.js
 @@||majorleaguegaming.com/live/assets/advertisement-*.js
 @@||megavideodownloader.com/adframe.js
@@ -21257,6 +21279,7 @@ yumymilf.com##.bottom-banner
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=ftlauderdalewebcam.com|ilix.in|nyharborwebcam.com|portcanaveralwebcam.com|portevergladeswebcam.com|priva.us|rotoinfo.com|upfordown.com
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=articlewagon.com|ftlauderdalewebcam.com|gifmagic.com|ilix.in|myspace.com|nyharborwebcam.com|oneclickmoviez.com|portcanaveralwebcam.com|portevergladeswebcam.com|priva.us|rotoinfo.com|upfordown.com
 @@||premiumleecher.com/inc/adsense.js
+@@||priva.us^$script,domain=ilix.in|priva.us
 @@||radioio.com^*/adframe.js
 @@||rapid8.com^$script
 @@||ratebeer.com/javascript/advertisement.js
@@ -22032,6 +22055,7 @@ _comscore.js
 ||counters4u.com^$third-party
 ||counterservis.com^$third-party
 ||countertracker.com^$third-party
+||counterviews.net^$third-party
 ||countomat.com^$third-party
 ||cpmadvisors.com^$third-party
 ||cqcounter.com^$third-party
