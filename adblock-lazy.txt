@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: rX7w2fFs2rG4Lspgz67yZA
+!  Checksum: fqIvBZnGAh+ownbHJmSeow
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 20 Oct 2012 23:56:18 +0800
+!  Last Modified:  Sun, 21 Oct 2012 19:34:51 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1878,6 +1878,7 @@ newtalk.tw##.ind_news_station
 ||cn.nytimes.com/o.php?
 ||ashow.pcpop.com^
 www.pcpop.com##.Content > .l1:first-child
+||s1979.com/html/ad_js/
 ||sinovision.net/ui/js/adm.js
 ||singtao.com/*_ad*.js
 ||solidot.org/admanage/
@@ -7763,7 +7764,7 @@ _a468x60.
 ###post_ad
 ###pre_advertising_wrapper
 ###premium_ad
-###prerollAd
+~washingtonpost.com###prerollAd
 ###priceGrabberAd
 ###prime-ad-space
 ###print-header-ad
@@ -8001,6 +8002,7 @@ _a468x60.
 ###sponsorAd1
 ###sponsorAd2
 ###sponsorAdDiv
+###sponsorFooter
 ###sponsorLinks
 ###sponsorTextLink
 ###sponsor_banderole
@@ -10335,6 +10337,7 @@ _a468x60.
 ##.linead
 ##.link_adslider
 ##.link_advertise
+##.links_google_adx
 ##.live-search-list-ad-container
 ##.livingsocial-ad
 ##.ljad
@@ -13878,6 +13881,7 @@ _a468x60.
 ||nesn.com/img/nesn-nation/header-dunkin.jpg
 ||nesn.com/img/sponsors/
 ||netindian.in/frontsquare*.php
+||netsplit.de/links/rootado.gif
 ||network.sofeminine.co.uk^
 ||newport-county.co.uk/images/general_images/blue_square_update_01.gif
 ||newport-county.co.uk/images/home_page_images/234x60.gif
@@ -14029,6 +14033,7 @@ _a468x60.
 ||powerbot.org^*/ads/
 ||pqarchiver.com^*/utilstextlinksxml.js
 ||pr0gramm.com/wm/
+||prehackshub.com/js/popup-wide.js
 ||prisonplanet.com^*advert.
 ||prisonplanet.com^*banner
 ||prisonplanet.com^*sky.
@@ -17483,6 +17488,8 @@ latimes.com##.ARK_OverlayFixed
 latina.com###block-block-37
 latina.com###block-block-39
 latina.com###block-block-40
+lavasoft.com##.search > .spdiv:first-child
+lavasoft.com##.search > .spdiv:last-child
 law.com###leaderboard
 laweekly.com##.adContainer
 layoutstreet.com##.ad
@@ -20740,6 +20747,7 @@ yumymilf.com##.bottom-banner
 @@||dart.clearchannel.com/crossdomain.xml$object-subrequest,domain=247comedy.com|big1059.com|wfre.com
 @@||dart.clearchannel.com/html.ng/$object-subrequest,domain=247comedy.com|big1059.com|wfre.com
 @@||dc.tremormedia.com/crossdomain.xml$domain=tvcatchup.com
+@@||delish.com/cm/shared/scripts/refreshads-*.js
 @@||delivery.switchadhub.com/adserver/tag.php?_t=1637&$script,domain=rotoinfo.com
 @@||delivery.switchadhub.com/adserver/www/delivery/ajs.php?zoneid=5199&$script,domain=rotoinfo.com
 @@||demo.inskinmedia.com^$object-subrequest,domain=tvcatchup.com
@@ -21090,11 +21098,12 @@ yumymilf.com##.bottom-banner
 @@||spendino.de/admanager/
 @@||spotrails.com/crossdomain.xml$object-subrequest
 @@||spotrails.com^*/flowplayeradplayerplugin.swf
-@@||spotxchange.com/ad_player/as3.swf$domain=indiablooms.com|onescreen.net
+@@||spotxchange.com/ad_player/as3.swf$domain=games.yahoo.com|indiablooms.com|onescreen.net
 @@||spotxchange.com/ad_player/easi.swf$domain=tetrisfriends.com
+@@||spotxchange.com/crossdomain.xml$object-subrequest,domain=games.yahoo.com
 @@||spotxchange.com/flash/ad.swf?$domain=directon.tv|wii-cast.tv
 @@||spotxchange.com/flash/adplayer.swf$domain=directon.tv|wii-cast.tv
-@@||spotxchange.com/media/videos/flash/ad_player/$domain=directon.tv|indiablooms.com|onescreen.net|tetrisfriends.com|wii-cast.tv
+@@||spotxchange.com/media/videos/flash/ad_player/$domain=directon.tv|games.yahoo.com|indiablooms.com|onescreen.net|tetrisfriends.com|wii-cast.tv
 @@||spotxchange.com/media/videos/flash/adplayer_$domain=directon.tv
 @@||springbokradio.com/images/ads-
 @@||springbokradio.com/sitebuilder/images/ads-
@@ -21233,6 +21242,7 @@ yumymilf.com##.bottom-banner
 @@||4sysops.com^*/adframe.js
 @@||ad.leadbolt.net/show_cu.js
 @@||adm.fwmrm.net/p/*/admanager.js$domain=revision3.com
+@@||ads.avazu.net/st?ad_type=iframe&ad_size=300x250&$subdocument,domain=xuuby.com
 @@||ads.avazu.net/st?ad_type=iframe&ad_size=728x90&$subdocument,domain=xuuby.com
 @@||adscendmedia.com/gwjs.php?$script,domain=vipfile.us
 @@||afterburnerleech.com/js/show_ads.js
@@ -21290,6 +21300,7 @@ yumymilf.com##.bottom-banner
 @@||teknogods.com/advert.js
 @@||thecrims.cachefly.net/js/ads.js$domain=thecrims.com
 @@||tpmrpg.net/adframe.js
+@@||tvdez.com/ads/ads_$subdocument
 @@||usaupload.net/ads.js
 @@||vgunetwork.com^*/advertisement.js
 @@||video2mp3.net/adframe.js
