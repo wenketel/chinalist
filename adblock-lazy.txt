@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: fqIvBZnGAh+ownbHJmSeow
+!  Checksum: 6iUS58kyBo2iDSgPTKYLVQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 21 Oct 2012 19:34:51 +0800
+!  Last Modified:  Mon, 22 Oct 2012 12:26:06 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -233,6 +233,7 @@ autohome.com.cn##.recommend
 !---Baidu
 ||baidu.com/cpro.php
 ||baidu.com/ecom$image,script
+||bs.baidu.com/adcoup-mat/
 ||music.baidu.com/static/html/cbjs.html
 ||news.baidu.com/nocache/mp/b.jpg
 ||pan.baidu.com/netdisk/analytics?
@@ -3576,6 +3577,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /adplugin.
 /adplugin_
 /adpoint.
+/adpolicies/*
 /adpool/*
 /adpop.
 /adpopup.
@@ -9491,6 +9493,7 @@ _a468x60.
 ##.advertisement-top
 ##.advertisement300x250
 ##.advertisement468
+##.advertisementBlock
 ##.advertisementBox
 ##.advertisementColumnGroup
 ##.advertisementContainer
@@ -11258,7 +11261,7 @@ _a468x60.
 ||247realmedia.com^$third-party
 ||254a.com^$third-party
 ||2mdn.net/dot.gif$object-subrequest,third-party
-||2mdn.net^$object-subrequest,third-party,domain=101cargames.com|3news.co.nz|abc.go.com|abcnews.go.com|bbc.co.uk|bbc.com|bet.com|bloomberg.com|box10.com|brisbanetimes.com.au|businessweek.com|calgaryherald.com|cbslocal.com|drive.com.au|edmontonjournal.com|eonline.com|euronews.com|foodnetwork.ca|four.co.nz|globaltoronto.com|globaltv.com|globaltvbc.com|heraldsun.com.au|independent.ie|kdvr.com|kfiam640.com|komonews.com|kwgn.com|leaderpost.com|livestream.com|metacafe.com|mojointhemorning.com|montrealgazette.com|my9tv.com|nationalpost.com|nba.tv|ndtv.com|newsmax.com|newyorkjets.com|nfl.com|ottawacitizen.com|patriots.com|radio.com|rapbasement.com|reuters.com|rollingstone.com|rottentomatoes.com|rte.ie|sherdog.com|skynews.com.au|smh.com.au|streetfire.net|telegraph.co.uk|theage.com.au|theaustralian.com.au|thecomedynetwork.ca|theprovince.com|thestarphoenix.com|timescolonist.com|tsn.ca|vancouversun.com|vice.com|videojug.com|weather.com|windsorstar.com|youtube.com
+||2mdn.net^$object-subrequest,third-party,domain=101cargames.com|3news.co.nz|abc.go.com|abcnews.go.com|bbc.co.uk|bbc.com|bet.com|bloomberg.com|box10.com|brisbanetimes.com.au|businessweek.com|calgaryherald.com|cbslocal.com|drive.com.au|edmontonjournal.com|eonline.com|euronews.com|foodnetwork.ca|four.co.nz|globaltoronto.com|globaltv.com|globaltvbc.com|globaltvcalgary.com|heraldsun.com.au|independent.ie|kdvr.com|kfiam640.com|komonews.com|kwgn.com|leaderpost.com|livestream.com|metacafe.com|mojointhemorning.com|montrealgazette.com|my9tv.com|nationalpost.com|nba.tv|ndtv.com|newsmax.com|newyorkjets.com|nfl.com|ottawacitizen.com|patriots.com|radio.com|rapbasement.com|reuters.com|rollingstone.com|rottentomatoes.com|rte.ie|sherdog.com|skynews.com.au|smh.com.au|streetfire.net|telegraph.co.uk|theage.com.au|theaustralian.com.au|thecomedynetwork.ca|theprovince.com|thestarphoenix.com|timescolonist.com|tsn.ca|vancouversun.com|vice.com|videojug.com|weather.com|windsorstar.com|youtube.com
 ||2mdn.net^$~object-subrequest,third-party
 ||360ads.com^$third-party
 ||360yield.com^$third-party
@@ -11832,6 +11835,7 @@ _a468x60.
 ||doubleclick.net/pfadx/*.reuters/$third-party
 ||doubleclick.net/pfadx/*.sevenload.com_$third-party
 ||doubleclick.net/pfadx/*adcat=$third-party
+||doubleclick.net/pfadx/aetn.aetv.shows/$third-party
 ||doubleclick.net/pfadx/bet.com/$third-party
 ||doubleclick.net/pfadx/cblvsn.nwsd.videogallery/$third-party
 ||doubleclick.net/pfadx/ltv.wtvr.video/$third-party
@@ -12731,6 +12735,7 @@ _a468x60.
 ||fidel.to^$image,~image,popup,third-party
 ||friendlyduck.com^$image,~image,popup,third-party
 ||jdtracker.com^$image,~image,popup,third-party
+||kanoodle.com^$image,~image,popup,third-party
 ||livepromotools.com^$image,~image,popup,third-party
 ||media-servers.net^$image,~image,popup,third-party
 ||my-layer.net^$image,~image,popup,third-party
@@ -12784,6 +12789,7 @@ _a468x60.
 ||4fuckr.com/static/*-banner.
 ||4shared.com/images/label1.gif
 ||4shared.net/test.js
+||4sysops.com/global/get.php?unit=main$xmlhttprequest
 ||5min.com^*/banners/
 ||6waves.com/aff.php?
 ||74.86.208.249^$domain=fijivillage.com
@@ -17234,6 +17240,7 @@ ipwalls.com##div[style="height:135px;width:948;border: 1px solid #29282b;backgro
 irfree.com##.newsContent > div[style="padding:10px 0"] > div[style]:first-child
 irishcentral.com###banner
 irishtimes.com###banner-area
+isearch.avg.com###adBlock
 islamicfinder.org##.IslamicData[bgcolor="#FFFFFF"][bordercolor="#ECF3F9"]
 isohunt.com##a[href*="/adclick.php?"]
 israelnationalnews.com##.divTopInBox
@@ -17635,6 +17642,7 @@ lyricwiki.org###p-navigation + .portlet
 lyrster.com##.el_results
 m-w.com###google_creative_3
 m-w.com###skyscraper_creative_2
+m.facebook.com##.aymlCoverFlow
 m.facebook.com##.pyml
 mac-forums.com##td[width="320"][valign="top"][align="center"][style="padding: 10px 12px 12px 12px;"]
 macdailynews.com###right
@@ -18295,6 +18303,7 @@ oneindia.in##.deal_lists
 oneindia.in##.fotfont
 oneindia.in##td[width="300"][height="250"]
 onjava.com###leaderboard
+online--soccer.eu##div[id^="floatLayer"]
 online-convert.com###top_banner_col3
 online-literature.com##.leader-wrap-bottom
 online-literature.com##.leader-wrap-middle
@@ -18760,6 +18769,7 @@ santacruzsentinel.com##.curvyBox600
 sapostalcodes.za.net###googlehoriz
 sapropertynews.com###ab_adblock
 sat-television.com##.sponsor_wrapper
+sawlive.tv###sawdiv
 sbs.com.au##.ad
 schlockmercenary.com##td[colspan="3"]
 sci-tech-today.com##td[width="240"][style="border-left: #c0c0c0 solid 1px; padding-top:3px; padding-bottom:3px;"]
@@ -20852,6 +20862,7 @@ yumymilf.com##.bottom-banner
 @@||googleads.g.doubleclick.net/crossdomain.xml$object-subrequest,domain=armorgames.com
 @@||googleads.g.doubleclick.net/pagead/ads?*&t_pyv=allow&$object-subrequest,domain=armorgames.com
 @@||googletagservices.com/tag/js/gpt.js$domain=dnainfo.com|pitchfork.com|thetowntalk.com|usatoday.com
+@@||gorillanation.com/storage/lightbox_code/static/companion_ads.js$domain=sohh.com
 @@||gotomeeting.com/images/ad/$image,stylesheet
 @@||guim.co.uk^*/styles/wide/google-ads.css
 @@||guysen.com/script/ads.js
@@ -21316,7 +21327,7 @@ yumymilf.com##.bottom-banner
 @@||adocean.pl/crossdomain.xml$object-subrequest
 @@||adocean.pl^*/ad.js?id=$object-subrequest,domain=open.fm
 @@||adocean.pl^*/aocodetype=$object-subrequest,domain=tvn.pl|tvnmeteo.pl|tvnplayer.pl|tvp.info
-@@||adocean.pl^*?aocodetype=$object-subrequest,domain=tvn24.pl|tvnplayer.pl
+@@||adocean.pl^*?aocodetype=$object-subrequest,domain=tvn.pl|tvn24.pl|tvnplayer.pl
 @@||ads.cvut.cz^$~third-party
 @@||ads.e-planning.net^*/preroll?$object-subrequest,domain=ole.com.ar
 @@||ads.hosting.vcmedia.vn/crossdomain.xml$object-subrequest
@@ -22469,6 +22480,7 @@ _comscore.js
 ||researchnow.co.uk^$third-party
 ||retags.us^$third-party
 ||revolvermaps.com^$third-party
+||rewardtv.com^$third-party
 ||rfihub.com^$third-party
 ||riastats.com^$third-party
 ||richard-group.com^$third-party
@@ -22931,6 +22943,7 @@ _comscore.js
 ||gcion.com/gcion.ashx?
 ||geckofoot.com/gfcounterimg.aspx?
 ||geckofoot.com/gfvisitormap.aspx?
+||getglue.com^*/count?
 ||getpos.de/ext/
 ||gigya.com^*/cimp.gif?
 ||glam.com/ctagsimgcmd.act?
