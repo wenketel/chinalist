@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: JJtUDYDY3k9lZlBX+fqBDQ
+!  Checksum: VFM7p8USmDyJCG/GdMamKw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 22 Oct 2012 19:31:36 +0800
+!  Last Modified:  Tue, 23 Oct 2012 15:59:37 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -933,8 +933,8 @@ appledaily.com.tw###mask_wrapper
 ||yes123.com.tw/nownews/
 ||nowlife.nownews.com/iframe/
 nownews.com###anypost_topbuy
-nownews.com###focus_board
 nownews.com###hotchannel > .block_content:nth-child(3)
+nownews.com###focus_board
 nownews.com###focus_area
 nownews.com###index_headline_box + .page_title
 
@@ -2649,6 +2649,7 @@ zxtjd.com###it_an
 ||cluclick.leshu.com^$third-party
 ||linekong.com^$third-party
 ||love12.tw^$third-party
+||lrswl.com^$third-party
 ||notice.uchome.manyou.com^
 ||maxreturn.cn^$third-party
 ||mediav.com^$third-party
@@ -10367,6 +10368,7 @@ _a468x60.
 ##.main-advert
 ##.main-tabs-ad-block
 ##.mainAd
+##.mainAdContainer
 ##.mainAds
 ##.mainLeftAd
 ##.mainLinkAd
@@ -10551,6 +10553,7 @@ _a468x60.
 ##.ov_spns
 ##.ovadsenselabel
 ##.ox-holder
+##.p75_sidebar_ads
 ##.pageAds
 ##.pageBottomGoogleAd
 ##.pageGoogleAd
@@ -11026,6 +11029,7 @@ _a468x60.
 ##.top-left-nav-ad
 ##.top-menu-ads
 ##.topAdCenter
+##.topAdContainer
 ##.topAdWrap
 ~timescall.com##.topAds
 ##.topAdvert
@@ -11487,6 +11491,7 @@ _a468x60.
 ||adversalservers.com^$third-party
 ||adverserve.net^$third-party
 ||advertarium.com.ua^$third-party
+||advertbox.us^$third-party
 ||adverticum.net^$third-party
 ||advertise.com^$third-party
 ||advertiseforfree.co.za^$third-party
@@ -14689,7 +14694,7 @@ _a468x60.
 ||ifly.com/trip-plan/ifly-trip?*&ad=$image,~image,popup
 ||imageshack.us/ads/$image,~image,popup
 ||imageshack.us/newuploader_ad.php$image,~image,popup
-||linkbucks.com/|$image,~image,popup,domain=linkbucks.com
+||linkbucks.com/|$image,~image,popup,domain=linkbucks.com|ultrafiles.net
 ||linkbucks.com^$image,~image,popup,domain=hnmovies.com
 ||military.com/data/popup/new_education_popunder.htm$image,~image,popup
 ||multiupload.nl/popunder/$image,~image,popup
@@ -15930,6 +15935,7 @@ creatives.livejasmin.com##body
 cricbuzz.com###chrome_home_banner
 cricbuzz.com###tata_phton_home_banner
 cricbuzz.com##.adsTargetedToNonIndia
+cricfree.tv##div[id^="floatLayer"]
 cricketcountry.com##.iframeFlashBanner
 crictime.com###AutoNumber5
 cricvid.info###bannerfloat2
@@ -16099,6 +16105,8 @@ digmyweb.com##.affsearch-container
 digmyweb.com##.affsearch-container-right
 dimshare.com##a[href^="http://www.kqzyfj.com/"]
 dinodirect.com###ProductShowAD
+dinozap.tv###total
+dinozap.tv###total_banner
 dir.yahoo.com##td[width="215"]
 directupload.net##.anzeige
 directupload.net##.leaderboard
@@ -19101,6 +19109,7 @@ stormfront.org##img[border="0"][rel="nofollow"]
 stormfront.org##table[width="863"]
 straitstimes.com##.story_imu
 strata40.megabyet.net##a[href^="http://tiny.cc/freescan"]
+stream2all.net##div[id^="ltas_overlay_"]
 stream2watch.me##.floater
 streamfinder.com###superbanner
 streamfinder.com##.bodytext[style="float:left; display:inline;  margin-right:9px; margin-top:10px; width:125px; height:120px; border-right:dotted 1px #cccccc;"]
@@ -20575,8 +20584,8 @@ yumymilf.com##.bottom-banner
 @@||ads.foxnews.com/js/adv2.js
 @@||ads.foxnews.com/js/omtr_code.js
 @@||ads.golfweek.com^$~third-party
-@@||ads.hulu.com/published/*.flv$third-party
-@@||ads.hulu.com/published/*.mp4$third-party
+@@||ads.hulu.com/published/*.flv
+@@||ads.hulu.com/published/*.mp4
 @@||ads.id-t.com/crossdomain.xml$domain=sensation.com
 @@||ads.id-t.com/ep/custom/sensation/flashbanner.php?zone=$domain=sensation.com
 @@||ads.id-t.com/images/$domain=sensation.com
@@ -21134,6 +21143,7 @@ yumymilf.com##.bottom-banner
 @@||superfundo.org/advertisement.js
 @@||syn-api.com^*&adsafe=$script,domain=windstream.net
 @@||talkgold.com/bans/rss.png
+@@||tealium.hs.llnwd.net^*/utag.js$domain=fox.com
 @@||telegraphcouk.skimlinks.com/api/telegraph.skimlinks.js
 @@||tetrisfriends.com/ads/google_dfp_video_ad.html
 @@||thedailygreen.com/ams/page-ads.js?
@@ -21806,6 +21816,7 @@ yumymilf.com##.bottom-banner
 /tc_logging.js
 /tc_targeting.html
 /tc_throttle.js
+/tealiumpixel.
 /tnsmetrix/*
 /touchclarity/*
 /tpix.gif?
