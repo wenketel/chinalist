@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: mgaWkP2Lv94sXGRYQKAjUA
+!  Checksum: lYtSr5ZokXoaRfVUDI9OiQ
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 23 Oct 2012 15:59:33 +0800
+!  Last Modified:  Wed, 24 Oct 2012 18:17:15 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -179,6 +179,7 @@ v.6.cn###playerAd
 !---99漫画
 /aitw/*$domain=99comic.com|99manga.com
 /jsc/book_$domain=99comic.com|99manga.com
+/jsc/stat.js$domain=99comic.com|99manga.com
 /pub-js.js$domain=99comic.com|99manga.com
 .com/*/p$script,domain=99comic.com|99manga.com
 .com/*/t.js$domain=99comic.com|99manga.com
@@ -480,7 +481,7 @@ dayoo.com##.cn
 ##.a_fl
 ##.a_fr
 ##.a_h
-~3600gz.cn,~wxkds.com##.a_mu
+~3600gz.cn,~it168.com,~wxkds.com##.a_mu
 ##.a_pr
 ~hk-pub.com##.ad_footerbanner
 ###ad_headerbanner
@@ -792,6 +793,7 @@ www.kankanews.com##.bann_ind
 ||ktxp.com/javascripts/nmjui/
 ||bt.ktxp.com/iframe/statistics.js
 /javascripts/abcde/*$domain=kkkmh.com|ktxp.com
+/javascripts/stats.js$domain=kkkmh.com|ktxp.com
 kkkmh.com##[class^="mm-"]
 bt.ktxp.com##.ad
 
@@ -876,6 +878,7 @@ news.mydrivers.com##table[border="0"][width="980"][height="90"]
 myfiles.com.cn##[id^="ad_"]
 
 !---NARUTOM
+||narutom.com/stat.js
 ||narutom.com/js/comicjs.js
 ||narutom.com/js/jsg2.js
 ||narutom.com/js/myl.js
@@ -1385,9 +1388,10 @@ tgbus.com##[id^="TGBUS_VISTA_CONTAINER_"]
 ||wres.mangocity.com/js/w/hezuo/
 ||8*.tianya.cn^
 ||blog.tianya.cn/tuijian/tanchu.js
-||global.tianyaui.com/global/wizard/js/wizard.js
+||ebook.tianya.cn/js/stat.js
 ||pinpai.tianya.cn^$subdocument
 ||stat.tianya.cn^
+||global.tianyaui.com/global/wizard/js/wizard.js
 ||static.tianyaui.com^*/stat_20080313.js
 ||static.tianyaui.com/js/2011/bbsclk.js
 ||static.tianyaui.com/js/2010/ContClick.js
@@ -1815,6 +1819,8 @@ comic.131.com##.mh_frbk > dl
 gamefy.cn##.ad68060
 gamefy.cn##.float_bottom_right
 /baha/*$subdocument,domain=gamer.com.tw
+/gamer/*$subdocument,domain=gamer.com.tw
+.html|$domain=www.gamer.com.tw
 ||pic.bahamut.com.tw/js/ad.js
 ||houdao.com/bans/
 ||bbs.houdao.com/adslider.php
@@ -2108,6 +2114,7 @@ www.jstv.com##.jadv
 2u.com.cn#@#.adSpace
 ||2y2r.org/data/attachment/forum/$image
 2y2r.org###hd + .wp.cl
+||500wancache.com/public/js/stats.js
 ||tongji.500wan.com^
 ||v3.apic.51.com/vda09.js
 ||510379.com/510379ad/
@@ -2120,8 +2127,6 @@ www.jstv.com##.jadv
 ||js.5ilog.com/qq/js/jsgg.js
 ||9ist.com/others/ad/
 9ist.com##.tab_mb[width="100%"]
-||amznz.com/proxy.html
-amznz.com##div[style="float:left;width:250px;height:250px;"]
 ||arting365.com/advs/
 ||badmintoncn.com/cbo_gg/
 ||bitscn.com/pic2009/a*.js
@@ -2161,7 +2166,6 @@ disp.cc###ads_page_r
 /banner/*$domain=dolc.de|dolc.info
 dolc.de,dolc.info###sitefocus
 ||dospy.com/hezuo/
-||dospy.com/proxy.html
 ||static.doyouhike.net/partner/
 ||photo.erji.com^$domain=erji.net
 ||eap.enorth.com.cn^
@@ -2210,7 +2214,8 @@ ihome99.com##.pop-ad
 ||imp3.net/data/js$script
 ||au.ipart.cn/comp/hooks.php
 ||x.itiexue.net/html/$script
-||x.itiexue.net/proxy.htm^
+tiexue.net###Baidu_WWW_TopAD4
+tiexue.net##.banner
 ||img.jb51.net/imgby/
 ||img.jb51.net/downjs/$script
 ||img1.jczqw.com/img/
@@ -2281,6 +2286,8 @@ qzwb.com##.area[style^="height:70px;"]
 subpig.net##.a_p
 ||bbs.t56.net/ad*/
 ||img.taoguba.com.cn/gbimg/
+||img.taoguba.com.cn/images/$object
+taoguba.com.cn##.label2
 ||tianyayidu.com/js/
 tianyayidu.com##div[style^="width:728px;"]
 /large/*$domain=tiyuba.tv
@@ -2868,6 +2875,8 @@ zxtjd.com###it_an
 /piaofu.js
 /picad/*
 /pic/ad/*
+/proxy.htm?id=
+/proxy.html?id=
 /tan.js
 /tan1.js
 /u/_sponsor/*
@@ -2887,8 +2896,6 @@ zxtjd.com###it_an
 |http://track.
 /ktrace/ktrace$script
 /pingd?
-/stat.js|$domain=~qq.com
-/stats.js
 /tongji.js
 /tracking.$image,object_subrequest
 /usertrack.
@@ -2925,6 +2932,8 @@ zxtjd.com###it_an
 ##a[target="_blank"][onmousedown^="this.href='http://p.ujian.cc/?url="]
 10086.cn###popMaskAct
 1000fr.net##center
+17ppt.com#@#.topads
+17ppt.com##.ad80
 360doc.com###divadleft
 51caiju.com###hint + .AdTop-Article-QQ
 51caiju.com##.l_qq_com
@@ -2932,6 +2941,7 @@ zxtjd.com###it_an
 55188.com##[class^="a1_gg jiange"]
 55188.com##.a3_gg
 55188.com##[class^="nei"]
+amznz.com##div[style="float:left;width:250px;height:250px;"]
 bcc.com.tw##TABLE[width="100%"] TR > TD[height="80"]
 hornydragon.blogspot.com,hornydragon.blogspot.tw###HTML13
 sbsrunningman.5d6d.com###header
