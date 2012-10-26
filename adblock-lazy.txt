@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: 7O1bKxhl3W6K7BO31oSodA
+!  Checksum: NfZ561noNaWZiE/6DJeaSw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 25 Oct 2012 21:59:37 +0800
+!  Last Modified:  Fri, 26 Oct 2012 12:28:54 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -322,9 +322,9 @@ iqiyi.com##.first_adv
 iqiyi.com##.seed
 
 !---bilibili.tv
-/html/*$subdocument,domain=bilibili.tv|bilibili.kankanews.com
-/html/ads-$domain=bilibili.tv|bilibili.kankanews.com
-bilibili.tv,bilibili.kankanews.com##.ad-f
+/html/*$subdocument,domain=bilibili.tv|bilibili.kankanews.com|bilibili.smgbb.cn
+/html/ads-$domain=bilibili.tv|bilibili.kankanews.com|bilibili.smgbb.cn
+bilibili.tv,bilibili.kankanews.com,bilibili.smgbb.cn##.ad-f
 
 !---爆米花网
 @@||cb.baidu.com/crossdomain.xml
@@ -6728,6 +6728,7 @@ _a468x60.
 ###adv-300
 ###adv-ext-ext-1
 ###adv-ext-ext-2
+###adv-fb-container
 ###adv-leaderboard
 ###adv-left
 ###adv-middle
@@ -9984,6 +9985,7 @@ _a468x60.
 ##.dm-ads-125
 ##.dm-ads-350
 ##.dmco_advert_iabrighttitle
+##.dod_ad
 ##.downloadAds
 ##.download_ad
 ##.downloadad
@@ -17973,7 +17975,9 @@ moviemet.com##.view-amazon-offers
 movies.yahoo.com###banner
 movies.yahoo.com##.results[bgcolor="#ECF5FA"]
 moviesfoundonline.com###banner
+moviesite.co.za##.cbads
 moviesite.co.za##table[cellspacing="0"][cellpadding="2"][border="1"][bgcolor="#ffffff"][width="120"]
+moviesite.co.za##td[height="600"]
 moviesmobile.net##a[href*=".amobee.com"]
 moviesmobile.net##a[href*=".mojiva.com"]
 moviesplanet.com##.Banner468X60
@@ -19685,6 +19689,7 @@ tvguide.com##td[style^="cursor:pointer;height:25px;padding:0px 0px 0px 0px;backg
 tvguide.com##td[style^="overflow:hidden;text-align:left;vertical-align:middle;padding:0px 0px 0px 0px;height:25px;background-image: url(/listings/images/topchan/TV_Guide_FranchiseListing_"]
 tvnz.co.nz###marketplace
 tvope.com###ads
+tvsite.co.za##table[width="120"][height="600"]
 tvsquad.com###tvsquad_topBanner
 tvsquad.com##.banner
 tvtechnology.com##table[width="665"]
@@ -20830,6 +20835,7 @@ yumymilf.com##.bottom-banner
 @@||cricbuzz.com/includes/ads/images/worldcup/more_arrow_$image
 @@||cricketcountry.com/js/ad-gallery.js$script
 @@||d3pkae9owd2lcf.cloudfront.net/mb102.js$domain=wowhead.com
+@@||danielechevarria.com^*/advertising-$~third-party
 @@||dart.clearchannel.com/crossdomain.xml$object-subrequest,domain=247comedy.com|big1059.com|wfre.com
 @@||dart.clearchannel.com/html.ng/$object-subrequest,domain=247comedy.com|big1059.com|wfre.com
 @@||dc.tremormedia.com/crossdomain.xml$domain=tvcatchup.com
@@ -21036,7 +21042,7 @@ yumymilf.com##.bottom-banner
 @@||mlb.com/shared/components/gameday/v6/js/adproxy.js
 @@||mochiads.com/srv/*.swf?cachebust=$domain=gamesforwork.com
 @@||mochiads.com/srv/*.swf?cxnid=$domain=gamesforwork.com
-@@||moneybookers.com/ads/$image,~third-party
+@@||moneybookers.com/ads/$~third-party
 @@||monster.com/services/bannerad.asmx/getadsrc$xmlhttprequest,domain=monster.com
 @@||mp32u.net/adframe.js
 @@||msads.net/adbar/products/*/adbar.js$domain=mail.live.com
@@ -22997,6 +23003,7 @@ _comscore.js
 ||ecustomeropinions.com^*/i.php?
 ||edgesuite.net^*/googleanalyt
 ||elb.amazonaws.com/g.aspx?surl=
+||elb.amazonaws.com/partner.gif?
 ||elb.amazonaws.com/small.gif?
 ||elogicwebsolutions.com/cgi-bin/statcount.pl?
 ||emihosting.com^*/tracking/
@@ -23114,6 +23121,7 @@ _comscore.js
 ||magnify.net/decor/track/dot.gif?
 ||magnify360-cdn.s3.amazonaws.com^
 ||mail-app.com/pvtracker/
+||mansion.com/mts.tracker.js
 ||maxmind.com^*/geoip.js
 ||maxxpublishing.com/astracker/
 ||mcs.delvenetworks.com^
@@ -23296,6 +23304,7 @@ _comscore.js
 ||track.untd.com^
 ||tracker.financialcontent.com^
 ||tracker.icerocket.com^
+||tracker.iqnomy.com^
 ||tracker.issuu.com^
 ||tracker.mgnetwork.com^
 ||tracker.roitesting.com^
