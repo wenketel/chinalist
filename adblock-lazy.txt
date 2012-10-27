@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: NfZ561noNaWZiE/6DJeaSw
+!  Checksum: hzcdu01R33ZxOtEoCBxitA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 26 Oct 2012 12:28:54 +0800
+!  Last Modified:  Sat, 27 Oct 2012 20:58:11 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -322,8 +322,8 @@ iqiyi.com##.first_adv
 iqiyi.com##.seed
 
 !---bilibili.tv
+/ads-arc.js$domain=bilibili.tv|bilibili.kankanews.com|bilibili.smgbb.cn
 /html/*$subdocument,domain=bilibili.tv|bilibili.kankanews.com|bilibili.smgbb.cn
-/html/ads-$domain=bilibili.tv|bilibili.kankanews.com|bilibili.smgbb.cn
 bilibili.tv,bilibili.kankanews.com,bilibili.smgbb.cn##.ad-f
 
 !---爆米花网
@@ -3951,6 +3951,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /advert?
 /advert_
 /advertbanner.
+/advertbox.
 /advertise-
 /advertise.
 /advertise/*
@@ -4455,6 +4456,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /google-ads.
 /google-adsense-
 /google-adsense.
+/google/ad?
 /google_ad_
 /google_ads.
 /google_ads/*
@@ -4505,6 +4507,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /houseads?
 /hoverad.
 /html.ng/*
+/html/ads/*
 /htmlads/*
 /httpads/*
 /iabadvertisingplugin.swf
@@ -6983,6 +6986,8 @@ _a468x60.
 ###block-spti_ga-spti_ga_adwords
 ###block-thewrap_ads_250x300-0
 ~wunsch-otr.de###block_advert
+###block_advert1
+###block_advert2
 ###block_advertisement
 ###blog-ad
 ###blog-advert
@@ -7140,6 +7145,8 @@ _a468x60.
 ###contentBoxad
 ###contentTopAds2
 ~maximonline.ru###content_ad
+###content_ad_1
+###content_ad_2
 ###content_ad_square
 ###content_ad_top
 ###content_ads_content
@@ -7390,6 +7397,7 @@ _a468x60.
 ###googlead-sidebar-middle
 ###googlead-sidebar-top
 ###googlead2
+###googlead_outside
 ###googleadbox
 ###googleads
 ###googleads_mpu_injection
@@ -8536,6 +8544,7 @@ _a468x60.
 ##.ad-banner
 ##.ad-banner-label
 ##.ad-banner-smaller
+##.ad-bigboxSub
 ##.ad-bigsize
 ~bash.fm,~gamexpo.fr,~ratus13.com##.ad-block
 ##.ad-block-square
@@ -9513,6 +9522,7 @@ _a468x60.
 ~10tv.com,~andkon.com,~creatormundi.com,~idowa.de,~ping-timeout.de,~wired.com##.advertisement
 ##.advertisement-728x90
 ##.advertisement-block
+##.advertisement-layout
 ##.advertisement-sidebar
 ##.advertisement-space
 ##.advertisement-sponsor
@@ -10412,6 +10422,7 @@ _a468x60.
 ##.masthead-ad-control
 ##.masthead_topad
 ##.matador_sidebar_ad_600
+##.mcx-content-ad
 ##.mdl-ad
 ##.media-advert
 ##.mediaAd
@@ -10736,6 +10747,7 @@ _a468x60.
 ##.s_ads
 ##.sa_AdAnnouncement
 ##.savvyad_unit
+##.say-center-contentad
 ##.sb-ad-sq-bg
 ##.sb-ads-here
 ##.sbAd
@@ -11454,6 +11466,7 @@ _a468x60.
 ||adrocket.com^$third-party
 ||adroll.com^$third-party
 ||ads-stats.com^$third-party
+||ads2ads.net^$third-party
 ||ads2srv.com^$third-party
 ||ads4cheap.com^$third-party
 ||adsalvo.com^$third-party
@@ -12446,6 +12459,7 @@ _a468x60.
 ||securesoft.info^$third-party
 ||securewebsiteaccess.com^$third-party
 ||seductionprofits.com^$third-party
+||seekads.net^$third-party
 ||sekindo.com^$third-party
 ||selsin.net^$third-party
 ||sendptp.com^$third-party
@@ -14158,6 +14172,7 @@ _a468x60.
 ||rapid8.com^*/dlbutblaze.gif
 ||rapid8.com^*/dlbutblaze1.
 ||rapid8.com^*/dlbutblaze2.
+||rapidfiledownload.com^*/btn-input-download.png
 ||rapidgator.net/images/banners/
 ||rapidlibrary.com/baner*.png
 ||rapidlibrary.com/banner_*.png
@@ -14637,6 +14652,7 @@ _a468x60.
 ||wrc.com/swf/homeclock_edox_hori.swf
 ||wrc.com/swf/michelin-advert.swf
 ||wrko.com^*/sponsors/
+||wsj.com/static_html_files/jsframe.html?jsuri=*doubleclick.net/
 ||wsj.net/internal/krux.js
 ||wunderground.com/geo/swfad/
 ||wunderground.com^*/wuss_300ad2.php?
@@ -14738,7 +14754,7 @@ _a468x60.
 ||ifly.com/trip-plan/ifly-trip?*&ad=$image,~image,popup
 ||imageshack.us/ads/$image,~image,popup
 ||imageshack.us/newuploader_ad.php$image,~image,popup
-||linkbucks.com/|$image,~image,popup,domain=linkbucks.com|ultrafiles.net
+||linkbucks.com/|$image,~image,popup,domain=linkbucks.com|qqc.co|ultrafiles.net
 ||linkbucks.com^$image,~image,popup,domain=hnmovies.com
 ||military.com/data/popup/new_education_popunder.htm$image,~image,popup
 ||multiupload.nl/popunder/$image,~image,popup
@@ -15114,6 +15130,7 @@ _a468x60.
 ||wowomg.com/*.html
 ||wrenchtube.com/pop.js
 ||wrenchtube.com/poppt.js
+||x3xtube.com/banner_rotating_
 ||xbutter.com/adz.html
 ||xbutter.com/geturl.php/
 ||xbutter.com/js/pop-er.js
@@ -15586,11 +15603,13 @@ binaries4all.com###convertxtodvd
 binaries4all.com###gright
 binaryturf.com###feature_gad
 bingo-hunter.com##img[width="250"][height="250"]
+birdforum.net##.ads
 birminghammail.net##.mpu
 birminghampost.net##.mpu
 birminghampost.net##.promotop
 bismarcktribune.com##.top-leader-wrapper
 bit-tech.net##div[style="width: 728px; height: 90px;"]
+bitcointalk.org##td[style="background-color: #E5E5E8; padding:1.5pt 5pt; text-align:center"]
 bitcomet.com##.gg728
 bitreactor.to##a[href^="http://bitreactor.to/startdownload/"]
 bittorrent.am##td[height="120"][align="center"][style="background: rgb(226, 240, 250)"]
@@ -15655,6 +15674,7 @@ brantfordexpositor.ca##div[style="float: right; padding-left: 10px; padding-bott
 break.com###infospace-sidebar
 break.com##.ad
 break.com##.breaking_news
+break.com##.iab-300x250
 breakingtravelnews.com###flybebanner
 breakingtravelnews.com###sponsor
 breakingviews.com###floatit
@@ -18355,6 +18375,7 @@ offshore-mag.com##.webcast-promo-box-sponsorname
 offtopic.com###banners
 offtopic.com###pagenav_menu + table[height="61"][cellspacing="0"][cellpadding="0"][border="0"][width="100%"]
 ohinternet.com##.sider
+ohio.com###sponsorTxt
 ok.co.uk##.adv
 okcupid.com###leaderboard_wrapper
 oldgames.sk###r_TopBar
@@ -18679,6 +18700,8 @@ rapid4all.org##a[href="http://rapid4all.org/usenet-trusted-downloads.html"]
 rapid4me.com###speed_table
 rapid8.com###codec
 rapid8.com##a[href^="http://ddl.us.to"]
+rapidfiledownload.com##.serchblock
+rapidfiledownload.com##.serchbox
 rapidlibrary.com##.file-recommend
 rapidlibrary.com##.file-urls
 rapidlibrary.com##.file-urls2
@@ -18903,6 +18926,7 @@ searchenginejournal.com##.odd
 searchenginesuggestions.com###top-leaderboard
 searchenginesuggestions.com##.leaderboard
 searchenginewatch.com##.ukn-iab-300x250
+searchizz.com##.also_block
 seattlepi.com##.row1
 seattlepi.com##div[style=" width:100%; height:90px; margin-bottom:8px; float:left;"]
 secretmaryo.org##div[style="width: 728px; height: 90px; margin-left: 6px;"]
@@ -18940,7 +18964,9 @@ sg.christianpost.com##td[height="110"][style="border-bottom:1px solid #ccc;margi
 shaaditimes.com##.txt[style="border: solid 1px #A299A6; background-color: #FDFCFC;"]
 shaaditimes.com##div[style="padding: 5 0 0 0px; height: 138px; text-align:center; width:780px; background: url('/imgs/top-ad-bg.gif') repeat-x left bottom; background-color:#FFF9D0;"]
 shacknews.com###superleader
+sharaget.com###coolDownload
 sharaget.com###coollist
+sharaget.com##.coollist
 share-links.biz###advice
 share-links.biz###inf_outer
 share-links.biz###infoC
@@ -19426,6 +19452,7 @@ theregister.co.uk##.wptl
 theroar.com.au###Foxtel-Bespoke
 thesaurus.com###abvFold
 thesaurus.com###bnrTop
+thesaurus.com###top[style="border-top:1px solid #E4E4E4;padding-bottom:3px;padding-top:3px;cursor:default;"]
 thesaurus.com##.spl_unshd
 theserverside.com###leaderboard
 thesimsresource.com##.hb
@@ -19743,6 +19770,7 @@ ultimate-guitar.com##td[width="100%"][valign="middle"][height="110"]
 ultimate-rihanna.com###ad
 unblock-proxy-server.com###ablc
 uncoached.com###sidebar300X250
+unionleader.com##img[width="165"][height="40"]
 united-ddl.com##table[width="435"][bgcolor="#575e57"]
 unknown-horizons.org###akct
 unrealitymag.com###header
@@ -21378,6 +21406,7 @@ yumymilf.com##.bottom-banner
 @@||oneclickmoviez.com^$image,~third-party
 @@||onlinevideoconverter.com^*ad*.js
 @@||overclock3d.net/js/advert.js
+@@||own3d.tv^*_adsense.$object-subrequest
 @@||pagead2.googlesyndication.com/pagead/expansion_embed.js$domain=upfordown.com
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=ftlauderdalewebcam.com|ilix.in|nyharborwebcam.com|portcanaveralwebcam.com|portevergladeswebcam.com|priva.us|rotoinfo.com|upfordown.com
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=articlewagon.com|ftlauderdalewebcam.com|gifmagic.com|ilix.in|myspace.com|nyharborwebcam.com|oneclickmoviez.com|portcanaveralwebcam.com|portevergladeswebcam.com|priva.us|rotoinfo.com|upfordown.com
@@ -21539,6 +21568,7 @@ yumymilf.com##.bottom-banner
 @@||longtailvideo.com/5/adttext/adttext.js$domain=yuvutu.com
 @@||mrstiff.com/view/textad/$xmlhttprequest
 @@||naiadsystems.com/flash/generic/$object,object-subrequest
+@@||panicporn.com/Bannerads/player/player_flv_multi.swf$object
 @@||skimtube.com/advertisements.php?
 @@||tjoob.com/go.php?ad=$script,~third-party
 ! Anti-Adblock
@@ -21985,6 +22015,7 @@ _comscore.js
 ! *** easylist:easyprivacy/easyprivacy_trackingservers.txt ***
 ||123count.com^$third-party
 ||1freecounter.com^$third-party
+||204st.us^$third-party
 ||208.88.226.75^$third-party,domain=~informer.com.ip
 ||216.18.184.18^$third-party,domain=~etahub.com.ip
 ||21sme.com^$third-party
@@ -22406,6 +22437,7 @@ _comscore.js
 ||logaholic.com^$third-party
 ||logdy.com^$third-party
 ||loggly.com^$third-party
+||lognormal.net^$third-party
 ||lookery.com^$third-party
 ||loopfuse.net^$third-party
 ||lopley.com^$third-party
@@ -22773,6 +22805,7 @@ _comscore.js
 ||wtp101.com^$third-party
 ||wundercounter.com^$third-party
 ||wunderloop.net^$third-party
+||wwwstats.info^$third-party
 ||x-stat.de^$third-party
 ||xclicks.net^$third-party
 ||xg4ken.com^$third-party
