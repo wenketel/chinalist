@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: hzcdu01R33ZxOtEoCBxitA
+!  Checksum: mUUYQz4ylKxywKmpD/G59A
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 27 Oct 2012 20:58:11 +0800
+!  Last Modified:  Mon, 29 Oct 2012 19:06:52 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -274,6 +274,7 @@ mp3.baidu.com###adv_daoliu
 mp3.baidu.com##.area-top-ads
 mp3.baidu.com##.ecom-ad
 !--tieba
+@@||static.tieba.baidu.com/??tb/static-pb/$stylesheet
 tieba.baidu.com###frs_banner_ad
 tieba.baidu.com##[id^="guanggao"]
 tieba.baidu.com###h123_mod
@@ -3089,6 +3090,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 -popup-ad.
 -popup-ads-
 -show-ads.
+-skyscrapper160x600.
 -text-ads.
 -third-ad.
 -webad1.
@@ -7773,6 +7775,7 @@ _a468x60.
 ###pageBannerAd
 ###page_ad
 ###page_content_top_ad
+###pageads_top
 ###pagelet_adbox
 ###pagelet_netego_ads
 ###pagelet_search_ads2
@@ -7985,6 +7988,7 @@ _a468x60.
 ###sidebarads
 ###sidebaradver_advertistxt
 ###sideline-ad
+###single-ad-2
 ###single-mpu
 ###singleAd
 ###singlead
@@ -8383,7 +8387,6 @@ _a468x60.
 ##.AdsRec
 ##.AdsenseBoxCenter
 ##.AdvBoxSidebar
-~basingstokehomebid.org.uk,~homefindersomerset.co.uk,~ph4.ru,~swanseacity.net,~wrexhamafc.co.uk##.Advert
 ##.Advert300x250
 ##.AdvertMidPage
 ##.AdvertiseWithUs
@@ -9354,6 +9357,7 @@ _a468x60.
 ##.adsgvert
 ~live365.com##.adshome
 ~chupelupe.com##.adside
+##.adside-box-single
 ##.adsidebox
 ##.adsider
 ##.adsingle
@@ -9724,6 +9728,7 @@ _a468x60.
 ##.block-deca_advertising
 ##.block-google-admanager
 ~pcper.com##.block-google_admanager
+##.block-maniad
 ##.block-openads
 ##.block-openadstream
 ##.block-openx
@@ -11291,6 +11296,7 @@ _a468x60.
 ###tadsto.c
 ###topstuff > #tads
 ##.ch[onclick="ga(this,event)"]
+##.mw > #rcnt > #center_col > #taw
 ##.ra[align="left"][width="30%"]
 ##.ra[align="right"][width="30%"]
 ##.rhsvw[style="background-color:#fff;margin:0 0 14px;padding-bottom:1px;padding-top:1px;"]
@@ -11375,6 +11381,7 @@ _a468x60.
 ||adedy.com^$third-party
 ||adengage.com^$third-party
 ||adexcite.com^$third-party
+||adexprt.com^$third-party
 ||adf01.net^$third-party
 ||adfactory88.com^$third-party
 ||adform.net^$third-party
@@ -11902,7 +11909,7 @@ _a468x60.
 ||doubleclick.net/pfadx/ng.videoplayer/$third-party
 ||doubleclick.net/pfadx/ssp.kgtv/$third-party
 ||doubleclick.net/pfadx/sugar.poptv/$third-party
-||doubleclick.net/pfadx/tmg.telegraph.technology/$third-party
+||doubleclick.net/pfadx/tmg.telegraph.$third-party
 ||doubleclick.net/pfadx/trb.$third-party
 ||doubleclick.net/pfadx/ugo.gv.1up/$third-party
 ||doubleclick.net/pfadx/video.marketwatch.com/$third-party
@@ -12742,6 +12749,7 @@ _a468x60.
 ||zedo.com^$third-party
 ||zenoviagroup.com^$third-party
 ||zferral.com^$third-party
+||zonealta.com^$third-party
 ||zonplug.com^$third-party
 ||zoomdirect.com.au^$third-party
 ||zxxds.net^$third-party
@@ -12882,6 +12890,7 @@ _a468x60.
 ||adelaidecityfc.com.au/oak.swf
 ||adf.ly/external/*/int.php
 ||adf.ly/networks/
+||adirondackmtnclub.com/images/banner/
 ||adpaths.com/_aspx/cpcinclude.aspx?
 ||adpost.com^*.g.html
 ||ads.pof.com^
@@ -13709,7 +13718,6 @@ _a468x60.
 ||klav1230am.com^*/banners/
 ||knbr.com^*/banners/
 ||knowfree.net^*/ezm125x125.gif
-||knoxnews.com/adtool/
 ||kob.com/kobtvimages/flexhousepromotions/
 ||kongregate.com/images/help_devs_*.png
 ||kontraband.com/media/takeovers/
@@ -14542,7 +14550,6 @@ _a468x60.
 ||urlgone.com^*/banners/
 ||ustream.tv/takeover/
 ||vcdq.com^*/ad.html
-||veetle.com/index.php/ad/
 ||vhd.me/custom/interstitial
 ||viadeo.com/pub/
 ||viamichelin.co.uk/htm/cmn/afs*.htm?
@@ -14560,6 +14567,7 @@ _a468x60.
 ||videosift.com/bnr.php?
 ||videoweed.es^*/remove_ads.
 ||viewdocsonline.com/images/banners/
+||vipbox.tv/js/layer.js
 ||vistandpoint.com/images/banners/
 ||vitalfootball.co.uk^*/partners/
 ||vogue.in/node/*?section=
@@ -15871,6 +15879,8 @@ citywire.co.uk##.sponsoredBy
 civil.ge##div[style="float: left; text-align: center; border:  solid 1px #efefef; width: 320px; height: 90px;"]
 civil.ge##div[style="width: 300px; border: solid 0px #cccccc; height: 250px; margin: 0 10px 10px 10px; text-align: center; "]
 cjocfm.com##a[href^="http://adclick.g-media.com/"]
+claro-search.com###gRsTopLinks
+claro-search.com##.gRsTopLinks
 clashmusic.com###block-block-49
 classicboat.co.uk##.mpu
 classifieds.aol.co.uk###dmn_results
@@ -16756,6 +16766,7 @@ foxnews.com##.ob_dual_right
 foxnews.com##.quigo
 foxnewsinsider.com##.ad
 foxreno.com###leaderboard-sticky
+foxsportslatam.com##.floater
 foxsportssouth.com###v2_right_generic_5
 france24.com###caroussel_partenaires
 freakmov.com##.overlayVid
@@ -17575,7 +17586,6 @@ laptopmag.com##.marketPlace
 last.fm##.nr_partners
 lastminute.com###sponsoredFeature
 latimes.com###targetWeeklyAd
-latimes.com##.ARK_OverlayFixed
 latina.com###block-block-37
 latina.com###block-block-39
 latina.com###block-block-40
@@ -18864,7 +18874,6 @@ santacruzsentinel.com##.curvyBox600
 sapostalcodes.za.net###googlehoriz
 sapropertynews.com###ab_adblock
 sat-television.com##.sponsor_wrapper
-sawlive.tv###sawdiv
 sbs.com.au##.ad
 schlockmercenary.com##td[colspan="3"]
 sci-tech-today.com##td[width="240"][style="border-left: #c0c0c0 solid 1px; padding-top:3px; padding-bottom:3px;"]
@@ -19223,7 +19232,6 @@ stylelist.com##.partnerPromo
 stylelist.com##div[style="position: relative; border: 1px solid rgb(191, 191, 191); background: none repeat scroll 0% 0% white; width: 424px; display: block;"]
 sukebei.nyaa.eu##a[href^="http://sukebei.nyaa.eu/ii/?"]
 sumotorrent.com##.clear + .title_green[align="left"][style="margin-top:18px;"] + table
-sun-sentinel.com###adv-fb-container
 sundancechannel.com###sidebar_banner
 sundayindependent.co.za###sp_links
 sundaytribune.co.za###sp_links
@@ -19490,6 +19498,7 @@ thevarguy.com###middlebannerwrapper
 thevarguy.com##.squarebanner160x160
 theverge.com##.vert300
 theweathernetwork.com##a[href^="http://adserver.adtechus.com/"]
+thewindowsclub.com##.ad
 thewrap.com##.pane-tw-ad-master-ad-300x250a
 theyeshivaworld.com###inArticle
 theyeshivaworld.com##.ads
@@ -20257,6 +20266,7 @@ youtube.com##.promoted-videos
 youtube.com##.watch-extra-info-column
 youtube.com##.watch-extra-info-right
 youtube.com##a[href^="http://www.youtube.com/cthru?"]
+ytconv.net###ad
 ytmnd.com##td[colspan="5"]
 yuku.com##.ads
 yuku.com##div[style="width: 300px; margin-left: 5px; margin-bottom: 5px;\a \9 \9 \9 \9 \9 \9 \9 \9 border: 1px solid #CCC; padding: 3px;float:right;"]
@@ -21111,6 +21121,7 @@ yumymilf.com##.bottom-banner
 @@||objects.tremormedia.com/embed/swf/acudeoplayer.swf$domain=bostonherald.com|deluxemusic.tv|deluxetelevision.com|tetrisfriends.com|theunlockr.com|videopoker.com
 @@||objects.tremormedia.com/embed/swf/admanager*.swf
 @@||objects.tremormedia.com/embed/xml/*.xml?r=$object-subrequest,domain=mydamnchannel.com
+@@||objects.tremormedia.com/embed/xml/adpolicies/$object-subrequest,domain=nbcphiladelphia.com
 @@||objects.tremormedia.com/embed/xml/adpolicies/$object-subrequest,domain=player.theplatform.com
 @@||ocp.com.com/adfunctions.js?
 @@||oldergames.com/adlib/
@@ -21208,6 +21219,7 @@ yumymilf.com##.bottom-banner
 @@||server.cpmstar.com/view.aspx?poolid=$domain=newgrounds.com
 @@||server.cpmstar.com/view.aspx?poolid=*&json=1&$script,domain=xfire.com
 @@||server.cpmstar.com/view.aspx?poolid=*&script=1&$script,domain=xfire.com
+@@||sfdict.com/app/*/js/ghostwriter_adcall.js$domain=dynamo.dictionary.com
 @@||shackvideo.com/playlist_xml.x?
 @@||signin.verizon.com^*/affiliate/$subdocument,xmlhttprequest
 @@||sihanoukvilleonline.com/banners/sologo.png
@@ -21430,6 +21442,7 @@ yumymilf.com##.bottom-banner
 @@||video2mp3.net/adframe.js
 @@||vidup.me^*/adlayer.js
 @@||yellowbridge.com/ad/show_ads.js
+@@||ytconv.net/adframe.js
 @@||zedo.com/bar/v17-004/d3/jsc/fm.js?$domain=oneclickmoviez.com
 @@||zedo.com/jsc/d3/fo.js$domain=oneclickmoviez.com
 @@||zoomin.tv/adhandler/amalia.adm?$object-subrequest
@@ -21574,6 +21587,7 @@ yumymilf.com##.bottom-banner
 ! Anti-Adblock
 @@||adultadworld.com/adhandler/$subdocument
 @@||cluster.adultadworld.com/intv2/interstitial.js$domain=swfchan.com
+@@||nightchan.com/advertisement.js
 @@||pornstream.cc^*/adframe.js
 @@||swfchan.com/ad.js?
 @@||swfchan.org/ad.js?
