@@ -467,13 +467,17 @@ namespace ABPUtils
 
                 for (int i = 1; i < t.Length; i++)
                 {
-                    if (i == 7 || i == 9 || i == 10)
+                    if (i == ConstString.EASYPRIVACY_WHITELIST || i == ConstString.EASYPRIVACY_WHITELIST)
                         continue;
                     var s = t[i];
 
-                    if (i == 4 || i == 6 || i == 8)
+                    if (i == ConstString.EASYPRIVACY_TRACKINGSERVERS_INTERNATIONAL || i == ConstString.EASYPRIVACY_THIRDPARTY_INTERNATIONAL
+                        || i == ConstString.EASYPRIVACY_SPECIFIC_INTERNATIONAL)
                     {
                         int chinese = s.IndexOf("! Chinese");
+                        if (chinese < 0)
+                            continue;
+
                         int czech = s.IndexOf("! Czech");
                         if (czech < 0)
                             czech = s.IndexOf("! Danish");

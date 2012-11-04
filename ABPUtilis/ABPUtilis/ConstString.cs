@@ -77,5 +77,15 @@ Usage: ABPUtils.exe -n -d=google.com -dns=8.8.8.8
         public const int EASYLIST_EASYLIST_WHITELIST = 11;//ignore
         public const int EASYLIST_ADULT_ADULT_WHITELIST = 12;//ignore
 
+        public const int EASYPRIVACY_GENERAL = 1;
+        public const int EASYPRIVACY_TRACKINGSERVERS = 2;
+        public const int EASYPRIVACY_TRACKINGSERVERS_INTERNATIONAL = 3;
+        public const int EASYPRIVACY_THIRDPARTY = 4;
+        public const int EASYPRIVACY_THIRDPARTY_INTERNATIONAL = 5;
+        public const int EASYPRIVACY_SPECIFIC = 6;
+        public const int EASYPRIVACY_SPECIFIC_INTERNATIONAL = 7;//ignore
+        public const int EASYPRIVACY_WHITELIST = 8;
+        public const int EASYPRIVACY_WHITELIST_INTERNATIONAL = 9;//ignore
+
     }
 }
