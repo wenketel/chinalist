@@ -467,7 +467,7 @@ namespace ABPUtils
 
                 for (int i = 1; i < t.Length; i++)
                 {
-                    if (i == ConstString.EASYPRIVACY_WHITELIST || i == ConstString.EASYPRIVACY_WHITELIST)
+                    if (i == ConstString.EASYPRIVACY_WHITELIST || i == ConstString.EASYPRIVACY_WHITELIST_INTERNATIONAL)
                         continue;
                     var s = t[i];
 

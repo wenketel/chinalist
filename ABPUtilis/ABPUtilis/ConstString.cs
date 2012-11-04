@@ -83,8 +83,8 @@ Usage: ABPUtils.exe -n -d=google.com -dns=8.8.8.8
         public const int EASYPRIVACY_THIRDPARTY = 4;
         public const int EASYPRIVACY_THIRDPARTY_INTERNATIONAL = 5;
         public const int EASYPRIVACY_SPECIFIC = 6;
-        public const int EASYPRIVACY_SPECIFIC_INTERNATIONAL = 7;//ignore
-        public const int EASYPRIVACY_WHITELIST = 8;
+        public const int EASYPRIVACY_SPECIFIC_INTERNATIONAL = 7;
+        public const int EASYPRIVACY_WHITELIST = 8;//ignore
         public const int EASYPRIVACY_WHITELIST_INTERNATIONAL = 9;//ignore
 
     }
