@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: kU0jXmzLSgTG+QgJYNKehw
+!  Checksum: ZF3ECRiRctEqATy5OJSRxQ
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 04 Nov 2012 15:08:40 +0800
+!  Last Modified:  Tue, 06 Nov 2012 17:26:27 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -1561,7 +1561,7 @@ kuai.xunlei.com##.bot_tips
 !---Yahoo
 !--CN
 ||buy.cn.yahoo.com/bd/$third-party
-||bj.data.cn.yahoo.com^
+||bj.data.cn.yahoo.com^$image
 ||ks.cn.yahoo.com/ks_q1_tg.html
 cn.yahoo.com##.p_sider
 cn.yahoo.com###r_expandable
@@ -1635,6 +1635,7 @@ youku.com##.AB240
 ||erreport.tudou.com^
 ||istat.tudou.com/play.srv?
 ||player.pb.ops.tudou.com/info.php?
+||f.youku.com/player/getFlvPath/fileid/$object_subrequest,domain=tudou.com
 ||stat*.tudou.com^
 ||lstat.youku.com^$third-party
 
@@ -1827,6 +1828,8 @@ qjwm.com##td[height="90"]
 /shortcounter.jsp$domain=ref.so
 ref.so##table[width="300"]
 ||log.vdisk.cn^
+||hiad.vmall.com^
+dl.vmall.com###filelist_marker
 /ys168/*$domain=ys168.com
 ys168.com###idzdy1
 ys168.com###xtxx
@@ -2972,7 +2975,6 @@ price.com.hk##.tb
 cn.reuters.com##.ad
 suopao.org##.t5[style^="margin-top:8px;"]
 ttmeiju.com##a[href^="http://www.ttmeiju.com/adclick.php?"]
-dl.vmall.com###filelist_marker
 bbs.wuyou.com##[style="background: #BBE9FF"]
 xiachufang.com##.g-ga.g-bg-white
 zhaozi.cn##.pic
