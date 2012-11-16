@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: BoF87zgi5nuKJ/zyBXbdMw
+!  Checksum: k9/yJ6gJkrxbFAQWRcRG7A
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 16 Nov 2012 20:32:38 +0800
+!  Last Modified:  Sat, 17 Nov 2012 02:15:13 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -909,7 +909,6 @@ appledaily.com.tw###mask_wrapper
 @@||ad1.nownews.com/*.php?ownerid=1355
 @@||ad1.nownews.com/ads.php?ownerid=1294
 @@||ad1.nownews.com/ads.php?ownerid=1321
-@@||ad1.nownews.com/ads.php?ownerid=1322
 @@||ad1.nownews.com/ads.php?ownerid=1323
 ||nownews.com/common/anypost/
 ||nownews.com/events/extad
@@ -925,6 +924,7 @@ nownews.com###hotchannel > .block_content:nth-child(3)
 nownews.com###focus_board
 nownews.com###focus_area
 nownews.com###index_headline_box + .page_title
+nownews.com###nownews_pickup
 
 !---东方电视
 @@||home.on.cc/adv/web/corp/$~image
@@ -5240,6 +5240,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 ;cue=pre;$object-subrequest
 ;iframeid=ad_
 =ad_iframe&
+=adexpert&
 =admeld&
 =admodeliframe&
 =adsfinal.
@@ -5361,6 +5362,7 @@ _adrow-
 _ads.html
 _ads.php?
 _ads1.
+_ads_contextualtargeting_
 _ads_iframe_
 _ads_index_
 _ads_only&
@@ -6816,6 +6818,7 @@ _a468x60.
 ###adver7
 ~ph4.ru###advert-1
 ###advert-120
+###advert-2
 ###advert-boomer
 ###advert-display
 ###advert-header
@@ -8612,6 +8615,7 @@ _a468x60.
 ##.ad-banner
 ##.ad-banner-label
 ##.ad-banner-smaller
+##.ad-banner-top-wrapper
 ##.ad-bigboxSub
 ##.ad-bigsize
 ~bash.fm,~gamexpo.fr##.ad-block
@@ -11470,6 +11474,7 @@ _a468x60.
 ||adengage.com^$third-party
 ||adexcite.com^$third-party
 ||adexprt.com^$third-party
+||adextent.com^$third-party
 ||adf01.net^$third-party
 ||adfactory88.com^$third-party
 ||adform.net^$third-party
@@ -12753,6 +12758,7 @@ _a468x60.
 ||valuecontent.net^$third-party
 ||vcmedia.com^$third-party
 ||vdopia.com^$third-party
+||vellde.com^$third-party
 ||velmedia.net^$third-party
 ||vemba.com^$third-party
 ||veoxa.com^$third-party
@@ -13511,6 +13517,7 @@ _a468x60.
 ||firstrowsports.eu/yeabblepop.js
 ||flashscore.com/res/image/bookmaker-list.png
 ||flashx.tv^*/counterck.html
+||flicks.co.nz/takeovercss/
 ||flixstertomatoes.com^*/jquery.js?
 ||flixstertomatoes.com^*/jquery.rt_scrollmultimedia.js
 ||flixstertomatoes.com^*/jquery.tooltip.min.js?
@@ -14524,6 +14531,7 @@ _a468x60.
 ||tenmanga.com/files/js/site_skin.js
 ||tennisworldusa.org/banners/
 ||tentonhammer.com^*/takeovers/
+||thaivisa.com/promotions/banners/
 ||the-numbers.com^*/allposters/
 ||theactivetimes.net^*/featured_partners/
 ||theafricachannel.com^*/promos/
@@ -15742,6 +15750,7 @@ bbc.co.uk###bbccom_leaderboard_container
 bbc.co.uk###bbccom_sponsor_section
 bbc.co.uk###bbccom_storyprintsponsorship
 bbc.co.uk##.bbccom_display_none
+bbc.com###bbccom_bottom[style="width:468px; text-align:right;"]
 bbc.com###bbccom_leaderboard
 bbj.hu###featuredBox
 bc.vc##.fly_frame
@@ -18492,6 +18501,7 @@ nighttours.com###banner_bottom
 ninemsn.com.au###ad
 ninemsn.com.au###bannerTop
 ninemsn.com.au###rhc_mrec
+ninemsn.com.au##.advert
 ninemsn.com.au##.nw_ft_all_partners
 ninemsn.seek.com.au###msnhd_div3
 nintendolife.com##.the300x250
@@ -18510,6 +18520,7 @@ nme.com###skyscraper
 nme.com###takeover_head
 nme.com###takeover_left
 nme.com###takeover_right
+nme.com##.icon_amazon
 nonags.com###j5e1987
 northjersey.com##.adwrapper
 northjersey.com##.detail_boxwrap
@@ -18795,6 +18806,7 @@ phpbb.com##a[rel="external affiliate"]
 phpbb.com##a[rel="external sponsor"]
 phpbbhacks.com##div[style="height:90px;"]
 phuketgazette.net##.htbm
+phuketwan.com###bannersTop
 picapp.com##.ipad_300_250
 picapp.com##.ipad_728_90
 picvi.com##div[style="border:1px solid #d31f00;padding:5px;text-align: left; width:300px;"]
@@ -19159,6 +19171,8 @@ search.aol.com##.PMB
 search.aol.com##.SLL
 search.aol.com##.WOL
 search.aol.in##.SLL
+search.babylon.com###gRsTopLinks
+search.babylon.com##.gRsTopLinks
 search.bpath.com##div[style="background-color:#f2faff;padding:4px"]
 search.ch##div[style="width:300px; height:250px; overflow:hidden"]
 search.chatzum.com##.adw
@@ -19420,6 +19434,7 @@ sportodin.com##.unfullscreener
 sportsillustrated.co.za###text-4
 sportsnet.ca##.v2-3cols-promo
 sportsnet.ca##.v2-topnav-promo
+sportsonearth.com##.ad
 sportsworldreport.com###cTop
 spotplanet.org##.nonregadd
 spyka.net##.header-link
@@ -19620,6 +19635,7 @@ tgdaily.com###OA_posid_2
 tgdaily.com###OA_posid_3
 tgdaily.com###bestcovery_container
 tgdaily.com###right-banner
+thaivisa.com##td[width="182"][valign="top"][style="padding-left:18px;"]
 thatvideogameblog.com##table[width="310"][height="260"]
 thatvideosite.com##div[style="padding-bottom: 15px; height: 250px;"]
 the-gazette.co.uk##.btn
@@ -19695,6 +19711,7 @@ themercury.co.za###sp_links
 themesbase.com##div[style="width:486px;height:60px;margin:0 auto;line-height:60px;text-align:center;"]
 themoscowtimes.com##.adv_block
 themoscowtimes.com##.bottom_banner
+themoscowtimes.com##.logo_popup
 themoscowtimes.com##.top_banner
 themtn.tv###landing_55
 themtn.tv###right_generic_47
@@ -23361,6 +23378,7 @@ _comscore.js
 ||counter.yadro.ru^
 ||counters.freewebs.com^
 ||counters.gigya.com^
+||crm-vwg.com/tracker/
 ||crowdfactory.com/tracker/
 ||csi.gstatic.com^
 ||cts.vresp.com^
@@ -23437,6 +23455,7 @@ _comscore.js
 ||glam.com/ctagsimgcmd.act?
 ||go.toutapp.com^$third-party
 ||goals.ar.gy/bug.gif?
+||goaww.com/stats.php
 ||googleapis.com/generate_204
 ||googleapis.com^*/gen_204?
 ||googlecode.com^*/tracker.js
@@ -23591,6 +23610,7 @@ _comscore.js
 ||projecthaile.com/js/trb-1.js
 ||prstats.postrelease.com^
 ||pt.crossmediaservices.com^
+||publicbroadcasting.net/analytics/
 ||purevideo.com^*/pvshim.gif?
 ||px.dynamicyield.com^$third-party
 ||px.steelhousemedia.com^
