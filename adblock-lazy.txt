@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: pw1HMvOb8YtmkrnN0AkEAA
+!  Checksum: BoF87zgi5nuKJ/zyBXbdMw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 15 Nov 2012 04:46:38 +0800
+!  Last Modified:  Fri, 16 Nov 2012 20:32:38 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1439,8 +1439,7 @@ udn.com###ads
 
 !---VeryCD
 ||sp.vcimg.com^
-||v4.vcimg.com/sq/$object
-verycd.com###BAIDU_PAGE_AD_2
+verycd.com##[id^="BAIDU_PAGE_AD"]
 verycd.com##div[style="border:1px solid #ccc;padding:2px 14px;"]
 verycd.com##div[style="width:250px;height:200px;padding:4px;border:1px solid #ccc;"]
 verycd.com##div[style="width:960px;height:90px;border:1px solid #ccc;padding:10px 14px;"]
@@ -3764,6 +3763,8 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /adsdaqsky_
 /adsdyn160x160.
 /adsegmentation.
+/adsenceSearch.
+/adsenceSearchTop.
 /adsense-
 /adsense.
 /adsense/*
@@ -3776,6 +3777,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /adsense5.
 /adsense?
 /adsense_
+/AdsenseBlockView.
 /adsensegb.
 /adsensegoogle.
 /adsensets.
@@ -7503,6 +7505,7 @@ _a468x60.
 ###header_ad_container
 ###header_adcode
 ###header_ads
+###header_advert
 ###header_advertisement_top
 ###header_flag_ad
 ###header_leaderboard_ad_container
@@ -8011,6 +8014,7 @@ _a468x60.
 ###sideads_container
 ###sideadtop-to
 ###sideadvert
+###sideadzone
 ###sidebar-125x125-ads
 ###sidebar-125x125-ads-below-index
 ###sidebar-ad
@@ -10530,6 +10534,9 @@ _a468x60.
 ##.middleads
 ##.min_navi_ad
 ##.mini-ad
+##.mini_ads
+##.mini_ads_bottom
+##.mini_ads_right
 ##.miniad
 ##.miscAd
 ##.mmc-ad
@@ -12125,6 +12132,7 @@ _a468x60.
 ||goodadvert.ru^$third-party
 ||googleadservicepixel.com^$third-party
 ||googleadservices.com^$third-party
+||googletagmanager.com^$third-party
 ||googletagservices.com^$third-party
 ||goviral-content.com^$third-party
 ||goviral.hs.llnwd.net^$third-party
@@ -12811,6 +12819,7 @@ _a468x60.
 ||wwbn.com^$third-party
 ||wwwadcntr.com^$third-party
 ||x4300tiz.com^$third-party
+||xad.com^$third-party
 ||xcelltech.com^$third-party
 ||xcelsiusadserver.com^$third-party
 ||xchangebanners.com^$third-party
@@ -14501,6 +14510,7 @@ _a468x60.
 ||teamliquid.net/tlam/
 ||teamliquid.net/tlan/
 ||techexams.net/banners/
+||technewsdaily.com/crime-stats/local_crime_stats.php
 ||techpowerup.com/images/bnnrs/
 ||techradar.com^*/img/*_takeover_
 ||techsupportforum.com^*/banners/
@@ -17916,6 +17926,7 @@ load.to##img[width="468"][height="60"]
 loaded.it##tr > td[style="text-align: center; vertical-align: top; font-size: 12px;"]:first-child:last-child
 loadsofpics.com##table[width="187"][height="750"]
 local.co.uk###borderTab
+local.com###sponsored-bucket
 local.yahoo.com##.yls-rs-paid
 lockergnome.com##div[style="float:left;width:160px;height:600px; margin: 0px 5px 10px 0px;"]
 lockerz.com##.adbox
@@ -20087,7 +20098,10 @@ usniff.com##.top-usniff-torrents
 ustream.tv###Takeover
 ustream.tv##.channelTopBannerWrapper
 uswitch.com##.leaderboard
+uvnc.com##.black + table[cellspacing="0"][cellpadding="5"][style="width: 100%;"]:last-child
 uvnc.com##a[href^="http://sponsor2.uvnc.com"]
+uvnc.com##td[style="width: 300px; height: 250px;"]
+uvnc.com##tr > td[valign="middle"][style="width: 10px;"]:first-child + td[valign="top"][style="width: 180px;"]
 v3.co.uk###superSky
 v3.co.uk##.ad
 v3.co.uk##.hpu
@@ -21830,6 +21844,7 @@ yumymilf.com##.bottom-banner
 @@||pagead2.googlesyndication.com/pagead/abglogo/abg-da-100c-000000.png$domain=janno.dk|nielco.dk
 @@||player.sambatech.com.br/current/samba-player.js?*/RealMedia/ads/$script,domain=videos.abril.com.br
 @@||propellerads.com/afu.php?zoneid=$subdocument,domain=moevideos.net
+@@||ptchan.net/imagens/banner.php
 @@||publicidad.eluniversal.com.mx/RealMedia/ads/adstream_nx.ads/$object-subrequest
 @@||rentalsystems.com/advert_price_imbed.asp?$subdocument
 @@||ring.bg/adserver/adall.php?*&video_on_page=1
