@@ -1,7 +1,7 @@
 [Adblock Plus 1.2]
-!  Checksum: sXNBjT4D82zk+ZckSSANaQ
+!  Checksum: 7hgy0qANih3Fx/2QJYl75A
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 19 Nov 2012 23:50:02 +0800
+!  Last Modified:  Tue, 20 Nov 2012 13:52:17 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -257,6 +257,7 @@ www.baidu.com,www1.baidu.com,ipv6.baidu.com##style + table:nth-child(3)
 !--image
 image.baidu.com###ecomContainer
 !--tieba
+tieba.baidu.com###aside_ad
 tieba.baidu.com##[id^="guanggao"]
 tieba.baidu.com###h123_mod
 tieba.baidu.com##.l_banner
@@ -2987,8 +2988,9 @@ xiachufang.com##.g-ga.g-bg-white
 zhaozi.cn##.pic
 
 !-----------------------Temporary---------------------------
-!---2012.10
+!---2012.11
 ||image.10010.com/index_js/flash-ad$script
+||tieba.baidu.com/tb/wangtao$image
 google.com,google.com.hk###topstuff > #wmxmsg
 ||nanrenwa.com/_img/a/$third-party
 !-----------------------EasyList----------------------------
@@ -3207,6 +3209,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /ad-logger/*
 /ad-managment/*
 /ad-methods.
+/ad-modules/*
 /ad-openx.
 /ad-pub.
 /ad-right2.
@@ -3697,12 +3700,14 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /ads3/*
 /ads4.
 /ads4/*
+/ads468.
 /ads5.
 /ads5/*
 /ads6.
 /ads6/*
 /ads7.
 /ads7/*
+/ads728.
 /ads8.
 /ads8/*
 /ads88.
@@ -4161,6 +4166,8 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /bannerscript/*
 /bannerserve/*
 /bannerserver/*
+/bannerserver3/*
+/bannerserver3|
 /bannersyndication.
 /bannerview.*?
 /bannery/*?banner=
@@ -6453,6 +6460,7 @@ _a468x60.
 ###ad_sidebar1
 ###ad_sidebar2
 ###ad_sidebar3
+###ad_sidebar_top
 ###ad_sky
 ###ad_skyscraper
 ###ad_skyscraper160x600
@@ -9579,7 +9587,7 @@ _a468x60.
 ##.advert_banner
 ##.advert_box
 ##.advert_cont
-##.advert_container
+~niedziela.nl##.advert_container
 ##.advert_djad
 ##.advert_google_content
 ##.advert_google_title
@@ -13957,6 +13965,8 @@ _a468x60.
 ||lowellsun.com/litebanner/
 ||lowyat.net/catfish/
 ||lowyat.net^*/images/header/
+||lshunter.tv/images/bets/
+||lshunter.tv^*&task=getbets$xmlhttprequest
 ||lucianne.com^*_*.html
 ||luxury4play.com^*/ads/
 ||lyricsfreak.com^*/overlay.js
@@ -14820,6 +14830,7 @@ _a468x60.
 ||wirenh.com/images/banners/
 ||wlib.com^*?bannerxgroupid=
 ||wlrfm.com/images/banners/
+||wned.org/underwriting/sponsors/
 ||wnst.net/img/coupon/
 ||wolf-howl.com/wp-content/banners/
 ||worddictionary.co.uk/static//inpage-affinity/
@@ -18004,6 +18015,7 @@ losangelesgasprices.com##div[style="height: 250px; width: 301px; margin-bottom: 
 lotro-lore.com###banner
 lowyat.net##img[border="1"]
 lshunter.tv###ad
+lshunter.tv##.bets
 luxist.com###topleader-wrap
 luxist.com##.medrect
 lycos.com##.sponsored
@@ -18691,6 +18703,7 @@ ocworkbench.com##.shopwidget1
 oddee.com###d_sidebar1 > table[width="300"][cellspacing="0"][cellpadding="0"][style="margin-top:10px;"]
 oddee.com##a[target="_blank"][href^="http://amzn.to/"]
 oddee.com##div[style="width:1008px;margin-left:auto;margin-right:auto; height:130px;"]
+oddee.com##div[style="width:300px;height:418px;position:relative;margin-top:15px;"]
 oddee.com##table[width="160"][cellspacing="0"][cellpadding="0"][style="margin-top:10px;"]
 officialnintendomagazine.co.uk###skyslot
 offshore-mag.com##.sponsoredBy
@@ -20352,6 +20365,8 @@ wattpad.com##div[style="width:100%;height:90px;text-align:center"]
 way2sms.com##.w2mtad
 waz-warez.org##.guest_adds
 waz-warez.org##img[width="468"][height="60"]
+wbez.org###block-wbez-blocks-wbez-ad-bottom
+wbez.org###block-wbez-blocks-wbez-ad-top
 wbez.org###footer-top
 wbez.org##.ad
 wbgo.org##.underwriting
@@ -21108,8 +21123,7 @@ yumymilf.com##.bottom-banner
 @@||ads1.msn.com/ads/pronws/$image,domain=live.com
 @@||ads1.msn.com/library/dap.js$domain=wowarmory.com
 @@||adserver.adtech.de/?adrawdata%2f3.0%2f*%3dplay_auto%3b$script,domain=we7.com
-@@||adserver.adtech.de/?adrawdata/3.0/$object-subrequest,domain=talksport.co.uk
-@@||adserver.adtech.de/?advideo/*;vidas=pre_roll;$object-subrequest,domain=eurovisionsports.tv|talksport.co.uk
+@@||adserver.adtech.de/?advideo/*;vidas=pre_roll^$object-subrequest,domain=eurovisionsports.tv|talksport.co.uk
 @@||adserver.adtech.de/addyn/3.0/755/2852613/$script,domain=cartoonnetworkasia.com
 @@||adserver.bigwigmedia.com/adfetch2.php?$object-subrequest,domain=y8.com
 @@||adserver.bigwigmedia.com/ingamead3.swf
@@ -21432,6 +21446,7 @@ yumymilf.com##.bottom-banner
 @@||krispykreme.com/content/images/ads/
 @@||ksl.com/resources/classifieds/graphics/ad_
 @@||lads.myspace.com/videos/msvideoplayer.swf?$object
+@@||lads.myspace.com/videos/MSVideoPlayer.swf?*&adUrl=$object-subrequest,third-party
 @@||lemon-ads.com^$~document,~third-party
 @@||lightningcast.net/servlets/getplaylist?*&responsetype=asx&$object
 @@||linkbucks.com/tmpl/mint/img/int_skip_ad.gif
@@ -21926,6 +21941,7 @@ yumymilf.com##.bottom-banner
 @@||mail.bg/mail/index/getads/$xmlhttprequest
 @@||megatv.com^*/adverts.asp?$object-subrequest
 @@||newmedia.lu^*/adtech_video/*.xml$object-subrequest,domain=rtl.lu
+@@||niedziela.nl/adverts/$image,~third-party
 @@||openx.zomoto.nl/live/www/delivery/fl.js
 @@||openx.zomoto.nl/live/www/delivery/spcjs.php?id=
 @@||pagead2.googlesyndication.com/pagead/abglogo/abg-da-100c-000000.png$domain=janno.dk|nielco.dk
@@ -24601,6 +24617,7 @@ _comscore.js
 ||spanids.reference.com^
 ||spanids.thesaurus.com^
 ||spiegel.com/spacer.gif?
+||sportingnews.com/px/
 ||sportlive.co.za/statistics/
 ||sportsnet.ca^*/analytics.php.js
 ||ssl-stats.wordpress.com^
