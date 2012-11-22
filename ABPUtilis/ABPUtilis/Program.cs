@@ -435,21 +435,27 @@ namespace ABPUtils
             using (StreamReader sr = new StreamReader(ConstString.EASYLIST, Encoding.UTF8))
             {
                 string easyListContent = sr.ReadToEnd();
-                string[] t = Regex.Split(easyListContent, @"! \*\*\* ");
+                string[] lists = Regex.Split(easyListContent, @"! \*\*\* ");
 
-                for (int i = 1; i < t.Length; i++)
+                foreach (var list in lists)
                 {
-                    if (i == ConstString.EASYLIST_EASYLIST_SPECIFIC_BLOCK || i == ConstString.EASYLIST_ADULT_ADULT_SPECIFIC_BLOCK
-                            || i == ConstString.EASYLIST_EASYLIST_SPECIFIC_HIDE || i == ConstString.EASYLIST_ADULT_ADULT_SPECIFIC_HIDE
-                            || i == ConstString.EASYLIST_EASYLIST_WHITELIST || i == ConstString.EASYLIST_ADULT_ADULT_WHITELIST)
-                        continue;
-                    var s = t[i];
-                    var index = s.IndexOf("!-----------------");
-                    if (index > 0)
-                        s = s.Remove(index);
+                    var t = list.Trim();
 
-                    s = s.TrimEnd(new char[] { '\r', '\n' });
-                    sBuilder.AppendLine("! *** " + s);
+                    if (t.StartsWith(ConstString.EASYLIST_EASYLIST_GENERAL_BLOCK)
+                        || t.StartsWith(ConstString.EASYLIST_EASYLIST_GENERAL_HIDE)
+                        || t.StartsWith(ConstString.EASYLIST_EASYLIST_GENERAL_POPUP)
+                        || t.StartsWith(ConstString.EASYLIST_EASYLIST_ADSERVERS)
+                        || t.StartsWith(ConstString.EASYLIST_ADSERVERS_POPUP)
+                        || t.StartsWith(ConstString.EASYLIST_EASYLIST_THIRDPARTY)
+                        || t.StartsWith(ConstString.EASYLIST_THIRDPARTY_POPUP))
+                    {
+                        var index = t.IndexOf("!-----------------");
+                        if (index > 0)
+                            t = t.Remove(index);
+
+                        t = t.TrimEnd(new char[] { '\r', '\n' });
+                        sBuilder.AppendLine("! *** " + t);
+                    }
                 }
             }
 
@@ -463,35 +469,39 @@ namespace ABPUtils
             {
                 string easyPrivacyContent = sr.ReadToEnd();
 
-                string[] t = Regex.Split(easyPrivacyContent, @"! \*\*\* ");
+                string[] lists = Regex.Split(easyPrivacyContent, @"! \*\*\* ");
 
-                for (int i = 1; i < t.Length; i++)
+                foreach (var list in lists)
                 {
-                    if (i == ConstString.EASYPRIVACY_WHITELIST || i == ConstString.EASYPRIVACY_WHITELIST_INTERNATIONAL)
-                        continue;
-                    var s = t[i];
+                    var t = list.Trim();
 
-                    if (i == ConstString.EASYPRIVACY_TRACKINGSERVERS_INTERNATIONAL || i == ConstString.EASYPRIVACY_THIRDPARTY_INTERNATIONAL
-                        || i == ConstString.EASYPRIVACY_SPECIFIC_INTERNATIONAL)
+                    if (t.StartsWith(ConstString.HEAD)
+                        || t.StartsWith(ConstString.EASYPRIVACY_WHITELIST)
+                        || t.StartsWith(ConstString.EASYPRIVACY_WHITELIST_INTERNATIONAL))
+                        continue;
+
+                    if (t.StartsWith(ConstString.EASYPRIVACY_TRACKINGSERVERS_INTERNATIONAL)
+                        || t.StartsWith(ConstString.EASYPRIVACY_THIRDPARTY_INTERNATIONAL)
+                        || t.StartsWith(ConstString.EASYPRIVACY_SPECIFIC_INTERNATIONAL))
                     {
-                        int chinese = s.IndexOf("! Chinese");
+                        int chinese = t.IndexOf("! Chinese");
                         if (chinese < 0)
                             continue;
 
-                        int czech = s.IndexOf("! Czech");
+                        int czech = t.IndexOf("! Czech");
                         if (czech < 0)
-                            czech = s.IndexOf("! Danish");
+                            czech = t.IndexOf("! Danish");
 
-                        int length = s.IndexOf(".txt ***");
-                        s = s.Substring(0, length + 9) + s.Substring(chinese, czech - chinese);
+                        int length = t.IndexOf(".txt ***");
+                        t = t.Substring(0, length + 9) + t.Substring(chinese, czech - chinese);
                     }
 
-                    var index = s.IndexOf("!-----------------");
+                    var index = t.IndexOf("!-----------------");
                     if (index > 0)
-                        s = s.Remove(index);
+                        t = t.Remove(index);
 
-                    s = s.TrimEnd(new char[] { '\r', '\n' });
-                    sBuilder.AppendLine("! *** " + s);
+                    t = t.TrimEnd(new char[] { '\r', '\n' });
+                    sBuilder.AppendLine("! *** " + t);
                 }
             }
 

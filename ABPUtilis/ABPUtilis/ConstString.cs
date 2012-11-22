@@ -64,28 +64,20 @@ Usage: ABPUtils.exe -n -d=google.com -dns=8.8.8.8
         public const string EASYPRIVACY_URL = "https://easylist-downloads.adblockplus.org/easyprivacy.txt";
         public const string CHINALIST_LAZY_HEADER_MARK = "!----------------------------White List--------------------";
         public const string CHINALIST_END_MARK = "!------------------------End of List-------------------------";
-        public const int EASYLIST_EASYLIST_GENERAL_BLOCK = 1;
-        public const int EASYLIST_EASYLIST_GENERAL_HIDE = 2;
-        public const int EASYLIST_EASYLIST_ADSERVERS = 3;
-        public const int EASYLIST_ADULT_ADULT_ADSERVERS = 4;
-        public const int EASYLIST_EASYLIST_THIRDPARTY = 5;
-        public const int EASYLIST_ADULT_ADULT_THIRDPARTY = 6;
-        public const int EASYLIST_EASYLIST_SPECIFIC_BLOCK = 7;//ignore
-        public const int EASYLIST_ADULT_ADULT_SPECIFIC_BLOCK = 8;//ignore
-        public const int EASYLIST_EASYLIST_SPECIFIC_HIDE = 9;//ignore
-        public const int EASYLIST_ADULT_ADULT_SPECIFIC_HIDE = 10;//ignore
-        public const int EASYLIST_EASYLIST_WHITELIST = 11;//ignore
-        public const int EASYLIST_ADULT_ADULT_WHITELIST = 12;//ignore
 
-        public const int EASYPRIVACY_GENERAL = 1;
-        public const int EASYPRIVACY_TRACKINGSERVERS = 2;
-        public const int EASYPRIVACY_TRACKINGSERVERS_INTERNATIONAL = 3;
-        public const int EASYPRIVACY_THIRDPARTY = 4;
-        public const int EASYPRIVACY_THIRDPARTY_INTERNATIONAL = 5;
-        public const int EASYPRIVACY_SPECIFIC = 6;
-        public const int EASYPRIVACY_SPECIFIC_INTERNATIONAL = 7;
-        public const int EASYPRIVACY_WHITELIST = 8;//ignore
-        public const int EASYPRIVACY_WHITELIST_INTERNATIONAL = 9;//ignore
+        public const string EASYLIST_EASYLIST_GENERAL_BLOCK = "easylist:easylist/easylist_general_block.txt";
+        public const string EASYLIST_EASYLIST_GENERAL_HIDE = "easylist:easylist/easylist_general_hide.txt";
+        public const string EASYLIST_EASYLIST_GENERAL_POPUP = "easylist:easylist/easylist_general_block_popup.txt";
+        public const string EASYLIST_EASYLIST_ADSERVERS = "easylist:easylist/easylist_adservers.txt";
+        public const string EASYLIST_ADSERVERS_POPUP = "easylist:easylist/easylist_adservers_popup.txt";
+        public const string EASYLIST_EASYLIST_THIRDPARTY = "easylist:easylist/easylist_thirdparty.txt";
+        public const string EASYLIST_THIRDPARTY_POPUP = "easylist:easylist/easylist_thirdparty_popup.txt";
 
+        public const string EASYPRIVACY_TRACKINGSERVERS_INTERNATIONAL = "easylist:easyprivacy/easyprivacy_trackingservers_international.txt";
+        public const string EASYPRIVACY_THIRDPARTY_INTERNATIONAL = "easylist:easyprivacy/easyprivacy_thirdparty_international.txt";
+        public const string EASYPRIVACY_SPECIFIC_INTERNATIONAL = "easylist:easyprivacy/easyprivacy_specific_international.txt";
+        public const string EASYPRIVACY_WHITELIST = "easylist:easyprivacy/easyprivacy_whitelist.txt";
+        public const string EASYPRIVACY_WHITELIST_INTERNATIONAL = "easylist:easyprivacy/easyprivacy_whitelist_international.txt";
+        public const string HEAD = "[Adblock Plus";
     }
 }
