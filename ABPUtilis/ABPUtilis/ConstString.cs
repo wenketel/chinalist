@@ -68,6 +68,7 @@ Usage: ABPUtils.exe -n -d=google.com -dns=8.8.8.8
         public const string EASYLIST_EASYLIST_GENERAL_BLOCK = "easylist:easylist/easylist_general_block.txt";
         public const string EASYLIST_EASYLIST_GENERAL_HIDE = "easylist:easylist/easylist_general_hide.txt";
         public const string EASYLIST_EASYLIST_GENERAL_POPUP = "easylist:easylist/easylist_general_block_popup.txt";
+        public const string EASYLIST_GENERAL_BLOCK_DIMENSIONS = "easylist:easylist/easylist_general_block_dimensions.txt";
         public const string EASYLIST_EASYLIST_ADSERVERS = "easylist:easylist/easylist_adservers.txt";
         public const string EASYLIST_ADSERVERS_POPUP = "easylist:easylist/easylist_adservers_popup.txt";
         public const string EASYLIST_EASYLIST_THIRDPARTY = "easylist:easylist/easylist_thirdparty.txt";

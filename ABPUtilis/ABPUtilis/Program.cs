@@ -444,6 +444,7 @@ namespace ABPUtils
                     if (t.StartsWith(ConstString.EASYLIST_EASYLIST_GENERAL_BLOCK)
                         || t.StartsWith(ConstString.EASYLIST_EASYLIST_GENERAL_HIDE)
                         || t.StartsWith(ConstString.EASYLIST_EASYLIST_GENERAL_POPUP)
+                        || t.StartsWith(ConstString.EASYLIST_GENERAL_BLOCK_DIMENSIONS)
                         || t.StartsWith(ConstString.EASYLIST_EASYLIST_ADSERVERS)
                         || t.StartsWith(ConstString.EASYLIST_ADSERVERS_POPUP)
                         || t.StartsWith(ConstString.EASYLIST_EASYLIST_THIRDPARTY)
