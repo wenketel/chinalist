@@ -29,7 +29,7 @@ namespace ABPUtils
             //Console.ReadKey();
         }
 
-        static void DispatcherTask(Arguments args)
+        private static void DispatcherTask(Arguments args)
         {
             if (args.IsTrue("help") || args.IsTrue("h"))
             {
@@ -163,7 +163,7 @@ namespace ABPUtils
         /// Get assembly version
         /// </summary>
         /// <returns></returns>
-        static string GetVersion()
+        private static string GetVersion()
         {
             Assembly assembly = Assembly.GetExecutingAssembly();
             FileVersionInfo fvi = FileVersionInfo.GetVersionInfo(assembly.Location);
@@ -177,7 +177,7 @@ namespace ABPUtils
         /// <param name="proxy"></param>
         /// <param name="patch"></param>
         /// <param name="lazyList"></param>
-        static void Merge(string chinaList, WebProxy proxy, bool patch, string lazyList = "adblock-lazy.txt")
+        private static void Merge(string chinaList, WebProxy proxy, bool patch, string lazyList = "adblock-lazy.txt")
         {
             using (WebClient webClient = new WebClient())
             {
@@ -190,6 +190,7 @@ namespace ABPUtils
                 Dictionary<string, string> lists = new Dictionary<string, string>();
                 lists.Add(ConstString.EASYLIST, ConstString.EASYLIST_URL);
                 lists.Add(ConstString.EASYPRIVACY, ConstString.EASYPRIVACY_URL);
+
                 foreach (var s in lists)
                 {
                     if (IsFileExist(s.Key))
@@ -246,10 +247,11 @@ namespace ABPUtils
             if (File.Exists(ConstString.PATCH_FILE) && patch)
             {
                 Console.WriteLine("use {0} to patch {1}", ConstString.PATCH_FILE, lazyList);
-                using (StreamReader sr = new StreamReader(ConstString.PATCH_FILE, Encoding.UTF8))
+
+                Configurations patchconfig = GetConfigurations();
+
+                if (patchconfig != null)
                 {
-                    string xml = sr.ReadToEnd();
-                    PatchConfigurations patchconfig = SimpleSerializer.XmlDeserialize<PatchConfigurations>(xml);
                     foreach (var item in patchconfig.RemovedItems)
                     {
                         sBuilder.Replace(item + "\n", string.Empty);
@@ -275,7 +277,7 @@ namespace ABPUtils
                 Console.WriteLine("Patch file end.");
             }
 
-            sBuilder.AppendLine("");
+            sBuilder.AppendLine(string.Empty);
             sBuilder.AppendLine(ConstString.CHINALIST_END_MARK);
 
             Console.WriteLine(string.Format("Merge {0}, {1} and {2}.", chinaList, ConstString.EASYLIST, ConstString.EASYPRIVACY));
@@ -294,7 +296,7 @@ namespace ABPUtils
         /// <param name="dns"></param>
         /// <param name="fileName"></param>
         /// <param name="invalidDomains"></param>
-        static void ValidateDomains(IPAddress dns, string fileName, string invalidDomains = "invalid_domains.txt")
+        private static void ValidateDomains(IPAddress dns, string fileName, string invalidDomains = "invalid_domains.txt")
         {
             if (dns == null)
                 dns = IPAddress.Parse("8.8.8.8");
@@ -362,7 +364,7 @@ namespace ABPUtils
             // ChinaList.Save("full_domains.txt", fullResult.ToString());
         }
 
-        static QueryResult DNSQuery(IPAddress dnsServer, string domain)
+        private static QueryResult DNSQuery(IPAddress dnsServer, string domain)
         {
             if (dnsServer == null)
                 dnsServer = IPAddress.Parse("8.8.8.8");
@@ -421,7 +423,7 @@ namespace ABPUtils
             return queryResult;
         }
 
-        static bool IsFileExist(string fileName)
+        private static bool IsFileExist(string fileName)
         {
             DateTime dt = File.GetLastWriteTime(fileName);
             FileInfo fileInfo = new FileInfo(fileName);
@@ -429,7 +431,7 @@ namespace ABPUtils
             return (dt.ToString("yyyy-MM-dd").Equals(DateTime.Now.ToString("yyyy-MM-dd")) && fileInfo.Length > 0);
         }
 
-        static string TrimEasyList()
+        private static string TrimEasyList()
         {
             StringBuilder sBuilder = new StringBuilder();
             using (StreamReader sr = new StreamReader(ConstString.EASYLIST, Encoding.UTF8))
@@ -441,14 +443,7 @@ namespace ABPUtils
                 {
                     var t = list.Trim();
 
-                    if (t.StartsWith(ConstString.EASYLIST_EASYLIST_GENERAL_BLOCK)
-                        || t.StartsWith(ConstString.EASYLIST_EASYLIST_GENERAL_HIDE)
-                        || t.StartsWith(ConstString.EASYLIST_EASYLIST_GENERAL_POPUP)
-                        || t.StartsWith(ConstString.EASYLIST_GENERAL_BLOCK_DIMENSIONS)
-                        || t.StartsWith(ConstString.EASYLIST_EASYLIST_ADSERVERS)
-                        || t.StartsWith(ConstString.EASYLIST_ADSERVERS_POPUP)
-                        || t.StartsWith(ConstString.EASYLIST_EASYLIST_THIRDPARTY)
-                        || t.StartsWith(ConstString.EASYLIST_THIRDPARTY_POPUP))
+                    if (IsEasyListItemOn(t))
                     {
                         var index = t.IndexOf("!-----------------");
                         if (index > 0)
@@ -463,7 +458,7 @@ namespace ABPUtils
             return sBuilder.Replace("\r", string.Empty).ToString();
         }
 
-        static string TrimEasyPrivacy()
+        private static string TrimEasyPrivacy()
         {
             StringBuilder sBuilder = new StringBuilder();
             using (StreamReader sr = new StreamReader(ConstString.EASYPRIVACY, Encoding.UTF8))
@@ -477,13 +472,10 @@ namespace ABPUtils
                     var t = list.Trim();
 
                     if (t.StartsWith(ConstString.HEAD)
-                        || t.StartsWith(ConstString.EASYPRIVACY_WHITELIST)
-                        || t.StartsWith(ConstString.EASYPRIVACY_WHITELIST_INTERNATIONAL))
+                        || IsEasyPrivacyOff(t))
                         continue;
 
-                    if (t.StartsWith(ConstString.EASYPRIVACY_TRACKINGSERVERS_INTERNATIONAL)
-                        || t.StartsWith(ConstString.EASYPRIVACY_THIRDPARTY_INTERNATIONAL)
-                        || t.StartsWith(ConstString.EASYPRIVACY_SPECIFIC_INTERNATIONAL))
+                    if (t.IndexOf("_international.txt") > -1)
                     {
                         int chinese = t.IndexOf("! Chinese");
                         if (chinese < 0)
@@ -509,7 +501,7 @@ namespace ABPUtils
             return sBuilder.Replace("\r", string.Empty).ToString();
         }
 
-        static string ParseNameServer(string ns)
+        private static string ParseNameServer(string ns)
         {
             string temp = string.Empty;
             temp = ns.Split('=')[1].Trim();
@@ -518,7 +510,7 @@ namespace ABPUtils
             return temp;
         }
 
-        static StringBuilder RemoveDuplicateFilter(StringBuilder sBuilder)
+        private static StringBuilder RemoveDuplicateFilter(StringBuilder sBuilder)
         {
             var list = new List<string>(sBuilder.ToString().Split('\n')).Distinct<string>();
             var t = new List<string>();
@@ -535,6 +527,77 @@ namespace ABPUtils
             }
 
             return sBuilder;
+        }
+
+        private static Configurations GetConfigurations()
+        {
+            if (File.Exists(ConstString.PATCH_FILE))
+            {
+                using (StreamReader sr = new StreamReader(ConstString.PATCH_FILE, Encoding.UTF8))
+                {
+                    string xml = sr.ReadToEnd();
+                    return SimpleSerializer.XmlDeserialize<Configurations>(xml);
+                }
+            }
+
+            return null;
+        }
+
+        private static bool IsEasyListItemOn(string value)
+        {
+            Configurations patchconfig = GetConfigurations();
+            List<string> easyList = null;
+
+            if (patchconfig == null || patchconfig.EasyListFlag == null)
+            {
+                easyList = new List<string>(new string[] {ConstString.EASYLIST_EASYLIST_GENERAL_BLOCK,
+                                        ConstString.EASYLIST_EASYLIST_GENERAL_HIDE,
+                                        ConstString.EASYLIST_EASYLIST_GENERAL_POPUP,
+                                        ConstString.EASYLIST_GENERAL_BLOCK_DIMENSIONS,
+                                        ConstString.EASYLIST_EASYLIST_ADSERVERS,
+                                        ConstString.EASYLIST_ADSERVERS_POPUP,
+                                        ConstString.EASYLIST_EASYLIST_THIRDPARTY,
+                                        ConstString.EASYLIST_THIRDPARTY_POPUP});
+            }
+            else
+            {
+                easyList = patchconfig.EasyListFlag;
+            }
+
+            foreach (var s in easyList)
+            {
+                if (value.IndexOf(s) > -1)
+                    return true;
+            }
+
+            return false;
+        }
+
+        private static bool IsEasyPrivacyOff(string value)
+        {
+            List<string> easyPrivacy = null;
+            Configurations patchconfig = GetConfigurations();
+
+            if (patchconfig == null || patchconfig.EasyPrivacyFlag == null)
+            {
+                easyPrivacy = new List<string>(
+                 new string[] {
+                                ConstString.EASYPRIVACY_WHITELIST,
+                                ConstString.EASYPRIVACY_WHITELIST_INTERNATIONAL
+                            });
+            }
+            else
+            {
+                easyPrivacy = patchconfig.EasyPrivacyFlag;
+            }
+
+            foreach (var s in easyPrivacy)
+            {
+                if (value.IndexOf(s) > -1)
+                    return true;
+            }
+
+            return false;
         }
     }
 }

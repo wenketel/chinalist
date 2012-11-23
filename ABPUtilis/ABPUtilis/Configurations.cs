@@ -3,14 +3,27 @@ using System.Collections;
 
 namespace ABPUtils
 {
-    public class PatchConfigurations
+    public class Configurations
     {
-
-        public PatchConfigurations()
+        public Configurations()
         {
+            EasyListFlag = new List<string>();
+            EasyPrivacyFlag = new List<string>();
             RemovedItems = new List<string>();
             NewItems = new List<string>();
             ModifyItems = new List<ModifyItem>();
+        }
+
+        public List<string> EasyListFlag
+        {
+            get;
+            set;
+        }
+
+        public List<string> EasyPrivacyFlag
+        {
+            get;
+            set;
         }
 
         public List<string> RemovedItems
@@ -30,7 +43,7 @@ namespace ABPUtils
             get;
             set;
         }
-       
+
     }
 
     public class ModifyItem
