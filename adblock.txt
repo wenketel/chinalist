@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: ea1QOuJxMoEkcdCDlqlVKQ
+!  Checksum: HFKmSNz7elhTPy5zkXxZhg
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 24 Nov 2012 11:15:49 +0800
+!  Last Modified:  Sat, 24 Nov 2012 11:25:22 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -2204,8 +2204,9 @@ ihome99.com##.pop-ad
 ||x.itiexue.net/html/$script
 tiexue.net###Baidu_WWW_TopAD4
 tiexue.net##.banner
-||img.jb51.net/imgby/
-||img.jb51.net/downjs/$script
+@@||img.jb51.net/inc/content.js
+||img.jb51.net^$script
+jb51.net###liad_list
 ||img1.jczqw.com/img/
 ||jd-bbs.com^$object
 ||jpwind.com/images/partner/
@@ -2475,6 +2476,7 @@ zxtjd.com###it_an
 ||js.968870.com^$third-party
 ||98766.com^$third-party
 ||999d.com^$third-party
+||99ddd.com^$third-party
 ||9buo.com^$third-party
 ||9cpm.com^$third-party
 ||res.9dzc.com^$third-party
