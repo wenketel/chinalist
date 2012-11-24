@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: yypm31Wzc3fZy0aVJNAA8Q
+!  Checksum: r3ufL0ouTtW/HwEQZJ+uZA
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 23 Nov 2012 19:48:26 +0800
+!  Last Modified:  Sat, 24 Nov 2012 10:56:17 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -333,7 +333,6 @@ bitauto.com##.con_ad
 @@||union.bokecc.com/player?
 @@||union.bokecc.com/servlet/playinfo?
 @@||union.bokecc.com/servlet/getvideofile?
-||bokecc.com^*/playlog?
 ||click.bokecc.com^
 ||imedia.bokecc.com^
 ||play.bokecc.com/servlet/PlayVideo?
@@ -497,7 +496,6 @@ dm5.com,dm5.hk##.cl970
 ||pics.wanlibo.com/js/pagemodulestat.js
 
 !---对路
-||dui.lu/index.php/ad/
 ||dui.lu/index.php/stat/
 ||dui.lu/partner/
 ||dui.lu/staticts.html
@@ -1058,7 +1056,6 @@ www.qidian.com##.RightAD
 |http://*/*.ca|$domain=jjwxc.net
 ||jjwxc.net/jjad*.html$image,~image,popup
 ||static.jjwxc.net/sp/$subdocument
-||static.jjwxc.net/scripts/richMedia.js
 jjwxc.net##[id^="adp_"]
 jjwxc.net##.h8px + div[align="center"]
 jjwxc.net###containermmtypea
@@ -1315,6 +1312,7 @@ www.sohu.com###contentC > .columnC
 tv.sohu.com##.adbox
 tv.sohu.com##.nwBox
 tv.sohu.com###miaozhenad
+tv.sohu.com###zbill
 !--Sogou
 ||sogou.com/js/pb_*.js
 ||brand.sogou.com^
@@ -1464,7 +1462,6 @@ verypsp.com##table[width="960"]
 !---中国天气
 @@||poster.weather.com.cn/p_files/base/$image
 ||poster.weather.com.cn^
-||m.weather.com.cn/a1.js
 weather.com.cn##[class^="adpos"]
 weather.com.cn##.post_st
 
@@ -1705,7 +1702,6 @@ pc3w.com###title_ad
 
 !---纵横中文网
 ||log.zongheng.com^
-||static.zongheng.com/upload/ad/
 ||static.zongheng.com/v2012/cooperate/index_r_b.js
 ||static.zongheng.com/v2012/js/ad_click.js
 ||static.zongheng.com/v2012/js/adClickStat.js
@@ -2120,7 +2116,6 @@ www.jstv.com##.jadv
 ||js.5ilog.com/qq/js/jsgg.js
 ||9ist.com/others/ad/
 9ist.com##.tab_mb[width="100%"]
-||arting365.com/advs/
 ||badmintoncn.com/cbo_gg/
 ||bitscn.com/pic2009/a*.js
 ||c168c.com/*adv/
@@ -2432,7 +2427,6 @@ zxtjd.com###it_an
 ||51wan.com^$third-party
 ||5228167.com^$third-party
 ||523688.com^$third-party
-||52cpm.com^$third-party
 ||55620.com^$third-party
 ||5566ad.com^$third-party
 ||565882.com^$third-party
@@ -2463,6 +2457,7 @@ zxtjd.com###it_an
 ||7pk.com^$third-party
 ||81813.com^$third-party
 ||84232.com^$third-party
+||84787111.com^$third-party
 ||8601098.com^$third-party
 ||88210212.com^$third-party
 ||885ad.com^$third-party
@@ -2501,7 +2496,6 @@ zxtjd.com###it_an
 ||adnets.cn^$third-party
 ||adpower.cn^$third-party
 ||adqoo.com^$third-party
-||ads001.com^$third-party
 ||ads80.com^$third-party
 ||adsage.com^$third-party
 ||adsame.com^$third-party,domain=~autohome.com.cn|~iphone4.tw
@@ -2829,7 +2823,6 @@ zxtjd.com###it_an
 /adpshow.
 /adpuba/*
 /adservice/*
-/adsimg/*
 /adv.
 /adv/*$domain=~ftchinese.com
 /advpic/*
@@ -2916,7 +2909,6 @@ zxtjd.com###it_an
 ||phpstat.com^$third-party
 ||sitebot.cn^$third-party
 ||sitebro.$third-party
-||sitestates.com^$third-party
 ||sitetag.us^$third-party
 ||top-bloggers.com^$third-party
 ||tovery.net^$third-party

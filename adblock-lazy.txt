@@ -1,7 +1,7 @@
-[Adblock Plus 1.2]
-!  Checksum: UYryvi+h3xW2Jy2py4fsTg
+[Adblock Plus 2.1]
+!  Checksum: behLpyykZYOcKpwGewImkw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 23 Nov 2012 19:48:28 +0800
+!  Last Modified:  Sat, 24 Nov 2012 10:56:20 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -334,7 +334,6 @@ bitauto.com##.con_ad
 @@||union.bokecc.com/player?
 @@||union.bokecc.com/servlet/playinfo?
 @@||union.bokecc.com/servlet/getvideofile?
-||bokecc.com^*/playlog?
 ||click.bokecc.com^
 ||imedia.bokecc.com^
 ||play.bokecc.com/servlet/PlayVideo?
@@ -498,7 +497,6 @@ dm5.com,dm5.hk##.cl970
 ||pics.wanlibo.com/js/pagemodulestat.js
 
 !---对路
-||dui.lu/index.php/ad/
 ||dui.lu/index.php/stat/
 ||dui.lu/partner/
 ||dui.lu/staticts.html
@@ -1059,7 +1057,6 @@ www.qidian.com##.RightAD
 |http://*/*.ca|$domain=jjwxc.net
 ||jjwxc.net/jjad*.html$image,~image,popup
 ||static.jjwxc.net/sp/$subdocument
-||static.jjwxc.net/scripts/richMedia.js
 jjwxc.net##[id^="adp_"]
 jjwxc.net##.h8px + div[align="center"]
 jjwxc.net###containermmtypea
@@ -1316,6 +1313,7 @@ www.sohu.com###contentC > .columnC
 tv.sohu.com##.adbox
 tv.sohu.com##.nwBox
 tv.sohu.com###miaozhenad
+tv.sohu.com###zbill
 !--Sogou
 ||sogou.com/js/pb_*.js
 ||brand.sogou.com^
@@ -1465,7 +1463,6 @@ verypsp.com##table[width="960"]
 !---中国天气
 @@||poster.weather.com.cn/p_files/base/$image
 ||poster.weather.com.cn^
-||m.weather.com.cn/a1.js
 weather.com.cn##[class^="adpos"]
 weather.com.cn##.post_st
 
@@ -1706,7 +1703,6 @@ pc3w.com###title_ad
 
 !---纵横中文网
 ||log.zongheng.com^
-||static.zongheng.com/upload/ad/
 ||static.zongheng.com/v2012/cooperate/index_r_b.js
 ||static.zongheng.com/v2012/js/ad_click.js
 ||static.zongheng.com/v2012/js/adClickStat.js
@@ -2120,7 +2116,6 @@ www.jstv.com##.jadv
 ||js.5ilog.com/qq/js/jsgg.js
 ||9ist.com/others/ad/
 9ist.com##.tab_mb[width="100%"]
-||arting365.com/advs/
 ||badmintoncn.com/cbo_gg/
 ||bitscn.com/pic2009/a*.js
 ||c168c.com/*adv/
@@ -2432,7 +2427,6 @@ zxtjd.com###it_an
 ||51wan.com^$third-party
 ||5228167.com^$third-party
 ||523688.com^$third-party
-||52cpm.com^$third-party
 ||55620.com^$third-party
 ||5566ad.com^$third-party
 ||565882.com^$third-party
@@ -2463,6 +2457,7 @@ zxtjd.com###it_an
 ||7pk.com^$third-party
 ||81813.com^$third-party
 ||84232.com^$third-party
+||84787111.com^$third-party
 ||8601098.com^$third-party
 ||88210212.com^$third-party
 ||885ad.com^$third-party
@@ -2501,7 +2496,6 @@ zxtjd.com###it_an
 ||adnets.cn^$third-party
 ||adpower.cn^$third-party
 ||adqoo.com^$third-party
-||ads001.com^$third-party
 ||ads80.com^$third-party
 ||adsage.com^$third-party
 ||adsame.com^$third-party,domain=~autohome.com.cn|~iphone4.tw
@@ -2829,7 +2823,6 @@ zxtjd.com###it_an
 /adpshow.
 /adpuba/*
 /adservice/*
-/adsimg/*
 /adv.
 /adv/*$domain=~ftchinese.com
 /advpic/*
@@ -2916,7 +2909,6 @@ zxtjd.com###it_an
 ||phpstat.com^$third-party
 ||sitebot.cn^$third-party
 ||sitebro.$third-party
-||sitestates.com^$third-party
 ||sitetag.us^$third-party
 ||top-bloggers.com^$third-party
 ||tovery.net^$third-party
@@ -3102,6 +3094,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 .adresult.
 .adriver.$~object-subrequest
 .ads.darla.
+.ads.loader-
 .adsbox.
 .adsense.
 .adserv/
@@ -3664,6 +3657,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /ads/125r.
 /ads/468a.
 /ads/728b.
+/ads/advshow.
 /ads/center-
 /ads/generatedHTML/*
 /ads/header_
@@ -3678,6 +3672,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /ads/pencil/*
 /ads/player-
 /ads/plugs/*
+/ads/popshow.
 /ads/proxy-
 /ads/skins/*
 /ads/sponsor
@@ -4615,6 +4610,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /iprom-ad/*
 /irc_ad_
 /ireel/ad*.jpg
+/is.php?ipua_id=*&search_id=
 /isgadvertisement/*
 /iwadsense.
 /j/ads.js
@@ -8770,7 +8766,6 @@ _a468x60.
 ##.ad-text-links
 ##.ad-thanks
 ##.ad-tile
-~ebayclassifieds.com,~gumtree.co.nz,~gumtree.com,~gumtree.com.au,~gumtree.pl,~tradingpost.com.au##.ad-title
 ~buccaneers.com,~dallascowboys.com,~jaguars.com,~kcchiefs.com,~liveside.net,~neworleanssaints.com,~patriots.com,~philadelphiaeagles.com,~seahawks.com,~steelers.com,~sulekha.com,~vikings.com,~washingtonpost.com##.ad-top
 ##.ad-top-lboard
 ##.ad-top-left
@@ -9342,6 +9337,7 @@ _a468x60.
 ##.adsMiddle
 ##.adsRight
 ##.adsRow
+##.adsText
 ##.adsTextHouse
 ##.adsTop
 ##.adsTower2
@@ -9559,6 +9555,7 @@ _a468x60.
 ##.adverserve145
 ##.advert-300-side
 ##.advert-300x100-side
+##.advert-728-90
 ##.advert-728x90
 ##.advert-760
 ##.advert-article-bottom
@@ -10822,6 +10819,7 @@ _a468x60.
 ##.rhs-advert-container
 ##.rhs-advert-link
 ##.rhs-advert-title
+##.rhsad
 ~7-eleven.com##.right-ad
 ##.right-ad-holder
 ##.right-ad2
@@ -11398,7 +11396,7 @@ _a468x60.
 ~techrepublic.com,~time.com##a[href^="http://ad.doubleclick.net/"]
 ##a[href^="http://ads.pheedo.com/"]
 ##a[href^="http://adserving.liveuniversenetwork.com/"]
-##a[href^="http://amzn.to/"][target="_blank"] > img[src^="data:image/"]
+##a[href^="http://amzn.to/"][target="_blank"] > img[src^="data"]
 ##a[href^="http://api.ringtonematcher.com/"]
 ##a[href^="http://codec.codecm.com/"]
 ##a[href^="http://galleries.pinballpublishernetwork.com/"]
@@ -13103,6 +13101,7 @@ _a468x60.
 ||ais.abacast.com^
 ||ak.imgaft.com^$third-party
 ||ak1.imgaft.com^$third-party
+||akamai.net^*/espnpreroll/$object-subrequest
 ||akamaihd.net/preroll*.mp4?$domain=csnnw.com
 ||akamaihd.net/ssa/*?zoneid=$subdocument
 ||all4naija.com/banners/
@@ -13672,6 +13671,7 @@ _a468x60.
 ||mgid.com^$script,subdocument,third-party
 ||microsoft.com^*/bannerrotator/$third-party
 ||microsoft.com^*/community/images/windowsintune/$third-party
+||mightyape.co.nz/stuff/$third-party
 ||mightydeals.com/widget?$third-party
 ||mightydeals.com/widgets/$third-party
 ||missnowmrs.com/images/banners/
@@ -13691,7 +13691,6 @@ _a468x60.
 ||musicmemorization.com/images/$third-party
 ||musik-a-z.com^$subdocument,third-party
 ||my-best-jobs.com^$subdocument,third-party
-||my-dirty-hobby.com/getmdhlink.$third-party
 ||my-dirty-hobby.com/track/$subdocument,third-party
 ||mydesignstorage.com/banners/
 ||mydirtyhobby.com^$third-party
@@ -13776,7 +13775,6 @@ _a468x60.
 ||pricegrabber.com/mlink.php?$third-party
 ||privatewifi.com/swf/banners/
 ||promo.bauermedia.co.uk^
-||promo.mydirtyhobby.com^$third-party
 ||promos.fling.com^
 ||promote.pair.com^
 ||promotions.iasbet.com^
@@ -13947,7 +13945,6 @@ _a468x60.
 ||tradearabia.com/banners/
 ||tradeboss.com/1/banners/
 ||travelmail.traveltek.net^$third-party
-||treatme.co.nz/Affiliates/
 ||trialpay.com^*&dw-ptid=$third-party
 ||trivago.co.uk/uk/srv/$third-party
 ||trtre.zapto.org^
@@ -16794,7 +16791,6 @@ _effectivemeasure_tag.js
 ||twimbow.com/serverreq/twbtracker.php$xmlhttprequest
 ||twitter.com/abacus?
 ||twitter.com/scribe?
-||twitvid.com/api/tracking.php$object-subrequest
 ||txn.thenewsroom.com^
 ||typepad.com/t/stats?
 ||u.bb/omni*.swf|
@@ -16918,7 +16914,6 @@ _effectivemeasure_tag.js
 ||cri.cn/wrating.js
 ||dj.renren.com^
 ||ftchinese.com/log/new_log.php?
-||hk.ndx.nextmedia.com^
 ||logstat.caixin.com^
 ||nstat.tudou.com^
 ||pingjs.qq.com^
@@ -16930,7 +16925,6 @@ _effectivemeasure_tag.js
 ||soufun.com/stats/
 ||stat.caijing.com.cn^
 ||titan24.com/scripts/stats.js
-||unstat.baidu.com^
 ||weather.com.cn/a.gif?
 ||weather.com.cn/a1.js
 ||webd.home.news.cn/1.gif?

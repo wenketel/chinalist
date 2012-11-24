@@ -17,7 +17,6 @@
 		<string>easylist:easyprivacy/easyprivacy_whitelist_international.txt</string>
 	</EasyPrivacyFlag>
 	<RemovedItems>
-		<string>/affiliate/banner.php?</string>
 		<string>/affiliate/banners/*</string>
 		<string>/affiliate/script.php?</string>
 		<string>/affiliate/scripts/*</string>
@@ -25,6 +24,7 @@
 		<string>/banners/affiliate/*</string>
 		<string>/image/affiliate/*</string>
 		<string>/images/affiliate/*</string>
+		<string>||treatme.co.nz/Affiliates/</string>
 		<string>/adv.htm</string>
 		<string>/affiliates/banners/*</string>
 		<string>||axandra.com/affiliates/</string>
@@ -85,8 +85,6 @@
 		<string>/vstats/counter.php</string>
 		<string>/webstatistik/track.asp</string>
 		<string>||goadv.com^*/track.js</string>
-		<string>||mydirtyhobby.com/track.php?$third-party</string>
-		<string>||neulion.com^*/track.gif?</string>
 		<string>||cnzz.com/c.php?</string>
 		<string>||cnzz.com/stat.</string>
 		<string>||wrating.com/*.gif?</string>
@@ -142,7 +140,6 @@
 		<string>/ads/ads_</string>
 		<string>/ads/banner.</string>
 		<string>/ads/banner01.</string>
-		<string>/ads/banner468.</string>
 		<string>/ads/banners/*</string>
 		<string>/ads/cnvideo/*</string>
 		<string>/ads/common/*</string>
@@ -174,7 +171,6 @@
 		<string>/ads/ringtone_</string>
 		<string>/ads/show.</string>
 		<string>/ads/side-</string>
-		<string>/ads/sponsor_</string>
 		<string>/ads/square-</string>
 		<string>/ads/third-</string>
 		<string>/ads/top-</string>
@@ -287,6 +283,11 @@
 		<string>||yahoo.net^*/ads/</string>
 		<string>||213.174.140.76^*/ads/</string>
 		<string>||brazzers.com/ads/</string>
+		<string>||my-dirty-hobby.com/getmdhlink.$third-party</string>
+		<string>||promo.mydirtyhobby.com^$third-party</string>
+		<string>||twitvid.com/api/tracking.php$object-subrequest</string>
+		<string>||unstat.baidu.com^</string>
+		<string>||hk.ndx.nextmedia.com^</string>
 	</RemovedItems>
 	<NewItems>
 		<string>||espn.vad.go.com^$domain=youtube.com</string>
