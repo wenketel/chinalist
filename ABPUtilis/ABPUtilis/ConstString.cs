@@ -9,7 +9,7 @@ namespace ABPUtils
     {
         public const string PATCH_FILE = "patch.xml";
         public const string EASYLIST = "easylist.txt";
-        public const string CHINALIST_LAZY_HEADER = @"[Adblock Plus 1.2]
+        public const string CHINALIST_LAZY_HEADER = @"[Adblock Plus 2.1]
 !  Adblock Plus List with Main Focus on Chinese Sites.
 !  Last Modified:  
 !  Homepage: http://adblock-chinalist.googlecode.com/
@@ -31,10 +31,13 @@ Usage: ABPUtils.exe -n -d=google.com -dns=8.8.8.8
        ABPUtils.exe -v -i=adblock.txt
        ABPUtils.exe -u -i=adblock.txt
        ABPUtils.exe -m -i=adblock.txt -patch -o=adblock-lazy.txt
+       ABPUtils.exe -i=adblock.txt -conf
 
   version        Show ABPUtils version.
 
   c, check       Check the domains in the specific input file.
+
+  conf           Clean patch.xml if exist.
 
   d, domain      The domain need to be checked (required).
 

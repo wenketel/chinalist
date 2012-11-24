@@ -3,7 +3,7 @@ using System.Text;
 
 namespace ABPUtils
 {
-    class QueryResult
+    public class QueryResult
     {
         public string Domain
         {

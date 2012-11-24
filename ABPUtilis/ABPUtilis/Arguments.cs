@@ -9,7 +9,7 @@ namespace ABPUtils
     /// <summary>
     /// support [–/]arg[:=]value and with the list support
     /// </summary>
-    class Arguments
+    public class Arguments
     {
         /// <summary>
         /// Splits the command line. When main(string[] args) is used escaped quotes (ie a path "c:\folder\")

@@ -129,6 +129,7 @@
   <ItemGroup>
     <Compile Include="Arguments.cs" />
     <Compile Include="ChinaList.cs" />
+    <Compile Include="ChinaLists.cs" />
     <Compile Include="ConstString.cs" />
     <Compile Include="dns\ANameRecord.cs" />
     <Compile Include="dns\Enums.cs" />
@@ -187,7 +188,7 @@
 if NOT $(ConfigurationName) == Release goto exit
 
 echo Build binary for AnyCPU platform
-copy $(TargetPath)  $(TargetDir)..\..\..\..\..\trunk\$(TargetFileName)
+copy $(TargetPath)  $(TargetDir)..\..\..\..\$(TargetFileName)
 
 :exit
 echo Finished Post Build Event</PostBuildEvent>
@@ -196,8 +197,8 @@ echo Finished Post Build Event</PostBuildEvent>
     <PreBuildEvent>REM If Debug config, do nothing...
 if NOT $(ConfigurationName) == Debug goto exit
 
-copy /Y $(TargetDir)..\..\..\..\..\trunk\adblock.txt $(TargetDir)
-copy /Y $(TargetDir)..\..\..\..\..\trunk\patch.xml $(TargetDir)
+copy /Y $(ProjectPath)\..\..\..\adblock.txt $(TargetDir)
+copy /Y $(TargetDir)..\..\..\..\patch.xml $(TargetDir)
 
 :exit
 echo Finished Pre Build Event</PreBuildEvent>

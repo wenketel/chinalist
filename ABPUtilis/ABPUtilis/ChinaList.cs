@@ -34,7 +34,7 @@ namespace ABPUtils
             content = RemoveChecksum(content);
 
             string result = UpdateCheckSum(content);
-            Save(FileName, result);
+            ChinaLists.Save(FileName, result);
         }
 
         /// <summary>
@@ -92,20 +92,6 @@ namespace ABPUtils
             urls.Sort();
 
             return urls;
-        }
-
-        /// <summary>
-        /// save file
-        /// </summary>
-        /// <param name="fileName"></param>
-        /// <param name="content"></param>
-        public static void Save(string fileName, string content)
-        {
-            using (StreamWriter sw = new StreamWriter(fileName, false))
-            {
-                sw.Write(content);
-                sw.Flush();
-            }
         }
 
         /// <summary>
