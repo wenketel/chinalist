@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: 7dSoFinHcvP5E3T3Ml63bg
+!  Checksum: lLGBpXDYMClUo/J+5BFBCQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 24 Nov 2012 23:09:38 +0800
+!  Last Modified:  Sun, 25 Nov 2012 10:47:10 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -959,9 +959,10 @@ club.pchome.net###shop_promotion
 !---南方都市报
 /nddailyfile/webadv/*
 oeeee.com##[class^="ad-"]
-oeeee.com##.textad-960-65.clearfix.c-gray
 oeeee.com##.content.clearfix[style="height:75px;"]
+oeeee.com##.left-clumb-gray-ad.mtl0px.clearfix
 oeeee.com###lj.clearfix
+oeeee.com##.textad-960-65.clearfix.c-gray
 
 !---太平洋电脑网
 ||imgad0.3conline.com^
@@ -5566,6 +5567,7 @@ takeover_banner_
 -ad_120x240.
 -banner468x60.
 .120x600.
+.160x600.
 .300x250.
 .468x60-
 .468x60.
@@ -7545,6 +7547,7 @@ _a468x60.
 ###header_ad_container
 ###header_adcode
 ###header_ads
+###header_ads_p
 ###header_advert
 ###header_advertisement_top
 ###header_flag_ad
@@ -10765,7 +10768,7 @@ _a468x60.
 ##.portalcontentad
 ~bigfootpage.com,~gumtree.com##.post-ad
 ##.postAd
-##.post_ad
+~ayosdito.ph##.post_ad
 ~personalpost.washingtonpost.com##.post_ads
 ##.post_sponsor_unit
 ##.postbit_adbit_register
@@ -11406,7 +11409,7 @@ _a468x60.
 ~techrepublic.com,~time.com##a[href^="http://ad.doubleclick.net/"]
 ##a[href^="http://ads.pheedo.com/"]
 ##a[href^="http://adserving.liveuniversenetwork.com/"]
-##a[href^="http://amzn.to/"][target="_blank"] > img[src^="data"]
+##a[href^="http://amzn.to/"] > img[src^="data"]
 ##a[href^="http://api.ringtonematcher.com/"]
 ##a[href^="http://codec.codecm.com/"]
 ##a[href^="http://galleries.pinballpublishernetwork.com/"]
@@ -13711,7 +13714,6 @@ _a468x60.
 ||myhpf.co.uk/banners/
 ||mytrafficstrategy.com/images/$third-party
 ||myusenet.net/promo.cgi?
-||myvnc.com^*.$subdocument,third-party
 ||mzstatic.com^$image,object-subrequest,domain=dailymotion.com
 ||namecheap.com/graphics/linkus/$third-party
 ||nanoinvestgroup.com/images/banner*.gif
@@ -13724,7 +13726,6 @@ _a468x60.
 ||newware.net/home/banner$third-party
 ||nimblecommerce.com/widget.action?
 ||nitropdf.com/graphics/promo/$third-party
-||no-ip.org^*.$subdocument,third-party
 ||nocookie.net^*/wikiasearchads.js
 ||nwadealpiggy.com/widgets/
 ||nzpages.co.nz^*/banners/
@@ -13811,7 +13812,6 @@ _a468x60.
 ||red-tube.com^*.php?wmid=*&kamid=*&wsid=$third-party
 ||redbeacon.com/widget/$third-party
 ||redflagdeals.com/dealoftheday/widgets/$third-party
-||redirectme.net^*.$subdocument,third-party
 ||redtram.com^$script,third-party
 ||redvase.bravenet.com^$third-party
 ||regnow.com/vendor/
@@ -13845,15 +13845,7 @@ _a468x60.
 ||seednet.eu/banners/
 ||selectperformers.com/images/a/
 ||selectperformers.com/images/elements/bannercolours/
-||servebeer.com^*.$subdocument,third-party
-||serveblog.net^*.$subdocument,third-party
-||servecounterstrike.com^*.$subdocument,third-party
 ||servedby.keygamesnetwork.com^
-||serveftp.com^*.$subdocument,third-party
-||servegame.com^*.$subdocument,third-party
-||servehalflife.com^*.$subdocument,third-party
-||servemp3.com^*.$subdocument,third-party
-||servepics.com^*.$subdocument,third-party
 ||servequake.com^$subdocument,third-party
 ||service.smscoin.com/js/sendpic.js
 ||sfimg.com/images/banners/
