@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: Cepe/Gm6wHciAhZz5uyWdw
+!  Checksum: POxdA4kcqWzWPLNF2Bbfdw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 06 Dec 2012 18:28:49 +0800
+!  Last Modified:  Fri, 07 Dec 2012 01:11:16 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -295,11 +295,12 @@ iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com##[class^="wgt-ads"]
 ||pub.htwisdom.com^$third-party
 ||iqiyi.com/player/*/theatre$object
 ||afp.qiyi.com^
-||cupid.qiyi.com^
+||data.video.qiyi.com/videos/other/$object_subrequest
 ||static.qiyi.com/js/pingback/
 ||jsmsg.video.qiyi.com^
 ||msg.video.qiyi.com^
 ||uestat.video.qiyi.com^
+||qiyipic.com/common/$object_subrequest
 iqiyi.com###adflash
 iqiyi.com##[id^="div_theatre"]
 iqiyi.com##.first_adv
@@ -5225,7 +5226,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /wp-content/plugins/banner-manager/*
 /wp-content/plugins/bhcb/lock.js
 /wp-content/plugins/fasterim-optin/*
-/wp-content/plugins/wp-super-popup/*
+/wp-content/plugins/wp-super-popup/*$~stylesheet
 /wp-srv/ad/*
 /wpads/iframe.
 /writelayerad.
@@ -8280,6 +8281,8 @@ _a468x60.
 ###whatsnews_top_ad
 ###whitepaper-ad
 ###whoisRightAdContainer
+###wide_ad_unit
+###wide_ad_unit2
 ###wide_ad_unit_top
 ###wideskyscraper_160x600_left
 ###wideskyscraper_160x600_right
@@ -9281,6 +9284,7 @@ _a468x60.
 ##.adsensem_widget
 ##.adsensesq
 ##.adsenvelope
+##.adseparator
 ##.adserver_zone
 ##.adset
 ##.adsforums
@@ -10016,6 +10020,7 @@ _a468x60.
 ##.gen_side_ad
 ##.geoAd
 ##.ggads
+##.ggadunit
 ##.gglAds
 ##.global_banner_ad
 ##.googad
@@ -10823,6 +10828,7 @@ _a468x60.
 ##.sponsoredLinksHeader
 ##.sponsoredProduct
 ##.sponsoredResults
+##.sponsoredSearch
 ##.sponsoredSideInner
 ##.sponsored_ad
 ##.sponsored_ads
@@ -11055,6 +11061,7 @@ _a468x60.
 ##.weather_ad
 ##.web-result-sponsored
 ##.webads336x280
+##.wfb-ad
 ##.wide-ad
 ##.wide-advert
 ##.wide-footer-ad
@@ -11523,6 +11530,7 @@ _a468x60.
 ||applifier.com^$third-party
 ||apptap.com^$third-party
 ||arcadebannerexchange.net^$third-party
+||arcadebannerexchange.org^$third-party
 ||arcadebanners.com^$third-party
 ||arcadebe.com^$third-party
 ||areasnap.com^$third-party
@@ -12372,7 +12380,6 @@ _a468x60.
 ||safeadnetworkdata.net^$third-party
 ||safelistextreme.com^$third-party
 ||sail-horizon.com^$third-party
-||sailthru.com^$third-party
 ||salvador24.com^$third-party
 ||saple.net^$third-party
 ||saveads.net^$third-party
@@ -13488,6 +13495,8 @@ _a468x60.
 ||s1now.com^*/takeovers/
 ||safarinow.com/affiliate-zone/
 ||safelinks.eu/open.js
+||sailthru.com/horizon/
+||sailthru.com^*/horizon.js
 ||sat-shop.co.uk/images/$third-party
 ||screenconnect.com/miscellaneous/ScreenConnect-$image,third-party
 ||scribol.com/txwidget$third-party
@@ -14907,6 +14916,7 @@ _effectivemeasure_tag.js
 ||turn.com^$third-party
 ||tynt.com^$third-party
 ||u5e.com^$third-party
+||umbel.com^$third-party
 ||urlself.com^$third-party
 ||useronlinecounter.com^$third-party
 ||userreport.com^$third-party
