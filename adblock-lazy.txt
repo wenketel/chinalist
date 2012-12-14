@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: etjzs2AFa7EVwBBouQlQ/w
+!  Checksum: VReqvlreKD5HeMEnjAt1cw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 13 Dec 2012 21:06:32 +0800
+!  Last Modified:  Sat, 15 Dec 2012 04:52:05 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1710,10 +1710,12 @@ pc3w.com##table[width="925"][height="305"]
 pc3w.com###title_ad
 
 !---纵横中文网
-||log.zongheng.com^
-||static.zongheng.com/v2012/cooperate/index_r_b.js
-||static.zongheng.com/v2012/js/ad_click.js
-||static.zongheng.com/v2012/js/adClickStat.js
+||static.zongheng.com^*/logger.min.js
+||static.zongheng.com^*/index_r_b.js
+||static.zongheng.com^*/ad_click.js
+||static.zongheng.com^*/adClickStat.js
+||static.zongheng.com/upload/ad/
+||static.zongheng.com/upload/zhds/
 
 !----------------------------Generic(sort by domain name)--
 !---Blog Sites
@@ -2911,6 +2913,7 @@ zxtjd.com###it_an
 ||blogtw.net^$third-party
 ||dw.cbsi.com.cn^$third-party
 ||cnzz.com^$third-party
+||log.so.cnzz.net^
 ||cms.grandcloud.cn^$third-party
 ||gridsum.com^$third-party
 ||cdn.hiido.cn^$third-party
@@ -3136,7 +3139,6 @@ google.com,google.com.hk###topstuff > #wmxmsg
 .com/adz/
 .com/affiliate/$~object-subrequest
 .com/bads/
-.com/banners/$image,object,subdocument
 .com/gads/
 .com/miads/
 .com/ss/ad/
@@ -5546,6 +5548,7 @@ takeover_banner_
 |http://ox-d.*/jstag^
 ||cacheserve.*/promodisplay/
 ||cacheserve.*/promodisplay?
+||com/banners/$image,object,subdocument
 ||online.*/promoredirect?key=
 ||serve.*/promoload?
 ! Anti-Adblock
@@ -5759,7 +5762,9 @@ _a468x60.
 ###ADSLOT_4
 ###ADSLOT_SKYSCRAPER
 ###ADSpro
+###ADV120x90
 ###ADVERTISE_HERE_ROW
+###ADVleaderboard
 ###AD_300
 ###AD_468x60
 ###AD_CONTROL_13
@@ -13804,6 +13809,7 @@ _a468x60.
 /ajaxservice.svc/registersession?session_id=
 /alllinksclicktracker.js
 /analysis-logger/logger?
+/analytics/hit.php?
 /analytics/mbox.js
 /analyzer/aa.php?
 /aspstats/index.asp?
