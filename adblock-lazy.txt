@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: IkWWa8Osu+LH+0mgTZxLpg
+!  Checksum: SG4BZqI1lbW5BfFJ2Qgg9w
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 15 Dec 2012 04:56:22 +0800
+!  Last Modified:  Mon, 17 Dec 2012 17:01:14 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -2988,6 +2988,7 @@ paoshu8.com##[id^="ad_"]
 paoshu8.com###TextTitle ~ table[border="0"]
 portal.opera.com##.ads
 portal.opera.com##.alt-ads
+bbs.potplayer.org##.a_pb
 price.com.hk###ad0
 price.com.hk##.tb
 cn.reuters.com##.ad
@@ -5254,6 +5255,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /xlayer/layer.php?uid=$script
 /xml/ads_
 /xmladparser.
+/xnxx-ads.
 /yahoo-ads/*
 /yahooads.
 /yellowpagesads/*
@@ -6123,6 +6125,7 @@ _a468x60.
 ###ad300-250
 ###ad300X250
 ###ad300_x_250
+###ad300b
 ###ad300x100Middle
 ###ad300x150
 ###ad300x250
@@ -6606,8 +6609,10 @@ _a468x60.
 ###ads-prices
 ###ads-rhs
 ###ads-right
+###ads-rt
 ###ads-sponsored-boxes
 ###ads-top
+###ads-tp
 ###ads-vers7
 ###ads-wrapper
 ###ads120
@@ -6709,6 +6714,7 @@ _a468x60.
 ###adsense_box
 ###adsense_box2
 ###adsense_box_video
+###adsense_honeytrap
 ###adsense_leaderboard
 ###adsense_overlay
 ###adsense_placeholder_2
@@ -7259,6 +7265,9 @@ _a468x60.
 ###dcol-sponsored
 ###defer-adright
 ###detail_page_vid_topads
+###dfp_ad_Entry_EntrySetA_300x250
+###dfp_ad_Entry_EntrySetA_728x90
+###dfp_ad_Entry_EntrySetC_728x90
 ###dfp_ad_Home_300x250
 ###dfp_ad_Home_728x90
 ###divAdBox
@@ -7831,7 +7840,6 @@ _a468x60.
 ###post-promo-ad
 ###post5_adbox
 ###post_ad
-###pre_advertising_wrapper
 ###premium_ad
 ###priceGrabberAd
 ###prime-ad-space
@@ -10562,6 +10570,7 @@ _a468x60.
 ##.partnerAd
 ##.partnersTextLinks
 ##.pencil_ad
+##.playerAd
 ##.player_ad_box
 ##.player_hover_ad
 ##.player_page_ad_box
@@ -11144,6 +11153,7 @@ _a468x60.
 ##.wp125ad
 ##.wp125ad_1
 ##.wp125ad_2
+##.wp_bannerize
 ##.wpn_ad_content
 ##.wrap-ads
 ##.wrapper-ad
@@ -12567,6 +12577,7 @@ _a468x60.
 ||traff-advertazer.com^$third-party
 ||trafficbarads.com^$third-party
 ||trafficbroker.com^$third-party
+||trafficfactory.biz^$third-party
 ||trafficforce.com^$third-party
 ||traffichaus.com^$third-party
 ||trafficjunky.net^$third-party
@@ -12749,6 +12760,7 @@ _a468x60.
 ||tapjoyads.com^$third-party
 ||waptrick.com^$third-party
 ! *** easylist:easylist/easylist_adservers_popup.txt ***
+||3file.info^$image,~image,popup,third-party
 ||888.com^$image,~image,popup,third-party
 ||888casino.com^$image,~image,popup,third-party
 ||888games.com^$image,~image,popup,third-party
@@ -12774,9 +12786,11 @@ _a468x60.
 ||clkads.com^$image,~image,popup,third-party
 ||contentabc.com^$image,~image,popup,third-party
 ||cpmstar.com^$image,~image,popup,third-party
+||ekod.info^$image,~image,popup,third-party
 ||exoclick.com^$image,~image,popup,third-party
 ||fidel.to^$image,~image,popup,third-party
 ||friendlyduck.com^$image,~image,popup,third-party
+||hapend.biz^$image,~image,popup,third-party
 ||jdtracker.com^$image,~image,popup,third-party
 ||kanoodle.com^$image,~image,popup,third-party
 ||livepromotools.com^$image,~image,popup,third-party
@@ -13744,6 +13758,7 @@ _a468x60.
 ! Mobile
 ||iadc.qwapi.com^
 ! *** easylist:easylist/easylist_thirdparty_popup.txt ***
+||4utro.ru^$image,~image,popup
 ||affportal-lb.bevomedia.com^$image,~image,popup,third-party
 ||bet365.com/home/?affiliate=$image,~image,popup
 ||binaryoptions24h.com^$image,~image,popup,third-party
@@ -14380,7 +14395,6 @@ _effectivemeasure_tag.js
 ||clickstream.co.za^$third-party
 ||clicktale.net^$third-party
 ||clicktrack1.com^$third-party
-||clicktracks.com^$third-party
 ||clickzs.com^$third-party
 ||clickzzs.nl^$third-party
 ||clixpy.com^$third-party
@@ -14779,6 +14793,7 @@ _effectivemeasure_tag.js
 ||pixelsnippet.com^$third-party
 ||pjtra.com^$third-party
 ||plecki.com^$third-party
+||plexop.com^$third-party
 ||plugin.ws^$third-party
 ||pointomatic.com^$third-party
 ||ppctracking.net^$third-party
@@ -15953,6 +15968,7 @@ _effectivemeasure_tag.js
 ||entry-stats.huffingtonpost.com^
 ||environmentalgraffiti.com/eg/hits/logger?
 ||eporner.com/stats/
+||et.nytimes.com^
 ||event.allure.com^
 ||event.cntraveler.com^
 ||event.newyorker.com^
