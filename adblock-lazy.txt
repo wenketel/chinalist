@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: VHzEK6Gyvl2aozmVGI22EA
+!  Checksum: XGGLzqqoNFiqCFhW23Ghmw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 19 Dec 2012 21:47:07 +0800
+!  Last Modified:  Fri, 21 Dec 2012 09:08:01 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -2019,6 +2019,8 @@ ranhen.com###box_con > div[align="center"]
 ||saesky.net/js/$script
 @@||shanwen.com/configs/article/pagetop3.js
 ||shanwen.com^$script
+||shuhe.cc/ssi/
+shuhe.cc##.ad250left
 ||shuoshuo520.com/js/960.js
 ||shuoshuo520.com/scripts/read$script
 ||shushuw.cn/js/eteadx2011.js
@@ -2997,6 +2999,7 @@ ttmeiju.com##a[href^="http://www.ttmeiju.com/adclick.php?"]
 wcxiaoshuo.com##div[style="margin:10px auto; width:960px;height:90px;"]
 bbs.wuyou.com##[style="background: #BBE9FF"]
 xiachufang.com##.g-ga.g-bg-white
+zazww.com##[id^="ads_c_"]
 
 !-----------------------Temporary---------------------------
 !---2012.12
@@ -3109,6 +3112,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 .ad.footer.
 .ad.page.
 .ad.premiere.
+.admarvel.
 .adplacement=
 .adresult.
 .adriver.$~object-subrequest
@@ -3558,6 +3562,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /adlink-
 /adlink.
 /adlink/*
+/adLink728.
 /adlink_
 /adlinks.
 /adlist_
@@ -4546,8 +4551,11 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /googleadsense.
 /googleafs.
 /googleafvadrenderer.
+/googleleader.
+/googlempu.
 /graphics/ad_
 /gt6skyadtop.
+/guardianleader.
 /header-ad.
 /header_ads_
 /headerad.
@@ -4751,6 +4759,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /modules/ad_
 /mpu-dm.html
 /mpuad.
+/mpuguardian.
 /mpumessage.
 /msnadimg.
 /msnads/*
@@ -5193,6 +5202,8 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /u-ads.
 /uberlayadrenderer.
 /ugoads_inner.
+/ui/adv.
+/ui/adv_
 /uk/ads/*
 /ukc-ad.
 /unibluead.
@@ -6208,6 +6219,7 @@ _a468x60.
 ###adLabel
 ###adLeaderTop
 ###adLeaderboard
+###adLink300
 ###adMPU
 ###adMedRect
 ###adMediumRectangle
@@ -6526,6 +6538,7 @@ _a468x60.
 ###adbanner-top-right
 ###adbig
 ###adbladeSp
+###adblade_ad
 ###adbnr
 ###adboard
 ###adbottom
@@ -6824,6 +6837,7 @@ _a468x60.
 ###adv_300
 ###adv_728
 ###adv_Skin
+###adv_banner_sidebar
 ###adv_border
 ###adv_google_300
 ###adv_google_728
@@ -7122,6 +7136,7 @@ _a468x60.
 ###box_advertising_info
 ###box_advertisment
 ###box_mod_googleadsense
+###boxad
 ###boxad1
 ###boxad2
 ###boxad3
@@ -8219,6 +8234,7 @@ _a468x60.
 ###topAdSenseDiv
 ###topAdcontainer
 ###topAdsContainer
+###topAdsG
 ###topAdvBox
 ###topAdvert-09
 ###topBannerAdContainer
@@ -8576,6 +8592,7 @@ _a468x60.
 ##.ad-300x250-home
 ##.ad-300x250-right0
 ##.ad-300x250-singlepost
+##.ad-300x250_600x250
 ##.ad-300x600
 ##.ad-350
 ##.ad-355x75
@@ -9074,6 +9091,7 @@ _a468x60.
 ##.adbannerbox
 ##.adbannerright
 ##.adbase
+##.adbladeimg
 ##.adblock728x90
 ##.adboard
 ##.adborder
@@ -11283,7 +11301,7 @@ _a468x60.
 ||247realmedia.com^$third-party
 ||254a.com^$third-party
 ||2mdn.net/dot.gif$object-subrequest,third-party
-||2mdn.net^$object-subrequest,third-party,domain=101cargames.com|3news.co.nz|abc.go.com|abcnews.go.com|atlantafalcons.com|azcardinals.com|baltimoreravens.com|bbc.co.uk|bbc.com|bengals.com|bet.com|bloomberg.com|box10.com|brisbanetimes.com.au|buccaneers.com|buffalobills.com|bullz-eye.com|businessweek.com|calgaryherald.com|canada.com|chargers.com|chicagobears.com|clevelandbrowns.com|colts.com|ctvnews.ca|dallascowboys.com|denverbroncos.com|detroitlions.com|drive.com.au|earthcam.com|edmontonjournal.com|eonline.com|euronews.com|foodnetwork.ca|four.co.nz|gamingbolt.com|ghananation.com|giantbomb.com|giants.com|globalnews.ca|globaltoronto.com|globaltv.com|globaltvbc.com|globaltvcalgary.com|gorillanation.com|heraldsun.com.au|hgtv.ca|houstontexans.com|iheart.com|independent.ie|jaguars.com|kcchiefs.com|kdvr.com|kfiam640.com|komonews.com|kwgn.com|leaderpost.com|livestream.com|metacafe.com|miamidolphins.com|mojointhemorning.com|montrealgazette.com|my9tv.com|nationalpost.com|nba.tv|ndtv.com|neworleanssaints.com|newsmax.com|newyorkjets.com|nfl.com|ottawacitizen.com|packers.com|panthers.com|patriots.com|pcworld.com|philadelphiaeagles.com|prowrestling.com|radio.com|raiders.com|rapbasement.com|redskins.com|reuters.com|rollingstone.com|rottentomatoes.com|rte.ie|seahawks.com|sf49ers.com|sherdog.com|skynews.com.au|slice.ca|smh.com.au|steelers.com|stlouisrams.com|streetfire.net|stuff.co.nz|telegraph.co.uk|theage.com.au|theaustralian.com.au|thecomedynetwork.ca|theprovince.com|thestarphoenix.com|timescolonist.com|timeslive.co.za|titansonline.com|tsn.ca|usmagazine.com|vancouversun.com|vice.com|videojug.com|vikings.com|weather.com|wikihow.com|windsorstar.com|youtube.com
+||2mdn.net^$object-subrequest,third-party,domain=101cargames.com|3news.co.nz|abc.go.com|abcnews.go.com|atlantafalcons.com|azcardinals.com|baltimoreravens.com|bbc.co.uk|bbc.com|bengals.com|bet.com|bloomberg.com|box10.com|brisbanetimes.com.au|buccaneers.com|buffalobills.com|bullz-eye.com|businessweek.com|calgaryherald.com|canada.com|chargers.com|chicagobears.com|clevelandbrowns.com|colts.com|ctvnews.ca|dallascowboys.com|denverbroncos.com|detroitlions.com|drive.com.au|earthcam.com|edmontonjournal.com|entrepreneur.com|eonline.com|euronews.com|foodnetwork.ca|four.co.nz|gamingbolt.com|ghananation.com|giantbomb.com|giants.com|globalnews.ca|globaltoronto.com|globaltv.com|globaltvbc.com|globaltvcalgary.com|gorillanation.com|heraldsun.com.au|hgtv.ca|houstontexans.com|iheart.com|independent.ie|jaguars.com|kcchiefs.com|kdvr.com|kfiam640.com|komonews.com|kwgn.com|leaderpost.com|livestream.com|metacafe.com|miamidolphins.com|mojointhemorning.com|montrealgazette.com|my9tv.com|nationalpost.com|nba.tv|ndtv.com|neworleanssaints.com|newsmax.com|newyorkjets.com|nfl.com|ottawacitizen.com|packers.com|panthers.com|patriots.com|pcworld.com|philadelphiaeagles.com|prowrestling.com|radio.com|raiders.com|rapbasement.com|redskins.com|reuters.com|rollingstone.com|rottentomatoes.com|rte.ie|seahawks.com|sf49ers.com|sherdog.com|skynews.com.au|slice.ca|smh.com.au|steelers.com|stlouisrams.com|streetfire.net|stuff.co.nz|telegraph.co.uk|theage.com.au|theaustralian.com.au|thecomedynetwork.ca|theprovince.com|thestarphoenix.com|timescolonist.com|timeslive.co.za|titansonline.com|tsn.ca|usmagazine.com|vancouversun.com|vice.com|videojug.com|vikings.com|weather.com|wikihow.com|windsorstar.com|youtube.com
 ||2mdn.net^$~object-subrequest,third-party
 ||360ads.com^$third-party
 ||360yield.com^$third-party
@@ -12859,6 +12877,7 @@ _a468x60.
 ||2beon.co.kr/nad/$third-party
 ||2leep.com/ticker2/$third-party
 ||69.50.226.158^$third-party,domain=~worth1000.com.ip
+||6e32870d409e7dd29e74-1f888a5500a4bf77de3933bbc73268d9.r21.cf2.rackcdn.com^
 ||6theory.com/pub/
 ||770.com/banniere.php?
 ||96.9.176.245^$third-party
@@ -13054,6 +13073,7 @@ _a468x60.
 ||clickstrip.6wav.es^
 ||clipdealer.com/?action=widget&*&partner=
 ||cloudfront.brainient.com^
+||cloudzer.net/ref/
 ||cnnewmedia.co.uk/locker/
 ||colmwynne.com^$image,third-party
 ||colorlabsproject.com^*/banner_
@@ -13336,6 +13356,7 @@ _a468x60.
 ||img.promoddl.com^$third-party
 ||img.servint.net^*/125x125.gif
 ||imgehost.com^*/banners/$third-party
+||indeed.fr/ads/
 ||indieclick.3janecdn.com^
 ||infomarine.gr/images/banerr.gif
 ||infomarine.gr^*/images/banners/
@@ -15078,6 +15099,7 @@ _effectivemeasure_tag.js
 ||woopra.com^$third-party
 ||worldlogger.com^$third-party
 ||wpdstat.com^$third-party
+||wredint.com^$third-party
 ||wtp101.com^$third-party
 ||wundercounter.com^$third-party
 ||wunderloop.net^$third-party
@@ -15818,6 +15840,7 @@ _effectivemeasure_tag.js
 ||ap.org^*/webtrendsap_hosted.js
 ||appspot.com/tracking/
 ||arstechnica.com/*.ars$object
+||arstechnica.com/services/incr.php?stats$xmlhttprequest
 ||arstechnica.com/|$object
 ||arstechnica.com^*/|$object
 ||asianblast.com/statx/
