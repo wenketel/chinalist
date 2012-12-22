@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: IOVIigD4y9E5werIKuRODw
+!  Checksum: sc4sHC7iJRpCsNJwyL6Iuw
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 22 Dec 2012 17:23:02 +0800
+!  Last Modified:  Sat, 22 Dec 2012 19:31:09 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -37,8 +37,8 @@ suning.com#@##topAd
 !---115网盘
 ||static.115img.com/static/115tj.js
 ||static.115img.com/static/delivery/
-115.com##.banner-box
-115.com##.banner-top
+||115.com/static/static_v63/js/pop_callback.js
+q.115.com##.full-column-ad
 
 !---网易
 @@||analytics.163.com/ntes.js$domain=cbg.163.com
@@ -502,11 +502,6 @@ dm5.com,dm5.hk##.cl970
 ||luobo.tv/staticts.html
 dui.lu##[id^="j_duilu"]
 
-!---多特
-||img.duote.com/duotehtml/gong_gao.js
-||img.duote.com/js/clickDownAjax3.js
-||img.duote.com/images/00007701.jpg
-
 !---多玩游戏网
 ||duowan.com/duowan.js
 ||duowan.com/public/s/market_count.js
@@ -746,12 +741,6 @@ jmnews.com.cn###msg_win
 ||riju.com/uranai.htm
 ||u.riju.com/click.php
 jpseek.com,jpfans.com##div[align="center"] + table[width="98%"]
-
-!---猪猪字幕组
-||jumpcn.com/ah/
-||jumpcn.com/javascript/xshow.js
-||jumpcn.com/s/
-||jumpcn.com/show/
 
 !---卡饭论坛
 ||a.ikafan.com/2/b.js
@@ -1128,6 +1117,11 @@ hb.qq.com##div[style="margin:10px auto;width:960px;height:60px; overflow:hidden;
 ||isdspeed.qq.com^
 ||statistic.qzone.qq.com^
 ||os.qzs.qq.com/qzone/biz/gdt/
+!--搜搜
+||dr.soso.com^
+soso.com##[ss_c^="ad_"]
+soso.com###rads
+wenwen.soso.com##.ad1
 
 !---巧巧读书
 @@||qqread.com/swf/qqread_rollpic.swf
@@ -1330,12 +1324,6 @@ sogou.com##.sponsored
 sogou.com###zhuanqu
 map.sogou.com###CboardDlg_1
 
-!---sosaw
-||godnav.net/MAPS/
-||roadrover.cn/images/$object,domain=sosaw.com
-||taobaocdn.com/imgextra/$image,domain=sosaw.com
-||xieche.net/imgs/SOSAW.gif
-
 !---搜房
 ||imgn.jiatx.com/jiatx/mall/outer/
 ||soufun.com/html/homepage/ad/
@@ -1383,16 +1371,11 @@ tgbus.com##[id^="TGBUS_VISTA_CONTAINER_"]
 ||8*.tianya.cn^
 ||blog.tianya.cn/tuijian/tanchu.js
 ||ebook.tianya.cn/js/stat.js
-||pinpai.tianya.cn^$subdocument
 ||stat.tianya.cn^
 ||global.tianyaui.com/global/wizard/js/wizard.js
 ||static.tianyaui.com^*/stat_20080313.js
-||static.tianyaui.com/js/2011/bbsclk.js
-||static.tianyaui.com/js/2010/ContClick.js
 tianya.cn##[class^="ad_"]
 tianya.cn##[id*="_AD_"]
-tianya.cn###adsp_content_top_banner
-tianya.cn###adsp_list_top_banner
 
 !---TOM.COM
 ||js.pub.tom.com^
@@ -1559,7 +1542,6 @@ xj163.cn##[class^="ad"]
 kankan.com##[id^="cm"].banner
 kuai.xunlei.com##.adv_area
 kuai.xunlei.com##.bot_tips
-
 !--狗狗搜索
 ||img.gougou.com/down/aishangwang$image
 ||s.gougou.com^
@@ -1657,30 +1639,14 @@ youku.com##.AB240
 @@||union.maccms.com/gg/qvod.html
 
 !---人人影视
-@@||copy.ousns.com/new/1.PNG
-@@||copy.ousns.com/new/2.PNG
-@@||copy.ousns.com/new/3.PNG
-@@||copy.ousns.com/new/4.PNG
-@@||copy.ousns.com/new/5.PNG
 ||copy.ousns.com^
-vod.oabt.org##.each_ad
-yyets.com##.couplet
-yyets.com###hxhd_taobao
-yyets.com###upad
+yyets.com##.adBox
 
 !---叶子猪游戏网
 @@||yktj.yzz.cn/htmldata/mds/yzz_single_gg.js$domain=bbs.yzz.cn
-||yzz.cn/home/common/bbs_gg/
 ||yzz.cn/home/theme/popwin/
 ||yktj.yzz.cn^
 bbs.yzz.cn##.half-banner
-bbs.yzz.cn##.r-ad
-
-!---搜搜
-||dr.soso.com^
-soso.com##[ss_c^="ad_"]
-soso.com###rads
-wenwen.soso.com##.ad1
 
 !---ZOL
 @@||pic.zol-img.com.cn/2009/pix_index.swf
@@ -1999,6 +1965,8 @@ faloo.com##[class^="ad_"]
 ||imanhua.com^*/money/
 imanhua.com###topmon
 ||jpnovel.com/myjs/
+||jumpcn.com/javascript/xshow.js
+||jumpcn.com/show/
 ||kenwen.com/scripts/cfmt.js
 ||kenwen.com/scripts/ctc.js
 ||kenwen.com/scripts/tc.js
