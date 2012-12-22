@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: i3gE9PYaeJQ5QiWK9cWpFg
+!  Checksum: IOVIigD4y9E5werIKuRODw
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 21 Dec 2012 09:07:59 +0800
+!  Last Modified:  Sat, 22 Dec 2012 17:23:02 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -1448,6 +1448,7 @@ udn.com###ads
 !---VeryCD
 ||sp.vcimg.com^
 verycd.com##[id^="BAIDU_PAGE_AD"]
+verycd.com##[id$="-ad"]
 verycd.com##div[style="border:1px solid #ccc;padding:2px 14px;"]
 verycd.com##div[style="width:250px;height:200px;padding:4px;border:1px solid #ccc;"]
 verycd.com##div[style="width:960px;height:90px;border:1px solid #ccc;padding:10px 14px;"]
@@ -1538,7 +1539,6 @@ xizi.com##.top_recommend
 xj163.cn##[class^="ad"]
 
 !---XunLei
-@@||hm.baidu.com/h.js$domain=cloud.vip.xunlei.com
 ||analytics-union.sandai.net^
 ||biz*.sandai.net^
 ||cpm.cm.sandai.net^
@@ -1777,9 +1777,8 @@ steachs.com###banner
 ||pc6.com/js/html/
 ||pc6.com/js/un/
 ||piaodown.com/other/js/$script
-||piaohua.com/js/yzz/39040.js
-||piaohua.com/js/yzz/index.js
-||piaohua.com/js/yzz/piaohua$script
+||piaohua.com/js/wlfloat.js
+||piaohua.com/js/yzz/$script
 portableappc.com###text-7
 portableappc.com###text-14
 ||quick8.cn/softimg/*AD.gif
@@ -2021,8 +2020,6 @@ ranhen.com###box_con > div[align="center"]
 ||shanwen.com^$script
 ||shuhe.cc/ssi/
 shuhe.cc##.ad250left
-||shuoshuo520.com/js/960.js
-||shuoshuo520.com/scripts/read$script
 ||shushuw.cn/js/eteadx2011.js
 shushuw.cn##.bdad
 ||ttshu.com/js/
@@ -2075,7 +2072,6 @@ www.chdtv.net###sitefocus.focus
 ||feedsky.com/r/i/feedsky/*/art01.gif
 ||da.feedsportal.com^
 ||image.j-a-net.jp/
-||xiankankan.com/widgets/focus/
 
 !---Video Sites
 ||img.1ting.com/v5/js/*text.js
@@ -2441,7 +2437,6 @@ zxtjd.com###it_an
 ||5151ad.com^$third-party
 ||51link.com^$third-party
 ||51wan.com^$third-party
-||5228167.com^$third-party
 ||523688.com^$third-party
 ||55620.com^$third-party
 ||5566ad.com^$third-party
@@ -2460,7 +2455,6 @@ zxtjd.com###it_an
 ||70e.com^$third-party
 ||70yx.com^$third-party
 ||74lm.com^$third-party
-||7555.net^$third-party
 ||p.777wyx.com^$third-party
 ||778669.com^$third-party
 ||7794.com^$third-party
@@ -2538,6 +2532,7 @@ zxtjd.com###it_an
 ||artxun.com^$third-party
 ||at918.com^$third-party
 ||advooe.com^$third-party
+||baifendian.com^$third-party
 ||baizoon.com^$third-party
 ||blcx.com^$third-party
 ||blogad.com.tw^$third-party
@@ -2593,7 +2588,6 @@ zxtjd.com###it_an
 ||feike5.com^$third-party
 ||tg.feixue.com^$third-party
 ||feitian001.com^$third-party
-||fk5.com^$third-party
 ||flashads.cn^$third-party
 ||flashwing.net^$third-party
 ||flunion.cn^$third-party
@@ -2659,6 +2653,7 @@ zxtjd.com###it_an
 ||keytui.com^$third-party
 ||keyyou.net^$third-party
 ||kfwan.com^$third-party
+||kk7kk.com^$third-party
 ||koowo.com^$third-party
 ||kuaiwan.com^$third-party
 ||kucent.com^$third-party
@@ -3005,6 +3000,8 @@ zazww.com##[id^="ads_c_"]
 !---2012.12
 ||image.10010.com/index_js/flash-ad$script
 ||tieba.baidu.com/tb/wangtao$image
+||gtimg.cn/qqlive/images/20121221/i1356053418_1.jpg
 google.com,google.com.hk###topstuff > #wmxmsg
 ||nanrenwa.com/_img/a/$third-party
+||xiankankan.com/widgets/sd.jpg
 !------------------------End of List-------------------------
