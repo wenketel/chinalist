@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: 4VU3nLFuJwHTD0jy0TWyKw
+!  Checksum: 6wIegsrT27EhB1awLkfqnw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 22 Dec 2012 19:31:12 +0800
+!  Last Modified:  Mon, 24 Dec 2012 20:08:45 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -2074,6 +2074,8 @@ www.jstv.com##.jadv
 19lou.com##.head-ad
 ||1m1m.cn/bar/
 ||233.com/examdagg/
+23sc.cn/007/js/$script
+23sc.cn##[class^="ad"]
 ||2500sz.com/site/
 2500sz.com##[id^="Layer"]
 ||2u.com.cn/js/2012_movie.js
@@ -3098,6 +3100,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 .biz/ad.
 .biz/ad/
 .cfm?ad=
+.com/?ad=
 .com/ad.
 .com/ad/
 .com/ad?
@@ -3133,6 +3136,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 .org/ad/
 .org/ad_
 .org/ads-
+.org/ads.
 .org/gads/
 .php/ad/
 .php?ad=
@@ -3491,6 +3495,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /adhints/*
 /adhomepage.
 /adhtml/*
+/adhub.
 /adhug_
 /adicon_
 /adiframe.
@@ -5746,6 +5751,7 @@ _a468x60.
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
 ###A9AdsServicesWidgetTop
+###ADEXPERT_RECTANGLE
 ###ADNETwallBanner1
 ###ADNETwallBanner2
 ###ADSLOT_1
@@ -7641,6 +7647,7 @@ _a468x60.
 ###left_ad
 ###left_adspace
 ###left_advertisement
+###left_side_ads
 ###leftads
 ###leftcolAd
 ###lg-banner-ad
@@ -9197,9 +9204,11 @@ _a468x60.
 ##.ads300x250
 ##.ads320x100
 ##.ads336_280
+##.ads336x280
 ##.ads460
 ##.ads460_home
 ##.ads468
+##.ads468x60
 ##.ads486x100
 ##.ads486x100-1
 ##.ads667x100
@@ -9695,6 +9704,7 @@ _a468x60.
 ##.biz-ad
 ##.biz-ads
 ##.biz-adtext
+##.biz-details-ad
 ##.bizDetailAds
 ##.blk_advert
 ##.block-ad300
@@ -9958,6 +9968,7 @@ _a468x60.
 ##.detail_ad
 ##.detail_top_advert
 ##.dfrads
+##.display-ads-block
 ##.displayAd
 ##.displayAd728x90Js
 ##.displayAdSlot
@@ -10430,6 +10441,7 @@ _a468x60.
 ##.mini_ads_right
 ##.miniad
 ##.miscAd
+##.mm-ad-mpu
 ##.mmc-ad
 ##.mmcAd_Iframe
 ##.mnopolarisAd
@@ -10493,6 +10505,7 @@ _a468x60.
 ##.mrec_advert
 ##.ms-ads-link
 ##.msfg-shopping-mpu
+##.msn_ad_wrapper
 ##.mt-header-ads
 ##.mvw_onPageAd1
 ##.mwaads
@@ -11213,6 +11226,7 @@ _a468x60.
 ##a[href*="/adrotate/adrotate-out.php?"]
 ##a[href^="http://ad-apac.doubleclick.net/"]
 ##a[href^="http://ad-emea.doubleclick.net/"]
+##a[href^="http://ads.affbuzzads.com/"]
 ##a[href^="http://ads.pheedo.com/"]
 ##a[href^="http://adserving.liveuniversenetwork.com/"]
 ##a[href^="http://amzn.to/"] > img[src^="data"]
@@ -13305,6 +13319,7 @@ _a468x60.
 ||hostmonster.com/src/js/izahariev/$third-party
 ||hyipregulate.com/images/hyipregulatebanner.gif
 ||hyperfbtraffic.com/images/graphicsbanners/
+||hyperscale.com/images/adh_button.jpg
 ||ibsrv.net/sponsor_images/
 ||icnetwork.co.uk^*-sponsorship-
 ||icnetwork.co.uk^*/sponsorship-
@@ -13661,7 +13676,6 @@ _a468x60.
 ||talkfusion.com^*/banners/
 ||techbargains.com/inc_iframe_deals_feed.cfm?$third-party
 ||techbargains.com/scripts/banner.js$third-party
-||techbeat.com/wp-content/custom-php/tbRecentPosts.php/$third-party
 ||thatfreething.com/images/banners/
 ||theatm.info/images/$third-party
 ||thebigchair.com.au^$subdocument,third-party
