@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: 6wIegsrT27EhB1awLkfqnw
+!  Checksum: TJ+ZUQGVTY3C3YhHcM5wQQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 24 Dec 2012 20:08:45 +0800
+!  Last Modified:  Tue, 25 Dec 2012 21:46:18 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1080,6 +1080,7 @@ bbs.360.cn##.aXd
 ||view.news.qq.com/PL_ad
 ||rh.qq.com^
 ||trace.qq.com^
+||tj.qstatic.com^
 mb.qq.com#@##ad-container
 qq.com##.AdBox-Article-QQ
 qq.com##.AdTop-Article-QQ
@@ -2160,6 +2161,7 @@ frdic.com,godic.net###sidebar1
 ||hefei.cc/templates/default/index_ad62.js
 ||hk-pub.com/forum/images/banner/
 ||hk-pub.com/forum/include/overture_ads.js
+||abc.hkepc.com^
 ||hdad.hudong.com/hdad/
 ||stat.hudong.com^
 ||hupu.com/d/file/$object
@@ -2247,7 +2249,6 @@ qiushibaike.com##.smartphone
 ||qzwb.com^$object
 qzwb.com##.area[style^="height:70px;"]
 ||img.rmfans.cn/g/
-/images/a/*$domain=saraba1st.com
 ||sellgreat.com/images/Bdvertisement/
 ||simplecd.org/static/ad$script,subdocument
 ||so100.cn/images/a*.js
@@ -2378,6 +2379,7 @@ zxtjd.com###it_an
 ||2a.com^$third-party
 ||21union.com^$third-party
 ||2144.cn^$third-party
+||2273lm.com^$third-party
 ||25888.in^$third-party
 ||2bj.cc^$third-party
 ||3234.com^$third-party
@@ -2670,6 +2672,7 @@ zxtjd.com###it_an
 ||qizhao.com^$third-party
 ||qjwm.com^$third-party
 ||qling.com^$third-party
+||qlunion.com^$third-party
 ||qq61.com^$third-party
 ||qq937.com^$third-party
 ||qqle.info^$third-party
@@ -2774,6 +2777,7 @@ zxtjd.com###it_an
 ||yiqifa.com^$third-party
 ||yiqiwin.com^$third-party
 ||yocc.net^$third-party
+||yongv.com^$third-party
 ||youxitui.net^$third-party
 ||youxjia.com^$third-party
 ||youzhi.cc^$third-party
@@ -2959,6 +2963,7 @@ bbs.potplayer.org##.a_pb
 price.com.hk###ad0
 price.com.hk##.tb
 cn.reuters.com##.ad
+saraba1st.com##.tac.mb5
 suopao.org##.t5[style^="margin-top:8px;"]
 ttmeiju.com##a[href^="http://www.ttmeiju.com/adclick.php?"]
 wcxiaoshuo.com##div[style="margin:10px auto; width:960px;height:90px;"]
@@ -3093,6 +3098,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 .adserver.
 .adserver1.
 .adspace.
+.adsremote.
 .adtooltip&
 .aspx?ad=
 .aspx?zoneid=*&task=
@@ -3741,6 +3747,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /ads_patron.
 /ads_php/*
 /ads_reporting/*
+/ads_server_
 /ads_sidebar.
 /ads_yahoo.
 /adsa468.
@@ -4296,6 +4303,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /cpxads.
 /css/adsense
 /ctamlive160x160.
+/cube_ads/*
 /cubead.
 /custads/*
 /custom/ads
@@ -5665,6 +5673,7 @@ takeover_banner_
 /728x90top.
 /768x90-
 /768x90.
+/ad728x90.
 /adreplace160x600.
 /adreplace728x90.
 /ads468x60_
@@ -5788,6 +5797,7 @@ _a468x60.
 ###AdBanner_F1
 ###AdBar
 ###AdBar1
+###AdBottomRight
 ###AdBox2
 ###AdContainerTop
 ###AdContentModule_F
@@ -5808,6 +5818,7 @@ _a468x60.
 ###AdSkyscraper
 ###AdSpacing
 ###AdSponsor_SF
+###AdSquare02
 ###AdSubsectionShowcase_F1
 ###AdTargetControl1_iframe
 ###AdTop
@@ -5975,6 +5986,7 @@ _a468x60.
 ###ad-300x250-01
 ###ad-300x250-02
 ###ad-300x250-1
+###ad-300x250-2
 ###ad-300x250-sidebar
 ###ad-300x250Div
 ###ad-300x60-1
@@ -5988,6 +6000,7 @@ _a468x60.
 ###ad-absolute-160
 ###ad-ads
 ###ad-article
+###ad-ban
 ###ad-banner
 ###ad-banner-1
 ###ad-banner-atf
@@ -6038,6 +6051,7 @@ _a468x60.
 ###ad-medium
 ###ad-medium-rectangle
 ###ad-medrec
+###ad-megaban2
 ###ad-middlethree
 ###ad-middletwo
 ###ad-module
@@ -6208,6 +6222,7 @@ _a468x60.
 ###adPosOne
 ###adRight
 ###adRight2
+###adRight3
 ###adSPLITCOLUMNTOPRIGHT
 ###adSense
 ###adSenseModule
@@ -6282,6 +6297,7 @@ _a468x60.
 ###adTile
 ###adTop
 ###adTop1
+###adTop2
 ###adTopContent
 ###adTopbanner
 ###adTopboxright
@@ -6425,6 +6441,7 @@ _a468x60.
 ###ad_medium_rectangle
 ###ad_medium_rectangular
 ###ad_mediumrectangle
+###ad_megabanner
 ###ad_menu_header
 ###ad_message
 ###ad_middle
@@ -6530,6 +6547,8 @@ _a468x60.
 ###adcode4
 ###adcolumnwrapper
 ###adcontainer1
+###adcontainer2
+###adcontainer3
 ###adcontainerRight
 ###adcontainsm
 ###adcontent1
@@ -6551,6 +6570,10 @@ _a468x60.
 ###adigniter
 ###adimg
 ###adition_content_ad
+###adl_250x250
+###adl_300x100
+###adl_300x250
+###adl_728x90
 ###adlabel
 ###adlabelFooter
 ###adlayerContainer
@@ -6623,6 +6646,7 @@ _a468x60.
 ###ads300-250
 ###ads300Bottom
 ###ads300Top
+###ads300x250
 ###ads315
 ###ads336x280
 ###ads728
@@ -6662,10 +6686,12 @@ _a468x60.
 ###ads_fullsize
 ###ads_halfsize
 ###ads_header
+###ads_horiz
 ###ads_html1
 ###ads_html2
 ###ads_inner
 ###ads_lb
+###ads_line
 ###ads_medrect
 ###ads_notice
 ###ads_player
@@ -6675,6 +6701,7 @@ _a468x60.
 ###ads_space
 ###ads_text
 ###ads_textlinks
+###ads_top_banner
 ###ads_top_sec
 ###ads_topbanner
 ###ads_watch_top_square
@@ -7029,6 +7056,7 @@ _a468x60.
 ###block-ad_cube-1
 ###block-advert-content
 ###block-advert-content2
+###block-advertisement
 ###block-openads-0
 ###block-openads-1
 ###block-openads-2
@@ -7568,6 +7596,7 @@ _a468x60.
 ###icePage_SearchResults_ads2_SponsoredLink
 ###icePage_SearchResults_ads3_SponsoredLink
 ###icePage_SearchResults_ads4_SponsoredLink
+###idMapAdvertising
 ###idSponsoredresultend
 ###idSponsoredresultstart
 ###iframeRightAd
@@ -7593,6 +7622,7 @@ _a468x60.
 ###instoryadwrap
 ###int-ad
 ###interstitial_ad_wrapper
+###introAds
 ###iqadtile8
 ###islandAd
 ###iwad
@@ -9197,6 +9227,7 @@ _a468x60.
 ##.ads120_80
 ##.ads160
 ##.ads1_250
+##.ads1_label
 ##.ads24Block
 ##.ads250_96
 ##.ads300
@@ -9303,6 +9334,7 @@ _a468x60.
 ##.ads_widesky
 ##.ads_wrapperads_top
 ##.adsafp
+##.adsbantop
 ##.adsbg300
 ##.adsblockvert
 ##.adsborder
@@ -9339,10 +9371,12 @@ _a468x60.
 ##.adsenseGreenBox
 ##.adsenseInPost
 ##.adsenseList
+##.adsenseWrapper
 ##.adsense_bdc_v2
 ##.adsense_media
 ##.adsense_mpu
 ##.adsense_rectangle
+##.adsense_sidebar
 ##.adsensebig
 ##.adsenseblock
 ##.adsenseblock_bottom
@@ -9410,8 +9444,10 @@ _a468x60.
 ##.adtxtlinks
 ##.adunit
 ##.adunit-middle
+##.adv-160
 ##.adv-300
 ##.adv-700
+##.adv-format-1
 ##.adv-leaderboard
 ##.adv-mpu
 ##.adv-p
@@ -9450,6 +9486,7 @@ _a468x60.
 ##.advert-bg-250
 ##.advert-bloggrey
 ##.advert-btm
+##.advert-center
 ##.advert-head
 ##.advert-iab-300-250
 ##.advert-iab-468-60
@@ -9500,6 +9537,7 @@ _a468x60.
 ##.advert_note
 ##.advert_surr
 ##.advert_top
+##.advertbar
 ##.advertheader-red
 ##.advertise-box
 ##.advertise-here
@@ -9626,6 +9664,7 @@ _a468x60.
 ##.attachment-weather-header-ad
 ##.aux-ad-widget-1
 ##.aux-ad-widget-2
+##.avertissement-download
 ##.b-ads_iframe
 ##.b-astro-sponsored-links_horizontal
 ##.b-astro-sponsored-links_vertical
@@ -9707,6 +9746,7 @@ _a468x60.
 ##.biz-details-ad
 ##.bizDetailAds
 ##.blk_advert
+##.bloc_adsense_acc
 ##.block-ad300
 ##.block-admanager
 ##.block-ads-bottom
@@ -10248,6 +10288,7 @@ _a468x60.
 ##.hp-ss-service-ad
 ##.hp2-adtag
 ##.hp_320-250-ad
+##.hp_ad_box
 ##.hp_ad_cont
 ##.hp_ad_text
 ##.hp_t_ad
@@ -11163,6 +11204,7 @@ _a468x60.
 ##.widget_adrotate_widgets
 ##.widget_ads
 ##.widget_advert_widget
+##.widget_advertisement
 ##.widget_advertisment
 ##.widget_econaabachoadswidget
 ##.widget_island_ad
@@ -13241,7 +13283,6 @@ _a468x60.
 ||filejungle.com/images/banner/
 ||filepost.com/static/images/bn/
 ||fileserve.com/images/banner_$third-party
-||filesonic.*/banners/
 ||firstclass-download.com^$subdocument,third-party
 ||firstload.com^$third-party
 ||firstload.de^$third-party
@@ -13615,6 +13656,8 @@ _a468x60.
 ||sfm-offshore.com/images/banners/
 ||shaadi.com^*/get-banner.php?
 ||shaadi.com^*/get-html-banner.php?
+||share-online.biz/affiliate/$third-party
+||share-online.biz^*/affiliate/$third-party
 ||shareapic.net/refads/
 ||shareflare.net/images/$third-party
 ||sharingzone.net/images/banner$third-party
