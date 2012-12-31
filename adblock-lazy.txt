@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: vHazQDYQ2A8TJi1q8DQkiA
+!  Checksum: p6+2GT+3RgnXoygtXPidtg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 30 Dec 2012 19:25:26 +0800
+!  Last Modified:  Mon, 31 Dec 2012 19:19:08 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -256,6 +256,7 @@ www.baidu.com,www1.baidu.com,ipv6.baidu.com##.EC_ppim
 www.baidu.com,www1.baidu.com,ipv6.baidu.com##.EC_ppim2
 !--image
 image.baidu.com###ecomContainer
+image.baidu.com##[id^="relecom"]
 !--tieba
 tieba.baidu.com###aside_ad
 tieba.baidu.com##[id^="guanggao"]
@@ -1063,10 +1064,12 @@ jjwxc.net##table[style^="width:984px;"]
 ||tf.360.cn^
 ||hao.360.cn/css/monitorscript.js
 ||s.360.cn^
+||s.so.360.cn^
 ||h.qhimg.com/js/iwt-hao360.js
 ||h1.qhimg.com/js/monitor-v1.1.1.min.js
 ||clkstat.qihoo.com^
 bbs.360.cn##.aXd
+so.360.cn,so.com##.spread
 
 !---QQ
 @@||gtimg.com/img/ad/$image,domain=buy.qq.com
@@ -8332,6 +8335,7 @@ _a468x60.
 ###vert_ad_placeholder
 ###vertical_ad
 ###vertical_ads
+###vhDivAdSlot300x250
 ###video-embed-ads
 ###videoAdvert
 ###video_ads_overdiv
@@ -11285,6 +11289,7 @@ _a468x60.
 ##.ysponsor
 ##.yw-ad
 ##.zRightAdNote
+##a[href$="/vghd.shtml"]
 ##a[href*="/adrotate/adrotate-out.php?"]
 ##a[href^="http://ad-apac.doubleclick.net/"]
 ##a[href^="http://ad-emea.doubleclick.net/"]
@@ -11332,7 +11337,6 @@ _a468x60.
 ##.ra[align="left"][width="30%"]
 ##.ra[align="right"][width="30%"]
 ##.rhsvw[style="background-color:#fff;margin:0 0 14px;padding-bottom:1px;padding-top:1px;"]
-##a[href$="/vghd.shtml"]
 ! Sedo
 ###content > #center > .dose > .dosesingle
 ###content > #right > .dose > .dosesingle
@@ -12948,6 +12952,7 @@ _a468x60.
 ||ad.sensismediasmart.com.au^
 ||ad.turn.com^
 ||ad.vidaroo.com^
+||ad.where.com^
 ||adap.tv/redir/client/static/as3adplayer.swf
 ||adap.tv/redir/plugins/$object-subrequest
 ||adap.tv/redir/plugins3/$object-subrequest
@@ -13126,6 +13131,7 @@ _a468x60.
 ||clipdealer.com/?action=widget&*&partner=
 ||cloudfront.brainient.com^
 ||cloudzer.net/ref/
+||cloudzer.net^*/banner/$third-party
 ||cnnewmedia.co.uk/locker/
 ||colmwynne.com^$image,third-party
 ||colorlabsproject.com^*/banner_
@@ -13792,6 +13798,7 @@ _a468x60.
 ||united-domains.de^*/parking/
 ||unsereuni.at/resources/img/$third-party
 ||uploaded.net/img/public/$third-party
+||uploaded.to/img/public/$third-party
 ||uploaded.to/js/layer.js
 ||uploadstation.com/images/banners/
 ||valuechecker.co.uk/banners/$third-party
@@ -16072,6 +16079,9 @@ _effectivemeasure_tag.js
 ||elance.com^*/emc.php?
 ||emarketing.rmauctions.com^
 ||emea.rel.msn.com^
+||encrypted.google.*/imgevent?$script
+||encrypted.google.*/imghover?$image
+||encrypted.google.*/url?$image
 ||engadget.com/traffic/?
 ||enlightenment.secureshoppingbasket.com^
 ||entry-stats.huffingtonpost.com^
