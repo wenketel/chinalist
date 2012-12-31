@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: w/vd9L3QLC3ExPxG3Ja7yQ
+!  Checksum: 6QZIG6fKXLLxfiqgHDY8cQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 31 Dec 2012 19:50:14 +0800
+!  Last Modified:  Mon, 31 Dec 2012 19:56:58 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -124,9 +124,6 @@ search.21cn.com##td[width="184"][align="left"]
 ||clkstat.qihoo.com^
 bbs.360.cn##.aXd
 so.360.cn,so.com##.spread
-!--360搜索
-so.com##.atom-adv
-so.com###main > .spread
 
 !---京东
 @@||adimg.adtpl.360buy.com/uploads/$image
@@ -279,9 +276,10 @@ tieba.baidu.com##.l_banner
 tieba.baidu.com##.thread_ad
 !--zhidao
 ||baidu.com^*/egg*.swf
-iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com###advertise
 iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com##.ad-fc-down
+iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com###advertise
 iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com###ad-brand-down
+iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com###ik-qb-egg
 iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com###qb-ad-cpro
 iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com##[class^="wgt-ads"]
 !--unions
@@ -1320,7 +1318,7 @@ www.sohu.com###contentC > .columnC
 ||data.vrs.sohu.com/player.gif?
 ||hd.sohu.com.cn^$object_subrequest
 tv.sohu.com##.adbox
-tv.sohu.com##.nwBox
+tv.sohu.com##.skyAD
 tv.sohu.com###miaozhenad
 tv.sohu.com###zbill
 !--Sogou
