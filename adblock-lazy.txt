@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: gGLLFgkaVtVFW+VyuVTdqA
+!  Checksum: 5QJ0qT9KzY+451nOA7vrXQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 31 Dec 2012 22:29:25 +0800
+!  Last Modified:  Thu, 03 Jan 2013 21:18:01 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -406,6 +406,7 @@ chinaiiss.com##.nav_r:nth-child(6)
 ||wantbuy.chinatimes.com^$subdocument
 
 !---cnBeta
+@@||hm.baidu.com/h.js$domain=ie.cnbeta.com
 @@||img.cnbeta.com/newsimg/
 @@||img.cnbeta.com/upimg/
 ||cnbeta.com/js/google.js
@@ -3056,6 +3057,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 -adrotation.
 -ads-management/
 -ads-manager/
+-ads/728x
 -ads/oas/
 -ads_9_3.
 -adserver-
@@ -4446,6 +4448,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /footad.
 /footer-ad-
 /footer_ad_
+/footerad.
 /footerads.
 /footerads/*
 /framead-
@@ -4599,7 +4602,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /imageads/*
 /imagecache_ads/*
 /images/ad-
-/images/ad.
+/images/ad.$domain=~ngohq.com
 /images/ad/*
 /images/ads-
 /images/ads_
@@ -4916,6 +4919,7 @@ google.com,google.com.hk###topstuff > #wmxmsg
 /promotions/ads.
 /promotions/ads/*
 /promotions/ads?
+/promotools/*
 /protection/ad/*
 /provideadcode.
 /proxyadcall?
@@ -6570,6 +6574,7 @@ _a468x60.
 ###addbottomleft
 ###addiv-bottom
 ###addiv-top
+###adfactor-label
 ###adfooter
 ###adfooter_728x90
 ###adframe:not(frameset)
@@ -6748,6 +6753,7 @@ _a468x60.
 ###adsense1
 ###adsense300x250
 ###adsense468
+###adsense728
 ###adsenseLeft
 ###adsenseOne
 ###adsenseWrap
@@ -8636,6 +8642,7 @@ _a468x60.
 ##.ad-90x600
 ##.ad-970x50
 ##.ad-above-header
+##.ad-adcode
 ##.ad-adlink-bottom
 ##.ad-adlink-side
 ##.ad-area
@@ -9427,6 +9434,7 @@ _a468x60.
 ##.adslot_blurred
 ##.adslotleft
 ##.adslotright
+##.adsmall
 ##.adsmalltext
 ##.adsmessage
 ##.adsnippet_widget
@@ -10834,7 +10842,6 @@ _a468x60.
 ##.showAd_Yes
 ##.showcaseAd
 ##.sidbaread
-##.side-ad
 ##.side-ads
 ##.side-sky-banner-160
 ##.sideAd
@@ -11004,6 +11011,7 @@ _a468x60.
 ##.sponsorlink2
 ##.sponsormsg
 ##.sponsors_box_container
+##.sponsorshipbox
 ##.sport-mpu-box
 ##.spotlightAd
 ##.square-sidebar-ad
@@ -11384,6 +11392,7 @@ _a468x60.
 ||ad-delivery.net^$third-party
 ||ad-flow.com^$third-party
 ||ad-server.co.za^$third-party
+||ad-serverparc.nl^$third-party
 ||ad-sponsor.com^$third-party
 ||ad20.net^$third-party
 ||ad2games.com^$third-party
@@ -12080,6 +12089,7 @@ _a468x60.
 ||geek2us.net^$third-party
 ||geld-internet-verdienen.net^$third-party
 ||geo-idm.fr^$third-party
+||geoaddicted.net^$third-party
 ||geopromos.com^$third-party
 ||geovisite.com^$third-party
 ||gestionpub.com^$third-party
@@ -12496,6 +12506,7 @@ _a468x60.
 ||rcads.net^$third-party
 ||reachlocal.com^$third-party
 ||reachmode.com^$third-party
+||readserver.net^$third-party
 ||realclick.co.kr^$third-party
 ||realmedia.com^$third-party
 ||realvu.net^$third-party
@@ -12925,6 +12936,7 @@ _a468x60.
 ||118d654612df63bc8395-aecfeaabe29a34ea9a877711ec6d8aed.r37.cf2.rackcdn.com^
 ||12dayswidget.com/widgets/
 ||173.199.120.7/delivery/$domain=~p2p.adserver.ip
+||178.238.233.242/open.js
 ||1stag.com/main/img/banners/
 ||208.43.84.120/trueswordsa3.gif$third-party,domain=~trueswords.com.ip
 ||20dollars2surf.com/ban_$third-party
@@ -13621,6 +13633,7 @@ _a468x60.
 ||premium-template.com/banner/$third-party
 ||pricegrabber.com/cb_table.php$third-party
 ||pricegrabber.com/mlink.php?$third-party
+||priceinfo.comuv.com^
 ||privatewifi.com/swf/banners/
 ||promo.bauermedia.co.uk^
 ||promos.fling.com^
