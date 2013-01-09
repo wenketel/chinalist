@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: y9NLeZOdidO6V74HCgHfiw
+!  Checksum: E5Yz2PHlmQuhiFnAcfMv0g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 07 Jan 2013 18:30:20 +0800
+!  Last Modified:  Wed, 09 Jan 2013 20:10:32 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -2501,7 +2501,6 @@ zxtjd.com###it_an
 ||artxun.com^$third-party
 ||at918.com^$third-party
 ||advooe.com^$third-party
-||baifendian.com^$third-party
 ||baizoon.com^$third-party
 ||blcx.com^$third-party
 ||blogad.com.tw^$third-party
@@ -3073,7 +3072,6 @@ zazww.com##[id^="ads_c_"]
 -skyscrapper160x600.
 -text-ads.
 -third-ad.
--weather-promo-
 -webad1.
 .a3s?n=*&zone_id=
 .ad-cloud.
@@ -4343,6 +4341,7 @@ zazww.com##[id^="ads_c_"]
 /delivery/avw.php
 /delivery/vbafr.php
 /descpopup.js
+/devicead/*
 /dfpads.
 /dfpsearchads.
 /direct_ads.
@@ -4386,6 +4385,7 @@ zazww.com##[id^="ads_c_"]
 /eas?*^easformat=
 /eas?camp=*;cre=
 /eas?cu=*;cre=
+/eas?cu=*;ord=
 /eas_fif.html^
 /eas_tag.1.0.js
 /easyads.
@@ -4906,7 +4906,9 @@ zazww.com##[id^="ads_c_"]
 /promotions/ads.
 /promotions/ads/*
 /promotions/ads?
+/promotools.
 /promotools/*
+/promotools1.
 /protection/ad/*
 /provideadcode.
 /proxyadcall?
@@ -5036,6 +5038,7 @@ zazww.com##[id^="ads_c_"]
 /sidebarad/*
 /sidecol_ad.
 /siframead.
+/silverads.
 /simpleadvert.
 /simpleadvert/*
 /site=*/size=*/viewid=
@@ -5204,6 +5207,7 @@ zazww.com##[id^="ads_c_"]
 /vert728ad.
 /verticaladrotatorv2.
 /VHDpoppingModels/*
+/viagogoads.
 /video.ads.php?
 /video_ad.
 /video_ad_
@@ -5284,6 +5288,7 @@ zazww.com##[id^="ads_c_"]
 ://findnsave.*.*/td/portablerop.aspx?
 ://oas.*@
 ://pop-over.
+://promo.$third-party
 ://rss.*/~a/
 ://synad.
 ://wrapper.*/a?
@@ -5562,6 +5567,7 @@ takeover_banner_
 ! Anti-Adblock
 /adb_detector.
 /adblock_detector.
+/adblockdetection.
 /anti_ab.
 /blockblock/blockblock.jquery.js
 /no-adblock/*
@@ -6429,6 +6435,7 @@ _a468x60.
 ###ad_horseshoe_spacer
 ###ad_horseshoe_top
 ###ad_hotpots
+###ad_img
 ###ad_in_arti
 ###ad_island
 ###ad_island_incontent
@@ -6941,6 +6948,7 @@ _a468x60.
 ###advertisers
 ###advertising-banner
 ###advertising-caption
+###advertising-container
 ###advertising-control
 ###advertising-skyscraper
 ###advertising-top
@@ -8242,6 +8250,7 @@ _a468x60.
 ###tilia_ad
 ###tmglBannerAd
 ###tmp2_promo_ad
+###toaster_ad
 ###toolbarSlideUpAd
 ###top-ad
 ###top-ad-container
@@ -8465,7 +8474,6 @@ _a468x60.
 ##.AdProduct
 ##.AdRingtone
 ##.AdSenseLeft
-##.AdSlot
 ##.AdSpace
 ##.AdTextSmallFont
 ##.AdUnit
@@ -9600,6 +9608,7 @@ _a468x60.
 ##.advertisementBox
 ##.advertisementColumnGroup
 ##.advertisementContainer
+##.advertisementFull
 ##.advertisementHeader
 ##.advertisementLabel
 ##.advertisementPanel
@@ -9627,6 +9636,7 @@ _a468x60.
 ##.advertisingTable
 ##.advertising_300x250
 ##.advertising_banner
+##.advertising_block
 ##.advertising_images
 ##.advertisment_bar
 ##.advertisment_caption
@@ -10446,6 +10456,7 @@ _a468x60.
 ##.link_adslider
 ##.link_advertise
 ##.links_google_adx
+##.list-ads
 ##.live-search-list-ad-container
 ##.livingsocial-ad
 ##.ljad
@@ -12721,7 +12732,6 @@ _a468x60.
 ||triadmedianetwork.com^$third-party
 ||tribalfusion.com^$third-party
 ||trigami.com^$third-party
-||tritondigital.com^$third-party
 ||trkalot.com^$third-party
 ||trker.com^$third-party
 ||trklnks.com^$third-party
@@ -12770,7 +12780,7 @@ _a468x60.
 ||vibrantmedia.com^$third-party
 ||video-loader.com^$third-party
 ||videoegg.com^$third-party
-||videoplaza.com^$object-subrequest,third-party,domain=autoexpress.co.uk|evo.co.uk|mensfitness.co.uk|mpora.com
+||videoplaza.com^$object-subrequest,third-party,domain=autoexpress.co.uk|evo.co.uk|givemefootball.com|mensfitness.co.uk|mpora.com
 ||videoplaza.com^$~object-subrequest,third-party
 ||videoplaza.tv/proxy/distributor^$object-subrequest,third-party
 ||videoplaza.tv^$object-subrequest,third-party,domain=tv4play.se
@@ -12920,6 +12930,7 @@ _a468x60.
 ||exoclick.com^$image,~image,popup,third-party
 ||fidel.to^$image,~image,popup,third-party
 ||friendlyduck.com^$image,~image,popup,third-party
+||gotoplaymillion.com^$image,~image,popup,third-party
 ||hapend.biz^$image,~image,popup,third-party
 ||jdtracker.com^$image,~image,popup,third-party
 ||kanoodle.com^$image,~image,popup,third-party
@@ -13652,7 +13663,6 @@ _a468x60.
 ||pricegrabber.com/mlink.php?$third-party
 ||priceinfo.comuv.com^
 ||privatewifi.com/swf/banners/
-||promo.bauermedia.co.uk^
 ||promos.fling.com^
 ||promote.pair.com^
 ||promotions.iasbet.com^
@@ -13920,6 +13930,7 @@ _a468x60.
 ||lp.titanpoker.com^$image,~image,popup,third-party
 ||maxedtube.com/video_play?*&utm_campaign=$image,~image,popup,third-party
 ||mcars.org/landing/$image,~image,popup,third-party
+||media.mybet.com/redirect.aspx?pid=*&bid=$image,~image,popup,third-party
 ||mypromocenter.com^$image,~image,popup
 ||noowmedia.com^$image,~image,popup
 ||otvetus.com^$image,~image,popup,third-party
@@ -13936,6 +13947,7 @@ _a468x60.
 ||stargames.com/bridge.asp?idr=$image,~image,popup
 ||tipico.com^*?affiliateid=$image,~image,popup,third-party
 ||truckingunlimited.com^$image,~image,popup,domain=sharpfile.com
+||ul.to/ref/$image,~image,popup
 ||uploaded.net/ref/$image,~image,popup
 ||urlcash.net/random*.php$image,~image,popup
 ||usenet.nl^$image,~image,popup
@@ -14321,6 +14333,7 @@ _a468x60.
 /webiq.js
 /WebStatistik/*.pl?
 /webstats/track.php?
+/webtrack.php
 /webtraxs.js
 /webtrekk.js
 /webtrekk^
@@ -16070,6 +16083,7 @@ _effectivemeasure_tag.js
 ||ct.cnet.com/opens?
 ||ctv.ca^*/etracker/trackdata.html
 ||current.com/tracking.htm?
+||dailyexpress.co.uk/trackings/
 ||dailyfinance.com/tmfstatic/vs.gif?
 ||dailyfinance.com/traffic/?
 ||dailymail.co.uk^*/sophus//logging-code.js
@@ -16416,6 +16430,7 @@ _effectivemeasure_tag.js
 ||news.com.au/tracking/
 ||news.com.au^*/clicktale/
 ||newser.com/utility.aspx?
+||next.co.uk/log.php
 ||nhsdirect.nhs.uk/assets/scripts/googleanalytics.js
 ||ning.com^*/xn_track.js
 ||novatech.co.uk^*/tracking?
