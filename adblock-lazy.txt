@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: E5Yz2PHlmQuhiFnAcfMv0g
+!  Checksum: WMEhP7B4aNAhEEBYdEcbNw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 09 Jan 2013 20:10:32 +0800
+!  Last Modified:  Sat, 12 Jan 2013 19:01:45 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -292,12 +292,10 @@ iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com##[class^="wgt-ads"]
 ||unstat.baidu.com^$~subdocument
 ||cpro.baidustatic.com^
 !--iQIYI
-/tracker?$domain=iqiyi.com
 /ts.swf|$domain=iqiyi.com
-||pub.htwisdom.com^$third-party
-||iqiyi.com/player/*/theatre$object
 ||afp.qiyi.com^
 ||data.video.qiyi.com/videos/other/$object_subrequest
+||cupid.qiyi.com^
 ||static.qiyi.com/js/pingback/
 ||jsmsg.video.qiyi.com^
 ||msg.video.qiyi.com^
@@ -4016,6 +4014,7 @@ zazww.com##[id^="ads_c_"]
 /advertising_
 /advertisingbanner.
 /advertisingbanner/*
+/advertisingbanner_
 /advertisingcontent/*
 /advertisingmanual.
 /advertisingmodule.
@@ -4491,6 +4490,7 @@ zazww.com##[id^="ads_c_"]
 /getrcmd.js?
 /getsponslinks.
 /getsponslinksauto.
+/GetVASTAd?
 /getvdopiaads.
 /getvideoad.
 /gexternalad.
@@ -5767,6 +5767,7 @@ _a468x60.
 /popunder_$image,~image,popup
 /promoredirect?*&campaign=*&zone=$image,~image,popup
 /punder.php$image,~image,popup
+=popunder&$image,~image,popup
 ! *** easylist:easylist/easylist_general_hide.txt ***
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
@@ -5846,6 +5847,7 @@ _a468x60.
 ###AdsContent
 ###AdsRight
 ###AdsWrap
+###Ads_BA_BUT_box
 ###Ads_BA_CAD
 ###Ads_BA_CAD2
 ###Ads_BA_CAD_box
@@ -5935,6 +5937,7 @@ _a468x60.
 ###PREFOOTER_LEFT_BOXAD
 ###PREFOOTER_RIGHT_BOXAD
 ###PageLeaderAd
+###PhotoAd1
 ###PostSponsorshipContainer
 ###RelevantAds
 ###RgtAd1
@@ -5949,6 +5952,7 @@ _a468x60.
 ###SectionAd300-250
 ###SectionSponsorAd
 ###SideAdMpu
+###SideBarAdWidget
 ###SideMpuAdBar
 ###SidebarAdContainer
 ###SkyAd
@@ -6024,6 +6028,8 @@ _a468x60.
 ###ad-box
 ###ad-box-first
 ###ad-box-second
+###ad-box1
+###ad-box2
 ###ad-boxes
 ###ad-bs
 ###ad-buttons
@@ -6388,6 +6394,7 @@ _a468x60.
 ###ad_billboard_ifm
 ###ad_block_1
 ###ad_block_2
+###ad_board_before_forums
 ###ad_bottom
 ###ad_box
 ###ad_box_colspan
@@ -8378,6 +8385,8 @@ _a468x60.
 ###wallpaperAd_left3
 ###wallpaperAd_right
 ###wallpaperAd_right2
+###wallpaper_flash_ad
+###wallpaper_header_ad
 ###walltopad
 ###weather_sponsor
 ###weatherad
@@ -8473,7 +8482,9 @@ _a468x60.
 ##.AdProS728x90Container
 ##.AdProduct
 ##.AdRingtone
+##.AdSense
 ##.AdSenseLeft
+##.AdSlot
 ##.AdSpace
 ##.AdTextSmallFont
 ##.AdUnit
@@ -8666,6 +8677,7 @@ _a468x60.
 ##.ad-bottomleader
 ##.ad-box-up
 ##.ad-box2
+##.ad-boxes
 ##.ad-break
 ##.ad-btn
 ##.ad-btn-heading
@@ -9573,8 +9585,11 @@ _a468x60.
 ##.advert_home_300
 ##.advert_label
 ##.advert_leaderboard
+##.advert_main
 ##.advert_main_bottom
 ##.advert_note
+##.advert_small
+##.advert_societe_general
 ##.advert_surr
 ##.advert_top
 ##.advertbar
@@ -9648,6 +9663,7 @@ _a468x60.
 ##.advertorial-promo-box
 ##.advertorial_red
 ##.advertorialtitle
+##.advertorialview
 ##.adverts-125
 ##.adverts_RHS
 ##.advt
@@ -9838,6 +9854,7 @@ _a468x60.
 ##.bodyads2
 ##.bookseller-header-advt
 ##.bottom-ad-fr
+##.bottom-ad2
 ##.bottom-ads
 ##.bottomAd
 ##.bottomAdvTxt
@@ -11383,7 +11400,7 @@ _a468x60.
 ||247realmedia.com^$third-party
 ||254a.com^$third-party
 ||2mdn.net/dot.gif$object-subrequest,third-party
-||2mdn.net^$object-subrequest,third-party,domain=101cargames.com|3news.co.nz|abc.go.com|abcnews.go.com|atlantafalcons.com|azcardinals.com|baltimoreravens.com|bbc.co.uk|bbc.com|bengals.com|bet.com|bloomberg.com|box10.com|brisbanetimes.com.au|buccaneers.com|buffalobills.com|bullz-eye.com|businessweek.com|calgaryherald.com|canada.com|chargers.com|chicagobears.com|clevelandbrowns.com|colts.com|ctvnews.ca|dallascowboys.com|denverbroncos.com|detroitlions.com|drive.com.au|earthcam.com|edmontonjournal.com|entrepreneur.com|eonline.com|euronews.com|foodnetwork.ca|four.co.nz|gamingbolt.com|ghananation.com|giantbomb.com|giants.com|globalnews.ca|globaltoronto.com|globaltv.com|globaltvbc.com|globaltvcalgary.com|gorillanation.com|heraldsun.com.au|hgtv.ca|houstontexans.com|iheart.com|independent.ie|jaguars.com|kcchiefs.com|kdvr.com|kfiam640.com|komonews.com|kwgn.com|leaderpost.com|livestream.com|metacafe.com|miamidolphins.com|mojointhemorning.com|montrealgazette.com|my9tv.com|nationalpost.com|nba.tv|ndtv.com|neworleanssaints.com|newsmax.com|newstalk1010.com|newyorkjets.com|nfl.com|ottawacitizen.com|packers.com|panthers.com|patriots.com|pcworld.com|philadelphiaeagles.com|prowrestling.com|radio.com|raiders.com|rapbasement.com|redskins.com|reuters.com|rollingstone.com|rottentomatoes.com|rte.ie|seahawks.com|sf49ers.com|sherdog.com|skynews.com.au|slice.ca|smh.com.au|steelers.com|stlouisrams.com|streetfire.net|stuff.co.nz|telegraph.co.uk|theage.com.au|theaustralian.com.au|thecomedynetwork.ca|theprovince.com|thestarphoenix.com|timescolonist.com|timeslive.co.za|titansonline.com|tsn.ca|usmagazine.com|vancouversun.com|vice.com|videojug.com|vikings.com|weather.com|wikihow.com|windsorstar.com|youtube.com
+||2mdn.net^$object-subrequest,third-party,domain=101cargames.com|3news.co.nz|49ers.com|atlantafalcons.com|azcardinals.com|baltimoreravens.com|bbc.co.uk|bbc.com|bengals.com|bet.com|bloomberg.com|box10.com|brisbanetimes.com.au|buccaneers.com|buffalobills.com|bullz-eye.com|businessweek.com|calgaryherald.com|canada.com|chargers.com|chicagobears.com|clevelandbrowns.com|colts.com|cp24.com|ctvnews.ca|dallascowboys.com|denverbroncos.com|detroitlions.com|drive.com.au|earthcam.com|edmontonjournal.com|entrepreneur.com|eonline.com|euronews.com|foodnetwork.ca|four.co.nz|gamingbolt.com|ghananation.com|giantbomb.com|giants.com|globalnews.ca|globaltoronto.com|globaltv.com|globaltvbc.com|globaltvcalgary.com|go.com|gorillanation.com|heraldsun.com.au|hgtv.ca|houstontexans.com|iheart.com|independent.ie|jaguars.com|kcchiefs.com|kdvr.com|kfiam640.com|komonews.com|kwgn.com|leaderpost.com|livestream.com|metacafe.com|miamidolphins.com|mojointhemorning.com|montrealgazette.com|my9tv.com|nationalpost.com|nba.tv|ndtv.com|neworleanssaints.com|newsmax.com|newstalk1010.com|newyorkjets.com|nfl.com|ottawacitizen.com|packers.com|panthers.com|patriots.com|pcworld.com|philadelphiaeagles.com|prowrestling.com|radio.com|raiders.com|rapbasement.com|redskins.com|reuters.com|rollingstone.com|rottentomatoes.com|rte.ie|seahawks.com|sf49ers.com|sherdog.com|skynews.com.au|slice.ca|smh.com.au|steelers.com|stlouisrams.com|streetfire.net|stuff.co.nz|telegraph.co.uk|theage.com.au|theaustralian.com.au|thecomedynetwork.ca|theprovince.com|thestarphoenix.com|tide.com|timescolonist.com|timeslive.co.za|titansonline.com|tsn.ca|usmagazine.com|vancouversun.com|vice.com|videojug.com|vikings.com|weather.com|wikihow.com|windsorstar.com|youtube.com
 ||2mdn.net^$~object-subrequest,third-party
 ||360ads.com^$third-party
 ||360yield.com^$third-party
@@ -11613,6 +11630,7 @@ _a468x60.
 ||adultadworld.com^$third-party
 ||adurr.com^$third-party
 ||adv-adserver.com^$third-party
+||advantageglobalmarketing.com^$third-party
 ||advatar.to^$third-party
 ||adversaldisplay.com^$third-party
 ||adversalservers.com^$third-party
@@ -12082,6 +12100,7 @@ _a468x60.
 ||forex-affiliate.net^$third-party
 ||forexyard.com^$third-party
 ||forrestersurveys.com^$third-party
+||frameptp.com^$third-party
 ||freebannerswap.co.uk^$third-party
 ||freedownloadsoft.net^$third-party
 ||freelancer.com^$third-party
@@ -12509,6 +12528,7 @@ _a468x60.
 ||ptmzr.com^$third-party
 ||ptp.lolco.net^$third-party
 ||ptp22.com^$third-party
+||ptp24.com^$third-party
 ||pubdirecte.com^$third-party
 ||publicidees.com^$third-party
 ||publisher.to^$third-party
@@ -12560,6 +12580,7 @@ _a468x60.
 ||rotorads.com^$third-party
 ||rovion.com^$third-party
 ||roxyaffiliates.com^$third-party
+||rtbpop.com^$third-party
 ||ru4.com^$third-party
 ||rubiconproject.com^$third-party
 ||rwpads.com^$third-party
@@ -12694,6 +12715,7 @@ _a468x60.
 ||tokenads.com^$third-party
 ||topauto10.com^$third-party
 ||topcasino10.com^$third-party
+||topeuro.biz^$third-party
 ||tophotoffers.com^$third-party
 ||total-media.net^$third-party
 ||totalprofitplan.com^$third-party
@@ -12861,6 +12883,7 @@ _a468x60.
 ||yieldmanager.net^$third-party
 ||yldbt.com^$third-party
 ||yldmgrimg.net^$third-party
+||yllix.com^$third-party
 ||ymads.com^$third-party
 ||yoc-adserver.com^$third-party
 ||yottacash.com^$third-party
@@ -12953,6 +12976,7 @@ _a468x60.
 ||xclicks.net^$image,~image,popup,third-party
 ||xtendmedia.com^$image,~image,popup,third-party
 ||yieldmanager.com^$image,~image,popup,third-party
+||zedo.com^$image,~image,popup,third-party
 ! *** easylist:easylist/easylist_thirdparty.txt ***
 ||000webhost.com/images/banners/
 ||1-million-usd.com/images/banners/
@@ -13595,6 +13619,7 @@ _a468x60.
 ||myhpf.co.uk/banners/
 ||mytrafficstrategy.com/images/$third-party
 ||myusenet.net/promo.cgi?
+||myvi.ru/feed/$object-subrequest
 ||mzstatic.com^$image,object-subrequest,domain=dailymotion.com
 ||namecheap.com/graphics/linkus/$third-party
 ||nanoinvestgroup.com/images/banner*.gif
@@ -14159,6 +14184,7 @@ _a468x60.
 /i?siteid=
 /images/spacer.gif?q=l3mkwgak
 /imawebcookie.js
+/img.aspx?q=l3mkwgak
 /index.php?_m=livesupport*&referrer=
 /intervigil.js
 /iperceptions.js
@@ -14923,7 +14949,6 @@ _effectivemeasure_tag.js
 ||online-right-now.net^$third-party
 ||openclick.com^$third-party
 ||opentracker.net^$third-party
-||ophan.co.uk^$third-party
 ||optify.net^$third-party
 ||optimix.asia^$third-party
 ||optimizely.com^$third-party
@@ -15572,6 +15597,7 @@ _effectivemeasure_tag.js
 ||loomia.com^*/setcookie.html
 ||lphbs.com^
 ||lsimg.net^*/vs.js
+||lunametrics.wpengine.netdna-cdn.com^
 ||lycos.com/hb.js
 ||magnify.net/decor/track/dot.gif?
 ||magnify360-cdn.s3.amazonaws.com^
@@ -15621,6 +15647,7 @@ _effectivemeasure_tag.js
 ||onsugar.com/static/ck.php?
 ||onsugar.com^*/clicktracker.js
 ||ooyala.com/authorized?analytics
+||ophan.co.uk/t.gif?
 ||p.dsero.net^
 ||p.po.st^*&pub=
 ||p.po.st^*&vguid=
@@ -15710,6 +15737,7 @@ _effectivemeasure_tag.js
 ||stats.hosting24.com^
 ||stats.inergizedigitalmedia.com^
 ||stats.itweb.co.za^
+||stats.kaltura.com^
 ||stats.magnify.net^
 ||stats.olark.com^
 ||stats.ozwebsites.biz^
@@ -15730,7 +15758,9 @@ _effectivemeasure_tag.js
 ||synergizeonline.net/trackpoint/
 ||systemmonitoring.badgeville.com^
 ||t.flux.com^
+||t.menepe.com^
 ||t.pswec.com^
+||taboola.com^*/log/
 ||taboolasyndication.com/log/
 ||taboolasyndication.com^*/log/
 ||tag.myplay.com^
@@ -15931,6 +15961,7 @@ _effectivemeasure_tag.js
 ||analytics.bloomberg.com^
 ||analytics.disneyinternational.com^
 ||analytics.femalefirst.co.uk^
+||analytics.go.com^
 ||analytics.gorillanation.com^
 ||analytics.mindjolt.com^
 ||analytics.moneycontrol.com^
@@ -15960,7 +15991,6 @@ _effectivemeasure_tag.js
 ||autoblog.com/traffic/
 ||autopartswarehouse.com/thirdparty/tracker?
 ||autotrader.co.za/log/
-||avg.com/js/Stats.js
 ||b.huffingtonpost.com^
 ||b.imwx.com^
 ||b.myspace.com^
@@ -16168,6 +16198,7 @@ _effectivemeasure_tag.js
 ||feedburner.com/~r/
 ||feeds.timesonline.co.uk^*/mf.gif
 ||feedsportal.com/c/
+||fhm.com/fhm/SocialTrack_min.js
 ||fiatusa.com/en/js/web_analytics/
 ||financialstandardnews.com^*/webstats/
 ||fixya.com/loghandler.aspx?
@@ -16584,6 +16615,7 @@ _effectivemeasure_tag.js
 ||statesmanjournal.com^*/articlepageview.php?
 ||static.ow.ly^*/click.gz.js
 ||staticice.com.au/cgi-bin/stats.cgi?
+||stats.avg.com^
 ||stats.bbc.co.uk^
 ||stats.behance.net^
 ||stats.break.com^
