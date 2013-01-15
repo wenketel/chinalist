@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: 1WrzzUl5fGVYBG9uXPoeog
+!  Checksum: ur/3hTX0TaMm1BhMMc5I/g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 12 Jan 2013 19:09:33 +0800
+!  Last Modified:  Tue, 15 Jan 2013 20:41:17 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -293,6 +293,7 @@ iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com##[class^="wgt-ads"]
 ||cpro.baidustatic.com^
 !--iQIYI
 /ts.swf|$domain=iqiyi.com
+||iqiyi.com/player/ed979320c2a511ea207040ae9524c90dbb99c484be3.swf 
 ||afp.qiyi.com^
 ||data.video.qiyi.com/videos/other/$object_subrequest
 ||cupid.qiyi.com^
@@ -3012,6 +3013,7 @@ zazww.com##[id^="ads_c_"]
 -300x100ad2.
 -ad-001-
 -ad-340x400-
+-ad-banner.
 -ad-bottom-
 -ad-exo-
 -ad-iframe/
@@ -3305,6 +3307,7 @@ zazww.com##[id^="ads_c_"]
 /ad_header_
 /ad_holder/*
 /ad_homepage_
+/ad_horiz.
 /ad_horizontal.
 /ad_html/*
 /ad_icons/*
@@ -4672,6 +4675,7 @@ zazww.com##[id^="ads_c_"]
 /layerad-
 /layerad.
 /layerAd/*
+/layerads-
 /layerads.
 /layerads_
 /lbl_ad.
@@ -5099,6 +5103,7 @@ zazww.com##[id^="ads_c_"]
 /sponsoredlisting.
 /sponsorpaynetwork.
 /sponsors/amg.php?
+/sponsorshipimage-
 /square-ads/*
 /squaread.
 /src/ads_
@@ -5494,6 +5499,7 @@ _engine_ads_
 _externalad.
 _fach_ad.
 _feast_ad.
+_footer_ad_
 _gads_bottom.
 _gads_footer.
 _gads_top.
@@ -5890,6 +5896,7 @@ _a468x60.
 ###FIN_videoplayer_300x250ad
 ###FooterAd
 ###FooterAdContainer
+###FrontPageRectangleAd
 ###GOOGLE_ADS_47
 ###GamePageAdDiv
 ###GoogleAd1
@@ -6077,6 +6084,7 @@ _a468x60.
 ###ad-mpu2
 ###ad-mpu2-spot
 ###ad-north
+###ad-north-base
 ###ad-one
 ###ad-placard
 ###ad-placeholder
@@ -7302,6 +7310,7 @@ _a468x60.
 ###ctl00_cphMain_hlAd1
 ###ctl00_cphMain_hlAd2
 ###ctl00_cphMain_hlAd3
+###ctl00_cphRoblox_boxAdPanel
 ###ctl00_ctl00_MainPlaceHolder_itvAdSkyscraper
 ###ctl00_ctl00_ctl00_Main_Main_PlaceHolderGoogleTopBanner_MPTopBannerAd
 ###ctl00_ctl00_ctl00_Main_Main_SideBar_MPSideAd
@@ -8506,6 +8515,7 @@ _a468x60.
 ##.AdvertiseWithUs
 ##.AdvertisementTextTag
 ##.Advman_Widget
+##.AmazonSimpleAdmin_widget
 ##.ArticleAd
 ##.ArticleInlineAd
 ##.BCA_Advertisement
@@ -8804,6 +8814,8 @@ _a468x60.
 ##.ad125x125
 ##.ad140
 ##.ad160600
+##.ad160_l
+##.ad160_r
 ##.ad160x600
 ##.ad160x600GrayBorder
 ##.ad185x100
@@ -9099,6 +9111,7 @@ _a468x60.
 ##.ad_right_col
 ##.ad_row
 ##.ad_row_bottom_item
+##.ad_secondary
 ##.ad_segment
 ##.ad_side
 ##.ad_sidebar
@@ -9646,6 +9659,8 @@ _a468x60.
 ##.advertising-leaderboard
 ##.advertising-local-links
 ##.advertising-top
+##.advertising-top-box
+##.advertising-top-category
 ##.advertising2
 ##.advertisingTable
 ##.advertising_300x250
@@ -9660,6 +9675,7 @@ _a468x60.
 ##.advertorial
 ##.advertorial-2
 ##.advertorial-promo-box
+##.advertorial-wrapper
 ##.advertorial_red
 ##.advertorialtitle
 ##.advertorialview
@@ -11095,6 +11111,7 @@ _a468x60.
 ##.td-Adholder
 ##.td-TrafficWeatherWidgetAdGreyBrd
 ##.tdAdHeader
+##.teaser-ad
 ##.teaser-sponsor
 ##.teaserAdContainer
 ##.teaser_adtiles
@@ -11329,6 +11346,8 @@ _a468x60.
 ##.yieldads-728x90
 ##.yom-ad
 ##.youradhere
+##.youtubeSuperLeaderBoardAdHolder
+##.youtubeSuperLeaderOverallAdArea
 ##.yrail_ad_wrap
 ##.yrail_ads
 ##.ysmsponsor
@@ -11399,7 +11418,7 @@ _a468x60.
 ||247realmedia.com^$third-party
 ||254a.com^$third-party
 ||2mdn.net/dot.gif$object-subrequest,third-party
-||2mdn.net^$object-subrequest,third-party,domain=101cargames.com|3news.co.nz|49ers.com|atlantafalcons.com|azcardinals.com|baltimoreravens.com|bbc.co.uk|bbc.com|bengals.com|bet.com|bloomberg.com|box10.com|brisbanetimes.com.au|buccaneers.com|buffalobills.com|bullz-eye.com|businessweek.com|calgaryherald.com|canada.com|chargers.com|chicagobears.com|clevelandbrowns.com|colts.com|cp24.com|ctvnews.ca|dallascowboys.com|denverbroncos.com|detroitlions.com|drive.com.au|earthcam.com|edmontonjournal.com|entrepreneur.com|eonline.com|euronews.com|foodnetwork.ca|four.co.nz|gamingbolt.com|ghananation.com|giantbomb.com|giants.com|globalnews.ca|globaltoronto.com|globaltv.com|globaltvbc.com|globaltvcalgary.com|go.com|gorillanation.com|heraldsun.com.au|hgtv.ca|houstontexans.com|iheart.com|independent.ie|jaguars.com|kcchiefs.com|kdvr.com|kfiam640.com|komonews.com|kwgn.com|leaderpost.com|livestream.com|metacafe.com|miamidolphins.com|mojointhemorning.com|montrealgazette.com|my9tv.com|nationalpost.com|nba.tv|ndtv.com|neworleanssaints.com|newsmax.com|newstalk1010.com|newyorkjets.com|nfl.com|ottawacitizen.com|packers.com|panthers.com|patriots.com|pcworld.com|philadelphiaeagles.com|prowrestling.com|radio.com|raiders.com|rapbasement.com|redskins.com|reuters.com|rollingstone.com|rottentomatoes.com|rte.ie|seahawks.com|sf49ers.com|sherdog.com|skynews.com.au|slice.ca|smh.com.au|steelers.com|stlouisrams.com|streetfire.net|stuff.co.nz|telegraph.co.uk|theage.com.au|theaustralian.com.au|thecomedynetwork.ca|theprovince.com|thestarphoenix.com|tide.com|timescolonist.com|timeslive.co.za|titansonline.com|tsn.ca|usmagazine.com|vancouversun.com|vice.com|videojug.com|vikings.com|weather.com|wikihow.com|windsorstar.com|youtube.com
+||2mdn.net^$object-subrequest,third-party,domain=101cargames.com|3news.co.nz|49ers.com|atlantafalcons.com|azcardinals.com|baltimoreravens.com|bbc.co.uk|bbc.com|bengals.com|bet.com|bloomberg.com|box10.com|brisbanetimes.com.au|buccaneers.com|buffalobills.com|bullz-eye.com|businessweek.com|calgaryherald.com|canada.com|chargers.com|chicagobears.com|clevelandbrowns.com|colts.com|cp24.com|ctvnews.ca|dallascowboys.com|denverbroncos.com|detroitlions.com|drive.com.au|earthcam.com|edmontonjournal.com|entrepreneur.com|eonline.com|euronews.com|foodnetwork.ca|four.co.nz|gamingbolt.com|ghananation.com|giantbomb.com|giants.com|globalnews.ca|globaltoronto.com|globaltv.com|globaltvbc.com|globaltvcalgary.com|go.com|gorillanation.com|heraldsun.com.au|hgtv.ca|houstontexans.com|iheart.com|independent.ie|jaguars.com|kcchiefs.com|kdvr.com|kfiam640.com|komonews.com|kwgn.com|leaderpost.com|livestream.com|metacafe.com|miamidolphins.com|mojointhemorning.com|montrealgazette.com|my9tv.com|nationalpost.com|nba.tv|ndtv.com|neworleanssaints.com|newsmax.com|newsmaxhealth.com|newstalk1010.com|newyorkjets.com|nfl.com|ottawacitizen.com|packers.com|panthers.com|patriots.com|pcworld.com|philadelphiaeagles.com|prowrestling.com|radio.com|raiders.com|rapbasement.com|redskins.com|reuters.com|rollingstone.com|rottentomatoes.com|rte.ie|seahawks.com|sf49ers.com|sherdog.com|skynews.com.au|slice.ca|smh.com.au|steelers.com|stlouisrams.com|streetfire.net|stuff.co.nz|telegraph.co.uk|theage.com.au|theaustralian.com.au|thecomedynetwork.ca|theprovince.com|thestarphoenix.com|tide.com|timescolonist.com|timeslive.co.za|titansonline.com|tsn.ca|usmagazine.com|vancouversun.com|vice.com|videojug.com|vikings.com|weather.com|wikihow.com|windsorstar.com|youtube.com
 ||2mdn.net^$~object-subrequest,third-party
 ||360ads.com^$third-party
 ||360yield.com^$third-party
