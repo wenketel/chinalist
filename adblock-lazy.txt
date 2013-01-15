@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: ur/3hTX0TaMm1BhMMc5I/g
+!  Checksum: rb6S5nnm6p6snctNSacacg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 15 Jan 2013 20:41:17 +0800
+!  Last Modified:  Tue, 15 Jan 2013 20:54:58 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -294,9 +294,10 @@ iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com##[class^="wgt-ads"]
 !--iQIYI
 /ts.swf|$domain=iqiyi.com
 ||iqiyi.com/player/ed979320c2a511ea207040ae9524c90dbb99c484be3.swf 
+||msg.iqiyi.com^
 ||afp.qiyi.com^
-||data.video.qiyi.com/videos/other/$object_subrequest
 ||cupid.qiyi.com^
+||data.video.qiyi.com/videos/other/$object_subrequest
 ||static.qiyi.com/js/pingback/
 ||jsmsg.video.qiyi.com^
 ||msg.video.qiyi.com^
@@ -549,6 +550,9 @@ focus.cn##.ad_fp
 
 !---风行网
 @@||q.funshion.com/js.php
+/test2?$image,domain=funshion.com
+||adk.funshion.com^
+||adm.funshion.com^
 ||vas.funshion.com^
 ||stat.funshion.net^
 funshion.com##[class^="fs2012-"]
@@ -557,11 +561,12 @@ funshion.com##[class^="fs2012-"]
 ||firefoxchina.cn/*/trac.js
 ||firefoxchina.cn/fragments/cms/read_head_link.js
 ||firefoxchina.cn/js/money/
-||i.firefoxchina.cn/iframes/
+||i.firefoxchina.cn/iframe/
 i.firefoxchina.cn###ad_links1
 i.firefoxchina.cn###advBlock
 i.firefoxchina.cn###banner_show1
 i.firefoxchina.cn###taobao_frame2
+i.firefoxchina.cn###topbanner
 
 !---游民星空
 ||gamersky.com/bg_$image
@@ -725,6 +730,12 @@ ithome.com##.hl_wrap
 ithome.com,win7china.com###pop_notice
 ithome.com##.side_products
 win7china.com,win8china.com##.site_ad
+
+!---小猪快跑
+||imanke.com/static/imanke/pigbbs.js
+||jumpcn.com/show/
+||jumpcn.com/javascript/tshow.js
+bbs.jumpcn.com###framesh74cG
 
 !---煎蛋
 ||jdstatic.tankr.net/ajax/125.js
@@ -1447,6 +1458,14 @@ verypsp.com##table[width="960"]
 weather.com.cn##[class^="adpos"]
 weather.com.cn##.post_st
 
+!---威锋
+||weiphone.com/baidu.html
+||aoodoo.weiphone.com^
+||lab.weiphone.com/images_new/ad-
+weiphone.com##.brand
+weiphone.com##.b_adlink
+weiphone.com##[class^="wea_d_"]
+
 !---万卷书库
 ||wjskw.com/flad300209.gif
 ||wjskw.com/js/*.js
@@ -1612,7 +1631,7 @@ youku.com##.AB240
 @@||js.tudouui.com/bin/player$object
 @@||td.atm.youku.com/tdcm/adcontrol
 @@||td.atm.youku.com/crossdomain.xml
-/cv/pl?*&file=$object_subrequest
+/cv/pl?file=$object_subrequest
 /pos?$object_subrequest
 ||tudou.com^*/outside.php
 ||tudou.com/tdap/
@@ -1956,8 +1975,6 @@ haoqi99.com###ad2
 ||imanhua.com^*/money/
 imanhua.com###topmon
 ||jpnovel.com/myjs/
-||jumpcn.com/javascript/xshow.js
-||jumpcn.com/show/
 ||kenwen.com/scripts/cfmt.js
 ||kenwen.com/scripts/ctc.js
 ||kenwen.com/scripts/tc.js
@@ -2103,6 +2120,7 @@ www.jstv.com##.jadv
 codefans.net##.ad960
 ||coolnovo.com/res/inc/liangbian.js
 ||coolnovo.com/temp/images/*_980x$image
+||deyi.com/module/adsview/
 ||img3.douban.com/js/boomerang.js
 ||img3.douban.com/js/packed_ad
 ||e0575.cn/js/float.js
@@ -2271,8 +2289,6 @@ bbs.uueasy.com###banner
 ||webacg.com/data/js/
 ||webkaka.com/click/$image
 webkaka.com###Table1
-||weiphone.com/baidu.html
-bbs.weiphone.com##[id^="ads_"]
 ||a.wm090.com/biz_icon/
 ||wpxap.com/a_img/
 ||xici.net/service/$xmlhttprequest
