@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: TbjeERCrMvs2H7OdIp9WgA
+!  Checksum: 4qavX0AsiMvzqKt5PBO4hw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 15 Jan 2013 20:56:34 +0800
+!  Last Modified:  Sat, 19 Jan 2013 11:18:04 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -212,7 +212,7 @@ ali213.net###banner
 ali213.net##.newright
 
 !---阿里巴巴
-@@||style.c.aliimg.com/fdevlib/js/$script
+@@||c.aliimg.com/fdevlib/js/$script
 ||alimama.cn^$third-party,domain=~alimama.com|~taobao.com|~taobao.com.cn
 ||alimama.com^$third-party,domain=~taobao.com
 ||kcart.alipay.com/web/bi.do?
@@ -2993,6 +2993,7 @@ zazww.com##[id^="ads_c_"]
 ||xiankankan.com/widgets/sd.jpg
 !-----------------------EasyList----------------------------
 ! *** easylist:easylist/easylist_general_block.txt ***
+&ad_box_
 &ad_channel=
 &ad_classid=
 &ad_keyword=
@@ -3015,6 +3016,7 @@ zazww.com##[id^="ads_c_"]
 &advertiserid=
 &advtile=
 &customSizeAd=
+&gIncludeExternalAds=
 &googleadword=
 &jumpstartadformat=
 &largead=
@@ -3203,11 +3205,12 @@ zazww.com##[id^="ads_c_"]
 /ad-banner-
 /ad-box-
 /ad-cdn.
+/ad-creatives/*
 /ad-emea.js
 /ad-flashgame.
 /ad-frame.
 /ad-frame/*
-/ad-gallery.
+/ad-gallery.$~stylesheet
 /ad-header.
 /ad-hug.
 /ad-iframe-
@@ -3299,6 +3302,7 @@ zazww.com##[id^="ads_c_"]
 /ad_banners/*
 /ad_bottom.
 /ad_box.
+/ad_box?
 /ad_bsb.
 /ad_cache/*
 /ad_campaigns/*
@@ -3545,6 +3549,7 @@ zazww.com##[id^="ads_c_"]
 /adjs.
 /adjs_
 /adjsmp.
+/adkeys.
 /adlabel.
 /adlabel_
 /adlayer.
@@ -3678,6 +3683,7 @@ zazww.com##[id^="ads_c_"]
 /ads-service.
 /ads-skyscraper.
 /ads-sky|
+/Ads.ashx
 /ads.asp?
 /ads.dll/*
 /ads.gif
@@ -3770,8 +3776,10 @@ zazww.com##[id^="ads_c_"]
 /adsa468.
 /adsa728.
 /adsadview.
+/AdsAjaxRefresh.
 /adsales/*
 /adsame.
+/adsAPI.
 /adsatt.
 /adsbanner.
 /adsbanner/*
@@ -3866,6 +3874,7 @@ zazww.com##[id^="ads_c_"]
 /adsidebarrect.
 /adsiframe/*
 /adsimage/*
+/adsimages/*
 /adsImg/*
 /adsinclude.
 /adsinsert.
@@ -3899,6 +3908,7 @@ zazww.com##[id^="ads_c_"]
 /adsrc.
 /adsremote.
 /adsreporting/*
+/adsresources/*
 /adsrich.
 /adsright.
 /adsrot.
@@ -3908,6 +3918,9 @@ zazww.com##[id^="ads_c_"]
 /adsrotate1right.
 /adsrotate2left.
 /adsrotateheader.
+/AdsRotateNEW1right.
+/AdsRotateNEW2right.
+/AdsRotateNEWHeader.
 /adsrule.
 /adsrv.
 /adsrv/*
@@ -3984,12 +3997,15 @@ zazww.com##[id^="ads_c_"]
 /adv-banner.
 /adv-div-
 /adv/preroll_
+/adv/sponsor/*
 /adv02.
 /adv03.
 /adv1.
+/Adv150.
 /adv2.
 /adv3.
 /adv4.
+/Adv468.
 /adv5.
 /adv_2.
 /adv_background/*
@@ -4134,6 +4150,7 @@ zazww.com##[id^="ads_c_"]
 /ajs?auid=
 /all_ads/*
 /alternet.ad?
+/announce/adv/*
 /app/ads.js
 /article_ad.
 /aseadnshow.
@@ -4272,9 +4289,11 @@ zazww.com##[id^="ads_c_"]
 /buyclicks/*
 /buysellads.
 /bytemark_ad.
+/cache/ads_
 /cads-min.js
 /call/pubif/*
 /callads5.
+/camaoAdsenseHomepage.
 /camfuzeads/*
 /carbonads/*
 /carsadtaggenerator.js
@@ -4346,6 +4365,7 @@ zazww.com##[id^="ads_c_"]
 /ddlads/*
 /default-adv/*
 /default_ads/*
+/default_adv.
 /defer_ads.
 /deferads.
 /deliver.nmi?
@@ -4361,6 +4381,7 @@ zazww.com##[id^="ads_c_"]
 /delivery/apu.php
 /delivery/avw.php
 /delivery/vbafr.php
+/demo/ads/*
 /descpopup.js
 /devicead/*
 /dfpads.
@@ -4463,6 +4484,7 @@ zazww.com##[id^="ads_c_"]
 /framead/*
 /framead_
 /frameads.
+/freead2.
 /frequencyads.
 /frnads.
 /fullad.
@@ -4559,6 +4581,7 @@ zazww.com##[id^="ads_c_"]
 /graphics/ad_
 /gt6skyadtop.
 /guardianleader.
+/Handlers/Ads.
 /header-ad.
 /header_ads_
 /headerad.
@@ -4614,6 +4637,7 @@ zazww.com##[id^="ads_c_"]
 /images/ad/*
 /images/ads-
 /images/ads_
+/images/adv-
 /images/aff-
 /images/affs/*
 /images/gads_
@@ -4673,6 +4697,7 @@ zazww.com##[id^="ads_c_"]
 /js/ads-
 /js/ads.
 /js/ads_
+/js/adv.
 /js2.ad/size=
 /js_ad_utf8.
 /jsads-
@@ -4698,6 +4723,7 @@ zazww.com##[id^="ads_c_"]
 /layerads-
 /layerads.
 /layerads_
+/lazyad.
 /lbl_ad.
 /leader_ad.
 /leaderboardads.
@@ -4786,6 +4812,7 @@ zazww.com##[id^="ads_c_"]
 /newad?
 /newads.
 /newads/*
+/newadv/*
 /newdesign/ad/*
 /newrightcolad.
 /news_ad.
@@ -5225,6 +5252,7 @@ zazww.com##[id^="ads_c_"]
 /upsellingads/*
 /userad/*
 /valueclick.
+/vb/ads/*
 /vboard/ads/*
 /vclkads.
 /vericaladtitle.
@@ -5400,6 +5428,7 @@ _ad_engine/
 _ad_footer.
 _ad_header.
 _ad_homepage.
+_ad_ids=
 _ad_iframe.
 _ad_images/
 _ad_integration.
@@ -5468,12 +5497,14 @@ _adskin.
 _adsrv?
 _adsys.
 _adtags.
+_adtech.
 _adtech/$~stylesheet
 _adtech_
 _adtext_
 _adtitle.
 _adtop.
 _adunit.
+_Adv_Banner_
 _advert.
 _advertise180.
 _advertisehere.
@@ -5624,6 +5655,7 @@ takeover_banner_
 -480x60.
 -480x60/
 -480x60_
+-728-90.
 -728x90-
 -728x90.
 -728x90/
@@ -5767,6 +5799,7 @@ _468x80.
 _468x80/
 _468x80_
 _468x90.
+_468x90_
 _480x60-
 _480x60.
 _480x60/
@@ -5870,7 +5903,9 @@ _a468x60.
 ###Adbanner
 ###Adrectangle
 ###AdsContent
+###AdsLeader
 ###AdsRight
+###AdsShowCase
 ###AdsWrap
 ###Ads_BA_BUT_box
 ###Ads_BA_CAD
@@ -6000,6 +6035,7 @@ _a468x60.
 ###TopAdBox
 ###TopAdContainer
 ###TopAdDiv
+###TopAdPlacement
 ###TopAdPos
 ###TopBannerAd
 ###VM-MPU-adspace
@@ -6059,6 +6095,7 @@ _a468x60.
 ###ad-boxes
 ###ad-bs
 ###ad-buttons
+###ad-campaign
 ###ad-center
 ###ad-colB-1
 ###ad-column
@@ -6231,6 +6268,7 @@ _a468x60.
 ###adClickMe
 ###adCol
 ###adColumn
+###adColumn3
 ###adCompanionSubstitute
 ###adContainer_1
 ###adContainer_2
@@ -6283,6 +6321,7 @@ _a468x60.
 ###adSlider
 ###adSlot01
 ###adSlot02
+###adSlot2
 ###adSpace
 ###adSpace0
 ###adSpace1
@@ -6569,6 +6608,7 @@ _a468x60.
 ###ad_wide_box
 ###ad_widget
 ###ad_window
+###ad_wrapper
 ###ad_zone
 ###ad_zone3
 ###adaptvcompanion
@@ -6676,6 +6716,7 @@ _a468x60.
 ###ads-horizontal
 ###ads-indextext
 ###ads-king
+###ads-leaderboard
 ###ads-leaderboard1
 ###ads-lrec
 ###ads-main
@@ -6754,10 +6795,12 @@ _a468x60.
 ###ads_space
 ###ads_text
 ###ads_textlinks
+###ads_top
 ###ads_top_banner
 ###ads_top_sec
 ###ads_topbanner
 ###ads_watch_top_square
+###ads_wrapper
 ###ads_zone27
 ###adsbottom
 ###adsbox
@@ -6892,6 +6935,7 @@ _a468x60.
 ###advSidebarDocBox
 ###advSkin
 ###advTopRight_anchor
+###advWrapper
 ###adv_300
 ###adv_728
 ###adv_Skin
@@ -6936,6 +6980,7 @@ _a468x60.
 ###advertDB
 ###advertRight
 ###advertSection
+###advert_1
 ###advert_125x125
 ###advert_250x250
 ###advert_box
@@ -7155,6 +7200,7 @@ _a468x60.
 ###bott_ad2_300
 ###bottom-ad
 ###bottom-ad-container
+###bottom-ad-leaderboard
 ###bottom-ad-tray
 ###bottom-ad-wrapper
 ###bottom-ads
@@ -7236,6 +7282,7 @@ _a468x60.
 ###category-ad
 ###cellAd
 ###center-ad-group
+###centerAdsHeadlines
 ###centerads
 ###channel_ad
 ###channel_ads
@@ -7405,6 +7452,7 @@ _a468x60.
 ###fb_adbox
 ###fb_rightadpanel
 ###featAds
+###featureAdSpace
 ###featured-advertisements
 ###featuredAdContainer2
 ###featured_ad_links
@@ -7558,18 +7606,23 @@ _a468x60.
 ###gsyadtop
 ###gsyadtopload
 ###gtopadvts
+###gwt-debug-ad
 ###half-page-ad
 ###halfPageAd
 ###halfe-page-ad-box
 ###hd-ads
 ###hd-banner-ad
 ###hd_ad
+###hdr-ad
 ###hdtv_ad_ss
 ###head-ad-1
+###head-ads
 ###head-banner468
 ###headAd
+###headAds
 ###headGoogleAffiliateLinkblock
 ###head_ad
+###head_ads
 ###head_advert
 ###headad
 ###headadvert
@@ -7707,6 +7760,7 @@ _a468x60.
 ###lapho-top-ad-1
 ###largead
 ###lateAd
+###lateralAdWrapper
 ###layerAds_layerDiv
 ###layerTLDADSERV
 ###layer_ad
@@ -7737,6 +7791,7 @@ _a468x60.
 ###left-lower-adverts-container
 ###leftAdContainer
 ###leftAd_rdr
+###leftAds
 ###leftAdvert
 ###leftSectionAd300-100
 ###left_ad
@@ -7936,6 +7991,7 @@ _a468x60.
 ###pod-ad-video-page
 ###populate_ad_bottom
 ###populate_ad_left
+###popupBottomAd
 ###popup_domination_lightbox_wrapper
 ###portlet-advertisement-left
 ###portlet-advertisement-right
@@ -7961,6 +8017,7 @@ _a468x60.
 ###qm-dvdad
 ###quigo_ad
 ###r1SoftAd
+###rail_ad
 ###rail_ad1
 ###rail_ad2
 ###realEstateAds
@@ -7995,11 +8052,13 @@ _a468x60.
 ###right-uppder-adverts
 ###right-uppder-adverts-container
 ###rightAd
+###rightAd1
 ###rightAd300x250
 ###rightAd300x250Lower
 ###rightAdBar
 ###rightAdColumn
 ###rightAd_rdr
+###rightAds
 ###rightAdsDiv
 ###rightBoxAdvertisement
 ###rightBoxAdvertisementLast
@@ -8078,6 +8137,7 @@ _a468x60.
 ###show-ad
 ###showAd
 ###showad
+###showads
 ###side-ad
 ###side-ad-container
 ###side-ads
@@ -8304,6 +8364,7 @@ _a468x60.
 ###topAdBanner
 ###topAdBox
 ###topAdContainer
+###topAdHolder
 ###topAdSenseDiv
 ###topAdcontainer
 ###topAdsContainer
@@ -8317,6 +8378,7 @@ _a468x60.
 ###topOverallAdArea
 ###topRightBlockAdSense
 ###topSponsoredLinks
+###top_ad
 ###top_ad-sense
 ###top_ad_area
 ###top_ad_banner
@@ -8360,6 +8422,7 @@ _a468x60.
 ###tour728Ad
 ###tourSponsoredLinksContainer
 ###towerad
+###transparentad
 ###ts-ad_module
 ###ttp_ad_slot1
 ###ttp_ad_slot2
@@ -8477,11 +8540,13 @@ _a468x60.
 ###zone_b_ad
 ###zone_c_ads
 ##.ADCLOUD
+##.ADFooter
 ##.ADPod
 ##.AD_ALBUM_ITEMLIST
 ##.AD_MOVIE_ITEM
 ##.AD_MOVIE_ITEMLIST
 ##.AD_MOVIE_ITEMROW
+##.AD_mid300
 ##.ADbox
 ##.Ad-300x100
 ##.Ad-Container-976x166
@@ -8497,10 +8562,12 @@ _a468x60.
 ##.Ad300x250
 ##.Ad300x250L
 ##.Ad728x90
+##.AdBar
 ##.AdBorder
 ##.AdBox7
 ##.AdContainerBox308
 ##.AdContainerModule
+##.AdGrayBox
 ##.AdHeader
 ##.AdHere
 ##.AdInline
@@ -8515,6 +8582,7 @@ _a468x60.
 ##.AdSlot
 ##.AdSpace
 ##.AdTextSmallFont
+##.AdTop
 ##.AdUnit
 ##.AdUnit300
 ##.Ad_C
@@ -8528,8 +8596,12 @@ _a468x60.
 ##.AdsLinks1
 ##.AdsLinks2
 ##.AdsRec
+##.Ads_3
+##.Ads_4
 ##.AdsenseBoxCenter
+##.Adv468
 ##.AdvBoxSidebar
+##.Adv_Left
 ##.Advert300x250
 ##.AdvertMidPage
 ##.AdvertiseWithUs
@@ -8539,6 +8611,7 @@ _a468x60.
 ##.ArticleAd
 ##.ArticleInlineAd
 ##.BCA_Advertisement
+##.BGoogleAds300
 ##.Banner300x250
 ##.BannerAd
 ##.BigBoxAd
@@ -8621,6 +8694,7 @@ _a468x60.
 ##.SidebarAdvert
 ##.SitesGoogleAdsModule
 ##.SkyAdContainer
+##.SmartAdZoneList
 ##.SponsoredAdTitle
 ##.SponsoredLinkItemTD
 ##.SponsoredLinks
@@ -8710,6 +8784,7 @@ _a468x60.
 ##.ad-break
 ##.ad-btn
 ##.ad-btn-heading
+##.ad-button
 ##.ad-cat
 ##.ad-cell
 ##.ad-column
@@ -8903,6 +8978,7 @@ _a468x60.
 ##.adBoxInBignews
 ##.adBoxSidebar
 ##.adBoxSingle
+##.adBuyRight
 ##.adBwrap
 ##.adCMRight
 ##.adCall
@@ -9139,6 +9215,7 @@ _a468x60.
 ##.ad_slug
 ##.ad_slug_table
 ##.ad_space_300_250
+##.ad_space_in
 ##.ad_spacer
 ##.ad_sponsor
 ##.ad_sponsoredsection
@@ -9275,8 +9352,10 @@ _a468x60.
 ##.ads-below-home
 ##.ads-bg
 ##.ads-categories-bsa
+##.ads-content
 ##.ads-custom
 ##.ads-favicon
+##.ads-google
 ##.ads-inarticle
 ##.ads-label
 ##.ads-leaderboard
@@ -9321,6 +9400,7 @@ _a468x60.
 ##.ads468x60
 ##.ads486x100
 ##.ads486x100-1
+##.ads598x98
 ##.ads667x100
 ##.ads728
 ##.ads728_90
@@ -9382,6 +9462,7 @@ _a468x60.
 ##.ads_lr_wrapper
 ##.ads_medrect
 ##.ads_mpu
+##.ads_mpu_small
 ##.ads_outer
 ##.ads_post_end
 ##.ads_post_end_code
@@ -9431,6 +9512,7 @@ _a468x60.
 ##.adsd_shift100
 ##.adsection_a2
 ##.adsection_c2
+##.adsens
 ##.adsense-468
 ##.adsense-ad
 ##.adsense-category
@@ -9456,6 +9538,7 @@ _a468x60.
 ##.adsense_mpu
 ##.adsense_rectangle
 ##.adsense_sidebar
+##.adsense_top
 ##.adsensebig
 ##.adsenseblock
 ##.adsenseblock_bottom
@@ -9469,6 +9552,7 @@ _a468x60.
 ##.adset
 ##.adsforums
 ##.adsghori
+##.adsgrd
 ##.adsgvert
 ##.adside-box-single
 ##.adsidebox
@@ -9528,6 +9612,7 @@ _a468x60.
 ##.adv-300
 ##.adv-700
 ##.adv-ad
+##.adv-border
 ##.adv-cont
 ##.adv-format-1
 ##.adv-key
@@ -9538,6 +9623,7 @@ _a468x60.
 ##.adv300
 ##.adv300x250
 ##.adv468x90
+##.adv728
 ##.advBox
 ##.advLB_PageMiddle
 ##.advSquare
@@ -9550,6 +9636,7 @@ _a468x60.
 ##.adv_PageTop
 ##.adv_banner_hor
 ##.adv_flash
+##.adv_hed
 ##.adv_medium_rectangle
 ##.adv_sidebar_300x250
 ##.adv_x_1
@@ -9824,6 +9911,7 @@ _a468x60.
 ##.big-ads
 ##.bigAd
 ##.bigAdvBanner
+##.bigCubeAd
 ##.big_ad
 ##.big_ads
 ##.bigad
@@ -9910,6 +9998,7 @@ _a468x60.
 ##.box-adsense
 ##.box-adverts
 ##.boxAd
+##.boxAdContainer
 ##.boxAds
 ##.boxAdsInclude
 ##.boxOuterAD
@@ -9982,6 +10071,7 @@ _a468x60.
 ##.cdo-ad-section
 ##.cdsidebarSearchAdParent
 ##.centerAd
+##.centerAdBar
 ##.center_ad
 ##.center_adsense
 ##.centerad
@@ -10324,6 +10414,7 @@ _a468x60.
 ##.head_advert
 ##.header-ad234x60left
 ##.header-ad234x60right
+##.header-ads
 ##.header-advert
 ##.header-google-ads
 ##.header-taxonomy-image-sponsor
@@ -10359,6 +10450,8 @@ _a468x60.
 ##.home_advertisement
 ##.home_advertorial
 ##.home_mrec_ad
+##.home_offer_adv
+##.home_sway_adv
 ##.homepage-ad
 ##.homepage-ad-buzz-col
 ##.homepage-footer-ads
@@ -10453,6 +10546,7 @@ _a468x60.
 ##.jimdoAdDisclaimer
 ##.jp-advertisment-promotional
 ##.js-advert
+##.jumboAd
 ##.kdads-empty
 ##.kdads-link
 ##.kw_advert
@@ -10541,6 +10635,7 @@ _a468x60.
 ##.main_ad_bg_div
 ##.main_adbox
 ##.main_ads
+##.main_adv
 ##.main_intro_ad
 ##.mapAdvertising
 ##.map_media_banner_ad
@@ -10788,6 +10883,8 @@ _a468x60.
 ##.r_ad_box
 ##.r_ads
 ##.rad_container
+##.rc_ad_300x100
+##.rc_ad_300x250
 ##.realtor-ad
 ##.rect_ad_module
 ##.rectad
@@ -11007,6 +11104,7 @@ _a468x60.
 ##.sponsersads
 ##.sponslink
 ##.sponsor-ad
+##.sponsor-btns
 ##.sponsor-link
 ##.sponsor-links
 ##.sponsor-services
@@ -11113,6 +11211,7 @@ _a468x60.
 ##.supercommentad_left
 ##.supercommentad_right
 ##.supp-ads
+##.support-adv
 ##.supportAdItem
 ##.surveyad
 ##.t10ad
@@ -11282,6 +11381,7 @@ _a468x60.
 ##.view_ads_top_bg_middle
 ##.view_rig_ad
 ##.virgin-mpu
+##.vs-advert-300x250
 ##.wa_adsbottom
 ##.wantads
 ##.weatherAdSpot
@@ -11400,6 +11500,7 @@ _a468x60.
 ##a[href^="http://www.liutilities.com/products/campaigns/adv/"]
 ##a[href^="http://www.my-dirty-hobby.com/?sub="]
 ##a[href^="http://www.ringtonematcher.com/"]
+##a[href^="http://www.uniblue.com/cm/"]
 ##input[onclick^="window.open('http://www.FriendlyDuck.com/AF_"]
 ##input[onclick^="window.open('http://www.friendlyduck.com/AF_"]
 ! Google
@@ -11434,6 +11535,7 @@ _a468x60.
 ||188server.com^$third-party
 ||18clicks.com^$third-party
 ||199.102.225.178^$third-party,domain=~adsimilate.ip
+||1sadx.net^$third-party
 ||209.222.8.217^$third-party,domain=~p2p.adserver.ip
 ||247realmedia.com^$third-party
 ||254a.com^$third-party
@@ -11653,6 +11755,7 @@ _a468x60.
 ||adtechus.com^$third-party
 ||adtegrity.net^$third-party
 ||adtgs.com^$third-party
+||adtlgc.com^$third-party
 ||adtoll.com^$third-party
 ||adtology1.com^$third-party
 ||adtology2.com^$third-party
@@ -11765,6 +11868,7 @@ _a468x60.
 ||apmebf.com^$third-party
 ||applifier.com^$third-party
 ||apptap.com^$third-party
+||arabweb.biz^$third-party
 ||arcadebannerexchange.net^$third-party
 ||arcadebannerexchange.org^$third-party
 ||arcadebanners.com^$third-party
@@ -12045,6 +12149,7 @@ _a468x60.
 ||doubleclick.net/pfadx/muzumain/$third-party
 ||doubleclick.net/pfadx/muzuoffsite/$third-party
 ||doubleclick.net/pfadx/nbcu.nbc/$third-party
+||doubleclick.net/pfadx/nbcu.nhl.lak/$third-party
 ||doubleclick.net/pfadx/nbcu.nhl.tor/$third-party
 ||doubleclick.net/pfadx/nbcu.nhl/$third-party
 ||doubleclick.net/pfadx/ndm.tcm/$third-party
@@ -12270,6 +12375,7 @@ _a468x60.
 ||ipromote.com^$third-party
 ||iv.doubleclick.net^$third-party
 ||iwantmoar.net^$third-party
+||jadcenter.com^$third-party
 ||jango.com^$third-party
 ||jangonetwork.com^$third-party
 ||jdoqocy.com^$third-party
@@ -12431,6 +12537,7 @@ _a468x60.
 ||net3media.com^$third-party
 ||netaffiliation.com^$~script,third-party
 ||netavenir.com^$third-party
+||netliker.com^$third-party
 ||netseer.com^$third-party
 ||netshelter.net^$third-party
 ||networkxi.com^$third-party
@@ -12941,6 +13048,7 @@ _a468x60.
 ||zonealta.com^$third-party
 ||zonplug.com^$third-party
 ||zoomdirect.com.au^$third-party
+||zwaar.org^$third-party
 ||zxxds.net^$third-party
 ||zypenetwork.com^$third-party
 ! Mobile
@@ -12971,6 +13079,7 @@ _a468x60.
 ||ad-emea.doubleclick.net^$image,~image,popup,third-party
 ||ad.doubleclick.net^$image,~image,popup,third-party
 ||ad2games.com^$image,~image,popup,third-party
+||ad4game.com^$image,~image,popup,third-party
 ||adcash.com^$image,~image,popup,third-party
 ||adjuggler.net^$image,~image,popup,third-party
 ||adnxs.com^$image,~image,popup,third-party
@@ -12989,6 +13098,7 @@ _a468x60.
 ||cpmstar.com^$image,~image,popup,third-party
 ||ekod.info^$image,~image,popup,third-party
 ||exoclick.com^$image,~image,popup,third-party
+||fhserve.com^$image,~image,popup,third-party
 ||fidel.to^$image,~image,popup,third-party
 ||friendlyduck.com^$image,~image,popup,third-party
 ||gotoplaymillion.com^$image,~image,popup,third-party
@@ -12998,6 +13108,7 @@ _a468x60.
 ||livepromotools.com^$image,~image,popup,third-party
 ||media-servers.net^$image,~image,popup,third-party
 ||my-layer.net^$image,~image,popup,third-party
+||netliker.com^$image,~image,popup,third-party
 ||pgmediaserve.com^$image,~image,popup,third-party
 ||propellerads.com^$image,~image,popup,third-party
 ||pulse360.com^$image,~image,popup,third-party
@@ -13234,7 +13345,6 @@ _a468x60.
 ||clickstrip.6wav.es^
 ||clipdealer.com/?action=widget&*&partner=
 ||cloudfront.brainient.com^
-||cloudzer.net/ref/
 ||cloudzer.net^*/banner/$third-party
 ||cnnewmedia.co.uk/locker/
 ||colmwynne.com^$image,third-party
@@ -13418,8 +13528,6 @@ _a468x60.
 ||filepost.com/static/images/bn/
 ||fileserve.com/images/banner_$third-party
 ||firstclass-download.com^$subdocument,third-party
-||firstload.com^$third-party
-||firstload.de^$third-party
 ||flagship.asp-host.co.uk^$third-party
 ||flipchat.com/index.php?$third-party
 ||flipkart.com/affiliateWidget/$third-party
@@ -13663,7 +13771,6 @@ _a468x60.
 ||nanoinvestgroup.com/images/banner*.gif
 ||neogames-tech.com/resources/genericbanners/
 ||netdigix.com/google_banners/
-||netload.in^*?refer_id=
 ||network.aufeminin.com^
 ||network.business.com^
 ||networkice.com^$subdocument,third-party
@@ -13709,6 +13816,7 @@ _a468x60.
 ||pianoteq.com/images/banners/
 ||pic.pbsrc.com/hpto/
 ||picoasis.net/3xlayer.htm
+||pics.firstload.de^$third-party
 ||play-asia.com/paos-$third-party
 ||playata.myvideo.de^$subdocument,third-party
 ||playerimage.media.streamtheworld.com^*_config_bigbox.jpg
@@ -13791,7 +13899,6 @@ _a468x60.
 ||sfm-offshore.com/images/banners/
 ||shaadi.com^*/get-banner.php?
 ||shaadi.com^*/get-html-banner.php?
-||share-online.biz*/affiliate/$third-party
 ||shareapic.net/refads/
 ||shareflare.net/images/$third-party
 ||sharingzone.net/images/banner$third-party
@@ -13840,6 +13947,7 @@ _a468x60.
 ||supersport.co.za^*180x254
 ||supply.upjers.com^$third-party
 ||surf100sites.com/images/banner_
+||svcs.ebay.com/services/search/FindingService/*^affiliate.trackingId=$third-party
 ||swarmjam.com^$script,third-party
 ||sweed.to/?pid=$third-party
 ||sweetwater.com/feature/$third-party
@@ -13851,6 +13959,7 @@ _a468x60.
 ||take2.co.za/misc/bannerscript.php?
 ||takeover.bauermedia.co.uk^$~stylesheet
 ||talkfusion.com^*/banners/
+||teads.tv/js/inread-$third-party
 ||techbargains.com/inc_iframe_deals_feed.cfm?$third-party
 ||techbargains.com/scripts/banner.js$third-party
 ||thatfreething.com/images/banners/
@@ -13896,7 +14005,6 @@ _a468x60.
 ||ukrd.com/image/*-160x160.png
 ||ukrd.com/images/icons/amazon.png
 ||ukrd.com/images/icons/itunes.png
-||ul.to/ref/
 ||ultimatewebtraffic.info/images/fbautocash
 ||united-domains.de/parking/
 ||united-domains.de^*/parking/
@@ -14028,6 +14136,7 @@ _a468x60.
 .webtrekk.js
 /?livehit=
 /?record&key=
+/__ssobj/core.js
 /__utm.gif
 /a.logrequest.yolx?
 /aa.php?anuid=
@@ -14036,6 +14145,7 @@ _a468x60.
 /additional.php?res_width=$script
 /adlogger_tracker.js?
 /adlogger_tracker.php
+/admonitoring.js
 /AdobeCustomVideoMeasurement.swf
 /adtracker.
 /aegis_tracking.js
@@ -14151,6 +14261,7 @@ _a468x60.
 /foresee/*
 /fpc.pl?a=
 /fpcount.exe
+/frosmo.easy.js
 /fsrscripts/*
 /ga-custom-tracking.
 /ga-event-tracking.
@@ -14314,6 +14425,7 @@ _a468x60.
 /prnx_track.js
 /quant.js
 /quantcast.js
+/quidsi.ga.js?
 /rbi_us.js
 /rbipt.gif?
 /rbipt.js
@@ -14862,6 +14974,7 @@ _effectivemeasure_tag.js
 ||istrack.com^$third-party
 ||ixiaa.com^$third-party
 ||izearanks.com^$third-party
+||janrain.com^$third-party
 ||jbrlsr.com^$third-party
 ||jimdo-stats.com^$third-party
 ||jscounter.com^$third-party
@@ -15220,6 +15333,7 @@ _effectivemeasure_tag.js
 ||vertical-leap.co.uk^$third-party
 ||vertical-leap.net^$third-party
 ||vertster.com^$third-party
+||viafoura.net^$third-party
 ||virtualnet.co.uk^$third-party
 ||visiblemeasures.com/log?$object-subrequest,third-party
 ||visiblemeasures.com/swf/as3/as3sohandler.swf$object-subrequest,third-party
@@ -15301,6 +15415,7 @@ _effectivemeasure_tag.js
 ! Croatian
 ||xclaimwords.net^$third-party
 ! *** easylist:easyprivacy/easyprivacy_thirdparty.txt ***
+||101apps.com/tracker.ashx?
 ||107.20.91.54/partner.gif?$third-party,domain=~thedailybeast.com.ip
 ||123myip.co.uk/ip-address/
 ||174.129.112.186/small.gif?$third-party,domain=~skytide.ip
@@ -15523,6 +15638,7 @@ _effectivemeasure_tag.js
 ||eservicesanalytics.com.au^
 ||etoro.com/tradesmonitor/
 ||eulerian.sarenza.com/collector/
+||event.previewnetworks.com^
 ||events.eyeviewdigital.com^*.gif?r=
 ||events.realgravity.com^
 ||evri.com/analytics/
@@ -15543,6 +15659,7 @@ _effectivemeasure_tag.js
 ||futureus.com^*/nedstat.js
 ||fwix.com^*/trackclicks_
 ||ga.webdigi.co.uk^
+||gamebonuschecker.com/Scripts/tracker.js
 ||gamegecko.com/gametrack?
 ||gatehousemedia.com/wickedlocal/ip.js
 ||gcion.com/gcion.ashx?
@@ -15803,7 +15920,6 @@ _effectivemeasure_tag.js
 ||taboolasyndication.com^*/log/
 ||tag.myplay.com^
 ||tag.sonymusic.com^
-||teads.tv/js/inread-v2.js$third-party
 ||tealium.hs.llnwd.net^*/utag.js
 ||technorati.com/technoratimedia-pixel.js
 ||the-group.net/aether/
