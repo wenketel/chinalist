@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: jJzqjkvsje6wo+/o14vK9A
+!  Checksum: spm8DnNfumiXs+FFlYx3LA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 20 Jan 2013 14:50:22 +0800
+!  Last Modified:  Wed, 23 Jan 2013 15:58:27 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -2851,7 +2851,7 @@ zxtjd.com###it_an
 |http://acs.
 |http://ad.$domain=~qjwm.com|~wsj.com
 |http://*/*_ad.js
-|http://*.cn/ad/
+|http://*.cn/ad/$domain=~easybuy.com.cn
 |http://gg.$~stylesheet,domain=~gg.ma
 |http://*/gg/$~stylesheet,domain=~cnr.cn|~guokr.com|~coo8.com
 |http://*/i.js$third-party
@@ -3135,7 +3135,6 @@ zazww.com##[id^="ads_c_"]
 .com/adx/
 .com/adx_
 .com/adz/
-.com/affiliate/$~object-subrequest
 .com/bads/
 .com/gads/
 .com/miads/
@@ -4620,6 +4619,7 @@ zazww.com##[id^="ads_c_"]
 /iframead.
 /iframead/*
 /iframead_
+/iframeadcontent.
 /iframeadsense.
 /iframeadsensewrapper.
 /iframedartad.
@@ -6078,6 +6078,7 @@ _a468x60.
 ###ad-absolute-160
 ###ad-ads
 ###ad-article
+###ad-background
 ###ad-ban
 ###ad-banner
 ###ad-banner-1
@@ -6264,6 +6265,7 @@ _a468x60.
 ###adBox350
 ###adBox390
 ###adBoxUpperRight
+###adChannel
 ###adCirc300X200
 ###adCirc_620_100
 ###adClickMe
@@ -6589,6 +6591,7 @@ _a468x60.
 ###ad_slot_livesky
 ###ad_slot_sky_top
 ###ad_space_300_250
+###ad_space_top
 ###ad_squares
 ###ad_ss
 ###ad_tbl
@@ -7229,6 +7232,7 @@ _a468x60.
 ###bottomad_table
 ###bottomadholder
 ###bottomads
+###bottomadsdiv
 ###bottomadsense
 ###bottomadwrapper
 ###bottomleaderboardad
@@ -7511,8 +7515,10 @@ _a468x60.
 ###frnContentAd
 ###front-page-advert
 ###front_ad728
+###front_adtop_content
 ###front_advert
 ###front_mpu
+###front_mpu_content
 ###ft-ad
 ###ft-ad-1
 ###ft-ad-container
@@ -8084,6 +8090,7 @@ _a468x60.
 ###rightbar-ad
 ###rightcolhouseads
 ###rightcolumn_300x250ad
+###rightcolumn_ad_gam
 ###rightgoogleads
 ###rightinfoad
 ###rightside-ads
@@ -8403,6 +8410,7 @@ _a468x60.
 ###topadblock
 ###topaddwide
 ###topads-wrapper
+###topadsdiv
 ###topadsense
 ###topadspace
 ###topadwrap
@@ -8999,6 +9007,7 @@ _a468x60.
 ##.adFtr
 ##.adFullWidthMiddle
 ##.adGoogle
+##.adHed
 ##.adHome300x250
 ##.adHorisontal
 ##.adInNews
@@ -10744,6 +10753,7 @@ _a468x60.
 ##.ms-ads-link
 ##.msfg-shopping-mpu
 ##.msn_ad_wrapper
+##.mt-ad-container
 ##.mt-header-ads
 ##.mvw_onPageAd1
 ##.mwaads
@@ -10904,6 +10914,7 @@ _a468x60.
 ##.result-sponsored
 ##.resultAd
 ##.result_ad
+##.result_item_ad-adsense
 ##.review-ad
 ##.reviewMidAdvertAlign
 ##.rght300x250
@@ -11289,6 +11300,7 @@ _a468x60.
 ##.top-left-nav-ad
 ##.top-menu-ads
 ##.top-sidebar-adbox
+##.topAD
 ##.topAdCenter
 ##.topAdContainer
 ##.topAdWrap
@@ -11604,6 +11616,7 @@ _a468x60.
 ||adcount.in^$third-party
 ||adcru.com^$third-party
 ||addaim.com^$third-party
+||addelive.com^$third-party
 ||addoer.com^$third-party
 ||adecn.com^$third-party
 ||adedy.com^$third-party
@@ -12472,6 +12485,7 @@ _a468x60.
 ||media-servers.net^$third-party
 ||media.net^$third-party
 ||media6degrees.com^$third-party
+||mediaadserver.org^$third-party
 ||mediaclick.com^$third-party
 ||mediacpm.com^$third-party
 ||mediaflire.com^$third-party
@@ -12649,6 +12663,7 @@ _a468x60.
 ||populis.com^$third-party
 ||popuptraffic.com^$third-party
 ||postaffiliatepro.com^$third-party
+||postrelease.com^$third-party
 ||poweradvertising.co.uk^$third-party
 ||powerlinks.com^$third-party
 ||ppclinking.com^$third-party
@@ -12702,6 +12717,7 @@ _a468x60.
 ||realvu.net^$third-party
 ||recomendedsite.com^$third-party
 ||redintelligence.net^$third-party
+||redpineapplemedia.com^$third-party
 ||reelcentric.com^$third-party
 ||reklamz.com^$third-party
 ||resultlinks.com^$third-party
@@ -13059,6 +13075,7 @@ _a468x60.
 ||adzmob.com^$third-party
 ||amobee.com^$third-party
 ||appads.com^$third-party
+||greystripe.com^$third-party
 ||inmobi.com^$third-party
 ||mkhoj.com^$third-party
 ||mobgold.com^$third-party
@@ -13077,6 +13094,7 @@ _a468x60.
 ||888media.net^$image,~image,popup,third-party
 ||888poker.com^$image,~image,popup,third-party
 ||888promos.com^$image,~image,popup,third-party
+||ad-apac.doubleclick.net^$image,~image,popup,third-party
 ||ad-emea.doubleclick.net^$image,~image,popup,third-party
 ||ad.doubleclick.net^$image,~image,popup,third-party
 ||ad2games.com^$image,~image,popup,third-party
@@ -13092,6 +13110,7 @@ _a468x60.
 ||advertserve.com^$image,~image,popup,third-party
 ||alternads.info^$image,~image,popup,third-party
 ||am10.ru^$image,~image,popup,third-party
+||baypops.com^$image,~image,popup,third-party
 ||brandreachsys.com^$image,~image,popup,third-party
 ||clickbank.net^$image,~image,popup,third-party
 ||clkads.com^$image,~image,popup,third-party
@@ -13306,6 +13325,7 @@ _a468x60.
 ||bravenet.com/cserv.php?
 ||break.com^*/partnerpublish/
 ||brettterpstra.com/wp-content/uploads/$third-party
+||broadbandgenie.co.uk/widget?$third-party
 ||btguard.com/images/$third-party
 ||btrd.net^*/interstitial.
 ||bullguard.com^*/banners/
@@ -13547,6 +13567,7 @@ _a468x60.
 ||freecycle.org^*/sponsors/
 ||freetrafficsystem.com/fts/ban/
 ||freetricktipss.info^$subdocument,third-party
+||freshbooks.com/images/banners/$third-party
 ||friedrice.la/widget/$third-party
 ||frogatto.com/images/$third-party
 ||frontsight.com^*/banners/
@@ -13864,6 +13885,7 @@ _a468x60.
 ||redflagdeals.com/dealoftheday/widgets/$third-party
 ||redtram.com^$script,third-party
 ||redvase.bravenet.com^$third-party
+||reevoo.com^$third-party
 ||regnow.com/vendor/
 ||rehost.to/?ref=
 ||relink.us/images/$third-party
@@ -13963,6 +13985,7 @@ _a468x60.
 ||take2.co.za/misc/bannerscript.php?
 ||takeover.bauermedia.co.uk^$~stylesheet
 ||talkfusion.com^*/banners/
+||tankionline.com/tankiref.swf
 ||teads.tv/js/inread-$third-party
 ||techbargains.com/inc_iframe_deals_feed.cfm?$third-party
 ||techbargains.com/scripts/banner.js$third-party
@@ -14252,7 +14275,7 @@ _a468x60.
 /elqimg.js
 /elqnow/*
 /eluminate?
-/emos2.js
+/emos2.js$~xmlhttprequest
 /epf_v1_95.js
 /estatnativeflashtag.swf
 /event.ng/*
@@ -14508,6 +14531,7 @@ _a468x60.
 /vs_track.gif?
 /vstat.php
 /vtrack.php?
+/wa01.gif?log=
 /webabacus-$script
 /webforensics/*
 /webiq.js
@@ -15280,6 +15304,7 @@ _effectivemeasure_tag.js
 ||thefreehitcounter.com^$third-party
 ||thesearchagency.net^$third-party
 ||tinycounter.com^$third-party
+||tmpjmp.com^$third-party
 ||tmvtp.com^$third-party
 ||tns-cs.net^$third-party
 ||top100bloggers.com^$third-party
@@ -15550,7 +15575,7 @@ _effectivemeasure_tag.js
 ||cache2.delvenetworks.com^
 ||canvas-ping.conduit-data.com^
 ||canvas-usage-v2.conduit-data.com^
-||capture.bi.movideo.com/dc?ct=
+||capture.bi.movideo.com/dc?
 ||capture.camify.com/dc?
 ||cbsinteractive.com^*/akamaianalytics.swf
 ||cbsistatic.com^*/clicktale/
@@ -15833,6 +15858,7 @@ _effectivemeasure_tag.js
 ||projecthaile.com/js/trb-1.js
 ||prstats.postrelease.com^
 ||pt.crossmediaservices.com^
+||ptsc.shoplocal.com^
 ||publicbroadcasting.net/analytics/
 ||purevideo.com^*/pvshim.gif?
 ||px.dynamicyield.com^$third-party
@@ -16225,6 +16251,7 @@ _effectivemeasure_tag.js
 ||china.com^*/endpage_footer.js
 ||chip.eu^*/pic.gif?
 ||chkpt.zdnet.com^
+||christianpost.com/counter/
 ||chron.com/javascript/cider/
 ||ciao.co.uk/flextag/
 ||click.engage.xbox.com^
@@ -16233,6 +16260,7 @@ _effectivemeasure_tag.js
 ||clients1.google.*/generate_204
 ||clients1.googlesyndication.com/generate_204
 ||clients1.googleusercontent.com/generate_204
+||clk.about.com^
 ||clog.go.com^
 ||cloudfront.net/pages/scripts/0011/0794.js$domain=sourceforge.net
 ||cls.ichotelsgroup.com^
@@ -16888,6 +16916,7 @@ _effectivemeasure_tag.js
 ||trueffect.underarmour.com^
 ||tw.i.hulu.com^
 ||twimbow.com/serverreq/twbtracker.php$xmlhttprequest
+||twitch.tv/ping.gif?
 ||twitch.tv/track/
 ||twitter.com/abacus?
 ||twitter.com/scribe?
