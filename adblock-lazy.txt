@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: l11q63qml6yr4t+GQar3Cg
+!  Checksum: W1cd5AcuD+kgqTEZAOfqcQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 25 Jan 2013 19:58:23 +0800
+!  Last Modified:  Sat, 26 Jan 2013 01:46:01 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -292,8 +292,9 @@ iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com##[class^="wgt-ads"]
 ||unstat.baidu.com^$~subdocument
 ||cpro.baidustatic.com^
 !--iQIYI
+@@||iqiyi.com/player/*/$object,object_subrequest
 /ts.swf|$domain=iqiyi.com
-||iqiyi.com/player/ed979320c2a511ea207040ae9524c90dbb99c484be3.swf 
+||iqiyi.com/player/$object_subrequest
 ||msg.iqiyi.com^
 ||afp.qiyi.com^
 ||cupid.qiyi.com^
@@ -791,8 +792,6 @@ kkkmh.com##[class^="mm-"]
 bt.ktxp.com##.ad
 
 !---Ku6
-@@||g.aa.sdo.com/crossdomain.xml
-@@||g.aa.sdo.com/?method=getversion$object_subrequest
 ||st.vq.ku6.cn^
 ||log*.ku6.com^
 ||stat.ku6.com^$object_subrequest
@@ -1634,8 +1633,6 @@ youku.com###ab_26
 youku.com##.AB240
 !--土豆
 @@||js.tudouui.com/bin/player$object
-@@||td.atm.youku.com/tdcm/adcontrol
-@@||td.atm.youku.com/crossdomain.xml
 /cv/pl?file=$object_subrequest
 /pos?$object_subrequest
 ||tudou.com^*/outside.php
@@ -1672,7 +1669,7 @@ bbs.yzz.cn##.half-banner
 ||p.zol-img.com.cn^
 ||pic.zol-img.com.cn^$object
 ||pic.zol-img.com.cn/*430_$image
-bbs.zol.com.cn#@#.adside
+zol.com.cn#@#.adside
 zol.com.cn##.ad
 zol.com.cn##[id^="ad_"]
 zol.com.cn##.hot_tj
@@ -2045,7 +2042,7 @@ zzzcn.com#@##adtop
 ||ttg.im/pic/ttg_
 ttg.im###sitefocus.focus
 !--CHDBits&chdtv
-||10moons.com/taobao/flash/720x80a6.swf
+||10moons.com/taobao/
 www.chdtv.net##.bm.a_c
 www.chdtv.net###sitefocus.focus
 
@@ -2384,6 +2381,7 @@ zxtjd.com###it_an
 ||1tlm.cn^$third-party
 ||122.com.tw^$third-party
 ||129game.com^$third-party
+||1688988.com^$third-party
 ||1717gs.com^$third-party
 ||178gg.com^$third-party
 ||17leyi.com^$third-party
@@ -2409,6 +2407,7 @@ zxtjd.com###it_an
 ||365tc.com^$third-party
 ||37cs.com^$third-party
 ||37cpm.com^$third-party
+||3dwwwgame.com^$third-party
 ||37dz.com^$third-party
 ||37ha.com^$third-party
 ||p.37lai.com^$third-party
@@ -2779,6 +2778,7 @@ zxtjd.com###it_an
 ||wqzyt.net^$third-party
 ||wy31.com^$third-party
 ||wyunion.com^$third-party
+||xhunion.com^$third-party
 ||v.xi666.com^$third-party
 ||xiaoangel.com^$third-party
 ||xixianad.com^$third-party
@@ -6333,6 +6333,8 @@ _a468x60.
 ###adSlot01
 ###adSlot02
 ###adSlot2
+###adSlot3
+###adSlot4
 ###adSpace
 ###adSpace0
 ###adSpace1
@@ -6420,6 +6422,7 @@ _a468x60.
 ###ad_300x100_m_c
 ###ad_300x250
 ###ad_300x250Ando
+###ad_300x250_2
 ###ad_300x250_content_column
 ###ad_300x250_m_c
 ###ad_300x250m
@@ -7703,6 +7706,7 @@ _a468x60.
 ###homepageFooterAd
 ###homepage_right_ad
 ###homepage_right_ad_container
+###homepage_top_ad
 ###homepage_top_ads
 ###hometop_234x60ad
 ###hor_ad
@@ -8468,6 +8472,7 @@ _a468x60.
 ###vhDivAdSlot300x250
 ###video-embed-ads
 ###videoAdvert
+###videoCompanionAd
 ###video_ads_overdiv
 ###video_advert
 ###video_advert2
@@ -9873,6 +9878,7 @@ _a468x60.
 ##.b_ads_cont
 ##.b_ads_top
 ##.backgroundAd
+##.bam-dcRefreshableAd
 ##.banmanad
 ##.banner-125
 ##.banner-300
@@ -10530,6 +10536,7 @@ _a468x60.
 ##.inline-ad
 ##.inline-mpu
 ##.inline-mpu-left
+##.inlineAd
 ##.inlineAdContainer
 ##.inlineAdImage
 ##.inlineAdText

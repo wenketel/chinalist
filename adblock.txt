@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: kWQyqcWSiPpiB5ImDrk1hA
+!  Checksum: vDX6sTq9d33IkhpdzeuxHg
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 25 Jan 2013 19:58:19 +0800
+!  Last Modified:  Sat, 26 Jan 2013 01:45:58 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -291,8 +291,9 @@ iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com##[class^="wgt-ads"]
 ||unstat.baidu.com^$~subdocument
 ||cpro.baidustatic.com^
 !--iQIYI
+@@||iqiyi.com/player/*/$object,object_subrequest
 /ts.swf|$domain=iqiyi.com
-||iqiyi.com/player/ed979320c2a511ea207040ae9524c90dbb99c484be3.swf 
+||iqiyi.com/player/$object_subrequest
 ||msg.iqiyi.com^
 ||afp.qiyi.com^
 ||cupid.qiyi.com^
@@ -790,8 +791,6 @@ kkkmh.com##[class^="mm-"]
 bt.ktxp.com##.ad
 
 !---Ku6
-@@||g.aa.sdo.com/crossdomain.xml
-@@||g.aa.sdo.com/?method=getversion$object_subrequest
 ||st.vq.ku6.cn^
 ||log*.ku6.com^
 ||stat.ku6.com^$object_subrequest
@@ -1633,8 +1632,6 @@ youku.com###ab_26
 youku.com##.AB240
 !--土豆
 @@||js.tudouui.com/bin/player$object
-@@||td.atm.youku.com/tdcm/adcontrol
-@@||td.atm.youku.com/crossdomain.xml
 /cv/pl?file=$object_subrequest
 /pos?$object_subrequest
 ||tudou.com^*/outside.php
@@ -1671,7 +1668,7 @@ bbs.yzz.cn##.half-banner
 ||p.zol-img.com.cn^
 ||pic.zol-img.com.cn^$object
 ||pic.zol-img.com.cn/*430_$image
-bbs.zol.com.cn#@#.adside
+zol.com.cn#@#.adside
 zol.com.cn##.ad
 zol.com.cn##[id^="ad_"]
 zol.com.cn##.hot_tj
@@ -2045,7 +2042,7 @@ zzzcn.com#@##adtop
 ||ttg.im/pic/ttg_
 ttg.im###sitefocus.focus
 !--CHDBits&chdtv
-||10moons.com/taobao/flash/720x80a6.swf
+||10moons.com/taobao/
 www.chdtv.net##.bm.a_c
 www.chdtv.net###sitefocus.focus
 
@@ -2384,6 +2381,7 @@ zxtjd.com###it_an
 ||1tlm.cn^$third-party
 ||122.com.tw^$third-party
 ||129game.com^$third-party
+||1688988.com^$third-party
 ||1717gs.com^$third-party
 ||178gg.com^$third-party
 ||17leyi.com^$third-party
@@ -2409,6 +2407,7 @@ zxtjd.com###it_an
 ||365tc.com^$third-party
 ||37cs.com^$third-party
 ||37cpm.com^$third-party
+||3dwwwgame.com^$third-party
 ||37dz.com^$third-party
 ||37ha.com^$third-party
 ||p.37lai.com^$third-party
@@ -2779,6 +2778,7 @@ zxtjd.com###it_an
 ||wqzyt.net^$third-party
 ||wy31.com^$third-party
 ||wyunion.com^$third-party
+||xhunion.com^$third-party
 ||v.xi666.com^$third-party
 ||xiaoangel.com^$third-party
 ||xixianad.com^$third-party
