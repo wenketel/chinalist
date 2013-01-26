@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: MsEhDkTpB9Em4bIYY8usgw
+!  Checksum: CcBzlz9IxokVCyRmLQYKsA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 26 Jan 2013 14:09:50 +0800
+!  Last Modified:  Sat, 26 Jan 2013 14:12:24 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1359,6 +1359,13 @@ www.sxrb.com##.area1_2_ad2
 ||countpage.sznews.com^
 sznews.com###MyMoveAd
 
+!---淘股吧
+||img.taoguba.com.cn/gbimg/
+||img.taoguba.com.cn/images/$object
+||img.taoguba.com.cn/js/tgbduilian.js
+taoguba.com.cn##.flash_div
+taoguba.com.cn##.label2
+
 !---电玩巴士
 @@||gg.tgbus.com^$image,domain=android.tgbus.com|ipad.tgbus.com|iphone.tgbus.com
 ||17446.com/a/
@@ -2272,10 +2279,6 @@ subpig.net##.a_p
 ||soaspx.com/images/hws.gif
 ||soaspx.com/images/iiszj.gif
 ||bbs.t56.net/ad*/
-||img.taoguba.com.cn/gbimg/
-||img.taoguba.com.cn/images/$object
-||img.taoguba.com.cn/js/tgbduilian.js
-taoguba.com.cn##.label2
 ||tianyayidu.com/js/
 tianyayidu.com##div[style^="width:728px;"]
 /large/*$domain=tiyuba.tv
