@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: k98gH9hgPTibGOBYbn6Ntg
+!  Checksum: z0LsmUcKjpIIKIFsLZ8tDQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 27 Jan 2013 14:04:04 +0800
+!  Last Modified:  Sun, 27 Jan 2013 21:14:06 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -578,7 +578,7 @@ i.firefoxchina.cn###topbanner
 ||imgf.gamersky.com^*bg_ol$image
 gamersky.com##.adc
 gamersky.com###clickbg
-gamersky.com##img[width="960"][height="90"]
+gamersky.com##div[style="position:absolute;z-index:1"]
 gamersky.com##.topadbod
 
 !---机锋
@@ -7197,6 +7197,7 @@ _a468x60.
 ###block-openads-5
 ###block-spti_ga-spti_ga_adwords
 ###block-thewrap_ads_250x300-0
+###blockAd
 ###block_advert
 ###block_advert1
 ###block_advert2
@@ -8108,6 +8109,7 @@ _a468x60.
 ###right_column_top_ad_unit
 ###rightad
 ###rightad2
+###rightadBorder
 ###rightadContainer
 ###rightads
 ###rightadvertbar-doubleclickads
@@ -9448,6 +9450,7 @@ _a468x60.
 ##.adsBlock
 ##.adsBottom
 ##.adsBox
+##.adsBoxTop
 ##.adsCell
 ##.adsCont
 ##.adsDiv
