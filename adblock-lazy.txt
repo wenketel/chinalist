@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: tu1a8PDK+cQDYdPj3GM2iQ
+!  Checksum: k98gH9hgPTibGOBYbn6Ntg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 26 Jan 2013 21:05:14 +0800
+!  Last Modified:  Sun, 27 Jan 2013 14:04:04 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -806,11 +806,11 @@ www.ku6.com##.ku6_ad
 @@||pic.snyu.com/sdk*/Main.swf$domain=~ku6.com
 
 !---乐视网
-^ptv_player^$object_subrequest,domain=tudou.letv.com
-||letv.com/ptv/player/pageAd/
 ||dc.letv.com^
 ||pro.letv.com^
+||webp2p.letv.com^
 ||js.letvcdn.com/js/*/stats/
+||player.letvcdn.com/p/*/pb/pbTip.swf
 letv.com##.theatre[style]
 
 !---雷州电影网
@@ -4978,6 +4978,7 @@ zazww.com##[id^="ads_c_"]
 /provideadcode.
 /proxyadcall?
 /pub/ad/*
+/pub_images/*
 /pubad.
 /public/ad/*
 /public/ad?
@@ -5576,6 +5577,7 @@ _header_ad.
 _header_ad_
 _headerad.
 _house_ad_
+_images/ad.
 _index_ad.
 _jtads/
 _layerad.
@@ -6281,6 +6283,7 @@ _a468x60.
 ###adBoxUpperRight
 ###adChannel
 ###adCirc300X200
+###adCirc300x300
 ###adCirc_620_100
 ###adClickMe
 ###adCol
@@ -7349,6 +7352,7 @@ _a468x60.
 ###containerMrecAd
 ###containerSqAd
 ###content-ad-header
+###content-columns-post-ad-bottom
 ###content-left-ad
 ###content-right-ad
 ###contentAdSense
@@ -8026,6 +8030,7 @@ _a468x60.
 ###post-promo-ad
 ###post5_adbox
 ###post_ad
+###pre-footer-ad
 ###premium_ad
 ###priceGrabberAd
 ###prime-ad-space
@@ -8194,6 +8199,7 @@ _a468x60.
 ###sidebar-adv
 ###sidebar-advertisement
 ###sidebar-sponsor-link
+###sidebar-top-ads
 ###sidebar2ads
 ###sidebarAd
 ###sidebarAdSense
@@ -8449,6 +8455,7 @@ _a468x60.
 ###tour300Ad
 ###tour728Ad
 ###tourSponsoredLinksContainer
+###tower1ad
 ###towerad
 ###transparentad
 ###ts-ad_module
@@ -8882,6 +8889,7 @@ _a468x60.
 ##.ad-right2
 ##.ad-row
 ##.ad-section
+##.ad-sense
 ##.ad-served
 ##.ad-show-label
 ##.ad-side
@@ -9613,6 +9621,8 @@ _a468x60.
 ##.adspecial390
 ##.adspot
 ##.adspot728x90
+##.adspot_468x60
+##.adspot_728x90
 ##.adstext
 ##.adstextpad
 ##.adstitle
@@ -9991,6 +10001,7 @@ _a468x60.
 ##.blockrightsmallads
 ##.blog-ad-leader-inner
 ##.blog-ads-container
+##.blog2AdIntegrated
 ##.blogAd
 ##.blogAdvertisement
 ##.blogArtAd
@@ -10406,6 +10417,9 @@ _a468x60.
 ##.googleaddiv
 ##.googleaddiv2
 ##.googleads
+##.googleads-bottommiddle
+##.googleads-container
+##.googleads-topmiddle
 ##.googleads_300x250
 ##.googleads_title
 ##.googleadsense
@@ -10894,6 +10908,7 @@ _a468x60.
 ##.postgroup-ads-middle
 ##.prebodyads
 ##.premium_ad_container
+##.premiumad
 ##.pro_ad_system_ad_container
 ##.pro_ad_zone
 ##.promoAds
@@ -12812,6 +12827,7 @@ _a468x60.
 ||skimlinks.com^$third-party
 ||skimresources.com^$third-party
 ||skoovyads.com^$third-party
+||skyactivate.com^$third-party
 ||slimtrade.com^$third-party
 ||smart.allocine.fr^$third-party
 ||smart2.allocine.fr^$third-party
@@ -14900,6 +14916,7 @@ _effectivemeasure_tag.js
 ||extreme-dm.com^$third-party
 ||ezec.co.uk^$third-party
 ||ezytrack.com^$third-party
+||fabricww.com^$third-party
 ||fastanalytic.com^$third-party
 ||fastonlineusers.com^$third-party
 ||fastwebcounter.com^$third-party
