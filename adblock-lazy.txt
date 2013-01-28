@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: z0LsmUcKjpIIKIFsLZ8tDQ
+!  Checksum: hNikkh3Jj+s4U3q8L+O0rQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 27 Jan 2013 21:14:06 +0800
+!  Last Modified:  Mon, 28 Jan 2013 17:27:09 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1086,6 +1086,7 @@ jjwxc.net##table[style^="width:984px;"]
 ||rh.qq.com^
 ||trace.qq.com^
 ||tj.qstatic.com^
+||vc.qq.com/cgi-bin/video_stat.cgi?
 mb.qq.com#@##ad-container
 qq.com##.AdBox-Article-QQ
 qq.com##.AdTop-Article-QQ
@@ -1121,9 +1122,11 @@ hb.qq.com##div[style="margin:10px auto;width:960px;height:60px; overflow:hidden;
 ||wit.qq.com^$third-party
 !--qzone
 ||analy.qq.com^
+||gdt.qq.com^
 ||isdspeed.qq.com^
 ||statistic.qzone.qq.com^
-||os.qzs.qq.com/qzone/biz/gdt/
+||users.qzone.qq.com/cgi-bin/pos/cgi_getpos?
+qzone.qq.com##.gdtads_box
 !--搜搜
 ||dr.soso.com^
 soso.com##[ss_c^="ad_"]
@@ -1943,6 +1946,8 @@ yesky.com##[class^="ad"]
 ||baishuzhai.com/css/*_$script
 ||baishuzhai.com/css/inend.js
 ||baishuku.com/news/$script
+||bengou.com/game/
+bengou.com###header + div[style]
 ||binhuo.com/bhjs/
 binhuo.com##table[width="950PX"]
 ||bookcu.com/pop.js
@@ -2995,6 +3000,8 @@ ttmeiju.com##a[href^="http://www.ttmeiju.com/adclick.php?"]
 wcxiaoshuo.com##div[style="margin:10px auto; width:960px;height:90px;"]
 bbs.wuyou.com##[style="background: #BBE9FF"]
 xiachufang.com##.g-ga.g-bg-white
+yunkeji.com##.content > p:nth-last-of-type(2)
+yunkeji.com##.content > p:nth-last-of-type(3)
 zazww.com##[id^="ads_c_"]
 
 !-----------------------Temporary---------------------------
@@ -4593,6 +4600,7 @@ zazww.com##[id^="ads_c_"]
 /graphics/ad_
 /gt6skyadtop.
 /guardianleader.
+/hads-
 /Handlers/Ads.
 /header-ad.
 /header_ads_
