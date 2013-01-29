@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: 3vD5i7nRYMeQ7UWB3uFU7g
+!  Checksum: PVuPLC0u7S5E6EtlXKbe2w
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 30 Jan 2013 01:29:56 +0800
+!  Last Modified:  Wed, 30 Jan 2013 04:01:25 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -820,6 +820,13 @@ letv.com##.theatre[style]
 lzstw.org##.play960
 lzstw.org##.top960
 
+!---M1905
+@@||static.m1905.com/profile/ads/*.xml$object_subrequest
+||playerlog.lxdns.com^
+||js.static.m1905.cn/pingd.js
+||trace.m1905.cn^
+||vodlog.m1905.com^
+
 !---MSN
 !-CN
 @@||msn.wrating.com/a1.js
@@ -1315,7 +1322,8 @@ www.sohu.com###contentC > .columnC
 ||tv.sohu.com/upload/static/global/hdpv.js
 ||tv.sohu.com/upload/static/plugin/push_win/
 ||tv.sohu.com/upload/trace/
-||aty.tv.sohu.com^
+||aty*.sohu.com^
+||v.blog.sohu.com/dostat.do?
 ||his.tv.sohu.com/his/ping.do?
 ||count.vrs.sohu.com^$object_subrequest
 ||data.vrs.sohu.com/player.gif?
@@ -1632,9 +1640,13 @@ news.ynet.com##.RC
 @@||static.atm.youku.com^*.swf|$domain=www.youku.com
 @@||valf.atm.youku.com/crossdomain.xml
 !@@||valf.atm.youku.com/valf?
+||l.ykimg.com^
+||p-log.ykimg.com^
 ||atm.youku.com^
 ||hz.youku.com/red/
+||lstat.youku.com^
 ||e.stat.youku.com^
+||l.youku.com^*log?
 ||t.stat.youku.com^
 ||static.youku.com/*/index/js/cps.js
 ||static.youku.com/*/index/js/hzClick.js
@@ -1644,16 +1656,11 @@ youku.com###ab_26
 youku.com##.AB240
 !--土豆
 @@||js.tudouui.com/bin/player$object
-/cv/pl?file=$object_subrequest
+/cv/*&uuid=$object_subrequest
 /pos?$object_subrequest
 ||tudou.com^*/outside.php
-||tudou.com/tdap/
-||tudou.com/tdcm/
-||erreport.tudou.com^
-||istat.tudou.com/play.srv?
 ||player.pb.ops.tudou.com/info.php?
 ||stat*.tudou.com^
-||lstat.youku.com^$third-party
 
 !---宇宙点播
 ||yzdb.tv/ad/
@@ -1822,7 +1829,7 @@ club.tgfcer.com#@##content_adv
 ||jianguoyun.com/static/bdshare/v.gif
 ||d.namipan.com/inc_js/$script
 ||u.qjwm.com^
-qjwm.com##TABLE[width="960"]
+||qjwm.com/123.jpg
 ||img.rayfile.com/scr/$script
 ||rayfile.com/_.gif?vid
 /shortcounter.jsp$domain=ref.so
@@ -2238,8 +2245,6 @@ bbs.lephone.cc##.mbn.cl
 ||linuxidc.com/linuxfile/linux2.js
 ||linuxidc.com/linuxfile/linuxa1.js
 ||sp.luo.bo^$subdocument
-@@||static.m1905.com/profile/ads/*.xml$object_subrequest
-||vodlog.m1905.com^
 ||xc.macd.cn^
 bbs.macd.cn###advlist
 ||img.maxpda.com/images/
