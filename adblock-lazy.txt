@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: nisRrR2FHWYHDrj/gqTVdw
+!  Checksum: BAK5+YBMzY9Da4SaqcNdVA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 30 Jan 2013 19:00:13 +0800
+!  Last Modified:  Thu, 31 Jan 2013 05:45:08 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1639,9 +1639,12 @@ news.ynet.com##.RC
 !---优酷
 @@||static.atm.youku.com^*.swf|$domain=www.youku.com
 @@||valf.atm.youku.com/crossdomain.xml
-!@@||valf.atm.youku.com/valf?
+@@||valf.atm.youku.com/valf?
+@@||f.youku.com/player/getFlvPath/fileid/*/$object_subrequest
 ||l.ykimg.com^
+||p.l.ykimg.com/ykvisitts?
 ||p-log.ykimg.com^
+||f.youku.com/player/getFlvPath/fileid/$object_subrequest
 ||atm.youku.com^
 ||hz.youku.com/red/
 ||lstat.youku.com^
@@ -3926,6 +3929,7 @@ zazww.com##[id^="ads_c_"]
 /adspot.
 /adspots/*
 /adspro/*
+/AdsPublisher.
 /adsquare.
 /adsquareleft.
 /adsrc.
@@ -3948,6 +3952,7 @@ zazww.com##[id^="ads_c_"]
 /adsrv.
 /adsrv/*
 /adsserv.
+/AdsShow.
 /adssrv.
 /adstacodaeu.
 /adstatic.
@@ -12639,6 +12644,7 @@ _a468x60.
 ||nobleppc.com^$third-party
 ||northmay.com^$third-party
 ||nowlooking.net^$third-party
+||nspmotion.com^$third-party
 ||nuggad.net^$third-party
 ||nuseek.com^$third-party
 ||nvadn.com^$third-party
@@ -12814,6 +12820,7 @@ _a468x60.
 ||rovion.com^$third-party
 ||roxyaffiliates.com^$third-party
 ||rtbpop.com^$third-party
+||rtbpops.com^$third-party
 ||ru4.com^$third-party
 ||rubiconproject.com^$third-party
 ||rwpads.com^$third-party
@@ -14623,6 +14630,7 @@ _a468x60.
 /whoson_*_trackingonly.js
 /wlexpert_tracker.
 /wlexpert_tracker/*
+/wmxtracker.js
 /wp-clickmap/*
 /wp-content/plugins/stats/count.php?
 /wp-counter.php
@@ -14861,6 +14869,7 @@ _effectivemeasure_tag.js
 ||counterland.com^$third-party
 ||counters4u.com^$third-party
 ||counterservis.com^$third-party
+||countersforlife.com^$third-party
 ||countertracker.com^$third-party
 ||counterviews.net^$third-party
 ||countomat.com^$third-party
@@ -15753,6 +15762,7 @@ _effectivemeasure_tag.js
 ||facebook.com/email_open_log_pic.php
 ||facebook.com/impression.php
 ||facilitatedigital.com/hit.aspx?
+||fastcounter.bcentral.com^
 ||fastcounter.onlinehoster.net^
 ||feedcat.net/button/
 ||feedsportal.com^*/1x1.gif?
