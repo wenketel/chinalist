@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: BAK5+YBMzY9Da4SaqcNdVA
+!  Checksum: mkRGzxV4Nq8zGMp7nby4eA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 31 Jan 2013 05:45:08 +0800
+!  Last Modified:  Fri, 01 Feb 2013 02:51:34 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1640,11 +1640,10 @@ news.ynet.com##.RC
 @@||static.atm.youku.com^*.swf|$domain=www.youku.com
 @@||valf.atm.youku.com/crossdomain.xml
 @@||valf.atm.youku.com/valf?
-@@||f.youku.com/player/getFlvPath/fileid/*/$object_subrequest
 ||l.ykimg.com^
 ||p.l.ykimg.com/ykvisitts?
 ||p-log.ykimg.com^
-||f.youku.com/player/getFlvPath/fileid/$object_subrequest
+||f.youku.com/player/getFlvPath/fileid/$object_subrequest,domain=~bilibili.tv
 ||atm.youku.com^
 ||hz.youku.com/red/
 ||lstat.youku.com^
@@ -4622,6 +4621,7 @@ zazww.com##[id^="ads_c_"]
 /home30/ad.
 /homepage_ads/*
 /homeslideadtop/*
+/HomeStaticAds/*
 /hostedads.
 /hostedbannerads.
 /house-ads/*
@@ -5445,6 +5445,7 @@ _ad.php?
 _ad1.
 _ad120x120_
 _ad234x90-
+_ad3.
 _ad300x250.
 _ad6.
 _ad728x90.
@@ -6609,6 +6610,8 @@ _a468x60.
 ###ad_report_rectangle
 ###ad_results
 ###ad_right
+###ad_rightSidebarFirstBanner
+###ad_rightSidebarSecondBanner
 ###ad_right_box
 ###ad_right_content_home
 ###ad_right_main
@@ -6644,6 +6647,7 @@ _a468x60.
 ###ad_thread_first_post_content
 ###ad_thread_last_post_content
 ###ad_top
+###ad_topBanner
 ###ad_top_holder
 ###ad_tp_banner_1
 ###ad_tp_banner_2
@@ -9154,7 +9158,10 @@ _a468x60.
 ##.ad_250x250
 ##.ad_250x250_w
 ##.ad_300
+##.ad_300Home
+##.ad_300Side
 ##.ad_300_250
+##.ad_300s
 ##.ad_300x250
 ##.ad_300x250_box_right
 ##.ad_300x500
@@ -9168,6 +9175,7 @@ _a468x60.
 ##.ad_600
 ##.ad_680x15
 ##.ad_728
+##.ad_728Home
 ##.ad_728_90
 ##.ad_728_90b
 ##.ad_88x31
@@ -10343,6 +10351,7 @@ _a468x60.
 ##.fns_td_wrap
 ##.fold-ads
 ##.footad
+##.footer-ads
 ##.footer-advert
 ##.footer-text-ads
 ##.footerAd
@@ -12236,6 +12245,7 @@ _a468x60.
 ||doubleclick.net/pfadx/cblvsn.nwsd.videogallery/$third-party
 ||doubleclick.net/pfadx/csn.$third-party
 ||doubleclick.net/pfadx/ltv.wtvr.video/$third-party
+||doubleclick.net/pfadx/mc.channelnewsasia.com^$third-party
 ||doubleclick.net/pfadx/muzumain/$third-party
 ||doubleclick.net/pfadx/muzuoffsite/$third-party
 ||doubleclick.net/pfadx/nbcu.nbc/$third-party
@@ -12513,6 +12523,7 @@ _a468x60.
 ||liftdna.com^$third-party
 ||ligatus.com^$third-party
 ||lightningcast.net^$~object-subrequest,third-party
+||linicom.co.il^$third-party
 ||linkbuddies.com^$third-party
 ||linkconnector.com^$third-party
 ||linkexchange.com^$third-party
@@ -13248,6 +13259,7 @@ _a468x60.
 ||2beon.co.kr/nad/$third-party
 ||2leep.com/ticker2/$third-party
 ||69.50.226.158^$third-party,domain=~worth1000.com.ip
+||6a036421edec9693c962-4d1f758fa5668c904b9cd6e76bdc0d97.r71.cf2.rackcdn.com^
 ||6e32870d409e7dd29e74-1f888a5500a4bf77de3933bbc73268d9.r21.cf2.rackcdn.com^
 ||6theory.com/pub/
 ||770.com/banniere.php?
@@ -13966,7 +13978,6 @@ _a468x60.
 ||redflagdeals.com/dealoftheday/widgets/$third-party
 ||redtram.com^$script,third-party
 ||redvase.bravenet.com^$third-party
-||reevoo.com^$third-party
 ||regnow.com/vendor/
 ||rehost.to/?ref=
 ||relink.us/images/$third-party
@@ -15956,11 +15967,13 @@ _effectivemeasure_tag.js
 ||quisma.com/tracking/
 ||r.msn.com^
 ||rackcdn.com/1x1.gif?
+||rackcdn.com/icon2.gif?
 ||rackcdn.com^*/analytics.js
 ||radiocompanion.com/count.php?
 ||realplayer.com^*/pixel?
 ||realtidbits.com^*/analytics.js
 ||reevoo.com/track/
+||reevoo.com^*/track/
 ||replyat.com/gadgetpagecounter*.asp?
 ||reports.maxperview.com^
 ||reports.pagesuite-professional.co.uk^
