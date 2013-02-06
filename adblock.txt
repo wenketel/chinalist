@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: G6GZ52xIgq4BiNnMC4sE+g
+!  Checksum: Ouyc5tAOX3XDrluUse4DXQ
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 06 Feb 2013 18:39:11 +0800
+!  Last Modified:  Wed, 06 Feb 2013 22:10:33 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -2526,7 +2526,7 @@ zxtjd.com###it_an
 ||adqoo.com^$third-party
 ||ads80.com^$third-party
 ||adsage.com^$third-party
-||adsame.com^$third-party,domain=~autohome.com.cn|~iphone4.tw
+||adsame.com^$third-party,domain=~autohome.com.cn|~iphone4.tw|~yicai.com
 ||adsbro.com^$third-party
 ||adsue.com^$third-party
 ||adszui.com^$third-party
@@ -3019,6 +3019,7 @@ ttmeiju.com##a[href^="http://www.ttmeiju.com/adclick.php?"]
 wcxiaoshuo.com##div[style="margin:10px auto; width:960px;height:90px;"]
 bbs.wuyou.com##[style="background: #BBE9FF"]
 xiachufang.com##.g-ga.g-bg-white
+yicai.com##a[href^="http://yicai.adsame.com"][href*="adwo.com"]
 yunkeji.com##.content > p:nth-last-of-type(2)
 yunkeji.com##.content > p:nth-last-of-type(3)
 zazww.com##[id^="ads_c_"]
