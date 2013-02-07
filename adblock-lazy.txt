@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: 2198PkSqULeV/yX6PueUCA
+!  Checksum: 2ki9kvpBfqDmvsxRoga/Bg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 06 Feb 2013 22:10:36 +0800
+!  Last Modified:  Fri, 08 Feb 2013 06:36:57 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -710,6 +710,7 @@ v.ifeng.com##.tit_ad
 !---金山
 @@||hd.duba.net/vip.ijinshan.com/repository/ad-images/$image,domain=vip.ijinshan.com
 ||tongji2.vip.duba.net/__infoc.gif?
+||web.kuaipan.cn/static/images/anods/
 
 !---iPc.me
 ||ipc.me/plus/static_files/nuffnang.html
@@ -3748,8 +3749,11 @@ zazww.com##[id^="ads_c_"]
 /ads/js/*
 /ads/jsbannertext.
 /ads/leaderboard.
+/ads/leaderboard?
 /ads/main.
 /ads/mpu/*
+/ads/mpu2?
+/ads/mpu?
 /ads/panel.
 /ads/pencil/*
 /ads/player-
@@ -4487,6 +4491,7 @@ zazww.com##[id^="ads_c_"]
 /embed_ad.
 /emediatead.
 /ems/ads.
+/esi/ads/*
 /exchange_banner_
 /exitsplash.
 /expandable_ad.php
@@ -5888,6 +5893,7 @@ _a468x60.
 ! *** easylist:easylist/easylist_general_block_popup.txt ***
 &program=revshare&$image,~image,popup
 /ad_pop.php?$image,~image,popup
+/adserver.$popup
 /bani/index.php?id=$image,~image,popup
 /popunder_$image,~image,popup
 /promoredirect?*&campaign=*&zone=$image,~image,popup
@@ -7207,6 +7213,7 @@ _a468x60.
 ###banner-468x60
 ###banner-728adtag-bottom
 ###banner-ad-container
+###banner-ad-loader
 ###banner-ads
 ###banner250x250
 ###banner300x250
@@ -7565,6 +7572,7 @@ _a468x60.
 ###foot-ad-1
 ###footad
 ###footer-ad
+###footer-ad-loader
 ###footer-ads
 ###footer-advert
 ###footer-adverts
@@ -8260,6 +8268,7 @@ _a468x60.
 ###sidebar-125x125-ads-below-index
 ###sidebar-ad
 ###sidebar-ad-boxes
+###sidebar-ad-loader
 ###sidebar-ad-space
 ###sidebar-ad-wrap
 ###sidebar-ad3
@@ -10623,6 +10632,7 @@ _a468x60.
 ##.ico-adv
 ##.idGoogleAdsense
 ##.idMultiAd
+##.idgGoogleAdTag
 ##.iframe-ad
 ##.imageAd
 ##.imageads
@@ -12449,6 +12459,7 @@ _a468x60.
 ||harrenmedianetwork.com^$third-party
 ||havamedia.net^$third-party
 ||hb-247.com^$third-party
+||healthaffiliatesnetwork.com^$third-party
 ||himediads.com^$third-party
 ||himediadx.com^$third-party
 ||hit-now.com^$third-party
@@ -13103,6 +13114,7 @@ _a468x60.
 ||vibrantmedia.com^$third-party
 ||video-loader.com^$third-party
 ||videoegg.com^$third-party
+||videohub.com^$third-party
 ||videoplaza.com^$object-subrequest,third-party,domain=autoexpress.co.uk|evo.co.uk|givemefootball.com|mensfitness.co.uk|mpora.com
 ||videoplaza.com^$~object-subrequest,third-party
 ||videoplaza.tv/proxy/distributor^$object-subrequest,third-party
@@ -14633,6 +14645,7 @@ _a468x60.
 /statcountex/count.asp?
 /stateye/*
 /statistics/pagestats.aspx?
+/stats-js.cgi?
 /stats/et_track.asp?
 /stats/stats.gif?
 /stats/tracker.gif?
@@ -15286,6 +15299,7 @@ _effectivemeasure_tag.js
 ||oranges88.com^$third-party
 ||orcapia.com^$third-party
 ||otracking.com^$third-party
+||ournet-analytics.com^$third-party
 ||outboundlink.me^$third-party
 ||overstat.com^$third-party
 ||owneriq.net^$third-party
@@ -15972,6 +15986,7 @@ _effectivemeasure_tag.js
 ||navlink.com/__utmala.js
 ||neocounter.neoworx-blog-tools.net^
 ||neoworx.net/neocounter/
+||netne.net/stats/
 ||netscape.com/c.cgi?
 ||neulion.vo.llnwd.net^*/track.js
 ||newsinc.com/analytics_ping.htm?
@@ -16620,6 +16635,7 @@ _effectivemeasure_tag.js
 ||hellomagazine.ca/idcookie/pixel.png?
 ||hellomagazine.com/idcookie/pixel.png?
 ||heraldm.com/tracker.tsp?
+||here.sc^*/tracking.c.js
 ||hitcount.heraldm.com^
 ||holiday-rentals.co.uk/thirdparty/tag
 ||holiday-rentals.co.uk^*/hrtrackjs.gif?
