@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: Zjv6RnUXLWtY4ONOGciHhQ
+!  Checksum: aMPfckiZ668g24ibDf5Bew
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 14 Feb 2013 17:00:14 +0800
+!  Last Modified:  Fri, 15 Feb 2013 15:36:16 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -2147,6 +2147,8 @@ www.jstv.com##.jadv
 ||js.5ilog.com/qq/js/jsgg.js
 ||9ist.com/others/ad/
 9ist.com##.tab_mb[width="100%"]
+||asp300.com/2012adjs/
+asp300.com##.asp300-indexAD
 ||badmintoncn.com/cbo_gg/
 ||bitscn.com/pic2009/a*.js
 ||c168c.com/*adv/
@@ -4095,7 +4097,7 @@ zazww.com##[id^="ads_c_"]
 /advertisements/*
 /advertisementview/*
 /advertiser.
-/advertiser/*
+/advertiser/*$domain=~mobileapptracking.com
 /advertisers/*
 /advertising-
 /advertising.
@@ -4440,6 +4442,7 @@ zazww.com##[id^="ads_c_"]
 /devicead/*
 /dfpads.
 /dfpsearchads.
+/dictionary/ads/*
 /direct_ads.
 /directads.
 /display-ad/*
@@ -5065,6 +5068,7 @@ zazww.com##[id^="ads_c_"]
 /rectangle_advertorials_
 /refreshads-
 /refreshsyncbannerad?
+/RefSplDicAdsTopL.
 /reklame/*
 /related-ads.
 /relatedads.
@@ -7493,6 +7497,7 @@ _a468x60.
 ###ctl00_m_skinTracker_m_adLBL
 ###ctl00_phCrackerMain_ucAffiliateAdvertDisplayMiddle_pnlAffiliateAdvert
 ###ctl00_phCrackerMain_ucAffiliateAdvertDisplayRight_pnlAffiliateAdvert
+###ctl00_pnlAdTop
 ###ctl00_topAd
 ###ctr-ad
 ###ctrlsponsored
@@ -11089,6 +11094,7 @@ _a468x60.
 ##.right-sidebar-box-ad
 ##.rightAdBox
 ##.rightAdverts
+##.rightBoxMidAds
 ##.rightColAd
 ##.rightColumnRectAd
 ##.rightRailAd
@@ -11456,6 +11462,7 @@ _a468x60.
 ##.top-ad-center
 ##.top-ad-container
 ##.top-ad-space
+##.top-ad-wrapper
 ##.top-ads
 ##.top-banner-ad
 ##.top-left-nav-ad
@@ -11786,6 +11793,7 @@ _a468x60.
 ||adecn.com^$third-party
 ||adedy.com^$third-party
 ||adengage.com^$third-party
+||adespresso.com^$third-party
 ||adexcite.com^$third-party
 ||adexprt.com^$third-party
 ||adextent.com^$third-party
@@ -14300,7 +14308,6 @@ _a468x60.
 ||zamimg.com/images/skins/gw2-
 ||zamimg.com/images/skins/mob-
 ||zapads.zapak.com^
-||zergnet.com/zerg.js?id=$third-party
 ||zeusfiles.com/promo/
 ||ziffdavisenterprise.com/contextclicks/
 ||zip2save.com/widget.php?
@@ -15603,6 +15610,7 @@ _effectivemeasure_tag.js
 ||webflowmetrics.com^$third-party
 ||webforensics.co.uk^$third-party
 ||webiqonline.com^$third-party
+||webleads-tracker.com^$third-party
 ||webmasterplan.com^$third-party
 ||website-hit-counters.com^$third-party
 ||websiteceo.com^$third-party
@@ -15749,6 +15757,7 @@ _effectivemeasure_tag.js
 ||appliedsemantics.com/images/x.gif
 ||appspot.com/tracking_iframe.jsp?
 ||apture.com/v3/?5=%7b%22stats%22$xmlhttprequest
+||archive.org/includes/analytics.js
 ||ask.com^*/i.gif?
 ||assoc-amazon.*^e/ir?t=$image
 ||asterpix.com/tagcloudview/
@@ -16073,6 +16082,7 @@ _effectivemeasure_tag.js
 ||poweredbyeden.com/widget/tracker/
 ||pr.blogflux.com^
 ||praekelt.com^*/webtracker.js
+||production.mcs.delve.cust.lldns.net^
 ||projecthaile.com/js/trb-1.js
 ||prstats.postrelease.com^
 ||pt.crossmediaservices.com^
