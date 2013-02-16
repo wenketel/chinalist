@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: E/aLxHHV/OTkADlIlKOwuw
+!  Checksum: LaPGGOizWrti4Gn9sOLjQA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 16 Feb 2013 14:24:14 +0800
+!  Last Modified:  Sun, 17 Feb 2013 02:41:32 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1686,6 +1686,7 @@ youku.com##.AB240
 !---人人影视
 ||copy.ousns.com^
 yyets.com##.adBox
+yyets.com##div[style="margin-bottom:1em; text-align:center;"]
 
 !---叶子猪游戏网
 @@||yktj.yzz.cn/htmldata/mds/yzz_single_gg.js$domain=bbs.yzz.cn
@@ -3744,6 +3745,7 @@ zazww.com##[id^="ads_c_"]
 /ads/ads.
 /ads/advshow.
 /ads/afc/*
+/ads/btbuckets/*
 /ads/center-
 /ads/displaytrust.
 /ads/generatedHTML/*
@@ -4331,6 +4333,7 @@ zazww.com##[id^="ads_c_"]
 /boxad3.
 /boxad_
 /breakad_
+/btbuckets/btb.js
 /btmads.
 /btmadsx.
 /btn_ad_
@@ -11053,6 +11056,7 @@ _a468x60.
 ##.publication-ad
 ##.publicidad_horizontal
 ##.puff-advertorials
+##.pull_top_ad
 ##.pushDownAd
 ##.pushdownAd
 ##.qa_ad_left
@@ -11099,6 +11103,7 @@ _a468x60.
 ##.right-ad2
 ##.right-ads
 ##.right-ads2
+##.right-side-ad
 ##.right-sidebar-box-ad
 ##.rightAdBox
 ##.rightAdverts
@@ -11603,7 +11608,9 @@ _a468x60.
 ##.widget_advertisement
 ##.widget_advertisment
 ##.widget_advwidget
+##.widget_cxad
 ##.widget_econaabachoadswidget
+##.widget_internationaladserverwidget
 ##.widget_island_ad
 ##.widget_maxbannerads
 ##.widget_sdac_bottom_ad_widget
@@ -15181,6 +15188,7 @@ _effectivemeasure_tag.js
 ||hitsprocessor.com^$third-party
 ||hittail.com^$third-party
 ||hittracker.com^$third-party
+||hitwake.com^$third-party
 ||hitwebcounter.com^$third-party
 ||host-tracker.com^$third-party
 ||hoststats.info^$third-party
@@ -15396,6 +15404,7 @@ _effectivemeasure_tag.js
 ||pstats.com^$third-party
 ||psyma-statistics.com^$third-party
 ||publishflow.com^$third-party
+||pulsemaps.com^$third-party
 ||pulsemgr.com^$third-party
 ||pureairhits.com^$third-party
 ||q-counter.com^$third-party
@@ -15887,6 +15896,7 @@ _effectivemeasure_tag.js
 ||ecustomeropinions.com/survey/nojs.php?
 ||ecustomeropinions.com^*/i.php?
 ||edgesuite.net^*/googleanalyt
+||elb.amazonaws.com/?page=$image
 ||elb.amazonaws.com/g.aspx?surl=
 ||elb.amazonaws.com/partner.gif?
 ||elb.amazonaws.com/small.gif?
@@ -15975,6 +15985,7 @@ _effectivemeasure_tag.js
 ||isacglobal.com/sa.js
 ||iyisayfa.net/inc.php?
 ||jambocast.com/jc/hit.php?
+||jwpltx.com^*/ping.gif?
 ||kalstats.kaltura.com^
 ||kaltura.com^*/index.php?service=stats&action=collect&
 ||kaltura.com^*/statisticsPlugin.swf$third-party
