@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: WKrEeM4LNo1Wfh7i2TI2ig
+!  Checksum: 9Ag9dFXdoRj1I7Q3cwrKYw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 24 Feb 2013 02:24:55 +0800
+!  Last Modified:  Sun, 24 Feb 2013 03:51:24 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -133,9 +133,9 @@ so.360.cn,so.com##.spread
 !---3DM Game
 /forum/*$image,domain=www.3dmgame.com
 ||3dmgame.com/templets/default/images/index/a_40.jpg
-3dmgame.com##.g-left
-3dmgame.com##.box
 3dmgame.com###adv
+3dmgame.com##.box
+3dmgame.com##.g-left
 3dmgame.com##.g-right
 3dmgame.com##.hengfu
 3dmgame.com##.R1
@@ -248,7 +248,6 @@ autohome.com.cn##.recommend
 ||top.baidu.com/js/nsclick.js
 ||wenku.baidu.com/tongji/
 ||mu6.bdstatic.com/static/j/4HDIIHzf.js
-||hao123.com/images/ua2.gif
 baike.baidu.com###mabox
 news.baidu.com###ecad
 www.baidu.com,www1.baidu.com,ipv6.baidu.com##.ec_bdtg
@@ -259,6 +258,9 @@ www.baidu.com,www1.baidu.com,ipv6.baidu.com##.ec_pp_f
 www.baidu.com,www1.baidu.com,ipv6.baidu.com##.ec_pp_f + br
 www.baidu.com,www1.baidu.com,ipv6.baidu.com##.EC_ppim
 www.baidu.com,www1.baidu.com,ipv6.baidu.com##.EC_ppim2
+!--hao123
+@@||hao123.com/images/track.gif|
+||hao123.com/images/ua2.gif
 !--image
 image.baidu.com###ecomContainer
 image.baidu.com##[id^="relecom"]
@@ -500,9 +502,11 @@ discuss.com.hk,uwants.com##a[href^="http://b.optimix.asia/"]
 uwants.com###foruminfo + div[align="center"]
 
 !---动漫屋
-/qu.html^$domain=dm5.cn|dm5.hk
-||dm5.cn/96000.htm
-||dm5.cn/default/js/newtc.js
+||by.tel.cdndm.com^
+/newtc.js$domain=dm5.com|dm5.hk
+/wxh.js$domain=dm5.com|dm5.hk
+/wxhfm.html$domain=dm5.com|dm5.hk
+dm5.com,dm5.hk###beitou
 dm5.com,dm5.hk##.cl760
 dm5.com,dm5.hk##.cl970
 
@@ -675,6 +679,7 @@ iciba.com###dict_right5
 iciba.com##.vAd_head
 
 !---凤凰网
+@@||bc.ifeng.com/main/s?user=ifeng||wailian_vad&$object_subrequest
 /ifengRotatorAd.js
 /sc_ifeng/*$domain=ifeng.com
 /tres/recommend/*$domain=ifeng.com
@@ -695,6 +700,7 @@ iciba.com##.vAd_head
 ||ifengimg.com/mappa/
 ||h0.ifengimg.com^*/playbox_$script
 ||y1.ifengimg.com^*/rdn_*.js
+||y1.ifengimg.com/sta_collection.*.js
 ||y3.ifengimg.com^*/200x250.htm
 ||script2.pingan.com/app_js/pingan/
 ifeng.com##.adbox
@@ -816,11 +822,13 @@ www.ku6.com##.ku6_ad
 @@||pic.snyu.com/sdk*/Main.swf$domain=~ku6.com
 
 !---乐视网
+||letv.com/main/s?
 ||dc.letv.com^
 ||pro.letv.com^
 ||webp2p.letv.com^
 ||js.letvcdn.com/js/*/stats/
 ||player.letvcdn.com/p/*/pb/pbTip.swf
+||letvimg.com/gugwl/
 letv.com##.theatre[style]
 
 !---雷州电影网
@@ -927,7 +935,6 @@ onlinedown.net##.adzone
 onlinedown.net##.ban
 onlinedown.net##.r1
 onlinedown.net##.r2
-onlinedown.net##.softad
 
 !---NextMedia
 !-HK
@@ -2401,6 +2408,9 @@ zxtjd.com###it_an
 ||jxad.jx163.com^
 !--联通
 ||kdly.net^$third-party
+!--广东电信
+/js/utils51.js
+/js/utils78.js
 !--popup
 ||100tjs.com^$image,~image,popup,third-party
 ||114zhaofang.com^$image,~image,popup,third-party
@@ -2481,6 +2491,7 @@ zxtjd.com###it_an
 ||460.com.cn^$third-party
 ||4779.com^$third-party
 ||49ko.com^$third-party
+||510599.com^$third-party
 ||5151ad.com^$third-party
 ||51link.com^$third-party
 ||51wan.com^$third-party,domain=~qqopenapp.com|~qzoneapp.com|~tqapp.cn|~twsapp.com
@@ -2929,7 +2940,7 @@ zxtjd.com###it_an
 |https://*/ad/
 /images/prom/*
 .info/ad/
-/main/s?$~third-party
+/main/s?
 /paypic/*
 /piaofu.js
 /picad/*
