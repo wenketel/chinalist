@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: y9yx84Tbtim8qX27UvVUbA
+!  Checksum: dkyx2TvQPr3Y0ORfZhgPoA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 01 Mar 2013 19:10:14 +0800
+!  Last Modified:  Sat, 02 Mar 2013 17:50:37 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1640,9 +1640,11 @@ kuai.xunlei.com##.bot_tips
 !--CN
 ||buy.cn.yahoo.com/bd/$third-party
 ||bj.data.cn.yahoo.com^$image
+||bj.data.cn.yahoo.com/dpjs/yahoo.js
 ||ks.cn.yahoo.com/ks_q1_tg.html
 cn.yahoo.com##.p_sider
 cn.yahoo.com###r_expandable
+news.cn.yahoo.com##.ad
 !--TW
 @@/ads/*$image,domain=buy.yahoo.com.tw
 @@||l.yimg.com/f/a/tw/js/flash_general_20090213.js$domain=tw.yahoo.com
@@ -4274,7 +4276,9 @@ www.3dmgame.com##[id^="clickbg"]
 /article_ad.
 /aseadnshow.
 /aspbanner_inc.asp?
+/AttractiveAds/*
 /AttractiveAds_
+/AttractiveAdsCube.
 /audioads/*
 /auditudeadunit.
 /austria_ad.
@@ -4696,7 +4700,7 @@ www.3dmgame.com##[id^="clickbg"]
 /googleadhtml/*
 /googleadright.
 /googleads-
-/googleads.$~image,~subdocument
+/googleads.
 /googleads/*
 /googleads2.
 /googleads3widetext.
