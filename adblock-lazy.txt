@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: GMlBBElE2IbfIApZeJUfOw
+!  Checksum: 56jHtMqLro8M7qjYefDMGg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 02 Mar 2013 18:15:31 +0800
+!  Last Modified:  Sun, 03 Mar 2013 19:18:36 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -155,6 +155,7 @@ so.360.cn,so.com##.spread
 
 !---我乐
 ||56.com/cfstat/
+||56.com/flashApp/ctrl_ui_site/pause_ad_panel/
 ||56.com/js/promo/
 ||stat.56.com^
 ||v-56.com^
@@ -3083,9 +3084,10 @@ yunkeji.com##.content > p:nth-last-of-type(3)
 zazww.com##[id^="ads_c_"]
 
 !-----------------------Temporary---------------------------
-!---2013.02
+!---2013.03
 ||image.10010.com/index_js/flash-ad$script
 ||nanrenwa.com/_img/a/$third-party
+||img1.cache.netease.com/news/img13/lh2013/importnewsheader3.jpg
 ||xiankankan.com/widgets/sd.jpg
 3dmgame.com##.banner_2
 www.3dmgame.com##.banner_1
@@ -3285,6 +3287,7 @@ www.3dmgame.com##[id^="clickbg"]
 /120ad.
 /120ads/*
 /126_ad.
+/2010main/ad/*
 /300-ad-
 /300x250advert.
 /468ad.
@@ -3355,6 +3358,7 @@ www.3dmgame.com##[id^="clickbg"]
 /ad/audsci.
 /ad/banner.
 /ad/banner/*
+/ad/banner_
 /ad/bannerdetails/*
 /ad/files/*
 /ad/generate?
@@ -3364,11 +3368,13 @@ www.3dmgame.com##[id^="clickbg"]
 /ad/index.
 /ad/index/*
 /ad/integral-
+/ad/leaderboard.
 /ad/load_
 /ad/rotate?
 /ad/script/*
 /ad/serve.
 /ad/side_
+/ad/skyscrapper.
 /ad/sponsored-
 /ad/takeover/*
 /ad000/*
@@ -5023,6 +5029,7 @@ www.3dmgame.com##[id^="clickbg"]
 /partners/get-banner.
 /partnersadbutler/*
 /pc/ads.
+/pcad.js?
 /peel.js
 /peel.php?
 /peel/?webscr=
@@ -8130,6 +8137,7 @@ _popunder+$image,~image,popup
 ###midrect_ad
 ###midstrip_ad
 ###mini-ad
+###mini-panel-dart_stamp_ads
 ###mochila-column-right-ad-300x250
 ###mochila-column-right-ad-300x250-1
 ###mod_ad
@@ -8331,6 +8339,7 @@ _popunder+$image,~image,popup
 ###rightad
 ###rightad2
 ###rightadBorder
+###rightadBorder1
 ###rightadContainer
 ###rightads
 ###rightadvertbar-doubleclickads
@@ -8468,6 +8477,7 @@ _popunder+$image,~image,popup
 ###skyscraper_ad
 ###skyscraper_advert
 ###skyscraperad
+###skyscrapper-ad
 ###slide_ad
 ###slidead
 ###sliderAdHolder
@@ -15242,6 +15252,7 @@ _effectivemeasure_tag.js
 ||doubleclick.net/activity$third-party
 ||doubleclick.net/imp%$third-party
 ||doubleclick.net/imp;$third-party
+||doubleclick.net/json?$third-party
 ||doubleverify.com^$third-party
 ||dpmsrv.com^$third-party
 ||dsmmadvantage.com^$third-party
@@ -15330,6 +15341,7 @@ _effectivemeasure_tag.js
 ||freestats.com^$third-party
 ||freeweblogger.com^$third-party
 ||freshcounter.com^$third-party
+||fruitflan.com^$third-party
 ||fusestats.com^$third-party
 ||fyreball.com^$third-party
 ||gaug.es^$third-party
@@ -15851,6 +15863,7 @@ _effectivemeasure_tag.js
 ||xclicks.net^$third-party
 ||xg4ken.com^$third-party
 ||xiti.com^$third-party
+||xref.io^$third-party
 ||xtremline.com^$third-party
 ||xxxcounter.com^$third-party
 ||xyztraffic.com^$third-party
@@ -16306,6 +16319,7 @@ _effectivemeasure_tag.js
 ||publicbroadcasting.net/analytics/
 ||purevideo.com^*/pvshim.gif?
 ||px.dynamicyield.com^$third-party
+||px.excitedigitalmedia.com^
 ||px.steelhousemedia.com^
 ||px.topspin.net^
 ||qlog.adap.tv^$object-subrequest
@@ -17382,6 +17396,7 @@ _effectivemeasure_tag.js
 ||urbanlist.com/event/track-first-view/
 ||urchin-tracker.bigpoint.net^
 ||urlcheck.hulu.com^
+||usnews.com/static/scripts/Analytics.js
 ||uts-rss.crystalmedianetworks.com/track.php?
 ||validome.org/valilogger/track.js
 ||vator.tv/tracking/
