@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: yvaO7V1JfS2lB4zBBSuDqQ
+!  Checksum: 0VI1pMhX2tS+c6ScPUrDhA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 03 Mar 2013 22:32:36 +0800
+!  Last Modified:  Mon, 04 Mar 2013 22:26:34 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1671,6 +1671,8 @@ news.cn.yahoo.com##.ad
 ||tw.yimg.com/a/tw/
 tw.news.yahoo.com##.gn_sub_blue
 tw.yahoo.com##.admod
+tw.yahoo.com###ad_exp
+tw.yahoo.com###ad_mntl
 tw.yahoo.com###eyebrow > a:not(#sethomepage)
 tw.yahoo.com##.newsad
 tw.yahoo.com##.pa-banner
@@ -3160,6 +3162,7 @@ www.3dmgame.com##[id^="clickbg"]
 -ad-util.
 -ad-vertical-
 -ad-zone.
+-ad/right_
 -ad1.
 -ad2.
 -ad3.
@@ -3471,6 +3474,7 @@ www.3dmgame.com##[id^="clickbg"]
 /ad_legend_
 /ad_link.
 /ad_load.
+/ad_locations/*
 /ad_log_
 /ad_manager.
 /ad_manager/*
@@ -5374,6 +5378,7 @@ www.3dmgame.com##[id^="clickbg"]
 /thirdpartyads/*
 /tii_ads.
 /tikilink?
+/title-ad/*
 /title_ad.
 /tmnadsense-
 /tmobilead.
@@ -5467,6 +5472,7 @@ www.3dmgame.com##[id^="clickbg"]
 /webmailad.
 /webmaster_ads/*
 /welcome_ad.
+/widget/ad/*
 /widget/ads.
 /wipeads/*
 /wix-ad.
@@ -5740,6 +5746,7 @@ _header_ad_
 _headerad.
 _house_ad_
 _images/ad.
+_images/ad_
 _index_ad.
 _jtads/
 _layerad.
@@ -5927,6 +5934,7 @@ takeover_banner_
 /728x90top.
 /768x90-
 /768x90.
+/_iframe728x90.
 /ad728x90.
 /adreplace160x600.
 /adreplace728x90.
@@ -6082,6 +6090,8 @@ _popunder+$image,~image,popup
 ###AdTargetControl1_iframe
 ###AdTop
 ###AdTopLeader
+###AdZone1
+###AdZone2
 ###Ad_BelowContent
 ###Ad_Block
 ###Ad_Center1
@@ -6849,7 +6859,9 @@ _popunder+$image,~image,popup
 ###adcode3
 ###adcode4
 ###adcolumnwrapper
-###adcontainer1
+##.ad-image
+##.topAd
+! ###adcontainer1
 ###adcontainer2
 ###adcontainer3
 ###adcontainerRight
@@ -6874,6 +6886,7 @@ _popunder+$image,~image,popup
 ###adigniter
 ###adimg
 ###adition_content_ad
+###adl_120x600
 ###adl_250x250
 ###adl_300x100
 ###adl_300x120
@@ -7311,6 +7324,7 @@ _popunder+$image,~image,popup
 ###alert_ads
 ###anchorAd
 ###annoying_ad
+###ap-widget-ad-label
 ###ap_adframe
 ###ap_cu_overlay
 ###ap_cu_wrapper
@@ -8868,6 +8882,8 @@ _popunder+$image,~image,popup
 ##.AdTop
 ##.AdUnit
 ##.AdUnit300
+##.AdZone120
+##.AdZone316
 ##.Ad_C
 ##.Ad_D_Wrapper
 ##.Ad_E_Wrapper
@@ -9075,6 +9091,8 @@ _popunder+$image,~image,popup
 ##.ad-container-300x250
 ##.ad-container-728x90
 ##.ad-container-994x282
+##.ad-container-LEADER
+##.ad-container-top
 ##.ad-context
 ##.ad-disclaimer
 ##.ad-div
@@ -11886,6 +11904,7 @@ _popunder+$image,~image,popup
 ##.mw > #rcnt > #center_col > #taw > .c
 ##.ra[align="left"][width="30%"]
 ##.ra[align="right"][width="30%"]
+##.ra[width="30%"][align="right"] + table[width="70%"][cellpadding="0"]
 ##.rhsvw[style="background-color:#fff;margin:0 0 14px;padding-bottom:1px;padding-top:1px;"]
 ! Sedo
 ###content > #center > .dose > .dosesingle
@@ -12162,9 +12181,11 @@ _popunder+$image,~image,popup
 ||advertisingiq.com^$third-party
 ||advertisingpath.net^$third-party
 ||advertisingvalue.info^$third-party
+||advertjunction.com^$third-party
 ||advertlead.net^$third-party
 ||advertlets.com^$third-party
 ||advertmarketing.com^$third-party
+||advertmedias.com^$third-party
 ||advertserve.com^$third-party
 ||advertstatic.com^$third-party
 ||advertstream.com^$third-party
@@ -13897,6 +13918,7 @@ _popunder+$image,~image,popup
 ||dlupv9uqtjlie.cloudfront.net^
 ||dm0acvguygm9h.cloudfront.net^
 ||dm8srf206hien.cloudfront.net^
+||domaingateway.com/js/redirect-min.js
 ||dorabet.com/banner/
 ||dot.tk/urlfwd/searchbar/bar.html
 ||dotz123.com/run.php?
@@ -15225,6 +15247,7 @@ _effectivemeasure_tag.js
 ||countersforlife.com^$third-party
 ||countertracker.com^$third-party
 ||counterviews.net^$third-party
+||counting4free.com^$third-party
 ||countomat.com^$third-party
 ||cpmadvisors.com^$third-party
 ||cqcounter.com^$third-party
@@ -16358,6 +16381,7 @@ _effectivemeasure_tag.js
 ||sana.newsinc.com^
 ||scribol.com/traffix/widget_tracker/
 ||scripts.psyma.com^
+||searchcompletion.com/BannerHandler.ashx
 ||searchmaestros.com/trackpoint/
 ||seeclickfix.com/widgets/text_widgets_analytics.html
 ||seg.sharethis.com^
@@ -16844,6 +16868,7 @@ _effectivemeasure_tag.js
 ||expedia.co.uk^*/siteanalytics_include.js
 ||expedia.co.uk^*/siteanalytics_include_daily.js
 ||experts-exchange.com/pageloaded.jsp?
+||express.co.uk/trackings/
 ||familychristianmail.com/track?
 ||fantom-xp.org^*/toprefs.php?
 ||fark.com/cgi/ll.pl?
