@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: uxmJttWIrlhs/h9OkfeEpg
+!  Checksum: fmzJwWCpQytDPIRBTDAB2w
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 05 Mar 2013 21:53:48 +0800
+!  Last Modified:  Wed, 06 Mar 2013 15:25:49 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1902,6 +1902,7 @@ club.tgfcer.com#@##content_adv
 ||i02.youxigu.com/skin/youxigu/img/bg-new.jpg
 
 !---Net Disks
+||d.119g.com/fanwan/$script
 ||jianguoyun.com/static/bdshare/v.gif
 ||d.namipan.com/inc_js/$script
 ||u.qjwm.com^
@@ -2781,6 +2782,7 @@ zxtjd.com###it_an
 ||e.phpwind.com^$third-party
 ||lianjie.phpwind.com^$third-party
 ||pixelinteractivemedia.com^$third-party
+||pk38.com^$third-party
 ||ppunion.com^$third-party
 ||prohost.com.tw^$third-party
 ||q150.com^$third-party
@@ -3303,6 +3305,7 @@ www.3dmgame.com##[id^="clickbg"]
 /120ads/*
 /126_ad.
 /2010main/ad/*
+/2013/ads/*
 /300-ad-
 /300x250advert.
 /468ad.
@@ -4308,6 +4311,11 @@ www.3dmgame.com##[id^="clickbg"]
 /auto_ad_
 /avw.php?zoneid=*&cb=
 /back-ad.
+/ban160.php
+/ban300.html
+/ban300.php
+/ban728.html
+/ban728.php
 /ban_ad.
 /ban_m.php?
 /banimpress.
@@ -4412,6 +4420,7 @@ www.3dmgame.com##[id^="clickbg"]
 /bmndoubleclickad.
 /bnrsrv.
 /bodyads/*
+/bookad/*
 /boomad.
 /bottom-ad-
 /bottom-advert-
@@ -5777,6 +5786,7 @@ _preorderad.
 _psu_ad.
 _rectangle_ads.
 _request_ad.
+_response_ad.
 _right_ad.
 _right_ads/
 _rightad_
@@ -6786,6 +6796,7 @@ _popunder+$image,~image,popup
 ###ad_right_box
 ###ad_right_content_home
 ###ad_right_main
+###ad_right_out
 ###ad_right_second
 ###ad_right_top
 ###ad_ros_tower
@@ -6828,6 +6839,7 @@ _popunder+$image,~image,popup
 ###ad_vertical
 ###ad_video_abovePlayer
 ###ad_video_belowPlayer
+###ad_website_top
 ###ad_wide
 ###ad_wide_box
 ###ad_widget
@@ -6862,7 +6874,13 @@ _popunder+$image,~image,popup
 ###adcode3
 ###adcode4
 ###adcolumnwrapper
+###playvideotopad
 ##.ad-image
+##.adfeeds
+##.ads3
+##.ads_by
+##.inline-ad-wrapper
+##.linkads
 ##.topAd
 ! ###adcontainer1
 ###adcontainer2
@@ -16220,6 +16238,7 @@ _effectivemeasure_tag.js
 ||imageshack.us^*/thpix.gif
 ||imgfarm.com/images/trk/myexcitetr.gif?
 ||impi.tv/trackvideo.aspx?
+||infusionsoft.com^*/getTrackingCode?
 ||inq.com/tagserver/tracking/
 ||insights.gravity.com^
 ||instantservice.com/geoipapi.js?
@@ -16623,6 +16642,7 @@ _effectivemeasure_tag.js
 ||a7.org/infol.php?
 ||abc.net.au/counters/
 ||abebooks.com/timer.gif?
+||acookie.alibaba.com^
 ||acronymfinder.com/~/st/af.js
 ||addresses.com/track_event.php?
 ||adf.ly/omni*.swf
@@ -17296,10 +17316,12 @@ _effectivemeasure_tag.js
 ||sportingnews.com/px/
 ||sportlive.co.za/statistics/
 ||sportsnet.ca^*/analytics.php.js
+||squidoo.com/track/
 ||ssl-stats.wordpress.com^
 ||st.mirror.co.uk^
 ||st.virginmedia.com^
 ||startpage.com/do/adviewtrack.pl?
+||stat.alibaba.com^
 ||stat.dealtime.com^
 ||statesmanjournal.com^*/articlepageview.php?
 ||static.ow.ly^*/click.gz.js
@@ -17385,6 +17407,7 @@ _effectivemeasure_tag.js
 ||tinypic.com/track.php?
 ||topix.com/t6track/
 ||total.shanghaidaily.com^
+||tracelog.www.alibaba.com^
 ||tracer.perezhilton.com^
 ||track.cbs.com^
 ||track.ft.com^
