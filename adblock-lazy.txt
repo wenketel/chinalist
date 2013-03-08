@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: x8XEhHF56yK5aKF+QGoLZg
+!  Checksum: dO6eR9c+p9Zjamd+xsOBDw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 07 Mar 2013 19:16:55 +0800
+!  Last Modified:  Sat, 09 Mar 2013 00:48:53 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -832,10 +832,8 @@ www.ku6.com##.ku6_ad
 @@||pic.snyu.com/sdk*/Main.swf$domain=~ku6.com
 
 !---乐视网
-||letv.com/main/s?
 ||dc.letv.com^
-||pro.letv.com^
-||webp2p.letv.com^
+||pro.hoye.letv.com^
 ||js.letvcdn.com/js/*/stats/
 ||player.letvcdn.com/p/*/pb/pbTip.swf
 ||letvimg.com/gugwl/
@@ -3288,6 +3286,8 @@ www.3dmgame.com##[id^="clickbg"]
 .org/gads/
 .php/ad/
 .php?ad=
+.php?ad_
+.php?adv=
 .popupvideoad.
 .rolloverad.
 .sk/ads/
@@ -3528,6 +3528,7 @@ www.3dmgame.com##[id^="clickbg"]
 /ad_top.
 /ad_topgray2.
 /ad_tpl.
+/ad_units/*
 /ad_upload/*
 /ad_utils/*
 /ad_ver/*
@@ -4299,6 +4300,7 @@ www.3dmgame.com##[id^="clickbg"]
 /ajrotator/*
 /ajs.php?
 /ajs?auid=
+/all/ad/*
 /all_ads/*
 /alternet.ad?
 /announce/adv/*
@@ -4875,6 +4877,7 @@ www.3dmgame.com##[id^="clickbg"]
 /js/ads.
 /js/ads_
 /js/adv.
+/js/ppu.$script
 /js2.ad/size=
 /js_ad_utf8.
 /jsads-
@@ -6323,6 +6326,8 @@ _popunder+$image,~image,popup
 ###ad-colB-1
 ###ad-column
 ###ad-contentad
+###ad-e-container
+###ad-f-container
 ###ad-first-post
 ###ad-flex-first
 ###ad-footer
@@ -6882,10 +6887,16 @@ _popunder+$image,~image,popup
 ###adcode4
 ###adcolumnwrapper
 ###ads-right-bottom
+###go-ads-double-2
+###go-ads-double-3
 ###iframead-300x250
 ###playvideotopad
 ##.SponsoredResults
+##.ad-125x125
+##.ad-callout
 ##.ad-image
+##.ad-slot-1
+##.ad-slot-2
 ##.ad_250
 ##.adbox-rectangle
 ##.adbox-topbanner
@@ -6896,6 +6907,7 @@ _popunder+$image,~image,popup
 ##.inline-ad-wrapper
 ##.linkads
 ##.topAd
+##.waterfall-ad-anchor
 ! ###adcontainer1
 ###adcontainer2
 ###adcontainer3
@@ -11959,7 +11971,7 @@ _popunder+$image,~image,popup
 ||247realmedia.com^$third-party
 ||254a.com^$third-party
 ||2mdn.net/dot.gif$object-subrequest,third-party
-||2mdn.net^$object-subrequest,third-party,domain=101cargames.com|3news.co.nz|49ers.com|atlantafalcons.com|azcardinals.com|baltimoreravens.com|bbc.co.uk|bbc.com|bengals.com|bet.com|bloomberg.com|box10.com|brisbanetimes.com.au|buccaneers.com|buffalobills.com|bullz-eye.com|businessweek.com|calgaryherald.com|canada.com|chargers.com|chicagobears.com|clevelandbrowns.com|cnettv.cnet.com|colts.com|cp24.com|ctvnews.ca|dallascowboys.com|denverbroncos.com|detroitlions.com|drive.com.au|earthcam.com|edmontonjournal.com|egirlgames.net|enjoydressup.com|entrepreneur.com|eonline.com|euronews.com|foodnetwork.ca|four.co.nz|gamingbolt.com|ghananation.com|giantbomb.com|giants.com|globalnews.ca|globaltoronto.com|globaltv.com|globaltvbc.com|globaltvcalgary.com|go.com|gorillanation.com|heraldsun.com.au|hgtv.ca|houstontexans.com|iheart.com|independent.ie|jaguars.com|kcchiefs.com|kdvr.com|kfiam640.com|komonews.com|kwgn.com|leaderpost.com|livestream.com|metacafe.com|miamidolphins.com|mojointhemorning.com|montrealgazette.com|motorcyclistonline.com|my9tv.com|nationalpost.com|nba.tv|ndtv.com|neworleanssaints.com|newsmax.com|newsmaxhealth.com|newstalk1010.com|newyorkjets.com|nfl.com|ottawacitizen.com|packers.com|panthers.com|patriots.com|pcworld.com|philadelphiaeagles.com|prowrestling.com|radio.com|raiders.com|rapbasement.com|redskins.com|reuters.com|rollingstone.com|rottentomatoes.com|seahawks.com|sf49ers.com|sherdog.com|skynews.com.au|slice.ca|smh.com.au|steelers.com|stlouisrams.com|streetfire.net|stuff.co.nz|telegraph.co.uk|theage.com.au|theaustralian.com.au|thecomedynetwork.ca|theprovince.com|thestarphoenix.com|tide.com|timescolonist.com|timeslive.co.za|titansonline.com|tsn.ca|usmagazine.com|vancouversun.com|vice.com|videojug.com|vikings.com|weather.com|wikihow.com|windsorstar.com|youtube.com
+||2mdn.net^$object-subrequest,third-party,domain=101cargames.com|3news.co.nz|49ers.com|atlantafalcons.com|azcardinals.com|baltimoreravens.com|bbc.co.uk|bbc.com|bengals.com|bet.com|bloomberg.com|box10.com|brisbanetimes.com.au|buccaneers.com|buffalobills.com|bullz-eye.com|businessweek.com|calgaryherald.com|canada.com|chargers.com|chicagobears.com|clevelandbrowns.com|cnettv.cnet.com|colts.com|cp24.com|ctvnews.ca|dallascowboys.com|denverbroncos.com|detroitlions.com|drive.com.au|earthcam.com|edmontonjournal.com|egirlgames.net|enjoydressup.com|entrepreneur.com|eonline.com|escapegames.com|euronews.com|foodnetwork.ca|four.co.nz|gamingbolt.com|ghananation.com|giantbomb.com|giants.com|globalnews.ca|globaltoronto.com|globaltv.com|globaltvbc.com|globaltvcalgary.com|go.com|gorillanation.com|heraldsun.com.au|hgtv.ca|houstontexans.com|iheart.com|independent.ie|jaguars.com|kcchiefs.com|kdvr.com|kfiam640.com|komonews.com|kwgn.com|leaderpost.com|livestream.com|metacafe.com|miamidolphins.com|mojointhemorning.com|montrealgazette.com|motorcyclistonline.com|my9tv.com|nationalpost.com|nba.tv|ndtv.com|neworleanssaints.com|newsmax.com|newsmaxhealth.com|newstalk1010.com|newyorkjets.com|nfl.com|ottawacitizen.com|packers.com|panthers.com|patriots.com|pcworld.com|philadelphiaeagles.com|prowrestling.com|radio.com|raiders.com|rapbasement.com|redskins.com|reuters.com|rollingstone.com|rottentomatoes.com|seahawks.com|sf49ers.com|sherdog.com|skynews.com.au|slice.ca|smh.com.au|steelers.com|stlouisrams.com|streetfire.net|stuff.co.nz|telegraph.co.uk|theage.com.au|theaustralian.com.au|thecomedynetwork.ca|theprovince.com|thestarphoenix.com|tide.com|timescolonist.com|timeslive.co.za|titansonline.com|tsn.ca|usmagazine.com|vancouversun.com|vice.com|videojug.com|vikings.com|weather.com|wikihow.com|windsorstar.com|youtube.com
 ||2mdn.net^$~object-subrequest,third-party
 ||360ads.com^$third-party
 ||360yield.com^$third-party
@@ -12762,6 +12774,7 @@ _popunder+$image,~image,popup
 ||hypertrackeraff.com^$third-party
 ||hypervre.com^$third-party
 ||hyperwebads.com^$third-party
+||i2i.jp^$third-party
 ||iasbetaffiliates.com^$third-party
 ||ibatom.com^$third-party
 ||icdirect.com^$third-party
@@ -15584,6 +15597,7 @@ _effectivemeasure_tag.js
 ||mm7.net^$third-party
 ||mmetrix.mobi^$third-party
 ||mmi-agency.com^$third-party
+||mobalyzer.net^$third-party
 ||mochibot.com^$third-party
 ||monetate.net^$third-party
 ||mongoosemetrics.com^$third-party
@@ -15843,6 +15857,7 @@ _effectivemeasure_tag.js
 ||tracking202.com^$third-party
 ||trackinglabs.com^$third-party
 ||trackset.com^$third-party
+||trackword.biz^$third-party
 ||trackyourstats.com^$third-party
 ||tradescape.biz^$third-party
 ||trafficby.net^$third-party
@@ -16257,6 +16272,7 @@ _effectivemeasure_tag.js
 ||imageshack.us^*/thpix.gif
 ||imgfarm.com/images/trk/myexcitetr.gif?
 ||impi.tv/trackvideo.aspx?
+||infogr.am/logger.php?
 ||infusionsoft.com^*/getTrackingCode?
 ||inq.com/tagserver/tracking/
 ||insights.gravity.com^
