@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: k3jHpU2n3/QB0skWzZmwvA
+!  Checksum: KqMy4QwgPHVy2W8n3k/9iw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 10 Mar 2013 17:07:18 +0800
+!  Last Modified:  Mon, 11 Mar 2013 20:20:53 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -2040,7 +2040,7 @@ binhuo.com##table[width="950PX"]
 ||bxs.cc/888/
 ||bxs.cc/js/foot$script
 bxs.cc##[id="728ad"]
-bxs.cc##.dingyue
+bxs.cc###content > a[id^="a_"]
 ||cc222.com/cc222Ads/
 ||cc222.com/_javascript/popupWin.js
 ||cococomic.com/aitw/
@@ -4352,6 +4352,7 @@ www.3dmgame.com##[id^="clickbg"]
 /banner-ad/*
 /banner.php
 /banner/ad.
+/banner/ad/*
 /banner/ad_
 /banner468.
 /banner468_
@@ -6572,6 +6573,7 @@ _popunder+$image,~image,popup
 ###adMedRect
 ###adMediumRectangle
 ###adMeld
+###adMessage
 ###adMiddle0Frontpage
 ###adMiniPremiere
 ###adMonster1
@@ -6934,6 +6936,7 @@ _popunder+$image,~image,popup
 ###go-ads-double-3
 ###headAdv
 ###header_advertisement
+###horAd
 ###iframead-300x250
 ###playvideotopad
 ###stickyads
@@ -6981,6 +6984,7 @@ _popunder+$image,~image,popup
 ##.advtop-leaderbord
 ##.adz728x90
 ##.banner-728x90
+##.banner_ad_233x90
 ##.bg-ads
 ##.centerAds
 ##.head_ads
@@ -13745,6 +13749,7 @@ _popunder+$image,~image,popup
 ||ad.icasthq.com^
 ||ad.netcommunities.com^$third-party
 ||ad.pickple.net^
+||ad.proxy.sh^
 ||ad.sensismediasmart.com.au^
 ||ad.turn.com^
 ||ad.vidaroo.com^
@@ -13876,6 +13881,7 @@ _popunder+$image,~image,popup
 ||blamads-assets.s3.amazonaws.com^
 ||blinkx.com/?i=*&adc_pub_id=$script,third-party
 ||blitzdownloads.com/promo/
+||blockmetrics.com^$third-party
 ||blocks.ginotrack.com^$third-party
 ||blogspot.com^*/nCircle-$domain=thehackernews.com
 ||blogspot.com^*/nCircle.$domain=thehackernews.com
@@ -15673,6 +15679,7 @@ _effectivemeasure_tag.js
 ||mathtag.com^$third-party
 ||maxtracker.net^$third-party
 ||maxymiser.com^$third-party
+||measure.ly^$third-party
 ||measuremap.com^$third-party
 ||mediaforgews.com^$third-party
 ||mega-stats.com^$third-party
