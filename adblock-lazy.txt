@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: KqMy4QwgPHVy2W8n3k/9iw
+!  Checksum: HgAIZ3bkE8Wz3SylBnrM4g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 11 Mar 2013 20:20:53 +0800
+!  Last Modified:  Tue, 12 Mar 2013 19:57:29 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1928,6 +1928,9 @@ ys168.com###xtxx
 ||cankaoa.com/new/$script
 ||imgs.ccw.com.cn^*_260_80.
 ||imgs.ccw.com.cn/ccw/1.htm
+||download.china.cn/market/*
+||union.china.com.cn^
+news.china.com.cn##TABLE[width="980"][style="margin:10px 0px;"]
 ||cnhubei.com/gg_10/
 ||cnhubei.com^*/g2
 ||daqi.com/clicklog.js
@@ -3240,6 +3243,8 @@ www.3dmgame.com##[id^="clickbg"]
 .adspace.
 .adsremote.
 .adtooltip&
+.advertmarket.
+.adwolf.
 .aspx?ad=
 .aspx?ads=
 .aspx?zoneid=*&task=
@@ -3845,6 +3850,7 @@ www.3dmgame.com##[id^="clickbg"]
 /ads/ads.
 /ads/advshow.
 /ads/afc/*
+/Ads/Biz_
 /ads/btbuckets/*
 /ads/center-
 /ads/displaytrust.
@@ -3972,6 +3978,7 @@ www.3dmgame.com##[id^="clickbg"]
 /adsegmentation.
 /adsenceSearch.
 /adsenceSearchTop.
+/adsEnd.
 /adsense-
 /adsense.
 /adsense/*
@@ -4913,6 +4920,7 @@ www.3dmgame.com##[id^="clickbg"]
 /jsplayerads-
 /jstextad.
 /jumpstartunpaidad.
+/KalahariAds.
 /kantarmedia.
 /keyade.js
 /kredit-ad.
@@ -6995,10 +7003,12 @@ _popunder+$image,~image,popup
 ##.left-column-rectangular-ad
 ##.left-column-virtical-ad
 ##.linkads
+##.manual-ad
 ##.panel-ad
 ##.right-column-ad
 ##.side_adv_left
 ##.side_adv_right
+##.sponsoredBottom
 ##.top_ad_big
 ##.vertical_ads
 ##.waterfall-ad-anchor
@@ -12017,6 +12027,7 @@ _popunder+$image,~image,popup
 ##a[href^="http://www.adbrite.com/mb/commerce/purchase_form.php?"]
 ##a[href^="http://www.firstload.de/affiliate/"]
 ##a[href^="http://www.friendlyduck.com/AF_"]
+##a[href^="http://www.graboid.com/affiliates/"]
 ##a[href^="http://www.liutilities.com/aff"]
 ##a[href^="http://www.liutilities.com/products/campaigns/adv/"]
 ##a[href^="http://www.my-dirty-hobby.com/?sub="]
@@ -13827,6 +13838,7 @@ _popunder+$image,~image,popup
 ||amazonaws.com/publishflow/
 ||amazonaws.com/widgets.youcompare.com.au/
 ||aolcdn.com/os/mapquest/marketing/promos/
+||aolcdn.com/os/mapquest/promo-images/
 ||aolcdn.com/os/music/img/*-skin.jpg
 ||api.groupon.com/v2/deals/$third-party
 ||apnonline.com.au/img/marketplace/*_ct50x50.gif
@@ -14906,6 +14918,7 @@ _popunder+$image,~image,popup
 /ga.php?utmac=$image
 /ga.pl?utmac=$image
 /ga/trackevent.
+/ga2.aspx?utmac=$image
 /ga_dualcode_tracking.
 /ga_event_tracking.
 /ga_header.
@@ -17546,6 +17559,7 @@ _effectivemeasure_tag.js
 ||track.ft.com^
 ||track.fxstreet.com^
 ||track.gawker.com^
+||track.netzero.net^
 ||track.ning.com^
 ||tracker.anandtech.com^
 ||tracker.calameo.com^
