@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: xCe4jWWjeUt6DAHZK/URHg
+!  Checksum: xAdxU9Bu5q0GULc+Cdhp+A
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 12 Mar 2013 20:05:26 +0800
+!  Last Modified:  Wed, 13 Mar 2013 19:50:47 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -836,6 +836,7 @@ www.ku6.com##.ku6_ad
 ||pro.hoye.letv.com^
 ||js.letvcdn.com/js/*/stats/
 ||player.letvcdn.com/p/*/pb/pbTip.swf
+||player.letvcdn.com/p/*/newplayer/plugins/game2/$object
 ||letvimg.com/gugwl/
 letv.com##.theatre[style]
 
@@ -3160,6 +3161,7 @@ www.3dmgame.com##[id^="clickbg"]
 -ad-340x400-
 -ad-banner.
 -ad-bottom-
+-ad-button-
 -ad-exo-
 -ad-iframe/
 -ad-large.
@@ -3433,6 +3435,7 @@ www.3dmgame.com##[id^="clickbg"]
 /ad5.
 /ad728.
 /ad728x15.
+/ad?channel=
 /ad?count=
 /ad?pos_
 /ad_300.
@@ -4506,6 +4509,7 @@ www.3dmgame.com##[id^="clickbg"]
 /cnnslads.
 /cnxad-
 /coldseal_ad.
+/CollisionAdMarker.
 /columnads/*
 /comment-ad-
 /comment-ad.
@@ -5234,6 +5238,7 @@ www.3dmgame.com##[id^="clickbg"]
 /requestmyspacead.
 /resources/ads_
 /retrad.
+/revealads/*
 /rg-erdr.php$xmlhttprequest
 /rg-rlog.php$xmlhttprequest
 /richmedia.
@@ -6010,6 +6015,7 @@ takeover_banner_
 /banner468x60.
 /bottom728.html
 /bottom728x90.
+/L300xH250/*
 /lightake728x90.
 /new160x600/*
 /new300x250/*
@@ -6428,6 +6434,7 @@ _popunder+$image,~image,popup
 ###ad-rec-btf-top
 ###ad-rectangle
 ###ad-right
+###ad-right-3
 ###ad-right-sidebar-ad-1
 ###ad-right-sidebar-ad-2
 ###ad-right-top
@@ -6606,6 +6613,7 @@ _popunder+$image,~image,popup
 ###adSky
 ###adSkyscraper
 ###adSlider
+###adSlot-inPage-300x250-right
 ###adSlot01
 ###adSlot02
 ###adSlot2
@@ -6940,6 +6948,7 @@ _popunder+$image,~image,popup
 ###adcolumnwrapper
 ###ads-right-bottom
 ###adscontent
+###adsdiv
 ###adv_Reload
 ###go-ads-double-2
 ###go-ads-double-3
@@ -6956,6 +6965,7 @@ _popunder+$image,~image,popup
 ##.ad-showcase
 ##.ad-slot-1
 ##.ad-slot-2
+##.ad-text
 ##.ad200
 ##.ad987
 ##.adGlobalHeader
@@ -7006,13 +7016,16 @@ _popunder+$image,~image,popup
 ##.linkads
 ##.manual-ad
 ##.panel-ad
+##.region-ads
 ##.right-column-ad
+##.rightColumnAd
 ##.side_adv_left
 ##.side_adv_right
 ##.sponsoredBottom
 ##.top_ad_big
 ##.vertical_ads
 ##.waterfall-ad-anchor
+/hostkey-ad.
 ! ###adcontainer1
 ###adcontainer2
 ###adcontainer3
@@ -12981,7 +12994,7 @@ _popunder+$image,~image,popup
 ||leetmedia.com^$third-party
 ||letsgoshopping.tk^$third-party
 ||liftdna.com^$third-party
-||ligatus.com^$third-party
+||ligatus.com^$third-party,domain=~bfmtv.com
 ||lightningcast.net^$~object-subrequest,third-party
 ||linicom.co.il^$third-party
 ||linkbuddies.com^$third-party
@@ -13420,6 +13433,7 @@ _popunder+$image,~image,popup
 ||targetnet.com^$third-party
 ||targetpoint.com^$third-party
 ||targetspot.com^$third-party
+||tcadops.ca^$third-party
 ||teasernet.com^$third-party
 ||technoratimedia.com^$third-party
 ||telemetryverification.net^$third-party
@@ -13529,7 +13543,7 @@ _popunder+$image,~image,popup
 ||video-loader.com^$third-party
 ||videoegg.com^$third-party
 ||videohub.com^$third-party
-||videoplaza.com^$object-subrequest,third-party,domain=autoexpress.co.uk|evo.co.uk|givemefootball.com|mensfitness.co.uk|mpora.com
+||videoplaza.com^$object-subrequest,third-party,domain=autoexpress.co.uk|evo.co.uk|givemefootball.com|mensfitness.co.uk|mpora.com|tribalfootball.com
 ||videoplaza.com^$~object-subrequest,third-party
 ||videoplaza.tv/proxy/distributor^$object-subrequest,third-party
 ||videoplaza.tv^$object-subrequest,third-party,domain=tv4play.se
@@ -13618,6 +13632,7 @@ _popunder+$image,~image,popup
 ||ymads.com^$third-party
 ||yoc-adserver.com^$third-party
 ||yottacash.com^$third-party
+||youradexchange.com^$third-party
 ||yourquickads.com^$third-party
 ||yumenetworks.com^$third-party
 ||yvoria.com^$third-party
@@ -13741,6 +13756,7 @@ _popunder+$image,~image,popup
 ||2leep.com/ticker2/$third-party
 ||3dc265e90c6d9fa3cc0c-3f982316dc17e6e99fe1b47483239d63.r95.cf2.rackcdn.com^
 ||4002dbde88aebefdb1f7-8f93653c470e43727b1b565964867247.r51.cf2.rackcdn.com^
+||418e158b80bc0381719c-c51e63b7e27054c59548bc9120302775.r53.cf2.rackcdn.com^
 ||69.50.226.158^$third-party,domain=~worth1000.com.ip
 ||6a036421edec9693c962-4d1f758fa5668c904b9cd6e76bdc0d97.r71.cf2.rackcdn.com^
 ||6a802238f18629454f48-5fd47577f4847dded97d514126394433.r3.cf2.rackcdn.com^
@@ -13748,6 +13764,7 @@ _popunder+$image,~image,popup
 ||6theory.com/pub/
 ||7303a09a9435e14d2141-577d252383f9c1423860b10142058ad7.r27.cf2.rackcdn.com^
 ||770.com/banniere.php?
+||833b446bf809d05d8cbe-22d497cab0248fe8bf9979b2e6155da2.r90.cf2.rackcdn.com^
 ||96.9.176.245^$third-party
 ||a.livesportmedia.eu^
 ||a.ucoz.net^
@@ -14476,6 +14493,7 @@ _popunder+$image,~image,popup
 ||qualoo.net/now/interstitial/
 ||quirk.biz/webtracking/
 ||rack.bauermedia.co.uk^
+||rackspacecloud.com/Broker%20Buttons/$domain=investing.com
 ||radiocentre.ca/randomimages/$third-party
 ||radioshack.com^*/promo/
 ||radiotown.com/splash/images/*_960x600_
@@ -14488,7 +14506,6 @@ _popunder+$image,~image,popup
 ||redbeacon.com/widget/$third-party
 ||redflagdeals.com/dealoftheday/widgets/$third-party
 ||redtram.com^$script,third-party
-||redvase.bravenet.com^$third-party
 ||regnow.com/vendor/
 ||rehost.to/?ref=
 ||relink.us/images/$third-party
@@ -14753,6 +14770,7 @@ _popunder+$image,~image,popup
 ||serve.prestigecasino.com^$image,~image,popup,third-party
 ||serve.williamhillcasino.com^$image,~image,popup,third-party
 ||stargames.com/bridge.asp?idr=$image,~image,popup
+||stargames.com/web/*&cid=*&pid=$image,~image,popup,third-party
 ||tipico.com^*?affiliateid=$image,~image,popup,third-party
 ||truckingunlimited.com^$image,~image,popup,domain=sharpfile.com
 ||ul.to/ref/$image,~image,popup
@@ -16041,6 +16059,7 @@ _effectivemeasure_tag.js
 ||website-hit-counters.com^$third-party
 ||websiteceo.com^$third-party
 ||websitewelcome.com^$third-party
+||webspectator.com^$third-party
 ||webstat.com^$third-party
 ||webstat.net^$third-party
 ||webstats.com^$third-party
@@ -16292,6 +16311,7 @@ _effectivemeasure_tag.js
 ||delvenetworks.com/player/plugins/analytics/
 ||detect.ergebnis-dienst.de^
 ||devshed.com^*/pixeltrack.php?
+||dfdbz2tdq3k01.cloudfront.net^
 ||digimedia.com/pageviews.php?
 ||directnews.co.uk/feedtrack/
 ||dirt.dennis.co.uk^
@@ -16494,6 +16514,7 @@ _effectivemeasure_tag.js
 ||ooyala.com/authorized?analytics
 ||ophan.co.uk/t.gif?
 ||p.dsero.net^
+||p.po.st/p?pub=
 ||p.po.st^*&pub=
 ||p.po.st^*&vguid=
 ||partner.cynapse.com^
