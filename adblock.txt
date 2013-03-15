@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: vN/Eu9AZp1QYzB4q6ZWNFg
+!  Checksum: b8xv0O3rZPipokFKmLxmtQ
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 15 Mar 2013 22:24:33 +0800
+!  Last Modified:  Fri, 15 Mar 2013 23:10:16 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -694,8 +694,6 @@ iciba.com##.vAd_head
 
 !---凤凰网
 @@||bc.ifeng.com/main/s?user=ifeng||wailian_vad&$object_subrequest
-@@||ifengimg.com^*/ADPlayer.swf
-@@||ifengimg.com/swf/
 /ifengRotatorAd.js
 /sc_ifeng/*$domain=ifeng.com
 /tres/recommend/*$domain=ifeng.com
@@ -710,6 +708,8 @@ iciba.com##.vAd_head
 ||play.ifeng.com/resource_new/js/playbox.js
 ||sta.ifeng.com^
 ||stadig.ifeng.com^
+||ifengimg.com/*/*/*/$object,object_subrequest
+||ifengimg.com/ifeng/ad/
 ||ifengimg.com/ifeng/sources/
 ||ifengimg.com/mappa/
 ||ifengimg.com^*/rdn_*.js
@@ -3115,4 +3115,5 @@ zazww.com##[id^="ads_c_"]
 3dmgame.com##.banner_2
 www.3dmgame.com##.banner_1
 www.3dmgame.com##[id^="clickbg"]
+news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:hidden"]
 !------------------------End of List-------------------------
