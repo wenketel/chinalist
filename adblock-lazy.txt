@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: xAdxU9Bu5q0GULc+Cdhp+A
+!  Checksum: TPZa43MH3atrHl+CSTPLFg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 13 Mar 2013 19:50:47 +0800
+!  Last Modified:  Fri, 15 Mar 2013 15:10:45 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1365,6 +1365,7 @@ shm.com.cn##.surround2
 ||js.sohu.com/track/
 ||js.sohu.com/wrating0820.js
 ||news.sohu.com/upload/article/2012/images/swf/
+||tv.sohu.com/upload/swf/*/panel/ErrorAds.swf
 ||z.t.sohu.com^
 sohu.com##.adB
 sohu.com,~cbachina.sports.sohu.com##sohuadcode
@@ -3286,6 +3287,7 @@ www.3dmgame.com##[id^="clickbg"]
 .net/ads-
 .net/ads.
 .net/ads_
+.net/affiliate/
 .nu/ads/
 .openad.
 .openxtag.js
@@ -3327,6 +3329,7 @@ www.3dmgame.com##[id^="clickbg"]
 /468xads.
 /?addyn|*
 /?advideo/*
+/_/ads/*
 /_ads/*
 /_affiliatebanners/*
 /_img/ad_
@@ -3389,6 +3392,7 @@ www.3dmgame.com##[id^="clickbg"]
 /ad.mason?
 /ad.php?
 /ad.php|
+/ad/?site=
 /ad/audsci.
 /ad/banner.
 /ad/banner/*
@@ -3851,6 +3855,7 @@ www.3dmgame.com##[id^="clickbg"]
 /ads/125r.
 /ads/468a.
 /ads/728b.
+/ads/?QAPS_
 /ads/ads.
 /ads/advshow.
 /ads/afc/*
@@ -4305,6 +4310,7 @@ www.3dmgame.com##[id^="clickbg"]
 /affclick/*
 /affilatebanner.
 /affiliate-content/*
+/affiliate/promo-
 /affiliate_banner/*
 /affiliate_banners/*
 /affiliate_resources/*
@@ -6083,6 +6089,7 @@ _728x90_
 _728x90px.
 _768x90_
 _a468x60.
+_ad_125x125.
 ! *** easylist:easylist/easylist_general_block_popup.txt ***
 &program=revshare&$image,~image,popup
 /ad_pop.php?$image,~image,popup
@@ -6211,6 +6218,7 @@ _popunder+$image,~image,popup
 ###BotAd
 ###Bottom468x60AD
 ###BottomAd0
+###BottomAdSpacer
 ###ButtonAd
 ###ClickPop_LayerPop_Container
 ###CompanyDetailsNarrowGoogleAdsPresentationControl
@@ -6223,6 +6231,7 @@ _popunder+$image,~image,popup
 ###ContentPolepositionAds_Result
 ###CornerAd
 ###CountdownAdvert
+###DFPAD_MR
 ###DartAd300x250
 ###DivAdEggHeadCafeTopBanner
 ###DivTopAd
@@ -6362,6 +6371,7 @@ _popunder+$image,~image,popup
 ###ad-ban
 ###ad-banner
 ###ad-banner-1
+###ad-banner-970
 ###ad-banner-atf
 ###ad-bigbox
 ###ad-bigsize
@@ -6946,22 +6956,41 @@ _popunder+$image,~image,popup
 ###adcode3
 ###adcode4
 ###adcolumnwrapper
+###ads-box-header-pb
 ###ads-right-bottom
 ###adscontent
 ###adsdiv
+###adsense-right
 ###adv_Reload
+###cbz-comm-advert-1
+###contentad_urban
+###ctl00_ctl11_AdvertisementText
+###dfp-ad-content_1-wrapper
+###dfp-ad-content_2-wrapper
+###dfp-ad-content_3-wrapper
+###dfp-ad-content_4-wrapper
+###dfp-ad-home_1-wrapper
+###dfp-ad-home_2-wrapper
+###dfp-ad-home_3-wrapper
+###dfp_ad_Entry_160x600
 ###go-ads-double-2
 ###go-ads-double-3
 ###headAdv
 ###header_advertisement
+###homepage-adbar
 ###horAd
 ###iframead-300x250
 ###playvideotopad
+###sidebar-ad-300
 ###stickyads
+###wTopAd
 ##.Googleads728
 ##.SponsoredResults
+##.above_miniscore_ad
 ##.ad-125x125
 ##.ad-callout
+##.ad-lb
+##.ad-pb
 ##.ad-showcase
 ##.ad-slot-1
 ##.ad-slot-2
@@ -6971,6 +7000,7 @@ _popunder+$image,~image,popup
 ##.adGlobalHeader
 ##.adHolder2
 ##.ad_250
+##.ad_box_title
 ##.ad_feature
 ##.adbox-rectangle
 ##.adbox-topbanner
@@ -6979,7 +7009,11 @@ _popunder+$image,~image,popup
 ##.ads-2
 ##.ads-3
 ##.ads-area
+##.ads-box-header
+##.ads-box-header-pb
 ##.ads-header
+##.ads-margin
+##.ads-medium-rect
 ##.ads-post
 ##.ads160x600
 ##.ads3
@@ -6997,6 +7031,9 @@ _popunder+$image,~image,popup
 ##.adv_aff
 ##.adv_top
 ##.adver-left
+##.advert-block
+##.advert-container
+##.advert-note
 ##.advert-top-footer
 ##.advert-under-hedaer
 ##.advtop
@@ -7005,6 +7042,7 @@ _popunder+$image,~image,popup
 ##.banner-728x90
 ##.banner_ad_233x90
 ##.bg-ads
+##.box-ad-mr1
 ##.centerAds
 ##.head_ads
 ##.img_ads
@@ -7015,6 +7053,9 @@ _popunder+$image,~image,popup
 ##.left-column-virtical-ad
 ##.linkads
 ##.manual-ad
+##.master_post_advert
+##.medo-ad-section
+##.medo-ad-wideskyscraper
 ##.panel-ad
 ##.region-ads
 ##.right-column-ad
@@ -7022,9 +7063,11 @@ _popunder+$image,~image,popup
 ##.side_adv_left
 ##.side_adv_right
 ##.sponsoredBottom
+##.top-advert
 ##.top_ad_big
 ##.vertical_ads
 ##.waterfall-ad-anchor
+##.widget_customadvertising
 /hostkey-ad.
 ! ###adcontainer1
 ###adcontainer2
@@ -13718,6 +13761,7 @@ _popunder+$image,~image,popup
 ||openadserving.com^$image,~image,popup,third-party
 ||pgmediaserve.com^$image,~image,popup,third-party
 ||propellerads.com^$image,~image,popup,third-party
+||propellerpops.com^$image,~image,popup,third-party
 ||pulse360.com^$image,~image,popup,third-party
 ||rgadvert.com^$image,~image,popup,third-party
 ||ringtonepartner.com^$image,~image,popup,third-party
@@ -13911,7 +13955,6 @@ _popunder+$image,~image,popup
 ||blamads-assets.s3.amazonaws.com^
 ||blinkx.com/?i=*&adc_pub_id=$script,third-party
 ||blitzdownloads.com/promo/
-||blockmetrics.com^$third-party
 ||blocks.ginotrack.com^$third-party
 ||blogspot.com^*/nCircle-$domain=thehackernews.com
 ||blogspot.com^*/nCircle.$domain=thehackernews.com
@@ -14231,6 +14274,7 @@ _popunder+$image,~image,popup
 ||grouponcdn.com^*/affiliate_widget/$third-party
 ||gsniper.com/images/$third-party
 ||guim.co.uk/guardian/thirdparty/tv-site/side.html
+||hexero.com/images/banner.gif
 ||hide-my-ip.com/promo/
 ||hiroservers.appspot.com/GenerateVastServlet/$object-subrequest
 ||hitleap.com/assets/banner.png
@@ -14271,6 +14315,7 @@ _popunder+$image,~image,popup
 ||init.lingospot.com^$third-party
 ||inskin.vo.llnwd.net^
 ||instantpaysites.com/banner/
+||integrityvpn.com/img/integrityvpn.jpg
 ||invideous.com/apps/hs_ads/
 ||inviziads.com/lookup.html?
 ||iol.co.za^*/sponsors/
@@ -14477,6 +14522,7 @@ _popunder+$image,~image,popup
 ||premium-template.com/banner/$third-party
 ||pricegrabber.com/cb_table.php$third-party
 ||pricegrabber.com/mlink.php?$third-party
+||pricegrabber.com/mlink3.php?$third-party
 ||priceinfo.comuv.com^
 ||privatewifi.com/swf/banners/
 ||promos.fling.com^
@@ -15341,6 +15387,7 @@ _effectivemeasure_tag.js
 ||bkrtx.com^$third-party
 ||bkvtrack.com^$third-party
 ||blizzardcheck.com^$third-party
+||blockmetrics.com^$third-party
 ||blog-stat.com^$third-party
 ||blogpatrol.com^$third-party
 ||blogrankers.com^$third-party
