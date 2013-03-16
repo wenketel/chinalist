@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: qYYtnUd91laagO8mgiKWWw
+!  Checksum: Vd9N0/p5QKM1ySc4nZ+RKQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 15 Mar 2013 23:42:15 +0800
+!  Last Modified:  Sat, 16 Mar 2013 17:56:09 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -2218,6 +2218,10 @@ www.jstv.com##.jadv
 ||asp300.com/2012adjs/
 asp300.com##.asp300-indexAD
 ||badmintoncn.com/cbo_gg/
+||bio-equip.com/adlr$script
+||bio-equip.com/dimg/
+||bio-equip.com/dimgs/
+bio-equip.com##td[width="32%"]
 ||bitscn.com/pic2009/a*.js
 ||c168c.com/*adv/
 ||cbifamily.com/corporation/
@@ -3199,6 +3203,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 -adspot-
 -adsystem-
 -adv-v1/
+-adv.jpg
 -advert3.
 -advertisement.
 -article-ads-
@@ -3646,6 +3651,9 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /adfillers/*
 /adfly/*
 /adfooter.
+/adforgame160x600.
+/adforgame728x90.
+/adforgame728x90_
 /adformats/*
 /adframe.
 /adframe/*
@@ -4864,6 +4872,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /images/ads_
 /images/adv-
 /images/adv.
+/images/adv_
 /images/adver-
 /images/aff-
 /images/affs/*
@@ -5661,6 +5670,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 _160_ad_
 _acorn_ad_
 _ad-125x125.
+_ad.gif|
 _ad.php?
 _ad1.
 _ad120x120_
@@ -6961,10 +6971,15 @@ _popunder+$image,~image,popup
 ###adcolumnwrapper
 ###ads-box-header-pb
 ###ads-right-bottom
+###ads250_250-widget-2
 ###adscontent
 ###adsdiv
 ###adsense-right
+###adv-strip
+###adv-title
 ###adv_Reload
+###adv_textual_google_div
+###bnrhd468
 ###cbz-comm-advert-1
 ###contentad_urban
 ###ctl00_ctl11_AdvertisementText
@@ -6994,6 +7009,7 @@ _popunder+$image,~image,popup
 ##.ad-callout
 ##.ad-lb
 ##.ad-pb
+##.ad-rectangle-long
 ##.ad-showcase
 ##.ad-slot-1
 ##.ad-slot-2
@@ -7019,6 +7035,8 @@ _popunder+$image,~image,popup
 ##.ads-medium-rect
 ##.ads-post
 ##.ads160x600
+##.ads250-250
+##.ads250_250-widget
 ##.ads3
 ##.ads_460up
 ##.ads_by
@@ -7065,9 +7083,12 @@ _popunder+$image,~image,popup
 ##.rightColumnAd
 ##.side_adv_left
 ##.side_adv_right
+##.splitter_ad
 ##.sponsoredBottom
 ##.top-advert
+##.top_ad_336x280
 ##.top_ad_big
+##.topads
 ##.vertical_ads
 ##.waterfall-ad-anchor
 ##.widget_customadvertising
@@ -12211,6 +12232,7 @@ _popunder+$image,~image,popup
 ||adextent.com^$third-party
 ||adf01.net^$third-party
 ||adfactory88.com^$third-party
+||adforgames.com^$third-party
 ||adform.net^$third-party
 ||adfrog.info^$third-party
 ||adfrontiers.com^$third-party
@@ -13138,6 +13160,7 @@ _popunder+$image,~image,popup
 ||mmotraffic.com^$third-party
 ||moatads.com^$third-party
 ||mokonocdn.com^$third-party
+||money-cpm.fr^$third-party
 ||money4ads.com^$third-party
 ||monkeybroker.net^$third-party
 ||monsoonads.com^$third-party
@@ -13209,6 +13232,7 @@ _popunder+$image,~image,popup
 ||onlineadtracker.co.uk^$third-party
 ||onlinedl.info^$third-party
 ||onsitemarketplace.net^$third-party
+||ontoplist.com^$third-party
 ||opensourceadvertisementnetwork.info^$third-party
 ||openx.com^$third-party
 ||openx.net^$third-party
@@ -14780,6 +14804,8 @@ _popunder+$image,~image,popup
 ||zip2save.com/widget.php?
 ! Mobile
 ||iadc.qwapi.com^
+! Anti-Adblock
+||blockmetrics.com^$third-party
 ! *** easylist:easylist/easylist_thirdparty_popup.txt ***
 ||4utro.ru^$image,~image,popup
 ||affportal-lb.bevomedia.com^$image,~image,popup,third-party
@@ -14950,6 +14976,7 @@ _popunder+$image,~image,popup
 /econa-site-search-ajax-log-referrer.php
 /econa-site-search/log.php?
 /edata.js
+/elex.track.
 /elqcfg-$script
 /elqcfg.js
 /elqimg.js
@@ -15390,7 +15417,6 @@ _effectivemeasure_tag.js
 ||bkrtx.com^$third-party
 ||bkvtrack.com^$third-party
 ||blizzardcheck.com^$third-party
-||blockmetrics.com^$third-party
 ||blog-stat.com^$third-party
 ||blogpatrol.com^$third-party
 ||blogrankers.com^$third-party
