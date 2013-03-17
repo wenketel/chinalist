@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: 56OaMgflIzt3cG1zZEkPQg
+!  Checksum: ZGe/ERYKl9lz36yXyYnuKQ
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 16 Mar 2013 17:56:07 +0800
+!  Last Modified:  Sun, 17 Mar 2013 16:45:15 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -498,6 +498,7 @@ dayoo.com##.cn
 ~3600gz.cn,~it168.com,~wxkds.com##.a_mu
 ##.a_pb
 ##.a_pr
+##.a_pt
 ~hk-pub.com##.ad_footerbanner
 ###ad_headerbanner
 ##.ad_headerbanner
@@ -994,7 +995,6 @@ money18.on.cc#@#.ads-bg
 
 !---远景
 ||bbs.pcbeta.com/static/image/biz/
-bbs.pcbeta.com##.a_pt
 bbs.pcbeta.com###pt + div[style] > div[style^="clear:both;"]
 bbs.pcbeta.com###diynavtop + .wp
 bbs.pcbeta.com##.forum_top + div[style]:nth-child(3)
@@ -2183,6 +2183,7 @@ www.jstv.com##.jadv
 ||acsystem.wasu.cn^
 ||edsystem.wasu.cn^
 ||yiyi.cc/ad/
+||yytt2012.com/tk/
 
 !---Miscellaneous
 ||111cn.net/gg_ad/
@@ -2622,6 +2623,7 @@ zxtjd.com###it_an
 ||adyun.com^$third-party
 ||adzhu.com^$third-party
 ||aidaicn.com^$third-party
+||ajhdf.com^$third-party
 ||a1click.aiqun.com^$third-party
 ||aiweb.tw^$third-party
 ||aldm88.com^$third-party
@@ -3074,6 +3076,9 @@ gamebase.com.tw###crazy_ad_728
 gamebase.com.tw##.wait_gbno1
 loltw.gamebase.com.tw##[class^="adsense-"]
 verycd.gdajie.com##th[colspan="3"]
+hdpfans.com##.adimglistbox
+hdpfans.com##.boxleftconm
+hdpfans.com##.boxrightcom
 bbs.imuyang.com##.a_pt > .cl
 bbs.imuyang.com###diy1
 infzm.com##[class$="adv"]
@@ -3087,7 +3092,6 @@ iwanc.com##.ad_r
 kugz.net###portal_block_241
 laishuwu.com##.topad2
 lkong.net##.myadvs
-lkong.net##.a_pt
 lvye.cn##[class^="ad"]:not(.ad1)
 lvye.cn##.text-ad1
 mobile01.com##[class^="ad-"]

@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: Vd9N0/p5QKM1ySc4nZ+RKQ
+!  Checksum: axPFIhM3FU/TFMrPLp21Xg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 16 Mar 2013 17:56:09 +0800
+!  Last Modified:  Sun, 17 Mar 2013 16:45:18 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -499,6 +499,7 @@ dayoo.com##.cn
 ~3600gz.cn,~it168.com,~wxkds.com##.a_mu
 ##.a_pb
 ##.a_pr
+##.a_pt
 ~hk-pub.com##.ad_footerbanner
 ###ad_headerbanner
 ##.ad_headerbanner
@@ -995,7 +996,6 @@ money18.on.cc#@#.ads-bg
 
 !---远景
 ||bbs.pcbeta.com/static/image/biz/
-bbs.pcbeta.com##.a_pt
 bbs.pcbeta.com###pt + div[style] > div[style^="clear:both;"]
 bbs.pcbeta.com###diynavtop + .wp
 bbs.pcbeta.com##.forum_top + div[style]:nth-child(3)
@@ -2183,6 +2183,7 @@ www.jstv.com##.jadv
 ||acsystem.wasu.cn^
 ||edsystem.wasu.cn^
 ||yiyi.cc/ad/
+||yytt2012.com/tk/
 
 !---Miscellaneous
 ||111cn.net/gg_ad/
@@ -2622,6 +2623,7 @@ zxtjd.com###it_an
 ||adyun.com^$third-party
 ||adzhu.com^$third-party
 ||aidaicn.com^$third-party
+||ajhdf.com^$third-party
 ||a1click.aiqun.com^$third-party
 ||aiweb.tw^$third-party
 ||aldm88.com^$third-party
@@ -3074,6 +3076,9 @@ gamebase.com.tw###crazy_ad_728
 gamebase.com.tw##.wait_gbno1
 loltw.gamebase.com.tw##[class^="adsense-"]
 verycd.gdajie.com##th[colspan="3"]
+hdpfans.com##.adimglistbox
+hdpfans.com##.boxleftconm
+hdpfans.com##.boxrightcom
 bbs.imuyang.com##.a_pt > .cl
 bbs.imuyang.com###diy1
 infzm.com##[class$="adv"]
@@ -3087,7 +3092,6 @@ iwanc.com##.ad_r
 kugz.net###portal_block_241
 laishuwu.com##.topad2
 lkong.net##.myadvs
-lkong.net##.a_pt
 lvye.cn##[class^="ad"]:not(.ad1)
 lvye.cn##.text-ad1
 mobile01.com##[class^="ad-"]
@@ -6953,6 +6957,7 @@ _popunder+$image,~image,popup
 ###adbig
 ###adbladeSp
 ###adblade_ad
+###adblock-leaderboard
 ###adbnr
 ###adboard
 ###adbottom
@@ -7060,6 +7065,7 @@ _popunder+$image,~image,popup
 ##.advtop
 ##.advtop-leaderbord
 ##.adz728x90
+##.atf_ad_box
 ##.banner-728x90
 ##.banner_ad_233x90
 ##.bg-ads
@@ -7068,6 +7074,7 @@ _popunder+$image,~image,popup
 ##.head_ads
 ##.img_ads
 ##.inline-ad-wrapper
+##.inside_ad_box
 ##.largeAd
 ##.lastads
 ##.left-column-rectangular-ad
@@ -7075,6 +7082,7 @@ _popunder+$image,~image,popup
 ##.linkads
 ##.manual-ad
 ##.master_post_advert
+##.med_ad_box
 ##.medo-ad-section
 ##.medo-ad-wideskyscraper
 ##.panel-ad
@@ -13567,6 +13575,7 @@ _popunder+$image,~image,popup
 ||trkalot.com^$third-party
 ||trker.com^$third-party
 ||trklnks.com^$third-party
+||troveread.com^$third-party
 ||tubemogul.com^$third-party
 ||tutvp.com^$third-party
 ||tvprocessing.com^$third-party
@@ -14048,6 +14057,7 @@ _popunder+$image,~image,popup
 ||conduit.com//banners/$third-party
 ||connect.summit.co.uk^
 ||consolpub.com/weatherwindow/
+||conversionplanet.com/published/feeds/$third-party
 ||couptopia.com/affiliate/$third-party
 ||coxnewsweb.com^*/ads/
 ||creatives.inmotionhosting.com^
@@ -15449,7 +15459,6 @@ _effectivemeasure_tag.js
 ||celebros-analytics.com^$third-party
 ||cetrk.com^$third-party
 ||cftrack.com^$third-party
-||channelintelligence.com^$third-party
 ||chartbeat.com^$third-party
 ||chartbeat.net^$third-party
 ||checkmypr.net^$third-party
@@ -16368,6 +16377,9 @@ _effectivemeasure_tag.js
 ||crm-vwg.com/tracker/
 ||crowdfactory.com/tracker/
 ||csi.gstatic.com^
+||cts-log.channelintelligence.com^$third-party
+||cts-secure.channelintelligence.com^$third-party
+||cts.channelintelligence.com^$third-party
 ||cts.vresp.com^
 ||curate.nestedmedia.com^
 ||curbednetwork.com/plugins/analyticsondemand/
@@ -16417,6 +16429,7 @@ _effectivemeasure_tag.js
 ||etoro.com/tradesmonitor/
 ||eulerian.sarenza.com/collector/
 ||event.previewnetworks.com^
+||event.trove.com^
 ||events.eyeviewdigital.com^*.gif?r=
 ||events.realgravity.com^
 ||evri.com/analytics/
@@ -16774,6 +16787,7 @@ _effectivemeasure_tag.js
 ||trusted-code.com/i.gif?
 ||trustsquare.net/trafficmonitor/
 ||tsk5.com/17*?*=ex-
+||ttwbs.channelintelligence.com^$third-party
 ||turner.com^*/1pixel.gif?
 ||twimg.com/jot?$image
 ||twitter.com/e.gif?
@@ -16899,7 +16913,6 @@ _effectivemeasure_tag.js
 ||affiliate.resellerclub.com^
 ||africareview.com/analytics/
 ||agendize.com/analytics.js
-||agnitum.*/bitrix/spread.php?
 ||aimini.com/webcounter/
 ||alarabiya.net/track_content_views.php?
 ||alarabiya.net^*/googleid.js
