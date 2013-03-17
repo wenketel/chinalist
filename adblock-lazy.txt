@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: RJsldU8yRIeLHWTKYcK9Qg
+!  Checksum: h2qDqiPcAiF2SVf/cc+FEA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 17 Mar 2013 17:46:06 +0800
+!  Last Modified:  Mon, 18 Mar 2013 00:31:46 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -2586,7 +2586,7 @@ zxtjd.com###it_an
 ||js.968870.com^$third-party
 ||98766.com^$third-party
 ||999d.com^$third-party
-||99ddd.com^$third-party
+||99ddd.com^$third-party,domain=~ali213.net
 ||9buo.com^$third-party
 ||9cpm.com^$third-party
 ||res.9dzc.com^$third-party
@@ -5895,7 +5895,7 @@ _webad.
 takeover_background.
 takeover_banner_
 |http://ax-d.*/jstag^
-|http://ox-d.*/jstag^
+|http://ox-*/jstag^
 ||cacheserve.*/promodisplay/
 ||cacheserve.*/promodisplay?
 ||com/banners/$image,object,subdocument
@@ -6227,6 +6227,7 @@ _popunder+$image,~image,popup
 ###BANNER_160x600
 ###BANNER_300x250
 ###BANNER_728x90
+###BDV_fullAd
 ###BannerAd
 ###BannerAdvert
 ###BigBoxAd
@@ -7006,6 +7007,7 @@ _popunder+$image,~image,popup
 ###playvideotopad
 ###sidebar-ad-300
 ###stickyads
+###top_adspace
 ###wTopAd
 ##.Googleads728
 ##.SponsoredResults
@@ -12133,12 +12135,14 @@ _popunder+$image,~image,popup
 ###mn #center_col > div > h2.spon:first-child + ol:last-child
 ###resultspanel > #topads
 ###rhs_block > #mbEnd
+###rhswrapper > #rhssection[border="0"][bgcolor="#ffffff"]
 ###ssmiwdiv[jsdisplay]
 ###tads.c
 ###tadsb.c
 ###tadsto.c
 ###topstuff > #tads
 ##.ch[onclick="ga(this,event)"]
+##.lads[width="100%"][style="background:#FFF8DD"]
 ##.mw > #rcnt > #center_col > #taw > #tvcap > .c
 ##.mw > #rcnt > #center_col > #taw > .c
 ##.ra[align="left"][width="30%"]
@@ -13320,6 +13324,7 @@ _popunder+$image,~image,popup
 ||ppcwebspy.com^$third-party
 ||precisionclick.com^$third-party
 ||predictad.com^$third-party
+||prf.hn^$third-party
 ||prickac.com^$third-party
 ||primaryads.com^$third-party
 ||pro-advertising.com^$third-party
@@ -13926,6 +13931,7 @@ _popunder+$image,~image,popup
 ||akamai.net^*/espnpreroll/$object-subrequest
 ||akamaihd.net/preroll*.mp4?$domain=csnnw.com
 ||akamaihd.net/ssa/*?zoneid=$subdocument
+||alexa.com^*/promotebuttons/
 ||allposters.com^*/banners/
 ||allsend.com/public/assets/images/
 ||amazonaws.com/bo-assets/production/banner_attachments/
@@ -15293,8 +15299,10 @@ _popunder+$image,~image,popup
 /xiti.js
 /xmint/?js
 /xtclicks-$script
+/xtclicks.
 /xtclicks.js
 /xtclicks_
+/xtcore.
 /xtcore.js
 /xtcore_
 /xtrack.php?
@@ -15556,6 +15564,7 @@ _effectivemeasure_tag.js
 ||doubleclick.net/imp%$third-party
 ||doubleclick.net/imp;$third-party
 ||doubleclick.net/json?$third-party
+||doubleclick.net/pixel?$third-party
 ||doubleverify.com^$third-party
 ||dpmsrv.com^$third-party
 ||dsmmadvantage.com^$third-party
