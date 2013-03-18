@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: h2qDqiPcAiF2SVf/cc+FEA
+!  Checksum: GomKVmAxOG1k5TzCZRJVgg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 18 Mar 2013 00:31:46 +0800
+!  Last Modified:  Tue, 19 Mar 2013 02:14:16 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1706,8 +1706,9 @@ news.ynet.com##.RC
 
 !---优酷
 @@||static.atm.youku.com^*.swf|$domain=www.youku.com
-@@||valf.atm.youku.com/crossdomain.xml
+@@||youku.com/crossdomain.xml
 @@||valf.atm.youku.com/valf?
+/^http:\/\/\d+\.\d+\.\d+\.\d+\/crossdomain\.xml$/
 ||l.ykimg.com^
 ||p.l.ykimg.com/ykvisitts?
 ||p-log.ykimg.com^
@@ -5488,6 +5489,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /topperad.
 /tops.ads.
 /towerbannerad/*
+/track.php?click=*&domain=*&uid=$xmlhttprequest
 /track.php?uid=*.*&d=
 /tracked_ad.
 /trade_punder.
@@ -6978,6 +6980,7 @@ _popunder+$image,~image,popup
 ###ads-box-header-pb
 ###ads-right-bottom
 ###ads250_250-widget-2
+###ads_slide_div
 ###adscontent
 ###adsdiv
 ###adsense-right
@@ -6985,9 +6988,11 @@ _popunder+$image,~image,popup
 ###adv-title
 ###adv_Reload
 ###adv_textual_google_div
+###advman-2
 ###bnrhd468
 ###cbz-comm-advert-1
 ###contentad_urban
+###corner_ad
 ###ctl00_ctl11_AdvertisementText
 ###dfp-ad-content_1-wrapper
 ###dfp-ad-content_2-wrapper
@@ -6999,6 +7004,7 @@ _popunder+$image,~image,popup
 ###dfp_ad_Entry_160x600
 ###go-ads-double-2
 ###go-ads-double-3
+###google_adsense_ad
 ###headAdv
 ###header_advertisement
 ###homepage-adbar
@@ -7025,12 +7031,14 @@ _popunder+$image,~image,popup
 ##.ad987
 ##.adGlobalHeader
 ##.adHolder2
+##.adMPUHome
 ##.ad_250
 ##.ad_box_title
 ##.ad_feature
 ##.adbox-rectangle
 ##.adbox-topbanner
 ##.adfeeds
+##.adrectangle
 ##.ads-1
 ##.ads-2
 ##.ads-3
@@ -7051,6 +7059,7 @@ _popunder+$image,~image,popup
 ##.adsbnr
 ##.adsense-300x256-widget
 ##.adsense-300x256-widget-2
+##.adsense_bottom
 ##.adv300-250
 ##.adv300-250-2
 ##.adv300-70
@@ -7073,6 +7082,8 @@ _popunder+$image,~image,popup
 ##.bg-ads
 ##.box-ad-mr1
 ##.centerAds
+##.container_ad
+##.generic-ad-title
 ##.head_ads
 ##.img_ads
 ##.inline-ad-wrapper
@@ -13150,7 +13161,7 @@ _popunder+$image,~image,popup
 ||messagespaceads.com^$third-party
 ||metaffiliation.com^$~image,~subdocument,third-party
 ||metaffiliation.com^*^maff=
-||metaffiliation.com^*^taff=f
+||metaffiliation.com^*^taff=
 ||metavertising.com^$third-party
 ||metrics.io^$third-party
 ||meviodisplayads.com^$third-party
@@ -13363,6 +13374,7 @@ _popunder+$image,~image,popup
 ||rapt.com^$third-party
 ||rbcdn.com^$third-party
 ||rcads.net^$third-party
+||rcurn.com^$third-party
 ||reachlocal.com^$third-party
 ||reachmode.com^$third-party
 ||readserver.net^$third-party

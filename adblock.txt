@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: dCN5uy2YzqQ6kx/5N2BOiA
+!  Checksum: B8Dqg3VymX73hudCGnPCHw
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 18 Mar 2013 00:31:43 +0800
+!  Last Modified:  Tue, 19 Mar 2013 02:14:14 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -1705,8 +1705,9 @@ news.ynet.com##.RC
 
 !---优酷
 @@||static.atm.youku.com^*.swf|$domain=www.youku.com
-@@||valf.atm.youku.com/crossdomain.xml
+@@||youku.com/crossdomain.xml
 @@||valf.atm.youku.com/valf?
+/^http:\/\/\d+\.\d+\.\d+\.\d+\/crossdomain\.xml$/
 ||l.ykimg.com^
 ||p.l.ykimg.com/ykvisitts?
 ||p-log.ykimg.com^
