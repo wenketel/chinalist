@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: GomKVmAxOG1k5TzCZRJVgg
+!  Checksum: 7gsVSB0OdFuHIk7mCaFXlg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 19 Mar 2013 02:14:16 +0800
+!  Last Modified:  Tue, 19 Mar 2013 03:25:37 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -317,13 +317,12 @@ iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com##[class^="wgt-ads"]
 ||unstat.baidu.com^$~subdocument
 ||cpro.baidustatic.com^
 !--iQIYI
-@@||iqiyi.com/player/*/$object,object_subrequest
+@@||data.video.qiyi.com/videos/other/$object_subrequest
 /ts.swf|$domain=iqiyi.com
-||iqiyi.com/player/$object_subrequest
+/videos2/other/*$object_subrequest
+||iqiyi.com/player/cupid/*/pageer.swf
 ||msg.iqiyi.com^
 ||afp.qiyi.com^
-||cupid.qiyi.com^
-||data.video.qiyi.com/videos/other/$object_subrequest
 ||static.qiyi.com/js/pingback/
 ||jsmsg.video.qiyi.com^
 ||msg.video.qiyi.com^
@@ -551,6 +550,18 @@ dui.lu##[id^="j_duilu"]
 ||same.eastmoney.com^
 eastmoney.com##.bannerE
 eastmoney.com##.banner
+
+!---生物通
+@@||ebiotrade.com/jslibrary/js44.js
+||ebiotrade.com/jslibrary/js
+||ebiotrade.com/web_images/$object
+ebiotrade.com##div[id^=adA]
+ebiotrade.com##div[id^="couplet_"]
+ebiotrade.com##.fk_input
+ebiotrade.com##.fk2
+ebiotrade.com##td[height="135"]
+ebiotrade.com##table[width="220"]
+ebiotrade.com###pop_banner1
 
 !---矽谷动力
 ||enet.com.cn/UserTrack
@@ -5246,6 +5257,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /rcom-video-ads.
 /reclame/*
 /recommendations/ad.
+/recordadsall.
 /rect_ad.
 /rectangle_ad.
 /rectangle_advertorials_
