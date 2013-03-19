@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: 27Ng8jMN/e8QS13cVt+JhQ
+!  Checksum: IlWMiYUW7ZzzkmE2ck581w
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 19 Mar 2013 03:25:34 +0800
+!  Last Modified:  Tue, 19 Mar 2013 15:23:59 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -558,8 +558,8 @@ ebiotrade.com##div[id^=adA]
 ebiotrade.com##div[id^="couplet_"]
 ebiotrade.com##.fk_input
 ebiotrade.com##.fk2
-ebiotrade.com##td[height="135"]
 ebiotrade.com##table[width="220"]
+ebiotrade.com##td[height="135"]
 ebiotrade.com###pop_banner1
 
 !---矽谷动力
@@ -1718,7 +1718,7 @@ news.ynet.com##.RC
 @@||static.atm.youku.com^*.swf|$domain=www.youku.com
 @@||youku.com/crossdomain.xml
 @@||valf.atm.youku.com/valf?
-/^http:\/\/\d+\.\d+\.\d+\.\d+\/crossdomain\.xml$/
+/^http:\/\/\d+\.\d+\.\d+\.\d+\/crossdomain\.xml$/$domain=~letv.com
 ||l.ykimg.com^
 ||p.l.ykimg.com/ykvisitts?
 ||p-log.ykimg.com^
