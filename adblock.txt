@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: 1IQnLcQKCFnwJ+ekpMCTww
+!  Checksum: E3vR/pcTUTsbR0vGa6bRXQ
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 19 Mar 2013 15:35:28 +0800
+!  Last Modified:  Wed, 20 Mar 2013 16:15:52 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -318,8 +318,8 @@ iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com##[class^="wgt-ads"]
 !--iQIYI
 @@||data.video.qiyi.com/videos/other/$object_subrequest
 /ts.swf|$domain=iqiyi.com
-/videos2/other/*$object_subrequest
-||iqiyi.com/player/cupid/*/pageer.swf
+@@||iqiyi.com/player/*/
+||iqiyi.com/player/
 ||msg.iqiyi.com^
 ||afp.qiyi.com^
 ||static.qiyi.com/js/pingback/
@@ -1388,9 +1388,6 @@ pinglun.sohu.com##.sogouAd1
 www.sohu.com###ad_TOP
 www.sohu.com###contentC > .columnC
 !--tv
-@@||61.135.183.*/crossdomain.xml
-@@||115.25.217.*/crossdomain.xml
-@@||220.181.61.*/crossdomain.xml
 /get.gif?$domain=sohu.com
 ||images.sohu.com/ytv/
 ||tv.sohu.com/dostat.do?method=setCardPlayCount&
@@ -1719,13 +1716,13 @@ news.ynet.com##.RC
 
 !---优酷
 @@||static.atm.youku.com^*.swf|$domain=www.youku.com
-@@||youku.com/crossdomain.xml
+@@||valf.atm.youku.com/crossdomain.xml
 @@||valf.atm.youku.com/valf?
-/^http:\/\/\d+\.\d+\.\d+\.\d+\/crossdomain\.xml$/$domain=~letv.com
 ||l.ykimg.com^
 ||p.l.ykimg.com/ykvisitts?
 ||p-log.ykimg.com^
 ||e.stat.ykimg.com/red/
+||f.youku.com/crossdomain.xml
 ||f.youku.com/player/getFlvPath/fileid/$object_subrequest,domain=~bilibili.tv
 ||atm.youku.com^
 ||hz.youku.com/red/

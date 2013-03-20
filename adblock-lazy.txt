@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: uL8kejjao6PvGERIjEILnQ
+!  Checksum: C3UDC1m0nPDVKibFf0bZsg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 19 Mar 2013 15:35:31 +0800
+!  Last Modified:  Wed, 20 Mar 2013 16:15:55 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -319,8 +319,8 @@ iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com##[class^="wgt-ads"]
 !--iQIYI
 @@||data.video.qiyi.com/videos/other/$object_subrequest
 /ts.swf|$domain=iqiyi.com
-/videos2/other/*$object_subrequest
-||iqiyi.com/player/cupid/*/pageer.swf
+@@||iqiyi.com/player/*/
+||iqiyi.com/player/
 ||msg.iqiyi.com^
 ||afp.qiyi.com^
 ||static.qiyi.com/js/pingback/
@@ -1389,9 +1389,6 @@ pinglun.sohu.com##.sogouAd1
 www.sohu.com###ad_TOP
 www.sohu.com###contentC > .columnC
 !--tv
-@@||61.135.183.*/crossdomain.xml
-@@||115.25.217.*/crossdomain.xml
-@@||220.181.61.*/crossdomain.xml
 /get.gif?$domain=sohu.com
 ||images.sohu.com/ytv/
 ||tv.sohu.com/dostat.do?method=setCardPlayCount&
@@ -1720,13 +1717,13 @@ news.ynet.com##.RC
 
 !---优酷
 @@||static.atm.youku.com^*.swf|$domain=www.youku.com
-@@||youku.com/crossdomain.xml
+@@||valf.atm.youku.com/crossdomain.xml
 @@||valf.atm.youku.com/valf?
-/^http:\/\/\d+\.\d+\.\d+\.\d+\/crossdomain\.xml$/$domain=~letv.com
 ||l.ykimg.com^
 ||p.l.ykimg.com/ykvisitts?
 ||p-log.ykimg.com^
 ||e.stat.ykimg.com/red/
+||f.youku.com/crossdomain.xml
 ||f.youku.com/player/getFlvPath/fileid/$object_subrequest,domain=~bilibili.tv
 ||atm.youku.com^
 ||hz.youku.com/red/
@@ -3258,6 +3255,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 .ad.footer.
 .ad.page.
 .ad.premiere.
+.adframesrc.
 .admarvel.
 .adpartner.
 .adplacement=
@@ -3342,6 +3340,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 .tz/ads/
 .uk/ads/
 .us/ads/
+.ws/ads/
 .za/ads.
 .za/ads/
 .zw/ads/
@@ -5449,6 +5448,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /swfbin/ad3_
 /synad2.
 /system/ad/*
+/system/ads/*
 /systemad.
 /systemad_
 /t-ads.
@@ -5480,6 +5480,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /thirdpartyads/*
 /tii_ads.
 /tikilink?
+/tit_advertising.
 /title-ad/*
 /title_ad.
 /tmnadsense-
@@ -6445,6 +6446,7 @@ _popunder+$image,~image,popup
 ###ad-inner
 ###ad-label
 ###ad-label2
+###ad-ldr-spot
 ###ad-leader-atf
 ###ad-leaderboard-1-container
 ###ad-leaderboard-bottom
@@ -6513,8 +6515,11 @@ _popunder+$image,~image,popup
 ###ad-target-Leaderbord
 ###ad-teaser
 ###ad-text
+###ad-tlr-spot
 ###ad-top
 ###ad-top-banner
+###ad-top-left
+###ad-top-right
 ###ad-top-text-low
 ###ad-top-wrap
 ###ad-tower
@@ -7005,6 +7010,7 @@ _popunder+$image,~image,popup
 ###adv_textual_google_div
 ###advman-2
 ###bnrhd468
+###bottomGoogleAds
 ###cbz-comm-advert-1
 ###contentad_urban
 ###corner_ad
@@ -7025,20 +7031,24 @@ _popunder+$image,~image,popup
 ###homepage-adbar
 ###horAd
 ###iframead-300x250
+###leftGoogleAds
 ###playvideotopad
 ###sidebar-ad-300
 ###stickyads
+###temp-ads
 ###top_adspace
 ###wTopAd
 ##.Googleads728
 ##.SponsoredResults
 ##.above_miniscore_ad
+##.absoluteAd_wss
 ##.ad-125x125
 ##.ad-callout
 ##.ad-lb
 ##.ad-pb
 ##.ad-rectangle-long
 ##.ad-showcase
+##.ad-sidebar-border
 ##.ad-slot-1
 ##.ad-slot-2
 ##.ad-text
@@ -7099,6 +7109,7 @@ _popunder+$image,~image,popup
 ##.centerAds
 ##.container_ad
 ##.generic-ad-title
+##.googleAd300x250
 ##.head_ads
 ##.img_ads
 ##.inline-ad-wrapper
@@ -12210,6 +12221,7 @@ _popunder+$image,~image,popup
 ||888media.net^$third-party
 ||888medianetwork.com^$third-party
 ||888promos.com^$third-party
+||a-ads.com^$third-party
 ||a.raasnet.com^$third-party
 ||a433.com^$third-party
 ||aa.voice2page.com^$third-party
@@ -12226,6 +12238,7 @@ _popunder+$image,~image,popup
 ||ad-serverparc.nl^$third-party
 ||ad-sponsor.com^$third-party
 ||ad.doubleclick.net^$~object-subrequest,third-party
+||ad.livere.co.kr^$third-party
 ||ad20.net^$third-party
 ||ad2games.com^$third-party
 ||ad4game.com^$third-party
@@ -13161,6 +13174,7 @@ _popunder+$image,~image,popup
 ||mediaforge.com^$third-party
 ||mediag4.com^$third-party
 ||mediagridwork.com^$third-party
+||mediakeywords.com^$third-party
 ||medialation.net^$third-party
 ||mediaonenetwork.net^$third-party
 ||mediapeo.com^$third-party
@@ -13360,12 +13374,14 @@ _popunder+$image,~image,popup
 ||prod.untd.com^$third-party
 ||profitpeelers.com^$third-party
 ||projectwonderful.com^$third-party
+||promo-reklama.ru^$third-party
 ||promotionoffer.mobi^$third-party
 ||promotiontrack.mobi^$third-party
 ||propellerads.com^$third-party
 ||propellerpops.com^$third-party
 ||protally.net^$third-party
 ||proximic.com^$third-party
+||prre.ru^$third-party
 ||psclicks.com^$third-party
 ||ptmzr.com^$third-party
 ||ptp.lolco.net^$third-party
@@ -13782,6 +13798,7 @@ _popunder+$image,~image,popup
 ||tapjoyads.com^$third-party
 ||waptrick.com^$third-party
 ! *** easylist:easylist/easylist_adservers_popup.txt ***
+||1phads.com^$image,~image,popup,third-party
 ||3file.info^$image,~image,popup,third-party
 ||888.com^$image,~image,popup,third-party
 ||888casino.com^$image,~image,popup,third-party
@@ -15354,6 +15371,7 @@ _popunder+$image,~image,popup
 ://wzus.*/i/i.gif?
 ://wzus1.*/i/i.gif?
 ?_siteid=
+?event=General.track
 ?record&*&serve_js
 ?stwc_cz=
 ?token=*&sessionid=*&visitorid=
@@ -17077,6 +17095,7 @@ _effectivemeasure_tag.js
 ||christianpost.com/counter/
 ||chron.com/javascript/cider/
 ||ciao.co.uk/flextag/
+||cl.ly/metrics?
 ||click.engage.xbox.com^
 ||click2.cafepress.com^
 ||clicks.traffictrader.net^
@@ -17673,7 +17692,6 @@ _effectivemeasure_tag.js
 ||tarot.com/stats/
 ||tck.bangbros.com^
 ||tcpalm.com/metrics/
-||techworld.com^*?event=general.track
 ||telegraph.co.uk^*/tmglmultitrackselector.js
 ||tesco.net/cgi-bin/counter/
 ||texaco.co.uk/trackingcode.js
