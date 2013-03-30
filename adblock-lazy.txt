@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: pD1RCjBKTlzzwPim9SbYAg
+!  Checksum: Lp8HoDG2Vxwg/s0csWvspQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 29 Mar 2013 14:55:44 +0800
+!  Last Modified:  Sat, 30 Mar 2013 11:22:55 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1410,6 +1410,7 @@ www.sohu.com###contentC > .columnC
 ||tv.sohu.com/upload/trace/
 ||p.aty.sohu.com^
 ||vm.aty.sohu.com^
+||hot.vrs.sohu.com^
 ||v.blog.sohu.com/dostat.do?
 ||his.tv.sohu.com/his/ping.do?
 ||count.vrs.sohu.com^$object_subrequest
@@ -3166,6 +3167,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 &adcount=
 &admeld_
 &adname=
+&adnet=
 &adpageurl=
 &adsafe=
 &adserver=
@@ -3274,6 +3276,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 .ad.footer.
 .ad.page.
 .ad.premiere.
+.adfox.
 .adframesrc.
 .admarvel.
 .adnetwork.
@@ -3880,6 +3883,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /adrevolver/*
 /adright/*
 /adriver.$~object-subrequest
+/adriver/*
 /adriver_$~object-subrequest
 /adrobot.
 /adrolays.
@@ -5327,7 +5331,9 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /requestmyspacead.
 /resources/ads_
 /retrad.
+/revealads.
 /revealads/*
+/revealads2/*
 /rg-erdr.php$xmlhttprequest
 /rg-rlog.php$xmlhttprequest
 /richmedia.
@@ -7146,6 +7152,7 @@ _popunder+$image,~image,popup
 ##.adSpace300x250
 ##.ad_250
 ##.ad_300x240
+##.ad_300x600
 ##.ad_box_title
 ##.ad_db
 ##.ad_feature
@@ -7236,6 +7243,7 @@ _popunder+$image,~image,popup
 ##.med_ad_box
 ##.medo-ad-section
 ##.medo-ad-wideskyscraper
+##.nav_textads
 ##.panel-ad
 ##.plistaList > .itemLinkPET
 ##.rectangleAdContainer
@@ -7244,6 +7252,7 @@ _popunder+$image,~image,popup
 ##.rightColumnAd
 ##.side_adv_left
 ##.side_adv_right
+##.sidebar-ad-300
 ##.smallAd
 ##.splitter_ad
 ##.sponsoredAd
@@ -7260,6 +7269,8 @@ _popunder+$image,~image,popup
 ##.vertical_ads
 ##.video-ad-short
 ##.video-adtech-mpu-ad
+##.views-field-field-adbox-1
+##.views-field-field-adbox-2
 ##.waterfall-ad-anchor
 ##.wide_ad_unit
 ##.widget_customadvertising
@@ -12361,6 +12372,7 @@ _popunder+$image,~image,popup
 ||ad-serverparc.nl^$third-party
 ||ad-sponsor.com^$third-party
 ||ad.doubleclick.net^$~object-subrequest,third-party
+||ad.mo.doubleclick.net/dartproxy/$third-party
 ||ad20.net^$third-party
 ||ad2games.com^$third-party
 ||ad4game.com^$third-party
@@ -14808,6 +14820,7 @@ _popunder+$image,~image,popup
 ||relink.us/images/$third-party
 ||res3.feedsportal.com^
 ||rest.co.il/widgets/$third-party
+||revealads.appspot.com^
 ||rewards1.com/images/referralbanners/$third-party
 ||roadcomponentsdb.com^$subdocument,third-party
 ||roadrecord.co.uk/widget.js?
@@ -14940,6 +14953,7 @@ _popunder+$image,~image,popup
 ||tradeboss.com/1/banners/
 ||travelmail.traveltek.net^$third-party
 ||trialpay.com^*&dw-ptid=$third-party
+||tritondigital.com/ltflash.php?
 ||trivago.co.uk/uk/srv/$third-party
 ||turbobit.net/ref/
 ||turbotrafficsystem.com^*/banners/
@@ -14976,6 +14990,7 @@ _popunder+$image,~image,popup
 ||vittgam.net/images/b/
 ||voodoo.com^$third-party
 ||vpntunnel.se/aff/$third-party
+||vrvm.com/t?
 ||vuvuplaza.com^$subdocument,third-party
 ||vxite.com/banner/
 ||warezhaven.org/warezhavenbann.jpg
@@ -16090,6 +16105,7 @@ _effectivemeasure_tag.js
 ||onestat.com^$third-party
 ||online-metrix.net^$third-party
 ||online-right-now.net^$third-party
+||opbandit.com^$third-party
 ||openclick.com^$third-party
 ||opentracker.net^$third-party
 ||optify.net^$third-party
@@ -16658,10 +16674,9 @@ _effectivemeasure_tag.js
 ||events.eyeviewdigital.com^*.gif?r=
 ||events.realgravity.com^
 ||evri.com/analytics/
-||facebook.com/campaign/impression.php?
+||facebook.com*/impression.php
 ||facebook.com/common/scribe_endpoint.php?
 ||facebook.com/email_open_log_pic.php
-||facebook.com/impression.php
 ||facilitatedigital.com/hit.aspx?
 ||fastcounter.bcentral.com^
 ||fastcounter.onlinehoster.net^
@@ -16802,6 +16817,7 @@ _effectivemeasure_tag.js
 ||metrics.sonymusicd2c.com^
 ||metrics.wikinvest.com^
 ||mkcms.com/stats.js
+||ml.com/enterprisetagging/
 ||mochiads.com/clk/
 ||modules.ooyala.com^*/analytics-
 ||mtv.com^*spacer.gif?
