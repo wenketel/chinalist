@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: 92Ckxp2giI8DtHKAMjFH1g
+!  Checksum: 00lJO+EH+GVCFS8krDLYXQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 01 Apr 2013 20:34:10 +0800
+!  Last Modified:  Mon, 01 Apr 2013 21:03:55 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1256,69 +1256,37 @@ readersdigest.cn###fixeddiv
 ||sina.com/assets/js/dart/
 dailynews.sina.com##.TopNav + table
 !--sina.com.cn
-@@||sinaimg.cn^*/deco/*/common$script
 @@||sinaimg.cn^*/deco/*/sinaObj.js
-@@||sinaimg.cn^*/deco/radio/$script
-/iframe/auto/*$domain=sina.com.cn
 /iframe/book/*$domain=sina.com.cn
-/iframe/ent/*$domain=sina.com.cn
 /iframe/finance/*$domain=sina.com.cn
-/iframe/gj/*$domain=sina.com.cn
 /iframe/gn/*$domain=sina.com.cn
-/iframe/jczs/*$domain=sina.com.cn
 /iframe/no/*$domain=sina.com.cn
-/iframe/sh/*$domain=sina.com.cn
 /iframe/sports/*$domain=sina.com.cn
-/iframe/tech/*$domain=sina.com.cn
-/jianyu1/TaoBao/*$domain=sina.com.cn
-/pfpnew/*$domain=sina.com.cn
 ||sina.com.cn/litong/
-||2012.sina.com.cn/iframe/55/
 ||bj.house.sina.com.cn/iframe/
 ||d1.sina.com.cn^$object,script
-||d1.sina.com.cn/20*/*/$image,domain=sina.com.cn
 ||d2.sina.com.cn^$object,script
-||d2.sina.com.cn/20*/*/$image,domain=www.sina.com.cn
 ||d3.sina.com.cn^$object,script
-||d3.sina.com.cn/20*/*/$image,domain=www.sina.com.cn
 ||d4.sina.com.cn^$object,script
 ||d5.sina.com.cn^$object,script
 ||d5.sina.com.cn^$image,domain=~www.sina.com.cn
-||eladies.sina.com.cn/hdphoto/interface/
 ||log.interest.mix.sina.com.cn^
 ||news.sina.com.cn/js/792/*head*.js
 ||news.sina.com.cn/pfpnews/js/libweb.js$domain=~www.sina.com.cn
 ||news.sina.com.cn/pvcounter/
 ||pfp.sina.com.cn^$script
-||pfp.sina.com.cn/iframe/2012nonghangguanggaotest1.html
 ||pfp.sina.com.cn/jczs.html
 ||rm.sina.com.cn^
 ||v.sina.com.cn^$subdocument
 ||sinaimg.cn^*/deco/$script
-||sinaimg.cn/dy/deco/2009/1216/950-90.gif
 ||sinaimg.cn/unipro/
 ||rs.sinajs.cn^
-sina.com.cn##.topad
 sina.com.cn##.topAD
 sina.com.cn##.topADs
-book.sina.com.cn##.module_80
 mobile.sina.com.cn##.zcads
 news.sina.com.cn##[class^="ATopTxt"]
 news.sina.com.cn###top_bar
 sports.sina.com.cn##[id^="ads_right"]
-tech.sina.com.cn##div[style="height:230px;"]
-www.sina.com.cn###feibiao140280
-www.sina.com.cn##[class^="AD"]
-www.sina.com.cn##.att_div
-www.sina.com.cn##.cleft
-www.sina.com.cn###PartA > .left > div:not(#sina_house_link9)
-www.sina.com.cn###PartG > .rightbox
-www.sina.com.cn##.societybtmlist
-www.sina.com.cn##.techbtmads
-www.sina.com.cn##[class="yleft2blk"]
-!-auto
-@@||sina.wrating.com/a1.js$domain=bbs.auto.sina.com.cn
-||auto.sina.com.cn/iframe/*_*_*.htm
 auto.sina.com.cn##.txtAdArea01
 !-blog feed
 ||simg.sinajs.cn/blog7style/images/special/
@@ -1326,30 +1294,16 @@ auto.sina.com.cn##.txtAdArea01
 !-finance
 @@||counter.sina.com.cn/time?fm=JS$domain=finance.sina.com.cn
 @@||sinaimg.cn/cj/deco/$script,domain=finance.sina.com.cn
-@@||sinaimg.cn/dy/deco/*/headcj.js$domain=finance.sina.com.cn
 finance.sina.com.cn###adSinaHouseHeadLink
 !-house
-||sinaimg.cn/hs/$object,domain=house.sina.com.cn
 ||img.house.sina.com.cn/a/swf/
 ||bj.house.sina.com.cn^$script
-||d1.leju.com^
-house.sina.com.cn###ads_in_custom01_left
-house.sina.com.cn##.brand_bg
-house.sina.com.cn###topBg
 !-mail
 ||mail.sina.com.cn/admail/
 ||mail.sina.com.cn/freemail/news/oneline-notice.html
 !-sh.sina.com.cn
-||sh.sinaimg.cn//228/
-||sh.sinaimg.cn/*/ad/
-||sh.sinaimg.cn/adpackage/
-||sh.sina.com.cn/iframe/249/*/5.html
-||sh.sina.com.cn/iframe/328/
-||sh.sina.com.cn/iframe/391/
 ||sh.sina.com.cn/iframe/408/
-||yodak.net^$subdocument
-sh.sina.com.cn###ads
-sh.sina.com.cn##.iframepart1
+||sh.sina.com.cn/iframe/522/
 !-sports
 ||lining.sina.com.cn^$subdocument
 ||p4p.sina.com.cn^
@@ -1358,13 +1312,10 @@ sina.com.cn##.adNone
 ||log.v.iask.com^
 ||count.kandian.com^$object_subrequest
 ||dcads.sina.com.cn^
-||va.sina.com.cn^
 ||l.you.video.sina.com.cn^$object_subrequest
-video.sina.com.cn###bgad_div
 !-weibo
 ||biz.weibo.com^
 weibo.com##[feedtype="ad"]
-weibo.com##.footer_adv
 !--sina.com.hk
 ||as.sinahk.net^
 sina.com.hk##.sidebarItem:nth-child(10)
