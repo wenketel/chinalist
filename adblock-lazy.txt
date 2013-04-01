@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: H6laDq8iNBf7K8ehPfoBww
+!  Checksum: 92Ckxp2giI8DtHKAMjFH1g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 31 Mar 2013 22:42:25 +0800
+!  Last Modified:  Mon, 01 Apr 2013 20:34:10 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -357,6 +357,7 @@ bitauto.com##.bt_ad
 bitauto.com##.con_ad
 
 !---CC视频
+@@||union.bokecc.com/crossdomain.xml
 @@||union.bokecc.com/flash/$object
 @@||union.bokecc.com/js/player/
 @@||union.bokecc.com/player?
@@ -3250,6 +3251,8 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 -cpm-ad.
 -cpm-ads.
 -fe-ads/
+-footerads-
+-footerads.
 -google-ads/
 -iframe-ads/
 -images/ad-
@@ -6617,6 +6620,7 @@ _popunder+$image,~image,popup
 ###ad300x150
 ###ad300x250
 ###ad300x250Module
+###ad300x250c
 ###ad300x60
 ###ad300x600
 ###ad300x600_callout
@@ -7143,6 +7147,7 @@ _popunder+$image,~image,popup
 ##.ad-slot-2
 ##.ad-text
 ##.ad200
+##.ad220x50
 ##.ad468
 ##.ad650x140
 ##.ad987
@@ -7189,6 +7194,7 @@ _popunder+$image,~image,popup
 ##.adsense-300x256-widget
 ##.adsense-300x256-widget-2
 ##.adsense_bottom
+##.adsonar-after
 ##.adspanel
 ##.adv300-250
 ##.adv300-250-2
@@ -7245,6 +7251,7 @@ _popunder+$image,~image,popup
 ##.med_ad_box
 ##.medo-ad-section
 ##.medo-ad-wideskyscraper
+##.middlead
 ##.nav_textads
 ##.panel-ad
 ##.plistaList > .itemLinkPET
@@ -7261,6 +7268,7 @@ _popunder+$image,~image,popup
 ##.sponsoredBottom
 ##.squaread
 ##.superLeaderOverallAdArea
+##.thisisad
 ##.three-ads
 ##.top-ads-wrapper
 ##.top-advert
@@ -11440,7 +11448,6 @@ _popunder+$image,~image,popup
 ##.middle-ad
 ##.middleAd
 ##.middleAds
-##.middlead
 ##.middleads
 ##.min_navi_ad
 ##.mini-ad
@@ -12885,6 +12892,7 @@ _popunder+$image,~image,popup
 ||cpalead.com^$third-party
 ||cpays.com^$third-party
 ||cpm.biz^$third-party
+||cpmaffiliation.com^$third-party
 ||cpmmedia.net^$third-party
 ||cpmstar.com^$third-party
 ||cpmtree.com^$third-party
@@ -13434,6 +13442,7 @@ _popunder+$image,~image,popup
 ||onads.com^$third-party
 ||onenetworkdirect.com^$third-party
 ||onenetworkdirect.net^$third-party
+||onespot.com^$third-party
 ||online-media24.de^$third-party
 ||onlineadtracker.co.uk^$third-party
 ||onlinedl.info^$third-party
@@ -16733,6 +16742,7 @@ _effectivemeasure_tag.js
 ||hubspot.com/tracking/
 ||i-stats.ieurop.net^
 ||icscotland.co.uk/webstats.js?
+||iljmp.com^$third-party
 ||images-amazon.com^*/1x1_trans.gif
 ||imageshack.us^*/thpix.gif
 ||imgfarm.com/images/trk/myexcitetr.gif?
