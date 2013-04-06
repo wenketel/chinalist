@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: n3WwminEX3dy+4iTMsA/lQ
+!  Checksum: FoIWxuhc+YDJ4TXk5mRyZQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 04 Apr 2013 19:55:26 +0800
+!  Last Modified:  Sat, 06 Apr 2013 14:39:55 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -587,6 +587,17 @@ ettoday.net###ticker_3
 fengniao.com##[id^="AD"]
 bbs.fengniao.com##.sing_ad_text
 
+!---火狐主页
+||firefoxchina.cn/*/trac.js
+||firefoxchina.cn/fragments/cms/read_head_link.js
+||firefoxchina.cn/js/money/
+||i.firefoxchina.cn/iframe/
+i.firefoxchina.cn###ad_links1
+i.firefoxchina.cn###advBlock
+i.firefoxchina.cn###banner_show1
+i.firefoxchina.cn###taobao_frame2
+i.firefoxchina.cn###topbanner
+
 !---搜狐焦点
 ||focus.cn/ad_publish/$script
 ||focus.cn/common/js/adm2008.js
@@ -601,16 +612,10 @@ focus.cn##.ad_fp
 ||stat.funshion.net^
 funshion.com##[class^="fs2012-"]
 
-!---火狐主页
-||firefoxchina.cn/*/trac.js
-||firefoxchina.cn/fragments/cms/read_head_link.js
-||firefoxchina.cn/js/money/
-||i.firefoxchina.cn/iframe/
-i.firefoxchina.cn###ad_links1
-i.firefoxchina.cn###advBlock
-i.firefoxchina.cn###banner_show1
-i.firefoxchina.cn###taobao_frame2
-i.firefoxchina.cn###topbanner
+!---福利吧
+||tunka.com.cn/images/1234.gif
+||sinaimg.cn/large/a74ecc4cjw1e25f2roop3g.gif
+fuliba.net##.textwidget
 
 !---游民星空
 ||gamersky.com/bg_$image
@@ -3309,6 +3314,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 .php?ad_
 .php?adv=
 .popupvideoad.
+.refit.ads.
 .rolloverad.
 .sk/ads/
 .swf?1&clicktag=
@@ -4404,6 +4410,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /banman/*
 /banner-ad-
 /banner-ad/*
+/banner-ads/*
 /banner.php
 /banner/ad.
 /banner/ad/*
@@ -4698,6 +4705,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /exchange_banner_
 /exitsplash.
 /expandable_ad.php
+/expandable_ad?
 /ext_ads.
 /external/ad.
 /external/ad/*
@@ -6177,6 +6185,7 @@ _popunder+$image,~image,popup
 ###AD_CONTROL_8
 ###AD_ROW
 ###AD_Top
+###AD_Zone
 ###AD_gallery
 ###AD_newsblock
 ###ADgoogle_newsblock
@@ -6206,6 +6215,7 @@ _popunder+$image,~image,popup
 ###AdLeaderboardTop
 ###AdMiddle
 ###AdMobileLink
+###AdPanel
 ###AdPopUp
 ###AdRectangle
 ###AdSenseDiv
@@ -6460,6 +6470,7 @@ _popunder+$image,~image,popup
 ###ad-fullbanner2
 ###ad-globalleaderboard
 ###ad-halfpage
+###ad-homepage-top-wrapper
 ###ad-horizontal-header
 ###ad-img
 ###ad-inner
@@ -6870,6 +6881,7 @@ _popunder+$image,~image,popup
 ###ad_global_above_footer
 ###ad_global_header
 ###ad_global_header2
+###ad_google_content336
 ###ad_h3
 ###ad_haha_1
 ###ad_haha_4
@@ -7490,6 +7502,7 @@ _popunder+$image,~image,popup
 ###adwin_rec
 ###adwith
 ###adwords-4-container
+###adwrapper
 ###adxBigAd
 ###adxMiddle5
 ###adxSponLink
@@ -7549,15 +7562,20 @@ _popunder+$image,~image,popup
 ###backad
 ###background-adv
 ###background_ads
+###ban_300x250
+###ban_728x90
 ###banner-300x250
 ###banner-468x60
 ###banner-728adtag-bottom
 ###banner-ad-container
 ###banner-ad-loader
 ###banner-ads
+###banner-advert
+###banner-advert-container
 ###banner250x250
 ###banner300x250
 ###banner468x60
+###banner728
 ###banner728x90
 ###bannerAdFrame
 ###bannerAdTop
@@ -7977,6 +7995,7 @@ _popunder+$image,~image,popup
 ###footerad
 ###footerads
 ###footeradsbox
+###footeradvert
 ###forum_top_ad
 ###four_ads
 ###fpad1
@@ -8197,6 +8216,7 @@ _popunder+$image,~image,popup
 ###hpV2_300x250Ad
 ###hpV2_googAds
 ###hp_ad300x250
+###hp_right_ad_300
 ###i_ads_table
 ###ibt_local_ad728
 ###icePage_SearchLinks_AdRightDiv
@@ -8502,6 +8522,7 @@ _popunder+$image,~image,popup
 ###pcworldAdTop
 ###pinball_ad
 ###pixAd
+###plAds
 ###player-below-advert
 ###player_ad
 ###player_ads
@@ -8691,7 +8712,9 @@ _popunder+$image,~image,popup
 ###sidebar-ad
 ###sidebar-ad-300
 ###sidebar-ad-boxes
+###sidebar-ad-holdd-middle
 ###sidebar-ad-loader
+###sidebar-ad-middle
 ###sidebar-ad-space
 ###sidebar-ad-wrap
 ###sidebar-ad3
@@ -9004,6 +9027,7 @@ _popunder+$image,~image,popup
 ###video_embed_ads
 ###video_overlay_ad
 ###videoadlogo
+###videoads
 ###view_ads_bottom_bg
 ###view_ads_bottom_bg_middle
 ###view_ads_content_bg
@@ -9183,6 +9207,8 @@ _popunder+$image,~image,popup
 ##.FooterAdContainer
 ##.FooterAds
 ##.GOOGLE_AD
+##.G_ads
+##.G_ads_m
 ##.GoogleAd
 ##.GoogleAdSenseBottomModule
 ##.GoogleAdSenseRightModule
@@ -9271,6 +9297,7 @@ _popunder+$image,~image,popup
 ##.VerticalAd
 ##.Video-Ad
 ##.VideoAd
+##.WideAdsLeft
 ##.WidgetAdvertiser
 ##.WiredWidgetsDartAds
 ##.WiredWidgetsGoogleAds
@@ -9450,6 +9477,7 @@ _popunder+$image,~image,popup
 ##.ad-statement
 ##.ad-story-inject
 ##.ad-tabs
+##.ad-tall
 ##.ad-target2-wrapper
 ##.ad-text
 ##.ad-text-links
@@ -9499,6 +9527,7 @@ _popunder+$image,~image,popup
 ##.ad300250
 ##.ad300_250
 ##.ad300x100
+##.ad300x111
 ##.ad300x250
 ##.ad300x250-hp-features
 ##.ad300x2501
@@ -9660,6 +9689,7 @@ _popunder+$image,~image,popup
 ##.adUnitHorz
 ##.adUnitVert
 ##.adUnitVert_noImage
+##.adVideo
 ##.adWebBoard
 ##.adWithTab
 ##.adWord
@@ -10096,6 +10126,7 @@ _popunder+$image,~image,popup
 ##.ads_header
 ##.ads_holder
 ##.ads_horizontal
+##.ads_lb
 ##.ads_leader
 ##.ads_leaderboard
 ##.ads_loc_side
@@ -10485,6 +10516,7 @@ _popunder+$image,~image,popup
 ##.affiliation728x90
 ##.affinityAdHeader
 ##.afsAdvertising
+##.afsAdvertisingBottom
 ##.after_ad
 ##.agi-adsaleslinks
 ##.alb-content-ad
@@ -10532,6 +10564,8 @@ _popunder+$image,~image,popup
 ##.b_ads_top
 ##.backgroundAd
 ##.bam-dcRefreshableAd
+##.ban300side
+##.ban728
 ##.banmanad
 ##.banner-125
 ##.banner-300
@@ -10625,6 +10659,7 @@ _popunder+$image,~image,popup
 ##.block-bg-advertisement
 ##.block-bg-advertisement-region-1
 ##.block-deca_advertising
+##.block-gc_ad
 ##.block-google-admanager
 ##.block-maniad
 ##.block-openads
@@ -10989,6 +11024,7 @@ _popunder+$image,~image,popup
 ##.footerads
 ##.forex_ad_links
 ##.forum-ad-2
+##.forumAd
 ##.forum_ad_beneath
 ##.forumtopad
 ##.four_percent_ad
@@ -11034,6 +11070,7 @@ _popunder+$image,~image,popup
 ##.googads
 ##.google-ad-block
 ##.google-ad-container
+##.google-ad-content
 ##.google-ad-image
 ##.google-ad-side_ad
 ##.google-ad-widget
@@ -11113,6 +11150,7 @@ _popunder+$image,~image,popup
 ##.gutterAdHorizontal
 ##.gx_ad
 ##.h-ad-728x90-bottom
+##.h11-ad-top
 ##.h_Ads
 ##.h_ad
 ##.half-ad
@@ -11497,6 +11535,7 @@ _popunder+$image,~image,popup
 ##.nadvt300
 ##.narrow_ad_unit
 ##.narrow_ads
+##.nav-adWrapper
 ##.navAdsBanner
 ##.navBads
 ##.nav_ad
@@ -12344,7 +12383,7 @@ _popunder+$image,~image,popup
 ||247realmedia.com^$third-party
 ||254a.com^$third-party
 ||2mdn.net/dot.gif$object-subrequest,third-party
-||2mdn.net^$object-subrequest,third-party,domain=101cargames.com|3news.co.nz|49ers.com|atlantafalcons.com|automobilemag.com|azcardinals.com|baltimoreravens.com|bbc.co.uk|bbc.com|bengals.com|bet.com|bloomberg.com|box10.com|brisbanetimes.com.au|buccaneers.com|buffalobills.com|bullz-eye.com|businessweek.com|calgaryherald.com|canada.com|cbs.com|chargers.com|chicagobears.com|clevelandbrowns.com|cnettv.cnet.com|colts.com|cp24.com|ctvnews.ca|dallascowboys.com|denverbroncos.com|detroitlions.com|drive.com.au|earthcam.com|edmontonjournal.com|egirlgames.net|enjoydressup.com|entrepreneur.com|eonline.com|escapegames.com|euronews.com|foodnetwork.ca|four.co.nz|gamingbolt.com|ghananation.com|giantbomb.com|giants.com|globalnews.ca|globaltoronto.com|globaltv.com|globaltvbc.com|globaltvcalgary.com|go.com|gorillanation.com|heraldsun.com.au|hgtv.ca|houstontexans.com|iheart.com|independent.ie|jaguars.com|kcchiefs.com|kdvr.com|kfiam640.com|komonews.com|kwgn.com|leaderpost.com|livestream.com|metacafe.com|miamidolphins.com|mojointhemorning.com|montrealgazette.com|motorcyclistonline.com|my9tv.com|nationalpost.com|nba.com|nba.tv|ndtv.com|neworleanssaints.com|newsmax.com|newsmaxhealth.com|newstalk1010.com|newyorkjets.com|nfl.com|ottawacitizen.com|packers.com|panthers.com|patriots.com|pcworld.com|philadelphiaeagles.com|prowrestling.com|radio.com|raiders.com|rapbasement.com|redskins.com|reuters.com|rollingstone.com|rottentomatoes.com|seahawks.com|sf49ers.com|sherdog.com|skynews.com.au|slice.ca|smh.com.au|steelers.com|stlouisrams.com|streetfire.net|stuff.co.nz|telegraph.co.uk|theage.com.au|theaustralian.com.au|thecomedynetwork.ca|theprovince.com|thestarphoenix.com|tide.com|timescolonist.com|timeslive.co.za|titansonline.com|tsn.ca|usmagazine.com|vancouversun.com|vice.com|videojug.com|vikings.com|weather.com|wikihow.com|windsorstar.com|youtube.com
+||2mdn.net^$object-subrequest,third-party,domain=101cargames.com|3news.co.nz|49ers.com|atlantafalcons.com|automobilemag.com|azcardinals.com|baltimoreravens.com|bbc.co.uk|bbc.com|bengals.com|bet.com|bloomberg.com|box10.com|brisbanetimes.com.au|buccaneers.com|buffalobills.com|bullz-eye.com|businessweek.com|calgaryherald.com|canada.com|cbs.com|chargers.com|chicagobears.com|clevelandbrowns.com|cnettv.cnet.com|colts.com|cp24.com|ctvnews.ca|dallascowboys.com|denverbroncos.com|detroitlions.com|drive.com.au|earthcam.com|edmontonjournal.com|egirlgames.net|enjoydressup.com|entrepreneur.com|eonline.com|escapegames.com|euronews.com|foodnetwork.ca|four.co.nz|gamingbolt.com|ghananation.com|giantbomb.com|giants.com|globalnews.ca|globaltoronto.com|globaltv.com|globaltvbc.com|globaltvcalgary.com|go.com|gorillanation.com|heraldsun.com.au|hgtv.ca|houstontexans.com|iheart.com|independent.ie|jaguars.com|kcchiefs.com|kdvr.com|kfiam640.com|komonews.com|kwgn.com|leaderpost.com|livestream.com|metacafe.com|miamidolphins.com|mojointhemorning.com|montrealgazette.com|motorcyclistonline.com|my9tv.com|nationalpost.com|nba.com|nba.tv|ndtv.com|neworleanssaints.com|newsmax.com|newsmaxhealth.com|newstalk1010.com|newyorkjets.com|nfl.com|ottawacitizen.com|packers.com|panthers.com|patriots.com|pcworld.com|philadelphiaeagles.com|prowrestling.com|radio.com|raiders.com|rapbasement.com|redskins.com|reuters.com|rollingstone.com|rottentomatoes.com|seahawks.com|sf49ers.com|sherdog.com|skynews.com.au|slice.ca|smh.com.au|steelers.com|stlouisrams.com|streetfire.net|stuff.co.nz|telegraph.co.uk|theage.com.au|theaustralian.com.au|thecomedynetwork.ca|theprovince.com|thestarphoenix.com|tide.com|timescolonist.com|timeslive.co.za|titansonline.com|tsn.ca|usmagazine.com|vancouversun.com|vice.com|videojug.com|vikings.com|washingtontimes.com|weather.com|wikihow.com|windsorstar.com|youtube.com
 ||2mdn.net^$~object-subrequest,third-party
 ||360ads.com^$third-party
 ||360yield.com^$third-party
@@ -14014,6 +14053,7 @@ _popunder+$image,~image,popup
 ||jdtracker.com^$image,~image,popup,third-party
 ||kanoodle.com^$image,~image,popup,third-party
 ||livepromotools.com^$image,~image,popup,third-party
+||loltrk.com^$image,~image,popup,third-party
 ||media-servers.net^$image,~image,popup,third-party
 ||my-layer.net^$image,~image,popup,third-party
 ||netliker.com^$image,~image,popup,third-party
@@ -14798,6 +14838,7 @@ _popunder+$image,~image,popup
 ||ppc-coach.com/jamaffiliates/
 ||premium-template.com/banner/$third-party
 ||pricegrabber.com/cb_table.php$third-party
+||pricegrabber.com/export_feeds.php?$third-party
 ||pricegrabber.com/mlink.php?$third-party
 ||pricegrabber.com/mlink3.php?$third-party
 ||priceinfo.comuv.com^
@@ -15006,6 +15047,7 @@ _popunder+$image,~image,popup
 ||vittgam.net/images/b/
 ||voodoo.com^$third-party
 ||vpntunnel.se/aff/$third-party
+||vpnxs.nl/images/vpnxs_banner
 ||vrvm.com/t?
 ||vuvuplaza.com^$subdocument,third-party
 ||vxite.com/banner/
@@ -15754,6 +15796,7 @@ _effectivemeasure_tag.js
 ||convertro.com^$third-party
 ||copacast.net^$third-party
 ||coremetrics.com^$third-party
+||coremotives.com^$third-party
 ||countby.com^$third-party
 ||counter.gd^$third-party
 ||counter.top.kg^$third-party
@@ -15880,6 +15923,7 @@ _effectivemeasure_tag.js
 ||flixcar.com^$third-party
 ||flixfacts.co.uk^$third-party
 ||flixfacts.com^$third-party
+||flxpxl.com^$third-party
 ||footprintlive.com^$third-party
 ||free-counter.co.uk^$third-party
 ||free-counter.com^$third-party
@@ -15962,6 +16006,7 @@ _effectivemeasure_tag.js
 ||idtargeting.com^$third-party
 ||iesnare.com^$third-party
 ||ifactz.com^$third-party
+||iljmp.com^$third-party
 ||illumenix.com^$third-party
 ||ilogbox.com^$third-party
 ||imrworldwide.com^$third-party
@@ -16390,6 +16435,7 @@ _effectivemeasure_tag.js
 ||w3counter.com^$third-party
 ||w55c.net^$third-party
 ||waudit.cz^$third-party
+||web-18.com^$third-party
 ||web-stat.com^$third-party
 ||webcounter.co.za^$third-party
 ||webcounter.ws^$third-party
@@ -16594,6 +16640,7 @@ _effectivemeasure_tag.js
 ||cgicounter.oneandone.co.uk^
 ||cgicounter.puretec.de^
 ||chanalytics.merchantadvantage.com^
+||choicestream.com/instr/pixel/
 ||citygridmedia.com/tracker/
 ||citysearch.com/tracker/
 ||clearspring.com/at/
@@ -16704,7 +16751,6 @@ _effectivemeasure_tag.js
 ||feedsportal.com^*/1x1.gif?
 ||flashi.tv/histats.php?
 ||flixster.com^*/analytics.
-||flxpxl.com^$third-party
 ||footballmedia.com/tracking/
 ||forms.aweber.com^*/displays.htm?id=
 ||freedom.com^*/analytic/
@@ -16750,7 +16796,6 @@ _effectivemeasure_tag.js
 ||hubspot.com/tracking/
 ||i-stats.ieurop.net^
 ||icscotland.co.uk/webstats.js?
-||iljmp.com^$third-party
 ||images-amazon.com^*/1x1_trans.gif
 ||imageshack.us^*/thpix.gif
 ||imgfarm.com/images/trk/myexcitetr.gif?
@@ -16846,6 +16891,7 @@ _effectivemeasure_tag.js
 ||mtvnservices.com/metrics/
 ||muffia.com/ct/imgcount.php?
 ||museter.com/track.php?
+||mxmfb.com/rsps/img/
 ||myblueday.com^*/count.asp?
 ||mysociety.org/track/
 ||navlink.com/__utmala.js
@@ -17092,7 +17138,6 @@ _effectivemeasure_tag.js
 ||visit.geocities.com^
 ||visit.webhosting.yahoo.com^
 ||viximo.com/1px.gif?
-||web-18.com^$third-party
 ||webeffective.keynote.com^$third-party
 ||weblogger-dynamic-lb.playdom.com^
 ||webresint.com/writrak.php?
@@ -17252,6 +17297,7 @@ _effectivemeasure_tag.js
 ||beacon.ehow.com^
 ||beacon.examiner.com^
 ||beacon.indieclicktv.com^
+||beacon.lycos.com^
 ||beer.com/ntpagetag_
 ||bestofmedia.com/sfp/js/boomerang/
 ||betanews.com/track?
@@ -17412,6 +17458,7 @@ _effectivemeasure_tag.js
 ||eventfinda.sg/t.gif?
 ||eventfinder.co.nz/t.gif?
 ||eventfinder.com.au/t.gif?
+||eweek.com/hqxapi/
 ||eweek.com/omnipagetrack.php?
 ||examiner.com/sites/all/modules/custom/ex_stats/
 ||excite.com/__kl.gif?
@@ -17674,7 +17721,6 @@ _effectivemeasure_tag.js
 ||mstar.com^*/mstartracking/
 ||muchmusic.com/includes/js/corporatepagetracking.js
 ||multiupload.com/extreme/?*&ref=$subdocument
-||mxmfb.com/rsps/img/
 ||myshopping.com.au/checkstat.asp?
 ||mysuncoast.com/script/hitcounter.ashx?
 ||mytravel.co.uk/thomascooktrack.gif?
@@ -17842,6 +17888,7 @@ _effectivemeasure_tag.js
 ||spanids.dictionary.com^
 ||spanids.reference.com^
 ||spanids.thesaurus.com^
+||speakertext.com/analytics/
 ||spiegel.com/spacer.gif?
 ||sportingnews.com/px/
 ||sportlive.co.za/statistics/
