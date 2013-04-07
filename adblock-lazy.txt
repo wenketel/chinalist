@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: VMBCqFWBgo6VDHMpm1mDqA
+!  Checksum: 8mpCHaBFNCPV/69WCQnJkQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 06 Apr 2013 21:44:41 +0800
+!  Last Modified:  Sun, 07 Apr 2013 20:53:05 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1167,6 +1167,7 @@ jjwxc.net##table[style^="width:984px;"]
 @@||cq.qq.com/js/cody/*scroll_ad.js
 @@||exp.qq.com/img/ad/$image
 ||mat1.gtimg.com/ent/flash/
+||mat1.gtimg.com/hb/$object
 ||mat1.gtimg.com/sports/*ad/$object
 ||mat1.gtimg.com/view/todayTopic/2012news/*-$image,object
 ||qq.com/livemsg?
@@ -1180,11 +1181,7 @@ jjwxc.net##table[style^="width:984px;"]
 ||tj.qstatic.com^
 ||vc.qq.com/cgi-bin/video_stat.cgi?
 mb.qq.com#@##ad-container
-qq.com##.AdBox-Article-QQ
-qq.com##.AdTop-Article-QQ
-qq.com##.business-Article-QQ
 qq.com##.l_qq_com
-qq.com##.qiye-Article-QQ
 cq.qq.com##[style^="width:960px;"]
 cq.qq.com###AdRight-Article-QQ
 cq.qq.com##.adbutton-Aritcle-QQ
@@ -1193,25 +1190,8 @@ ent.qq.com###ent_ad
 news.qq.com##.bzad
 news.qq.com###f2y
 news.qq.com###f2z
-view.news.qq.com##.alinkBox
 tech.qq.com##.kjad2
-www.qq.com##.adArea > div:not(#adAreaD):not(#adAreaS):not(#gongyi):not(#meishi)
-www.qq.com##.admiddle
-www.qq.com###charge_content
-www.qq.com###proAd
-!--hb
-||mat1.gtimg.com/hb/$object
-||hb.qq.com/article_qq/
-hb.qq.com##.ads220_60
-hb.qq.com##.ads3
-hb.qq.com##[class^="ads360_50"]
-hb.qq.com##.ads4
-hb.qq.com##.ads5
-hb.qq.com##.tongtext
-hb.qq.com###wrapper
-hb.qq.com##div[style=" width:298px; height:48px; border:1px solid #ccc;margin-bottom:10px"]
-hb.qq.com##div[style=" width:300px; height:250px; overflow:hidden"]
-hb.qq.com##div[style="margin:10px auto;width:960px;height:60px; overflow:hidden;"]
+www.qq.com##[class^="adRight"]
 !--unions
 ||tajs.qq.com^
 ||tcss.qq.com^
@@ -3039,6 +3019,7 @@ hornydragon.blogspot.com,hornydragon.blogspot.tw###HTML13
 www.alibuybuy.com##[class^="ad_"]
 av199.com,hd199.com##table[height="30"]
 baiwandu.com##.space_wz > div[align="center"]:nth-child(3)
+briian.com###content > div:nth-of-type(2) > P
 news.cnyes.com##[class^="ad"]
 coolapk.com##.ga200
 crsky.com##[id$="_TL"]
@@ -3449,7 +3430,10 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /ad468x60.
 /ad468x80.
 /ad5.
+/ad6.
 /ad728.
+/ad728t.
+/ad728w.
 /ad728x15.
 /ad728x90.
 /ad?channel=
@@ -3885,6 +3869,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /ads/ads.
 /ads/advshow.
 /ads/afc/*
+/ads/as_header.
 /Ads/Biz_
 /ads/btbuckets/*
 /ads/center-
@@ -4945,6 +4930,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /intelliad.
 /intellitext.
 /interad.
+/internAds.
 /internet_ad_
 /interstitial-ad/*
 /intextads.
@@ -6180,6 +6166,7 @@ _popunder+$image,~image,popup
 ###AD_Zone
 ###AD_gallery
 ###AD_newsblock
+###AD_rectangle
 ###ADgoogle_newsblock
 ###ADoverThePlayer
 ###ADsmallWrapper
@@ -7924,6 +7911,7 @@ _popunder+$image,~image,popup
 ###download_ads
 ###dp_ads1
 ###ds-mpu
+###dsStoryAd
 ###ds_ad_north_leaderboard
 ###dvAd2Center
 ###editorsmpu
@@ -8512,6 +8500,7 @@ _popunder+$image,~image,popup
 ###pb_report_ad
 ###pcworldAdBottom
 ###pcworldAdTop
+###perm_ad
 ###pinball_ad
 ###pixAd
 ###plAds
@@ -9968,6 +9957,7 @@ _popunder+$image,~image,popup
 ##.adp-AdPrefix
 ##.adpadding
 ##.adpane
+##.adpod
 ##.adproxy
 ##.adrec
 ##.adrectangle
@@ -12654,6 +12644,7 @@ _popunder+$image,~image,popup
 ||advrtice.com^$third-party
 ||adworkmedia.com^$third-party
 ||adworldmedia.com^$third-party
+||adworldmedia.net^$third-party
 ||adxpose.com^$third-party
 ||adxpower.com^$third-party
 ||adyoz.com^$third-party
@@ -12879,6 +12870,7 @@ _popunder+$image,~image,popup
 ||clickbooth.com^$third-party
 ||clickbubbles.net^$third-party
 ||clickcash.com^$third-party
+||clickcertain.com^$third-party
 ||clickexa.com^$third-party
 ||clickexperts.net^$third-party
 ||clickfuse.com^$third-party
@@ -13456,6 +13448,7 @@ _popunder+$image,~image,popup
 ||nvero.net^$third-party
 ||nxtck.com^$third-party
 ||nyadmcncserve-05y06a.com^$third-party
+||oads.co^$third-party
 ||oainternetservices.com^$third-party
 ||obeus.com^$third-party
 ||obibanners.com^$third-party
@@ -13823,7 +13816,6 @@ _popunder+$image,~image,popup
 ||trkalot.com^$third-party
 ||trker.com^$third-party
 ||trklnks.com^$third-party
-||troveread.com^$third-party
 ||tubemogul.com^$third-party
 ||turbotraff.net^$third-party
 ||tutvp.com^$third-party
@@ -13882,7 +13874,7 @@ _popunder+$image,~image,popup
 ||vidpay.com^$third-party
 ||viedeo2k.tv^$third-party
 ||viewablemedia.net^$third-party
-||viglink.com^$third-party
+||viglink.com/api/insert?$third-party
 ||vipquesting.com^$third-party
 ||visiblegains.com^$third-party
 ||visiblemeasures.com^$~object-subrequest,third-party
@@ -15004,6 +14996,7 @@ _popunder+$image,~image,popup
 ||tritondigital.com/lt?sid*&hasads=
 ||tritondigital.com/ltflash.php?
 ||trivago.co.uk/uk/srv/$third-party
+||troveread.com/moneta/
 ||turbobit.net/ref/
 ||turbotrafficsystem.com^*/banners/
 ||turner.com^*/336x280_ad.gif
@@ -15038,6 +15031,7 @@ _popunder+$image,~image,popup
 ||vitabase.com/images/relationships/$third-party
 ||vittgam.net/images/b/
 ||voodoo.com^$third-party
+||vpn4all.com^*/banner/
 ||vpntunnel.se/aff/$third-party
 ||vpnxs.nl/images/vpnxs_banner
 ||vrvm.com/t?
@@ -15523,6 +15517,7 @@ _popunder+$image,~image,popup
 /tracker.js.php?
 /tracker/event?
 /tracking/beacon/?
+/tracking/pixel_
 /tracking/tag_commander.php?
 /tracking/tynt_
 /trackingpixels/get?referrer=
@@ -17123,6 +17118,7 @@ _effectivemeasure_tag.js
 ||videodetective.net^*/iva_quantcast.swf
 ||videoplaza.com/proxy/distributor/$object-subrequest
 ||videoplaza.tv/proxy/tracker^$object-subrequest
+||viglink.com^$third-party
 ||virgingames.com/tracker/
 ||virginmedia.com^*/analytics/
 ||virtualearth.net^*/loggingservice/
@@ -17232,8 +17228,7 @@ _effectivemeasure_tag.js
 ||alluc.org/statscounter/
 ||alot.com/js/tracking.js
 ||alot.com/tb/cookiewriter.php?
-||amazon.com/uedata/$image
-||amazon.com^*/uedata/$image
+||amazon.*^uedata^
 ||analytics.bloomberg.com^
 ||analytics.disneyinternational.com^
 ||analytics.femalefirst.co.uk^

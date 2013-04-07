@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: R0Z3WoBqBFqOIfTI/igxBw
+!  Checksum: B3SpSxoi2QJdF2wWktcQWg
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 06 Apr 2013 21:44:37 +0800
+!  Last Modified:  Sun, 07 Apr 2013 20:53:02 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -1166,6 +1166,7 @@ jjwxc.net##table[style^="width:984px;"]
 @@||cq.qq.com/js/cody/*scroll_ad.js
 @@||exp.qq.com/img/ad/$image
 ||mat1.gtimg.com/ent/flash/
+||mat1.gtimg.com/hb/$object
 ||mat1.gtimg.com/sports/*ad/$object
 ||mat1.gtimg.com/view/todayTopic/2012news/*-$image,object
 ||qq.com/livemsg?
@@ -1179,11 +1180,7 @@ jjwxc.net##table[style^="width:984px;"]
 ||tj.qstatic.com^
 ||vc.qq.com/cgi-bin/video_stat.cgi?
 mb.qq.com#@##ad-container
-qq.com##.AdBox-Article-QQ
-qq.com##.AdTop-Article-QQ
-qq.com##.business-Article-QQ
 qq.com##.l_qq_com
-qq.com##.qiye-Article-QQ
 cq.qq.com##[style^="width:960px;"]
 cq.qq.com###AdRight-Article-QQ
 cq.qq.com##.adbutton-Aritcle-QQ
@@ -1192,25 +1189,8 @@ ent.qq.com###ent_ad
 news.qq.com##.bzad
 news.qq.com###f2y
 news.qq.com###f2z
-view.news.qq.com##.alinkBox
 tech.qq.com##.kjad2
-www.qq.com##.adArea > div:not(#adAreaD):not(#adAreaS):not(#gongyi):not(#meishi)
-www.qq.com##.admiddle
-www.qq.com###charge_content
-www.qq.com###proAd
-!--hb
-||mat1.gtimg.com/hb/$object
-||hb.qq.com/article_qq/
-hb.qq.com##.ads220_60
-hb.qq.com##.ads3
-hb.qq.com##[class^="ads360_50"]
-hb.qq.com##.ads4
-hb.qq.com##.ads5
-hb.qq.com##.tongtext
-hb.qq.com###wrapper
-hb.qq.com##div[style=" width:298px; height:48px; border:1px solid #ccc;margin-bottom:10px"]
-hb.qq.com##div[style=" width:300px; height:250px; overflow:hidden"]
-hb.qq.com##div[style="margin:10px auto;width:960px;height:60px; overflow:hidden;"]
+www.qq.com##[class^="adRight"]
 !--unions
 ||tajs.qq.com^
 ||tcss.qq.com^
@@ -3039,6 +3019,7 @@ hornydragon.blogspot.com,hornydragon.blogspot.tw###HTML13
 www.alibuybuy.com##[class^="ad_"]
 av199.com,hd199.com##table[height="30"]
 baiwandu.com##.space_wz > div[align="center"]:nth-child(3)
+briian.com###content > div:nth-of-type(2) > P
 news.cnyes.com##[class^="ad"]
 coolapk.com##.ga200
 crsky.com##[id$="_TL"]
