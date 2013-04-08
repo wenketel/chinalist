@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: BdP4pyjmz1oZ0y9Mx3R0Yg
+!  Checksum: xpjOLkNnCy9KG5C3lWlkGA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 07 Apr 2013 21:17:54 +0800
+!  Last Modified:  Mon, 08 Apr 2013 19:46:20 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -2947,7 +2947,7 @@ zxtjd.com###it_an
 |http://*/js/ad/
 |http://*/js/tc.js
 |http://*.tw/ad/$domain=~atmovies.com.tw
-@@/data/preview/ad/^$image
+@@/data/preview/ad/$image
 |https://*/ad/
 /images/prom/*
 .info/ad/
@@ -3513,6 +3513,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /ad_log_
 /ad_manager.
 /ad_manager/*
+/ad_mobile.
 /ad_mpu.
 /ad_navigbar_
 /ad_notice.
@@ -3802,6 +3803,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /adpartner.
 /adpeeps.
 /adpeeps/*
+/adpic.
 /adpicture1|
 /adpicture2|
 /adpictures/*
@@ -4580,6 +4582,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /cpm_ad.
 /cpmcampaigns/*
 /cpxads.
+/criteo_
 /csp/ads?
 /css/adsense
 /ctamlive160x160.
@@ -4764,6 +4767,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /geoad/*
 /get-ad.
 /get/ad.
+/get_ad_tags?
 /getad.
 /getad?
 /getadframe.
@@ -5110,6 +5114,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /onead.
 /online_ads/*
 /onlineads/*
+/openad.
 /openads-
 /openads.
 /openads/*
@@ -6428,6 +6433,7 @@ _popunder+$image,~image,popup
 ###ad-banner-atf
 ###ad-bigbox
 ###ad-bigsize
+###ad-billboard-atf
 ###ad-billboard-bottom
 ###ad-block-125
 ###ad-bottom
@@ -6496,6 +6502,7 @@ _popunder+$image,~image,popup
 ###ad-placard
 ###ad-placeholder
 ###ad-popup1
+###ad-rec-atf
 ###ad-rec-btf-top
 ###ad-rectangle
 ###ad-right
@@ -6511,6 +6518,7 @@ _popunder+$image,~image,popup
 ###ad-sidebar
 ###ad-skin
 ###ad-sky
+###ad-sky-atf
 ###ad-sky-btf
 ###ad-skyscraper
 ###ad-slot-right
@@ -6533,6 +6541,7 @@ _popunder+$image,~image,popup
 ###ad-target-Leaderbord
 ###ad-teaser
 ###ad-text
+###ad-textad-single
 ###ad-tlr-spot
 ###ad-top
 ###ad-top-banner
@@ -7825,10 +7834,8 @@ _popunder+$image,~image,popup
 ###ctl00_TowerAd
 ###ctl00_VBanner_adHolder
 ###ctl00__Content__RepeaterReplies_ctl03__AdReply
-###ctl00_abot_bb
 ###ctl00_adFooter
 ###ctl00_advert_LargeMPU_div_AdPlaceHolder
-###ctl00_atop_bt
 ###ctl00_cphMain_hlAd1
 ###ctl00_cphMain_hlAd2
 ###ctl00_cphMain_hlAd3
@@ -8610,11 +8617,13 @@ _popunder+$image,~image,popup
 ###right_column_top_ad_unit
 ###right_sidebar_ads
 ###rightad
+###rightad1
 ###rightad2
 ###rightadBorder
 ###rightadBorder1
 ###rightadBorder2
 ###rightadContainer
+###rightadhome
 ###rightads
 ###rightadvertbar-doubleclickads
 ###rightbar-ad
@@ -8853,6 +8862,7 @@ _popunder+$image,~image,popup
 ###storyad2
 ###storyblock-ad
 ###subAdsFooter
+###subbgad
 ###submenu-ads
 ###subpage-ad-right
 ###subpage-ad-top
@@ -9100,6 +9110,7 @@ _popunder+$image,~image,popup
 ##.ADCLOUD
 ##.ADFooter
 ##.ADPod
+##.AD_2
 ##.AD_ALBUM_ITEMLIST
 ##.AD_MOVIE_ITEM
 ##.AD_MOVIE_ITEMLIST
@@ -9158,6 +9169,7 @@ _popunder+$image,~image,popup
 ##.AdsRec
 ##.Ads_3
 ##.Ads_4
+##.Adsense
 ##.AdsenseBoxCenter
 ##.Adv468
 ##.AdvBoxSidebar
@@ -9358,6 +9370,7 @@ _popunder+$image,~image,popup
 ##.ad-button
 ##.ad-callout
 ##.ad-cat
+##.ad-catfish
 ##.ad-cell
 ##.ad-column
 ##.ad-container-300x250
@@ -9616,6 +9629,7 @@ _popunder+$image,~image,popup
 ##.adMPU
 ##.adMPUHome
 ##.adMarker
+##.adMarkerBlock
 ##.adMastheadLeft
 ##.adMastheadRight
 ##.adMegaBoard
@@ -10306,6 +10320,7 @@ _popunder+$image,~image,popup
 ##.advBox
 ##.advLB_PageMiddle
 ##.advSquare
+##.advText
 ##.advVideobox
 ##.adv_120
 ##.adv_120x600
@@ -10689,6 +10704,7 @@ _popunder+$image,~image,popup
 ##.bodyads
 ##.bodyads2
 ##.bookseller-header-advt
+##.bot-728x90-ad
 ##.bottom-ad-fr
 ##.bottom-ad2
 ##.bottom-ads
@@ -11285,6 +11301,7 @@ _popunder+$image,~image,popup
 ##.inside_ad_box
 ##.inteliusAd_image
 ##.interest-based-ad
+##.internal-ad
 ##.internalAdsContainer
 ##.ione-widget-dart-ad
 ##.iprom-ad
@@ -11689,6 +11706,7 @@ _popunder+$image,~image,popup
 ##.review-ad
 ##.reviewMidAdvertAlign
 ##.rght300x250
+##.rgt-300x250-ad
 ##.rhads
 ##.rhs-ad
 ##.rhs-ads-panel
@@ -12299,6 +12317,7 @@ _popunder+$image,~image,popup
 ##.yrail_ad_wrap
 ##.yrail_ads
 ##.ysmsponsor
+##.ysp-dynamic-ad
 ##.ysponsor
 ##.yw-ad
 ##.zRightAdNote
@@ -12687,6 +12706,7 @@ _popunder+$image,~image,popup
 ||affinitad.com^$third-party
 ||affinity.com^$third-party
 ||affiz.net^$third-party
+||affplanet.com^$third-party
 ||afterdownload.com^$third-party
 ||afy11.net^$third-party
 ||agentcenters.com^$third-party
@@ -14031,6 +14051,7 @@ _popunder+$image,~image,popup
 ||am10.ru^$image,~image,popup,third-party
 ||baypops.com^$image,~image,popup,third-party
 ||brandreachsys.com^$image,~image,popup,third-party
+||c4tracking01.com^$image,~image,popup,third-party
 ||clickbank.net^$image,~image,popup,third-party
 ||clkads.com^$image,~image,popup,third-party
 ||contentabc.com^$image,~image,popup,third-party
@@ -14309,6 +14330,7 @@ _popunder+$image,~image,popup
 ||chriscasconi.com/nostalgia_ad.
 ||cimg.in/images/banners/
 ||citadelcc.vo.llnwd.net^*/img/takeover_
+||clarity.abacast.com^
 ||click.eyk.net^
 ||clickstrip.6wav.es^
 ||clipdealer.com/?action=widget&*&partner=
@@ -14515,6 +14537,7 @@ _popunder+$image,~image,popup
 ||flower.com/img/lsh/
 ||flyertown.ca^$script,third-party
 ||followfairy.com/followfairy300x250.jpg
+||footymad.net/partners/
 ||forms.aweber.com/form/styled_popovers_and_lightboxes.js$third-party
 ||fortune5minutes.com^*/banner_
 ||forumimg.ipmart.com/swf/img.php
@@ -15757,6 +15780,7 @@ _effectivemeasure_tag.js
 ||circular-counters.com^$third-party
 ||clarityray.com^$third-party
 ||cleananalytics.com^$third-party
+||clevi.com^$third-party
 ||click-linking.com^$third-party
 ||click2meter.com^$third-party
 ||click4assistance.co.uk^$third-party
@@ -16769,6 +16793,7 @@ _effectivemeasure_tag.js
 ||go.toutapp.com^$third-party
 ||goals.ar.gy/bug.gif?
 ||goaww.com/stats.php
+||google-analytics.com/plugins/
 ||googleapis.com/generate_204
 ||googleapis.com^*/gen_204?
 ||googlecode.com^*/tracker.js
