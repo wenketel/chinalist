@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: dUgC3XnZulc9c4hELq6b3Q
+!  Checksum: ZPzt03P2Ym3YJSzneHOBPw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 09 Apr 2013 15:41:12 +0800
+!  Last Modified:  Tue, 09 Apr 2013 23:15:56 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -3194,6 +3194,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 -contest-ad.
 -cpm-ad.
 -cpm-ads.
+-criteo.
 -fe-ads/
 -footerads-
 -footerads.
@@ -4584,7 +4585,10 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /cpm_ad.
 /cpmcampaigns/*
 /cpxads.
+/criteo.
+/Criteo/*
 /criteo_
+/criteoRTA.
 /csp/ads?
 /css/adsense
 /ctamlive160x160.
@@ -7908,6 +7912,8 @@ _popunder+$image,~image,popup
 ###div-ad-coupon_8
 ###div-ad-coupon_9
 ###divAdBox
+###divAdLeft
+###divAdRight
 ###divAdWrapper
 ###divAdsTop
 ###divAdvertisement
@@ -8685,6 +8691,7 @@ _popunder+$image,~image,popup
 ###sew-ad1
 ###shoppingads
 ###shortads
+###shortnews_advert
 ###show-ad
 ###showAd
 ###showad
@@ -12781,6 +12788,7 @@ _popunder+$image,~image,popup
 ||azjmp.com^$third-party
 ||azoogleads.com^$third-party
 ||backbeatmedia.com^$third-party
+||baldiro.de^$third-party
 ||banner-clix.com^$third-party
 ||bannerbank.ru^$third-party
 ||bannerblasters.com^$third-party
@@ -12891,6 +12899,7 @@ _popunder+$image,~image,popup
 ||chipleader.com^$third-party
 ||chitika.net^$third-party
 ||chronicads.com^$third-party
+||city-ads.de^$third-party
 ||cjt1.net^$third-party
 ||clash-media.com^$third-party
 ||claxonmedia.com^$third-party
@@ -13141,6 +13150,7 @@ _popunder+$image,~image,popup
 ||foodieblogroll.com^$third-party
 ||foonad.com^$third-party
 ||footerslideupad.com^$third-party
+||forced-lose.de^$third-party
 ||forex-affiliate.net^$third-party
 ||forexyard.com^$third-party
 ||forrestersurveys.com^$third-party
@@ -13216,6 +13226,7 @@ _popunder+$image,~image,popup
 ||hotfeed.net^$third-party
 ||hotkeys.com^$third-party
 ||hotptp.com^$third-party
+||hplose.de^$third-party
 ||httpool.com^$third-party
 ||httpsecurity.org^$third-party
 ||hypemakers.net^$third-party
@@ -13354,6 +13365,8 @@ _popunder+$image,~image,popup
 ||logo-net.co.uk^$third-party
 ||lookit-quick.com^$third-party
 ||looksmart.com^$third-party
+||lose-ads.de^$third-party
+||lose4allweb.de^$third-party
 ||loseads.eu^$third-party
 ||lotteryaffiliates.com^$third-party
 ||love-banner.com^$third-party
@@ -13526,6 +13539,7 @@ _popunder+$image,~image,popup
 ||p-advg.com^$third-party
 ||paads.dk^$third-party
 ||pagesinxt.com^$third-party
+||paid4ad.de^$third-party
 ||paidonresults.net^$third-party
 ||pakbanners.com^$third-party
 ||panachetech.com^$third-party
@@ -13590,6 +13604,7 @@ _popunder+$image,~image,popup
 ||prf.hn^$third-party
 ||prickac.com^$third-party
 ||primaryads.com^$third-party
+||pro-advert.de^$third-party
 ||pro-advertising.com^$third-party
 ||pro-market.net^$third-party
 ||proadsdirect.com^$third-party
@@ -13937,6 +13952,7 @@ _popunder+$image,~image,popup
 ||webseeds.com^$third-party
 ||webtraffic.ttinet.com^$third-party
 ||wegetpaid.net^$third-party
+||werbe-sponsor.de^$third-party
 ||wfnetwork.com^$third-party
 ||wgreatdream.com^$third-party
 ||widgetadvertising.biz^$third-party
@@ -16618,6 +16634,7 @@ _effectivemeasure_tag.js
 ||aolcdn.com/js/mg2.js
 ||aolcdn.com/omniunih.js
 ||aolcdn.com/omniunih_int.js
+||app.cdn-cs.com/__t.png?
 ||app.insightgrit.com^
 ||appliedsemantics.com/images/x.gif
 ||appspot.com/tracking_iframe.jsp?
@@ -18224,5 +18241,6 @@ youtube.com##a[href^="http://www.youtube.com/cthru?"]
 @@||doubleclick.net/adi/ebay.*/video;$subdocument,domain=ebay.com
 @@||doubleclick.net/adj/imdb2.consumer.video/*;sz=320x240,$script
 @@||imrworldwide.com/novms/js/2/ggcmb353.js$domain=nexttv.com.tw
+@@||o.aolcdn.com/omniunih.js$domain=autoblog.com|engadget.com|mapquest.com|video.aol.com|www.aol.com
 
 !------------------------End of List-------------------------
