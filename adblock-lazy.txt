@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: xpjOLkNnCy9KG5C3lWlkGA
+!  Checksum: dUgC3XnZulc9c4hELq6b3Q
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 08 Apr 2013 19:46:20 +0800
+!  Last Modified:  Tue, 09 Apr 2013 15:41:12 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1348,7 +1348,6 @@ www.sohu.com###contentC > .columnC
 ||tv.sohu.com/upload/trace/
 ||p.aty.sohu.com^
 ||vm.aty.sohu.com^
-||hot.vrs.sohu.com^
 ||v.blog.sohu.com/dostat.do?
 ||his.tv.sohu.com/his/ping.do?
 ||count.vrs.sohu.com^$object_subrequest
@@ -2206,6 +2205,8 @@ codefans.net##.ad960
 ||deyi.com/module/adsview/
 ||img3.douban.com/js/boomerang.js
 ||img3.douban.com/js/packed_ad
+||t.douban.com/img/files/$object
+douban.com###crazy-ad-wrapper
 ||e0575.cn/js/float.js
 ||life.e0575.com^
 e0575.cn##.textMes
@@ -2250,7 +2251,7 @@ frdic.com,godic.net###sidebar1
 ||fsllq.com/temp/images/*_980$image
 ||fzlol.com/images/$script
 ||hackvip.com/ai/
-||hanzify.org/Main/Template/*/a-d-s/
+/a-d-s/*$domain=hanzify.net|hanzify.org
 ||hefei.cc/templates/default/index_ad62.js
 ||hk-pub.com/forum/images/banner/
 ||hk-pub.com/forum/include/overture_ads.js
@@ -2988,7 +2989,7 @@ zxtjd.com###it_an
 ||blogtw.net^$third-party
 ||dw.cbsi.com.cn^$third-party
 ||cnzz.com^$third-party
-||log.so.cnzz.net^
+||cnzz.net^
 ||cms.grandcloud.cn^$third-party
 ||gridsum.com^$third-party
 ||cdn.hiido.cn^$third-party
@@ -3045,6 +3046,7 @@ gamebase.com.tw###crazy_ad_728
 gamebase.com.tw##.wait_gbno1
 loltw.gamebase.com.tw##[class^="adsense-"]
 verycd.gdajie.com##th[colspan="3"]
+haogongju.net##[class^="ad_"]
 hdpfans.com##.adimglistbox
 hdpfans.com##.boxleftconm
 hdpfans.com##.boxrightcom
@@ -9562,6 +9564,7 @@ _popunder+$image,~image,popup
 ##.ad728x90_container
 ##.ad728x90box
 ##.ad90x780
+##.ad970x90
 ##.ad987
 ##.adAgate
 ##.adArea674x60
@@ -10953,6 +10956,7 @@ _popunder+$image,~image,popup
 ##.dm-ads-350
 ##.dmco_advert_iabrighttitle
 ##.dod_ad
+##.download-ad
 ##.downloadAds
 ##.download_ad
 ##.downloadad
@@ -11629,6 +11633,7 @@ _popunder+$image,~image,popup
 ##.partnerAd
 ##.partnersTextLinks
 ##.pencil_ad
+##.player-ads
 ##.playerAd
 ##.player_ad_box
 ##.player_hover_ad
@@ -13330,6 +13335,7 @@ _popunder+$image,~image,popup
 ||linkconnector.com^$third-party
 ||linkelevator.com^$third-party
 ||linkexchange.com^$third-party
+||linkoffers.net^$third-party
 ||linkreferral.com^$third-party
 ||links.io^$third-party
 ||linkshowoff.com^$third-party
@@ -14797,13 +14803,15 @@ _popunder+$image,~image,popup
 ||newware.net/home/banner$third-party
 ||nimblecommerce.com/widget.action?
 ||nitropdf.com/graphics/promo/$third-party
+||nmcdn.us/cmspages/newsmax/feed/GetScript.ashx?ClientID=
 ||nocookie.net^*/wikiasearchads.js
+||nude.mk/images/$third-party
 ||nwadealpiggy.com/widgets/
 ||nzpages.co.nz^*/banners/
 ||nzphoenix.com/nzgamer/$third-party
 ||objects.tremormedia.com/embed/swf/tpacudeoplugin46.swf
 ||obox-design.com/affiliate-banners/
-||ocp.cbs.com/pacific/request.jsp?$third-party
+||ocp.cbs.com/pacific/request.jsp?
 ||oilofasia.com/images/banners/
 ||onegameplace.com/iframe.php$third-party
 ||oovoo.com^*/banners/
@@ -16210,11 +16218,13 @@ _effectivemeasure_tag.js
 ||parklogic.com^$third-party
 ||peerius.com^$third-party
 ||percentmobile.com^$third-party
+||perfectaudience.com^$third-party
 ||performancerevenues.com^$third-party
 ||personyze.com^$third-party
 ||phonalytics.com^$third-party
 ||pickzor.com^$third-party
 ||pikzor.com^$third-party
+||pingdom.net^$third-party
 ||pixelsnippet.com^$third-party
 ||pjtra.com^$third-party
 ||plecki.com^$third-party
@@ -17138,6 +17148,7 @@ _effectivemeasure_tag.js
 ||unicornapp.com/external/application/metrics/
 ||urc.taboolasyndication.com^
 ||userlog.synapseip.tv^
+||uservoice.com^*/track.js
 ||v.giantrealm.com/players/stats.swf?
 ||vanilladev.com/analytics.
 ||vanillaforums.com/settings/analyticstick.json
@@ -17548,6 +17559,7 @@ _effectivemeasure_tag.js
 ||geoip.oregonlive.com^
 ||geoip.syracuse.com^
 ||geoiplookup.wikimedia.org^
+||geovisites.com^*/geouser.js
 ||ghostery.com^*/clicky.js
 ||gizmodo.com/at.js.php
 ||gizmodo.com^$object,~third-party

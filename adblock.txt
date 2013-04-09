@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: SHYyyGADRYa5s/9mZN+xiA
+!  Checksum: geojhtzyUjlH4s8oesHj7g
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 08 Apr 2013 19:46:17 +0800
+!  Last Modified:  Tue, 09 Apr 2013 15:41:09 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -1347,7 +1347,6 @@ www.sohu.com###contentC > .columnC
 ||tv.sohu.com/upload/trace/
 ||p.aty.sohu.com^
 ||vm.aty.sohu.com^
-||hot.vrs.sohu.com^
 ||v.blog.sohu.com/dostat.do?
 ||his.tv.sohu.com/his/ping.do?
 ||count.vrs.sohu.com^$object_subrequest
@@ -2206,6 +2205,8 @@ codefans.net##.ad960
 ||deyi.com/module/adsview/
 ||img3.douban.com/js/boomerang.js
 ||img3.douban.com/js/packed_ad
+||t.douban.com/img/files/$object
+douban.com###crazy-ad-wrapper
 ||e0575.cn/js/float.js
 ||life.e0575.com^
 e0575.cn##.textMes
@@ -2250,7 +2251,7 @@ frdic.com,godic.net###sidebar1
 ||fsllq.com/temp/images/*_980$image
 ||fzlol.com/images/$script
 ||hackvip.com/ai/
-||hanzify.org/Main/Template/*/a-d-s/
+/a-d-s/*$domain=hanzify.net|hanzify.org
 ||hefei.cc/templates/default/index_ad62.js
 ||hk-pub.com/forum/images/banner/
 ||hk-pub.com/forum/include/overture_ads.js
@@ -2988,7 +2989,7 @@ zxtjd.com###it_an
 ||blogtw.net^$third-party
 ||dw.cbsi.com.cn^$third-party
 ||cnzz.com^$third-party
-||log.so.cnzz.net^
+||cnzz.net^
 ||cms.grandcloud.cn^$third-party
 ||gridsum.com^$third-party
 ||cdn.hiido.cn^$third-party
@@ -3045,6 +3046,7 @@ gamebase.com.tw###crazy_ad_728
 gamebase.com.tw##.wait_gbno1
 loltw.gamebase.com.tw##[class^="adsense-"]
 verycd.gdajie.com##th[colspan="3"]
+haogongju.net##[class^="ad_"]
 hdpfans.com##.adimglistbox
 hdpfans.com##.boxleftconm
 hdpfans.com##.boxrightcom
