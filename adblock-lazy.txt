@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: ZPzt03P2Ym3YJSzneHOBPw
+!  Checksum: KaNPlg5cKeipmwB/AISwlg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 09 Apr 2013 23:15:56 +0800
+!  Last Modified:  Thu, 11 Apr 2013 19:52:12 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1298,6 +1298,7 @@ finance.sina.com.cn###adSinaHouseHeadLink
 sina.com.cn##.adNone
 !-video
 ||log.v.iask.com^
+||video.sina.com.cn/iframe/
 ||count.kandian.com^$object_subrequest
 ||dcads.sina.com.cn^
 ||l.you.video.sina.com.cn^$object_subrequest
@@ -2850,6 +2851,7 @@ zxtjd.com###it_an
 ||vjia.com^$third-party
 ||vodone.cn^$third-party
 ||wan789.net^$third-party
+||wangzhan5.com^$third-party
 ||wanliuliang.com^$third-party
 ||wauee.com^$third-party
 ||xdwan.com^$third-party
@@ -3279,6 +3281,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 .initdoubleclickadselementcontent?
 .internads.min.js
 .lazyload-ad-
+.microad.
 .net/ad/$~object-subrequest
 .net/ads-
 .net/ads.
@@ -3404,6 +3407,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /ad/banner_
 /ad/bannerdetails/*
 /ad/files/*
+/ad/framed?
 /ad/generate?
 /ad/google/*
 /ad/iframe.
@@ -3599,6 +3603,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /adchannel_
 /adchoice.
 /adchoices.
+/adchoicesv4.
 /adclick.
 /adclick/*
 /adclient-
@@ -4143,6 +4148,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /adstop_
 /adstorage.
 /adstracking.
+/adStrategies/*
 /adstream.
 /adstream_
 /adStrip.
@@ -4544,6 +4550,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /carsadtaggenerator.js
 /cashad.
 /cashad2.
+/cgi-bin/ad/*
 /channelblockads.
 /chinaadclient.
 /chitika-ad?
@@ -5057,6 +5064,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /mini_ads.
 /misc/ad-
 /miva_ads.
+/MixBerryAdsProduction/
 /mkadsrv.
 /ml9pagepeel.
 /mmsAds.
@@ -5102,6 +5110,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /newtopmsgad.
 /nextad/*
 /no_ads.
+/o2ad.
 /o2contentad.
 /oas-config.
 /oas_ad_
@@ -5393,6 +5402,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /silverads.
 /simpleadvert.
 /simpleadvert/*
+/sisterads.
 /site=*/size=*/viewid=
 /site=*/viewid=*/size=
 /site_ads.
@@ -5718,6 +5728,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 ?type=ad&
 ?view=ad&
 ^fp=*&prvtof=
+^mod=wms&do=view_*&zone=
 _160_ad_
 _acorn_ad_
 _ad-125x125.
@@ -7882,6 +7893,8 @@ _popunder+$image,~image,popup
 ###dcol-sponsored
 ###defer-adright
 ###detail_page_vid_topads
+###dfp-ad-1
+###dfp-ad-2
 ###dfp-ad-content_1-wrapper
 ###dfp-ad-content_2-wrapper
 ###dfp-ad-content_3-wrapper
@@ -8025,6 +8038,7 @@ _popunder+$image,~image,popup
 ###fullsizebanner_468x60
 ###fusionad
 ###fw-advertisement
+###fwAdBox
 ###g_ad
 ###g_adsense
 ###ga_300x250
@@ -8689,6 +8703,7 @@ _popunder+$image,~image,popup
 ###section_advertorial_feature
 ###servfail-ads
 ###sew-ad1
+###sew_advertbody
 ###shoppingads
 ###shortads
 ###shortnews_advert
@@ -8820,6 +8835,7 @@ _popunder+$image,~image,popup
 ###sponsoredBox1
 ###sponsoredBox2
 ###sponsoredLinks
+###sponsoredLinks_Bottom
 ###sponsoredLinks_Top
 ###sponsoredList
 ###sponsoredResults
@@ -9025,6 +9041,9 @@ _popunder+$image,~image,popup
 ###vertical_ads
 ###vhDivAdSlot300x250
 ###video-embed-ads
+###video-in-player-ad
+###video-in-player-ad-container
+###video-under-player-ad
 ###videoAdvert
 ###videoCompanionAd
 ###video_ads_overdiv
@@ -9076,6 +9095,7 @@ _popunder+$image,~image,popup
 ###wide_ad_unit_top
 ###wideskyscraper_160x600_left
 ###wideskyscraper_160x600_right
+###widget-adv-12
 ###widget-style-ad
 ###widget_Adverts
 ###widget_advertisement
@@ -9381,6 +9401,7 @@ _popunder+$image,~image,popup
 ##.ad-cat
 ##.ad-catfish
 ##.ad-cell
+##.ad-col-02
 ##.ad-column
 ##.ad-container-300x250
 ##.ad-container-728x90
@@ -9774,6 +9795,7 @@ _popunder+$image,~image,popup
 ##.ad_box
 ##.ad_box1
 ##.ad_box2
+##.ad_box_2
 ##.ad_box_ad
 ##.ad_box_div
 ##.ad_box_title
@@ -10200,6 +10222,7 @@ _popunder+$image,~image,popup
 ##.adsd_shift100
 ##.adsection_a2
 ##.adsection_c2
+##.adsence-domain
 ##.adsens
 ##.adsense-300x256-widget
 ##.adsense-300x256-widget-2
@@ -10236,6 +10259,7 @@ _popunder+$image,~image,popup
 ##.adsenseblock_top
 ##.adsenselr
 ##.adsensem_widget
+##.adsensesky
 ##.adsensesq
 ##.adsenvelope
 ##.adseparator
@@ -10306,6 +10330,7 @@ _popunder+$image,~image,popup
 ##.adtxtlinks
 ##.adunit
 ##.adunit-middle
+##.adunit_content
 ##.adv-160
 ##.adv-300
 ##.adv-700
@@ -10642,6 +10667,7 @@ _popunder+$image,~image,popup
 ##.bgnavad
 ##.big-ad
 ##.big-ads
+##.big-box-ad
 ##.bigAd
 ##.bigAdvBanner
 ##.bigCubeAd
@@ -10942,6 +10968,8 @@ _popunder+$image,~image,popup
 ##.detailMpu
 ##.detail_ad
 ##.detail_top_advert
+##.dfp_ad
+##.dfp_ad_caption
 ##.dfrads
 ##.display-ads-block
 ##.displayAd
@@ -11323,6 +11351,7 @@ _popunder+$image,~image,popup
 ##.islandAdvert
 ##.islandad
 ##.item-ads
+##.item-advertising
 ##.item-container-ad
 ##.itemAdvertise
 ##.jimdoAdDisclaimer
@@ -11715,6 +11744,7 @@ _popunder+$image,~image,popup
 ##.resultAd
 ##.result_ad
 ##.result_item_ad-adsense
+##.resultsAdsBlockCont
 ##.review-ad
 ##.reviewMidAdvertAlign
 ##.rght300x250
@@ -11866,6 +11896,7 @@ _popunder+$image,~image,popup
 ##.sidebarboxad
 ##.sideheadnarrowad
 ##.sideheadsponsorsad
+##.simple_ads_manager_block_widget
 ##.simple_ads_manager_widget
 ##.single-google-ad
 ##.singleAd
@@ -12256,6 +12287,7 @@ _popunder+$image,~image,popup
 ##.widget-ad-codes
 ##.widget-ad300x250
 ##.widget-ads
+##.widget-adv
 ##.widget-entry-ads-160
 ##.widgetYahooAds
 ##.widget_ad
@@ -13684,6 +13716,7 @@ _popunder+$image,~image,popup
 ||rtbpops.com^$third-party
 ||ru4.com^$third-party
 ||rubiconproject.com^$third-party
+||runetki.com^$third-party
 ||rwpads.com^$third-party
 ||s2d6.com^$third-party
 ||sa.entireweb.com^$third-party
@@ -14078,6 +14111,7 @@ _popunder+$image,~image,popup
 ||clkads.com^$image,~image,popup,third-party
 ||contentabc.com^$image,~image,popup,third-party
 ||cpmstar.com^$image,~image,popup,third-party
+||directrev.com^$image,~image,popup,third-party
 ||ekod.info^$image,~image,popup,third-party
 ||exoclick.com^$image,~image,popup,third-party
 ||fhserve.com^$image,~image,popup,third-party
@@ -14286,6 +14320,7 @@ _popunder+$image,~image,popup
 ||berush.com/images/*_semrush_$third-party
 ||berush.com/images/semrush_banner_
 ||berush.com/images/whorush_120x120_
+||besthosting.ua/banner/
 ||bet-at-home.com/oddbanner.aspx?
 ||beta.down2crazy.com^$third-party
 ||bidgo.ca^$subdocument,third-party
@@ -14339,6 +14374,7 @@ _popunder+$image,~image,popup
 ||catholicweb.com^*/banners/
 ||cbanners.virtuagirlhd.com^$third-party
 ||cbpirate.com/getimg.php?
+||cdn.nmcdn.us/js/connect.js
 ||cdn.sweeva.com/images/$third-party
 ||cdnpark.com/scripts/js3.js
 ||cdnprk.com/scripts/js3.js
@@ -14579,6 +14615,7 @@ _popunder+$image,~image,popup
 ||fugger.netfirms.com/moa.swf$third-party
 ||funtonia.com/promo/
 ||fupa.com/aw.aspx?$third-party
+||furiousteam.com^*/external_banner/
 ||futuboxhd.com/js/bc.js
 ||futuresite.register.com/us?$third-party
 ||fxultima.com/banner/
@@ -15052,7 +15089,6 @@ _popunder+$image,~image,popup
 ||tritondigital.com/lt?sid*&hasads=
 ||tritondigital.com/ltflash.php?
 ||trivago.co.uk/uk/srv/$third-party
-||troveread.com/moneta/
 ||turbobit.net/ref/
 ||turbotrafficsystem.com^*/banners/
 ||turner.com^*/336x280_ad.gif
@@ -15122,6 +15158,7 @@ _popunder+$image,~image,popup
 ||wonderlabs.com/affiliate_pro/banners/
 ||wp.com^*/linkwidgets/$domain=coedmagazine.com
 ||ws.amazon.*/widgets/q?$third-party
+||wtpn.twenga.de^
 ||wupload.com/images/banners/
 ||x3cms.com/ads/
 ||xcams.com/livecams/pub_collante/script.php?$third-party
@@ -15226,12 +15263,15 @@ _popunder+$image,~image,popup
 /analysis-logger/logger?
 /analytics/hit.php?
 /analytics/mbox.js
+/analytics/socialTracking.js
 /analyzer/aa.php?
+/anametrix/*
 /aspstats/index.asp?
 /astrack.js
 /astracker.js
 /atapixel.js
 /audiencescience.js
+/avtstats.
 /awstats.js
 /awstats_misc_tracker.js
 /b/ss/*&ce=iso-8859-1&
@@ -16630,6 +16670,7 @@ _effectivemeasure_tag.js
 ||analyze.full-marke.com^
 ||anscdn.net/images/1x1p.gif?
 ||anvato.com/anvatoloader.swf?analytics=
+||aol.com/ping?
 ||aolanswers.com/wtrack/
 ||aolcdn.com/js/mg2.js
 ||aolcdn.com/omniunih.js
@@ -16834,6 +16875,7 @@ _effectivemeasure_tag.js
 ||gscounters.us1.gigya.com^
 ||gstatic.com/gadf/ga_dyn.js
 ||gstatic.com/gen_204?
+||gubagoo.com/modules/tracking/
 ||harvester.ext.square-enix-europe.com^
 ||haymarket.com/injector/deliver/
 ||herokuapp.com/track?
@@ -16924,6 +16966,7 @@ _effectivemeasure_tag.js
 ||metaffiliation.com^*^mclic=
 ||metaffiliation.com^*^taff=s
 ||metrics.brightcove.com^
+||metrics.chmedia.com^
 ||metrics.ctvdigital.net^
 ||metrics.feedroom.com^
 ||metrics.loomia.com^
@@ -17437,6 +17480,7 @@ _effectivemeasure_tag.js
 ||cooksunited.co.uk/counter*.php?
 ||cooksunited.co.uk^*/pixel/
 ||cooliris.com/shared/stats/
+||cosmopolitan.co.za/rest/track/
 ||courierpress.com/metrics/
 ||coveritlive.com/1/sts/view?
 ||cracked.com/tracking/
@@ -17995,6 +18039,7 @@ _effectivemeasure_tag.js
 ||sundayworld.co.za/statistics/
 ||superpages.com^*/logclick.js
 ||t-ak.hulu.com^
+||t.9gag.com^
 ||t.eharmony.com^
 ||t.hulu.com/beacon/
 ||t.paypal.com^
