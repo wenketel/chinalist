@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("ChinaList for Adblock Plus Project")]
 [assembly: AssemblyProduct("ABPUtils")]
-[assembly: AssemblyCopyright("Copyright (C)  2012 ChinaList")]
+[assembly: AssemblyCopyright("Copyright (C)  2013 ChinaList")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -29,4 +29,4 @@ using System.Runtime.InteropServices;
 //      内部版本号
 //      修订号
 //
-[assembly: AssemblyVersion("2.4.4.*")]
+[assembly: AssemblyVersion("2.4.5.*")]

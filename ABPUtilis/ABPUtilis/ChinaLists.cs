@@ -55,9 +55,9 @@ namespace ABPUtils
             using (StreamReader sr = new StreamReader(chinaList, Encoding.UTF8))
             {
                 chinaListContent = sr.ReadToEnd();
-                var headerIndex = chinaListContent.IndexOf(ConstString.CHINALIST_LAZY_HEADER_MARK);
-                chinaListContent = chinaListContent.Substring(headerIndex).Insert(0, ConstString.CHINALIST_LAZY_HEADER);
-                var index = chinaListContent.IndexOf(ConstString.CHINALIST_END_MARK);
+                var headerIndex = chinaListContent.IndexOf(ChinaListConst.CHINALIST_LAZY_HEADER_MARK);
+                chinaListContent = chinaListContent.Substring(headerIndex).Insert(0, ChinaListConst.CHINALIST_LAZY_HEADER);
+                var index = chinaListContent.IndexOf(ChinaListConst.CHINALIST_END_MARK);
                 chinaListContent = chinaListContent.Remove(index);
                 sBuilder.Append(chinaListContent);
             }
@@ -71,9 +71,9 @@ namespace ABPUtils
             sBuilder.Append(easyPrivacyContent);
 
             //apply patch settings
-            if (File.Exists(ConstString.PATCH_FILE) && patch)
+            if (File.Exists(ChinaListConst.PATCH_FILE) && patch)
             {
-                Console.WriteLine("use {0} to patch {1}", ConstString.PATCH_FILE, lazyList);
+                Console.WriteLine("use {0} to patch {1}", ChinaListConst.PATCH_FILE, lazyList);
 
                 Configurations patchconfig = GetConfigurations();
 
@@ -105,9 +105,9 @@ namespace ABPUtils
             }
 
             sBuilder.AppendLine(string.Empty);
-            sBuilder.AppendLine(ConstString.CHINALIST_END_MARK);
+            sBuilder.AppendLine(ChinaListConst.CHINALIST_END_MARK);
 
-            Console.WriteLine(string.Format("Merge {0}, {1} and {2}.", chinaList, ConstString.EASYLIST, ConstString.EASYPRIVACY));
+            Console.WriteLine(string.Format("Merge {0}, {1} and {2}.", chinaList, ChinaListConst.EASYLIST, ChinaListConst.EASYPRIVACY));
             Save(lazyList, sBuilder.ToString());
 
             cl = new ChinaList(lazyList);
@@ -139,12 +139,12 @@ namespace ABPUtils
                     sBuilder.Append(sr.ReadToEnd());
                 }
 
-                using (StreamReader sr = new StreamReader(ConstString.EASYLIST, Encoding.UTF8))
+                using (StreamReader sr = new StreamReader(ChinaListConst.EASYLIST, Encoding.UTF8))
                 {
                     sBuilder.Append(sr.ReadToEnd());
                 }
 
-                using (StreamReader sr = new StreamReader(ConstString.EASYPRIVACY, Encoding.UTF8))
+                using (StreamReader sr = new StreamReader(ChinaListConst.EASYPRIVACY, Encoding.UTF8))
                 {
                     sBuilder.Append(sr.ReadToEnd());
                 }
@@ -172,7 +172,7 @@ namespace ABPUtils
                 patchConfig.ModifyItems = modifyItems;
                 patchConfig.RemovedItems = removedItems;
                 string xml = SimpleSerializer.XmlSerialize<Configurations>(patchConfig);
-                Save(ConstString.PATCH_FILE, xml);
+                Save(ChinaListConst.PATCH_FILE, xml);
             }
         }
 
@@ -333,7 +333,7 @@ namespace ABPUtils
         private static string TrimEasyList()
         {
             StringBuilder sBuilder = new StringBuilder();
-            using (StreamReader sr = new StreamReader(ConstString.EASYLIST, Encoding.UTF8))
+            using (StreamReader sr = new StreamReader(ChinaListConst.EASYLIST, Encoding.UTF8))
             {
                 string easyListContent = sr.ReadToEnd();
                 string[] lists = Regex.Split(easyListContent, @"! \*\*\* ");
@@ -360,7 +360,7 @@ namespace ABPUtils
         private static string TrimEasyPrivacy()
         {
             StringBuilder sBuilder = new StringBuilder();
-            using (StreamReader sr = new StreamReader(ConstString.EASYPRIVACY, Encoding.UTF8))
+            using (StreamReader sr = new StreamReader(ChinaListConst.EASYPRIVACY, Encoding.UTF8))
             {
                 string easyPrivacyContent = sr.ReadToEnd();
 
@@ -370,7 +370,7 @@ namespace ABPUtils
                 {
                     var t = list.Trim();
 
-                    if (t.StartsWith(ConstString.HEAD)
+                    if (t.StartsWith(ChinaListConst.HEAD)
                         || IsEasyPrivacyOff(t))
                         continue;
 
@@ -430,9 +430,9 @@ namespace ABPUtils
 
         private static Configurations GetConfigurations()
         {
-            if (File.Exists(ConstString.PATCH_FILE))
+            if (File.Exists(ChinaListConst.PATCH_FILE))
             {
-                using (StreamReader sr = new StreamReader(ConstString.PATCH_FILE, Encoding.UTF8))
+                using (StreamReader sr = new StreamReader(ChinaListConst.PATCH_FILE, Encoding.UTF8))
                 {
                     string xml = sr.ReadToEnd();
                     return SimpleSerializer.XmlDeserialize<Configurations>(xml);
@@ -451,14 +451,14 @@ namespace ABPUtils
 
             if (patchconfig == null || patchconfig.EasyListFlag == null)
             {
-                easyList = new List<string>(new string[] {ConstString.EASYLIST_EASYLIST_GENERAL_BLOCK,
-                                        ConstString.EASYLIST_EASYLIST_GENERAL_HIDE,
-                                        ConstString.EASYLIST_EASYLIST_GENERAL_POPUP,
-                                        ConstString.EASYLIST_GENERAL_BLOCK_DIMENSIONS,
-                                        ConstString.EASYLIST_EASYLIST_ADSERVERS,
-                                        ConstString.EASYLIST_ADSERVERS_POPUP,
-                                        ConstString.EASYLIST_EASYLIST_THIRDPARTY,
-                                        ConstString.EASYLIST_THIRDPARTY_POPUP});
+                easyList = new List<string>(new string[] {ChinaListConst.EASYLIST_EASYLIST_GENERAL_BLOCK,
+                                        ChinaListConst.EASYLIST_EASYLIST_GENERAL_HIDE,
+                                        ChinaListConst.EASYLIST_EASYLIST_GENERAL_POPUP,
+                                        ChinaListConst.EASYLIST_GENERAL_BLOCK_DIMENSIONS,
+                                        ChinaListConst.EASYLIST_EASYLIST_ADSERVERS,
+                                        ChinaListConst.EASYLIST_ADSERVERS_POPUP,
+                                        ChinaListConst.EASYLIST_EASYLIST_THIRDPARTY,
+                                        ChinaListConst.EASYLIST_THIRDPARTY_POPUP});
             }
             else
             {
@@ -483,8 +483,8 @@ namespace ABPUtils
             {
                 easyPrivacy = new List<string>(
                  new string[] {
-                                ConstString.EASYPRIVACY_WHITELIST,
-                                ConstString.EASYPRIVACY_WHITELIST_INTERNATIONAL
+                                ChinaListConst.EASYPRIVACY_WHITELIST,
+                                ChinaListConst.EASYPRIVACY_WHITELIST_INTERNATIONAL
                             });
             }
             else
@@ -512,8 +512,8 @@ namespace ABPUtils
                 }
 
                 Dictionary<string, string> lists = new Dictionary<string, string>();
-                lists.Add(ConstString.EASYLIST, ConstString.EASYLIST_URL);
-                lists.Add(ConstString.EASYPRIVACY, ConstString.EASYPRIVACY_URL);
+                lists.Add(ChinaListConst.EASYLIST, ChinaListConst.EASYLIST_URL);
+                lists.Add(ChinaListConst.EASYPRIVACY, ChinaListConst.EASYPRIVACY_URL);
 
                 foreach (var s in lists)
                 {

@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
+﻿
 namespace ABPUtils
 {
-    internal class ConstString
+    internal class ChinaListConst
     {
         public const string PATCH_FILE = "patch.xml";
         public const string EASYLIST = "easylist.txt";
@@ -24,7 +20,7 @@ namespace ABPUtils
 !  coding: utf-8, expires: 5 days
 !--CC-BY-SA 3.0 + Licensed, NO WARRANTY but Best Wishes----
 ";
-        public const string HELP_INFO = @"Copyright (C) 2008 - 2012 Adblock Plus ChinaList Project
+        public const string HELP_INFO = @"Copyright (C) 2008 - {0} Adblock Plus ChinaList Project
 This is free software. You may redistribute copies of it under the terms of
 the GNU LGPL License <http://www.gnu.org/copyleft/lesser.html>.
 Usage: ABPUtils.exe -n -d=google.com -dns=8.8.8.8

@@ -1,14 +1,5 @@
 using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.IO;
-using System.Linq;
 using System.Net;
-using System.Reflection;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
-using Bdev.Net.Dns;
 
 namespace ABPUtils
 {
@@ -25,15 +16,15 @@ namespace ABPUtils
             var arguments = new Arguments(args);
             DispatcherTask(arguments);
 
-            //Console.WriteLine("Press any key to continue...");
-            //Console.ReadKey();
+            Console.WriteLine("Press any key to continue...");
+            Console.ReadKey();
         }
 
         private static void DispatcherTask(Arguments args)
         {
             if (args.IsTrue("help") || args.IsTrue("h"))
             {
-                Console.WriteLine(ConstString.HELP_INFO);
+                Console.WriteLine(ChinaListConst.HELP_INFO, DateTime.Now.ToString("yyyy"));
             }
             else if (args.IsTrue("version"))
             {
@@ -172,6 +163,7 @@ namespace ABPUtils
                 }
 
                 ChinaLists.CleanConfigurations(input, null);
+                Console.WriteLine("Clean configuration file successful.");
             }
             else
             {
