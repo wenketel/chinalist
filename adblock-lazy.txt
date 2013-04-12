@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: Qr+y9wGJ3pQcP85IKPmcRw
+!  Checksum: V3lIybPgpRnHGwGy/b1Csg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 12 Apr 2013 09:57:49 +0800
+!  Last Modified:  Sat, 13 Apr 2013 00:09:25 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -983,6 +983,7 @@ newyx.net##.adh450
 !---NextMedia
 !-HK
 @@||video.appledaily.com.hk/admedia/
+@@||cdn.inskinmedia.com/isfe/$domain=nextmedia.com
 ||hk.image1.nextmedia.com^$object
 ||hk.ndx.nextmedia.com/DFA/js_ndxtag_v409.cfm^$domain=~hk.dv.nextmedia.com
 hk.dv.nextmedia.com##[id^="ndx_"]
@@ -4637,6 +4638,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /delivery/avw.php
 /delivery/vbafr.php
 /demo/ads/*
+/DemoAd.
 /descpopup.js
 /develop/ads_
 /devicead/*
@@ -11105,6 +11107,7 @@ _popunder+$image,~image,popup
 ##.ggads
 ##.ggadunit
 ##.gglAds
+##.globalAd
 ##.globalAdLeaderBoard
 ##.global_banner_ad
 ##.googad
@@ -11394,6 +11397,7 @@ _popunder+$image,~image,popup
 ##.left-column-rectangular-ad
 ##.left-column-virtical-ad
 ##.leftAdColumn
+##.leftAdContainer
 ##.leftAds
 ##.leftCol_advert
 ##.left_ad
@@ -11759,6 +11763,7 @@ _popunder+$image,~image,popup
 ##.right-side-ad
 ##.right-sidebar-box-ad
 ##.rightAdBox
+##.rightAdContainer
 ##.rightAdverts
 ##.rightBoxMidAds
 ##.rightColAd
@@ -14491,7 +14496,9 @@ _popunder+$image,~image,popup
 ||datafeedfile.com/widget/readywidget/
 ||datakl.com/banner/
 ||daterly.com/*.widget.php$third-party
+||dbam.dashbida.com^
 ||ddwht76d9jvfl.cloudfront.net^
+||dealplatform.com^*/widgets/$third-party
 ||deals4thecure.com/widgets/*?affiliateurl=
 ||dealswarm.com^$subdocument,third-party
 ||dealzone.co.za^$script,third-party
@@ -15821,6 +15828,7 @@ _effectivemeasure_tag.js
 ||c-webstats.de^$third-party
 ||cache.am^$third-party
 ||cache.fm^$third-party
+||callmeasurement.com^$third-party
 ||campaigncog.com^$third-party
 ||cedexis.com^$third-party
 ||cedexis.net^$third-party
@@ -16172,6 +16180,7 @@ _effectivemeasure_tag.js
 ||mathtag.com^$third-party
 ||maxtracker.net^$third-party
 ||maxymiser.com^$third-party
+||maxymiser.net^$third-party
 ||measure.ly^$third-party
 ||measuremap.com^$third-party
 ||mediaforgews.com^$third-party
@@ -16613,6 +16622,7 @@ _effectivemeasure_tag.js
 ||admission.net^*/displaytracker.js
 ||adsimg.com/js/analytics.js?
 ||affiliate.godaddy.com^
+||affiliate.mediatemple.net^$~third-party
 ||afrigator.com/track/
 ||agencytradingdesk.net/watsontracker/
 ||akamai.com/crs/lgsitewise.js
