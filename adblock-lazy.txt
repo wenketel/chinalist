@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: yopY1sd4iCm5i2xzSy8WoA
+!  Checksum: Zz4o3+c5Bw10PBXVrlcu2A
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 11 Apr 2013 22:57:20 +0800
+!  Last Modified:  Fri, 12 Apr 2013 09:39:18 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -2951,7 +2951,7 @@ zxtjd.com###it_an
 |http://*/js/ad/
 |http://*/js/tc.js
 |http://*.tw/ad/$domain=~atmovies.com.tw
-@@/data/preview/ad/$image
+@@/data/preview/*$image
 |https://*/ad/
 /images/prom/*
 .info/ad/
@@ -3121,6 +3121,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 &adslot=
 &adslots=
 &adspace=
+&adType=PREROLL&
 &adunit=
 &adurl=
 &adv_keywords=
@@ -4216,6 +4217,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /adv-banner.
 /adv-div-
 /adv-f.
+/adv.html
 /adv.png
 /adv/preroll_
 /adv/sponsor/*
@@ -5859,6 +5861,7 @@ _advertorials/
 _advertphoto.
 _adverts/
 _advertsarea.
+_AdvertsImgs/
 _adview?
 _adwrap.
 _afs_ads.
@@ -14949,6 +14952,7 @@ _popunder+$image,~image,popup
 ||redbeacon.com/widget/$third-party
 ||redflagdeals.com/dealoftheday/widgets/$third-party
 ||redtram.com^$script,third-party
+||reevoo.com/affiliate_logo/
 ||regnow.com/vendor/
 ||rehost.to/?ref=
 ||relink.us/images/$third-party
