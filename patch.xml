@@ -60,6 +60,10 @@
     <string>/ui/adv.</string>
     <string>/adv.asp</string>
     <string>/adv.jsp</string>
+    <string>/adv.html</string>
+    <string>/adv.png</string>
+    <string>/images/adv.</string>
+    <string>/js/adv.</string>
     <string>/adv/managers/*</string>
     <string>/google/adv.</string>
     <string>/uploads/adv/*</string>
@@ -133,6 +137,7 @@
     <string>/ads/banner01.</string>
     <string>/ads/banners/*</string>
     <string>/ads/cnvideo/*</string>
+    <string>/ads/criteo_</string>
     <string>/ads/common/*</string>
     <string>/ads/default_</string>
     <string>/ads/dhtml/*</string>
@@ -278,6 +283,10 @@
     <string>||unstat.baidu.com^</string>
     <string>||hk.ndx.nextmedia.com^</string>
     <string>||sitebro.tw^$third-party</string>
+    <string>/criteo.js</string>
+    <string>||partner.googleadservices.com^$third-party</string>
+    <string>||viglink.com/api/insert?$third-party</string>
+    <string>||metaffiliation.com^*^taff=s</string>
   </RemovedItems>
   <NewItems>
     <string>~hbwm.com###top_ads</string>
@@ -306,6 +315,10 @@
     <ModifyItem>
       <OldItem>/socialads/*</OldItem>
       <NewItem>/socialads/*$domain=~profiles.google.com</NewItem>
+    </ModifyItem>
+    <ModifyItem>
+      <OldItem>/MixBerryAdsProduction/</OldItem>
+      <NewItem>/MixBerryAdsProduction/*</NewItem>
     </ModifyItem>
   </ModifyItems>
 </Configurations>
