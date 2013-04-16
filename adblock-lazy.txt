@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: RpNVxVf83JUzsfY2Qs+s0w
+!  Checksum: 3q0izds/yEtRkB/lWmP5Gw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 15 Apr 2013 22:03:23 +0800
+!  Last Modified:  Tue, 16 Apr 2013 19:36:06 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -2650,6 +2650,7 @@ zxtjd.com###it_an
 ||doublemax.net^$third-party
 ||u.www.duba.net^$third-party
 ||dyunion.net^$third-party
+||ee4kdushuba.com^$third-party
 ||egooad.com^$third-party
 ||esearches.com.tw^$third-party
 ||etopad.com^$third-party
@@ -2864,6 +2865,7 @@ zxtjd.com###it_an
 ||wqzyt.net^$third-party
 ||wy31.com^$third-party
 ||wyunion.com^$third-party
+||xcy8.com^
 ||xhunion.com^$third-party
 ||v.xi666.com^$third-party
 ||xiaoangel.com^$third-party
@@ -3204,6 +3206,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 -footerads.
 -google-ads/
 -iframe-ads/
+-image-ad.
 -images/ad-
 -inspire-ad.
 -layer-ads/
@@ -3910,6 +3913,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /ads/mpu/*
 /ads/mpu2?
 /ads/mpu?
+/ads/navbar/*
 /ads/panel.
 /ads/pencil/*
 /ads/player-
@@ -7844,6 +7848,7 @@ _popunder+$image,~image,popup
 ###corner_ad
 ###coverADS
 ###coverads
+###ctl00_AdPanelISRect2
 ###ctl00_Adspace_Top_Height
 ###ctl00_BottomAd
 ###ctl00_ContentMain_BanManAd468_BanManAd
@@ -7881,10 +7886,13 @@ _popunder+$image,~image,popup
 ###ctl00_ctrlAdvert7_iframeAdvert
 ###ctl00_ctrlAdvert8_iframeAdvert
 ###ctl00_dlTilesAds
+###ctl00_fc_ctl02_AdControl
+###ctl00_fc_ctl03_AdControl
 ###ctl00_m_skinTracker_m_adLBL
 ###ctl00_phCrackerMain_ucAffiliateAdvertDisplayMiddle_pnlAffiliateAdvert
 ###ctl00_phCrackerMain_ucAffiliateAdvertDisplayRight_pnlAffiliateAdvert
 ###ctl00_pnlAdTop
+###ctl00_tc_ctl03_AdControl
 ###ctl00_topAd
 ###ctr-ad
 ###ctrlsponsored
@@ -7971,6 +7979,7 @@ _popunder+$image,~image,popup
 ###evotopTen_advert
 ###ex-ligatus
 ###exads
+###expandable_welcome_ad
 ###extra-search-ads
 ###fb_adbox
 ###fb_rightadpanel
@@ -10657,6 +10666,8 @@ _popunder+$image,~image,popup
 ##.bannerAds
 ##.bannerAdvert
 ##.bannerRightAd
+##.bannerTopAdLeft
+##.bannerTopAdRight
 ##.banner_160x600
 ##.banner_300_250
 ##.banner_300x250
@@ -15294,6 +15305,7 @@ _popunder+$image,~image,popup
 /analyzer/aa.php?
 /anametrix/*
 /aspstats/index.asp?
+/AssyncCSStats.aspx
 /astrack.js
 /astracker.js
 /atapixel.js
@@ -15554,6 +15566,7 @@ _popunder+$image,~image,popup
 /opinionlab.js
 /owa.tracker-combined-min.js
 /pagelogger/connector.php?
+/PbaSitetracker.js
 /pbstrackingplugin.swf
 /php-stats.js
 /php-stats.php?
@@ -16632,6 +16645,7 @@ _effectivemeasure_tag.js
 ||209.20.84.187/blank.gif?$third-party,domain=~gatehousenewsservice.com.ip
 ||23.20.0.197^$third-party,domain=~tritondigital.net.ip
 ||3crowd.com^*/3c1px.gif
+||3dpictor.com/3dpictor/hitcounter/counter.php?
 ||4theclueless.com/adlogger/
 ||50.16.191.59^$third-party,domain=~tritondigital.net.ip
 ||99widgets.com/counters/
@@ -17295,6 +17309,8 @@ _effectivemeasure_tag.js
 ||wvnetworkmedia.org/min/?
 ||x.weather.com^
 ||yardbarker-inc.com/network/ybn_pixel/
+||yarpp.org/pixels/
+||yellowbrix.com/images/content/cimage.gif?
 ||yext.com/plpixel?
 ||yimg.com^*/l?ig=$image
 ||yimg.com^*/ywa.js$domain=~yahoo.com
