@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: +MuHcgNJJOYTaAZfjLUABA
+!  Checksum: 3OspSyGRTN8LO4gl9oW1Ng
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 16 Apr 2013 19:36:02 +0800
+!  Last Modified:  Thu, 18 Apr 2013 19:17:20 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -647,6 +647,14 @@ gtv.com.cn##.t6r2
 gtv.com.cn##.t8r2
 gtv.com.cn###video_url_ad
 gtv.com.cn##.zs_banner
+
+!---虎扑
+||hupu.com/d/file/$object
+hupu.com,~my.hupu.com##[class^="ad"]
+bbs.hupu.com##.hp-ad250-250
+voice.hupu.com##.voice-ad980-60
+www.hupu.com##.hp-curtain
+www.hupu.com##.clearLt.ad720-90.hp-mrBtNone
 
 !---时空网
 ||images.nnsky.com^
@@ -1356,6 +1364,7 @@ www.sohu.com###contentC > .columnC
 tv.sohu.com##.adbox
 tv.sohu.com##.skyAD
 tv.sohu.com###miaozhenad
+tv.sohu.com###tvBgArea
 !--Sogou
 ||sogou.com/js/pb_*.js
 ||brand.sogou.com^
@@ -2262,10 +2271,6 @@ frdic.com,godic.net###sidebar1
 ||app.hualongxiang.com/adsview/
 ||hdad.hudong.com/hdad/
 ||stat.hudong.com^
-||hupu.com/d/file/$object
-hupu.com,~my.hupu.com##[class^="ad"]
-hupu.com###HCFull
-bbs.hupu.com##.hp-ad250-250
 ||hxsxw.com/gg*.gif
 ||hxsxw.com/hxsxw111.gif
 ||hxyl.net/hostpic/
