@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: fUHxX5JVPjApoahu7MEBWg
+!  Checksum: M+2S1TQYqEZe2ehI7SxOSg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 26 Apr 2013 19:44:46 +0800
+!  Last Modified:  Fri, 26 Apr 2013 20:07:54 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -334,9 +334,11 @@ iqiyi.com##.first_adv
 iqiyi.com##.seed
 
 !---bilibili.tv
-/ads-arc.js$domain=bilibili.tv|bilibili.kankanews.com|bilibili.smgbb.cn
-/html/*$subdocument,domain=bilibili.tv|bilibili.kankanews.com|bilibili.smgbb.cn
-bilibili.tv,bilibili.kankanews.com,bilibili.smgbb.cn##.ad-f
+/ads-arc.js$domain=bilibili.tv
+/html/*$subdocument,domain=bilibili.tv
+||interface.bilibili.tv/player^*aid=
+||stat.bilibili.tv^
+bilibili.tv##.ad-f
 
 !---爆米花网
 @@||cb.baidu.com/crossdomain.xml
