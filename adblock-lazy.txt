@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: tcn5w6FA0+uiqSJHhQK63g
+!  Checksum: tzwSdbz89EtcWDgAFZCkSw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 26 Apr 2013 23:03:03 +0800
+!  Last Modified:  Sat, 27 Apr 2013 18:22:32 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -319,8 +319,6 @@ iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com##[class^="wgt-ads"]
 !--iQIYI
 @@||data.video.qiyi.com/videos/other/$object_subrequest
 /ts.swf|$domain=iqiyi.com
-@@||iqiyi.com/player/*/
-||iqiyi.com/player/
 ||msg.iqiyi.com^
 ||afp.qiyi.com^
 ||static.qiyi.com/js/pingback/
@@ -330,8 +328,6 @@ iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com##[class^="wgt-ads"]
 ||qiyipic.com/common/$object_subrequest
 iqiyi.com###adflash
 iqiyi.com##[id^="div_theatre"]
-iqiyi.com##.first_adv
-iqiyi.com##.seed
 
 !---bilibili.tv
 /ads-arc.js$domain=bilibili.tv
@@ -3444,6 +3440,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /ad/sponsored-
 /ad/takeover/*
 /ad000/*
+/ad1/index.
 /ad125.
 /ad125b.
 /ad125x125.
@@ -3453,6 +3450,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /ad1place.
 /ad1x1home.
 /ad2.
+/ad2/index.
 /ad290x60_
 /ad2border.
 /ad3.
@@ -3808,6 +3806,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /admeta.
 /admez.
 /admez/*
+/admgr.
 /admicro2.
 /admicro_
 /admin/banners/*
@@ -4894,6 +4893,8 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /headerads.
 /headvert.
 /hitbar_ad_
+/home/ads-
+/home/ads/*
 /home30/ad.
 /homepage_ads/*
 /homeslideadtop/*
@@ -12367,6 +12368,7 @@ _popunder+$image,~image,popup
 ##.txt_ads
 ##.txtad_area
 ##.txtadvertise
+##.type_ads_default
 ##.type_adscontainer
 ##.type_miniad
 ##.type_promoads
