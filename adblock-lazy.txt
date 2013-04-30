@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: ksToSmE//CWJn6rt7c0K3A
+!  Checksum: bIsPsFeSQJYFbdJbK65K4Q
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 28 Apr 2013 19:05:40 +0800
+!  Last Modified:  Tue, 30 Apr 2013 21:41:45 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -331,9 +331,9 @@ iqiyi.com##[id^="div_theatre"]
 
 !---bilibili.tv
 /ads-arc.js$domain=bilibili.tv
-/html/*$subdocument,domain=bilibili.tv
+||bilibili.tv/html/*$subdocument
 ||stat.bilibili.tv^
-||hdslb.com/u_user/$object-subrequest
+||hdslb.com/u_user/$object-subrequest,image
 bilibili.tv##.ad-f
 
 !---爆米花网
@@ -3831,6 +3831,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /adnext.
 /adng.html
 /adnotice.
+/adometry.
 /adonline.
 /adops/*
 /adorika300.
@@ -4967,6 +4968,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /images/adver-
 /images/aff-
 /images/affs/*
+/images/bg_ad/*
 /images/gads_
 /images/sponsored/*
 /images1/ad_
@@ -5082,6 +5084,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /LocalAdNet/*
 /locker.php?pub=*&gateid=$script
 /log_ad?
+/logoutad.
 /lotto_ad_
 /lrec_ad.
 /mac-ad?
@@ -5592,6 +5595,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /topperad.
 /toprightads.
 /tops.ads.
+/Totem-Cash/*
 /towerbannerad/*
 /track.php?click=*&domain=*&uid=$xmlhttprequest
 /track.php?uid=*.*&d=
@@ -5664,6 +5668,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /webadverts/*
 /webmailad.
 /webmaster_ads/*
+/webservices/jsparselinks.aspx?$script
 /welcome_ad.
 /widget/ad/*
 /widget/ads.
@@ -7415,6 +7420,7 @@ _popunder+$image,~image,popup
 ###adtech_3
 ###adtech_googleslot_03c
 ###adtech_takeover
+###adtop
 ###adtopHeader
 ###adtopbanner
 ###adtopbox
@@ -7735,6 +7741,7 @@ _popunder+$image,~image,popup
 ###body_728_ad
 ###bonus-offers-advertisement
 ###book-ad
+###bookmarkListDeckAdPlaceholder
 ###botad
 ###bott_ad2
 ###bott_ad2_300
@@ -8424,6 +8431,7 @@ _popunder+$image,~image,popup
 ###left_ad
 ###left_adspace
 ###left_advertisement
+###left_bg_ad
 ###left_side_ads
 ###left_sidebar_ads
 ###leftads
@@ -8511,6 +8519,8 @@ _popunder+$image,~image,popup
 ###middle-ad
 ###middleRightColumnAdvert
 ###middle_ad
+###middle_bannerad
+###middle_bannerad_section
 ###middle_body_advertising
 ###middle_mpu
 ###middlead
@@ -8719,6 +8729,7 @@ _popunder+$image,~image,popup
 ###right_advert
 ###right_advertisement
 ###right_advertising
+###right_bg_ad
 ###right_column_ad_container
 ###right_column_ads
 ###right_column_adverts
@@ -9651,6 +9662,7 @@ _popunder+$image,~image,popup
 ##.ad120x600
 ##.ad125
 ##.ad125x125
+##.ad125x125a
 ##.ad140
 ##.ad160600
 ##.ad160_l
@@ -9690,6 +9702,7 @@ _popunder+$image,~image,popup
 ##.ad468
 ##.ad468_60
 ##.ad468x60
+##.ad470x60
 ##.ad530
 ##.ad540x90
 ##.ad600
@@ -9919,6 +9932,7 @@ _popunder+$image,~image,popup
 ##.ad_callout
 ##.ad_caption
 ##.ad_center
+##.ad_center_bottom
 ##.ad_click
 ##.ad_code
 ##.ad_column
@@ -10007,6 +10021,7 @@ _popunder+$image,~image,popup
 ##.ad_skyscraper
 ##.ad_slug
 ##.ad_slug_table
+##.ad_small
 ##.ad_space_300_250
 ##.ad_space_in
 ##.ad_spacer
@@ -10458,6 +10473,7 @@ _popunder+$image,~image,popup
 ##.adtxt
 ##.adtxtlinks
 ##.adunit
+##.adunit-300-250
 ##.adunit-middle
 ##.adunit_content
 ##.adv-160
@@ -10646,6 +10662,7 @@ _popunder+$image,~image,popup
 ##.advertising_banner
 ##.advertising_block
 ##.advertising_images
+##.advertismentText
 ##.advertisment_bar
 ##.advertisment_caption
 ##.advertisment_two
@@ -11183,6 +11200,7 @@ _popunder+$image,~image,popup
 ##.floated_right_ad
 ##.floatingAds
 ##.fm-badge-ad
+##.fnadvert
 ##.fns_td_wrap
 ##.fold-ads
 ##.footad
@@ -11533,6 +11551,7 @@ _popunder+$image,~image,popup
 ##.leaderBoardAdHolder
 ##.leaderOverallAdArea
 ##.leader_ad
+##.leaderboard-ad-grid
 ##.leaderboard-ads
 ##.leaderboardAd
 ##.leaderboardAdContainer
@@ -12038,6 +12057,7 @@ _popunder+$image,~image,popup
 ##.sidebarAdvert
 ##.sidebar_ad
 ##.sidebar_ad_300_250
+##.sidebar_ad_module
 ##.sidebar_ads
 ##.sidebar_ads_336
 ##.sidebar_adsense
@@ -12210,6 +12230,7 @@ _popunder+$image,~image,popup
 ##.ss-ad-mpu
 ##.stackedads1
 ##.standard-ad
+##.star-ad
 ##.start__newest__big_game_container_body_games_advertising
 ##.staticAd
 ##.stickyAdLink
@@ -12682,9 +12703,11 @@ _popunder+$image,~image,popup
 ||adespresso.com^$third-party
 ||adexcite.com^$third-party
 ||adexprt.com^$third-party
+||adexprts.com^$third-party
 ||adextent.com^$third-party
 ||adf01.net^$third-party
 ||adfactory88.com^$third-party
+||adfeedstrk.com^$third-party
 ||adfootprints.com^$third-party
 ||adforgames.com^$third-party
 ||adform.net^$third-party
@@ -13110,6 +13133,7 @@ _popunder+$image,~image,popup
 ||click2jump.com^$third-party
 ||click4free.info^$third-party
 ||clickad.pl^$third-party
+||clickagy.com^$third-party
 ||clickbooth.com^$third-party
 ||clickbubbles.net^$third-party
 ||clickcash.com^$third-party
@@ -14188,6 +14212,7 @@ _popunder+$image,~image,popup
 ||wwwadcntr.com^$third-party
 ||x4300tiz.com^$third-party
 ||xad.com^$third-party
+||xadcentral.com^$third-party
 ||xcelltech.com^$third-party
 ||xcelsiusadserver.com^$third-party
 ||xchangebanners.com^$third-party
@@ -14935,9 +14960,7 @@ _popunder+$image,~image,popup
 ||lickbylick.com/angifbanner_
 ||lifestyle24h.com/reward/$third-party
 ||linkbucks.com/tmpl/mint/img/$third-party
-||linkbucks.com/webservices/jsparselinks.aspx?
 ||linkedin.com/csp/dtag?$subdocument,third-party
-||linkgalleries.net/webservices/jsparselinks.aspx?
 ||linkybank.com/pagelinks.
 ||literatureandlatte.com/gfx/buynowaffiliate.jpg
 ||livejasmin.com^$subdocument,third-party
@@ -15256,7 +15279,6 @@ _popunder+$image,~image,popup
 ||thebigchair.com.au^$subdocument,third-party
 ||themes420.com/bnrsbtns/
 ||themis-media.com^*/sponsorships/
-||theseblogs.com/webservices/jsparselinks.aspx?
 ||theselfdefenseco.com/?affid=$third-party
 ||thetechnologyblog.net^*/bp_internet/
 ||ticketkai.com/banner/
@@ -15338,6 +15360,7 @@ _popunder+$image,~image,popup
 ||whistleout.s3.amazonaws.com^
 ||widgeo.net/popup.js
 ||widget.awsmer.com^
+||widget.cheki.com.ng^$third-party
 ||widget.crowdignite.com^
 ||widget.imshopping.com^$third-party
 ||widget.jobberman.com^$third-party
@@ -16556,6 +16579,7 @@ _popunder+$image,~image,popup
 /om_tracking_
 /omnidiggthis|
 /omnipagetrack.
+/omniture.do;$image
 /omniture/sphere
 /OmnitureAnalytics.
 /OmnitureTracking_$object-subrequest
@@ -18784,6 +18808,7 @@ http://utm.
 ||3crowd.com^*/3c1px.gif
 ||4theclueless.com/adlogger/
 ||50.16.191.59^$third-party,domain=~tritondigital.net.ip
+||51network.com^$third-party
 ||5min.com/flashcookie/StorageCookieSWF_
 ||88.208.248.58/tracking/
 ||99widgets.com/counters/
@@ -19290,6 +19315,7 @@ http://utm.
 ||log.outbrain.com^
 ||log000.goo.ne.jp^$third-party
 ||log1.survey.io^
+||logger.sociablelabs.com^
 ||logs.vmixcore.com^
 ||logssl.enquisite.com^
 ||longtailvideo.com^*/yourlytics-
@@ -19476,6 +19502,7 @@ http://utm.
 ||rodalenl.com/imp?$third-party
 ||roitrack.addlvr.com^
 ||royalecms.com/statistics.php?
+||rtt.campanja.com^
 ||s.clickability.com^
 ||s.sniphub.com^
 ||s3-tracking.synthasite.net.s3.amazonaws.com^
@@ -19516,7 +19543,6 @@ http://utm.
 ||spoods.rce.veeseo.com^
 ||spread.ly^*/statistics.php
 ||ssl-images-amazon.com/images/*/common/1x1._*.gif$domain=~amazon.com
-||sslcs.cdngc.net^$third-party
 ||st.dynamicyield.com^$third-party
 ||stat.easydate.biz^
 ||stat.ed.cupidplc.com^
@@ -19667,6 +19693,7 @@ http://utm.
 ||tracking.godatafeed.com^
 ||tracking.i-click.com.hk^
 ||tracking.interweave.com^$third-party
+||tracking.lengow.com^
 ||tracking.listhub.net^
 ||tracking.livingsocial.com^
 ||tracking.m6r.eu^
@@ -20550,6 +20577,7 @@ http://utm.
 ||irs.gov/js/irs_reporting_cookie.js
 ||ishare.metric.rediff.com^
 ||issn.org/isens_marker.php?
+||issuu.com/pixel.gif?
 ||itnews.com.au/t.ashx?
 ||itp.net/ga.js
 ||itv.com/_app/cmn/js/bcm.js
@@ -21104,7 +21132,6 @@ http://utm.
 ||stats.farfetch.com^
 ||stats.ft.com^
 ||stats.harpercollins.com^
-||stats.imagereverb.com^
 ||stats.jtvnw.net^
 ||stats.justin.tv^
 ||stats.macmillanusa.com^
