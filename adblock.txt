@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: 8ilsFYD5JEkiqtp5fBJOOQ
+!  Checksum: dWydGx/B9BgiKHx+WIuJxA
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 02 May 2013 19:07:00 +0800
+!  Last Modified:  Sat, 04 May 2013 09:29:00 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -486,6 +486,13 @@ dayoo.com##.cn
 !--gzdaily
 /pub/news/gzrb/*$script
 ||gzdaily.dayoo.com/tpl/banner$object
+
+!---豆瓣
+||img3.douban.com/js/boomerang.js
+||img3.douban.com/js/packed_ad
+||t.douban.com/img/files/$object
+||erebor.douban.com^
+douban.com###crazy-ad-wrapper
 
 !---Discuz! & PHPWind etc.
 @@/common/cf/*.thumb$image
@@ -2123,9 +2130,6 @@ zzzcn.com#@##adtop
 ||ttg.im/pic/ttg-
 ||ttg.im/pic/ttg_
 ttg.im###sitefocus.focus
-!--CHDBits&chdtv
-||10moons.com/taobao/
-www.chdtv.net###sitefocus.focus
 
 !---RSS
 ||mrss.dokoda.jp/v/$image
@@ -2219,10 +2223,6 @@ codefans.net##.ad960
 ||coolnovo.com/res/inc/liangbian.js
 ||coolnovo.com/temp/images/*_980x$image
 ||deyi.com/module/adsview/
-||img3.douban.com/js/boomerang.js
-||img3.douban.com/js/packed_ad
-||t.douban.com/img/files/$object
-douban.com###crazy-ad-wrapper
 ||e0575.cn/js/float.js
 ||life.e0575.com^
 e0575.cn##.textMes
@@ -2266,6 +2266,7 @@ frdic.com,godic.net###sidebar1
 ||fsllq.com/res/inc/liangbian.js
 ||fsllq.com/temp/images/*_980$image
 ||fzlol.com/images/$script
+||gter.net^*adv
 ||hackvip.com/ai/
 /a-d-s/*$domain=hanzify.net|hanzify.org
 ||hefei.cc/templates/default/index_ad62.js

@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: T0K2G7r54b+a7/+ecSvMjg
+!  Checksum: +hpfAo/jIhha5G4SgroKNA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 02 May 2013 19:07:04 +0800
+!  Last Modified:  Sat, 04 May 2013 09:29:06 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -487,6 +487,13 @@ dayoo.com##.cn
 !--gzdaily
 /pub/news/gzrb/*$script
 ||gzdaily.dayoo.com/tpl/banner$object
+
+!---豆瓣
+||img3.douban.com/js/boomerang.js
+||img3.douban.com/js/packed_ad
+||t.douban.com/img/files/$object
+||erebor.douban.com^
+douban.com###crazy-ad-wrapper
 
 !---Discuz! & PHPWind etc.
 @@/common/cf/*.thumb$image
@@ -2123,9 +2130,6 @@ zzzcn.com#@##adtop
 ||ttg.im/pic/ttg-
 ||ttg.im/pic/ttg_
 ttg.im###sitefocus.focus
-!--CHDBits&chdtv
-||10moons.com/taobao/
-www.chdtv.net###sitefocus.focus
 
 !---RSS
 ||mrss.dokoda.jp/v/$image
@@ -2219,10 +2223,6 @@ codefans.net##.ad960
 ||coolnovo.com/res/inc/liangbian.js
 ||coolnovo.com/temp/images/*_980x$image
 ||deyi.com/module/adsview/
-||img3.douban.com/js/boomerang.js
-||img3.douban.com/js/packed_ad
-||t.douban.com/img/files/$object
-douban.com###crazy-ad-wrapper
 ||e0575.cn/js/float.js
 ||life.e0575.com^
 e0575.cn##.textMes
@@ -2266,6 +2266,7 @@ frdic.com,godic.net###sidebar1
 ||fsllq.com/res/inc/liangbian.js
 ||fsllq.com/temp/images/*_980$image
 ||fzlol.com/images/$script
+||gter.net^*adv
 ||hackvip.com/ai/
 /a-d-s/*$domain=hanzify.net|hanzify.org
 ||hefei.cc/templates/default/index_ad62.js
@@ -3322,6 +3323,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 .php?ad_
 .php?adv=
 .php?zoneid=
+.popunder.js
 .popupvideoad.
 .refit.ads.
 .rolloverad.
@@ -3516,6 +3518,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /ad_files/*
 /ad_fill.
 /ad_flat_
+/ad_floater.
 /ad_footer.
 /ad_forum_
 /ad_frame.
@@ -3726,6 +3729,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /adhandler/*$~subdocument
 /adheader.
 /adheadertxt.
+/adhese.
 /adhints/*
 /adhomepage.
 /adhtml/*
@@ -3746,6 +3750,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /adimages/*$~subdocument
 /adimg.
 /adimg/*
+/adinclude/*
 /adindex/*
 /adinject.
 /adinjector.
@@ -3825,6 +3830,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /adnetwork.
 /adnetwork300.
 /adnetwork468.
+/adnetwork_
 /adnews.
 /adnext.
 /adng.html
@@ -3841,6 +3847,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /adpage-
 /adpage.
 /adpage/*
+/adpagem.
 /adpan/*
 /adpartner.
 /adpeeps.
@@ -4980,6 +4987,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /imgaffl/*
 /impop.
 /inad.
+/inc/ad.
 /inc_ad.
 /inc_v2/ad_
 /include/ad/*
@@ -5411,6 +5419,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /searchads/*
 /secondads.
 /secondads_
+/securepubads.
 /seo-ads.
 /serv.ads.
 /servead.
@@ -5994,6 +6003,7 @@ _request_ad.
 _response_ad.
 _right_ad.
 _right_ads/
+_rightad.
 _rightad_
 _show_ads.
 _show_ads=
@@ -6516,6 +6526,7 @@ _popunder+$image,~image,popup
 ###ad-bigsize
 ###ad-billboard-atf
 ###ad-billboard-bottom
+###ad-blade
 ###ad-block-125
 ###ad-bottom
 ###ad-bottom-wrapper
@@ -6704,6 +6715,7 @@ _popunder+$image,~image,popup
 ###adBannerTable
 ###adBannerTop
 ###adBar
+###adBlock01
 ###adBlock125
 ###adBlockTop
 ###adBlocks
@@ -9389,6 +9401,7 @@ _popunder+$image,~image,popup
 ##.Post8ad
 ##.Post9ad
 ##.PostSidebarAd
+##.PushDownAdPane
 ##.PushdownAd
 ##.RBboxAd
 ##.RW_ad300
@@ -9800,6 +9813,8 @@ _popunder+$image,~image,popup
 ##.adObj
 ##.adPageBorderL
 ##.adPageBorderR
+##.adPanel
+##.adPanelContent
 ##.adPlaceholder
 ##.adPlaceholder_foot
 ##.adPod
@@ -10355,6 +10370,7 @@ _popunder+$image,~image,popup
 ##.adsbox_300x250
 ##.adsboxitem
 ##.adsbttmpg
+##.adsbygoogle
 ##.adsbyyahoo
 ##.adscaleAdvert
 ##.adscaleP6_canvas
@@ -12129,6 +12145,7 @@ _popunder+$image,~image,popup
 ##.splitAd
 ##.splitAdResultsPane
 ##.splitter_ad
+##.splitter_ad_holder
 ##.sponlinkbox
 ##.spons-link
 ##.spons_links
@@ -12570,6 +12587,7 @@ _popunder+$image,~image,popup
 ##a[href^="http://ul.to/ref/"]
 ##a[href^="http://www.FriendlyDuck.com/AF_"]
 ##a[href^="http://www.adbrite.com/mb/commerce/purchase_form.php?"]
+##a[href^="http://www.firstload.com/affiliate/"]
 ##a[href^="http://www.firstload.de/affiliate/"]
 ##a[href^="http://www.friendlyduck.com/AF_"]
 ##a[href^="http://www.graboid.com/affiliates/"]
@@ -13280,6 +13298,7 @@ _popunder+$image,~image,popup
 ||doubleclick.net/pfadx/comedycentral.$third-party
 ||doubleclick.net/pfadx/csn.$third-party
 ||doubleclick.net/pfadx/ddm.ksl/$third-party
+||doubleclick.net/pfadx/gn.movieweb.com/$third-party
 ||doubleclick.net/pfadx/ltv.wtvr.video/$third-party
 ||doubleclick.net/pfadx/mc.channelnewsasia.com^$third-party
 ||doubleclick.net/pfadx/muzumain/$third-party
@@ -15133,10 +15152,12 @@ _popunder+$image,~image,popup
 ||priceinfo.comuv.com^
 ||primeloopstracking.com/affil/
 ||privatewifi.com/swf/banners/
+||pro-gmedia.com^*/skins/
 ||promos.fling.com^
 ||promote.pair.com^
 ||promotions.iasbet.com^
 ||proxies2u.com/images/btn/$third-party
+||proxy.org/blasts.gif
 ||proxynoid.com/images/referrals/
 ||proxyroll.com/proxybanner.php
 ||pub.aujourdhui.com^$third-party
@@ -16222,7 +16243,6 @@ _popunder+$image,~image,popup
 /googleana.
 /GoogleAnalystics.
 /googleanalytics-prod.swf
-/googleAnalytics.
 /googleanalytics/*
 /googleAnalytics1.
 /googleAnalytics2.
@@ -17132,6 +17152,7 @@ _popunder+$image,~image,popup
 /traffictrade/*
 /traffix-track.
 /trafic.js
+/trakksocial.js
 /trans_pixel.asp
 /transparent1x1.
 /trax.gif?
@@ -17954,6 +17975,7 @@ http://utm.
 ||google-analytics.com/urchin.js
 ||googleadservices.com^$third-party
 ||googlerank.info^$third-party
+||googletagmanager.com/gtm.js?$third-party
 ||gooo.al^$third-party
 ||gopjn.com^$third-party
 ||gosquared.com^$third-party
@@ -19510,6 +19532,7 @@ http://utm.
 ||salesforce.com/sfga.js
 ||sana.newsinc.com^
 ||sawpf.com/1.0.js$third-party
+||saymedia.com/latest/tetrapak.js
 ||scout.haymarketmedia.com^$third-party
 ||scribol.com/traffix/widget_tracker/
 ||scripts.psyma.com^
@@ -20433,6 +20456,7 @@ http://utm.
 ||geoip.nola.com^
 ||geoip.oregonlive.com^
 ||geoip.syracuse.com^
+||geoip.viamichelin.com^
 ||geoiplookup.wikimedia.org^
 ||geovisites.com^*/geouser.js
 ||giganews.com/images/rpp.gif
