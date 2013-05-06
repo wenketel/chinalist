@@ -320,5 +320,9 @@
       <OldItem>/MixBerryAdsProduction/</OldItem>
       <NewItem>/MixBerryAdsProduction/*</NewItem>
     </ModifyItem>
+    <ModifyItem>
+      <OldItem>/fcgi-bin/*</OldItem>
+      <NewItem>/fcgi-bin/*$domain=~qq.com</NewItem>
+    </ModifyItem>
   </ModifyItems>
 </Configurations>

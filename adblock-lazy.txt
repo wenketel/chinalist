@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: 6sjTJaSHrIEvvjyR+6YHtA
+!  Checksum: zfcERIBvspzcliEHaxy8og
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 05 May 2013 10:59:36 +0800
+!  Last Modified:  Mon, 06 May 2013 19:55:30 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -3143,6 +3143,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 &adunit=
 &adurl=
 &adv_keywords=
+&advert_
 &advertiserid=
 &advtile=
 &customSizeAd=
@@ -4278,6 +4279,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /adv_frame/*
 /adv_link.
 /advaluewriter.
+/advault.
 /advbanner/*
 /advcontents.
 /adver-left.
@@ -4680,6 +4682,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /deliverjs.nmi?
 /delivery.ads.
 /delivery.php?banner_id=
+/delivery.php?pool_id=
 /delivery.php?rnd=
 /delivery/*?advplaces=
 /delivery/ag.php
@@ -6300,8 +6303,11 @@ _popunder+$image,~image,popup
 ###AdPanel
 ###AdPopUp
 ###AdRectangle
+###AdSenseBottomAds
 ###AdSenseDiv
+###AdSenseMiddleAds
 ###AdSenseResults1_adSenseSponsorDiv
+###AdSenseTopAds
 ###AdServer
 ###AdShowcase_F1
 ###AdSky23
@@ -7054,6 +7060,7 @@ _popunder+$image,~image,popup
 ###ad_right_second
 ###ad_right_top
 ###ad_ros_tower
+###ad_row_home
 ###ad_rr_1
 ###ad_script_head
 ###ad_sec
@@ -11967,6 +11974,7 @@ _popunder+$image,~image,popup
 ##.right_ad_text
 ##.right_ad_top
 ##.right_ads
+##.right_advert
 ##.right_box_ad_rotating_container
 ##.right_col_ad
 ##.right_hand_advert_column
@@ -11984,6 +11992,7 @@ _popunder+$image,~image,popup
 ##.rightcoladvert
 ##.rightcoltowerad
 ##.rightmenu_ad
+##.rmx-ad
 ##.rnav_ad
 ##.rngtAd
 ##.rockmelt-ad
@@ -12242,6 +12251,7 @@ _popunder+$image,~image,popup
 ##.square-sidebar-ad
 ##.squareAd
 ##.square_ad
+##.square_advert_inner
 ##.square_banner_ad
 ##.squaread
 ##.squareads
@@ -13127,6 +13137,7 @@ _popunder+$image,~image,popup
 ||cash4members.com^$third-party
 ||cashmylinks.com^$third-party
 ||cashtrafic.com^$third-party
+||cashtrafic.info^$third-party
 ||caspion.com^$third-party
 ||cb-content.com^$third-party
 ||cbaazars.com^$third-party
@@ -13812,6 +13823,7 @@ _popunder+$image,~image,popup
 ||peer39.net^$third-party
 ||pepperjamnetwork.com^$third-party
 ||perfb.com^$third-party
+||perfcreatives.com^$third-party
 ||performance-based.com^$third-party
 ||performanceadvertising.mobi^$third-party
 ||performancetrack.info^$third-party
@@ -15374,6 +15386,7 @@ _popunder+$image,~image,popup
 ||vrvm.com/t?
 ||vuvuplaza.com^$subdocument,third-party
 ||vxite.com/banner/
+||walmartimages.com^*/HealthPartner_
 ||warezhaven.org/warezhavenbann.jpg
 ||watch-naruto.tv/images/$third-party
 ||watchme.com/track/$subdocument,third-party
@@ -15448,6 +15461,7 @@ _popunder+$image,~image,popup
 ||linkbucks.com/?ref=$image,~image,popup
 ||liutilities.com^*/affiliate/$image,~image,popup
 ||lp.titanpoker.com^$image,~image,popup,third-party
+||lumosity.com/landing_pages/$image,~image,popup
 ||maxedtube.com/video_play?*&utm_campaign=$image,~image,popup,third-party
 ||mcars.org/landing/$image,~image,popup,third-party
 ||media.mybet.com/redirect.aspx?pid=*&bid=$image,~image,popup,third-party
@@ -16118,7 +16132,7 @@ _popunder+$image,~image,popup
 /fb-app-tracker.
 /fbanalytics/*
 /fbcounter/*
-/fcgi-bin/*
+/fcgi-bin/*$domain=~qq.com
 /files/ga.js
 /finalizestats.
 /firestats/*
@@ -16887,6 +16901,7 @@ _popunder+$image,~image,popup
 /siteAnalytics-
 /siteAnalytics.
 /siteanalytics_
+/sitecatalist.js
 /sitecrm.js
 /sitecrm2.js
 /siteskan.com/*
@@ -17551,6 +17566,7 @@ http://utm.
 ||alzexa.com^$third-party
 ||amadesa.com^$third-party
 ||amazingcounters.com^$third-party
+||ambercrow.com^$third-party
 ||amctp.net^$third-party
 ||amikay.com^$third-party
 ||amung.us^$third-party
@@ -17780,6 +17796,7 @@ http://utm.
 ||dailycaller-alerts.com^$third-party
 ||dashboard.io^$third-party
 ||datasphere.com^$third-party
+||datvantage.com^$third-party
 ||daylife-analytics.com^$third-party
 ||daylogs.com^$third-party
 ||dc-storm.com^$third-party
@@ -19098,6 +19115,7 @@ http://utm.
 ||d1qpxk1wfeh8v1.cloudfront.net^
 ||d1ros97qkrwjf5.cloudfront.net^
 ||d1wscoizcbxzhp.cloudfront.net^
+||d1yu5hbtu8mng9.cloudfront.net^
 ||d21o24qxwf7uku.cloudfront.net^$third-party
 ||d2dq2ahtl5zl1z.cloudfront.net^
 ||d2gfi8ctn6kki7.cloudfront.net^$third-party
@@ -19132,6 +19150,7 @@ http://utm.
 ||discoverymail.com/a/*/spacer.gif
 ||disqus.com/stats.html
 ||distillery.wistia.com^
+||dmdentertainment.com^*/video_debug.gif?
 ||dnn506yrbagrg.cloudfront.net^
 ||documentcloud.org/pixel.gif?
 ||domodomain.com^*/ddsense.aspx?
@@ -19646,6 +19665,7 @@ http://utm.
 ||taboola.com^*/log/
 ||taboolasyndication.com/log/
 ||taboolasyndication.com^*/log/
+||tag.email-attitude.com^
 ||tag.myplay.com^
 ||tag.sonymusic.com^
 ||tealium.hs.llnwd.net^*/utag.js
@@ -20093,7 +20113,6 @@ http://utm.
 ||binaries4all.nl/misc/misc.php?*&url=http
 ||bing.com/fd/ls/
 ||bing.com/partner/primedns
-||bing.com/qsonhs.aspx?
 ||bing.com^*/GLinkPing.aspx
 ||biosphoto.com^*/stats/
 ||birthvillage.com/watcher/
@@ -21333,6 +21352,7 @@ http://utm.
 ||tracking.ustream.tv^
 ||tracking.we7.com^
 ||tracking.yourfilehost.com^
+||trackpm.shop2market.com^
 ||trade-it.co.uk/counter/
 ||traffic.buyservices.com^
 ||traffic.tuberip.com^
