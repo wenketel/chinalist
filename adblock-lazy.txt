@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: zfcERIBvspzcliEHaxy8og
+!  Checksum: 9doBNmSPKeX3/oswb9/kXQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 06 May 2013 19:55:30 +0800
+!  Last Modified:  Wed, 08 May 2013 20:59:10 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -510,7 +510,7 @@ douban.com###crazy-ad-wrapper
 ###ad_headerbanner
 ##.ad_headerbanner
 ~top81.cn##[id^="ad_thread"]
-##.archiver_banner
+##.archiver_banne
 ##.bm.a_c
 ##.wp.a_f
 ~kafan.cn##.wp.a_t
@@ -2389,6 +2389,7 @@ webkaka.com###Table1
 ||xici.net/service/$xmlhttprequest
 ||data.xici.net^
 ||xitek.com/newsite/mojs.php?
+||xitie.com/t1.js
 ||xuanxuan.com^$subdocument
 ||xuanxuan.com/js/addfavio.js
 ||xue5.com/itedu/js/DIVit_QQ.js
@@ -2518,8 +2519,8 @@ zxtjd.com###it_an
 ||51wan.com^$third-party,domain=~qqopenapp.com|~qzoneapp.com|~tqapp.cn|~twsapp.com
 ||523688.com^$third-party
 ||52kkt.com^$third-party
+||52lover.info^$third-party
 ||5566ad.com^$third-party
-||565882.com^$third-party
 ||58ad.org^$third-party
 ||58ar.com^$third-party
 ||www.59.cn^$third-party
@@ -2577,6 +2578,7 @@ zxtjd.com###it_an
 ||ad-plus.cn^$third-party
 ||link.ad966.com^$third-party
 ||adcenter.conn.tw^$third-party
+||aifei.info^$third-party
 ||adhai.com^$third-party
 ||adjwl.com^$third-party
 ||adkongjian.com^$third-party
@@ -3267,6 +3269,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 .adtooltip&
 .advertmarket.
 .adwolf.
+.ashx?ad=
 .ashx?AdID=
 .aspx?ad=
 .aspx?ads=
@@ -3296,6 +3299,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 .com/pm/ad-
 .com/ss/ad/
 .gif?ad=
+.homad.
 .html?ad=
 .iads.js
 .ie/ads/
@@ -3316,6 +3320,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 .org/ad-
 .org/ad.
 .org/ad/
+.org/ad1.
 .org/ad_
 .org/ads-
 .org/ads.
@@ -3451,6 +3456,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /ad/sponsored-
 /ad/takeover/*
 /ad000/*
+/ad1.htm
 /ad1/index.
 /ad125.
 /ad125b.
@@ -3964,6 +3970,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /ads/square2.
 /ads/square3.
 /ads/tile-
+/ads/web/*
 /ads0.
 /ads09a/*
 /ads1.
@@ -4315,11 +4322,12 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /advertiser.
 /advertiser/*$domain=~mobileapptracking.com
 /advertisers/*
-/advertising-
+/advertising-$domain=~outbrain.com
 /advertising.
 /advertising/*
 /advertising2.
 /advertising300x250.
+/advertising?
 /advertising_
 /advertisingbanner.
 /advertisingbanner/*
@@ -4349,10 +4357,12 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /adview.
 /adview/*
 /adview?
+/adviewed.
 /adviewer.
 /advision.
 /advolatility.
 /advpartnerinit.
+/advPop.
 /advrotator.
 /advzones/*
 /adweb2.
@@ -4754,6 +4764,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /emediatead.
 /EmreAds.
 /ems/ads.
+/en/ads/*
 /esi/ads/*
 /exchange_banner_
 /exitsplash.
@@ -5199,6 +5210,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /openx.
 /openx/*
 /openx_
+/orbitads.
 /ot_adserved.
 /overlay_ad_
 /overlay_advertisement/*
@@ -5686,6 +5698,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /wipeads/*
 /wix-ad.
 /wmads.
+/wordpress-ads-plug-in/*
 /work.php?n=*&size=*&c=
 /wp-content/mbp-banner/*
 /wp-content/plugins/banner-manager/*
@@ -5974,6 +5987,7 @@ _google_ads_
 _header_ad.
 _header_ad_
 _headerad.
+_homad.
 _house_ad_
 _images/ad.
 _images/ad_
@@ -6389,6 +6403,11 @@ _popunder+$image,~image,popup
 ###DartAd300x250
 ###DivAdEggHeadCafeTopBanner
 ###DivTopAd
+###FIN_300_250_position2_ad
+###FIN_300x250_pos1_ad
+###FIN_300x80_facebook_ad
+###FIN_468x60_sponsor_ad
+###FIN_728_90_leaderboard_ad
 ###FIN_videoplayer_300x250ad
 ###FooterAd
 ###FooterAdContainer
@@ -6549,6 +6568,7 @@ _popunder+$image,~image,popup
 ###ad-center
 ###ad-colB-1
 ###ad-column
+###ad-container-fullpage
 ###ad-contentad
 ###ad-e-container
 ###ad-f-container
@@ -6672,6 +6692,7 @@ _popunder+$image,~image,popup
 ###ad125TR
 ###ad125x125
 ###ad160Wrapper
+###ad160a
 ###ad160x600
 ###ad160x600right
 ###ad1Sp
@@ -6683,6 +6704,7 @@ _popunder+$image,~image,popup
 ###ad300
 ###ad300-250
 ###ad300X250
+###ad300_a
 ###ad300_x_250
 ###ad300b
 ###ad300c
@@ -7226,6 +7248,7 @@ _popunder+$image,~image,popup
 ###ads-hoster-2
 ###ads-indextext
 ###ads-king
+###ads-leader
 ###ads-leaderboard
 ###ads-leaderboard1
 ###ads-lrec
@@ -8075,6 +8098,7 @@ _popunder+$image,~image,popup
 ###feedjiti-footerTR
 ###file_sponsored_link
 ###fin_ad_728x90_bottom
+###fin_ds_homepage_adtag_468x60
 ###first-300-ad
 ###first-adframe
 ###first-adlayer
@@ -8586,6 +8610,7 @@ _popunder+$image,~image,popup
 ###multi_ad
 ###my-ads
 ###myads_HeaderButton
+###myradioAd
 ###n_sponsor_ads
 ###naMediaAd_SUPERBANNER
 ###name-advert
@@ -8926,6 +8951,7 @@ _popunder+$image,~image,popup
 ###some-more-ads
 ###specialAd_one
 ###specialAd_two
+###special_ads
 ###specialadvertisingreport_container
 ###specials_ads
 ###speed_ads
@@ -9179,7 +9205,9 @@ _popunder+$image,~image,popup
 ###video_advert_top
 ###video_cnv_ad
 ###video_embed_ads
+###video_hor_bottom_ads
 ###video_overlay_ad
+###video_vert_right_ads
 ###videoadlogo
 ###videoads
 ###view_ads_bottom_bg
@@ -9907,6 +9935,7 @@ _popunder+$image,~image,popup
 ##.ad_400x200
 ##.ad_468
 ##.ad_468x60
+##.ad_4_row
 ##.ad_600
 ##.ad_680x15
 ##.ad_728
@@ -10209,6 +10238,7 @@ _popunder+$image,~image,popup
 ##.ads-header
 ##.ads-here
 ##.ads-inarticle
+##.ads-inline
 ##.ads-label
 ##.ads-leaderboard
 ##.ads-leaderboard-border
@@ -12594,6 +12624,7 @@ _popunder+$image,~image,popup
 ##a[href^="http://games.ucoz.ru/"][target="_blank"]
 ##a[href^="http://install.securewebsiteaccess.com/"]
 ##a[href^="http://latestdownloads.net/download.php?"]
+##a[href^="http://lp.ilivid.com/"]
 ##a[href^="http://lp.ncdownloader.com/"]
 ##a[href^="http://secure.signup-page.com/"]
 ##a[href^="http://secure.signup-way.com/"]
@@ -12653,6 +12684,7 @@ _popunder+$image,~image,popup
 ||199.102.225.178^$third-party,domain=~adsimilate.ip
 ||1clickdownloads.com^$third-party
 ||1sadx.net^$third-party
+||204.93.181.78^$third-party,domain=~discountmags.ip
 ||209.222.8.217^$third-party,domain=~p2p.adserver.ip
 ||247realmedia.com^$third-party
 ||254a.com^$third-party
@@ -13298,6 +13330,8 @@ _popunder+$image,~image,popup
 ||doubleclick.net/adx/wn.loc.$third-party
 ||doubleclick.net/adx/wn.nat.$third-party
 ||doubleclick.net/N2/pfadx/video.wsj.com/$third-party
+||doubleclick.net/N6088/pfadx/ssp.kshb/$third-party
+||doubleclick.net/N6872/pfadx/shaw.mylifetimetv.ca/$third-party
 ||doubleclick.net/pfadx/*.mtvi$third-party
 ||doubleclick.net/pfadx/*.muzu/$third-party
 ||doubleclick.net/pfadx/*.reuters/$third-party
@@ -13441,6 +13475,7 @@ _popunder+$image,~image,popup
 ||gan.doubleclick.net^$third-party
 ||gannett.gcion.com^$third-party
 ||gate-ru.com^$third-party
+||gayadnetwork.com^$third-party
 ||geek2us.net^$third-party
 ||geld-internet-verdienen.net^$third-party
 ||geo-idm.fr^$third-party
@@ -13718,7 +13753,7 @@ _popunder+$image,~image,popup
 ||mootermedia.com^$third-party
 ||moregamers.com^$third-party
 ||moreplayerz.com^$third-party
-||movad.net^$~object-subrequest,third-party
+||movad.net^$third-party
 ||mpression.net^$third-party
 ||msads.net^$third-party
 ||multiadserv.com^$third-party
@@ -14696,6 +14731,7 @@ _popunder+$image,~image,popup
 ||d2hap2bsh1k9lw.cloudfront.net^
 ||d2ipklohrie3lo.cloudfront.net^
 ||d2mq0uzafv8ytp.cloudfront.net^
+||d2o307dm5mqftz.cloudfront.net^
 ||d2oallm7wrqvmi.cloudfront.net^
 ||d2omcicc3a4zlg.cloudfront.net^
 ||d2pgy8h4i30on1.cloudfront.net^
@@ -14903,6 +14939,7 @@ _popunder+$image,~image,popup
 ||gold4rs.com/images/$third-party
 ||google.com/pagead/
 ||googlesyndication.com/pagead/$third-party
+||googlesyndication.com/simgad/$third-party
 ||googlesyndication.com^*/click_to_buy/$object-subrequest,third-party
 ||googlesyndication.com^*/domainpark.cgi?
 ||googlesyndication.com^*/googlevideoadslibraryas3.swf$object-subrequest,third-party
@@ -15447,6 +15484,7 @@ _popunder+$image,~image,popup
 ||binaryoptions24h.com^$image,~image,popup,third-party
 ||casino.com^$image,~image,popup,third-party
 ||chatulfetelor.net/$image,~image,popup
+||d1110e4.se^$image,~image,popup
 ||dateoffer.net/?s=*&subid=$image,~image,popup,third-party
 ||eurogrand.com^$image,~image,popup
 ||evanetwork.com^$image,~image,popup
@@ -15488,6 +15526,7 @@ _popunder+$image,~image,popup
 ||uploaded.net/ref/$image,~image,popup
 ||urlcash.net/random*.php$image,~image,popup
 ||usenet.nl^$image,~image,popup
+||vube.com^$image,~image,popup,domain=thepiratebay.sx
 ||wealth-at-home-millions.com^$image,~image,popup,third-party
 ||weeklyprizewinner.com-net.info^$image,~image,popup
 ||with-binaryoption.com^$image,~image,popup,third-party
@@ -16219,6 +16258,7 @@ _popunder+$image,~image,popup
 /gcui_vidtracker/*
 /gemius.js
 /gemius/*
+/gemius_
 /gemiusAudience.
 /gen_204?$image,script
 /generictracking.
@@ -16699,10 +16739,10 @@ _popunder+$image,~image,popup
 /ping?spacedesc
 /PingPixel.
 /pistats/cgi-bin/*
-/piwik-
+/piwik-$domain=~piwik.org
 /piwik.js
 /piwik.php
-/piwik/*
+/piwik/*$domain=~piwik.org
 /piwikTracker.
 /pix.fcg?
 /pix.gif?
@@ -18344,7 +18384,6 @@ http://utm.
 ||peerius.com^$third-party
 ||percentmobile.com^$third-party
 ||perfectaudience.com^$third-party
-||perfectmarket.com^$third-party
 ||perfiliate.com^$third-party
 ||performancerevenues.com^$third-party
 ||perion.com^$third-party
@@ -19532,7 +19571,7 @@ http://utm.
 ||reevoo.com/track/
 ||reevoo.com/track_url/
 ||reevoo.com^*/track/
-||referrer.disqus.com^$third-party
+||referrer.disqus.com^
 ||replyat.com/gadgetpagecounter*.asp?
 ||reporting.reactlite.com^$third-party
 ||reporting.singlefeed.com^
@@ -19845,6 +19884,7 @@ http://utm.
 ||widgeo.net/compteur.php?
 ||widgeo.net/geocompteur/
 ||widgeo.net/hitparade.php
+||widget.perfectmarket.com^
 ||widget.quantcast.com^
 ||widgetbox.com/syndication/track/
 ||widgets.video.msn.com/report.aspx
@@ -20587,6 +20627,7 @@ http://utm.
 ||id.allegisgroup.com^
 ||id.google.*/verify/*.gif
 ||image.providesupport.com/cmd/
+||images-amazon.com^*/beacon-$domain=imdb.com
 ||images-amazon.com^*/clog/clog-platform*.js$script
 ||images.military.com/pixel.gif
 ||imagetwist.com/?op=
@@ -20752,6 +20793,7 @@ http://utm.
 ||metric.gstatic.com^
 ||metric.inetcore.com^
 ||metrics.aws.sitepoint.com^
+||metrics.dailymotion.com^
 ||metroweekly.com/tools/blog_add_visitor/
 ||mf2fm.com/php/stats.php?
 ||microsoft.com/library/svy/
