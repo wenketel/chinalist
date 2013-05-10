@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: koTZp1/J64IY5NV22cvbVg
+!  Checksum: ROvIMPdXB3zkaj6QSVtRuA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 08 May 2013 21:07:00 +0800
+!  Last Modified:  Fri, 10 May 2013 15:36:16 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -333,7 +333,7 @@ iqiyi.com##[id^="div_theatre"]
 !---bilibili.tv
 ||bilibili.tv/html/
 ||stat.bilibili.tv^
-||hdslb.com/u_user/c7b615aa772ec72599849a6d1b631733.jpg
+||hdslb.com/u_user/76156534e4cb871d884471a71d782ed5.jpg
 bilibili.tv##.ad-f
 
 !---爆米花网
@@ -3400,6 +3400,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /ad-hug.
 /ad-iframe-
 /ad-iframe.
+/ad-iframe?
 /ad-images/*
 /ad-inject/*
 /ad-leaderboard.
@@ -5708,6 +5709,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /wp-content/plugins/banner-manager/*
 /wp-content/plugins/bhcb/lock.js
 /wp-content/plugins/fasterim-optin/*
+/wp-content/plugins/platinumpopup/*
 /wp-content/plugins/wp-bannerize/*
 /wp-content/plugins/wp-super-popup/*$~stylesheet
 /wp-srv/ad/*
@@ -5996,6 +5998,7 @@ _house_ad_
 _images/ad.
 _images/ad_
 _index_ad.
+_js/ads.js
 _jtads/
 _layerad.
 _link_ads-
@@ -7170,6 +7173,7 @@ _popunder+$image,~image,popup
 ###adcontainsm
 ###adcontent1
 ###adcontrolPushSite
+###adcontrolisland
 ###add_ciao2
 ###addbottomleft
 ###addiv-bottom
@@ -9381,6 +9385,7 @@ _popunder+$image,~image,popup
 ##.BottomAdContainer
 ##.BottomAffiliate
 ##.BoxAd
+##.ButtonAd
 ##.CG_adkit_leaderboard
 ##.CG_details_ad_dropzone
 ##.CWReviewsProdInfoAd
@@ -9485,6 +9490,7 @@ _popunder+$image,~image,popup
 ##.TopAdL
 ##.TopAdR
 ##.TopBannerAd
+##.TrafficAd
 ##.UIWashFrame_SidebarAds
 ##.UnderAd
 ##.UpperAdsContainer
@@ -9853,7 +9859,6 @@ _popunder+$image,~image,popup
 ##.adObj
 ##.adPageBorderL
 ##.adPageBorderR
-##.adPanel
 ##.adPanelContent
 ##.adPlaceholder
 ##.adPlaceholder_foot
@@ -9955,6 +9960,7 @@ _popunder+$image,~image,popup
 ##.ad_ad_160
 ##.ad_ad_300
 ##.ad_amazon
+##.ad_area_two
 ##.ad_background
 ##.ad_bank_wrapper
 ##.ad_banner
@@ -10611,6 +10617,7 @@ _popunder+$image,~image,popup
 ##.advert-top-footer
 ##.advert-txt
 ##.advert-under-hedaer
+##.advert-unit
 ##.advert-wrap
 ##.advert120
 ##.advert300
@@ -11674,6 +11681,7 @@ _popunder+$image,~image,popup
 ##.mainAd
 ##.mainAdContainer
 ##.mainAds
+##.mainEcoAd
 ##.mainLeftAd
 ##.mainLinkAd
 ##.mainRightAd
@@ -11910,6 +11918,7 @@ _popunder+$image,~image,popup
 ##.podRelatedAdLinksWidget
 ##.podSponsoredLink
 ##.poll_sponsor_ad
+##.popupAdOuter
 ##.portalCenterContentAdBottom
 ##.portalCenterContentAdMiddle
 ##.portalCenterContentAdTop
@@ -14469,7 +14478,7 @@ _popunder+$image,~image,popup
 ||abletomeet.com^*&ad=
 ||ad.accessmediaproductions.com^
 ||ad.adriver.ru^$object-subrequest,domain=themoscownews.com
-||ad.e-kolay.net^
+||ad.e-kolay.net^$third-party
 ||ad.flux.com^
 ||ad.foxnetworks.com^
 ||ad.icasthq.com^
@@ -14477,6 +14486,7 @@ _popunder+$image,~image,popup
 ||ad.netcommunities.com^$third-party
 ||ad.pickple.net^
 ||ad.proxy.sh^
+||ad.rambler.ru^
 ||ad.sensismediasmart.com.au^
 ||ad.smartclip.net^
 ||ad.turn.com^
@@ -14959,6 +14969,7 @@ _popunder+$image,~image,popup
 ||hitleap.com/assets/banner.png
 ||hostgator.com/~affiliat/$third-party
 ||hostmonster.com/src/js/izahariev/$third-party
+||hoteltravel.com/partner/bannerimage.aspx?
 ||hstpnetwork.com/zeus.php
 ||hyipregulate.com/images/hyipregulatebanner.gif
 ||hyperfbtraffic.com/images/graphicsbanners/
@@ -15152,6 +15163,7 @@ _popunder+$image,~image,popup
 ||objects.tremormedia.com/embed/swf/tpacudeoplugin46.swf
 ||obox-design.com/affiliate-banners/
 ||ocp.cbs.com/pacific/request.jsp?
+||office.eteachergroup.com/leads/$third-party
 ||oilofasia.com/images/banners/
 ||onegameplace.com/iframe.php$third-party
 ||oovoo.com^*/banners/
@@ -15435,6 +15447,7 @@ _popunder+$image,~image,popup
 ||web2feel.com/images/$third-party
 ||weberotic.net/banners/$third-party
 ||webhostingpad.com/idevaffiliate/banners/
+||webmasterrock.com/cpxt_pab
 ||website.ws^*/banners/
 ||whistleout.s3.amazonaws.com^
 ||widgeo.net/popup.js
@@ -15608,7 +15621,6 @@ _popunder+$image,~image,popup
 .conversionruler.
 .core.tracking-min-
 .do_tracking&
-.effectivemeasure.
 .eloqua.js
 .gatracker.
 .gif?Log=$~xmlhttprequest
@@ -16175,7 +16187,6 @@ _popunder+$image,~image,popup
 /fb-app-tracker.
 /fbanalytics/*
 /fbcounter/*
-/fcgi-bin/*$domain=~qq.com
 /files/ga.js
 /finalizestats.
 /firestats/*
@@ -17900,6 +17911,7 @@ http://utm.
 ||ecommstats.com^$third-party
 ||ecustomeropinions.com^$third-party
 ||edgeadx.net^$third-party
+||effectivemeasure.net^$third-party
 ||elitics.com^$third-party
 ||eloqua.com^$third-party
 ||emediatrack.com^$third-party
@@ -18724,6 +18736,7 @@ http://utm.
 ||tylere.net^$third-party
 ||tynt.com^$third-party
 ||u5e.com^$third-party
+||ubertracking.info^$third-party
 ||ugdturner.com^$third-party
 ||ukrre-tea.info^$third-party
 ||umbel.com^$third-party
@@ -19463,6 +19476,7 @@ http://utm.
 ||museter.com/track.php?
 ||mxmfb.com/rsps/img/
 ||myblueday.com^*/count.asp?
+||mymarketing.co.il/Include/tracker.js
 ||myscoop-tracking.googlecode.com^$third-party
 ||mysdcc.sdccd.edu^*/.log/
 ||mysociety.org/track/
@@ -19812,6 +19826,7 @@ http://utm.
 ||tree-pixel-log.s3.amazonaws.com^
 ||trf.intuitwebsites.com^
 ||triad.technorati.com^
+||tritondigital.com/ltjs.php
 ||tritondigital.net/activity.php?
 ||trk.pswec.com^$third-party
 ||trk.vindicosuite.com^
@@ -19963,6 +19978,7 @@ http://utm.
 ||abebooks.com/timer.gif?
 ||about.me/wf/open?
 ||accountnow.com/SyslogWriter.ashx
+||accuradio.com/static/track/
 ||accuratefiles.com/stat
 ||accuterm.com/data/stat.js
 ||aclst.com/ping.php?
@@ -21034,6 +21050,7 @@ http://utm.
 ||ralphlauren.com^*/icg.metrics.js
 ||rangers.co.uk^*/tracking.js
 ||rarefilmfinder.com^*/cnt-gif1x1.php
+||razor.tv/site/servlet/tracker.jsp
 ||rd.meebo.com^
 ||reachlocal.com/js/tracklandingpage.js
 ||real.com^*/pixel?
