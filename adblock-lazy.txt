@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: mMcD2bdEWJv0pm5eZiOACA
+!  Checksum: HfSRQrU1gUVZrRK/hTj64Q
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 13 May 2013 18:23:22 +0800
+!  Last Modified:  Tue, 14 May 2013 19:02:26 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -3117,7 +3117,7 @@ zazww.com##[id^="ads_c_"]
 !-----------------------Temporary---------------------------
 !---2013.05
 ||image.10010.com/index_js/flash-ad$script
-||guofs.com/wp-content/themes/Dreamy/images/hx95.jpg
+||guofs.com/wp-content/themes/Dreamy/images/hx95.gif
 ||nanrenwa.com/_img/a/$third-party
 ||live.neotv.cn/Images/live2/images/QQQ.jpg
 ||okbmf.com/Images/huodong/kg201007-960-100-02.gif
@@ -3184,6 +3184,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 -ad-limits.
 -ad-loading.
 -ad-manager/$~stylesheet
+-ad-new_
 -ad-server/
 -ad-tile.
 -ad-util-
@@ -5029,6 +5030,8 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /inline_ad_
 /inline_ads.
 /inlineads/*
+/inner-ads-
+/inner-ads/*
 /innerads.
 /insertads.
 /instreamad/*
@@ -11530,6 +11533,9 @@ _popunder+$image,~image,popup
 ##.hp_t_ad
 ##.hp_w_ad
 ##.hpa-ad1
+##.hss-ad
+##.hss-ad-300x250_1
+##.hss_static_ad
 ##.html-advertisement
 ##.hyad
 ##.ib-figure-ad
@@ -12720,7 +12726,7 @@ _popunder+$image,~image,popup
 ||247realmedia.com^$third-party
 ||254a.com^$third-party
 ||2mdn.net/dot.gif$object-subrequest,third-party
-||2mdn.net^$object-subrequest,third-party,domain=101cargames.com|3news.co.nz|49ers.com|atlantafalcons.com|automobilemag.com|azcardinals.com|baltimoreravens.com|bbc.co.uk|bbc.com|bengals.com|bet.com|bloomberg.com|box10.com|brisbanetimes.com.au|buccaneers.com|buffalobills.com|bullz-eye.com|businessweek.com|calgaryherald.com|canada.com|cbs.com|chargers.com|chicagobears.com|clevelandbrowns.com|cnettv.cnet.com|colts.com|cp24.com|ctvnews.ca|dallascowboys.com|denverbroncos.com|detroitlions.com|drive.com.au|earthcam.com|edmontonjournal.com|egirlgames.net|enjoydressup.com|entrepreneur.com|eonline.com|escapegames.com|euronews.com|foodnetwork.ca|four.co.nz|gamingbolt.com|ghananation.com|giantbomb.com|giants.com|globalnews.ca|globalpost.com|globaltoronto.com|globaltv.com|globaltvbc.com|globaltvcalgary.com|go.com|gorillanation.com|hawaiinewsnow.com|heraldsun.com.au|hgtv.ca|houstontexans.com|iheart.com|independent.ie|jaguars.com|kcchiefs.com|kdvr.com|kfiam640.com|komonews.com|kwgn.com|leaderpost.com|livestream.com|metacafe.com|miamidolphins.com|mojointhemorning.com|montrealgazette.com|motorcyclistonline.com|my9tv.com|nationalpost.com|nba.com|nba.tv|ndtv.com|neworleanssaints.com|newsmax.com|newsmaxhealth.com|newstalk1010.com|newyorkjets.com|nfl.com|ottawacitizen.com|packers.com|panthers.com|patriots.com|pcworld.com|philadelphiaeagles.com|prowrestling.com|radio.com|raiders.com|rapbasement.com|redskins.com|reuters.com|rollingstone.com|rottentomatoes.com|seahawks.com|sf49ers.com|sherdog.com|skynews.com.au|slice.ca|smh.com.au|steelers.com|stlouisrams.com|streetfire.net|stuff.co.nz|telegraph.co.uk|theage.com.au|theaustralian.com.au|thecomedynetwork.ca|theprovince.com|thestarphoenix.com|tide.com|timescolonist.com|timeslive.co.za|titansonline.com|tsn.ca|usmagazine.com|vancouversun.com|vice.com|videojug.com|vikings.com|washingtontimes.com|weather.com|whdh.com|wibw.com|wikihow.com|windsorstar.com|wkyt.com|youtube.com
+||2mdn.net^$object-subrequest,third-party,domain=101cargames.com|3news.co.nz|49ers.com|atlantafalcons.com|automobilemag.com|azcardinals.com|baltimoreravens.com|bbc.co.uk|bbc.com|bengals.com|bet.com|bloomberg.com|box10.com|brisbanetimes.com.au|buccaneers.com|buffalobills.com|bullz-eye.com|businessweek.com|calgaryherald.com|canada.com|cbs.com|chargers.com|chicagobears.com|clevelandbrowns.com|cnettv.cnet.com|colts.com|cp24.com|ctvnews.ca|dallascowboys.com|denverbroncos.com|detroitlions.com|drive.com.au|earthcam.com|edmontonjournal.com|egirlgames.net|enjoydressup.com|entrepreneur.com|eonline.com|escapegames.com|euronews.com|foodnetwork.ca|four.co.nz|fox19.com|gamingbolt.com|ghananation.com|giantbomb.com|giants.com|globalnews.ca|globalpost.com|globaltoronto.com|globaltv.com|globaltvbc.com|globaltvcalgary.com|go.com|gorillanation.com|hawaiinewsnow.com|heraldsun.com.au|hgtv.ca|houstontexans.com|iheart.com|independent.ie|jaguars.com|kcchiefs.com|kdvr.com|kfiam640.com|komonews.com|kwgn.com|leaderpost.com|live5news.com|livestream.com|metacafe.com|miamidolphins.com|mojointhemorning.com|montrealgazette.com|motorcyclistonline.com|my9tv.com|nationalpost.com|nba.com|nba.tv|ndtv.com|neworleanssaints.com|newsmax.com|newsmaxhealth.com|newstalk1010.com|newyorkjets.com|nfl.com|ottawacitizen.com|packers.com|panthers.com|patriots.com|pcworld.com|philadelphiaeagles.com|prowrestling.com|radio.com|raiders.com|rapbasement.com|redskins.com|reuters.com|rollingstone.com|rottentomatoes.com|seahawks.com|sf49ers.com|sherdog.com|skynews.com.au|slice.ca|smh.com.au|steelers.com|stlouisrams.com|streetfire.net|stuff.co.nz|telegraph.co.uk|theage.com.au|theaustralian.com.au|thecomedynetwork.ca|theprovince.com|thestarphoenix.com|tide.com|timescolonist.com|timeslive.co.za|titansonline.com|tsn.ca|usmagazine.com|vancouversun.com|vice.com|videojug.com|vikings.com|washingtontimes.com|weather.com|whdh.com|wibw.com|wikihow.com|windsorstar.com|wkyt.com|youtube.com
 ||2mdn.net^$~object-subrequest,third-party
 ||360ads.com^$third-party
 ||360yield.com^$third-party
@@ -13853,6 +13859,7 @@ _popunder+$image,~image,popup
 ||online-media24.de^$third-party
 ||onlineadtracker.co.uk^$third-party
 ||onlinedl.info^$third-party
+||onscroll.com^$third-party
 ||onsitemarketplace.net^$third-party
 ||ontoplist.com^$third-party
 ||opensourceadvertisementnetwork.info^$third-party
@@ -16123,6 +16130,7 @@ _popunder+$image,~image,popup
 /demdex.js
 /demdex/*
 /DemdexBehavioralTracking.
+/deskanalytics.js
 /dla_tracker.
 /dltrack.
 /dltrack/*
@@ -17655,6 +17663,7 @@ http://utm.
 ||anametrix.net^$third-party
 ||anatid3.com^$third-party
 ||angelfishstats.com^$third-party
+||anonymousdmp.com^$third-party
 ||apexstats.com^$third-party
 ||apextwo.com^$third-party
 ||apicit.net^$third-party
@@ -20099,6 +20108,7 @@ http://utm.
 ||apex.com.com^
 ||api.tinypic.com/api.php?action=track
 ||apphit.com/js/count.js
+||apple.com^*/spacer2.gif?
 ||apple.com^*_master_tracker.js
 ||applegate.co.uk/javascript/dcs/track.js
 ||applifier.com/users/tracking?
