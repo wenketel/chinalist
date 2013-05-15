@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: JemE6aVxcdiWfTExVcL8uA
+!  Checksum: /IQ476sNniwVcNPn5XLvkQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 14 May 2013 19:05:14 +0800
+!  Last Modified:  Wed, 15 May 2013 11:07:09 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -334,7 +334,7 @@ iqiyi.com##[id^="div_theatre"]
 !---bilibili.tv
 ||bilibili.tv/html/
 ||stat.bilibili.tv^
-||hdslb.com/u_user/76156534e4cb871d884471a71d782ed5.jpg
+||hdslb.com/u_user/$object_subrequest,domain=bilibili.tv
 bilibili.tv##.ad-f
 
 !---爆米花网
@@ -4278,6 +4278,8 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /adv-banner.
 /adv-div-
 /adv-f.
+/adv/kelkoo/*
+/adv/kelkoo_
 /adv/preroll_
 /adv/sponsor/*
 /adv02.
@@ -5561,6 +5563,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /static_ads/*
 /stickyad.
 /stickyad2.
+/storage/adv/*
 /story_ad.
 /studioads/*
 /subad2_
@@ -6692,6 +6695,7 @@ _popunder+$image,~image,popup
 ###ad-trailerboard-spot
 ###ad-two
 ###ad-typ1
+###ad-west
 ###ad-wrap
 ###ad-wrap-right
 ###ad-wrapper
@@ -13373,6 +13377,7 @@ _popunder+$image,~image,popup
 ||doubleclick.net/N6872/pfadx/shaw.mylifetimetv.ca/$third-party
 ||doubleclick.net/pfadx/*.mtvi$third-party
 ||doubleclick.net/pfadx/*.muzu/$third-party
+||doubleclick.net/pfadx/*.NBCUNI.COM/$third-party
 ||doubleclick.net/pfadx/*.reuters/$third-party
 ||doubleclick.net/pfadx/*.sevenload.com_$third-party
 ||doubleclick.net/pfadx/*/kidstv/$third-party
@@ -13827,6 +13832,7 @@ _popunder+$image,~image,popup
 ||nextmobilecash.com^$third-party
 ||nicheads.com^$third-party
 ||nobleppc.com^$third-party
+||nonstoppartner.de^$third-party
 ||northmay.com^$third-party
 ||nowlooking.net^$third-party
 ||nrnma.com^$third-party
@@ -15539,6 +15545,7 @@ _popunder+$image,~image,popup
 ||firstload.de^$image,~image,popup
 ||free-rewards.com-s.tv^$image,~image,popup
 ||fulltiltpoker.com/?key=$image,~image,popup,third-party
+||fulltiltpoker.com/affiliates/$image,~image,popup,third-party
 ||generic4all.com^*.dhtml?refid=$image,~image,popup,third-party
 ||hetu.in^$image,~image,popup,third-party
 ||i2casting.com^$image,~image,popup,third-party
@@ -16819,6 +16826,7 @@ _popunder+$image,~image,popup
 /pixy.gif?
 /pladtrack.
 /planetstat.
+/PlayerDashboardLoggingService.svc/json/StartSession?
 /playertracking/*
 /plgtrafic.
 /plingatracker.
