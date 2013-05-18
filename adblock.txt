@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: myTyW+rTf4vH3/KfAK3SGA
+!  Checksum: +TFVd3/tmDSVzOpHv4V5SA
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 18 May 2013 00:11:44 +0800
+!  Last Modified:  Sat, 18 May 2013 15:06:23 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -384,7 +384,7 @@ chinanews.com###qizhi_div980
 ||cctv.com/script/ad_s.js
 ||cntv.cn^*/js_ad$script
 ||cntv.cn/library/script/flash_guanggaodiaoyong.js
-||d.cntv.cn^
+||d.cntv.cn^$~object_subrequest
 ||log.vdn.apps.cntv.cn^
 ||qiye.cctv.com/js/
 
@@ -1787,6 +1787,7 @@ home.sz.zj.cn##.mb10.tips
 ||appinn.com/wp-content/nanrenwa.jpg
 ||appinn.com/wp-content/uploads/$image
 appinn.com##.ads
+appinn.com##.ads-m
 appinn.com##.gad
 ||img.chromi.org/2011/12/where-is-chromi.png
 ||rakuten-static.com^$domain=cwyuni.tw
