@@ -324,5 +324,9 @@
       <OldItem>/fcgi-bin/*</OldItem>
       <NewItem>/fcgi-bin/*$domain=~qq.com</NewItem>
     </ModifyItem>
+    <ModifyItem>
+      <OldItem>/html.ng/*</OldItem>
+      <NewItem>/html.ng/*$domain=~cntv.cn</NewItem>
+    </ModifyItem>
   </ModifyItems>
 </Configurations>

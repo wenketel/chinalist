@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: HTOO5HD5NEScnGthxDMbMg
+!  Checksum: wrsiL2ugyn/LQIIuS3tz9w
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 18 May 2013 15:06:29 +0800
+!  Last Modified:  Mon, 20 May 2013 18:24:17 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -379,12 +379,8 @@ chinanews.com###ngg
 chinanews.com###qizhi_div980
 
 !---CCTV
-@@||baidu.cntv.cn/player/baidu_ad.js
-@@||js.player.cntv.cn/creator/*_bg_ad.js
+@@||cctv.com/js/cntv_Advertise.js
 ||cctv.com/Library/a2.js
-||cctv.com/script/ad_s.js
-||cntv.cn^*/js_ad$script
-||cntv.cn/library/script/flash_guanggaodiaoyong.js
 ||d.cntv.cn^$~object_subrequest
 ||log.vdn.apps.cntv.cn^
 ||qiye.cctv.com/js/
@@ -3415,7 +3411,6 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 .com/adz/
 .com/bads/
 .com/doubleclick/
-.com/esel.js
 .com/gads/
 .com/im-ad/
 .com/iplgadshow
@@ -4241,6 +4236,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /adhints/*
 /adhomepage.
 /adhomepage2.
+/adhood.
 /adhost.
 /adhref.
 /adhtml/*
@@ -4645,6 +4641,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /ads/vg/*
 /ads/vip_
 /ads/web/*
+/ads/welcomescreen.
 /ads/widebanner.
 /ads/widget.
 /ads/www/*
@@ -5336,7 +5333,6 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /app/ads.js
 /article_ad.
 /artimediatargetads.
-/as3_vp_player_$domain=~aftonbladet.se|~svd.se|~sydsvenskan.se|~tv4play.se|~unt.se
 /as3overstreamplatformadapter.
 /as_u/ads/*
 /aseadnshow.
@@ -5512,7 +5508,6 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /bigads/*
 /bigboxad.
 /bigtopl.swf
-/bilder/anzeige_
 /binary/ad/*
 /bizad.
 /bkgrndads/*
@@ -6169,6 +6164,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /hostedads.
 /hostedbannerads.
 /hostgator-ad.
+/hosting/ads/*
 /hostkey-ad.
 /house-ad.
 /house-ad/*
@@ -6184,7 +6180,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /houseads?
 /hoverad.
 /hpcwire/ads/*
-/html.ng/*
+/html.ng/*$domain=~cntv.cn
 /html/ad.
 /html/ad/*
 /html/ads/*
@@ -6297,7 +6293,6 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /incmpuad.
 /index-ad.
 /index_ads.
-/infopop.
 /inhouse_ads/*
 /initdefineads.
 /initlayeredwelcomead-
@@ -6882,7 +6877,6 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /reklama2.
 /reklama5.
 /reklame.
-/reklame/*
 /related-ads.
 /relatedads.
 /relevance_ad.
@@ -7235,7 +7229,6 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /thirdpartyads/*
 /thumbs/ads/*
 /thunder/ad.
-/tiads.
 /tidaladplugin.
 /tii_ads.
 /tikilink?
@@ -7368,8 +7361,6 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /view/ads/*
 /view/banner/*
 /view_banner.
-/viewad.
-/viewad?
 /viewbannerad.
 /viewer/rad?
 /viewid=*/site=*/size=
@@ -7412,7 +7403,6 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /welcomead.
 /welcomeadredirect.
 /werbebanner/*
-/werbung.
 /widget/ad/*
 /widget/ads.
 /widget/ads/*
@@ -11669,6 +11659,8 @@ _popunder+$popup
 ###div-ad-coupon_7
 ###div-ad-coupon_8
 ###div-ad-coupon_9
+###div-ad-flex
+###div-ad-r1
 ###divAd
 ###divAdBox
 ###divAdHere
@@ -12141,6 +12133,7 @@ standard.co.uk###esDating
 ###header_advertisement
 ###header_advertisement_top
 ###header_advertising
+###header_adverts
 ###header_bottom_ad
 ###header_flag_ad
 ###header_leaderboard_ad_container
@@ -15755,6 +15748,7 @@ standard.co.uk###esDating
 ##.ads-favicon
 ##.ads-fieldset
 ##.ads-flow
+##.ads-footer
 ##.ads-google
 ##.ads-header
 ##.ads-here
@@ -16044,6 +16038,7 @@ standard.co.uk###esDating
 ##.adsense-250
 ##.adsense-300x256-widget
 ##.adsense-300x256-widget-2
+##.adsense-336
 ##.adsense-468
 ##.adsense-ad
 ##.adsense-afterpost
@@ -16223,6 +16218,7 @@ standard.co.uk###esDating
 ##.adtile
 ##.adtips
 ##.adtips1
+##.adtitle
 ##.adtop
 ##.adtop-border
 ##.adtops
@@ -16739,6 +16735,7 @@ standard.co.uk###esDating
 ##.ban-720-container
 ##.ban300side
 ##.ban728
+##.bank-rate-ad
 ##.banmanad
 ##.banner-125
 ##.banner-300
@@ -18623,6 +18620,7 @@ standard.co.uk###esDating
 ##.panel-advert
 ##.panel_ad
 ##.paneladvert
+##.partial-ad
 ##.partner-ad
 ##.partner-ads-container
 ##.partnerAd
@@ -20437,7 +20435,6 @@ standard.co.uk###esDating
 ||adtotal.pl^$third-party
 ||adtpix.com^$third-party
 ||adtransfer.net^$third-party
-||adtraxx.de^$third-party
 ||adtrgt.com^$third-party
 ||adtrix.com^$third-party
 ||adtrovert.com^$third-party
@@ -20623,7 +20620,6 @@ standard.co.uk###esDating
 ||awltovhc.com^$third-party
 ||awsmer.com^$third-party
 ||awsurveys.com^$third-party
-||axf8.net^$third-party
 ||axill.com^$third-party
 ||azads.com^$third-party
 ||azjmp.com^$third-party
@@ -20688,7 +20684,6 @@ standard.co.uk###esDating
 ||bizographics.com^$third-party
 ||bizrotator.com^$third-party
 ||bizzclick.com^$third-party
-||bkrtx.com^$third-party
 ||blamads.com^$third-party
 ||blamcity.com^$third-party
 ||blinkadr.com^$third-party
@@ -20908,7 +20903,6 @@ standard.co.uk###esDating
 ||criteo.net^$third-party
 ||crowdgravity.com^$third-party
 ||cruiseworldinc.com^$third-party
-||crwdcntrl.net^$third-party
 ||ctasnet.com^$third-party
 ||ctm-media.com^$third-party
 ||ctrhub.com^$third-party
@@ -21332,7 +21326,6 @@ standard.co.uk###esDating
 ||instantbannercreator.com^$third-party
 ||instantdollarz.com^$third-party
 ||instivate.com^$third-party
-||intelliad.de^$third-party
 ||intellibanners.com^$third-party
 ||intellitxt.com^$third-party
 ||interactivespot.net^$third-party
@@ -21350,7 +21343,6 @@ standard.co.uk###esDating
 ||intuneads.com^$third-party
 ||inuvo.com^$third-party
 ||investingchannel.com^$third-party
-||invitemedia.com^$third-party
 ||inviziads.com^$third-party
 ||ipromote.com^$third-party
 ||isohits.com^$third-party
@@ -21421,7 +21413,6 @@ standard.co.uk###esDating
 ||leadmediapartners.com^$third-party
 ||leetmedia.com^$third-party
 ||letsgoshopping.tk^$third-party
-||levexis.com^$third-party
 ||lfstmedia.com^$third-party
 ||liftdna.com^$third-party
 ||ligatus.com^$third-party,domain=~bfmtv.com
@@ -21556,7 +21547,6 @@ standard.co.uk###esDating
 ||mixmarket.biz^$third-party
 ||mixpo.com^$third-party
 ||mktseek.com^$third-party
-||mlclick.com^$third-party
 ||mlnadvertising.com^$third-party
 ||mmadsgadget.com^$third-party
 ||mmgads.com^$third-party
@@ -21647,6 +21637,7 @@ standard.co.uk###esDating
 ||nuseek.com^$third-party
 ||nvadn.com^$third-party
 ||nvero.net^$third-party
+||nwfhalifax.com^$third-party
 ||nxtck.com^$third-party
 ||nyadmcncserve-05y06a.com^$third-party
 ||nzads.net.nz^$third-party
@@ -21870,7 +21861,6 @@ standard.co.uk###esDating
 ||reduxmediagroup.com^$third-party
 ||reelcentric.com^$third-party
 ||referback.com^$third-party
-||refinedads.com^$third-party
 ||registry.cw.cm^$third-party
 ||reklamport.com^$third-party
 ||reklamz.com^$third-party
@@ -21899,7 +21889,6 @@ standard.co.uk###esDating
 ||rmxads.com^$third-party
 ||rnmd.net^$third-party
 ||rocketier.net^$third-party
-||roia.biz^$third-party
 ||roicharger.com^$third-party
 ||roirocket.com^$third-party
 ||romance-net.com^$third-party
@@ -21934,6 +21923,7 @@ standard.co.uk###esDating
 ||scratchaffs.com^$third-party
 ||search123.uk.com^$third-party
 ||seccoads.com^$third-party
+||secondspace.com^$third-party
 ||secondstreetmedia.com^$third-party
 ||secure-softwaremanager.com^$third-party
 ||securesoft.info^$third-party
@@ -22010,7 +22000,6 @@ standard.co.uk###esDating
 ||solocpm.com^$third-party
 ||sonnerie.net^$third-party
 ||sonobi.com^$third-party
-||sophus3.com^$third-party
 ||sparkstudios.com^$third-party
 ||specificclick.net^$third-party
 ||specificmedia.com^$third-party
@@ -22126,7 +22115,6 @@ standard.co.uk###esDating
 ||tracking.to^$third-party
 ||tracking101.com^$third-party
 ||tracking11.com^$third-party
-||tracking202.com^$third-party
 ||trackingoffer.info^$third-party
 ||trackingoffer.net^$third-party
 ||trackpath.biz^$third-party
@@ -22286,7 +22274,6 @@ standard.co.uk###esDating
 ||webusersurvey.com^$third-party
 ||wegetpaid.net^$third-party
 ||wegotmedia.com^$third-party
-||wemfbox.ch^$third-party
 ||werbe-sponsor.de^$third-party
 ||wfnetwork.com^$third-party
 ||wgreatdream.com^$third-party
@@ -22615,7 +22602,7 @@ standard.co.uk###esDating
 ||ad.icasthq.com^
 ||ad.imad.co.kr^$third-party
 ||ad.indomp3z.us^$third-party
-||ad.jamba.net^$third-party
+||ad.jamba.net^
 ||ad.jokeroo.com^$third-party
 ||ad.linkstorms.com^$third-party
 ||ad.livere.co.kr^
@@ -23494,7 +23481,6 @@ standard.co.uk###esDating
 ||scribol.com/txwidget$third-party
 ||search.yahoo.com/if?$subdocument,domain=local.com
 ||searchportal.information.com/?$third-party
-||secondspace.com^*/widgets.js
 ||secondspin.com/twcontent/
 ||securep2p.com^$subdocument,third-party
 ||secureupload.eu/banners/
@@ -23604,7 +23590,6 @@ standard.co.uk###esDating
 ||todaysfinder.com^$subdocument,third-party
 ||tonefuse.s3.amazonaws.com/clientjs/
 ||top5result.com/promo/
-||toplist.raidrush.ws^$third-party
 ||topmedia.com/external/
 ||topspin.net/secure/media/$image,domain=youtube.com
 ||toptenreviews.com/r/c/
@@ -25909,6 +25894,7 @@ http://utm.
 ||avazudsp.net^$third-party
 ||avmws.com^$third-party
 ||awasete.com^$third-party
+||axf8.net^$third-party
 ||baptisttop1000.com^$third-party
 ||barilliance.net^$third-party
 ||basicstat.com^$third-party
@@ -25936,6 +25922,7 @@ http://utm.
 ||bionicclick.com^$third-party
 ||bizo.com^$third-party
 ||bizspring.net^$third-party
+||bkrtx.com^$third-party
 ||bkvtrack.com^$third-party
 ||blizzardcheck.com^$third-party
 ||blockmetrics.com^$third-party
@@ -26085,6 +26072,7 @@ http://utm.
 ||crowdscience.com^$third-party
 ||crowdtwist.com^$third-party
 ||crsspxl.com^$third-party
+||crwdcntrl.net^$third-party
 ||csdata1.com^$third-party
 ||csi-tracking.com^$third-party
 ||customerconversio.com^$third-party
@@ -26392,6 +26380,7 @@ http://utm.
 ||interceptum.com^$third-party
 ||intermundomedia.com^$third-party
 ||intervigil.com^$third-party
+||invitemedia.com^$third-party
 ||invodo.com^$third-party
 ||ip-adress.com^$third-party
 ||ip-label.net^$third-party
@@ -26447,6 +26436,7 @@ http://utm.
 ||leadlife.com^$third-party
 ||legolas-media.com^$third-party
 ||les-experts.com^$third-party
+||levexis.com^$third-party
 ||lfov.net^$third-party
 ||liadm.com^$third-party
 ||linezing.com^$third-party
@@ -26512,6 +26502,7 @@ http://utm.
 ||mkt51.net^$third-party
 ||mkt941.com^$third-party
 ||mktoresp.com^$third-party
+||mlclick.com^$third-party
 ||mletracker.com^$third-party
 ||mlstat.com^$third-party
 ||mm7.net^$third-party
@@ -26751,6 +26742,7 @@ http://utm.
 ||rnlabs.com^$third-party
 ||roi-pro.com^$third-party
 ||roi-rocket.net^$third-party
+||roia.biz^$third-party
 ||roiservice.com^$third-party
 ||roispy.com^$third-party
 ||roitesting.com^$third-party
@@ -26825,6 +26817,7 @@ http://utm.
 ||sojern.com^$third-party
 ||sokrati.com^$third-party
 ||sometrics.com^$third-party
+||sophus3.com^$third-party
 ||speed-trap.com^$third-party
 ||splittag.com^$third-party
 ||spn.ee^$third-party
@@ -26924,6 +26917,7 @@ http://utm.
 ||trackconsole.com^$third-party
 ||trackedlink.net^$third-party
 ||tracking100.com^$third-party
+||tracking202.com^$third-party
 ||trackinglabs.com^$third-party
 ||trackmyweb.net^$third-party
 ||trackset.com^$third-party
@@ -26993,6 +26987,7 @@ http://utm.
 ||visiblemeasures.com/log?$object-subrequest,third-party
 ||visiblemeasures.com/swf/as3/as3sohandler.swf$object-subrequest,third-party
 ||visibli.com^$third-party
+||visioncriticalpanels.com^$third-party
 ||visistat.com^$third-party
 ||visitlog.net^$third-party
 ||visitor-track.com^$third-party
@@ -27102,6 +27097,7 @@ http://utm.
 ||oadz.com^$third-party
 ||users.51.la^$third-party
 ! Croatian
+||dotmetrics.net^$third-party
 ||xclaimwords.net^$third-party
 ! *** easylist:easyprivacy/easyprivacy_thirdparty.txt ***
 ||101apps.com/tracker.ashx?
@@ -27876,6 +27872,7 @@ http://utm.
 ||stat.to.cupidplc.com^$third-party
 ||statdb.pressflex.com^
 ||static.parsely.com^$third-party
+||statistics.crowdynews.com^$third-party
 ||statistics.infowap.info^
 ||statistics.tattermedia.com^
 ||statistics.wibiya.com^
@@ -28169,7 +28166,6 @@ http://utm.
 ||cri.cn/js/a1.js
 ||etwun.com:8080/counter.php?
 ||g.cn.miaozhen.com^
-||tanx.com/t/
 ||tns.simba.taobao.com^
 ||webterren.com/webdig.js?
 ||yigouw.com/c.js
@@ -29917,6 +29913,7 @@ http://utm.
 ||xnimg.cn^*/beacon.js
 ! Croatian
 ||dnevnik.hr/bin/usrtrck-new.php?
+||jutarnji.hr/template/js/eph_analytics.js
 !-----------------additional for ChinaList Lazy-------------
 ~hbwm.com###top_ads
 ||espn.vad.go.com^$domain=youtube.com
