@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: iMTDK+xjkkMzqYNdg3yP+g
+!  Checksum: ecZ62cKr3EJjC25SZqcpKA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 20 May 2013 18:34:51 +0800
+!  Last Modified:  Wed, 22 May 2013 21:33:13 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -885,7 +885,6 @@ lzstw.org##.play960
 lzstw.org##.top960
 
 !---M1905
-@@||static.m1905.com/profile/ads/*.xml$object_subrequest
 ||playerlog.lxdns.com^
 ||js.static.m1905.cn/pingd.js
 ||trace.m1905.cn^
@@ -1647,7 +1646,6 @@ cn.yahoo.com##.p_sider
 cn.yahoo.com###r_expandable
 news.cn.yahoo.com##.ad
 !--TW
-@@/ads/*$image,domain=buy.yahoo.com.tw
 @@||ads.yimg.com/ja/a/$image,domain=tw.yahoo.com
 @@||l.yimg.com/f/a/tw/js/flash_general_20090213.js$domain=tw.yahoo.com
 @@||l.yimg.com/f/a/tw/*/790840_*.swf
@@ -1841,6 +1839,7 @@ steachs.com###banner
 ||greenxf.com/GreenxfAD/
 ||greenxf.com/greenxf_com/greenad$script
 ||happydown.com^$script,subdocument
+||happydown.com/soft/ads/
 ||huacolor.com/soft/js/$script
 ||orsoon.com/orsoon/$script
 ||ouyaoxiazai.com^$script,subdocument
@@ -2935,7 +2934,6 @@ zxtjd.com###it_an
 /adjk.php^
 /adjs/*
 @@||zerodm.net/js/ads/zxdmxz.js
-/ads/*$~stylesheet
 /adphoto/*
 /adpics/*
 /adpolestar/*
@@ -3291,6 +3289,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 -footerads-
 -footerads.
 -gallery_ad/
+-games/ads/
 -google-ads/
 -google2-ad-
 -gpt-ad-
@@ -3300,6 +3299,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 -iframe-ads/
 -image-ad.
 -images/ad-
+-img/ads/
 -inspire-ad.
 -layer-ad.
 -layer-ads/
@@ -3331,6 +3331,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 -third-ad.
 -Web-Ad.
 -webad1.
+.1d/ads/
 .a3s?n=*&zone_id=
 .ad-cloud.
 .ad-traffic.
@@ -3371,6 +3372,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 .aspx?adid=
 .aspx?ads=
 .aspx?zoneid=
+.au/ads/
 .banner%20ad.
 .bbn.by/
 .biz/ad.
@@ -3379,6 +3381,8 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 .bns1.net/
 .box.ad.
 .br/ads/
+.ca/ads/
+.cc/ads/
 .cfm?ad=
 .cgi?ad=
 .ch/ads/
@@ -3403,6 +3407,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 .com/adpicture
 .com/ads-
 .com/ads.
+.com/ads/$image,object,subdocument
 .com/ads?
 .com/ads_
 .com/adser/
@@ -3427,6 +3432,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 .cz/affil/
 .cz/bannery/
 .dartconfig.js
+.eu/ads/
 .gif?ad=
 .gr/ads/
 .homad.
@@ -3436,13 +3442,18 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 .iads.js
 .ie/ads/
 .il/ads/
+.in/ads/
 .in/advt/
 .info/ad_
 .info/ads-
+.info/ads/
 .initdoubleclickadselementcontent?
 .internads.min.js
+.jp/ads/
+.ke/ads/
 .lazyload-ad-
 .microad.
+.mv/ads/
 .mx/ads/
 .my/ads/
 .net.ar/ads/
@@ -3454,6 +3465,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 .net/adj;
 .net/ads-
 .net/ads.
+.net/ads/
 .net/ads?
 .net/ads_
 .net/adv/
@@ -3464,6 +3476,8 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 .net/pfadj/
 .net/pops.js
 .net/vghd_
+.nl/ads/
+.no/ads/
 .nu/ads/
 .oasfile.
 .openad.
@@ -3475,10 +3489,12 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 .org/ad_
 .org/adgallery1
 .org/ads-
+.org/ads/
 .org/ads_
 .org/exit.js
 .org/gads/
 .org/pops.js
+.ph/ads/
 .php/ad/
 .php/ads/
 .php?ad=
@@ -3489,6 +3505,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 .php?nats=
 .php?zone_id=
 .php?zoneid=
+.pk/ads/
 .popunder.js
 .popup_im.
 .popupvideoad.
@@ -3529,7 +3546,9 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /125x125_banner.
 /125x125ad.
 /126_ad.
+/2010/ads/*
 /2010main/ad/*
+/2011/ads/*
 /2013/ads/*
 /24-7ads.
 /300-ad-
@@ -3553,6 +3572,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /_/ads/*
 /_ads/*
 /_affiliatebanners/*
+/_global/ads/*
 /_img/ad_
 /_js2/oas.
 /_scripts/_oas/*
@@ -3560,6 +3580,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /a.aspx?zone
 /a1/*?sub=$third-party
 /a2/?sub=$third-party
+/a2/ads/*
 /a3/?sub=$third-party
 /aamsz=
 /ABAdsv1.
@@ -3858,6 +3879,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /ad_files/*
 /ad_fill.
 /ad_filler.
+/ad_filmstrip/*
 /ad_flash/*
 /ad_flat_
 /ad_floater.
@@ -3899,6 +3921,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /ad_leader.
 /ad_leader_
 /ad_leaderboard.
+/ad_leaderboard/*
 /ad_left.
 /ad_left_
 /ad_legend_
@@ -3966,6 +3989,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /ad_show.
 /ad_show?
 /ad_side.
+/ad_sidebar/*
 /ad_sizes=
 /ad_skin_
 /ad_sky.
@@ -4292,7 +4316,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /adkeys.
 /adlabel.
 /adlabel_
-/adlabs.
+/adlabs.js
 /adlandr.
 /adlantis.
 /adlantisloader.
@@ -4531,25 +4555,35 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /ads.w3c.
 /ads/125l.
 /ads/125r.
+/ads/160.
 /ads/160/*
+/ads/2010/*
+/ads/300.
+/ads/3002.
 /ads/468.
 /ads/468a.
+/ads/728.
 /ads/728b.
 /ads/?QAPS_
 /ads/a.
 /ads/acctid=
 /ads/ad.
+/ads/ad_
 /ads/ads-$~stylesheet
 /ads/ads.
 /ads/ads/*
+/ads/ads_
 /ads/advshow.
 /ads/afc/*
 /ads/aff-
 /ads/as_header.
 /ads/b/*
 /ads/banner-
+/ads/banner.
 /ads/banner/*
+/ads/banner01.
 /ads/banner_
+/ads/banners/*
 /ads/beacon.
 /ads/bilar/*
 /Ads/Biz_
@@ -4560,6 +4594,8 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /ads/btbuckets/*
 /ads/center-
 /ads/click_
+/ads/cnvideo/*
+/ads/common/*
 /ads/contextual.
 /ads/contextual_
 /ads/contextuallinks/*
@@ -4567,6 +4603,8 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /ads/creatives/*
 /ads/cube-
 /ads/dart.
+/ads/default_
+/ads/dhtml/*
 /ads/directory/*
 /ads/display/*
 /ads/displaytrust.
@@ -4575,23 +4613,40 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /ads/flashbanners/*
 /ads/footer-
 /ads/footer.
+/ads/footer_
+/ads/freewheel/*
 /ads/generatedHTML/*
 /ads/generator/*
+/ads/google1.
+/ads/google2.
 /ads/gpt/*
 /ads/header-
 /ads/header_
+/ads/home/*
 /ads/homepage/*
+/ads/house/*
 /ads/house_
 /ads/html/*
 /ads/iframe
 /ads/image/*
+/ads/images/*
+/ads/img/*
 /ads/index-
+/ads/indexsponsors/*
+/ads/interstitial.
+/ads/interstitial/*
 /ads/js.
 /ads/js/*
+/ads/js_
 /ads/jsbannertext.
+/ads/labels/*
+/ads/layer.
+/ads/leaderboard-
 /ads/leaderboard.
 /ads/leaderboard/*
 /ads/leaderboard?
+/ads/leaderboard_
+/ads/load.
 /ads/main.
 /ads/menu_
 /ads/motherless.
@@ -4615,32 +4670,46 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /ads/popshow.
 /ads/popup.
 /ads/popup_
+/ads/post-
+/ads/preloader/*
 /ads/preroll/*
+/ads/preroll_
+/ads/promo_
 /ads/proxy-
+/ads/rail-
 /ads/rawstory_
 /ads/rect_
+/ads/rectangle_
 /ads/request.
 /ads/right.
 /ads/right/*
+/ads/ringtone_
 /ads/rotate/*
 /ads/scriptinject.
 /ads/scripts/*
 /ads/select/*
+/ads/show.
 /ads/show/*
+/ads/side-
 /ads/sidebar-
 /ads/sidedoor/*
 /ads/skins/*
 /ads/sky_
 /ads/sponsor
+/ads/square-
 /ads/square.
 /ads/square2.
 /ads/square3.
 /ads/storysponsors/*
 /ads/swfobject.
 /ads/takeovers/*
+/ads/third-
 /ads/tile-
+/ads/top-
 /ads/tracker/*
 /ads/vg/*
+/ads/video_
+/ads/view.
 /ads/vip_
 /ads/web/*
 /ads/welcomescreen.
@@ -4648,6 +4717,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /ads/widget.
 /ads/www/*
 /ads/yahoo/*
+/ads/zone/*
 /ads0.
 /ads01.
 /ads05.
@@ -5074,6 +5144,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /adv-banner.
 /adv-div-
 /adv-f.
+/adv/ads/*
 /adv/adv_
 /adv/kelkoo/*
 /adv/kelkoo_
@@ -5280,6 +5351,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /affilatebanner.
 /affiliate-content/*
 /affiliate/ad/*
+/affiliate/ads/*
 /affiliate/promo-
 /affiliate/promo/*
 /affiliate_banner/*
@@ -5311,6 +5383,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /ajax-advert-
 /ajax-advert.
 /ajax/ad/*
+/ajax/ads/*
 /ajaxads.
 /ajrotator/*
 /ajs.php?
@@ -5331,6 +5404,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /annonser/*
 /announce/adv/*
 /anyad.js
+/api/ads/*
 /apopwin.
 /app/ads.js
 /article_ad.
@@ -5341,6 +5415,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /aspbanner_inc.asp?
 /assets/ad-
 /assets/ad/*
+/assets/ads/*
 /assets/doubleclick/*
 /ast/ads/*
 /astrack.
@@ -5504,16 +5579,19 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /betrad.js
 /bftv/ads/*
 /bg-advert-
+/bg/ads/*
 /bg_ads_
 /bi_affiliate.js
 /bigad.
 /bigads/*
 /bigboxad.
 /bigtopl.swf
+/bin/ads/*
 /binary/ad/*
 /bizad.
 /bkgrndads/*
 /blockad_
+/blocks/ads/*
 /blog-ad-
 /blog/ads/*
 /blog_ad?
@@ -5585,6 +5663,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /camaoadsense.
 /camaoAdsenseHomepage.
 /camfuzeads/*
+/campus/ads/*
 /carbonads/*
 /carsadtaggenerator.js
 /cashad.
@@ -5592,9 +5671,11 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /catfishads/*
 /cb.php?sub$script,third-party
 /centerads.
+/central/ads/*
 /ceoads/*
 /cgi-bin/ad/*
 /cgi-bin/ads.
+/cgi-bin/ads/*
 /cgi-bin/ads_
 /cgi-bin/iframe/*
 /cgi-exe/ad.
@@ -5616,6 +5697,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /clickunder.
 /clients/ads/*
 /clkads.
+/cms/ads/*
 /cms/js/ad_
 /cn-advert.
 /cnads.js
@@ -5636,13 +5718,16 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /common/ad.
 /common/ad/*
 /common/ad_
+/common/ads/*
 /common/dart_wrapper_
 /common_ad.
 /commons/ad/*
 /commspace_ad.
 /companion_ads.
 /compban.html?
+/components/ads/*
 /conad.
+/configspace/ads/*
 /cont-adv.
 /contads.
 /contaxe_
@@ -5664,9 +5749,11 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /contextualad.
 /contpop.js|
 /contribute_ad.
+/controller/ads/*
 /controllerimg/adv/*
 /convertjsontoad.
 /core-ads-
+/core/ads/*
 /coread/*
 /corner_ads/*
 /cornerbig.swf
@@ -5706,7 +5793,9 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /customcontrols/ads/*
 /customerad_
 /cutead.
+/cvs/ads/*
 /cwggoogleadshow.
+/daily/ads/*
 /dart_ads.
 /dart_ads/*
 /dartad/*
@@ -5715,6 +5804,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /dartads.
 /dartcall.
 /dartfunctions.
+/data/ads/*
 /dateads.
 /dblclick.
 /dblclickad.
@@ -5723,6 +5813,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /dclk_ads_
 /dcloadads/*
 /ddlads/*
+/de/ads/*
 /default-adv/*
 /default_ads/*
 /default_adv.
@@ -5798,6 +5889,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /domainads/*
 /doodads/*
 /door/ads/*
+/doors/ads/*
 /doubleclick.aspx
 /doubleclick.js
 /doubleclick.php
@@ -5814,6 +5906,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /doubleclicktag.
 /download/ad.
 /download/ad/*
+/download/ads/*
 /drawad.
 /driveragentad1.
 /driveragentad2.
@@ -5824,9 +5917,11 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /dspads.
 /dtiadvert125x125.
 /dtmads/*
+/dxd/ads/*
 /dyn_banner.
 /dyn_banners_
 /dynamic-ad-
+/dynamic/ads/*
 /dynamic_ads/*
 /dynamicad?
 /dynamiccsad?
@@ -5845,7 +5940,6 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /ebay_ads/*
 /ebayad.
 /eco_ads/*
-/ecom/failsafe/*
 /ecom/magnet.
 /editable/ads/*
 /emailads/*
@@ -5854,6 +5948,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /EmreAds.
 /ems/ads.
 /en/ads/*
+/eng/ads/*
 /eporner-banner-
 /ept_in.php?
 /ero-1.
@@ -5897,10 +5992,12 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /expop.js
 /exports/tour/*$third-party
 /exports/tour_20/*
+/ext/ads/*
 /ext_ads.
 /extendedadvert.
 /external/ad.
 /external/ad/*
+/external/ads/*
 /external_ads.
 /externalad.
 /ExternalAdNetworkViewlogLogServlet?
@@ -5924,6 +6021,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /files/ad-
 /files/ad/*
 /files/ads-
+/files/ads/*
 /filter.php?pro$script
 /fimserve.
 /finads.
@@ -5932,6 +6030,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /flash-ads/*
 /flash/ad/*
 /flash/ad_
+/flash/ads/*
 /flash/advertis
 /flash_ads.
 /flashad.
@@ -5984,6 +6083,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /frequencyads.
 /friendfinder_
 /frnads.
+/frontend/ads/*
 /full/ads/*
 /fullad.
 /fulladbazee.
@@ -6065,6 +6165,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /getwebsitead/*
 /gexternalad.
 /gfx/ad/*
+/gfx/ads/*
 /ggadsense.
 /gifs/ads/*
 /glam160.
@@ -6074,6 +6175,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /global-ads_
 /global/ad/*
 /global/ads.
+/global/ads/*
 /globalad.
 /globaladprostyles.
 /globalbannerad.
@@ -6133,6 +6235,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /googleleads.
 /googlempu.
 /graphics/ad_
+/graphics/ads/*
 /grid-ad.
 /gt6skyadtop.
 /guardianleader.
@@ -6190,6 +6293,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /html/sponsors/*
 /htmlads/*
 /httpads/*
+/i/ads/*
 /i_ads.
 /ia/ads/*
 /iabadvertisingplugin.swf
@@ -6203,6 +6307,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /iframe.ad/*
 /iframe/ad/*
 /iframe/ad_
+/iframe/ads/*
 /iframe_ad.
 /iframe_ad?
 /iframe_ad_
@@ -6228,6 +6333,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /imaads.
 /imads.js
 /image/ad/*
+/image/ads/*
 /image/ads_
 /image_ads/*
 /imageads/*
@@ -6241,6 +6347,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /images/adds/*
 /images/ads-
 /images/ads.
+/images/ads/*
 /images/ads_
 /images/adv-
 /images/adv/*
@@ -6265,7 +6372,9 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /img/ad-
 /img/ad.
 /img/ad_
+/img/ads/*
 /img2/ad/*
+/img3/ads/*
 /img_ad_
 /img_ads/*
 /img_adv/*
@@ -6273,6 +6382,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /imgads/*
 /imgaffl/*
 /imgs/ad/*
+/imgs/ads/*
 /imlive.gif
 /imlive300_
 /imlive5.
@@ -6281,16 +6391,19 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /impopup/*
 /inad.
 /inc/ad.
+/inc/ads/*
 /inc_ad.
 /inc_ad_
 /inc_ads.
 /inc_v2/ad_
 /include/ad/*
 /include/ad_
+/include/ads/*
 /include/adsdaq
 /included_ads/*
 /includes/ad.
 /includes/ad_
+/includes/ads/*
 /includes/ads_
 /incmpuad.
 /index-ad.
@@ -6331,6 +6444,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /iserver/ccid=
 /iserver/site=
 /isgadvertisement/*
+/ispy/ads/*
 /iwadsense.
 /j/ads.js
 /javascript/ads.
@@ -6368,6 +6482,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /jsc/ads.
 /jserver/random
 /jserver/site
+/jsfiles/ads/*
 /jsplayerads-
 /jstextad.
 /jtcashbanners/*
@@ -6397,6 +6512,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /layerads.
 /layerads_
 /layout.inc.php?img
+/layout/ads/*
 /lazyad.
 /lbl_ad.
 /leader_ad.
@@ -6468,6 +6584,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /maxi_ad.
 /mbn_ad.
 /mcad.
+/media/ads/*
 /media/adv/*
 /media_ads/*
 /megaad.
@@ -6488,6 +6605,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /miniadbar/*
 /miniads?
 /minify/ads-
+/mint/ads/*
 /misc/ad-
 /misc/ads/*
 /miva_ads.
@@ -6505,6 +6623,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /module/ads/*
 /modules/ad/*
 /modules/ad_
+/modules/ads/*
 /modules/doubleclick/*
 /modules_ads.
 /momsads.
@@ -6556,8 +6675,10 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /newadvert/*
 /newaff/float
 /newdesign/ad/*
+/newimages/ads/*
 /newimplugs.
 /newrightcolad.
+/news/ads/*
 /news_ad.
 /newsite/ads/*
 /newsletterads/*
@@ -6611,6 +6732,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /ome.ads.
 /onead.
 /onesheet-ad-
+/online/ads/*
 /online_ads/*
 /onlineads/*
 /onplayerad.
@@ -6629,6 +6751,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /openxtag.
 /optonlineadcode.
 /orbitads.
+/other/ads/*
 /overlay-ad.
 /overlay_ad_
 /overlay_advertisement/*
@@ -6673,6 +6796,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /partnerbanner.
 /partnerbanner/*
 /partners/ad-
+/partners/ads/*
 /partners/get-banner.
 /partnersadbutler/*
 /parts/ad/*
@@ -6694,6 +6818,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /pencilad.
 /perfads.
 /performancingads/*
+/permanent/ads/*
 /pfpadv.
 /pgad.
 /pgrightsideads.
@@ -6708,17 +6833,21 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /phpadserver/*
 /phpadsnew/*
 /phpbanner/banner_
+/pic/ads/*
 /pickle-adsystem/*
 /picture/ad/*
 /pictureads/*
+/pictures/ads/*
 /pilot_ad.
 /pitattoad.
+/pix/ads/*
 /pixelads/*
 /place-ads/*
 /placeholder-ad-
 /play/ad/*
 /player/ad/*
 /player/ads.
+/player/ads/*
 /player_ads/*
 /pledgead.
 /plugin/ad/*
@@ -6748,7 +6877,6 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /popu.js
 /popunder-
 /popunder.
-/popunder.$object-subrequest,popup,script
 /popunder/*
 /popunder1.
 /popunder1_
@@ -6796,6 +6924,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /processing/impressions.asp?
 /projectwonderful_
 /promo/ad_
+/promo/ads/*
 /promo/affiframe.
 /promoads/*
 /promobuttonad.
@@ -6813,11 +6942,13 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /proxxorad.
 /proxyadcall?
 /pub/ad/*
+/pub/ads/*
 /pub_images/*$third-party
 /pubad.
 /pubads.
 /public/ad/*
 /public/ad?
+/public/ads/*
 /publicidad.$~object-subrequest,~stylesheet
 /publicidad/*
 /publicidad_$~stylesheet
@@ -6832,6 +6963,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /qandaads/*
 /qd_ads/*
 /quadadvert.
+/questions/ads/*
 /quick_ads/*
 /quigo_ad
 /r_ads/*
@@ -6857,6 +6989,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /rcolads2.
 /rcom-ads.
 /rcom-video-ads.
+/realmedia/ads/*
 /realmedia_banner.
 /realmedia_banner_
 /realmedia_mjx.
@@ -6879,6 +7012,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /reklama2.
 /reklama5.
 /reklame.
+/reklame/*
 /related-ads.
 /relatedads.
 /relevance_ad.
@@ -6888,6 +7022,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /report_ad.
 /requestadvertisement.
 /requestmyspacead.
+/resources/ads/*
 /resources/ads_
 /responsive-ads.
 /restorationad-
@@ -6937,6 +7072,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /rsads.js
 /rsads/*
 /rsc_ad_
+/rss/ads/*
 /rss2/?*&hp=*&np=$script,third-party
 /rss2/?*&np=*&hp=$script,third-party
 /rss2/?hp=*&np=$script,third-party
@@ -6962,6 +7098,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /scripts/ad/*
 /scripts/ad_
 /scripts/ads.
+/scripts/ads/*
 /scripts/afc/*
 /scripts/clickjs.php
 /scrollads/*
@@ -6984,11 +7121,14 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /serveads.
 /server/ads/*
 /servewebads/*
+/services/ads/*
 /settings/ad.
 /sevenads.
 /sevenl_ad.
+/share/ads/*
 /shared/ad_
 /shared/ads.
+/shared/ads/*
 /shortmediads/*
 /show-ad.
 /show-ads.
@@ -7034,6 +7174,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /sidekickads.
 /sidelinead.
 /siframead.
+/silver/ads/*
 /silverads.
 /simpleadvert.
 /simpleadvert/*
@@ -7047,6 +7188,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /siteads.
 /siteads/*
 /siteafs.txt?
+/sitemanagement/ads/*
 /sites/ad_
 /sitewide/ads/*
 /skin/ad/*
@@ -7083,6 +7225,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /smartad.
 /smartads.
 /smartlinks.epl?
+/smb/ads/*
 /socialads.
 /socialads/*$domain=~profiles.google.com
 /somaadscaleskyscraperscript.
@@ -7158,11 +7301,14 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /ss3/ads/*
 /static/ad/*
 /static/ad_
+/static/ads/*
 /static_ads/*
 /sticky_ad.
 /stickyad.
 /stickyad2.
+/storage/ads/*
 /storage/adv/*
+/stories/ads/*
 /story_ad.
 /story_ads_
 /storyadcode.
@@ -7181,6 +7327,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /survey_monkey.
 /svnad/*
 /swf/ad-
+/swf/ads/*
 /swfbin/ad-
 /swfbin/ad3-
 /swfbin/ad3_
@@ -7202,11 +7349,13 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /td_ads/*
 /tdlads/*
 /teamplayer-ads.
+/teaseimg/ads/*
 /technomedia.
 /teletoon_ad.
 /template/ad.
 /templateadvimages/*
 /templates/ad.
+/templates/ads/*
 /testads/*
 /testingad.
 /text_ad.
@@ -7240,6 +7389,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /tizers.php?
 /tmnadsense-
 /tmnadsense.
+/tmo/ads/*
 /tmobilead.
 /tncms/ads/*
 /toigoogleads.
@@ -7310,6 +7460,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /txtad.
 /txtads/*
 /u-ads.
+/u/ads/*
 /uberlayadrenderer.
 /ucstat.
 /ugoads.
@@ -7323,12 +7474,15 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /update_ads/*
 /update_layer/layer_os_new.php
 /uplimg/ads/*
+/upload/ads/*
 /uploaded/ads/*
+/uploads/ads/*
 /upsellingads/*
 /usenext16.
 /user_ads/*
 /userad.
 /userad/*
+/userimages/ads/*
 /usernext.
 /v5/ads/*
 /valueclick-ad.
@@ -7349,6 +7503,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /VHDpoppingModels/*
 /viagogoads.
 /video.ads.php?
+/video/ads/*
 /video2adrenderer.
 /video_ad.
 /video_ad_
@@ -7363,6 +7518,8 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /view/ads/*
 /view/banner/*
 /view_banner.
+/viewad.
+/viewad?
 /viewbannerad.
 /viewer/rad?
 /viewid=*/site=*/size=
@@ -7387,6 +7544,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /watchit_ad.
 /wbadvert/*
 /weather/ads/*
+/web/ads/*
 /web_ads/*
 /webad.
 /webad?
@@ -7410,11 +7568,13 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /widget/ads/*
 /widgetad.
 /wipeads/*
+/wire/ads/*
 /wired/ads/*
 /wix-ad.
 /wmads.
 /wordpress-ads-plug-in/*
 /work.php?n=*&size=*&c=
+/wp-content/ads/*
 /wp-content/mbp-banner/*
 /wp-content/plugins/banner-manager/*
 /wp-content/plugins/bhcb/lock.js
@@ -7430,12 +7590,14 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /writelayerad.
 /wwe_ads.
 /wwe_ads/*
+/www/ads/*
 /www/deliverx/*
 /www/delivery/*
 /x5advcorner.
 /xadvertisement.
 /xbanner.php?
 /xclicks.
+/xfiles/ads/*
 /xhr/ad/*
 /xlayer/layer.php?uid=$script
 /xml/ad/*
@@ -7490,6 +7652,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 ://rss.*/~a/
 ://synad.
 ://wrapper.*/a?
+:8080/ads/
 ;adsense_
 ;cue=pre;$object-subrequest
 ;iframeid=ad_
@@ -7543,7 +7706,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 ?adversion=
 ?advertisement=
 ?advertiser=
-?advertiserid=
+?advertiserid=$domain=~outbrain.com
 ?advertising=
 ?advideo_
 ?advtile=
@@ -7786,7 +7949,9 @@ _adwrap.
 _afd_ads.
 _affiliate_ad.
 _afs_ads.
+_alt/ads/
 _argus_ad_
+_assets/ads/
 _background_ad/
 _banner_ad.
 _banner_ad_
@@ -7856,6 +8021,7 @@ _iad.html?
 _iframe_ad_
 _images/ad.
 _images/ad_
+_images/ads/
 _index_ad.
 _inlineads.
 _js/ads.js
@@ -7868,6 +8034,7 @@ _logadslot&
 _longad_
 _main_ad.
 _mainad.
+_media/ads/
 _mmsadbanner/
 _onlinead_
 _openx.
@@ -7924,6 +8091,7 @@ _text_ads.
 _textad_
 _textads.
 _textads/
+_theme/ads/
 _tile_ad_
 _top_ad.
 _top_ad_
@@ -8532,6 +8700,7 @@ _a468x60.
 /ad_pop.php?$popup
 /adserver.$popup
 /bani/index.php?id=$popup
+/popunder.$popup
 /popunder_$popup
 /promoredirect?*&campaign=*&zone=$popup
 /punder.php$popup
@@ -8705,11 +8874,16 @@ _popunder+$popup
 ###Adtag300x250Bottom
 ###Adtag300x250Top
 ###Adv8
+###AdvArea
+###AdvBody
 ###AdvContainer
 ###AdvContainerBottom
 ###AdvContainerMiddleRight
 ###AdvContainerTopCenter
 ###AdvContainerTopRight
+###AdvFooter
+###AdvFrame1
+###AdvHead
 ###AdvHeader
 ###Advert1
 ###AdvertMPU23b
@@ -9194,6 +9368,7 @@ _popunder+$popup
 ###ad-s1
 ###ad-safe
 ###ad-section
+###ad-shop
 ###ad-side
 ###ad-side-text
 ###ad-sidebar
@@ -12100,6 +12275,7 @@ standard.co.uk###esDating
 ###header-banner-ad
 ###header-banner-spc
 ###header-google
+###header-house-ad
 ###header-top-ads-text
 ###headerAd
 ###headerAdBackground
@@ -14493,6 +14669,7 @@ standard.co.uk###esDating
 ##.ad-lazy-support-yes
 ##.ad-lb
 ##.ad-leader
+##.ad-leader-wrap
 ##.ad-leaderboard
 ##.ad-leaderboard-companion
 ##.ad-leaderboard-container
@@ -15280,6 +15457,7 @@ standard.co.uk###esDating
 ##.ad_hat_top
 ##.ad_head
 ##.ad_head_rectangle
+##.ad_head_wide
 ##.ad_header
 ##.ad_header_lb
 ##.ad_header_left
@@ -15295,7 +15473,6 @@ standard.co.uk###esDating
 ##.ad_image
 ##.ad_index02
 ##.ad_indicator
-##.ad_info
 ##.ad_info_block
 ##.ad_inline
 ##.ad_island
@@ -15564,13 +15741,10 @@ standard.co.uk###esDating
 ##.adcont
 ##.adcontent_box
 ##.adcopy
-##.add-2
 ##.add-column2
 ##.add-header-area
-##.add-result
 ##.add-sidebar
 ##.add-space
-##.add-text
 ##.add-wrapper
 ##.add300
 ##.add300top
@@ -15583,7 +15757,6 @@ standard.co.uk###esDating
 ##.add_300x250
 ##.add_baner
 ##.add_buttons
-##.add_container
 ##.add_topbanner
 ##.addarea
 ##.addbanner
@@ -18592,6 +18765,7 @@ standard.co.uk###esDating
 ##.ov_spns
 ##.ovadsenselabel
 ##.overflow-ad
+##.overlay_ad
 ##.ox-holder
 ##.ozadtop
 ##.ozadtop3
@@ -19310,6 +19484,7 @@ standard.co.uk###esDating
 ##.sponsor_units
 ##.sponsorad
 ##.sponsoradlabel
+##.sponsorads
 ##.sponsoradtitle
 ##.sponsored-ad
 ##.sponsored-ad-label
@@ -19977,8 +20152,6 @@ standard.co.uk###esDating
 ##[href^="http://www.yourfuckbook.com/?"]
 ##[id^="YFBMSN"]
 ##[onclick^="window.open('http://adultfriendfinder.com/search/"]
-##[src^="http://groovybus.com/gbbanner"]
-##[src^="http://www.groovybus.com/gbbanner"]
 ##a[href$="/vghd.shtml"]
 ##a[href*="/adrotate/adrotate-out.php?"]
 ##a[href^="http://NowDownloadAll.com"]
@@ -22569,6 +22742,7 @@ standard.co.uk###esDating
 ||208.43.84.120/trueswordsa3.gif$third-party,domain=~trueswords.com.ip
 ||216.41.211.36/widget/$third-party,domain=~bpaww.com.ip
 ||217.115.147.241/media/$third-party,domain=~elb-kind.de.ip
+||24.co.za^*/ads/
 ||24.com//flashplayer/ova-jw.swf$object-subrequest
 ||247hd.net/ad|
 ||24casino.cz/poker300-$third-party
@@ -22710,7 +22884,6 @@ standard.co.uk###esDating
 ||amazonaws.com/photos.offers.analoganalytics.com/
 ||amazonaws.com/publishflow/
 ||amazonaws.com/widgets.youcompare.com.au/
-||analoganalytics.com^$third-party
 ||anonym.to/*findandtry.com
 ||aolcdn.com/os/mapquest/marketing/promos/
 ||aolcdn.com/os/mapquest/promo-images/
@@ -22781,6 +22954,7 @@ standard.co.uk###esDating
 ||bittorrent.am/serws.php?$third-party
 ||bl.wavecdn.de^
 ||blamads-assets.s3.amazonaws.com^
+||blindferret.com/images/*_skin_
 ||blinkx.com/?i=*&adc_pub_id=$script,third-party
 ||blinkx.com/f2/overlays/
 ||blocks.ginotrack.com^$third-party
@@ -22845,6 +23019,7 @@ standard.co.uk###esDating
 ||chriscasconi.com/nostalgia_ad.
 ||cimg.in/images/banners/
 ||citadelcc.vo.llnwd.net^*/img/takeover_
+||citygridmedia.com/ads/
 ||clarity.abacast.com^
 ||click.eyk.net^
 ||clickstrip.6wav.es^
@@ -23265,6 +23440,7 @@ standard.co.uk###esDating
 ||lygo.com/d/toolbar/sponsors/
 ||lynku.com/partners/$third-party
 ||m.uploadedit.com^$third-party,domain=flysat.com
+||maases.com/i/br/$domain=promodj.com
 ||mads.aol.com^
 ||magicaffiliateplugin.com/img/mga-125x125.gif
 ||magicmembers.com/img/mgm-125x125
@@ -23451,7 +23627,6 @@ standard.co.uk###esDating
 ||redflagdeals.com/dealoftheday/widgets/$third-party
 ||redtram.com^$script,third-party
 ||reevoo.com/affiliate_logo/
-||reevoo.com^$third-party
 ||regnow.com/vendor/
 ||rehost.to/?ref=
 ||relink.us/images/$third-party
@@ -23694,6 +23869,7 @@ standard.co.uk###esDating
 ||xml.exactseek.com/cgi-bin/js-feed.cgi?$third-party
 ||xproxyhost.com/images/banners/
 ||yachting.org^*/banner/
+||yahoo.net^*/ads/
 ||yb.torchbrowser.com^
 ||yieldmanager.edgesuite.net^$third-party
 ||yimg.com^*/quickplay_maxwellhouse.png
@@ -23713,6 +23889,7 @@ standard.co.uk###esDating
 ! *** easylist:easylist/easylist_thirdparty_popup.txt ***
 ||4utro.ru^$popup
 ||adfoc.us/serve/$popup,third-party
+||adserving.unibet.com^$popup,third-party
 ||affportal-lb.bevomedia.com^$popup,third-party
 ||babylon.com/redirects/$popup,third-party
 ||bet365.com/home/?affiliate=$popup
@@ -24080,9 +24257,6 @@ standard.co.uk###esDating
 /banners-stat.
 /basesdc.js
 /baynote-$script
-/baynote-observer.js
-/baynote-search.js
-/baynote-single-local.js
 /baynote.
 /baynote/*
 /baynote3.
@@ -25866,6 +26040,7 @@ http://utm.
 ||amikay.com^$third-party
 ||amung.us^$third-party
 ||amxdt.com^$third-party
+||analoganalytics.com^$third-party
 ||analyticswizard.com^$third-party
 ||analytk.com^$third-party
 ||anametrix.net^$third-party
@@ -26775,7 +26950,6 @@ http://utm.
 ||segment-analytics.com^$third-party
 ||segment.io^$third-party
 ||selaris.com^$third-party
-||sellpoint.net^$third-party
 ||semasio.net^$third-party
 ||sendtraffic.com^$third-party
 ||seomonitor.ro^$third-party
@@ -27355,6 +27529,7 @@ http://utm.
 ||counter.cam-content.com^
 ||counter.htmlvalidator.com^
 ||counter.hyipexplorer.com^
+||counter.maases.com^
 ||counter.pagesview.com^
 ||counter.pax.com^
 ||counter.powweb.com^
@@ -27872,9 +28047,9 @@ http://utm.
 ||stat.ed.cupidplc.com^
 ||stat.segitek.hu^
 ||stat.to.cupidplc.com^$third-party
+||stat.web-regie.com^
 ||statdb.pressflex.com^
 ||static.parsely.com^$third-party
-||statistics.crowdynews.com^$third-party
 ||statistics.infowap.info^
 ||statistics.tattermedia.com^
 ||statistics.wibiya.com^
@@ -28054,7 +28229,6 @@ http://utm.
 ||trk.pswec.com^$third-party
 ||trk.vindicosuite.com^
 ||trumba.com/et.aspx?$third-party
-||truste.com/notice?*consent-track-image
 ||trustsquare.net/trafficmonitor/
 ||tsk5.com/17*?*=ex-
 ||ttwbs.channelintelligence.com^$third-party
@@ -28538,6 +28712,7 @@ http://utm.
 ||cooliris.com/shared/stats/
 ||cosmopolitan.co.za/rest/track/
 ||costco.ca/dynaTraceMonitor?
+||counter.promodeejay.net^
 ||coupons.com/pmm.asp
 ||courierpress.com/metrics/
 ||coursera.org/wf/open?
@@ -28583,7 +28758,6 @@ http://utm.
 ||dell.com/images/global/js/s_metrics*.js
 ||dell.com/metrics/
 ||derkeiler.com/gam/tag.js
-||desk.com^*/deskanalytics.js
 ||di-ve.com^*/stat2.aspx?
 ||diag.doba.com^
 ||dictionary.com/track/
@@ -29450,6 +29624,7 @@ http://utm.
 ||staticice.com.au/cgi-bin/stats.cgi?
 ||staticwhich.co.uk/assets/*/track.js
 ||staticworld.net/pixel.gif
+||statistics.crowdynews.com^
 ||statravel.co.uk/static/uk_division_web_live/Javascript/wt_gets.js
 ||statravel.com^*/Javascript/wt_gets.js
 ||stats.articlesbase.com^
@@ -29844,7 +30019,6 @@ http://utm.
 ||yelp.ie/spice?
 ||yimg.com/nq/ued/assets/flash/wsclient_
 ||yimg.com^*/swfproxy-$object
-||yimg.com^*/traffic/traffic-simulation.js
 ||yimg.com^*/yabcs.js
 ||yimg.com^*/ywa.js
 ||yobt.tv/js/timerotation*.js
