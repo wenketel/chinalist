@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: KIE47rV22jmz6N2ZK3+fYg
+!  Checksum: +gkR+xvJGPOoJF2zySWKKA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 29 May 2013 12:04:44 +0800
+!  Last Modified:  Sat, 01 Jun 2013 10:07:27 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -323,7 +323,6 @@ iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com##[class^="wgt-ads"]
 @@||data.video.qiyi.com/videos/other/$object_subrequest
 /ts.swf|$domain=iqiyi.com
 ||msg.iqiyi.com^
-||policy.cupid.qiyi.com^
 ||afp.qiyi.com^
 ||static.qiyi.com/js/pingback/
 ||jsmsg.video.qiyi.com^
@@ -1326,6 +1325,7 @@ finance.sina.com.cn###adSinaHouseHeadLink
 sina.com.cn##.adNone
 !-video
 ||log.v.iask.com^
+||count.video.sina.com.cn^
 ||video.sina.com.cn/iframe/
 ||count.kandian.com^$object_subrequest
 ||dcads.sina.com.cn^
@@ -3650,6 +3650,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /ad-left.
 /ad-letter.
 /ad-loader-
+/ad-loading.
 /ad-local.
 /ad-logger/*
 /ad-managment/*
@@ -3720,6 +3721,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /ad/blank.
 /ad/blog_
 /ad/bottom.
+/ad/card-
 /ad/common/*
 /ad/common_
 /ad/content/*
@@ -4869,6 +4871,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /adsdaqsky_
 /adsdelivery.
 /adsdyn160x160.
+/adSearch?
 /adsecondary.
 /adsegmentation.
 /adsence.
@@ -5465,7 +5468,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /banner-ad/*
 /banner-ad_
 /banner-ads/*
-/banner.asp?
+/banner.asp?$third-party
 /banner.ca?
 /banner.cgi?
 /banner.gif?
@@ -5748,6 +5751,7 @@ news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:h
 /content/ad/*
 /content/ad_
 /content/ads/*
+/content/adv/*
 /content_ad.
 /content_ad_
 /contentAd.
@@ -8290,7 +8294,6 @@ takeover_banner_
 /300-250-
 /300-250.
 /300_250_
-/300_300_
 /300x150_
 /300x250-
 /300x250.
@@ -11839,9 +11842,11 @@ _popunder+$popup
 ###dfp-ad-content_2-wrapper
 ###dfp-ad-content_3-wrapper
 ###dfp-ad-content_4-wrapper
+###dfp-ad-half_page_sidebar-wrapper
 ###dfp-ad-home_1-wrapper
 ###dfp-ad-home_2-wrapper
 ###dfp-ad-home_3-wrapper
+###dfp-ad-leaderboard-wrapper
 ###dfp-ad-medium_rectangle
 ###dfp_ad_Entry_160x600
 ###dfp_ad_Entry_300x250
@@ -11856,6 +11861,7 @@ _popunder+$popup
 ###dhm-bar
 ###disable-ads-container
 ###displayad_bottom-page
+###div-ad-2
 ###div-ad-coupon_1
 ###div-ad-coupon_10
 ###div-ad-coupon_11
@@ -16668,6 +16674,7 @@ standard.co.uk###esDating
 ##.advertise-inquiry
 ##.advertise-leaderboard
 ##.advertise-link
+##.advertise-link-post-bottom
 ##.advertise-list
 ##.advertise-small
 ##.advertise-square
@@ -18911,6 +18918,7 @@ standard.co.uk###esDating
 ##.post-advertisement
 ##.post-googlead
 ##.post-load-ad
+##.post-nativeadcarousel
 ##.postAd
 ##.postWideAd
 ##.post_ad
@@ -19357,6 +19365,7 @@ standard.co.uk###esDating
 ##.sidebar_ad_300
 ##.sidebar_ad_300_250
 ##.sidebar_ad_580
+##.sidebar_ad_container
 ##.sidebar_ad_holder
 ##.sidebar_ad_leaderboard
 ##.sidebar_ad_module
@@ -20006,6 +20015,7 @@ standard.co.uk###esDating
 ##.vert-adsBlock
 ##.vertad
 ##.vertical-adsense
+##.verticalAd
 ##.vertical_ad
 ##.vertical_ads
 ##.verysmallads
@@ -20258,11 +20268,12 @@ standard.co.uk###esDating
 ##a[href^="http://www.adxpansion.com"]
 ##a[href^="http://www.bluehost.com/track/"]
 ##a[href^="http://www.dealcent.com/register.php?affid="]
-##a[href^="http://www.download-provider.org/download"]
+##a[href^="http://www.download-provider.org/"]
 ##a[href^="http://www.downloadweb.org/"]
 ##a[href^="http://www.drowle.com/"]
 ##a[href^="http://www.faceporn.net/free?"]
 ##a[href^="http://www.fbooksluts.com/"]
+##a[href^="http://www.firstclass-download.com/"]
 ##a[href^="http://www.firstload.com/affiliate/"]
 ##a[href^="http://www.firstload.de/affiliate/"]
 ##a[href^="http://www.fleshlight.com/"]
@@ -21542,6 +21553,7 @@ standard.co.uk###esDating
 ||impressionvalue.mobi^$third-party
 ||incentaclick.com^$third-party
 ||incomeliberation.com^$third-party
+||increase-marketing.com^$third-party
 ||indiabanner.com^$third-party
 ||indiads.com^$third-party
 ||indianbannerexchange.com^$third-party
@@ -21804,6 +21816,7 @@ standard.co.uk###esDating
 ||mobday.com^$third-party
 ||mobicow.com^$third-party
 ||mobiyield.com^$third-party
+||moborobot.com^$third-party
 ||mogointeractive.com^$third-party
 ||mokonocdn.com^$third-party
 ||mondominishows.com^$third-party
@@ -22543,7 +22556,6 @@ standard.co.uk###esDating
 ||winbuyer.com^$third-party
 ||wingads.com^$third-party
 ||wlmarketing.com^$third-party
-||wm-panel.com^$third-party
 ||wmmediacorp.com^$third-party
 ||wootmedia.net^$third-party
 ||wordbankads.com^$third-party
@@ -22871,6 +22883,7 @@ standard.co.uk###esDating
 ||ad.valuecalling.com^$third-party
 ||ad.vidaroo.com^
 ||ad.where.com^
+||ad.wsod.com^$third-party
 ||ad.zaman.com.tr^$third-party
 ||adap.tv/redir/client/static/as3adplayer.swf
 ||adap.tv/redir/plugins/$object-subrequest
@@ -23062,6 +23075,7 @@ standard.co.uk###esDating
 ||businessnewswatch.ca/images/nnwbanner/
 ||buydig.com/assets/banners/
 ||buzznet.com^*/showpping-banner-$third-party
+||c829aeaf4090c1289783-9ad4110c8011547ec25e241b917b5aab.r35.cf2.rackcdn.com^
 ||cal-one.net/ellington/deals_widget.php?
 ||cal-one.net/ellington/search_form.php?
 ||camelmedia.net^*/banners/
@@ -23122,6 +23136,7 @@ standard.co.uk###esDating
 ||creatives.inmotionhosting.com^
 ||creatives.summitconnect.co.uk^
 ||crowdsavings.com/r/banner/
+||cruisesalefinder.co.nz/affiliates.html$third-party
 ||crunchyroll.com/awidget/$third-party
 ||cursecdn.com/banner/
 ||customcodebydan.com/images/banner.gif
@@ -23602,6 +23617,7 @@ standard.co.uk###esDating
 ||network.business.com^
 ||networkice.com^$subdocument,third-party
 ||newware.net/home/banner$third-party
+||newware.net/home/newware-sm.png$third-party
 ||nimblecommerce.com/widget.action?
 ||nitropdf.com/graphics/promo/$third-party
 ||nlsl.about.com/img?$third-party
@@ -23835,6 +23851,7 @@ standard.co.uk###esDating
 ||themis-media.com^*/sponsorships/
 ||theselfdefenseco.com/?affid=$third-party
 ||thetechnologyblog.net^*/bp_internet/
+||thirdpartycdn.lumovies.com^$third-party
 ||ticketkai.com/banner/
 ||ticketmaster.com/promotionalcontent/
 ||tickles.co.uk^$subdocument,third-party
@@ -24024,7 +24041,6 @@ standard.co.uk###esDating
 ||partypoker.com^$popup,third-party
 ||planet49.com/cgi-bin/wingame.pl?$popup
 ||pokerstars.eu^*/?source=$popup,third-party
-||pokerstrategy.com^$popup,third-party
 ||priceinfo.comuv.com^$popup
 ||promo.xcasino.com/?$popup,third-party
 ||pub.ezanga.com/rv2.php?$popup
@@ -24168,6 +24184,7 @@ standard.co.uk###esDating
 /1x1_akamai.gif
 /1x1p.gif?
 /1x1tracker.
+/?dm=*&blogid=$script
 /?livehit=
 /?record&key=
 /__ssobj/core.js
@@ -24388,6 +24405,7 @@ standard.co.uk###esDating
 /bstat.js
 /bstats.
 /bsuite/worker.php?
+/btn_tracking_pixel.
 /buffer.pgif?r=
 /bugcounter.php?
 /BuiltRegister.aspx?upt=
@@ -25766,6 +25784,7 @@ standard.co.uk###esDating
 /usertrack.aspx?
 /usertrackingajax.php?
 /utag.ga.
+/utag.js
 /utrack?
 /uxm_tracking.
 /v5.3nse.
@@ -27080,7 +27099,6 @@ http://utm.
 ||snowsignal.com^$third-party
 ||socialtrack.net^$third-party
 ||sodoit.com^$third-party
-||sojern.com^$third-party
 ||sokrati.com^$third-party
 ||sometrics.com^$third-party
 ||sophus3.com^$third-party
@@ -27316,6 +27334,7 @@ http://utm.
 ||whoson.com^$third-party
 ||wikia-beacon.com^$third-party
 ||wikiodeliv.com^$third-party
+||wildxtraffic.com^$third-party
 ||wiredminds.de^$third-party
 ||woopra-ns.com^$third-party
 ||woopra.com^$third-party
@@ -27664,7 +27683,6 @@ http://utm.
 ||d2gfi8ctn6kki7.cloudfront.net^$third-party
 ||d2pe20ur0h0p8p.cloudfront.net/identity/
 ||d2so4705rl485y.cloudfront.net^
-||d31qbv1cthcecs.cloudfront.net^$third-party
 ||d34ko97cxuv4p7.cloudfront.net^$third-party
 ||d36lvucg9kzous.cloudfront.net^
 ||d396ihyrqc81w.cloudfront.net^$third-party
@@ -27739,7 +27757,6 @@ http://utm.
 ||evt.collarity.com^$image
 ||facebook.com*/impression.php
 ||facebook.com/common/scribe_endpoint.php
-||facebook.com/connect/ping?$third-party
 ||facebook.com/email_open_log_pic.php
 ||facebook.com^*/tracking.js$third-party
 ||fairfax.com.au/js/track/
@@ -27842,6 +27859,7 @@ http://utm.
 ||inq.com^*/onEvent?_
 ||insight.mintel.com^$third-party
 ||insights.gravity.com^
+||insnw.net/instart/js/instart.js
 ||installiq.com/Pixels/
 ||intelligence.dgmsearchlab.com^
 ||intelligencefocus.com^*/sensor.js
@@ -27884,6 +27902,7 @@ http://utm.
 ||list-manage.com/track/
 ||live2support.com^*/js_lstrk.
 ||livechatinc.com^*/control.cgi?
+||livefyre.com/livecountping/
 ||livefyre.com/tracking/
 ||livefyre.com^*/tracking/
 ||livehelpnow.net/lhn/jsutil/getinvitationmessage.aspx?
@@ -28738,7 +28757,6 @@ http://utm.
 ||chatzy.com/?visitor
 ||cheapflights.com/ic/*.gif?
 ||cheapsalesconsulting.com/adaptive.php?
-||checkpoint.com/za/scripts/AutoTracker.js
 ||chelseafc.com^*/tracking.js
 ||china.com/statistic.js
 ||china.com^*/endpage_footer.js
@@ -29691,7 +29709,6 @@ http://utm.
 ||spanids.thesaurus.com^
 ||speakertext.com/analytics/
 ||spiegel.com/spacer.gif?
-||spiegel.de/static/sys/pixel.gif
 ||spinback.com/spinback/event/impression/
 ||spoonful.com^*/tracking.js
 ||sporcle.com/adn/yaktrack.php?
