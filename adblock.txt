@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: H3fuCczi+kBsla3+PYn2tQ
+!  Checksum: yzJwGJJ4CgIri08rS4pEUQ
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 01 Jun 2013 10:07:20 +0800
+!  Last Modified:  Sat, 01 Jun 2013 20:55:26 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -931,6 +931,11 @@ tt.mop.com##.gg01
 tt.mop.com##.gg02
 www.mop.com##.gg03
 
+!---恶意网站实验室
+||mwsl.org.cn/tj.php
+||mwsl-mwsl.stor.sinaapp.com/choujiang.png
+||mwsl-mwsl.stor.sinaapp.com/caiyun1.png
+
 !---My0511
 ||my0511.com/*/ad_
 ||my0511.com/aadd/
@@ -1783,11 +1788,6 @@ home.sz.zj.cn##.mb10.tips
 !----------------------------Generic(sort by domain name)--
 !---Blog Sites
 /krads-images/*$domain=36kr.com
-||appinn.com/wp-content/nanrenwa.jpg
-||appinn.com/wp-content/uploads/$image
-appinn.com##.ads
-appinn.com##.ads-m
-appinn.com##.gad
 ||img.chromi.org/2011/12/where-is-chromi.png
 ||rakuten-static.com^$domain=cwyuni.tw
 ||pic.pimg.tw/cwyuni/*.gif?v=$domain=cwyuni.tw
@@ -3052,6 +3052,9 @@ zxtjd.com###it_an
 55188.com##.a3_gg
 55188.com##[class^="nei"]
 amznz.com##div[style="float:left;width:250px;height:250px;"]
+appinn.com##.ads
+appinn.com##.ads-m
+appinn.com##.gad
 bcc.com.tw##TABLE[width="100%"] TR > TD[height="80"]
 fbook.net##.head-d
 hornydragon.blogspot.com,hornydragon.blogspot.tw###HTML13
@@ -3121,15 +3124,10 @@ yunkeji.com##.content > p:nth-last-of-type(3)
 zazww.com##[id^="ads_c_"]
 
 !-----------------------Temporary---------------------------
-!---2013.05
-||image.10010.com/index_js/flash-ad$script
-||guofs.com/wp-content/themes/Dreamy/images/hx95.gif
-||nanrenwa.com/_img/a/$third-party
-||live.neotv.cn/Images/live2/images/QQQ.jpg
+!---2013.06
 ||okbmf.com/Images/huodong/kg201007-960-100-02.gif
 3dmgame.com##.banner_2
 www.3dmgame.com##.banner_1
 www.3dmgame.com##[id^="clickbg"]
-news.ifeng.com##.blockR[style="padding:9px;width:300px; height:250px; overflow:hidden"]
 ||zasv.net/data/attachment/forum/201301/10/103254zzrl6yrr7zr2765y.gif
 !------------------------End of List-------------------------
