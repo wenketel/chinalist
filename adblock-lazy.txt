@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: i1O4hWokWokRGDfwTvvCpw
+!  Checksum: Cggt5RNtb5ldumsnHnikxg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 01 Jun 2013 20:55:33 +0800
+!  Last Modified:  Sun, 02 Jun 2013 19:39:02 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -24,6 +24,7 @@ yocoy.com#@##AdArea
 @@||ad.ourgame.com/cgi-bin/insertflasha.js
 @@||cpro.baidu.com/cpro/ui/c.js$domain=bbs.9es.cn
 @@||pos.baidu.com/ecom?$script,domain=bbs.9es.cn
+bbs.kafan.cn#@#.a_mu
 @@||ad.qyer.com^
 !---Shopping websites
 @@||a.banggo.com/Ad/getAdPosList.shtml
@@ -520,7 +521,6 @@ douban.com###crazy-ad-wrapper
 ##.archiver_banne
 ##.bm.a_c
 ##.wp.a_f
-~kafan.cn##.wp.a_t
 
 !---discuss.com.hk
 /aeiou/*$domain=discuss.com.hk|uwants.com
@@ -3366,7 +3366,7 @@ www.3dmgame.com##[id^="clickbg"]
 .adsremote.
 .adtech_
 .adtooltip&
-.advert.
+.advert.$domain=~advert.ly
 .advertmarket.
 .adwolf.
 .ashx?ad=
@@ -7399,6 +7399,7 @@ www.3dmgame.com##[id^="clickbg"]
 /thirdpartyads/*
 /thumbs/ads/*
 /thunder/ad.
+/tiads.
 /tidaladplugin.
 /tii_ads.
 /tikilink?
@@ -7815,6 +7816,7 @@ _ad_leaderboard.
 _ad_middle_
 _ad_minileaderboard.
 _ad_new_
+_ad_number=
 _ad_one.
 _ad_over_
 _ad_page_
@@ -9213,6 +9215,7 @@ _popunder+$popup
 ###ad-300x60-1
 ###ad-350
 ###ad-376x280
+###ad-4
 ###ad-4-300x90
 ###ad-635x40-1
 ###ad-655
@@ -11396,6 +11399,7 @@ _popunder+$popup
 ###block-thewrap_ads_250x300-5
 ###block-thewrap_ads_250x300-6
 ###block-thewrap_ads_250x300-7
+###block-views-sidebar-ad
 ###blockAd
 ###blockAds
 ###block_ad
@@ -12575,6 +12579,7 @@ standard.co.uk###esDating
 ###jobsAdBox
 ###joead
 ###joead2
+###js-ad-leaderboard
 ###js_adsense
 ###jupiter-ads
 ###ka_adFullBanner
@@ -13790,6 +13795,9 @@ standard.co.uk###esDating
 ###title-wide-sponsored-by
 ###tmcomp_ad
 ###tmglBannerAd
+###tmn_ad_1
+###tmn_ad_2
+###tmn_ad_3
 ###tmp2_promo_ad
 ###tnt_ad_column
 ###toaster_ad
@@ -14646,6 +14654,7 @@ standard.co.uk###esDating
 ##.ad-container-994x282
 ##.ad-container-LEADER
 ##.ad-container-bot
+##.ad-container-leaderboard
 ##.ad-container-tool
 ##.ad-container-top
 ##.ad-container-topad
@@ -19188,6 +19197,7 @@ standard.co.uk###esDating
 ##.rot_ads
 ##.rotating-ad
 ##.rotatingAdvertisement
+##.rotator_ad_overlay
 ##.round_box_advert
 ##.roundedCornersAd
 ##.roundingrayboxads
@@ -21121,6 +21131,7 @@ standard.co.uk###esDating
 ||copacet.com^$third-party
 ||coretarget.co.uk^$third-party
 ||cornflip.com^$third-party
+||coull.com^$third-party
 ||coupon2buy.com^$third-party
 ||covertarget.com^*_*.php
 ||cpabeyond.com^$third-party
@@ -23865,6 +23876,7 @@ standard.co.uk###esDating
 ||topmedia.com/external/
 ||topspin.net/secure/media/$image,domain=youtube.com
 ||toptenreviews.com/r/c/
+||toptenreviews.com/w/af_widget.js$third-party
 ||torguard.net/images/aff/
 ||torrentfreebie.com/index.asp?pid=$third-party
 ||tosol.co.uk/international.php?$third-party
@@ -24129,7 +24141,7 @@ standard.co.uk###esDating
 .com/stats.ashx?
 .com/stats.aspx?
 .com/t.gif?
-.com/track?
+.com/track?$~object
 .com/tracker.jsp
 .com/tracking?
 .com/traffic/?t=*&cb=
