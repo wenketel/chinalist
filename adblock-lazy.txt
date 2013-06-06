@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: nd7Zsb/FfyBivMiJZplQqA
+!  Checksum: hWQxTjPXKylIhW9p5Z3gAg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 03 Jun 2013 20:25:35 +0800
+!  Last Modified:  Thu, 06 Jun 2013 18:41:02 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -383,10 +383,9 @@ chinanews.com###qizhi_div980
 
 !---CCTV
 @@||cctv.com/js/cntv_Advertise.js
+@@||player.cntv.cn/adplayer/cntvAdPlayer.swf
 ||cctv.com/Library/a2.js
-||d.cntv.cn^$~object_subrequest
 ||log.vdn.apps.cntv.cn^
-||qiye.cctv.com/js/
 cntv.cn##.ad_w960
 tv.cntv.cn##[class^="ad_"]
 
@@ -3755,6 +3754,7 @@ www.3dmgame.com##[id^="clickbg"]
 /ad/serve.
 /ad/show.
 /ad/side_
+/ad/skin_
 /ad/skyscrapper.
 /ad/sponsored-
 /ad/sponsors/*
@@ -4768,6 +4768,7 @@ www.3dmgame.com##[id^="clickbg"]
 /ads7/*
 /ads728.
 /ads728x90_
+/ads790.
 /ads8.
 /ads8/*
 /ads88.
@@ -5686,6 +5687,7 @@ www.3dmgame.com##[id^="clickbg"]
 /catfishads/*
 /cb.php?sub$script,third-party
 /cci-ads-
+/cdn-cgi/pe/bag?r[]=*cpalead.com
 /centerads.
 /central/ads/*
 /ceoads/*
@@ -5976,7 +5978,7 @@ www.3dmgame.com##[id^="clickbg"]
 /ero.htm
 /ero_hosted_
 /ero_line_
-/eroad.
+/eroad.php
 /eroad2.
 /eroads.
 /eroadvertising.
@@ -7334,6 +7336,7 @@ www.3dmgame.com##[id^="clickbg"]
 /story_ads_
 /storyadcode.
 /storyads.
+/streamads.
 /streamatepop.
 /studioads/*
 /style_ad.
@@ -11467,6 +11470,7 @@ _popunder+$popup
 ###bottomAdSection
 ###bottomAdSense
 ###bottomAdSenseDiv
+###bottomAdWrapper
 ###bottomAds
 ###bottomAdvBox
 ###bottomAdvert
@@ -11715,6 +11719,7 @@ _popunder+$popup
 ###contextual-ads-block
 ###contextualad
 ###corner_ad
+###cornerad
 ###coverADS
 ###coverads
 ###csBotterAd
@@ -12401,6 +12406,7 @@ standard.co.uk###esDating
 ###homeAdLeft
 ###homeAds
 ###homeArticlesAd
+###homeBottomAdWrapperInner
 ###homeMPU
 ###homePageBotAd
 ###homeSideAd
@@ -14509,6 +14515,7 @@ standard.co.uk###esDating
 ##.absoluteAd_wss
 ##.acm_ad_zones
 ##.ad-1
+##.ad-120-60
 ##.ad-120-600-inner
 ##.ad-120x60
 ##.ad-120x600
@@ -14516,6 +14523,7 @@ standard.co.uk###esDating
 ##.ad-125x125
 ##.ad-150
 ##.ad-160
+##.ad-160-160
 ##.ad-160-600
 ##.ad-160x600
 ##.ad-160x600-gallery
@@ -14565,6 +14573,7 @@ standard.co.uk###esDating
 ##.ad-600
 ##.ad-635x40
 ##.ad-728
+##.ad-728-90
 ##.ad-728x90
 ##.ad-728x90-1
 ##.ad-728x90-top
@@ -15337,6 +15346,7 @@ standard.co.uk###esDating
 ##.ad_234x60
 ##.ad_240
 ##.ad_240x400
+##.ad_242_90_top
 ##.ad_250
 ##.ad_250x200
 ##.ad_250x250
@@ -15378,6 +15388,7 @@ standard.co.uk###esDating
 ##.ad_728Home
 ##.ad_728_90
 ##.ad_728_90_1
+##.ad_728_90_top
 ##.ad_728_90b
 ##.ad_728_top
 ##.ad_728_v2
@@ -15812,7 +15823,6 @@ standard.co.uk###esDating
 ##.add_300_250
 ##.add_300x250
 ##.add_baner
-##.add_buttons
 ##.add_topbanner
 ##.addarea
 ##.addbanner
@@ -15898,6 +15908,7 @@ standard.co.uk###esDating
 ##.admpu-small
 ##.adnation-banner
 ##.adnet120
+##.adnet_area
 ##.adnotice
 ##.adonmedianama
 ##.adops
@@ -17401,6 +17412,7 @@ standard.co.uk###esDating
 ##.cg_ad_slug
 ##.ch_advertisement
 ##.change_AdContainer
+##.changeableadzone
 ##.chitika-ad
 ##.chitikaAdBlock
 ##.chitikaAdCopy
@@ -17896,6 +17908,7 @@ standard.co.uk###esDating
 ##.google-ads-rodape
 ##.google-ads-sidebar
 ##.google-ads-slim
+##.google-ads-widget
 ##.google-ads-wrapper
 ##.google-ads2
 ##.google-adsense
@@ -18481,6 +18494,8 @@ standard.co.uk###esDating
 ##.longBannerAd
 ##.loop-ad
 ##.lowerAds
+##.lowerContentBannerAd
+##.lowerContentBannerAdInner
 ##.lower_ad
 ##.lr-ad
 ##.lr_skyad
@@ -18501,6 +18516,7 @@ standard.co.uk###esDating
 ##.main-ads
 ##.main-advert
 ##.main-column-ad
+##.main-right-ads
 ##.main-tabs-ad-block
 ##.mainAd
 ##.mainAdContainer
@@ -18885,6 +18901,8 @@ standard.co.uk###esDating
 ##.pgAdSection_Home_MasterSponsers
 ##.photo-ad
 ##.photoad
+##.pics_detail_ad
+##.pics_footer_ad
 ##.picto_ad
 ##.pkgTemplateAdWrapper
 ##.placeholderAd
@@ -19883,6 +19901,7 @@ standard.co.uk###esDating
 ##.top-right-ad
 ##.top-sidebar-adbox
 ##.top-treehouse-ad
+##.top-wide-ad-container
 ##.top300ad
 ##.topAD
 ##.topAdBanner
@@ -19967,6 +19986,7 @@ standard.co.uk###esDating
 ##.tower_ad
 ##.tower_ad_disclaimer
 ##.towerad
+##.tp_ads
 ##.tr-ad-adtech-placement
 ##.tr-ad-inset
 ##.trafficAdSpot
@@ -20269,6 +20289,7 @@ standard.co.uk###esDating
 ##a[href^="http://secure.hostgator.com/~affiliat/"]
 ##a[href^="http://secure.signup-page.com/"]
 ##a[href^="http://secure.signup-way.com/"]
+##a[href^="http://tour.affbuzzads.com/"]
 ##a[href^="http://tracking.crazylead.com/"]
 ##a[href^="http://ul.to/ref/"]
 ##a[href^="http://us.marketgid.com"]
@@ -20278,6 +20299,7 @@ standard.co.uk###esDating
 ##a[href^="http://www.adxpansion.com"]
 ##a[href^="http://www.bluehost.com/track/"]
 ##a[href^="http://www.dealcent.com/register.php?affid="]
+##a[href^="http://www.down1oads.com/"]
 ##a[href^="http://www.download-provider.org/"]
 ##a[href^="http://www.downloadweb.org/"]
 ##a[href^="http://www.drowle.com/"]
@@ -20309,6 +20331,7 @@ standard.co.uk###esDating
 ##a[href^="http://www.streamate.com/exports/"]
 ##a[href^="http://www.text-link-ads.com/"]
 ##a[href^="http://www.uniblue.com/cm/"]
+##a[href^="http://www.webtrackerplus.com/"]
 ##a[href^="http://www.yourfuckbook.com/?"]
 ##a[href^="http://www1.clickdownloader.com/"]
 ##a[href^="http://wxdownloadmanager.com/dl/"]
@@ -22828,6 +22851,7 @@ standard.co.uk###esDating
 ||zedo.com^$popup,third-party
 ! *** easylist:easylist/easylist_thirdparty.txt ***
 ||000webhost.com/images/banners/
+||0124498474f7c13ac9a2-6b191446002b31342189d56cabcf5227.r11.cf2.rackcdn.com^
 ||1-million-usd.com/images/banners/
 ||108.166.93.81/rotate/$domain=~infowars.com.ip
 ||108.59.5.132/files/$third-party,domain=~1channel.ch.ip
@@ -23028,6 +23052,7 @@ standard.co.uk###esDating
 ||banner.titancasino.com^
 ||banner.titanpoker.com^$third-party
 ||banner2.casino.com^$third-party
+||bannermaken.nl/banners/$third-party
 ||banners.cfspm.com.au^$third-party
 ||banners.ixitools.com^$third-party
 ||banners.moreniche.com^$third-party
@@ -23426,6 +23451,7 @@ standard.co.uk###esDating
 ||gsniper.com/images/$third-party
 ||guim.co.uk/guardian/thirdparty/tv-site/side.html
 ||haymarket-whistleout.s3.amazonaws.com/*_ad.html
+||haymarket.net.au/Skins/
 ||hexero.com/images/banner.gif
 ||hide-my-ip.com/promo/
 ||hiroservers.appspot.com/GenerateVastServlet/$object-subrequest
@@ -23765,6 +23791,7 @@ standard.co.uk###esDating
 ||sailthru.com/horizon/
 ||sailthru.com^*/horizon.js
 ||sat-shop.co.uk/images/$third-party
+||schenkelklopfer.org^*pop.js
 ||screenconnect.com/miscellaneous/ScreenConnect-$image,third-party
 ||scribol.com/txwidget$third-party
 ||search.yahoo.com/if?$subdocument,domain=local.com
@@ -23893,6 +23920,7 @@ standard.co.uk###esDating
 ||tremormedia.com/embed/js/*_ads.js
 ||tremormedia.com^*_preroll_
 ||trialpay.com^*&dw-ptid=$third-party
+||tribktla.files.wordpress.com/*-639x125-sponsorship.jpg?
 ||tritondigital.com/lt?sid*&hasads=
 ||tritondigital.com/ltflash.php?
 ||trivago.co.uk/uk/srv/$third-party
@@ -23946,6 +23974,7 @@ standard.co.uk###esDating
 ||washingtonpost.com/wp-srv/wapolabs/dw/readomniturecookie.html
 ||watch-naruto.tv/images/$third-party
 ||watchme.com/track/$subdocument,third-party
+||watersoul.com^$subdocument,third-party
 ||wealthyrush.com^*/banners/$third-party
 ||web2feel.com/images/$third-party
 ||webdev.co.zw/images/banners/$third-party
@@ -24009,6 +24038,7 @@ standard.co.uk###esDating
 ||adserving.unibet.com^$popup,third-party
 ||affportal-lb.bevomedia.com^$popup,third-party
 ||babylon.com/redirects/$popup,third-party
+||babylon.com/welcome/index.html?affID=$popup,third-party
 ||bet365.com/home/?affiliate=$popup
 ||binaryoptions24h.com^$popup,third-party
 ||casino.com^$popup,third-party
@@ -26442,6 +26472,8 @@ http://utm.
 ||ecustomeropinions.com^$third-party
 ||edgeadx.net^$third-party
 ||effectivemeasure.net^$third-party
+||ekmpinpoint.co.uk^$third-party
+||ekmpinpoint.com^$third-party
 ||elitics.com^$third-party
 ||eloqua.com^$third-party
 ||emediatrack.com^$third-party
@@ -26526,6 +26558,7 @@ http://utm.
 ||formalyzer.com^$third-party
 ||foundry42.com^$third-party
 ||fpctraffic2.com^$third-party
+||fprnt.com^$third-party
 ||free-counter.co.uk^$third-party
 ||free-counter.com^$third-party
 ||free-counters.co.uk^$third-party
@@ -27178,6 +27211,8 @@ http://utm.
 ||synergy-e.com^$third-party
 ||synthasite.net^$third-party
 ||sysomos.com^$third-party
+||taps.io^$third-party
+||tapstream.com^$third-party
 ||targetfuel.com^$third-party
 ||tcactivity.net^$third-party
 ||tcimg.com^$third-party
@@ -27208,6 +27243,7 @@ http://utm.
 ||topofblogs.com^$third-party
 ||torbit.com^$third-party
 ||touchclarity.com^$third-party
+||tracelytics.com^$third-party
 ||tracemyip.org^$third-party
 ||tracer.jp^$third-party
 ||tracetracking.net^$third-party
@@ -27738,6 +27774,7 @@ http://utm.
 ||dt.sellpoint.net^
 ||dtym7iokkjlif.cloudfront.net/dough/
 ||du8783wkf05yr.cloudfront.net^$third-party
+||dufue2m4sondk.cloudfront.net^
 ||dw.com.com^
 ||e-merchant.com/^*/edr.js$third-party
 ||ebay.northernhost.com^
@@ -28154,6 +28191,7 @@ http://utm.
 ||sig.gamerdna.com^$third-party
 ||sightmaxondemand.com/wreal/sightmaxagentinterface/monitor.smjs
 ||signup.advance.net^*affiliate
+||sitedelux.com/svcs/increment_page_counter.jsp?
 ||sitereports.officelive.com^
 ||skysa.com/tracker/
 ||slidedeck.com^$image,third-party
@@ -28820,6 +28858,7 @@ http://utm.
 ||collect.sas.com^
 ||collect2.sas.com^
 ||collection.theaa.com^
+||collector.githubapp.com^
 ||collector.ksax.com^
 ||collector.kstptv5.com^
 ||collector.statowl.com^
@@ -29664,6 +29703,8 @@ http://utm.
 ||search.firstplace.com^*pageview
 ||search.usa.gov/javascripts/stats.js
 ||searchenginewatch.com/utils/article_track/
+||seatgeek.com/sixpack/participate?
+||seatgeek.com/tracker.gif?
 ||secondspace.com^*/blank.gif
 ||securecomputing.net.au/t.ashx?
 ||securepaynet.net/image.aspx?
