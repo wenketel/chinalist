@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: zoNoi1kI886skbA4w7WjOQ
+!  Checksum: 6unPmWGwDwMaF3meZm2tsA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 07 Jun 2013 13:26:08 +0800
+!  Last Modified:  Fri, 07 Jun 2013 23:41:15 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -3081,7 +3081,7 @@ hdpfans.com##.boxleftconm
 hdpfans.com##.boxrightcom
 bbs.imuyang.com###diy1
 www.infoq.com##.home_banner
-www.infoq.com##.related_sponsors.vcronly
+infoq.com##[class^="related_sponsors"]
 www.infoq.com###gbanner.gbanner
 infzm.com##[class$="adv"]
 infzm.com##[id$="adv"]
@@ -4193,6 +4193,7 @@ www.3dmgame.com##[id^="clickbg"]
 /adfactor_
 /adfactory-
 /adfactory.
+/adfactory_
 /adfarm.
 /adfeed.
 /adfeedback/*
@@ -8037,6 +8038,7 @@ _google_ad.
 _google_ads.
 _google_ads/
 _google_ads_
+_googlead.
 _header_ad.
 _header_ad_
 _headerad.
@@ -9371,6 +9373,7 @@ _popunder+$popup
 ###ad-north-base
 ###ad-one
 ###ad-other
+###ad-overlay
 ###ad-placard
 ###ad-placeholder
 ###ad-placement
@@ -15812,7 +15815,6 @@ standard.co.uk###esDating
 ##.add-column2
 ##.add-header-area
 ##.add-sidebar
-##.add-space
 ##.add-wrapper
 ##.add300
 ##.add300top
@@ -15820,7 +15822,6 @@ standard.co.uk###esDating
 ##.addBox
 ##.addContainer
 ##.addResources
-##.addRow
 ##.add_300_250
 ##.add_300x250
 ##.add_baner
@@ -21318,6 +21319,7 @@ standard.co.uk###esDating
 ||doubleclick.net^*;afv_flvurl=http://cdn.c.ooyala.com/$third-party
 ||doubleclicks.me^$third-party
 ||doublepimp.com^$third-party
+||doublerads.com^$third-party
 ||doublerecall.com^$third-party
 ||doubleverify.com^$third-party
 ||downsonglyrics.com^$third-party
@@ -23250,7 +23252,7 @@ standard.co.uk###esDating
 ||d3lzezfa753mqu.cloudfront.net^
 ||d3m41swuqq4sv5.cloudfront.net^
 ||d3p9ql8flgemg7.cloudfront.net^
-||d3pkae9owd2lcf.cloudfront.net/mb102.js
+||d3pkae9owd2lcf.cloudfront.net^
 ||d3q2dpprdsteo.cloudfront.net^
 ||d3qszud4qdthr8.cloudfront.net^
 ||d3t2wca0ou3lqz.cloudfront.net^
@@ -28402,7 +28404,7 @@ http://utm.
 ||turner.com/analytics/tsg/ais.js
 ||turner.com^*/1pixel.gif?
 ||turnto.com/webEvent/$third-party
-||twimg.com/jot?$image
+||twimg.com/jot?
 ||twitvid.com^*/tracker.swf$third-party
 ||txn.grabnetworks.com^
 ||typepad.com^*/stats?$third-party
