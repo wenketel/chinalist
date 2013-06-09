@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: 6unPmWGwDwMaF3meZm2tsA
+!  Checksum: 1rqMVQC49spliBMCXMZmOQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 07 Jun 2013 23:41:15 +0800
+!  Last Modified:  Mon, 10 Jun 2013 01:18:21 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1108,6 +1108,7 @@ msn.people.com.cn##.shangxun
 ||error.pixplug.in^
 ||referer.pixplug.in^
 pixnet.net##.ad
+pixnet.net##[id*="-ad-sidebar-"]
 pixnet.net###pixblogad
 www.pixnet.net###extradiv2
 www.pixnet.net###extradiv5
@@ -3281,6 +3282,7 @@ www.3dmgame.com##[id^="clickbg"]
 -cpm-ad.
 -cpm-ads.
 -criteo.
+-euads.
 -fe-ads/
 -feed-ads.
 -fleshlight2.
@@ -5992,6 +5994,7 @@ www.3dmgame.com##[id^="clickbg"]
 /eshopoffer.
 /esi/ads/*
 /etology.
+/euads/*
 /event.ng/*
 /exchange_banner_
 /exit_popup
@@ -7052,6 +7055,8 @@ www.3dmgame.com##[id^="clickbg"]
 /restorationad-
 /retrad.
 /retrieve-ad.
+/revealaads.
+/revealaads/*
 /revealads.
 /revealads/*
 /revealads2/*
@@ -7328,6 +7333,7 @@ www.3dmgame.com##[id^="clickbg"]
 /static/ad_
 /static/ads/*
 /static_ads/*
+/staticadslot.
 /sticky_ad.
 /stickyad.
 /stickyad2.
@@ -8734,6 +8740,7 @@ _a468x60.
 /promoredirect?*&campaign=*&zone=$popup
 /punder.php$popup
 /spopunder^$popup
+://ads.$popup
 =popunder&$popup
 _popunder+$popup
 ! *** easylist:easylist/easylist_general_hide.txt ***
@@ -11960,7 +11967,6 @@ _popunder+$popup
 ###embedded-ad
 ###embeded_ad_content_container
 ###entrylist_ad
-standard.co.uk###esDating
 ###eshopad-728x90
 ###evotopTen_advert
 ###ex-ligatus
@@ -12035,6 +12041,7 @@ standard.co.uk###esDating
 ###footer-advert-area
 ###footer-advertisement
 ###footer-adverts
+###footer-adwrapper
 ###footer-affl
 ###footer-banner-ad
 ###footer-leaderboard-ad
@@ -16071,6 +16078,7 @@ standard.co.uk###esDating
 ##.ads300-200
 ##.ads300-250
 ##.ads300_250-widget
+##.ads300_600-widget
 ##.ads300box
 ##.ads300x
 ##.ads300x100
@@ -16923,6 +16931,7 @@ standard.co.uk###esDating
 ##.art_ads
 ##.art_new_ads_468_60
 ##.artcl_promo_ad
+##.article-ad
 ##.article-ad-300x250
 ##.article-ad-box
 ##.article-ad-left
@@ -17661,6 +17670,7 @@ standard.co.uk###esDating
 ##.double-ad
 ##.double-square-ad
 ##.double_adsense
+##.double_click_widget
 ##.doubleclick-ad
 ##.download-ad
 ##.downloadAds
@@ -19889,6 +19899,7 @@ standard.co.uk###esDating
 ##.top-ads-wrapper
 ##.top-adsense-banner
 ##.top-adspace
+##.top-adv
 ##.top-advert
 ##.top-banner-468
 ##.top-banner-ad
@@ -22874,6 +22885,7 @@ standard.co.uk###esDating
 ||24casino.cz/poker300-$third-party
 ||2beon.co.kr/nad/$third-party
 ||2leep.com/ticker2/$third-party
+||2yu.in/banner/$third-party
 ||360pal.com/ads/$third-party
 ||3dc265e90c6d9fa3cc0c-3f982316dc17e6e99fe1b47483239d63.r95.cf2.rackcdn.com^
 ||4002dbde88aebefdb1f7-8f93653c470e43727b1b565964867247.r51.cf2.rackcdn.com^
@@ -22895,7 +22907,6 @@ standard.co.uk###esDating
 ||abacast.com/banner/
 ||ablacrack.com/popup-pvd.js$third-party
 ||ad.23blogs.com^$third-party
-||ad.about.co.kr^$third-party
 ||ad.accessmediaproductions.com^
 ||ad.aquamediadirect.com^$third-party
 ||ad.e-kolay.net^$third-party
@@ -22928,7 +22939,6 @@ standard.co.uk###esDating
 ||adap.tv/redir/client/static/as3adplayer.swf
 ||adap.tv/redir/plugins/$object-subrequest
 ||adap.tv/redir/plugins3/$object-subrequest
-||adclick.cz.cc/ac/
 ||addme.com/images/addme_$third-party
 ||adf.ly/?$subdocument,~third-party,domain=adf.ly
 ||adf.ly/images/banners/
@@ -22938,12 +22948,9 @@ standard.co.uk###esDating
 ||adingo.jp.eimg.jp^
 ||adlandpro.com^$third-party
 ||adn.ebay.com^
-||ads.dynamicyield.com^$third-party
-||ads.futurenet.com^
 ||ads.mp.mydas.mobi^
 ||ads.ookla.com^
 ||adserv.legitreviews.com^$third-party
-||adserver-live.yoc.mobi^
 ||adstest.zaman.com.tr^$third-party
 ||advanced-intelligence.com/banner
 ||adz.zwee.ly^
@@ -22952,20 +22959,11 @@ standard.co.uk###esDating
 ||aff.svjump.com^
 ||affddl.automotive.com^
 ||affil.mupromo.com^
-||affiliate.astraweb.com^
-||affiliate.casinorewards.com^
-||affiliate.hotelkhoj.com^
 ||affiliate.juno.co.uk^$third-party
 ||affiliate.mediatemple.net^$third-party
-||affiliate.moveandstay.com^$third-party
-||affiliate.sportsinteraction.com^
 ||affiliateprogram.keywordspy.com^
 ||affiliates-cdn.mozilla.org^$third-party
-||affiliates.a2hosting.com^
-||affiliates.affiliatestar.com^
 ||affiliates.allposters.com^
-||affiliates.arvixe.com^
-||affiliates.betwize.com^
 ||affiliates.bhphotovideo.com^
 ||affiliates.bravenet.com^
 ||affiliates.centrebet.com^
@@ -22981,7 +22979,6 @@ standard.co.uk###esDating
 ||affiliates.minisites.com^
 ||affiliates.picaboocorp.com^$third-party
 ||affiliates.supergreenhosting.com^
-||affiliates.ticketnetwork.com^
 ||affiliates.tyroodr.com^
 ||affiliates.ufxpartners.com^
 ||affiliates.wagerprofits.com^
@@ -22989,6 +22986,7 @@ standard.co.uk###esDating
 ||affutdmedia.com^$third-party
 ||afimg.liveperson.com^$third-party
 ||agenda.complex.com^
+||agoda.net/banners/
 ||ahlanlive.com/newsletters/banners/$third-party
 ||ais.abacast.com^
 ||ak.imgaft.com^$third-party
@@ -23512,6 +23510,7 @@ standard.co.uk###esDating
 ||iobit.com/partner/$third-party
 ||iol.co.za^*/sponsors/
 ||iselectmedia.com^*/banners/
+||iypcdn.com^*/bgbanners/
 ||iypcdn.com^*/otherbanners/
 ||iypcdn.com^*/ypbanners/
 ||jalbum.net/widgetapi/js/dlbutton.js?
@@ -23793,6 +23792,7 @@ standard.co.uk###esDating
 ||safarinow.com/affiliate-zone/
 ||sailthru.com/horizon/
 ||sailthru.com^*/horizon.js
+||salemwebnetwork.com/Stations/images/SiteWrapper/
 ||sat-shop.co.uk/images/$third-party
 ||schenkelklopfer.org^*pop.js
 ||screenconnect.com/miscellaneous/ScreenConnect-$image,third-party
@@ -24077,6 +24077,7 @@ standard.co.uk###esDating
 ||lp.titanpoker.com^$popup,third-party
 ||lumosity.com/landing_pages/$popup
 ||lyricsbogie.com/?$popup,third-party
+||makemoneyonline.2yu.in^$popup
 ||maxedtube.com/video_play?*&utm_campaign=$popup,third-party
 ||mcars.org/landing/$popup,third-party
 ||media.mybet.com/redirect.aspx?pid=*&bid=$popup,third-party
@@ -24139,6 +24140,7 @@ standard.co.uk###esDating
 -tracking.js?
 -xtcore.js
 .au/1x1.gif?
+.cn/b.gif?
 .com.au/c.gif
 .com.au/HG?hc=
 .com.com/redir?timestamp
@@ -24884,6 +24886,7 @@ standard.co.uk###esDating
 /googleana.
 /GoogleAnalystics.
 /googleanalytics-prod.swf
+/googleanalytics.js
 /googleanalytics/*
 /googleAnalytics1.
 /googleAnalytics2.
@@ -26117,7 +26120,6 @@ http://utm.
 ||208.88.226.75^$third-party,domain=~informer.com.ip
 ||212.227.100.108^$third-party
 ||216.18.184.18^$third-party,domain=~etahub.com.ip
-||21sme.com^$third-party
 ||247ilabs.com^$third-party
 ||24counter.com^$third-party
 ||24log.com^$third-party
@@ -26593,7 +26595,6 @@ http://utm.
 ||getbackstory.com^$third-party
 ||getclicky.com^$third-party
 ||getfreebacklinks.com^$third-party
-||getfreebl.com^$third-party
 ||getresponse.com^$third-party
 ||getsmartcontent.com^$third-party
 ||getstatistics.se^$third-party
@@ -26705,6 +26706,7 @@ http://utm.
 ||inflectionpointmedia.com^$third-party
 ||innovateads.com^$third-party
 ||inphonic.com^$third-party
+||inpwrd.com^$third-party
 ||insightgrit.com^$third-party
 ||insitemetrics.com^$third-party
 ||inspectlet.com^$third-party
@@ -26771,6 +26773,7 @@ http://utm.
 ||leadforce1.com^$third-party
 ||leadforensics.com^$third-party
 ||leadformix.com^$third-party
+||leadintelligence.co.uk^$third-party
 ||leadlife.com^$third-party
 ||legolas-media.com^$third-party
 ||les-experts.com^$third-party
@@ -27056,6 +27059,7 @@ http://utm.
 ||referlytics.com^$third-party
 ||referrer.org^$third-party
 ||reinvigorate.net^$third-party
+||relead.com^$third-party
 ||relmaxtop.com^$third-party
 ||res-x.com^$third-party
 ||research-tool.com^$third-party
@@ -27302,6 +27306,7 @@ http://utm.
 ||uptimeviewer.com^$third-party
 ||urlbrief.com^$third-party
 ||urlself.com^$third-party
+||usabilitytools.com^$third-party
 ||usabilla.com^$third-party
 ||useronlinecounter.com^$third-party
 ||userreport.com^$third-party
@@ -27739,6 +27744,7 @@ http://utm.
 ||d2dq2ahtl5zl1z.cloudfront.net^
 ||d2gfi8ctn6kki7.cloudfront.net^$third-party
 ||d2pe20ur0h0p8p.cloudfront.net/identity/
+||d2ry9vue95px0b.cloudfront.net^
 ||d2so4705rl485y.cloudfront.net^
 ||d34ko97cxuv4p7.cloudfront.net^$third-party
 ||d36lvucg9kzous.cloudfront.net^
@@ -27975,6 +27981,7 @@ http://utm.
 ||log-*.previewnetworks.com^
 ||log.adap.tv^$object-subrequest
 ||log.kibboko.com^
+||log.kukuplay.com^$third-party
 ||log.liverail.com^
 ||log.olark.com^
 ||log.outbrain.com^
@@ -28219,6 +28226,7 @@ http://utm.
 ||statdb.pressflex.com^
 ||static.parsely.com^$third-party
 ||statistics.infowap.info^
+||statistics.m0lxcdn.kukuplay.com^$third-party
 ||statistics.tattermedia.com^
 ||statistics.wibiya.com^
 ||statking.net^*/count.js
@@ -28602,6 +28610,7 @@ http://utm.
 ||amazon.com/clog/
 ||amazon.com/gp/yourstore/recs/
 ||amazonaws.com/beacon/vtpixpc.gif?
+||amazonaws.com/tracking.relead.js
 ||amazonaws.com^*/pzyche.js
 ||amd.com/us/as/vwo/vwo_
 ||amp.virginmedia.com^
@@ -29337,6 +29346,7 @@ http://utm.
 ||log.newsvine.com^
 ||log.player.cntv.cn/stat.html?
 ||logger.dailymotion.com^
+||loggingservices.tribune.com^
 ||loglady.publicbroadcasting.net^
 ||logs.dashlane.com^
 ||lolbin.net/stats.php
@@ -30119,6 +30129,7 @@ http://utm.
 ||weblog.strawberrynet.com^
 ||weblogger01.data.disney.com^
 ||webmd.com/dtmcms/live/webmd/PageBuilder_Assets/JS/oas35.js
+||webmd.com/pixel/
 ||webmonkey.com/js/stats/
 ||webring.com/cgi-bin/logit?
 ||webstats.oanda.com^
