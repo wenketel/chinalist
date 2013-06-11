@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: /Gefad5coTS+XiTBG8+W8Q
+!  Checksum: E+UBX4jUaVB1iLw4vKgMJg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 10 Jun 2013 14:21:13 +0800
+!  Last Modified:  Tue, 11 Jun 2013 17:07:26 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -631,16 +631,14 @@ funshion.com##[class^="fs2012-"]
 fuliba.net##.textwidget
 
 !---游民星空
-||gamersky.com/bg_$image
 ||gamersky.com/frame/
+||gamersky.com/gspic/bg_$image
 ||gamersky.com/img/
-||bbs1.gamersky.com/count.htm
-||imgf.gamersky.com/300/
-||imgf.gamersky.com^*bg_ol$image
+||gamersky.com/picf/$subdocument
 gamersky.com##.adc
-gamersky.com###clickbg
 gamersky.com##div[style="position:absolute;z-index:1"]
 gamersky.com##.topadbod
+gamersky.com###hitix
 
 !---机锋
 ||gfan.com/press/
@@ -3421,6 +3419,7 @@ www.3dmgame.com##[id^="clickbg"]
 .com/doubleclick/
 .com/gads/
 .com/im-ad/
+.com/im_ad/
 .com/iplgadshow
 .com/js.ng/
 .com/js/adsense
@@ -6502,6 +6501,7 @@ www.3dmgame.com##[id^="clickbg"]
 /js2.ad/size=
 /js_ad_utf8.
 /js_ads/*
+/jsad.php
 /jsads-
 /jsadscripts/*
 /jsc/ads.
@@ -7081,6 +7081,7 @@ www.3dmgame.com##[id^="clickbg"]
 /rolloverads/*
 /rolloverbannerad.
 /root_ad.
+/rotad/*
 /rotads/*
 /rotateads.
 /rotatedads1.
@@ -10629,15 +10630,18 @@ _popunder+$popup
 ###ads_center_banner
 ###ads_container
 ###ads_dynamicShowcase
+###ads_eo
 ###ads_expand
 ###ads_footer
 ###ads_fullsize
+###ads_h
 ###ads_halfsize
 ###ads_header
 ###ads_horiz
 ###ads_horizontal
 ###ads_html1
 ###ads_html2
+###ads_im
 ###ads_inner
 ###ads_insert_container
 ###ads_layout_bottom
@@ -10659,6 +10663,7 @@ _popunder+$popup
 ###ads_right_sidebar
 ###ads_right_top
 ###ads_section_textlinks
+###ads_side
 ###ads_sidebar_bgnd
 ###ads_sidebar_roadblock
 ###ads_slide_div
@@ -13066,6 +13071,7 @@ _popunder+$popup
 ###player_ad
 ###player_ads
 ###player_middle_ad
+###playerad
 ###playvideotopad
 ###pmad-in1
 ###pod-ad-video-page
@@ -14303,6 +14309,7 @@ _popunder+$popup
 ##.AdvertisementTextTag
 ##.AdvertisementTop
 ##.Advertisment
+##.AdvertorialTeaser
 ##.Advman_Widget
 ##.AffAD
 ##.AffiliateAds
@@ -15856,6 +15863,8 @@ _popunder+$popup
 ##.adfooter
 ##.adframe
 ##.adframe2
+##.adframe_banner
+##.adframe_rectangle
 ##.adgear-bb
 ##.adgear_header
 ##.adgoogle_block
@@ -16880,6 +16889,7 @@ _popunder+$popup
 ##.affiliate-link
 ##.affiliate-sidebar
 ##.affiliateAdvertText
+##.affiliate_ad
 ##.affiliate_header_ads
 ##.affiliate_header_ads_container
 ##.affiliates-sidebar
@@ -16960,6 +16970,8 @@ _popunder+$popup
 ##.artist-ad-wrapper
 ##.aseadn
 ##.aside-ads
+##.aside_banner_ads
+##.aside_google_ads
 ##.atf-ad-medRect
 ##.atf-ad-medrec
 ##.atf_ad_box
@@ -18074,6 +18086,7 @@ _popunder+$popup
 ##.hdTopAdContainer
 ##.hd_advert
 ##.hd_below_player_ad
+##.hdr-ad
 ##.hdr-ad-text
 ##.hdr-ads
 ##.hdrAd
@@ -20258,6 +20271,7 @@ _popunder+$popup
 ##.ysponsor
 ##.yui3-ad
 ##.yw-ad
+##.z-sponsored-block
 ##.zRightAdNote
 ##.zc-grid-ad
 ##.zc-grid-position-ad
@@ -20870,6 +20884,7 @@ _popunder+$popup
 ||angege.com^$third-party
 ||anonymousads.com^$third-party
 ||anrdoezrs.net^$third-party
+||aorpum.com^$third-party
 ||apex-ad.com^$third-party
 ||apmebf.com^$third-party
 ||apptap.com^$third-party
@@ -21213,7 +21228,6 @@ _popunder+$popup
 ||cubics.com^$third-party
 ||cuelinks.com^$third-party
 ||curtisfrierson.com^$third-party
-||cybermonitor.com^$third-party
 ||cybmas.com^$third-party
 ||cygnus.com^$third-party
 ||d.m3.net^$third-party
@@ -21276,6 +21290,7 @@ _popunder+$popup
 ||doubleclick.net/adj/*.collegehumor/sec=videos_originalcontent;$third-party
 ||doubleclick.net/adx/$~object-subrequest,third-party
 ||doubleclick.net/adx/*.collegehumor/$third-party
+||doubleclick.net/adx/*.NPR.MUSIC/$third-party
 ||doubleclick.net/adx/*.NPR/$third-party
 ||doubleclick.net/adx/*.ted/$third-party
 ||doubleclick.net/adx/CBS.DENVER/$third-party
@@ -21664,6 +21679,7 @@ _popunder+$popup
 ||jdproject.net^$third-party
 ||jeetyetmedia.com^$third-party
 ||jiwire.com^$third-party
+||jizzontoy.com^$third-party
 ||jobamatic.com^$third-party
 ||jobsyndicate.com^$third-party
 ||jobtarget.com^$third-party
@@ -21785,6 +21801,7 @@ _popunder+$popup
 ||marketbanker.com^$third-party
 ||marketfly.net^$third-party
 ||markethealth.com^$third-party
+||marketingenhanced.com^$third-party
 ||marketleverage.com^$third-party
 ||marketnetwork.com^$third-party
 ||marketoring.com^$third-party
@@ -22849,6 +22866,7 @@ _popunder+$popup
 ||topshelftraffic.com^$popup,third-party
 ||torrentdeluxe.com^$popup,third-party
 ||traffichaus.com^$popup,third-party
+||trw12.com^$popup,third-party
 ||tutvp.com^$popup,third-party
 ||wahoha.com^$popup,third-party
 ||webtrackerplus.com^$popup,third-party
@@ -23709,9 +23727,6 @@ _popunder+$popup
 ||pics.firstload.de^$third-party
 ||play-asia.com/paos-$third-party
 ||playata.myvideo.de^$subdocument,third-party
-||playerimage.media.streamtheworld.com^*_config_bigbox.jpg
-||playerimage.media.streamtheworld.com^*_config_leaderboard.jpg
-||playerimage.media.streamtheworld.com^*_config_main_background_image.jpg
 ||playfooty.tv/jojo.html
 ||pm.web.com^$third-party
 ||pokerjunkie.com/rss/
@@ -24051,6 +24066,7 @@ _popunder+$popup
 ||d1110e4.se^$popup
 ||dateoffer.net/?s=*&subid=$popup,third-party
 ||eroticmix.blogspot.$popup
+||erotikdeal.com/?ref=$popup,third-party
 ||eurogrand.com^$popup
 ||europacasino.com^$popup,third-party
 ||evanetwork.com^$popup
@@ -26415,6 +26431,7 @@ http://utm.
 ||customerdiscoverytrack.com^$third-party
 ||cxense.com^$third-party
 ||cxt.ms^$third-party
+||cybermonitor.com^$third-party
 ||dacounter.com^$third-party
 ||dailycaller-alerts.com^$third-party
 ||dashboard.io^$third-party
@@ -29679,9 +29696,8 @@ http://utm.
 ||roadandtrack.com^*/RTdartSite.js
 ||rok.com.com^
 ||rottentomatoes.com/tracking/
-||rover.ebay.co.uk^$image,object,script
+||rover.ebay.$image,object,script
 ||rover.ebay.com.au^*&cguid=
-||rover.ebay.com^$image,object,script
 ||rsscache.com/Section/Stats/
 ||rsys2.net/pub/as?
 ||rt.com/debug/jslog/jstest.gif?
