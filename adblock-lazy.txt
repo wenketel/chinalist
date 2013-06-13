@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: JJeYoCW3Rr9Syv5Gj71ZRw
+!  Checksum: yu54UyAQ501ijVQk4bVedw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 12 Jun 2013 17:33:53 +0800
+!  Last Modified:  Thu, 13 Jun 2013 19:44:28 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -2483,7 +2483,6 @@ zxtjd.com###it_an
 ||21union.com^$third-party
 ||2144.cn^$third-party
 ||2273lm.com^$third-party
-||2529.com^$third-party
 ||25888.in^$third-party
 ||2bj.cc^$third-party
 ||3234.com^$third-party
@@ -2518,6 +2517,7 @@ zxtjd.com###it_an
 ||52kkt.com^$third-party
 ||52lover.info^$third-party
 ||5566ad.com^$third-party
+||559gp.com^$third-party
 ||58ad.org^$third-party
 ||58ar.com^$third-party
 ||www.59.cn^$third-party
@@ -2591,7 +2591,6 @@ zxtjd.com###it_an
 ||adsbro.com^$third-party
 ||adsue.com^$third-party
 ||adszui.com^$third-party
-||adsxin.com^$third-party
 ||adunioncode.com^$third-party
 ||adver.com.tw^$third-party
 ||advprotraffic.com^$third-party
@@ -2765,7 +2764,6 @@ zxtjd.com###it_an
 ||now.cn^$third-party
 ||nznbl.com^$third-party
 ||oeya.com^$third-party
-||oizu.com^$third-party
 ||ok8848.com^$third-party
 ||onetad.com^$third-party
 ||oounion.com^$third-party
@@ -3321,6 +3319,7 @@ www.3dmgame.com##[id^="clickbg"]
 -text-ads.
 -theme/ads/
 -third-ad.
+-top-ads.
 -Web-Ad.
 -webad1.
 .1d/ads/
@@ -3449,6 +3448,7 @@ www.3dmgame.com##[id^="clickbg"]
 .mv/ads/
 .mx/ads/
 .my/ads/
+.name/ads/
 .net.ar/ads/
 .net/ad-
 .net/ad/$~object-subrequest
@@ -3887,6 +3887,7 @@ www.3dmgame.com##[id^="clickbg"]
 /ad_footer_
 /ad_forum_
 /ad_frame.
+/ad_frame?
 /ad_function.
 /ad_generator.
 /ad_generator?
@@ -4073,6 +4074,8 @@ www.3dmgame.com##[id^="clickbg"]
 /adbottom.
 /adbox.
 /adbox/*
+/adbox1.
+/adbox2.
 /adbox_
 /adboxbk.
 /adboxes/*
@@ -4638,6 +4641,7 @@ www.3dmgame.com##[id^="clickbg"]
 /ads/img/*
 /ads/index-
 /ads/indexsponsors/*
+/ads/inner_
 /ads/interstitial.
 /ads/interstitial/*
 /ads/js.
@@ -8153,6 +8157,7 @@ takeover_banner_
 ||serve.*/promoload?
 ! Anti-Adblock
 /adb_detector.
+/adblock-blocker/*
 /adblock_detector.
 /adblockdetection.
 /anti-adblock/*$~stylesheet
@@ -8728,6 +8733,7 @@ _a468x60.
 ! *** easylist:easylist/easylist_general_block_popup.txt ***
 &link_type=offer$popup,third-party
 &program=revshare&$popup
+-ads-campaign/$popup
 /ad_pop.php?$popup
 /adserver.$popup
 /bani/index.php?id=$popup
@@ -16023,7 +16029,6 @@ _popunder+$popup
 ##.ads-left
 ##.ads-line
 ##.ads-links-general
-##.ads-list
 ##.ads-margin
 ##.ads-medium-rect
 ##.ads-middle
@@ -17975,6 +17980,7 @@ _popunder+$popup
 ##.googleAdv1
 ##.googleBannerWrapper
 ##.googleContentAds
+##.googleInsideAd
 ##.googleLgRect
 ##.googleProfileAd
 ##.googleSearchAd_content
@@ -18209,6 +18215,7 @@ _popunder+$popup
 ##.horiz_adspace
 ##.horizontal-ad-holder
 ##.horizontalAd
+##.horizontalAdvert
 ##.horizontal_ad
 ##.horizontal_adblock
 ##.horizontal_ads
@@ -21317,6 +21324,7 @@ _popunder+$popup
 ||doubleclick.net/pfadx/ccr.philadelphia.pa.n/$third-party
 ||doubleclick.net/pfadx/comedycentral.$third-party
 ||doubleclick.net/pfadx/csn.$third-party
+||doubleclick.net/pfadx/ctv.ctvwatch.ca/$third-party
 ||doubleclick.net/pfadx/ddm.ksl/$third-party
 ||doubleclick.net/pfadx/gn.movieweb.com/$third-party
 ||doubleclick.net/pfadx/ltv.wtvr.video/$third-party
@@ -21600,6 +21608,7 @@ _popunder+$popup
 ||igloohq.com^$third-party
 ||imedia.co.il^$third-party
 ||imediaaudiences.com^$third-party
+||imgfeedget.com^$third-party
 ||imglt.com^$third-party
 ||imgwebfeed.com^$third-party
 ||imho.ru^$third-party
@@ -22207,6 +22216,7 @@ _popunder+$popup
 ||rfihub.net^$third-party
 ||ricead.com^$third-party
 ||richmedia247.com^$third-party
+||richrelevance.com^$third-party
 ||richwebmedia.com^$third-party
 ||ringrevenue.com^$third-party
 ||ringtonematcher.com^$third-party
@@ -22250,7 +22260,6 @@ _popunder+$popup
 ||scratchaffs.com^$third-party
 ||search123.uk.com^$third-party
 ||seccoads.com^$third-party
-||secondspace.com^$third-party
 ||secondstreetmedia.com^$third-party
 ||secure-softwaremanager.com^$third-party
 ||securesoft.info^$third-party
@@ -22980,11 +22989,6 @@ _popunder+$popup
 ||affiliateprogram.keywordspy.com^
 ||affiliates-cdn.mozilla.org^$third-party
 ||affiliates.allposters.com^
-||affiliates.bhphotovideo.com^
-||affiliates.bravenet.com^
-||affiliates.centrebet.com^
-||affiliates.cheapsally.com^$third-party
-||affiliates.generatorsoftware.com^
 ||affiliates.homestead.com^$third-party
 ||affiliates.hotelclub.com^
 ||affiliates.jlist.com^
@@ -23113,6 +23117,7 @@ _popunder+$popup
 ||booking.com^*;tmpl=banner_
 ||bookingdragon.com^$subdocument,third-party
 ||bordernode.com/images/$third-party
+||borrowlenses.com/affiliate/
 ||box.anchorfree.net^
 ||bplaced.net/pub/
 ||bravenet.com/cserv.php
@@ -23183,6 +23188,7 @@ _popunder+$popup
 ||connect.summit.co.uk^
 ||consolpub.com/weatherwindow/
 ||content.livesportmedia.eu^
+||content.secondspace.com^$~image,third-party
 ||conversionplanet.com/published/feeds/$third-party
 ||couponcp-a.akamaihd.net^$third-party
 ||couptopia.com/affiliate/$third-party
@@ -23338,6 +23344,7 @@ _popunder+$popup
 ||dycpc40hvg4ki.cloudfront.net^
 ||dyl3p6so5yozo.cloudfront.net^
 ||dynw.com/banner
+||e32e0c3c972d179cd1d0-1847ac4c91d55b307d162b6d5ad07fe3.r71.cf2.rackcdn.com^
 ||e46fa8d94b17745ac277-ae524ab82d83e9108c081b44b53c4ff2.r94.cf2.rackcdn.com^
 ||easy-share.com/images/es20/
 ||easyretiredmillionaire.com/img/aff-img/
@@ -23354,6 +23361,7 @@ _popunder+$popup
 ||emsisoft.com/bnr/
 ||enticelabs.com/el/
 ||eplreplays.com/wl/
+||epowernetworktrackerimages.s3.amazonaws.com^
 ||esport-betting.com^*/betbanner/
 ||etoolkit.com/banner/$third-party
 ||etoro.com^$third-party
@@ -24812,8 +24820,10 @@ _popunder+$popup
 /ga1.js
 /ga2.aspx?utmac=$image
 /ga2.js
+/ga?utmac=$image
 /ga_dpc_youtube.
 /ga_dualcode_tracking.
+/ga_event_frame?
 /ga_event_tracking.
 /ga_external.
 /ga_footer.
@@ -26434,7 +26444,6 @@ http://utm.
 ||dacounter.com^$third-party
 ||dailycaller-alerts.com^$third-party
 ||dashboard.io^$third-party
-||datasphere.com^$third-party
 ||datvantage.com^$third-party
 ||daylife-analytics.com^$third-party
 ||daylogs.com^$third-party
@@ -27093,7 +27102,6 @@ http://utm.
 ||riastats.com^$third-party
 ||richard-group.com^$third-party
 ||richmetrics.com^$third-party
-||richrelevance.com^$third-party
 ||ritecounter.com^$third-party
 ||rkdms.com^$third-party
 ||rktu.com^$third-party
@@ -27179,6 +27187,7 @@ http://utm.
 ||speed-trap.com^$third-party
 ||splittag.com^$third-party
 ||spn.ee^$third-party
+||spotmx.com^$third-party
 ||spring.de^$third-party
 ||springmetrics.com^$third-party
 ||sptag.com^$third-party
@@ -28229,6 +28238,7 @@ http://utm.
 ||southafricahome.com/statsmodulev2/
 ||spaceprogram.com/webstats/
 ||sparklit.com/counter/
+||speedtestbeta.com/1v.gif
 ||speedtrap.shopdirect.com^
 ||spoods.rce.veeseo.com^
 ||spread.ly^*/statistics.php
@@ -28316,7 +28326,6 @@ http://utm.
 ||tag.email-attitude.com^
 ||tag.myplay.com^
 ||tag.sonymusic.com^
-||tealium.hs.llnwd.net^*/utag.js
 ||technorati.com/technoratimedia-pixel.js
 ||the-group.net/aether/
 ||thefilter.com^*?extanonid=$~script
