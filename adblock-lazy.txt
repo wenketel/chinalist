@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: yu54UyAQ501ijVQk4bVedw
+!  Checksum: uu7MOEZlO3VTkx5/+v0Ibw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 13 Jun 2013 19:44:28 +0800
+!  Last Modified:  Sun, 16 Jun 2013 11:46:11 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -21,6 +21,7 @@
 @@||bbs.52waha.com/data/attachment/common/ad/common_74_icon.png
 bbs.9baka.com,bbs.9gal.com#@##top_ad
 yocoy.com#@##AdArea
+@@||32666.com/templates/32666/images/ad/$script
 @@||ad.ourgame.com/cgi-bin/insertflasha.js
 @@||cpro.baidu.com/cpro/ui/c.js$domain=bbs.9es.cn
 @@||pos.baidu.com/ecom?$script,domain=bbs.9es.cn
@@ -1474,10 +1475,11 @@ u-car.com.tw##.sidead_text
 u-car.com.tw##.top
 
 !---U17
-||u17.com^$third-party
-||static.u17i.com/*/js/ad_api/
+||s.u17t.com/leaflet/upload/
+||wyxdb0.appsina.com/static/pub/js/signup/adm/$script
 u17.com##.mylife
-u17.com##.sidepic_40
+u17.com###rd280
+u17.com##[id^="u17-advert"]
 
 !---游久网
 ||uuu9.com/code/tool_netgame/$image
@@ -3316,6 +3318,7 @@ www.3dmgame.com##[id^="clickbg"]
 -sponsor-ad.
 -sponsored-links-
 -strip-ads-
+-template-ads/
 -text-ads.
 -theme/ads/
 -third-ad.
@@ -3356,6 +3359,7 @@ www.3dmgame.com##[id^="clickbg"]
 .advert.$domain=~advert.ly
 .advertmarket.
 .adwolf.
+.ae/ads/
 .ashx?ad=
 .ashx?AdID=
 .asp?coad
@@ -3735,6 +3739,7 @@ www.3dmgame.com##[id^="clickbg"]
 /ad/login-
 /ad/middle.
 /ad/omakasa.
+/ad/pong?
 /ad/popup.
 /ad/preview/*
 /ad/quigo/*
@@ -4220,10 +4225,13 @@ www.3dmgame.com##[id^="clickbg"]
 /adframe.
 /adframe/*
 /adframe120.
+/adframe120x240.
 /adframe2.
 /adframe468.
 /adframe728a.
 /adframe728b.
+/adframe728b2.
+/adframe728bot.
 /adframe?
 /adframe_
 /adframebottom.
@@ -4741,6 +4749,7 @@ www.3dmgame.com##[id^="clickbg"]
 /ads11/*
 /ads12.
 /ads125.
+/ads125_
 /ads160.
 /ads160x600-
 /ads160x600.
@@ -5381,7 +5390,6 @@ www.3dmgame.com##[id^="clickbg"]
 /affiliatebanner/*
 /affiliatebanners/*
 /affiliateimages/*
-/affiliatelinks.
 /affiliates.*.aspx?
 /affiliates/ban
 /affiliatetags/*
@@ -6608,7 +6616,7 @@ www.3dmgame.com##[id^="clickbg"]
 /match_ads.
 /maxi_ad.
 /mbn_ad.
-/mcad.
+/mcad.php
 /media/ads/*
 /media/adv/*
 /media_ads/*
@@ -7516,6 +7524,8 @@ www.3dmgame.com##[id^="clickbg"]
 /userad/*
 /userimages/ads/*
 /usernext.
+/utep/ad/*
+/utep_ad.js
 /v5/ads/*
 /valueclick-ad.
 /valueclick.
@@ -11192,6 +11202,7 @@ _popunder+$popup
 ###adzerk2
 ###adzerk_by
 ###adzone
+###adzone-right
 ###adzoneBANNER
 ###adzone_content
 ###adzoneheader
@@ -13911,6 +13922,7 @@ _popunder+$popup
 ###top_adspace
 ###top_adv-v2
 ###top_advert
+###top_advert_box
 ###top_advertise
 ###top_advertising
 ###top_container_ad
@@ -20005,6 +20017,7 @@ _popunder+$popup
 ##.topbar-ad-unit
 ##.topboardads
 ##.topcontentadvertisement
+##.topfootad
 ##.topic_inad
 ##.topratedBoxAD
 ##.topstoriesad
@@ -20165,6 +20178,7 @@ _popunder+$popup
 ##.widgetYahooAds
 ##.widget_ad
 ##.widget_ad-widget
+##.widget_ad125
 ##.widget_ad_boxes_widget
 ##.widget_ad_rotator
 ##.widget_adrotate_widgets
@@ -21120,7 +21134,6 @@ _popunder+$popup
 ||clickable.com^$third-party
 ||clickad.pl^$third-party
 ||clickagy.com^$third-party
-||clickbank.net^$third-party
 ||clickbet88.com^$third-party
 ||clickbooth.com^$third-party
 ||clickboothlnk.com^$third-party
@@ -21325,6 +21338,7 @@ _popunder+$popup
 ||doubleclick.net/pfadx/comedycentral.$third-party
 ||doubleclick.net/pfadx/csn.$third-party
 ||doubleclick.net/pfadx/ctv.ctvwatch.ca/$third-party
+||doubleclick.net/pfadx/ctv.muchmusic.com/$third-party
 ||doubleclick.net/pfadx/ddm.ksl/$third-party
 ||doubleclick.net/pfadx/gn.movieweb.com/$third-party
 ||doubleclick.net/pfadx/ltv.wtvr.video/$third-party
@@ -22646,6 +22660,7 @@ _popunder+$popup
 ||xdev.info^$third-party
 ||xgraph.net^$third-party
 ||xmlconfig.ltassrv.com^$third-party
+||xs.mochiads.com^$third-party
 ||xtendadvert.com^$third-party
 ||xtendmedia.com^$third-party
 ||xx00.info^$third-party
@@ -25410,6 +25425,7 @@ _popunder+$popup
 /pstats.
 /ptrack.
 /pubimppixel/*
+/public/visitor.json?
 /pv.gif?url
 /pvcount.
 /pview?event
@@ -26485,6 +26501,7 @@ http://utm.
 ||dsmmadvantage.com^$third-party
 ||dsparking.com^$third-party
 ||dsply.com^$third-party
+||dstrack2.info^$third-party
 ||dti-ranker.com^$third-party
 ||dv0.info^$third-party
 ||dwin1.com^$third-party
@@ -27003,6 +27020,7 @@ http://utm.
 ||pikzor.com^$third-party
 ||pingdom.net^$third-party
 ||pingomatic.com^$third-party
+||pixel.parsely.com^$third-party
 ||pixelrevenue.com^$third-party
 ||pixelsnippet.com^$third-party
 ||placemypixel.com^$third-party
@@ -27765,6 +27783,7 @@ http://utm.
 ||d1ros97qkrwjf5.cloudfront.net^
 ||d1wscoizcbxzhp.cloudfront.net^
 ||d1yu5hbtu8mng9.cloudfront.net^
+||d1z2jf7jlzjs58.cloudfront.net^
 ||d21o24qxwf7uku.cloudfront.net^$third-party
 ||d2dq2ahtl5zl1z.cloudfront.net^
 ||d2gfi8ctn6kki7.cloudfront.net^$third-party
@@ -29796,6 +29815,7 @@ http://utm.
 ||snakesworld.com/cgi-bin/hitometer/
 ||snippets.mozilla.com^
 ||snorgtees.com/js/digitalbasement/conversion.js
+||socialcodedev.com/pixel/
 ||socialstreamingplayer.crystalmedianetworks.com/tracker/
 ||somniture.theglobeandmail.com^
 ||sony-europe.com/tr/p.gif?
@@ -30033,6 +30053,7 @@ http://utm.
 ||trialpay.com/mi/
 ||triond.com/cntimp?
 ||tripadvisor.com/uvpages/page_moniker.html
+||trove.com/identity/public/visitor/
 ||trovus.co.uk/tracker/
 ||trueffect.underarmour.com^
 ||truste.com/common/js/ga.js

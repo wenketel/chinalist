@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: alrYFEYioGSbdcfKMh2oAQ
+!  Checksum: BOmzjvOSORYTheDy1R6g5g
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 13 Jun 2013 19:44:22 +0800
+!  Last Modified:  Sun, 16 Jun 2013 11:46:04 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -20,6 +20,7 @@
 @@||bbs.52waha.com/data/attachment/common/ad/common_74_icon.png
 bbs.9baka.com,bbs.9gal.com#@##top_ad
 yocoy.com#@##AdArea
+@@||32666.com/templates/32666/images/ad/$script
 @@||ad.ourgame.com/cgi-bin/insertflasha.js
 @@||cpro.baidu.com/cpro/ui/c.js$domain=bbs.9es.cn
 @@||pos.baidu.com/ecom?$script,domain=bbs.9es.cn
@@ -1473,10 +1474,11 @@ u-car.com.tw##.sidead_text
 u-car.com.tw##.top
 
 !---U17
-||u17.com^$third-party
-||static.u17i.com/*/js/ad_api/
+||s.u17t.com/leaflet/upload/
+||wyxdb0.appsina.com/static/pub/js/signup/adm/$script
 u17.com##.mylife
-u17.com##.sidepic_40
+u17.com###rd280
+u17.com##[id^="u17-advert"]
 
 !---游久网
 ||uuu9.com/code/tool_netgame/$image
