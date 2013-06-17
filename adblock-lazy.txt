@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: uu7MOEZlO3VTkx5/+v0Ibw
+!  Checksum: mKKeAqBwsqLPqvnujzOc4g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 16 Jun 2013 11:46:11 +0800
+!  Last Modified:  Mon, 17 Jun 2013 18:36:54 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -2358,7 +2358,6 @@ qiushibaike.com##.sitelink
 qzwb.com##.area[style^="height:70px;"]
 ||img.rmfans.cn/g/
 ||sellgreat.com/images/Bdvertisement/
-||simplecd.org/static/ad$script,subdocument
 ||so100.cn/images/a*.js
 ||so100.cn/images/newshead.htm
 ||subpig.net/add/
@@ -2384,6 +2383,8 @@ bbs.uueasy.com###banner
 ||webkaka.com/click/$image
 webkaka.com###Table1
 ||wpxap.com/a_img/
+||bbs.wuyou.com/0000/
+bbs.wuyou.com##.wp.a_t
 ||xici.net/service/$xmlhttprequest
 ||data.xici.net^
 ||xitek.com/newsite/mojs.php?
@@ -3103,7 +3104,6 @@ www.shupeng.com##.mod.msg-mod.msg-notice + .mod
 suopao.org##.t5[style^="margin-top:8px;"]
 ttmeiju.com##a[href^="http://www.ttmeiju.com/adclick.php?"]
 wcxiaoshuo.com##div[style="margin:10px auto; width:960px;height:90px;"]
-bbs.wuyou.com##[style="background: #BBE9FF"]
 xiachufang.com##.g-ga.g-bg-white
 yicai.com##a[href^="http://yicai.adsame.com"][href*="adwo.com"]
 yingzheng.com###diy1.area
@@ -6544,6 +6544,7 @@ www.3dmgame.com##[id^="clickbg"]
 /layerads.
 /layerads_
 /layout.inc.php?img
+/layout/ad.
 /layout/ads/*
 /lazyad.
 /lbl_ad.
@@ -8951,6 +8952,7 @@ _popunder+$popup
 ###BANNER_300x250
 ###BANNER_728x90
 ###BDV_fullAd
+###BackgroundAdContainer
 ###BannerAd
 ###BannerAdvert
 ###BannerAdvertisement
@@ -12794,6 +12796,7 @@ _popunder+$popup
 ###marketing-promo
 ###marketplaceAds
 ###marquee_ad
+###masSearchAd
 ###mastAd
 ###mastAdvert
 ###mastad
@@ -19606,6 +19609,7 @@ _popunder+$popup
 ##.sponsorLabel
 ##.sponsorLink
 ##.sponsorLinks
+##.sponsorMaskhead
 ##.sponsorPanel
 ##.sponsorPost
 ##.sponsorPostWrap
@@ -21581,6 +21585,7 @@ _popunder+$popup
 ||halogennetwork.com^$third-party
 ||harrenmedianetwork.com^$third-party
 ||havamedia.net^$third-party
+||havetohave.com^$third-party
 ||hb-247.com^$third-party
 ||headup.com^$third-party
 ||healthaffiliatesnetwork.com^$third-party
@@ -26497,6 +26502,7 @@ http://utm.
 ||doubleclick.net/imp;$third-party
 ||doubleclick.net/json?$third-party
 ||doubleclick.net/pixel?$third-party
+||doubleclick.net^*/trackimp/$third-party
 ||downture.in^$third-party
 ||dsmmadvantage.com^$third-party
 ||dsparking.com^$third-party
@@ -27268,6 +27274,7 @@ http://utm.
 ||tcactivity.net^$third-party
 ||tcimg.com^$third-party
 ||tdstats.com^$third-party
+||telemetrytaxonomy.net^$third-party
 ||teljari.is^$third-party
 ||tellapart.com^$third-party
 ||tentaculos.net^$third-party
@@ -29121,6 +29128,7 @@ http://utm.
 ||freeones.com/cgi-bin/links/cd/?cookies
 ||fresh.techdirt.com^
 ||frog.wix.com^
+||frontdoor.com/_track?
 ||frstatic.net^*/tracking.js
 ||ft.com/conker/service/pageview?
 ||ft.com^*/ft-tracking.js
@@ -29185,6 +29193,7 @@ http://utm.
 ||google.*/logxhraction?
 ||google.*/stats?frame=
 ||google.com/reader/logging?
+||google.com/stream_204?
 ||google.com/support/webmasters/api/metrics?$script
 ||google.com/uploadstats|$xmlhttprequest
 ||google.com^*/dlpageping?
@@ -29198,6 +29207,7 @@ http://utm.
 ||grooveshark.com^*/beacon.js
 ||groupon.com/analytic/
 ||groupon.com/tracky
+||guardian.co.uk/px.gif?
 ||h.cliphunter.com^
 ||harrisbank.com^*/zig.js
 ||harvester.eu.square-enix.com^
@@ -30287,6 +30297,15 @@ http://utm.
 ||zylom.com/pixel.jsp
 ||zylom.com^*/global_tracking.jsp?
 ||zylom.com^*/tracking_spotlight.js
+! Preliminarily blocking Omniture s_code tracking scripts (versions H.25 - H.25.2) due to breakage (https://adblockplus.org/forum/viewtopic.php?f=10&t=11378)
+||adobe.com/uber/js/omniture_s_code.js
+||bahn.de/common/view/static/*/js/lib/omniture/s_code.min.js
+||chip.de/js/omniture_somtr_code_vH.25.js
+||img-bahn.de/v/*/js/s_code.js$domain=bahn.de
+||nwsource.com/shared/js/s_code.js?$domain=seattletimes.com
+||pcworld.com/www.pcw/js/analytics/omniture/pcwmw-pcworld/s_code.js
+||redbox.com/gen2.33/scripts/s_code.js
+||skypeassets.com/i/tracking/js/s_code_20121127.js$domain=skype.com
 ! *** easylist:easyprivacy/easyprivacy_specific_international.txt ***
 ! Chinese
 ||analytics.163.com^
