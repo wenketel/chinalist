@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: qnHF/B5DnyU0RKCSrcPjLg
+!  Checksum: iP4ozBWOes1rOq8ymZxxEg
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 17 Jun 2013 19:39:41 +0800
+!  Last Modified:  Mon, 17 Jun 2013 20:21:59 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -65,7 +65,6 @@ blog.163.com##.m-adv.ztag
 ||impservice*.youdao.com^
 youdao.com##.sp-h
 youdao.com###sp
-youdao.com###adBottom
 www.youdao.com###ext
 
 !---17173
@@ -130,7 +129,6 @@ so.360.cn,so.com##.spread
 ||3boys2girls.com^$subdocument
 ||3boys2girls.com/images/newdefault/banner$image
 ||3boys2girls.com/newfile/image2010/banner_housead_
-||3boys2girls.com/overture_
 ||hk.go2tutor.com/lifebox.asp
 ||key8.com/cache/www/banner_
 ||ktzhk.com/plugins/cache_template/adv_3b2g.js
@@ -174,7 +172,6 @@ so.360.cn,so.com##.spread
 ||shrek.6.cn^
 6.cn###palyerAdText
 6.cn##[id^="adText"]
-v.6.cn###playerAd
 
 !---留园网
 ||6park.com^$subdocument
@@ -226,7 +223,6 @@ down.admin5.com###a2
 !---acfun.tv
 ||acfun.tv/api/count.aspx
 acfun.tv###ad-comment
-acfun.tv##.ad.ad-top
 
 !---游侠网
 ||bmp.ali213.net/js/
@@ -290,7 +286,6 @@ image.baidu.com##[id^="relecom"]
 ||pan.baidu.com/api/analytics?
 ||cdn.baidupcs.com/monitor.jpg?
 !--tieba
-tieba.baidu.com###aside_ad
 tieba.baidu.com##[id^="guanggao"]
 tieba.baidu.com###h123_mod
 tieba.baidu.com##.l_banner
@@ -315,7 +310,6 @@ iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com##[class^="wgt-ads"]
 ||duiwai.baidu.com^
 ||eclick.baidu.com^
 ||eiv.baidu.com^
-||hm.baidu.com^
 ||nsclick.baidu.com^
 ||sclick.baidu.com^
 ||spcode.baidu.com^
@@ -351,11 +345,9 @@ bilibili.tv##.ad-f
 ||bkill.com/css/ajs/
 ||bkill.com/css/js/bkill.js
 ||bkill.com/images/di.js
-bkill.com##.ad960
 
 !---易车网
 ||g.bitauto.com^$script
-bitauto.com##.bt_ad
 bitauto.com##.con_ad
 
 !---CC视频
@@ -502,7 +494,6 @@ dayoo.com##.cn
 
 !---Discuz! & PHPWind etc.
 @@/common/cf/*.thumb$image
-/common/ad_close.gif
 /common/cf/*$image,object
 ||discuz.gtimg.cn/cloud/scripts/discuz_tips.js
 ~xdjz.net###ads_c_tpc
@@ -701,14 +692,12 @@ www.hsw.cn##table[width="980"][height="90"]
 www.hsw.cn##table[width="980"][height="100"]
 
 !---沪江网
-||hjfile.cn/analytics/google/ga.js
 ||a4.yeshj.com^
 ||webclick.yeshj.com^
 
 !---环球网
 /cooperation/*$script,subdocument,domain=firefox.huanqiu.com
 ||huanqiu.com/script/HuanQiuAllBottom.Js
-huanqiu.com##.ad250x250
 huanqiu.com###adDt
 msn.huanqiu.com##.adMsn
 msn.huanqiu.com##.adMsn_1
@@ -788,7 +777,6 @@ ithome.com###bbs_hl
 ithome.com##.hl_wrap
 ithome.com,win7china.com###pop_notice
 ithome.com##.side_products
-win7china.com,win8china.com##.site_ad
 
 !---小猪快跑
 ||imanke.com/static/imanke/pigbbs.js
@@ -885,7 +873,6 @@ lzstw.org##.top960
 !---MSN
 !-CN
 @@||msn.wrating.com/a1.js
-||css.cn.msn.com/right_ad.htm
 ||stjscn.s-msn.com/portal/hp/2012/bingADs.js
 ||stjscn.s-msn.com/portal/hp/2012/o_code.js
 cn.msn.com##.advLf
@@ -978,9 +965,7 @@ newhua.com##.i1
 newhua.com##.sad
 games.newhua.com##.adwin
 games.newhua.com##.gad_r
-games.newhua.com##.topad2
 onlinedown.net##.adr
-onlinedown.net##.adzone
 onlinedown.net##.ban
 onlinedown.net##.r1
 onlinedown.net##.r2
@@ -1016,7 +1001,6 @@ appledaily.com.tw###mask_wrapper
 ||nownews.com/events/extad
 ||nownews.com/greenbug/
 ||nownews.com/include_house/
-||nownews.com/include_v11/js/ad_tab.js
 ||nownews.com/include_v11/js/googlad_top.js
 ||nownews.com/include_v11/js/more.js
 ||yes123.com.tw/nownews/
@@ -1081,7 +1065,6 @@ pconline.com.cn##.ivyBaidu
 ||hi.people.com.cn/NMediaFile/$object
 ||hi.people.com.cn/NMediaFile/*.gif
 ||msn.people.com.cn/css/2010tianrun/
-people.com.cn##.top_ad_list
 people.com.cn,~msn.people.com.cn##.topad
 hi.people.com.cn##img[width="690"][height="80"]
 hi.people.com.cn##table[width="290"]
@@ -1158,7 +1141,6 @@ rkanr.com##.flt.item2.bglink
 ||qidian.com/javascript/SNDAADAltern.js
 ||cj.qidian.com^$object,subdocument
 ||cj.qidian.com/Picture/$domain=forum.qdwenxue.com|forum.qidian.com
-||cj.qidian.com/svnad/
 ||c.pingba.qidian.com/increase.htm
 ||sdo.com/?appendix=$image,~image,popup
 ||sdo.com/?method=GetAd&
@@ -1196,7 +1178,6 @@ mb.qq.com#@##ad-container
 ||smart.linktech.cn^$third-party
 ||video.mywtv.cn/webfiles/ad_$object
 qq.com##.l_qq_com
-qq.com###topAd
 qq.com##div[style="width:960px;height:90px; margin:0 auto; text-align:center; padding-top:10px"]
 mail.qq.com##.tipbook-top
 ent.qq.com###ent_ad
@@ -1320,7 +1301,6 @@ finance.sina.com.cn###adSinaHouseHeadLink
 !-sports
 ||lining.sina.com.cn^$subdocument
 ||p4p.sina.com.cn^
-sina.com.cn##.adNone
 !-video
 ||log.v.iask.com^
 ||count.video.sina.com.cn^
@@ -1570,12 +1550,6 @@ xcar.com.cn##[class^="adset"]
 xcar.com.cn##.txright_boxb
 xcar.com.cn##[id^="xcarWindow_"]
 
-!---XFastest
-||xfastest.com/AD2/
-xfastest.com##[id^="ad"].block
-xfastest.com##.articles-left-olny
-xfastest.com###showRightOverFlow
-
 !---厦门小鱼
 /client.xmfish.com/attachments/bar/*$image
 ||adm.xmfish.com^
@@ -1731,7 +1705,6 @@ youku.com##.AB240
 
 !---人人影视
 ||copy.ousns.com^
-yyets.com##.adBox
 yyets.com##a[href="http://www.9070.org"]
 yyets.com##.games_tg
 yyets.com###hxhd_taobao
@@ -1903,7 +1876,6 @@ gxp.cc##.adx223
 ||u.qjwm.com^
 ||qjwm.com/123.jpg
 ||img.rayfile.com/scr/$script
-||rayfile.com/_.gif?vid
 /shortcounter.jsp$domain=ref.so
 ref.so##table[width="300"]
 ||log.vdisk.cn^
@@ -1929,7 +1901,6 @@ ys168.com###xtxx
 news.china.com.cn##TABLE[width="980"][style="margin:10px 0px;"]
 ||cnhubei.com/gg_10/
 ||cnhubei.com^*/g2
-||daqi.com/clicklog.js
 ||log.daqi.com^
 ||gamme.com.tw/ga/
 gamme.com.tw###bd
@@ -2219,8 +2190,6 @@ bio-equip.com##td[width="32%"]
 ||images.chinaz.com^
 @@||chiphell.com/activity/*/*/$image,script,stylesheet
 ||chiphell.com/activity/
-||codefans.net/ad_include/
-codefans.net##.ad960
 ||coolnovo.com/res/inc/liangbian.js
 ||coolnovo.com/temp/images/*_980x$image
 ||deyi.com/module/adsview/
@@ -2272,7 +2241,6 @@ frdic.com,godic.net###sidebar1
 /a-d-s/*$domain=hanzify.net|hanzify.org
 ||hefei.cc/templates/default/index_ad62.js
 ||hk-pub.com/forum/images/banner/
-||hk-pub.com/forum/include/overture_ads.js
 ||abc.hkepc.com^
 ||app.hualongxiang.com/adsview/
 ||hdad.hudong.com/hdad/
@@ -2369,7 +2337,6 @@ tianyayidu.com##div[style^="width:728px;"]
 /large/*$domain=tiyuba.tv
 ||topsage.com/service/$object
 ||tompda.com^$object
-||tvt.so/ad1.php
 ||tvt.so/images/banner2.png
 /gif/*$image,domain=txzqw.com
 /img/*$image,domain=txzqw.com
@@ -2932,9 +2899,7 @@ zxtjd.com###it_an
 /adv.
 /adv/*$domain=~ftchinese.com
 /advpic/*
-/affiliates/*
 /attachments/ad/*
-.com/ads/
 .com/js/ad.
 .com/js/ad_$domain=~eslite.com
 .com.cn/js/ad.
@@ -2996,7 +2961,6 @@ zxtjd.com###it_an
 /pingd?
 /tongji.js
 /tracking.$image,object_subrequest
-/usertrack.
 !--sort by domain
 ||50bang.org^$third-party
 ||51img.ajiang.net^
@@ -3082,7 +3046,6 @@ itopdog.cn##[id^="itopdog_ad-"]
 itopdog.cn##.xoxo > [id^="text-"]
 ithome.com.tw##table[height="110"]
 kugz.net###portal_block_241
-laishuwu.com##.topad2
 lkong.net##.myadvs
 lvye.cn##[class^="ad"]:not(.ad1)
 lvye.cn##.text-ad1
@@ -3104,6 +3067,9 @@ simplecd.me##[class^="ad-"]
 suopao.org##.t5[style^="margin-top:8px;"]
 ttmeiju.com##a[href^="http://www.ttmeiju.com/adclick.php?"]
 wcxiaoshuo.com##div[style="margin:10px auto; width:960px;height:90px;"]
+xfastest.com##[id^="ad"].block
+xfastest.com##.articles-left-olny
+xfastest.com###showRightOverFlow
 xiachufang.com##.g-ga.g-bg-white
 yicai.com##a[href^="http://yicai.adsame.com"][href*="adwo.com"]
 yingzheng.com###diy1.area

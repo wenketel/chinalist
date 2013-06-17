@@ -14,17 +14,9 @@
     <string>easylist:easyprivacy/easyprivacy_whitelist.txt</string>
     <string>easylist:easyprivacy/easyprivacy_whitelist_international.txt</string>
   </EasyPrivacyFlag>
-  <RemovedItems>
-    <string>/affiliate/banners/*</string>
-    <string>/affiliate/script.php?</string>
-    <string>/affiliate/scripts/*</string>
-    <string>/banner/affiliate/*</string>
-    <string>/banners/affiliate/*</string>
-    <string>/image/affiliate/*</string>
-    <string>/images/affiliate/*</string>
+  <RemovedItems>    
     <string>||treatme.co.nz/Affiliates/</string>
     <string>/adv.htm</string>
-    <string>/affiliates/banners/*</string>
     <string>||axandra.com/affiliates/</string>
     <string>||blissful-sin.com/affiliates/</string>
     <string>||bloodstock.uk.com/affiliates/</string>
@@ -110,9 +102,19 @@
     <string>||partner.googleadservices.com^$third-party</string>
     <string>||viglink.com/api/insert?$third-party</string>
     <string>||metaffiliation.com^*^taff=s</string>
+    <string>||alimama.com^$third-party</string>
+    <string>||adsame.com^$third-party</string>
+    <string>||aaa.dv0.info^$third-party</string>
+    <string>||allyes.com^$third-party</string>
+    <string>||banners.webmasterplan.com^$third-party</string>
+    <string>||leadintelligence.co.uk/in-text.js$third-party</string>
+    <string>||quirk.biz/webtracking/</string>
+    <string>||s.cxt.ms^$third-party</string>
+    <string>##a[href^="http://www.liutilities.com/aff"]</string>
+    <string>##a[href^="http://www.liutilities.com/products/campaigns/adv/"]</string>
+    <string>||washingtonpost.com/wp-srv/wapolabs/dw/readomniturecookie.html</string>
   </RemovedItems>
   <NewItems>
-    <string>~hbwm.com###top_ads</string>
     <string>||espn.vad.go.com^$domain=youtube.com</string>
     <string>||google.com/jsapi?autoload=*%22ads%22$script,domain=youtube.com</string>
     <string>||ytimg.com^*_banner$domain=youtube.com</string>
@@ -138,10 +140,6 @@
     <ModifyItem>
       <OldItem>/socialads/*</OldItem>
       <NewItem>/socialads/*$domain=~profiles.google.com</NewItem>
-    </ModifyItem>
-    <ModifyItem>
-      <OldItem>/MixBerryAdsProduction/</OldItem>
-      <NewItem>/MixBerryAdsProduction/*</NewItem>
     </ModifyItem>
     <ModifyItem>
       <OldItem>/fcgi-bin/*</OldItem>
