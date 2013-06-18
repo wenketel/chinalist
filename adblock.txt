@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: kYSgAEN7PoLOkay0UB/H1w
+!  Checksum: 8js4tWeFdXixc6WjwEj0uA
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 17 Jun 2013 20:34:19 +0800
+!  Last Modified:  Tue, 18 Jun 2013 16:49:33 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -16,6 +16,7 @@
 2tu.cc#@#.adds
 51job.com#@##ad_left
 51job.com#@##ad_right
+520tingshu.com#@#.ad960
 52vfx.com#@##head_ad
 @@||bbs.52waha.com/data/attachment/common/ad/common_74_icon.png
 bbs.9baka.com,bbs.9gal.com#@##top_ad
@@ -329,6 +330,7 @@ iqiyi.com###adflash
 iqiyi.com##[id^="div_theatre"]
 
 !---bilibili.tv
+||bilibili.tv/ad/
 ||bilibili.tv/html/
 ||stat.bilibili.tv^
 ||hdslb.com/u_user/$object_subrequest,domain=bilibili.tv
@@ -603,8 +605,9 @@ i.firefoxchina.cn###topbanner
 
 !---搜狐焦点
 ||focus.cn/ad_publish/$script
-||focus.cn/common/js/adm2008.js
-focus.cn##.ad_fp
+||js.a.focus.cn/bj_ad/
+||simg.f.itc.cn/common/egou/images/
+||src.focus.cn/common/js/adm2012.js
 
 !---风行网
 @@||q.funshion.com/js.php
@@ -1703,8 +1706,7 @@ youku.com##.AB240
 
 !---人人影视
 ||copy.ousns.com^
-yyets.com##a[href="http://www.9070.org"]
-yyets.com##.games_tg
+yyets.com##.games-rec-list
 yyets.com###hxhd_taobao
 
 !---叶子猪游戏网

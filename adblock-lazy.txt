@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: 3lSBnRVbj2x9wvIqeSofyA
+!  Checksum: e5Q8MVIUIoAqBHqehNIjrw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 17 Jun 2013 20:34:26 +0800
+!  Last Modified:  Tue, 18 Jun 2013 16:49:37 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -17,6 +17,7 @@
 2tu.cc#@#.adds
 51job.com#@##ad_left
 51job.com#@##ad_right
+520tingshu.com#@#.ad960
 52vfx.com#@##head_ad
 @@||bbs.52waha.com/data/attachment/common/ad/common_74_icon.png
 bbs.9baka.com,bbs.9gal.com#@##top_ad
@@ -330,6 +331,7 @@ iqiyi.com###adflash
 iqiyi.com##[id^="div_theatre"]
 
 !---bilibili.tv
+||bilibili.tv/ad/
 ||bilibili.tv/html/
 ||stat.bilibili.tv^
 ||hdslb.com/u_user/$object_subrequest,domain=bilibili.tv
@@ -604,8 +606,9 @@ i.firefoxchina.cn###topbanner
 
 !---搜狐焦点
 ||focus.cn/ad_publish/$script
-||focus.cn/common/js/adm2008.js
-focus.cn##.ad_fp
+||js.a.focus.cn/bj_ad/
+||simg.f.itc.cn/common/egou/images/
+||src.focus.cn/common/js/adm2012.js
 
 !---风行网
 @@||q.funshion.com/js.php
@@ -1704,8 +1707,7 @@ youku.com##.AB240
 
 !---人人影视
 ||copy.ousns.com^
-yyets.com##a[href="http://www.9070.org"]
-yyets.com##.games_tg
+yyets.com##.games-rec-list
 yyets.com###hxhd_taobao
 
 !---叶子猪游戏网
@@ -7107,7 +7109,6 @@ www.3dmgame.com##[id^="clickbg"]
 /scripts/ads.
 /scripts/ads/*
 /scripts/afc/*
-/scripts/clickjs.php
 /scrollads/*
 /search-ads?
 /search.php?uid=*.*&src=
@@ -7232,6 +7233,7 @@ www.3dmgame.com##[id^="clickbg"]
 /smartad-
 /smartad.
 /smartads.
+/smartadserver.
 /smartlinks.epl?
 /smb/ads/*
 /socialads.
@@ -9373,6 +9375,7 @@ _popunder+$popup
 ###ad-popup1
 ###ad-position-a
 ###ad-post
+###ad-r
 ###ad-rbkua
 ###ad-rec-atf
 ###ad-rec-btf-top
@@ -10281,6 +10284,11 @@ _popunder+$popup
 ###adbanner-middle
 ###adbanner-top-left
 ###adbanner-top-right
+###adbanner00001
+###adbanner00002
+###adbanner00003
+###adbanner00004
+###adbanner00005
 ###adbanner1
 ###adbanner_abovethefold_300
 ###adbannerdiv
@@ -10424,6 +10432,7 @@ _popunder+$popup
 ###adlove
 ###adlrec
 ###admain
+###admanagerResultListBox
 ###admanager_leaderboard
 ###admid
 ###admiddle3
@@ -11759,6 +11768,7 @@ _popunder+$popup
 ###ctl00__Content__RepeaterReplies_ctl03__AdReply
 ###ctl00_adFooter
 ###ctl00_advert_LargeMPU_div_AdPlaceHolder
+###ctl00_bottom_advert_728x90
 ###ctl00_cphMain_hlAd1
 ###ctl00_cphMain_hlAd2
 ###ctl00_cphMain_hlAd3
@@ -17259,6 +17269,7 @@ _popunder+$popup
 ##.bottom_adbreak
 ##.bottom_ads
 ##.bottom_adsense
+##.bottom_advert_728x90
 ##.bottom_bar_ads
 ##.bottom_right_ad
 ##.bottom_rightad
@@ -19754,6 +19765,7 @@ _popunder+$popup
 ##.storyad
 ##.storyad300
 ##.stpro_ads
+##.stream-ad
 ##.streamAd
 ##.strip-ad
 ##.subAdBannerArea
@@ -19864,6 +19876,7 @@ _popunder+$popup
 ##.tf_page_ad_search
 ##.theAdvert
 ##.theleftad
+##.themeblvd-ad-square-buttons
 ##.third-box-ad
 ##.thirdAd160Cont
 ##.thirdAdBot
@@ -21897,6 +21910,7 @@ _popunder+$popup
 ||myclickbankads.com^$third-party
 ||mydreamads.com^$third-party
 ||myemailbox.info^$third-party
+||myinfotopia.com^$third-party
 ||mylinkbox.com^$third-party
 ||mynewcarquote.us^$third-party
 ||mythings.com^$third-party
@@ -24791,6 +24805,7 @@ _popunder+$popup
 /ga-tracking/*
 /ga.aspx?
 /ga.gif?
+/ga.jsp?nbtpr=$image
 /ga.jsp?utmac=$image
 /ga.php?name=$image
 /ga.php?utm
@@ -27102,6 +27117,7 @@ http://utm.
 ||rs6.net^$third-party
 ||rsvpgenius.com^$third-party
 ||rtfn.net^$third-party
+||rztrkr.com^$third-party
 ||s3s-main.net^$third-party
 ||sageanalyst.net^$third-party
 ||saletrack.co.uk^$third-party
@@ -27313,6 +27329,7 @@ http://utm.
 ||umbel.com^$third-party
 ||unicaondemand.com^$third-party
 ||uptimeviewer.com^$third-party
+||uptracs.com^$third-party
 ||urlbrief.com^$third-party
 ||urlself.com^$third-party
 ||usabilitytools.com^$third-party
@@ -29606,6 +29623,7 @@ http://utm.
 ||plentyoffish.com/tracking.js
 ||pluto.airbnb.com^*.php?uuid=
 ||pnet.co.za/js/ga.js
+||pokernews.com/track-views.php?
 ||popcap.com^*/interstitial_zones.js
 ||potterybarn.com/pbimgs/*/external/thirdparty.js
 ||potterybarnkids.com/pkimgs/*/external/thirdparty.js
