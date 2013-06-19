@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: e5Q8MVIUIoAqBHqehNIjrw
+!  Checksum: Bng8J+H9SOhZO0nnIOYFKA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 18 Jun 2013 16:49:37 +0800
+!  Last Modified:  Wed, 19 Jun 2013 20:34:42 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -244,6 +244,7 @@ ali213.net##.newright
 ||acookie.*.gif?
 ||atpanel.com^$image
 ||taobao.com/go/$third-party,domain=~tmall.com
+||strip.taobaocdn.com^$third-party
 ||a.tbcdn.cn/s/atp.js
 ||a.tbcdn.cn/s/ac.js
 ||a.tbcdn.cn/s/tb-tracer-min.js
@@ -1616,13 +1617,9 @@ kuai.xunlei.com##.bot_tips
 
 !---Yahoo
 !--CN
-||buy.cn.yahoo.com/bd/$third-party
-||bj.data.cn.yahoo.com^$image
 ||bj.data.cn.yahoo.com/dpjs/yahoo.js
-||ks.cn.yahoo.com/ks_q1_tg.html
 cn.yahoo.com##.p_sider
 cn.yahoo.com###r_expandable
-news.cn.yahoo.com##.ad
 !--TW
 @@||ads.yimg.com/ja/a/$image,domain=tw.yahoo.com
 @@||l.yimg.com/f/a/tw/js/flash_general_20090213.js$domain=tw.yahoo.com
@@ -5156,6 +5153,7 @@ www.3dmgame.com##[id^="clickbg"]
 /adv_468.
 /adv_background/*
 /adv_banner_
+/adv_box_
 /adv_flash.
 /adv_frame/*
 /adv_horiz.
@@ -8175,7 +8173,6 @@ takeover_banner_
 -161x601-
 -300-250.
 -300x250-
--300x250.
 -300x250_
 -300x600.
 -460x68.
@@ -11323,6 +11320,7 @@ _popunder+$popup
 ###banner_ad_module
 ###banner_admicro
 ###banner_ads
+###banner_adsense
 ###banner_advertisement
 ###banner_content_ad
 ###banner_slot
@@ -12249,6 +12247,7 @@ _popunder+$popup
 ###google_adsense_home_468x60_1
 ###google_textlinks
 ###googlead
+###googlead-leaderboard
 ###googlead-left
 ###googlead-sidebar-middle
 ###googlead-sidebar-top
@@ -12469,6 +12468,7 @@ _popunder+$popup
 ###horizontal_ad
 ###horizontal_ad2
 ###horizontal_ad_top
+###horizontalad
 ###horizontalads
 ###hot-deals-ad
 ###hottopics-advert
@@ -13903,6 +13903,7 @@ _popunder+$popup
 ###top_ads_wrap
 ###top_adsense_cont
 ###top_adspace
+###top_adv
 ###top_adv-v2
 ###top_advert
 ###top_advert_box
@@ -14508,6 +14509,8 @@ _popunder+$popup
 ##.WiredWidgetsGoogleAds
 ##.WithAds
 ##.XEad
+##.YEN_Ads_120
+##.YEN_Ads_125
 ##.ZventsSponsoredLabel
 ##.ZventsSponsoredList
 ##._bannerAds
@@ -20850,6 +20853,7 @@ _popunder+$popup
 ||affinity.com^$third-party
 ||affiz.net^$third-party
 ||affplanet.com^$third-party
+||africawin.com^$third-party
 ||afterdownload.com^$third-party
 ||afterdownloads.com^$third-party
 ||afy11.net^$third-party
@@ -21645,7 +21649,6 @@ _popunder+$popup
 ||insightexpress.com^$third-party
 ||insightexpressai.com^$third-party
 ||insitepromotion.com^$third-party
-||insites.eu^$third-party
 ||insitesystems.com^$third-party
 ||inskinad.com^$third-party
 ||inskinmedia.com^$third-party
@@ -23359,6 +23362,7 @@ _popunder+$popup
 ||enticelabs.com/el/
 ||eplreplays.com/wl/
 ||epowernetworktrackerimages.s3.amazonaws.com^
+||escape.insites.eu^$third-party
 ||esport-betting.com^*/betbanner/
 ||etoolkit.com/banner/$third-party
 ||etoro.com^$third-party
@@ -23809,6 +23813,7 @@ _popunder+$popup
 ||salemwebnetwork.com/Stations/images/SiteWrapper/
 ||sat-shop.co.uk/images/$third-party
 ||schenkelklopfer.org^*pop.js
+||scoopdragon.com/images/Goodgame-Empire-MPU.jpg
 ||screenconnect.com/miscellaneous/ScreenConnect-$image,third-party
 ||scribol.com/txwidget$third-party
 ||search.yahoo.com/if?$subdocument,domain=local.com
@@ -24287,7 +24292,6 @@ _popunder+$popup
 /addLinkerEvents.js
 /addlogdetails.
 /addTrackingScripts.
-/adidasAnalytics.
 /adimppixel/*
 /adlogger_
 /adloggertracker.
@@ -25493,6 +25497,7 @@ _popunder+$popup
 /sclanalyticstag.
 /script/analytics/*
 /scripts.kissmetrics.com/*
+/scripts/clickjs.php
 /scripts/ga.js
 /scripts/hbx.js
 /scripts/xiti/*
@@ -27656,6 +27661,7 @@ http://utm.
 ||btn.clickability.com^
 ||bumpin.com^*/analytics.html
 ||buzzbox.buzzfeed.com^
+||bzgint.com/CUNCollector/
 ||bzpics.com/jslib/st.js?
 ||c.compete.com^
 ||c.homestore.com^
@@ -27876,7 +27882,6 @@ http://utm.
 ||fyre.co^*/tracking/
 ||g.delivery.net^$third-party
 ||ga.webdigi.co.uk^
-||gamebonuschecker.com/Scripts/tracker.js
 ||gamegecko.com/gametrack?
 ||gatehousemedia.com/wickedlocal/ip.js
 ||gcion.com/gcion.ashx?
@@ -28395,6 +28400,7 @@ http://utm.
 ||tracking.ehavior.net^
 ||tracking.fccinteractive.com^$third-party
 ||tracking.feedperfect.com^
+||tracking.fits.me^$third-party
 ||tracking.godatafeed.com^
 ||tracking.i-click.com.hk^
 ||tracking.interweave.com^$third-party

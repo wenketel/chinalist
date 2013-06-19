@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: 8js4tWeFdXixc6WjwEj0uA
+!  Checksum: o2O/5kVtrbOL9ZvqV8l6Lg
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 18 Jun 2013 16:49:33 +0800
+!  Last Modified:  Wed, 19 Jun 2013 20:34:37 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -243,6 +243,7 @@ ali213.net##.newright
 ||acookie.*.gif?
 ||atpanel.com^$image
 ||taobao.com/go/$third-party,domain=~tmall.com
+||strip.taobaocdn.com^$third-party
 ||a.tbcdn.cn/s/atp.js
 ||a.tbcdn.cn/s/ac.js
 ||a.tbcdn.cn/s/tb-tracer-min.js
@@ -1615,13 +1616,9 @@ kuai.xunlei.com##.bot_tips
 
 !---Yahoo
 !--CN
-||buy.cn.yahoo.com/bd/$third-party
-||bj.data.cn.yahoo.com^$image
 ||bj.data.cn.yahoo.com/dpjs/yahoo.js
-||ks.cn.yahoo.com/ks_q1_tg.html
 cn.yahoo.com##.p_sider
 cn.yahoo.com###r_expandable
-news.cn.yahoo.com##.ad
 !--TW
 @@||ads.yimg.com/ja/a/$image,domain=tw.yahoo.com
 @@||l.yimg.com/f/a/tw/js/flash_general_20090213.js$domain=tw.yahoo.com
