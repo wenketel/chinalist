@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: Bng8J+H9SOhZO0nnIOYFKA
+!  Checksum: UBdCjD0HCOHsTwk9YR8vXw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 19 Jun 2013 20:34:42 +0800
+!  Last Modified:  Thu, 20 Jun 2013 19:32:37 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -418,24 +418,6 @@ chinaiiss.com##.nav_r:nth-child(6)
 ||news.chinatimes.com/2009Cti/*Ads-Right*.shtml
 ||sortweb.chinatimes.com^
 ||wantbuy.chinatimes.com^$subdocument
-
-!---cnBeta
-@@||hm.baidu.com/h.js$domain=ie.cnbeta.com
-@@||img.cnbeta.com/newsimg/
-@@||img.cnbeta.com/upimg/
-||cnbeta.com/js/google.js
-||img.cnbeta.com^$object
-||img.cnbeta.com/*125$image
-||img.cnbeta.com/*300$image
-||img.cnbeta.com/*336$image
-||img.cnbeta.com/*340$image
-||img.cnbeta.com/*468$image
-||img.cnbeta.com/*576$image
-||img.cnbeta.com/*950$image
-||img.cnbeta.com/wy.gif
-cnbeta.com###comad
-cnbeta.com##.detail > em
-cnbeta.com###fm_r
 
 !---中国黄金投资网
 ||res.cngoldres.com/web/index/flash/
@@ -6648,6 +6630,7 @@ www.3dmgame.com##[id^="clickbg"]
 /msnpopup4.
 /mstextad?
 /mtvi_ads_
+/multiad/*
 /my-ad-integration.
 /myads/*
 /mydirtyhobby.$domain=~mydirtyhobby.com,~mydirtyhobby.de
@@ -14989,6 +14972,7 @@ _popunder+$popup
 ##.ad300Wrapper
 ##.ad300_2
 ##.ad300_250
+##.ad300b
 ##.ad300banner
 ##.ad300shows
 ##.ad300top
@@ -18356,6 +18340,7 @@ _popunder+$popup
 ##.inside_ad
 ##.inside_ad_box
 ##.instructionAdvHeadline
+##.intad
 ##.inteliusAd_image
 ##.interest-based-ad
 ##.internal-ad
@@ -20660,6 +20645,7 @@ _popunder+$popup
 ||adppv.com^$third-party
 ||adpremo.com^$third-party
 ||adprofit2share.com^$third-party
+||adproper.info^$third-party
 ||adprovi.de^$third-party
 ||adprs.net^$third-party
 ||adquest3d.com^$third-party
@@ -28484,6 +28470,7 @@ http://utm.
 ||vmp.boldchat.com^$third-party
 ||vms.boldchat.com/aid/$third-party
 ||voss.collegehumor.com^
+||vzaar.com/create?ref=
 ||w3track.com/newtrk/$third-party
 ||wantlive.com/pixel/
 ||watch.teroti.com^$third-party
@@ -30281,7 +30268,7 @@ http://utm.
 ||zylom.com^*/global_tracking.jsp?
 ||zylom.com^*/tracking_spotlight.js
 ! Preliminarily blocking Omniture s_code tracking scripts (versions H.25 - H.25.2) due to breakage (https://adblockplus.org/forum/viewtopic.php?f=10&t=11378)
-||adobe.com/uber/js/omniture_s_code.js
+||adobe.com^*/omniture_s_code.js
 ||bahn.de/common/view/static/*/js/lib/omniture/s_code.min.js
 ||chip.de/js/omniture_somtr_code_vH.25.js
 ||img-bahn.de/v/*/js/s_code.js$domain=bahn.de
