@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: 3x8eVdRqodOJ/kLWooSDXw
+!  Checksum: HCXMt3xBjhz8iDOU+nFN2A
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 20 Jun 2013 19:50:44 +0800
+!  Last Modified:  Fri, 21 Jun 2013 18:48:45 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -288,10 +288,9 @@ image.baidu.com##[id^="relecom"]
 ||pan.baidu.com/api/analytics?
 ||cdn.baidupcs.com/monitor.jpg?
 !--tieba
-tieba.baidu.com##[id^="guanggao"]
-tieba.baidu.com###h123_mod
+||tieba.baidu.com/tb/r/image/$image
 tieba.baidu.com##.l_banner
-tieba.baidu.com##.thread_ad
+tieba.baidu.com###search_button.search_button
 !--zhidao
 ||baidu.com^*/egg*.swf
 iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com##.ad-fc-down

@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: pu0QuKRQNCgdgIsDFgyxyQ
+!  Checksum: m42ctQh35tksLRY4QsjvJA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 20 Jun 2013 19:50:50 +0800
+!  Last Modified:  Fri, 21 Jun 2013 18:48:51 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -289,10 +289,9 @@ image.baidu.com##[id^="relecom"]
 ||pan.baidu.com/api/analytics?
 ||cdn.baidupcs.com/monitor.jpg?
 !--tieba
-tieba.baidu.com##[id^="guanggao"]
-tieba.baidu.com###h123_mod
+||tieba.baidu.com/tb/r/image/$image
 tieba.baidu.com##.l_banner
-tieba.baidu.com##.thread_ad
+tieba.baidu.com###search_button.search_button
 !--zhidao
 ||baidu.com^*/egg*.swf
 iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com##.ad-fc-down
@@ -3124,6 +3123,7 @@ www.3dmgame.com##[id^="clickbg"]
 -300x100ad2.
 -ad-001-
 -ad-180x150px.
+-ad-313x232.
 -ad-340x400-
 -ad-banner.
 -ad-big.
@@ -5644,6 +5644,7 @@ www.3dmgame.com##[id^="clickbg"]
 /carsadtaggenerator.js
 /cashad.
 /cashad2.
+/category-sponsorship/*
 /catfishads/*
 /cb.php?sub$script,third-party
 /cci-ads-
@@ -8087,6 +8088,8 @@ _square_ad.
 _static/ads/
 _static_ads.
 _sticky_ad.
+_StickyAd.
+_StickyAdFunc.
 _tagadvertising.
 _temp/ad_
 _text_ads.
@@ -10089,6 +10092,8 @@ _popunder+$popup
 ###ad_leaderboardtwo
 ###ad_leaderborder_container1
 ###ad_left
+###ad_left_skyscraper
+###ad_left_skyscraper_2
 ###ad_left_top
 ###ad_links_footer
 ###ad_lnk
@@ -10169,6 +10174,7 @@ _popunder+$popup
 ###ad_right_rail_top
 ###ad_right_second
 ###ad_right_skyscraper
+###ad_right_skyscraper_2
 ###ad_right_top
 ###ad_righttop-300x250
 ###ad_ros_tower
@@ -10831,6 +10837,7 @@ _popunder+$popup
 ###adstd
 ###adstext2
 ###adstop
+###adstory
 ###adstripbottom
 ###adstripnew
 ###adstuff
@@ -13223,6 +13230,8 @@ _popunder+$popup
 ###rightAd300x250Lower
 ###rightAdBar
 ###rightAdColumn
+###rightAdContainer
+###rightAdHideLinkContainer
 ###rightAd_Iframe
 ###rightAd_rdr
 ###rightAds
@@ -14950,6 +14959,7 @@ _popunder+$popup
 ##.ad1_top
 ##.ad1b
 ##.ad1left
+##.ad1x1
 ##.ad200
 ##.ad200x60
 ##.ad220x50
@@ -17111,6 +17121,7 @@ _popunder+$popup
 ##.bigCubeAd
 ##.big_ad
 ##.big_ads
+##.big_center_ad
 ##.bigad
 ##.bigad1
 ##.bigad2
@@ -18613,6 +18624,7 @@ _popunder+$popup
 ##.midad
 ##.middle-ad
 ##.middle-ads728
+##.middle-footer-ad
 ##.middleAd
 ##.middleAdLeft
 ##.middleAdMid
@@ -21037,6 +21049,7 @@ _popunder+$popup
 ||bubblesmedia.ru^$third-party
 ||budurl.com^$third-party
 ||buildtrafficx.com^$third-party
+||bunchofads.com^$third-party
 ||bunny-net.com^$third-party
 ||burnsoftware.info^$third-party
 ||burstnet.com^$third-party
@@ -22099,7 +22112,6 @@ _popunder+$popup
 ||popuptraffic.com^$third-party
 ||popupvia.com^$third-party
 ||pornv.org^$third-party
-||postaffiliatepro.com^$third-party
 ||postrelease.com^$third-party
 ||poweradvertising.co.uk^$third-party
 ||powerfulbusiness.net^$third-party
@@ -22942,6 +22954,7 @@ _popunder+$popup
 ||ad.sensismediasmart.com.au^
 ||ad.sharethis.com^$third-party
 ||ad.smartclip.net^
+||ad.spielothek.so^
 ||ad.sponsoreo.com^$third-party
 ||ad.turn.com^
 ||ad.valuecalling.com^$third-party
@@ -23436,6 +23449,7 @@ _popunder+$popup
 ||get.rubyroyal.com^$third-party
 ||get.slotocash.com^$third-party
 ||gethopper.com/tp/$third-party
+||getnzb.com/img/partner/banners/$third-party
 ||getpaidforyourtime.org/basic-rotating-banner/
 ||gfaf-banners.s3.amazonaws.com^
 ||gfxa.sheetmusicplus.com^$third-party
@@ -23635,6 +23649,8 @@ _popunder+$popup
 ||mobilemetrics.appspot.com^$third-party
 ||mobyler.com/img/banner/
 ||mol.im/i/pix/ebay/
+||moneycontrol.co.in^*/jspopunder.
+||moneycontrol.com^$subdocument,third-party
 ||moosify.com/widgets/explorer/?partner=
 ||mosso.com^*/banners/
 ||mozo-widgets.f2.com.au^
@@ -25943,7 +25959,7 @@ _popunder+$popup
 /webstats/track.php?
 /webtrack.
 /webTracking.
-/webtracking/*
+/webtracking/*$~subdocument
 /WebTrackingHandler.
 /webtraxs.
 /webtrekk.
@@ -27006,6 +27022,7 @@ http://utm.
 ||popsample.com^$third-party
 ||porngraph.com^$third-party
 ||posst.co^$third-party
+||postaffiliatepro.com^$third-party
 ||postclickmarketing.com^$third-party
 ||ppclocation.biz^$third-party
 ||ppctracking.net^$third-party
@@ -27172,6 +27189,7 @@ http://utm.
 ||snowsignal.com^$third-party
 ||socialtrack.net^$third-party
 ||sodoit.com^$third-party
+||softonic-analytics.net^$third-party
 ||sokrati.com^$third-party
 ||sometrics.com^$third-party
 ||sophus3.com^$third-party
@@ -27685,6 +27703,7 @@ http://utm.
 ||clicker.com^*pageurl$third-party
 ||clickstream.loomia.com^
 ||clicktale.pantherssl.com^
+||clicktalecdn.sslcs.cdngc.net^
 ||clickthru.lefbc.com^$third-party
 ||clicktracker.iscan.nl^
 ||clicktracks.aristotle.net^
@@ -28225,7 +28244,6 @@ http://utm.
 ||sitereports.officelive.com^
 ||skysa.com/tracker/
 ||slidedeck.com^$image,third-party
-||smarticon.geotrust.com^$third-party
 ||snaps.vidiemi.com^$third-party
 ||sourceforge.net/accelerator/js?partner_id$third-party
 ||sourceforge.net/tracker/$~xmlhttprequest
