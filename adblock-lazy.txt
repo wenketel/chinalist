@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: 80ayhn78vugVzojY+ZdnDA
+!  Checksum: /+t6OTvg4SU1QClyOoDInA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 21 Jun 2013 22:56:03 +0800
+!  Last Modified:  Mon, 24 Jun 2013 16:06:07 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -26,6 +26,7 @@ yocoy.com#@##AdArea
 @@||ad.ourgame.com/cgi-bin/insertflasha.js
 @@||cpro.baidu.com/cpro/ui/c.js$domain=bbs.9es.cn
 @@||pos.baidu.com/ecom?$script,domain=bbs.9es.cn
+@@||kanknim.allyes.com^$object-subrequest
 bbs.kafan.cn#@#.a_mu
 @@||ad.qyer.com^
 !---Shopping websites
@@ -1751,6 +1752,7 @@ cwyuni.tw###links-row-1 > div[id^="box"]:not(#box32499):not(#box533632)
 steachs.com###banner
 
 !---Download Sites
+||static.1000eb.com/www/img/rili.gif
 ||05sun.com^$script
 ||33lc.com/js/*_*.js
 ||33lc.com/js/banner.js
@@ -5292,6 +5294,7 @@ www.3dmgame.com##[id^="clickbg"]
 /adyard.
 /adyard300.
 /adyea.
+/adzbotm.
 /adzerk2_
 /adzone.
 /adzone4.
@@ -5307,6 +5310,7 @@ www.3dmgame.com##[id^="clickbg"]
 /adzones/*
 /adzonesidead.
 /adzonetop.
+/adztop.
 /afc-match?q=
 /afcads.
 /afcsearchads.
@@ -5500,6 +5504,7 @@ www.3dmgame.com##[id^="clickbg"]
 /bannermanager/*
 /bannermvt.
 /bannerpump.
+/bannerrotate.
 /bannerrotater/*
 /bannerrotation.
 /bannerrotation/*
@@ -6323,6 +6328,7 @@ www.3dmgame.com##[id^="clickbg"]
 /image_ads/*
 /imageads/*
 /imagecache_ads/*
+/images-ad/*
 /images.ads.
 /images.adv/*
 /images/ad-
@@ -7567,6 +7573,7 @@ www.3dmgame.com##[id^="clickbg"]
 /widget/ads.
 /widget/ads/*
 /widgetad.
+/widgets/ads.
 /wipeads/*
 /wire/ads/*
 /wired/ads/*
@@ -7725,6 +7732,7 @@ www.3dmgame.com##[id^="clickbg"]
 ?idaffiliation=
 ?module=ads/
 ?OASTagURL=
+?phpAds_
 ?service=ad&
 ?sid=ads
 ?simple_ad_
@@ -7830,6 +7838,8 @@ _adbar.
 _adbg1a.
 _adbg2.
 _adbg2a.
+_adbox.
+_adbox_
 _adbreak.
 _adcall.
 _adcall_
@@ -13467,6 +13477,7 @@ _popunder+$popup
 ###sidebar-ads-content
 ###sidebar-adspace
 ###sidebar-adv
+###sidebar-advertise-text
 ###sidebar-advertisement
 ###sidebar-left-ad
 ###sidebar-long-advertise
@@ -16648,6 +16659,7 @@ _popunder+$popup
 ##.advert728_90
 ##.advert728x90
 ##.advert8
+##.advertBanner
 ##.advertBlock
 ##.advertBox
 ##.advertCaption
@@ -19930,6 +19942,7 @@ _popunder+$popup
 ##.top-horiz-ad
 ##.top-left-nav-ad
 ##.top-menu-ads
+##.top-outer-ad-container
 ##.top-primary-sponsored
 ##.top-right-ad
 ##.top-sidebar-adbox
@@ -20333,6 +20346,7 @@ _popunder+$popup
 ##a[href^="http://www.FriendlyDuck.com/AF_"]
 ##a[href^="http://www.adbrite.com/mb/commerce/purchase_form.php?"]
 ##a[href^="http://www.adxpansion.com"]
+##a[href^="http://www.babylon.com/welcome/index?affID"]
 ##a[href^="http://www.bluehost.com/track/"]
 ##a[href^="http://www.dealcent.com/register.php?affid="]
 ##a[href^="http://www.down1oads.com/"]
@@ -20365,6 +20379,7 @@ _popunder+$popup
 ##a[href^="http://www.streamate.com/exports/"]
 ##a[href^="http://www.text-link-ads.com/"]
 ##a[href^="http://www.uniblue.com/cm/"]
+##a[href^="http://www.urmediazone.com/signup"]
 ##a[href^="http://www.webtrackerplus.com/"]
 ##a[href^="http://www.yourfuckbook.com/?"]
 ##a[href^="http://www1.clickdownloader.com/"]
@@ -20633,6 +20648,7 @@ _popunder+$popup
 ||adnet.com^$third-party
 ||adnet.ru^$third-party
 ||adnet.vn^$third-party
+||adnetworkme.com^$third-party
 ||adnext.fr^$third-party
 ||adnoble.com^$third-party
 ||adnxs.com^$third-party
@@ -21306,6 +21322,7 @@ _popunder+$popup
 ||doubleclick.net/N2/pfadx/video.wsj.com/$third-party
 ||doubleclick.net/N6088/pfadx/ssp.kshb/$third-party
 ||doubleclick.net/N6872/pfadx/shaw.mylifetimetv.ca/$third-party
+||doubleclick.net/pfadx/*.BLIPTV/$third-party
 ||doubleclick.net/pfadx/*.mtvi$third-party
 ||doubleclick.net/pfadx/*.muzu/$third-party
 ||doubleclick.net/pfadx/*.NBCUNI.COM/$third-party
@@ -21427,6 +21444,7 @@ _popunder+$popup
 ||extra33.com^$third-party
 ||eyere.com^$third-party
 ||eyereturn.com^$third-party
+||eyeviewads.com^$third-party
 ||eyewond.hs.llnwd.net^$third-party
 ||eyewonder.com^$third-party
 ||fairadsnetwork.com^$third-party
@@ -22010,6 +22028,7 @@ _popunder+$popup
 ||openadserving.com^$third-party
 ||opensourceadvertisementnetwork.info^$third-party
 ||openxenterprise.com^$third-party
+||openxmarket.asia^$third-party
 ||opinionbar.com^$third-party
 ||opt-intelligence.com^$third-party
 ||opt-n.net^$third-party
@@ -22177,6 +22196,7 @@ _popunder+$popup
 ||radiusmarketing.com^$third-party
 ||rainbowtgx.com^$third-party
 ||rainwealth.com^$third-party
+||rampanel.com^$third-party
 ||rapt.com^$third-party
 ||rbcdn.com^$third-party
 ||rcads.net^$third-party
@@ -23345,6 +23365,7 @@ _popunder+$popup
 ||dycpc40hvg4ki.cloudfront.net^
 ||dyl3p6so5yozo.cloudfront.net^
 ||dynw.com/banner
+||e-webcorp.com/images/$third-party
 ||e32e0c3c972d179cd1d0-1847ac4c91d55b307d162b6d5ad07fe3.r71.cf2.rackcdn.com^
 ||e46fa8d94b17745ac277-ae524ab82d83e9108c081b44b53c4ff2.r94.cf2.rackcdn.com^
 ||easy-share.com/images/es20/
@@ -24049,6 +24070,7 @@ _popunder+$popup
 ||yooclick.com^$subdocument,third-party
 ||you-cubez.com/images/banners/
 ||zapads.zapak.com^
+||zazzle.com/utl/getpanel$third-party
 ||zeusfiles.com/promo/
 ||ziffdavisenterprise.com/contextclicks/
 ||zip2save.com/widget.php?
@@ -25049,6 +25071,7 @@ _popunder+$popup
 /Javascript/ga.js
 /javascripts/ga.js
 /javascripts/tracking_
+/jgs_portal_log_bildschirm.php?
 /jquery.analytics.
 /jquery.google-analytics.
 /jquery.trackstar.
@@ -26440,6 +26463,7 @@ http://utm.
 ||crwdcntrl.net^$third-party
 ||csdata1.com^$third-party
 ||csi-tracking.com^$third-party
+||customer.io^$third-party
 ||customerconversio.com^$third-party
 ||customerdiscoverytrack.com^$third-party
 ||cxense.com^$third-party
@@ -27313,6 +27337,7 @@ http://utm.
 ||trafficregenerator.com^$third-party
 ||traffikcntr.com^$third-party
 ||trafinfo.info^$third-party
+||trail-web.com^$third-party
 ||trailheadapp.com^$third-party
 ||trakken.de^$third-party
 ||trakzor.com^$third-party
@@ -28324,6 +28349,7 @@ http://utm.
 ||sugarops.com/w?action=impression$third-party
 ||survey.g.doubleclick.net^
 ||survey.io/log?
+||sync.adap.tv^
 ||synergizeonline.net/trackpoint/
 ||systemmonitoring.badgeville.com^
 ||t.devnet.com^$third-party
@@ -28658,7 +28684,7 @@ http://utm.
 ||analysis.focalprice.com^
 ||analytic.imlive.com^
 ||analytics.bloomberg.com^
-||analytics.disneyinternational.com^
+||analytics.disneyinternational.com^$~script
 ||analytics.femalefirst.co.uk^
 ||analytics.go.com^
 ||analytics.gorillanation.com^
@@ -29263,6 +29289,7 @@ http://utm.
 ||icq.com/search/js/stats.js
 ||id.allegisgroup.com^
 ||id.google.*/verify/*.gif
+||ign.com/global/analytics/drones.js
 ||image.providesupport.com/cmd/
 ||images-amazon.com^*/beacon-$domain=imdb.com
 ||images-amazon.com^*/clog/clog-platform*.js$script
@@ -29288,6 +29315,7 @@ http://utm.
 ||inquiries.redhat.com^
 ||insideline.com^*/dart1x1.gif
 ||insideline.com^*/edw1x1.gif
+||insidesoci.al/track
 ||insire.com/imp?
 ||instyle.co.uk^*/tracking.js
 ||insynchq.com/wf/open?
@@ -29420,6 +29448,7 @@ http://utm.
 ||media-imdb.com^*/beacon.js
 ||mediabistro.com/blogshare/js/trackingheader.js
 ||mediaplex.com^*/universal.html
+||medium.com/_/stat/
 ||medscape.com/pi/1x1/pv/profreg-1x1.gif
 ||mercent.com/js/tracker.js
 ||merchantcircle.com/static/track.js
@@ -29865,6 +29894,7 @@ http://utm.
 ||stats.farfetch.com^
 ||stats.ft.com^
 ||stats.harpercollins.com^
+||stats.irishmirror.ie^
 ||stats.jtvnw.net^
 ||stats.justin.tv^
 ||stats.macmillanusa.com^
@@ -30256,6 +30286,7 @@ http://utm.
 ||yourfilehost.com/counter.htm
 ||youronlinechoices.com/activity/
 ||yourtv.com.au/share/com/js/fb_google_intercept.js
+||youtube-nocookie.com/device_204?
 ||youtube-nocookie.com/gen_204?
 ||youtube-nocookie.com/robots.txt?
 ||youtube.com/gen_204?
