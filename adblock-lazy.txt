@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: /+t6OTvg4SU1QClyOoDInA
+!  Checksum: Ei1+WGIhV2d23RDU9cIUMg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 24 Jun 2013 16:06:07 +0800
+!  Last Modified:  Tue, 25 Jun 2013 19:09:56 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -7302,6 +7302,7 @@ www.3dmgame.com##[id^="clickbg"]
 /static/ad/*
 /static/ad_
 /static/ads/*
+/static/js/4728ba74bc.js$~third-party
 /static_ads/*
 /staticadslot.
 /sticky_ad.
@@ -8719,6 +8720,7 @@ _a468x60.
 /popunder_$popup
 /promoredirect?*&campaign=*&zone=$popup
 /punder.php$popup
+/servlet/ajrotator/*$popup
 /spopunder^$popup
 ://ads.$popup
 =popunder&$popup
@@ -9222,6 +9224,7 @@ _popunder+$popup
 ###ad-728x90-leaderboard-top
 ###ad-728x90-top
 ###ad-728x90-top0
+###ad-970
 ###ad-a
 ###ad-a1
 ###ad-abs-b-0
@@ -10802,6 +10805,7 @@ _popunder+$popup
 ###adspaceBox
 ###adspaceBox300
 ###adspaceBox300_150
+###adspaceBox300white
 ###adspaceRow
 ###adspace_header
 ###adspace_leaderboard
@@ -13167,6 +13171,7 @@ _popunder+$popup
 ###rail_ad2
 ###rbAdWrapperRt
 ###rbAdWrapperTop
+###reader-ad-container
 ###realEstateAds
 ###recommendedAdContainer
 ###rect-ad
@@ -15240,6 +15245,7 @@ _popunder+$popup
 ##.adMpu
 ##.adMpuHolder
 ##.adNewsChannel
+##.adNoBorder
 ##.adNoOutline
 ##.adNone
 ##.adNote
@@ -17213,6 +17219,7 @@ _popunder+$popup
 ##.block_ad_sponsored_links
 ##.block_ad_sponsored_links-wrapper
 ##.block_ad_sponsored_links_localized
+##.block_ad_sponsored_links_localized-wrapper
 ##.blockad
 ##.blocked-ads
 ##.blockrightsmallads
@@ -20347,6 +20354,7 @@ _popunder+$popup
 ##a[href^="http://www.adbrite.com/mb/commerce/purchase_form.php?"]
 ##a[href^="http://www.adxpansion.com"]
 ##a[href^="http://www.babylon.com/welcome/index?affID"]
+##a[href^="http://www.bet365.com/home/?affiliate"]
 ##a[href^="http://www.bluehost.com/track/"]
 ##a[href^="http://www.dealcent.com/register.php?affid="]
 ##a[href^="http://www.down1oads.com/"]
@@ -20437,6 +20445,7 @@ _popunder+$popup
 ||194.71.107.25^$third-party
 ||199.102.225.178^$third-party,domain=~adsimilate.ip
 ||1clickdownloads.com^$third-party
+||1phads.com^$third-party
 ||1sadx.net^$third-party
 ||204.93.181.78^$third-party,domain=~discountmags.ip
 ||209.222.8.217^$third-party,domain=~p2p.adserver.ip
@@ -22776,6 +22785,7 @@ _popunder+$popup
 ||advertserve.com^$popup,third-party
 ||affbuzzads.com^$popup,third-party
 ||allslotscasino.com^$popup,third-party
+||alpinedrct.com^$popup,third-party
 ||alternads.info^$popup,third-party
 ||am10.ru^$popup,third-party
 ||angege.com^$popup,third-party
@@ -23860,6 +23870,7 @@ _popunder+$popup
 ||shaadi.com^*/get-html-banner.php?
 ||shareapic.net/refads/
 ||shareflare.net/images/$third-party
+||shariahprogram.ca/banners/
 ||sharingzone.net/images/banner$third-party
 ||shop-top1000.com/images/
 ||shop4tech.com^*/banner/
