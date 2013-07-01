@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: hnQVi21CTi5FXPz11s2Qdw
+!  Checksum: t77uIEa2rjL9i8XSKyAdSg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 28 Jun 2013 19:08:59 +0800
+!  Last Modified:  Mon, 01 Jul 2013 13:13:35 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -2838,6 +2838,7 @@ zxtjd.com###it_an
 ||y2126.com^$third-party
 ||yczpw.com^$third-party
 ||yeeunion.com^$third-party
+||union.yeyou.com^$third-party
 ||yimeiads.com^$third-party
 ||ylunion.com^$third-party
 ||yigao.com^$third-party
@@ -4556,11 +4557,13 @@ www.3dmgame.com##[id^="clickbg"]
 /ads/bilar/*
 /Ads/Biz_
 /ads/blank.
+/ads/bottom.
 /ads/box/*
 /ads/branding/*
 /ads/bt/*
 /ads/btbuckets/*
 /ads/center-
+/ads/center.
 /ads/click_
 /ads/cnvideo/*
 /ads/common/*
@@ -4635,6 +4638,7 @@ www.3dmgame.com##[id^="clickbg"]
 /ads/pencil/*
 /ads/player-
 /ads/plugs/*
+/ads/pop.
 /ads/popout.
 /ads/popshow.
 /ads/popup.
@@ -8773,6 +8777,7 @@ _popunder+$popup
 ###ADoverThePlayer
 ###ADsmallWrapper
 ###AFF_popup
+###AUI_A9AdsMiddleBoxTop
 ###Ad-Container
 ###Ad160x600
 ###Ad160x600_0_adchoice
@@ -10346,6 +10351,7 @@ _popunder+$popup
 ###adbrite_inline_div
 ###adbritebottom
 ###adbutton
+###adbuttons
 ###adcell
 ###adcenter
 ###adchoices-icon
@@ -15860,11 +15866,9 @@ _popunder+$popup
 ##.add-column2
 ##.add-header-area
 ##.add-sidebar
-##.add-wrapper
 ##.add300
 ##.add300top
 ##.add300x250
-##.addBox
 ##.addResources
 ##.add_300_250
 ##.add_300x250
@@ -16841,6 +16845,7 @@ _popunder+$popup
 ##.advertisementonblue
 ##.advertisementonwhite
 ##.advertisementsOutterDiv
+##.advertisementsubtitle
 ##.advertiser
 ##.advertiser-links
 ##.advertisesingle
@@ -19134,6 +19139,7 @@ _popunder+$popup
 ##.refreshAds
 ##.refreshable_ad
 ##.region-ads
+##.region-header-ads
 ##.region-top-ad-position
 ##.regular_728_ad
 ##.regularad
@@ -20407,6 +20413,7 @@ _popunder+$popup
 ##a[href^="http://www.quick-torrent.com/download.html?aff"]
 ##a[href^="http://www.ringtonematcher.com/"]
 ##a[href^="http://www.seekbang.com/cs/"]
+##a[href^="http://www.sex.com/?utm_source="]
 ##a[href^="http://www.sfippa.com/"]
 ##a[href^="http://www.socialsex.com/"]
 ##a[href^="http://www.streamate.com/exports/"]
@@ -20424,6 +20431,8 @@ _popunder+$popup
 ##div[id^="YFBMSN"]
 ##div[id^="div-gpt-ad-"]
 ##iframe[src^="http://ad.yieldmanager.com/"]
+##iframe[src^="http://cdn1.adexprt.com/"]
+##iframe[src^="http://cdn2.adexprt.com/"]
 ##img[alt^="Fuckbook"]
 ##input[onclick^="window.open('http://www.FriendlyDuck.com/AF_"]
 ##input[onclick^="window.open('http://www.friendlyduck.com/AF_"]
@@ -20825,6 +20834,7 @@ _popunder+$popup
 ||adverserve.net^$third-party
 ||advertarium.com.ua^$third-party
 ||advertbox.us^$third-party
+||adverteerdirect.nl^$third-party
 ||adverticum.net^$third-party
 ||advertise.com^$third-party
 ||advertiseforfree.co.za^$third-party
@@ -22889,6 +22899,7 @@ _popunder+$popup
 ||nturveev.com^$popup,third-party
 ||nymphdate.com^$popup,third-party
 ||onad.eu^$popup,third-party
+||onclickads.net^$popup,third-party
 ||onlinecareerpackage.com^$popup,third-party
 ||onlinecashmethod.com^$popup,third-party
 ||openadserving.com^$popup,third-party
@@ -23792,6 +23803,7 @@ _popunder+$popup
 ||pdl.viaplay.com/commercials/$third-party
 ||pearlriverusa.com/images/banner/
 ||perfectforex.biz/images/*x$third-party
+||perfectmoney.com/img/banners/$third-party
 ||ph.hillcountrytexas.com/imp.php?$third-party
 ||phobos.apple.com^$image,domain=dailymotion.com|youtube.com
 ||pianobuyer.com/pianoworld/
@@ -23908,6 +23920,7 @@ _popunder+$popup
 ||shop-top1000.com/images/
 ||shop4tech.com^*/banner/
 ||shopbrazos.com/widgets/
+||shopping.com/sc/pac/sdc_widget_v2.0_proxy.js$third-party
 ||shows-tv.net/codepopup.js
 ||shragle.com^*?ref=
 ||sidekickunlock.net/banner/
@@ -25824,6 +25837,7 @@ _popunder+$popup
 /trackImpression/*
 /trackimps?
 /tracking-hits.
+/tracking-info.gif?
 /tracking-init.
 /tracking-pixel/*
 /tracking.cgi?
@@ -26296,6 +26310,7 @@ http://utm.
 ||amung.us^$third-party
 ||amxdt.com^$third-party
 ||analoganalytics.com^$third-party
+||analysistools.net^$third-party
 ||analyticswizard.com^$third-party
 ||analytk.com^$third-party
 ||anametrix.net^$third-party
@@ -28738,6 +28753,7 @@ http://utm.
 ||analytics.msnbc.msn.com^
 ||analytics.newsinc.com^
 ||analytics.omgpop.com/log
+||analytics.query.yahoo.com^
 ||analytics.us.archive.org^
 ||analytics.yahoo.com^
 ||analyzer52.fc2.com^
@@ -29266,6 +29282,7 @@ http://utm.
 ||gq-magazine.co.uk^*/LogPageView
 ||grooveshark.com^*/beacon.js
 ||groupon.com/analytic/
+||groupon.com/tracking
 ||groupon.com/tracky
 ||guardian.co.uk/px.gif?
 ||h.cliphunter.com^
@@ -29715,6 +29732,7 @@ http://utm.
 ||potterybarn.com/pbimgs/*/external/thirdparty.js
 ||potterybarnkids.com/pkimgs/*/external/thirdparty.js
 ||powerreviews.com^*/ph.gif?
+||pp-serve.newsinc.com^
 ||ppstatic.com/javascript/netinsight/
 ||presstv.ir/stat/
 ||pricegrabber.com/analytics.php
@@ -30034,6 +30052,7 @@ http://utm.
 ||thelocal.de/log/?
 ||thelocal.de/marketplace/log/?
 ||thelocal.se/log/?
+||thelocal.se/scripts/sstat_plugin.js
 ||thenewsroom.com//playerreporting/
 ||theolivepress.es/cdn-cgi/cl/
 ||thesaurus.com/track/
@@ -30196,7 +30215,7 @@ http://utm.
 ||vevo.com/audit.ashx?
 ||viamichelin.co.uk^*/stats.js
 ||viamichelin.de^*/stats.js
-||vice.com/tracker.html
+||vice.com*/tracker.html
 ||victoriassecret.com/m/a.gif?
 ||vid.io^*/mejs-feature-analytics.js
 ||video-stats.video.google.com^
@@ -30227,6 +30246,7 @@ http://utm.
 ||vs.target.com^
 ||vs4food.com/ERA/era_rl.aspx
 ||vstat.vidigy.com^
+||vulture.com/eiilmu/pixel.gif?
 ||wa.ui-portal.de^
 ||wachovia.com^*/stats.js
 ||wallcannrewards.com^*/index.php?
