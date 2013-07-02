@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: aK6DyOucrBaJ20wnOJFs3A
+!  Checksum: WcxXl5pqkqO7bN5jrKs5ng
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 01 Jul 2013 19:12:49 +0800
+!  Last Modified:  Tue, 02 Jul 2013 17:10:31 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -52,7 +52,7 @@ q.115.com##.full-column-ad
 ||img1.126.net^
 ||img2.126.net^
 ||stat.ws.126.net^
-||163.com/special/$subdocument
+||163.com/special/$subdocument,domain=~mail.163.com
 ||adgeo.163.com^
 ||g.163.com/*&affiliate=
 ||popme.163.com^
@@ -7599,8 +7599,10 @@ www.3dmgame.com##[id^="clickbg"]
 /wp-content/plugins/bhcb/lock.js
 /wp-content/plugins/fasterim-optin/*
 /wp-content/plugins/platinumpopup/*
+/wp-content/plugins/useful-banner-manager/*
 /wp-content/plugins/wp-bannerize/*
 /wp-content/plugins/wp-super-popup/*$~stylesheet
+/wp-content/uploads/useful_banner_manager_banners/*
 /wp-popup-scheduler/*
 /wp-srv/ad/*
 /wpads/iframe.
@@ -9223,6 +9225,7 @@ _popunder+$popup
 ###ad-300x40-2
 ###ad-300x40-5
 ###ad-300x60-1
+###ad-320
 ###ad-350
 ###ad-376x280
 ###ad-4
@@ -9381,6 +9384,7 @@ _popunder+$popup
 ###ad-one
 ###ad-other
 ###ad-overlay
+###ad-pencil
 ###ad-placard
 ###ad-placeholder
 ###ad-placement
@@ -13797,6 +13801,7 @@ _popunder+$popup
 ###takeover-ad
 ###takeover_ad
 ###takeoverad
+###targeted-ads
 ###tblAd
 ###tblReklama2
 ###tbl_googlead
@@ -19443,6 +19448,7 @@ _popunder+$popup
 ##.sidead_150
 ##.sidead_300
 ##.sideads
+##.sideads_l
 ##.sideadsbox
 ##.sideadtable
 ##.sideadvert
@@ -20079,6 +20085,7 @@ _popunder+$popup
 ##.trafficAdSpot
 ##.treeAdBlockWithBanner_right
 ##.tribal-ad
+##.trip_ad_center
 ##.trueads
 ##.ts-ad_unit_bigbox
 ##.ts-banner_ad
@@ -20123,6 +20130,7 @@ _popunder+$popup
 ##.universalboxADVBOX04a
 ##.us-advertisement
 ##.us-txt-ad
+##.useful_banner_manager_rotation_widget
 ##.usenext
 ##.v5rc_336x280ad
 ##.vAd_160x600
@@ -20302,6 +20310,7 @@ _popunder+$popup
 ##.y7adHEAD
 ##.y7adS
 ##.y7s-lrec
+##.yaAds
 ##.yahoo-banner-ad-container
 ##.yahoo-sponsored
 ##.yahoo-sponsored-links
@@ -20874,6 +20883,7 @@ _popunder+$popup
 ||adxion.com^$third-party
 ||adxpose.com^$third-party
 ||adxpower.com^$third-party
+||adyoulike.com^$third-party
 ||adyoz.com^$third-party
 ||adzerk.net^$third-party
 ||adzhub.com^$third-party
@@ -21383,6 +21393,7 @@ _popunder+$popup
 ||doubleclick.net/pfadx/bzj.bizjournals/$third-party
 ||doubleclick.net/pfadx/cblvsn.nwsd.videogallery/$third-party
 ||doubleclick.net/pfadx/ccr.austin.tx.n/$third-party
+||doubleclick.net/pfadx/ccr.newyork.ny.n/$third-party
 ||doubleclick.net/pfadx/ccr.philadelphia.pa.n/$third-party
 ||doubleclick.net/pfadx/comedycentral.$third-party
 ||doubleclick.net/pfadx/csn.$third-party
@@ -23379,11 +23390,13 @@ _popunder+$popup
 ||deskbabes.com/ref.php?
 ||detroitmedia.com/jfry/
 ||dev-cms.com^*/promobanners/
+||developermedia.com/a.min.js
 ||digitalmediacommunications.com/belleville/employment/
 ||digitalsatellite.tv/banners/
 ||direct.quasir.info^$third-party
 ||directnicparking.com^$third-party
 ||display.digitalriver.com^
+||disqus.com/listPromoted?
 ||disy2s34euyqm.cloudfront.net^
 ||dizixdllzznrf.cloudfront.net^
 ||djlf5xdlz7m8m.cloudfront.net^
@@ -23702,6 +23715,7 @@ _popunder+$popup
 ||media-toolbar.com^$third-party
 ||media.onlineteachers.co.in^$third-party
 ||mediaon.com/moneymoney/
+||mediaserver.digitec.ch^$subdocument,third-party
 ||megalivestream.net/pub.js
 ||memepix.com/spark.php?
 ||meraad2.blogspot.com^$third-party
@@ -25232,6 +25246,7 @@ _popunder+$popup
 /logstat?
 /logStatistic?
 /logStatistics?
+/logViewImpression/*
 /logwebhit.
 /logwriter.php
 /lycostrack.js
@@ -27061,6 +27076,7 @@ http://utm.
 ||optimizely.com^$third-party
 ||optimost.com^$third-party
 ||optin-machine.com^$third-party
+||optorb.com^$third-party
 ||optreadetrus.info^$third-party
 ||oranges88.com^$third-party
 ||orcapia.com^$third-party
@@ -27248,6 +27264,7 @@ http://utm.
 ||sessioncam.com^$third-party
 ||sexcounter.com^$third-party
 ||sexystat.com^$third-party
+||sharedcount.com^$third-party
 ||shinystat.com^$third-party
 ||shippinginsights.com^$third-party
 ||shrinktheweb.com^$third-party
@@ -28766,6 +28783,7 @@ http://utm.
 ||answers.com/resources/tac.html
 ||aol.ca/track/
 ||aol.co.uk/track/
+||aol.com/articles/traffic/
 ||aol.com/beacons/
 ||aol.com/master/?
 ||aol.com/track/
@@ -29235,6 +29253,7 @@ http://utm.
 ||general-files.com/stat
 ||general-search.com/stat
 ||geo.metronews.ca^
+||geo.mozilla.org^
 ||geo.perezhilton.com^
 ||geo.play.it^
 ||geo.yahoo.com^
