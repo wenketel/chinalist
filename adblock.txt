@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: n+8APz3XzHTRiwy2S8iurQ
+!  Checksum: ny+CbQ2+lOxiVKt+v8Iblg
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 06 Jul 2013 12:30:09 +0800
+!  Last Modified:  Sat, 06 Jul 2013 12:39:02 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -327,9 +327,10 @@ iqiyi.com###adflash
 iqiyi.com##[id^="div_theatre"]
 
 !---bilibili.tv
-@@||interface.bilibili.tv/ad/$image
+@@||interface.bilibili.tv/ad/topic
 ||bilibili.tv/ad/
 ||bilibili.tv/html/$~xmlhttprequest
+||hdslb.com/u_user/$object-subrequest
 ||stat.bilibili.tv^
 bilibili.tv##.ad-f
 
@@ -609,6 +610,7 @@ funshion.com##[class^="fs2012-"]
 !---福利吧
 ||tunka.com.cn/images/1234.gif
 ||sinaimg.cn/large/a74ecc4cjw1e25f2roop3g.gif
+||sinaimg.cn/large/6272df68tw1e5vu3l15lfj20h802it9i.jpg
 fuliba.net##.textwidget
 
 !---游民星空
