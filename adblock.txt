@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: YahxpPAaBNX6w23lDdqeUw
+!  Checksum: gI2y0jCUGXrsDd+nCgcOqg
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 07 Jul 2013 11:31:08 +0800
+!  Last Modified:  Sun, 07 Jul 2013 19:42:57 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -221,6 +221,13 @@ down.admin5.com###a2
 !---acfun.tv
 ||acfun.tv/api/count.aspx
 acfun.tv###ad-comment
+
+!---ACGZone
+acgzone.us###text-29
+acgzone.us###text-40
+acgzone.us##div[style="margin-top:3px;"]
+acgzone.us##div[style="margin:30px 0 3px;padding:1px;"]
+acgzone.us##div[style="margin:30px 0 3px;padding:1px;"] ~ a
 
 !---游侠网
 ||bmp.ali213.net/js/
@@ -1204,6 +1211,7 @@ news.qq.com###photo_ad
 ||users.qzone.qq.com/cgi-bin/pos/cgi_getpos?
 qzone.qq.com##.gdtads_box
 !--搜搜
+||rh.qq.com/afc.js
 ||dr.soso.com^
 soso.com##[ss_c^="ad_"]
 soso.com###rads
@@ -2977,9 +2985,6 @@ zxtjd.com###it_an
 55188.com##[class^="a1_gg jiange"]
 55188.com##.a3_gg
 55188.com##[class^="nei"]
-acgzone.us###text-29
-acgzone.us###text-40
-acgzone.us##div[style="margin-top:3px;"]
 amznz.com##div[style="float:left;width:250px;height:250px;"]
 appinn.com##.ads
 appinn.com##.ads-m
