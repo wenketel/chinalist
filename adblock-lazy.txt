@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: tzBm4fzs2CWnFQkuERH4VQ
+!  Checksum: A7WSubvgWrANPeED2Sn3vA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 07 Jul 2013 19:43:03 +0800
+!  Last Modified:  Mon, 08 Jul 2013 23:50:51 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1360,7 +1360,6 @@ www.sohu.com###contentC > .columnC
 tv.sohu.com##.adbox
 tv.sohu.com##.skyAD
 tv.sohu.com###miaozhenad
-tv.sohu.com###tvBgArea
 !--Sogou
 ||sogou.com/js/pb_*.js
 ||brand.sogou.com^
@@ -3234,7 +3233,6 @@ www.3dmgame.com##[id^="clickbg"]
 -google-ads/
 -google2-ad-
 -gpt-ad-
--header-add.
 -housead-
 -iframe-ad.
 -iframe-ads/
@@ -3486,6 +3484,7 @@ www.3dmgame.com##[id^="clickbg"]
 .xxx/ads/
 .za/ads.
 .za/ads/
+.zm/ads/
 .zw/ads/
 /!advert_
 /1/ads/*
@@ -4519,6 +4518,7 @@ www.3dmgame.com##[id^="clickbg"]
 /ads.pl?
 /ads.png
 /ads.swf
+/ads.v5.js
 /ads.w3c.
 /ads/125l.
 /ads/125r.
@@ -11592,6 +11592,7 @@ _popunder+$popup
 ###bq_homeMiddleAd
 ###br_ad
 ###browse-ad-container
+###browse_ads_ego_container
 ###browsead
 ###bsaadvert
 ###bsap_aplink
@@ -11911,6 +11912,8 @@ _popunder+$popup
 ###dfp-ad-home_3-wrapper
 ###dfp-ad-leaderboard-wrapper
 ###dfp-ad-medium_rectangle
+###dfp_ad_DictHome_300x250
+###dfp_ad_DictHome_728x90
 ###dfp_ad_Entry_160x600
 ###dfp_ad_Entry_300x250
 ###dfp_ad_Entry_728x90
@@ -11921,6 +11924,7 @@ _popunder+$popup
 ###dfp_ad_Entry_EntrySetC_728x90
 ###dfp_ad_Home_300x250
 ###dfp_ad_Home_728x90
+###dfp_ad_InternalAdX_300x250_right
 ###dfp_ad_Result_728x90
 ###dhm-bar
 ###disable-ads-container
@@ -14443,6 +14447,7 @@ _popunder+$popup
 ##.IABAdSpace
 ##.InArticleAd
 ##.IndexRightAd
+##.InternalAdPanel1
 ##.JobListMidAd
 ##.LargeOuterBoxAdsense
 ##.LargeRightAd
@@ -14463,6 +14468,7 @@ _popunder+$popup
 ##.MREC_ads
 ##.MarketGid_container
 ##.MasterLeftContentColumnThreeColumnAdLeft
+##.MediumRectangleAdPanel
 ##.MiddleAd
 ##.MiddleAdContainer
 ##.MiddleAdvert
@@ -14551,6 +14557,7 @@ _popunder+$popup
 ##.TopAdR
 ##.TopAds
 ##.TopBannerAd
+##.TopLeaderboardAdPanel
 ##.TrafficAd
 ##.UIStandardFrame_SidebarAds
 ##.UIWashFrame_SidebarAds
@@ -17496,6 +17503,7 @@ _popunder+$popup
 ##.cdmainlineSearchAdParent
 ##.cdo-ad
 ##.cdo-ad-section
+##.cdo-dicthomepage-btm-ad
 ##.cdsidebarSearchAdParent
 ##.center-ad
 ##.center-ad-banner
@@ -18996,6 +19004,7 @@ _popunder+$popup
 ##.pane-site-ads
 ##.pane-sponsored-links
 ##.pane-tw-ad-master-ad-300x250a
+##.pane_ad_wide
 ##.panel-ad
 ##.panel-advert
 ##.panel_ad
@@ -19611,6 +19620,7 @@ _popunder+$popup
 ##.smallad-left
 ##.smalladblock
 ##.smallads
+##.smalladscontainer
 ##.smalladword
 ##.smallsideadpane
 ##.smallsponsorad
@@ -21152,6 +21162,7 @@ _popunder+$popup
 ||bridgetrack.com^$third-party
 ||brighteroption.com^$third-party
 ||brightshare.com^$third-party
+||broadstreetads.com^$third-party
 ||brokersweb.com^$third-party
 ||brucelead.com^$third-party
 ||btrll.com^$third-party
@@ -21344,6 +21355,7 @@ _popunder+$popup
 ||ctrhub.com^$third-party
 ||cubics.com^$third-party
 ||cuelinks.com^$third-party
+||currentlyobsessed.me^$third-party
 ||curtisfrierson.com^$third-party
 ||cybmas.com^$third-party
 ||cygnus.com^$third-party
@@ -22334,10 +22346,10 @@ _popunder+$popup
 ||revresponse.com^$third-party
 ||revsci.net^$third-party
 ||rewardsaffiliates.com^$third-party
+||rewardstyle.com^$third-party
 ||rfihub.net^$third-party
 ||ricead.com^$third-party
 ||richmedia247.com^$third-party
-||richrelevance.com^$third-party
 ||richwebmedia.com^$third-party
 ||ringrevenue.com^$third-party
 ||ringtonematcher.com^$third-party
@@ -27199,6 +27211,7 @@ http://utm.
 ||purevideo.com^$third-party
 ||q-counter.com^$third-party
 ||q-stats.nl^$third-party
+||qbaka.net^$third-party
 ||qbop.com^$third-party
 ||qdtracking.com^$third-party
 ||qsstats.com^$third-party
@@ -27787,6 +27800,7 @@ http://utm.
 ||bango.net/id/*.gif?
 ||barium.cheezdev.com^
 ||bc.geocities.
+||beacon.richrelevance.com^
 ||beacon.securestudies.com^
 ||beacon2.indieclicktv.com^$third-party
 ||bestweb.net/cgi-bin/count.cgi?
@@ -28242,6 +28256,7 @@ http://utm.
 ||myscoop-tracking.googlecode.com^$third-party
 ||mysdcc.sdccd.edu^*/.log/
 ||mysociety.org/track/
+||naiadsystems.com/pixel.php?
 ||nastydollars.com/trk/
 ||navlink.com/__utmala.js
 ||neocounter.neoworx-blog-tools.net^
