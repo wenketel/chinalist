@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: NIkCUNpg50Wp6EG5SENdhA
+!  Checksum: u57uc6u+RthIgNgtScUEWQ
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 11 Jul 2013 15:40:16 +0800
+!  Last Modified:  Thu, 11 Jul 2013 19:40:30 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -405,16 +405,8 @@ tv.cntv.cn##[class^="ad_"]
 /googleAds3Wide.js
 ||blog.china.com/u/dvpush/$subdocument
 ||dvs.china.com^
-||military.china.com/zh_cn/etc/gghead950.html
 china.com##.gg
 china.com##.gg950
-china.com##.headbanner
-finance.caicai98.com##.hzhcon
-news.china.com###clm01
-!--finance
-||finance.caicai98.com/js/jhq/
-||finance.caicai98.com/jsfiles/caicaigg/
-caicai98.com,finance.china.com##[class^="gg"]
 
 !---中国战略网
 ||chinaiiss.com/include/js/function.ad.js
@@ -1376,12 +1368,14 @@ map.sogou.com###CboardDlg_1
 ||soufun.com/html/homepage/ad/
 ||show.soufun.com/adsunion/
 ||js.soufunimg.com/count/
-||js.soufunimg.com/ggcp/uv/
+||news.sh.soufun.com^$subdocument
+||hezuo.sh.soufun.com^$subdocument,third-party
 soufun.com##[class^="ad_"]
 soufun.com##.adtextlink
 soufun.com##.photo02
 soufun.com##.photo03
 soufun.com##.topbanner
+news.sh.soufun.com##TABLE[width="270"][height="400"][align="left"]
 
 !---山西新闻网
 ||images.daynews.com.cn/flash/
