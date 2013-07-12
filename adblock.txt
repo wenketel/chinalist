@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: KIFOSaCGkpoB2TYX9R4QBA
+!  Checksum: CpJ0BOYy0aTWSbXpIYup5g
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 11 Jul 2013 20:04:33 +0800
+!  Last Modified:  Fri, 12 Jul 2013 12:02:31 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -21,6 +21,7 @@
 @@||bbs.52waha.com/data/attachment/common/ad/common_74_icon.png
 bbs.9baka.com,bbs.9gal.com#@##top_ad
 yocoy.com#@##AdArea
+@@||zj.189.cn/wt_uac/login/wt/js/pop.js
 @@||32666.com/templates/32666/images/ad/$script
 @@||ad.ourgame.com/cgi-bin/insertflasha.js
 @@||cpro.baidu.com/cpro/ui/c.js$domain=bbs.9es.cn
@@ -223,11 +224,10 @@ down.admin5.com###a2
 acfun.tv###ad-comment
 
 !---ACGZone
-acgzone.us###text-29
-acgzone.us###text-40
-acgzone.us##div[style="margin-top:3px;"]
-acgzone.us##div[style="margin:30px 0 3px;padding:1px;"]
-acgzone.us##div[style="margin:30px 0 3px;padding:1px;"] ~ a
+acgzone.us##aside[id^="text-4"]
+acgzone.us##img[width="550"][height="100"]
+acgzone.us##.wumii-hook ~ a
+acgzone.us##.wumii-hook + div[style]
 
 !---游侠网
 ||bmp.ali213.net/js/
@@ -338,6 +338,7 @@ iqiyi.com##[id^="div_theatre"]
 @@||static.hdslb.com/ad-images/$image
 ||bilibili.tv/ad/
 ||bilibili.tv/html/$~xmlhttprequest
+||hdslb.com/images/isptrack.js
 ||hdslb.com/u_user/$object-subrequest
 ||stat.bilibili.tv^
 ||hdslb.com/u_user/$object_subrequest,domain=bilibili.tv
@@ -431,6 +432,9 @@ chinaiiss.com##.nav_r:nth-child(6)
 ||news.chinatimes.com/2009Cti/*Ads-Right*.shtml
 ||sortweb.chinatimes.com^
 ||wantbuy.chinatimes.com^$subdocument
+chinatimes.com##.ad
+chinatimes.com##.ad_72890_box
+chinatimes.com##.idx_hot_ad
 
 !---中国黄金投资网
 ||res.cngoldres.com/web/index/flash/
@@ -3011,6 +3015,7 @@ crsky.com##[id$="_TL"]
 blog.dausos.com##.ad_h
 blog.dausos.com##.adr
 blog.dausos.com##.adt
+share.dmhy.me,share.dmhy.org##.text_center
 dmzj.com##iframe[width="960"]
 downg.com##.content.ad-b950x50
 freehao123.com##.box

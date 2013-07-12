@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: 5yYF1HHdcQU/iLtoz/VypA
+!  Checksum: jU+SQUy8kFFjfxJY59G7pg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 11 Jul 2013 20:04:39 +0800
+!  Last Modified:  Fri, 12 Jul 2013 12:02:36 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -22,6 +22,7 @@
 @@||bbs.52waha.com/data/attachment/common/ad/common_74_icon.png
 bbs.9baka.com,bbs.9gal.com#@##top_ad
 yocoy.com#@##AdArea
+@@||zj.189.cn/wt_uac/login/wt/js/pop.js
 @@||32666.com/templates/32666/images/ad/$script
 @@||ad.ourgame.com/cgi-bin/insertflasha.js
 @@||cpro.baidu.com/cpro/ui/c.js$domain=bbs.9es.cn
@@ -224,11 +225,10 @@ down.admin5.com###a2
 acfun.tv###ad-comment
 
 !---ACGZone
-acgzone.us###text-29
-acgzone.us###text-40
-acgzone.us##div[style="margin-top:3px;"]
-acgzone.us##div[style="margin:30px 0 3px;padding:1px;"]
-acgzone.us##div[style="margin:30px 0 3px;padding:1px;"] ~ a
+acgzone.us##aside[id^="text-4"]
+acgzone.us##img[width="550"][height="100"]
+acgzone.us##.wumii-hook ~ a
+acgzone.us##.wumii-hook + div[style]
 
 !---游侠网
 ||bmp.ali213.net/js/
@@ -339,6 +339,7 @@ iqiyi.com##[id^="div_theatre"]
 @@||static.hdslb.com/ad-images/$image
 ||bilibili.tv/ad/
 ||bilibili.tv/html/$~xmlhttprequest
+||hdslb.com/images/isptrack.js
 ||hdslb.com/u_user/$object-subrequest
 ||stat.bilibili.tv^
 ||hdslb.com/u_user/$object_subrequest,domain=bilibili.tv
@@ -432,6 +433,9 @@ chinaiiss.com##.nav_r:nth-child(6)
 ||news.chinatimes.com/2009Cti/*Ads-Right*.shtml
 ||sortweb.chinatimes.com^
 ||wantbuy.chinatimes.com^$subdocument
+chinatimes.com##.ad
+chinatimes.com##.ad_72890_box
+chinatimes.com##.idx_hot_ad
 
 !---中国黄金投资网
 ||res.cngoldres.com/web/index/flash/
@@ -3012,6 +3016,7 @@ crsky.com##[id$="_TL"]
 blog.dausos.com##.ad_h
 blog.dausos.com##.adr
 blog.dausos.com##.adt
+share.dmhy.me,share.dmhy.org##.text_center
 dmzj.com##iframe[width="960"]
 downg.com##.content.ad-b950x50
 freehao123.com##.box
@@ -3318,6 +3323,7 @@ www.3dmgame.com##[id^="clickbg"]
 .advertmarket.
 .adwolf.
 .ae/ads/
+.ar/ads/
 .ashx?ad=
 .ashx?AdID=
 .asp?coad
@@ -3341,7 +3347,6 @@ www.3dmgame.com##[id^="clickbg"]
 .ch/ads/
 .clkads.
 .co/ads/
-.com.eg/ads/
 .com/?ad=
 .com/?wid=
 .com/a?network
@@ -3386,6 +3391,7 @@ www.3dmgame.com##[id^="clickbg"]
 .cz/affil/
 .cz/bannery/
 .dartconfig.js
+.eg/ads/
 .eu/ads/
 .gif?ad=
 .gr/ads/
@@ -3411,7 +3417,6 @@ www.3dmgame.com##[id^="clickbg"]
 .mx/ads/
 .my/ads/
 .name/ads/
-.net.ar/ads/
 .net/ad-
 .net/ad/$~object-subrequest
 .net/ad2/
@@ -5134,10 +5139,12 @@ www.3dmgame.com##[id^="clickbg"]
 /adv-f.
 /adv/ads/*
 /adv/adv_
+/adv/box-
 /adv/kelkoo/*
 /adv/kelkoo_
 /adv/lrec_
 /adv/preroll_
+/adv/skin.
 /adv/skin_
 /adv/sponsor/*
 /adv02.
@@ -7211,6 +7218,7 @@ www.3dmgame.com##[id^="clickbg"]
 /sitewide/ads/*
 /skin/ad/*
 /skin/ad3/*
+/skin/adv/*
 /skin3/ads/*
 /skinad.
 /skinads/*
@@ -7725,6 +7733,7 @@ www.3dmgame.com##[id^="clickbg"]
 ?adarea=
 ?adclass=
 ?adcontext=
+?adflashid=
 ?adfox_
 ?adloc=
 ?adlocation=
@@ -8738,6 +8747,7 @@ _a468x60.
 &program=revshare&$popup
 -ads-campaign/$popup
 /ad_pop.php?$popup
+/ads-clicktrack/*$popup
 /ads.htm$popup
 /adserver.$popup
 /bani/index.php?id=$popup
@@ -9072,6 +9082,7 @@ _popunder+$popup
 ###LftAd
 ###LittleAdvert
 ###LoungeAdsDiv
+###LovelabAdoftheDay
 ###LowerContentAd
 ###MAINAD-box
 ###MPUAdSpace
@@ -9311,6 +9322,7 @@ _popunder+$popup
 ###ad-container-inner
 ###ad-container-outer
 ###ad-contentad
+###ad-div-leaderboard
 ###ad-e-container
 ###ad-ear
 ###ad-f-container
@@ -9674,6 +9686,7 @@ _popunder+$popup
 ###adDivContainer
 ###adFiller
 ###adFixFooter
+###adFlashDiv
 ###adFot
 ###adFoxBanner
 ###adFps
@@ -13410,6 +13423,7 @@ _popunder+$popup
 ###sb-ad-sq
 ###sb_ad_links
 ###sb_advert
+###sbads-top
 ###scoreAD
 ###scroll_banner_ad
 ###scrollingads
@@ -14088,6 +14102,7 @@ _popunder+$popup
 ###vertical_ad
 ###vertical_ads
 ###vhDivAdSlot300x250
+###vidAdTop
 ###video-embed-ads
 ###video-header-advert
 ###video-in-player-ad
@@ -16247,10 +16262,12 @@ _popunder+$popup
 ##.ads_728
 ##.ads_728x90
 ##.ads_admeld
+##.ads_after
 ##.ads_after_more
 ##.ads_amazon
 ##.ads_amazon_outer
 ##.ads_area
+##.ads_before
 ##.ads_bg
 ##.ads_big
 ##.ads_big-half
@@ -16294,6 +16311,7 @@ _popunder+$popup
 ##.ads_loc_bottom
 ##.ads_loc_side
 ##.ads_lr_wrapper
+##.ads_main
 ##.ads_medrect
 ##.ads_mpu
 ##.ads_mpu_small
@@ -16589,6 +16607,7 @@ _popunder+$popup
 ##.adv-200-200
 ##.adv-250-250
 ##.adv-300
+##.adv-300-1
 ##.adv-300-250
 ##.adv-300x250
 ##.adv-336-280
@@ -16837,6 +16856,7 @@ _popunder+$popup
 ##.advertisement-block
 ##.advertisement-bottom
 ##.advertisement-caption
+##.advertisement-content
 ##.advertisement-header
 ##.advertisement-label
 ##.advertisement-label-up-white
@@ -17746,6 +17766,7 @@ _popunder+$popup
 ##.displayAdCode
 ##.displayAdSlot
 ##.displayAdUnit
+##.display_ad
 ##.div-google-adx
 ##.divAd
 ##.divAdright
@@ -17839,6 +17860,7 @@ _popunder+$popup
 ##.featureAd
 ##.feature_ad
 ##.featured-ad
+##.featured-sponsors
 ##.featuredAdBox
 ##.featuredAds
 ##.featuredBoxAD
@@ -19168,6 +19190,7 @@ _popunder+$popup
 ##.railad
 ##.railadspace
 ##.rbFooterSponsors
+##.rbRectAd
 ##.rc_ad_300x100
 ##.rc_ad_300x250
 ##.readerads
@@ -22738,6 +22761,7 @@ _popunder+$popup
 ||w4.com^$third-party
 ||wagershare.com^$third-party
 ||wahoha.com^$third-party
+||wamnetwork.com^$third-party
 ||warezlayer.to^$third-party
 ||warfacco.com^$third-party
 ||watchfree.flv.in^$third-party
@@ -23809,7 +23833,6 @@ _popunder+$popup
 ||mobilemetrics.appspot.com^$third-party
 ||mobyler.com/img/banner/
 ||mol.im/i/pix/ebay/
-||moneycontrol.co.in^*/jspopunder.
 ||moneycontrol.com^$subdocument,third-party
 ||moosify.com/widgets/explorer/?partner=
 ||mosso.com^*/banners/
