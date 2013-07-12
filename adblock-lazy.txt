@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: jU+SQUy8kFFjfxJY59G7pg
+!  Checksum: 4sZuc0Q3BIIBn6DkWwk9bA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 12 Jul 2013 12:02:36 +0800
+!  Last Modified:  Fri, 12 Jul 2013 12:36:06 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -413,9 +413,16 @@ china.com##.gg950
 !---中国网
 ||union.china.com.cn^
 ||images.china.cn^*/*first/$image
-||news.china.com.cn/node_7186422.htm
+||images.china.cn^*first/$subdocument
+||www.china.com.cn/node_$domain=news.china.com.cn
+china.com.cn##img[width="180"]
+china.com.cn##td[width="406"]
+china.com.cn##img[width="688"]
+news.china.com.cn##.Banner_left
 news.china.com.cn##.Banner_right
-news.china.com.cn##DIV[style="width:310px;height:250px;padding-left:5px"]
+news.china.com.cn##div[style="width:310px;height:250px;padding-left:5px"]
+news.china.com.cn##iframe#gggg
+news.china.com.cn##.Photos > ul:first-child
 
 !---中国战略网
 ||chinaiiss.com/include/js/function.ad.js
