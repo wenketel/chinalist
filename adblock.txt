@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: ssamtDQ3N5pMxtyeRj2Fcg
+!  Checksum: 0MmWyQ9rheys6w63VHX3Hw
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 12 Jul 2013 21:59:30 +0800
+!  Last Modified:  Mon, 15 Jul 2013 19:08:45 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -22,7 +22,6 @@
 bbs.9baka.com,bbs.9gal.com#@##top_ad
 yocoy.com#@##AdArea
 @@||zj.189.cn/wt_uac/login/wt/js/pop.js
-@@||32666.com/templates/32666/images/ad/$script
 @@||ad.ourgame.com/cgi-bin/insertflasha.js
 @@||cpro.baidu.com/cpro/ui/c.js$domain=bbs.9es.cn
 @@||pos.baidu.com/ecom?$script,domain=bbs.9es.cn
@@ -482,7 +481,7 @@ download.csdn.net##.ad_area_1
 !---大洋网
 ||dayoo.com/sta/da.js
 ||images.dayoo.com/dywimg/
-||yunyu120.com/dayang/
+||yunyu120.com/dayang/`
 dayoo.com##[id^="ad"]
 dayoo.com##.advertising
 dayoo.com##.cn
@@ -1761,6 +1760,8 @@ steachs.com###banner
 !---Download Sites
 ||static.1000eb.com/www/img/rili.gif
 ||05sun.com^$script
+@@||32666.com/templates/32666/images/*/ad/$script
+32666.com##.ad
 ||33lc.com/js/*_*.js
 ||33lc.com/js/banner.js
 33lc.com##.adArea2
