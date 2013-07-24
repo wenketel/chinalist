@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: FjNYJjTLoIYnfiMZKW8/uQ
+!  Checksum: 4QlUWw0LA/cKladDpBxQQA
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 23 Jul 2013 22:15:49 +0800
+!  Last Modified:  Wed, 24 Jul 2013 20:08:33 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -1818,6 +1818,7 @@ portableappc.com###text-14
 ||sz1001.net/Down_Style/$script
 ||tntdown.com/News/js/C_
 ||ttmeiju.com/templates/ttmeiju/images/$object
+||vdisk.cn/img/dcr.gif
 ||vipcn.com/hezuo/
 ||xdowns.com/c.js
 ||xiazaiba.com/uploadfiles/ads/
@@ -2901,12 +2902,13 @@ zxtjd.com###it_an
 /adv/*$domain=~ftchinese.com
 /advpic/*
 /attachments/ad/*
-.cn/ads/
 .com/js/ad.
-.com/js/ads/
+|http://*.hk/ad/
 .com/js/ad_$domain=~eslite.com
 .com.cn/js/ad.
 /data/ad/*
+.cn/ads/
+.com/js/ads/
 /dkgg/*
 /duilian.
 /events/ad/*
@@ -3057,6 +3059,7 @@ lvye.cn##.text-ad1
 mobile01.com##[class^="ad-"]
 mobile01.com##.admicrobtn
 mobile01.com##a[href^="adredir.php"]
+naruto.hk###jieshao DIV
 needpop.com##.spaceborder > table[style="background: #BBE9FF"]
 paoshu8.net##[id^="ad_"]
 paoshu8.net###TextTitle ~ table[border="0"]
