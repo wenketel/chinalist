@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: NZDQ6B5ST3HovOtbDDtIpg
+!  Checksum: koXcfBUbKIy3ZppkkBPTvg
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 30 Jul 2013 19:29:23 +0800
+!  Last Modified:  Tue, 30 Jul 2013 21:15:46 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -869,10 +869,9 @@ www.ku6.com##.ku6_ad
 @@||pic.snyu.com/sdk*/Main.swf$domain=~ku6.com
 
 !---乐视网
+@@||player.letvcdn.com^*/newplayer/*.swf
+||player.letvcdn.com^*.swf
 ||dc.letv.com^
-@@||player.letvcdn.com/crossdomain.xml
-@@||player.letvcdn.com^*LetvPlayer.swf
-||player.letvcdn.com^$object
 ||pro.hoye.letv.com^
 ||js.letvcdn.com/js/*/stats/
 letv.com##.Ad
@@ -1796,7 +1795,6 @@ yaolan.com##div[id^="mama_ad"]
 yaolan.com##div[id^="frPicWzAd"]
 
 !--百合网
-||m.ku6.com/statics/js/official_install_beacon.js
 baihe.com##.blockUI
 
 !----------------------------Generic(sort by domain name)--
