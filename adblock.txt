@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: cHtP05NM2gg+WTz7VNifqA
+!  Checksum: NZDQ6B5ST3HovOtbDDtIpg
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 30 Jul 2013 11:10:04 +0800
+!  Last Modified:  Tue, 30 Jul 2013 19:29:23 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -484,9 +484,12 @@ download.csdn.net##.ad_area_1
 ||dayoo.com/sta/da.js
 ||images.dayoo.com/dywimg/
 ||yunyu120.com/dayang/
+||dayoo.com/AdPub/adpub/$image
 dayoo.com##[id^="ad"]
 dayoo.com##.advertising
 dayoo.com##.cn
+dayoo.com##div[style="top: 10px; height: 320px; width: 100px; z-index: 1000; overflow: hidden; right: 1px; position: fixed;"]
+dayoo.com##div[style="top: 10px; height: 320px; width: 100px; z-index: 1000; overflow: hidden; left: 1px; position: fixed;"]
 !--gzdaily
 /pub/news/gzrb/*$script
 ||gzdaily.dayoo.com/tpl/banner$object
@@ -557,6 +560,8 @@ dui.lu##[id^="j_duilu"]
 ||eastmoney.com/images/uma.html
 ||eastmoney.com/js/fs2012.js
 ||same.eastmoney.com^
+||cmsjs.eastmoney.com/js/fixedSoft*$script
+eastmoney.com##.lyad
 eastmoney.com##.bannerE
 eastmoney.com##.banner
 
@@ -607,9 +612,14 @@ i.firefoxchina.cn###topbanner
 
 !---搜狐焦点
 ||focus.cn/ad_publish/$script
-||js.a.focus.cn/bj_ad/
+||js.a.focus.cn/*_ad/
 ||simg.f.itc.cn/common/egou/images/
 ||src.focus.cn/common/js/adm2012.js
+focus.cn##.ad
+
+!--浙江在线
+zjol.com.cn##span.qqt
+zjol.com.cn##span.lqgg
 
 !---风行网
 @@||q.funshion.com/js.php
@@ -850,6 +860,7 @@ bt.ktxp.com##.ad
 ||log*.ku6.com^
 ||stat.ku6.com^$object_subrequest
 ||gug.ku6cdn.com^
+||m.ku6.com/statics/js/official_install_beacon.js
 v.ku6.com##[class^="aa_"]
 my.ku6.com##.gg
 www.ku6.com##[class^="a_d0608"]
@@ -1181,6 +1192,7 @@ mb.qq.com#@##ad-container
 ||imgcache.qq.com/liveportal_v1/swf/player/bgadplayer.swf
 ||smart.linktech.cn^$third-party
 ||video.mywtv.cn/webfiles/ad_$object
+||yz.qq.com^$popup
 qq.com##.l_qq_com
 qq.com##div[style="width:960px;height:90px; margin:0 auto; text-align:center; padding-top:10px"]
 mail.qq.com##.tipbook-top
@@ -1231,6 +1243,7 @@ qqread.com##[class$="ad"]
 ||up.hiao.com^
 qingdaonews.com##.commonrightad
 qingdaonews.com##.surround
+up.qingdaonews.com/up/$script,object
 
 !---读者文摘
 @@||readersdigest.cn/files/cn-chn/pictures/RD_cn.gif
@@ -1387,6 +1400,13 @@ soufun.com##.photo03
 soufun.com##.topbanner
 news.sh.soufun.com##TABLE[width="270"][height="400"][align="left"]
 
+!--好租网
+haozu.com##.index7ad
+||haozu.com/ajax/loadindexads*$subdocument
+!--HOUSE365
+||house365.com/js/lbpopup.js
+house365.com##.m_coup-big
+
 !---山西新闻网
 ||images.daynews.com.cn/flash/
 ||images.daynews.com.cn/zzbframe/2008daynews/ad/
@@ -1482,6 +1502,15 @@ uuu9.com###cm1337
 uuu9.com##.h_50
 news.uuu9.com##.ng_banner
 www.uuu9.com##.T_banner
+
+!--265G
+||adm.265g.com^
+||265g.com/indexapp/*$popup
+265g.com##.bg_ban_bar
+265g.com##.bg_ban
+265g.com##div[class^="ban"]
+265g.com##.play_fmt
+265g.com###sfmt
 
 !---udn
 @@||video.udn.com/player/Adv.swf$object_subrequest
@@ -1718,6 +1747,7 @@ zol.com.cn###rightAdDiv1
 vga.zol.com.cn##.banner250
 www.zol.com.cn#@##search_ad
 www.zol.com.cn##.adwindow
+zol.com.cn##.ad-box
 !--中关村在线武汉站
 ||pc3w.com/adpic/
 ||pc3w.com/js/
@@ -1741,6 +1771,33 @@ home.sz.zj.cn##.mb10.tips
 ||static.zongheng.com^*/adClickStat.js
 ||static.zongheng.com/upload/ad/
 ||static.zongheng.com/upload/zhds/
+zongheng.com###bigImgPop
+!--MMZH
+mmzh.com###dlle
+mmzh.com###dlri
+
+!--摇篮网
+/adscript/crazyad.js
+yaolanimage.cn/home/js/adinsert_new.js
+||adpub.yaolan.com^
+yaolan.com##.fwBotAd
+yaolan.com##.focus
+yaolan.com##.SybAd
+yaolan.com##div[id^="topAd"]
+yaolan.com###j_focus_img
+yaolan.com###j_focus_num
+yaolan.com##div[id^="frWzAd"]
+yaolan.com##div[id^="fmAdCenter"]
+yaolan.com##div[id^="underZs"]
+yaolan.com##div[id*="underHdAd"]
+yaolan.com##div[id^="active_ad"]
+yaolan.com##div[id^="bot_ad"]
+yaolan.com##div[id^="mama_ad"]
+yaolan.com##div[id^="frPicWzAd"]
+
+!--百合网
+||m.ku6.com/statics/js/official_install_beacon.js
+baihe.com##.blockUI
 
 !----------------------------Generic(sort by domain name)--
 !---Blog Sites
@@ -1908,6 +1965,11 @@ gamme.com.tw##[class^="sidead_"]
 ||hebei.com.cn/sys/online_calc.js^
 ||hinews.cn/out/img/$object
 ||hinews.cn/out/img/*/*x
+||oa.hinews.cn/work/$object
+||hinews.cn/swf/0/$object
+||hinews.cn/out/$script
+hinews.cn##apDiv2
+hinews.cn##div[id^="hi_gg_"]
 ||itocp.com/html/$object
 ||jjxw.cn^$object
 jjxw.cn##[class$="_ad"]
@@ -2198,6 +2260,7 @@ bio-equip.com##td[width="32%"]
 ||cnki.net/indexGuangGao.htm
 ||pic.cnmo-img.com.cn^$object,domain=cnmo.com
 cnmo.com##[id^="AD"]
+cnmo.com##div[id*="pop"],div[class*="pop"]
 ||codepub.com/wuse/pic/
 ||dabaoku.com^$script,object,subdocument
 ||dcfever.com/campaigns/
@@ -2251,8 +2314,13 @@ frdic.com,godic.net###sidebar1
 ||hxsxw.com/hxsxw111.gif
 ||hxyl.net/hostpic/
 /gpic/*$domain=ihome99.com|19lou.com
+||static.19louimg.cn/cdntest5.js
+||o1.19lou.com^
 19lou.com,ihome99.com##.ad-cycle
-19lou.com,ihome99.com##.float-ad
+19lou.com,ihome99.com##.float-ad-wrap
+19lou.com,ihome99.com##div[class^="ad-ie6fixed"]
+19lou.com,ihome99.com##div[class^="corner-ad"]
+19lou.com,ihome99.com##div[class^="projection-ad"]
 ihome99.com##.pop-ad
 ||img.itbulo.com/js/11/$subdocument
 ||img.itbulo.com/js/11/gg.js
@@ -3097,4 +3165,6 @@ zazww.com##[id^="ads_c_"]
 www.3dmgame.com##.banner_1
 www.3dmgame.com##[id^="clickbg"]
 ||zasv.net/data/attachment/forum/201301/10/103254zzrl6yrr7zr2765y.gif
+hinews.cn##a[href="http://www.08980898.com/"]
+hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 !------------------------End of List-------------------------
