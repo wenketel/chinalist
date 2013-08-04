@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: p8ImZDu8VPcjB4AFh02oog
+!  Checksum: 4VjLN3jXMDGZWCIPIDtGJg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 01 Aug 2013 23:03:50 +0800
+!  Last Modified:  Sun, 04 Aug 2013 20:17:35 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1198,6 +1198,7 @@ qq.com##div[style="width:960px;height:90px; margin:0 auto; text-align:center; pa
 mail.qq.com##.tipbook-top
 ent.qq.com###ent_ad
 tech.qq.com##.kjad2
+v.qq.com##.mod_wind_img
 www.qq.com##[class^="adRight"]
 !---大渝网
 @@||cq.qq.com/js/cody/*scroll_ad.js
@@ -4712,6 +4713,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /ads/iframe
 /ads/image/*
 /ads/images/*
+/ads/imbox-
 /ads/img/*
 /ads/index-
 /ads/indexsponsors/*
@@ -7230,6 +7232,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /scripts/ads.
 /scripts/ads/*
 /scripts/afc/*
+/scripts/zanox-
 /scrollads/*
 /search-ads?
 /search.php?uid=*.*&src=
@@ -9380,6 +9383,7 @@ _popunder+$popup
 ###ad-728x90-leaderboard-top
 ###ad-728x90-top
 ###ad-728x90-top0
+###ad-88-wrap
 ###ad-970
 ###ad-a
 ###ad-a1
@@ -12996,6 +13000,7 @@ _popunder+$popup
 ###main_AD
 ###main_ad
 ###main_ads
+###main_col > #center_col div[style="font-size:14px;margin:0 4px;padding:1px 5px;background:#fff7ed"]
 ###main_rec_ad
 ###main_top_ad
 ###main_top_ad_container
@@ -20741,6 +20746,8 @@ _popunder+$popup
 ##img[alt^="Fuckbook"]
 ##input[onclick^="window.open('http://www.FriendlyDuck.com/AF_"]
 ##input[onclick^="window.open('http://www.friendlyduck.com/AF_"]
+! https://adblockplus.org/forum/viewtopic.php?f=2&t=17016
+##.l-container > #fishtank
 ! Google
 ###center_col > div[style="font-size:14px;margin-right:0;min-height:5px"] > div[style="font-size:14px;margin:0 4px;padding:1px 5px;background:#fff8e7"]
 ###cnt #center_col > #res > #topstuff > .ts
@@ -21681,6 +21688,7 @@ _popunder+$popup
 ||doubleclick.net/adx/wn.loc.$third-party
 ||doubleclick.net/adx/wn.nat.$third-party
 ||doubleclick.net/N2/pfadx/video.wsj.com/$third-party
+||doubleclick.net/N5202/pfadx/cmn_livemixtapes/$third-party
 ||doubleclick.net/N6088/pfadx/ssp.kshb/$third-party
 ||doubleclick.net/N6872/pfadx/shaw.mylifetimetv.ca/$third-party
 ||doubleclick.net/pfadx/*.BLIPTV/$third-party
@@ -24322,7 +24330,7 @@ _popunder+$popup
 ||surf100sites.com/images/banner_
 ||surveymonkey.com/jspop.aspx?$third-party
 ||surveywriter.net^$script,third-party
-||svcs.ebay.com/services/search/FindingService/*^affiliate.trackingId=$third-party,domain=~geo-ship.com
+||svcs.ebay.com/services/search/FindingService/*^affiliate.tracking$third-party
 ||swarmjam.com^$script,third-party
 ||sweed.to/?pid=$third-party
 ||sweetwater.com/feature/$third-party
@@ -26079,6 +26087,7 @@ _popunder+$popup
 /StatsCollector/*
 /statscounter/*
 /statscript.js
+/statsd_proxy
 /StatsHelper.gif?
 /StatsMngrWebInterface.
 /statspixel.
@@ -27853,7 +27862,6 @@ http://utm.
 ||w55c.net^$third-party
 ||waplog.net^$third-party
 ||waudit.cz^$third-party
-||web-18.com^$third-party
 ||web-stat.com^$third-party
 ||web-stat.net^$third-party
 ||webcounter.co.za^$third-party
@@ -29845,6 +29853,7 @@ http://utm.
 ||link.ex.fm/img/*.gif
 ||linkbucks.com/track/
 ||linkedin.com/analytics/
+||linkedin.com/lite/rum-track
 ||linkedin.com^*/tracker.gif?
 ||linkpuls.idg.no^
 ||linuxtoday.com/hqxapi/
@@ -30652,6 +30661,7 @@ http://utm.
 ||wcnc.com/g/g/button/
 ||weather.com/pagelet/metrics/
 ||weather.com^*/makeRequest-
+||web-18.com/common/w18a26062012143253_min.js
 ||web.hbr.org/test/whoami.php
 ||webcamgalore.com/aslog.js
 ||webcollage.net/apps/el?
