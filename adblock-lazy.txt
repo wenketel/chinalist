@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: xDsxvDgHY57HEi/PoKlMSg
+!  Checksum: PXTQAsyL1A8gcx4bR347Ow
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 05 Aug 2013 19:18:57 +0800
+!  Last Modified:  Tue, 06 Aug 2013 17:21:32 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -349,6 +349,7 @@ bilibili.tv##.ad-f
 @@||cb.baidu.com/crossdomain.xml
 @@||cb.baidu.com/ecom?$object_subrequest,domain=baomihua.com|pomoho.com
 @@||pvstat.pomoho.com/crossdomain.xml
+||a.baomihua.com^
 ||a.pomoho.com^
 ||systemlog.pxtadmin.com^
 
@@ -470,10 +471,10 @@ download.csdn.net##.ad_area_1
 ||stat.iteye.com^
 
 !---CTdisk
-/advview.php$domain=400gb.com|ctdisk.com
-.com/userclick$script,domain=400gb.com|ctdisk.com
-||doubleclick.ctdisk.com^
-||clientclick.tv002.com^
+||doubleclick.tv002.com^
+||400gb.com/advview.php?ad_pos=0
+||400gb.com/img/
+||400gb.com/adm.js
 400gb.com,ctdisk.com##.kk_xshow
 
 !---当当
@@ -1113,8 +1114,8 @@ plurk.com###sliderAds
 ||stat.ppstream.com^
 
 !---PPTV
-||player.pplive.cn^*/PPLivePlugin.swf
 ||web.data.pplive.com^
+||de.as.pptv.com^
 ||s1.pplive.cn/sta.js
 ||stat.pptv.com^
 ||synacast.com^
@@ -1878,7 +1879,9 @@ portableappc.com###text-14
 ||sz1001.net/Down_Style/$script
 ||tntdown.com/News/js/C_
 ||ttmeiju.com/templates/ttmeiju/images/$object
-||vdisk.cn/img/dcr.gif
+@@||vdisk.cn/img/loading.gif
+@@||vdisk.cn/img/logo$image
+||vdisk.cn/img/
 ||vipcn.com/hezuo/
 ||xdowns.com/c.js
 ||xiazaiba.com/uploadfiles/ads/
@@ -1892,6 +1895,9 @@ portableappc.com###text-14
 ||131.com/js/131InsideAD$script
 comic.131.com##.mh_frbk > dl
 ||313g.com/xyx/
+||4399.com/expire1day/
+||4399.com/loadimg/loading.htm
+||traceplay.5054399.com^$domain=4399.com
 ||get.766.com^$script
 ||bbs.a9vg.com/showit/img_show.php
 ||img.cngba.com/da/
@@ -1938,6 +1944,8 @@ ys168.com###xtxx
 ||yunfile.com^*/offline_banner/
 
 !---News Sites
+||hot.580k.com/share/Ad_
+news.580k.com##.contentAD
 ||67.com/img/$object
 67.com##.ad275-250
 67.com##.ad710-120a
@@ -2202,6 +2210,8 @@ tucao.cc##.a2013d
 ||luckstatic.v1.cn/st/10000/
 ||acsystem.wasu.cn^
 ||edsystem.wasu.cn^
+wasu.cn##.m_sp970x100
+wasu.cn##.sp313x262
 ||yiyi.cc/ad/
 ||yytt2012.com/tk/
 
@@ -2235,6 +2245,7 @@ tucao.cc##.a2013d
 ||88gs.com/agfile/
 ||9ist.com/others/ad/
 9ist.com##.tab_mb[width="100%"]
+||9ku.com/a8/
 ||asp300.com/2012adjs/
 asp300.com##.asp300-indexAD
 ||stat.baike.com^
@@ -2247,8 +2258,7 @@ bio-equip.com##td[width="32%"]
 ||bitscn.com/pic2009/a*.js
 ||c168c.com/*adv/
 ||cbifamily.com/corporation/
-||bbs.cfanclub.net/lmimages/001.gif
-||bbs.cfanclub.net/lmimages/960-602.gif
+||bbs.cfanclub.net/lmimages/yinsu$image
 ||chinacaipu.com^$subdocument
 ||images.chinaz.com^
 @@||chiphell.com/activity/*/*/$image,script,stylesheet
@@ -2269,6 +2279,9 @@ cnmo.com##div[id*="pop"],div[class*="pop"]
 ||disp.cc/ads_data/
 disp.cc###ads_page_b
 disp.cc###ads_page_r
+||dj520.com/js/stj.js
+dj520.com##.a304
+dj520.com##.pal
 ||djkk.com/ak/
 /banner/*$domain=dolc.de|dolc.info
 dolc.de,dolc.info###sitefocus
@@ -2542,6 +2555,7 @@ zxtjd.com###it_an
 ||37dz.com^$third-party
 ||37ha.com^$third-party
 ||p.37lai.com^$third-party
+||37pk49.com^$third-party
 ||cs.37see.com^$third-party
 ||3975.com^$third-party
 ||3975lm.com^$third-party
@@ -2774,6 +2788,7 @@ zxtjd.com###it_an
 ||keyyou.net^$third-party
 ||kfwan.com^$third-party
 ||kk7kk.com^$third-party
+||kol4399.com^$third-party
 ||koowo.com^$third-party
 ||kuaiwan.com^$third-party
 ||kucent.com^$third-party
