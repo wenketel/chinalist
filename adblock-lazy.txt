@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: PXTQAsyL1A8gcx4bR347Ow
+!  Checksum: NbNlfeoQ3XS5byPwZ9x5xA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 06 Aug 2013 17:21:32 +0800
+!  Last Modified:  Wed, 07 Aug 2013 23:46:58 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -34,6 +34,7 @@ news.now.com#@##ad-2
 !---Shopping websites
 @@||a.banggo.com/Ad/getAdPosList.shtml
 @@/adbanner/*$image,domain=books.com.tw
+@@||js.gomein.net.cn^*/template.min.js$domain=gome.com.cn
 @@||paipai.com^$domain=shop.qq.com
 @@/advertise/*$domain=suning.com
 @@||smart.51buy.com/w/ad/getad
@@ -124,7 +125,7 @@ so.360.cn,so.com##.spread
 @@||adimg.adtpl.jd.com/uploads/$image
 @@||book.jd.com/book/BookShowService.aspx$xmlhttprequest
 @@||my.jd.com/global/track.action^$script
-||wl.jd.com/wl.js
+||sstat.jd.com/scslog?
 
 !---3boys2girls
 ||3boys2girls.com^$subdocument
@@ -645,6 +646,7 @@ fuliba.net##.textwidget
 gamersky.com##.adc
 gamersky.com##div[style="position:absolute;z-index:1"]
 gamersky.com##.topadbod
+gamersky.com##.topzq
 gamersky.com###hitix
 
 !---即得
@@ -7523,6 +7525,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /textad?
 /textad_
 /textadrotate.
+/textads-
 /textads.
 /textads/*
 /textads_
@@ -14777,6 +14780,7 @@ _popunder+$popup
 ##.VerticalAd
 ##.Video-Ad
 ##.VideoAd
+##.WPBannerizeWidget
 ##.WideAdsLeft
 ##.WidgetAdvertiser
 ##.WiredWidgetsDartAds
