@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: E51dHUCNSnS6qcRGFCYkeA
+!  Checksum: XRa1mf7lJw00rIlGBwH9cw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 08 Aug 2013 19:05:39 +0800
+!  Last Modified:  Sat, 10 Aug 2013 11:32:33 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -2144,6 +2144,10 @@ shushuw.cn##.bdad
 ||wanshulou.com/skin/js/
 wanshulou.com###ad2
 wanshulou.com##body > .wrap:nth-child(4)
+@@||wcxiaoshuo.com/js/big5.js
+@@||wcxiaoshuo.com/js/default.js
+@@||wcxiaoshuo.com/js/index.js
+||wcxiaoshuo.com/js/
 ||xiaolushu.com/js/
 @@||xiaoshuo570.com/scripts/read/page.js
 ||xiaoshuo570.com/scripts/read$script
@@ -2830,6 +2834,7 @@ zxtjd.com###it_an
 ||onetad.com^$third-party
 ||oounion.com^$third-party
 ||pagechoice.net^$third-party
+||pangu.cc^$third-party
 ||e.phpwind.com^$third-party
 ||lianjie.phpwind.com^$third-party
 ||pixelinteractivemedia.com^$third-party
@@ -6101,7 +6106,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /eroadvertorial3.
 /erobanner.
 /eroex.
-/eros.
+/eros.htm
 /eshopoffer.
 /esi/ads/*
 /etology.
@@ -6619,6 +6624,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /js2.ad/size=
 /js_ad_utf8.
 /js_ads/*
+/js_ads_
 /jsad.php
 /jsads-
 /jsadscripts/*
@@ -7711,6 +7717,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /watchit_ad.
 /wbadvert/*
 /weather/ads/*
+/web-ads.
 /web/ads/*
 /web_ads/*
 /webad.
@@ -13023,7 +13030,6 @@ _popunder+$popup
 ###main_AD
 ###main_ad
 ###main_ads
-###main_col > #center_col div[style="font-size:14px;margin:0 4px;padding:1px 5px;background:#fff7ed"]
 ###main_rec_ad
 ###main_top_ad
 ###main_top_ad_container
@@ -13060,6 +13066,7 @@ _popunder+$popup
 ###mediumAdvertisement
 ###mediumrectangle_300x250
 ###medrec_bottom_ad
+###medrec_middle_ad
 ###medrec_top_ad
 ###medrectad
 ###medrectangle_banner
@@ -13328,6 +13335,7 @@ _popunder+$popup
 ###player_ad
 ###player_ads
 ###player_middle_ad
+###player_top_ad
 ###playerad
 ###playvideotopad
 ###pmad-in1
@@ -14119,6 +14127,8 @@ _popunder+$popup
 ###top-right-ad
 ###top-search-ad-wrapper
 ###top-story-ad
+###top100_ad300right
+###top100_ad300rightbottom
 ###top2_ads
 ###top300x250ad
 ###top3_ads
@@ -17953,6 +17963,7 @@ _popunder+$popup
 ##.darla_ad
 ##.dart-ad
 ##.dart-ad-grid
+##.dart-ad-taboola
 ##.dart-leaderboard
 ##.dart-medsquare
 ##.dartAd300
@@ -20775,6 +20786,7 @@ _popunder+$popup
 ! Google
 ###center_col > div[style="font-size:14px;margin-right:0;min-height:5px"] > div[style="font-size:14px;margin:0 4px;padding:1px 5px;background:#fff8e7"]
 ###cnt #center_col > #res > #topstuff > .ts
+###main_col > #center_col div[style="font-size:14px;margin:0 4px;padding:1px 5px;background:#fff7ed"]
 ###mbEnd[cellspacing="0"][cellpadding="0"]
 ###mclip_container:last-child
 ###mn #center_col > div > h2.spon:first-child
@@ -27854,6 +27866,7 @@ http://utm.
 ||virtualnet.co.uk^$third-party
 ||visibility-stats.com^$third-party
 ||visiblemeasures.com/log?$object-subrequest,third-party
+||visiblemeasures.com/swf/*/vmcdmplugin.swf?key*pixel$object-subrequest
 ||visiblemeasures.com/swf/as3/as3sohandler.swf$object-subrequest,third-party
 ||visibli.com^$third-party
 ||visioncriticalpanels.com^$third-party
@@ -29919,6 +29932,7 @@ http://utm.
 ||marketing.kalahari.net^
 ||marketwire.com/accesstracking/
 ||marriott.com^*/mi_customer_survey.js
+||mashable.com/pv.xml
 ||mastercard.com/dynamictag.swf
 ||mastercard.com^*/Analytics/
 ||mate1.com^*/iframe/pixel/
@@ -30025,6 +30039,7 @@ http://utm.
 ||news-leader.com^*/analytics.js
 ||news.cn/webdig.js
 ||news.com.au/tracking/
+||news9.com/beacon/
 ||newsarama.com/common/track.php
 ||newscom.com/js/v2/ga.js
 ||newser.com/utility.aspx?
