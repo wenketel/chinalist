@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: XRa1mf7lJw00rIlGBwH9cw
+!  Checksum: hQJ3cqQaLoyY3lsU2t8jMw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 10 Aug 2013 11:32:33 +0800
+!  Last Modified:  Mon, 12 Aug 2013 16:07:56 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1826,8 +1826,10 @@ steachs.com###banner
 !---Download Sites
 ||static.1000eb.com/www/img/rili.gif
 ||05sun.com^$script
-@@||32666.com/templates/32666/images/*/ad/$script
+@@||32666.com/templates/32666/images/ad/down.js
+||32666.com/img/
 32666.com##.ad
+32666.com##.fmright
 ||33lc.com/js/*_*.js
 ||33lc.com/js/banner.js
 33lc.com##.adArea2
@@ -3295,6 +3297,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 -ad4.
 -ad5.
 -ad_125x125.
+-ad_banner-
 -ad_injector/
 -ad_leaderboard/
 -adcentre.
@@ -3518,7 +3521,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 .gr/ads/
 .homad.
 .html?ad=
-.html?ad_id=
+.html?ad_
 .html?clicktag=
 .iads.js
 .ie/ads/
@@ -3810,6 +3813,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /ad/frame1.
 /ad/framed?
 /ad/generate?
+/ad/getban?
 /ad/google/*
 /ad/google_
 /ad/html/*
@@ -9354,6 +9358,8 @@ _popunder+$popup
 ###aboveplayerad
 ###abovepostads
 ###acAdContainer
+###acm-ad-tag-300x250-atf
+###acm-ad-tag-300x250-btf
 ###ad-1
 ###ad-1000x90-1
 ###ad-120-left
@@ -14274,6 +14280,7 @@ _popunder+$popup
 ###ugly-ad
 ###ui-about-these-ads-img
 ###ultraWideAdContainer
+###under_story_ad
 ###undergameAd
 ###uploadMrecAd
 ###upper-ads
@@ -15146,6 +15153,7 @@ _popunder+$popup
 ##.ad-sidebar-outer
 ##.ad-sidebar300
 ##.ad-siderail
+##.ad-signup
 ##.ad-sitewide
 ##.ad-sky
 ##.ad-skyscr
@@ -15689,6 +15697,8 @@ _popunder+$popup
 ##.ad_300_120
 ##.ad_300_250
 ##.ad_300_250_1
+##.ad_300_250_2
+##.ad_300_250_cpv
 ##.ad_300_250_wrapper
 ##.ad_300s
 ##.ad_300x100
@@ -17555,6 +17565,7 @@ _popunder+$popup
 ##.blog-ads-container
 ##.blog-ads-top
 ##.blog-advertisement
+##.blog-view-ads
 ##.blog2AdIntegrated
 ##.blogAd
 ##.blogAdvertisement
@@ -18115,6 +18126,7 @@ _popunder+$popup
 ##.fl-adsense
 ##.flagads
 ##.flash-advertisement
+##.flashAd
 ##.flash_ad
 ##.flash_advert
 ##.flashad
@@ -18663,6 +18675,7 @@ _popunder+$popup
 ##.inhouseAdUnit
 ##.inhousead
 ##.inline-ad
+##.inline-ad-wrap
 ##.inline-ad-wrapper
 ##.inline-adblock
 ##.inline-mpu
@@ -19152,6 +19165,7 @@ _popunder+$popup
 ##.nbc_ad_carousel_wrp
 ##.ndmadkit
 ##.netads
+##.netshelter-ad
 ##.newHeaderAd
 ##.newPex_forumads
 ##.newTopAdContainer
@@ -22494,6 +22508,7 @@ _popunder+$popup
 ||peelawaymaker.com^$third-party
 ||peemee.com^$third-party
 ||peer39.net^$third-party
+||penuma.com^$third-party
 ||pepperjamnetwork.com^$third-party
 ||perfb.com^$third-party
 ||perfcreatives.com^$third-party
@@ -25077,6 +25092,7 @@ _popunder+$popup
 /clientlibs/ga.js
 /cm?ci=*&tid=
 /cm?tid=
+/cmarketing.countus.js
 /cms/stats/*
 /cmslog.dll?
 /cn-fe-stats/*
@@ -28328,6 +28344,7 @@ http://utm.
 ||dtym7iokkjlif.cloudfront.net/dough/
 ||du8783wkf05yr.cloudfront.net^$third-party
 ||dufue2m4sondk.cloudfront.net^
+||dw.cbsi.com^
 ||dw.com.com^
 ||e-merchant.com/^*/edr.js$third-party
 ||ebay.northernhost.com^
@@ -29159,6 +29176,7 @@ http://utm.
 ||amazonaws.com/beacon/vtpixpc.gif?
 ||amazonaws.com/tracking.relead.js
 ||amazonaws.com^*/pzyche.js
+||amcnets.com/cgi-bin/true-ip.cgi
 ||amd.com/us/as/vwo/vwo_
 ||amp.virginmedia.com^
 ||amy.gs/track/
@@ -29193,8 +29211,10 @@ http://utm.
 ||aol.com/track/
 ||ap.org^*/blank.gif?
 ||ap.org^*/webtrendsap_hosted.js
+||apex.cbsi.com^
 ||apex.cnet.com^
 ||apex.com.com^
+||apex.zdnet.com^
 ||api.tinypic.com/api.php?action=track
 ||apphit.com/js/count.js
 ||apple.com^*/spacer2.gif?
@@ -29365,6 +29385,7 @@ http://utm.
 ||cbox.ws^*/relay.swf?host=
 ||cbs.com/assets/js/*AdvCookie.js
 ||cbs.wondershare.com^
+||cbsimg.net/js/cbsi/dw.js
 ||cbsnews.com/i/trk/
 ||cclickvidservgs.com/mattel/cclick.js
 ||cctv.com^*/SnoopStat?
@@ -29501,6 +29522,7 @@ http://utm.
 ||dippic.com/cgi-bin/index_dl.cgi?
 ||divxden.com^*/tracker.js
 ||djtunes.com^*&__utma=
+||dmeserv.newsinc.com^
 ||dmtracking2.alibaba.com^
 ||dmtrk.com/*/o.gif
 ||docs.google.com/stat|$xmlhttprequest
@@ -29659,6 +29681,7 @@ http://utm.
 ||gardenweb.com^*/iv_header.js
 ||gawker.com/?op=hyperion_useragent_data
 ||gawker.com/at.js.php
+||gawker.com/hyperion/
 ||gawker.com^$object,~third-party
 ||gawker.com^*/trackers.html
 ||geico.com/vs/track2.js?
@@ -29829,6 +29852,7 @@ http://utm.
 ||itp.net/ga.js
 ||itv.com/_app/cmn/js/bcm.js
 ||ixs1.net/s/
+||jakpost.net/jptracker/
 ||jal.co.jp/common_rn/js/rtam.js
 ||jalopnik.com/at.js.php
 ||jalopnik.com^$object,~third-party
@@ -30360,6 +30384,7 @@ http://utm.
 ||speakertext.com/analytics/
 ||spiegel.com/spacer.gif?
 ||spinback.com/spinback/event/impression/
+||spinmedia.com/clarity.min.js
 ||spoonful.com^*/tracking.js
 ||sporcle.com/adn/yaktrack.php?
 ||sportingnews.com/px/
@@ -30824,14 +30849,18 @@ http://utm.
 ||zylom.com^*/tracking_spotlight.js
 ! Preliminarily blocking Omniture s_code tracking scripts (versions H.25 - H.25.2) due to breakage (https://adblockplus.org/forum/viewtopic.php?f=10&t=11378)
 ||adobe.com^*/omniture_s_code.js
+||akamai.net^*/omniture_tracker.js$domain=ticketmaster.de
 ||bahn.de/common/view/static/*/js/lib/omniture/s_code.min.js
 ||bleacherreport.net/pkg/javascripts/*_omniture.js
 ||chip.de/js/omniture_somtr_code_vH.25.js
 ||img-bahn.de/v/*/js/s_code.js$domain=bahn.de
 ||nwsource.com/shared/js/s_code.js?$domain=seattletimes.com
+||nyteknik.se/ver02/javascript/2012_s_code_global.js
 ||pcworld.com/www.pcw/js/analytics/omniture/pcwmw-pcworld/s_code.js
 ||redbox.com/gen2.33/scripts/s_code.js
 ||skypeassets.com/i/tracking/js/s_code_20121127.js$domain=skype.com
+||ticketmaster.com^*/omniture_tracker.js
+||vitacost.com/Javascripts/s_code.js
 ! *** easylist:easyprivacy/easyprivacy_specific_international.txt ***
 ! Chinese
 ||analytics.163.com^
