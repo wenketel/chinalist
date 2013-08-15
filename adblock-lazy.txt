@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: s2M/coNaj34dfSy0r9m7YQ
+!  Checksum: r/95t2x8tIi05gV5Fm/hcQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 13 Aug 2013 22:24:01 +0800
+!  Last Modified:  Thu, 15 Aug 2013 12:53:20 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -649,6 +649,8 @@ fuliba.net##.textwidget
 ||gamersky.com/gspic/bg_$image
 ||gamersky.com/img/
 ||gamersky.com/picf/$subdocument
+||gamersky.com/pt2/
+||imgf.gamersky.com/*/$image,object
 gamersky.com##.adc
 gamersky.com##div[style="position:absolute;z-index:1"]
 gamersky.com##.topadbod
@@ -13487,6 +13489,7 @@ _popunder+$popup
 ###resultsAdsBottom
 ###resultsAdsSB
 ###resultsAdsTop
+###rg_right_ad
 ###rh-ad
 ###rh-ad-container
 ###rh_tower_ad
@@ -15178,6 +15181,7 @@ _popunder+$popup
 ##.ad-space-mpu-box
 ##.ad-space-topbanner
 ##.ad-spacer
+##.ad-speedbump
 ##.ad-sponsor
 ##.ad-sponsor-large-container
 ##.ad-sponsor-text
@@ -16966,6 +16970,7 @@ _popunder+$popup
 ##.advert-iab-468-60
 ##.advert-label
 ##.advert-leaderboard
+##.advert-loader
 ##.advert-lower-right
 ##.advert-mini
 ##.advert-mpu
@@ -18738,6 +18743,7 @@ _popunder+$popup
 ##.interstitial-ad600
 ##.interstitial468x60
 ##.interstitial_ad_wrapper
+##.ion-ad
 ##.ione-widget-dart-ad
 ##.ipm-sidebar-ad-middle
 ##.iprom-ad
@@ -19173,6 +19179,7 @@ _popunder+$popup
 ##.ndmadkit
 ##.netads
 ##.netshelter-ad
+##.new-ads-scroller
 ##.newHeaderAd
 ##.newPex_forumads
 ##.newTopAdContainer
@@ -23666,6 +23673,7 @@ _popunder+$popup
 ||couptopia.com/affiliate/$third-party
 ||coxnewsweb.com^*/ads/
 ||cplayer.blinkx.com^$third-party
+||cpm.amateurcommunity.de^
 ||creatives.inmotionhosting.com^
 ||creatives.summitconnect.co.uk^
 ||crowdsavings.com/r/banner/
@@ -25753,6 +25761,7 @@ _popunder+$popup
 /nielson/track
 /nielson_stats.
 /nikioWSJCallback.
+/NitroCookies.js
 /njs.gif?
 /nm_tr_combined-min.js
 /nm_tr_combined.js
@@ -26435,7 +26444,6 @@ _popunder+$popup
 /vzTracker/*
 /wa01.gif?log=
 /wanalytics/*
-/watrack.
 /wcount.php?
 /web_analytics/*
 /web_answertip.
@@ -29001,6 +29009,7 @@ http://utm.
 ||vertical-stats.huffpost.com^
 ||verticalacuity.com/varw/sendEvent?
 ||verticalacuity.com/vat/
+||video.google.com/api/stats/
 ||video.msn.com/report.aspx?
 ||videoplaza.com/proxy/distributor/$object-subrequest
 ||videoplaza.tv/proxy/tracker^$object-subrequest
@@ -29111,6 +29120,7 @@ http://utm.
 ||4info.com/alert/listeners/
 ||5min.com/PSRq?
 ||5min.com/PSRs?
+||69.25.121.67/page_load?$domain=theverge.com
 ||6waves.com/trker/
 ||7-eleven.com^*/ad.doubleclick.net/activity;
 ||79.125.21.168/i.gif?
@@ -29220,6 +29230,7 @@ http://utm.
 ||ap.org^*/blank.gif?
 ||ap.org^*/webtrendsap_hosted.js
 ||apex.cbsi.com^
+||apex.cbsnews.com^
 ||apex.cnet.com^
 ||apex.com.com^
 ||apex.zdnet.com^
@@ -30544,6 +30555,10 @@ http://utm.
 ||tivo.com/__ssobj/track?
 ||top.wn.com^
 ||topix.com/t6track/
+||torrentz.eu/ping?
+||torrentz.in/ping?
+||torrentz.li/ping?
+||torrentz.ph/ping?
 ||toshibadirect.com^*/remarketing_google.js
 ||total.shanghaidaily.com^
 ||totalporn.com/videos/tracking/?url=
@@ -30565,6 +30580,7 @@ http://utm.
 ||track.ning.com^
 ||track.websiteceo.com^
 ||track.wildblue.com^
+||track.zomato.com^
 ||tracker.anandtech.com^
 ||tracker.calameo.com^
 ||tracker.cpapath.com^
@@ -30856,7 +30872,6 @@ http://utm.
 ||zylom.com^*/tracking_spotlight.js
 ! Preliminarily blocking Omniture s_code tracking scripts (versions H.25 - H.25.2) due to breakage (https://adblockplus.org/forum/viewtopic.php?f=10&t=11378)
 ||adobe.com^*/omniture_s_code.js
-||akamai.net^*/omniture_tracker.js$domain=ticketmaster.de
 ||bahn.de/common/view/static/*/js/lib/omniture/s_code.min.js
 ||bleacherreport.net/pkg/javascripts/*_omniture.js
 ||chip.de/js/omniture_somtr_code_vH.25.js
@@ -30866,7 +30881,6 @@ http://utm.
 ||pcworld.com/www.pcw/js/analytics/omniture/pcwmw-pcworld/s_code.js
 ||redbox.com^*/scripts/s_code.js
 ||skypeassets.com/i/tracking/js/s_code_20121127.js$domain=skype.com
-||ticketmaster.com^*/omniture_tracker.js
 ||vitacost.com/Javascripts/s_code.js
 ! *** easylist:easyprivacy/easyprivacy_specific_international.txt ***
 ! Chinese
