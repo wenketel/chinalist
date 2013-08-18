@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: r/95t2x8tIi05gV5Fm/hcQ
+!  Checksum: tgA7jUtB2oGm0PmjD7cw3Q
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 15 Aug 2013 12:53:20 +0800
+!  Last Modified:  Mon, 19 Aug 2013 00:23:39 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -31,6 +31,9 @@ yocoy.com#@##AdArea
 bbs.kafan.cn#@#.a_mu
 news.now.com#@##ad-2
 @@||ad.qyer.com^
+wired.tw#@#.header_ad
+wired.tw#@#.sidebar_ads
+wired.tw#@#.top-content-adplace
 !---Shopping websites
 @@||a.banggo.com/Ad/getAdPosList.shtml
 @@/adbanner/*$image,domain=books.com.tw
@@ -3896,8 +3899,10 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /ad2push.
 /ad3.
 /ad300.
+/ad300f2.
 /ad300s.
 /ad300ws.
+/ad300x.
 /ad300x145.
 /ad300x250.
 /ad300x250_
@@ -3915,10 +3920,12 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /ad7.
 /ad728-
 /ad728.
+/ad728f2.
 /ad728s.
 /ad728t.
 /ad728w.
 /ad728ws.
+/ad728x.
 /ad728x15.
 /ad728x15_
 /ad728x90.
@@ -6822,6 +6829,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /navad/*
 /navads/*
 /nd_affiliate.
+/neo/ads/*
 /neoads.
 /netads.
 /netreachtextads/*
@@ -8402,6 +8410,7 @@ takeover_banner_
 -728x90/
 -728x90_
 -728x90a_
+-728x90px2.
 -729x91-
 -780x90-
 -800x150.
@@ -9302,6 +9311,7 @@ _popunder+$popup
 ###SpecialAds
 ###SponsorBarWrap
 ###SponsoredAd
+###SponsoredAds
 ###SponsoredLinks
 ###SponsoredResultsTop
 ###SponsorsAds
@@ -9562,6 +9572,7 @@ _popunder+$popup
 ###ad-megaban2
 ###ad-middlethree
 ###ad-middletwo
+###ad-minibar
 ###ad-module
 ###ad-mpu
 ###ad-mpu-warning
@@ -11888,6 +11899,7 @@ _popunder+$popup
 ###cnnTowerAd
 ###cnnVPAd
 ###cnn_cnn_adtag-3
+###coAd
 ###col3_advertising
 ###colAd
 ###colRightAd
@@ -12977,6 +12989,7 @@ _popunder+$popup
 ###leftcolumnad
 ###leftframeAD
 ###lg-banner-ad
+###li-right-geobooster-oas
 ###ligatus
 ###linkAdSingle
 ###linkAds
@@ -13562,6 +13575,7 @@ _popunder+$popup
 ###right_column_adverts
 ###right_column_internal_ad_container
 ###right_column_top_ad_unit
+###right_panel_ads
 ###right_rail_ad_header
 ###right_sidebar_ads
 ###right_top_gad
@@ -16475,6 +16489,7 @@ _popunder+$popup
 ##.adsRight
 ##.adsRow
 ##.adsSpacing
+##.adsTableBlox
 ##.adsText
 ##.adsTextHouse
 ##.adsThema
@@ -17717,6 +17732,7 @@ _popunder+$popup
 ##.bs-ad
 ##.bsAdvert
 ##.bsa_ads
+##.bsa_it_ad
 ##.bt_ad
 ##.btf-ad-medRect
 ##.btm_ad
@@ -19019,6 +19035,7 @@ _popunder+$popup
 ##.middle_AD
 ##.middle_ads
 ##.middlead
+##.midpost-ad
 ##.min_navi_ad
 ##.mini-ad
 ##.mini_ads
@@ -19390,6 +19407,8 @@ _popunder+$popup
 ##.prebodyads
 ##.premium-ad
 ##.premium-ads
+##.premiumAdOverlay
+##.premiumAdOverlayClose
 ##.premiumInHouseAd
 ##.premium_ad_container
 ##.premiumad
@@ -19641,6 +19660,7 @@ _popunder+$popup
 ##.rot_ads
 ##.rotating-ad
 ##.rotatingAdvertisement
+##.rotatingadsection
 ##.rotator_ad_overlay
 ##.round_box_advert
 ##.roundedCornersAd
@@ -20959,6 +20979,7 @@ _popunder+$popup
 ||adchemical.com^$third-party
 ||adchoice.co.za^$third-party
 ||adclick.lv^$third-party
+||adclick.pk^$third-party
 ||adclickafrica.com^$third-party
 ||adclickmedia.com^$third-party
 ||adcloud.net^$third-party
@@ -21389,6 +21410,7 @@ _popunder+$popup
 ||azoogleads.com^$third-party
 ||babbnrs.com^$third-party
 ||backbeatmedia.com^$third-party
+||backlinks.com^$third-party
 ||badjocks.com^$third-party
 ||baldiro.de^$third-party
 ||banner-clix.com^$third-party
@@ -21642,6 +21664,7 @@ _popunder+$popup
 ||cpabeyond.com^$third-party
 ||cpaclicks.com^$third-party
 ||cpaclickz.com^$third-party
+||cpagrip.com^$third-party
 ||cpalead.com^$third-party
 ||cpalock.com^$third-party
 ||cpanuk.com^$third-party
@@ -22254,6 +22277,7 @@ _popunder+$popup
 ||luxup.ru^$third-party
 ||lzjl.com^$third-party
 ||m1.fwmrm.net^$object-subrequest,third-party
+||m2pub.com^$third-party
 ||m5prod.net^$third-party
 ||madadsmedia.com^$third-party
 ||madisonlogic.com^$third-party
@@ -22423,6 +22447,7 @@ _popunder+$popup
 ||nowspots.com^$third-party
 ||npvos.com^$third-party
 ||nrnma.com^$third-party
+||nscontext.com^$third-party
 ||nsdsvc.com^$third-party
 ||nspmotion.com^$third-party
 ||nster.net^$third-party,domain=~nster.com
@@ -24161,7 +24186,7 @@ _popunder+$popup
 ||my-best-jobs.com^$subdocument,third-party
 ||my-dirty-hobby.com/track/$subdocument,third-party
 ||myalter1tv.altervista.org^$subdocument,third-party
-||mydirtyhobby.com^$third-party,domain=~mydirtyhobby.de
+||mydirtyhobby.com^$third-party,domain=~my-dirty-hobby.com|~mydirtyhobby.de
 ||mydownloader.net/banners/$third-party
 ||myfreepaysite.info^*.gif$third-party
 ||myfreeresources.com/getimg.php?$third-party
@@ -25453,6 +25478,7 @@ _popunder+$popup
 /hg?hc=&hb=*&vjs=
 /hgct?hc=&hb=*&vjs=
 /hints.netflame.cc/*
+/HiroBeacon?
 /Hit.ashx?
 /hit.asp?
 /Hit.aspx?
@@ -26969,6 +26995,7 @@ http://utm.
 ||dacounter.com^$third-party
 ||dailycaller-alerts.com^$third-party
 ||dashboard.io^$third-party
+||datacaciques.com^$third-party
 ||datvantage.com^$third-party
 ||daylife-analytics.com^$third-party
 ||daylogs.com^$third-party
@@ -27427,6 +27454,7 @@ http://utm.
 ||mybloglog.com^$third-party
 ||myfastcounter.com^$third-party
 ||mynewcounter.com^$third-party
+||myomnistar.com^$third-party
 ||mypagerank.net^$third-party
 ||myreferer.com^$third-party
 ||myroitracking.com^$third-party
@@ -28625,7 +28653,6 @@ http://utm.
 ||myscoop-tracking.googlecode.com^$third-party
 ||mysdcc.sdccd.edu^*/.log/
 ||mysociety.org/track/
-||naiadsystems.com/pixel.php?
 ||nastydollars.com/trk/
 ||navlink.com/__utmala.js
 ||neocounter.neoworx-blog-tools.net^
@@ -28878,6 +28905,7 @@ http://utm.
 ||tag.email-attitude.com^
 ||tag.myplay.com^
 ||tag.sonymusic.com^
+||teads.tv/track?
 ||technorati.com/technoratimedia-pixel.js
 ||the-group.net/aether/
 ||thefilter.com^*?extanonid=$~script
@@ -29468,6 +29496,7 @@ http://utm.
 ||collector.githubapp.com^
 ||collector.ksax.com^
 ||collector.kstptv5.com^
+||collector.shopstream.co^
 ||collector.statowl.com^
 ||collector.tescocompare.com^
 ||collector.viki.io^
@@ -29483,7 +29512,6 @@ http://utm.
 ||coolertracks.emailroi.com^
 ||cooliris.com/shared/stats/
 ||cosmopolitan.co.za/rest/track/
-||costco.ca/dynaTraceMonitor?
 ||counter.promodeejay.net^
 ||coupons.com/pmm.asp
 ||courierpress.com/metrics/
@@ -29525,7 +29553,7 @@ http://utm.
 ||deadspin.com/at.js.php
 ||deadspin.com^$object,~third-party
 ||deadspin.com^*/trackers.html
-||dealnews.com/lw/
+||dealnews.com/lw/ul.php?
 ||debtconsolidationcare.com/affiliate/tracker/
 ||dell.com/images/global/js/s_metrics*.js
 ||dell.com/metrics/
@@ -29987,7 +30015,7 @@ http://utm.
 ||media-imdb.com^*/beacon.js
 ||mediabistro.com/blogshare/js/trackingheader.js
 ||mediaplex.com^*/universal.html
-||medium.com/_/stat/
+||medium.com/_/stat
 ||medscape.com/pi/1x1/pv/profreg-1x1.gif
 ||mercent.com/js/tracker.js
 ||merchantcircle.com/static/track.js
@@ -30001,6 +30029,7 @@ http://utm.
 ||metric.inetcore.com^
 ||metrics.aws.sitepoint.com^
 ||metrics.dailymotion.com^
+||metrics.ted.com^
 ||metroweekly.com/tools/blog_add_visitor/
 ||mf2fm.com/php/stats.php?
 ||microsoft.com/library/svy/
@@ -30074,6 +30103,7 @@ http://utm.
 ||ndtv.com/Status24x7.lv?
 ||ned.itv.com^
 ||net-a-porter.com/intl/trackpage.nap?
+||netflix.com/EpicCounter?
 ||netlog.com/track
 ||netmag.co.uk/matchbox/traffic/
 ||netzero.net/account/event.do?$image
@@ -30099,6 +30129,7 @@ http://utm.
 ||ning.com^*/ga/ga.js
 ||nj.com/cgi-bin/stats/
 ||nj.com/dhtml/stats/
+||nmtracking.netflix.com^
 ||nola.com/cgi-bin/stats/
 ||nola.com/content/*/tracklinks.js
 ||nola.com/dhtml/stats/
@@ -30126,7 +30157,7 @@ http://utm.
 ||oimg.m.cnbc.com^
 ||ok.co.uk/tracking/
 ||okcupid.com/poststat?
-||olark.com/nrpc/
+||olark.com/nrpc/*referred$script
 ||olark.com/track/
 ||omniture.theglobeandmail.com^
 ||onetravel.com/TrackOnetravelAds.js
@@ -30765,7 +30796,6 @@ http://utm.
 ||wego.com/farmer/
 ||wellness.com/proxy.asp
 ||wellsphere.com/?hit=
-||westelm.com/weimgs/*/external/bloomreach.js
 ||whatcar.com/Client/Stats/
 ||whoson.smcorp.com^
 ||whstatic.com^*/ga.js?
@@ -30878,7 +30908,6 @@ http://utm.
 ||img-bahn.de/v/*/js/s_code.js$domain=bahn.de
 ||nwsource.com/shared/js/s_code.js?$domain=seattletimes.com
 ||nyteknik.se/ver02/javascript/2012_s_code_global.js
-||pcworld.com/www.pcw/js/analytics/omniture/pcwmw-pcworld/s_code.js
 ||redbox.com^*/scripts/s_code.js
 ||skypeassets.com/i/tracking/js/s_code_20121127.js$domain=skype.com
 ||vitacost.com/Javascripts/s_code.js
