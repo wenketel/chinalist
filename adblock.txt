@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: uKGJ7As5F6PPlCbCVp2F3w
+!  Checksum: ojDozuVNZ8rk3QbZf0XSTQ
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 20 Aug 2013 19:26:06 +0800
+!  Last Modified:  Thu, 22 Aug 2013 15:32:00 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -124,10 +124,12 @@ bbs.360.cn##.aXd
 so.360.cn,so.com##.spread
 
 !---京东
+@@||ad.3.cn/flags/mgets?$domain=jd.com
 @@||adimg.adtpl.jd.com/uploads/$image
 @@||book.jd.com/book/BookShowService.aspx$xmlhttprequest
 @@||my.jd.com/global/track.action^$script
 ||sstat.jd.com/scslog?
+jd.com#@#.adwords
 
 !---3boys2girls
 ||3boys2girls.com^$subdocument
@@ -1951,6 +1953,9 @@ club.tgfcer.com#@##content_adv
 
 !---Net Disks
 ||d.119g.com/fanwan/$script
+||bego.cc/adm.js
+||bego.cc/img/
+bego.cc##.kk_xshow
 @@||gxp.cc/templates/xskaifa/images/ad/down.js
 ||gxp.cc/ad/
 gxp.cc##.adx90
@@ -2437,6 +2442,7 @@ qiushibaike.com##.sitelink
 ||qzwb.com^$object
 qzwb.com##.area[style^="height:70px;"]
 ||img.rmfans.cn/g/
+ruten.com.tw###supertop-bar
 ||sellgreat.com/images/Bdvertisement/
 ||so100.cn/images/a*.js
 ||so100.cn/images/newshead.htm
@@ -2981,6 +2987,7 @@ zxtjd.com###it_an
 ||yiqiwin.com^$third-party
 ||yocc.net^$third-party
 ||yongv.com^$third-party
+||youle55.com^$third-party
 ||youxitui.net^$third-party
 ||youxjia.com^$third-party
 ||youzhi.cc^$third-party
@@ -3192,6 +3199,8 @@ www.shupeng.com##.mod.msg-mod.msg-notice + .mod
 simplecd.me##[class^="ad-"]
 suopao.org##.t5[style^="margin-top:8px;"]
 ttmeiju.com##a[href^="http://www.ttmeiju.com/adclick.php?"]
+vmelon.com##.focus
+vmelon.com###text-4
 wcxiaoshuo.com##div[style="margin:10px auto; width:960px;height:90px;"]
 xfastest.com##[id^="ad"].block
 xfastest.com##.articles-left-olny

@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: MHZeIZzhA/vUUTOPOsy7vQ
+!  Checksum: rk0PKmGWZe7g3nO90oU4jw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 20 Aug 2013 19:26:13 +0800
+!  Last Modified:  Thu, 22 Aug 2013 15:32:05 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -125,10 +125,12 @@ bbs.360.cn##.aXd
 so.360.cn,so.com##.spread
 
 !---京东
+@@||ad.3.cn/flags/mgets?$domain=jd.com
 @@||adimg.adtpl.jd.com/uploads/$image
 @@||book.jd.com/book/BookShowService.aspx$xmlhttprequest
 @@||my.jd.com/global/track.action^$script
 ||sstat.jd.com/scslog?
+jd.com#@#.adwords
 
 !---3boys2girls
 ||3boys2girls.com^$subdocument
@@ -1952,6 +1954,9 @@ club.tgfcer.com#@##content_adv
 
 !---Net Disks
 ||d.119g.com/fanwan/$script
+||bego.cc/adm.js
+||bego.cc/img/
+bego.cc##.kk_xshow
 @@||gxp.cc/templates/xskaifa/images/ad/down.js
 ||gxp.cc/ad/
 gxp.cc##.adx90
@@ -2438,6 +2443,7 @@ qiushibaike.com##.sitelink
 ||qzwb.com^$object
 qzwb.com##.area[style^="height:70px;"]
 ||img.rmfans.cn/g/
+ruten.com.tw###supertop-bar
 ||sellgreat.com/images/Bdvertisement/
 ||so100.cn/images/a*.js
 ||so100.cn/images/newshead.htm
@@ -2982,6 +2988,7 @@ zxtjd.com###it_an
 ||yiqiwin.com^$third-party
 ||yocc.net^$third-party
 ||yongv.com^$third-party
+||youle55.com^$third-party
 ||youxitui.net^$third-party
 ||youxjia.com^$third-party
 ||youzhi.cc^$third-party
@@ -3193,6 +3200,8 @@ www.shupeng.com##.mod.msg-mod.msg-notice + .mod
 simplecd.me##[class^="ad-"]
 suopao.org##.t5[style^="margin-top:8px;"]
 ttmeiju.com##a[href^="http://www.ttmeiju.com/adclick.php?"]
+vmelon.com##.focus
+vmelon.com###text-4
 wcxiaoshuo.com##div[style="margin:10px auto; width:960px;height:90px;"]
 xfastest.com##[id^="ad"].block
 xfastest.com##.articles-left-olny
@@ -6224,6 +6233,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /footad.
 /footer-ad-
 /footer-ad.
+/footer_ad.
 /footer_ad_
 /footer_ads.
 /footerad.
@@ -6755,6 +6765,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /marketing/banners/*
 /marketing/banners_
 /markpop.js
+/masonad.gif
 /masterad.
 /match_ads.
 /maxi_ad.
@@ -12945,6 +12956,7 @@ _popunder+$popup
 ###leaderboardAdArea2
 ###leaderboardAdSibling
 ###leaderboardAdTop
+###leaderboardAds
 ###leaderboardAdvert
 ###leaderboardAdvertFooter
 ###leaderboard_728x90
@@ -21892,6 +21904,7 @@ _popunder+$popup
 ||entrecard.com^$third-party
 ||entrecard.s3.amazonaws.com^$third-party
 ||epicgameads.com^$third-party
+||eptord.com^$third-party
 ||ergodob.ru^$third-party
 ||ero-advertising.com^$third-party
 ||erovinmo.com^$third-party
@@ -23198,6 +23211,7 @@ _popunder+$popup
 ||zedo.com^$third-party
 ||zenoviagroup.com^$third-party
 ||zferral.com^$third-party
+||zidae.com^$third-party
 ||ziffdavis.com^$third-party
 ||zonealta.com^$third-party
 ||zonplug.com^$third-party
@@ -23522,6 +23536,7 @@ _popunder+$popup
 ||akamai.net^*/pics.drugstore.com/prodimg/promo/
 ||akamaihd.net/preroll*.mp4?$domain=csnnw.com
 ||akamaihd.net/ssa/*?zoneid=$subdocument
+||akamaihd.net^*/web/pdk/swf/freewheel.swf?$third-party
 ||alexa.com^*/promotebuttons/
 ||algart.net*_banner_$third-party
 ||allposters.com^*/banners/
@@ -23539,6 +23554,7 @@ _popunder+$popup
 ||amazonaws.com/publishflow/
 ||amazonaws.com/widgets.youcompare.com.au/
 ||angelbc.com/clients/*/banners/$third-party
+||anime.jlist.com^$third-party
 ||anonym.to/*findandtry.com
 ||aol.co.uk^*/cobrand.js
 ||aolcdn.com/os/mapquest/marketing/promos/
@@ -24452,6 +24468,7 @@ _popunder+$popup
 ||techbargains.com/inc_iframe_deals_feed.cfm?$third-party
 ||techbargains.com/scripts/banner.js$third-party
 ||textlinks.com/images/banners/
+||thaiforlove.com/userfiles/affb-
 ||thatfreething.com/images/banners/
 ||theatm.info/images/$third-party
 ||thebigchair.com.au^$subdocument,third-party
@@ -25663,6 +25680,7 @@ _popunder+$popup
 /log_e.php?id=
 /log_hit.
 /log_presence/*
+/log_stats.php?
 /log_syndication.
 /log_tracker.
 /log_view.
@@ -25813,6 +25831,7 @@ _popunder+$popup
 /numericAnalyticsFramework.
 /oas_analytics.
 /object_stats.
+/ocount.php
 /ocounter.
 /odoscope.js
 /om_ctrack.
@@ -28459,6 +28478,7 @@ http://utm.
 ||freedom.com^*/analytic/
 ||freedom.com^*/analytics/
 ||freegeoip.net/json/?callback=$third-party
+||freehostedscripts.net^*.php?site=*&s=*&h=$third-party
 ||friends.totallynsfw.com^
 ||fwix.com/ref.js
 ||fwix.com^*/trackclicks_
@@ -28618,6 +28638,7 @@ http://utm.
 ||mail.ebay.com/img/*.gif
 ||mailmax.co.nz/login/open.php$third-party
 ||mailserver2.itp.net^*/Logger?
+||mandrillapp.com/track/
 ||mansion.com/mts.tracker.js
 ||mapquest.com/tilelog/$~script
 ||mark.reevoo.com*/track/
@@ -30734,7 +30755,6 @@ http://utm.
 ||v.fwmrm.net/ad/*defaultImpression
 ||v.fwmrm.net/ad/*slotImpression
 ||validome.org/valilogger/track.js
-||vast.com/vimpressions.js
 ||vator.tv/tracking/
 ||vbs.tv/tracker.html
 ||vcstar.com/metrics/
@@ -30753,6 +30773,7 @@ http://utm.
 ||video.nbc.com^*/metrics_viral.xml
 ||video.syfy.com/lg.php
 ||videoplaza.com/proxy/tracker?
+||videotracker.washingtonpost.com^
 ||vidxden.com^*/tracker.js
 ||vietnamnet.vn^*/tracking.js
 ||villarenters.com/inttrack.aspx
