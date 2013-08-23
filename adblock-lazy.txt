@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: qVRtPeWEb+/cnci/nErxRw
+!  Checksum: MbTzcvqTHRSnBCNUKSr10Q
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 22 Aug 2013 22:47:07 +0800
+!  Last Modified:  Fri, 23 Aug 2013 20:17:08 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -3201,6 +3201,7 @@ suopao.org##.t5[style^="margin-top:8px;"]
 ttmeiju.com##a[href^="http://www.ttmeiju.com/adclick.php?"]
 vmelon.com##.focus
 vmelon.com###text-4
+web20share.com##.widget:nth-of-type(5)
 wcxiaoshuo.com##div[style="margin:10px auto; width:960px;height:90px;"]
 xfastest.com##[id^="ad"].block
 xfastest.com##.articles-left-olny
@@ -10215,6 +10216,7 @@ _popunder+$popup
 ###ad_big
 ###ad_bigbox
 ###ad_bigbox_companion
+###ad_bigrectangle
 ###ad_bigsize_wrapper
 ###ad_billboard
 ###ad_billboard2
@@ -17744,6 +17746,8 @@ _popunder+$popup
 ##.breakerAd
 ##.breakingNewsModuleSponsor
 ##.breakthrough-ad
+##.broker-ads
+##.broker-ads-center
 ##.brokerad
 ##.browse-ad-container
 ##.browser_boot_ad
@@ -21843,6 +21847,7 @@ _popunder+$popup
 ||doubleclick.net^*/ad/$~object-subrequest,third-party
 ||doubleclick.net^*/adi/$~object-subrequest,third-party
 ||doubleclick.net^*/adj/$~object-subrequest,third-party
+||doubleclick.net^*/pfadx/ssp.wews/$third-party
 ||doubleclick.net^*;afv_flvurl=http://cdn.c.ooyala.com/$third-party
 ||doubleclicks.me^$third-party
 ||doublepimp.com^$third-party
@@ -28368,7 +28373,6 @@ http://utm.
 ||d1gp8joe0evc8s.cloudfront.net^$third-party
 ||d1ivexoxmp59q7.cloudfront.net^*/live.js
 ||d1nh2vjpqpfnin.cloudfront.net^$third-party
-||d1nu2rn22elx8m.cloudfront.net^
 ||d1qpxk1wfeh8v1.cloudfront.net^
 ||d1ros97qkrwjf5.cloudfront.net^
 ||d1wscoizcbxzhp.cloudfront.net^
