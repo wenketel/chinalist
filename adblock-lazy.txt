@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: MbTzcvqTHRSnBCNUKSr10Q
+!  Checksum: N9InxwpCNgWVGDDF+rqO0Q
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 23 Aug 2013 20:17:08 +0800
+!  Last Modified:  Mon, 26 Aug 2013 18:54:32 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -229,6 +229,7 @@ down.admin5.com###a2
 
 !---acfun.tv
 ||acfun.tv/api/count.aspx
+||ranktv.cn/dotnet/artemis/u/cms/www/201308/240957521qqu.jpg
 acfun.tv###ad-comment
 
 !---ACGZone
@@ -1241,6 +1242,10 @@ news.qq.com##.bzad
 news.qq.com###f2y
 news.qq.com###f2z
 news.qq.com###photo_ad
+!---tv
+||i.gtimg.cn/qqlive/images/20130809/i1376013290_1.jpg
+||i.gtimg.cn/qqlive/images/20130809/i1376013294_1.jpg
+||imgcache.qq.com/mediastyle/video_2013/style/wind/img/mod_wind_img.32.png
 !--unions
 ||tajs.qq.com^
 ||tcss.qq.com^
@@ -3283,8 +3288,10 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 -300x100ad2.
 -ad-001-
 -ad-180x150px.
+-ad-200x200-
 -ad-313x232.
 -ad-340x400-
+-ad-400.
 -ad-banner.
 -ad-big.
 -ad-bottom-
@@ -4751,6 +4758,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /ads/directory/*
 /ads/display/*
 /ads/displaytrust.
+/ads/empty.
 /ads/exit.
 /ads/flash_
 /ads/flashbanners/*
@@ -6019,6 +6027,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /demo/ads/*
 /DemoAd.
 /descpopup.js
+/design/ads/*
 /develop/ads_
 /devicead/*
 /dfp/dc.js
@@ -8945,6 +8954,8 @@ _popunder+$popup
 ###A9AdsServicesWidgetTop
 ###AD1line
 ###AD2line
+###AD300x250
+###AD300x600
 ###ADEXPERT_PUSHDOWN
 ###ADEXPERT_RECTANGLE
 ###ADInterest
@@ -9920,6 +9931,7 @@ _popunder+$popup
 ###adLocation-3
 ###adLocation-4
 ###adLounge
+###adLrec
 ###adMOBILETOP
 ###adMPU
 ###adMagAd
@@ -12162,6 +12174,9 @@ _popunder+$popup
 ###dfp-ad-home_3-wrapper
 ###dfp-ad-leaderboard-wrapper
 ###dfp-ad-medium_rectangle
+###dfp-ad-slot2
+###dfp-ad-slot3
+###dfp-ad-slot7
 ###dfp_ad_DictHome_300x250
 ###dfp_ad_DictHome_728x90
 ###dfp_ad_Entry_160x600
@@ -14154,6 +14169,7 @@ _popunder+$popup
 ###today_ad_bottom
 ###toolbarSlideUpAd
 ###top-ad
+###top-ad-banner
 ###top-ad-container
 ###top-ad-menu
 ###top-ad-position-inner
@@ -15548,6 +15564,7 @@ _popunder+$popup
 ##.adIMm
 ##.adIframeCount
 ##.adImg
+##.adImgIM
 ##.adInArticle
 ##.adInNews
 ##.adInnerLeftBottom
@@ -16733,6 +16750,7 @@ _popunder+$popup
 ##.adsense_left_lu
 ##.adsense_mainbox01
 ##.adsense_managed
+##.adsense_managed_
 ##.adsense_media
 ##.adsense_menu
 ##.adsense_mpu
@@ -19298,6 +19316,7 @@ _popunder+$popup
 ##.openx_ad
 ##.openx_frame
 ##.openxbuttons
+##.optional-ad
 ##.os-advertisement
 ##.osan-ads
 ##.other-posts-ads
@@ -20756,6 +20775,7 @@ _popunder+$popup
 ##a[href^="http://ad-emea.doubleclick.net/"]
 ##a[href^="http://ad.doubleclick.net/"]
 ##a[href^="http://ad.yieldmanager.com/"]
+##a[href^="http://adexprt.me/"]
 ##a[href^="http://ads.affbuzzads.com/"]
 ##a[href^="http://ads.pheedo.com/"]
 ##a[href^="http://adserving.liveuniversenetwork.com/"]
@@ -20874,6 +20894,7 @@ _popunder+$popup
 ##.GB3L-QEDGY .GB3L-QEDF- > .GB3L-QEDE-
 ##.ch[onclick="ga(this,event)"]
 ##.commercial-unit-desktop-rhs
+##.commercial-unit-desktop-top
 ##.lads[width="100%"][style="background:#FFF8DD"]
 ##.mw > #rcnt > #center_col > #taw > #tvcap > .c
 ##.mw > #rcnt > #center_col > #taw > .c
@@ -22229,6 +22250,7 @@ _popunder+$popup
 ||komoona.com^$third-party
 ||kontera.com^$third-party
 ||kontextua.com^$third-party
+||koocash.com^$third-party
 ||korrelate.net^$third-party
 ||kqzyfj.com^$third-party
 ||krxd.net^$third-party
@@ -22909,6 +22931,7 @@ _popunder+$popup
 ||symbiosting.com^$third-party
 ||syndicatedsearchresults.com^$third-party
 ||tacoda.net^$third-party
+||tacticalrepublic.com^$third-party
 ||tafmaster.com^$third-party
 ||taggify.net^$third-party
 ||tagshost.com^$third-party
@@ -23043,6 +23066,7 @@ _popunder+$popup
 ||unrulymedia.com^$third-party
 ||upads.info^$third-party
 ||upliftsearch.com^$third-party
+||ureace.com^$third-party
 ||urlads.net^$third-party
 ||urlcash.net^$third-party
 ||usbanners.com^$third-party
@@ -23833,7 +23857,6 @@ _popunder+$popup
 ||dealswarm.com^$subdocument,third-party
 ||dealzone.co.za^$script,third-party
 ||delivery.importantmedia.org^$third-party
-||delivery.tacticalrepublic.com^
 ||delvenetworks.com/player/plugins/ads/
 ||dennis.co.uk^*/siteskins/
 ||depositfiles.com^*.php?ref=
@@ -24202,6 +24225,7 @@ _popunder+$popup
 ||mobilemetrics.appspot.com^$third-party
 ||mobyler.com/img/banner/
 ||mol.im/i/pix/ebay/
+||moneycontrol.co.in^*/INjspopunder.js
 ||moneycontrol.com^$subdocument,third-party
 ||moosify.com/widgets/explorer/?partner=
 ||mosso.com^*/banners/
@@ -24468,6 +24492,7 @@ _popunder+$popup
 ||talkfusion.com^*/banners/
 ||tankionline.com/tankiref.swf
 ||tap.more-results.net^
+||teads.tv/js/all-$third-party
 ||teads.tv/js/inread-$third-party
 ||techbargains.com/inc_iframe_deals_feed.cfm?$third-party
 ||techbargains.com/scripts/banner.js$third-party
@@ -24695,6 +24720,7 @@ _popunder+$popup
 ||tipico.com^*?affiliateid=$popup,third-party
 ||track.mypcbackup.com^$popup,third-party
 ||track.xtrasize.nl^$popup,third-party
+||tripadvisor.*/HotelLander?$popup,third-party
 ||truckingunlimited.com^$popup,domain=sharpfile.com
 ||ul.to/ref/$popup
 ||uploaded.net/ref/$popup
@@ -27211,7 +27237,6 @@ http://utm.
 ||getbackstory.com^$third-party
 ||getclicky.com^$third-party
 ||getfreebacklinks.com^$third-party
-||getresponse.com^$third-party
 ||getsmartcontent.com^$third-party
 ||getstatistics.se^$third-party
 ||gigcount.com^$third-party
@@ -27241,7 +27266,6 @@ http://utm.
 ||gourmetads.com^$third-party
 ||govmetric.com^$third-party
 ||grapheffect.com^$third-party
-||gravity.com^$third-party
 ||groundspeak.com^$third-party
 ||gsimedia.net^$third-party
 ||gstats.cn^$third-party
@@ -28197,6 +28221,7 @@ http://utm.
 ||analytics.stg.springboardvideo.com^
 ||analytics.strangeloopnetworks.com^
 ||analytics.tribeca.vidavee.com^
+||analytics.twitter.com^$third-party
 ||analytics.wildtangent.com^
 ||analytics.yola.net^
 ||analyze.full-marke.com^
@@ -28280,6 +28305,7 @@ http://utm.
 ||capture.camify.com/dc?
 ||cdn.trafficexchangelist.com^$third-party
 ||cdnplanet.com/static/rum/rum.js
+||ce.lijit.com^
 ||centerix.ru^*/count.msl?
 ||cgicounter.oneandone.co.uk^
 ||cgicounter.puretec.de^
@@ -28460,6 +28486,7 @@ http://utm.
 ||facebook.com*/impression.php
 ||facebook.com/common/scribe_endpoint.php
 ||facebook.com/email_open_log_pic.php
+||facebook.com/fr/u.php?
 ||facebook.com^*/tracking.js$third-party
 ||fairfax.com.au/js/track/
 ||fastcounter.bcentral.com^
@@ -29298,6 +29325,7 @@ http://utm.
 ||ap.org^*/webtrendsap_hosted.js
 ||apex.cbsi.com^
 ||apex.cbsnews.com^
+||apex.cbssports.com^
 ||apex.cnet.com^
 ||apex.com.com^
 ||apex.zdnet.com^
@@ -29508,6 +29536,7 @@ http://utm.
 ||clients1.google.*/generate_204
 ||clients1.googlesyndication.com/generate_204
 ||clients1.googleusercontent.com/generate_204
+||climatedesk.org*/pixel.gif
 ||clk.about.com^
 ||clkstat.china.cn^
 ||clog.go.com^
@@ -30303,6 +30332,7 @@ http://utm.
 ||puritan.com/images/pixels/
 ||pvstat.china.cn^
 ||pw.org/sites/all/*/ga.js
+||q.stripe.com^
 ||qbn.com/media/static/js/ga.js
 ||quantserve.com/pixel;
 ||questionmarket.com/adsc/
@@ -30572,6 +30602,7 @@ http://utm.
 ||t.wowanalytics.co.uk^
 ||t2.hulu.com^
 ||t3.com/js/trackers.js
+||tab.co.nz/track?
 ||tags.transportdirect.info^
 ||talktalk.co.uk^*/log.html
 ||talktalk.co.uk^*/tracking/
