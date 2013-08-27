@@ -12,6 +12,7 @@ namespace ABPUtils
             RemovedItems = new List<string>();
             NewItems = new List<string>();
             ModifyItems = new List<ModifyItem>();
+            Privacy = string.Empty;
         }
 
         public List<string> EasyListFlag
@@ -39,6 +40,12 @@ namespace ABPUtils
         }
 
         public List<ModifyItem> ModifyItems
+        {
+            get;
+            set;
+        }
+
+        public string Privacy
         {
             get;
             set;

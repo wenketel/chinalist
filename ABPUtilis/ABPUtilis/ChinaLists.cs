@@ -75,29 +75,45 @@ namespace ABPUtils
             {
                 Console.WriteLine("use {0} to patch {1}", ChinaListConst.PATCH_FILE, lazyList);
 
-                Configurations patchconfig = GetConfigurations();
+                Configurations pConfig = GetConfigurations();
 
-                if (patchconfig != null)
+                if (pConfig != null)
                 {
-                    foreach (var item in patchconfig.RemovedItems)
+                    foreach (var item in pConfig.RemovedItems)
                     {
                         sBuilder.Replace(item + "\n", string.Empty);
                         Console.WriteLine("remove filter {0}", item);
                     }
 
-                    foreach (var item in patchconfig.ModifyItems)
+                    foreach (var item in pConfig.ModifyItems)
                     {
                         sBuilder.Replace(item.OldItem, item.NewItem);
                         Console.WriteLine("replace filter {0} with {1}", item.OldItem, item.NewItem);
                     }
 
-                    if (patchconfig.NewItems.Count > 0)
+                    if (pConfig.NewItems.Count > 0)
                         sBuilder.AppendLine("!-----------------additional for ChinaList Lazy-------------");
 
-                    foreach (var item in patchconfig.NewItems)
+                    foreach (var item in pConfig.NewItems)
                     {
                         sBuilder.AppendLine(item);
                         Console.WriteLine("add filter {0}", item);
+                    }
+
+                    // Merge ChinaList Privacy
+                    if (!string.IsNullOrEmpty(pConfig.Privacy))
+                    {
+                        sBuilder.AppendLine("! *** adblock-privacy.txt");
+                        var line = string.Empty;
+                        using (StreamReader sr = new StreamReader(pConfig.Privacy, Encoding.UTF8))
+                        {
+                            while ((line = sr.ReadLine()) != null)
+                            {
+                                if (string.IsNullOrWhiteSpace(line) || line.StartsWith("!") || line.StartsWith("["))
+                                    continue;
+                                sBuilder.AppendLine(line);
+                            }
+                        }
                     }
                 }
 

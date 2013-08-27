@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Configurations xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Configurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <EasyListFlag>
     <string>easylist:easylist/easylist_general_block.txt</string>
     <string>easylist:easylist/easylist_general_hide.txt</string>
@@ -14,7 +14,7 @@
     <string>easylist:easyprivacy/easyprivacy_whitelist.txt</string>
     <string>easylist:easyprivacy/easyprivacy_whitelist_international.txt</string>
   </EasyPrivacyFlag>
-  <RemovedItems>    
+  <RemovedItems>
     <string>||treatme.co.nz/Affiliates/</string>
     <string>/adv.htm</string>
     <string>||axandra.com/affiliates/</string>
@@ -150,4 +150,5 @@
       <NewItem>/html.ng/*$domain=~cntv.cn</NewItem>
     </ModifyItem>
   </ModifyItems>
+  <Privacy>adblock-privacy.txt</Privacy>
 </Configurations>

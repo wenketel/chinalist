@@ -16,8 +16,8 @@ namespace ABPUtils
             var arguments = new Arguments(args);
             DispatcherTask(arguments);
 
-            Console.WriteLine("Press any key to continue...");
-            Console.ReadKey();
+            //Console.WriteLine("Press any key to continue...");
+            //Console.ReadKey();
         }
 
         private static void DispatcherTask(Arguments args)

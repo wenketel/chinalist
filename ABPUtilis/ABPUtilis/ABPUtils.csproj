@@ -188,7 +188,7 @@
 if NOT $(ConfigurationName) == Release goto exit
 
 echo Build binary for AnyCPU platform
-copy $(TargetPath)  $(TargetDir)..\..\..\..\$(TargetFileName)
+copy "$(TargetPath)" "$(SolutionDir)..\$(TargetFileName)"
 
 :exit
 echo Finished Post Build Event</PostBuildEvent>
@@ -197,8 +197,9 @@ echo Finished Post Build Event</PostBuildEvent>
     <PreBuildEvent>REM If Debug config, do nothing...
 if NOT $(ConfigurationName) == Debug goto exit
 
-copy /Y $(ProjectPath)\..\..\..\adblock.txt $(TargetDir)
-copy /Y $(TargetDir)..\..\..\..\patch.xml $(TargetDir)
+copy /Y "$(SolutionDir)..\adblock.txt" "$(TargetDir)"
+copy /Y "$(SolutionDir)..\adblock-privacy.txt" "$(TargetDir)"
+copy /Y "$(SolutionDir)..\patch.xml" "$(TargetDir)"
 
 :exit
 echo Finished Pre Build Event</PreBuildEvent>
