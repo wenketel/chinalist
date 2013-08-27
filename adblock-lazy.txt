@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: j1Njy+pOQ6GBAWOQ/fzdQg
+!  Checksum: CRr98KlMFPCktbetKUrfXw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 27 Aug 2013 20:22:42 +0800
+!  Last Modified:  Tue, 27 Aug 2013 20:57:53 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -339,7 +339,6 @@ iqiyi.com##[id^="div_theatre"]
 @@||static.hdslb.com/ad-images/$image
 ||bilibili.tv/ad/
 ||bilibili.tv/html/$~xmlhttprequest
-||hdslb.com/u_user/$object-subrequest
 ||hdslb.com/u_user/$object_subrequest,domain=bilibili.tv
 bilibili.tv##.ad-f
 
@@ -466,7 +465,6 @@ download.csdn.net##.ad_area_1
 
 !---CTdisk
 ||doubleclick.tv002.com^
-||400gb.com/advview.php?ad_pos=0
 ||400gb.com/img/
 ||400gb.com/adm.js
 400gb.com,ctdisk.com##.kk_xshow
@@ -544,7 +542,7 @@ dm5.com,dm5.hk##.cl970
 ||eastmoney.com/images/uma.html
 ||eastmoney.com/js/fs2012.js
 ||same.eastmoney.com^
-||cmsjs.eastmoney.com/js/fixedSoft*$script
+||cmsjs.eastmoney.com/js/fixedSoft$script
 eastmoney.com##.lyad
 eastmoney.com##.bannerE
 eastmoney.com##.banner
@@ -1346,7 +1344,7 @@ news.sh.soufun.com##TABLE[width="270"][height="400"][align="left"]
 
 !--好租网
 haozu.com##.index7ad
-||haozu.com/ajax/loadindexads*$subdocument
+||haozu.com/ajax/loadindexads$subdocument
 !--HOUSE365
 ||house365.com/js/lbpopup.js
 house365.com##.m_coup-big
@@ -1419,12 +1417,6 @@ ts.cn##.new_banner
 ts.cn##.search
 ts.cn##[class^="ad"]
 
-!---U-CAR
-||newad.u-car.com.tw^
-u-car.com.tw##.contad
-u-car.com.tw##.sidead_text
-u-car.com.tw##.top
-
 !---U17
 ||s.u17t.com/leaflet/upload/
 ||wyxdb0.appsina.com/static/pub/js/signup/adm/$script
@@ -1446,7 +1438,7 @@ www.uuu9.com##.T_banner
 
 !--265G
 ||adm.265g.com^
-||265g.com/indexapp/*$popup
+||265g.com/indexapp/$popup
 265g.com##.bg_ban_bar
 265g.com##.bg_ban
 265g.com##div[class^="ban"]
@@ -1776,7 +1768,6 @@ steachs.com###banner
 ||7edown.com/newbd/
 ||7xdown.com/adgg/
 ||9553.com^$script,subdocument
-||99d.com/js/web_5253_tanchuang.js
 ||abcdown.net/hezuo/
 ||badongo.com/00081C/images/$object
 ||bbsxp.com/ed2000/ad/wuji.gif
@@ -2582,7 +2573,6 @@ zxtjd.com###it_an
 ||adsue.com^$third-party
 ||adszui.com^$third-party
 ||adunioncode.com^$third-party
-||adver.com.tw^$third-party
 ||advprotraffic.com^$third-party
 ||adwww.cn^$third-party
 ||adyeye.com^$third-party
@@ -2605,7 +2595,6 @@ zxtjd.com###it_an
 ||bbs66shun.com^$third-party
 ||bka789.com^$third-party
 ||blcx.com^$third-party
-||blogad.com.tw^$third-party
 ||bloggerads.net^$third-party
 ||blogupp.com^$third-party
 ||bmw100.cn^$third-party
@@ -2657,7 +2646,6 @@ zxtjd.com###it_an
 ||feesee.com^$third-party
 ||tg.feixue.com^$third-party
 ||feitian001.com^$third-party
-||flashads.cn^$third-party
 ||flashwing.net^$third-party
 ||flunion.cn^$third-party
 ||game141.com^$third-party
@@ -2809,7 +2797,6 @@ zxtjd.com###it_an
 ||tazhao.com^$third-party
 ||tbjfw.com^$third-party
 ||tenoad.com^$third-party
-||adsame.tianjimedia.com^$third-party
 ||tiaosa.cn^$third-party
 ||tjj.com^$third-party
 ||tksense.com^$third-party
@@ -2876,7 +2863,6 @@ zxtjd.com###it_an
 ||y2126.com^$third-party
 ||yczpw.com^$third-party
 ||yeeunion.com^$third-party
-||union.yeyou.com^$third-party
 ||yimeiads.com^$third-party
 ||ylunion.com^$third-party
 ||yigao.com^$third-party
@@ -3056,6 +3042,9 @@ www.shupeng.com##.mod.msg-mod.msg-notice + .mod
 simplecd.me##[class^="ad-"]
 suopao.org##.t5[style^="margin-top:8px;"]
 ttmeiju.com##a[href^="http://www.ttmeiju.com/adclick.php?"]
+u-car.com.tw##.contad
+u-car.com.tw##.sidead_text
+u-car.com.tw##.top
 vmelon.com##.focus
 vmelon.com###text-4
 web20share.com##.widget:nth-of-type(5)
