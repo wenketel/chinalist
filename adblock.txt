@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: ZBo4j9j1u5BRbLF0xogrig
+!  Checksum: zxdWXEiQ0MqkO8wyS2rJLQ
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 30 Aug 2013 14:12:39 +0800
+!  Last Modified:  Fri, 30 Aug 2013 20:44:56 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -737,12 +737,20 @@ v.ifeng.com##.tit_ad
 ||web.kuaipan.cn/static/images/anods/
 
 !---iPc.me
-||ipc.me/plus/static_files/nuffnang.html
 ipc.me###crumb_r
 ipc.me##li[style="_display:block;height:252px;width:301px;overflow:hidden;margin-bottom:7px"]
+ipc.me##.d250
+ipc.me##.d300
 ipc.me##.post-top-gg
-ipc.me##.widget_ad_slot_wrapper
-ipc.me##.widget_ad_slot_wrapper + .widget
+
+!---异次元软件世界
+iplaysoft.com###sidebar > :first-child > .widget:nth-of-type(2)
+iplaysoft.com##.widget:first-of-type
+iplaysoft.com###sidebar_scroll_bdad
+iplaysoft.com###section_event
+iplaysoft.com##.post > CENTER
+iplaysoft.com##.d336.float-left
+iplaysoft.com##.crumb_ad
 
 !---IT168
 ||168.it168.com^$script
@@ -2265,6 +2273,7 @@ frdic.com,godic.net###sidebar1
 ||img.itbulo.com/js/11/$subdocument
 ||img.itbulo.com/js/11/gg.js
 ||img.itbulo.com/js/11/style.js
+||school.itzcn.com/popup.js
 ||imp3.net/data/js$script
 ||au.ipart.cn/comp/hooks.php
 ||x.itiexue.net/html/$script
@@ -2626,6 +2635,7 @@ zxtjd.com###it_an
 ||cyacc.com^
 ||d9ad.com^$third-party
 ||daoyoudao.com^$third-party
+||dian5000.com^$third-party
 ||diangao.com^$third-party
 ||diankee.com^$third-party
 ||dilingling.com^$third-party

@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: CJ0eKrifJw8cbmTXf0QuFQ
+!  Checksum: IArWlhc1ozX65HFQTfSGWQ
 !  Title: ChinaList Privacy
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 30 Aug 2013 14:12:38 +0800
+!  Last Modified:  Fri, 30 Aug 2013 20:38:15 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyPrivacy,ChinaList won't provide the filters
@@ -12,124 +12,18 @@
 !
 !  coding: utf-8, expires: 5 days
 !----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
-!---Numeric
-||99sushe.com/*/stat.js
-
-!---A
-||acfun.tv/api/count.aspx
-
-!---B
-||top.baidu.com/js/nsclick.js
-||tinglog.baidu.com^
-||wenku.baidu.com/tongji/
-||pan.baidu.com/api/analytics?
-||cdn.baidupcs.com/monitor.jpg?
-||eclick.baidu.com^
-||nsclick.baidu.com^
-||sclick.baidu.com^
-||unstat.baidu.com^$~subdocument
-||stat.bilibili.tv^
-
-!---C
-||tracking.cat898.com^
-||log.vdn.apps.cntv.cn^
-||csdn.net^*/counter.js
-||counter.csdn.net^$script
-
-!---D
-||dayoo.com/sta/da.js
-||docin.com/app/playerLoadLog/
-||tongji2.vip.duba.net/__infoc.gif?
-||dui.lu/index.php/stat/
-||dui.lu/partner/
-||dui.lu/staticts.html
-||duowan.com/public/s/market_count.js
 
 !---E
 ||eastmoney.com/count
 
-!---F
-||firefoxchina.cn/*/trac.js
-||stat.funshion.net^
-
-!---H
-||hdslb.com/images/isptrack.js
-||utrack.hexun.com^
-||vatrack.hinet.net^
-||stat.hudong.com^
+!---K
+||jscss.kdslife.com/club/html/count/PChome_Count.js
 
 !---I
-||log.v.iask.com^
-||stat.iteye.com^
-||sta.ifeng.com^
-||stadig.ifeng.com^
-||ifengimg.com/sta_collection.*.js
-
-!---J
-||count.joy.cn^
-
-!---K
-||count.kandian.com^$object_subrequest
-||jscss.kdslife.com/club/html/count/PChome_Count.js
-||log*.ku6.com^
-||stat.ku6.com^$object_subrequest
-||js.kuwo.cn/stat/
-||log.kuwo.cn^
-||webstat.kuwo.cn^
-
-!---L
-||luobo.tv/staticts.html
-||js.letvcdn.com/js/*/stats/
-
-!---M
-||js.static.m1905.cn/pingd.js
-
-!---N
-||narutom.com/stat.js
-||count.newhua.com^
+||iplaysoft.com/plus/api/counter.php
 
 !---P
-||count5.pconline.com.cn^
 ||pixanalytics.com^
-||s.pixfs.net/js/pixlogger.min.js
-||s.pixfs.net/visitor.pixplug.in/
-||stat.ppstream.com^
-||stat.pptv.com^
-
-!---Q
-||count.qiannao.com^
-||clkstat.qihoo.com^
-||static.qiyi.com/js/pingback/
-||uestat.video.qiyi.com^
-||analy.qq.com^
-||btrace.qq.com^
-||statistic.qzone.qq.com^
-
-!---S
-||dwtracking.sdo.com^
-||loginlog.sdo.com^
-||count.video.sina.com.cn^
-||pingback.sogou.com^
-||js.sohu.com/track/
-||js.sohu.com/wrating0820.js
-||tv.sohu.com/upload/trace/
-||v.blog.sohu.com/dostat.do?
-||his.tv.sohu.com/his/ping.do?
-||count.vrs.sohu.com^$object_subrequest
-||js.soufunimg.com/count/
-
-!---T
-||ebook.tianya.cn/js/stat.js
-||stat.tianya.cn^
-
-!---U
-||stat.uuu9.com^
-
-!---X
-||stat.xunlei.com^
-
-!---Y
-||webclick.yeshj.com^
 
 !---Common
 |http://click.$image
@@ -140,35 +34,8 @@
 |http://*/tj.js
 |http://*/track.$~stylesheet
 |http://track.
-/ktrace/ktrace$script
-/pingd?
-/tongji.js
 /tracking.$image,object_subrequest
 !--sort by domain
-||50bang.org^$third-party
 ||51img.ajiang.net^
-||css.aliyun.com^$third-party
-||blog104.com^$third-party
-||blogtw.net^$third-party
-||dw.cbsi.com.cn^$third-party
-||cnzz.com^$third-party
 ||cnzz.net^
-||cms.grandcloud.cn^$third-party
-||gridsum.com^$third-party
-||cdn.hiido.cn^$third-party
-||hotrank.com.tw^$third-party
-||irs01.$third-party
-||irs09.com^$third-party
-||jiankongbao.com^$third-party
-||lc.jiathis.com^
-||phpstat.com^$third-party
-||sitebot.cn^$third-party
 ||sitebro.$third-party
-||sitetag.us^$third-party
-||top-bloggers.com^$third-party
-||tovery.net^$third-party
-||twcount.com^$third-party
-||look.urs.tw^$third-party
-||vdoing.com^$third-party
-||wrating.com^$third-party
-||wumii.com/images/pixel.png
