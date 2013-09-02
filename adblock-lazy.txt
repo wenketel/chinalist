@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: gcGYJHVUIIDvUcLwwGmxKw
+!  Checksum: r1AboOCRX2Nu4fb/HgG4dw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 30 Aug 2013 21:03:13 +0800
+!  Last Modified:  Mon, 02 Sep 2013 20:19:39 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1404,6 +1404,8 @@ tgbus.com##[id^="TGBUS_VISTA_CONTAINER_"]
 ||static.tianyaui.com^*/stat_20080313.js
 tianya.cn##[class^="ad_"]
 tianya.cn##[id*="_AD_"]
+tianya.cn##.pinpaiContent
+focus.tianya.cn###jpgw
 
 !---TOM.COM
 ||js.pub.tom.com^
@@ -3635,6 +3637,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /ad-refresh-
 /ad-refresh.
 /ad-right2.
+/ad-ros-
 /ad-rotator-
 /ad-serve?
 /ad-server.
@@ -3727,6 +3730,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /ad/random_
 /ad/realclick.
 /ad/realclick/*
+/ad/rectangle.
 /ad/reklamy.
 /ad/right2.
 /ad/rotate?
@@ -3735,9 +3739,11 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /ad/show.
 /ad/side_
 /ad/skin_
+/ad/skyscraper.
 /ad/skyscrapper.
 /ad/sponsored-
 /ad/sponsors/*
+/ad/superbanner.
 /ad/swf/*
 /ad/takeover/*
 /ad/textlinks/*
@@ -4717,7 +4723,6 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /ads/storysponsors/*
 /ads/swfobject.
 /ads/takeovers/*
-/ads/tgx.
 /ads/third-
 /ads/tile-
 /ads/top-
@@ -15022,6 +15027,7 @@ _popunder+$popup
 ##.ad-noline
 ##.ad-note
 ##.ad-notice
+##.ad-one
 ##.ad-other
 ##.ad-padding
 ##.ad-page-leader
@@ -17548,6 +17554,7 @@ _popunder+$popup
 ##.bottom-ads-wrapper
 ##.bottom-ads728
 ##.bottom-banner-ad
+##.bottom-center-adverts
 ##.bottomAd
 ##.bottomAdBlock
 ##.bottomAds
@@ -17825,6 +17832,7 @@ _popunder+$popup
 ##.content-ad-widget
 ##.content-advert
 ##.content-advertisment
+##.content-box-inner-adsense
 ##.content-footer-ad
 ##.content-header-ad
 ##.content-item-ad-top
@@ -18678,6 +18686,7 @@ _popunder+$popup
 ##.ipm-sidebar-ad-middle
 ##.iprom-ad
 ##.ipsAd
+##.iqadlinebottom
 ##.is24-adplace
 ##.isAd
 ##.isad_box
@@ -19112,6 +19121,7 @@ _popunder+$popup
 ##.ndmadkit
 ##.netads
 ##.netshelter-ad
+##.network-ad-two
 ##.new-ads-scroller
 ##.newHeaderAd
 ##.newPex_forumads
@@ -21699,6 +21709,7 @@ _popunder+$popup
 ||doubleclick.net/N6088/pfadx/ssp.kshb/$third-party
 ||doubleclick.net/N6872/pfadx/shaw.mylifetimetv.ca/$third-party
 ||doubleclick.net/pfadx/*.BLIPTV/$third-party
+||doubleclick.net/pfadx/*.MCNONLINE/$third-party
 ||doubleclick.net/pfadx/*.mtvi$third-party
 ||doubleclick.net/pfadx/*.muzu/$third-party
 ||doubleclick.net/pfadx/*.NBCUNI.COM/$third-party
@@ -23828,7 +23839,6 @@ _popunder+$popup
 ||extras.mnginteractive.com^*/todaysdeals.gif
 ||exwp.org/partners/
 ||eyetopics.com/content_images/$third-party
-||facebook.com/whitepages/wpminiprofile.php?partner_id=$third-party
 ||fairfaxregional.com.au/proxy/commercial-partner-solar/
 ||fantasyplayers.com/templates/banner_code.
 ||fantaz.com^*/banners/$third-party
@@ -23839,13 +23849,14 @@ _popunder+$popup
 ||fcgadgets.blogspot.com^$third-party
 ||feedburner.com/~a/
 ||feeds.logicbuy.com^
-||fenixm.com/actions/*Skin.$image
+||fenixm.com/actions/*Skin*.$image
 ||filedownloader.net/design/$third-party
 ||filedroid.net/af_ta/$third-party
 ||filefactory.com^*/refer.php?hash=
 ||filejungle.com/images/banner/
 ||filepost.com/static/images/bn/
 ||fileserve.com/images/banner_$third-party
+||fileserver1.net/download
 ||filmehd.net/imagini/banner_$third-party
 ||fimserve.myspace.com^$third-party
 ||firstclass-download.com^$subdocument,third-party
@@ -23919,6 +23930,7 @@ _popunder+$popup
 ||google.com/pagead/
 ||google.com/uds/afs?*adsense$subdocument
 ||googlesyndication.com/pagead/$third-party
+||googlesyndication.com/simgad/$third-party
 ||googlesyndication.com^*/click_to_buy/$object-subrequest,third-party
 ||googlesyndication.com^*/domainpark.cgi?
 ||googlesyndication.com^*/googlevideoadslibraryas3.swf$object-subrequest,third-party
@@ -24167,6 +24179,7 @@ _popunder+$popup
 ||onegameplace.com/iframe.php$third-party
 ||oovoo.com^*/banners/
 ||optimus-pm.com^*_300-250.jpg
+||origin.getprice.com.au/WidgetNews.aspx
 ||origin.getprice.com.au/widgetnewssmall.aspx
 ||oriongadgets.com^*/banners/
 ||osobnosti.cz/images/casharena_
@@ -24414,6 +24427,7 @@ _popunder+$popup
 ||traceybell.co.uk^$subdocument,third-party
 ||tradeboss.com/1/banners/
 ||travelmail.traveltek.net^$third-party
+||travelplus.tv^$third-party,domain=kissanime.com
 ||tremormedia.com/embed/js/*_ads.js
 ||tremormedia.com^*_preroll_
 ||trialpay.com^*&dw-ptid=$third-party
@@ -25215,6 +25229,7 @@ _popunder+$popup
 /EDigitalSurvey_
 /effectivemeasure.
 /EfficientFrontier.
+/eftracking.
 /eheat.js
 /elex.track.
 /elqcfg-$script
@@ -25312,6 +25327,8 @@ _popunder+$popup
 /ga_keyword2.
 /ga_link_tracker_
 /ga_loader.
+/ga_no_cookie.
+/ga_no_cookie_
 /ga_outgoinglinks.
 /ga_social.
 /ga_social_tracking_
@@ -25567,6 +25584,7 @@ _popunder+$popup
 /l1v.ly/*$third-party
 /layer_log.php?p=
 /lbi_ga.
+/leadgen/ga.js
 /leadgen_track
 /library/svy/*/broker.js
 /library/svy/broker.js
@@ -28415,6 +28433,7 @@ http://utm.
 ||footballmedia.com/tracking/
 ||forms.aweber.com^*/displays.htm?id=
 ||foxcontent.com/tracking/
+||freecurrencyrates.com/statgif.
 ||freedom.com^*/analytic/
 ||freedom.com^*/analytics/
 ||freegeoip.net/json/?callback=$third-party
@@ -29722,7 +29741,6 @@ http://utm.
 ||gardenweb.com^*/iv_header.js
 ||gawker.com/?op=hyperion_useragent_data
 ||gawker.com/at.js.php
-||gawker.com/hyperion/
 ||gawker.com^$object,~third-party
 ||gawker.com^*/trackers.html
 ||geico.com/vs/track2.js?
@@ -30508,6 +30526,7 @@ http://utm.
 ||studyisland.com^*/ga.js
 ||stuff.afterdawn.com/views.cfm
 ||stuff.co.nz/track/
+||stuff.co.nz^*/track.min.js
 ||stylelist.com/ping?ts=
 ||sublimevideo.net/_.gif
 ||sugar.gameforge.com^
