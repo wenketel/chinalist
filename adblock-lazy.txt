@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: J0ZMO02i6h9X7TfjuN4YnA
+!  Checksum: y4Uf6I815oekSJK1FYlz7w
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 08 Sep 2013 20:03:50 +0800
+!  Last Modified:  Tue, 10 Sep 2013 12:03:06 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1064,8 +1064,8 @@ msn.people.com.cn##.shangxun
 ||error.pixplug.in^
 ||referer.pixplug.in^
 pixnet.net##.ad
-pixnet.net##[id*="-Ad-sidebar-"]
-pixnet.net##[id*="-ad-sidebar-"]
+pixnet.net##[id*="-Ad-"]
+pixnet.net##[id*="-ad-"]
 pixnet.net###pixblogad
 www.pixnet.net###extradiv2
 www.pixnet.net###extradiv5
@@ -2636,6 +2636,7 @@ zxtjd.com###it_an
 ||hk.chinesegamer.net^$third-party
 ||click.com^$third-party
 ||cnxad.com^$third-party
+||adm.cnzz.net^$third-party
 ||cocoren.com^$third-party
 ||cpa58.cc^$third-party
 ||cpm360.com^$third-party
@@ -4591,6 +4592,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /ads/?QAPS_
 /ads/a.
 /ads/acctid=
+/ads/ad-
 /ads/ad.
 /ads/ad_
 /Ads/adrp0.
@@ -7416,6 +7418,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /streamads.
 /streamatepop.
 /studioads/*
+/stuff/ad-
 /style_ad.
 /subad2_
 /subnavads/*
@@ -7757,6 +7760,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 ://banner.$third-party
 ://banners.$third-party
 ://bwp.*/search
+://delivery.*/jstag^
 ://feeds.*/~a/
 ://findnsave.*.*/api/groupon.json?
 ://findnsave.*.*/td/portablerop.aspx?
@@ -8973,6 +8977,7 @@ _popunder+$popup
 ###AdTop
 ###AdTopBlock
 ###AdTopLeader
+###AdWidgetContainer
 ###AdZone1
 ###AdZone2
 ###Ad_976x105
@@ -17526,6 +17531,7 @@ _popunder+$popup
 ##.block-google_admanager2
 ##.block-inner-adds
 ##.block-maniad
+##.block-nmadition
 ##.block-ohtdisplayad
 ##.block-openads
 ##.block-openadstream
@@ -18418,6 +18424,7 @@ _popunder+$popup
 ##.grey-ad-line
 ##.greyAd
 ##.greyad
+##.grid-ad
 ##.grid-advertisement
 ##.gridAd
 ##.gridAdRow
@@ -20542,6 +20549,7 @@ _popunder+$popup
 ##.wantads
 ##.waterfall-ad-anchor
 ##.wazi-ad-link
+##.wd-adunit
 ##.wdp_ad
 ##.wdp_adDiv
 ##.wdt_ads
@@ -21077,6 +21085,7 @@ _popunder+$popup
 ||admpads.com^$third-party
 ||admulti.com^$third-party
 ||admzn.com^$third-party
+||adne.tv^$third-party
 ||adnectar.com^$third-party
 ||adnet-media.net^$third-party
 ||adnet.biz^$third-party
@@ -25822,6 +25831,7 @@ _popunder+$popup
 /nielson/track
 /nielson_stats.
 /nikioWSJCallback.
+/ninemsn.tracking.
 /NitroCookies.js
 /njs.gif?
 /nm_tr_combined-min.js
@@ -27234,6 +27244,7 @@ http://utm.
 ||goodcounter.org^$third-party
 ||google-analytics.com/analytics.js
 ||google-analytics.com/collect?
+||google-analytics.com/ga_exp.js
 ||google-analytics.com/plugins/
 ||google-analytics.com/siteopt.js?
 ||google-analytics.com/urchin.js
@@ -28043,6 +28054,7 @@ http://utm.
 ||woopra-ns.com^$third-party
 ||woopra.com^$third-party
 ||worldlogger.com^$third-party
+||wowanalytics.co.uk^$third-party
 ||wp-stats.com^$third-party
 ||wpdstat.com^$third-party
 ||wredint.com^$third-party
@@ -28175,6 +28187,7 @@ http://utm.
 ||akamai.com/crs/lgsitewise.js
 ||akamai.net/*.babylon.com/trans_box/
 ||akatracking.esearchvision.com^
+||aksb-a.akamaihd.net^
 ||alenty.com/trk/
 ||alexa.com/traffic/
 ||alphasitebuilder.co.za/tracker/
@@ -28336,6 +28349,7 @@ http://utm.
 ||clicktracker.iscan.nl^
 ||clicktracks.aristotle.net^
 ||client.tahono.com^$third-party
+||clientstat.castup.net^
 ||clipsyndicate.com/cs_api/cliplog?
 ||clnk.me/_t.gif?
 ||cloudfront-labs.amazonaws.com^
@@ -28428,6 +28442,7 @@ http://utm.
 ||data.imakenews.com^$third-party
 ||data.marketgid.com^$third-party
 ||daylogs.com/counter/
+||dcdd29eaa743c493e732-7dc0216bc6cc2f4ed239035dfc17235b.ssl.cf3.rackcdn.com^
 ||delivra.com/tracking/$third-party
 ||dell.com/TAG/tag.aspx?$third-party
 ||delvenetworks.com/player/plugins/analytics/
@@ -30159,6 +30174,7 @@ http://utm.
 ||mp3lyrics.org^*/cnt.php?
 ||msecnd.net^*/wt.js?
 ||msn.co.in/c.gif?
+||msn.co.nz/share/long_cache/js/tracking/
 ||msn.com/ro.aspx?
 ||msn.com/script/tracking*.js
 ||msn.com^*/report.js
@@ -30626,7 +30642,6 @@ http://utm.
 ||t.hulu.com/beacon/
 ||t.paypal.com^
 ||t.vimeo.com^
-||t.wowanalytics.co.uk^
 ||t2.hulu.com^
 ||t3.com/js/trackers.js
 ||tab.co.nz/track?
