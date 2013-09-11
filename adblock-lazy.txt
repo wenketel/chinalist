@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: sw/sVYEe3h4/guXcbP9maA
+!  Checksum: LQIOd00dHs0ojfM2dIqmjg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 10 Sep 2013 22:57:38 +0800
+!  Last Modified:  Wed, 11 Sep 2013 16:12:27 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1064,7 +1064,9 @@ msn.people.com.cn##.shangxun
 ||error.pixplug.in^
 ||referer.pixplug.in^
 pixnet.net##.ad
+pixnet.net##[id*="-AD-"]
 pixnet.net##[id*="-Ad-"]
+pixnet.net##[id*="-aD-"]
 pixnet.net##[id*="-ad-"]
 pixnet.net###pixblogad
 www.pixnet.net###extradiv2
@@ -11550,6 +11552,7 @@ _popunder+$popup
 ###bcaster-ad
 ###before-footer-ad
 ###below-post-ad
+###belowAd
 ###belowContactBoxAd
 ###belowNodeAds
 ###below_content_ad_container
@@ -24325,6 +24328,7 @@ _popunder+$popup
 ||public.porn.fr^$third-party
 ||pubs.hiddennetwork.com^
 ||puntersparadise.com.au/banners/
+||putlocker.com/rev/pro_p.js
 ||qualoo.net/now/interstitial/
 ||quickflix*.gridserver.com^$third-party
 ||rack.bauermedia.co.uk^
@@ -24529,6 +24533,7 @@ _popunder+$popup
 ||united-domains.de/parking/
 ||united-domains.de^*/parking/
 ||unsereuni.at/resources/img/$third-party
+||upickem.net^*/affiliates/$third-party
 ||upload2.com/upload2.html
 ||uploaded.net/img/public/$third-party
 ||uploaded.to/img/public/$third-party
@@ -31021,6 +31026,7 @@ http://utm.
 ||bleacherreport.net/pkg/javascripts/*_omniture.js
 ||cdnds.net/js/s_code.js$domain=digitalspy.ca|digitalspy.co.nz|digitalspy.co.uk|digitalspy.com|digitalspy.com.au|digitalspy.ie
 ||chip.de/js/omniture_somtr_code_vH.25.js
+||consumerreports.org^*/s_code.js
 ||img-bahn.de/v/*/js/s_code.js$domain=bahn.de
 ||nwsource.com/shared/js/s_code.js?$domain=seattletimes.com
 ||nyteknik.se/ver02/javascript/2012_s_code_global.js
