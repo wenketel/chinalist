@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: kpJe25bIydopL8oRLRR21Q
+!  Checksum: ISZVNSQ2Uk6Hj5ToADUSuA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 21 Sep 2013 18:06:10 +0800
+!  Last Modified:  Sun, 22 Sep 2013 21:16:32 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -2969,7 +2969,7 @@ zxtjd.com###it_an
 /guanggao/*
 |http://acs.
 |http://ad.$domain=~opinion.cw.com.tw|~qjwm.com|~wsj.com
-|http://*/*_ad.js
+|http://*/*_ad.js$domain=~cntv.cn
 |http://*.cn/ad/$domain=~easybuy.com.cn
 |http://gg.$~stylesheet,domain=~gg.ma
 |http://*/gg/$~stylesheet,domain=~cnr.cn|~guokr.com|~coo8.com
@@ -5093,6 +5093,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /adstop_
 /adstorage.
 /adstracking.
+/adstract/*
 /adStrategies/*
 /adstream.
 /adstream_
@@ -8739,6 +8740,7 @@ _465x110_
 _468-60.
 _468.gif
 _468.htm
+_468_60-
 _468_60.
 _468_60_
 _468_80.
@@ -9020,6 +9022,7 @@ _popunder+$popup
 ###AdsCarouselBoxArea
 ###AdsContainerTop
 ###AdsContent
+###AdsDiv
 ###AdsHome2
 ###AdsLeader
 ###AdsLeft_1
@@ -11070,6 +11073,7 @@ _popunder+$popup
 ###adstext2
 ###adstop
 ###adstory
+###adstrip
 ###adstripbottom
 ###adstripnew
 ###adstuff
@@ -16195,6 +16199,7 @@ _popunder+$popup
 ##.adcont
 ##.adcontent_box
 ##.adcopy
+##.adctr
 ##.add-column2
 ##.add-header-area
 ##.add-sidebar
@@ -16415,6 +16420,7 @@ _popunder+$popup
 ##.ads-section
 ##.ads-sidebar
 ##.ads-sidebar-boxad
+##.ads-single
 ##.ads-sky
 ##.ads-small
 ##.ads-sponsors
@@ -16739,6 +16745,7 @@ _popunder+$popup
 ##.adsense_mpu
 ##.adsense_rectangle
 ##.adsense_results
+##.adsense_right
 ##.adsense_sidebar
 ##.adsense_single
 ##.adsense_small_square
@@ -18890,6 +18897,7 @@ _popunder+$popup
 ##.leaderboard-ad-main
 ##.leaderboard-adblock
 ##.leaderboard-ads
+##.leaderboard-advertisement
 ##.leaderboardAd
 ##.leaderboardAdContainer
 ##.leaderboardAdContainerInner
@@ -19043,6 +19051,7 @@ _popunder+$popup
 ##.mediaResult_sponsoredSearch
 ##.media_ad
 ##.medium-rectangle-ad
+##.medium-rectangle-advertisement
 ##.mediumRectangleAd
 ##.mediumRectangleAdvert
 ##.medium_ad
@@ -20801,6 +20810,7 @@ _popunder+$popup
 ##a[href^="http://ads.pheedo.com/"]
 ##a[href^="http://adserving.liveuniversenetwork.com/"]
 ##a[href^="http://adsrv.keycaptcha.com"]
+##a[href^="http://adtransfer.net/"]
 ##a[href^="http://adultfriendfinder.com/p/register.cgi?pid="]
 ##a[href^="http://affiliate.glbtracker.com/"]
 ##a[href^="http://amzn.to/"] > img[src^="data"]
@@ -20937,6 +20947,7 @@ _popunder+$popup
 ||007-gateway.com^$third-party
 ||101m3.com^$third-party
 ||103092804.com^$third-party
+||10fbb07a4b0.se^$third-party
 ||10pipsaffiliates.com^$third-party
 ||1100i.com^$third-party
 ||123date.me^$third-party
@@ -21338,6 +21349,7 @@ _popunder+$popup
 ||advgoogle.com^$third-party
 ||adviva.net^$third-party
 ||advmd.com^$third-party
+||advmedialtd.com^$third-party
 ||advombat.ru^$third-party
 ||advpoints.com^$third-party
 ||advrtice.com^$third-party
@@ -23700,6 +23712,7 @@ _popunder+$popup
 ||bijk.com^*/banners/
 ||binopt.net/banners/
 ||bit.ly^$subdocument,domain=adf.ly
+||bitcoinwebhosting.net/banners/$third-party
 ||bitshare.com^*/banner/
 ||bittorrent.am/serws.php?$third-party
 ||bl.wavecdn.de^
@@ -23901,6 +23914,7 @@ _popunder+$popup
 ||ddwht76d9jvfl.cloudfront.net^
 ||dealplatform.com^*/widgets/$third-party
 ||deals.buxr.net^$third-party
+||deals.macupdate.com^$third-party
 ||deals4thecure.com/widgets/*?affiliateurl=
 ||dealswarm.com^$subdocument,third-party
 ||dealzone.co.za^$script,third-party
@@ -24434,6 +24448,7 @@ _popunder+$popup
 ||rewards1.com/images/referralbanners/$third-party
 ||ribbon.india.com^$third-party
 ||richmedia.yahoo.com^$third-party
+||richrelevance.com/promo/assets/creatives/
 ||roadcomponentsdb.com^$subdocument,third-party
 ||roadrecord.co.uk/widget.js?
 ||rogersradio.ca/flash/prerollplayer.swf
@@ -31124,6 +31139,7 @@ http://utm.
 ||cdnds.net/js/s_code.js$domain=digitalspy.ca|digitalspy.co.nz|digitalspy.co.uk|digitalspy.com|digitalspy.com.au|digitalspy.ie
 ||chip.de/js/omniture_somtr_code_vH.25.js
 ||consumerreports.org^*/s_code.js
+||expressen.se/static/scripts/s_code.js?
 ||img-bahn.de/v/*/js/s_code.js$domain=bahn.de
 ||nwsource.com/shared/js/s_code.js?$domain=seattletimes.com
 ||nyteknik.se/ver02/javascript/2012_s_code_global.js
