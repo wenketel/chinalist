@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: C53t2i1olXe6vMJ9JhvzAw
+!  Checksum: gfaa/C2o9G005T9WbSGokA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 23 Sep 2013 19:38:56 +0800
+!  Last Modified:  Wed, 25 Sep 2013 21:45:24 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -714,7 +714,7 @@ iciba.com##.vAd_head
 ||img.ifeng.com/tres/ifeng/
 ||img.ifeng.com/tres/market/
 ||play.ifeng.com/resource_new/js/playbox.js
-||ifengimg.com/*/*/*/$object,object_subrequest
+||ifengimg.com/*/*/*/$object,object_subrequest,~third-party
 ||ifengimg.com/ifeng/ad/
 ||ifengimg.com/ifeng/sources/
 ||ifengimg.com/mappa/
@@ -846,6 +846,7 @@ www.ku6.com##.ku6_ad
 
 !---乐视网
 @@||player.letvcdn.com/p/*/newplayer/LetvPlayer.swf
+@@||player.letvcdn.com/p/*/newplayer/LivePlayer.swf
 ||player.letvcdn.com^*.swf?
 ||dc.letv.com^
 ||pro.hoye.letv.com^
@@ -2152,6 +2153,7 @@ aipai.com##.cover_bd
 ||image.jstv.com/jstv/photo.js
 www.jstv.com##.delayadv
 www.jstv.com##.jadv
+@@||resource.ws.kukuplay.com/upload/$object-subrequest
 ||resource.*.kukuplay.com/upload/$object-subrequest
 ||longbuluo.com/taobacss/fumeiti.js
 ||s.mediashare.cn/rmi/mswlog.jsp?
@@ -6576,6 +6578,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /js_ads/*
 /js_ads_
 /jsad.php
+/jsad/*
 /jsads-
 /jsadscripts/*
 /jsc/ads.
@@ -9102,6 +9105,7 @@ _popunder+$popup
 ###ContentAdPlaceHolder2
 ###ContentAdView
 ###ContentAdXXL
+###ContentAdtagRectangle
 ###ContentPlaceHolder1_adds
 ###ContentPolepositionAds_Result
 ###ConversationDivAd
@@ -9837,7 +9841,13 @@ _popunder+$popup
 ###adHeaderTop
 ###adHeaderWrapper
 ###adHolder
+###adHolder1
+###adHolder2
+###adHolder3
 ###adHolder300x250
+###adHolder4
+###adHolder5
+###adHolder6
 ###adIframe
 ###adInBetweenPosts
 ###adInstoryOneWrap
@@ -11543,6 +11553,18 @@ _popunder+$popup
 ###banner728x90
 ###banner975_container
 ###bannerAd
+###bannerAdContainer1_1
+###bannerAdContainer1_2
+###bannerAdContainer1_3
+###bannerAdContainer1_4
+###bannerAdContainer1_5
+###bannerAdContainer1_6
+###bannerAdContainer2_1
+###bannerAdContainer2_2
+###bannerAdContainer2_3
+###bannerAdContainer2_4
+###bannerAdContainer2_5
+###bannerAdContainer2_6
 ###bannerAdFrame
 ###bannerAdLInk
 ###bannerAdRight3
@@ -15159,6 +15181,7 @@ _popunder+$popup
 ##.ad-rect
 ##.ad-rect-top-right
 ##.ad-rectangle
+##.ad-rectangle-banner
 ##.ad-rectangle-long
 ##.ad-rectangle-long-sky
 ##.ad-rectangle-text
@@ -15268,6 +15291,7 @@ _popunder+$popup
 ##.ad-wide
 ##.ad-widget
 ##.ad-widget-list
+##.ad-windowshade-full
 ##.ad-with-us
 ##.ad-wrap
 ##.ad-wrapper
@@ -21566,6 +21590,7 @@ _popunder+$popup
 ||bingo4affiliates.com^$third-party
 ||binlayer.com^$third-party
 ||binlayer.de^$third-party
+||bitads.net^$third-party
 ||bitcoinadvertisers.com^$third-party
 ||bittads.com^$third-party
 ||bizographics.com^$third-party
@@ -21876,6 +21901,7 @@ _popunder+$popup
 ||doubleclick.net/adx/wn.nat.$third-party
 ||doubleclick.net/N2/pfadx/video.*.wsj.com/$third-party
 ||doubleclick.net/N2/pfadx/video.wsj.com/$third-party
+||doubleclick.net/N4526/pfadx/*.muzu/$third-party
 ||doubleclick.net/N5202/pfadx/cmn_livemixtapes/$third-party
 ||doubleclick.net/N5479/pfadx/ctv.$third-party
 ||doubleclick.net/N6088/pfadx/ssp.kshb/$third-party
@@ -22195,6 +22221,7 @@ _popunder+$popup
 ||iframe.mediaplazza.com^$third-party
 ||igameunion.com^$third-party
 ||igloohq.com^$third-party
+||ignitioninstaller.com^$third-party
 ||imedia.co.il^$third-party
 ||imediaaudiences.com^$third-party
 ||imgfeedget.com^$third-party
@@ -23551,6 +23578,8 @@ _popunder+$popup
 ||a.livesportmedia.eu^
 ||a.ucoz.net^
 ||a.watershed-publishing.com^
+||a1channel.net/img/downloadbtn2.png
+||a1channel.net/img/watch_now.gif
 ||abacast.com/banner/
 ||ablacrack.com/popup-pvd.js$third-party
 ||ad.23blogs.com^$third-party
@@ -23606,6 +23635,7 @@ _popunder+$popup
 ||advanced-intelligence.com/banner
 ||adz.zwee.ly^
 ||afcdn.com^*/ova-jw.swf$object-subrequest
+||aff.cupidplc.com^$third-party
 ||aff.eteachergroup.com^
 ||aff.marathonbet.com^
 ||aff.svjump.com^
@@ -23754,6 +23784,7 @@ _popunder+$popup
 ||btguard.com/images/$third-party
 ||btr.domywife.com^
 ||btrd.net/assets/interstitial$script
+||bubbles-uk.com/banner/$third-party
 ||bullguard.com^*/banners/
 ||burst.net/aff/
 ||burstnet.akadns.net^$image
@@ -24643,6 +24674,7 @@ _popunder+$popup
 ||uploaded.to/img/public/$third-party
 ||uploaded.to/js/layer.js
 ||uploadstation.com/images/banners/
+||urtig.net/scripts/js3caf.js
 ||usenet.pw^$third-party
 ||ussearch.com/preview/banner/
 ||valuechecker.co.uk/banners/$third-party
@@ -24858,7 +24890,6 @@ _popunder+$popup
 .com/b.gif?
 .com/blank.aspx?
 .com/c.gif?
-.com/click?ts
 .com/cm?ci
 .com/cm?tid
 .com/counter?
@@ -28267,7 +28298,7 @@ http://utm.
 ||50.16.191.59^$third-party,domain=~tritondigital.net.ip
 ||51network.com^$third-party
 ||5251.net/stat.jsp?
-||58.68.146.44:8000/d.gif?$third-party,domain=~peoplesdaily.cn.ip
+||58.68.146.44:8000^$third-party,domain=~peoplesdaily.cn.ip
 ||5min.com/flashcookie/StorageCookieSWF_
 ||74.117.176.217/trf/track.php?$third-party,domain=~adult.sites.ip
 ||88.208.248.58/tracking/
@@ -29343,6 +29374,7 @@ http://utm.
 ||baidu.com/js/o.js
 ||bokecc.com/flash/playlog?
 ||bokecc.com/flash/timerecorder?
+||bznx.net/cms.gif?
 ||cbsi.com.cn/js/dw.js
 ||cdn.hiido.cn^$third-party
 ||cms.grandcloud.cn^$third-party
@@ -29360,6 +29392,8 @@ http://utm.
 ||log.v.iask.com^
 ||look.urs.tw^$third-party
 ||tns.simba.taobao.com^
+||toruk.tanx.com^
+||track.ra.icast.cn^
 ||tracking.cat898.com^
 ||webterren.com/webdig.js?
 ||yigouw.com/c.js
@@ -29907,6 +29941,7 @@ http://utm.
 ||fightforthefuture.org/wf/open?
 ||filmlinks4u.net/twatch/jslogger.php
 ||financeglobe.com/Visit/
+||financialmail.co.za/statistics/
 ||financialstandardnews.com^*/webstats/
 ||flagfox.net/js/analytics.js
 ||fling.com/zeftour/t_i.php?
@@ -31145,6 +31180,7 @@ http://utm.
 ||zylom.com^*/tracking_spotlight.js
 ! Preliminarily blocking Omniture s_code tracking scripts (versions H.25 - H.25.2) due to breakage (https://adblockplus.org/forum/viewtopic.php?f=10&t=11378)
 ||adobe.com^*/omniture_s_code.js
+||aircanada.com/shared/common/sitecatalyst/s_code.js
 ||bahn.de/common/view/static/*/js/lib/omniture/s_code.min.js
 ||bitdefender.com/resources/scripts/omniture/*/code.js
 ||bleacherreport.net/pkg/javascripts/*_omniture.js

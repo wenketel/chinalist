@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: R1TzQHmUVG1kMubDaQk6nw
+!  Checksum: GJTyyQO+mdbkwo80aq+fqA
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 23 Sep 2013 19:38:50 +0800
+!  Last Modified:  Wed, 25 Sep 2013 21:45:18 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -713,7 +713,7 @@ iciba.com##.vAd_head
 ||img.ifeng.com/tres/ifeng/
 ||img.ifeng.com/tres/market/
 ||play.ifeng.com/resource_new/js/playbox.js
-||ifengimg.com/*/*/*/$object,object_subrequest
+||ifengimg.com/*/*/*/$object,object_subrequest,~third-party
 ||ifengimg.com/ifeng/ad/
 ||ifengimg.com/ifeng/sources/
 ||ifengimg.com/mappa/
@@ -845,6 +845,7 @@ www.ku6.com##.ku6_ad
 
 !---乐视网
 @@||player.letvcdn.com/p/*/newplayer/LetvPlayer.swf
+@@||player.letvcdn.com/p/*/newplayer/LivePlayer.swf
 ||player.letvcdn.com^*.swf?
 ||dc.letv.com^
 ||pro.hoye.letv.com^
@@ -2151,6 +2152,7 @@ aipai.com##.cover_bd
 ||image.jstv.com/jstv/photo.js
 www.jstv.com##.delayadv
 www.jstv.com##.jadv
+@@||resource.ws.kukuplay.com/upload/$object-subrequest
 ||resource.*.kukuplay.com/upload/$object-subrequest
 ||longbuluo.com/taobacss/fumeiti.js
 ||s.mediashare.cn/rmi/mswlog.jsp?
