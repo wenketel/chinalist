@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: aFVkPCfTa2E1csdCCQTVUA
+!  Checksum: QVQxWot2qCLurI4Vt/kYrQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 28 Sep 2013 01:22:51 +0800
+!  Last Modified:  Mon, 30 Sep 2013 12:22:27 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1641,7 +1641,7 @@ news.ynet.com##.RC
 ||p-log.ykimg.com^
 ||e.stat.ykimg.com/red/
 ||f.youku.com/crossdomain.xml
-@@||valf.atm.youku.com/crossdomain.xml
+@@||valf.atm.youku.com/crossdomain.xml$domain=~tudou.com
 @@||valf.atm.youku.com/vf?$object-subrequest
 ||atm.youku.com^
 ||hz.youku.com/red/
@@ -3162,6 +3162,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 &program=revshare&
 &prvtof=*&poru=
 &show_ad_
+&showad=
 &simple_ad_
 &smallad=
 &type=ad&
@@ -6325,6 +6326,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /googleafs.
 /googleafvadrenderer.
 /googlecontextualads.
+/googleheadad.
 /googleleader.
 /googleleads.
 /googlempu.
@@ -7517,6 +7519,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /tidaladplugin.
 /tii_ads.
 /tikilink?
+/tileads/*
 /tinyad.
 /tit-ads.
 /title-ad/*
@@ -9210,6 +9213,7 @@ _popunder+$popup
 ###MAINAD-box
 ###MPUAdSpace
 ###MainAd
+###MainContent_ucTopRightAdvert
 ###MainSponsoredLinks
 ###MastheadAd
 ###MediumRectangleAD
@@ -11306,6 +11310,7 @@ _popunder+$popup
 ###advertisement-728x90
 ###advertisement-content
 ###advertisement-large
+###advertisement-text
 ###advertisement1
 ###advertisement160x600
 ###advertisement2
@@ -11767,6 +11772,7 @@ _popunder+$popup
 ###bottom_ad_region
 ###bottom_ad_unit
 ###bottom_ad_wrapper
+###bottom_adbox
 ###bottom_ads
 ###bottom_advert_container
 ###bottom_adwrapper
@@ -11857,6 +11863,8 @@ _popunder+$popup
 ###caAdLarger
 ###carbonads-container
 ###catad
+###catalyst-125-ads
+###catalyst-ads-2
 ###category-ad
 ###category-sponsor
 ###category_sponsorship_ad
@@ -13563,6 +13571,7 @@ _popunder+$popup
 ###right-mpu-1-ad-container
 ###right-uppder-adverts
 ###right-uppder-adverts-container
+###right1-ad
 ###right160x600ads_part
 ###rightAd
 ###rightAd1
@@ -17857,6 +17866,7 @@ _popunder+$popup
 ##.careerAdviceAd1
 ##.cat_context_ad
 ##.catalog_ads
+##.catalyst-ads
 ##.cate_right_ad
 ##.category-ad
 ##.category-advertorial
@@ -19120,6 +19130,7 @@ _popunder+$popup
 ##.mid-ad-wrapper
 ##.mid_ad
 ##.mid_article_ad_label
+##.mid_banner_ad
 ##.mid_page_ad
 ##.mid_page_ad_big
 ##.mid_right_ads
@@ -19529,6 +19540,7 @@ _popunder+$popup
 ##.profile_ad_bottom
 ##.profile_ad_top
 ##.promo-ad
+##.promo-box--ad
 ##.promoAd
 ##.promoAds
 ##.promoAdvertising
@@ -20535,6 +20547,8 @@ _popunder+$popup
 ##.top_big_ads
 ##.top_container_ad
 ##.top_corner_ad
+##.top_header_ad
+##.top_header_ad_inner
 ##.top_right_ad
 ##.top_rightad
 ##.top_sponsor
@@ -21904,7 +21918,7 @@ _popunder+$popup
 ||doubleclick.net/adx/*.NPR.MUSIC/$third-party
 ||doubleclick.net/adx/*.NPR/$third-party
 ||doubleclick.net/adx/*.ted/$third-party
-||doubleclick.net/adx/CBS.DENVER/$third-party
+||doubleclick.net/adx/CBS.$third-party
 ||doubleclick.net/adx/ibs.$third-party
 ||doubleclick.net/adx/tsg.$third-party
 ||doubleclick.net/adx/wn.loc.$third-party
@@ -21933,6 +21947,7 @@ _popunder+$popup
 ||doubleclick.net/pfadx/blp.video/midroll$third-party
 ||doubleclick.net/pfadx/bzj.bizjournals/$third-party
 ||doubleclick.net/pfadx/cblvsn.nwsd.videogallery/$third-party
+||doubleclick.net/pfadx/CBS.$third-party
 ||doubleclick.net/pfadx/ccr.$third-party
 ||doubleclick.net/pfadx/comedycentral.$third-party
 ||doubleclick.net/pfadx/csn.$third-party
@@ -21961,7 +21976,7 @@ _popunder+$popup
 ||doubleclick.net/pfadx/video.marketwatch.com/$third-party
 ||doubleclick.net/pfadx/video.wsj.com/$third-party
 ||doubleclick.net/pfadx/www.tv3.co.nz$third-party
-||doubleclick.net^$third-party,domain=abc-7.com|addictinggames.com|allthingsd.com|bizjournals.com|bloomberg.com|break.com|cbc.ca|cbs19.tv|cbs3springfield.com|cbsatlanta.com|cbslocal.com|complex.com|darkhorizons.com|doubleviking.com|euronews.com|extratv.com|fandango.com|fox19.com|fox5vegas.com|gorillanation.com|hawaiinewsnow.com|hulu.com|imdb.com|joblo.com|kcra.com|kctv5.com|ketv.com|koat.com|koco.com|kolotv.com|kpho.com|kptv.com|ksat.com|ksbw.com|ksfy.com|kypost.com|live5news.com|miamiherald.com|my9nj.com|myfoxdetroit.com|myfoxorlando.com|myfoxphilly.com|myfoxphoenix.com|myfoxtampabay.com|neatorama.com|necn.com|neopets.com|news.com.au|news4jax.com|nfl.com|nintendoeverything.com|own3d.tv|pagesuite-professional.co.uk|pandora.com|ps3news.com|rottentomatoes.com|sbsun.com|shacknews.com|sk-gaming.com|ted.com|tv2.no|universalsports.com|ustream.tv|wapt.com|wate.com|wbaltv.com|wcvb.com|wdrb.com|wdsu.com|wflx.com|wfmz.com|wfsb.com|wgal.com|whdh.com|wired.com|wisn.com|wlky.com|wlns.com|wlwt.com|wmur.com|wnem.com|wowt.com|wral.com|wsj.com|wsmv.com|wsvn.com|wtae.com|wthr.com|wxii12.com|wyff4.com|yahoo.com|youtube.com
+||doubleclick.net^$third-party,domain=abc-7.com|addictinggames.com|allthingsd.com|bizjournals.com|bloomberg.com|break.com|cbc.ca|cbs19.tv|cbs3springfield.com|cbsatlanta.com|cbslocal.com|complex.com|darkhorizons.com|doubleviking.com|euronews.com|extratv.com|fandango.com|fox19.com|fox5vegas.com|gorillanation.com|hawaiinewsnow.com|hulu.com|imdb.com|joblo.com|kcra.com|kctv5.com|ketv.com|koat.com|koco.com|kolotv.com|kpho.com|kptv.com|ksat.com|ksbw.com|ksfy.com|kypost.com|live5news.com|miamiherald.com|my9nj.com|myfoxdetroit.com|myfoxorlando.com|myfoxphilly.com|myfoxphoenix.com|myfoxtampabay.com|neatorama.com|necn.com|neopets.com|news.com.au|news4jax.com|nfl.com|nintendoeverything.com|own3d.tv|pagesuite-professional.co.uk|pandora.com|ps3news.com|radio.com|rottentomatoes.com|sbsun.com|shacknews.com|sk-gaming.com|ted.com|tv2.no|universalsports.com|ustream.tv|wapt.com|wate.com|wbaltv.com|wcvb.com|wdrb.com|wdsu.com|wflx.com|wfmz.com|wfsb.com|wgal.com|whdh.com|wired.com|wisn.com|wlky.com|wlns.com|wlwt.com|wmur.com|wnem.com|wowt.com|wral.com|wsj.com|wsmv.com|wsvn.com|wtae.com|wthr.com|wxii12.com|wyff4.com|yahoo.com|youtube.com
 ||doubleclick.net^*/ad/$~object-subrequest,third-party
 ||doubleclick.net^*/adi/$~object-subrequest,third-party
 ||doubleclick.net^*/adj/$~object-subrequest,third-party
@@ -22526,6 +22541,7 @@ _popunder+$popup
 ||moatads.com^$third-party
 ||mobday.com^$third-party
 ||mobikano.com^$third-party
+||mobitracker.info^$third-party
 ||mobiyield.com^$third-party
 ||moborobot.com^$third-party
 ||mogointeractive.com^$third-party
@@ -22853,6 +22869,7 @@ _popunder+$popup
 ||resultsz.com^$third-party
 ||retargeter.com^$third-party
 ||revenuegiants.com^$third-party
+||revenuehits.com^$third-party
 ||revenuemantra.com^$third-party
 ||revenuemax.de^$third-party
 ||revfusion.net^$third-party
@@ -23336,6 +23353,7 @@ _popunder+$popup
 ||yourquickads.com^$third-party
 ||ytsa.net^$third-party
 ||yuarth.com^$third-party
+||yucce.com^$third-party
 ||yumenetworks.com^$third-party
 ||yvoria.com^$third-party
 ||yzrnur.com^$third-party
@@ -23388,6 +23406,7 @@ _popunder+$popup
 ! *** easylist:easylist/easylist_adservers_popup.txt ***
 ||123vidz.com^$popup
 ||1phads.com^$popup,third-party
+||32d1d3b9c.se^$popup,third-party
 ||5dimes.com^$popup,third-party
 ||888.com^$popup,third-party
 ||888casino.com^$popup,third-party
@@ -24215,6 +24234,7 @@ _popunder+$popup
 ||img.promoddl.com^$third-party
 ||img.servint.net^$third-party
 ||imgehost.com^*/banners/$third-party
+||imgur.com^$image,domain=talksport.com
 ||indeed.fr/ads/
 ||indian-forex.com^*/banners/$third-party
 ||indieclick.3janecdn.com^
@@ -24233,6 +24253,7 @@ _popunder+$popup
 ||iobit.com/partner/$third-party
 ||iol.co.za^*/sponsors/
 ||iselectmedia.com^*/banners/
+||iwebzoo.com/banner/
 ||iypcdn.com^*/bgbanners/
 ||iypcdn.com^*/otherbanners/
 ||iypcdn.com^*/ypbanners/
@@ -25618,6 +25639,7 @@ _popunder+$popup
 /geocompteur.
 /geocounter.
 /geoip.html
+/geoip_cc
 /geoipAPI.js?
 /geov2.js
 /get_browser_info.
@@ -27449,6 +27471,7 @@ http://utm.
 ||histats.com^$third-party
 ||hit-counter-download.com^$third-party
 ||hit-counter.info^$third-party
+||hit-counters.net^$third-party
 ||hit-counts.com^$third-party
 ||hit2map.com^$third-party
 ||hitbox.com^$third-party
@@ -27535,6 +27558,7 @@ http://utm.
 ||iperceptions.com^$third-party
 ||ipfingerprint.com^$third-party
 ||ipinfo.info^$third-party
+||ipinfodb.com^$third-party
 ||iplocationtools.com^$third-party
 ||ipro.com^$third-party
 ||ipstat.com^$third-party
@@ -28626,6 +28650,7 @@ http://utm.
 ||demandmedia.s3.amazonaws.com^$third-party
 ||detect.ergebnis-dienst.de^
 ||dfdbz2tdq3k01.cloudfront.net^
+||dialglobal.com^*/Log.aspx?
 ||digimedia.com/pageviews.php?
 ||directnews.co.uk/feedtrack/
 ||dirt.dennis.co.uk^
@@ -30107,6 +30132,7 @@ http://utm.
 ||howcast.com/images/h.gif
 ||hrblock.com/includes/pixel/
 ||hsn.com/code/pix.aspx
+||hubpages.com/c/*.gif?
 ||huffingtonpost.com/geopromo/
 ||huffingtonpost.com/include/geopromo.php
 ||huffingtonpost.com/traffic/
@@ -30589,6 +30615,7 @@ http://utm.
 ||redtube.com/trackimps
 ||redtube.com/trackplay?
 ||redtube.com^*/jscount.php
+||reference.com/inc/js/dictionary/v4/dicSerp*.js
 ||reference.com/track/
 ||refinery29.com/api/stats?
 ||rei.com/pix/common/pixel.gif?
