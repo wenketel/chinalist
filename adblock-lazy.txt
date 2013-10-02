@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: QVQxWot2qCLurI4Vt/kYrQ
+!  Checksum: OOVAue4FVtMV5AIdLb6itg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 30 Sep 2013 12:22:27 +0800
+!  Last Modified:  Wed, 02 Oct 2013 11:18:27 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -484,8 +484,9 @@ dayoo.com##div[style="top: 10px; height: 320px; width: 100px; z-index: 1000; ove
 ||gzdaily.dayoo.com/tpl/banner$object
 
 !---豆瓣
+||douban.com^*/fm_bgad.js
 ||img3.douban.com/js/packed_ad
-||douban.fm/rotate_ad
+||mr3.douban.com^*/rda/$object-subrequest
 
 !---Discuz! & PHPWind etc.
 @@/common/cf/*.thumb$image
@@ -2277,6 +2278,7 @@ frdic.com,godic.net###sidebar1
 ||fsllq.com/res/inc/liangbian.js
 ||fsllq.com/temp/images/*_980$image
 ||fzlol.com/images/$script
+||bbs.gfan.com/plugin.php?id=gfan_viewpic:gfan_adView
 ||gter.net^*adv
 ||hackvip.com/ai/
 /Images/ak47/*$domain=hanzify.net|hanzify.org
@@ -3814,6 +3816,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /ad2push.
 /ad3.
 /ad300.
+/ad300f.
 /ad300f2.
 /ad300s.
 /ad300ws.
@@ -3835,6 +3838,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /ad7.
 /ad728-
 /ad728.
+/ad728f.
 /ad728f2.
 /ad728s.
 /ad728t.
@@ -5216,6 +5220,8 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /adv/kelkoo_
 /adv/lrec_
 /adv/preroll_
+/adv/script1.
+/adv/script2.
 /adv/skin.
 /adv/skin_
 /adv/sponsor/*
@@ -7468,6 +7474,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /swfbin/ad3_
 /switchadbanner.
 /synad2.
+/syndication/ad.
 /sys/ad/*
 /system/ad/*
 /system/ads/*
@@ -8016,6 +8023,7 @@ _adlog.
 _admanager/
 _admarking_
 _admin/ads/
+_adminka/
 _adobjects.
 _adpage=
 _adpartner.
@@ -11109,6 +11117,7 @@ _popunder+$popup
 ###adtagfooter
 ###adtagheader
 ###adtagrightcol
+###adtags_left
 ###adtaily
 ###adtaily-widget-light
 ###adtech_0
@@ -14262,6 +14271,8 @@ _popunder+$popup
 ###top_adspace
 ###top_adv
 ###top_adv-v2
+###top_adv_220
+###top_adv_728
 ###top_advert
 ###top_advert_box
 ###top_advertise
@@ -21052,6 +21063,7 @@ _popunder+$popup
 ||78.140.131.214^
 ||7insight.com^$third-party
 ||7search.com^$third-party
+||82d914.se^$third-party
 ||87.230.102.24^$third-party,domain=~p2p.adserver.ip
 ||888media.net^$third-party
 ||888medianetwork.com^$third-party
@@ -22091,6 +22103,7 @@ _popunder+$popup
 ||flagads.net^$third-party
 ||flashclicks.com^$third-party
 ||flashtalking.com^$third-party
+||flite.com^$third-party
 ||fluidads.co^$third-party
 ||fluxads.com^$third-party
 ||flymyads.com^$third-party
@@ -26351,6 +26364,7 @@ _popunder+$popup
 /social_tracking.
 /socialButtonTracker.
 /SocialTrack_
+/socialtracking.min.js
 /softclick.js
 /softpage/stats_registerhit.asp?
 /solarcode.js
@@ -28623,6 +28637,7 @@ http://utm.
 ||d1yu5hbtu8mng9.cloudfront.net^
 ||d1z2jf7jlzjs58.cloudfront.net^
 ||d21o24qxwf7uku.cloudfront.net^$third-party
+||d27s92d8z1yatv.cloudfront.net/js/jquery.jw.analitycs.js
 ||d2dq2ahtl5zl1z.cloudfront.net^
 ||d2gfi8ctn6kki7.cloudfront.net^$third-party
 ||d2ry9vue95px0b.cloudfront.net^
@@ -29106,7 +29121,7 @@ http://utm.
 ||southafricahome.com/statsmodulev2/
 ||spaceprogram.com/webstats/
 ||sparklit.com/counter/
-||speedtestbeta.com/1v.gif
+||speedtestbeta.com/*.gif?cb$third-party
 ||speedtrap.shopdirect.com^
 ||spoods.rce.veeseo.com^
 ||spread.ly^*/statistics.php

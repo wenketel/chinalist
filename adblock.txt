@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: rYGLRE3xmqx5dAQYq2wxsg
+!  Checksum: sqSA9HdH63p+T/iViomsJg
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 30 Sep 2013 12:22:21 +0800
+!  Last Modified:  Wed, 02 Oct 2013 11:18:21 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -483,8 +483,9 @@ dayoo.com##div[style="top: 10px; height: 320px; width: 100px; z-index: 1000; ove
 ||gzdaily.dayoo.com/tpl/banner$object
 
 !---豆瓣
+||douban.com^*/fm_bgad.js
 ||img3.douban.com/js/packed_ad
-||douban.fm/rotate_ad
+||mr3.douban.com^*/rda/$object-subrequest
 
 !---Discuz! & PHPWind etc.
 @@/common/cf/*.thumb$image
@@ -2276,6 +2277,7 @@ frdic.com,godic.net###sidebar1
 ||fsllq.com/res/inc/liangbian.js
 ||fsllq.com/temp/images/*_980$image
 ||fzlol.com/images/$script
+||bbs.gfan.com/plugin.php?id=gfan_viewpic:gfan_adView
 ||gter.net^*adv
 ||hackvip.com/ai/
 /Images/ak47/*$domain=hanzify.net|hanzify.org
