@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: OOVAue4FVtMV5AIdLb6itg
+!  Checksum: hf3vlPCEC61eDWR59Wcxrg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 02 Oct 2013 11:18:27 +0800
+!  Last Modified:  Thu, 03 Oct 2013 00:45:04 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -32,6 +32,9 @@ bbs.kafan.cn#@#.a_mu
 news.now.com#@##ad-2
 @@||ad.qyer.com^
 shuhe.cc#@#.ad960
+@@||tenpay.com/v2.0/main/creditcard/portal_rpm_apply.shtml
+@@||life.tenpay.com/res/ad/cellphone/js/down_for_app.js
+@@||online.unionpay.com/ads/$script,~third-party
 wired.tw#@#.header_ad
 wired.tw#@#.sidebar_ads
 wired.tw#@#.top-content-adplace
@@ -503,7 +506,7 @@ dayoo.com##div[style="top: 10px; height: 320px; width: 100px; z-index: 1000; ove
 ~hk-pub.com##.ad_footerbanner
 ###ad_headerbanner
 ##.ad_headerbanner
-~top81.cn##[id^="ad_thread"]
+~dsjunshi.com##[id^="ad_thread"]
 ##.archiver_banne
 ##.bm.a_c
 ##.wp.a_f
@@ -4359,6 +4362,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /adlabel.
 /adlabel_
 /adlabs.js
+/AdLanding.
 /adlandr.
 /adlantis.
 /adlantisloader.
@@ -5020,6 +5024,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /adsindie/*
 /adsinsert.
 /adsite/*
+/adsites/*
 /adsjs.
 /adskin/*
 /adsky.
@@ -7042,6 +7047,8 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /printad/*
 /printads/*
 /proads/*
+/proadvertising.
+/proadvertising_
 /processad.
 /processads.
 /processing/impressions.asp?
@@ -8875,6 +8882,7 @@ _a468x60.
 /ad_pop.php?$popup
 /ads.htm$popup
 /adserver.$popup
+/afu.php?zoneid=$popup
 /bani/index.php?id=$popup
 /popunder.$popup
 /popunder_$popup
@@ -9144,10 +9152,13 @@ _popunder+$popup
 ###DividerAd
 ###FFN_imBox_Container
 ###FIN_300_250_position2_ad
+###FIN_300_x_250_600_position2_ad
 ###FIN_300x250_pos1_ad
 ###FIN_300x80_facebook_ad
 ###FIN_468x60_sponsor_ad
+###FIN_640x60_promo_ad
 ###FIN_728_90_leaderboard_ad
+###FIN_ad_300x100_pos_1
 ###FIN_videoplayer_300x250ad
 ###FooterAd
 ###FooterAdBlock
@@ -10055,6 +10066,7 @@ _popunder+$popup
 ###adWrapperLeft
 ###adWrapperRight
 ###adZoneTop
+###ad_0
 ###ad_02
 ###ad_03
 ###ad_04
@@ -11970,6 +11982,8 @@ _popunder+$popup
 ###content-ad
 ###content-ad-header
 ###content-ads
+###content-advertising-header
+###content-advertising-right
 ###content-columns-post-ad-bottom
 ###content-columns-post-ad-top
 ###content-header-ad
@@ -12322,6 +12336,7 @@ _popunder+$popup
 ###ffsponsors
 ###file_sponsored_link
 ###fin_ad_728x90_bottom
+###fin_dc_ad_300x100_pos_1
 ###fin_ds_homepage_adtag_468x60
 ###first-300-ad
 ###first-adframe
@@ -16589,6 +16604,7 @@ _popunder+$popup
 ##.ads_300x100
 ##.ads_300x239
 ##.ads_300x250
+##.ads_305
 ##.ads_320
 ##.ads_330
 ##.ads_337x280
@@ -19372,6 +19388,7 @@ _popunder+$popup
 ##.oas_add
 ##.oas_advertisement
 ##.oasad
+##.ob_container .item-container-obpd
 ##.oba_message
 ##.ocp-sponsor
 ##.ody-sponsor
@@ -24840,6 +24857,7 @@ _popunder+$popup
 ||dateoffer.net/?s=*&subid=$popup,third-party
 ||eroticmix.blogspot.$popup
 ||erotikdeal.com/?ref=$popup,third-party
+||erotikdeal.com/advertising.html$popup,third-party
 ||eurogrand.com^$popup
 ||europacasino.com^$popup,third-party
 ||evanetwork.com^$popup
@@ -27253,6 +27271,7 @@ http://utm.
 ||dailycaller-alerts.com^$third-party
 ||dashboard.io^$third-party
 ||datacaciques.com^$third-party
+||datam.com^$third-party
 ||datvantage.com^$third-party
 ||daylife-analytics.com^$third-party
 ||daylogs.com^$third-party
@@ -29010,6 +29029,7 @@ http://utm.
 ||ping.hellobar.com^
 ||pings.conviva.com^
 ||pix.speedbit.com^$third-party
+||pixel.fanbridge.com^
 ||pixel.indieclicktv.com/annonymous/
 ||pixel.solvemedia.com^
 ||pixel.tree.com^
@@ -29281,6 +29301,7 @@ http://utm.
 ||tracking.dsmmadvantage.com^
 ||tracking.edvisors.com^$third-party
 ||tracking.ehavior.net^
+||tracking.fanbridge.com^
 ||tracking.fccinteractive.com^$third-party
 ||tracking.feedperfect.com^
 ||tracking.fits.me^$third-party
