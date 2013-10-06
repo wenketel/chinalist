@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: V0fjpo73ZCdyfD8MNDX3/w
+!  Checksum: 6ZnGeOCr1hMYxyYagWRK3g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 03 Oct 2013 12:04:43 +0800
+!  Last Modified:  Sun, 06 Oct 2013 17:06:51 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -173,6 +173,14 @@ jd.com#@#.adwords
 ||stat.56.com^
 ||v-56.com^
 
+!---理想股票论坛
+55188.com##.a1_gg
+55188.com##.bd_gg
+55188.com###ggcontArea
+55188.com###ggcontArea2
+55188.com###ggdistich
+55188.com##.gg_head
+
 !---六间房
 @@||pole.6rooms.com/adpolestar/*_qtie.swf
 ||6.cn/mdfor/index_new.js
@@ -326,6 +334,7 @@ iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com##[class^="wgt-ads"]
 ||drmcmm.baidu.com^
 ||duiwai.baidu.com^
 ||eiv.baidu.com^
+||hm.baidu.com^$third-party
 ||spcode.baidu.com^
 ||cpro.baidustatic.com^
 !--iQIYI
@@ -3017,9 +3026,6 @@ zxtjd.com###it_an
 51caiju.com###hint + .AdTop-Article-QQ
 51caiju.com##.l_qq_com
 52wubi.com##.top960
-55188.com##[class^="a1_gg jiange"]
-55188.com##.a3_gg
-55188.com##[class^="nei"]
 amznz.com##div[style="float:left;width:250px;height:250px;"]
 appinn.com##.ads
 appinn.com##.ads-m
@@ -3170,6 +3176,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 &showad=
 &simple_ad_
 &smallad=
+&strategy=adsense&
 &type=ad&
 &video_ads_
 &videoadid=
@@ -3309,6 +3316,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 -leaderboard-ad-
 -news-ad-
 -newsletter-ad-
+-NewStockAd-
 -page-ad.
 -page-peel/
 -panel-ad.
@@ -3521,6 +3529,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 .popupvideoad.
 .refit.ads.
 .rolloverad.
+.se/?placement=$script,third-party
 .shortcuts.search.
 .show_ad_
 .sk/ads/
@@ -4152,6 +4161,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /adchoice_
 /adchoices-
 /adchoices.
+/adchoices/*
 /adchoices16.
 /adchoices2.
 /adchoices_
@@ -4460,6 +4470,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /adobject.
 /adocean.
 /adometry.
+/adometry?
 /adonline.
 /adops/*
 /adoptionicon.
@@ -4683,6 +4694,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /ads/header_
 /ads/home/*
 /ads/homepage/*
+/ads/horizontal/*
 /ads/house/*
 /ads/house_
 /ads/html/*
@@ -4771,6 +4783,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /ads/tile-
 /ads/top-
 /ads/tracker/*
+/ads/vertical/*
 /ads/vg/*
 /ads/video_
 /ads/view.
@@ -5506,6 +5519,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /assets/ad-
 /assets/ad/*
 /assets/ads/*
+/assets/adv/*
 /assets/doubleclick/*
 /ast/ads/*
 /athena/tag/?
@@ -6300,6 +6314,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /google_ads.
 /google_ads/*
 /google_ads_
+/google_adv/*
 /google_afc.
 /google_afc_
 /google_afs.
@@ -6646,6 +6661,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /leftads.
 /leftbanner/*
 /leftsidebarads.
+/lib/ad.js
 /lifeshowad/*
 /lightad.
 /lijit-ad-
@@ -6991,6 +7007,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /pop.js|
 /pop2.js|
 /pop_ad.
+/pop_adfy.
 /pop_camgirlcity.
 /pop_under.
 /pop_under/*
@@ -8092,6 +8109,7 @@ _adtitle.
 _adtoma.
 _adtop.
 _adunit.
+_adv/300.
 _adv/overlay/
 _Adv_Banner_
 _advert.
@@ -9042,6 +9060,7 @@ _popunder+$popup
 ###Ad_RightTop
 ###Ad_TopLeaderboard
 ###Adbanner
+###Adc3_AdContainer
 ###Adcode
 ###Adrectangle
 ###Ads470by50
@@ -9361,6 +9380,7 @@ _popunder+$popup
 ###acm-ad-tag-300x250-btf
 ###acm-ad-tag-728x90-atf
 ###acm-ad-tag-728x90-btf
+###ad-0
 ###ad-1
 ###ad-1000x90-1
 ###ad-120-left
@@ -9555,6 +9575,7 @@ _popunder+$popup
 ###ad-main-bottom
 ###ad-main-top
 ###ad-medium
+###ad-medium-lower
 ###ad-medium-rectangle
 ###ad-medrec
 ###ad-medrec_premium
@@ -9924,6 +9945,8 @@ _popunder+$popup
 ###adPUSHDOWNBANNER
 ###adPageContainer
 ###adPanelAjaxUpdate
+###adPlaceHolder1
+###adPlaceHolder2
 ###adPlaceHolderRight
 ###adPlacer
 ###adPopover
@@ -10111,6 +10134,7 @@ _popunder+$popup
 ###ad_300x250m
 ###ad_300x600
 ###ad_300x90
+###ad_336
 ###ad_350_200
 ###ad_4
 ###ad_450x280
@@ -10385,6 +10409,7 @@ _popunder+$popup
 ###ad_overlay_countdown
 ###ad_overture
 ###ad_panel
+###ad_pencil
 ###ad_ph_1
 ###ad_place
 ###ad_placeholder
@@ -10468,6 +10493,8 @@ _popunder+$popup
 ###ad_skyscraper_text
 ###ad_slot_leaderboard
 ###ad_slot_livesky
+###ad_slot_right_bottom
+###ad_slot_right_top
 ###ad_slot_sky_top
 ###ad_small
 ###ad_space
@@ -11417,6 +11444,7 @@ _popunder+$popup
 ###advertsingle
 ###advertspace
 ###advframe
+###advgoogle
 ###advman-2
 ###advsingle
 ###advt
@@ -11671,6 +11699,7 @@ _popunder+$popup
 ###bigboard_ad_ini
 ###bigsidead
 ###billboard_ad
+###block--ex_dart-ex_dart_adblade_article
 ###block-ad_blocks-0
 ###block-ad_cube-0
 ###block-ad_cube-1
@@ -11680,6 +11709,7 @@ _popunder+$popup
 ###block-advert-content
 ###block-advert-content2
 ###block-advertisement
+###block-dart-dart-tag-ad_top_728x90
 ###block-ex_dart-ex_dart_adblade_article
 ###block-ex_dart-ex_dart_sidebar_ad_block_bottom
 ###block-ex_dart-ex_dart_sidebar_ad_block_top
@@ -11873,6 +11903,7 @@ _popunder+$popup
 ###buttonad-widget-3
 ###buttonad-widget-4
 ###buy-sell-ads
+###buySellAds
 ###buysellads
 ###buysellads-4x1
 ###c-adzone
@@ -12001,6 +12032,7 @@ _popunder+$popup
 ###content_0_storyarticlepage_main_0_pnlAdSlot
 ###content_0_storyarticlepage_main_0_pnlAdSlotInner
 ###content_0_storyarticlepage_sidebar_0_pnlAdSlot
+###content_0_storyarticlepage_sidebar_11_pnlAdSlot
 ###content_0_storyarticlepage_sidebar_6_pnlAdSlot
 ###content_11_pnlAdSlot
 ###content_11_pnlAdSlotInner
@@ -12421,6 +12453,7 @@ _popunder+$popup
 ###forum_top_ad
 ###forumlist-ad
 ###four_ads
+###fp_rh_ad
 ###fpad1
 ###fpad2
 ###fpv_companionad
@@ -12982,6 +13015,7 @@ _popunder+$popup
 ###lbAdBarBtm
 ###lblAds
 ###lead_ad
+###leadad_1
 ###leader-board-ad
 ###leaderAd
 ###leaderAdContainer
@@ -13117,6 +13151,7 @@ _popunder+$popup
 ###mainHeaderAdvertisment
 ###mainMenu_divTopAd
 ###mainPageAds
+###mainPlaceHolder_coreContentPlaceHolder_rightColumnAdvert_divControl
 ###main_AD
 ###main_ad
 ###main_ads
@@ -13315,6 +13350,7 @@ _popunder+$popup
 ###new-ad-leaderboard
 ###new-ad-sidebottom
 ###new-ad-sidetop
+###newAd
 ###newPostProfileAd
 ###newPostProfileVerticalAd
 ###newTopAds
@@ -13327,6 +13363,7 @@ _popunder+$popup
 ###news_article_ad_mrec_right
 ###news_left_ad
 ###news_right_ad
+###newstream_first_ad
 ###newuser_ad
 ###ng_rtcol_ad
 ###nib-ad
@@ -13587,6 +13624,7 @@ _popunder+$popup
 ###right-adds
 ###right-ads
 ###right-ads-3
+###right-ads-4
 ###right-advert
 ###right-bar-ad
 ###right-box-ad
@@ -13634,6 +13672,7 @@ _popunder+$popup
 ###right_advert
 ###right_advertisement
 ###right_advertising
+###right_adverts
 ###right_bg_ad
 ###right_column_ad
 ###right_column_ad_container
@@ -13783,6 +13822,8 @@ _popunder+$popup
 ###show_ads
 ###showads
 ###showcaseAd
+###sic_superBannerAd-loader
+###sic_superBannerAdTop
 ###side-ad
 ###side-ad-container
 ###side-ads
@@ -14783,6 +14824,7 @@ _popunder+$popup
 ##.IndexRightAd
 ##.InternalAdPanel1
 ##.JobListMidAd
+##.LL_Widget_Advertorial
 ##.LargeOuterBoxAdsense
 ##.LargeRightAd
 ##.LastAd
@@ -16113,8 +16155,10 @@ _popunder+$popup
 ##.ad_small
 ##.ad_space
 ##.ad_space_300_250
+##.ad_space_holder
 ##.ad_space_in
 ##.ad_space_rgt
+##.ad_space_w300_h250
 ##.ad_spacer
 ##.ad_special_badge
 ##.ad_sponsor
@@ -16598,6 +16642,7 @@ _popunder+$popup
 ##.adsYN
 ##.ads_120x60_index
 ##.ads_125_square
+##.ads_160
 ##.ads_180
 ##.ads_300
 ##.ads_300250_wrapper
@@ -17052,6 +17097,7 @@ _popunder+$popup
 ##.adver_bot
 ##.adver_cont_below
 ##.adverdown
+##.adverhrz
 ##.adverserve145
 ##.adverstisement_right
 ##.advert-100
@@ -17059,6 +17105,7 @@ _popunder+$popup
 ##.advert-300
 ##.advert-300-side
 ##.advert-300x100-side
+##.advert-300x250-container
 ##.advert-728
 ##.advert-728-90
 ##.advert-728x90
@@ -18331,6 +18378,7 @@ _popunder+$popup
 ##.footer_text_ad
 ##.footer_text_adblog
 ##.footerad
+##.footerads
 ##.footeradspace
 ##.footertextadbox
 ##.forex_ad_links
@@ -18375,6 +18423,7 @@ _popunder+$popup
 ##.g_ad336
 ##.g_ads_200
 ##.g_ads_728
+##.g_adv
 ##.g_ggl_ad
 ##.ga-ad-split
 ##.ga-ads
@@ -18635,6 +18684,7 @@ _popunder+$popup
 ##.header-ads
 ##.header-adsense
 ##.header-advert
+##.header-advert-container
 ##.header-bannerad
 ##.header-google-ads
 ##.header-sponsor
@@ -19353,6 +19403,7 @@ _popunder+$popup
 ##.news_footer_ad_container
 ##.newsletter_ad
 ##.newsstackedAds
+##.newstream_ad
 ##.newsviewAdBoxInNews
 ##.newsvinemsn_adtype
 ##.nexusad
@@ -19372,6 +19423,7 @@ _popunder+$popup
 ##.npAdGoogle
 ##.npSponsorTextAd
 ##.nrAds
+##.nrelate .nr_partner
 ##.nsAdRow
 ##.nscr300Ad
 ##.nscrMidAdBlock
@@ -19832,6 +19884,7 @@ _popunder+$popup
 ##.rtmm_right_ad
 ##.runner-ad
 ##.s2k_ad
+##.sType-ad
 ##.s_ad
 ##.s_ad2
 ##.s_ad_160x600
@@ -20516,6 +20569,7 @@ _popunder+$popup
 ##.top-outer-ad-container
 ##.top-primary-sponsored
 ##.top-right-ad
+##.top-right-advert
 ##.top-sidebar-adbox
 ##.top-treehouse-ad
 ##.top-wide-ad-container
@@ -20893,6 +20947,7 @@ _popunder+$popup
 ##a[href^="http://ad.doubleclick.net/"]
 ##a[href^="http://ad.yieldmanager.com/"]
 ##a[href^="http://adexprt.me/"]
+##a[href^="http://ads.ad-center.com/"]
 ##a[href^="http://ads.affbuzzads.com/"]
 ##a[href^="http://ads.pheedo.com/"]
 ##a[href^="http://adserving.liveuniversenetwork.com/"]
@@ -21038,6 +21093,7 @@ _popunder+$popup
 ||1100i.com^$third-party
 ||123date.me^$third-party
 ||140proof.com^$third-party
+||152media.com^$third-party
 ||174.142.194.177^$third-party
 ||188server.com^$third-party
 ||18clicks.com^$third-party
@@ -21956,6 +22012,7 @@ _popunder+$popup
 ||doubleclick.net/N2/pfadx/video.allthingsd.com/$third-party
 ||doubleclick.net/N2/pfadx/video.marketwatch.com/
 ||doubleclick.net/N2/pfadx/video.wsj.com/$third-party
+||doubleclick.net/N3626/pfadx/thehothits.com.au/$third-party
 ||doubleclick.net/N4526/pfadx/*.muzu/$third-party
 ||doubleclick.net/N5202/pfadx/cmn_livemixtapes/$third-party
 ||doubleclick.net/N5479/pfadx/ctv.$third-party
@@ -22173,6 +22230,7 @@ _popunder+$popup
 ||gamersbanner.com^$third-party
 ||gamesbannerexchange.com^$third-party
 ||gan.doubleclick.net^$third-party
+||gandrad.org^$third-party
 ||gannett.gcion.com^$third-party
 ||garvmedia.com^$third-party
 ||gate-ru.com^$third-party
@@ -22720,6 +22778,7 @@ _popunder+$popup
 ||p-advg.com^$third-party
 ||p-comme-performance.com^$third-party
 ||p-digital-server.com^$third-party
+||p2ads.com^$third-party
 ||paads.dk^$third-party
 ||pagesinxt.com^$third-party
 ||paid4ad.de^$third-party
@@ -22960,6 +23019,7 @@ _popunder+$popup
 ||secure-softwaremanager.com^$third-party
 ||securesoft.info^$third-party
 ||securewebsiteaccess.com^$third-party
+||sedoparking.com^$third-party
 ||seductionprofits.com^$third-party
 ||seekads.net^$third-party
 ||sekindo.com^$third-party
@@ -23501,6 +23561,7 @@ _popunder+$popup
 ||epicgameads.com^$popup,third-party
 ||ewebse.com^$popup,third-party
 ||exoclick.com^$popup,third-party
+||ezdownloadpro.info^$popup,third-party
 ||f-hookups.com^$popup,third-party
 ||f-questionnaire.com^$popup,third-party
 ||fhserve.com^$popup,third-party
@@ -23880,6 +23941,7 @@ _popunder+$popup
 ||cdn.assets.gorillanation.com^$third-party
 ||cdn.cdncomputer.com/js/main.js
 ||cdn.nmcdn.us/js/connect.js
+||cdn.nmcdn.us/js/newsmax.jquery.min.js
 ||cdn.sweeva.com/images/$third-party
 ||cdn.tremormedia.com/ca/us/nbclocal/tpacudeoplugin46.swf
 ||cdnpark.com/scripts/js3.js
@@ -23894,7 +23956,6 @@ _popunder+$popup
 ||choices.truste.com^$third-party
 ||chriscasconi.com/nostalgia_ad.
 ||cimg.in/images/banners/
-||citadelcc.vo.llnwd.net^*/img/takeover_
 ||citygridmedia.com/ads/
 ||clarity.abacast.com^
 ||clearchannel.com/cc-common/templates/addisplay/
@@ -24265,6 +24326,7 @@ _popunder+$popup
 ||img.servint.net^$third-party
 ||imgehost.com^*/banners/$third-party
 ||imgur.com^$image,domain=talksport.com
+||imptestrm.com/rg-main.php?
 ||indeed.fr/ads/
 ||indian-forex.com^*/banners/$third-party
 ||indieclick.3janecdn.com^
@@ -26676,7 +26738,9 @@ _popunder+$popup
 /usertrack.aspx?
 /usertrackingajax.php?
 /utag.ga.
+/utag.handler.js
 /utag.js
+/utag.loader-
 /utag.loader.
 /utrack?
 /uxm_tracking.
@@ -26857,6 +26921,7 @@ _popunder+$popup
 /~r/Slashdot/slashdot/*
 /~utm_gif?
 ://adclear.*/acv?
+://anx.*/anx.gif?
 ://apex.*/apexTarget?
 ://b.*/click?
 ://b.*/ping?
@@ -27095,6 +27160,7 @@ http://utm.
 ||belstat.nl^$third-party
 ||best-top.de^$third-party
 ||bestcontactform.com^$~image,third-party
+||bestweb2013stat.lk^$third-party
 ||betarget.com^$third-party
 ||betarget.net^$third-party
 ||bfoleyinteractive.com^$third-party
@@ -27261,6 +27327,7 @@ http://utm.
 ||crwdcntrl.net^$third-party
 ||csdata1.com^$third-party
 ||csi-tracking.com^$third-party
+||ctnsnet.com^$third-party
 ||customer.io^$third-party
 ||customerconversio.com^$third-party
 ||customerdiscoverytrack.com^$third-party
@@ -27788,6 +27855,7 @@ http://utm.
 ||offerpoint.net^$third-party
 ||offerstrategy.com^$third-party
 ||ogt.jp^$third-party
+||oidah.com^$third-party
 ||ojrq.net^$third-party
 ||omeda.com^$third-party
 ||omtrdc.net^$third-party
@@ -27916,7 +27984,6 @@ http://utm.
 ||realcounter.eu^$third-party
 ||realcounters.com^$third-party
 ||realtimeplease.com^$third-party
-||realtimestatistics.net^$third-party
 ||realtimewebstats.net^$third-party
 ||realtracker.com^$third-party
 ||recoset.com^$third-party
@@ -28137,6 +28204,7 @@ http://utm.
 ||track2.me^$third-party
 ||trackalyzer.com^$third-party
 ||trackcdn.com^$third-party
+||trackcmp.net^$third-party
 ||trackconsole.com^$third-party
 ||trackedlink.net^$third-party
 ||tracking100.com^$third-party
@@ -28597,6 +28665,7 @@ http://utm.
 ||cloudfront.net/track.html
 ||cloudfront.net/trackb.html
 ||cloudfront.net/tracker.js
+||cm.g.doubleclick.net^
 ||cmmeglobal.com/evt?
 ||cmmeglobal.com^*/page-view?
 ||cnevids.com/metrics/
@@ -28742,6 +28811,7 @@ http://utm.
 ||facebook.com/common/scribe_endpoint.php
 ||facebook.com/email_open_log_pic.php
 ||facebook.com/fr/u.php?
+||facebook.com/offsite_event.php$third-party
 ||facebook.com^*/tracking.js$third-party
 ||fairfax.com.au/js/track/
 ||fastcounter.bcentral.com^
@@ -28814,7 +28884,6 @@ http://utm.
 ||hgcdn.net/?$third-party
 ||hits.dealer.com^
 ||hits.informer.com^
-||hm.baidu.com^$third-party
 ||homestore.com/srv/
 ||hop.clickbank.net^
 ||hornymatches.com^*/visit.php?
@@ -29702,6 +29771,7 @@ http://utm.
 ||beacon.search.yahoo.com^
 ||beacon.www.theguardian.com^
 ||beacons.helium.com^
+||bermudasun.bm/stats/
 ||bestofmedia.com/i/tomsguide/a.gif
 ||bestofmedia.com/sfp/js/boomerang/
 ||betfair.com/1x1.gif
@@ -29860,6 +29930,7 @@ http://utm.
 ||coolertracks.emailroi.com^
 ||cooliris.com/shared/stats/
 ||cosmopolitan.co.za/rest/track/
+||count.prx.org^
 ||counter.promodeejay.net^
 ||coupons.com/pmm.asp
 ||courierpress.com/metrics/
@@ -31024,7 +31095,6 @@ http://utm.
 ||tre.emv3.com/P?
 ||treatme.co.nz^*/Census.js
 ||treato.com/api/analytics?
-||tredir.go.com^
 ||triadretail.com^*/roverTrack.js
 ||trialpay.com/mi/
 ||triond.com/cntimp?
@@ -31280,7 +31350,6 @@ http://utm.
 ||nyteknik.se/ver02/javascript/2012_s_code_global.js
 ||redbox.com^*/scripts/s_code.js
 ||riverisland.com^*/s_code.min.omniture_$script
-||safeway.com^*/s_code.js
 ||skypeassets.com/i/tracking/js/s_code_20121127.js$domain=skype.com
 ||vitacost.com/Javascripts/s_code.js
 ! *** easylist:easyprivacy/easyprivacy_specific_international.txt ***
