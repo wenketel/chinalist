@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: 6ZnGeOCr1hMYxyYagWRK3g
+!  Checksum: 4trKgtIPSBDVpALsXmzAfw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 06 Oct 2013 17:06:51 +0800
+!  Last Modified:  Mon, 07 Oct 2013 13:35:12 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -941,6 +941,7 @@ narutom.com###itaTop2
 narutom.com###naruto_desk
 
 !---NewHua
+@@||onlinedown.net/newhuagg/sort_pic_24_24.js
 /newhuagg/*ad*.js
 /newhuagg/*_banner
 /newhuagg/index_
@@ -952,6 +953,7 @@ narutom.com###naruto_desk
 /newhuagg/sort_2
 /newhuagg/*_top_
 ||onlinedown.net/js/cover.js
+||onlinedown.net/newhuagg/*_pic_$script
 newhua.com##.ad_c
 newhua.com##.ad_r1
 newhua.com##.ad_ritht_1
@@ -963,6 +965,7 @@ games.newhua.com##.adwin
 games.newhua.com##.gad_r
 onlinedown.net##.adr
 onlinedown.net##.ban
+onlinedown.net##.newsbox
 onlinedown.net##.r1
 onlinedown.net##.r2
 
@@ -1824,7 +1827,7 @@ steachs.com###banner
 ||greenxf.com/greenxf_com/greenad$script
 ||happydown.com^$script,subdocument
 ||happydown.com/soft/ads/
-||huacolor.com/G-G/
+||huacolor.com/hcjs_*/
 ||myhack58.com/js/
 ||orsoon.com/orsoon/$script
 ||orsoon.com/orsoon_AD/
@@ -2650,6 +2653,7 @@ zxtjd.com###it_an
 ||books.com.tw/exep/ap/$third-party
 ||boosj.com^$third-party
 ||btnibbler.com^$third-party
+||buzzads.com^$third-party
 ||buzz-time.com.cn^$third-party
 ||caiyifz.com^$third-party
 ||channelray.com^$third-party
@@ -2961,7 +2965,7 @@ zxtjd.com###it_an
 /adpuba/*
 /adservice/*
 /adv.
-/adv/*$domain=~ftchinese.com
+/adv/*
 /advpic/*
 /attachments/ad/*
 .com/js/ad.
@@ -3032,6 +3036,7 @@ appinn.com##.ads-m
 appinn.com##.gad
 baihe.com##.blockUI
 bcc.com.tw##TABLE[width="100%"] TR > TD[height="80"]
+ck101.com###portal_block_563
 fbook.net##.head-d
 hornydragon.blogspot.com,hornydragon.blogspot.tw###HTML13
 www.alibuybuy.com##[class^="ad_"]
@@ -3049,6 +3054,8 @@ dmzj.com##iframe[width="960"]
 downg.com##.content.ad-b950x50
 freehao123.com##.box
 freehao123.com###jieweigg
+ftchinese.com###story_main_mpu
+ftchinese.com###topadcontainer
 fun698.com##table[width="958"]
 fun698.com##table[width="960"]
 gamebase.com.tw###ad118_728
@@ -22008,6 +22015,7 @@ _popunder+$popup
 ||doubleclick.net/adx/tsg.$third-party
 ||doubleclick.net/adx/wn.loc.$third-party
 ||doubleclick.net/adx/wn.nat.$third-party
+||doubleclick.net/crossdomain.xml$object-subrequest,domain=abcnews.go.com
 ||doubleclick.net/N2/pfadx/video.*.wsj.com/$third-party
 ||doubleclick.net/N2/pfadx/video.allthingsd.com/$third-party
 ||doubleclick.net/N2/pfadx/video.marketwatch.com/
@@ -27998,6 +28006,7 @@ http://utm.
 ||reinvigorate.net^$third-party
 ||relead.com^$third-party
 ||relmaxtop.com^$third-party
+||remarketstats.com^$third-party
 ||res-x.com^$third-party
 ||research-tool.com^$third-party
 ||researchnow.co.uk^$third-party
@@ -28600,6 +28609,7 @@ http://utm.
 ||bravenet.com/counter/
 ||break.com/apextracker/
 ||break.com/break/js/brktrkr.js$third-party
+||breakingburner.com/stats.html?
 ||bright.bncnt.com^
 ||browserscope.org/user/beacon/
 ||btn.clickability.com^
