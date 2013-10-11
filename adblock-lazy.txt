@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: dwEj0+eXvXEndsD7DR7q6Q
+!  Checksum: rBEyqREb836cVHY4aRkI5A
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 09 Oct 2013 20:49:51 +0800
+!  Last Modified:  Fri, 11 Oct 2013 09:23:01 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -90,6 +90,7 @@ www.youdao.com###ext
 ||acg.178.com^*/t_$subdocument,domain=~dmzj.com
 ||market.178.com^
 ||tuiguang.178.com^
+178.com#@#.ad_box
 178.com#@##advt
 178.com##.ad-2-1
 178.com##.ad2
@@ -4474,6 +4475,8 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /adnetwork468.
 /adnetwork_
 /adnews.
+/AdNewsclip14.
+/AdNewsclip15.
 /adnext.
 /adng.html
 /adnotice.
@@ -5783,6 +5786,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /camaoAdsenseHomepage.
 /camfuzeads/*
 /campus/ads/*
+/carbonads-
 /carbonads/*
 /carsadtaggenerator.js
 /cashad.
@@ -6052,6 +6056,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /dynamicvideoad?
 /dynanews/ad-
 /dynbanner/flash/*
+/e-vertising/*
 /eas?*^easformat=
 /eas?camp=*;cre=
 /eas?cu=*;cre=
@@ -10359,6 +10364,7 @@ _popunder+$popup
 ###ad_interestmatch400
 ###ad_island
 ###ad_island_incontent
+###ad_island_incontent2
 ###ad_keywrods
 ###ad_label
 ###ad_large
@@ -11189,6 +11195,7 @@ _popunder+$popup
 ###adtopbox
 ###adtophp
 ###adtxt
+###adunderpicture
 ###adunit300x500
 ###adunitl
 ###adv-01
@@ -17437,6 +17444,7 @@ _popunder+$popup
 ##.adwords_in_content
 ##.adwrap
 ##.adwrapper-lrec
+##.adwrapper1
 ##.adwrapper948
 ##.adz728x90
 ##.adzone
@@ -17642,6 +17650,7 @@ _popunder+$popup
 ##.bannerad-125tower
 ##.bannerad-468x60
 ##.banneradd
+##.banneradv
 ##.bannerandads
 ##.bannergoogle
 ##.bannergroup-ads
@@ -20890,6 +20899,7 @@ _popunder+$popup
 ##.wpInsertInPostAd
 ##.wp_bannerize
 ##.wpadvert
+##.wpbrad-zone
 ##.wpn_ad_content
 ##.wrap-ads
 ##.wrapper-ad
@@ -21120,7 +21130,6 @@ _popunder+$popup
 ||10pipsaffiliates.com^$third-party
 ||1100i.com^$third-party
 ||123date.me^$third-party
-||140proof.com^$third-party
 ||152media.com^$third-party
 ||174.142.194.177^$third-party
 ||188server.com^$third-party
@@ -22558,6 +22567,7 @@ _popunder+$popup
 ||luminate.com^$third-party
 ||lushcrush.com^$third-party
 ||luxup.ru^$third-party
+||lx2rv.com^$third-party
 ||lzjl.com^$third-party
 ||m1.fwmrm.net^$object-subrequest,third-party
 ||m2pub.com^$third-party
@@ -23848,6 +23858,7 @@ _popunder+$popup
 ||aolcdn.com/os/mapquest/marketing/promos/
 ||aolcdn.com/os/mapquest/promo-images/
 ||aolcdn.com/os/music/img/*-skin.jpg
+||api.140proof.com^$third-party
 ||api.bitp.it^$third-party
 ||api.groupon.com/v2/deals/$third-party
 ||apnonline.com.au/img/marketplace/*_ct50x50.gif
@@ -23863,6 +23874,7 @@ _popunder+$popup
 ||as.jivox.com/jivox/serverapis/getcampaignbysite.php?$object-subrequest
 ||assets.betterbills.com/widgets/
 ||astalavista.box.sk/c-astalink2a.jpg
+||astrology.com/partnerpages/
 ||athena-ads.wikia.com^$third-party
 ||autoprivileges.net/news/
 ||award.sitekeuring.net^
@@ -25174,6 +25186,7 @@ _popunder+$popup
 /addlogdetails.
 /addTrackingScripts.
 /adimppixel/*
+/adinteraction/*
 /adlogger_
 /adloggertracker.
 /admonitoring.js
@@ -26419,6 +26432,7 @@ _popunder+$popup
 /securetracker.
 /segmentio.js
 /SellathonCounterService.
+/semanticTagService.js
 /SEMTracking.
 /send-impressions.html
 /seomonitor/*
@@ -26741,6 +26755,7 @@ _popunder+$popup
 /trax.gif?
 /traxis-logger.
 /triggertag.js
+/triggit-analytics.
 /trk.gif?
 /tsc.php?*&ses=
 /tsrHitCounter.
@@ -27023,6 +27038,7 @@ _promo_id=
 _quantcast.swf
 _sdctag1_
 _sdctag2.
+_semanticTag/
 _social_tracking.
 _stats.js?
 _stats/Logger?
@@ -28525,6 +28541,7 @@ http://utm.
 ||afrigator.com/track/
 ||akamai.com/crs/lgsitewise.js
 ||akamai.net/*.babylon.com/trans_box/
+||akamai.net^*/sitetracking/
 ||akatracking.esearchvision.com^
 ||aksb-a.akamaihd.net^
 ||alenty.com/trk/
@@ -30293,15 +30310,11 @@ http://utm.
 ||huffingtonpost.com/traffic/
 ||hugedomains.com/metrics/
 ||hulkshare.com/stats.php
-||hulu.com/*&beaconevent$object-subrequest,~third-party
+||hulu.com/*&beaconevent$image,object-subrequest,~third-party
 ||hulu.com/beacon/v3/error?
 ||hulu.com/beacon/v3/playback?
 ||hulu.com/beaconservice.swf
 ||hulu.com/guid.swf
-||hulu.com/v3/adinteraction/click?
-||hulu.com/v3/adinteraction/pause?
-||hulu.com/v3/adinteraction/play?
-||hulu.com/v3/adinteraction/vote?
 ||hulu.com/watch/*track.url-1.com
 ||hulu.com^*/external_beacon.swf
 ||hulu.com^*/plustracking/
@@ -30310,6 +30323,8 @@ http://utm.
 ||hulu.com^*/potentialbugtracking/dropframes?
 ||hulu.com^*/recommendationTracking/tracking?
 ||hulu.com^*/sitetracking/
+||huluim.com/*&beaconevent$image,object-subrequest,~third-party
+||huluim.com^*/sitetracking/
 ||humanclick.com/hc/*/?visitor=
 ||i-am-bored.com/cad.asp
 ||i-am-bored.com/cah.asp
@@ -31321,6 +31336,7 @@ http://utm.
 ||yahoo.com/__perf_log_
 ||yahoo.com/b?p=
 ||yahoo.com/neo/stat
+||yahoo.com/neo/ygbeacon/
 ||yahoo.com/p.gif;
 ||yahoo.com/perf.gif?
 ||yahoo.com/serv?s
