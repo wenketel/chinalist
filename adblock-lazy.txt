@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: rBEyqREb836cVHY4aRkI5A
+!  Checksum: 8WBrok5DC0Ekx38fcKFNfA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 11 Oct 2013 09:23:01 +0800
+!  Last Modified:  Sat, 12 Oct 2013 13:18:42 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -2064,7 +2064,9 @@ bxs.cc###content > a[id^="a_"]
 ||dm8.cc/s/
 ||dm8.cc/show/
 ||share.dmhy.*/shareman$image
+||share.dmhy.*/WLGO$image
 share.dmhy.me,share.dmhy.org###shareman_ad
+share.dmhy.me,share.dmhy.org###WLGO_ad
 @@||dukankan.com/xiaoyi/js/Footer.js
 @@||dukankan.com/xiaoyi/js/header.js
 @@||dukankan.com/xiaoyi/js/loginTop.js
@@ -4463,6 +4465,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /adminibanner2.
 /admixer_
 /admob.
+/admonitor-
 /admonitor.
 /adnap/*
 /adnet.
@@ -4739,6 +4742,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /ads/mpu/*
 /ads/mpu2?
 /ads/mpu?
+/ads/msn/*
 /ads/navbar/*
 /ads/ninemsn.
 /ads/oas-
@@ -7011,6 +7015,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /pledgead.
 /plugin/ad/*
 /plugins/page-cornr-
+/plugins/wp-moreads/*$~stylesheet
 /plugins/wp125/*$~stylesheet
 /plugins/wp_actionpop/*
 /plugins_ads_
@@ -11561,6 +11566,7 @@ _popunder+$popup
 ###article-agora-ad
 ###article-bottom-ad
 ###article-box-ad
+###article-footer-sponsors
 ###article-island-ad
 ###article-sponspred-content
 ###articleAd
@@ -12965,9 +12971,11 @@ _popunder+$popup
 ###instoryadtext
 ###instoryadwrap
 ###int-ad
+###intAdUnit
 ###int_ad
 ###internalAdvert
 ###internalads
+###interstitialAd
 ###interstitialAdContainer
 ###interstitial_ad
 ###interstitial_ad_container
@@ -15086,6 +15094,7 @@ _popunder+$popup
 ##.ad-background
 ##.ad-banner
 ##.ad-banner-bkgd
+##.ad-banner-container
 ##.ad-banner-label
 ##.ad-banner-leaderboard
 ##.ad-banner-smaller
@@ -15135,6 +15144,7 @@ _popunder+$popup
 ##.ad-call-300x250
 ##.ad-callout
 ##.ad-caption
+##.ad-card-container
 ##.ad-cat
 ##.ad-catfish
 ##.ad-cell
@@ -21328,7 +21338,6 @@ _popunder+$popup
 ||adloaded.com^$third-party
 ||adlooxtracking.com^$third-party
 ||adm.fwmrm.net/crossdomain.xml$domain=colbertnation.com|mtv.com|thedailyshow.com
-||adm.fwmrm.net/p/fox_live/$object-subrequest,third-party
 ||adm.fwmrm.net/p/msnbc_live/$object-subrequest,third-party,domain=~msnbc.msn.com,~www.nbcnews.com
 ||adm.fwmrm.net/p/mtvn_live/$object-subrequest,third-party
 ||admagnet.net^$third-party
@@ -25043,6 +25052,7 @@ _popunder+$popup
 -ClickTale.
 -comscore.
 -ga-track.
+-geoIP.js
 -google-analytics.
 -mediaplex_
 -optimost-
@@ -25704,6 +25714,7 @@ _popunder+$popup
 /ga-explorations.
 /ga-links.js
 /ga-multidomain.
+/ga-script.
 /ga-socialtracker.
 /ga-track.
 /ga-tracker.
@@ -29160,6 +29171,7 @@ http://utm.
 ||pix.speedbit.com^$third-party
 ||pixel.fanbridge.com^
 ||pixel.indieclicktv.com/annonymous/
+||pixel.newscred.com^
 ||pixel.solvemedia.com^
 ||pixel.tree.com^
 ||pixel.vmm-satellite2.com^
@@ -29822,6 +29834,7 @@ http://utm.
 ||bbc.co.uk^*/livestats_v1_1.js
 ||bbc.co.uk^*/tracker.js
 ||bbc.co.uk^*/vs.js
+||bbystatic.com/js/_analytics/$domain=bestbuy.com
 ||bc.yahoo.com^
 ||bcm.itv.com^
 ||bdlive.co.za/statistics/
@@ -29834,6 +29847,7 @@ http://utm.
 ||beacon.www.theguardian.com^
 ||beacons.helium.com^
 ||bermudasun.bm/stats/
+||bestbuy.com^*/tracking/analytics-min.js
 ||bestofmedia.com/i/tomsguide/a.gif
 ||bestofmedia.com/sfp/js/boomerang/
 ||betfair.com/1x1.gif
@@ -30132,7 +30146,7 @@ http://utm.
 ||express.co.uk/trackings/
 ||ez.no/statjs/
 ||f-secure.com^*/wtsdc.js
-||facebook.com/ajax/photos/logging/everstore_logging.php
+||facebook.com/ajax/*logging
 ||facebook.com/ct.php
 ||facebook.com/search/web/instrumentation.php?
 ||fanfiction.net/eye/
@@ -30226,6 +30240,7 @@ http://utm.
 ||geo.play.it^
 ||geo.yahoo.com^
 ||geoip.cleveland.com^
+||geoip.lehighvalleylive.com^
 ||geoip.mlive.com^
 ||geoip.nola.com^
 ||geoip.oregonlive.com^
@@ -30797,6 +30812,7 @@ http://utm.
 ||reporternews.com/metrics/
 ||reporting.flymonarch.com^
 ||reporting.onthebeach.co.uk^
+||reporting.theonion.com^
 ||reporting.wilkinsonplus.com^
 ||request.issuu.com^
 ||resellerclub.com/helpdesk/visitor/index.php?$image
@@ -31030,6 +31046,7 @@ http://utm.
 ||t2.hulu.com^
 ||t3.com/js/trackers.js
 ||tab.co.nz/track?
+||tag-stats.huffpost.com^
 ||tags.transportdirect.info^
 ||talktalk.co.uk^*/log.html
 ||talktalk.co.uk^*/tracking/
