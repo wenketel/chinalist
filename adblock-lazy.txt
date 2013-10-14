@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: 8WBrok5DC0Ekx38fcKFNfA
+!  Checksum: qry/1NsioU9SkNCL1IVFFg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 12 Oct 2013 13:18:42 +0800
+!  Last Modified:  Mon, 14 Oct 2013 14:17:12 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -161,6 +161,11 @@ jd.com#@#.adwords
 5173.com##.fullscreenmsg
 5173.com###popupRight
 5173.com###ggFloat
+
+!---51.la
+||51img.ajiang.net^$image,domain=www.51.la
+51.la###zztxt
+51.la###zanzhu
 
 !---51nb.com
 @@||forum.51nb.com/images/*/
@@ -5009,6 +5014,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /adserverpub?
 /adservers-
 /adserversolutions/*
+/adserverstore.
 /adservervastvideovizu.
 /adservices/*
 /adservice|
@@ -7420,6 +7426,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /special_ad.
 /special_ads/*
 /specialfeatureads/*
+/spiderad/*
 /splash_ads_
 /spo_show.asp?
 /sponlink.
@@ -12398,6 +12405,7 @@ _popunder+$popup
 ###ffsponsors
 ###file_sponsored_link
 ###fin_ad_728x90_bottom
+###fin_advertorial_features
 ###fin_dc_ad_300x100_pos_1
 ###fin_ds_homepage_adtag_468x60
 ###first-300-ad
@@ -17001,6 +17009,7 @@ _popunder+$popup
 ##.adstop
 ##.adstory
 ##.adstrip
+##.adstyle
 ##.adsupperugo
 ##.adsupperugo_txt
 ##.adswidget
@@ -20358,6 +20367,7 @@ _popunder+$popup
 ##.sponsored_links2
 ##.sponsored_links_box
 ##.sponsored_links_container
+##.sponsored_links_section
 ##.sponsored_links_title_container
 ##.sponsored_links_title_container_top
 ##.sponsored_links_top
@@ -24955,6 +24965,7 @@ _popunder+$popup
 ||4utro.ru^$popup
 ||5.39.67.191/promo.php?$popup
 ||adfoc.us/serve/$popup,third-party
+||adrotator.se^$popup
 ||adserving.unibet.com^$popup,third-party
 ||affportal-lb.bevomedia.com^$popup,third-party
 ||babylon.com/redirects/$popup,third-party
@@ -26688,6 +26699,7 @@ _popunder+$popup
 /tracking-hits.
 /tracking-info.gif?
 /tracking-init.
+/tracking-pixel.
 /tracking-pixel/*
 /tracking.cgi?
 /tracking.gif?
@@ -27341,6 +27353,7 @@ http://utm.
 ||cognitivematch.com^$third-party
 ||collarity.com^$third-party
 ||collserve.com^$third-party
+||company-target.com^$third-party
 ||compteur.cc^$third-party
 ||confirmational.com^$third-party
 ||confirmit.com^$third-party
@@ -27976,6 +27989,7 @@ http://utm.
 ||pingdom.net^$third-party
 ||pingomatic.com^$third-party
 ||pixel.parsely.com^$third-party
+||pixeleze.com^$third-party
 ||pixelrevenue.com^$third-party
 ||pixelsnippet.com^$third-party
 ||placemypixel.com^$third-party
@@ -29493,6 +29507,7 @@ http://utm.
 ||turner.com^*/1pixel.gif?
 ||turnto.com/webEvent/$third-party
 ||twimg.com/jot?
+||twitter.com/oct.js
 ||twitvid.com^*/tracker.swf$third-party
 ||txn.grabnetworks.com^
 ||typepad.com^*/stats?$third-party
@@ -29715,6 +29730,7 @@ http://utm.
 ||amazonaws.com/beacon/vtpixpc.gif?
 ||amazonaws.com/tracking.relead.js
 ||amazonaws.com^*/pzyche.js
+||amazonsupply.com/uedata?
 ||amcnets.com/cgi-bin/true-ip.cgi
 ||amd.com/us/as/vwo/vwo_
 ||amp.virginmedia.com^
@@ -30664,7 +30680,7 @@ http://utm.
 ||oimg.m.cnbc.com^
 ||ok.co.uk/tracking/
 ||okcupid.com/poststat?
-||olark.com/nrpc/*referred$script
+||olark.com/nrpc/c?c=create$script
 ||olark.com/track/
 ||omniture.theglobeandmail.com^
 ||onetravel.com/TrackOnetravelAds.js
@@ -31141,6 +31157,7 @@ http://utm.
 ||tracking.ancestry.com^
 ||tracking.batanga.com^
 ||tracking.battleon.com^
+||tracking.bloomberg.com^
 ||tracking.carprices.com^
 ||tracking.carsales.com.au^
 ||tracking.chacha.com^
