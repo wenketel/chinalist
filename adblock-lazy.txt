@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: qry/1NsioU9SkNCL1IVFFg
+!  Checksum: +vDUP9gKBqrGM09Cou6lhw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 14 Oct 2013 14:17:12 +0800
+!  Last Modified:  Tue, 15 Oct 2013 21:24:18 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -2664,6 +2664,7 @@ zxtjd.com###it_an
 ||btnibbler.com^$third-party
 ||buzzads.com^$third-party
 ||buzz-time.com.cn^$third-party
+||c1o1.com^$third-party
 ||caiyifz.com^$third-party
 ||channelray.com^$third-party
 ||chanet.com.cn^$third-party
@@ -3131,17 +3132,19 @@ zjol.com.cn##span.qqt
 zjol.com.cn##span.lqgg
 
 !-----------------------Temporary---------------------------
-!---2013.08
+!---2013.10
 ||okbmf.com/Images/huodong/kg201007-960-100-02.gif
 3dmgame.com##.banner_2
 dl.3dmgame.com##.ad
 dl.3dmgame.com##.ad_1
 www.3dmgame.com##.banner_1
 www.3dmgame.com##[id^="clickbg"]
-||zasv.net/data/attachment/forum/201301/10/103254zzrl6yrr7zr2765y.gif
+||img19.kiees.com/*.jpg
+www.183yf.cn/*.jpg
 hinews.cn##a[href="http://www.08980898.com/"]
 hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 ||xiuxiu.meitu.com/images/banner/meitushop_fixed_816.gif
+||zasv.net/data/attachment/forum/201301/10/103254zzrl6yrr7zr2765y.gif
 !-----------------------EasyList----------------------------
 ! *** easylist:easylist/easylist_general_block.txt ***
 &ad_box_
@@ -4596,6 +4599,8 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /adruptive.
 /ads-1.
 /ads-2.
+/ads-300-
+/ads-300.
 /ads-arc.
 /ads-banner
 /ads-blogs-
@@ -4801,6 +4806,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /ads/storysponsors/*
 /ads/swfobject.
 /ads/takeovers/*
+/ads/tgx.
 /ads/third-
 /ads/tile-
 /ads/top-
@@ -7212,7 +7218,6 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /rg-erdr.php$xmlhttprequest
 /rg-rlog.php$xmlhttprequest
 /rgads.
-/richmedia.
 /richoas.
 /right-ad-
 /right_ad.
@@ -8939,6 +8944,7 @@ _a468x60.
 /spopunder^$popup
 ://ads.$popup
 =popunder&$popup
+?bannerid=*&punder=$popup
 _popunder+$popup
 ! *** easylist:easylist/easylist_general_hide.txt ***
 ###A9AdsMiddleBoxTop
@@ -13328,6 +13334,7 @@ _popunder+$popup
 ###mpu_ad
 ###mpu_ad2
 ###mpu_banner
+###mpu_box
 ###mpu_container
 ###mpu_firstpost
 ###mpu_holder
@@ -13721,6 +13728,7 @@ _popunder+$popup
 ###right_column_adverts
 ###right_column_internal_ad_container
 ###right_column_top_ad_unit
+###right_mini_ad
 ###right_panel_ads
 ###right_rail_ad_header
 ###right_sidebar_ads
@@ -16626,6 +16634,8 @@ _popunder+$popup
 ##.ads300_250-widget
 ##.ads300_600-widget
 ##.ads300box
+##.ads300n
+##.ads300nb
 ##.ads300x
 ##.ads300x100
 ##.ads300x250
@@ -21347,6 +21357,7 @@ _popunder+$popup
 ||adlisher.com^$third-party
 ||adloaded.com^$third-party
 ||adlooxtracking.com^$third-party
+||adlure.biz^$third-party
 ||adm.fwmrm.net/crossdomain.xml$domain=colbertnation.com|mtv.com|thedailyshow.com
 ||adm.fwmrm.net/p/msnbc_live/$object-subrequest,third-party,domain=~msnbc.msn.com,~www.nbcnews.com
 ||adm.fwmrm.net/p/mtvn_live/$object-subrequest,third-party
@@ -22400,6 +22411,7 @@ _popunder+$popup
 ||ignitioninstaller.com^$third-party
 ||imedia.co.il^$third-party
 ||imediaaudiences.com^$third-party
+||imediarevenue.com^$third-party
 ||imgfeedget.com^$third-party
 ||imglt.com^$third-party
 ||imgwebfeed.com^$third-party
@@ -23322,6 +23334,7 @@ _popunder+$popup
 ||turbotraff.net^$third-party
 ||tutvp.com^$third-party
 ||tvprocessing.com^$third-party
+||twalm.com^$third-party
 ||tweard.com^$third-party
 ||twinpinenetwork.com^$third-party
 ||twinplan.com^$third-party
@@ -25545,6 +25558,7 @@ _popunder+$popup
 /cookie.crumb
 /cookie/visitor/*
 /cookie?affiliate
+/cookie_ga.
 /coretracking.php?
 /CorporatePageTracking.
 /count.cfm?
@@ -25720,6 +25734,7 @@ _popunder+$popup
 /g-track/*
 /g_track.php?
 /ga-affiliates.
+/ga-async-
 /ga-custom-tracking.
 /ga-event-tracking.
 /ga-explorations.
@@ -26214,6 +26229,8 @@ _popunder+$popup
 /onsite2.
 /onsitegeo.
 /open/log/*
+/opentag-
+/opentag/*
 /opinionlab.js
 /optimost-
 /optimost.
@@ -27048,6 +27065,7 @@ _ga_code.
 _ga_tag.
 _global_analytics_
 _google_analytics.
+_googleAnalytics.
 _googleAnalytics_
 _i2a.js
 _imp_logging?
@@ -27298,6 +27316,7 @@ http://utm.
 ||centraltag.com^$third-party
 ||cetrk.com^$third-party
 ||cftrack.com^$third-party
+||chartaca.com^$third-party
 ||chartbeat.com^$third-party
 ||chartbeat.net^$third-party
 ||checkmypr.net^$third-party
@@ -27625,6 +27644,7 @@ http://utm.
 ||govmetric.com^$third-party
 ||grapheffect.com^$third-party
 ||groundspeak.com^$third-party
+||grvcdn.com^$third-party
 ||gsimedia.net^$third-party
 ||gstats.cn^$third-party
 ||gtopstats.com^$third-party
@@ -27746,8 +27766,6 @@ http://utm.
 ||ixiaa.com^$third-party
 ||izea.com^$third-party
 ||izearanks.com^$third-party
-||janrain.com^$third-party
-||janrainbackplane.com^$third-party
 ||jimdo-stats.com^$third-party
 ||jirafe.com^$third-party
 ||jscounter.com^$third-party
@@ -28709,6 +28727,7 @@ http://utm.
 ||cgicounter.oneandone.co.uk^
 ||cgicounter.puretec.de^
 ||chanalytics.merchantadvantage.com^
+||chartaca.com.s3.amazonaws.com^
 ||choicestream.com^*/pixel/
 ||chtah.com/a/*/spacer-0.gif$third-party
 ||chtah.net/a/*/spacer-0.gif$third-party
@@ -28796,7 +28815,6 @@ http://utm.
 ||curate.nestedmedia.com^
 ||customerlobby.com/ctrack-
 ||d.shareaholic.com^
-||d134l0cdryxgwa.cloudfront.net^
 ||d1447tq2m68ekg.cloudfront.net^$third-party
 ||d1af033869koo7.cloudfront.net^$third-party
 ||d1cdnlzf6usiff.cloudfront.net^
@@ -28955,7 +28973,6 @@ http://utm.
 ||gotdns.com/track/blank.aspx?
 ||grabnetworks.com/beacons/
 ||gravity.com^*/beacons/
-||grvcdn.com/moth-min.js
 ||gscounters.gigya.com^
 ||gscounters.us1.gigya.com^
 ||gstatic.com/gadf/ga_dyn.js
