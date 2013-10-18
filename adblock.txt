@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: NIdM/YT/KZT7OFRgF/LC4Q
+!  Checksum: wdqz+HTDuUrqjsuOc3F0Og
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 18 Oct 2013 19:47:14 +0800
+!  Last Modified:  Fri, 18 Oct 2013 19:53:00 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -500,6 +500,13 @@ dayoo.com##div[style="top: 10px; height: 320px; width: 100px; z-index: 1000; ove
 !--gzdaily
 /pub/news/gzrb/*$script
 ||gzdaily.dayoo.com/tpl/banner$object
+
+!---动漫花园
+||share.dmhy.*/MZ$image
+||share.dmhy.*/shareman$image
+||share.dmhy.*/WLGO$image
+share.dmhy.me,share.dmhy.org###shareman_ad
+share.dmhy.me,share.dmhy.org###WLGO_ad
 
 !---豆瓣
 ||douban.com^*/fm_bgad.js
@@ -2073,10 +2080,6 @@ bxs.cc###content > a[id^="a_"]
 ||dm8.cc/javascript/xshow.js
 ||dm8.cc/s/
 ||dm8.cc/show/
-||share.dmhy.*/shareman$image
-||share.dmhy.*/WLGO$image
-share.dmhy.me,share.dmhy.org###shareman_ad
-share.dmhy.me,share.dmhy.org###WLGO_ad
 @@||dukankan.com/xiaoyi/js/Footer.js
 @@||dukankan.com/xiaoyi/js/header.js
 @@||dukankan.com/xiaoyi/js/loginTop.js
