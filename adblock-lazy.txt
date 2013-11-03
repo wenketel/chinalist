@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: yxP4G1zjporIkL7he8t2ig
+!  Checksum: sX5l1qaeIQncozp0VvFXPg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 30 Oct 2013 20:10:36 +0800
+!  Last Modified:  Mon, 04 Nov 2013 07:33:58 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -349,6 +349,7 @@ iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com##[class^="wgt-ads"]
 !--iQIYI
 @@||data.video.qiyi.com/videos/other/$object_subrequest
 /ts.swf|$domain=iqiyi.com
+||iqiyi.com/player/cupid/*/pageer.swf
 ||msg.iqiyi.com^
 ||afp.qiyi.com^
 ||jsmsg.video.qiyi.com^
@@ -3312,6 +3313,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 -advertise.
 -advertise/
 -advertise01.
+-advertisement-icon.
 -advertisement.
 -advertisement_
 -advertising-
@@ -5909,6 +5911,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /contentAd.
 /contentad/*
 /contentad_
+/contentAdServlet?
 /contentadxxl.
 /contentad|
 /context_ad/*
@@ -5978,6 +5981,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /dateads.
 /dblclick.
 /dblclickad.
+/dclk/dfp/*
 /dclk_ads.
 /dclk_ads_
 /dcloadads/*
@@ -7138,6 +7142,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /promo/ad_
 /promo/ads/*
 /promo/affiframe.
+/promo300by250.
 /promoads/*
 /promobuttonad.
 /promoloaddisplay?
@@ -7215,6 +7220,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /rectangle_ad.
 /rectangle_advertorials_
 /redirect_awe.
+/refads/*
 /refreshads-
 /refreshsyncbannerad?
 /RefSplDicAdsTopL.
@@ -12131,6 +12137,7 @@ _popunder+$popup
 ###content_16_pnlAdSlotInner
 ###content_2_pnlAdSlot
 ###content_2_pnlAdSlotInner
+###content_3_twocolumnrightfocus_right_bottomright_0_pnlAdSlot
 ###content_4_threecolumnallfocus_right_0_pnlAdSlot
 ###content_7_pnlAdSlot
 ###content_7_pnlAdSlotInner
@@ -13595,6 +13602,7 @@ _popunder+$popup
 ###postNavigationAd
 ###post_ad
 ###post_addsense
+###post_adsense
 ###post_adspace
 ###post_advert
 ###post_id_ad_bot
@@ -15349,6 +15357,7 @@ _popunder+$popup
 ##.ad-noline
 ##.ad-note
 ##.ad-notice
+##.ad-on
 ##.ad-one
 ##.ad-other
 ##.ad-padding
@@ -15467,6 +15476,7 @@ _popunder+$popup
 ##.ad-top-lboard
 ##.ad-top-left
 ##.ad-top-rectangle
+##.ad-top-wrapper
 ##.ad-top1
 ##.ad-top2
 ##.ad-topright
@@ -16243,6 +16253,7 @@ _popunder+$popup
 ##.ad_rectangle
 ##.ad_rectangle_300_250
 ##.ad_rectangle_medium
+##.ad_rectangular
 ##.ad_regular1
 ##.ad_regular2
 ##.ad_regular3
@@ -16593,6 +16604,7 @@ _popunder+$popup
 ##.ads-articlebottom
 ##.ads-banner
 ##.ads-banner-js
+##.ads-banner-top-right
 ##.ads-beforecontent
 ##.ads-below-content
 ##.ads-below-home
@@ -17381,8 +17393,10 @@ _popunder+$popup
 ##.advertisement-1
 ##.advertisement-160-600
 ##.advertisement-2
+##.advertisement-234-60
 ##.advertisement-300-250
 ##.advertisement-300x250
+##.advertisement-300x600
 ##.advertisement-728-90
 ##.advertisement-728x90
 ##.advertisement-BottomRight
@@ -17927,6 +17941,7 @@ _popunder+$popup
 ##.bottom-ads728
 ##.bottom-banner-ad
 ##.bottom-center-adverts
+##.bottom-rightadvtsment
 ##.bottomAd
 ##.bottomAdBlock
 ##.bottomAds
@@ -19170,6 +19185,7 @@ _popunder+$popup
 ##.leaderboardad
 ##.leaderboardadtop
 ##.left-ad
+##.left-ad180
 ##.left-ads
 ##.left-advert
 ##.left-column-rectangular-ad
@@ -20660,6 +20676,7 @@ _popunder+$popup
 ##.textlinkads
 ##.tf_page_ad_search
 ##.theAdvert
+##.the_list_ad_zone
 ##.theleftad
 ##.themeblvd-ad-square-buttons
 ##.third-box-ad
@@ -20721,6 +20738,7 @@ _popunder+$popup
 ##.top-primary-sponsored
 ##.top-right-ad
 ##.top-right-advert
+##.top-rightadvtsment
 ##.top-sidebar-adbox
 ##.top-treehouse-ad
 ##.top-wide-ad-container
@@ -20923,6 +20941,8 @@ _popunder+$popup
 ##.waterfall-ad-anchor
 ##.wazi-ad-link
 ##.wd-adunit
+##.wdca_ad_item
+##.wdca_custom_ad
 ##.wdp_ad
 ##.wdp_adDiv
 ##.wdt_ads
@@ -23860,6 +23880,7 @@ _popunder+$popup
 ||1-million-usd.com/images/banners/
 ||108.166.93.81/rotate/$domain=~infowars.com.ip
 ||108.59.5.132/files/$third-party,domain=~1channel.ch.ip
+||109.201.134.110^$domain=04stream.com
 ||110.45.173.103/ad/$third-party
 ||110mb.com/images/banners/
 ||118d654612df63bc8395-aecfeaabe29a34ea9a877711ec6d8aed.r37.cf2.rackcdn.com^
@@ -23904,6 +23925,7 @@ _popunder+$popup
 ||ablacrack.com/popup-pvd.js$third-party
 ||ad.23blogs.com^$third-party
 ||ad.accessmediaproductions.com^
+||ad.adriver.ru^$domain=firstrownow.eu
 ||ad.aquamediadirect.com^$third-party
 ||ad.e-kolay.net^$third-party
 ||ad.flux.com^
@@ -24847,7 +24869,6 @@ _popunder+$popup
 ||scoopdragon.com/images/Goodgame-Empire-MPU.jpg
 ||screenconnect.com/miscellaneous/ScreenConnect-$image,third-party
 ||scribol.com/txwidget$third-party
-||search.yahoo.com/yhs/ifm?$domain=dnsrsearch.com
 ||searchportal.information.com/?$third-party
 ||secondspin.com/twcontent/
 ||securep2p.com^$subdocument,third-party
@@ -24859,12 +24880,12 @@ _popunder+$popup
 ||servedby.yell.com^$third-party
 ||server.freegamesall.com^$third-party
 ||service.smscoin.com/js/sendpic.js
+||serving.portal.dmflex.com^$domain=thisdaylive.com
 ||sfimg.com/images/banners/
 ||sfm-offshore.com/images/banners/
 ||sfstatic.com^*/js/fl.js$third-party
 ||shaadi.com^*/get-banner.php?
 ||shaadi.com^*/get-html-banner.php?
-||shareapic.net/refads/
 ||shareflare.net/images/$third-party
 ||shariahprogram.ca/banners/
 ||sharingzone.net/images/banner$third-party
@@ -25066,6 +25087,7 @@ _popunder+$popup
 ||wm.co.za/24com.php?
 ||wm.co.za/wmjs.php?
 ||wonderlabs.com/affiliate_pro/banners/
+||worldofjudaica.com/static/show/external/
 ||wp.com^*/linkwidgets/$domain=coedmagazine.com
 ||wrapper.ign.com^$third-party
 ||ws.amazon.*/widgets/$third-party
@@ -25805,6 +25827,7 @@ _popunder+$popup
 /elqimg.js
 /elqnow/*
 /eluminate?
+/EmailOpenTrackLog.aspx?$image
 /EMERPEventCollector.
 /emos2.js$~xmlhttprequest
 /emstrack.
@@ -25999,6 +26022,7 @@ _popunder+$popup
 /googleanalyze2.
 /googletrack.js
 /googleTracker.
+/googleTracking.js
 /googlytics-
 /gosquared-livestats/*
 /gPageTracking.
@@ -26962,6 +26986,7 @@ _popunder+$popup
 /userfly.js
 /usertrack.aspx?
 /usertrackingajax.php?
+/usr.gif?openratetracking=
 /utag.ga.
 /utag.handler.js
 /utag.js
@@ -27239,6 +27264,7 @@ _wreport.fcgi?
 _zag_cookie.
 cgi-bin/counter
 http://utm.
+||meetrics.netbb-
 ! Russian rating sites
 /img.php?id=*&page=
 ://ivw.*/get?referrer=
@@ -27426,6 +27452,7 @@ http://utm.
 ||brightedge.com^$third-party
 ||brilig.com^$third-party
 ||bronto.com^$third-party
+||brow.si^$third-party
 ||browser-statistik.de^$third-party
 ||brsrvr.com^$third-party
 ||bstk.co^$third-party
@@ -28271,6 +28298,7 @@ http://utm.
 ||rs6.net^$third-party
 ||rsvpgenius.com^$third-party
 ||rtfn.net^$third-party
+||rumanalytics.com^$third-party
 ||rztrkr.com^$third-party
 ||s3s-main.net^$third-party
 ||sageanalyst.net^$third-party
@@ -28689,6 +28717,7 @@ http://utm.
 ||5251.net/stat.jsp?
 ||58.68.146.44:8000^$third-party,domain=~peoplesdaily.cn.ip
 ||5min.com/flashcookie/StorageCookieSWF_
+||6waves.com/edm.php?uid=$image
 ||74.117.176.217/trf/track.php?$third-party,domain=~adult.sites.ip
 ||88.208.248.58/tracking/
 ||99widgets.com/counters/
@@ -28815,6 +28844,7 @@ http://utm.
 ||aweber.com/form/displays.htm?$image
 ||b.bedop.com^
 ||b5media.com/bbpixel.php
+||babycenter.com/pub/as?_ri_=$image
 ||bango.net/exid/*.gif?
 ||bango.net/id/*.gif?
 ||barium.cheezdev.com^
@@ -28876,6 +28906,7 @@ http://utm.
 ||chartaca.com.s3.amazonaws.com^
 ||choicestream.com^*/pixel/
 ||chtah.com/a/*/spacer-0.gif$third-party
+||chtah.com^*/1x1.gif
 ||chtah.net/a/*/spacer-0.gif$third-party
 ||chtah.net/a/*/spacer.gif$third-party
 ||circonus.com/hit?
@@ -28926,6 +28957,7 @@ http://utm.
 ||comet.ibsrv.net^
 ||comic-rocket.com/metrics.js
 ||communicatorcorp.com^*/conversiontracking.js
+||concur.com/open.aspx?
 ||content.cpcache.com^*/js/ga.js
 ||control.adap.tv^$object-subrequest
 ||control.cityofcairns.com^$third-party
@@ -29188,6 +29220,7 @@ http://utm.
 ||javascriptcounter.appspot.com^
 ||jobs.hrkspjbs.com^
 ||join-safe.com/tracking/
+||k7-labelgroup.com/g.html?uid=$image
 ||kalstats.kaltura.com^
 ||kaltura.com^*/index.php?service=stats&action=collect&
 ||kaltura.com^*/statisticsPlugin.swf
@@ -29205,6 +29238,7 @@ http://utm.
 ||lederer.nl/incl/stats.js.php?
 ||legacy.com/globalscripts/tracking/
 ||legacy.com^*/unicaclicktracking.js?
+||lela.com/api/v2/tracking.js
 ||lijit.com/res/images/wijitTrack.gif
 ||lingows.appspot.com/page_data/?
 ||link.americastestkitchencorp.com^
@@ -29466,6 +29500,7 @@ http://utm.
 ||slidedeck.com^$image,third-party
 ||snaps.vidiemi.com^$third-party
 ||snazzyspace.com/generators/viewer-counter/counter.php$third-party
+||socialreader.com^*?event=email_open^$image
 ||sourceforge.net/accelerator/js?partner_id$third-party
 ||sourceforge.net/tracker/$~xmlhttprequest
 ||southafricahome.com/statsmodulev2/
@@ -29677,6 +29712,7 @@ http://utm.
 ||tritondigital.net/activity.php?
 ||trk.pswec.com^$third-party
 ||trk.vindicosuite.com^
+||trove.com^*&uid=$image
 ||trumba.com/et.aspx?$third-party
 ||trustsquare.net/trafficmonitor/
 ||tsk5.com/17*?*=ex-
@@ -29685,6 +29721,7 @@ http://utm.
 ||turner.com^*/1pixel.gif?
 ||turnto.com/webEvent/$third-party
 ||twimg.com/jot?
+||twitter.com/i/jot
 ||twitter.com/oct.js
 ||twitter.com/scribe/
 ||twitvid.com^*/tracker.swf$third-party
@@ -30187,7 +30224,7 @@ http://utm.
 ||collect.sas.com^
 ||collect2.sas.com^
 ||collection.theaa.com^
-||collector.githubapp.com^
+||collector-cdn.github.com^
 ||collector.ksax.com^
 ||collector.kstptv5.com^
 ||collector.shopstream.co^
@@ -30389,6 +30426,8 @@ http://utm.
 ||foodnavigator.com/tracker/
 ||forbes.com/fps/cookie_backup.php?
 ||forbes.com/pepe2/track.php?
+||ford.com/ngtemplates/ngassets/com/forddirect/ng/newMetrics.js
+||ford.com/ngtemplates/ngassets/ford/general/scripts/js/galleryMetrics.js
 ||fostersbeer.com/js/tracking.js
 ||fotothing.com/space.gif?
 ||foursquare.com^*/logger?
@@ -30704,6 +30743,7 @@ http://utm.
 ||mail.advantagebusinessmedia.com/open.aspx
 ||mail.yahoo.com/dc/rs?log=
 ||mailer.atlassian.com/open.aspx?
+||mailings.gmx.net/action/view/$image
 ||malibubright.com/krtrk/
 ||manta.com/sbb?
 ||maps.nokia.com^*/tracking.c.js
@@ -30947,6 +30987,7 @@ http://utm.
 ||playdom.com/affl/show_pixel?
 ||playlist.com/scripts/remote_logger.js
 ||playserver1.com/analytics/
+||playstation.com/beacon/
 ||plentyoffish.com/tracking.js
 ||pluto.airbnb.com^*.php?uuid=
 ||pnet.co.za/js/ga.js
