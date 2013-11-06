@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: v/hjtZ1BZfQdgiO8LW6Vgg
+!  Checksum: CD7db+KU7AnXlMbcgPQ5mA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 05 Nov 2013 10:08:34 +0800
+!  Last Modified:  Wed, 06 Nov 2013 10:33:20 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1967,8 +1967,9 @@ cnbeta.com##.bd_r
 ||app.acm.dzwww.com^
 dzwww.com##.ad
 ||gamme.com.tw/ga/
-gamme.com.tw###bd
 gamme.com.tw##[class^="sidead_"]
+gamme.com.tw##[class^="topad_"]
+gamme.com.tw#@#.adlist
 ||go.hangzhou.com.cn^
 ||hebei.com.cn/eap/
 ||hebei.com.cn/swf/
@@ -7458,6 +7459,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /smartad.
 /smartads.
 /smartadserver.
+/smartbanner/*
 /smartlinks.epl?
 /smb/ads/*
 /socialads.
@@ -9761,6 +9763,7 @@ _popunder+$popup
 ###ad-story-bottom-in
 ###ad-story-bottom-out
 ###ad-story-right
+###ad-story-top
 ###ad-stripe
 ###ad-tab
 ###ad-tail-placeholder
@@ -16007,6 +16010,7 @@ _popunder+$popup
 ##.ad_336
 ##.ad_336x280
 ##.ad_336x90
+##.ad_338_282
 ##.ad_350x100
 ##.ad_350x250
 ##.ad_4
@@ -18521,6 +18525,7 @@ _popunder+$popup
 ##.footerAd
 ##.footerAdModule
 ##.footerAdUnit
+##.footerAdWrapper
 ##.footerAds
 ##.footerAdslot
 ##.footerAdverts
@@ -19184,6 +19189,7 @@ _popunder+$popup
 ##.leader_ad
 ##.leader_aol
 ##.leaderboard-ad
+##.leaderboard-ad-green
 ##.leaderboard-ad-grid
 ##.leaderboard-ad-main
 ##.leaderboard-adblock
@@ -23874,6 +23880,7 @@ _popunder+$popup
 ||therewardsurvey.com^$popup,third-party
 ||topshelftraffic.com^$popup,third-party
 ||torrentdeluxe.com^$popup,third-party
+||trafficforce.com^$popup,third-party
 ||traffichaus.com^$popup,third-party
 ||trw12.com^$popup,third-party
 ||tutvp.com^$popup,third-party
@@ -24082,6 +24089,7 @@ _popunder+$popup
 ||badoo.com/informer/$third-party
 ||bamstudent.com/files/banners/
 ||banman.isoftmarketing.com^$third-party
+||banner.101xp.com^
 ||banner.1and1.co.uk^
 ||banner.1and1.com^
 ||banner.3ddownloads.com^
@@ -30766,6 +30774,7 @@ http://utm.
 ||marketing.kalahari.net^
 ||marketwire.com/accesstracking/
 ||marriott.com^*/mi_customer_survey.js
+||mashable.com/horizon/track?
 ||mashable.com/pv.xml
 ||mastercard.com/dynamictag.swf
 ||mastercard.com^*/Analytics/
@@ -31194,6 +31203,7 @@ http://utm.
 ||snorgtees.com/js/digitalbasement/conversion.js
 ||socialcodedev.com/pixel/
 ||socialstreamingplayer.crystalmedianetworks.com/tracker/
+||soe.com/js/web-platform/web-data-tracker.js
 ||somniture.theglobeandmail.com^
 ||sony-europe.com/tr/p.gif?
 ||sourceforge.net/images/mlopen_post.html?
