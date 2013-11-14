@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: Zj6QLHsRJLvlusNrzlb+cg
+!  Checksum: vL2tTsrtmhtT144RVnXpXQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 11 Nov 2013 11:05:38 +0800
+!  Last Modified:  Thu, 14 Nov 2013 11:03:33 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -15,6 +15,7 @@
 !--CC-BY-SA 3.0 + Licensed, NO WARRANTY but Best Wishes----
 !----------------------------White List--------------------
 2tu.cc#@#.adds
+36.cn#@#.mainAd
 51job.com#@##ad_left
 51job.com#@##ad_right
 520tingshu.com#@#.ad960
@@ -3760,7 +3761,6 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /ad-vert.
 /ad-vertical-
 /ad-verticalbar.
-/ad.about.
 /ad.asp?
 /ad.aspx?
 /ad.cgi?
@@ -3929,6 +3929,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /ad?sponsor=
 /ad?type=
 /ad_120_
+/ad_250x250_
 /ad_300.
 /ad_300250.
 /ad_300_
@@ -3997,11 +3998,15 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /ad_gif/*
 /ad_gif_
 /ad_google.
+/ad_hcl_
+/ad_hcr_
 /ad_head0.
 /ad_header.
 /ad_header_
 /ad_height/*
 /ad_holder/*
+/ad_home2011_
+/ad_home_
 /ad_homepage_
 /ad_horisontal.
 /ad_horiz.
@@ -4509,6 +4514,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /admicro_
 /admin/ad_
 /admin/banners/*
+/admin/sponsors/*
 /adminibanner2.
 /admixer_
 /admob.
@@ -11093,6 +11099,7 @@ _popunder+$popup
 ###ads_top
 ###ads_top2
 ###ads_top_banner
+###ads_top_container
 ###ads_top_right
 ###ads_top_sec
 ###ads_topbanner
@@ -11325,6 +11332,8 @@ _popunder+$popup
 ###adv-midroll
 ###adv-mpux
 ###adv-preroll
+###adv-right
+###adv-right1
 ###adv-strip
 ###adv-title
 ###adv-top
@@ -11624,6 +11633,8 @@ _popunder+$popup
 ###adzone-middle1
 ###adzone-middle2
 ###adzone-right
+###adzone-sidebarSmallPromo1
+###adzone-sidebarSmallPromo2
 ###adzone-top
 ###adzoneBANNER
 ###adzone_content
@@ -11774,6 +11785,8 @@ _popunder+$popup
 ###bannerGoogle
 ###banner_280_240
 ###banner_300_250
+###banner_300x250_sidebar
+###banner_468x60
 ###banner_ad
 ###banner_ad_Sponsored
 ###banner_ad_bottom
@@ -13654,6 +13667,7 @@ _popunder+$popup
 ###popupadunit
 ###portlet-advertisement-left
 ###portlet-advertisement-right
+###pos_ContentAd2
 ###post-ad
 ###post-ad-hd
 ###post-ad-layer
@@ -14483,6 +14497,7 @@ _popunder+$popup
 ###topOverallAdArea
 ###topRightBlockAdSense
 ###topSponsoredLinks
+###top_AD
 ###top_ad
 ###top_ad-sense
 ###top_ad_area
@@ -14579,6 +14594,7 @@ _popunder+$popup
 ###trafficrevenue2
 ###transparentad
 ###trc_google_ad
+###trendex-sponsor-ad
 ###tripleAdInner
 ###tripleAdOuter
 ###ts-ad_module
@@ -14758,6 +14774,7 @@ _popunder+$popup
 ###yatadsky
 ###ybf-ads
 ###yfi-sponsor
+###yfi_ads_4x4
 ###yfi_fp_ad_fx
 ###yfi_fp_ad_mort
 ###yfi_fp_ad_nns
@@ -14956,6 +14973,7 @@ _popunder+$popup
 ##.CommentAd
 ##.CommentGoogleAd
 ##.ContentAd
+##.ContentAd2
 ##.ContentAds
 ##.DAWRadvertisement
 ##.DartAdvert
@@ -15423,6 +15441,7 @@ _popunder+$popup
 ##.ad-msn
 ##.ad-national-1
 ##.ad-new
+##.ad-noBorderAndMargin
 ##.ad-noline
 ##.ad-note
 ##.ad-notice
@@ -16588,6 +16607,7 @@ _popunder+$popup
 ##.adkit-advert
 ##.adkit-lb-footer
 ##.adkit_free_html
+##.adl125
 ##.adlabel-horz
 ##.adlabel-vert
 ##.adlabelleft
@@ -16986,6 +17006,7 @@ _popunder+$popup
 ##.adsboxitem
 ##.adsbttmpg
 ##.adsbygoogle
+##.adsbygoogle2
 ##.adsbyyahoo
 ##.adsc
 ##.adscaleAdvert
@@ -17485,11 +17506,14 @@ _popunder+$popup
 ##.advertisement-label
 ##.advertisement-label-up-white
 ##.advertisement-layout
+##.advertisement-leader-board
+##.advertisement-leader-board-second
 ##.advertisement-leaderboard
 ##.advertisement-nav
 ##.advertisement-other
 ##.advertisement-position1
 ##.advertisement-right
+##.advertisement-right-rail
 ##.advertisement-sidebar
 ##.advertisement-space
 ##.advertisement-sponsor
@@ -17721,6 +17745,11 @@ _popunder+$popup
 ##.as_ad
 ##.aseadn
 ##.aside-ads
+##.aside_AD01
+##.aside_AD02
+##.aside_AD06
+##.aside_AD08
+##.aside_AD09
 ##.aside_banner_ads
 ##.aside_google_ads
 ##.atf-ad-medRect
@@ -19667,6 +19696,7 @@ _popunder+$popup
 ##.npAdGoogle
 ##.npSponsorTextAd
 ##.nrAds
+##.nr_partners
 ##.nrelate .nr_partner
 ##.nsAdRow
 ##.nscr300Ad
@@ -19969,6 +19999,7 @@ _popunder+$popup
 ##.reklama1
 ##.reklame-right-col
 ##.reklamka
+##.rel_ad_box
 ##.related-ad
 ##.related-ads
 ##.related-guide-adsense
@@ -20172,6 +20203,7 @@ _popunder+$popup
 ##.sci-ad-sub
 ##.scoopads
 ##.scraper_ad_unit
+##.script-ad
 ##.scroll-ads
 ##.scrolling-ads
 ##.search-ad
@@ -20653,6 +20685,7 @@ _popunder+$popup
 ##.storyAdvert
 ##.story_AD
 ##.story_ad_div
+##.story_body_advert
 ##.story_right_adv
 ##.storyad
 ##.storyad300
@@ -20663,6 +20696,11 @@ _popunder+$popup
 ##.subAdBannerArea
 ##.subAdBannerHeader
 ##.subNavAd
+##.sub_cont_AD01
+##.sub_cont_AD02
+##.sub_cont_AD04
+##.sub_cont_AD06
+##.sub_cont_AD07
 ##.subad
 ##.subadimg
 ##.subcontent-ad
@@ -23173,7 +23211,6 @@ _popunder+$popup
 ||ppclinking.com^$third-party
 ||ppctrck.com^$third-party
 ||ppcwebspy.com^$third-party
-||ppjol.net^$third-party
 ||precisionclick.com^$third-party
 ||predictad.com^$third-party
 ||prf.hn^$third-party
@@ -23386,6 +23423,7 @@ _popunder+$popup
 ||smpgfx.com^$third-party
 ||sn00.net^$third-party
 ||snap.com^$third-party
+||sndkorea.co.kr^$third-party
 ||so-excited.com^$third-party
 ||sochr.com^$third-party
 ||sociallypublish.com^$third-party
@@ -24038,6 +24076,7 @@ _popunder+$popup
 ||abacast.com/banner/
 ||ablacrack.com/popup-pvd.js$third-party
 ||ad.23blogs.com^$third-party
+||ad.about.co.kr^
 ||ad.accessmediaproductions.com^
 ||ad.adriver.ru^$domain=firstrownow.eu
 ||ad.aquamediadirect.com^$third-party
@@ -24102,6 +24141,8 @@ _popunder+$popup
 ||affiliateprogram.keywordspy.com^
 ||affiliates-cdn.mozilla.org^$third-party
 ||affiliates.allposters.com^
+||affiliates.bookdepository.co.uk^$third-party
+||affiliates.bookdepository.com^$third-party
 ||affiliates.homestead.com^$third-party
 ||affiliates.lynda.com^$third-party
 ||affiliates.picaboocorp.com^$third-party
@@ -24694,6 +24735,7 @@ _popunder+$popup
 ||jinx.com/content/banner/$third-party
 ||jivox.com/jivox/serverapis/getcampaignbyid.php?$object-subrequest
 ||joblet.jp/javascripts/$third-party
+||jobs-affiliates.ws/images/$third-party
 ||jocly.com^*.html?click=$subdocument,third-party
 ||jrcdev.net/promos/
 ||jsfeedget.com^$script,third-party
@@ -24809,7 +24851,6 @@ _popunder+$popup
 ||mobyler.com/img/banner/
 ||mol.im/i/pix/ebay/
 ||moneycontrol.co.in^*PopUnder.js
-||moneycontrol.com^$subdocument,third-party
 ||moosify.com/widgets/explorer/?partner=
 ||mosso.com^*/banners/
 ||mozo-widgets.f2.com.au^
@@ -27668,6 +27709,7 @@ http://utm.
 ||compteur.cc^$third-party
 ||confirmational.com^$third-party
 ||confirmit.com^$third-party
+||contactmonkey.com^$third-party
 ||contextly.com^$third-party
 ||convergetrack.com^$third-party
 ||conversionly.com^$third-party
@@ -28655,6 +28697,7 @@ http://utm.
 ||urlself.com^$third-party
 ||usabilitytools.com^$third-party
 ||usabilla.com^$third-party
+||userlook.com^$third-party
 ||userneeds.dk^$third-party
 ||useronlinecounter.com^$third-party
 ||userreport.com^$third-party
@@ -29209,6 +29252,7 @@ http://utm.
 ||entry-stats.huffpost.com^
 ||epromote.co.za/track/
 ||eservicesanalytics.com.au^
+||et.grabnetworks.com^
 ||etahub.com^*/track?site_id
 ||etc.grab.com^$image,third-party
 ||etoro.com/tradesmonitor/
@@ -29284,6 +29328,7 @@ http://utm.
 ||googlevideo.com/generate_204
 ||gotdns.com/track/blank.aspx?
 ||grabnetworks.com/beacons/
+||grabnetworks.com/ping?
 ||gravity.com^*/beacons/
 ||gscounters.eu1.gigya.com^
 ||gscounters.gigya.com^
@@ -29293,6 +29338,7 @@ http://utm.
 ||gu-pix.appspot.com^$third-party
 ||gubagoo.com/modules/tracking/
 ||harvester.ext.square-enix-europe.com^
+||hasbro.com/includes/js/metrics/
 ||haymarket.com/injector/deliver/
 ||heals.msgfocus.com^$third-party
 ||hellobar.com/ping?
@@ -29463,6 +29509,7 @@ http://utm.
 ||mysociety.org/track/
 ||nastydollars.com/trk/
 ||navlink.com/__utmala.js
+||nbcudigitaladops.com/hosted/housepix.gif
 ||neocounter.neoworx-blog-tools.net^
 ||netalpaca.com/beacon
 ||netne.net/stats/
@@ -29491,6 +29538,7 @@ http://utm.
 ||ooyala.com/3rdparty/comscore_
 ||ooyala.com/authorized?analytics
 ||ooyala.com/verify?
+||ooyala.com^*/espn_analytics_$object-subrequest
 ||ooyala.com^*/report?log
 ||open.delivery.net^$third-party
 ||ophan.co.uk/t.gif?
@@ -29548,6 +29596,7 @@ http://utm.
 ||projecthaile.com/js/trb-1.js
 ||projop.dnsalias.com^$third-party
 ||propelplus.com/track/$third-party
+||providence.voxmedia.com^$third-party
 ||proxify.com/xyz.php$third-party
 ||prstats.postrelease.com^
 ||pt.crossmediaservices.com^
@@ -29897,6 +29946,7 @@ http://utm.
 ||voss.collegehumor.com^
 ||vtnlog-*.elb.amazonaws.com^
 ||vtracking.in.com^
+||vvhp.net/read/view.gif
 ||vzaar.com/create?ref=
 ||w3track.com/newtrk/$third-party
 ||wantlive.com/pixel/
@@ -30735,6 +30785,7 @@ http://utm.
 ||imagetwist.com/?op=
 ||imdb.com/rd/?q
 ||imdb.com/twilight/?
+||imdb.com/video/*/metrics_
 ||imdb.com/video/*metrics?
 ||imgtrack.domainmarket.com^
 ||immassets.s3.amazonaws.com^
@@ -30910,6 +30961,8 @@ http://utm.
 ||metrics.ted.com^
 ||metroweekly.com/tools/blog_add_visitor/
 ||mf2fm.com/php/stats.php?
+||microsoft.com/getsilverlight/scripts/silverlight/SilverlightAtlas-MSCOM-Tracking.js
+||microsoft.com/getsilverlight/scripts/Tracker.js
 ||microsoft.com/library/svy/
 ||microsoft.com/LTS/default.aspx
 ||microsoft.com^*/bimapping.js
@@ -30954,7 +31007,6 @@ http://utm.
 ||mto.mediatakeout.com/viewer?
 ||multiply.com/common/dot_clear.gif
 ||multiupload.com/extreme/?*&ref=$subdocument
-||music.yahoo.com/_td_api/beacon/
 ||musicstack.com/livezilla/server.php?request=track
 ||mypaydayloan.com/setc.asp?
 ||mypoints.com/js/*ga.js?
@@ -31231,6 +31283,7 @@ http://utm.
 ||sa.bbc.com^
 ||sa.squareup.com^
 ||sagepub.com^*/login_hit_hidden.gif?
+||samsung.com^*/scripts/tracking.js
 ||sana.newsinc.com.s3.amazonaws.com^
 ||sap.com/global/ui/js/trackinghelper.js
 ||satellite-tv-guides.com/stat/
@@ -31732,6 +31785,7 @@ http://utm.
 ||xhamster.com/cnt.php?
 ||xnxx.com/in.php?referer
 ||yahoo.com/__perf_log_
+||yahoo.com/_td_api/beacon/
 ||yahoo.com/b?p=
 ||yahoo.com/neo/stat
 ||yahoo.com/neo/ygbeacon/
