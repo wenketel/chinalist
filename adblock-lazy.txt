@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: vL2tTsrtmhtT144RVnXpXQ
+!  Checksum: lItDTi5deMoGy7eoaXJgrw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 14 Nov 2013 11:03:33 +0800
+!  Last Modified:  Sat, 16 Nov 2013 10:57:55 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -802,16 +802,11 @@ it168.com##[id^="ADV"]
 it168.com##.gg
 
 !---IT之家
-||ithome.com/block/*_google
 ||ithome.com/block/headerline.htm
-||img.vista123.com/images/saayaa468.gif
-||win7china.com/images/win72tc.png
-/headline.htm$domain=win7china.com|win8china.com
-/script/*$subdocument,domain=win7china.com|win8china.com
+ithome.com##.con-recom
+ithome.com##.lg-item.lg-item-2
+ithome.com##.sb_list > .bx
 ithome.com###bbs_hl
-ithome.com##.hl_wrap
-ithome.com,win7china.com###pop_notice
-ithome.com##.side_products
 
 !---小猪快跑
 ||imanke.com/static/imanke/pigbbs.js
@@ -3584,6 +3579,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 .php?zone_id=
 .php?zoneid=
 .pk/ads/
+.pl/ads/
 .popunder.js
 .popup_im.
 .popupvideoad.
@@ -3794,6 +3790,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /ad/bannerdetails/*
 /ad/bannerimg/*
 /ad/banners/*
+/ad/behavpixel.
 /ad/bin/*
 /ad/blank.
 /ad/blog_
@@ -3811,6 +3808,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /ad/framed?
 /ad/generate?
 /ad/getban?
+/ad/getbanandfile?
 /ad/google/*
 /ad/google_
 /ad/html/*
@@ -4722,6 +4720,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /ads/banner_
 /ads/banners/*
 /ads/beacon.
+/ads/behicon.
 /ads/bilar/*
 /Ads/Biz_
 /ads/blank.
@@ -5013,6 +5012,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /adsdaqbox_
 /adsdaqsky_
 /adsdelivery.
+/adsdm.
 /adsdyn160x160.
 /adSearch?
 /adsecondary.
@@ -9198,6 +9198,7 @@ _popunder+$popup
 ###AdsPlayRight_1
 ###AdsRight
 ###AdsShowCase
+###AdsVideo250
 ###AdsWrap
 ###Ads_BA_BUT_box
 ###Ads_BA_CAD
@@ -13145,6 +13146,7 @@ _popunder+$popup
 ###islandAdPaneGoogle
 ###islandAdSponsored
 ###island_ad_top
+###islandad
 ###isliveContainer
 ###item-detail-feature-ad
 ###itemGroupAd2
@@ -13264,6 +13266,7 @@ _popunder+$popup
 ###lg-banner-ad
 ###li-right-geobooster-oas
 ###ligatus
+###ligatusdiv
 ###linkAdSingle
 ###linkAds
 ###link_ads
@@ -14710,6 +14713,7 @@ _popunder+$popup
 ###whatsnews_top_ad
 ###whitepaper-ad
 ###whoisRightAdContainer
+###whoisRightAdContainerBottom
 ###whoisRightAdContainerTop
 ###wibiyaAdRotation
 ###wibiyaToolbarAdUnitFlash
@@ -14788,6 +14792,7 @@ _popunder+$popup
 ###yrail_ads
 ###yreSponsoredLinks
 ###ysm_ad_iframe
+###yw-sponsoredad
 ###zMSplacement1
 ###zMSplacement2
 ###zMSplacement3
@@ -15238,6 +15243,7 @@ _popunder+$popup
 ##.ad-560
 ##.ad-600
 ##.ad-635x40
+##.ad-7
 ##.ad-728
 ##.ad-728-90
 ##.ad-728x90
@@ -15916,6 +15922,7 @@ _popunder+$popup
 ##.adModule_square2
 ##.adMpu
 ##.adMpuHolder
+##.adNetPromo
 ##.adNewsChannel
 ##.adNoBorder
 ##.adNoOutline
@@ -17781,6 +17788,7 @@ _popunder+$popup
 ##.b_ads_r
 ##.b_ads_top
 ##.backgroundAd
+##.badxcn
 ##.bam-dcRefreshableAd
 ##.ban-720-container
 ##.ban300side
@@ -18731,6 +18739,7 @@ _popunder+$popup
 ##.gglAds
 ##.gl_ad
 ##.glamsquaread
+##.glance_banner_ad
 ##.globalAd
 ##.globalAdLargeRect
 ##.globalAdLeaderBoard
@@ -19377,8 +19386,12 @@ _popunder+$popup
 ##.lowerContentBannerAd
 ##.lowerContentBannerAdInner
 ##.lower_ad
+##.lpt_adsense_bottom_content
+##.lqm-ads
+##.lqm_ad
 ##.lr-ad
 ##.lr_skyad
+##.lsn-yahooAdBlock
 ##.lt_ad_call
 ##.luxeAd
 ##.m-ad-tvguide-box
@@ -19715,6 +19728,7 @@ _popunder+$popup
 ##.oas_add
 ##.oas_advertisement
 ##.oasad
+##.ob_ads_header
 ##.ob_container .item-container-obpd
 ##.oba_message
 ##.ocp-sponsor
@@ -21350,6 +21364,8 @@ _popunder+$popup
 ##a[href^="https://torrentprivacy.com/"]
 ##a[href^="https://www.share-online.biz/affiliate/"]
 ##a[id^="mg_add"]
+##a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?key="][target="_blank"]
+##a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?key="][target="_blank"] + .ob_source
 ##div[id^="MarketGid"]
 ##div[id^="YFBMSN"]
 ##div[id^="div-gpt-ad-"]
@@ -25368,6 +25384,7 @@ _popunder+$popup
 ||upbcd.info/vuze/$popup
 ||uploaded.net/ref/$popup
 ||urlcash.net/random*.php$popup
+||urmediazone.com/play?ref=$popup,third-party
 ||usenet.nl^$popup
 ||vidds.net/?s=promo$popup,third-party
 ||vube.com^$popup,domain=thepiratebay.sx
@@ -26131,6 +26148,7 @@ _popunder+$popup
 /geocounter.
 /geoip.html
 /geoip_cc
+/geoip_script?
 /geoipAPI.js?
 /geov2.js
 /get_browser_info.
@@ -26548,8 +26566,6 @@ _popunder+$popup
 /onedot.php?
 /onestat.js
 /onlinecount.php
-/onsite.
-/onsite2.
 /onsitegeo.
 /open/log/*
 /opentag-
@@ -28918,6 +28934,7 @@ http://utm.
 ||ads.bridgetrack.com^$image
 ||adsimg.com/js/analytics.js?
 ||adtrack.calls.net^$third-party
+||adultmastercash.com/e1.php$third-party
 ||affiliate.iamplify.com^
 ||affiliate.mediatemple.net^$~third-party
 ||affiliates.mgmmirage.com^
@@ -28936,6 +28953,7 @@ http://utm.
 ||alphasitebuilder.co.za/tracker/
 ||amatomu.com/link/log/
 ||amatomu.com/log.php?
+||amazon.*/gp/r.html?R=$image
 ||amazon.com/gp/*&linkCode$third-party
 ||amazonaws.com/cdn.barilliance.com/
 ||amazonaws.com/g.aspx$third-party
@@ -29465,7 +29483,6 @@ http://utm.
 ||maxmind.com/js/device.js$third-party
 ||maxmind.com^*/geoip.js
 ||mbsvr.net/js/tracker/
-||mcafeesecure.com/meter/$third-party
 ||mcs.delvenetworks.com^
 ||mcssl.com^*/track.ashx?
 ||mdctrail.com/b.ashx$third-party
@@ -29557,8 +29574,6 @@ http://utm.
 ||partners.thefilter.com^
 ||partypoker.com^*/tracking-
 ||passport.pfn.bz^
-||paypal.com^*/pixel.gif$third-party
-||paypalobjects.com^*/pixel.gif$third-party,domain=~paypal.com
 ||pg.buzzfeed.com^
 ||phncdn.com/js/ssig_helper.js
 ||phoenix.untd.com^
@@ -30064,6 +30079,7 @@ http://utm.
 ||a.jango.com^
 ||a7.org/infol.php?
 ||abc.net.au/counters/
+||abc.net.au^*/stats/
 ||abebooks.com/timer.gif?
 ||about.me/wf/open?
 ||accountnow.com/SyslogWriter.ashx
@@ -30316,6 +30332,7 @@ http://utm.
 ||businesslive.co.za/statistics/
 ||businessseek.biz/cgi-bin/*.pl?trans.gif&ref=
 ||buto.tv/track/
+||buzzamedia.com/js/track.js
 ||buzzfeed.com^*/small.gif?
 ||buzzfeed.com^*/tracker.js
 ||buzzurl.jp/api/counter/
@@ -30455,7 +30472,6 @@ http://utm.
 ||dailymotion.com/track/$object-subrequest
 ||dailymotion.com^*/tag.gif?
 ||dailyom.com^*/trackopen.cgi?
-||dailystar.co.uk/tracking/
 ||dailystar.com.lb/ArticleLog.aspx?
 ||data.ninemsn.com.au/*GetAdCalls
 ||datacollector.coin.scribol.com^
@@ -30559,7 +30575,6 @@ http://utm.
 ||expdb2.msn.com^
 ||experiandirect.com/javascripts/tracking.js
 ||experts-exchange.com/pageloaded.jsp?
-||express.co.uk/trackings/
 ||ez.no/statjs/
 ||f-secure.com^*/wtsdc.js
 ||facebook.com/ajax/*logging

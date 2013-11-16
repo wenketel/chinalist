@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: H7DkpSWHobUQnL0NEL+rYg
+!  Checksum: 4M/cUSJRS/FEWMM6RNg7Qw
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 14 Nov 2013 11:03:26 +0800
+!  Last Modified:  Sat, 16 Nov 2013 10:57:47 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -801,16 +801,11 @@ it168.com##[id^="ADV"]
 it168.com##.gg
 
 !---IT之家
-||ithome.com/block/*_google
 ||ithome.com/block/headerline.htm
-||img.vista123.com/images/saayaa468.gif
-||win7china.com/images/win72tc.png
-/headline.htm$domain=win7china.com|win8china.com
-/script/*$subdocument,domain=win7china.com|win8china.com
+ithome.com##.con-recom
+ithome.com##.lg-item.lg-item-2
+ithome.com##.sb_list > .bx
 ithome.com###bbs_hl
-ithome.com##.hl_wrap
-ithome.com,win7china.com###pop_notice
-ithome.com##.side_products
 
 !---小猪快跑
 ||imanke.com/static/imanke/pigbbs.js
