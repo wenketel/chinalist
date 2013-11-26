@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: JuOqvpNunDU4duEyF/i8hA
+!  Checksum: dp/oaAvi+eFmLqhTJgfqrg
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 24 Nov 2013 11:24:11 +0800
+!  Last Modified:  Tue, 26 Nov 2013 10:36:24 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -28,6 +28,7 @@ yocoy.com#@##AdArea
 @@||cpro.baidu.com/cpro/ui/c.js$domain=bbs.9es.cn
 @@||pos.baidu.com/ecom?$script,domain=bbs.9es.cn
 @@||hm.baidu.com^$third-party,domain=pic.cankaoxiaoxi.com
+@@||chinahr.com/images/phpads/$image,~third-party
 @@||icbc.com.cn/ICBC_ADJS/$script,~third-party
 @@||fireeye.ijinshan.com/static/js/analyse.js
 @@||ganji.com/findjob/send_resume.php?$subdocument
@@ -299,6 +300,7 @@ club.autohome.com.cn##.serve
 ||baidu.com/cpro.php
 ||baidu.com/ecom$image,script
 ||bs.baidu.com/adcoup-mat/
+||ecma.bdimg.com/lego-mat/
 ||music.baidu.com/static/html/cbjs.html
 ||news.baidu.com/nocache/mp/b.jpg
 ||mu6.bdstatic.com/static/j/4HDIIHzf.js
@@ -307,6 +309,7 @@ club.autohome.com.cn##.serve
 baike.baidu.com###mabox
 news.baidu.com###ecad
 www.baidu.com##.tools
+www.baidu.com,www1.baidu.com,ipv6.baidu.com##.ad-material-wrapper
 www.baidu.com,www1.baidu.com,ipv6.baidu.com##.ec_bdtg
 www.baidu.com,www1.baidu.com,ipv6.baidu.com###ec_im_container
 www.baidu.com,www1.baidu.com,ipv6.baidu.com###ecad
@@ -801,13 +804,6 @@ iplaysoft.com##.crumb_ad
 ||download.it168.com/jscript/bubble.js
 it168.com##[id^="ADV"]
 it168.com##.gg
-
-!---IT之家
-||ithome.com/block/headerline.htm
-ithome.com##.con-recom
-ithome.com##.lg-item.lg-item-2
-ithome.com##.sb_list > .bx
-ithome.com###bbs_hl
 
 !---小猪快跑
 ||imanke.com/static/imanke/pigbbs.js
@@ -1907,6 +1903,8 @@ comic.131.com##.mh_frbk > dl
 ||4399.com/loadimg/loading.htm
 ||traceplay.5054399.com^$domain=4399.com
 ||get.766.com^$script
+||962.net/show/all_$script
+||962.net/show/cms_$script
 ||bbs.a9vg.com/showit/img_show.php
 ||img.cngba.com/da/
 ||dashuye.com/data/cache/myad*.htm
@@ -2581,6 +2579,7 @@ zxtjd.com###it_an
 ||52kkt.com^$third-party
 ||52lover.info^$third-party
 ||5566ad.com^$third-party
+||5577.com^$third-party
 ||559gp.com^$third-party
 ||565882.com^$third-party
 ||58ad.org^$third-party
@@ -2778,6 +2777,7 @@ zxtjd.com###it_an
 ||u.imop.com^$third-party
 ||instreet.cn^$third-party
 ||ipinyou.$third-party
+||1qwe3r.com^$third-party
 ||is686.com^$third-party
 ||ishare.tw^$subdocument,third-party
 ||istreamsche.com^$third-party
@@ -3115,6 +3115,7 @@ www.infoq.com###gbanner.gbanner
 infzm.com##[class$="adv"]
 infzm.com##[id$="adv"]
 infzm.com##P[style="text-align: center;display:block;padding-bottom:10px "]
+ithome.com###bbs_hl
 itopdog.cn##[class^="ad"]
 itopdog.cn##[id^="itopdog_ad-"]
 itopdog.cn##.xoxo > [id^="text-"]

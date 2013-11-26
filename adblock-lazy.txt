@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: iCKnoXbKt3i/w6mh23anSA
+!  Checksum: 1/9DHcKaRG0bIbfwz0tSpQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 24 Nov 2013 11:24:19 +0800
+!  Last Modified:  Tue, 26 Nov 2013 10:36:29 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -29,6 +29,7 @@ yocoy.com#@##AdArea
 @@||cpro.baidu.com/cpro/ui/c.js$domain=bbs.9es.cn
 @@||pos.baidu.com/ecom?$script,domain=bbs.9es.cn
 @@||hm.baidu.com^$third-party,domain=pic.cankaoxiaoxi.com
+@@||chinahr.com/images/phpads/$image,~third-party
 @@||icbc.com.cn/ICBC_ADJS/$script,~third-party
 @@||fireeye.ijinshan.com/static/js/analyse.js
 @@||ganji.com/findjob/send_resume.php?$subdocument
@@ -300,6 +301,7 @@ club.autohome.com.cn##.serve
 ||baidu.com/cpro.php
 ||baidu.com/ecom$image,script
 ||bs.baidu.com/adcoup-mat/
+||ecma.bdimg.com/lego-mat/
 ||music.baidu.com/static/html/cbjs.html
 ||news.baidu.com/nocache/mp/b.jpg
 ||mu6.bdstatic.com/static/j/4HDIIHzf.js
@@ -308,6 +310,7 @@ club.autohome.com.cn##.serve
 baike.baidu.com###mabox
 news.baidu.com###ecad
 www.baidu.com##.tools
+www.baidu.com,www1.baidu.com,ipv6.baidu.com##.ad-material-wrapper
 www.baidu.com,www1.baidu.com,ipv6.baidu.com##.ec_bdtg
 www.baidu.com,www1.baidu.com,ipv6.baidu.com###ec_im_container
 www.baidu.com,www1.baidu.com,ipv6.baidu.com###ecad
@@ -802,13 +805,6 @@ iplaysoft.com##.crumb_ad
 ||download.it168.com/jscript/bubble.js
 it168.com##[id^="ADV"]
 it168.com##.gg
-
-!---IT之家
-||ithome.com/block/headerline.htm
-ithome.com##.con-recom
-ithome.com##.lg-item.lg-item-2
-ithome.com##.sb_list > .bx
-ithome.com###bbs_hl
 
 !---小猪快跑
 ||imanke.com/static/imanke/pigbbs.js
@@ -1908,6 +1904,8 @@ comic.131.com##.mh_frbk > dl
 ||4399.com/loadimg/loading.htm
 ||traceplay.5054399.com^$domain=4399.com
 ||get.766.com^$script
+||962.net/show/all_$script
+||962.net/show/cms_$script
 ||bbs.a9vg.com/showit/img_show.php
 ||img.cngba.com/da/
 ||dashuye.com/data/cache/myad*.htm
@@ -2582,6 +2580,7 @@ zxtjd.com###it_an
 ||52kkt.com^$third-party
 ||52lover.info^$third-party
 ||5566ad.com^$third-party
+||5577.com^$third-party
 ||559gp.com^$third-party
 ||565882.com^$third-party
 ||58ad.org^$third-party
@@ -2779,6 +2778,7 @@ zxtjd.com###it_an
 ||u.imop.com^$third-party
 ||instreet.cn^$third-party
 ||ipinyou.$third-party
+||1qwe3r.com^$third-party
 ||is686.com^$third-party
 ||ishare.tw^$subdocument,third-party
 ||istreamsche.com^$third-party
@@ -3116,6 +3116,7 @@ www.infoq.com###gbanner.gbanner
 infzm.com##[class$="adv"]
 infzm.com##[id$="adv"]
 infzm.com##P[style="text-align: center;display:block;padding-bottom:10px "]
+ithome.com###bbs_hl
 itopdog.cn##[class^="ad"]
 itopdog.cn##[id^="itopdog_ad-"]
 itopdog.cn##.xoxo > [id^="text-"]
@@ -8126,6 +8127,7 @@ _ad_url=
 _ad_view=
 _ad_widesky.
 _ad_wrapper.
+_ad_yellow.
 _ad_zone_
 _adagency/
 _adaptvad.
@@ -9379,6 +9381,7 @@ _popunder+$popup
 ###KH-contentAd
 ###LB_Row_Ad
 ###LargeRectangleAd
+###LeaderTop-ad
 ###LeaderboardNav_ad_placeholder
 ###LeftAd
 ###LeftAd1
@@ -9628,6 +9631,7 @@ _popunder+$popup
 ###ad-bottom
 ###ad-bottom-300x250
 ###ad-bottom-banner
+###ad-bottom-right-container
 ###ad-bottom-wrapper
 ###ad-box
 ###ad-box-bottom
@@ -9636,6 +9640,7 @@ _popunder+$popup
 ###ad-box1
 ###ad-box2
 ###ad-boxes
+###ad-br-container
 ###ad-bs
 ###ad-btm
 ###ad-buttons
@@ -11055,6 +11060,9 @@ _popunder+$popup
 ###ads_bottom_inner
 ###ads_bottom_outer
 ###ads_box
+###ads_box_bottom
+###ads_box_right
+###ads_box_top
 ###ads_button
 ###ads_by_google
 ###ads_campaign
@@ -17406,6 +17414,7 @@ _popunder+$popup
 ##.advert-container
 ##.advert-content
 ##.advert-content-item
+##.advert-featured
 ##.advert-group
 ##.advert-head
 ##.advert-home-380x120
@@ -17418,6 +17427,7 @@ _popunder+$popup
 ##.advert-lower-right
 ##.advert-mini
 ##.advert-mpu
+##.advert-mrec
 ##.advert-note
 ##.advert-sky
 ##.advert-skyscraper
@@ -20191,6 +20201,7 @@ _popunder+$popup
 ##.rightcol-adbox
 ##.rightcol-block-ads
 ##.rightcol_boxad
+##.rightcol_div_openx2
 ##.rightcoladvert
 ##.rightcoltowerad
 ##.rightmenu_ad
@@ -21470,6 +21481,9 @@ _popunder+$popup
 ###header + #content > #left > #rlblock_left
 ! Taboola
 ##.trc_rbox_div .syndicatedItem
+! uCoz
+! https://adblockplus.org/forum/viewtopic.php?f=2&t=13414
+##div[id^="mainads"]
 ! *** easylist:easylist/easylist_adservers.txt ***
 ||007-gateway.com^$third-party
 ||101m3.com^$third-party
@@ -21803,6 +21817,7 @@ _popunder+$popup
 ||adspring.to^$third-party
 ||adsrevenue.net^$third-party
 ||adsring.com^$third-party
+||adsrv.us^$third-party
 ||adsrvmedia.com^$third-party
 ||adsrvr.org^$third-party
 ||adssites.net^$third-party
@@ -24410,6 +24425,7 @@ _popunder+$popup
 ||choices.truste.com^$third-party
 ||chriscasconi.com/nostalgia_ad.
 ||cimg.in/images/banners/
+||circularhub.com^*/circularhub_module.js$third-party
 ||citygridmedia.com/ads/
 ||clarity.abacast.com^
 ||clearchannel.com/cc-common/templates/addisplay/
@@ -24802,6 +24818,7 @@ _popunder+$popup
 ||iobit.com/partner/$third-party
 ||iol.co.za^*/sponsors/
 ||ipercast.net^*/ova-jw.swf$object-subrequest
+||ipixs.com/ban/$third-party
 ||iselectmedia.com^*/banners/
 ||iwebzoo.com/banner/
 ||iypcdn.com^*/bgbanners/
@@ -25093,6 +25110,7 @@ _popunder+$popup
 ||roshantv.com/adad.
 ||rotabanner.kulichki.net^
 ||rover.ebay.com^*&adtype=$third-party
+||s-assets.tp-cdn.com^
 ||s-yoolk-banner-assets.yoolk.com^
 ||s-yoolk-billboard-assets.yoolk.com^
 ||s1.wp.com^$subdocument,third-party
@@ -26380,9 +26398,11 @@ _popunder+$popup
 /itrack.php?
 /iva_analytics.
 /iva_thefilterjwanalytics.
+/ivw.js
 /ivw.php
 /ivw/SP/*$image,script
 /ivw2.cgi?
+/ivw2.js
 /ivw_analytics_
 /IVWAnalytics.
 /ivwbox/*
@@ -27121,6 +27141,7 @@ _popunder+$popup
 /TrackerAS3.
 /trackerGif?
 /TrackerHandler.
+/trackerpixel.js
 /trackerstatistik.
 /trackEvent.js?
 /trackImpression/*
@@ -28306,6 +28327,7 @@ http://utm.
 ||mongoosemetrics.com^$third-party
 ||monitus.net^$third-party
 ||moreusers.info^$third-party
+||motrixi.com^$third-party
 ||mouseflow.com^$third-party
 ||mousestats.com^$third-party
 ||mousetrace.com^$third-party
@@ -28592,7 +28614,6 @@ http://utm.
 ||sessioncam.com^$third-party
 ||sexcounter.com^$third-party
 ||sexystat.com^$third-party
-||sharedcount.com^$third-party
 ||shinystat.com^$third-party
 ||shippinginsights.com^$third-party
 ||shrinktheweb.com^$third-party
@@ -28807,6 +28828,7 @@ http://utm.
 ||vertster.com^$third-party
 ||videostat.com^$third-party
 ||vinlens.com^$third-party
+||viralninjas.com^$third-party
 ||virtualnet.co.uk^$third-party
 ||visibility-stats.com^$third-party
 ||visiblemeasures.com/log?$object-subrequest,third-party
@@ -29110,6 +29132,7 @@ http://utm.
 ||bango.net/exid/*.gif?
 ||bango.net/id/*.gif?
 ||barium.cheezdev.com^
+||bazaarvoice.com/sid.gif
 ||bc.geocities.
 ||beacon.errorception.com^
 ||beacon.richrelevance.com^
@@ -29324,6 +29347,9 @@ http://utm.
 ||dw.com.com^
 ||e-merchant.com/^*/edr.js$third-party
 ||ebay.northernhost.com^
+||ebayrtm.com/rtm?RtmCmd&a=img&$image
+||ebaystatic.com^*/rover_$script
+||ebaystatic.com^*/tracking_RaptorheaderJS.js
 ||ecommstats.s3.amazonaws.com^$third-party
 ||ecustomeropinions.com/survey/nojs.php?
 ||ecustomeropinions.com^*/i.php?
@@ -29713,6 +29739,7 @@ http://utm.
 ||realplayer.com^*/pixel?
 ||realtidbits.com^*/analytics.js
 ||recs.atgsvcs.com^$third-party
+||redplum.com^*&pixid=$third-party
 ||reevoo.com/track/
 ||reevoo.com/track_url/
 ||reevoo.com^*/track/
@@ -30086,6 +30113,7 @@ http://utm.
 ||yellowbrix.com/images/content/cimage.gif?
 ||yellowpages.com^*.gif?tid$third-party
 ||yext.com/plpixel?
+||yimg.com/ss/rapid-*.js
 ||yimg.com^*/l?ig=$image
 ||ypcdn.com/*/webyp?
 ||zoover.co.uk/tracking/
@@ -30653,6 +30681,7 @@ http://utm.
 ||f-secure.com^*/wtsdc.js
 ||facebook.com/ajax/*logging
 ||facebook.com/ct.php
+||facebook.com/friends/requests/log_impressions
 ||facebook.com/search/web/instrumentation.php?
 ||fanfiction.net/eye/
 ||fanhow.com/script/tracker.js
@@ -30969,6 +30998,7 @@ http://utm.
 ||lifehacker.com^$object,~third-party
 ||lifehacker.com^*/trackers.html
 ||lightreading.com/client_pathlog.asp
+||likes.com/api/track_pv
 ||limelightmagazine.com.au/t.ashx?
 ||linguee.com/white_pixel.gif
 ||link.codeyear.com/img/
@@ -31003,6 +31033,7 @@ http://utm.
 ||logs.dashlane.com^
 ||lolbin.net/stats.php
 ||lovefilm.com/api/ioko/log/
+||lovefilm.com/lovefilm/images/dot.gif
 ||lovefilm.com^*/lf-perf-beacon.png
 ||lslmetrics.djlmgdigital.com^
 ||lucidchart.com/analytics_
@@ -31026,7 +31057,7 @@ http://utm.
 ||mate1.com^*/iframe/pixel/
 ||mayoclinic.org/js/gconversion.js
 ||mayoclinic.org/js/tracker.js
-||mcdonalds.com/metrics/
+||mcdonalds.com^*/multitracker.js
 ||mdmpix.com/js/connector.php?
 ||media-imdb.com/images/*/imdbads/js/beacon-$script
 ||media-imdb.com^*/adblock.swf
@@ -31564,6 +31595,7 @@ http://utm.
 ||t2.huluim.com^
 ||t3.com/js/trackers.js
 ||tab.co.nz/track?
+||tacobell.com/tb_files/js/tracker.js
 ||tag-stats.huffpost.com^
 ||tags.transportdirect.info^
 ||talktalk.co.uk^*/log.html
@@ -31827,7 +31859,7 @@ http://utm.
 ||webmd.com^*/tools/dsppixels.js
 ||webmonkey.com/js/stats/
 ||webring.com/cgi-bin/logit?
-||webstats.oanda.com^
+||webstats.perfectworld.com^
 ||weeklyblitz.net/tracker.js
 ||wego.com/farmer/
 ||wellness.com/proxy.asp
