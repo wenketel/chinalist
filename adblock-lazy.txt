@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: OprrRMepTWS7jlNzaul8KA
+!  Checksum: Bnp6VwPYWPkMZDLlqJZf+A
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 26 Nov 2013 20:18:35 +0800
+!  Last Modified:  Wed, 27 Nov 2013 13:17:32 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1715,6 +1715,11 @@ soku.com###ab_282
 ||player.pb.ops.tudou.com/info.php?
 ||stat*.tudou.com^
 
+!---天极
+||media.yesky.com/
+||image.tianjimedia.com/uploadImages/2013/247/NLCTK1K629QB.gif
+yesky.com##[class^="ad"]
+
 !---宇宙点播
 ||yzdb.tv/ad/
 @@||union.maccms.com/player8/init.js
@@ -1820,6 +1825,7 @@ steachs.com###banner
 !---Download Sites
 ||static.1000eb.com/www/img/rili.gif
 ||05sun.com^$script
+||2345.com/duoteimg/duotehtml/
 @@||32666.com/templates/32666/images/ad/down.js
 ||32666.com/img/
 32666.com##.ad
@@ -1833,15 +1839,17 @@ steachs.com###banner
 ||54new.com/da/
 ||54new.com/pop_right_bottom/js/msn.js
 ||66ys.*/d/
-||7edown.com/upload/2345$image
+||7edown.com/pic/0601/
+||7edown.com/upload/yd*.gif
 ||7xdown.com/adgg/
 ||9553.com^$script,subdocument
 ||abcdown.net/hezuo/
+||ayxz.com/images/$script
+||ayxz.com/images/VStart.gif
 ||badongo.com/00081C/images/$object
 ||bbsxp.com/ed2000/ad/wuji.gif
 ||btmee.com/static/btmeegg/
-||cncrk.com/ggg/
-||cncrk.com/505/img/300X300.gif
+||cncrk.com/505/
 ||cngr.cn^$script,subdocument
 ||cnzz.cn^*zanzhu
 ||down.cnzz.cn/js/right.js
@@ -1857,17 +1865,19 @@ steachs.com###banner
 ||gpxz.com/skins/gpxz_20110308/$script
 ||gpxz.com/skin/gpxz/tc.js
 ||greenspe.com/other/js/$script
-||greenxf.com/count$script
-||greenxf.com/GreenxfAD/
-||greenxf.com/greenxf_com/greenad$script
+||greenxf.com/asp/
 ||happydown.com^$script,subdocument
 ||happydown.com/soft/ads/
 ||huacolor.com/all/
+||huacolor.com/nei/
+||huacolor.com/softjs/
 ||jz5u.com/js/tl$script
 ||jz5u.com/new/
 ||myhack58.com/js/
+||onegreen.net/MyFile/
 ||orsoon.com/orsoon/$script
-||orsoon.com/orsoon_AD/
+||orsoon.com/code_2013/
+orsoon.com###adsmid
 ||ouyaoxiazai.com^$script,subdocument
 ||oyksoft.com/oyksoft_js/
 ||pc6.com/js/html/
@@ -1882,7 +1892,7 @@ portableappc.com###text-14
 ||shooter.cn/a/img/prom/
 ||skycn.com/js/soft_*.js
 ||soxia.cc^$subdocument
-||sz1001.net/Down_Style/$script
+||sz1001.net/aa1/
 ||tntdown.com/News/js/C_
 ||ttmeiju.com/templates/ttmeiju/images/$object
 @@||vdisk.cn/img/loading.gif
@@ -2028,8 +2038,6 @@ taihe.net##script[src="/js/ad.js"] + #table1
 workercn.cn#@#.ad_content
 workercn.cn#@#.ad_main
 ||iads.xinmin.cn^
-||media.yesky.com/
-yesky.com##[class^="ad"]
 ||zaobao.com/ssi/bizp/
 ||am.zdnet.com.cn/www/images/$object
 zdnet.com.cn##.headads
@@ -2041,11 +2049,6 @@ zdnet.com.cn##.headads
 /configs/article/*$script,subdocument
 /configs/article/gggg/*
 /contentjs/*$script
-16k.net.cn/js/readadtop$script
-||16k.net.cn/js/you$script
-||16k.net.cn/js/yuedu$script
-16k.net.cn###sidelist
-16k.net.cn##tr[height="80"]
 ||17dm.com/s/common/js/*AD.js
 ||17kk.cc/scriptAD/
 ||site.24novel.com/js/readbottom.js
@@ -2194,6 +2197,7 @@ zzzcn.com#@##adtop
 33md.cc##.ib_ad
 ||img.1ting.com/v5/js/*text.js
 ||5156ys.net/g/
+||pp.7060.com^
 ||apas.aipai.com/www/api/aipaiPlayFull2.js?0.
 ||apas.aipai.com/www/images/
 ||web.aipai.com/bbt/
@@ -2413,7 +2417,6 @@ qiushibaike.com##.sitelink
 qzwb.com##.area[style^="height:70px;"]
 ||img.rmfans.cn/g/
 ruten.com.tw###supertop-bar
-||sellgreat.com/images/Bdvertisement/
 ||so100.cn/images/a*.js
 ||so100.cn/images/newshead.htm
 ||subpig.net/add/
@@ -2448,8 +2451,6 @@ bbs.wuyou.com##.wp.a_t
 ||xuanxuan.com/js/addfavio.js
 ||xue5.com/itedu/js/DIVit_QQ.js
 ||admd.yam.com^
-||yanqiao.com/duote.js
-||yanqiao.com/yanqiao/
 ||a4.yeshj.com^
 @@||yihaodian.com/advertise/$xmlhttprequest
 @@||yihaodian.com/product/ajaxAds.do?$xmlhttprequest
@@ -2626,7 +2627,6 @@ zxtjd.com###it_an
 ||js.91tiger.com^$third-party
 ||91wan.com^$third-party
 ||92cg.com^$third-party
-||9519.net^$third-party
 ||98766.com^$third-party
 ||999d.com^$third-party
 ||99ddd.com^$third-party
@@ -2732,9 +2732,9 @@ zxtjd.com###it_an
 ||u.www.duba.net^$third-party
 ||dyunion.net^$third-party
 ||ee4kdushuba.com^$third-party
+||eeyy.com^$third-party
 ||egooad.com^$third-party
 ||esearches.com.tw^$third-party
-||etopad.com^$third-party
 ||ezsaving.com^$third-party
 ||feesee.com^$third-party
 ||tg.feixue.com^$third-party
@@ -2840,6 +2840,8 @@ zxtjd.com###it_an
 ||oounion.com^$third-party
 ||pagechoice.net^$third-party
 ||pangu.cc^$third-party
+||pk840.com^$third-party
+||ps123.net^$third-party
 ||e.phpwind.com^$third-party
 ||lianjie.phpwind.com^$third-party
 ||pixelinteractivemedia.com^$third-party
@@ -2847,7 +2849,6 @@ zxtjd.com###it_an
 ||plugrush.com^$third-party
 ||ppunion.com^$third-party
 ||prohost.com.tw^$third-party
-||q150.com^$third-party
 ||image.qndown.com^$third-party
 ||ttmsg.qianqian.com^
 ||qi-yue.com^$third-party
@@ -2859,7 +2860,6 @@ zxtjd.com###it_an
 ||qq61.com^$third-party
 ||qq937.com^$third-party
 ||qqle.info^$third-party
-||quantui.com^$third-party
 ||qutaotao.com^$third-party
 ||rayli.com.cn^$third-party
 ||360.rbc.cn^$third-party
@@ -2901,7 +2901,6 @@ zxtjd.com###it_an
 ||js.tjq.com^$third-party
 ||tttccc.net^$third-party
 ||tuigoo.com^$third-party
-||tuike.cn^$third-party
 ||tuite8.com^$third-party
 ||txjy2008.com^$third-party
 ||ubcpm.com^$third-party
@@ -2943,6 +2942,7 @@ zxtjd.com###it_an
 ||web933.com^$third-party
 ||whoclick.cn^$third-party
 ||wiseie.com^$third-party
+||wofan.net^$third-party
 ||womenwan.com^$third-party
 ||woniu666.com^$third-party
 ||wqzyt.net^$third-party
@@ -2951,6 +2951,7 @@ zxtjd.com###it_an
 ||xcy8.com^
 ||xhunion.com^$third-party
 ||v.xi666.com^$third-party
+||xiao47.com^$third-party
 ||xiaoangel.com^$third-party
 ||xixianad.com^$third-party
 ||xp3366.com^$third-party
@@ -3808,6 +3809,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /ad/cpmstar/*
 /ad/directcall/*
 /ad/empty.
+/ad/extra/*
 /ad/extra_
 /ad/files/*
 /ad/frame1.
@@ -7736,6 +7738,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 /ttz_ad.
 /turbo_ad.
 /tvgdartads.
+/TWBadbanner.
 /twgetad3.
 /txt_ad.
 /txt_ad_
@@ -9094,6 +9097,7 @@ _popunder+$popup
 ###Ad-Container
 ###Ad160x600
 ###Ad160x600_0_adchoice
+###Ad300x145
 ###Ad300x250
 ###Ad300x250_0
 ###Ad300x600_0_adchoice
@@ -12423,7 +12427,12 @@ _popunder+$popup
 ###dfp-ad-medium_rectangle
 ###dfp-ad-slot2
 ###dfp-ad-slot3
+###dfp-ad-slot5
+###dfp-ad-slot5-wrapper
+###dfp-ad-slot6
+###dfp-ad-slot6-wrapper
 ###dfp-ad-slot7
+###dfp-ad-slot7-wrapper
 ###dfp_ad_DictHome_300x250
 ###dfp_ad_DictHome_728x90
 ###dfp_ad_Entry_160x600
@@ -14398,6 +14407,7 @@ _popunder+$popup
 ###subpage-ad-top
 ###subpage_234x60ad
 ###sugarad-stitial-overlay
+###super_ad
 ###svp-ad
 ###swads
 ###swfAd1
@@ -16148,6 +16158,8 @@ _popunder+$popup
 ##.ad_640x90
 ##.ad_680x15
 ##.ad_728
+##.ad_72890
+##.ad_72890_box
 ##.ad_728Home
 ##.ad_728_90
 ##.ad_728_90_1
@@ -18761,6 +18773,7 @@ _popunder+$popup
 ##.gads_cb
 ##.gads_container
 ##.gadsense
+##.galleria-AdOverlay
 ##.gallery-ad
 ##.gallery-sidebar-ad
 ##.gallery_300x100_ad
@@ -24121,6 +24134,7 @@ _popunder+$popup
 ! *** easylist:easylist/easylist_thirdparty.txt ***
 ||000webhost.com/images/banners/
 ||0124498474f7c13ac9a2-6b191446002b31342189d56cabcf5227.r11.cf2.rackcdn.com^
+||04stream.com/pop*.js
 ||1-million-usd.com/images/banners/
 ||108.166.93.81/rotate/$domain=~infowars.com.ip
 ||108.59.5.132/files/$third-party,domain=~1channel.ch.ip
@@ -27734,6 +27748,7 @@ http://utm.
 ||btstatic.com^$third-party
 ||bubblestat.com^$third-party
 ||burstbeacon.com^$third-party
+||burt.io^$third-party
 ||bytemgdd.com^$third-party
 ||c-o-u-n-t.com^$third-party
 ||c-webstats.de^$third-party
@@ -30780,6 +30795,7 @@ http://utm.
 ||geoip.cleveland.com^
 ||geoip.lehighvalleylive.com^
 ||geoip.mlive.com^
+||geoip.nj.com^
 ||geoip.nola.com^
 ||geoip.oregonlive.com^
 ||geoip.syracuse.com^
@@ -32111,6 +32127,7 @@ youtube.com##a[href^="http://www.youtube.com/cthru?"]
 @@||o.aolcdn.com/omniunih.js$domain=autoblog.com|engadget.com|mapquest.com|video.aol.com|www.aol.com
 ! *** adblock-privacy.txt
 ||eastmoney.com/count
+||greenxf.com/count$script
 ||iplaysoft.com/plus/api/counter.php
 ||pixanalytics.com^
 |http://click.$image
