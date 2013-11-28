@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: Bnp6VwPYWPkMZDLlqJZf+A
+!  Checksum: oprTeIyLV3LLWJJyxRGE2Q
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 27 Nov 2013 13:17:32 +0800
+!  Last Modified:  Thu, 28 Nov 2013 21:09:02 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1362,17 +1362,14 @@ www.sohu.com###ad_TOP
 www.sohu.com###contentC > .columnC
 !--tv
 /get.gif?$domain=sohu.com
-||imp.go.sohu.com^
 ||images.sohu.com/ytv/
 ||mfiles.sohu.com/tv/csad/
-||tv.sohu.com/upload/csad/
-||tv.sohu.com/upload/static/global/hdpv.js
 ||tv.sohu.com/upload/trace/
 ||p.aty.sohu.com^
+||v.aty.sohu.com/v?
 ||vm.aty.sohu.com^
 ||data.vrs.sohu.com/player.gif?
 ||hd.sohu.com.cn^$object_subrequest
-tv.sohu.com##.adbox
 tv.sohu.com##.skyAD
 tv.sohu.com###miaozhenad
 !--Sogou
@@ -3524,6 +3521,7 @@ hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 .in/ads/
 .in/advt/
 .info/*.js?guid=*-*-*-*-$script,third-party
+.info/*.js?rand=*&guid=*-*-*-*-$script,third-party
 .info/ad_
 .info/ads-
 .info/ads/
@@ -8364,6 +8362,7 @@ _maxi_ad/
 _media/ads/
 _mmsadbanner/
 _Mobile_Ad_
+_mpu_widget?
 _onlinead_
 _openx.
 _openx/
@@ -9508,6 +9507,7 @@ _popunder+$popup
 ###WNAd49
 ###WNAd52
 ###WNAd63
+###WarningCodecBanner
 ###WelcomeAd
 ###WindowAdHolder
 ###XEadLeaderboard
@@ -21111,6 +21111,7 @@ _popunder+$popup
 ##.usenext
 ##.v5rc_336x280ad
 ##.vAd_160x600
+##.vadvert
 ##.ve2_post_adsense
 ##.vert-ad
 ##.vert-ads
@@ -21457,6 +21458,7 @@ _popunder+$popup
 ##img[alt^="Fuckbook"]
 ##input[onclick^="window.open('http://www.FriendlyDuck.com/AF_"]
 ##input[onclick^="window.open('http://www.friendlyduck.com/AF_"]
+##script[src^="http://free-shoutbox.net/app/webroot/shoutbox/sb.php?shoutbox="] + #freeshoutbox_content
 ! https://adblockplus.org/forum/viewtopic.php?f=2&t=17016
 ##.l-container > #fishtank
 ! Google
@@ -22782,7 +22784,6 @@ _popunder+$popup
 ||imgwebfeed.com^$third-party
 ||imho.ru^$third-party
 ||imiclk.com^$third-party
-||impact-ad.jp^$third-party
 ||impactradius.com^$third-party
 ||implix.com^$third-party
 ||impresionesweb.com^$third-party
@@ -29321,7 +29322,6 @@ http://utm.
 ||d36lvucg9kzous.cloudfront.net^
 ||d396ihyrqc81w.cloudfront.net^$third-party
 ||d3a2okcloueqyx.cloudfront.net^$third-party
-||d3c3cq33003psk.cloudfront.net^
 ||d3hr5gm0wlxm5h.cloudfront.net^$third-party
 ||d3l3lkinz3f56t.cloudfront.net^
 ||d3s7ggfq1s6jlj.cloudfront.net^
@@ -29416,6 +29416,7 @@ http://utm.
 ||filesonic.com/referral/$third-party
 ||flashi.tv/histats.php?
 ||flashstats.libsyn.com^
+||flex.msn.com/mstag/
 ||fliqz.com/metrics/$~object-subrequest
 ||flixster.com^*/analytics.
 ||flux.com/geo.html?
