@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: CDbr5eEATDK8i7unMYJVDQ
+!  Checksum: FJgDnG4lEGatU1ZfdeBu0Q
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 02 Dec 2013 02:23:55 +0800
+!  Last Modified:  Tue, 03 Dec 2013 19:08:24 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -150,16 +150,6 @@ jd.com#@#.adwords
 ||hk.go2tutor.com/lifebox.asp
 ||key8.com/cache/www/banner_
 ||ktzhk.com/plugins/cache_template/adv_3b2g.js
-
-!---3DM Game
-/forum/*$image,domain=www.3dmgame.com
-||3dmgame.com/templets/default/images/index/a_40.jpg
-3dmgame.com###adv
-3dmgame.com##.box
-3dmgame.com##.g-left
-3dmgame.com##.g-right
-3dmgame.com##.hengfu
-3dmgame.com##.R1
 
 !---5173
 @@||gg.5173.com/adpolestar/5173/$script
@@ -331,6 +321,7 @@ pan.baidu.com###activateGuidePopupOuter
 !--tieba
 tieba.baidu.com##.l_banner
 tieba.baidu.com###search_button.search_button
+tieba.baidu.com##[id^="game_couplet_pb_"]
 !--zhidao
 ||baidu.com^*/egg*.swf
 iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com##.ad-fc-down
@@ -691,6 +682,13 @@ gtv.com.cn##.t6r2
 gtv.com.cn##.t8r2
 gtv.com.cn###video_url_ad
 gtv.com.cn##.zs_banner
+
+!---南海网
+||hinews.cn/out/img/$object
+||hinews.cn/swf/0/$object
+||hinews.cn/out/$script
+hinews.cn##a[href="http://www.08980898.com/"]
+hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
 
 !---虎扑
 ||hupu.com/d/file/$object,image
@@ -1893,6 +1891,8 @@ orsoon.com###adsmid
 portableappc.com###text-7
 portableappc.com###text-14
 ||quick8.cn/softimg/*AD.gif
+||rsdown.cn/rsdown_2012_img/
+rsdown.cn#@#.banner-ads
 ||shooter.cn/a/*adv$script
 ||shooter.cn/a/img/prom/
 ||skycn.com/js/soft_*.js
@@ -1971,6 +1971,7 @@ ys168.com###xtxx
 ||yunfile.com^*/offline_banner/
 
 !---News Sites
+||36krcnd.com/poster/$image
 ||hot.580k.com/share/Ad_
 news.580k.com##.contentAD
 ||67.com/img/$object
@@ -1995,13 +1996,6 @@ dzwww.com##.ad
 ||hebei.com.cn/eap/
 ||hebei.com.cn/swf/
 ||hebei.com.cn/sys/online_calc.js^
-||hinews.cn/out/img/$object
-||hinews.cn/out/img/*/*x
-||oa.hinews.cn/work/$object
-||hinews.cn/swf/0/$object
-||hinews.cn/out/$script
-hinews.cn##apDiv2
-hinews.cn##div[id^="hi_gg_"]
 ||itocp.com/html/$object
 ||jjxw.cn^$object
 jjxw.cn##[class$="_ad"]
@@ -2135,7 +2129,6 @@ imanhua.com###topmon
 ||laishu.com/lsgg/
 ||niaoyan.net/wlxsjs/c_gg2.js
 ||niubb.net/niubbad/
-||qianpo.com/Skin/Default/htm/index_350_50.html
 ||quanben.com/themes/quanben/qj.js
 ||ranhen.com/js/
 ranhen.com###box_con > div[align="center"]
@@ -2162,8 +2155,6 @@ wanshulou.com##body > .wrap:nth-child(4)
 @@||wcxiaoshuo.com/js/index.js
 ||wcxiaoshuo.com/js/
 ||xiaolushu.com/js/
-@@||xiaoshuo570.com/scripts/read/page.js
-||xiaoshuo570.com/scripts/read$script
 ||xiaoxiucai.org/configs/mu-2.js
 ||xiaoxiucai.org/js/*ad$script
 ||xiazailou.com^*/ad$script
@@ -2239,6 +2230,7 @@ wasu.cn##.sp313x262
 ||141hongkong.com/images/
 ||17732.com/zhonghua/
 ||17pr.com/batch.ad.php?
+||183yf.cn/niuza160.jpg
 ||1m1m.cn/bar/
 ||233.com/examdagg/
 23sc.cn/007/js/$script
@@ -2540,7 +2532,6 @@ zxtjd.com###it_an
 ||122.com.tw^$third-party
 ||129game.com^$third-party
 ||131cc.com^$third-party
-||1688988.com^$third-party
 ||1717gs.com^$third-party
 ||178gg.com^$third-party
 ||17leyi.com^$third-party
@@ -2739,6 +2730,7 @@ zxtjd.com###it_an
 ||ee4kdushuba.com^$third-party
 ||eeyy.com^$third-party
 ||egooad.com^$third-party
+||ems183.cn^$third-party
 ||esearches.com.tw^$third-party
 ||ezsaving.com^$third-party
 ||feesee.com^$third-party
@@ -2836,6 +2828,7 @@ zxtjd.com###it_an
 ||newwang.com^$third-party
 ||niurenw.com^$third-party
 ||niux88.com^$third-party
+||niuza.com^$image,third-party
 ||niwota.com^$third-party
 ||now.cn^$third-party
 ||nznbl.com^$third-party
@@ -2871,7 +2864,6 @@ zxtjd.com###it_an
 ||redu.com^$third-party
 ||redu-click.com^$third-party
 ||author.richi.cc^$third-party
-||bg.richmouse.com^$third-party
 ||samboc.com^$third-party
 ||scupio.com^$third-party
 ||c.sfilm.com^$third-party
@@ -2993,7 +2985,6 @@ zxtjd.com###it_an
 ||ze5.com^$third-party
 ||zfjiu.com^$third-party
 ||zhanzhang.net^$third-party
-||zhanzhangle.com^$third-party
 ||zhiad.com^$third-party
 ||zwads.com^$third-party
 
@@ -3073,6 +3064,9 @@ zxtjd.com###it_an
 17ppt.com#@#.topads
 17ppt.com##.ad80
 19lou.com##.head-ad
+3dmgame.com##.banner_2
+3dmgame.com##.R1
+www.3dmgame.com##.banner_1
 360doc.com###divadleft
 51caiju.com###hint + .AdTop-Article-QQ
 51caiju.com##.l_qq_com
@@ -3172,17 +3166,7 @@ zjol.com.cn##span.qqt
 zjol.com.cn##span.lqgg
 
 !-----------------------Temporary---------------------------
-!---2013.11
-||okbmf.com/Images/huodong/kg201007-960-100-02.gif
-3dmgame.com##.banner_2
-dl.3dmgame.com##.ad
-dl.3dmgame.com##.ad_1
-www.3dmgame.com##.banner_1
-www.3dmgame.com##[id^="clickbg"]
-||img19.kiees.com/*.jpg
-www.183yf.cn/*.jpg
-hinews.cn##a[href="http://www.08980898.com/"]
-hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
+!---2013.12
 ||xiuxiu.meitu.com/images/banner/meitushop_fixed_816.gif
 ||zasv.net/data/attachment/forum/201301/10/103254zzrl6yrr7zr2765y.gif
 !------------------------End of List-------------------------
