@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: 5grSSgUoWhHgZsYSPj42XA
+!  Checksum: t+zWQpC9Cz5iKojjO9XdCg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 03 Dec 2013 19:08:31 +0800
+!  Last Modified:  Wed, 04 Dec 2013 19:06:35 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -26,8 +26,6 @@ yocoy.com#@##AdArea
 @@||zj.189.cn/wt_uac/login/wt/js/pop.js
 @@||kanknim.allyes.com^$object-subrequest
 @@||ad.ourgame.com/cgi-bin/insertflasha.js
-@@||cpro.baidu.com/cpro/ui/c.js$domain=bbs.9es.cn
-@@||pos.baidu.com/ecom?$script,domain=bbs.9es.cn
 @@||hm.baidu.com^$third-party,domain=pic.cankaoxiaoxi.com
 @@||chinahr.com/images/phpads/$image,~third-party
 @@||icbc.com.cn/ICBC_ADJS/$script,~third-party
@@ -58,13 +56,6 @@ suning.com#@##topAd
 @@||union.mapbar.com/apis/maps/$script
 
 !----------------------------Well-known Sites--------------
-!---115网盘
-||static.115img.com/static/115tj.js
-||static.115img.com/static/delivery/
-||q.115.com/static/*/advs_$image
-q.115.com##.full-column-ad
-q.115.com##.gb-advs
-
 !---网易
 ||img1.126.net^
 ||img2.126.net^
@@ -345,6 +336,7 @@ iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com##[class^="wgt-ads"]
 ||hm.baidu.com^$third-party
 ||spcode.baidu.com^
 ||cpro.baidustatic.com^
+||ubmcmm.baidustatic.com^
 !--iQIYI
 @@||data.video.qiyi.com/videos/other/$object_subrequest
 /ts.swf|$domain=iqiyi.com
@@ -877,15 +869,8 @@ kkkmh.com##[class^="mm-"]
 bt.ktxp.com##.ad
 
 !---Ku6
-@@||g.aa.sdo.com/crossdomain.xml
-@@||g.aa.sdo.com/?method=getversion$object_subrequest
+||sdo.com^$object-subrequest,domain=v.ku6.com
 ||st.vq.ku6.cn^
-||gug.ku6cdn.com^
-||m.ku6.com/statics/js/official_install_beacon.js
-v.ku6.com##[class^="aa_"]
-my.ku6.com##.gg
-www.ku6.com##[class^="a_d0608"]
-www.ku6.com##.ku6_ad
 !--embedded
 @@||pic.snyu.com/sdk*/Main.swf$domain=~ku6.com
 
@@ -1947,6 +1932,7 @@ club.tgfcer.com#@##content_adv
 ||i02.youxigu.com/skin/youxigu/img/bg-new.jpg
 
 !---Net Disks
+||static.115img.com/static/115tj.js
 ||d.119g.com/fanwan/$script
 ||bego.cc/adm.js
 ||bego.cc/img/
@@ -2578,6 +2564,7 @@ zxtjd.com###it_an
 ||523688.com^$third-party
 ||52kkt.com^$third-party
 ||52lover.info^$third-party
+||54kefu.net^$third-party
 ||5566ad.com^$third-party
 ||5577.com^$third-party
 ||559gp.com^$third-party
@@ -4802,6 +4789,7 @@ zjol.com.cn##span.lqgg
 /ads/oas-
 /ads/oas/*
 /ads/oas_
+/ads/original/*
 /ads/oscar/*
 /ads/overlay-
 /ads/p/*
@@ -4989,6 +4977,7 @@ zjol.com.cn##span.lqgg
 /adsbannerjs.
 /adsbox.
 /adsby.
+/adsbygoogle.
 /adscale.
 /adscale1.
 /adscale_
@@ -6176,6 +6165,7 @@ zjol.com.cn##span.lqgg
 /etology.
 /euads/*
 /event.ng/*
+/excellence/ads/*
 /exchange_banner_
 /exit_popup
 /exitpop.
@@ -6365,6 +6355,7 @@ zjol.com.cn##span.lqgg
 /getmarketplaceads.
 /getmdhlayer.
 /getmdhlink.
+/getmyad/*
 /getrcmd.js?
 /getsad.php?
 /getsponslinks.
@@ -6468,6 +6459,7 @@ zjol.com.cn##span.lqgg
 /hikaku/banner/*
 /hitbar_ad_
 /holl_ad.
+/home/ad_
 /home/ads-
 /home/ads/*
 /home/ads_
@@ -12434,6 +12426,7 @@ _popunder+$popup
 ###dfp-ad-home_3-wrapper
 ###dfp-ad-leaderboard-wrapper
 ###dfp-ad-medium_rectangle
+###dfp-ad-mediumrectangle-wrapper
 ###dfp-ad-mosad_1
 ###dfp-ad-mosad_1-wrapper
 ###dfp-ad-slot2
@@ -20991,6 +20984,7 @@ _popunder+$popup
 ##.top-wide-ad-container
 ##.top300ad
 ##.topAD
+##.topAd728x90
 ##.topAdBanner
 ##.topAdCenter
 ##.topAdContainer
@@ -21365,6 +21359,7 @@ _popunder+$popup
 ##.zRightAdNote
 ##.zc-grid-ad
 ##.zc-grid-position-ad
+##.zem_rp_promoted
 ##[onclick^="window.open('http://adultfriendfinder.com/search/"]
 ##a[href$="/vghd.shtml"]
 ##a[href*="/adrotate/adrotate-out.php?"]
@@ -21608,6 +21603,7 @@ _popunder+$popup
 ||ad-flow.com^$third-party
 ||ad-gbn.com^$third-party
 ||ad-indicator.com^$third-party
+||ad-media.org^$third-party
 ||ad-server.co.za^$third-party
 ||ad-serverparc.nl^$third-party
 ||ad-sponsor.com^$third-party
@@ -28345,6 +28341,7 @@ http://utm.
 ||measuremap.com^$third-party
 ||mediaarmor.com^$third-party
 ||mediaforgews.com^$third-party
+||mediagauge.com^$third-party
 ||mediaseeding.com^$third-party
 ||mega-stats.com^$third-party
 ||memecounter.com^$third-party
@@ -29656,6 +29653,7 @@ http://utm.
 ||mitel.marketbright.com^
 ||mkcms.com/stats.js
 ||ml.com/enterprisetagging/
+||mmi.bemobile.ua^
 ||mmpstats.mirror-image.com^
 ||mochiads.com/clk/
 ||modules.ooyala.com^*/analytics-
@@ -31456,6 +31454,7 @@ http://utm.
 ||sana.newsinc.com.s3.amazonaws.com^
 ||sap.com/global/ui/js/trackinghelper.js
 ||satellite-tv-guides.com/stat/
+||sb.vevo.com^
 ||sbs.com.au/js/tracking/ondemand.js
 ||sciencedaily.com/blank.htm
 ||sciencedaily.com/cache.php?
@@ -32038,6 +32037,7 @@ http://utm.
 ||el-mundo.net/js/s_code.js$domain=elmundo.es
 ||expressen.se/static/scripts/s_code.js?
 ||img-bahn.de/v/*/js/s_code.js$domain=bahn.de
+||kohls.com/media/omniture/s_code.js
 ||nwsource.com/shared/js/s_code.js?$domain=seattletimes.com
 ||nyteknik.se/ver02/javascript/2012_s_code_global.js
 ||redbox.com^*/scripts/s_code.js

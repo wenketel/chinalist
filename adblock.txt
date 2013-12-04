@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: FJgDnG4lEGatU1ZfdeBu0Q
+!  Checksum: nj9fksr7PM+RqcYt/QvQ+g
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 03 Dec 2013 19:08:24 +0800
+!  Last Modified:  Wed, 04 Dec 2013 19:06:28 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -25,8 +25,6 @@ yocoy.com#@##AdArea
 @@||zj.189.cn/wt_uac/login/wt/js/pop.js
 @@||kanknim.allyes.com^$object-subrequest
 @@||ad.ourgame.com/cgi-bin/insertflasha.js
-@@||cpro.baidu.com/cpro/ui/c.js$domain=bbs.9es.cn
-@@||pos.baidu.com/ecom?$script,domain=bbs.9es.cn
 @@||hm.baidu.com^$third-party,domain=pic.cankaoxiaoxi.com
 @@||chinahr.com/images/phpads/$image,~third-party
 @@||icbc.com.cn/ICBC_ADJS/$script,~third-party
@@ -57,13 +55,6 @@ suning.com#@##topAd
 @@||union.mapbar.com/apis/maps/$script
 
 !----------------------------Well-known Sites--------------
-!---115网盘
-||static.115img.com/static/115tj.js
-||static.115img.com/static/delivery/
-||q.115.com/static/*/advs_$image
-q.115.com##.full-column-ad
-q.115.com##.gb-advs
-
 !---网易
 ||img1.126.net^
 ||img2.126.net^
@@ -344,6 +335,7 @@ iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com##[class^="wgt-ads"]
 ||hm.baidu.com^$third-party
 ||spcode.baidu.com^
 ||cpro.baidustatic.com^
+||ubmcmm.baidustatic.com^
 !--iQIYI
 @@||data.video.qiyi.com/videos/other/$object_subrequest
 /ts.swf|$domain=iqiyi.com
@@ -876,15 +868,8 @@ kkkmh.com##[class^="mm-"]
 bt.ktxp.com##.ad
 
 !---Ku6
-@@||g.aa.sdo.com/crossdomain.xml
-@@||g.aa.sdo.com/?method=getversion$object_subrequest
+||sdo.com^$object-subrequest,domain=v.ku6.com
 ||st.vq.ku6.cn^
-||gug.ku6cdn.com^
-||m.ku6.com/statics/js/official_install_beacon.js
-v.ku6.com##[class^="aa_"]
-my.ku6.com##.gg
-www.ku6.com##[class^="a_d0608"]
-www.ku6.com##.ku6_ad
 !--embedded
 @@||pic.snyu.com/sdk*/Main.swf$domain=~ku6.com
 
@@ -1946,6 +1931,7 @@ club.tgfcer.com#@##content_adv
 ||i02.youxigu.com/skin/youxigu/img/bg-new.jpg
 
 !---Net Disks
+||static.115img.com/static/115tj.js
 ||d.119g.com/fanwan/$script
 ||bego.cc/adm.js
 ||bego.cc/img/
@@ -2577,6 +2563,7 @@ zxtjd.com###it_an
 ||523688.com^$third-party
 ||52kkt.com^$third-party
 ||52lover.info^$third-party
+||54kefu.net^$third-party
 ||5566ad.com^$third-party
 ||5577.com^$third-party
 ||559gp.com^$third-party
