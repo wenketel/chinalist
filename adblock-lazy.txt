@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: EoRhWw6FpCdOZbwHyrGqeQ
+!  Checksum: sj0GjyeMf5vNsmH4E/cNvQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 11 Dec 2013 22:13:22 +0800
+!  Last Modified:  Wed, 11 Dec 2013 22:47:27 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -94,14 +94,6 @@ www.youdao.com###ext
 178.com##.ad-2-1
 178.com##.ad2
 178.com##.ad4
-
-!---17K小说网
-||img.17k.com/channel/flash/
-||img.17k.com/channel/qita/
-||log.17k.com^
-||stat.17k.com^
-17k.com##[id^="ad0"]
-17k.com##.b950
 
 !---世纪文学
 ||2100book.com/scripts/open/$script
@@ -451,7 +443,6 @@ chinaiiss.com##.nav_r:nth-child(6)
 ||sortweb.chinatimes.com^
 ||wantbuy.chinatimes.com^$subdocument
 chinatimes.com##.ad
-chinatimes.com##.ad_72890_box
 chinatimes.com##.idx_hot_ad
 
 !---中国黄金投资网
@@ -483,6 +474,7 @@ download.csdn.net##.ad_area_1
 ||doubleclick.tv002.com^
 ||400gb.com/img/
 ||400gb.com/adm.js
+/min/g=js$domain=400gb.com|pipipan.com
 400gb.com##.ad_area
 400gb.com,ctdisk.com##.kk_xshow
 
@@ -757,7 +749,7 @@ iciba.com##.vAd_head
 ||ifeng.com/statics/comment_baidu.html
 ||de.deliver.ifeng.com^
 ||games.ifeng.com/webgame/
-||img.ifeng.com/tres/$image,~image,popup
+||img.ifeng.com/tres/$popup
 ||img.ifeng.com/tres/html/
 ||img.ifeng.com/tres/ifeng/
 ||img.ifeng.com/tres/market/
@@ -1149,7 +1141,7 @@ rkanr.com##.flt.item2.bglink
 ||cj.qidian.com^$object,subdocument
 ||cj.qidian.com/Picture/$domain=forum.qdwenxue.com|forum.qidian.com
 ||c.pingba.qidian.com/increase.htm
-||sdo.com/?appendix=$image,~image,popup
+||sdo.com/?appendix=$popup
 ||sdo.com/?method=GetAd&
 ||login.sdo.com/sdo/PRes/js/sdo_beacon.js
 ||uedas.$domain=qdmm.com|qdwenxue.com|qidian.com
@@ -1161,7 +1153,7 @@ www.qidian.com##[class^="gg"]
 www.qidian.com##.RightAD
 !--晋江文学城
 |http://*/*.ca|$domain=jjwxc.net
-||jjwxc.net/jjad*.html$image,~image,popup
+||jjwxc.net/jjad*.html$popup
 ||static.jjwxc.net/sp/$subdocument
 jjwxc.net##[id^="adp_"]
 jjwxc.net##.h8px + div[align="center"]
@@ -1715,7 +1707,6 @@ www.zol.com.cn##.adwindow
 www.zol.com.cn##[id^="Bar"]
 zol.com.cn##.ad-box
 !--中关村在线武汉站
-||pc3w.com/adpic/
 ||pc3w.com/js/
 pc3w.com###ad_down_title
 pc3w.com##table[width="925"][height="305"]
@@ -1910,7 +1901,6 @@ gxp.cc##.adx90
 gxp.cc##.adx223
 ||jianguoyun.com/static/bdshare/v.gif
 ||d.namipan.com/inc_js/$script
-/min/g=js$domain=400gb.com|pipipan.com
 ||u.qjwm.com^
 ||qjwm.com/123.jpg
 /shortcounter.jsp$domain=ref.so
@@ -1950,7 +1940,6 @@ dzwww.com##.ad
 ||hebei.com.cn/eap/
 ||hebei.com.cn/swf/
 ||hebei.com.cn/sys/online_calc.js^
-||itocp.com/html/$object
 ||jjxw.cn^$object
 jjxw.cn##[class$="_ad"]
 jjxw.cn##[class^="head_ad"]
@@ -2056,8 +2045,6 @@ bxs.cc###content > a[id^="a_"]
 @@||dukankan.com/xiaoyi/js/loginTop.js
 ||dukankan.com/xiaoyi/js/
 ||dudu8.net/a_d/
-||img.duyidu.com/includehtml/newjs/5.js
-||img.duyidu.com/includehtml/newjs/m$script
 ||flux.faloo.com/pvdata.aspx
 ||s.faloo.com/novel/ad.js
 faloo.com##[class^="ad_"]
@@ -2431,11 +2418,11 @@ zxtjd.com###it_an
 /clicktotal/ClickTotal.js
 ||189.cn/dns/
 ||gd.ct10000.com/js/ecssstat.js
-||gd.ct10000.com^*/push/$image,~image,popup,third-party
-||gd.189.cn/ad/$image,~image,popup,third-party
-||gd.189.cn/gz/promotion/$image,~image,popup,third-party
-||gd.189.cn^*/push/$image,~image,popup,third-party
-||gd.189.cn/push/$image,~image,popup,third-party
+||gd.ct10000.com^*/push/$popup,third-party
+||gd.189.cn/ad/$popup,third-party
+||gd.189.cn/gz/promotion/$popup,third-party
+||gd.189.cn^*/push/$popup,third-party
+||gd.189.cn/push/$popup,third-party
 ||jxad.jx163.com^
 !--联通
 ||kdly.net^$third-party
@@ -2443,18 +2430,18 @@ zxtjd.com###it_an
 /js/utils51.js
 /js/utils78.js
 !--popup
-||100tjs.com^$image,~image,popup,third-party
-||114zhaofang.com^$image,~image,popup,third-party
-||116b.com^$image,~image,popup,third-party
+||100tjs.com^$popup,third-party
+||114zhaofang.com^$popup,third-party
+||116b.com^$popup,third-party
 ||234y.com^$third-party
-||web.7k7k.com^$image,~image,popup,third-party
-||arpg2.com^$image,~image,popup,third-party
-||resmkt.dipan.com^$image,~image,popup,third-party
-||game3896.com^$image,~image,popup,third-party
-||gelo.tw^$image,~image,popup,third-party
-||gm99.com^$image,~image,popup,third-party
-||xp3366.com^$image,~image,popup,third-party
-||xp9365.com^$image,~image,popup,third-party
+||web.7k7k.com^$popup,third-party
+||arpg2.com^$popup,third-party
+||resmkt.dipan.com^$popup,third-party
+||game3896.com^$popup,third-party
+||gelo.tw^$popup,third-party
+||gm99.com^$popup,third-party
+||xp3366.com^$popup,third-party
+||xp9365.com^$popup,third-party
 !--9v
 ||9vcpc.cn^$third-party
 ||f.9vcpm.cn^$third-party
@@ -2530,7 +2517,6 @@ zxtjd.com###it_an
 ||51link.com^$third-party
 ||51wan.com^$third-party,domain=~qqopenapp.com|~qzoneapp.com|~tqapp.cn|~twsapp.com
 ||523688.com^$third-party
-||52kkt.com^$third-party
 ||52lover.info^$third-party
 ||54kefu.net^$third-party
 ||5566ad.com^$third-party
@@ -2570,7 +2556,6 @@ zxtjd.com###it_an
 ||8888mmm.com^$third-party
 ||8le8le.com^$third-party
 ||8peng.com^$third-party
-||909568.com^$third-party
 ||90hao.com^$third-party
 ||913h6.cn^$third-party
 ||9165.net^$third-party
@@ -2609,7 +2594,6 @@ zxtjd.com###it_an
 ||adsage.com^$third-party
 ||adsame.com^$third-party,domain=~autohome.com.cn|~iphone4.tw|~yicai.com
 ||adsbro.com^$third-party
-||adsue.com^$third-party
 ||adszui.com^$third-party
 ||adunioncode.com^$third-party
 ||advprotraffic.com^$third-party
@@ -2657,7 +2641,6 @@ zxtjd.com###it_an
 ||hk.chinesegamer.net^$third-party
 ||click.com^$third-party
 ||cnxad.com^$third-party
-||adm.cnzz.net^$third-party
 ||cocoren.com^$third-party
 ||cpa58.cc^$third-party
 ||cpm360.com^$third-party
@@ -2705,7 +2688,7 @@ zxtjd.com###it_an
 ||game3737.com^$third-party
 ||banner.gametower.com.tw^$third-party
 ||gglmcp.com^$third-party
-||ggmmwan.com^$image,~image,popup
+||ggmmwan.com^$popup
 ||gocsgo.com^$third-party
 ||gohappy.com.tw^$third-party
 ||googleadsl.com^$third-party
@@ -2722,7 +2705,6 @@ zxtjd.com###it_an
 ||housefun.com.tw^$third-party
 ||hoyiad.com^$third-party
 ||huaqimen.com^$third-party
-||huiten99.com^$third-party
 ||huoli.com^$third-party
 ||i-power.hk^$third-party
 ||i-qianming.cn^$third-party
@@ -2779,7 +2761,6 @@ zxtjd.com###it_an
 ||myiee.com^$third-party
 ||mylovewebs.com^$third-party
 ||i.na7.cc^$third-party
-||naqigs.com^$third-party
 ||u-link.nbb.tw^$third-party
 ||u1th.com^$third-party
 ||netgy.com^$third-party
@@ -2888,7 +2869,6 @@ zxtjd.com###it_an
 ||vipads.cn^$third-party
 ||s.vipcnzz.com^$third-party
 ||uucm.cn^$third-party
-||vjia.com^$third-party
 ||vodone.cn^$third-party
 ||wan789.net^$third-party
 ||wangzhan5.com^$third-party
@@ -2937,7 +2917,6 @@ zxtjd.com###it_an
 ||ysm-advertising.tw^$third-party
 ||ytunion.com^$third-party
 ||yuunion.com^$third-party
-||yx4449.com^$third-party
 ||yxcpm.com^$third-party
 ||yy32.com^$third-party
 ||zdy.cc^$third-party
@@ -2962,7 +2941,6 @@ zxtjd.com###it_an
 /adpuba/*
 /adservice/*
 /adv.
-/adv/*
 /advpic/*
 /attachments/ad/*
 .com/js/ad.
@@ -3019,6 +2997,9 @@ zxtjd.com###it_an
 
 !-----------------------Element Hiding---------------------
 ##a[target="_blank"][onmousedown^="this.href='http://p.ujian.cc/?url="]
+17k.com##[id^="ad0"]
+17k.com##.b950
+17k.com##DIV[style="clear:both;width:950px; height:60px; margin:5px  auto; overflow:hidden;"]
 1000fr.net##center
 17ppt.com#@#.topads
 17ppt.com##.ad80
@@ -3089,7 +3070,6 @@ mobile01.com##[class^="ad-"]
 mobile01.com##.admicrobtn
 mobile01.com##a[href^="adredir.php"]
 naruto.hk###jieshao DIV
-needpop.com##.spaceborder > table[style="background: #BBE9FF"]
 paoshu8.net##[id^="ad_"]
 paoshu8.net###TextTitle ~ table[border="0"]
 portal.opera.com##.ads
@@ -3111,7 +3091,6 @@ vmelon.com##.focus
 vmelon.com###text-4
 web20share.com##.widget:nth-of-type(5)
 wcxiaoshuo.com##div[style="margin:10px auto; width:960px;height:90px;"]
-wordlm.com##.ad.mt1
 xfastest.com##[id^="ad"].block
 xfastest.com##.articles-left-olny
 xfastest.com###showRightOverFlow
@@ -32240,10 +32219,10 @@ youtube.com##a[href^="http://www.youtube.com/cthru?"]
 @@||imrworldwide.com/novms/js/2/ggcmb353.js$domain=nexttv.com.tw
 @@||o.aolcdn.com/omniunih.js$domain=autoblog.com|engadget.com|mapquest.com|video.aol.com|www.aol.com
 ! *** adblock-privacy.txt
+||stat.17k.com^
 ||eastmoney.com/count
 ||greenxf.com/count$script
 ||iplaysoft.com/plus/api/counter.php
-||pixanalytics.com^
 |http://click.$image
 |http://pv.
 |http://pvstat.
