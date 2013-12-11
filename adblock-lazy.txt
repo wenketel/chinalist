@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: 1T+duAryI+PQD1DyzKNagA
+!  Checksum: 814eOBUmxkccR1LsTOHEQQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 09 Dec 2013 22:33:26 +0800
+!  Last Modified:  Wed, 11 Dec 2013 21:31:06 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -27,6 +27,7 @@ yocoy.com#@##AdArea
 @@||zj.189.cn/wt_uac/login/wt/js/pop.js
 @@||kanknim.allyes.com^$object-subrequest
 @@||hm.baidu.com^$third-party,domain=pic.cankaoxiaoxi.com
+@@||bbs.byr.cn/article/Advertising/
 @@||bbs.byr.cn/board/Advertising?
 @@||chinahr.com/images/phpads/$image,~third-party
 @@||icbc.com.cn/ICBC_ADJS/$script,~third-party
@@ -19995,6 +19996,7 @@ _popunder+$popup
 ##.partner_ads
 ##.partnersTextLinks
 ##.pb-mod-ad-leaderboard
+##.pd-ads-mpu
 ##.peg_ad
 ##.pencil_ad
 ##.performancingads_region
@@ -21538,7 +21540,6 @@ _popunder+$popup
 ##a[href^="http://www.socialsex.com/"]
 ##a[href^="http://www.streamate.com/exports/"]
 ##a[href^="http://www.text-link-ads.com/"]
-##a[href^="http://www.torrentprivacy.com/"]
 ##a[href^="http://www.uniblue.com/cm/"]
 ##a[href^="http://www.urmediazone.com/signup"]
 ##a[href^="http://www.webtrackerplus.com/"]
@@ -21546,7 +21547,6 @@ _popunder+$popup
 ##a[href^="http://www1.clickdownloader.com/"]
 ##a[href^="http://wxdownloadmanager.com/dl/"]
 ##a[href^="https://secure.eveonline.com/ft/?aid="]
-##a[href^="https://torrentprivacy.com/"]
 ##a[href^="https://www.share-online.biz/affiliate/"]
 ##a[id^="mg_add"]
 ##a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?key="][target="_blank"]
@@ -21582,6 +21582,7 @@ _popunder+$popup
 ###tadsto.c
 ###topstuff > #tads
 ##.GB3L-QEDGY .GB3L-QEDF- > .GB3L-QEDE-
+##.GPMV2XEDA2 > .GPMV2XEDP1 > .GPMV2XEDJBB
 ##.ch[onclick="ga(this,event)"]
 ##.commercial-unit-desktop-rhs
 ##.commercial-unit-desktop-top
@@ -21637,6 +21638,7 @@ _popunder+$popup
 ||3omb.com^$third-party
 ||3rdads.com^$third-party
 ||3redlightfix.com^$third-party
+||3t7euflv.com^$third-party
 ||43plc.com^$third-party
 ||46.165.197.153^
 ||46.165.197.231^
@@ -23077,7 +23079,6 @@ _popunder+$popup
 ||m2pub.com^$third-party
 ||m5prod.net^$third-party
 ||madadsmedia.com^$third-party
-||madisonlogic.com^$third-party
 ||madserving.com^$third-party
 ||madsone.com^$third-party
 ||magnetisemedia.com^$third-party
@@ -24800,6 +24801,7 @@ _popunder+$popup
 ||firstclass-download.com^$subdocument,third-party
 ||flagship.asp-host.co.uk^$third-party
 ||flipchat.com/index.php?$third-party
+||flipkart.com/affiliate/displayWidget?$third-party
 ||flipkart.com/affiliateWidget/$third-party
 ||flower.com/img/lsh/
 ||flyertown.ca^$script,third-party
@@ -24888,6 +24890,7 @@ _popunder+$popup
 ||hitleap.com/assets/banner.png
 ||hostdime.com/images/affiliate/$third-party
 ||hosting.conduit.com^$third-party
+||hostinger.nl/banners/
 ||hostmonster.com/src/js/izahariev/$third-party
 ||hotelsbycity.com^*/bannermtg.php?$third-party
 ||hoteltravel.com/partner/$third-party
@@ -30773,7 +30776,6 @@ http://utm.
 ||easy2.com^*/logging/
 ||ebay.com/op/t.do?event
 ||ebayobjects.com/*;dc_pixel_url=$image
-||ebaystatic.com^*/roverlv.js
 ||ec2-prod-tracker.babelgum.com^
 ||ectnews.com/shared/missing.gif?
 ||edgecastcdn.net^*/pixel_1.png?
@@ -30831,6 +30833,7 @@ http://utm.
 ||ez.no/statjs/
 ||f-secure.com^*/wtsdc.js
 ||facebook.com/ai.php?
+||facebook.com/ajax/*/log.php
 ||facebook.com/ajax/*logging
 ||facebook.com/ct.php
 ||facebook.com/friends/requests/log_impressions
@@ -32131,6 +32134,7 @@ http://utm.
 ||zylom.com^*/tracking_spotlight.js
 ! Preliminarily blocking Omniture s_code tracking scripts (versions H.25 - H.25.2) due to breakage (https://adblockplus.org/forum/viewtopic.php?f=10&t=11378)
 ||adobe.com^*/omniture_s_code.js
+||aexp-static.com/api/axpi/omniture/s_code_myca_context.js$domain=americanexpress.com
 ||aircanada.com/shared/common/sitecatalyst/s_code.js
 ||bahn.de/common/view/static/*/js/lib/omniture/s_code.min.js
 ||bitdefender.com/resources/scripts/omniture/*/code.js
