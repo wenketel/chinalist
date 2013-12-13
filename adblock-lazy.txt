@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: yW/BQ5R48b+KZOTKzQJjew
+!  Checksum: OTUuazMKa/0+eaiWOlC9rw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 11 Dec 2013 22:52:25 +0800
+!  Last Modified:  Fri, 13 Dec 2013 15:43:21 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -469,14 +469,9 @@ download.csdn.net##.ad_area_1
 ||iteye.com/iframe_ggbd/
 
 !---CTdisk
-@@||400gb.com/advview2013.php?$~third-party
-@@||js.adm.cnzz.net/js/abase.js$domain=400gb.com
+@@||cpro.baidustatic.com^$domain=400gb.com
 ||doubleclick.tv002.com^
-||400gb.com/img/
-||400gb.com/adm.js
-/min/g=js$domain=400gb.com|pipipan.com
 400gb.com##.ad_area
-400gb.com,ctdisk.com##.kk_xshow
 
 !---当当
 ||a.dangdang.com/smart.js?
@@ -6064,6 +6059,7 @@ zjol.com.cn##span.lqgg
 /dsg/bnn/*
 /dspads.
 /dtiadvert125x125.
+/dtim300x250.$script
 /dtmads/*
 /dxd/ads/*
 /dyn_banner.
@@ -11309,6 +11305,7 @@ _popunder+$popup
 ###adtech_2
 ###adtech_3
 ###adtech_googleslot_03c
+###adtech_leaderboard01
 ###adtech_takeover
 ###adtechbanner728
 ###adtext
@@ -15676,6 +15673,7 @@ _popunder+$popup
 ##.ad-vert
 ##.ad-vertical
 ##.ad-vertical-container
+##.ad-vertical-stack-ad
 ##.ad-vtu
 ##.ad-wide
 ##.ad-widget
@@ -19942,6 +19940,7 @@ _popunder+$popup
 ##.partner-ads-container
 ##.partnerAd
 ##.partner_ads
+##.partnerad_container
 ##.partnersTextLinks
 ##.pb-mod-ad-leaderboard
 ##.pd-ads-mpu
@@ -21452,6 +21451,7 @@ _popunder+$popup
 ##a[href^="http://www.FriendlyDuck.com/AF_"]
 ##a[href^="http://www.adbrite.com/mb/commerce/purchase_form.php?"]
 ##a[href^="http://www.adxpansion.com"]
+##a[href^="http://www.amazon.co.uk/exec/obidos/external-search?"]
 ##a[href^="http://www.babylon.com/welcome/index?affID"]
 ##a[href^="http://www.bet365.com/home/?affiliate"]
 ##a[href^="http://www.dealcent.com/register.php?affid="]
@@ -23222,6 +23222,7 @@ _popunder+$popup
 ||obibanners.com^$third-party
 ||objects.tremormedia.com^$~object-subrequest,third-party
 ||objectservers.com^$third-party
+||oceanwebcraft.com^$third-party
 ||oclus.com^$third-party
 ||offeradvertising.biz^$third-party
 ||offerforge.com^$third-party
