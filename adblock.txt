@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: zV/szde1JYZB46pwz3CZhw
+!  Checksum: Rpzjx1neBGt8n1Li+az35A
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 14 Dec 2013 10:32:42 +0800
+!  Last Modified:  Mon, 16 Dec 2013 14:38:54 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -635,6 +635,7 @@ fuliba.net###sidebar TABLE[width="265"][align="center"]
 
 !---游民星空
 ||gamersky.com/frame/
+||gamersky.com/img/
 ||gamersky.com/piaofu/
 ||gamersky.com/pt/
 ||gamersky.com/pt2/
@@ -1016,6 +1017,13 @@ nownews.com###focus_area
 nownews.com###index_headline_box + .page_title
 nownews.com###nownews_pickup
 
+!---南召都市网
+||nzdsw.com/js/focus.js
+||nzdsw.com/UploadFiles/upload/ad/
+nzdsw.com##.focus
+nzdsw.com###FullAdscontent +script +.wrap.mt
+nzdsw.com###FullAdscontent
+
 !---东方电视
 @@||home.on.cc/adv/web/corp/$~image
 @@||tv.on.cc/ad/skin_$subdocument
@@ -1157,6 +1165,7 @@ jjwxc.net###containermmtypea
 jjwxc.net##table[style^="width:984px;"]
 
 !---QQ
+@@||mat1.gtimg.com/www/*/js/pop.js$domain=qq.com
 ||wa.gtimg.com^
 ||qq.com/livemsg?
 ||promreport.crm2.qq.com/wpadisplay/r.gif?
@@ -1274,6 +1283,7 @@ finance.sina.com.cn###adSinaHouseHeadLink
 !-weibo
 ||biz.weibo.com^
 weibo.com##[feedtype="ad"]
+weibo.com##div[ad-data]
 !--sina.com.hk
 ||as.sinahk.net^
 sina.com.hk##.sidebarItem:nth-child(10)
@@ -1632,12 +1642,13 @@ ynet.com##[style="width:300px;height:250px;"]
 news.ynet.com##.RC
 
 !---优酷
+@@||valf.atm.youku.com/crossdomain.xml$domain=~tudou.com
+@@||valf.atm.youku.com/vf?$object-subrequest
+@@||static.youku.com^*/v/swf/qplayer.swf?
 ||l.ykimg.com^
 ||p-log.ykimg.com^
 ||e.stat.ykimg.com/red/
 ||f.youku.com/crossdomain.xml
-@@||valf.atm.youku.com/crossdomain.xml$domain=~tudou.com
-@@||valf.atm.youku.com/vf?$object-subrequest
 ||atm.youku.com^
 ||hz.youku.com/red/
 ||lstat.youku.com^
@@ -2135,6 +2146,8 @@ zzzcn.com#@##adtop
 ||web.aipai.com/bbt/
 aipai.com##.cover_bd
 ||ballive.com/jsgg/
+||web.houyi.baofeng.net/Consultation/web.php
+||static.hd.baofeng.com/script/baidu_3979.js
 ||e2mv.com/da/
 @@||go.goyeah.com/adpolestar/$object_subrequest
 ||goyeah.com/homepage.html
@@ -2469,6 +2482,7 @@ zxtjd.com###it_an
 ||122.com.tw^$third-party
 ||129game.com^$third-party
 ||131cc.com^$third-party
+||1503.net^$third-party
 ||1717gs.com^$third-party
 ||178gg.com^$third-party
 ||17leyi.com^$third-party
@@ -2789,7 +2803,6 @@ zxtjd.com###it_an
 ||qizhao.com^$third-party
 ||qjwm.com^$third-party
 ||qling.com^$third-party
-||qlogo.cn^$third-party
 ||qlunion.com^$third-party
 ||qq61.com^$third-party
 ||qq937.com^$third-party
@@ -2996,7 +3009,7 @@ zxtjd.com###it_an
 ##a[target="_blank"][onmousedown^="this.href='http://p.ujian.cc/?url="]
 17k.com##[id^="ad0"]
 17k.com##.b950
-17k.com##DIV[style="clear:both;width:950px; height:60px; margin:5px  auto; overflow:hidden;"]
+17k.com##[id^="PAGE_AD"]
 1000fr.net##center
 17ppt.com#@#.topads
 17ppt.com##.ad80
