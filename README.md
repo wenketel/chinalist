@@ -31,21 +31,21 @@ ChinaList</a>
        ChinaList 团队维护的核心列表，作为EasyList的补充列表。  
        **推荐所有中文用户订阅**
      - <a href="abp:subscribe?location=http://adblock-chinalist.googlecode.com/svn/trunk/adblock-lazy.txt&title=ChinaList Lazy">ChinaList Lazy</a>  
-        ChinaList 和 EasyList、 EasyPrivacy 的部分规则的合并列表，自动生成，和 ChinaList 保持同步更新。  
-        轻量版的 EasyList, EasyPrivacy, ChinaList 的组合，[细节说明](https://code.google.com/p/adblock-chinalist/wiki/something_about_ChinaList_Lazy)。  
+        轻量版的 EasyList, EasyPrivacy, ChinaList 的组合，[细节说明](https://code.google.com/p/adblock-chinalist/wiki/something_about_ChinaList_Lazy)，自动生成，和 ChinaList 保持同步更新。  
         **推荐访问少量英文站点的中文用户订阅**
 
 - 其他团队维护的列表
 
       - <a href="abp://subscribe/?location=https://easylist-downloads.adblockplus.org/easylist.txt&title=EasyList(USA)">
 EasyList</a>  
-      EasyList致力于维护ABP的通用规则，以及英文站点的规则。推荐订阅ChinaList用户都订阅此列表，ChinaList Lazy用户则不必订阅。
+      EasyList致力于维护ABP的通用规则，以及英文站点的规则。  
+      **推荐订阅 ChinaList 用户都订阅此列表，ChinaList Lazy 用户则不必订阅。**
       -  <a href="abp://subscribe/?location=https://easylist-downloads.adblockplus.org/easyprivacy.txt&title=EasyPrivacy">
 EasyPrivacy</a>  
       EasyPrivacy 主要用于过滤第三方统计类脚本。这些脚本使得网站主知道我们正在使用的操作系统／浏览器等信息，此类统计并非网站必须之功能，有理由过滤，细节请请参阅[EasyPrivacy policy](https://easylist.adblockplus.org/en/policy)。  
       **根据个人喜好，选择是否订阅。**
   
-  如果您有订阅丶更新丶性能等方面的疑问，请参阅[FAQ](http://code.google.com/p/adblock-chinalist/wiki/FAQ) 
+  如果您有订阅丶更新丶性能等方面的疑问，请参阅 [FAQ](http://code.google.com/p/adblock-chinalist/wiki/FAQ) 
 
 补充
 ===
@@ -71,7 +71,7 @@ Adblock Plus非万能，其实现原理[在此](http://adblockplus.org/zh_CN/faq
 
 欢迎参与[讨论组(Maybe GFWed)](https://groups.google.com/group/adblock-chinalist)，发表您的意见丶建议或提交 [Issues](https://github.com/gythialy/chinalist/issues)。
 
-如果您对 Adblock Plus 和 ChinaList 感兴趣，请查阅[官方文档](http://adblockplus.org/zh_CN/documentation)或者项目 Wiki 中的文档，也许对您有帮助。
+如果您对 Adblock Plus 和 ChinaList 感兴趣，请查阅[官方文档](http://adblockplus.org/zh_CN/documentation)或者[项目 Wiki](https://github.com/gythialy/chinalist/wiki) 中的文档，也许对您有帮助。
 
 *Need help!*  
-欢迎加入 ChinaList 团队，加入前请先[移步这里](http://code.google.com/p/adblock-chinalist/wiki/The_skills_needed_to_join_ChinaList)看自己是否满足条件 
+欢迎加入 ChinaList 团队，加入前请先[移步这里](https://github.com/gythialy/chinalist/The_skills_needed_to_join_ChinaList)看自己是否满足条件 
