@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: ewdHsjm4jk0gZ2Xr+690aQ
+!  Checksum: RDk0WMGl5zT2oUHFDV0i2A
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 18 Dec 2013 23:02:02 +0800
+!  Last Modified:  Mon, 23 Dec 2013 10:18:06 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -242,11 +242,11 @@ acgzone.us###adpic1
 acgzone.us##DIV[fuck="nothing"]
 
 !---游侠网
+@@||ali213.net/*/tj.js
+@@||ali213.net/*/pop.js
 ||bmp.ali213.net/js/
-||bmp.ali213.net/pubjs/
-shop.ali213.com#@##adlayer
-ali213.net###banner
-ali213.net##.newright
+||bmp1.ali213.net/js/
+||bmp1.ali213.net/pubjs/
 
 !---阿里巴巴
 @@||c.aliimg.com/fdevlib/js/$script
@@ -1060,17 +1060,11 @@ oeeee.com###lj.clearfix
 oeeee.com##.textad-960-65.clearfix.c-gray
 
 !---太平洋电脑网
-||imgad0.3conline.com^
-||pconline.com.cn/images/lmt/area_lmt.js
+||pconline.com.cn/download/*/intf*.js
 ||pconline.com.cn/js/ivy.js
 ||acount.pconline.com.cn^
 ||pcgames.com.cn/g/
-||img0.pcgames.com.cn^$object
 pconline.com.cn##.ivyBaidu
-!--太平洋汽车网
-||pcauto.com.cn/global/footer/index.html
-!--太平洋电脑网产品论坛
-||www1.pconline.com.cn/itbbs09/js/itbbs09_wd.js
 
 !---人民网
 .gif?id=$domain=people.com.cn
@@ -1167,7 +1161,6 @@ jjwxc.net###containermmtypea
 jjwxc.net##table[style^="width:984px;"]
 
 !---QQ
-@@||mat1.gtimg.com/www/*/js/pop.js$domain=qq.com
 ||wa.gtimg.com^
 ||qq.com/livemsg?
 ||promreport.crm2.qq.com/wpadisplay/r.gif?
@@ -1689,8 +1682,9 @@ yesky.com##[class^="ad"]
 
 !---人人影视
 ||copy.ousns.com^
+||res.yyets.com/ads/
 yyets.com##.games-rec-list
-yyets.com###hxhd_taobao
+yyets.com##.tb-box
 
 !---叶子猪游戏网
 @@||yktj.yzz.cn/htmldata/mds/yzz_single_gg.js$domain=bbs.yzz.cn
