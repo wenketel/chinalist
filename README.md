@@ -1,26 +1,25 @@
-从此，广告已成往事
-==
+## 从此，广告已成往事
+
 专为所有中文用户(简/繁)维护的 Adblock Plus 过滤列表
 
-公告
-==
+## 公告
 
-**重要声明**  
+**重要声明**
 
 对于 Adblock Plus 的「非侵入式广告白名单」 (non-intrusive advertising list) 有任何疑问者，请务必了解该白名单由 Adblock Plus 官方维护，并非由志愿者管理。欲加入白名单者请详阅[官方文件](https://adblockplus.org/en/acceptable-ads#criteria)，符合条件后请向[官方提出申请](https://eyeo.com/acceptable-ads-application.html)。
 
 非侵入式广告项目与 ChinaList 等过滤列表维护者**完全无关**，我们只负责维护中文列表，并**不收取任何费用**。
 
-了解如何关闭「[允许非侵入式广告](https://adblockplus.org/zh_CN/acceptable-ads)」功能  
+了解如何关闭「[允许非侵入式广告](https://adblockplus.org/zh_CN/acceptable-ads)」功能。  
 
-重要：
+**其他**
 
 - ChinaList 只是对 EasyList 的补充，EasyList 已存在的规则，ChinaList 将不再添加
 - 目前 ABP 没有能力处理国内各大视频网站的内嵌广告，请通过其他[脚本](http://userscripts.org/scripts/show/119622)或者[扩展](https://code.google.com/p/haoutil/)解决
 - 本项目谢绝[不理性用户](https://code.google.com/p/adblock-chinalist/issues/detail?id=1113)
-- ChinaList 不再(自 2010/08/04 起)提供对ChinaList-Strict和NoSex-NoEnt相关的任何支持，[相关讨论](http://goo.gl/PZMu)
+- ChinaList 不再(自 2010/08/04 起)提供对 ChinaList-Strict 和 NoSex-NoEnt 相关的任何支持，[相关讨论](http://goo.gl/PZMu)
 - ChinaList 不再(自 2013/08/27 起)过滤追踪用户信息的脚本等，[详情在此
-](https://groups.google.com/forum/#!topic/adblock-chinalist/OTqdQTvnon4) <sup><font color="red">New!!!</font></sup>
+](https://groups.google.com/forum/#!topic/adblock-chinalist/OTqdQTvnon4)
 
 订阅
 ==
