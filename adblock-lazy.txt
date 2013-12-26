@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: iHWd6dAm5JJg15J6FXR8lA
+!  Checksum: nSCz3rDxh0AlX8tFHvALFA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 23 Dec 2013 11:18:46 +0800
+!  Last Modified:  Thu, 26 Dec 2013 09:23:32 +0800
 !  Homepage: http://adblock-chinalist.googlecode.com/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -34,6 +34,8 @@ yocoy.com#@##AdArea
 @@||fireeye.ijinshan.com/static/js/analyse.js
 @@||ganji.com/findjob/send_resume.php?$subdocument
 @@||ad.ourgame.com/cgi-bin/insertflasha.js
+@@||adcdn.pingan.com^
+@@||sdc.pingan.com^$~image
 @@||ad.qyer.com^
 bbs.kafan.cn#@#.a_mu
 news.now.com#@##ad-2
@@ -94,6 +96,10 @@ www.youdao.com###ext
 178.com##.ad-2-1
 178.com##.ad2
 178.com##.ad4
+
+!---19楼
+||citysbs.com^*swf
+19lou.com##[class$="ad-cycle"]
 
 !---世纪文学
 ||2100book.com/scripts/open/$script
@@ -3012,7 +3018,6 @@ zxtjd.com###it_an
 1000fr.net##center
 17ppt.com#@#.topads
 17ppt.com##.ad80
-19lou.com##.head-ad
 3dmgame.com##.banner_2
 3dmgame.com##.R1
 www.3dmgame.com##.banner_1
@@ -9081,6 +9086,7 @@ _popunder+$popup
 ###AdAuth2
 ###AdAuth3
 ###AdAuth4
+###AdBanner
 ###AdBannerSmallContainer
 ###AdBanner_F1
 ###AdBanner_S
@@ -11226,6 +11232,7 @@ _popunder+$popup
 ###adskinlink
 ###adskinright
 ###adskintop
+###adsky
 ###adskyleftdiv
 ###adskyrightdiv
 ###adskyscraper
@@ -31999,6 +32006,7 @@ http://utm.
 ||watchmouse.com^*/jsrum/
 ||watson.live.com^
 ||wavescape.mobi/rest/track/
+||wbr.com/open.aspx?
 ||wcnc.com/g/g/button/
 ||weather.com/pagelet/metrics/
 ||weather.com^*/makeRequest-
