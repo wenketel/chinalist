@@ -8,14 +8,14 @@ namespace ABPUtils
         public const string CHINALIST_LAZY_HEADER = @"[Adblock Plus 2.1]
 !  Adblock Plus List with Main Focus on Chinese Sites.
 !  Last Modified:  
-!  Homepage: http://adblock-chinalist.googlecode.com/
+!  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
 !  If you need to know the details,
-!  please visit: https://code.google.com/p/adblock-chinalist/wiki/something_about_ChinaList_Lazy
+!  please visit: https://github.com/chinalist/chinalist/wiki/something_about_ChinaList_Lazy
 !
 !  If you need help or have any question,
-!  please visit: http://adblock-chinalist.googlecode.com/
+!  please visit: https://github.com/chinalist/chinalist
 !
 !  coding: utf-8, expires: 5 days
 !--CC-BY-SA 3.0 + Licensed, NO WARRANTY but Best Wishes----
