@@ -66,6 +66,11 @@ Adblock Plus非万能，其实现原理[在此](http://adblockplus.org/zh_CN/faq
 - [人人网改造器](http://userscripts.org/scripts/show/45836)
 - [去各大视频网站黑屏](https://code.google.com/p/haoutil/)  
 
+LICENSE 
+===
+
+- ChinaList [GNU Lesser GPL](http://www.gnu.org/licenses/lgpl.html)
+- ChinaList Lazy [Creative Commons 3.0 BY-SA](http://creativecommons.org/licenses/by-sa/3.0/)
 
 -------------
 
