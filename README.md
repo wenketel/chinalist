@@ -45,7 +45,7 @@ EasyPrivacy</a>
       EasyPrivacy 主要用于过滤第三方统计类脚本。这些脚本使得网站主知道我们正在使用的操作系统／浏览器等信息，此类统计并非网站必须之功能，有理由过滤，细节请请参阅[EasyPrivacy policy](https://easylist.adblockplus.org/en/policy)。  
       **根据个人喜好，选择是否订阅。**
   
-  如果您有订阅丶更新丶性能等方面的疑问，请参阅 [FAQ](http://code.google.com/p/adblock-chinalist/wiki/FAQ) 
+  如果您有订阅丶更新丶性能等方面的疑问，请参阅 [FAQ](https://github.com/chinalist/chinalist/wiki/FAQ) 
 
 补充
 ===
@@ -71,7 +71,7 @@ Adblock Plus非万能，其实现原理[在此](http://adblockplus.org/zh_CN/faq
 
 欢迎参与[讨论组(Maybe GFWed)](https://groups.google.com/group/adblock-chinalist)，发表您的意见丶建议或提交 [Issues](https://github.com/gythialy/chinalist/issues)。
 
-如果您对 Adblock Plus 和 ChinaList 感兴趣，请查阅[官方文档](http://adblockplus.org/zh_CN/documentation)或者项目 Wiki 中的文档，也许对您有帮助。
+如果您对 Adblock Plus 和 ChinaList 感兴趣，请查阅[官方文档](http://adblockplus.org/zh_CN/documentation)或者[项目 Wiki](https://github.com/chinalist/chinalist/wiki/) 中的文档，也许对您有帮助。
 
 *Need help!*  
-欢迎加入 ChinaList 团队，加入前请先[移步这里](The_skills_needed_to_join_ChinaList)看自己是否满足条件 
+欢迎加入 ChinaList 团队，加入前请先[移步这里](https://github.com/chinalist/chinalist/wiki/The_skills_needed_to_join_ChinaList)看自己是否满足条件 
