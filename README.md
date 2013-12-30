@@ -24,19 +24,19 @@
 ## 订阅
 
 #### ChinaList 团队维护的列表
-- ChinaList
+- ChinaList  
 ChinaList 团队维护的核心列表，作为EasyList的补充列表。  
 **推荐所有中文用户订阅**
-- ChinaList Lazy 
+- ChinaList Lazy  
 ChinaList 和 EasyList、 EasyPrivacy 的部分规则的合并列表，自动生成，和 ChinaList 保持同步更新。  
 轻量版的 EasyList, EasyPrivacy, ChinaList 的组合，[细节说明](https://code.google.com/p/adblock-chinalist/wiki/something_about_ChinaList_Lazy)。  
 **推荐访问少量英文站点的中文用户订阅**
 
 #### 其他团队维护的列表  
-- EasyList
+- EasyList    
 EasyList致力于维护ABP的通用规则，以及英文站点的规则。  
 **推荐订阅 ChinaList 用户都订阅此列表，ChinaList Lazy 用户则不必订阅**
-- EasyPrivacy  
+- EasyPrivacy      
 EasyPrivacy 主要用于过滤第三方统计类脚本。这些脚本使得网站主知道我们正在使用的操作系统／浏览器等信息，此类统计并非网站必须之功能，有理由过滤，细节请请参阅 [EasyPrivacy policy](https://easylist.adblockplus.org/en/policy)。  
 **根据个人喜好，选择是否订阅。**
   
