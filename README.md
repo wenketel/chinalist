@@ -21,31 +21,28 @@
 - ChinaList 不再(自 2013/08/27 起)过滤追踪用户信息的脚本等，[详情在此
 ](http://goo.gl/op9DwE)
 
-订阅
-==
-- ChinaList团队维护的列表
+## 订阅
 
- - <a href="abp:subscribe?location=http://adblock-chinalist.googlecode.com/svn/trunk/adblock.txt&title=ChinaList&requiresLocation=https://easylist-downloads.adblockplus.org/easylist.txt&requiresTitle=EasyList">ChinaList</a>  
-   ChinaList 团队维护的核心列表，作为EasyList的补充列表。  
-   **推荐所有中文用户订阅**
- - <a href="abp:subscribe?location=http://adblock-chinalist.googlecode.com/svn/trunk/adblock-lazy.txt&title=ChinaList Lazy">ChinaList Lazy</a>  
-    ChinaList 和 EasyList、 EasyPrivacy 的部分规则的合并列表，自动生成，和 ChinaList 保持同步更新。  
-    轻量版的 EasyList, EasyPrivacy, ChinaList 的组合，[细节说明](https://code.google.com/p/adblock-chinalist/wiki/something_about_ChinaList_Lazy)。  
-    **推荐访问少量英文站点的中文用户订阅**
+#### ChinaList 团队维护的列表
+- ChinaList
+ChinaList 团队维护的核心列表，作为EasyList的补充列表。  
+**推荐所有中文用户订阅**
+- ChinaList Lazy 
+ChinaList 和 EasyList、 EasyPrivacy 的部分规则的合并列表，自动生成，和 ChinaList 保持同步更新。  
+轻量版的 EasyList, EasyPrivacy, ChinaList 的组合，[细节说明](https://code.google.com/p/adblock-chinalist/wiki/something_about_ChinaList_Lazy)。  
+**推荐访问少量英文站点的中文用户订阅**
 
-- 其他团队维护的列表
-
-  - <a href="abp://subscribe/?location=https://easylist-downloads.adblockplus.org/easylist.txt&title=EasyList(USA)">EasyList</a>  
-  EasyList致力于维护ABP的通用规则，以及英文站点的规则。  
-  **推荐订阅 ChinaList 用户都订阅此列表，ChinaList Lazy 用户则不必订阅。**
-  -  <a href="abp://subscribe/?location=https://easylist-downloads.adblockplus.org/easyprivacy.txt&title=EasyPrivacy">EasyPrivacy</a>  
-  EasyPrivacy 主要用于过滤第三方统计类脚本。这些脚本使得网站主知道我们正在使用的操作系统／浏览器等信息，此类统计并非网站必须之功能，有理由过滤，细节请请参阅 [EasyPrivacy policy](https://easylist.adblockplus.org/en/policy)。  
-  **根据个人喜好，选择是否订阅。**
+#### 其他团队维护的列表  
+- EasyList
+EasyList致力于维护ABP的通用规则，以及英文站点的规则。  
+**推荐订阅 ChinaList 用户都订阅此列表，ChinaList Lazy 用户则不必订阅**
+- EasyPrivacy  
+EasyPrivacy 主要用于过滤第三方统计类脚本。这些脚本使得网站主知道我们正在使用的操作系统／浏览器等信息，此类统计并非网站必须之功能，有理由过滤，细节请请参阅 [EasyPrivacy policy](https://easylist.adblockplus.org/en/policy)。  
+**根据个人喜好，选择是否订阅。**
   
-  如果您有订阅丶更新丶性能等方面的疑问，请参阅 [FAQ](https://github.com/chinalist/chinalist/wiki/FAQ)。 
+> 如果您有订阅丶更新丶性能等方面的疑问，请参阅 [FAQ](https://github.com/chinalist/chinalist/wiki/FAQ)。 
 
-补充
-===
+## 补充
 
 Adblock Plus非万能，其实现原理[在此](http://adblockplus.org/zh_CN/faq_internal#policies)。其无法完成之任务，推荐使用脚本来协助完成。
 
