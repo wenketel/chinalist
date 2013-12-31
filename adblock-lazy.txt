@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: 0P5o4J0Js1fg6kX2Mq+UOQ
+!  Checksum: VBWTphwgpCNozYr9+kHlVQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 30 Dec 2013 20:13:35 +0800
+!  Last Modified:  Tue, 31 Dec 2013 21:48:06 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -877,7 +877,6 @@ bt.ktxp.com##.ad
 @@||player.letvcdn.com/p/*/newplayer/LetvPlayer.swf
 @@||player.letvcdn.com/p/*/newplayer/LivePlayer.swf
 ||player.letvcdn.com^*.swf?
-||ark.letv.com^
 ||dc.letv.com^
 ||pro.hoye.letv.com^
 letv.com##.Ad
@@ -4111,6 +4110,7 @@ zjol.com.cn##span.lqgg
 /adban.
 /adbanner.
 /adbanner/*
+/adbanner2.
 /adbanner_
 /adbanners/*
 /adbar.
@@ -21505,6 +21505,7 @@ _popunder+$popup
 ##a[href^="http://secure.hostgator.com/~affiliat/"]
 ##a[href^="http://secure.signup-page.com/"]
 ##a[href^="http://secure.signup-way.com/"]
+##a[href^="http://t.wowtrk.com/"]
 ##a[href^="http://tour.affbuzzads.com/"]
 ##a[href^="http://tracking.crazylead.com/"]
 ##a[href^="http://ul.to/ref/"]
@@ -30805,6 +30806,7 @@ http://utm.
 ||ebayobjects.com/*;dc_pixel_url=$image
 ||ec2-prod-tracker.babelgum.com^
 ||ectnews.com/shared/missing.gif?
+||edgecastcdn.net^*/ehow_am.js$domain=ehow.com
 ||edgecastcdn.net^*/pixel_1.png?
 ||edmunds.com^*/dart1x1.gif
 ||edmunds.com^*/edw1x1.gif
@@ -30814,7 +30816,6 @@ http://utm.
 ||edw.edmunds.com^
 ||edweek.org/js/sc.js
 ||egg.com/rum/data.gif?
-||ehow.com/px.gif
 ||ehow.com/services/jslogging/log/?
 ||elance.com^*/emc.php?
 ||elsevier.com/pageReport?
