@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: VBWTphwgpCNozYr9+kHlVQ
+!  Checksum: 8YmU2vbZe/kVsTer9eakzg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 31 Dec 2013 21:48:06 +0800
+!  Last Modified:  Thu, 02 Jan 2014 20:48:38 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -645,12 +645,11 @@ fuliba.net##.textwidget
 fuliba.net###sidebar TABLE[width="265"][align="center"]
 
 !---游民星空
-||gamersky.com/frame/
+||gamersky.com^$subdocument
 ||gamersky.com/img/
-||gamersky.com/piaofu/
-||gamersky.com/pt/
-||gamersky.com/pt2/
+||gamersky.com/piaofu*/
 ||imgf.gamersky.com^$image
+gamersky.com##.gpzl
 gamersky.com##div[style="position:absolute;z-index:1"]
 gamersky.com###hitix
 
@@ -2495,6 +2494,7 @@ zxtjd.com###it_an
 ||198game.$third-party
 ||1gou.com^$third-party
 ||1lo0.net^$third-party
+||1x3x.com^$third-party
 ||2a.com^$third-party
 ||21union.com^$third-party
 ||2144.cn^$third-party
@@ -2703,6 +2703,7 @@ zxtjd.com###it_an
 ||game3737.com^$third-party
 ||banner.gametower.com.tw^$third-party
 ||gglmcp.com^$third-party
+||ggmm777.com^$third-party
 ||ggmmwan.com^$popup
 ||gocsgo.com^$third-party
 ||gohappy.com.tw^$third-party
@@ -2754,6 +2755,7 @@ zxtjd.com###it_an
 ||keydot.net^$third-party
 ||keyrun.cn^$third-party
 ||keytui.com^$third-party
+||knet.cn^$third-party
 ||kfwan.com^$third-party
 ||kk7kk.com^$third-party
 ||kol4399.com^$third-party
@@ -2898,7 +2900,7 @@ zxtjd.com###it_an
 ||womenwan.com^$third-party
 ||woniu666.com^$third-party
 ||wqzyt.net^$third-party
-||wumii.cn^$third-party
+||wumii.cn^$third-party,domain=~wumii.com
 ||wy31.com^$third-party
 ||wyunion.com^$third-party
 ||xcy8.com^
@@ -4788,6 +4790,7 @@ zjol.com.cn##span.lqgg
 /ads/rect_
 /ads/rectangle_
 /ads/request.
+/ads/reskins/*
 /ads/right.
 /ads/right/*
 /ads/ringtone_
@@ -6426,6 +6429,7 @@ zjol.com.cn##span.lqgg
 /gujAd.
 /hads-
 /Handlers/Ads.
+/hcm_ads/*
 /header-ad.
 /header_ad_
 /header_ads_
@@ -11237,6 +11241,7 @@ _popunder+$popup
 ###adsider
 ###adsiframe
 ###adsimage
+###adskin
 ###adskinleft
 ###adskinlink
 ###adskinright
@@ -17424,6 +17429,7 @@ _popunder+$popup
 ##.adv300-250
 ##.adv300-250-2
 ##.adv300-70
+##.adv300left
 ##.adv300x250
 ##.adv300x70
 ##.adv336
@@ -18782,6 +18788,7 @@ _popunder+$popup
 ##.footer-300-ad
 ##.footer-ad
 ##.footer-ad-section
+##.footer-ad-squares
 ##.footer-ads
 ##.footer-adsbar
 ##.footer-advert
@@ -20026,6 +20033,7 @@ _popunder+$popup
 ##.player_page_ad_box
 ##.plistaList > .itemLinkPET
 ##.plista_inimg_box
+##.plista_widget_belowArticleRelaunch_item[data-type="pet"]
 ##.pm-ad
 ##.pm-banner-ad
 ##.pmad-in2
@@ -23485,6 +23493,7 @@ _popunder+$popup
 ||purpleflag.net^$third-party
 ||q1media.com^$third-party
 ||q1mediahydraplatform.com^$third-party
+||q1xyxm89.com^$third-party
 ||qdmil.com^$third-party
 ||qksrv.net^$third-party
 ||qksz.net^$third-party
@@ -24555,6 +24564,7 @@ _popunder+$popup
 ||casti.tv/adds/
 ||catholicweb.com^*/banners/
 ||cbpirate.com/getimg.php?
+||cccam.co/banner_big.gif
 ||cdn.assets.gorillanation.com^$third-party
 ||cdn.cdncomputer.com/js/main.js
 ||cdn.nmcdn.us/js/connect.js
@@ -24803,6 +24813,7 @@ _popunder+$popup
 ||fantaz.com^*/banners/$third-party
 ||fapturbo.com/testoid/
 ||farmholidays.is/iframeallfarmsearch.aspx?$third-party
+||fastcccam.com/images/fcbanner2.gif
 ||fatads.toldya.com^$third-party
 ||fatburningfurnace.com^*/fbf-banner-
 ||fcgadgets.blogspot.com^$third-party
@@ -25013,7 +25024,6 @@ _popunder+$popup
 ||lijit.com/adif_px.php
 ||lijit.com/delivery/
 ||link.link.ru^$third-party
-||linkbucks.com/tmpl/mint/img/$third-party
 ||linkedin.com/csp/dtag?$subdocument,third-party
 ||lionheartdms.com^*/walmart_300.jpg
 ||literatureandlatte.com/gfx/buynowaffiliate.jpg
@@ -25100,6 +25110,7 @@ _popunder+$popup
 ||mobyler.com/img/banner/
 ||mol.im/i/pix/ebay/
 ||moneycontrol.co.in^*PopUnder.js
+||moneycontrol.com/share-market-game/$third-party
 ||moosify.com/widgets/explorer/?partner=
 ||mosso.com^*/banners/
 ||mozo-widgets.f2.com.au^
@@ -28776,6 +28787,7 @@ http://utm.
 ||segment-analytics.com^$third-party
 ||segment.io^$third-party
 ||selaris.com^$third-party
+||sellpoints.com^$third-party
 ||semasio.net^$third-party
 ||sendtraffic.com^$third-party
 ||seomonitor.ro^$third-party
@@ -29092,6 +29104,7 @@ http://utm.
 ||wundercounter.com^$third-party
 ||wunderloop.net^$third-party
 ||wwwstats.info^$third-party
+||wzrk.co^$third-party
 ||x-stat.de^$third-party
 ||xg4ken.com^$third-party
 ||xiti.com^$third-party
@@ -29667,6 +29680,7 @@ http://utm.
 ||imp.constantcontact.com^$third-party
 ||impi.tv/trackvideo.aspx?
 ||inboxtag.com/tag.swf
+||ind.sh/view.php?$third-party
 ||infogr.am/logger.php?
 ||infosniper.net/locate-ip-on-map.php
 ||infusionsoft.com^*/getTrackingCode?
@@ -32151,6 +32165,7 @@ http://utm.
 ||ypcdn.com/webyp/javascripts/client_side_analytics_
 ||yuku.com/stats?
 ||yupptv.com/yupptvreports/stats.php^
+||yyv.co/track/
 ||zap.dw-world.de^$image
 ||zap2it.com^*/editorial-partner/
 ||zappos.com/onload.cgi?
@@ -32182,6 +32197,7 @@ http://utm.
 ||images-amazon.com/images/*/browser-scripts/wcs-help-omniture/wcs-help-omniture-$script
 ||img-bahn.de/v/*/js/s_code.js$domain=bahn.de
 ||kohls.com/media/omniture/s_code.js
+||mnginteractive.com/live/js/omniture/SiteCatalystCode_H_22_1_NC.js
 ||nwsource.com/shared/js/s_code.js?$domain=seattletimes.com
 ||nyteknik.se/ver02/javascript/2012_s_code_global.js
 ||redbox.com^*/scripts/s_code.js

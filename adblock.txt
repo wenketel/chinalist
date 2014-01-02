@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: zXbNc5+67VclKCmMD5Czqg
+!  Checksum: 6cswPn43msLL0LHFtfG4Zg
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 31 Dec 2013 21:48:00 +0800
+!  Last Modified:  Thu, 02 Jan 2014 20:48:32 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -644,12 +644,11 @@ fuliba.net##.textwidget
 fuliba.net###sidebar TABLE[width="265"][align="center"]
 
 !---游民星空
-||gamersky.com/frame/
+||gamersky.com^$subdocument
 ||gamersky.com/img/
-||gamersky.com/piaofu/
-||gamersky.com/pt/
-||gamersky.com/pt2/
+||gamersky.com/piaofu*/
 ||imgf.gamersky.com^$image
+gamersky.com##.gpzl
 gamersky.com##div[style="position:absolute;z-index:1"]
 gamersky.com###hitix
 
@@ -2494,6 +2493,7 @@ zxtjd.com###it_an
 ||198game.$third-party
 ||1gou.com^$third-party
 ||1lo0.net^$third-party
+||1x3x.com^$third-party
 ||2a.com^$third-party
 ||21union.com^$third-party
 ||2144.cn^$third-party
@@ -2702,6 +2702,7 @@ zxtjd.com###it_an
 ||game3737.com^$third-party
 ||banner.gametower.com.tw^$third-party
 ||gglmcp.com^$third-party
+||ggmm777.com^$third-party
 ||ggmmwan.com^$popup
 ||gocsgo.com^$third-party
 ||gohappy.com.tw^$third-party
@@ -2753,6 +2754,7 @@ zxtjd.com###it_an
 ||keydot.net^$third-party
 ||keyrun.cn^$third-party
 ||keytui.com^$third-party
+||knet.cn^$third-party
 ||kfwan.com^$third-party
 ||kk7kk.com^$third-party
 ||kol4399.com^$third-party
@@ -2897,7 +2899,7 @@ zxtjd.com###it_an
 ||womenwan.com^$third-party
 ||woniu666.com^$third-party
 ||wqzyt.net^$third-party
-||wumii.cn^$third-party
+||wumii.cn^$third-party,domain=~wumii.com
 ||wy31.com^$third-party
 ||wyunion.com^$third-party
 ||xcy8.com^
