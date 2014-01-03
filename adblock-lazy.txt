@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: FmzmOAyOPMVfoCezrEASTg
+!  Checksum: V4b6dqZpSmgEPH1qzVw+qw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 02 Jan 2014 21:16:38 +0800
+!  Last Modified:  Fri, 03 Jan 2014 09:24:38 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -789,13 +789,11 @@ ipc.me##.d300
 ipc.me##.post-top-gg
 
 !---异次元软件世界
-iplaysoft.com###sidebar > :first-child > .widget:nth-of-type(2)
-iplaysoft.com##.widget:first-of-type
-iplaysoft.com###sidebar_scroll_bdad
-iplaysoft.com###section_event
 iplaysoft.com##.post > CENTER
-iplaysoft.com##.d336.float-left
-iplaysoft.com##.crumb_ad
+iplaysoft.com###section_event
+iplaysoft.com###sidebar_scroll_bdad
+iplaysoft.com###sidebar > UL > .widget:nth-child(3)
+iplaysoft.com###sidebar > UL > .widget:first-child
 
 !---IT168
 ||168.it168.com^$script
@@ -2860,6 +2858,7 @@ zxtjd.com###it_an
 ||ugooo.cc^$third-party
 ||ugoooo.com^$third-party
 ||ujoin.net^$third-party
+||ujian.cc^$third-party
 ||ulink.cc^$third-party
 ||union.$third-party,domain=~click.union.jd.com|~click.union.360buy.com
 ||union001.$third-party
@@ -2897,6 +2896,7 @@ zxtjd.com###it_an
 ||womenwan.com^$third-party
 ||woniu666.com^$third-party
 ||wqzyt.net^$third-party
+||wumii.cn^$third-party,domain=~wumii.com
 ||wy31.com^$third-party
 ||wyunion.com^$third-party
 ||xcy8.com^
@@ -15804,6 +15804,7 @@ _popunder+$popup
 ##.ad300Wrapper
 ##.ad300_2
 ##.ad300_250
+##.ad300_bg
 ##.ad300_ver2
 ##.ad300b
 ##.ad300banner
@@ -25300,6 +25301,7 @@ _popunder+$popup
 ||servedby.keygamesnetwork.com^
 ||servedby.yell.com^$third-party
 ||server.freegamesall.com^$third-party
+||server4.pro/images/banner.jpg
 ||service.smscoin.com/js/sendpic.js
 ||serving.portal.dmflex.com^$domain=thisdaylive.com
 ||sfimg.com/images/banners/
@@ -30235,6 +30237,7 @@ http://utm.
 ||videoplaza.tv/proxy/tracker^$object-subrequest
 ||videopress.com/plugins/stats/
 ||viglink.com^$third-party
+||vindicosuite.com/track/
 ||vindicosuite.com/tracking/
 ||vindicosuite.com/xumo/swf/$third-party
 ||virgingames.com/tracker/
@@ -32210,6 +32213,8 @@ http://utm.
 ||analy.qq.com^
 ||analytics.163.com^
 ||analytics.nextmedia.com^
+||baidu.com/pv.gif?
+||baidu.com/tb/pms/img/st.gif?
 ||beacon.sina.com.cn^
 ||btrace.qq.com^
 ||cdn.baidupcs.com/monitor.jpg?
@@ -32330,8 +32335,6 @@ youtube.com##a[href^="http://www.youtube.com/cthru?"]
 ||eastmoney.com/count
 ||greenxf.com/count$script
 ||iplaysoft.com/plus/api/counter.php
-||ujian.cc^$third-party
-||wumii.cn^$third-party,domain=~wumii.com
 |http://click.$image
 |http://pv.
 |http://pvstat.
